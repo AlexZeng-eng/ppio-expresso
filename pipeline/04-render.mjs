@@ -42,30 +42,65 @@ const STOPWORDS = new Set([
   '加强','提升','支持','促进','加快','完善','推动','开展','落实','深化',
   '一','二','三','四','五','六','七','八','九','十','万','亿','年','月','日',
   '上','下','内','外','前','后','新','大','小','多','少','高','低',
+  '统筹','动态','重大','战略','意义','融合','潜力','助力','阐述','解读',
+  '用好','各类','政府','资金','工具','政策','金融','新型','内容','进一步',
+  '基础设施','实体经济','数字经济','网络投资','投资潜力',
   'AI', 'ai', '2026', '2025',
 ]);
 
 function extractKeywords(items) {
   const freq = {};
 
+  const EN_WHITELIST = new Set([
+    'IPO', 'GPU', 'LLM', 'API', 'VIE', 'OPC', 'Token', 'Nvidia',
+    'OpenAI', 'Anthropic', 'DeepSeek', 'ChatGPT', 'Claude', 'Gemini',
+  ]);
+
+  // Key noun phrases to extract — match these first before generic splitting
+  const KEY_PHRASES = [
+    '六张网', '算力网', '一体化算力网', '算力基础设施', '算力套餐',
+    '无问芯穹', '超聚变', '边缘计算', '边缘云', '分布式算力',
+    '大模型', '智能体', '人工智能', '生成式AI', '算力调度',
+    '国常会', '发改委', '工信部', '网信办', '科技部',
+    '出口管制', '芯片禁令', '英伟达', '安全审查',
+    '香港IPO', '创业板', '境外上市', '产业基金',
+    '电信运营商', '算力普惠', '数字经济', '新质生产力',
+    '丁薛祥', '人工智能法', 'H200', 'H100',
+  ];
+
   for (const item of items) {
-    const text = (item.title || '') + ' ' + (item.summary_cn || '') + ' ' + (item.body_snippet || '');
+    const text = (item.title || '') + ' ' + (item.summary_cn || '');
 
-    // Extract 2-6 char Chinese words and meaningful English terms
-    const cnWords = text.match(/[一-龥]{2,6}/g) || [];
-    const enWords = text.match(/[A-Z][a-zA-Z]{2,}|[A-Z]{2,}/g) || [];
+    // First pass: extract key phrases
+    for (const phrase of KEY_PHRASES) {
+      if (text.includes(phrase)) {
+        freq[phrase] = (freq[phrase] || 0) + 1;
+      }
+    }
 
-    for (const w of [...cnWords, ...enWords]) {
+    // Second pass: split by punctuation and spaces, keep 2-6 char segments
+    const segments = text.split(/[\s，。！？、：；""''【】《》\(\)（）\-—·\/\\]+/);
+    for (const seg of segments) {
+      const w = seg.trim();
+      if (w.length < 2 || w.length > 6) continue;
       if (STOPWORDS.has(w)) continue;
       if (/^\d+$/.test(w)) continue;
+      if (!/[一-鿿]/.test(w)) continue; // must contain Chinese
+      // Skip if already counted as a key phrase
+      if (KEY_PHRASES.includes(w)) continue;
       freq[w] = (freq[w] || 0) + 1;
+    }
+
+    // English whitelist
+    for (const w of EN_WHITELIST) {
+      if (text.includes(w)) freq[w] = (freq[w] || 0) + 1;
     }
   }
 
-  // Sort by frequency, take top 40
   return Object.entries(freq)
+    .filter(([, count]) => count >= 2)
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 40)
+    .slice(0, 30)
     .map(([word, count]) => ({ word, count }));
 }
 

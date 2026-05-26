@@ -183,6 +183,8 @@ const PPIO_KEYWORDS = {
     /算力/, /边缘计算/, /边缘云/, /分布式推理/, /分布式算力/, /智能体平台/,
     /推理优化/, /模型调度/, /GPU.*算力/, /算力.*调度/, /算力.*网络/,
     /PPIO/, /无问芯穹/, /Sandbox/,
+    /硅基流动/, /七牛云/, /七牛.*AI/, /优刻得/, /UCloud.*AI/,
+    /Baseten/, /Fireworks.*AI/, /Lightning.*AI/, /Parasail/,
     // Key policy — broader matching
     /国家算力网/, /算力基础设施/, /算力.*超前部署/,
     /人工智能法/, /AI.*立法/, /AI.*安全审查/,
@@ -239,6 +241,7 @@ const PPIO_KEYWORDS = {
     /ai.*infrastructure.*china/i, /china.*ai.*regulation/i, /ai.*compute.*china/i,
     /edge.*computing.*ai/i, /distributed.*inference/i, /ai.*cloud.*china/i,
     /h200.*china/i, /h100.*china/i, /export.*control.*ai/i,
+    /baseten/i, /fireworks.*ai/i, /lightning.*ai.*inference/i, /parasail.*ai/i,
   ],
   en_high: [
     /ai.*regulation/i, /ai.*legislation/i, /ai.*safety.*act/i, /eu.*ai.*act/i,
@@ -292,6 +295,12 @@ function scorePPIORelevance(item) {
 
   // Only give source/recency bonuses if item matched at least one PPIO keyword
   if (matched) {
+    // Hard reject non-English/non-Chinese sources (e.g. German, French)
+    const title = item.title || '';
+    if (/[a-z]{4,}/.test(title) && !/[一-鿿]/.test(title)) {
+      const hasGermanFrench = /\b(von|der|die|das|und|für|mit|des|dem|ein|eine|ist|sind|wird|werden|les|des|une|pour|dans|avec|sur)\b/i.test(title);
+      if (hasGermanFrench) return -50;
+    }
     if (/新华社|中国政府网|工信部|发改委|证监会|网信办|广电总局/.test(item.source || '')) score += 30;
     if (/Reuters|南华早报|SCMP/.test(item.source || '')) score += 15;
     if (/财新|新华报业|澎湃|thepaper|央视|人民日报/.test(item.source || '')) score += 20;
@@ -366,8 +375,36 @@ function dedupByEntity(items) {
 
 function entitySignature(title) {
   const t = title.replace(/\s+/g, '');
-  // Ordered by specificity: more specific entities first
-  const entities = ['无问芯穹', 'PPIO', 'Sandbox',
+
+  // Topic-level dedup: same policy/event → same bucket regardless of source
+  const topics = [
+    ['六张网', '六张网'],
+    ['算力网', '算力网建设'],
+    ['超聚变|算力.*IPO|算力.*创业板|算力.*上市|算力.*独角兽.*IPO', '超聚变IPO'],
+    ['Token.*套餐|算力套餐|运营商.*Token|Token.*运营商|卖Token', '运营商Token套餐'],
+    ['无问芯穹', '无问芯穹'],
+    ['硅基流动', '硅基流动'],
+    ['七牛云|七牛.*AI', '七牛云'],
+    ['优刻得|UCloud.*AI', '优刻得'],
+    ['Baseten', 'Baseten'],
+    ['Fireworks.*AI', 'Fireworks AI'],
+    ['Lightning.*AI', 'Lightning AI'],
+    ['Parasail', 'Parasail'],
+    ['丁薛祥.*算力|算力.*丁薛祥|政治局.*算力|中央政治局.*算力', '高层调研算力'],
+    ['人工智能法|AI.*立法|立法.*AI', 'AI立法'],
+    ['H200.*中国|中国.*H200|英伟达.*中国.*芯片', '英伟达H200中国'],
+    ['出口管制.*芯片|芯片.*出口管制', '芯片出口管制'],
+    ['国家人工智能产业投资基金|AI.*产业.*基金', 'AI产业基金'],
+  ];
+
+  for (const [pattern, bucket] of topics) {
+    if (new RegExp(pattern).test(t)) return bucket;
+  }
+
+  // Entity-level dedup
+  const entities = ['无问芯穹', '硅基流动', '七牛云', '优刻得', 'UCloud',
+    'Baseten', 'Fireworks', 'Lightning AI', 'Parasail',
+    'PPIO', 'Sandbox',
     'DeepSeek', '深度求索', '月之暗面', 'Minimax', '零一万物', '百川智能',
     'OpenAI', 'Google', 'Microsoft', 'Meta',
     '商汤', '科大讯飞', '智谱', '百度', '阿里', '腾讯', '字节跳动', '华为',
@@ -414,10 +451,18 @@ function buildSearchQueries(config) {
   queries.push({ q: '证监会 境外上市 备案 VIE', category: '监管' });
   queries.push({ q: '人工智能法 草案 立法进展', category: '监管' });
 
-  // 竞品
-  queries.push({ q: '无问芯穹 融资 产品', category: '竞品' });
+  // 竞品 — 国内
+  queries.push({ q: '无问芯穹 融资 产品 动态', category: '竞品' });
+  queries.push({ q: '硅基流动 推理 融资 产品', category: '竞品' });
+  queries.push({ q: '七牛云 AI 算力 产品', category: '竞品' });
+  queries.push({ q: '优刻得 UCloud AI 算力 融资', category: '竞品' });
   queries.push({ q: 'AI基础设施 AI Infra 融资 2026', category: '竞品' });
-  queries.push({ q: '硅基流动 智谱 火山引擎 算力 融资', category: '竞品' });
+
+  // 竞品 — 海外
+  queries.push({ q: 'Baseten AI inference startup funding', category: '竞品' });
+  queries.push({ q: 'Fireworks AI inference funding product', category: '竞品' });
+  queries.push({ q: 'Lightning AI startup funding 2026', category: '竞品' });
+  queries.push({ q: 'Parasail AI inference cloud funding', category: '竞品' });
 
   // 资本
   queries.push({ q: 'AI 人工智能 融资 IPO 估值', category: '资本' });
@@ -448,7 +493,7 @@ function guessCategory(item) {
   const t = item.title + ' ' + (item.body_snippet || '');
   if (/国务院|发改委|工信部|网信办|部委|政策|行动计划|指导意见|算力网/.test(t)) return '政策';
   if (/融资|IPO|估值|亿元|万美元|红杉|经纬|IDG|高瓴|腾讯投资/.test(t)) return '资本';
-  if (/无问芯穹|竞品|竞争/.test(t)) return '竞品';
+  if (/无问芯穹|硅基流动|七牛云|优刻得|UCloud|Baseten|Fireworks|Lightning.*AI|Parasail|竞品|竞争/.test(t)) return '竞品';
   if (/立法|安全审查|备案|合规|监管|CSRC|牌照/.test(t)) return '监管';
   if (/美国|EU|欧盟|参议院|出口管制|chip|export control/.test(t)) return '海外';
   if (/模型|训练|推理|Agent|架构|参数|token|LLM|GPU|算力/.test(t)) return '技术';
@@ -546,7 +591,7 @@ async function main() {
   allItems = allItems.filter(item => isWithinWeek(item.published));
   console.log(`  Within 7 days: ${allItems.length} items`);
 
-  // Score PPIO relevance
+  // Score PPIO relevance first
   allItems.forEach(item => { item._score = scorePPIORelevance(item); });
 
   // Remove negative-scored items
@@ -554,13 +599,16 @@ async function main() {
   allItems = allItems.filter(i => i._score >= 0);
   if (rejected.length) console.log(`  Rejected (irrelevant): ${rejected.length} items`);
 
-  // Deduplicate: entity first (group same story from different sources), then URL, then title
+  // Sort by score before dedup so we keep the best item per topic
+  allItems.sort((a, b) => b._score - a._score || b.published.localeCompare(a.published));
+
+  // Deduplicate: topic/entity first (keep highest-scored), then URL, then title
   const entityResult = dedupByEntity(allItems);
   allItems = entityResult.items;
   const entityDups = entityResult.dupCount;
   allItems = dedupByURL(allItems);
   allItems = dedupByTitle(allItems);
-  console.log(`  After dedup: ${allItems.length} items (${entityDups} entity-group duplicates merged)`);
+  console.log(`  After dedup: ${allItems.length} items (${entityDups} topic/entity duplicates merged)`);
 
   // Sort by score (desc) then date (desc)
   allItems.sort((a, b) => b._score - a._score || b.published.localeCompare(a.published));
@@ -583,8 +631,12 @@ async function main() {
   }
   if (allItems.length > MAX_RAW) {
     console.log(`  Trimming to top ${MAX_RAW} by PPIO relevance`);
-    // Reserve up to 2 slots for high-scoring English overseas items (score >= 35 only)
-    const enItems = allItems.filter(i => /[a-z]{4,}/.test(i.title) && !/[一-鿿]/.test(i.title) && i._score >= 35);
+    // Reserve up to 2 slots for English items that hit en_critical keywords
+    const enItems = allItems.filter(i => {
+      if (!/[a-z]{4,}/.test(i.title) || /[一-鿿]/.test(i.title)) return false;
+      const text = (i.title + ' ' + (i.body_snippet||'')).toLowerCase();
+      return PPIO_KEYWORDS.en_critical.some(re => re.test(text));
+    });
     const cnItems = allItems.filter(i => /[一-鿿]/.test(i.title));
     const enSlots = Math.min(2, enItems.length);
     const cnSlots = MAX_RAW - enSlots;
