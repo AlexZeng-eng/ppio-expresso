@@ -163,11 +163,13 @@ function renderPPIOSignal(ppio) {
 
 function renderFeedItem(item, idx) {
   const rank = String(idx + 1);
+  const isEnglish = /[a-z]{4,}/.test(item.title) && !/[一-鿿]/.test(item.title);
+  const enBadge = isEnglish ? '<span class="label-pill" style="background:#e8f0fe;color:#1a56db;border-color:#c3d4f7">EN</span> ' : '';
   return `<li class="feed-row" data-deep="${item.is_deep_read ? 'true' : 'false'}" data-tags="${esc(item.category || '')}">
         <span class="row-rank">${rank}.</span>
         <div class="row-body">
           <h2 class="row-title">
-            <a href="${esc(item.url || '#')}" target="_blank" rel="noopener">${esc(item.title)}</a>
+            ${enBadge}<a href="${esc(item.url || '#')}" target="_blank" rel="noopener">${esc(item.title)}</a>
             <span class="row-domain">(${esc(item.source)})</span>
           </h2>
           <div class="row-meta">

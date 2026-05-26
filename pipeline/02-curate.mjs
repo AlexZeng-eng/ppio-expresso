@@ -119,7 +119,9 @@ ${signalList}
 }
 
 function buildItemPrompt(item) {
-  return `请分析以下新闻：
+  const isEnglish = /[a-z]{4,}/.test(item.title) && !/[一-鿿]/.test(item.title);
+  const langNote = isEnglish ? '\n注意：这是英文内容，summary_cn 必须用中文撰写，不要直译标题，要提炼核心信息。' : '';
+  return `请分析以下新闻：${langNote}
 ---
 标题: ${item.title}
 来源: ${item.source}

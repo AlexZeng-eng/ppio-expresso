@@ -232,25 +232,62 @@ const PPIO_KEYWORDS = {
     /房地产/, /养猪/, /猪肉/, /农产品/, /钢铁/, /煤炭/, /水泥/,
     /服装/, /化妆品/, /医美/, /牙科/, /眼科/,
     /篮球/, /足球/, /电竞/, /游戏.*收入/,
+  ],
+  // English keyword tiers for overseas RSS sources
+  en_critical: [
+    /nvidia.*china/i, /china.*nvidia/i, /chip.*export.*china/i, /china.*chip.*ban/i,
+    /ai.*infrastructure.*china/i, /china.*ai.*regulation/i, /ai.*compute.*china/i,
+    /edge.*computing.*ai/i, /distributed.*inference/i, /ai.*cloud.*china/i,
+    /h200.*china/i, /h100.*china/i, /export.*control.*ai/i,
+  ],
+  en_high: [
+    /ai.*regulation/i, /ai.*legislation/i, /ai.*safety.*act/i, /eu.*ai.*act/i,
+    /openai.*funding/i, /anthropic.*funding/i, /ai.*startup.*funding/i,
+    /ai.*ipo/i, /ai.*valuation/i, /llm.*infrastructure/i,
+    /nvidia.*regulation/i, /semiconductor.*china/i, /chip.*ban/i,
+    /ai.*data.*center/i, /cloud.*computing.*ai/i, /ai.*inference/i,
+    /trump.*ai/i, /us.*ai.*policy/i, /china.*ai.*competition/i,
+  ],
+  en_medium: [
+    /artificial.*intelligence.*funding/i, /machine.*learning.*startup/i,
+    /ai.*agent/i, /large.*language.*model/i, /foundation.*model/i,
+    /venture.*capital.*ai/i, /ai.*investment/i,
+    /china.*tech/i, /chinese.*ai/i, /beijing.*ai/i,
   ]
 };
 
 function scorePPIORelevance(item) {
   const text = (item.title + ' ' + (item.body_snippet || '')).toLowerCase();
-  let score = 15; // base score (lowered — needs keyword match to rise)
+  const isEnglish = /[a-z]{4,}/.test(item.title) && !/[一-鿿]/.test(item.title);
+  let score = 15;
   let matched = false;
 
-  for (const re of PPIO_KEYWORDS.critical) {
-    if (re.test(text)) { score += 40; matched = true; break; }
+  if (isEnglish) {
+    // English scoring channel
+    for (const re of PPIO_KEYWORDS.en_critical) {
+      if (re.test(text)) { score += 40; matched = true; break; }
+    }
+    for (const re of PPIO_KEYWORDS.en_high) {
+      if (re.test(text)) { score += 20; matched = true; }
+    }
+    for (const re of PPIO_KEYWORDS.en_medium) {
+      if (re.test(text)) { score += 8; matched = true; }
+    }
+  } else {
+    // Chinese scoring channel
+    for (const re of PPIO_KEYWORDS.critical) {
+      if (re.test(text)) { score += 40; matched = true; break; }
+    }
+    for (const re of PPIO_KEYWORDS.high) {
+      if (re.test(text)) { score += 20; matched = true; }
+    }
+    for (const re of PPIO_KEYWORDS.medium) {
+      if (re.test(text)) { score += 8; matched = true; }
+    }
   }
-  for (const re of PPIO_KEYWORDS.high) {
-    if (re.test(text)) { score += 20; matched = true; }
-  }
-  for (const re of PPIO_KEYWORDS.medium) {
-    if (re.test(text)) { score += 8; matched = true; }
-  }
+
   for (const re of PPIO_KEYWORDS.negative) {
-    if (re.test(text)) { score = -50; break; } // hard reject
+    if (re.test(text)) { score = -50; break; }
   }
 
   // Only give source/recency bonuses if item matched at least one PPIO keyword
@@ -258,6 +295,7 @@ function scorePPIORelevance(item) {
     if (/新华社|中国政府网|工信部|发改委|证监会|网信办|广电总局/.test(item.source || '')) score += 30;
     if (/Reuters|南华早报|SCMP/.test(item.source || '')) score += 15;
     if (/财新|新华报业|澎湃|thepaper|央视|人民日报/.test(item.source || '')) score += 20;
+    if (/aibase|量子位|机器之心|虎嗅.*AI/.test(item.source || '')) score += 15;
     if (/VentureBeat|MIT Tech Review|TechCrunch|The Verge/.test(item.source || '')) score += 12;
     if (/36氪/.test(item.source || '')) score += 5;
 
@@ -388,6 +426,7 @@ function buildSearchQueries(config) {
 
   // 技术
   queries.push({ q: '阿里云 百度 华为 AI 发布 峰会 2026', category: '技术' });
+  queries.push({ q: 'site:news.aibase.com AI 算力 大模型 2026', category: '技术' });
   queries.push({ q: '中国电信 中国移动 算力 Token AI', category: '技术' });
   queries.push({ q: '算力调度 推理优化 Agent 技术突破', category: '技术' });
   queries.push({ q: 'AI 大模型 边缘计算 分布式推理', category: '技术' });
@@ -544,7 +583,14 @@ async function main() {
   }
   if (allItems.length > MAX_RAW) {
     console.log(`  Trimming to top ${MAX_RAW} by PPIO relevance`);
-    allItems = allItems.slice(0, MAX_RAW);
+    // Reserve up to 2 slots for high-scoring English overseas items (score >= 35 only)
+    const enItems = allItems.filter(i => /[a-z]{4,}/.test(i.title) && !/[一-鿿]/.test(i.title) && i._score >= 35);
+    const cnItems = allItems.filter(i => /[一-鿿]/.test(i.title));
+    const enSlots = Math.min(2, enItems.length);
+    const cnSlots = MAX_RAW - enSlots;
+    allItems = [...cnItems.slice(0, cnSlots), ...enItems.slice(0, enSlots)];
+    allItems.sort((a, b) => b._score - a._score || b.published.localeCompare(a.published));
+    if (enSlots > 0) console.log(`  Reserved ${enSlots} slot(s) for English overseas items`);
   }
   allItems.sort((a, b) => b._score - a._score || b.published.localeCompare(a.published));
   console.log(`  Final: ${allItems.length} items`);
