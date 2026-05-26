@@ -145,9 +145,43 @@ async function fetchRSS(url, defaultSource) {
 }
 
 /**
- * Search Google News RSS for a query.
- * Returns up to 20 items per query.
+ * Scrape a Shanghai government page listing (ul/li article links).
+ * Parses title, url, date from the standard gov list format.
  */
+async function scrapeGovList(url, source) {
+  try {
+    const html = await fetchWithRetry(url);
+    const items = [];
+    // Match list items: <a href="...">title</a> ... date
+    const linkRe = /<a[^>]+href="([^"]+)"[^>]*>\s*(?:<[^>]+>)*\s*([^<]{4,}?)\s*(?:<\/[^>]+>)*\s*<\/a>/gi;
+    const dateRe = /(\d{4}-\d{2}-\d{2})/;
+    let m;
+    while ((m = linkRe.exec(html)) !== null) {
+      let href = m[1].trim();
+      const title = m[2].replace(/<[^>]+>/g, '').trim();
+      if (!title || title.length < 5) continue;
+      if (!/[一-鿿]/.test(title)) continue; // must have Chinese
+      // Resolve relative URLs
+      if (href.startsWith('/')) href = new URL(href, url).href;
+      else if (!href.startsWith('http')) continue;
+      // Extract date from surrounding context
+      const ctx = html.slice(Math.max(0, m.index - 50), m.index + m[0].length + 50);
+      const dateMatch = ctx.match(dateRe);
+      const published = dateMatch ? dateMatch[1] : todayStr();
+      items.push({ title, url: href, source, published, body_snippet: '' });
+    }
+    // Deduplicate by title
+    const seen = new Set();
+    const unique = items.filter(i => { if (seen.has(i.title)) return false; seen.add(i.title); return true; });
+    console.log(`    Gov ${url.slice(0, 50)}... → ${unique.length} items`);
+    return unique;
+  } catch (err) {
+    console.warn(`    ⚠ Gov scrape failed (${url.slice(0, 50)}...): ${err.message}`);
+    return [];
+  }
+}
+
+
 async function searchGoogleNews(query, category) {
   const encoded = encodeURIComponent(query);
   const url = `https://news.google.com/rss/search?q=${encoded}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans`;
@@ -190,6 +224,10 @@ const PPIO_KEYWORDS = {
     /人工智能法/, /AI.*立法/, /AI.*安全审查/,
     /智能体产业/, /AI智能体.*政策/, /AI智能体.*规范/, /AI智能体.*发展/,
     /三部门.*AI/, /三部门.*智能体/, /国办.*人工智能/, /国务院.*AI/,
+    // 上海市级政府
+    /上海市经信委/, /上海市数据局/, /上海市发改委/, /上海市委金融办/,
+    /浦东新区.*AI/, /浦东新区.*算力/, /浦东.*科经委/, /浦东.*数据局/,
+    /张江科学城.*AI/, /张江.*算力/, /张江.*人工智能/,
     // 高层调研/部署
     /丁薛祥/, /李强.*AI/, /李强.*算力/, /政治局.*人工智能/, /政治局.*算力/,
     /六张网/, /算力网.*建设/, /一体化算力网/,
@@ -224,6 +262,7 @@ const PPIO_KEYWORDS = {
     /云服务/, /云计算.*AI/,
     /AI.*社交/, /AI.*治理/, /虚拟伴侣/,
     /CSRC/, /VIE/, /备案.*境外上市/,
+    /港交所.*IPO/, /港股.*上市.*审核/, /境外上市.*新规/, /招股书.*审核/,
     /人工智能.*立法/, /人工智能.*治理/, /AI.*监管/,
     /算力.*网络/, /算力.*投资/,
   ],
@@ -239,6 +278,10 @@ const PPIO_KEYWORDS = {
     /涨停相迎/, /价值重估/, /机构前瞻/, /投资机会/, /买入评级/,
     /绿电ETF/, /基本面关联/, /股价/, /市值/, /PE估值/, /市盈率/,
     /炒股/, /散户/, /主力资金/, /龙虎榜/, /板块轮动/,
+    // 无关行业
+    /MLCC/, /被动元件/, /新材料/, /汽车.*销量/, /手机.*销量/,
+    /小米.*手机/, /华为.*手机/, /苹果.*手机/, /vivo/, /OPPO/,
+    /人车家/, /智能家居/, /扫地机/, /电视.*销量/,
   ],
   // English keyword tiers for overseas RSS sources
   en_critical: [
@@ -298,6 +341,16 @@ function scorePPIORelevance(item) {
     if (re.test(text)) { score = -50; break; }
   }
 
+  // Shanghai gov sources: boost if content is AI/computing related
+  const isShanghaigov = /上海市经信委|上海经信委|上海市数据局|上海市发改委|上海市委金融办|浦东新区|张江科学城/.test(item.source || '');
+  if (isShanghaigov && score > -50) {
+    const isAIRelated = /人工智能|算力|大模型|智能体|数字经济|数据要素|AI|科技|创新|产业/.test(text);
+    if (isAIRelated) {
+      matched = true;
+      score = Math.max(score, 35);
+    }
+  }
+
   // Only give source/recency bonuses if item matched at least one PPIO keyword
   if (matched) {
     // Hard reject non-English/non-Chinese sources (e.g. German, French)
@@ -308,6 +361,8 @@ function scorePPIORelevance(item) {
     }
     if (/新华社|中国政府网|工信部|发改委|证监会|网信办|广电总局|国家数据局/.test(item.source || '')) score += 35;
     if (/人民日报|央视|新华网|中国新闻网|科技日报|经济日报/.test(item.source || '')) score += 25;
+    if (/上海市经信委|上海经信委|上海市数据局|上海市发改委|上海市委金融办/.test(item.source || '')) score += 35;
+    if (/浦东新区|张江科学城|张江/.test(item.source || '')) score += 30;
     if (/财新|澎湃|thepaper|南华早报|SCMP|Reuters/.test(item.source || '')) score += 20;
     if (/虎嗅|36氪|量子位|机器之心|aibase/.test(item.source || '')) score += 10;
     if (/VentureBeat|MIT Tech Review|TechCrunch|The Verge/.test(item.source || '')) score += 12;
@@ -402,6 +457,8 @@ function entitySignature(title) {
     ['H200.*中国|中国.*H200|英伟达.*中国.*芯片', '英伟达H200中国'],
     ['出口管制.*芯片|芯片.*出口管制', '芯片出口管制'],
     ['国家人工智能产业投资基金|AI.*产业.*基金', 'AI产业基金'],
+    ['VIE.*审核|VIE.*备案|境外上市.*备案|境外上市.*新规', 'VIE境外上市'],
+    ['港交所.*IPO|港股.*上市.*审核|香港.*IPO.*科技', '港股IPO监管'],
   ];
 
   for (const [pattern, bucket] of topics) {
@@ -453,10 +510,28 @@ function buildSearchQueries(config) {
   queries.push({ q: '国家人工智能产业投资基金 算力 布局', category: '政策' });
   queries.push({ q: '财政部 数字经济 专项资金 补贴', category: '政策' });
 
+  // 政策 — 上海市级政府
+  queries.push({ q: '上海市政府 人工智能 算力 政策 2026', category: '政策' });
+  queries.push({ q: '上海市经信委 AI 算力 大模型 部署', category: '政策' });
+  queries.push({ q: '上海市数据局 数据要素 算力 政策', category: '政策' });
+  queries.push({ q: '上海市发改委 算力 数字经济 规划', category: '政策' });
+  queries.push({ q: '上海市委金融办 科技金融 AI 算力', category: '政策' });
+  queries.push({ q: '浦东新区 人工智能 算力 政策 产业', category: '政策' });
+  queries.push({ q: '浦东新区科经委 AI 大模型 算力 支持', category: '政策' });
+  queries.push({ q: '浦东新区数据局 数据要素 算力 开放', category: '政策' });
+  queries.push({ q: '张江科学城 人工智能 算力 产业 2026', category: '政策' });
+
   // 监管
   queries.push({ q: 'AI 人工智能 立法 安全审查 备案', category: '监管' });
-  queries.push({ q: '证监会 境外上市 备案 VIE', category: '监管' });
   queries.push({ q: '人工智能法 草案 立法进展', category: '监管' });
+
+  // IPO / 港股上市 / VIE — 公司敏感议题
+  queries.push({ q: '港交所 科技公司 IPO 上市 审核 2026', category: '监管' });
+  queries.push({ q: 'VIE 架构 审核 备案 证监会 境外上市', category: '监管' });
+  queries.push({ q: '中国企业 香港 IPO 上市 监管 合规', category: '监管' });
+  queries.push({ q: '境外上市 备案 新规 证监会 进展', category: '监管' });
+  queries.push({ q: '科技公司 港股 上市 招股书 审核', category: '监管' });
+  queries.push({ q: 'IPO早知道 港股 科技 上市 2026', category: '监管' });
 
   // 竞品 — 国内
   queries.push({ q: '无问芯穹 融资 产品 动态', category: '竞品' });
@@ -578,6 +653,15 @@ async function main() {
 
   const rssResults = await Promise.all(rssFeeds.map(f => fetchRSS(f.url, f.source)));
   for (const items of rssResults) allItems.push(...items);
+
+  // ── Phase 1b: Shanghai government pages ────────────────────────────
+  console.log('\n  🏛️ Shanghai gov pages...');
+  const govPages = [
+    { url: 'https://sheitc.sh.gov.cn/zxgkxx/index.html', source: '上海市经信委' },
+    { url: 'https://sheitc.sh.gov.cn/zcfg/index.html', source: '上海市经信委-政策法规' },
+  ];
+  const govResults = await Promise.all(govPages.map(g => scrapeGovList(g.url, g.source)));
+  for (const items of govResults) allItems.push(...items);
 
   // ── Phase 2: Google News search ─────────────────────────────────────
   console.log('\n  🔍 Google News searches...');
