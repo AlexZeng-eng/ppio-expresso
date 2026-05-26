@@ -191,6 +191,8 @@ const PPIO_KEYWORDS = {
     // 高层调研/部署
     /丁薛祥/, /李强.*AI/, /李强.*算力/, /政治局.*人工智能/, /政治局.*算力/,
     /六张网/, /算力网.*建设/, /一体化算力网/,
+    // OPC / 个人AI创业
+    /OPC/, /一人公司.*AI/, /个人.*AI.*创业/, /AI.*个人创业/,
     // 大厂发布/IPO
     /超聚变.*IPO/, /超聚变.*上市/, /算力.*IPO/, /算力.*上市/,
     /阿里云.*峰会/, /百度.*AI.*大会/, /华为.*算力/, /腾讯.*算力/,
@@ -256,6 +258,7 @@ function scorePPIORelevance(item) {
     if (/新华社|中国政府网|工信部|发改委|证监会|网信办|广电总局/.test(item.source || '')) score += 30;
     if (/Reuters|南华早报|SCMP/.test(item.source || '')) score += 15;
     if (/财新|新华报业|澎湃|thepaper|央视|人民日报/.test(item.source || '')) score += 20;
+    if (/VentureBeat|MIT Tech Review|TechCrunch|The Verge/.test(item.source || '')) score += 12;
     if (/36氪/.test(item.source || '')) score += 5;
 
     if (item.published === todayStr()) score += 10;
@@ -343,32 +346,28 @@ function buildSearchQueries(config) {
   // Week-specific keywords
   const week = `${String(weekNumber()).padStart(2, '0')}`;
 
-  // 政策 — 高层调研/部署
+  // 政策
   queries.push({ q: '丁薛祥 算力网 调研 部署', category: '政策' });
   queries.push({ q: '政治局 人工智能 算力 部署 2026', category: '政策' });
   queries.push({ q: '六张网 算力网 基础设施 建设', category: '政策' });
-
-  // 政策 — 国务院/中央
   queries.push({ q: '国务院 算力 基础设施 AI 政策', category: '政策' });
   queries.push({ q: '国常会 人工智能 数字经济 部署', category: '政策' });
   queries.push({ q: '中央 新质生产力 算力 数据要素', category: '政策' });
 
-  // 政策 — 工信部
+  // 政策 — OPC / 个人AI创业
+  queries.push({ q: 'OPC 个人公司 人工智能 创业 政策', category: '政策' });
+  queries.push({ q: '一人公司 AI 创业 算力 补贴', category: '政策' });
+  queries.push({ q: '个人 AI 创业 政府 支持 补贴', category: '政策' });
+
   queries.push({ q: '工信部 人工智能 智能体 实施意见', category: '政策' });
   queries.push({ q: '工信部 算力 中小企业 数字化 补贴', category: '政策' });
   queries.push({ q: '工信部 AI 伦理 审查 治理', category: '政策' });
-
-  // 政策 — 发改委
   queries.push({ q: '国家发改委 算力网 东数西算 部署', category: '政策' });
   queries.push({ q: '发改委 数据中心 绿色算力 能耗', category: '政策' });
   queries.push({ q: '发改委 数字基础设施 投资 规划', category: '政策' });
-
-  // 政策 — 科技部/网信办
   queries.push({ q: '科技部 人工智能 大模型 研发 支持', category: '政策' });
   queries.push({ q: '网信办 生成式AI 算法备案 内容标注', category: '政策' });
   queries.push({ q: '网信办 数据安全 跨境 合规', category: '政策' });
-
-  // 政策 — 财政/产业基金
   queries.push({ q: '国家人工智能产业投资基金 算力 布局', category: '政策' });
   queries.push({ q: '财政部 数字经济 专项资金 补贴', category: '政策' });
 
@@ -387,9 +386,11 @@ function buildSearchQueries(config) {
   queries.push({ q: '超聚变 IPO 算力 上市', category: '资本' });
   queries.push({ q: '香港 科技股 IPO 上市 算力', category: '资本' });
 
-  // 行业动态
+  // 技术
   queries.push({ q: '阿里云 百度 华为 AI 发布 峰会 2026', category: '技术' });
   queries.push({ q: '中国电信 中国移动 算力 Token AI', category: '技术' });
+  queries.push({ q: '算力调度 推理优化 Agent 技术突破', category: '技术' });
+  queries.push({ q: 'AI 大模型 边缘计算 分布式推理', category: '技术' });
 
   // 海外
   queries.push({ q: '英伟达 H200 中国 出口 芯片', category: '海外' });
@@ -397,10 +398,6 @@ function buildSearchQueries(config) {
   queries.push({ q: 'EU AI Act enforcement 2026', category: '海外' });
   queries.push({ q: '中国 美国 AI 出口管制 芯片 供应链', category: '海外' });
   queries.push({ q: '中俄 AI 合作 治理 标准', category: '海外' });
-
-  // 技术
-  queries.push({ q: '算力调度 推理优化 Agent 技术突破', category: '技术' });
-  queries.push({ q: 'AI 大模型 边缘计算 分布式推理', category: '技术' });
 
   return queries;
 }
@@ -483,6 +480,10 @@ async function main() {
   console.log('\n  📡 RSS feeds...');
   const rssFeeds = [
     { url: 'https://36kr.com/feed', source: '36氪' },
+    { url: 'https://venturebeat.com/category/ai/feed/', source: 'VentureBeat AI' },
+    { url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml', source: 'The Verge AI' },
+    { url: 'https://www.technologyreview.com/topic/artificial-intelligence/feed', source: 'MIT Tech Review AI' },
+    { url: 'https://techcrunch.com/feed/', source: 'TechCrunch' },
   ];
 
   const rssResults = await Promise.all(rssFeeds.map(f => fetchRSS(f.url, f.source)));
