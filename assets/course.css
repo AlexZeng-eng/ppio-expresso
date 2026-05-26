@@ -1,0 +1,359 @@
+/* ============================================================
+   AI Agent Design in Action — Course Stylesheet
+   Reference aesthetic: Andrej Karpathy's blog
+     karpathy.github.io/2015/05/21/rnn-effectiveness/
+     conversational · monochrome · serif body · code-forward
+   ============================================================ */
+
+:root {
+  --bg:         #ffffff;
+  --bg-soft:    #fafafa;
+  --bg-code:    #f4f4f4;
+  --ink:        #222222;
+  --ink-soft:   #555555;
+  --ink-mute:   #888888;
+  --rule:       #dddddd;
+  --rule-soft:  #ececec;
+  --link:       #1e6bb8;
+
+  --serif: "Source Serif 4", "PT Serif", "Iowan Old Style", Georgia, serif;
+  --sans:  "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  --mono:  "JetBrains Mono", "SF Mono", Menlo, monospace;
+
+  --col: 720px;
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 17px; scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--serif);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ---------- page frame — single centered column, no wide breakouts ---------- */
+
+.page {
+  max-width: var(--col);
+  margin: 0 auto;
+  padding: 3rem 1.4rem 5rem;
+}
+
+.masthead {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--ink-mute);
+  padding-bottom: 0.8rem;
+  margin-bottom: 2.4rem;
+  border-bottom: 1px solid var(--rule-soft);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.masthead a { color: var(--ink-mute); text-decoration: none; }
+.masthead a:hover { color: var(--link); }
+.masthead .course-title { color: var(--ink-soft); }
+
+/* ---------- headings — serif, no tracked small-caps ---------- */
+
+h1.title {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0 0 0.3rem;
+  letter-spacing: -0.005em;
+}
+
+p.subtitle {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  font-weight: 400;
+  margin: 0 0 2.2rem;
+}
+
+.lede {
+  font-size: 1rem;
+  color: var(--ink);
+  margin: 1.5rem 0 2rem;
+}
+.lede p { margin-bottom: 0.9rem; }
+.lede p:last-child { margin-bottom: 0; }
+
+h2 {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 1.35rem;
+  line-height: 1.3;
+  margin: 2.6rem 0 0.8rem;
+  color: var(--ink);
+}
+
+/* legacy .secnum span — render as quiet inline number, no small caps */
+h2 .secnum {
+  font-weight: 400;
+  color: var(--ink-mute);
+  font-family: var(--mono);
+  font-size: 0.78em;
+  margin-right: 0.5em;
+}
+
+h3 {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 1.08rem;
+  margin: 1.8rem 0 0.4rem;
+}
+
+p { margin: 0 0 1rem; }
+strong { font-weight: 700; }
+em { font-style: italic; }
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 2px;
+}
+a:hover { text-decoration-color: var(--link); }
+
+/* ---------- code — front and center ---------- */
+
+code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: var(--bg-code);
+  padding: 0.08em 0.32em;
+  border-radius: 2px;
+  color: var(--ink);
+}
+
+pre {
+  font-family: var(--mono);
+  font-size: 0.86rem;
+  line-height: 1.5;
+  background: var(--bg-code);
+  padding: 0.9rem 1rem;
+  border-radius: 3px;
+  overflow-x: auto;
+  margin: 1.3rem 0;
+}
+pre code { background: none; padding: 0; font-size: inherit; }
+
+/* ---------- figures — inline, no wide break-out ---------- */
+
+figure,
+figure.wide {
+  max-width: 100%;
+  margin: 1.8rem 0;
+  cursor: zoom-in;
+}
+
+figure svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* click-to-zoom overlay — see assets/js/course.js */
+figure.zoomed {
+  cursor: zoom-out;
+  position: fixed;
+  inset: 0;
+  margin: 0;
+  padding: 2.5rem 3rem;
+  background: var(--bg);
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: none;
+  overflow: auto;
+}
+figure.zoomed svg {
+  max-height: 82vh;
+  max-width: 100%;
+}
+figure.zoomed figcaption {
+  text-align: center;
+  max-width: 720px;
+  margin: 1rem auto 0;
+}
+
+figcaption {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin-top: 0.5rem;
+}
+
+figcaption .fig-label {
+  font-style: normal;
+  font-weight: 700;
+  color: var(--ink);
+  margin-right: 0.3em;
+}
+
+/* ---------- labels — inline mono, no pill boxes ---------- */
+
+.label {
+  display: inline;
+  font-family: var(--mono);
+  font-size: 0.82em;
+  font-weight: 400;
+  color: var(--ink-soft);
+  background: none;
+  border: none;
+  padding: 0;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-right: 0.3em;
+}
+.label::before { content: "["; color: var(--ink-mute); }
+.label::after  { content: "]"; color: var(--ink-mute); }
+
+.label.warn { color: var(--ink); }
+.label.ok   { color: var(--ink); }
+.label.red  { color: var(--ink); }
+
+/* ---------- callouts — indented blockquote-like, no boxes ---------- */
+
+.callout {
+  margin: 1.6rem 0;
+  padding: 0 0 0 1rem;
+  border-left: 3px solid var(--rule);
+  background: none;
+  border-radius: 0;
+  font-size: 1rem;
+  color: var(--ink-soft);
+}
+.callout.insight,
+.callout.tradeoffs {
+  border-left-color: var(--rule);
+  background: none;
+}
+
+.callout h4 {
+  margin: 0 0 0.4rem;
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 0.98rem;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+}
+.callout p:last-child { margin-bottom: 0; }
+.callout ul { margin: 0.4rem 0 0; padding-left: 1.2rem; }
+.callout li { margin-bottom: 0.25rem; }
+
+blockquote {
+  margin: 1.4rem 0 1.4rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--rule);
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+/* ---------- tables — minimal rules, serif body ---------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  margin: 1.6rem 0;
+}
+th, td {
+  text-align: left;
+  padding: 0.55rem 0.7rem 0.55rem 0;
+  border-bottom: 1px solid var(--rule-soft);
+  vertical-align: top;
+}
+th {
+  font-weight: 700;
+  border-bottom: 1px solid var(--ink-mute);
+  font-size: 0.92rem;
+  color: var(--ink);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* ---------- lists ---------- */
+
+ul, ol { padding-left: 1.3rem; margin: 0 0 1rem; }
+li { margin-bottom: 0.3rem; }
+li::marker { color: var(--ink-mute); }
+
+/* ---------- go-deeper — rule-above, no box ---------- */
+
+.godeeper {
+  margin: 3rem 0 0;
+  padding: 1rem 0 0;
+  border-top: 1px solid var(--rule);
+  background: none;
+  border-radius: 0;
+  font-size: 0.95rem;
+}
+.godeeper h4 {
+  margin: 0 0 0.7rem;
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+}
+.godeeper ul { padding-left: 1.2rem; margin: 0; }
+.godeeper li { color: var(--ink-soft); margin-bottom: 0.3rem; }
+.godeeper li code { font-size: 0.84rem; }
+
+/* ---------- footer ---------- */
+
+.page-footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule-soft);
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--ink-mute);
+}
+
+/* ---------- SVG diagram palette — monochrome, workmanlike ---------- */
+
+.diag-bg          { fill: var(--bg-soft); }
+.diag-box         { fill: #fff;            stroke: var(--ink);       stroke-width: 1; }
+.diag-box-warn    { fill: #fff;            stroke: var(--ink-soft);  stroke-width: 1; stroke-dasharray: 4 3; }
+.diag-box-accent  { fill: var(--bg-code);  stroke: var(--ink);       stroke-width: 1; }
+.diag-box-ok      { fill: #fff;            stroke: var(--ink-soft);  stroke-width: 1; }
+.diag-line        { stroke: var(--ink);      stroke-width: 1.2; fill: none; }
+.diag-line-thin   { stroke: var(--ink-mute); stroke-width: 0.8; fill: none; }
+.diag-line-accent { stroke: var(--ink);      stroke-width: 1.4; fill: none; }
+.diag-line-dashed { stroke: var(--ink-mute); stroke-width: 0.8; stroke-dasharray: 3 3; fill: none; }
+.diag-label       { font-family: var(--mono); font-size: 11.5px; fill: var(--ink); }
+.diag-label-small { font-family: var(--mono); font-size: 10px;   fill: var(--ink-mute); }
+.diag-label-mono  { font-family: var(--mono); font-size: 11px;   fill: var(--ink-soft); }
+.diag-fill-accent { fill: var(--ink); }
+.diag-fill-ok     { fill: var(--ink-soft); }
+.diag-fill-warn   { fill: var(--ink-soft); }
+
+/* ---------- responsive ---------- */
+
+@media (max-width: 720px) {
+  html { font-size: 16px; }
+  .page { padding: 2rem 1rem 3.5rem; }
+  h1.title { font-size: 1.7rem; }
+}

@@ -1,0 +1,121 @@
+{
+  "_schema": "PPIO Expresso Pipeline Config v1",
+  "_note": "This file is the runtime config for the pipeline. The manage.html writes here via the Copy Agent Prompt → apply pattern.",
+
+  "charter": {
+    "compass_questions": {
+      "c1": {
+        "question": "政策是把梯子还是把刀？",
+        "detail": "国常会/三部门/立法计划——每一次政策出台，对 PPIO 而言是打开新空间（算力网=利好基建叙事）还是收窄合规窗口（AI 立法加速→VIE 备案不确定性叠加）？"
+      },
+      "c2": {
+        "question": "对手在做什么？跟我们重叠了多少？",
+        "detail": "无问芯穹 7 亿融资、「构建企业级智能体服务平台」跟 Sandbox 正面重叠；其他 AI Infra 公司的动向、融资、产品定位变化"
+      },
+      "c3": {
+        "question": "海外监管风向怎么吹？",
+        "detail": "美国 AI 安全审查机制→先例效应→中国监管跟进节奏；SPAC/IPO 路径案例；跨境数据合规动向"
+      }
+    },
+
+    "signal_tags": {
+      "policy_dingdiao":    { "emoji": "🏛️", "label": "政策定调", "route": "attend", "trigger": "国常会/中央/部委级别的政策文件、立法计划、指导意见" },
+      "regulatory":         { "emoji": "📜", "label": "监管合规", "route": "attend", "trigger": "AI 立法、安全审查、牌照要求、VIE/CSRC 备案相关" },
+      "competitor":         { "emoji": "⚔️", "label": "竞品动向", "route": "attend", "trigger": "无问芯穹等直接/间接竞争对手的融资、产品、战略变化" },
+      "capital":            { "emoji": "💰", "label": "资本风向", "route": "silent", "trigger": "行业融资事件、估值变化、IPO 动态、SPAC 案例" },
+      "overseas":           { "emoji": "🌏", "label": "海外镜像", "route": "silent", "trigger": "美国/欧盟的 AI 监管、政策、安全审查动向（对中国有先验效应）" },
+      "tech_signal":        { "emoji": "🔬", "label": "技术信号", "route": "silent", "trigger": "模型能力跃迁、基础设施突破、架构创新（需判断对 PPIO 业务的影响）" }
+    },
+
+    "routing": {
+      "attend_signals": ["🏛️", "📜", "⚔️"],
+      "silent_signals": ["💰", "🌏", "🔬"],
+      "route_up_default": true,
+      "exceptions": {
+        "policy_no_filter": "国常会/中央/部委级政策全部 lane:attend",
+        "competitor_must_enter": "无问芯穹及 AI Infra 主要竞品全部 lane:attend",
+        "small_funding_downgrade": "纯小额融资（<1亿元）降级为 lane:silent"
+      }
+    },
+
+    "deep_read_threshold": {
+      "long_read": ["政策原文", "竞品深度分析", "行业研究报告", "海外监管原文", "技术架构深度"],
+      "brief": ["纯融资事件", "产品发布/功能更新", "人事变动", "行业事件"],
+      "test": "阅读后是否改变至少一个 Compass Question 的答案？是否会写入招股书或 GR 材料？"
+    },
+
+    "edge_defaults": {
+      "competitor_funding": "更新竞品档案 + PPIO信号（风险/竞品）",
+      "central_policy": "深度分析 + PPIO信号速读",
+      "ministry_policy": "深度分析 + 关注业务映射",
+      "ai_legislation": "标注风险信号 + 追踪 CSRC/VIE 影响",
+      "overseas_regulation": "标注海外镜像 + 判断先验效应",
+      "provincial_policy": "感知级别（1句话摘要），除非涉及注册地/运营地",
+      "competitor_product": "更新竞品档案，不发PPIO信号速读",
+      "industry_report": "仅在新数据点时引用，全文不进入 Expresso",
+      "opinion_piece": "跳过"
+    },
+
+    "content_categories": {
+      "政策": { "depth": "深度", "description": "国内高层政策、立法、指导意见" },
+      "竞品": { "depth": "深度", "description": "直接/间接竞争对手动态" },
+      "监管": { "depth": "深度", "description": "合规要求、牌照、安全审查" },
+      "资本": { "depth": "感知", "description": "融资、IPO、并购事件" },
+      "海外": { "depth": "感知", "description": "国际 AI 监管与政策动向" },
+      "技术": { "depth": "感知", "description": "基础设施/模型/架构进展" },
+      "治理": { "depth": "感知", "description": "AI 伦理、社交治理、青少年保护" }
+    }
+  },
+
+  "sources": {
+    "政策": [
+      { "name": "新华社", "url": "http://www.news.cn/politics/", "type": "web", "priority": 1 },
+      { "name": "中国政府网", "url": "http://www.gov.cn/", "type": "web", "priority": 1 },
+      { "name": "工信部", "url": "https://www.miit.gov.cn/", "type": "web", "priority": 2 }
+    ],
+    "竞品": [
+      { "name": "36氪", "url": "https://36kr.com/", "type": "web", "priority": 1 },
+      { "name": "企查查", "url": "https://www.qcc.com/", "type": "manual", "priority": 2 }
+    ],
+    "监管": [
+      { "name": "证监会", "url": "http://www.csrc.gov.cn/", "type": "web", "priority": 1 },
+      { "name": "中国政府网-立法", "url": "http://www.gov.cn/", "type": "web", "priority": 1 }
+    ],
+    "资本": [
+      { "name": "36氪", "url": "https://36kr.com/", "type": "web", "priority": 1 },
+      { "name": "东方财富", "url": "https://www.eastmoney.com/", "type": "web", "priority": 2 },
+      { "name": "Reuters", "url": "https://www.reuters.com/", "type": "web", "priority": 3 }
+    ],
+    "海外": [
+      { "name": "Reuters", "url": "https://www.reuters.com/", "type": "web", "priority": 1 },
+      { "name": "南华早报", "url": "https://www.scmp.com/", "type": "web", "priority": 2 }
+    ],
+    "技术": [
+      { "name": "量子位", "url": "https://www.qbitai.com/", "type": "web", "priority": 1 },
+      { "name": "baoyu.io", "url": "https://baoyu.io/", "type": "web", "priority": 1 },
+      { "name": "科技日报", "url": "http://www.stdaily.com/", "type": "web", "priority": 3 }
+    ],
+    "治理": [
+      { "name": "新华社", "url": "http://www.news.cn/", "type": "web", "priority": 1 },
+      { "name": "网信办", "url": "http://www.cac.gov.cn/", "type": "web", "priority": 2 }
+    ]
+  },
+
+  "weekly_template": {
+    "title_template": "PPIO Expresso — 周报 {year}.W{week}",
+    "sections": [
+      "本周主线",
+      "信号概览",
+      "要闻",
+      "PPIO 信号速读",
+      "竞品档案更新"
+    ],
+    "signal_speed_read": {
+      "positive": "利好信号",
+      "risk": "风险信号",
+      "watch": "待观察",
+      "action": "行动建议"
+    }
+  }
+}
+

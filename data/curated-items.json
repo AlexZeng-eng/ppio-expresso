@@ -1,0 +1,222 @@
+{
+  "generated_at": "2026-05-26T07:31:50.873Z",
+  "week": "2026-W22",
+  "classifier": "deepseek-v4-pro",
+  "total_raw": 10,
+  "total_curated": 10,
+  "attend_count": 8,
+  "silent_count": 2,
+  "items": [
+    {
+      "id": "raw-1",
+      "title": "算力租赁，遭传闻突袭，上市公司回应",
+      "url": "https://36kr.com/newsflashes/3825717281149825?f=rss",
+      "source": "36氪",
+      "published": "2026-05-26",
+      "body_snippet": "消息面上，日前DeepSeek宣布，DeepSeek-V4-ProAPI永久降价至原价的25%，创全球大模型价格新低；此外，一则关于“未来一切上市公司禁止披露没有发票的海外卡部署”的传闻在网络上发酵。对此，求证部分公司，一家上市算力租赁企业相关负责人回复称，有关注到这则传闻，但并不清楚信息出处，目前暂未收到相关要求。另一家上市算力租赁企业负责人则向记者表示，一般而言出于合规要求，上市算力企业本身就",
+      "category": "监管",
+      "lane": "attend",
+      "signals": [
+        "📜"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "传闻“未来一切上市公司禁止披露没有发票的海外卡部署”，上市算力租赁企业回应称未收到相关要求，但已关注此事，市场担忧合规收紧。",
+      "ppio_signal": {
+        "positive": "传闻暂未证实，暂无实际政策出台，短期影响有限。",
+        "risk": "若政策落地，将限制海外算力卡采购的披露灵活性，增加合规成本，对依赖海外资源的算力企业构成风险。"
+      }
+    },
+    {
+      "id": "raw-2",
+      "title": "统筹建设、动态推进“六张网” - 人民日报",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaTlQdDZPd21haTRmRWdoWU1XN25wX25TZHh5a29LUFpCVDJBMW9yellvSDZHRmd6cFNNMjdEdV9oZkhzekIyX05nVmpRdUFobTlYUTJ5U0xGQXhQbXluTWRzWEZyUWRqaU1jR0R5SUF1cGxkNzlRNjFOSkpwTjNQSw?oc=5",
+      "source": "人民日报",
+      "category": "政策",
+      "published": "2026-05-25",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQaTlQdDZPd21haTRmRWdoWU1XN25wX25TZHh5a29LUFpCVDJBMW9yellvSDZHRmd6cFNNMjdEdV9oZkhzekIyX05nVmpRdUFobTlYUTJ5U0xGQXhQbXluTWRzWEZyUWRqaU1jR0R5SUF",
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "人民日报刊文提出统筹建设、动态推进“六张网”（含算力网络），强调系统布局和协调，为国家重大基础设施网络建设定调。",
+      "ppio_signal": {
+        "positive": "政策明确支持算力网络等新基建，为边缘云行业提供发展机遇。",
+        "risk": "统筹推进可能使资源向头部集中，PPIO需关注项目落地节奏与资金分配，避免被边缘化。"
+      }
+    },
+    {
+      "id": "raw-3",
+      "title": "发改委解读“六张网”投资 用好各类政府资金和新型政策性金融工具 - 财新",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xV1o1R1NEQVpya2J1bHpCVldWYlJXQ2Z0MTE0LVdaZ1dzZFVYUUQ2dF91dV8weG1zajlJU1RyRTZuVkVCdmF4aWpOaDd5OWFfWjMycWNPdVBLX20tQ3FLeHhR?oc=5",
+      "source": "财新",
+      "category": "政策",
+      "published": "2026-05-22",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xV1o1R1NEQVpya2J1bHpCVldWYlJXQ2Z0MTE0LVdaZ1dzZFVYUUQ2dF91dV8weG1zajlJU1RyRTZuVkVCdmF4aWpOaDd5OWFfWjMycWNPdVBLX20tQ3FLeHhR?oc=5\" target=\"_bla",
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "发改委解读“六张网”投资，提出用好政府资金和新型政策性金融工具，引导社会资本参与重大基础设施网络建设。",
+      "ppio_signal": {
+        "positive": "新型金融工具将加速算力基础设施建设，带来市场扩容机会，有利于PPIO获取政府或资金支持。",
+        "risk": "政策执行和资金到位存在不确定性，若重点投向头部企业，可能加剧竞争。"
+      }
+    },
+    {
+      "id": "raw-4",
+      "title": "统筹“六张网”建设释放重大基础设施网络投资潜力 - 央视网",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBINmRpcVpXMzhLanNjMXhhbXk3SHpMd19BSWd6b2g3QUFnU0xuTmZkV3ZpNUdkT0I1RklWWl9vQ1FFV2lzX0MtbzVTU1pSendZU3g2WEVyVGNIV2VDc0kzdEJmSGZITFp0TlZJLVJNdWpwcWR6czBnbg?oc=5",
+      "source": "央视网",
+      "category": "政策",
+      "published": "2026-05-22",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBINmRpcVpXMzhLanNjMXhhbXk3SHpMd19BSWd6b2g3QUFnU0xuTmZkV3ZpNUdkT0I1RklWWl9vQ1FFV2lzX0MtbzVTU1pSendZU3g2WEVyVGNIV2VDc0kzdEJmSGZITFp0TlZJLVJNdWp",
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "央视网报道统筹“六张网”建设释放重大基础设施网络投资潜力，算力网络成为重点领域，政策信号强烈。",
+      "ppio_signal": {
+        "positive": "算力网络上升为国家战略，为PPIO业务提供政策背书，有望参与相关项目建设。",
+        "risk": "投资过热可能导致资源错配，PPIO需精准对接实际需求，防止盲目扩张。"
+      }
+    },
+    {
+      "id": "raw-5",
+      "title": "电信运营商推出token算力套餐，引发市场热议与质疑 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAtUE85QnhMTFI3MGJjNnBLUi1fWk8ydjdMZVZNTHZuNzN1eDdpMjhuV3V2UTU5NngxYlRHc3RmejdMNkNXWlluUnAzT1BQRnZ3Nnc?oc=5",
+      "source": "虎嗅",
+      "category": "竞品",
+      "published": "2026-05-22",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFAtUE85QnhMTFI3MGJjNnBLUi1fWk8ydjdMZVZNTHZuNzN1eDdpMjhuV3V2UTU5NngxYlRHc3RmejdMNkNXWlluUnAzT1BQRnZ3Nnc?oc=5\" target=\"_blank\" 电信运营商推出token算力套餐，",
+      "lane": "attend",
+      "signals": [
+        "⚔️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "电信运营商推出token算力套餐，市场热议其计费模式与性价比，运营商入局可能重塑算力服务市场格局。",
+      "ppio_signal": {
+        "positive": "算力产品创新验证市场需求，为PPIO探索差异化收费模式提供参考。",
+        "risk": "运营商凭借网络和客户优势可能压低价格，挤压独立算力平台的市场份额。"
+      }
+    },
+    {
+      "id": "raw-1",
+      "title": "“从卖语音、卖流量到卖Token”，三大运营商齐发“Token套餐”背后：做基础算力普惠供应商 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOcXJYZFFuelRra3JETjBoNWVnMEJaVWloNmFCNDJObl9LUjgyQkNWRlRPQ1dFNDIxTUFESjNyM0hlQkFVYWpfdEdtZWxOcFNOSkxOMXlnWkd1QVViOTdXVk93SHEtU3M4a2lKYjJHR3h5QzE2bXNSMnlaMUF0ZmZENGhUYmJkc2htZV9GZUZ5SEVadG1iajMtc0d5Q21nNzdUbHVzemVKOTF2SHdpb0w1WjUwYkp3QUpZVF90dFpzM1lHOE5UUmJGREhObDhtby1kZWp2S0VkbnVTUm5OanVseWluSWpBVDNKeGttdWpXaGZqYjZUSV92am5jRW5nN0paRGVNWEdXTE5Ldw?oc=5",
+      "source": "新浪财经",
+      "category": "技术",
+      "published": "2026-05-20",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiigJBVV95cUxOcXJYZFFuelRra3JETjBoNWVnMEJaVWloNmFCNDJObl9LUjgyQkNWRlRPQ1dFNDIxTUFESjNyM0hlQkFVYWpfdEdtZWxOcFNOSkxOMXlnWkd1QVViOTdXVk93SHEtU3M4a2lKYjJHR3h",
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "三大运营商相继推出“Token套餐”，从售卖语音、流量转向提供AI Token服务，定位为基础算力普惠供应商，标志着传统电信巨头加快进入算力服务市场。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-2",
+      "title": "进一步统筹“六张网”建设内容 - 人民网－四川频道",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VdFlBWlk5QVJ3TEluSmJFc0luRUdxcDBfVXpfbC0xd3E1RmwwSk5rb3dPaWdQdGxGX3hreGR1N2VQU1MzTHR4M01IVXNwN2o5amcwRm4zcmVrYUlrSFhQYzVtc0F5N0xZdUE?oc=5",
+      "source": "人民网－四川频道",
+      "category": "政策",
+      "published": "2026-05-26",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1VdFlBWlk5QVJ3TEluSmJFc0luRUdxcDBfVXpfbC0xd3E1RmwwSk5rb3dPaWdQdGxGX3hreGR1N2VQU1MzTHR4M01IVXNwN2o5amcwRm4zcmVrYUlrSFhQYzVtc0F5N0xZdUE?oc=5\" t",
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "政策层面进一步统筹推进“六张网”建设，涵盖算力网络、电力网络等新型基础设施，强调协同规划与融合发展，为各地方算力网络布局提供顶层指引。",
+      "ppio_signal": {
+        "positive": "算力网络建设被纳入顶层设计，意味着边缘算力节点作为网络末端将获得政策支持与资源投入，有利于分布式算力平台扩大覆盖。",
+        "risk": "政策落地节奏和资源配置可能偏向国家和地方骨干节点，边缘端的普惠政策细节尚未明确，短期可能面临与大网的衔接挑战。"
+      }
+    },
+    {
+      "id": "raw-3",
+      "title": "聚焦AI算力，发力“六张网”——政策周观察第81期 - 英为财情 Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90WHRzdlV0MUthZWFTcEEzYVFCYXdWV0NycTZzRVVCUlpaclE2RTY1U2pNZkxrREVVcHBCLWZIa3RocTZ4Yy1ycGRsZGRzLXp1dFpiY0lFa0tiYTR5YUtsbw?oc=5",
+      "source": "英为财情 Investing.com",
+      "category": "政策",
+      "published": "2026-05-26",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE90WHRzdlV0MUthZWFTcEEzYVFCYXdWV0NycTZzRVVCUlpaclE2RTY1U2pNZkxrREVVcHBCLWZIa3RocTZ4Yy1ycGRsZGRzLXp1dFpiY0lFa0tiYTR5YUtsbw?oc=5\" target=\"_blank",
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "本期政策周观察聚焦AI算力与“六张网”建设，显示政策密集出台支持算力基础设施，推动算力网络与电力网、数据网等协同发展，强化算力供给能力。",
+      "ppio_signal": {
+        "positive": "算力基础设施被提升到更高战略地位，边缘云作为补足中心节点覆盖短板的方案将受益，政策加持有望加快边缘节点融入网。",
+        "risk": "若“六张网”建设过度集中或标准化要求过高，可能挤压中小型边缘云服务商的生存空间，需关注后续标准制定动态。"
+      }
+    },
+    {
+      "id": "raw-4",
+      "title": "算力巨头来了 脱胎“华为”的超聚变创业板IPO获受理 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMHpXTDJUbHQzaXNwVXBuZ1E1MEZoT1FISC13WGhqazd5bXJ3ZUh1MmphWXFZSzgxNWZMaDd4OW5SWm16UDcwTUstVDZaNkFlLXFHYjRWY210VmdTZ2d5d0tnOW1VdVZoX1NfcVB4ZV9VZGtybHl4SmpUWk1CbnU1MnpFU3hBWjNfVVdhV0FYTjdQMEZBSEJPUWVDMXFWb3RXempKdDIyNHA5UQ?oc=5",
+      "source": "新浪财经",
+      "category": "资本",
+      "published": "2026-05-26",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMHpXTDJUbHQzaXNwVXBuZ1E1MEZoT1FISC13WGhqazd5bXJ3ZUh1MmphWXFZSzgxNWZMaDd4OW5SWm16UDcwTUstVDZaNkFlLXFHYjRWY210VmdTZ2d5d0tnOW1VdVZoX1NfcVB4ZV9",
+      "lane": "silent",
+      "signals": [
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "脱胎于华为的超聚变数字技术有限公司创业板IPO获受理，其主营算力服务器与解决方案，上市将加速国内算力硬件市场竞争。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-5",
+      "title": "全球AI融资潮下的中国竞速：高层密集调研人形机器人、算力网，国家人工智能产业投资基金出手 - Sina finance",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1heGx5WVFpa0lTd2VjVmZ0UUVlRlRCMk9qX1FESTlsTXYzT2o0d0tUcHh1bG43VTJZLWVJZFNaUEJPdE94aFplZVE0Tnl4UTBmcjIxaENGQU9aVEQ1QUo0TWhSQTlYLW10cWs1M3piZVQwRDV2OVlpNQ?oc=5",
+      "source": "Sina finance",
+      "category": "政策",
+      "published": "2026-05-22",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1heGx5WVFpa0lTd2VjVmZ0UUVlRlRCMk9qX1FESTlsTXYzT2o0d0tUcHh1bG43VTJZLWVJZFNaUEJPdE94aFplZVE0Tnl4UTBmcjIxaENGQU9aVEQ1QUo0TWhSQTlYLW10cWs1M3piZVQ",
+      "lane": "attend",
+      "signals": [
+        "🏛️",
+        "💰"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "全球AI融资潮下，中国高层密集调研人形机器人和算力网，国家人工智能产业投资基金同步出手投资，显示加快算力基础设施建设的决心和资本引导方向。",
+      "ppio_signal": {
+        "positive": "高层调研和国家级基金直接投资释放强烈政策信号，算力网建设获得真金白银支持，有望加速算力资源下沉，为边缘云创造更优政策与资本环境。",
+        "risk": "政策与资本资源可能主要涌向大算力中心或重点区域，边缘云若未能纳入基金重点投向，可能在政策红利分配中处于边缘位置。"
+      }
+    }
+  ]
+}
