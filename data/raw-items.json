@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T09:19:17.618Z",
+  "generated_at": "2026-05-26T10:28:04.642Z",
   "week": "2026-W22",
   "date_range": {
     "from": "2026-05-19",
@@ -19,24 +19,6 @@
     },
     {
       "id": "raw-002",
-      "title": "发改委解读“六张网”投资 用好各类政府资金和新型政策性金融工具 - 财新",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xV1o1R1NEQVpya2J1bHpCVldWYlJXQ2Z0MTE0LVdaZ1dzZFVYUUQ2dF91dV8weG1zajlJU1RyRTZuVkVCdmF4aWpOaDd5OWFfWjMycWNPdVBLX20tQ3FLeHhR?oc=5",
-      "source": "财新",
-      "category": "政策",
-      "published": "2026-05-22",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xV1o1R1NEQVpya2J1bHpCVldWYlJXQ2Z0MTE0LVdaZ1dzZFVYUUQ2dF91dV8weG1zajlJU1RyRTZuVkVCdmF4aWpOaDd5OWFfWjMycWNPdVBLX20tQ3FLeHhR?oc=5\" target=\"_bla"
-    },
-    {
-      "id": "raw-003",
-      "title": "统筹“六张网”建设释放重大基础设施网络投资潜力 - 央视网",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBINmRpcVpXMzhLanNjMXhhbXk3SHpMd19BSWd6b2g3QUFnU0xuTmZkV3ZpNUdkT0I1RklWWl9vQ1FFV2lzX0MtbzVTU1pSendZU3g2WEVyVGNIV2VDc0kzdEJmSGZITFp0TlZJLVJNdWpwcWR6czBnbg?oc=5",
-      "source": "央视网",
-      "category": "政策",
-      "published": "2026-05-22",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBINmRpcVpXMzhLanNjMXhhbXk3SHpMd19BSWd6b2g3QUFnU0xuTmZkV3ZpNUdkT0I1RklWWl9vQ1FFV2lzX0MtbzVTU1pSendZU3g2WEVyVGNIV2VDc0kzdEJmSGZITFp0TlZJLVJNdWp"
-    },
-    {
-      "id": "raw-004",
       "title": "电信运营商推出token算力套餐，引发市场热议与质疑 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1laXliMkczNm5fQk0waWIxS3RHT3NJS3JBNGg3dXppdnR3SlUxWEZJOGFBaVJ3eXJYTFZWWF83YjMxbGFfV3Zab0tkY1VqUUZEb2FCUg?oc=5",
       "source": "虎嗅",
@@ -45,58 +27,76 @@
       "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE1laXliMkczNm5fQk0waWIxS3RHT3NJS3JBNGg3dXppdnR3SlUxWEZJOGFBaVJ3eXJYTFZWWF83YjMxbGFfV3Zab0tkY1VqUUZEb2FCUg?oc=5\" target=\"_blank\" 电信运营商推出token算力"
     },
     {
-      "id": "raw-005",
-      "title": "“从卖语音、卖流量到卖Token”，三大运营商齐发“Token套餐”背后：做基础算力普惠供应商 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNTGwtU0J5emVvTUdxbkxzRnZvZS1hOWVmdndDMTRzS21zXzdrNENBMXBibk9IWlF4anh3M3RSTHlVbTJUUVEwT196TmtBTXlPNzVvY2xVSFVtcVVEamZWSy1JdW0zWERSTkxkWjdyZ3R3WlFDbThEajlLamhoM3VoaUlla3lTVXpVUHhiZEc1R0VwdnVTY0hLSGZRM0pibHMyYV94ajg0SHhvTUFFOGctRmY0Y3NUNGhPeXhqLUlnUFpEMFRlOXZNRG1IdVF5UV9nN1FtRi0yNnhFa0Y1YmQ1NV9PdDVRaV9yN1o5cWZnT2RpdnRQRGNzMkhhczB1OVRUREc3N25jYWFGQjkydHcxRTE2MlhmY1dwWUw5dkhyS2NOSjJQV0w2bXRiaGc3bE1CNUlvN1FKR19MTGQ0MVFackFzd1liZw?oc=5",
-      "source": "新浪财经",
-      "category": "技术",
+      "id": "raw-003",
+      "title": "算力网夯实智能经济根基 - 经济日报",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RM2gwclViYkFoVnlpRU0yQ0hHdGhVR1dMMjVOSTRQZ2I1WkgwMUZDbXVFWXNGM1VYWk5JT2MxYnFocUlLaEwyRFZYZ2dQb1pqQmRlLTUtTEdCQ1REYXBPdDI5Rm1kbmo3Q2tz?oc=5",
+      "source": "经济日报",
+      "category": "政策",
       "published": "2026-05-20",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMixgJBVV95cUxNTGwtU0J5emVvTUdxbkxzRnZvZS1hOWVmdndDMTRzS21zXzdrNENBMXBibk9IWlF4anh3M3RSTHlVbTJUUVEwT196TmtBTXlPNzVvY2xVSFVtcVVEamZWSy1JdW0zWERSTkxkWjdyZ3R"
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9RM2gwclViYkFoVnlpRU0yQ0hHdGhVR1dMMjVOSTRQZ2I1WkgwMUZDbXVFWXNGM1VYWk5JT2MxYnFocUlLaEwyRFZYZ2dQb1pqQmRlLTUtTEdCQ1REYXBPdDI5Rm1kbmo3Q2tz?oc=5\" "
+    },
+    {
+      "id": "raw-004",
+      "title": "中央政治局会议点名、丁薛祥调研！这一产业，竟带动了土建+能源 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY3YtQUZTREJoa0o1dDE5V3VYbFZYTG82UG9BMWtyLWJmc0p6c3IxQVJHQ0I4NlA5Q1J0cC1xMDBYUEJ2RkFzaEJvT2RJUUFKRzlWdS1sOVpYZEExcHlyUnY1enJUMkw2SV9NLVAtS1htSWt2SUV4SERfaHRCRjUyTXlZTEJ1WkFT?oc=5",
+      "source": "搜狐网",
+      "category": "政策",
+      "published": "2026-05-26",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY3YtQUZTREJoa0o1dDE5V3VYbFZYTG82UG9BMWtyLWJmc0p6c3IxQVJHQ0I4NlA5Q1J0cC1xMDBYUEJ2RkFzaEJvT2RJUUFKRzlWdS1sOVpYZEExcHlyUnY1enJUMkw2SV9NLVAtS1h"
+    },
+    {
+      "id": "raw-005",
+      "title": "答记者问｜山东大模型、智能体、大数据、大算力领域相关企业已达1124家 - 潮新闻",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5iaFllT3VOVVBFeV9Dd2JlRmwyaUxtNG9jeUNhMmtOcmRwcjhHcTZadFFianhMaU4xYTNKekFvX1F3cFZyVTNLa2t5eXJZSjJaekg1YWdyTlZUemdOVDZsTnNncW04SF9FQUFtemtvY1NHSUk?oc=5",
+      "source": "潮新闻",
+      "category": "政策",
+      "published": "2026-05-20",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5iaFllT3VOVVBFeV9Dd2JlRmwyaUxtNG9jeUNhMmtOcmRwcjhHcTZadFFianhMaU4xYTNKekFvX1F3cFZyVTNLa2t5eXJZSjJaekg1YWdyTlZUemdOVDZsTnNncW04SF9FQUFtemtvY1N"
     },
     {
       "id": "raw-006",
-      "title": "进一步统筹“六张网”建设内容 - 人民网－四川频道",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VdFlBWlk5QVJ3TEluSmJFc0luRUdxcDBfVXpfbC0xd3E1RmwwSk5rb3dPaWdQdGxGX3hreGR1N2VQU1MzTHR4M01IVXNwN2o5amcwRm4zcmVrYUlrSFhQYzVtc0F5N0xZdUE?oc=5",
-      "source": "人民网－四川频道",
+      "title": "工信部：探索“算力银行”“算力超市” 等创新业务支持中小企业存入闲置算力资源 - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxNVFdmbkNtY250VkVfMDF4ZjdBSEdjUy1ubW10bGp6WFdXT0NCY3oxZ2FpSTUzcWh4d1NFeVRaNU1BUmswSk5oRkx2VUtmYURTTVNhZEFNWUoyTjBhQ1dFSGtYT3lpRzFacU5pUEFkaV9yTDBpVnpsSVdJQXdFRHplaU5vUl9zRFZTZ3E4dVkwRXB3RXljRnBIMWZPX3NCUGF2aVY5MHZZejVSTnhkQmFXc0xCcWR1dnVpcUFVX2t6QmdCdWtqell4SlVTZS1ld3gyR014blJ6enJPYXp3NUJ1Y1NWZU9ELW9pQmFETDd3LXczdmVYQlFERk9BSW1BbWdzSGsydHlwZlBiSDBEQVg1bE1XRHNyVXdaTUxqN2ZkUmkwSmEyNUMwY0dGM0JWZXlxMUNMV1N0YUFnaDQta0lkejlWMUtyanNOT1lQUHBqZER6ZWRmT2xHSmJTWVpMVElta3JuSk9rTlZXUEZHRUtheVhZaE1PRGNmVnZDM1N4di1QYUJxYmJXU2ZTWDA5ell0ZXhjdWZYUTNGN0VqbUZiNVJCdVdtUWJHRlc3eHM3b3hLYllQYmtaYmp2TzZVajdmUXYyZi12aGluWjBpTlRDVHhPLWZQN0tRSUo4MTZFTWhBQ2RC?oc=5",
+      "source": "MSN",
       "category": "政策",
-      "published": "2026-05-26",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1VdFlBWlk5QVJ3TEluSmJFc0luRUdxcDBfVXpfbC0xd3E1RmwwSk5rb3dPaWdQdGxGX3hreGR1N2VQU1MzTHR4M01IVXNwN2o5amcwRm4zcmVrYUlrSFhQYzVtc0F5N0xZdUE?oc=5\" t"
+      "published": "2026-05-25",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMi5ANBVV95cUxNVFdmbkNtY250VkVfMDF4ZjdBSEdjUy1ubW10bGp6WFdXT0NCY3oxZ2FpSTUzcWh4d1NFeVRaNU1BUmswSk5oRkx2VUtmYURTTVNhZEFNWUoyTjBhQ1dFSGtYT3lpRzFacU5pUEFkaV9"
     },
     {
       "id": "raw-007",
-      "title": "聚焦AI算力，发力“六张网”——政策周观察第81期 - 英为财情 Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90WHRzdlV0MUthZWFTcEEzYVFCYXdWV0NycTZzRVVCUlpaclE2RTY1U2pNZkxrREVVcHBCLWZIa3RocTZ4Yy1ycGRsZGRzLXp1dFpiY0lFa0tiYTR5YUtsbw?oc=5",
-      "source": "英为财情 Investing.com",
+      "title": "打造“算力版国家电网”，意味着什么？ - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ3BBY0g5Q1R0VHJQc2FZQnljaXBHWDBQbENBVEZxOFJKTFBUd1dKaGlsalIzYnpsX2ZwanNETjZPcDVKYW9sRDQ0R0VDQ3hJMmZLbVZxYVR5Q3BuOElpWXZGQkYtdzFLOGRHdC13Y0o1RDdGbERqSklETVNMaUZVTVllMVJJUXpOYTZtZnEtSQ?oc=5",
+      "source": "21财经",
       "category": "政策",
-      "published": "2026-05-26",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE90WHRzdlV0MUthZWFTcEEzYVFCYXdWV0NycTZzRVVCUlpaclE2RTY1U2pNZkxrREVVcHBCLWZIa3RocTZ4Yy1ycGRsZGRzLXp1dFpiY0lFa0tiYTR5YUtsbw?oc=5\" target=\"_blank"
+      "published": "2026-05-20",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ3BBY0g5Q1R0VHJQc2FZQnljaXBHWDBQbENBVEZxOFJKTFBUd1dKaGlsalIzYnpsX2ZwanNETjZPcDVKYW9sRDQ0R0VDQ3hJMmZLbVZxYVR5Q3BuOElpWXZGQkYtdzFLOGRHdC13Y0o"
     },
     {
       "id": "raw-008",
-      "title": "算力巨头来了 脱胎“华为”的超聚变创业板IPO获受理 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMHpXTDJUbHQzaXNwVXBuZ1E1MEZoT1FISC13WGhqazd5bXJ3ZUh1MmphWXFZSzgxNWZMaDd4OW5SWm16UDcwTUstVDZaNkFlLXFHYjRWY210VmdTZ2d5d0tnOW1VdVZoX1NfcVB4ZV9VZGtybHl4SmpUWk1CbnU1MnpFU3hBWjNfVVdhV0FYTjdQMEZBSEJPUWVDMXFWb3RXempKdDIyNHA5UQ?oc=5",
-      "source": "新浪财经",
-      "category": "资本",
-      "published": "2026-05-26",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMHpXTDJUbHQzaXNwVXBuZ1E1MEZoT1FISC13WGhqazd5bXJ3ZUh1MmphWXFZSzgxNWZMaDd4OW5SWm16UDcwTUstVDZaNkFlLXFHYjRWY210VmdTZ2d5d0tnOW1VdVZoX1NfcVB4ZV9"
+      "title": "算力赋能一人创业 绵阳游仙打造AI小微企业“梦工厂” - 川观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1aaWNhRDlWV3hLREZXRmlxWHkyUWl1ZWZER09xTFg0THZaNVlsbWdsd2ZqN2JBeUVaWnV1UnMwY2o4Qm9UMm83NmNBOHl3Zw?oc=5",
+      "source": "川观新闻",
+      "category": "政策",
+      "published": "2026-05-20",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE1aaWNhRDlWV3hLREZXRmlxWHkyUWl1ZWZER09xTFg0THZaNVlsbWdsd2ZqN2JBeUVaWnV1UnMwY2o4Qm9UMm83NmNBOHl3Zw?oc=5\" target=\"_blank\" 算力赋能一人创业 绵阳游仙打造AI小微企业“"
     },
     {
       "id": "raw-009",
-      "title": "Nvidias Albtraum in China: Der neue KI-Chip Zhenwu M890 von Alibaba macht die KI-Macht USA nervös - Xpert.Digital - Konrad Wolfenstein",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONTItUWlxTk9tNDdkMEg3cG1OS0lST2drMlJKSzJyeGlkdVlkd2JiR1BzTmg1cng5Vi1kaXFSZ0ZoQXV0TWlJaE10NnpVaFNrcHBoNUNKU1c1YXJXZmxtVFctVTgyVkM4ZTlvUi1CNnlwTlBWczNuYXBNWXQzekJraVZVNThXdkNZSTF5Rkl6Q0QtY1pGZkE1NTNJUUFZbUE2Um9r0gGrAUFVX3lxTE9mS3JaREJrSXF6MGU5Q3I0b2ctODZhejF5bDZZRjg2dzBYNHI0T0w4NzJ2aUR1a3pDMnhTbkZmWk1pMmpPUE5ObWhZODFfcU9PaWMzTkRqQlR1ZzJ5LW5NSnkzeU5nVkVPSzhIVnphNUJxOFdTY3FwbWNOaHg0TmRTYUNkWk16UWpNYUFLTk5XUmhkVjBaN0tQeXduMk4zd05yaXl5VlB6cTMtaw?oc=5",
-      "source": "Xpert.Digital - Konrad Wolfenstein",
-      "category": "技术",
-      "published": "2026-05-22",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxONTItUWlxTk9tNDdkMEg3cG1OS0lST2drMlJKSzJyeGlkdVlkd2JiR1BzTmg1cng5Vi1kaXFSZ0ZoQXV0TWlJaE10NnpVaFNrcHBoNUNKU1c1YXJXZmxtVFctVTgyVkM4ZTlvUi1CNnl"
+      "title": "屏山时评｜普惠算力激活中小企业创新动能_福建新闻_福建频道_新闻中心 - hxnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DRTlyYzZ1MFNBTi1ybHlJM2JPY0hlckdfT3lMbFVieFVLWE85QlBMb2N5UDNVTi1SYnpfUFFLS014a3MxeVR6NDlGelRwS1BGaEdlOVdaUEhxMlNzb3F2aERtaWlXQ28?oc=5",
+      "source": "hxnews.com",
+      "category": "政策",
+      "published": "2026-05-20",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DRTlyYzZ1MFNBTi1ybHlJM2JPY0hlckdfT3lMbFVieFVLWE85QlBMb2N5UDNVTi1SYnpfUFFLS014a3MxeVR6NDlGelRwS1BGaEdlOVdaUEhxMlNzb3F2aERtaWlXQ28?oc=5\" targe"
     },
     {
       "id": "raw-010",
-      "title": "Nuclear startup Deep Fission says it&#8217;s going public, again, and I have questions",
-      "url": "https://techcrunch.com/2026/05/23/nuclear-startup-deep-fission-says-its-going-public-again-and-i-have-questions/",
-      "source": "TechCrunch",
-      "published": "2026-05-23",
-      "body_snippet": "Deep Fission is seeking an IPO that could raise $157 million, though investors may have trouble buying the nuclear startup's story.",
-      "category": "资本"
+      "title": "从“卖流量”到“卖算力”，运营商开辟AI时代“增长曲线” - 中金在线",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1PMUVxQ2M5ZEgzX2JqRlNBQ0NCdEFWbld0SFl3eGluMlFoZDZpbm93UUhidm9UMm5MOE5OQ2VNa1IxY3p0TVdHTXhUWlNFbzE3U0tNNVRjLWZXVFVBTVZJaVl6SWFMemNjMnJB?oc=5",
+      "source": "中金在线",
+      "category": "技术",
+      "published": "2026-05-20",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1PMUVxQ2M5ZEgzX2JqRlNBQ0NCdEFWbld0SFl3eGluMlFoZDZpbm93UUhidm9UMm5MOE5OQ2VNa1IxY3p0TVdHTXhUWlNFbzE3U0tNNVRjLWZXVFVBTVZJaVl6SWFMemNjMnJB?oc=5\" "
     }
   ]
 }

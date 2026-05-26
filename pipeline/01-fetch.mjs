@@ -234,6 +234,11 @@ const PPIO_KEYWORDS = {
     /房地产/, /养猪/, /猪肉/, /农产品/, /钢铁/, /煤炭/, /水泥/,
     /服装/, /化妆品/, /医美/, /牙科/, /眼科/,
     /篮球/, /足球/, /电竞/, /游戏.*收入/,
+    // 股票/财经分析 — GR视角不需要
+    /A股.*算力/, /算力.*涨停/, /算力.*概念股/, /算力.*ETF/, /算力.*基金/,
+    /涨停相迎/, /价值重估/, /机构前瞻/, /投资机会/, /买入评级/,
+    /绿电ETF/, /基本面关联/, /股价/, /市值/, /PE估值/, /市盈率/,
+    /炒股/, /散户/, /主力资金/, /龙虎榜/, /板块轮动/,
   ],
   // English keyword tiers for overseas RSS sources
   en_critical: [
@@ -301,12 +306,14 @@ function scorePPIORelevance(item) {
       const hasGermanFrench = /\b(von|der|die|das|und|für|mit|des|dem|ein|eine|ist|sind|wird|werden|les|des|une|pour|dans|avec|sur)\b/i.test(title);
       if (hasGermanFrench) return -50;
     }
-    if (/新华社|中国政府网|工信部|发改委|证监会|网信办|广电总局/.test(item.source || '')) score += 30;
-    if (/Reuters|南华早报|SCMP/.test(item.source || '')) score += 15;
-    if (/财新|新华报业|澎湃|thepaper|央视|人民日报/.test(item.source || '')) score += 20;
-    if (/aibase|量子位|机器之心|虎嗅.*AI/.test(item.source || '')) score += 15;
+    if (/新华社|中国政府网|工信部|发改委|证监会|网信办|广电总局|国家数据局/.test(item.source || '')) score += 35;
+    if (/人民日报|央视|新华网|中国新闻网|科技日报|经济日报/.test(item.source || '')) score += 25;
+    if (/财新|澎湃|thepaper|南华早报|SCMP|Reuters/.test(item.source || '')) score += 20;
+    if (/虎嗅|36氪|量子位|机器之心|aibase/.test(item.source || '')) score += 10;
     if (/VentureBeat|MIT Tech Review|TechCrunch|The Verge/.test(item.source || '')) score += 12;
-    if (/36氪/.test(item.source || '')) score += 5;
+    // 降权：股票/财经分析媒体
+    if (/同花顺|东方财富|财富号|雪球|股吧|证券时报|证券日报|中国证券报/.test(item.source || '')) score -= 20;
+    if (/新浪财经|搜狐财经|网易财经|腾讯财经/.test(item.source || '')) score -= 10;
 
     if (item.published === todayStr()) score += 10;
     else if (item.published >= weekAgoStrPlus(2)) score += 5;
@@ -464,10 +471,9 @@ function buildSearchQueries(config) {
   queries.push({ q: 'Lightning AI startup funding 2026', category: '竞品' });
   queries.push({ q: 'Parasail AI inference cloud funding', category: '竞品' });
 
-  // 资本
-  queries.push({ q: 'AI 人工智能 融资 IPO 估值', category: '资本' });
-  queries.push({ q: '超聚变 IPO 算力 上市', category: '资本' });
-  queries.push({ q: '香港 科技股 IPO 上市 算力', category: '资本' });
+  // 资本 — 只保留 IPO/上市监管相关，去掉股票分析
+  queries.push({ q: '香港 科技股 IPO 上市 监管 备案', category: '资本' });
+  queries.push({ q: '证监会 境外上市 备案 VIE 合规', category: '监管' });
 
   // 技术
   queries.push({ q: '阿里云 百度 华为 AI 发布 峰会 2026', category: '技术' });
