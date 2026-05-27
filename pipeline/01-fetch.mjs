@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * PPIO Expresso — Step 1: Fetch
+ * PPIO 产业政策信息流 — Step 1: Fetch
  * Aggregates news from RSS feeds + Google News search.
  *
  * Sources (ordered by priority):
@@ -363,7 +363,7 @@ function scorePPIORelevance(item) {
     if (/人民日报|央视|新华网|中国新闻网|科技日报|经济日报/.test(item.source || '')) score += 25;
     if (/上海市经信委|上海经信委|上海市数据局|上海市发改委|上海市委金融办/.test(item.source || '')) score += 35;
     if (/浦东新区|张江科学城|张江/.test(item.source || '')) score += 30;
-    if (/财新|澎湃|thepaper|南华早报|SCMP|Reuters/.test(item.source || '')) score += 20;
+    if (/财新|澎湃|thepaper|南华早报|SCMP|Reuters|Financial Times|FT\.com|联合早报|zaobao/.test(item.source || '')) score += 20;
     if (/虎嗅|36氪|量子位|机器之心|aibase/.test(item.source || '')) score += 10;
     if (/VentureBeat|MIT Tech Review|TechCrunch|The Verge/.test(item.source || '')) score += 12;
     // 降权：股票/财经分析媒体
@@ -564,6 +564,15 @@ function buildSearchQueries(config) {
   queries.push({ q: '中国 美国 AI 出口管制 芯片 供应链', category: '海外' });
   queries.push({ q: '中俄 AI 合作 治理 标准', category: '海外' });
 
+  // 海外媒体 — FT / Reuters / 联合早报
+  queries.push({ q: 'site:ft.com China AI chip regulation 2026', category: '海外' });
+  queries.push({ q: 'site:ft.com China technology IPO Hong Kong 2026', category: '海外' });
+  queries.push({ q: 'site:reuters.com China AI semiconductor export control', category: '海外' });
+  queries.push({ q: 'site:reuters.com China technology regulation 2026', category: '海外' });
+  queries.push({ q: '联合早报 中国 人工智能 芯片 监管', category: '海外' });
+  queries.push({ q: '联合早报 中国 科技 IPO 上市 2026', category: '海外' });
+  queries.push({ q: 'site:zaobao.com.sg 人工智能 算力 中国', category: '海外' });
+
   return queries;
 }
 
@@ -633,7 +642,7 @@ function getMockItems() {
 // ---- main ------------------------------------------------------------------
 
 async function main() {
-  console.log('━━━ PPIO Expresso: Step 1 — Fetch ━━━');
+  console.log('━━━ PPIO 产业政策信息流: Step 1 — Fetch ━━━');
   console.log(`  Date range: ${weekAgoStr()} → ${todayStr()}`);
 
   const config = loadConfig();
@@ -644,11 +653,28 @@ async function main() {
   // ── Phase 1: RSS feeds ──────────────────────────────────────────────
   console.log('\n  📡 RSS feeds...');
   const rssFeeds = [
+    // 中文社区
     { url: 'https://36kr.com/feed', source: '36氪' },
-    { url: 'https://venturebeat.com/category/ai/feed/', source: 'VentureBeat AI' },
-    { url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml', source: 'The Verge AI' },
-    { url: 'https://www.technologyreview.com/topic/artificial-intelligence/feed', source: 'MIT Tech Review AI' },
+    { url: 'https://www.jiqizhixin.com/rss', source: '机器之心' },
+    { url: 'https://www.qbitai.com/feed', source: '量子位' },
+    { url: 'https://www.latepost.com/rss', source: '晚点LatePost' },
+    { url: 'https://www.huxiu.com/rss/0.xml', source: '虎嗅' },
+    { url: 'https://www.cls.cn/rss', source: '财联社' },
+    // 产业商业化（英文）
     { url: 'https://techcrunch.com/feed/', source: 'TechCrunch' },
+    { url: 'https://venturebeat.com/category/ai/feed/', source: 'VentureBeat AI' },
+    { url: 'https://www.theinformation.com/feed', source: 'The Information' },
+    { url: 'https://www.semafor.com/rss', source: 'Semafor' },
+    // 算力/芯片/数据中心
+    { url: 'https://blogs.nvidia.com/feed/', source: 'NVIDIA Blog' },
+    { url: 'https://www.thenextplatform.com/feed/', source: 'The Next Platform' },
+    { url: 'https://semiengineering.com/feed/', source: 'Semiconductor Engineering' },
+    { url: 'https://www.servethehome.com/feed/', source: 'ServeTheHome' },
+    // 一手官方
+    { url: 'https://openai.com/news/rss.xml', source: 'OpenAI News' },
+    { url: 'https://www.anthropic.com/rss.xml', source: 'Anthropic News' },
+    // 产品工具
+    { url: 'https://www.technologyreview.com/topic/artificial-intelligence/feed', source: 'MIT Tech Review AI' },
   ];
 
   const rssResults = await Promise.all(rssFeeds.map(f => fetchRSS(f.url, f.source)));

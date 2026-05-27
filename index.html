@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PPIO Expresso — 2026-W22</title>
+<title>PPIO 产业政策信息流 — 2026-W22</title>
 <link rel="stylesheet" href="reader.css">
 <style>
   .ppio-signal {
@@ -105,11 +105,117 @@
     white-space: nowrap;
   }
   .wc-word:hover { opacity: 1 !important; color: var(--accent, #2a5080); }
+
+  /* ── Wind indicators ── */
+  .wind-section {
+    margin-top: 2.4rem;
+    padding: 1.1rem 1.2rem;
+    background: var(--bg-soft);
+    border: 1px solid var(--rule-soft);
+    border-radius: 6px;
+  }
+  .wind-header { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 0.4rem; }
+  .wind-header .speed-read-title { margin: 0; }
+  .wind-sentiment {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.15rem 0.55rem;
+    border-radius: 3px;
+    letter-spacing: 0.04em;
+  }
+  .wind-summary {
+    font-family: var(--sans);
+    font-size: 0.84rem;
+    color: var(--ink-soft);
+    margin: 0 0 0.9rem;
+    line-height: 1.5;
+  }
+  .wind-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6rem;
+  }
+  @media (max-width: 640px) { .wind-grid { grid-template-columns: repeat(2, 1fr); } }
+  .wind-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    background: #fff;
+    border: 1px solid var(--rule-soft);
+    border-radius: 4px;
+    padding: 0.55rem 0.7rem;
+  }
+  .wind-label { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-mute); letter-spacing: 0.03em; }
+  .wind-bar { display: flex; gap: 3px; align-items: center; }
+  .heat-dot { width: 8px; height: 8px; border-radius: 50%; }
+  .heat-on { background: #2a7a4f; }
+  .heat-off { background: #dde; }
+
+  /* ── Feed cards ── */
+  .feed-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.9rem; }
+  .feed-card {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 0.9rem 1.1rem 0.85rem;
+    transition: box-shadow 0.15s, border-color 0.15s;
+  }
+  .feed-card:hover { border-color: #b8c8dc; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .feed-card.is-tab-hidden { display: none; }
+  .card-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.4rem;
+    margin-bottom: 0.45rem;
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--ink-mute);
+  }
+  .card-source { font-weight: 600; color: var(--ink-soft); }
+  .card-sep { color: var(--rule); }
+  .card-date { color: var(--ink-mute); }
+  .card-cat {
+    padding: 0.1rem 0.45rem;
+    border-radius: 3px;
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: var(--ink-soft);
+    border: 1px solid rgba(0,0,0,0.07);
+  }
+  .card-badge--en {
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    background: #e8f0fe;
+    color: #1a56db;
+    border: 1px solid #c3d4f7;
+  }
+  .card-rank { margin-left: auto; color: var(--rule); font-size: 0.68rem; }
+  .card-title {
+    font-family: var(--serif);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.45;
+    margin: 0 0 0.5rem;
+    color: var(--ink);
+  }
+  .card-title a { color: inherit; text-decoration: none; }
+  .card-title a:hover { text-decoration: underline; color: var(--accent, #2a5080); }
+  .card-excerpt {
+    font-family: var(--sans);
+    font-size: 0.86rem;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    margin: 0;
+  }
 </style>
 </head>
 <body class="feed-page">
 <header class="page-header">
-  <span class="brand">PPIO Expresso</span>
+  <span class="brand">PPIO 产业政策信息流</span>
   <span class="header-meta">
     最后更新: <time datetime="2026-W22">2026-W22</time>
   </span>
@@ -126,10 +232,10 @@
       政策 <span class="tab-count">2</span>
     </button>
           <button class="tab" data-tab="竞品" role="tab" aria-selected="false">
-      竞品 <span class="tab-count">0</span>
+      竞品 <span class="tab-count">1</span>
     </button>
           <button class="tab" data-tab="监管" role="tab" aria-selected="false">
-      监管 <span class="tab-count">0</span>
+      监管 <span class="tab-count">1</span>
     </button>
           <button class="tab" data-tab="资本" role="tab" aria-selected="false">
       资本 <span class="tab-count">0</span>
@@ -148,68 +254,68 @@
   <section class="feed-section">
     <h2 class="date-section" title="2026-W22">2026-W22</h2>
     <ol class="feed-list">
-      <li class="feed-row" data-deep="true" data-tags="政策">
-        <span class="row-rank">1.</span>
-        <div class="row-body">
-          <h2 class="row-title">
-            <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzJ2U1V1aDhVWVRSN0RlV3ZIQ0ktaDRPWW9va0JkN3RzUnhKUGkwMHB6SUZmbGpuVlF6SXNidVA3N3hKeTYxT0h0MFhhMnZXeHZ5TkVOT3huMFdrWkFCQmx5THNNRzRNc0xBc214NllGYk8xRWtfbjRlWENsMkJ0XzM5dzk?oc=5" target="_blank" rel="noopener">进一步统筹“六张网”建设内容 - 人民日报</a>
-            <span class="row-domain">(人民日报)</span>
-          </h2>
-          <div class="row-meta">
-            <span>人民日报</span> <span class="row-sep">·</span>
-            <time>2026-05-26</time> <span class="row-sep">·</span>
-            <span class="label-pill">政策</span>
-            <span class="signal-chips"><span class="signal-chip" data-tip="中央/部委级别的政策文件与部署" aria-label="中央/部委级别的政策文件与部署">🏛️</span></span>
-          </div>
-          <p class="row-excerpt">人民日报发文提出进一步统筹“六张网”建设内容，涉及算力网等新型基础设施的顶层设计，强调统一规划与协同发展。</p>
-          <details class="ppio-signal">
+      <li class="feed-card" data-deep="true" data-tags="政策">
+        <div class="card-header">
+          <span class="card-source">人民日报</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-05-26</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#e8f4fd">政策</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="中央/部委级别的政策文件与部署" aria-label="中央/部委级别的政策文件与部署">🏛️</span></span>
+          <span class="card-rank">#1</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzJ2U1V1aDhVWVRSN0RlV3ZIQ0ktaDRPWW9va0JkN3RzUnhKUGkwMHB6SUZmbGpuVlF6SXNidVA3N3hKeTYxT0h0MFhhMnZXeHZ5TkVOT3huMFdrWkFCQmx5THNNRzRNc0xBc214NllGYk8xRWtfbjRlWENsMkJ0XzM5dzk?oc=5" target="_blank" rel="noopener">进一步统筹“六张网”建设内容 - 人民日报</a>
+        </h2>
+        <p class="card-excerpt">人民日报发文提出进一步统筹“六张网”建设内容，涉及算力网等新型基础设施的顶层设计，强调统一规划与协同发展。</p>
+        <details class="ppio-signal">
             <summary>PPIO 信号</summary>
             <p><strong>🟢 利好信号：</strong>国家将算力网纳入新基建体系，边缘云作为关键节点将受益于政策统筹，推动分布式算力需求增长。</p>
             <p><strong>🔴 风险信号：</strong>统筹强化可能带来集中式管控或标准准入要求，压缩中小平台差异化空间。</p>
           </details>
-        </div>
       </li>
-      <li class="feed-row" data-deep="true" data-tags="政策">
-        <span class="row-rank">2.</span>
-        <div class="row-body">
-          <h2 class="row-title">
-            <a href="https://news.google.com/rss/articles/CBMi5ANBVV95cUxNVFdmbkNtY250VkVfMDF4ZjdBSEdjUy1ubW10bGp6WFdXT0NCY3oxZ2FpSTUzcWh4d1NFeVRaNU1BUmswSk5oRkx2VUtmYURTTVNhZEFNWUoyTjBhQ1dFSGtYT3lpRzFacU5pUEFkaV9yTDBpVnpsSVdJQXdFRHplaU5vUl9zRFZTZ3E4dVkwRXB3RXljRnBIMWZPX3NCUGF2aVY5MHZZejVSTnhkQmFXc0xCcWR1dnVpcUFVX2t6QmdCdWtqell4SlVTZS1ld3gyR014blJ6enJPYXp3NUJ1Y1NWZU9ELW9pQmFETDd3LXczdmVYQlFERk9BSW1BbWdzSGsydHlwZlBiSDBEQVg1bE1XRHNyVXdaTUxqN2ZkUmkwSmEyNUMwY0dGM0JWZXlxMUNMV1N0YUFnaDQta0lkejlWMUtyanNOT1lQUHBqZER6ZWRmT2xHSmJTWVpMVElta3JuSk9rTlZXUEZHRUtheVhZaE1PRGNmVnZDM1N4di1QYUJxYmJXU2ZTWDA5ell0ZXhjdWZYUTNGN0VqbUZiNVJCdVdtUWJHRlc3eHM3b3hLYllQYmtaYmp2TzZVajdmUXYyZi12aGluWjBpTlRDVHhPLWZQN0tRSUo4MTZFTWhBQ2RC?oc=5" target="_blank" rel="noopener">工信部：探索“算力银行”“算力超市” 等创新业务支持中小企业存入闲置算力资源 - MSN</a>
-            <span class="row-domain">(MSN)</span>
-          </h2>
-          <div class="row-meta">
-            <span>MSN</span> <span class="row-sep">·</span>
-            <time>2026-05-25</time> <span class="row-sep">·</span>
-            <span class="label-pill">政策</span>
-            <span class="signal-chips"><span class="signal-chip" data-tip="中央/部委级别的政策文件与部署" aria-label="中央/部委级别的政策文件与部署">🏛️</span></span>
-          </div>
-          <p class="row-excerpt">工信部提出探索“算力银行”“算力超市”等创新业务，支持中小企业存入闲置算力资源，推动算力市场化流通。</p>
-          <details class="ppio-signal">
+      <li class="feed-card" data-deep="true" data-tags="政策">
+        <div class="card-header">
+          <span class="card-source">MSN</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-05-25</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#e8f4fd">政策</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="中央/部委级别的政策文件与部署" aria-label="中央/部委级别的政策文件与部署">🏛️</span></span>
+          <span class="card-rank">#2</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMi5ANBVV95cUxNVFdmbkNtY250VkVfMDF4ZjdBSEdjUy1ubW10bGp6WFdXT0NCY3oxZ2FpSTUzcWh4d1NFeVRaNU1BUmswSk5oRkx2VUtmYURTTVNhZEFNWUoyTjBhQ1dFSGtYT3lpRzFacU5pUEFkaV9yTDBpVnpsSVdJQXdFRHplaU5vUl9zRFZTZ3E4dVkwRXB3RXljRnBIMWZPX3NCUGF2aVY5MHZZejVSTnhkQmFXc0xCcWR1dnVpcUFVX2t6QmdCdWtqell4SlVTZS1ld3gyR014blJ6enJPYXp3NUJ1Y1NWZU9ELW9pQmFETDd3LXczdmVYQlFERk9BSW1BbWdzSGsydHlwZlBiSDBEQVg1bE1XRHNyVXdaTUxqN2ZkUmkwSmEyNUMwY0dGM0JWZXlxMUNMV1N0YUFnaDQta0lkejlWMUtyanNOT1lQUHBqZER6ZWRmT2xHSmJTWVpMVElta3JuSk9rTlZXUEZHRUtheVhZaE1PRGNmVnZDM1N4di1QYUJxYmJXU2ZTWDA5ell0ZXhjdWZYUTNGN0VqbUZiNVJCdVdtUWJHRlc3eHM3b3hLYllQYmtaYmp2TzZVajdmUXYyZi12aGluWjBpTlRDVHhPLWZQN0tRSUo4MTZFTWhBQ2RC?oc=5" target="_blank" rel="noopener">工信部：探索“算力银行”“算力超市” 等创新业务支持中小企业存入闲置算力资源 - MSN</a>
+        </h2>
+        <p class="card-excerpt">工信部提出探索“算力银行”“算力超市”等创新业务，支持中小企业存入闲置算力资源，推动算力市场化流通。</p>
+        <details class="ppio-signal">
             <summary>PPIO 信号</summary>
             <p><strong>🟢 利好信号：</strong>闲置算力共享模式获官方认可，PPIO的共享算力平台可借此加速拓展中小企业市场。</p>
             <p><strong>🔴 风险信号：</strong>算力银行等模式可能引入大型金融机构或运营商，加剧市场竞争并推高合规门槛。</p>
           </details>
-        </div>
       </li>
-      <li class="feed-row" data-deep="false" data-tags="竞品动向">
-        <span class="row-rank">3.</span>
-        <div class="row-body">
-          <h2 class="row-title">
-            <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFBMQWM0ZGNZVXViV1NxZXkwbnNwR3BpbnI2dlFuNDRkVnphMUpTaUJPR0ZqaTdBeTVNeUF2RHVRMkF1UnRlb2k0aWVqLWlUWGZmeXltZ3lRVEFhYzVNbGM4bVYzWXlSdHlvdEZr?oc=5" target="_blank" rel="noopener">校企联动 | 优刻得与上海科技大学共建智算未来 - 财富号</a>
-            <span class="row-domain">(财富号)</span>
-          </h2>
-          <div class="row-meta">
-            <span>财富号</span> <span class="row-sep">·</span>
-            <time>2026-05-26</time> <span class="row-sep">·</span>
-            <span class="label-pill">竞品动向</span>
-            <span class="signal-chips"><span class="signal-chip" data-tip="竞争对手的融资、产品、战略变化" aria-label="竞争对手的融资、产品、战略变化">⚔️</span></span>
-          </div>
-          <p class="row-excerpt">优刻得（UCloud）与上海科技大学达成校企合作，共建智算未来，涉及人才培养、科研创新与产业转化，强化其在智能计算领域的布局。</p>
-          <details class="ppio-signal">
+      <li class="feed-card" data-deep="false" data-tags="竞品">
+        <div class="card-header">
+          <span class="card-source">财富号</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-05-26</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#fdf3e8">竞品</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="竞争对手的融资、产品、战略变化" aria-label="竞争对手的融资、产品、战略变化">⚔️</span></span>
+          <span class="card-rank">#3</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFBMQWM0ZGNZVXViV1NxZXkwbnNwR3BpbnI2dlFuNDRkVnphMUpTaUJPR0ZqaTdBeTVNeUF2RHVRMkF1UnRlb2k0aWVqLWlUWGZmeXltZ3lRVEFhYzVNbGM4bVYzWXlSdHlvdEZr?oc=5" target="_blank" rel="noopener">校企联动 | 优刻得与上海科技大学共建智算未来 - 财富号</a>
+        </h2>
+        <p class="card-excerpt">优刻得（UCloud）与上海科技大学达成校企合作，共建智算未来，涉及人才培养、科研创新与产业转化，强化其在智能计算领域的布局。</p>
+        <details class="ppio-signal">
             <summary>PPIO 信号</summary>
             <p><strong>🟢 利好信号：</strong>竞品在智算产教融合的投入，验证了边缘算力与行业场景结合的长期需求，为PPIO拓展生态提供参考路线。</p>
             <p><strong>🔴 风险信号：</strong>优刻得借助高校储备智算人才并构建技术壁垒，可能在中长期增强其在边缘计算、分布式算力领域的竞争力，对PPIO形成市场挤压。</p>
           </details>
-        </div>
       </li>
     </ol>
   </section>
@@ -218,76 +324,102 @@
   <section class="feed-section">
     <h2 class="date-section" title="简报">简报 (lane:silent)</h2>
     <ol class="feed-list">
-      <li class="feed-row" data-deep="false" data-tags="技术">
-        <span class="row-rank">4.</span>
-        <div class="row-body">
-          <h2 class="row-title">
-            <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVTBtMERqZTlFT3ZXbDh1UWRtYUQ2ZGdhTVpDNWdFWUVlV1gya3RJdlZ6Slo3X2JoVTRZb01idi13TFc1NkVxOU9GdVpzMVBob1BWRnE2Ynk5QnVVVHp3WTVRQ29LWk1yZ1JjcVdzelVmWEt6dHdnVkJHVGx2cWU1dVp6cFptc2lL?oc=5" target="_blank" rel="noopener">Token越来越贵？别慌，算力网要来了 - 搜狐网</a>
-            <span class="row-domain">(搜狐网)</span>
-          </h2>
-          <div class="row-meta">
-            <span>搜狐网</span> <span class="row-sep">·</span>
-            <time>2026-05-26</time> <span class="row-sep">·</span>
-            <span class="label-pill">技术</span>
-            <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
-          </div>
-          <p class="row-excerpt">媒体报道算力网建设将缓解AI算力成本压力，有望成为新一代基础设施。</p>
+      <li class="feed-card" data-deep="false" data-tags="技术">
+        <div class="card-header">
+          <span class="card-source">搜狐网</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-05-26</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#f0f8fd">技术</span>
           
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#4</span>
         </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVTBtMERqZTlFT3ZXbDh1UWRtYUQ2ZGdhTVpDNWdFWUVlV1gya3RJdlZ6Slo3X2JoVTRZb01idi13TFc1NkVxOU9GdVpzMVBob1BWRnE2Ynk5QnVVVHp3WTVRQ29LWk1yZ1JjcVdzelVmWEt6dHdnVkJHVGx2cWU1dVp6cFptc2lL?oc=5" target="_blank" rel="noopener">Token越来越贵？别慌，算力网要来了 - 搜狐网</a>
+        </h2>
+        <p class="card-excerpt">媒体报道算力网建设将缓解AI算力成本压力，有望成为新一代基础设施。</p>
+        
       </li>
-      <li class="feed-row" data-deep="false" data-tags="技术">
-        <span class="row-rank">5.</span>
-        <div class="row-body">
-          <h2 class="row-title">
-            <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uVjIydFB4WDJRd01jZ0RkaDZ3cjRta1dTUDNlUTQwQlVvQU5HSDBJT3ZlOGhUZ19pTkNQeXUwS0FwRi1FT29QdGhqdDlWSTVjYnpXODJqR0Q2QUdETmc?oc=5" target="_blank" rel="noopener">从模型诞生到上线：Ray 在小红书 AI 数据生产中的算力调度实践｜AICon 上海 - Infoq.cn</a>
-            <span class="row-domain">(Infoq.cn)</span>
-          </h2>
-          <div class="row-meta">
-            <span>Infoq.cn</span> <span class="row-sep">·</span>
-            <time>2026-05-26</time> <span class="row-sep">·</span>
-            <span class="label-pill">技术</span>
-            <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
-          </div>
-          <p class="row-excerpt">小红书借助Ray实现AI数据生产的算力调度优化，展示分布式框架在业内的实践。</p>
+      <li class="feed-card" data-deep="false" data-tags="技术">
+        <div class="card-header">
+          <span class="card-source">Infoq.cn</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-05-26</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#f0f8fd">技术</span>
           
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#5</span>
         </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uVjIydFB4WDJRd01jZ0RkaDZ3cjRta1dTUDNlUTQwQlVvQU5HSDBJT3ZlOGhUZ19pTkNQeXUwS0FwRi1FT29QdGhqdDlWSTVjYnpXODJqR0Q2QUdETmc?oc=5" target="_blank" rel="noopener">从模型诞生到上线：Ray 在小红书 AI 数据生产中的算力调度实践｜AICon 上海 - Infoq.cn</a>
+        </h2>
+        <p class="card-excerpt">小红书借助Ray实现AI数据生产的算力调度优化，展示分布式框架在业内的实践。</p>
+        
       </li>
-      <li class="feed-row" data-deep="false" data-tags="技术">
-        <span class="row-rank">6.</span>
-        <div class="row-body">
-          <h2 class="row-title">
-            <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE12UTExdVZzeXlnZ284T09GM3E1c1NPRzg0N0cxWjR4MDhVc3RtVmJQdjByUC1XbmFrczlWY1BtNjYwbVNnclBUdDJLN2oxbTNLUEYxVFlfcjktZkRDTVROZFdqc21UUVZE?oc=5" target="_blank" rel="noopener">江苏扬州：算力新基建“抢跑”布局 打造数字经济“超级引擎” - 紫牛新闻</a>
-            <span class="row-domain">(紫牛新闻)</span>
-          </h2>
-          <div class="row-meta">
-            <span>紫牛新闻</span> <span class="row-sep">·</span>
-            <time>2026-05-23</time> <span class="row-sep">·</span>
-            <span class="label-pill">技术</span>
-            <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
-          </div>
-          <p class="row-excerpt">江苏扬州抢先布局算力新基建，打造数字经济引擎，推动算力资源池建设。</p>
+      <li class="feed-card" data-deep="false" data-tags="技术">
+        <div class="card-header">
+          <span class="card-source">紫牛新闻</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-05-23</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#f0f8fd">技术</span>
           
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#6</span>
         </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE12UTExdVZzeXlnZ284T09GM3E1c1NPRzg0N0cxWjR4MDhVc3RtVmJQdjByUC1XbmFrczlWY1BtNjYwbVNnclBUdDJLN2oxbTNLUEYxVFlfcjktZkRDTVROZFdqc21UUVZE?oc=5" target="_blank" rel="noopener">江苏扬州：算力新基建“抢跑”布局 打造数字经济“超级引擎” - 紫牛新闻</a>
+        </h2>
+        <p class="card-excerpt">江苏扬州抢先布局算力新基建，打造数字经济引擎，推动算力资源池建设。</p>
+        
       </li>
-      <li class="feed-row" data-deep="false" data-tags="海外监管">
-        <span class="row-rank">7.</span>
-        <div class="row-body">
-          <h2 class="row-title">
-            <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE9nekFDV2lhWEZ3bG1hMWZ5R3JoMTNOaTZjS05zaDYyQS1JX2hNM3ZDUjZ1d1hseTBDc0FnV1ZQcy0xWXdqZHJReEpQbzBBdk15am5FWG1BYVJjMHVmX1BabkhibGcwcUVkVC03a3Q0SGJxLTRNY1lN?oc=5" target="_blank" rel="noopener">特朗普批准英伟达向中国销售芯片，北京为何不愿接受？ - 纽约时报中文网</a>
-            <span class="row-domain">(纽约时报中文网)</span>
-          </h2>
-          <div class="row-meta">
-            <span>纽约时报中文网</span> <span class="row-sep">·</span>
-            <time>2026-05-22</time> <span class="row-sep">·</span>
-            <span class="label-pill">海外监管</span>
-            <span class="signal-chips"><span class="signal-chip" data-tip="美国/欧盟AI监管与政策动向" aria-label="美国/欧盟AI监管与政策动向">🌏</span></span>
-          </div>
-          <p class="row-excerpt">特朗普批准英伟达对华销售芯片但北京态度保留，反映中美芯片管制博弈，可能影响中国AI算力供应链。</p>
+      <li class="feed-card" data-deep="false" data-tags="监管">
+        <div class="card-header">
+          <span class="card-source">纽约时报中文网</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-05-22</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#fdf0f0">监管</span>
           
+          <span class="signal-chips"><span class="signal-chip" data-tip="美国/欧盟AI监管与政策动向" aria-label="美国/欧盟AI监管与政策动向">🌏</span></span>
+          <span class="card-rank">#7</span>
         </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE9nekFDV2lhWEZ3bG1hMWZ5R3JoMTNOaTZjS05zaDYyQS1JX2hNM3ZDUjZ1d1hseTBDc0FnV1ZQcy0xWXdqZHJReEpQbzBBdk15am5FWG1BYVJjMHVmX1BabkhibGcwcUVkVC03a3Q0SGJxLTRNY1lN?oc=5" target="_blank" rel="noopener">特朗普批准英伟达向中国销售芯片，北京为何不愿接受？ - 纽约时报中文网</a>
+        </h2>
+        <p class="card-excerpt">特朗普批准英伟达对华销售芯片但北京态度保留，反映中美芯片管制博弈，可能影响中国AI算力供应链。</p>
+        
       </li>
     </ol>
   </section>
+
+  <section class="wind-section">
+  <div class="wind-header">
+    <h2 class="speed-read-title">本周风向</h2>
+    <span class="wind-sentiment" style="background:#e8f7ee;color:#2d7a4f">升温</span>
+  </div>
+  <p class="wind-summary">政策面高热，算力网建设全面提速；竞品与海外监管保持活跃，资本动态平稳。</p>
+  <div class="wind-grid">
+    <div class="wind-item">
+      <span class="wind-label">政策热度</span>
+      <span class="wind-bar"><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-off"></span></span>
+    </div>
+    <div class="wind-item">
+      <span class="wind-label">竞品动态</span>
+      <span class="wind-bar"><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span></span>
+    </div>
+    <div class="wind-item">
+      <span class="wind-label">资本活跃</span>
+      <span class="wind-bar"><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span></span>
+    </div>
+    <div class="wind-item">
+      <span class="wind-label">海外监管</span>
+      <span class="wind-bar"><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span></span>
+    </div>
+  </div>
+</section>
 
   <section class="ppio-speed-read">
     <h2 class="speed-read-title">PPIO 信号速读</h2>
@@ -319,7 +451,7 @@
 <script>
   (function() {
     const tabs = document.querySelectorAll('.feed-tabs .tab');
-    const rows = document.querySelectorAll('.feed-row');
+    const rows = document.querySelectorAll('.feed-card');
     tabs.forEach(tab => {
       tab.addEventListener('click', () => {
         tabs.forEach(t => { t.classList.remove('is-active'); t.setAttribute('aria-selected', 'false'); });

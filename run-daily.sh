@@ -1,5 +1,5 @@
 #!/bin/bash
-# PPIO Expresso — Daily pipeline runner
+# PPIO 产业政策信息流 — Daily pipeline runner
 # Scheduled via launchd: ~/Library/LaunchAgents/com.ppio.expresso.plist
 
 set -e
@@ -11,7 +11,7 @@ mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/$(date +%Y-%m-%d).log"
 
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" >> "$LOG_FILE"
-echo "  PPIO Expresso — $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE"
+echo "  PPIO 产业政策信息流 — $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" >> "$LOG_FILE"
 
 # Load credentials

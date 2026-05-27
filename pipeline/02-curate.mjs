@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * PPIO Expresso — Step 2: Curate
+ * PPIO 产业政策信息流 — Step 2: Curate
  * Runs each raw news item through the PPIO signal detection system.
  * Routes items into lane:attend or lane:silent. lane:skip items are dropped.
  *
@@ -75,7 +75,7 @@ function buildSystemPrompt(config) {
     .map(([id, c]) => `${id}: ${c.question}`)
     .join('\n');
 
-  return `你是 PPIO Expresso 信息策展人。PPIO 是一家边缘云分布式算力平台公司，正在准备香港 IPO。
+  return `你是 PPIO 产业政策信息流 信息策展人。PPIO 是一家边缘云分布式算力平台公司，正在准备香港 IPO。
 
 你的任务是：阅读下面每条新闻，判断它是否触发 PPIO 信号标签，并路由到正确的处理车道。
 
@@ -105,7 +105,7 @@ ${signalList}
   "id": "raw-xxx",
   "lane": "attend" | "silent" | "skip",
   "signals": ["🏛️"],           // 触发的信号 emoji 列表
-  "category": "政策",           // 内容分类
+  "category": "政策",           // 内容分类，必须从以下枚举中选一个：政策|竞品|监管|资本|海外|技术|治理
   "is_deep_read": true,        // 是否深度阅读
   "compass_triggered": ["c1"], // 触发的 Compass Question
   "summary_cn": "...",         // lane:attend ≤200字, lane:silent ≤80字
@@ -130,6 +130,24 @@ function buildItemPrompt(item) {
 内容: ${item.body_snippet}
 ---
 返回 JSON（不要 markdown 代码块，直接返回 JSON 对象）。`;
+}
+
+// ---- category normalization ------------------------------------------------
+
+const VALID_CATEGORIES = ['政策', '竞品', '监管', '资本', '海外', '技术', '治理'];
+
+function normalizeCategory(cat) {
+  if (!cat) return '政策';
+  if (VALID_CATEGORIES.includes(cat)) return cat;
+  // Fuzzy map common AI variants
+  if (/竞品|竞争|对手|competitor/i.test(cat)) return '竞品';
+  if (/监管|合规|审查|备案|牌照/i.test(cat)) return '监管';
+  if (/资本|融资|IPO|上市|估值/i.test(cat)) return '资本';
+  if (/海外|国际|美国|欧盟|overseas/i.test(cat)) return '海外';
+  if (/技术|算力|模型|推理|架构/i.test(cat)) return '技术';
+  if (/治理|伦理|安全|governance/i.test(cat)) return '治理';
+  if (/政策|政府|部委|国务院|发改委|工信部/i.test(cat)) return '政策';
+  return '政策'; // default
 }
 
 // ---- rule-based fallback ---------------------------------------------------
@@ -178,7 +196,7 @@ function ruleBasedClassify(item, config) {
   return {
     lane,
     signals: signals.length ? signals : ['—'],
-    category: category || '其他',
+    category: normalizeCategory(category),
     is_deep_read: isDeep,
     compass_triggered: compasses.length ? compasses : ['c1'],
     summary_cn: lane === 'attend'
@@ -195,7 +213,7 @@ function ruleBasedClassify(item, config) {
 // ---- main ------------------------------------------------------------------
 
 async function main() {
-  console.log('━━━ PPIO Expresso: Step 2 — Curate ━━━');
+  console.log('━━━ PPIO 产业政策信息流: Step 2 — Curate ━━━');
 
   const config = loadJSON(CONFIG_PATH);
   const raw = loadJSON(IN_PATH);
@@ -234,11 +252,11 @@ async function main() {
           parsed = batch.map(item => ruleBasedClassify(item, config));
         }
 
-        // Merge with original item data
-        const enriched = batch.map((item, idx) => ({
-          ...item,
-          ...(parsed[idx] || ruleBasedClassify(item, config))
-        }));
+        // Merge with original item data, normalize category
+        const enriched = batch.map((item, idx) => {
+          const cls = parsed[idx] || ruleBasedClassify(item, config);
+          return { ...item, ...cls, category: normalizeCategory(cls.category) };
+        });
 
         curated.push(...enriched);
         console.log(`    Batch ${Math.floor(i/batchSize) + 1}/${Math.ceil(items.length/batchSize)} complete`);

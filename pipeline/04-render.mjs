@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * PPIO Expresso — Step 4: Render
+ * PPIO 产业政策信息流 — Step 4: Render
  * Generates static index.html from curated items + weekly synthesis.
  *
  * Input:  data/curated-items.json + data/weekly-synthesis.json
@@ -130,7 +130,7 @@ function renderWordCloud(keywords) {
 
 function renderHeader(week) {
   return `<header class="page-header">
-  <span class="brand">PPIO Expresso</span>
+  <span class="brand">PPIO 产业政策信息流</span>
   <span class="header-meta">
     最后更新: <time datetime="${week}">${week}</time>
   </span>
@@ -199,24 +199,73 @@ function renderPPIOSignal(ppio) {
 function renderFeedItem(item, idx) {
   const rank = String(idx + 1);
   const isEnglish = /[a-z]{4,}/.test(item.title) && !/[一-鿿]/.test(item.title);
-  const enBadge = isEnglish ? '<span class="label-pill" style="background:#e8f0fe;color:#1a56db;border-color:#c3d4f7">EN</span> ' : '';
-  return `<li class="feed-row" data-deep="${item.is_deep_read ? 'true' : 'false'}" data-tags="${esc(item.category || '')}">
-        <span class="row-rank">${rank}.</span>
-        <div class="row-body">
-          <h2 class="row-title">
-            ${enBadge}<a href="${esc(item.url || '#')}" target="_blank" rel="noopener">${esc(item.title)}</a>
-            <span class="row-domain">(${esc(item.source)})</span>
-          </h2>
-          <div class="row-meta">
-            <span>${esc(item.source)}</span> <span class="row-sep">·</span>
-            <time>${esc(item.published || '')}</time> <span class="row-sep">·</span>
-            <span class="label-pill">${esc(item.category)}</span>
-            ${renderSignalChips(item.signals)}
-          </div>
-          <p class="row-excerpt">${esc(item.summary_cn || item.body_snippet || '')}</p>
-          ${renderPPIOSignal(item.ppio_signal)}
+  const enBadge = isEnglish ? '<span class="card-badge card-badge--en">EN</span>' : '';
+  const catColor = {
+    '政策': '#e8f4fd', '竞品': '#fdf3e8', '监管': '#fdf0f0',
+    '资本': '#f0fdf4', '海外': '#f3f0fd', '技术': '#f0f8fd', '治理': '#fdf8f0'
+  };
+  const catBg = catColor[item.category] || '#f5f5f5';
+  return `<li class="feed-card" data-deep="${item.is_deep_read ? 'true' : 'false'}" data-tags="${esc(item.category || '')}">
+        <div class="card-header">
+          <span class="card-source">${esc(item.source)}</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">${esc(item.published || '')}</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:${catBg}">${esc(item.category)}</span>
+          ${enBadge}
+          ${renderSignalChips(item.signals)}
+          <span class="card-rank">#${rank}</span>
         </div>
+        <h2 class="card-title">
+          <a href="${esc(item.url || '#')}" target="_blank" rel="noopener">${esc(item.title)}</a>
+        </h2>
+        <p class="card-excerpt">${esc(item.summary_cn || item.body_snippet || '')}</p>
+        ${renderPPIOSignal(item.ppio_signal)}
       </li>`;
+}
+
+function renderWindIndicators(synthesis) {
+  if (!synthesis || !synthesis.wind_indicators) return '';
+  const w = synthesis.wind_indicators;
+
+  const sentimentColor = {
+    '升温': '#e8f7ee', '活跃': '#e8f0fe', '平稳': '#f5f5f5',
+    '降温': '#fdf3f0', '观望': '#fdfaf0'
+  };
+  const sentimentText = {
+    '升温': '#2d7a4f', '活跃': '#1a56db', '平稳': '#555',
+    '降温': '#8f3b27', '观望': '#8f7020'
+  };
+  const bg = sentimentColor[w.overall_sentiment] || '#f5f5f5';
+  const fg = sentimentText[w.overall_sentiment] || '#333';
+
+  function heatBar(val) {
+    const v = Math.max(1, Math.min(5, val || 1));
+    return Array.from({length: 5}, (_, i) =>
+      `<span class="heat-dot ${i < v ? 'heat-on' : 'heat-off'}"></span>`
+    ).join('');
+  }
+
+  const indicators = [
+    { label: '政策热度', val: w.policy_heat },
+    { label: '竞品动态', val: w.competitor_heat },
+    { label: '资本活跃', val: w.capital_heat },
+    { label: '海外监管', val: w.overseas_heat },
+  ];
+
+  return `<section class="wind-section">
+  <div class="wind-header">
+    <h2 class="speed-read-title">本周风向</h2>
+    <span class="wind-sentiment" style="background:${bg};color:${fg}">${esc(w.overall_sentiment)}</span>
+  </div>
+  <p class="wind-summary">${esc(w.summary || '')}</p>
+  <div class="wind-grid">
+    ${indicators.map(ind => `<div class="wind-item">
+      <span class="wind-label">${esc(ind.label)}</span>
+      <span class="wind-bar">${heatBar(ind.val)}</span>
+    </div>`).join('\n    ')}
+  </div>
+</section>`;
 }
 
 function renderSpeedRead(synthesis) {
@@ -251,7 +300,7 @@ function renderHTML(curated, synthesis) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PPIO Expresso — ${week}</title>
+<title>PPIO 产业政策信息流 — ${week}</title>
 <link rel="stylesheet" href="reader.css">
 <style>
   .ppio-signal {
@@ -353,6 +402,112 @@ function renderHTML(curated, synthesis) {
     white-space: nowrap;
   }
   .wc-word:hover { opacity: 1 !important; color: var(--accent, #2a5080); }
+
+  /* ── Wind indicators ── */
+  .wind-section {
+    margin-top: 2.4rem;
+    padding: 1.1rem 1.2rem;
+    background: var(--bg-soft);
+    border: 1px solid var(--rule-soft);
+    border-radius: 6px;
+  }
+  .wind-header { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 0.4rem; }
+  .wind-header .speed-read-title { margin: 0; }
+  .wind-sentiment {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.15rem 0.55rem;
+    border-radius: 3px;
+    letter-spacing: 0.04em;
+  }
+  .wind-summary {
+    font-family: var(--sans);
+    font-size: 0.84rem;
+    color: var(--ink-soft);
+    margin: 0 0 0.9rem;
+    line-height: 1.5;
+  }
+  .wind-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6rem;
+  }
+  @media (max-width: 640px) { .wind-grid { grid-template-columns: repeat(2, 1fr); } }
+  .wind-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    background: #fff;
+    border: 1px solid var(--rule-soft);
+    border-radius: 4px;
+    padding: 0.55rem 0.7rem;
+  }
+  .wind-label { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-mute); letter-spacing: 0.03em; }
+  .wind-bar { display: flex; gap: 3px; align-items: center; }
+  .heat-dot { width: 8px; height: 8px; border-radius: 50%; }
+  .heat-on { background: #2a7a4f; }
+  .heat-off { background: #dde; }
+
+  /* ── Feed cards ── */
+  .feed-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.9rem; }
+  .feed-card {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 0.9rem 1.1rem 0.85rem;
+    transition: box-shadow 0.15s, border-color 0.15s;
+  }
+  .feed-card:hover { border-color: #b8c8dc; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .feed-card.is-tab-hidden { display: none; }
+  .card-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.4rem;
+    margin-bottom: 0.45rem;
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--ink-mute);
+  }
+  .card-source { font-weight: 600; color: var(--ink-soft); }
+  .card-sep { color: var(--rule); }
+  .card-date { color: var(--ink-mute); }
+  .card-cat {
+    padding: 0.1rem 0.45rem;
+    border-radius: 3px;
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: var(--ink-soft);
+    border: 1px solid rgba(0,0,0,0.07);
+  }
+  .card-badge--en {
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    background: #e8f0fe;
+    color: #1a56db;
+    border: 1px solid #c3d4f7;
+  }
+  .card-rank { margin-left: auto; color: var(--rule); font-size: 0.68rem; }
+  .card-title {
+    font-family: var(--serif);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.45;
+    margin: 0 0 0.5rem;
+    color: var(--ink);
+  }
+  .card-title a { color: inherit; text-decoration: none; }
+  .card-title a:hover { text-decoration: underline; color: var(--accent, #2a5080); }
+  .card-excerpt {
+    font-family: var(--sans);
+    font-size: 0.86rem;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    margin: 0;
+  }
 </style>
 </head>
 <body class="feed-page">
@@ -374,6 +529,8 @@ ${renderTabs(curated)}
     </ol>
   </section>` : ''}
 
+  ${renderWindIndicators(synthesis)}
+
   ${renderSpeedRead(synthesis)}
 
   ${renderWordCloud(keywords)}
@@ -386,7 +543,7 @@ ${renderTabs(curated)}
 <script>
   (function() {
     const tabs = document.querySelectorAll('.feed-tabs .tab');
-    const rows = document.querySelectorAll('.feed-row');
+    const rows = document.querySelectorAll('.feed-card');
     tabs.forEach(tab => {
       tab.addEventListener('click', () => {
         tabs.forEach(t => { t.classList.remove('is-active'); t.setAttribute('aria-selected', 'false'); });
@@ -408,7 +565,7 @@ ${renderTabs(curated)}
 // ---- main ------------------------------------------------------------------
 
 async function main() {
-  console.log('━━━ PPIO Expresso: Step 4 — Render ━━━');
+  console.log('━━━ PPIO 产业政策信息流: Step 4 — Render ━━━');
 
   const curated = loadJSON(CURATED_PATH);
   let synthesis = { mainline: '', speed_read: null, signal_summary: {} };
@@ -503,7 +660,7 @@ function renderArchiveHTML(archive) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PPIO Expresso — 日报存档</title>
+<title>PPIO 产业政策信息流 — 日报存档</title>
 <link rel="stylesheet" href="reader.css">
 <style>
   .archive-table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.84rem; margin-top: 1.4rem; }
@@ -518,7 +675,7 @@ function renderArchiveHTML(archive) {
 </head>
 <body class="archive-page">
 <header class="page-header">
-  <span class="brand">PPIO Expresso</span>
+  <span class="brand">PPIO 产业政策信息流</span>
   <span class="header-meta">周报存档</span>
   <nav class="header-nav">
     <a href="index.html">← 本周</a>

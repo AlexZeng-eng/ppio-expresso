@@ -25,5 +25,13 @@
   "competitor_updates": [
     "优刻得（UCloud）与上海科技大学达成校企合作，共建智算未来，强化人才培养与产业转化，进一步围绕智算中心构建生态壁垒"
   ],
-  "_generated_by": "deepseek-v4-pro"
+  "_generated_by": "deepseek-v4-pro",
+  "wind_indicators": {
+    "policy_heat": 4,
+    "competitor_heat": 3,
+    "capital_heat": 2,
+    "overseas_heat": 3,
+    "overall_sentiment": "升温",
+    "summary": "政策面高热，算力网建设全面提速；竞品与海外监管保持活跃，资本动态平稳。"
+  }
 }

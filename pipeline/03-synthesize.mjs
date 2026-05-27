@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * PPIO Expresso — Step 3: Synthesize
+ * PPIO 产业政策信息流 — Step 3: Synthesize
  * Takes curated items and generates the weekly PPIO Signal Speed-Read.
  * Produces the two-signal analysis (利好/风险).
  *
@@ -63,7 +63,7 @@ function buildSynthesisPrompt(config, curated) {
   const compass = config.charter.compass_questions;
   const signals = config.charter.signal_tags;
 
-  return `你是 PPIO Expresso 周报主编。PPIO 是一家边缘云分布式算力平台公司，正在准备香港 IPO。
+  return `你是 PPIO 产业政策信息流 周报主编。PPIO 是一家边缘云分布式算力平台公司，正在准备香港 IPO。
 
 请根据以下本周精选新闻，撰写 PPIO 信号速读。
 
@@ -88,17 +88,27 @@ ${silentSummary || '（无）'}
     "positive": ["利好信号1", "利好信号2"],
     "risk": ["风险信号1", "风险信号2"]
   },
+  "wind_indicators": {
+    "policy_heat": 3,
+    "competitor_heat": 2,
+    "capital_heat": 1,
+    "overseas_heat": 2,
+    "overall_sentiment": "升温",
+    "summary": "一句话说明本周整体风向"
+  },
   "competitor_updates": ["需要更新的竞品档案条目"]
 }
 
 重要规则：
 - mainline ≤ 80 字，点出本周对 PPIO 最重要的变化
 - 每个信号至少 1 条，最多 3 条
+- wind_indicators 各 heat 值为 1-5 整数（1=冷淡 3=活跃 5=高热）
+- overall_sentiment 从以下选一个：升温 / 活跃 / 平稳 / 降温 / 观望
 - 直接返回 JSON，不要 markdown 代码块`;
 }
 
 async function main() {
-  console.log('━━━ PPIO Expresso: Step 3 — Synthesize ━━━');
+  console.log('━━━ PPIO 产业政策信息流: Step 3 — Synthesize ━━━');
 
   const config = loadJSON(CONFIG_PATH);
   const curated = loadJSON(IN_PATH);
@@ -148,6 +158,14 @@ async function main() {
           'AI综合性立法进入预备审议→VIE备案不确定性叠加',
           '美国AI安全审查机制→若管制扩至云服务，海外事业部跨境算力服务可能受波及'
         ]
+      },
+      wind_indicators: {
+        policy_heat: 3,
+        competitor_heat: 2,
+        capital_heat: 2,
+        overseas_heat: 2,
+        overall_sentiment: '平稳',
+        summary: '政策面保持活跃，竞品与资本动态平稳，海外监管持续关注中。'
       },
       competitor_updates: [
         '无问芯穹：更新融资信息(7亿元/45亿估值)、新定位(企业级智能体服务平台)、竞品重叠分析'
