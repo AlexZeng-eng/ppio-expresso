@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * PPIO Expresso — Full Pipeline Runner
+ * PPIO 产业政策信息流 — Full Pipeline Runner
  *
  * Usage:
  *   node pipeline/run.mjs              # Run all 4 steps
@@ -62,7 +62,7 @@ function main() {
   const targetStep = stepArg ? parseInt(stepArg.split('=')[1]) : null;
 
   console.log('╔══════════════════════════════════════╗');
-  console.log('║   PPIO Expresso — Pipeline Runner    ║');
+  console.log('║   PPIO 产业政策信息流 — Pipeline Runner    ║');
   console.log('╚══════════════════════════════════════╝');
 
   if (!process.env.PPIO_DEEPSEEK_API_KEY && !dryRun) {

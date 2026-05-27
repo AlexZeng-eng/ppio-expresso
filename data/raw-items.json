@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-27T02:27:50.869Z",
+  "generated_at": "2026-05-27T10:40:27.241Z",
   "week": "2026-W22",
   "date_range": {
     "from": "2026-05-20",
     "to": "2026-05-27"
   },
   "fetch_method": "live",
-  "item_count": 10,
+  "item_count": 15,
   "items": [
     {
       "id": "raw-001",
@@ -19,15 +19,51 @@
     },
     {
       "id": "raw-002",
-      "title": "Token越来越贵？别慌，算力网要来了 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVTBtMERqZTlFT3ZXbDh1UWRtYUQ2ZGdhTVpDNWdFWUVlV1gya3RJdlZ6Slo3X2JoVTRZb01idi13TFc1NkVxOU9GdVpzMVBob1BWRnE2Ynk5QnVVVHp3WTVRQ29LWk1yZ1JjcVdzelVmWEt6dHdnVkJHVGx2cWU1dVp6cFptc2lL?oc=5",
-      "source": "搜狐网",
-      "category": "政策",
-      "published": "2026-05-26",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVTBtMERqZTlFT3ZXbDh1UWRtYUQ2ZGdhTVpDNWdFWUVlV1gya3RJdlZ6Slo3X2JoVTRZb01idi13TFc1NkVxOU9GdVpzMVBob1BWRnE2Ynk5QnVVVHp3WTVRQ29LWk1yZ1JjcVdzelV"
+      "title": "三大运营商推出Token套餐，转型AI算力零售商 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1kaFRaQWR3dkwzbUJSaks2bkpqTVA1bEpfbldQZ3RMVWg0NDNud0htcTNYU2tBS2NKd3JNNVBOelZjazJLczhmWE5OZEp6cnRSWXc?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-05-21",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE1kaFRaQWR3dkwzbUJSaks2bkpqTVA1bEpfbldQZ3RMVWg0NDNud0htcTNYU2tBS2NKd3JNNVBOelZjazJLczhmWE5OZEp6cnRSWXc?oc=5\" target=\"_blank\" 三大运营商推出Token套餐，转型"
     },
     {
       "id": "raw-003",
+      "title": "香农芯创：预计2026年海普存储的收入会有显著增长",
+      "url": "https://36kr.com/newsflashes/3827385485251201?f=rss",
+      "source": "36氪",
+      "published": "2026-05-27",
+      "body_snippet": "36氪获悉，香农芯创在业绩说明会上表示，公司与SK海力士是长期合作伙伴，代理权稳定。公司企业级SSD进展顺利，目前已经和国内主流算力设备厂商完成验证对接并取得了规模销售。据市场观点，存储芯片供需缺口在短期内难以缓解，预计存储芯片市场Q2会继续维持比较高的景气度。海普存储是公司自研产品品牌，是公司的重点发展方向，公司将持续深化“分销+产品”一体两翼的经营战略，把战略资源逐步向海普存储部署。目前存储行",
+      "category": "技术"
+    },
+    {
+      "id": "raw-004",
+      "title": "长信科技：子公司拟采购不超过30亿元算力服务器",
+      "url": "https://36kr.com/newsflashes/3827366404952704?f=rss",
+      "source": "36氪",
+      "published": "2026-05-27",
+      "body_snippet": "36氪获悉，长信科技公告，公司子公司长信智算拟向多家供应商采购服务器，总金额预计不超过30亿元，主要用于为客户提供算力服务。本次交易不构成重大资产重组或关联交易，已获董事会审议通过，无需提交股东会审议。公司提示，算力业务尚处拓展初期，存在市场、技术、资金等风险，短期内可能增加财务费用并影响业绩。",
+      "category": "资本"
+    },
+    {
+      "id": "raw-005",
+      "title": "郑州西亚斯学院校友捐赠20亿Token引争议，市场定价混乱凸显算力供需失衡 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfTjdOZjlZM1JyaGJaLUZqUHBlVFFlX0s4UTVxQUhOQVpHMFgzNDA1aGc1N1Y4MXR0UDdWTWwtR2gyRUV3SE1vQnBsUk53cThRdGc?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-05-25",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfTjdOZjlZM1JyaGJaLUZqUHBlVFFlX0s4UTVxQUhOQVpHMFgzNDA1aGc1N1Y4MXR0UDdWTWwtR2gyRUV3SE1vQnBsUk53cThRdGc?oc=5\" target=\"_blank\" 郑州西亚斯学院校友捐赠20亿Tok"
+    },
+    {
+      "id": "raw-006",
+      "title": "KADC 2026 | openFuyao分论坛大咖云集，深度分享AI原生时代多样化算力释放实践及探索 - 51CTO",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrdFpVc2Q0UkM4cXpXMWJWcHctbXh6Zkw0MGo2Y3pKQXZ2MVoyQVY4dU9NQ2ZrRXJJazdKUDNTRTNLcDVXUmNFcEE2WE5ISUk3VGY4?oc=5",
+      "source": "51CTO",
+      "category": "技术",
+      "published": "2026-05-27",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrdFpVc2Q0UkM4cXpXMWJWcHctbXh6Zkw0MGo2Y3pKQXZ2MVoyQVY4dU9NQ2ZrRXJJazdKUDNTRTNLcDVXUmNFcEE2WE5ISUk3VGY4?oc=5\" target=\"_blank\" KADC 2026 | open"
+    },
+    {
+      "id": "raw-007",
       "title": "从模型诞生到上线：Ray 在小红书 AI 数据生产中的算力调度实践｜AICon 上海 - Infoq.cn",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uVjIydFB4WDJRd01jZ0RkaDZ3cjRta1dTUDNlUTQwQlVvQU5HSDBJT3ZlOGhUZ19pTkNQeXUwS0FwRi1FT29QdGhqdDlWSTVjYnpXODJqR0Q2QUdETmc?oc=5",
       "source": "Infoq.cn",
@@ -36,16 +72,34 @@
       "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uVjIydFB4WDJRd01jZ0RkaDZ3cjRta1dTUDNlUTQwQlVvQU5HSDBJT3ZlOGhUZ19pTkNQeXUwS0FwRi1FT29QdGhqdDlWSTVjYnpXODJqR0Q2QUdETmc?oc=5\" target=\"_blank\" 从"
     },
     {
-      "id": "raw-004",
-      "title": "工信部：探索“算力银行”“算力超市” 等创新业务支持中小企业存入闲置算力资源 - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxNVFdmbkNtY250VkVfMDF4ZjdBSEdjUy1ubW10bGp6WFdXT0NCY3oxZ2FpSTUzcWh4d1NFeVRaNU1BUmswSk5oRkx2VUtmYURTTVNhZEFNWUoyTjBhQ1dFSGtYT3lpRzFacU5pUEFkaV9yTDBpVnpsSVdJQXdFRHplaU5vUl9zRFZTZ3E4dVkwRXB3RXljRnBIMWZPX3NCUGF2aVY5MHZZejVSTnhkQmFXc0xCcWR1dnVpcUFVX2t6QmdCdWtqell4SlVTZS1ld3gyR014blJ6enJPYXp3NUJ1Y1NWZU9ELW9pQmFETDd3LXczdmVYQlFERk9BSW1BbWdzSGsydHlwZlBiSDBEQVg1bE1XRHNyVXdaTUxqN2ZkUmkwSmEyNUMwY0dGM0JWZXlxMUNMV1N0YUFnaDQta0lkejlWMUtyanNOT1lQUHBqZER6ZWRmT2xHSmJTWVpMVElta3JuSk9rTlZXUEZHRUtheVhZaE1PRGNmVnZDM1N4di1QYUJxYmJXU2ZTWDA5ell0ZXhjdWZYUTNGN0VqbUZiNVJCdVdtUWJHRlc3eHM3b3hLYllQYmtaYmp2TzZVajdmUXYyZi12aGluWjBpTlRDVHhPLWZQN0tRSUo4MTZFTWhBQ2RC?oc=5",
-      "source": "MSN",
+      "id": "raw-008",
+      "title": "像电网一样调配，全国算力网要来了 - cnenergynews.cn",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TZld2ZlJFNDAzT1ZsZjV5SUpqemEtUXRHOWlEalItTmVrdUJlbml3bmhOMG1Xay05Z0Y0WjQ5MjVuSlF5NEpianhDY2MwZTZtTG03RGh0Nl9fcDA?oc=5",
+      "source": "cnenergynews.cn",
       "category": "政策",
       "published": "2026-05-25",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMi5ANBVV95cUxNVFdmbkNtY250VkVfMDF4ZjdBSEdjUy1ubW10bGp6WFdXT0NCY3oxZ2FpSTUzcWh4d1NFeVRaNU1BUmswSk5oRkx2VUtmYURTTVNhZEFNWUoyTjBhQ1dFSGtYT3lpRzFacU5pUEFkaV9"
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TZld2ZlJFNDAzT1ZsZjV5SUpqemEtUXRHOWlEalItTmVrdUJlbml3bmhOMG1Xay05Z0Y0WjQ5MjVuSlF5NEpianhDY2MwZTZtTG03RGh0Nl9fcDA?oc=5\" target=\"_blank\" 像电网一样"
     },
     {
-      "id": "raw-005",
+      "id": "raw-009",
+      "title": "算力狂飙的瓶颈不止电量：电网风险正突破认知 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUjlyRTR5aFRBb0FVUVgwc1ljUnhCWU5oeDNGLV9jNkN6UUt4MFk3cTlTaE1IUDY1NndINjZxbHg4ZHVFNUZ1U1NwWUFqa250OFFzSXJyWlBYbmFEX2VPazRaOW5IakxEbVgtaHN5SjBOTnBpcXZHckt6RFdKTmp6dlhtOEZ0eXU3Ry1oVk5YVXBDR0xiRE1sRENsV1Aza1l0MjlHX0x4OA?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-05-27",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPUjlyRTR5aFRBb0FVUVgwc1ljUnhCWU5oeDNGLV9jNkN6UUt4MFk3cTlTaE1IUDY1NndINjZxbHg4ZHVFNUZ1U1NwWUFqa250OFFzSXJyWlBYbmFEX2VPazRaOW5IakxEbVgtaHN5SjB"
+    },
+    {
+      "id": "raw-010",
+      "title": "建议加快推动算力银行、算力超市在川落地｜智库圆桌 - 川观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBOcm0xdkRBX3hnTmVVNzdoQl9qNVFYaXdZa3JUbVF2UzI5WVRBOG95SDZ3T2NTbTJPOTJqSU9MaVFxU0M2a0JVUThVVDQ0QQ?oc=5",
+      "source": "川观新闻",
+      "category": "政策",
+      "published": "2026-05-24",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTFBOcm0xdkRBX3hnTmVVNzdoQl9qNVFYaXdZa3JUbVF2UzI5WVRBOG95SDZ3T2NTbTJPOTJqSU9MaVFxU0M2a0JVUThVVDQ0QQ?oc=5\" target=\"_blank\" 建议加快推动算力银行、算力超市在川落地｜智库"
+    },
+    {
+      "id": "raw-011",
       "title": "江苏扬州：算力新基建“抢跑”布局 打造数字经济“超级引擎” - 紫牛新闻",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12UTExdVZzeXlnZ284T09GM3E1c1NPRzg0N0cxWjR4MDhVc3RtVmJQdjByUC1XbmFrczlWY1BtNjYwbVNnclBUdDJLN2oxbTNLUEYxVFlfcjktZkRDTVROZFdqc21UUVZE?oc=5",
       "source": "紫牛新闻",
@@ -54,7 +108,7 @@
       "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE12UTExdVZzeXlnZ284T09GM3E1c1NPRzg0N0cxWjR4MDhVc3RtVmJQdjByUC1XbmFrczlWY1BtNjYwbVNnclBUdDJLN2oxbTNLUEYxVFlfcjktZkRDTVROZFdqc21UUVZE?oc=5\" targ"
     },
     {
-      "id": "raw-006",
+      "id": "raw-012",
       "title": "扬州聚力打造中国算力之城 - 新华报业网",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBZeDFkLU96N2oxODl3QXBZWnJvSEJ2MjllZGhtT2t1V0dsV1ZxOTctMWJWWXJYcWpfV1ZmUWZRUGdBWjZVQlFITkd6LUEtTFJvUEdIZ0JYT2tpX01fSmZpUHYxek5Bc0UwS2o4?oc=5",
       "source": "新华报业网",
@@ -63,7 +117,7 @@
       "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTFBZeDFkLU96N2oxODl3QXBZWnJvSEJ2MjllZGhtT2t1V0dsV1ZxOTctMWJWWXJYcWpfV1ZmUWZRUGdBWjZVQlFITkd6LUEtTFJvUEdIZ0JYT2tpX01fSmZpUHYxek5Bc0UwS2o4?oc=5\" "
     },
     {
-      "id": "raw-007",
+      "id": "raw-013",
       "title": "贯通算力全产业链，推动数字经济高质量发展，扬州高规格举办“AI算力生态大会” - 紫牛新闻",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxdnctUVI3ZWtoVmhaZHlRd3RQSjFaMEFOam4wZ0xEVktMNW1ZZENMR0x1RTlfQUZoQ2dzT3ZrSlRXWEhjNzNvMHNocGxhbGVwQndQbFFJNGh3Ql9pSFdpSlZJNGNHOTgxaXZZV3lfYw?oc=5",
       "source": "紫牛新闻",
@@ -72,31 +126,22 @@
       "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFAxdnctUVI3ZWtoVmhaZHlRd3RQSjFaMEFOam4wZ0xEVktMNW1ZZENMR0x1RTlfQUZoQ2dzT3ZrSlRXWEhjNzNvMHNocGxhbGVwQndQbFFJNGh3Ql9pSFdpSlZJNGNHOTgxaXZZV3lfYw?"
     },
     {
-      "id": "raw-008",
-      "title": "校企联动 | 优刻得与上海科技大学共建智算未来 - 财富号",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMQWM0ZGNZVXViV1NxZXkwbnNwR3BpbnI2dlFuNDRkVnphMUpTaUJPR0ZqaTdBeTVNeUF2RHVRMkF1UnRlb2k0aWVqLWlUWGZmeXltZ3lRVEFhYzVNbGM4bVYzWXlSdHlvdEZr?oc=5",
-      "source": "财富号",
-      "category": "竞品",
-      "published": "2026-05-26",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTFBMQWM0ZGNZVXViV1NxZXkwbnNwR3BpbnI2dlFuNDRkVnphMUpTaUJPR0ZqaTdBeTVNeUF2RHVRMkF1UnRlb2k0aWVqLWlUWGZmeXltZ3lRVEFhYzVNbGM4bVYzWXlSdHlvdEZr?oc=5\" "
-    },
-    {
-      "id": "raw-009",
-      "title": "国诚投顾：AI 产业迈向\"规模盈利\" ，算力战略持续深化 - 财富号",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vWkVFWU5TOEJ5S2poV2hkbm1TMThJbW9wWGFidGRSUDVwVVdOREEzQ0FVT2FGLVRLRDNGM29uejlBNUlJODUxV25WZlBTdEY5VUJ1NXd5TC1GN2xoNUhBXy0zMDl0elI5T1Z3?oc=5",
-      "source": "财富号",
-      "category": "政策",
-      "published": "2026-05-25",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9vWkVFWU5TOEJ5S2poV2hkbm1TMThJbW9wWGFidGRSUDVwVVdOREEzQ0FVT2FGLVRLRDNGM29uejlBNUlJODUxV25WZlBTdEY5VUJ1NXd5TC1GN2xoNUhBXy0zMDl0elI5T1Z3?oc=5\" "
-    },
-    {
-      "id": "raw-010",
-      "title": "特朗普批准英伟达向中国销售芯片，北京为何不愿接受？ - 纽约时报中文网",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9nekFDV2lhWEZ3bG1hMWZ5R3JoMTNOaTZjS05zaDYyQS1JX2hNM3ZDUjZ1d1hseTBDc0FnV1ZQcy0xWXdqZHJReEpQbzBBdk15am5FWG1BYVJjMHVmX1BabkhibGcwcUVkVC03a3Q0SGJxLTRNY1lN?oc=5",
-      "source": "纽约时报中文网",
-      "category": "海外",
+      "id": "raw-014",
+      "title": "从流量包到Token包，算力正在成为“水电煤”丨财经早察 - 南方财经",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5udnFHMG54aFpiN0t1WGdWb3pIZlU1UGtTZ2JVekhGRXRTOGEtNmxhb0kyam5FRW82cEVUMzZJa1g1WUlvXzNveE5fT2VhQnYzWnhJNURVYWtVVUFDZ0xrWHdPemtyUQ?oc=5",
+      "source": "南方财经",
+      "category": "技术",
       "published": "2026-05-22",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9nekFDV2lhWEZ3bG1hMWZ5R3JoMTNOaTZjS05zaDYyQS1JX2hNM3ZDUjZ1d1hseTBDc0FnV1ZQcy0xWXdqZHJReEpQbzBBdk15am5FWG1BYVJjMHVmX1BabkhibGcwcUVkVC03a3Q0SGJ"
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5udnFHMG54aFpiN0t1WGdWb3pIZlU1UGtTZ2JVekhGRXRTOGEtNmxhb0kyam5FRW82cEVUMzZJa1g1WUlvXzNveE5fT2VhQnYzWnhJNURVYWtVVUFDZ0xrWHdPemtyUQ?oc=5\" target"
+    },
+    {
+      "id": "raw-015",
+      "title": "鲲鹏昇腾开发者大会2026在京举办共筑Agentic AI时代算力底座|北京市|智能体|生态|时延|适配_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMisARBVV95cUxPUzlDbVRHMGtkdVBCRDNBVDBfTExEVjJETmpIWThaUkhic3Fmd3c1MVRNT0ZRNG84UXVfTFZvX19sTUJDeGtFOW1TQ25Lelp5djJKU0J4ZVdZNTVvOEtuTTB6SFpKcHR1N01FVnVhdGhqc0ZaQnV3bGNOalZXTU15T1c3SzRyREg5U2dUbnNTbkVKQXA2ZVB2NDY4R0FPMUdPeGRtbUtxME4tdWdjSXVFYy1jSXFJdWJ0TkhIdUVyRGwtck5NcmlISWg4QTdGUGlDWVVST1pHdUc4XzB2Z1BsY05MUlZ5bTN1TjVtY3BvOEJRZDBPVDYtYkx5ekpmbUJ6cTcxUDhkWXhVOGdmMXY4ckVzMC1vU2VJQVQ5cGlHdVR5VlBDMUYzcXpiejA2b1J6aUZzWXF0V3E4RGptakoyX1FibUNGWkY1b0hpcVhaNVI2c194U21jZjNTaUZLdHdIalFpREFlWGhWdFNRNEVLMm1PM3RMSUVBdWhhZ2RiNEFjT2NpRk0yRmI4dWNBTTVJQUNkQWlYMFBpeEJsUlNkR1hwLXV5ZlQwNXZyX1VnOEc2NklzQ2hfTTZ0eW9Ma2l2OGpVdUpvNlBIR181NU41ZHFWNWlzOTZ4d2pWa0lHSFZ3bUc1dWpXcDVXdTNSUUN0NDQyZF9wWktFYjB6c2dUWDhNLTZNeVZ5R3dZRnVxRnRuQnRZN091WFBJM2RnVWNheG1GaEljb3ZpVVVEeDhhRg?oc=5",
+      "source": "新浪财经",
+      "category": "技术",
+      "published": "2026-05-26",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMisARBVV95cUxPUzlDbVRHMGtkdVBCRDNBVDBfTExEVjJETmpIWThaUkhic3Fmd3c1MVRNT0ZRNG84UXVfTFZvX19sTUJDeGtFOW1TQ25Lelp5djJKU0J4ZVdZNTVvOEtuTTB6SFpKcHR1N01FVnVhdGh"
     }
   ]
 }

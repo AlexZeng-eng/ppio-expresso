@@ -108,7 +108,7 @@ ${signalList}
   "category": "政策",           // 内容分类，必须从以下枚举中选一个：政策|竞品|监管|资本|海外|技术|治理
   "is_deep_read": true,        // 是否深度阅读
   "compass_triggered": ["c1"], // 触发的 Compass Question
-  "summary_cn": "...",         // lane:attend ≤200字, lane:silent ≤80字
+  "summary_cn": "...",         // lane:attend 250-300字，分两段：①事件本身 ②对PPIO的具体影响（结合边缘云/分布式算力/港股IPO背景）；lane:silent ≤80字
   "ppio_signal": {             // 仅 lane:attend
     "positive": "...",
     "risk": "..."
@@ -200,7 +200,7 @@ function ruleBasedClassify(item, config) {
     is_deep_read: isDeep,
     compass_triggered: compasses.length ? compasses : ['c1'],
     summary_cn: lane === 'attend'
-      ? title.replace(/^.+?[：:]/,'').slice(0, 200)
+      ? title.replace(/^.+?[：:]/,'').slice(0, 300)
       : title.slice(0, 80),
     ppio_signal: lane === 'attend' ? {
       positive: '（待 AI 填写）',

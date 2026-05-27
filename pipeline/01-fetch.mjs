@@ -556,6 +556,16 @@ function buildSearchQueries(config) {
   queries.push({ q: '中国电信 中国移动 算力 Token AI', category: '技术' });
   queries.push({ q: '算力调度 推理优化 Agent 技术突破', category: '技术' });
   queries.push({ q: 'AI 大模型 边缘计算 分布式推理', category: '技术' });
+  // 中文媒体补充（替代失效RSS）
+  queries.push({ q: 'site:huxiu.com AI 算力 大模型 2026', category: '技术' });
+  queries.push({ q: 'site:latepost.com AI 算力 科技 2026', category: '技术' });
+  queries.push({ q: 'site:jiqizhixin.com AI 算力 大模型 2026', category: '技术' });
+  queries.push({ q: '机器之心 AI 算力 大模型 2026', category: '技术' });
+  queries.push({ q: '晚点LatePost AI 科技 融资 2026', category: '竞品' });
+  queries.push({ q: '虎嗅 AI 算力 大模型 政策 2026', category: '政策' });
+  // Anthropic / DeepSeek 官方动态
+  queries.push({ q: 'site:anthropic.com AI safety model 2026', category: '海外' });
+  queries.push({ q: 'DeepSeek 大模型 发布 融资 2026', category: '竞品' });
 
   // 海外
   queries.push({ q: '英伟达 H200 中国 出口 芯片', category: '海外' });
@@ -653,27 +663,20 @@ async function main() {
   // ── Phase 1: RSS feeds ──────────────────────────────────────────────
   console.log('\n  📡 RSS feeds...');
   const rssFeeds = [
-    // 中文社区
+    // 中文社区（有效）
     { url: 'https://36kr.com/feed', source: '36氪' },
-    { url: 'https://www.jiqizhixin.com/rss', source: '机器之心' },
     { url: 'https://www.qbitai.com/feed', source: '量子位' },
-    { url: 'https://www.latepost.com/rss', source: '晚点LatePost' },
-    { url: 'https://www.huxiu.com/rss/0.xml', source: '虎嗅' },
-    { url: 'https://www.cls.cn/rss', source: '财联社' },
-    // 产业商业化（英文）
+    // 产业商业化（英文，有效）
     { url: 'https://techcrunch.com/feed/', source: 'TechCrunch' },
     { url: 'https://venturebeat.com/category/ai/feed/', source: 'VentureBeat AI' },
-    { url: 'https://www.theinformation.com/feed', source: 'The Information' },
-    { url: 'https://www.semafor.com/rss', source: 'Semafor' },
-    // 算力/芯片/数据中心
+    // 算力/芯片/数据中心（有效）
     { url: 'https://blogs.nvidia.com/feed/', source: 'NVIDIA Blog' },
     { url: 'https://www.thenextplatform.com/feed/', source: 'The Next Platform' },
     { url: 'https://semiengineering.com/feed/', source: 'Semiconductor Engineering' },
     { url: 'https://www.servethehome.com/feed/', source: 'ServeTheHome' },
-    // 一手官方
+    // 一手官方（有效）
     { url: 'https://openai.com/news/rss.xml', source: 'OpenAI News' },
-    { url: 'https://www.anthropic.com/rss.xml', source: 'Anthropic News' },
-    // 产品工具
+    // 研究媒体（有效）
     { url: 'https://www.technologyreview.com/topic/artificial-intelligence/feed', source: 'MIT Tech Review AI' },
   ];
 
@@ -685,6 +688,7 @@ async function main() {
   const govPages = [
     { url: 'https://sheitc.sh.gov.cn/zxgkxx/index.html', source: '上海市经信委' },
     { url: 'https://sheitc.sh.gov.cn/zcfg/index.html', source: '上海市经信委-政策法规' },
+    { url: 'https://fgw.sh.gov.cn/index.html', source: '上海市发改委' },
   ];
   const govResults = await Promise.all(govPages.map(g => scrapeGovList(g.url, g.source)));
   for (const items of govResults) allItems.push(...items);
@@ -729,10 +733,10 @@ async function main() {
   // Sort by score (desc) then date (desc)
   allItems.sort((a, b) => b._score - a._score || b.published.localeCompare(a.published));
 
-  // Trim: hard cap at 10, quality floor at score >= 25, but ensure at least 7 items
-  const MIN_SCORE = 25;
-  const MAX_RAW = 10;
-  const MIN_ITEMS = 7;
+  // Trim: hard cap at 15, quality floor at score >= 22, but ensure at least 10 items
+  const MIN_SCORE = 22;
+  const MAX_RAW = 15;
+  const MIN_ITEMS = 10;
   const lowQuality = allItems.filter(i => i._score < MIN_SCORE);
   allItems = allItems.filter(i => i._score >= MIN_SCORE);
   if (lowQuality.length) console.log(`  Below quality threshold (score<${MIN_SCORE}): ${lowQuality.length} items`);
@@ -754,7 +758,7 @@ async function main() {
       return PPIO_KEYWORDS.en_critical.some(re => re.test(text));
     });
     const cnItems = allItems.filter(i => /[一-鿿]/.test(i.title));
-    const enSlots = Math.min(2, enItems.length);
+    const enSlots = Math.min(3, enItems.length);
     const cnSlots = MAX_RAW - enSlots;
     allItems = [...cnItems.slice(0, cnSlots), ...enItems.slice(0, enSlots)];
     allItems.sort((a, b) => b._score - a._score || b.published.localeCompare(a.published));

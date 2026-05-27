@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PPIO Expresso — 关键词管理</title>
+<link rel="stylesheet" href="reader.css">
+<style>
+  body { font-family: var(--sans); background: var(--bg); color: var(--ink); }
+  .mg-wrap { max-width: 860px; margin: 0 auto; padding: 1.4rem 1.4rem 4rem; }
+  .mg-title { font-family: var(--mono); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 0.3rem; }
+  .mg-subtitle { font-size: 0.82rem; color: var(--ink-mute); margin: 0 0 2rem; }
+
+  .mg-section { margin-bottom: 2rem; }
+  .mg-section-head {
+    display: flex; align-items: center; gap: 0.6rem;
+    font-family: var(--mono); font-size: 0.78rem; text-transform: uppercase;
+    letter-spacing: 0.05em; color: var(--ink-mute);
+    border-bottom: 1px solid var(--rule-soft); padding-bottom: 0.4rem; margin-bottom: 0.8rem;
+  }
+  .mg-section-head .cat-badge {
+    background: var(--bg-soft); border: 1px solid var(--rule);
+    border-radius: 3px; padding: 0.1rem 0.45rem;
+    font-size: 0.72rem; color: var(--ink-soft);
+  }
+  .mg-section-head .cat-count { color: var(--ink-mute); font-size: 0.72rem; margin-left: auto; }
+
+  .kw-list { display: flex; flex-direction: column; gap: 0.35rem; }
+  .kw-row {
+    display: flex; align-items: center; gap: 0.5rem;
+    background: var(--bg-soft); border: 1px solid var(--rule-soft);
+    border-radius: 4px; padding: 0.35rem 0.5rem;
+  }
+  .kw-row input[type="text"] {
+    flex: 1; border: none; background: transparent;
+    font-family: var(--sans); font-size: 0.84rem; color: var(--ink);
+    outline: none; padding: 0;
+  }
+  .kw-row input[type="text"]:focus { color: var(--ink); }
+  .kw-row .cat-select {
+    border: 1px solid var(--rule); border-radius: 3px;
+    background: var(--bg); font-size: 0.75rem; color: var(--ink-soft);
+    padding: 0.15rem 0.3rem; cursor: pointer;
+  }
+  .kw-row .btn-del {
+    background: none; border: none; cursor: pointer;
+    color: var(--ink-mute); font-size: 1rem; line-height: 1;
+    padding: 0 0.2rem; transition: color 0.15s;
+  }
+  .kw-row .btn-del:hover { color: #c0392b; }
+
+  .mg-add-row {
+    display: flex; gap: 0.5rem; margin-top: 0.5rem;
+  }
+  .mg-add-row input[type="text"] {
+    flex: 1; border: 1px solid var(--rule); border-radius: 4px;
+    background: var(--bg); font-family: var(--sans); font-size: 0.84rem;
+    color: var(--ink); padding: 0.35rem 0.6rem; outline: none;
+  }
+  .mg-add-row input:focus { border-color: var(--ink-soft); }
+  .mg-add-row select {
+    border: 1px solid var(--rule); border-radius: 4px;
+    background: var(--bg); font-size: 0.82rem; color: var(--ink-soft);
+    padding: 0.35rem 0.5rem; cursor: pointer;
+  }
+  .mg-add-row .btn-add {
+    background: var(--ink); color: var(--bg);
+    border: none; border-radius: 4px; cursor: pointer;
+    font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.04em;
+    padding: 0.35rem 0.9rem; transition: opacity 0.15s;
+  }
+  .mg-add-row .btn-add:hover { opacity: 0.8; }
+
+  .mg-actions {
+    position: sticky; bottom: 0; background: var(--bg);
+    border-top: 1px solid var(--rule-soft);
+    padding: 0.8rem 0; display: flex; gap: 0.8rem; align-items: center;
+    margin-top: 2rem;
+  }
+  .btn-save {
+    background: var(--ink); color: var(--bg);
+    border: none; border-radius: 4px; cursor: pointer;
+    font-family: var(--mono); font-size: 0.82rem; letter-spacing: 0.04em;
+    padding: 0.5rem 1.4rem; transition: opacity 0.15s;
+  }
+  .btn-save:hover { opacity: 0.8; }
+  .btn-save:disabled { opacity: 0.4; cursor: not-allowed; }
+  .save-status { font-size: 0.82rem; color: var(--ink-mute); }
+  .save-status.ok { color: #3d6b3d; }
+  .save-status.err { color: #c0392b; }
+
+  .mg-stats {
+    display: flex; gap: 1.4rem; margin-bottom: 1.6rem;
+    font-family: var(--mono); font-size: 0.78rem; color: var(--ink-mute);
+  }
+  .mg-stats span strong { color: var(--ink); font-size: 1rem; display: block; }
+</style>
+</head>
+<body class="feed-page">
+<header class="page-header">
+  <span class="brand">PPIO Expresso</span>
+  <span class="header-meta">关键词管理</span>
+  <nav class="header-nav">
+    <a href="/">← 本周报告</a>
+    <a href="/archive.html">存档</a>
+  </nav>
+</header>
+
+<div class="mg-wrap">
+  <h1 class="mg-title">搜索关键词管理</h1>
+  <p class="mg-subtitle">管理每日 Google News 搜索词。修改后点击「保存」立即生效，下次 pipeline 运行时使用新配置。</p>
+
+  <div class="mg-stats" id="stats">
+    <span><strong id="stat-total">—</strong>总关键词</span>
+    <span><strong id="stat-cats">—</strong>分类</span>
+  </div>
+
+  <div id="kw-container">
+    <div style="color:var(--ink-mute);font-size:0.84rem;padding:2rem 0">加载中...</div>
+  </div>
+
+  <div class="mg-add-row">
+    <input type="text" id="new-kw" placeholder="输入新关键词，例如：工信部 算力 补贴 2026" />
+    <select id="new-cat">
+      <option value="政策">政策</option>
+      <option value="监管">监管</option>
+      <option value="竞品">竞品</option>
+      <option value="资本">资本</option>
+      <option value="海外">海外</option>
+      <option value="技术">技术</option>
+      <option value="治理">治理</option>
+    </select>
+    <button class="btn-add" onclick="addKeyword()">+ 添加</button>
+  </div>
+
+  <div class="mg-actions">
+    <button class="btn-save" id="btn-save" onclick="saveKeywords()">保存更改</button>
+    <span class="save-status" id="save-status"></span>
+  </div>
+</div>
+
+<script>
+const CATEGORIES = ['政策', '监管', '竞品', '资本', '海外', '技术', '治理'];
+let keywords = [];
+
+async function loadKeywords() {
+  try {
+    const res = await fetch('/api/keywords');
+    const data = await res.json();
+    keywords = data.keywords || [];
+    render();
+  } catch (e) {
+    document.getElementById('kw-container').innerHTML =
+      `<div style="color:#c0392b;font-size:0.84rem;padding:2rem 0">
+        无法连接到管理服务器。请先运行：<br><br>
+        <code style="background:var(--bg-soft);padding:0.3rem 0.6rem;border-radius:3px">node /tmp/ppio-expresso/manage-server.mjs</code>
+      </div>`;
+  }
+}
+
+function render() {
+  const container = document.getElementById('kw-container');
+  const byCategory = {};
+  for (const cat of CATEGORIES) byCategory[cat] = [];
+  for (const kw of keywords) {
+    if (!byCategory[kw.category]) byCategory[kw.category] = [];
+    byCategory[kw.category].push(kw);
+  }
+
+  let html = '';
+  for (const cat of CATEGORIES) {
+    const qs = byCategory[cat] || [];
+    if (qs.length === 0) continue;
+    html += `<div class="mg-section">
+      <div class="mg-section-head">
+        <span class="cat-badge">${cat}</span>
+        <span class="cat-count">${qs.length} 条</span>
+      </div>
+      <div class="kw-list">`;
+    for (let i = 0; i < keywords.length; i++) {
+      if (keywords[i].category !== cat) continue;
+      html += `<div class="kw-row" data-idx="${i}">
+        <input type="text" value="${esc(keywords[i].q)}" onchange="updateKw(${i}, 'q', this.value)" />
+        <select class="cat-select" onchange="updateKw(${i}, 'category', this.value)">
+          ${CATEGORIES.map(c => `<option value="${c}"${c===keywords[i].category?' selected':''}>${c}</option>`).join('')}
+        </select>
+        <button class="btn-del" onclick="deleteKw(${i})" title="删除">×</button>
+      </div>`;
+    }
+    html += `</div></div>`;
+  }
+  container.innerHTML = html;
+
+  document.getElementById('stat-total').textContent = keywords.length;
+  document.getElementById('stat-cats').textContent = CATEGORIES.filter(c => (byCategory[c]||[]).length > 0).length;
+}
+
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function updateKw(idx, field, value) {
+  keywords[idx][field] = value;
+}
+
+function deleteKw(idx) {
+  keywords.splice(idx, 1);
+  render();
+}
+
+function addKeyword() {
+  const q = document.getElementById('new-kw').value.trim();
+  const category = document.getElementById('new-cat').value;
+  if (!q) return;
+  keywords.push({ q, category });
+  document.getElementById('new-kw').value = '';
+  render();
+}
+
+document.getElementById('new-kw').addEventListener('keydown', e => {
+  if (e.key === 'Enter') addKeyword();
+});
+
+async function saveKeywords() {
+  const btn = document.getElementById('btn-save');
+  const status = document.getElementById('save-status');
+  btn.disabled = true;
+  status.className = 'save-status';
+  status.textContent = '保存中...';
+  try {
+    const res = await fetch('/api/keywords', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ keywords })
+    });
+    const data = await res.json();
+    if (data.ok) {
+      status.className = 'save-status ok';
+      status.textContent = `✓ 已保存 ${data.count} 条关键词`;
+    } else {
+      throw new Error(data.error);
+    }
+  } catch (e) {
+    status.className = 'save-status err';
+    status.textContent = `✗ 保存失败：${e.message}`;
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+loadKeywords();
+</script>
+</body>
+</html>
