@@ -1,10 +1,10 @@
 #!/bin/bash
 # PPIO Expresso — Daily pipeline runner
-# Schedule: 0 8 * * * /tmp/ppio-expresso/run-daily.sh
+# Scheduled via launchd: ~/Library/LaunchAgents/com.ppio.expresso.plist
 
 set -e
 
-PROJECT_DIR="/tmp/ppio-expresso"
+PROJECT_DIR="/Users/mac/ppio-expresso"
 LOG_DIR="$PROJECT_DIR/logs"
 mkdir -p "$LOG_DIR"
 
@@ -32,7 +32,7 @@ ls -t "$LOG_DIR"/*.log | tail -n +61 | xargs rm -f 2>/dev/null || true
 
 # Push to GitHub Pages
 cd "$PROJECT_DIR"
-git add index.html archive.html data/archive.json data/curated-items.json data/weekly-synthesis.json
+git add index.html archive.html reports/ data/archive.json data/curated-items.json data/weekly-synthesis.json
 git commit -m "Weekly update: $(date '+%Y-%m-%d')" >> "$LOG_FILE" 2>&1 || true
 git push origin main >> "$LOG_FILE" 2>&1 && echo "  ✓ Pushed to GitHub Pages" >> "$LOG_FILE" || echo "  ⚠ Git push failed" >> "$LOG_FILE"
 

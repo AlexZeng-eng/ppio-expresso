@@ -8,7 +8,7 @@
  * Output: index.html (overwrites the feed page)
  */
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -423,6 +423,14 @@ async function main() {
   console.log(`  ✓ Rendered index.html (${(html.length / 1024).toFixed(1)} KB) → ${OUT_PATH}`);
   console.log(`    ${curated.attend_count} attend items, ${curated.silent_count} silent items`);
 
+  // Save daily report to reports/YYYY-MM-DD.html
+  const today = new Date().toISOString().slice(0, 10);
+  const REPORTS_DIR = resolve(ROOT, 'reports');
+  if (!existsSync(REPORTS_DIR)) mkdirSync(REPORTS_DIR);
+  const dailyPath = resolve(REPORTS_DIR, `${today}.html`);
+  writeFileSync(dailyPath, html, 'utf-8');
+  console.log(`  ✓ Saved daily report → reports/${today}.html`);
+
   // Update archive data + render archive.html
   const archive = updateArchive(curated, synthesis);
   const archiveHtml = renderArchiveHTML(archive);
@@ -448,6 +456,7 @@ function updateArchive(curated, synthesis) {
 
   const entry = {
     week: curated.week,
+    date: new Date().toISOString().slice(0, 10),
     date_range: dateRange,
     mainline: synthesis.mainline || '',
     signal_summary: synthesis.signal_summary || {},
@@ -479,9 +488,10 @@ function renderArchiveHTML(archive) {
       .map(([k, v]) => `${k}×${v}`)
       .join(' ');
     const counts = w.item_count || {};
+    const date = w.date || '';
+    const reportLink = date ? `reports/${date}.html` : 'index.html';
     return `<tr>
-      <td><a href="index.html">${esc(w.week)}</a></td>
-      <td>${esc(w.date_range?.from || '')} – ${esc(w.date_range?.to || '')}</td>
+      <td><a href="${esc(reportLink)}">${esc(date || w.week)}</a></td>
       <td class="archive-mainline">${esc(w.mainline || '')}</td>
       <td>${esc(signals)}</td>
       <td>${counts.attend || 0} / ${counts.total || 0}</td>
@@ -493,7 +503,7 @@ function renderArchiveHTML(archive) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PPIO Expresso — 周报存档</title>
+<title>PPIO Expresso — 日报存档</title>
 <link rel="stylesheet" href="reader.css">
 <style>
   .archive-table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.84rem; margin-top: 1.4rem; }
@@ -521,7 +531,7 @@ function renderArchiveHTML(archive) {
     ? `<div class="archive-empty">暂无存档</div>`
     : `<table class="archive-table">
     <thead><tr>
-      <th>周次</th><th>日期范围</th><th>本周主线</th><th>信号</th><th>深度/总计</th>
+      <th>日期</th><th>当日主线</th><th>信号</th><th>深度/总计</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`}
