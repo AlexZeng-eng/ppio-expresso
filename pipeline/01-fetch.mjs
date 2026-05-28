@@ -193,7 +193,7 @@ async function scrapeWithCloak(pages) {
       try {
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: 'networkidle', timeout: 20000 });
-        const items = await page.evaluate((src, cat) => {
+        const items = await page.evaluate(({ src, cat }) => {
           const results = [];
           const seen = new Set();
           document.querySelectorAll('a').forEach(a => {
@@ -208,7 +208,7 @@ async function scrapeWithCloak(pages) {
               published: new Date().toISOString().slice(0, 10), body_snippet: title });
           });
           return results.slice(0, 15);
-        }, source, category);
+        }, { src: source, cat: category });
         await page.close();
         console.log(`    Cloak ${url.slice(0, 40)}... → ${items.length} items`);
         return items;

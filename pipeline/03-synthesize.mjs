@@ -126,7 +126,10 @@ async function main() {
       ], { maxTokens: 2048, temperature: 0.5 });
 
       const cleaned = result.replace(/```json\s*|```\s*/g, '').trim();
-      synthesis = JSON.parse(cleaned);
+      // Extract JSON object even if there's trailing garbage
+      const jsonMatch = cleaned.match(/\{[\s\S]*\}/);
+      if (!jsonMatch) throw new Error('No JSON object found in response');
+      synthesis = JSON.parse(jsonMatch[0]);
       synthesis._generated_by = 'deepseek-v4-pro';
       console.log('  ✓ AI synthesis complete');
     } catch (err) {

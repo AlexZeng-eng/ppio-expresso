@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-27T10:42:18.562Z",
+  "generated_at": "2026-05-28T02:43:26.107Z",
   "week": "2026-W22",
   "classifier": "deepseek-v4-pro",
   "total_raw": 15,
-  "total_curated": 8,
-  "attend_count": 4,
-  "silent_count": 4,
+  "total_curated": 11,
+  "attend_count": 5,
+  "silent_count": 6,
   "items": [
     {
-      "id": "raw-1",
+      "id": "raw-001",
       "title": "进一步统筹“六张网”建设内容 - 人民日报",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzJ2U1V1aDhVWVRSN0RlV3ZIQ0ktaDRPWW9va0JkN3RzUnhKUGkwMHB6SUZmbGpuVlF6SXNidVA3N3hKeTYxT0h0MFhhMnZXeHZ5TkVOT3huMFdrWkFCQmx5THNNRzRNc0xBc214NllGYk8xRWtfbjRlWENsMkJ0XzM5dzk?oc=5",
       "source": "人民日报",
@@ -23,20 +23,20 @@
       "compass_triggered": [
         "c1"
       ],
-      "summary_cn": "人民日报刊文提出进一步统筹“六张网”建设内容，涵盖信息网、交通网、能源网等国家级基础设施骨干网络。其中信息网明确指向算力网络、数据中心等新型基础设施，意味着算力资源将被纳入更高层级的国家统一规划与标准体系。这一政策信号表明边缘计算节点作为算力网络的关键末梢，将在资源编排、数据安全、互联互通等方面面临更清晰的顶层设计。 对PPIO而言，算力网络的国家级统筹将加速智能边缘节点在二三线城市和产业园区的大规模部署，推动分布式云服务走向规范化，为PPIO领先的分布式算力平台带来广阔的政策红利和市场需求。同时也需关注可能的牌照准入、互联标准等合规门槛，要求PPIO加快与主管部门对接，争取政策先发优势，并在港股IPO招股书中突出其符合战略方向、具备合规弹性的核心叙事。",
+      "summary_cn": "人民日报刊文要求进一步统筹‘六张网’建设，其中包含算力网。这是在中央层面将算力基础设施纳入国家骨干网络体系，意味着算力供给将像电网一样走向统一规划与调度。\n对PPIO而言，政策利好边缘分布式算力：一体化算力网势必需要‘云边端’协同，公司可承接大量分布式边缘节点入网需求，形成对内集中调度的重要补充。同时需关注一体化网可能强化运营商与国家队的主导权，若定价与接入标准向中心云倾斜，PPIO作为独立分布式算力服务商需提前参与规则制定，尤其在港股IPO前明确自身在一体化网中的不可替代性，以增强监管沟通与投资者信心。",
       "ppio_signal": {
-        "positive": "国家级算力网络统筹将推动边缘节点的合法化与规模化，为PPIO的分布式算力平台创造大量政企订单，强化其港股IPO时的政策贴金效应。",
-        "risk": "统一标准和牌照要求可能抬高行业准入门槛，若PPIO未能及时获得相关资质或融入国标体系，可能在部分政企市场面临排他性限制。"
+        "positive": "算力网上升至国家顶层设计，明确分布式算力节点是一体化网的必要组成，PPIO的边缘云平台获得政策背书，可加速与地方政府、电力企业和园区合作落地边缘节点。",
+        "risk": "统一调度可能由运营商或国资主导，造成接入壁垒或定价压制；港股上市过程中投资者可能担忧公司在一体化网中的角色边缘化，需提前准备政策沟通策略。"
       }
     },
     {
-      "id": "raw-2",
-      "title": "三大运营商推出Token套餐，转型AI算力零售商 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1kaFRaQWR3dkwzbUJSaks2bkpqTVA1bEpfbldQZ3RMVWg0NDNud0htcTNYU2tBS2NKd3JNNVBOelZjazJLczhmWE5OZEp6cnRSWXc?oc=5",
+      "id": "raw-002",
+      "title": "三大运营商推出Token套餐 争夺AI算力市场主导权 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KSll3Vkx5M3pCTTJDUmR4ajVLcGp5Wm1wT3BYdWVfaFN5WHYza3diMXhUN19oSHZ3WkhqbGRSS0dvbU5lNFkwalVKaVNOV1BfUmtBTg?oc=5",
       "source": "虎嗅",
       "category": "竞品",
-      "published": "2026-05-21",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE1kaFRaQWR3dkwzbUJSaks2bkpqTVA1bEpfbldQZ3RMVWg0NDNud0htcTNYU2tBS2NKd3JNNVBOelZjazJLczhmWE5OZEp6cnRSWXc?oc=5\" target=\"_blank\" 三大运营商推出Token套餐，转型",
+      "published": "2026-05-22",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KSll3Vkx5M3pCTTJDUmR4ajVLcGp5Wm1wT3BYdWVfaFN5WHYza3diMXhUN19oSHZ3WkhqbGRSS0dvbU5lNFkwalVKaVNOV1BfUmtBTg?oc=5\" target=\"_blank\" 三大运营商推出Token套餐",
       "lane": "attend",
       "signals": [
         "⚔️"
@@ -45,37 +45,18 @@
       "compass_triggered": [
         "c2"
       ],
-      "summary_cn": "三大运营商集体推出Token套餐，标志着通信巨头正从基础网络管道商全面转型为AI算力零售商，利用其遍布全国的机房、带宽和客户触点直接销售Token化算力。这实质上与PPIO的分布式边缘算力服务形成正面竞争，尤其在中小企业和开发者市场，运营商的捆绑销售能力和庞大边缘机房资源构成显著威胁。 对PPIO的影响亟需警惕：运营商Token套餐凭借成本优势和一站式打包服务可能快速吸走价格敏感型客户，削弱PPIO在边缘推理市场的先发卡位。但PPIO的异构算力调度、跨云纳管和更灵活的微服务架构仍能在高性能、定制化场景中保持差异化。建议在IPO招股书中明确对比优势，并加速与运营商的错位合作（如成为其Token背后算力提供方），化竞争为生态。",
+      "summary_cn": "三大运营商同时推出Token套餐，将算力封装为标准化商品，直接与AI应用企业签订供给合同。此举表明运营商正从网络管道商转型为算力服务商，利用其网络入口和资金优势抢夺算力市场核心客户。\n对PPIO的直接影响在于目标客户重叠加剧：运营商Token套餐覆盖中小企业和AI创业公司，这正是PPIO分布式边缘算力的关键客群。运营商凭借广泛网络覆盖可提供‘连接+算力’捆绑优惠，可能快速压低市场价格，侵蚀PPIO的利润空间。公司在IPO前需突出非对称竞争优势，如更低的时延、更灵活的部署和专用硬件调度，同时加快与云厂商、CDN的差异化合作，避免在标准化token售卖上与运营商正面价格战。",
       "ppio_signal": {
-        "positive": "运营商的入场验证了边缘算力零售市场的巨大潜力，有助于PPIO在IPO中讲述一个已被巨头锚定的高价值赛道。",
-        "risk": "运营商的价格战和渠道碾压可能严重挤压PPIO的毛利空间与客户留存，尤其在标准化API推理服务领域，需要快速构筑技术或商务护城河。"
+        "positive": "竞品大厂入场教育了市场，验证了算力标准化订阅模式的商业可行性，利于PPIO在投资者面前论证TAM；可能促成与运营商的合作，成为其边缘算力供应商。",
+        "risk": "运营商通过捆绑销售与渠道覆盖可能大幅侵蚀PPIO现有客户群，削弱公司在IPO阶段营收增速和客单价，短期内面临恶性价格竞争压力。"
       }
     },
     {
-      "id": "raw-4",
-      "title": "长信科技：子公司拟采购不超过30亿元算力服务器",
-      "url": "https://36kr.com/newsflashes/3827366404952704?f=rss",
-      "source": "36氪",
-      "published": "2026-05-27",
-      "body_snippet": "36氪获悉，长信科技公告，公司子公司长信智算拟向多家供应商采购服务器，总金额预计不超过30亿元，主要用于为客户提供算力服务。本次交易不构成重大资产重组或关联交易，已获董事会审议通过，无需提交股东会审议。公司提示，算力业务尚处拓展初期，存在市场、技术、资金等风险，短期内可能增加财务费用并影响业绩。",
-      "category": "资本",
-      "lane": "silent",
-      "signals": [
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1"
-      ],
-      "summary_cn": "长信科技子公司拟投入30亿元采购算力服务器，反映市场对自有算力资源的高昂需求，但作为下游客户动向，对PPIO的边缘云业务短期无直接冲击。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-5",
+      "id": "raw-003",
       "title": "郑州西亚斯学院校友捐赠20亿Token引争议，市场定价混乱凸显算力供需失衡 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfTjdOZjlZM1JyaGJaLUZqUHBlVFFlX0s4UTVxQUhOQVpHMFgzNDA1aGc1N1Y4MXR0UDdWTWwtR2gyRUV3SE1vQnBsUk53cThRdGc?oc=5",
       "source": "虎嗅",
-      "category": "技术",
+      "category": "资本",
       "published": "2026-05-25",
       "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfTjdOZjlZM1JyaGJaLUZqUHBlVFFlX0s4UTVxQUhOQVpHMFgzNDA1aGc1N1Y4MXR0UDdWTWwtR2gyRUV3SE1vQnBsUk53cThRdGc?oc=5\" target=\"_blank\" 郑州西亚斯学院校友捐赠20亿Tok",
       "lane": "silent",
@@ -83,14 +64,71 @@
         "🔬"
       ],
       "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "20亿Token校友捐赠引发的争议暴露了当前算力Token定价体系的混乱与供需失衡，印证了边缘算力市场的现实痛点，但事件本身无直接竞品或政策信号。",
-      "ppio_signal": null
+      "compass_triggered": [],
+      "summary_cn": "郑州西亚斯学院校友捐赠20亿Token引发市场对算力定价混乱和供需失衡的关注，侧面反映当前算力流通环节中缺乏统一计量标准。"
     },
     {
-      "id": "raw-2",
+      "id": "raw-004",
+      "title": "算力成为“新水电”，全国一体化算力网如何落地? - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTWlOdUkxYkZzems1WmQ4MlF1T2Q1RlhObzlmV19ad1F6THhIeGdSb0R6dFlPcU1fNmtGeEludUdTMXNSTVp0Q1IxaElOS01WN1ozVHJFWUtLaEZPdURzVUwtUXlsMWJWMll5eWN4bjRLZUJ6ZXZidGc0SlA4TXFMR3J6WVAxMUc5OWFGamZ6cw?oc=5",
+      "source": "21财经",
+      "category": "政策",
+      "published": "2026-05-27",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPTWlOdUkxYkZzems1WmQ4MlF1T2Q1RlhObzlmV19ad1F6THhIeGdSb0R6dFlPcU1fNmtGeEludUdTMXNSTVp0Q1IxaElOS01WN1ozVHJFWUtLaEZPdURzVUwtUXlsMWJWMll5eWN4bjR",
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "21财经探讨全国一体化算力网如何落地，指出算力正成为‘新水电’。这标志着政策面从顶层规划进入实操阶段，后续将出台具体实施方案，涉及跨区域调度、绿色能源配套和商业化定价机制。\n对PPIO而言，一体化算力网落地意味着算力资源将被网格化、标准化管理，公司的边缘分布式节点必须符合统一接口与安全标准才能入网。短期可能面临合规成本上升，但长期看，一旦纳入国家级算力网络，将获得稳定的调度流量和结算保障，极大地降低获客成本。港股IPO可将此作为政策确定性红利，向投资者讲述‘基础设施化’故事，但需在招股书中明确自身作为分布式算力提供方的合规进度与标准接轨方案。",
+      "ppio_signal": {
+        "positive": "国家级算力网落实将给予PPIO合法的入口和兜底调度，边缘节点可像微电网一样上网售力，大幅提升资产利用率和估值逻辑，利于IPO定价。",
+        "risk": "落地过程可能伴随强制性技术标准和牌照要求，若PPIO未能及时获取或改造现有节点，可能被排除在外，丧失先发优势；同时作为港股上市民企，需投入资源迎合国资委下属平台的数据确权及定价规则。"
+      }
+    },
+    {
+      "id": "raw-005",
+      "title": "KADC 2026 | openFuyao分论坛大咖云集，深度分享AI原生时代多样化算力释放实践及探索 - 51CTO",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrdFpVc2Q0UkM4cXpXMWJWcHctbXh6Zkw0MGo2Y3pKQXZ2MVoyQVY4dU9NQ2ZrRXJJazdKUDNTRTNLcDVXUmNFcEE2WE5ISUk3VGY4?oc=5",
+      "source": "51CTO",
+      "category": "技术",
+      "published": "2026-05-27",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrdFpVc2Q0UkM4cXpXMWJWcHctbXh6Zkw0MGo2Y3pKQXZ2MVoyQVY4dU9NQ2ZrRXJJazdKUDNTRTNLcDVXUmNFcEE2WE5ISUk3VGY4?oc=5\" target=\"_blank\" KADC 2026 | open",
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "KADC 2026 openFuyao分论坛聚焦AI原生时代多样化算力释放实践，技术社区推动异构算力调度和优化。"
+    },
+    {
+      "id": "raw-001",
+      "title": "中央政治局会议点名、丁薛祥调研！这一产业，竟带动了土建+能源 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY3YtQUZTREJoa0o1dDE5V3VYbFZYTG82UG9BMWtyLWJmc0p6c3IxQVJHQ0I4NlA5Q1J0cC1xMDBYUEJ2RkFzaEJvT2RJUUFKRzlWdS1sOVpYZEExcHlyUnY1enJUMkw2SV9NLVAtS1htSWt2SUV4SERfaHRCRjUyTXlZTEJ1WkFT?oc=5",
+      "source": "搜狐网",
+      "category": "政策",
+      "published": "2026-05-26",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY3YtQUZTREJoa0o1dDE5V3VYbFZYTG82UG9BMWtyLWJmc0p6c3IxQVJHQ0I4NlA5Q1J0cC1xMDBYUEJ2RkFzaEJvT2RJUUFKRzlWdS1sOVpYZEExcHlyUnY1enJUMkw2SV9NLVAtS1h",
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "2026年5月26日，中央政治局会议点名算力产业，国务院副总理丁薛祥前往调研，显示算力已被提升至国家最高战略层级。此次高层定调不仅将推动算力基础设施建设加速，还将带动配套土建、能源等上下游产业，释放巨大的政策红利和市场空间。\n对PPIO而言，这一顶层信号意味着边缘云分布式算力作为算力网络的重要组成，将直接受益于国家算力战略布局和资源倾斜。短期可能加速各地算力基建项目审批与补贴落地，为PPIO获取客户与政策支持打开窗口；中期需警惕大型云厂商与央企在国家项目中的主导地位，可能挤压边缘算力平台的议价空间。同时，PPIO作为拟港股IPO企业，国家级政策背书有助于提升国际投资者对中国算力赛道的信心，降低地缘估值折价。",
+      "ppio_signal": {
+        "positive": "算力产业获政治局点名和副总理调研，国家级战略地位确立，边缘云分布式算力作为关键支撑将获得政策、资金和项目机会的全面加持，IPO估值叙事更有高度。",
+        "risk": "政策推动下头部国企和超大规模云商可能优先获得国家级项目，边缘算力初创企业在资源争夺和定价权上面临更大竞争压力，需快速卡位差异化场景。"
+      }
+    },
+    {
+      "id": "raw-002",
       "title": "从模型诞生到上线：Ray 在小红书 AI 数据生产中的算力调度实践｜AICon 上海 - Infoq.cn",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uVjIydFB4WDJRd01jZ0RkaDZ3cjRta1dTUDNlUTQwQlVvQU5HSDBJT3ZlOGhUZ19pTkNQeXUwS0FwRi1FT29QdGhqdDlWSTVjYnpXODJqR0Q2QUdETmc?oc=5",
       "source": "Infoq.cn",
@@ -102,75 +140,82 @@
         "🔬"
       ],
       "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "AICon上海分享Ray在小红书AI数据生产中的算力调度实践，属于分布式调度框架落地案例，对PPIO技术栈有间接参考价值。",
+      "compass_triggered": [],
+      "summary_cn": "小红书在AICon分享基于Ray的AI数据生产算力调度实践，展示分布式框架在真实业务中的优化路径，技术经验对PPIO边缘云调度策略有参考价值。",
       "ppio_signal": null
     },
     {
-      "id": "raw-3",
-      "title": "像电网一样调配，全国算力网要来了 - cnenergynews.cn",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TZld2ZlJFNDAzT1ZsZjV5SUpqemEtUXRHOWlEalItTmVrdUJlbml3bmhOMG1Xay05Z0Y0WjQ5MjVuSlF5NEpianhDY2MwZTZtTG03RGh0Nl9fcDA?oc=5",
-      "source": "cnenergynews.cn",
-      "category": "政策",
-      "published": "2026-05-25",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TZld2ZlJFNDAzT1ZsZjV5SUpqemEtUXRHOWlEalItTmVrdUJlbml3bmhOMG1Xay05Z0Y0WjQ5MjVuSlF5NEpianhDY2MwZTZtTG03RGh0Nl9fcDA?oc=5\" target=\"_blank\" 像电网一样",
-      "lane": "attend",
-      "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c3"
-      ],
-      "summary_cn": "新闻透露国家层面正推进“全国算力网”建设，目标是实现像电网一样调配算力资源。此举将推动算力基础设施互联互通和统一调度，为东数西算、云边协同提供制度基础。对PPIO这样主打分布式边缘算力的平台，政策方向整体有利，有望降低跨域接入成本，扩大服务半径。但需警惕国家级算力调度平台对现有商业调度平台的替代风险，以及为此可能引入的牌照、接入标准等合规门槛，影响港股IPO的审查叙事。",
-      "ppio_signal": {
-        "positive": "全国算力网建设将为边缘云和分布式算力接入提供标准化、规模化的市场环境，利好PPIO作为中立算力调度平台的定位。",
-        "risk": "若统一调度平台由国家队主导，可能挤压第三方平台生存空间；同时涉及的合规和互联互通要求可能增加上市前的监管不确定性。"
-      }
-    },
-    {
-      "id": "raw-4",
-      "title": "算力狂飙的瓶颈不止电量：电网风险正突破认知 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUjlyRTR5aFRBb0FVUVgwc1ljUnhCWU5oeDNGLV9jNkN6UUt4MFk3cTlTaE1IUDY1NndINjZxbHg4ZHVFNUZ1U1NwWUFqa250OFFzSXJyWlBYbmFEX2VPazRaOW5IakxEbVgtaHN5SjBOTnBpcXZHckt6RFdKTmp6dlhtOEZ0eXU3Ry1oVk5YVXBDR0xiRE1sRENsV1Aza1l0MjlHX0x4OA?oc=5",
+      "id": "raw-005",
+      "title": "算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiowNBVV95cUxQQkFKR3c3LU1OV0NvbDJKSmo4bnVYU0xlbndQdFlfTXVLcmJ2QnlQenpFWTY5UVBsMk9wQ1M2LVpUVVFYangzZ1dyN2YtWUsxU21FYjlQZWFFanFGVldUSDlIMGI1QUhHTG9PUzVRZ2RyTl9rcHdYcElJRGNyUm9uZGQwMklkM0ZYYlpoSk91cjctTm1Zc1FGZ0FLRUlLVndrUEhPT0t1Z0ZvWkRuNzZyakJLY25HMlQ5MTVfSmF1S0loWkZ3OGJ1LU1FbmpPSWFPb0RLcHlsZ0pUVllrekhyTGE2YmNma1VhTDlSNzNlWkoyckE5Z0JkQnVXMHltSmpqQS1fWWxMWUVTT0M5dDVhS3IzcnZXY2JyYnFOelpzb05QSDRlbGtfMXRpNWxjWUw3bTFoVDNyZ3Fvc1dIZzZMajk5a0tHdi0yUjVFd2RBeXJNRDBTNGN0UDRmYTYxVUtLSkliaVJJa3p1N21WZWlzd2t5Q25OMzVtVFVYTVRDYzE3blUyU2tmVENJMWF2cEVIbkJhc0ZVZnVHQVlxSVdHMHppbw?oc=5",
       "source": "新浪财经",
       "category": "技术",
       "published": "2026-05-27",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPUjlyRTR5aFRBb0FVUVgwc1ljUnhCWU5oeDNGLV9jNkN6UUt4MFk3cTlTaE1IUDY1NndINjZxbHg4ZHVFNUZ1U1NwWUFqa250OFFzSXJyWlBYbmFEX2VPazRaOW5IakxEbVgtaHN5SjB",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiowNBVV95cUxQQkFKR3c3LU1OV0NvbDJKSmo4bnVYU0xlbndQdFlfTXVLcmJ2QnlQenpFWTY5UVBsMk9wQ1M2LVpUVVFYangzZ1dyN2YtWUsxU21FYjlQZWFFanFGVldUSDlIMGI1QUhHTG9PUzVRZ2R",
       "lane": "silent",
       "signals": [
         "🔬"
       ],
       "is_deep_read": false,
-      "compass_triggered": [
-        "c1"
-      ],
-      "summary_cn": "文章讨论算力增长对电网稳定性的挑战，点出电力风险正成为算力基础设施的隐性瓶颈，边缘算力的供电问题值得长期关注。",
+      "compass_triggered": [],
+      "summary_cn": "算力中心扩张面临电网容量瓶颈，电力系统风险成为制约因素，可能影响边缘节点选址和能耗策略，需关注各地电力审批与绿电配套趋势。",
       "ppio_signal": null
     },
     {
-      "id": "raw-5",
-      "title": "建议加快推动算力银行、算力超市在川落地｜智库圆桌 - 川观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBOcm0xdkRBX3hnTmVVNzdoQl9qNVFYaXdZa3JUbVF2UzI5WVRBOG95SDZ3T2NTbTJPOTJqSU9MaVFxU0M2a0JVUThVVDQ0QQ?oc=5",
-      "source": "川观新闻",
-      "category": "政策",
-      "published": "2026-05-24",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTFBOcm0xdkRBX3hnTmVVNzdoQl9qNVFYaXdZa3JUbVF2UzI5WVRBOG95SDZ3T2NTbTJPOTJqSU9MaVFxU0M2a0JVUThVVDQ0QQ?oc=5\" target=\"_blank\" 建议加快推动算力银行、算力超市在川落地｜智库",
+      "id": "raw-1",
+      "title": "百度AI开发者大会提出新指标DAA，强调智能体应用价值 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1KY0RGTl8zbWpwdHNqdVN4YU4yQTg4QjJHc0Y4NmV0cHE5TW15THRRc2ZFd19RbUQ1b2hqcjBhS1JYRnJWMDR2ZXltQnQ1ODljOFRZMw?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-05-23",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE1KY0RGTl8zbWpwdHNqdVN4YU4yQTg4QjJHc0Y4NmV0cHE5TW15THRRc2ZFd19RbUQ1b2hqcjBhS1JYRnJWMDR2ZXltQnQ1ODljOFRZMw?oc=5\" target=\"_blank\" 百度AI开发者大会提出新指标",
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "百度AI开发者大会提出新指标DAA，强调智能体应用价值，可能催生新型AI应用对边缘算力的需求，对PPIO属于潜在正面技术动向。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-2",
+      "title": "校企联动 | 优刻得与上海科技大学共建智算未来 - 财富号",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMQWM0ZGNZVXViV1NxZXkwbnNwR3BpbnI2dlFuNDRkVnphMUpTaUJPR0ZqaTdBeTVNeUF2RHVRMkF1UnRlb2k0aWVqLWlUWGZmeXltZ3lRVEFhYzVNbGM4bVYzWXlSdHlvdEZr?oc=5",
+      "source": "财富号",
+      "category": "竞品",
+      "published": "2026-05-26",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTFBMQWM0ZGNZVXViV1NxZXkwbnNwR3BpbnI2dlFuNDRkVnphMUpTaUJPR0ZqaTdBeTVNeUF2RHVRMkF1UnRlb2k0aWVqLWlUWGZmeXltZ3lRVEFhYzVNbGM4bVYzWXlSdHlvdEZr?oc=5\" ",
       "lane": "attend",
       "signals": [
-        "🏛️"
+        "⚔️"
       ],
       "is_deep_read": true,
       "compass_triggered": [
-        "c1"
+        "c2"
       ],
-      "summary_cn": "四川智库建议加快推动“算力银行”“算力超市”等创新交易模式落地，意在通过市场化机制盘活算力资源，降低使用门槛。该思路与PPIO边缘云平台的算力交易、灵活调度模式高度契合，如被纳入地方或全国性试点，将为PPIO提供政策背书和可复制的区域合作样本。但此类模式也可能吸引更多竞争者涌入，加速行业洗牌，同时需注意交易模式创新带来的金融监管灰区风险，需在IPO招股书中明确合规边界。",
+      "summary_cn": "优刻得（UCloud）与上海科技大学宣布共建智算未来。优刻得是云计算及边缘算力服务商，直接对标PPIO的核心业务。该合作将整合高校科研资源与商业算力基础设施，可能加速优刻得在智算平台、人才培养及前沿技术方面的布局，进一步巩固其市场地位。对PPIO而言，这标志着竞争对手在产学研生态建设上持续加码，可能拉大在某些行业客户中的入口优势。",
       "ppio_signal": {
-        "positive": "算力银行/超市概念与PPIO的分布式算力交易平台定位一致，政策推动可能带来试点机会和行业认可。",
-        "risk": "行业门槛降低可能引来大型云厂商和金融资本入局；交易环节可能触发类金融服务监管，增加合规成本。"
+        "positive": "头部竞品加码智算基础设施建设，进一步带热边缘算力整体市场，有助于PPIO拓展分布式算力在科研与产业端的应用场景。",
+        "risk": "优刻得借助高校资源提升其智能算力服务能力，可能在政企与学术类客户中形成更强的品牌壁垒，挤压PPIO的市场份额，同时增加港股上市路演中关于竞争格局的追问难度。"
       }
+    },
+    {
+      "id": "raw-4",
+      "title": "大模型集体涨价：订阅制与API价格调整，免费午餐时代结束 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9OYWp0YmRwSnRUSzdCdW41VEV1MU5pM1NkYnkzZFVMeERXMnhaRXNBeVhKVll2R0ZYNWRZWUlJUVRLaXdoVmh3NFZjcjNJYUFEMUJZbg?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-05-26",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9OYWp0YmRwSnRUSzdCdW41VEV1MU5pM1NkYnkzZFVMeERXMnhaRXNBeVhKVll2R0ZYNWRZWUlJUVRLaXdoVmh3NFZjcjNJYUFEMUJZbg?oc=5\" target=\"_blank\" 大模型集体涨价：订阅制与AP",
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "大模型集体涨价可能促使企业转向成本更低的边缘推理方案，对PPIO分布式算力平台构成利好。",
+      "ppio_signal": null
     }
   ]
 }
