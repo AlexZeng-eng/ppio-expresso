@@ -182,6 +182,49 @@ async function scrapeGovList(url, source) {
 }
 
 
+/**
+ * Scrape multiple pages using a single CloakBrowser instance.
+ */
+async function scrapeWithCloak(pages) {
+  try {
+    const { launch } = await import('cloakbrowser');
+    const browser = await launch({ headless: true });
+    const results = await Promise.all(pages.map(async ({ url, source, category }) => {
+      try {
+        const page = await browser.newPage();
+        await page.goto(url, { waitUntil: 'networkidle', timeout: 20000 });
+        const items = await page.evaluate((src, cat) => {
+          const results = [];
+          const seen = new Set();
+          document.querySelectorAll('a').forEach(a => {
+            const title = a.innerText.trim();
+            const href = a.href;
+            if (!title || title.length < 8 || title.length > 100) return;
+            if (!/[一-鿿]/.test(title)) return;
+            if (!href || !href.startsWith('http')) return;
+            if (seen.has(title)) return;
+            seen.add(title);
+            results.push({ title, url: href, source: src, category: cat,
+              published: new Date().toISOString().slice(0, 10), body_snippet: title });
+          });
+          return results.slice(0, 15);
+        }, source, category);
+        await page.close();
+        console.log(`    Cloak ${url.slice(0, 40)}... → ${items.length} items`);
+        return items;
+      } catch (err) {
+        console.warn(`    ⚠ Cloak failed (${url.slice(0, 40)}...): ${err.message.slice(0, 60)}`);
+        return [];
+      }
+    }));
+    await browser.close();
+    return results.flat();
+  } catch (err) {
+    console.warn(`    ⚠ CloakBrowser launch failed: ${err.message.slice(0, 60)}`);
+    return [];
+  }
+}
+
 async function searchGoogleNews(query, category) {
   const encoded = encodeURIComponent(query);
   const url = `https://news.google.com/rss/search?q=${encoded}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans`;
@@ -692,6 +735,14 @@ async function main() {
   ];
   const govResults = await Promise.all(govPages.map(g => scrapeGovList(g.url, g.source)));
   for (const items of govResults) allItems.push(...items);
+
+  // ── Phase 1c: CloakBrowser — anti-bot media sites ──────────────────
+  console.log('\n  🕵️ CloakBrowser media pages...');
+  const cloakItems = await scrapeWithCloak([
+    { url: 'https://www.huxiu.com/channel/103.html', source: '虎嗅', category: '技术' },
+    { url: 'https://www.latepost.com/', source: '晚点LatePost', category: '竞品' },
+  ]);
+  allItems.push(...cloakItems);
 
   // ── Phase 2: Google News search ─────────────────────────────────────
   console.log('\n  🔍 Google News searches...');

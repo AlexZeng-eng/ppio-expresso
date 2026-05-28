@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cloakbrowser": "^0.3.31",
+    "playwright-core": "^1.60.0"
+  }
+}
