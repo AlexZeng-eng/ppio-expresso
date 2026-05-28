@@ -92,6 +92,7 @@ ${signalList}
 
 例外：
 - 国常会/中央/部委级政策全部 lane:attend
+- 习近平/李强/政治局常委调研或讲话涉及AI/算力，全部 lane:attend，is_deep_read:true
 - 无问芯穹及 AI Infra 主要竞品全部 lane:attend
 - 纯小额融资（<1亿元）降级为 lane:silent
 
@@ -188,7 +189,10 @@ function ruleBasedClassify(item, config) {
   else if (isSilent) lane = 'silent';
 
   // Exceptions
-  if (/国常会|国务院|中央|部委/.test(title)) lane = 'attend';
+  if (/国常会|国务院常务会议|国务院.*AI|国务院.*算力/.test(title)) lane = 'attend';
+  if (/习近平.*人工智能|习近平.*算力|习近平.*数字经济/.test(title)) lane = 'attend';
+  if (/李强.*人工智能|李强.*算力|总理.*算力/.test(title)) lane = 'attend';
+  if (/政治局.*人工智能|政治局.*算力|政治局常委.*AI/.test(title)) lane = 'attend';
   if (/无问芯穹|AI.*Infra/.test(title)) lane = 'attend';
 
   const isDeep = /政策原文|国务院|国常会|立法|招股书|深度分析|研究报告/.test(title);

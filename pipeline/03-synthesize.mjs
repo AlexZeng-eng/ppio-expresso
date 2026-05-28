@@ -102,6 +102,7 @@ ${silentSummary || '（无）'}
 重要规则：
 - mainline ≤ 80 字，点出本周对 PPIO 最重要的变化
 - 每个信号至少 1 条，最多 3 条
+- 如有习近平/李强/国常会涉及AI/算力的内容，必须在 positive 或 risk 中单独列出，注明"高层信号"
 - wind_indicators 各 heat 值为 1-5 整数（1=冷淡 3=活跃 5=高热）
 - overall_sentiment 从以下选一个：升温 / 活跃 / 平稳 / 降温 / 观望
 - 直接返回 JSON，不要 markdown 代码块`;
