@@ -116,7 +116,8 @@ ${signalList}
   }
 }
 
-重要：ppio_signal 仅在 lane:attend 时填写。lane:silent 时 ppio_signal 为 null。`;
+重要：ppio_signal 仅在 lane:attend 时填写。lane:silent 时 ppio_signal 为 null。
+注意：如果内容是早报/晚报/日报汇编形式（标题含【早报】【晚报】等），或正文明显是旧日期内容的转发，直接 lane:skip。`;
 }
 
 function buildItemPrompt(item) {

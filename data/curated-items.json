@@ -3,8 +3,8 @@
   "week": "2026-W23",
   "classifier": "deepseek-v4-pro",
   "total_raw": 15,
-  "total_curated": 15,
-  "attend_count": 5,
+  "total_curated": 14,
+  "attend_count": 4,
   "silent_count": 10,
   "items": [
     {
@@ -125,28 +125,6 @@
       "ppio_signal": {
         "positive": "分布式推理网络概念加速普及，有利于PPIO边缘算力模式的客户教育与市场推广，可能提升IPO估值叙事。",
         "risk": "CDN公司拥有广泛的边缘节点和成熟的运维体系，若大举进入将直接冲击PPIO的市场份额，需强调自身在异构算力调度和成本优化上的技术壁垒。"
-      }
-    },
-    {
-      "id": "raw-2",
-      "title": "【早报】李强：培育壮大新质生产力；事关算力，国资委最新部署 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE44WWJiLXl0U0hQZTNRaUFGQTdxS1QtSDcwMHRpUVdtNUJCb1ljMGk4WjN0bUk4VW5qVU82Ymw2WjM1dzBhLTVMdA?oc=5",
-      "source": "财联社",
-      "category": "政策",
-      "published": "2026-05-31",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE44WWJiLXl0U0hQZTNRaUFGQTdxS1QtSDcwMHRpUVdtNUJCb1ljMGk4WjN0bUk4VW5qVU82Ymw2WjM1dzBhLTVMdA?oc=5\" target=\"_blank\" 【早报】李强：培育壮大新质生产力；事关算力，国资委最新部署 ",
-      "lane": "attend",
-      "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1"
-      ],
-      "summary_cn": "国务院总理李强强调培育壮大新质生产力，国资委对算力作出最新部署。这是最高决策层对算力作为新质生产力核心要素的再次定调，预计将带动后续政策、资金和项目的集中落地。对PPIO而言，算力政策的持续加码将推动需求侧快速增长，特别是分布式算力和边缘算力作为算力网络的重要组成，有望获得更多政策支持和试点机会；同时，国资云、运营商等国家队可能加速抢占边缘算力节点，PPIO需在政策红利和竞争加剧中找到平衡，并确保自身合规性与数据安全符合监管要求，为港股IPO扫除政策风险。",
-      "ppio_signal": {
-        "positive": "国家层面连续发声，算力战略地位再提升，边缘分布式算力有望纳入国家级算力网络体系，直接利好PPIO业务拓展与IPO政策背书。",
-        "risk": "国资委部署可能加速央国企和运营商在边缘节点的布局，挤压民营平台的空间；同时IPO过程中可能面临更严格的网络安全审查和VIE架构合规问询。"
       }
     },
     {

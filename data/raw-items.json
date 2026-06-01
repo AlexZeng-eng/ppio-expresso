@@ -1,42 +1,51 @@
 {
-  "generated_at": "2026-05-29T10:57:58.451Z",
-  "week": "2026-W22",
+  "generated_at": "2026-06-01T03:19:25.819Z",
+  "week": "2026-W23",
   "date_range": {
-    "from": "2026-05-22",
-    "to": "2026-05-29"
+    "from": "2026-05-25",
+    "to": "2026-06-01"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "清华系团队给大模型织了一张“智能算力电网”",
-      "url": "https://www.qbitai.com/2026/05/426353.html",
-      "source": "量子位",
-      "published": "2026-05-29",
-      "body_snippet": "单位Token成本降低40%",
-      "category": "技术"
-    },
-    {
-      "id": "raw-002",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
       "category": "技术",
-      "published": "2026-05-28",
+      "published": "2026-05-31",
       "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5\" target=\"_blank\" 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？"
     },
     {
+      "id": "raw-002",
+      "title": "最高降价99%背后：小米首次公开模型推理优化技术报告 - 品玩",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wa2VsajVHN1FfWXlOWGlsdzBsTno2RVNVZkpEQUJsOFUzTGlFX0QwVndtWVRvbzdJM2ctV0lZeHBBdFdOLWpCZw?oc=5",
+      "source": "品玩",
+      "category": "技术",
+      "published": "2026-05-30",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wa2VsajVHN1FfWXlOWGlsdzBsTno2RVNVZkpEQUJsOFUzTGlFX0QwVndtWVRvbzdJM2ctV0lZeHBBdFdOLWpCZw?oc=5\" target=\"_blank\" 最高降价99%背后：小米首次公开模型推理优化技术报告 /a "
+    },
+    {
       "id": "raw-003",
-      "title": "进一步统筹“六张网”建设内容 - 人民日报",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzJ2U1V1aDhVWVRSN0RlV3ZIQ0ktaDRPWW9va0JkN3RzUnhKUGkwMHB6SUZmbGpuVlF6SXNidVA3N3hKeTYxT0h0MFhhMnZXeHZ5TkVOT3huMFdrWkFCQmx5THNNRzRNc0xBc214NllGYk8xRWtfbjRlWENsMkJ0XzM5dzk?oc=5",
-      "source": "人民日报",
-      "category": "政策",
-      "published": "2026-05-26",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzJ2U1V1aDhVWVRSN0RlV3ZIQ0ktaDRPWW9va0JkN3RzUnhKUGkwMHB6SUZmbGpuVlF6SXNidVA3N3hKeTYxT0h0MFhhMnZXeHZ5TkVOT3huMFdrWkFCQmx5THNNRzRNc0xBc214Nll"
+      "title": "2026全球AI算力报告及算力产业十大趋势重磅发布 - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SR3ZCY2w2YWlGdkVSX0xOSFFOVnYzRzFKemptN3dIeGRaOXU2MHBwdnFDc3F1Vk5OTk1SLWRBSEtXblZxLUxaNDBNY2NOZGhfLWMyeXY4Tnk2RUpFNEE?oc=5",
+      "source": "thepaper.cn",
+      "category": "技术",
+      "published": "2026-05-30",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SR3ZCY2w2YWlGdkVSX0xOSFFOVnYzRzFKemptN3dIeGRaOXU2MHBwdnFDc3F1Vk5OTk1SLWRBSEtXblZxLUxaNDBNY2NOZGhfLWMyeXY4Tnk2RUpFNEE?oc=5\" target=\"_blank\" 2"
     },
     {
       "id": "raw-004",
+      "title": "中国经济面面观丨为什么是“六张网”——看政策出台的深层逻辑 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbjdHZGx3WVhoX3ZKcVBlWVdLTks1ZUUzVm9oeWpuX3lPZW4wTnZFNUdVazR2eUt2UjBha0ZyaHAtZEdKQ2lCWGVwSS1EVjJldDlsVW85N0dkT014ZHBrOVpfcUxKTWdzWWVPY0ZpWVAwcHlBMmZFd21qeHpKMmt5THhB?oc=5",
+      "source": "新华网",
+      "category": "政策",
+      "published": "2026-05-28",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPbjdHZGx3WVhoX3ZKcVBlWVdLTks1ZUUzVm9oeWpuX3lPZW4wTnZFNUdVazR2eUt2UjBha0ZyaHAtZEdKQ2lCWGVwSS1EVjJldDlsVW85N0dkT014ZHBrOVpfcUxKTWdzWWVPY0ZpWVA"
+    },
+    {
+      "id": "raw-005",
       "title": "DeepSeek频繁服务异常背后：算力成本高企，免费模式难持续 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MOEZzT084MzlRcEtYTkN2SFpxOEJuanYxMGJ5ZnFBZEViYU91eGZ1eUtFTDd5ZVppbmdxbVlhSlFXQVQ1TlVVeWJram1QQ0NSbWRtTw?oc=5",
       "source": "虎嗅",
@@ -45,7 +54,7 @@
       "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MOEZzT084MzlRcEtYTkN2SFpxOEJuanYxMGJ5ZnFBZEViYU91eGZ1eUtFTDd5ZVppbmdxbVlhSlFXQVQ1TlVVeWJram1QQ0NSbWRtTw?oc=5\" target=\"_blank\" DeepSeek频繁服务异常"
     },
     {
-      "id": "raw-005",
+      "id": "raw-006",
       "title": "算力下沉边缘，CDN公司发力“分布式推理网络” - 21财经",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbVQySFU3aXZFdlJVbHdabHQ1YnI0UGo2ZTNtYXJBVnJWc2JMbm5hV3AzZl9iTEIyTVRlb0ttaFI0b0FiV3FDYlZWbzZ1aHhob0ljRUFmck9XUHVMdVp5NlNuLWstRUpiYXgwcll0RkhDVDJ3NmwxYlRCODk5RzA0QUtmNk5wUTk4dm5IOHkwTQ?oc=5",
       "source": "21财经",
@@ -54,7 +63,34 @@
       "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQbVQySFU3aXZFdlJVbHdabHQ1YnI0UGo2ZTNtYXJBVnJWc2JMbm5hV3AzZl9iTEIyTVRlb0ttaFI0b0FiV3FDYlZWbzZ1aHhob0ljRUFmck9XUHVMdVp5NlNuLWstRUpiYXgwcll0Rkh"
     },
     {
-      "id": "raw-006",
+      "id": "raw-007",
+      "title": "【早报】李强：培育壮大新质生产力；事关算力，国资委最新部署 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE44WWJiLXl0U0hQZTNRaUFGQTdxS1QtSDcwMHRpUVdtNUJCb1ljMGk4WjN0bUk4VW5qVU82Ymw2WjM1dzBhLTVMdA?oc=5",
+      "source": "财联社",
+      "category": "政策",
+      "published": "2026-05-31",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE44WWJiLXl0U0hQZTNRaUFGQTdxS1QtSDcwMHRpUVdtNUJCb1ljMGk4WjN0bUk4VW5qVU82Ymw2WjM1dzBhLTVMdA?oc=5\" target=\"_blank\" 【早报】李强：培育壮大新质生产力；事关算力，国资委最新部署 "
+    },
+    {
+      "id": "raw-008",
+      "title": "算力网建设全面提速，AI WAN迎来重要机遇 - 电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfYWZ1NmR5b09ka3VrWm5MWUoxckxzMzUxTllDTHRHaWNfc0RHem5qd1dCS2MxeFo0VHFhVVBkN0d4eWRfOWZkenJRQ2F0RVFTMkd3?oc=5",
+      "source": "电子工程专辑",
+      "category": "政策",
+      "published": "2026-05-31",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfYWZ1NmR5b09ka3VrWm5MWUoxckxzMzUxTllDTHRHaWNfc0RHem5qd1dCS2MxeFo0VHFhVVBkN0d4eWRfOWZkenJRQ2F0RVFTMkd3?oc=5\" target=\"_blank\" 算力网建设全面提速，AI WAN"
+    },
+    {
+      "id": "raw-009",
+      "title": "Anthropic获650亿美元H轮融资，投后估值近万亿，加速AI模型研发与算力扩张 - 天脉网",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBxc0lqeGJLb29PTUVOb08tR3Bkc1NoNzJSSjVtSXdmY0p1eXdrVGp6OG9QdnhmcGY0cEVlTUJhTktfbFhSWVJJUDQ2NmhSeHlwanliY3paYw?oc=5",
+      "source": "天脉网",
+      "category": "竞品",
+      "published": "2026-05-29",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBxc0lqeGJLb29PTUVOb08tR3Bkc1NoNzJSSjVtSXdmY0p1eXdrVGp6OG9QdnhmcGY0cEVlTUJhTktfbFhSWVJJUDQ2NmhSeHlwanliY3paYw?oc=5\" target=\"_blank\" Anthropic获"
+    },
+    {
+      "id": "raw-010",
       "title": "移动把AI算力摆上货架，电信联通急了？ - 搜狐网",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcm5xZG9YOGdsM21pdnRoallXUzhpc2hzb1VlZWk0Z3cwYXM4NXF5TWw0OWtkcWk0S1gwd2xnQXM4dDVHRloxQVpmNS1ZUjQyNGJReVRhai1fUnU1MzJUaU9MSDdfRE5EdXNqT1lqZjZzb1I5SVdMMS0ydG9tcFlqdUFWNzViWTlHZXRmaw?oc=5",
       "source": "搜狐网",
@@ -63,7 +99,7 @@
       "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPcm5xZG9YOGdsM21pdnRoallXUzhpc2hzb1VlZWk0Z3cwYXM4NXF5TWw0OWtkcWk0S1gwd2xnQXM4dDVHRloxQVpmNS1ZUjQyNGJReVRhai1fUnU1MzJUaU9MSDdfRE5EdXNqT1lqZjZ"
     },
     {
-      "id": "raw-007",
+      "id": "raw-011",
       "title": "领航者峰会 2026｜新华三发布S90000高密全液冷整机 为AI时代构筑极致澎湃算力底座 - 能源界",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01Ui1KR1R2Z1h3NGNoRWhxUXFnS3lOOXI2NFZ3MDZRRGNWYndiYkJtbVlFeDMzNVNnN1VEMFhjZnBRNV9yTFBBT3Y0eVRBWld4eDdnemd0amJmOWc?oc=5",
       "source": "能源界",
@@ -72,25 +108,7 @@
       "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE01Ui1KR1R2Z1h3NGNoRWhxUXFnS3lOOXI2NFZ3MDZRRGNWYndiYkJtbVlFeDMzNVNnN1VEMFhjZnBRNV9yTFBBT3Y0eVRBWld4eDdnemd0amJmOWc?oc=5\" target=\"_blank\" 领航者峰会"
     },
     {
-      "id": "raw-008",
-      "title": "郑州西亚斯学院校友捐赠20亿Token引争议，市场定价混乱凸显算力供需失衡 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfTjdOZjlZM1JyaGJaLUZqUHBlVFFlX0s4UTVxQUhOQVpHMFgzNDA1aGc1N1Y4MXR0UDdWTWwtR2gyRUV3SE1vQnBsUk53cThRdGc?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-05-25",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfTjdOZjlZM1JyaGJaLUZqUHBlVFFlX0s4UTVxQUhOQVpHMFgzNDA1aGc1N1Y4MXR0UDdWTWwtR2gyRUV3SE1vQnBsUk53cThRdGc?oc=5\" target=\"_blank\" 郑州西亚斯学院校友捐赠20亿Tok"
-    },
-    {
-      "id": "raw-009",
-      "title": "【早报】李强：培育壮大新质生产力；事关算力，国资委最新部署 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE44WWJiLXl0U0hQZTNRaUFGQTdxS1QtSDcwMHRpUVdtNUJCb1ljMGk4WjN0bUk4VW5qVU82Ymw2WjM1dzBhLTVMdA?oc=5",
-      "source": "财联社",
-      "category": "政策",
-      "published": "2026-05-28",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE44WWJiLXl0U0hQZTNRaUFGQTdxS1QtSDcwMHRpUVdtNUJCb1ljMGk4WjN0bUk4VW5qVU82Ymw2WjM1dzBhLTVMdA?oc=5\" target=\"_blank\" 【早报】李强：培育壮大新质生产力；事关算力，国资委最新部署 "
-    },
-    {
-      "id": "raw-010",
+      "id": "raw-012",
       "title": "城市全域数字化转型与DATA+AI+算力项目立项与招投标情况（2026年5月）：月度上亿项目共11个，算力/AI为最大投入赛道，可信数据空间项目8个，高质量数据集密集落地– 智慧城市行业分析 - 智慧城市行业分析",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiNVozRXFKeFd2d191b0htSzNucHQ0b0IyenhNU25DZThwNWNJNm5OREtVQnMxSHNzOUpvdmppMGJMT2J4S3ZFRmZid2s0bERjUWhjbjFFRHExa0lxQUk4ZEhn?oc=5",
       "source": "智慧城市行业分析",
@@ -99,7 +117,16 @@
       "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiNVozRXFKeFd2d191b0htSzNucHQ0b0IyenhNU25DZThwNWNJNm5OREtVQnMxSHNzOUpvdmppMGJMT2J4S3ZFRmZid2s0bERjUWhjbjFFRHExa0lxQUk4ZEhn?oc=5\" target=\"_bla"
     },
     {
-      "id": "raw-011",
+      "id": "raw-013",
+      "title": "KADC 2026 | openFuyao分论坛大咖云集，深度分享AI原生时代多样化算力释放实践及探索 - 51CTO",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrdFpVc2Q0UkM4cXpXMWJWcHctbXh6Zkw0MGo2Y3pKQXZ2MVoyQVY4dU9NQ2ZrRXJJazdKUDNTRTNLcDVXUmNFcEE2WE5ISUk3VGY4?oc=5",
+      "source": "51CTO",
+      "category": "技术",
+      "published": "2026-05-27",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrdFpVc2Q0UkM4cXpXMWJWcHctbXh6Zkw0MGo2Y3pKQXZ2MVoyQVY4dU9NQ2ZrRXJJazdKUDNTRTNLcDVXUmNFcEE2WE5ISUk3VGY4?oc=5\" target=\"_blank\" KADC 2026 | open"
+    },
+    {
+      "id": "raw-014",
       "title": "中央政治局会议点名、丁薛祥调研！这一产业，竟带动了土建+能源 - 搜狐网",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY3YtQUZTREJoa0o1dDE5V3VYbFZYTG82UG9BMWtyLWJmc0p6c3IxQVJHQ0I4NlA5Q1J0cC1xMDBYUEJ2RkFzaEJvT2RJUUFKRzlWdS1sOVpYZEExcHlyUnY1enJUMkw2SV9NLVAtS1htSWt2SUV4SERfaHRCRjUyTXlZTEJ1WkFT?oc=5",
       "source": "搜狐网",
@@ -108,40 +135,13 @@
       "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY3YtQUZTREJoa0o1dDE5V3VYbFZYTG82UG9BMWtyLWJmc0p6c3IxQVJHQ0I4NlA5Q1J0cC1xMDBYUEJ2RkFzaEJvT2RJUUFKRzlWdS1sOVpYZEExcHlyUnY1enJUMkw2SV9NLVAtS1h"
     },
     {
-      "id": "raw-012",
+      "id": "raw-015",
       "title": "从模型诞生到上线：Ray 在小红书 AI 数据生产中的算力调度实践｜AICon 上海 - Infoq.cn",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uVjIydFB4WDJRd01jZ0RkaDZ3cjRta1dTUDNlUTQwQlVvQU5HSDBJT3ZlOGhUZ19pTkNQeXUwS0FwRi1FT29QdGhqdDlWSTVjYnpXODJqR0Q2QUdETmc?oc=5",
       "source": "Infoq.cn",
       "category": "技术",
       "published": "2026-05-26",
       "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uVjIydFB4WDJRd01jZ0RkaDZ3cjRta1dTUDNlUTQwQlVvQU5HSDBJT3ZlOGhUZ19pTkNQeXUwS0FwRi1FT29QdGhqdDlWSTVjYnpXODJqR0Q2QUdETmc?oc=5\" target=\"_blank\" 从"
-    },
-    {
-      "id": "raw-013",
-      "title": "算力网要来了！ - wuhan.gov.cn",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtT284NlgyRlFjdE9VVmcyd0FHZzVWTEIzQ2t1bHhYRDRNSjJRUmhPMUZmdEh6TkJQLXVrem9BM3NlU0xBaEcxRWk1aGRQa2N6c1pzTEw0aE5LOWNWNDJaYU1ZTXlLUDBEU05jSjZR?oc=5",
-      "source": "wuhan.gov.cn",
-      "category": "政策",
-      "published": "2026-05-25",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFAtT284NlgyRlFjdE9VVmcyd0FHZzVWTEIzQ2t1bHhYRDRNSjJRUmhPMUZmdEh6TkJQLXVrem9BM3NlU0xBaEcxRWk1aGRQa2N6c1pzTEw0aE5LOWNWNDJaYU1ZTXlLUDBEU05jSjZR?oc"
-    },
-    {
-      "id": "raw-014",
-      "title": "建议加快推动算力银行、算力超市在川落地｜智库圆桌 - 川观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBOcm0xdkRBX3hnTmVVNzdoQl9qNVFYaXdZa3JUbVF2UzI5WVRBOG95SDZ3T2NTbTJPOTJqSU9MaVFxU0M2a0JVUThVVDQ0QQ?oc=5",
-      "source": "川观新闻",
-      "category": "政策",
-      "published": "2026-05-24",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTFBOcm0xdkRBX3hnTmVVNzdoQl9qNVFYaXdZa3JUbVF2UzI5WVRBOG95SDZ3T2NTbTJPOTJqSU9MaVFxU0M2a0JVUThVVDQ0QQ?oc=5\" target=\"_blank\" 建议加快推动算力银行、算力超市在川落地｜智库"
-    },
-    {
-      "id": "raw-015",
-      "title": "江苏扬州：算力新基建“抢跑”布局 打造数字经济“超级引擎” - 紫牛新闻",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12UTExdVZzeXlnZ284T09GM3E1c1NPRzg0N0cxWjR4MDhVc3RtVmJQdjByUC1XbmFrczlWY1BtNjYwbVNnclBUdDJLN2oxbTNLUEYxVFlfcjktZkRDTVROZFdqc21UUVZE?oc=5",
-      "source": "紫牛新闻",
-      "category": "政策",
-      "published": "2026-05-23",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE12UTExdVZzeXlnZ284T09GM3E1c1NPRzg0N0cxWjR4MDhVc3RtVmJQdjByUC1XbmFrczlWY1BtNjYwbVNnclBUdDJLN2oxbTNLUEYxVFlfcjktZkRDTVROZFdqc21UUVZE?oc=5\" targ"
     }
   ]
 }

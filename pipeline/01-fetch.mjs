@@ -420,6 +420,9 @@ function scorePPIORelevance(item) {
 
     if (item.published === todayStr()) score += 10;
     else if (item.published >= weekAgoStrPlus(2)) score += 5;
+
+    // 降权：早报/晚报/日报汇编（容易混入旧日期内容）
+    if (/【早报】|【晚报】|【日报】|早知道|每日速递/.test(title)) score -= 15;
   }
 
   return score;
@@ -777,6 +780,20 @@ async function main() {
   // Filter by date (within 7 days)
   allItems = allItems.filter(item => isWithinWeek(item.published));
   console.log(`  Within 7 days: ${allItems.length} items`);
+
+  // Filter out items whose title contains a date older than 7 days
+  // e.g. 【早报】2026-02-12 or titles with explicit old dates
+  const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+  const staleByTitle = allItems.filter(item => {
+    const m = item.title.match(/20\d{2}[-\/年](\d{1,2})[-\/月](\d{1,2})/);
+    if (!m) return false;
+    const titleDate = new Date(item.title.match(/20\d{2}/)[0], parseInt(m[1]) - 1, parseInt(m[2]));
+    return titleDate < sevenDaysAgo;
+  });
+  if (staleByTitle.length) {
+    console.log(`  Filtered stale-title items: ${staleByTitle.length} (e.g. ${staleByTitle[0].title.slice(0,40)})`);
+    allItems = allItems.filter(item => !staleByTitle.includes(item));
+  }
 
   // Score PPIO relevance first
   allItems.forEach(item => { item._score = scorePPIORelevance(item); });

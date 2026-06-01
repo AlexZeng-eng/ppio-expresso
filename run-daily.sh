@@ -4,6 +4,9 @@
 
 set -e
 
+# launchd runs with minimal PATH — explicitly add node/git locations
+export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
+
 PROJECT_DIR="/Users/mac/ppio-expresso"
 LOG_DIR="$PROJECT_DIR/logs"
 mkdir -p "$LOG_DIR"
