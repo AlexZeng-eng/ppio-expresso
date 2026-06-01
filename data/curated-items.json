@@ -3,10 +3,33 @@
   "week": "2026-W23",
   "classifier": "deepseek-v4-pro",
   "total_raw": 15,
-  "total_curated": 14,
-  "attend_count": 4,
+  "total_curated": 15,
+  "attend_count": 5,
   "silent_count": 10,
   "items": [
+    {
+      "id": "manual-bis-20260531",
+      "title": "BIS最新指引：对中国及澳门总部实体出口先进计算芯片许可证要求依然有效",
+      "url": "https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf",
+      "source": "BIS (美国商务部工业和安全局)",
+      "published": "2026-05-31",
+      "category": "海外",
+      "lane": "attend",
+      "signals": [
+        "🌏",
+        "📜"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c3"
+      ],
+      "summary_cn": "美国商务部工业和安全局（BIS）于2026年5月31日发布最新执法指引，明确2023年11月建立的先进计算芯片出口许可证要求对Country Group D:5（含中国大陆）及澳门总部实体依然完全有效。即使BIS此前宣布暂不执行AI Diffusion Rule中基于目的地的许可证要求，但针对中国总部实体的许可证义务不受影响——母公司在中国或澳门的实体，无论其本身位于何处，出口商均须申请BIS许可证。\n\n对PPIO的具体影响：①算力采购层面，PPIO若通过境外实体采购英伟达H100/H200等先进GPU，若该实体母公司在中国，出口商仍需持有BIS许可证，采购链合规风险上升；②IPO叙事层面，此指引强化自主可控算力叙事，PPIO边缘分布式算力的国产化路线获得更强政策背书；③海外业务层面，PPIO若有境外算力服务，需评估客户是否触发D:5实体认定。",
+      "ppio_signal": {
+        "positive": "美国出口管制收紧强化国产算力自主可控叙事，PPIO边缘云定位受益于去英伟达依赖的市场需求",
+        "risk": "若PPIO境外业务涉及向中国母公司实体提供先进算力服务，可能触发BIS许可证要求，需法律团队评估合规风险"
+      },
+      "_classified_by": "manual"
+    },
     {
       "id": "raw-1",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",

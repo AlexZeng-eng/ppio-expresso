@@ -632,6 +632,10 @@ function buildSearchQueries(config) {
   // 海外
   queries.push({ q: '英伟达 H200 中国 出口 芯片', category: '海外' });
   queries.push({ q: 'US AI regulation export control China', category: '海外' });
+  queries.push({ q: 'BIS export control advanced computing China 2026', category: '海外' });
+  queries.push({ q: 'BIS guidance AI chip license requirement China 2026', category: '海外' });
+  queries.push({ q: 'AI Diffusion Rule export control semiconductor China', category: '海外' });
+  queries.push({ q: 'Commerce Department BIS China AI chip ban 2026', category: '海外' });
   queries.push({ q: 'EU AI Act enforcement 2026', category: '海外' });
   queries.push({ q: '中国 美国 AI 出口管制 芯片 供应链', category: '海外' });
   queries.push({ q: '中俄 AI 合作 治理 标准', category: '海外' });

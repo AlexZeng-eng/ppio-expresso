@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T06:08:58.324Z",
+  "updated_at": "2026-06-01T07:42:59.354Z",
   "weeks": [
     {
       "week": "2026-W23",
@@ -18,8 +18,8 @@
         "🔬": 5
       },
       "item_count": {
-        "total": 14,
-        "attend": 4,
+        "total": 15,
+        "attend": 5,
         "silent": 10
       },
       "competitor_updates": [
