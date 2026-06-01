@@ -636,6 +636,13 @@ function buildSearchQueries(config) {
   queries.push({ q: 'BIS guidance AI chip license requirement China 2026', category: '海外' });
   queries.push({ q: 'AI Diffusion Rule export control semiconductor China', category: '海外' });
   queries.push({ q: 'Commerce Department BIS China AI chip ban 2026', category: '海外' });
+  // 美国政策媒体
+  queries.push({ q: 'site:bis.gov export control China AI semiconductor 2026', category: '海外' });
+  queries.push({ q: 'site:politico.com China AI chip export control 2026', category: '海外' });
+  queries.push({ q: 'site:axios.com China AI semiconductor regulation 2026', category: '海外' });
+  queries.push({ q: 'site:thehill.com China AI technology export control 2026', category: '海外' });
+  queries.push({ q: 'White House AI policy China semiconductor 2026', category: '海外' });
+  queries.push({ q: 'Congress AI regulation China technology bill 2026', category: '海外' });
   queries.push({ q: 'EU AI Act enforcement 2026', category: '海外' });
   queries.push({ q: '中国 美国 AI 出口管制 芯片 供应链', category: '海外' });
   queries.push({ q: '中俄 AI 合作 治理 标准', category: '海外' });
@@ -764,6 +771,7 @@ async function main() {
   const cloakItems = await scrapeWithCloak([
     { url: 'https://www.huxiu.com/channel/103.html', source: '虎嗅', category: '技术' },
     { url: 'https://www.latepost.com/', source: '晚点LatePost', category: '竞品' },
+    { url: 'https://www.bis.gov/news-updates', source: 'BIS美国商务部', category: '海外' },
   ]);
   allItems.push(...cloakItems);
 
