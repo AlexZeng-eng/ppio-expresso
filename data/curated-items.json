@@ -1,302 +1,166 @@
 {
-  "generated_at": "2026-06-01T03:22:42.707Z",
+  "generated_at": "2026-06-02T01:18:23.639Z",
   "week": "2026-W23",
-  "classifier": "deepseek-v4-pro",
-  "total_raw": 15,
-  "total_curated": 15,
-  "attend_count": 5,
-  "silent_count": 10,
+  "classifier": "rule-based",
+  "total_raw": 7,
+  "total_curated": 6,
+  "attend_count": 6,
+  "silent_count": 0,
   "items": [
     {
-      "id": "manual-bis-20260531",
-      "title": "BIS最新指引：对中国及澳门总部实体出口先进计算芯片许可证要求依然有效",
-      "url": "https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf",
-      "source": "BIS (美国商务部工业和安全局)",
-      "published": "2026-05-31",
-      "category": "海外",
+      "id": "raw-001",
+      "title": "国常会审议通过《国家算力网建设行动计划》，2027年建成全国一体化算力网络",
+      "url": "http://www.gov.cn/",
+      "source": "新华社/中国政府网",
+      "category": "政策",
+      "published": "2026-05-09",
+      "body_snippet": "国务院常务会议审议通过《国家算力网建设行动计划》，提出到2027年建成覆盖全国、高通量、低时延的一体化算力网络，明确'适度超前部署算力基础设施'。",
       "lane": "attend",
       "signals": [
-        "🌏",
+        "🏛️",
+        "🔬"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "国常会审议通过《国家算力网建设行动计划》，2027年建成全国一体化算力网络 国务院常务会议审议通过《国家算力网建设行动计划》，提出到2027年建成覆盖全国、高通量、低时延的一体化算力网络，明确'适度超前部署算力基础设施'。",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-002",
+      "title": "三部门联合印发《促进AI智能体产业发展的实施意见》",
+      "url": "https://www.miit.gov.cn/",
+      "source": "工信部/网信办/发改委",
+      "category": "政策",
+      "published": "2026-05-08",
+      "body_snippet": "工信部、网信办、发改委联合印发实施意见，提出到2027年培育100个以上具有行业影响力的AI智能体产品，支持企业建设智能体服务平台。",
+      "lane": "attend",
+      "signals": [
+        "⚔️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "三部门联合印发《促进AI智能体产业发展的实施意见》 工信部、网信办、发改委联合印发实施意见，提出到2027年培育100个以上具有行业影响力的AI智能体产品，支持企业建设智能体服务平台。",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-003",
+      "title": "国务院2026年度立法计划：《人工智能法（草案）》列入预备审议",
+      "url": "http://www.gov.cn/",
+      "source": "中国政府网",
+      "category": "监管",
+      "published": "2026-05-07",
+      "body_snippet": "国务院办公厅发布2026年度立法工作计划，《人工智能法（草案）》列入预备审议项目，标志着中国AI综合性立法进入实质推进阶段。",
+      "lane": "attend",
+      "signals": [
+        "🏛️",
         "📜"
       ],
       "is_deep_read": true,
       "compass_triggered": [
+        "c1",
+        "c2",
         "c3"
       ],
-      "summary_cn": "美国商务部工业和安全局（BIS）于2026年5月31日发布最新执法指引，明确2023年11月建立的先进计算芯片出口许可证要求对Country Group D:5（含中国大陆）及澳门总部实体依然完全有效。即使BIS此前宣布暂不执行AI Diffusion Rule中基于目的地的许可证要求，但针对中国总部实体的许可证义务不受影响——母公司在中国或澳门的实体，无论其本身位于何处，出口商均须申请BIS许可证。\n\n对PPIO的具体影响：①算力采购层面，PPIO若通过境外实体采购英伟达H100/H200等先进GPU，若该实体母公司在中国，出口商仍需持有BIS许可证，采购链合规风险上升；②IPO叙事层面，此指引强化自主可控算力叙事，PPIO边缘分布式算力的国产化路线获得更强政策背书；③海外业务层面，PPIO若有境外算力服务，需评估客户是否触发D:5实体认定。",
+      "summary_cn": "《人工智能法（草案）》列入预备审议 国务院办公厅发布2026年度立法工作计划，《人工智能法（草案）》列入预备审议项目，标志着中国AI综合性立法进入实质推进阶段。",
       "ppio_signal": {
-        "positive": "美国出口管制收紧强化国产算力自主可控叙事，PPIO边缘云定位受益于去英伟达依赖的市场需求",
-        "risk": "若PPIO境外业务涉及向中国母公司实体提供先进算力服务，可能触发BIS许可证要求，需法律团队评估合规风险"
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）"
       },
-      "_classified_by": "manual"
+      "_classified_by": "rule"
     },
     {
-      "id": "raw-1",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
-      "category": "技术",
-      "published": "2026-05-31",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5\" target=\"_blank\" 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？",
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "运营商推Token套餐，AI算力趋向消费化，可能对PPIO边缘云形成竞争压力，但验证了算力即服务的市场方向。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-2",
-      "title": "最高降价99%背后：小米首次公开模型推理优化技术报告 - 品玩",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wa2VsajVHN1FfWXlOWGlsdzBsTno2RVNVZkpEQUJsOFUzTGlFX0QwVndtWVRvbzdJM2ctV0lZeHBBdFdOLWpCZw?oc=5",
-      "source": "品玩",
-      "category": "技术",
-      "published": "2026-05-30",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wa2VsajVHN1FfWXlOWGlsdzBsTno2RVNVZkpEQUJsOFUzTGlFX0QwVndtWVRvbzdJM2ctV0lZeHBBdFdOLWpCZw?oc=5\" target=\"_blank\" 最高降价99%背后：小米首次公开模型推理优化技术报告 /a ",
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "小米公开推理优化技术，大幅降低推理成本，利好PPIO提供低成本分布式推理服务，加速边缘部署。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-3",
-      "title": "2026全球AI算力报告及算力产业十大趋势重磅发布 - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SR3ZCY2w2YWlGdkVSX0xOSFFOVnYzRzFKemptN3dIeGRaOXU2MHBwdnFDc3F1Vk5OTk1SLWRBSEtXblZxLUxaNDBNY2NOZGhfLWMyeXY4Tnk2RUpFNEE?oc=5",
-      "source": "thepaper.cn",
-      "category": "技术",
-      "published": "2026-05-30",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SR3ZCY2w2YWlGdkVSX0xOSFFOVnYzRzFKemptN3dIeGRaOXU2MHBwdnFDc3F1Vk5OTk1SLWRBSEtXblZxLUxaNDBNY2NOZGhfLWMyeXY4Tnk2RUpFNEE?oc=5\" target=\"_blank\" 2",
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "全球AI算力报告发布，趋势强调边缘算力，验证PPIO赛道潜力，为业务规划与投资者沟通提供行业依据。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-4",
-      "title": "中国经济面面观丨为什么是“六张网”——看政策出台的深层逻辑 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbjdHZGx3WVhoX3ZKcVBlWVdLTks1ZUUzVm9oeWpuX3lPZW4wTnZFNUdVazR2eUt2UjBha0ZyaHAtZEdKQ2lCWGVwSS1EVjJldDlsVW85N0dkT014ZHBrOVpfcUxKTWdzWWVPY0ZpWVAwcHlBMmZFd21qeHpKMmt5THhB?oc=5",
-      "source": "新华网",
+      "id": "raw-004",
+      "title": "国务院加强基础研究座谈会：算力基础设施适度超前部署",
+      "url": "http://www.news.cn/",
+      "source": "新华社",
       "category": "政策",
-      "published": "2026-05-28",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPbjdHZGx3WVhoX3ZKcVBlWVdLTks1ZUUzVm9oeWpuX3lPZW4wTnZFNUdVazR2eUt2UjBha0ZyaHAtZEdKQ2lCWGVwSS1EVjJldDlsVW85N0dkT014ZHBrOVpfcUxKTWdzWWVPY0ZpWVA",
+      "published": "2026-05-06",
+      "body_snippet": "国务院召开加强基础研究工作座谈会，明确'算力基础设施适度超前部署'，将算力列为与交通、能源并列的国家基础设施。鼓励社会资本参与算力基础设施建设。",
       "lane": "attend",
       "signals": [
-        "🏛️"
+        "🏛️",
+        "🔬"
       ],
       "is_deep_read": true,
       "compass_triggered": [
-        "c1"
-      ],
-      "summary_cn": "新华网文章深度解读国家‘六张网’政策逻辑，将算力网络列为核心基础设施，强调统一规划与跨区域调度。这延续了‘东数西算’等战略，意在避免资源错配，夯实数字经济底座。\n对PPIO而言，算力网络战略为边缘云分布式算力打开政策窗口：边缘节点作为末梢接入层，将成为算力网落地的关键环节，直接受益于政策推动下的需求增长和标准化互联。港股IPO可借此明确政策护航逻辑，降低监管不确定性。但需警惕政策倾斜可能引致国企云商加速布局边缘，加剧价格战，同时网络安全与数据合规要求趋严，可能抬高运营成本。PPIO应积极对接算力网络标准，强化自主可控技术标签，抢抓窗口期市场份额。",
-      "ppio_signal": {
-        "positive": "算力网络上升为国家战略，边缘节点成为基建刚需，政策直接催化分布式算力部署，为PPIO业务扩张与港股上市提供强背书。",
-        "risk": "国有资本密集入场可能挤压民营云商空间，合规成本抬升，且标准统一可能削弱PPIO部分技术差异化优势。"
-      }
-    },
-    {
-      "id": "raw-5",
-      "title": "DeepSeek频繁服务异常背后：算力成本高企，免费模式难持续 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MOEZzT084MzlRcEtYTkN2SFpxOEJuanYxMGJ5ZnFBZEViYU91eGZ1eUtFTDd5ZVppbmdxbVlhSlFXQVQ1TlVVeWJram1QQ0NSbWRtTw?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-05-29",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MOEZzT084MzlRcEtYTkN2SFpxOEJuanYxMGJ5ZnFBZEViYU91eGZ1eUtFTDd5ZVppbmdxbVlhSlFXQVQ1TlVVeWJram1QQ0NSbWRtTw?oc=5\" target=\"_blank\" DeepSeek频繁服务异常",
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "DeepSeek服务异常暴露算力成本与免费模式矛盾，验证PPIO降本增效的分布式算力方案存在真实市场刚需。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-1",
-      "title": "算力下沉边缘，CDN公司发力“分布式推理网络” - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbVQySFU3aXZFdlJVbHdabHQ1YnI0UGo2ZTNtYXJBVnJWc2JMbm5hV3AzZl9iTEIyTVRlb0ttaFI0b0FiV3FDYlZWbzZ1aHhob0ljRUFmck9XUHVMdVp5NlNuLWstRUpiYXgwcll0RkhDVDJ3NmwxYlRCODk5RzA0QUtmNk5wUTk4dm5IOHkwTQ?oc=5",
-      "source": "21财经",
-      "category": "竞品",
-      "published": "2026-05-29",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQbVQySFU3aXZFdlJVbHdabHQ1YnI0UGo2ZTNtYXJBVnJWc2JMbm5hV3AzZl9iTEIyTVRlb0ttaFI0b0FiV3FDYlZWbzZ1aHhob0ljRUFmck9XUHVMdVp5NlNuLWstRUpiYXgwcll0Rkh",
-      "lane": "attend",
-      "signals": [
-        "⚔️"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "CDN企业开始将边缘网络能力延伸至AI推理，构建“分布式推理网络”。这标志着边缘计算赛道从传统的CDN缓存加速向AI推理服务转型，直接切入PPIO基于边缘节点的分布式算力业务。对PPIO而言，此类公司在边缘节点资源、客户覆盖和运营经验上具备天然优势，可能加剧边缘推理市场的竞争，挤压PPIO的市场空间和定价权；同时，全网分布式推理的规模化落地也可能验证边缘推理的商业可行性，加速客户采纳，对PPIO的港股IPO故事形成双向拉扯。",
-      "ppio_signal": {
-        "positive": "分布式推理网络概念加速普及，有利于PPIO边缘算力模式的客户教育与市场推广，可能提升IPO估值叙事。",
-        "risk": "CDN公司拥有广泛的边缘节点和成熟的运维体系，若大举进入将直接冲击PPIO的市场份额，需强调自身在异构算力调度和成本优化上的技术壁垒。"
-      }
-    },
-    {
-      "id": "raw-3",
-      "title": "算力网建设全面提速，AI WAN迎来重要机遇 - 电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfYWZ1NmR5b09ka3VrWm5MWUoxckxzMzUxTllDTHRHaWNfc0RHem5qd1dCS2MxeFo0VHFhVVBkN0d4eWRfOWZkenJRQ2F0RVFTMkd3?oc=5",
-      "source": "电子工程专辑",
-      "category": "技术",
-      "published": "2026-05-31",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfYWZ1NmR5b09ka3VrWm5MWUoxckxzMzUxTllDTHRHaWNfc0RHem5qd1dCS2MxeFo0VHFhVVBkN0d4eWRfOWZkenJRQ2F0RVFTMkd3?oc=5\" target=\"_blank\" 算力网建设全面提速，AI WAN",
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "算力网建设加速，AI WAN（人工智能广域网）概念兴起，强调网络与算力的深度融合，预示边缘分布式算力传输和调度技术迎来发展机遇。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-4",
-      "title": "Anthropic获650亿美元H轮融资，投后估值近万亿，加速AI模型研发与算力扩张 - 天脉网",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBxc0lqeGJLb29PTUVOb08tR3Bkc1NoNzJSSjVtSXdmY0p1eXdrVGp6OG9QdnhmcGY0cEVlTUJhTktfbFhSWVJJUDQ2NmhSeHlwanliY3paYw?oc=5",
-      "source": "天脉网",
-      "category": "资本",
-      "published": "2026-05-29",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBxc0lqeGJLb29PTUVOb08tR3Bkc1NoNzJSSjVtSXdmY0p1eXdrVGp6OG9QdnhmcGY0cEVlTUJhTktfbFhSWVJJUDQ2NmhSeHlwanliY3paYw?oc=5\" target=\"_blank\" Anthropic获",
-      "lane": "silent",
-      "signals": [
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
+        "c1",
+        "c2",
         "c3"
       ],
-      "summary_cn": "Anthropic获650亿美元H轮融资，估值近万亿，反映全球AI大模型军备竞赛和算力投入持续白热化，向上游算力基础设施传递积极需求信号。",
-      "ppio_signal": null
+      "summary_cn": "算力基础设施适度超前部署 国务院召开加强基础研究工作座谈会，明确'算力基础设施适度超前部署'，将算力列为与交通、能源并列的国家基础设施。鼓励社会资本参与算力基础设施建设。",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
     },
     {
-      "id": "raw-5",
-      "title": "移动把AI算力摆上货架，电信联通急了？ - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcm5xZG9YOGdsM21pdnRoallXUzhpc2hzb1VlZWk0Z3cwYXM4NXF5TWw0OWtkcWk0S1gwd2xnQXM4dDVHRloxQVpmNS1ZUjQyNGJReVRhai1fUnU1MzJUaU9MSDdfRE5EdXNqT1lqZjZzb1I5SVdMMS0ydG9tcFlqdUFWNzViWTlHZXRmaw?oc=5",
-      "source": "搜狐网",
+      "id": "raw-005",
+      "title": "无问芯穹完成7亿元新一轮融资，定位「企业级智能体服务平台」",
+      "url": "https://36kr.com/",
+      "source": "36氪",
       "category": "竞品",
-      "published": "2026-05-29",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPcm5xZG9YOGdsM21pdnRoallXUzhpc2hzb1VlZWk0Z3cwYXM4NXF5TWw0OWtkcWk0S1gwd2xnQXM4dDVHRloxQVpmNS1ZUjQyNGJReVRhai1fUnU1MzJUaU9MSDdfRE5EdXNqT1lqZjZ",
+      "published": "2026-05-08",
+      "body_snippet": "无问芯穹宣布完成7亿元新一轮融资，投后估值约45亿元，由红杉中国领投。公司定位从'AI Infra'升级为'企业级智能体服务平台'，与PPIO Sandbox产品定位正面重叠。",
       "lane": "attend",
       "signals": [
-        "⚔️"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "中国移动正式将AI算力作为标准化产品推向市场，引发电信、联通等运营商的跟进压力。运营商依托庞大的网络基础设施和政企客户资源，正在从连接服务商向算力服务商转型，其边缘数据中心和MEC节点可直接提供分布式推理服务。这对PPIO意味着直接竞争：运营商在带宽、机房、电力成本上具有结构性优势，可能通过捆绑销售或价格战抢占边缘算力市场；但PPIO的多云接入、异构调度和轻资产模式在灵活性和成本控制上仍具差异化价值，需加速在特定场景（如云游戏、推理微调）构筑护城河，并在IPO招股书中清晰阐述与运营商竞合的逻辑。",
-      "ppio_signal": {
-        "positive": "运营商大举进入验证了边缘算力的市场价值，PPIO的轻资产全网调度模式可作为运营商算力的互补层，存在合作空间。",
-        "risk": "移动等运营商具有成本、资源和客户优势，其标准化AI算力产品可能直接抢占PPIO目标客户，带来价格战和盈利压力，可能影响IPO估值。"
-      }
-    },
-    {
-      "id": "raw-news1",
-      "title": "领航者峰会 2026｜新华三发布S90000高密全液冷整机 为AI时代构筑极致澎湃算力底座 - 能源界",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01Ui1KR1R2Z1h3NGNoRWhxUXFnS3lOOXI2NFZ3MDZRRGNWYndiYkJtbVlFeDMzNVNnN1VEMFhjZnBRNV9yTFBBT3Y0eVRBWld4eDdnemd0amJmOWc?oc=5",
-      "source": "能源界",
-      "category": "技术",
-      "published": "2026-05-29",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE01Ui1KR1R2Z1h3NGNoRWhxUXFnS3lOOXI2NFZ3MDZRRGNWYndiYkJtbVlFeDMzNVNnN1VEMFhjZnBRNV9yTFBBT3Y0eVRBWld4eDdnemd0amJmOWc?oc=5\" target=\"_blank\" 领航者峰会",
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "新华三发布高密全液冷整机S90000，面向AI场景提供极致算力底座。该硬件创新提升单机算力密度，可能影响边缘云分布式节点对底层硬件选型的考量，但非直接竞品。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-news2",
-      "title": "城市全域数字化转型与DATA+AI+算力项目立项与招投标情况（2026年5月）：月度上亿项目共11个，算力/AI为最大投入赛道，可信数据空间项目8个，高质量数据集密集落地– 智慧城市行业分析 - 智慧城市行业分析",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiNVozRXFKeFd2d191b0htSzNucHQ0b0IyenhNU25DZThwNWNJNm5OREtVQnMxSHNzOUpvdmppMGJMT2J4S3ZFRmZid2s0bERjUWhjbjFFRHExa0lxQUk4ZEhn?oc=5",
-      "source": "智慧城市行业分析",
-      "category": "资本",
-      "published": "2026-05-28",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiNVozRXFKeFd2d191b0htSzNucHQ0b0IyenhNU25DZThwNWNJNm5OREtVQnMxSHNzOUpvdmppMGJMT2J4S3ZFRmZid2s0bERjUWhjbjFFRHExa0lxQUk4ZEhn?oc=5\" target=\"_bla",
-      "lane": "silent",
-      "signals": [
+        "⚔️",
         "💰"
       ],
       "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "5月城市数字化转型项目中，过亿项目11个，算力/AI成最大投入赛道，可信数据空间等落地加速，显示地方算力投资热度持续，利好分布式算力需求预期。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-news3",
-      "title": "KADC 2026 | openFuyao分论坛大咖云集，深度分享AI原生时代多样化算力释放实践及探索 - 51CTO",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrdFpVc2Q0UkM4cXpXMWJWcHctbXh6Zkw0MGo2Y3pKQXZ2MVoyQVY4dU9NQ2ZrRXJJazdKUDNTRTNLcDVXUmNFcEE2WE5ISUk3VGY4?oc=5",
-      "source": "51CTO",
-      "category": "技术",
-      "published": "2026-05-27",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrdFpVc2Q0UkM4cXpXMWJWcHctbXh6Zkw0MGo2Y3pKQXZ2MVoyQVY4dU9NQ2ZrRXJJazdKUDNTRTNLcDVXUmNFcEE2WE5ISUk3VGY4?oc=5\" target=\"_blank\" KADC 2026 | open",
-      "lane": "silent",
-      "signals": [
-        "🔬"
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
       ],
-      "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "KADC 2026 openFuyao分论坛分享多样化算力释放实践，涉及异构算力调度探索，技术方向与PPIO倡导的分布式算力调度有交集，但openFuyao非主要竞品。",
-      "ppio_signal": null
+      "summary_cn": "无问芯穹完成7亿元新一轮融资，定位「企业级智能体服务平台」 无问芯穹宣布完成7亿元新一轮融资，投后估值约45亿元，由红杉中国领投。公司定位从'AI Infra'升级为'企业级智能体服务平台'，与PPIO Sandbox产品定位正面重叠。",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
     },
     {
-      "id": "raw-news4",
-      "title": "中央政治局会议点名、丁薛祥调研！这一产业，竟带动了土建+能源 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY3YtQUZTREJoa0o1dDE5V3VYbFZYTG82UG9BMWtyLWJmc0p6c3IxQVJHQ0I4NlA5Q1J0cC1xMDBYUEJ2RkFzaEJvT2RJUUFKRzlWdS1sOVpYZEExcHlyUnY1enJUMkw2SV9NLVAtS1htSWt2SUV4SERfaHRCRjUyTXlZTEJ1WkFT?oc=5",
-      "source": "搜狐网",
-      "category": "政策",
-      "published": "2026-05-26",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY3YtQUZTREJoa0o1dDE5V3VYbFZYTG82UG9BMWtyLWJmc0p6c3IxQVJHQ0I4NlA5Q1J0cC1xMDBYUEJ2RkFzaEJvT2RJUUFKRzlWdS1sOVpYZEExcHlyUnY1enJUMkw2SV9NLVAtS1h",
+      "id": "raw-007",
+      "title": "美国参议院推进AI安全审查机制，拟扩大对华AI技术出口管制",
+      "url": "https://www.reuters.com/",
+      "source": "Reuters",
+      "category": "海外",
+      "published": "2026-05-08",
+      "body_snippet": "美国参议院商务委员会推进《AI安全审查法案》，拟要求美国公司在向中国等'关注国家'出口AI技术时接受更严格的安全审查。",
       "lane": "attend",
       "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1"
-      ],
-      "summary_cn": "中央政治局会议点名某产业（推测为AI算力/数据中心），中央政治局常委、国务院副总理丁薛祥随即开展调研，指出该产业强劲带动土建工程与能源基础设施，彰显算力建设已上升为国家级战略任务。此举预示后续政策、资金、能源指标等资源将加速向算力倾斜，整体投资规模进一步扩大。\n对PPIO而言，利好体现在行业大盘增长将拉动对边缘云分布式算力的需求，尤其在AI推理、城市数字化转型场景中。但风险在于高层关注可能促使资源过度集中于大规模集中式数据中心，边缘/分布式节点面临被边缘化或获取政策支持不足的挑战，需在港股IPO前清晰阐述差异化的价值定位。",
-      "ppio_signal": {
-        "positive": "政治局点名与常委调研确认算力产业战略地位，行业整体资源投入预期加大，边缘算力可借势拓展政企市场。",
-        "risk": "政策重心可能偏向集中式大型算力基建，边缘分布式算力在能源、土地指标争取中面临挤压，港股上市需应对投资者对政策倾斜方向的提问。"
-      }
-    },
-    {
-      "id": "raw-news5",
-      "title": "从模型诞生到上线：Ray 在小红书 AI 数据生产中的算力调度实践｜AICon 上海 - Infoq.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uVjIydFB4WDJRd01jZ0RkaDZ3cjRta1dTUDNlUTQwQlVvQU5HSDBJT3ZlOGhUZ19pTkNQeXUwS0FwRi1FT29QdGhqdDlWSTVjYnpXODJqR0Q2QUdETmc?oc=5",
-      "source": "Infoq.cn",
-      "category": "技术",
-      "published": "2026-05-26",
-      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uVjIydFB4WDJRd01jZ0RkaDZ3cjRta1dTUDNlUTQwQlVvQU5HSDBJT3ZlOGhUZ19pTkNQeXUwS0FwRi1FT29QdGhqdDlWSTVjYnpXODJqR0Q2QUdETmc?oc=5\" target=\"_blank\" 从",
-      "lane": "silent",
-      "signals": [
-        "🔬"
+        "📜",
+        "🌏"
       ],
       "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "Ray框架在小红书AI数据生产中的算力调度实践被分享，展示分布式计算框架在互联网场景的成熟应用，间接验证算力调度技术的市场价值，但Ray为底层工具非竞争关系。",
-      "ppio_signal": null
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "美国参议院推进AI安全审查机制，拟扩大对华AI技术出口管制 美国参议院商务委员会推进《AI安全审查法案》，拟要求美国公司在向中国等'关注国家'出口AI技术时接受更严格的安全审查。",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
     }
   ]
 }
