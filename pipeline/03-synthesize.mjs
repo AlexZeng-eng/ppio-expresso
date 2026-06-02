@@ -96,7 +96,28 @@ ${silentSummary || '（无）'}
     "overall_sentiment": "升温",
     "summary": "一句话说明本周整体风向"
   },
-  "competitor_updates": ["需要更新的竞品档案条目"]
+  "competitor_updates": ["需要更新的竞品档案条目"],
+  "item_axes": [
+    {
+      "id": "raw-001",
+      "policy_axis": 0.6,
+      "competition_axis": 0.3,
+      "impact_score": 4,
+      "axis_reason": "一句话说明打分逻辑"
+    }
+  ],
+  "ppio_index": {
+    "score": 62,
+    "delta": 5,
+    "components": {
+      "policy_tailwind": 35,
+      "competitive_pressure": -18,
+      "capital_sentiment": 12,
+      "regulatory_risk": -8,
+      "overseas_headwind": -5
+    },
+    "interpretation": "一句话解读本周指数变化"
+  }
 }
 
 重要规则：
@@ -105,6 +126,16 @@ ${silentSummary || '（无）'}
 - 如有习近平/李强/国常会涉及AI/算力的内容，必须在 positive 或 risk 中单独列出，注明"高层信号"
 - wind_indicators 各 heat 值为 1-5 整数（1=冷淡 3=活跃 5=高热）
 - overall_sentiment 从以下选一个：升温 / 活跃 / 平稳 / 降温 / 观望
+- item_axes：对每条 lane:attend 新闻打坐标分
+  - policy_axis: -1.0（政策/监管收紧）→ +1.0（政策宽松/利好）
+  - competition_axis: -1.0（低竞争压力）→ +1.0（高竞争威胁）
+  - impact_score: 1-5 整数，对 PPIO 的重要程度
+  - id 必须与输入的新闻编号对应（1→"1", 2→"2"等，按上面列表顺序）
+- ppio_index：PPIO战略环境综合指数
+  - score: 0-100 整数（50=中性，>50=有利，<50=不利）
+  - delta: 与上周相比的变化（正=改善，负=恶化，首次输出填0）
+  - components 各项为该因子对总分的贡献值（正负均可，绝对值之和≈100）
+  - interpretation ≤ 40 字
 - 直接返回 JSON，不要 markdown 代码块`;
 }
 
@@ -124,7 +155,7 @@ async function main() {
       const prompt = buildSynthesisPrompt(config, curated);
       const result = await callDeepSeek([
         { role: 'user', content: prompt }
-      ], { maxTokens: 2048, temperature: 0.5 });
+      ], { maxTokens: 4096, temperature: 0.5 });
 
       const cleaned = result.replace(/```json\s*|```\s*/g, '').trim();
       // Extract JSON object even if there's trailing garbage
@@ -174,6 +205,35 @@ async function main() {
       competitor_updates: [
         '无问芯穹：更新融资信息(7亿元/45亿估值)、新定位(企业级智能体服务平台)、竞品重叠分析'
       ],
+      item_axes: curated.items.filter(i => i.lane === 'attend').map((item, idx) => {
+        // Rule-based axis estimation for fallback
+        const t = item.title + ' ' + (item.summary_cn || '');
+        const isPolicy = /国常会|国务院|发改委|工信部|习近平|政治局/.test(t);
+        const isCompetitor = /竞品|融资|无问芯穹|字节|阿里云|CDN|运营商/.test(t);
+        const isRegulatory = /监管|立法|备案|合规|出口管制|VIE/.test(t);
+        const policy_axis = isPolicy ? 0.6 : isRegulatory ? -0.5 : 0.0;
+        const competition_axis = isCompetitor ? 0.7 : 0.1;
+        return {
+          id: String(idx + 1),
+          title: item.title.slice(0, 40),
+          policy_axis,
+          competition_axis,
+          impact_score: isPolicy ? 4 : isCompetitor ? 3 : 2,
+          axis_reason: '（规则估算，仅供参考）'
+        };
+      }),
+      ppio_index: {
+        score: 58,
+        delta: 0,
+        components: {
+          policy_tailwind: 25,
+          competitive_pressure: -15,
+          capital_sentiment: 10,
+          regulatory_risk: -8,
+          overseas_headwind: -5
+        },
+        interpretation: '政策利好与竞争压力并存，整体环境中性偏正'
+      },
       _generated_by: 'template'
     };
   }

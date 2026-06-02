@@ -288,6 +288,71 @@ function renderSpeedRead(synthesis) {
   </section>`;
 }
 
+function renderAnalysisPanel(synthesis, curated) {
+  const idx = synthesis.ppio_index || {};
+  const score = idx.score ?? '—';
+  const delta = idx.delta ?? 0;
+  const deltaStr = delta > 0 ? `+${delta}` : String(delta);
+  const deltaColor = delta > 0 ? '#16a34a' : delta < 0 ? '#dc2626' : '#6b7280';
+  const interp = idx.interpretation || '';
+
+  const sentimentColor = {
+    '升温':'#2d7a4f','活跃':'#1a56db','平稳':'#555','降温':'#8f3b27','观望':'#8f7020'
+  };
+  const w = synthesis.wind_indicators || {};
+  const sentiment = w.overall_sentiment || '—';
+  const sentFg = sentimentColor[sentiment] || '#555';
+
+  return `<main class="feed analysis-panel">
+  <!-- 顶部指数摘要 -->
+  <div class="analysis-summary">
+    <div class="ppio-index-card">
+      <div class="ppio-index-label">PPIO 战略环境指数</div>
+      <div class="ppio-index-score">${score}<span class="ppio-index-delta" style="color:${deltaColor}">${deltaStr}</span></div>
+      <div class="ppio-index-interp">${esc(interp)}</div>
+    </div>
+    <div class="ppio-index-card">
+      <div class="ppio-index-label">本周整体风向</div>
+      <div class="ppio-index-score" style="color:${sentFg}">${esc(sentiment)}</div>
+      <div class="ppio-index-interp">${esc(w.summary || '')}</div>
+    </div>
+  </div>
+
+  <!-- 象限图 -->
+  <section class="analysis-section">
+    <h2 class="analysis-title">机会-威胁象限图</h2>
+    <p class="analysis-desc">X轴：政策/监管环境（左=收紧，右=宽松）· Y轴：竞争烈度（下=低，上=高）· 点大小=重要程度</p>
+    <div class="chart-wrap chart-wrap--quadrant">
+      <canvas id="chart-quadrant"></canvas>
+    </div>
+    <div class="quadrant-labels">
+      <span class="ql ql-tl">⚠ 险境<br><small>收紧×高竞争</small></span>
+      <span class="ql ql-tr">🔴 红海<br><small>宽松×高竞争</small></span>
+      <span class="ql ql-bl">🌱 机遇<br><small>收紧×低竞争</small></span>
+      <span class="ql ql-br">🟢 蓝海<br><small>宽松×低竞争</small></span>
+    </div>
+  </section>
+
+  <!-- 指数成分 -->
+  <section class="analysis-section">
+    <h2 class="analysis-title">PPIO 指数成分分解</h2>
+    <p class="analysis-desc">各因子对本周综合指数的贡献（绿=正向，红=负向）</p>
+    <div class="chart-wrap chart-wrap--bar">
+      <canvas id="chart-index"></canvas>
+    </div>
+  </section>
+
+  <!-- 信号分布 -->
+  <section class="analysis-section">
+    <h2 class="analysis-title">本周 Attend 信号分布</h2>
+    <p class="analysis-desc">深度处理条目按类别分布</p>
+    <div class="chart-wrap chart-wrap--donut">
+      <canvas id="chart-signals"></canvas>
+    </div>
+  </section>
+</main>`;
+}
+
 function renderHTML(curated, synthesis) {
   const week = curated.week || '';
   const items = curated.items || [];
@@ -508,10 +573,130 @@ function renderHTML(curated, synthesis) {
     color: var(--ink-soft);
     margin: 0;
   }
+
+  /* ── View tabs (本周 / 分析) ── */
+  .view-tabs {
+    display: flex;
+    gap: 0;
+    border-bottom: 2px solid var(--rule-soft);
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  .view-tab {
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 0.55rem 1.2rem;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    background: none;
+    color: var(--ink-mute);
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .view-tab:hover { color: var(--ink); }
+  .view-tab.is-active { color: var(--accent, #2a5080); border-bottom-color: var(--accent, #2a5080); }
+
+  /* ── Analysis panel ── */
+  .analysis-panel { max-width: 860px; margin: 0 auto; padding: 1.5rem; }
+  .analysis-summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 560px) { .analysis-summary { grid-template-columns: 1fr; } }
+  .ppio-index-card {
+    background: var(--bg-soft);
+    border: 1px solid var(--rule-soft);
+    border-radius: 8px;
+    padding: 1.1rem 1.3rem;
+  }
+  .ppio-index-label {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 0.4rem;
+  }
+  .ppio-index-score {
+    font-family: var(--serif);
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.1;
+    margin-bottom: 0.35rem;
+  }
+  .ppio-index-delta {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 0.4rem;
+  }
+  .ppio-index-interp {
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+  .analysis-section {
+    margin-bottom: 2.4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .analysis-section:last-child { border-bottom: none; }
+  .analysis-title {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin: 0 0 0.3rem;
+  }
+  .analysis-desc {
+    font-family: var(--sans);
+    font-size: 0.8rem;
+    color: var(--ink-mute);
+    margin: 0 0 1rem;
+  }
+  .chart-wrap { position: relative; }
+  .chart-wrap--quadrant { max-width: 520px; margin: 0 auto; }
+  .chart-wrap--bar { max-width: 560px; }
+  .chart-wrap--donut { max-width: 380px; margin: 0 auto; }
+  .quadrant-labels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 520px;
+    margin: 0.5rem auto 0;
+    gap: 0.3rem;
+  }
+  .ql {
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    color: var(--ink-mute);
+    padding: 0.2rem 0.4rem;
+  }
+  .ql-tl { text-align: left; }
+  .ql-tr { text-align: right; }
+  .ql-bl { text-align: left; }
+  .ql-br { text-align: right; }
 </style>
 </head>
 <body class="feed-page">
 ${renderHeader(week)}
+
+<!-- 顶层视图切换：本周 / 分析 -->
+<nav class="view-tabs" role="tablist" aria-label="视图切换">
+  <button class="view-tab is-active" data-view="feed" role="tab" aria-selected="true">本周</button>
+  <button class="view-tab" data-view="analysis" role="tab" aria-selected="false">分析</button>
+</nav>
+
+<!-- 本周视图 -->
+<div id="view-feed" class="view-panel">
 ${renderTabs(curated)}
 <main class="feed">
   <section class="feed-section">
@@ -530,17 +715,38 @@ ${renderTabs(curated)}
   </section>` : ''}
 
   ${renderWindIndicators(synthesis)}
-
   ${renderSpeedRead(synthesis)}
-
   ${renderWordCloud(keywords)}
 
   <div class="feed-end">
     <a href="archive.html">浏览往期周报 →</a>
   </div>
 </main>
+</div>
 
+<!-- 分析视图 -->
+<div id="view-analysis" class="view-panel" style="display:none">
+  ${renderAnalysisPanel(synthesis, curated)}
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script>
+  // ── View tabs (本周 / 分析) ──
+  (function() {
+    const viewTabs = document.querySelectorAll('.view-tab');
+    const viewPanels = document.querySelectorAll('.view-panel');
+    viewTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        viewTabs.forEach(t => { t.classList.remove('is-active'); t.setAttribute('aria-selected','false'); });
+        tab.classList.add('is-active'); tab.setAttribute('aria-selected','true');
+        const v = tab.dataset.view;
+        viewPanels.forEach(p => { p.style.display = p.id === 'view-' + v ? '' : 'none'; });
+        if (v === 'analysis') initCharts();
+      });
+    });
+  })();
+
+  // ── Feed category tabs ──
   (function() {
     const tabs = document.querySelectorAll('.feed-tabs .tab');
     const rows = document.querySelectorAll('.feed-card');
@@ -557,6 +763,120 @@ ${renderTabs(curated)}
       });
     });
   })();
+
+  // ── Analysis charts ──
+  let chartsInit = false;
+  function initCharts() {
+    if (chartsInit) return;
+    chartsInit = true;
+
+    const SYNTHESIS = ${JSON.stringify(synthesis)};
+    const ITEMS = ${JSON.stringify(curated.items || [])};
+
+    // 1. 象限图 — 机会-威胁矩阵
+    (function() {
+      const axes = (SYNTHESIS.item_axes || []);
+      const catColor = {
+        '政策':'#2563eb','竞品':'#d97706','监管':'#dc2626',
+        '资本':'#16a34a','海外':'#7c3aed','技术':'#0891b2','治理':'#92400e'
+      };
+      const datasets = axes.map(a => {
+        const item = ITEMS.find(i => i.id && (i.id.endsWith('-' + a.id) || i.id === a.id)) || {};
+        const cat = item.category || '技术';
+        return {
+          label: (a.title || '').slice(0, 20),
+          data: [{ x: a.policy_axis || 0, y: a.competition_axis || 0 }],
+          backgroundColor: (catColor[cat] || '#6b7280') + 'cc',
+          borderColor: catColor[cat] || '#6b7280',
+          pointRadius: Math.max(6, (a.impact_score || 3) * 4),
+          pointHoverRadius: Math.max(8, (a.impact_score || 3) * 4 + 2),
+        };
+      });
+      new Chart(document.getElementById('chart-quadrant'), {
+        type: 'scatter',
+        data: { datasets },
+        options: {
+          responsive: true, maintainAspectRatio: true,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: ctx => {
+                  const a = axes[ctx.datasetIndex];
+                  return [
+                    (a.title || '').slice(0, 30),
+                    '政策轴: ' + (a.policy_axis||0).toFixed(2) + '  竞争轴: ' + (a.competition_axis||0).toFixed(2),
+                    a.axis_reason || ''
+                  ];
+                }
+              }
+            },
+            annotation: { annotations: {} }
+          },
+          scales: {
+            x: {
+              min: -1.2, max: 1.2,
+              title: { display: true, text: '← 政策收紧 · 政策宽松 →', font: { size: 11 } },
+              grid: { color: '#e5e7eb' },
+              ticks: { stepSize: 0.5 }
+            },
+            y: {
+              min: -1.2, max: 1.2,
+              title: { display: true, text: '↑ 竞争高', font: { size: 11 } },
+              grid: { color: '#e5e7eb' },
+              ticks: { stepSize: 0.5 }
+            }
+          }
+        }
+      });
+    })();
+
+    // 2. PPIO指数 — 成分柱状图
+    (function() {
+      const idx = SYNTHESIS.ppio_index || {};
+      const comp = idx.components || {};
+      const labels = ['政策顺风', '竞争压力', '资本情绪', '监管风险', '海外逆风'];
+      const keys = ['policy_tailwind','competitive_pressure','capital_sentiment','regulatory_risk','overseas_headwind'];
+      const values = keys.map(k => comp[k] || 0);
+      const colors = values.map(v => v >= 0 ? '#16a34acc' : '#dc2626cc');
+      new Chart(document.getElementById('chart-index'), {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [{ label: 'PPIO指数成分', data: values, backgroundColor: colors, borderRadius: 4 }]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: true,
+          plugins: { legend: { display: false } },
+          scales: {
+            y: { grid: { color: '#e5e7eb' }, ticks: { stepSize: 10 } },
+            x: { grid: { display: false } }
+          }
+        }
+      });
+    })();
+
+    // 3. 信号分布 — 类别条数
+    (function() {
+      const cats = ['政策','竞品','监管','资本','海外','技术','治理'];
+      const catColor = {
+        '政策':'#2563eb','竞品':'#d97706','监管':'#dc2626',
+        '资本':'#16a34a','海外':'#7c3aed','技术':'#0891b2','治理':'#92400e'
+      };
+      const counts = cats.map(c => ITEMS.filter(i => i.category === c && i.lane === 'attend').length);
+      new Chart(document.getElementById('chart-signals'), {
+        type: 'doughnut',
+        data: {
+          labels: cats,
+          datasets: [{ data: counts, backgroundColor: cats.map(c => catColor[c] + 'cc'), borderWidth: 1 }]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: true,
+          plugins: { legend: { position: 'right', labels: { font: { size: 11 } } } }
+        }
+      });
+    })();
+  }
 </script>
 </body>
 </html>`;
