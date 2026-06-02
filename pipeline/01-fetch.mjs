@@ -14,7 +14,7 @@
  * Output: data/raw-items.json
  */
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -284,6 +284,19 @@ const PPIO_KEYWORDS = {
     // 大厂发布/IPO
     /超聚变.*IPO/, /超聚变.*上市/, /算力.*IPO/, /算力.*上市/,
     /阿里云.*峰会/, /百度.*AI.*大会/, /华为.*算力/, /腾讯.*算力/,
+    // 大厂AI资本支出 — 竞品生态压力
+    /字节跳动.*AI.*基础设施/, /字节跳动.*算力/, /字节.*2000亿/, /字节.*AI.*投入/,
+    /阿里云.*千问云/, /阿里云.*全栈.*Agent/, /阿里云.*Agent.*升级/,
+    /腾讯.*AI.*基础设施/, /百度.*AI.*基础设施/,
+    // 国产芯片认证 — 自主可控叙事
+    /安全可靠测评.*芯片/, /国产.*AI.*芯片.*测评/, /AI.*训练推理芯片.*测评/,
+    /国产芯片.*市场份额/, /海思半导体.*AI/,
+    // 对外投资/VIE/跨境数据 — IPO合规直接相关
+    /对外投资.*规定/, /国令.*对外投资/, /跨境数据.*监管/, /技术出口.*管制.*对外投资/,
+    /VIE.*对外投资/, /境外上市.*对外投资/, /国令第837号/,
+    // 部委署名文章 — 高规格政策信号
+    /工信部.*部长.*人民日报/, /工信部.*部长.*署名/, /部长.*未来产业/, /李乐成.*未来产业/,
+    /司法部.*AI.*立法/, /司法部.*人工智能.*立法/, /人工智能健康发展综合性立法/,
   ],
   high: [
     /AI.*基础设施/, /AI.*Infra/, /智算中心/, /数据中心.*算力/,
@@ -297,9 +310,17 @@ const PPIO_KEYWORDS = {
     // 大厂动态
     /阿里云.*AI/, /百度.*智能体/, /快手.*AI/, /字节.*AI/, /腾讯.*AI/,
     /中国电信.*AI/, /中国移动.*AI/, /运营商.*算力/,
+    // 大厂AI资本支出（高层级）
+    /字节跳动.*AI/, /字节.*算力/, /字节.*基础设施/,
+    /阿里云.*峰会/, /阿里云.*发布/, /阿里云.*模型/,
+    // 全球AI基础设施投资
+    /软银.*数据中心/, /软银.*AI.*投资/, /微软.*AI.*数据中心/,
+    /谷歌.*AI.*基础设施/, /亚马逊.*AI.*数据中心/, /Meta.*AI.*基础设施/,
     // 中外科技摩擦
     /英伟达.*中国/, /中国.*英伟达/, /芯片.*禁令/, /出口管制.*芯片/,
     /闻泰/, /安世半导体/, /反外国制裁/,
+    // 国产芯片
+    /国产.*AI.*芯片/, /AI.*芯片.*国产/, /自主可控.*芯片/, /国产芯片.*份额/,
     // 伦理/治理
     /AI.*伦理/, /AI.*内容标注/, /生成式AI.*标注/, /短视频.*AI标签/,
   ],
@@ -407,13 +428,14 @@ function scorePPIORelevance(item) {
       const hasGermanFrench = /\b(von|der|die|das|und|für|mit|des|dem|ein|eine|ist|sind|wird|werden|les|des|une|pour|dans|avec|sur)\b/i.test(title);
       if (hasGermanFrench) return -50;
     }
-    if (/新华社|中国政府网|工信部|发改委|证监会|网信办|广电总局|国家数据局/.test(item.source || '')) score += 35;
+    if (/新华社|中国政府网|工信部|发改委|证监会|网信办|广电总局|国家数据局|司法部/.test(item.source || '')) score += 35;
     if (/人民日报|央视|新华网|中国新闻网|科技日报|经济日报/.test(item.source || '')) score += 25;
     if (/上海市经信委|上海经信委|上海市数据局|上海市发改委|上海市委金融办/.test(item.source || '')) score += 35;
     if (/浦东新区|张江科学城|张江/.test(item.source || '')) score += 30;
     if (/财新|澎湃|thepaper|南华早报|SCMP|Reuters|Financial Times|FT\.com|联合早报|zaobao/.test(item.source || '')) score += 20;
+    if (/21财经|21世纪经济|21jingji|第一财经|经济观察/.test(item.source || '')) score += 15;
     if (/虎嗅|36氪|量子位|机器之心|aibase/.test(item.source || '')) score += 10;
-    if (/VentureBeat|MIT Tech Review|TechCrunch|The Verge/.test(item.source || '')) score += 12;
+    if (/VentureBeat|MIT Tech Review|TechCrunch|The Verge|Politico|Axios/.test(item.source || '')) score += 12;
     // 降权：股票/财经分析媒体
     if (/同花顺|东方财富|财富号|雪球|股吧|证券时报|证券日报|中国证券报/.test(item.source || '')) score -= 20;
     if (/新浪财经|搜狐财经|网易财经|腾讯财经/.test(item.source || '')) score -= 10;
@@ -508,7 +530,13 @@ function entitySignature(title) {
     ['习近平.*人工智能|习近平.*算力|习近平.*数字经济', '习近平AI调研'],
     ['李强.*人工智能|李强.*算力|李强.*数字经济|总理.*算力', '总理AI调研'],
     ['政治局.*人工智能|政治局.*算力|政治局.*数字经济', '政治局AI部署'],
-    ['人工智能法|AI.*立法|立法.*AI', 'AI立法'],
+    ['人工智能法|AI.*立法|立法.*AI|人工智能.*综合性立法|司法部.*人工智能.*立法|人工智能健康发展综合性立法', 'AI立法'],
+    ['对外投资.*规定|国令.*837|对外投资.*国令|跨境数据.*对外投资', '对外投资规定'],
+    ['字节跳动.*AI.*基础设施|字节跳动.*算力.*投入|字节.*2000亿|字节.*AI.*投入', '字节AI基础设施'],
+    ['阿里云.*千问云|阿里云.*全栈.*Agent|千问云.*发布|阿里云.*峰会.*Agent', '阿里云千问云'],
+    ['软银.*法国.*数据中心|软银.*750亿|SoftBank.*France.*AI', '软银法国AI投资'],
+    ['安全可靠测评.*芯片|国产.*AI.*芯片.*测评|AI训练推理芯片.*测评', '国产芯片测评'],
+    ['工信部.*部长.*人民日报|李乐成.*未来产业|工信部.*未来产业.*署名', '工信部未来产业'],
     ['H200.*中国|中国.*H200|英伟达.*中国.*芯片', '英伟达H200中国'],
     ['出口管制.*芯片|芯片.*出口管制', '芯片出口管制'],
     ['国家人工智能产业投资基金|AI.*产业.*基金', 'AI产业基金'],
@@ -586,6 +614,11 @@ function buildSearchQueries(config) {
   // 监管
   queries.push({ q: 'AI 人工智能 立法 安全审查 备案', category: '监管' });
   queries.push({ q: '人工智能法 草案 立法进展', category: '监管' });
+  queries.push({ q: '司法部 人工智能 综合性立法 2026', category: '监管' });
+  // 对外投资/VIE/跨境数据 — IPO合规直接相关
+  queries.push({ q: '国务院 对外投资 规定 国令 2026', category: '监管' });
+  queries.push({ q: '对外投资规定 跨境数据 技术出口管制', category: '监管' });
+  queries.push({ q: 'VIE 对外投资 境外上市 合规 2026', category: '监管' });
 
   // IPO / 港股上市 / VIE — 公司敏感议题
   queries.push({ q: '港交所 科技公司 IPO 上市 审核 2026', category: '监管' });
@@ -601,6 +634,11 @@ function buildSearchQueries(config) {
   queries.push({ q: '七牛云 AI 算力 产品', category: '竞品' });
   queries.push({ q: '优刻得 UCloud AI 算力 融资', category: '竞品' });
   queries.push({ q: 'AI基础设施 AI Infra 融资 2026', category: '竞品' });
+  // 大厂AI资本支出 — 竞品生态压力
+  queries.push({ q: '字节跳动 AI 基础设施 投入 2026', category: '竞品' });
+  queries.push({ q: '字节跳动 算力 芯片 自研 2026', category: '竞品' });
+  queries.push({ q: '阿里云 千问云 Agent 峰会 发布 2026', category: '竞品' });
+  queries.push({ q: '阿里云 百度 腾讯 AI 基础设施 投入 2026', category: '竞品' });
 
   // 竞品 — 海外
   queries.push({ q: 'Baseten AI inference startup funding', category: '竞品' });
@@ -614,6 +652,9 @@ function buildSearchQueries(config) {
 
   // 技术
   queries.push({ q: '阿里云 百度 华为 AI 发布 峰会 2026', category: '技术' });
+  // 国产芯片认证 — 自主可控叙事
+  queries.push({ q: '安全可靠测评 AI 训练推理芯片 国产 2026', category: '技术' });
+  queries.push({ q: '国产AI芯片 市场份额 测评 2026', category: '技术' });
   queries.push({ q: 'site:news.aibase.com AI 算力 大模型 2026', category: '技术' });
   queries.push({ q: '中国电信 中国移动 算力 Token AI', category: '技术' });
   queries.push({ q: '算力调度 推理优化 Agent 技术突破', category: '技术' });
@@ -631,6 +672,11 @@ function buildSearchQueries(config) {
 
   // 海外
   queries.push({ q: '英伟达 H200 中国 出口 芯片', category: '海外' });
+  // 全球AI基础设施投资 — 市场叙事背景
+  queries.push({ q: '软银 AI 数据中心 投资 2026', category: '海外' });
+  queries.push({ q: 'SoftBank AI data center investment 2026', category: '海外' });
+  queries.push({ q: 'Microsoft Google Meta AI infrastructure investment 2026', category: '海外' });
+  queries.push({ q: 'global AI data center capacity investment 2026', category: '海外' });
   queries.push({ q: 'US AI regulation export control China', category: '海外' });
   queries.push({ q: 'BIS export control advanced computing China 2026', category: '海外' });
   queries.push({ q: 'BIS guidance AI chip license requirement China 2026', category: '海外' });
@@ -664,11 +710,14 @@ function buildSearchQueries(config) {
 function guessCategory(item) {
   if (item.category) return item.category;
   const t = item.title + ' ' + (item.body_snippet || '');
+  // 监管优先于政策 — 对外投资/VIE/跨境数据/立法
+  if (/对外投资.*规定|国令.*对外投资|跨境数据.*监管|技术出口.*管制|VIE.*对外投资/.test(t)) return '监管';
+  if (/立法|安全审查|备案|合规|监管|CSRC|牌照|司法部.*AI/.test(t)) return '监管';
   if (/国务院|发改委|工信部|网信办|部委|政策|行动计划|指导意见|算力网/.test(t)) return '政策';
   if (/融资|IPO|估值|亿元|万美元|红杉|经纬|IDG|高瓴|腾讯投资/.test(t)) return '资本';
   if (/无问芯穹|硅基流动|七牛云|优刻得|UCloud|Baseten|Fireworks|Lightning.*AI|Parasail|竞品|竞争/.test(t)) return '竞品';
-  if (/立法|安全审查|备案|合规|监管|CSRC|牌照/.test(t)) return '监管';
-  if (/美国|EU|欧盟|参议院|出口管制|chip|export control/.test(t)) return '海外';
+  if (/字节跳动.*AI|阿里云.*峰会|阿里云.*千问|字节.*算力|字节.*基础设施/.test(t)) return '竞品';
+  if (/软银.*数据中心|SoftBank.*AI|美国|EU|欧盟|参议院|出口管制|chip|export control/.test(t)) return '海外';
   if (/模型|训练|推理|Agent|架构|参数|token|LLM|GPU|算力/.test(t)) return '技术';
   return '技术';
 }
@@ -869,6 +918,20 @@ async function main() {
   // ── Phase 4: Fallback ───────────────────────────────────────────────
   let usedMock = false;
   if (allItems.length < 3) {
+    // Before falling back to mock, check if existing file has recent live data
+    // If existing data is from today or yesterday and was live, preserve it
+    if (existsSync(OUT_PATH)) {
+      try {
+        const existing = JSON.parse(readFileSync(OUT_PATH, 'utf-8'));
+        const existingDate = (existing.generated_at || '').slice(0, 10);
+        const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+        if (existing.fetch_method === 'live' && existingDate >= yesterday) {
+          console.warn(`  ⚠ Only ${allItems.length} items from live fetch (network issue?)`);
+          console.warn(`  ✓ Preserving existing live data from ${existingDate} — skipping overwrite`);
+          return;
+        }
+      } catch {}
+    }
     console.warn(`  ⚠ Only ${allItems.length} items from live fetch, using mock fallback`);
     allItems = getMockItems();
     usedMock = true;
