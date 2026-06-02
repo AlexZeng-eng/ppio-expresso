@@ -225,7 +225,7 @@ async function scrapeWithCloak(pages) {
   }
 }
 
-async function searchGoogleNews(query, category) {
+async function searchGoogleNews(query, category, boost = 0) {
   const encoded = encodeURIComponent(query);
   const url = `https://news.google.com/rss/search?q=${encoded}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans`;
   try {
@@ -238,7 +238,8 @@ async function searchGoogleNews(query, category) {
       source: item.source || 'Google News',
       category,
       published: parsePubDate(item.pubDate) || todayStr(),
-      body_snippet: stripHTML(item.description).slice(0, 200)
+      body_snippet: stripHTML(item.description).slice(0, 200),
+      _query_boost: boost  // added to score after keyword scoring
     }));
   } catch (err) {
     console.warn(`    ⚠ Search failed ("${query.slice(0, 40)}"): ${err.message}`);
@@ -447,6 +448,11 @@ function scorePPIORelevance(item) {
     if (/【早报】|【晚报】|【日报】|早知道|每日速递/.test(title)) score -= 15;
   }
 
+  // Query-level boost: items from high-signal queries get a floor raise
+  if (item._query_boost && score > -50) {
+    score += item._query_boost;
+  }
+
   return score;
 }
 
@@ -614,11 +620,11 @@ function buildSearchQueries(config) {
   // 监管
   queries.push({ q: 'AI 人工智能 立法 安全审查 备案', category: '监管' });
   queries.push({ q: '人工智能法 草案 立法进展', category: '监管' });
-  queries.push({ q: '司法部 人工智能 综合性立法 2026', category: '监管' });
+  queries.push({ q: '司法部 人工智能 综合性立法 2026', category: '监管', boost: 20 });
   // 对外投资/VIE/跨境数据 — IPO合规直接相关
-  queries.push({ q: '国务院 对外投资 规定 国令 2026', category: '监管' });
-  queries.push({ q: '对外投资规定 跨境数据 技术出口管制', category: '监管' });
-  queries.push({ q: 'VIE 对外投资 境外上市 合规 2026', category: '监管' });
+  queries.push({ q: '国务院 对外投资 规定 国令 2026', category: '监管', boost: 30 });
+  queries.push({ q: '对外投资规定 跨境数据 技术出口管制', category: '监管', boost: 25 });
+  queries.push({ q: 'VIE 对外投资 境外上市 合规 2026', category: '监管', boost: 20 });
 
   // IPO / 港股上市 / VIE — 公司敏感议题
   queries.push({ q: '港交所 科技公司 IPO 上市 审核 2026', category: '监管' });
@@ -635,10 +641,10 @@ function buildSearchQueries(config) {
   queries.push({ q: '优刻得 UCloud AI 算力 融资', category: '竞品' });
   queries.push({ q: 'AI基础设施 AI Infra 融资 2026', category: '竞品' });
   // 大厂AI资本支出 — 竞品生态压力
-  queries.push({ q: '字节跳动 AI 基础设施 投入 2026', category: '竞品' });
-  queries.push({ q: '字节跳动 算力 芯片 自研 2026', category: '竞品' });
-  queries.push({ q: '阿里云 千问云 Agent 峰会 发布 2026', category: '竞品' });
-  queries.push({ q: '阿里云 百度 腾讯 AI 基础设施 投入 2026', category: '竞品' });
+  queries.push({ q: '字节跳动 AI 基础设施 投入 2026', category: '竞品', boost: 20 });
+  queries.push({ q: '字节跳动 算力 芯片 自研 2026', category: '竞品', boost: 15 });
+  queries.push({ q: '阿里云 千问云 Agent 峰会 发布 2026', category: '竞品', boost: 20 });
+  queries.push({ q: '阿里云 百度 腾讯 AI 基础设施 投入 2026', category: '竞品', boost: 15 });
 
   // 竞品 — 海外
   queries.push({ q: 'Baseten AI inference startup funding', category: '竞品' });
@@ -653,8 +659,8 @@ function buildSearchQueries(config) {
   // 技术
   queries.push({ q: '阿里云 百度 华为 AI 发布 峰会 2026', category: '技术' });
   // 国产芯片认证 — 自主可控叙事
-  queries.push({ q: '安全可靠测评 AI 训练推理芯片 国产 2026', category: '技术' });
-  queries.push({ q: '国产AI芯片 市场份额 测评 2026', category: '技术' });
+  queries.push({ q: '安全可靠测评 AI 训练推理芯片 国产 2026', category: '技术', boost: 20 });
+  queries.push({ q: '国产AI芯片 市场份额 测评 2026', category: '技术', boost: 15 });
   queries.push({ q: 'site:news.aibase.com AI 算力 大模型 2026', category: '技术' });
   queries.push({ q: '中国电信 中国移动 算力 Token AI', category: '技术' });
   queries.push({ q: '算力调度 推理优化 Agent 技术突破', category: '技术' });
@@ -673,10 +679,10 @@ function buildSearchQueries(config) {
   // 海外
   queries.push({ q: '英伟达 H200 中国 出口 芯片', category: '海外' });
   // 全球AI基础设施投资 — 市场叙事背景
-  queries.push({ q: '软银 AI 数据中心 投资 2026', category: '海外' });
-  queries.push({ q: 'SoftBank AI data center investment 2026', category: '海外' });
-  queries.push({ q: 'Microsoft Google Meta AI infrastructure investment 2026', category: '海外' });
-  queries.push({ q: 'global AI data center capacity investment 2026', category: '海外' });
+  queries.push({ q: '软银 AI 数据中心 投资 2026', category: '海外', boost: 15 });
+  queries.push({ q: 'SoftBank AI data center investment 2026', category: '海外', boost: 15 });
+  queries.push({ q: 'Microsoft Google Meta AI infrastructure investment 2026', category: '海外', boost: 10 });
+  queries.push({ q: 'global AI data center capacity investment 2026', category: '海外', boost: 10 });
   queries.push({ q: 'US AI regulation export control China', category: '海外' });
   queries.push({ q: 'BIS export control advanced computing China 2026', category: '海外' });
   queries.push({ q: 'BIS guidance AI chip license requirement China 2026', category: '海外' });
@@ -831,7 +837,7 @@ async function main() {
   const CONCURRENCY = 3;
   for (let i = 0; i < queries.length; i += CONCURRENCY) {
     const batch = queries.slice(i, i + CONCURRENCY);
-    const results = await Promise.all(batch.map(q => searchGoogleNews(q.q, q.category)));
+    const results = await Promise.all(batch.map(q => searchGoogleNews(q.q, q.category, q.boost || 0)));
     for (const items of results) allItems.push(...items);
   }
 
