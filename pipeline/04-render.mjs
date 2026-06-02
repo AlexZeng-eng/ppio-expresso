@@ -321,16 +321,17 @@ function renderAnalysisPanel(synthesis, curated) {
   <!-- 象限图 -->
   <section class="analysis-section">
     <h2 class="analysis-title">机会-威胁象限图</h2>
-    <p class="analysis-desc">X轴：政策/监管环境（左=收紧，右=宽松）· Y轴：竞争烈度（下=低，上=高）· 点大小=重要程度</p>
+    <p class="analysis-desc">点大小 = 重要程度 · 颜色 = 新闻类别 · 悬停查看详情</p>
     <div class="chart-wrap chart-wrap--quadrant">
+      <div class="quadrant-bg">
+        <span class="ql ql-tl">⚠ 险境</span>
+        <span class="ql ql-tr">🔴 红海</span>
+        <span class="ql ql-bl">🌱 机遇</span>
+        <span class="ql ql-br">🟢 蓝海</span>
+      </div>
       <canvas id="chart-quadrant"></canvas>
     </div>
-    <div class="quadrant-labels">
-      <span class="ql ql-tl">⚠ 险境<br><small>收紧×高竞争</small></span>
-      <span class="ql ql-tr">🔴 红海<br><small>宽松×高竞争</small></span>
-      <span class="ql ql-bl">🌱 机遇<br><small>收紧×低竞争</small></span>
-      <span class="ql ql-br">🟢 蓝海<br><small>宽松×低竞争</small></span>
-    </div>
+    <div class="chart-legend" id="quadrant-legend"></div>
   </section>
 
   <!-- 指数成分 -->
@@ -663,27 +664,40 @@ function renderHTML(curated, synthesis) {
     margin: 0 0 1rem;
   }
   .chart-wrap { position: relative; }
-  .chart-wrap--quadrant { max-width: 520px; margin: 0 auto; }
+  .chart-wrap--quadrant { max-width: 540px; margin: 0 auto; }
   .chart-wrap--bar { max-width: 560px; }
   .chart-wrap--donut { max-width: 380px; margin: 0 auto; }
-  .quadrant-labels {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    max-width: 520px;
-    margin: 0.5rem auto 0;
-    gap: 0.3rem;
+  .quadrant-bg {
+    position: absolute;
+    inset: 32px 8px 32px 48px;
+    pointer-events: none;
+    z-index: 0;
   }
-  .ql {
+  .quadrant-bg .ql {
+    position: absolute;
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 0.18rem 0.45rem;
+    border-radius: 3px;
+    opacity: 0.55;
+  }
+  .ql-tl { top: 4px; left: 4px; background: #fef3c7; color: #92400e; }
+  .ql-tr { top: 4px; right: 4px; background: #fee2e2; color: #991b1b; }
+  .ql-bl { bottom: 4px; left: 4px; background: #d1fae5; color: #065f46; }
+  .ql-br { bottom: 4px; right: 4px; background: #dcfce7; color: #166534; }
+  .chart-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.9rem;
+    margin-top: 0.8rem;
     font-family: var(--sans);
-    font-size: 0.72rem;
-    color: var(--ink-mute);
-    padding: 0.2rem 0.4rem;
+    font-size: 0.75rem;
+    color: var(--ink-soft);
   }
-  .ql-tl { text-align: left; }
-  .ql-tr { text-align: right; }
-  .ql-bl { text-align: left; }
-  .ql-br { text-align: right; }
+  .legend-item { display: flex; align-items: center; gap: 0.3rem; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
 </style>
 </head>
 <body class="feed-page">
@@ -804,31 +818,81 @@ ${renderTabs(curated)}
                 label: ctx => {
                   const a = axes[ctx.datasetIndex];
                   return [
-                    (a.title || '').slice(0, 30),
-                    '政策轴: ' + (a.policy_axis||0).toFixed(2) + '  竞争轴: ' + (a.competition_axis||0).toFixed(2),
+                    (a.title || '').slice(0, 35),
                     a.axis_reason || ''
                   ];
                 }
               }
-            },
-            annotation: { annotations: {} }
+            }
           },
           scales: {
             x: {
               min: -1.2, max: 1.2,
-              title: { display: true, text: '← 政策收紧 · 政策宽松 →', font: { size: 11 } },
-              grid: { color: '#e5e7eb' },
-              ticks: { stepSize: 0.5 }
+              border: { display: false },
+              grid: {
+                color: ctx => ctx.tick.value === 0 ? '#374151' : '#e5e7eb',
+                lineWidth: ctx => ctx.tick.value === 0 ? 2.5 : 1,
+              },
+              ticks: {
+                stepSize: 0.5,
+                font: { size: 10 },
+                color: ctx => ctx.tick.value === 0 ? '#374151' : '#9ca3af',
+                callback: v => {
+                  if (v === -1) return '← 收紧';
+                  if (v === 1) return '宽松 →';
+                  if (v === 0) return '中性';
+                  return '';
+                }
+              },
+              title: {
+                display: true,
+                text: '政策/监管环境',
+                font: { size: 11, weight: '600' },
+                color: '#4b5563'
+              }
             },
             y: {
               min: -1.2, max: 1.2,
-              title: { display: true, text: '↑ 竞争高', font: { size: 11 } },
-              grid: { color: '#e5e7eb' },
-              ticks: { stepSize: 0.5 }
+              border: { display: false },
+              grid: {
+                color: ctx => ctx.tick.value === 0 ? '#374151' : '#e5e7eb',
+                lineWidth: ctx => ctx.tick.value === 0 ? 2.5 : 1,
+              },
+              ticks: {
+                stepSize: 0.5,
+                font: { size: 10 },
+                color: ctx => ctx.tick.value === 0 ? '#374151' : '#9ca3af',
+                callback: v => {
+                  if (v === -1) return '低竞争';
+                  if (v === 1) return '高竞争';
+                  if (v === 0) return '中性';
+                  return '';
+                }
+              },
+              title: {
+                display: true,
+                text: '竞争烈度',
+                font: { size: 11, weight: '600' },
+                color: '#4b5563'
+              }
             }
           }
         }
       });
+
+      // Build legend below chart
+      const legend = document.getElementById('quadrant-legend');
+      if (legend) {
+        legend.innerHTML = axes.map(a => {
+          const item = ITEMS.find(i => i.id && (i.id.endsWith('-' + a.id) || i.id === a.id)) || {};
+          const cat = item.category || '技术';
+          const color = catColor[cat] || '#6b7280';
+          return '<span class="legend-item">'
+            + '<span class="legend-dot" style="background:' + color + '"></span>'
+            + (a.title || '').slice(0, 24)
+            + '</span>';
+        }).join('');
+      }
     })();
 
     // 2. PPIO指数 — 成分柱状图
