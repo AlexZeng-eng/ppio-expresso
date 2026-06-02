@@ -232,15 +232,25 @@ async function searchGoogleNews(query, category, boost = 0) {
     const xml = await fetchWithRetry(url);
     const items = parseRSS(xml);
     console.log(`    Search "${query.slice(0, 40)}" → ${items.length} items`);
-    return items.slice(0, 20).map(item => ({
-      title: item.title,
-      url: item.link,
-      source: item.source || 'Google News',
-      category,
-      published: parsePubDate(item.pubDate) || todayStr(),
-      body_snippet: stripHTML(item.description).slice(0, 200),
-      _query_boost: boost  // added to score after keyword scoring
-    }));
+    return items.slice(0, 20).map(item => {
+      // Normalize aggregator sources: use the actual publisher from description when available
+      let source = item.source || 'Google News';
+      // 今日头条 / 百家号 / 微信公众号 etc. are pure aggregators — extract real source
+      if (/toutiao\.com|baijia\.baidu|mp\.weixin/.test(item.link || '')) {
+        const descMatch = (item.description || '').match(/来源[：:]\s*([^\s<，,。]{2,15})/);
+        if (descMatch) source = descMatch[1];
+        else source = item.source || '今日头条';
+      }
+      return {
+        title: item.title,
+        url: item.link,
+        source,
+        category,
+        published: parsePubDate(item.pubDate) || todayStr(),
+        body_snippet: stripHTML(item.description).slice(0, 200),
+        _query_boost: boost
+      };
+    });
   } catch (err) {
     console.warn(`    ⚠ Search failed ("${query.slice(0, 40)}"): ${err.message}`);
     return [];
@@ -292,7 +302,9 @@ const PPIO_KEYWORDS = {
     // 国产芯片认证 — 自主可控叙事
     /安全可靠测评.*芯片/, /国产.*AI.*芯片.*测评/, /AI.*训练推理芯片.*测评/,
     /国产芯片.*市场份额/, /海思半导体.*AI/,
-    // 对外投资/VIE/跨境数据 — IPO合规直接相关
+    // AI中转站/算力服务合规 — 业务边界与IPO合规直接相关
+    /AI中转站.*合规/, /AI中转站.*备案/, /AI中转站.*监管/,
+    /生成式AI.*增值电信/, /大模型.*增值电信.*备案/, /AI.*数据出境.*评估/,
     /对外投资.*规定/, /国令.*对外投资/, /跨境数据.*监管/, /技术出口.*管制.*对外投资/,
     /VIE.*对外投资/, /境外上市.*对外投资/, /国令第837号/,
     // 部委署名文章 — 高规格政策信号
@@ -537,7 +549,7 @@ function entitySignature(title) {
     ['李强.*人工智能|李强.*算力|李强.*数字经济|总理.*算力', '总理AI调研'],
     ['政治局.*人工智能|政治局.*算力|政治局.*数字经济', '政治局AI部署'],
     ['人工智能法|AI.*立法|立法.*AI|人工智能.*综合性立法|司法部.*人工智能.*立法|人工智能健康发展综合性立法', 'AI立法'],
-    ['对外投资.*规定|国令.*837|对外投资.*国令|跨境数据.*对外投资', '对外投资规定'],
+    ['AI中转站.*合规|AI中转站.*备案|生成式AI.*增值电信.*备案|大模型.*中转.*监管', 'AI中转站合规'],
     ['字节跳动.*AI.*基础设施|字节跳动.*算力.*投入|字节.*2000亿|字节.*AI.*投入', '字节AI基础设施'],
     ['阿里云.*千问云|阿里云.*全栈.*Agent|千问云.*发布|阿里云.*峰会.*Agent', '阿里云千问云'],
     ['软银.*法国.*数据中心|软银.*750亿|SoftBank.*France.*AI', '软银法国AI投资'],
@@ -621,6 +633,10 @@ function buildSearchQueries(config) {
   queries.push({ q: 'AI 人工智能 立法 安全审查 备案', category: '监管' });
   queries.push({ q: '人工智能法 草案 立法进展', category: '监管' });
   queries.push({ q: '司法部 人工智能 综合性立法 2026', category: '监管', boost: 20 });
+  // AI中转站/算力服务合规 — 与PPIO算力服务边界直接相关
+  queries.push({ q: 'AI中转站 合规 备案 数据出境 监管 2026', category: '监管', boost: 20 });
+  queries.push({ q: '生成式AI 增值电信业务 备案 合规 2026', category: '监管', boost: 15 });
+  queries.push({ q: 'AI API 数据出境 安全评估 合规 云服务', category: '监管', boost: 15 });
   // 对外投资/VIE/跨境数据 — IPO合规直接相关
   queries.push({ q: '国务院 对外投资 规定 国令 2026', category: '监管', boost: 30 });
   queries.push({ q: '对外投资规定 跨境数据 技术出口管制', category: '监管', boost: 25 });
