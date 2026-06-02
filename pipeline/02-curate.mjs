@@ -191,12 +191,13 @@ function ruleBasedClassify(item, config) {
 
   // Exceptions
   if (/国常会|国务院常务会议|国务院.*AI|国务院.*算力/.test(title)) lane = 'attend';
-  if (/习近平.*人工智能|习近平.*算力|习近平.*数字经济/.test(title)) lane = 'attend';
+  if (/习近平.*人工智能|习近平.*算力|习近平.*数字经济|习近平.*未来产业|习近平.*具身智能/.test(title)) lane = 'attend';
+  if (/政治局.*集体学习.*人工智能|政治局.*集体学习.*算力|政治局.*集体学习.*未来产业/.test(title)) lane = 'attend';
   if (/李强.*人工智能|李强.*算力|总理.*算力/.test(title)) lane = 'attend';
   if (/政治局.*人工智能|政治局.*算力|政治局常委.*AI/.test(title)) lane = 'attend';
   if (/无问芯穹|AI.*Infra/.test(title)) lane = 'attend';
 
-  const isDeep = /政策原文|国务院|国常会|立法|招股书|深度分析|研究报告/.test(title);
+  const isDeep = /政策原文|国务院|国常会|立法|招股书|深度分析|研究报告|政治局.*集体学习|习近平.*讲话/.test(title);
 
   return {
     lane,
