@@ -1,0 +1,87 @@
+name: PPIO 产业政策信息流 — Daily Pipeline
+
+on:
+  schedule:
+    # 每天 UTC 00:30 = 北京时间 08:30
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+    # 支持手动触发（GitHub UI 或 API）
+    inputs:
+      step:
+        description: '只跑某一步 (1/2/3/4，留空=全部)'
+        required: false
+        default: ''
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    permissions:
+      contents: write  # 需要推送到 main 分支
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Chromium for CloakBrowser
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq \
+            chromium-browser xvfb \
+            libgbm1 libxkbcommon0 libasound2 \
+            libatk1.0-0 libatk-bridge2.0-0 libcups2 \
+            libdrm2 libxcomposite1 libxdamage1 \
+            libxrandr2 libxss1 libxtst6 \
+            fonts-noto-cjk
+          CHROME=$(which chromium-browser || which chromium)
+          echo "CHROME_PATH=$CHROME" >> $GITHUB_ENV
+          echo "Chromium at: $CHROME"
+
+      - name: Run pipeline
+        env:
+          PPIO_DEEPSEEK_API_KEY: ${{ secrets.PPIO_DEEPSEEK_API_KEY }}
+          PPIO_DEEPSEEK_BASE_URL: ${{ secrets.PPIO_DEEPSEEK_BASE_URL }}
+          PPIO_DEEPSEEK_MODEL: ${{ secrets.PPIO_DEEPSEEK_MODEL }}
+          DISPLAY: ':99'
+        run: |
+          # Start virtual display for Chromium
+          Xvfb :99 -screen 0 1280x720x24 &
+          sleep 1
+
+          if [ -n "${{ github.event.inputs.step }}" ]; then
+            node pipeline/run.mjs --step=${{ github.event.inputs.step }}
+          else
+            node pipeline/run.mjs
+          fi
+
+      - name: Commit and push output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html archive.html reports/ \
+            data/archive.json data/curated-items.json \
+            data/weekly-synthesis.json data/raw-items.json
+          git diff --cached --quiet && echo "No changes to commit" || \
+            git commit -m "Daily update: $(date -u '+%Y-%m-%d') [actions]"
+          git push origin main
+
+      - name: Upload logs as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-logs-${{ github.run_id }}
+          path: logs/
+          retention-days: 30

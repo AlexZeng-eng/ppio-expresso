@@ -188,7 +188,9 @@ async function scrapeGovList(url, source) {
 async function scrapeWithCloak(pages) {
   try {
     const { launch } = await import('cloakbrowser');
-    const browser = await launch({ headless: true });
+    const launchOpts = { headless: true };
+    if (process.env.CHROME_PATH) launchOpts.executablePath = process.env.CHROME_PATH;
+    const browser = await launch(launchOpts);
     const results = await Promise.all(pages.map(async ({ url, source, category }) => {
       try {
         const page = await browser.newPage();
