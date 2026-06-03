@@ -1,91 +1,108 @@
 {
-  "generated_at": "2026-06-03T03:44:27.683Z",
+  "generated_at": "2026-06-03T09:57:09.630Z",
   "week": "2026-W23",
-  "mainline": "本周算力网国家战略+智能体产业化双政策落地，为PPIO提供IPO叙事支撑；无问芯穹融资与AI立法加速构成竞争与合规双重压力。",
+  "mainline": "高层打出政策“组合拳”：习近平要求超常规攻关、上海发放算力券，但境外投资新规与CDN对手杀入边缘推理，令IPO窗口与竞争格局陡生变数。",
   "signal_summary": {
-    "🏛️": 2,
-    "📜": 2,
-    "⚔️": 1,
+    "🏛️": 4,
+    "📜": 3,
+    "⚔️": 2,
     "💰": 0,
-    "🌏": 2,
-    "🔬": 4
+    "🌏": 1,
+    "🔬": 0
   },
   "speed_read": {
     "positive": [
-      "国常会算力网+基础研究座谈会→\"适度超前部署\"为PPIO产能扩张叙事提供国家级背书",
-      "三部门智能体实施意见→Sandbox产品直接受益",
-      "美国AI管制升级→自主可控算力叙事强化"
+      "上海优化算力布局，发放算力券、推动普惠供给，直接利好PPIO边缘算力销售。",
+      "9款国产AI芯片通过国家安全可靠测评，PPIO可加速引入国产算力池，降低供应链与合规风险。",
+      "[高层信号] 习近平要求以超常规措施解决“卡脖子”，算力等基础设施将获资源倾斜。"
     ],
     "risk": [
-      "无问芯穹7亿融资+「企业级智能体服务平台」定位→与Sandbox正面重叠",
-      "AI综合性立法进入预备审议→VIE备案不确定性叠加",
-      "美国AI安全审查机制→若管制扩至云服务，海外事业部跨境算力服务可能受波及"
+      "[高层信号] 李强签署对外投资新规，VIE架构和资金出境审查可能趋严，为PPIO香港IPO增添不确定性。",
+      "CDN厂商携边缘节点优势构建分布式推理网络，边缘AI赛道竞争全面升级，可能直接挤压PPIO市场空间。",
+      "境外投资新规叠加海外监管动态，PPIO跨境数据合规与上市路径的不确定性进一步上升。"
     ]
   },
   "wind_indicators": {
-    "policy_heat": 3,
-    "competitor_heat": 2,
+    "policy_heat": 5,
+    "competitor_heat": 3,
     "capital_heat": 2,
     "overseas_heat": 2,
-    "overall_sentiment": "平稳",
-    "summary": "政策面保持活跃，竞品与资本动态平稳，海外监管持续关注中。"
+    "overall_sentiment": "升温",
+    "summary": "本周政策暖风强劲，但边缘推理赛道的竞对行动与境外投资合规收紧形成对冲，整体风向仍偏积极但变数加大。"
   },
   "competitor_updates": [
-    "无问芯穹：更新融资信息(7亿元/45亿估值)、新定位(企业级智能体服务平台)、竞品重叠分析"
+    "CDN厂商（网宿科技、金山云等）发布分布式推理网络方案，定位企业级智能体服务，与PPIO Sandbox正面竞争。",
+    "优刻得全球可用区达36个，落子乌兹别克斯坦，加速“一带一路”边缘算力国际化，对PPIO全球化布局构成压力。"
   ],
   "item_axes": [
     {
-      "id": "1",
-      "title": "李强签署国务院令 公布《国务院关于对外投资的规定》 - 中国新闻网",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
+      "id": "raw-001",
+      "policy_axis": 0.8,
+      "competition_axis": 0,
       "impact_score": 4,
-      "axis_reason": "（规则估算，仅供参考）"
+      "axis_reason": "人民日报发文强调未来产业，政策信号强烈，几乎无竞争关联。"
     },
     {
-      "id": "2",
-      "title": "华为昇腾领衔，9款国产AI芯片通过国家安全可靠测评 - 电子工程专辑",
-      "policy_axis": -0.5,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "（规则估算，仅供参考）"
+      "id": "raw-002",
+      "policy_axis": -0.7,
+      "competition_axis": 0,
+      "impact_score": 5,
+      "axis_reason": "对外投资新规直接收紧合规窗口，对PPIO上市路径构成重大影响。"
     },
     {
-      "id": "3",
-      "title": "上海企业加速全球算力布局！优刻得落子乌兹别克斯坦，已建成36个可用区 - sho",
+      "id": "raw-003",
+      "policy_axis": 1,
+      "competition_axis": 0,
+      "impact_score": 5,
+      "axis_reason": "最高层表态超常规攻关，算力基建获最强背书，政策利好达到顶峰。"
+    },
+    {
+      "id": "raw-004",
+      "policy_axis": 1,
+      "competition_axis": 0.2,
+      "impact_score": 5,
+      "axis_reason": "算力券与普惠供给直接打开中小客户市场，但同样利好其他算力服务商，竞争略有升温。"
+    },
+    {
+      "id": "raw-005",
       "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "（规则估算，仅供参考）"
+      "competition_axis": 0.9,
+      "impact_score": 5,
+      "axis_reason": "CDN公司利用边缘节点转型推理网络，与PPIO边缘AI服务高度重叠，竞争威胁极大。"
     },
     {
-      "id": "4",
-      "title": "全国一体化算力网，怎么建？ - peopleapp.com",
-      "policy_axis": -0.5,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "（规则估算，仅供参考）"
+      "id": "raw-006",
+      "policy_axis": 0.8,
+      "competition_axis": 0.3,
+      "impact_score": 4,
+      "axis_reason": "国产芯片获安全认证降低采购与合规成本，但竞品同样受益，竞争压力温和上升。"
     },
     {
-      "id": "5",
-      "title": "微信将推出一款AI智能体？腾讯人士回应",
-      "policy_axis": -0.5,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "（规则估算，仅供参考）"
+      "id": "raw-007",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 4,
+      "axis_reason": "优刻得海外拓展增强其全球边缘覆盖，对PPIO国际化竞争带来直接压力。"
+    },
+    {
+      "id": "raw-008",
+      "policy_axis": -0.6,
+      "competition_axis": 0,
+      "impact_score": 5,
+      "axis_reason": "Sinocism提示境外投资、VIE监管收紧，海外上市合规风险显著升高。"
     }
   ],
   "ppio_index": {
-    "score": 58,
+    "score": 62,
     "delta": 0,
     "components": {
-      "policy_tailwind": 25,
+      "policy_tailwind": 30,
       "competitive_pressure": -15,
       "capital_sentiment": 10,
       "regulatory_risk": -8,
       "overseas_headwind": -5
     },
-    "interpretation": "政策利好与竞争压力并存，整体环境中性偏正"
+    "interpretation": "政策强力支撑但边缘推理争夺升温，综合指数稳中微升。"
   },
-  "_generated_by": "template"
+  "_generated_by": "deepseek-v4-pro"
 }
