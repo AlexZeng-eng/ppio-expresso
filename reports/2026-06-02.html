@@ -211,6 +211,130 @@
     color: var(--ink-soft);
     margin: 0;
   }
+
+  /* ── View tabs (本周 / 分析) ── */
+  .view-tabs {
+    display: flex;
+    gap: 0;
+    border-bottom: 2px solid var(--rule-soft);
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  .view-tab {
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 0.55rem 1.2rem;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    background: none;
+    color: var(--ink-mute);
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .view-tab:hover { color: var(--ink); }
+  .view-tab.is-active { color: var(--accent, #2a5080); border-bottom-color: var(--accent, #2a5080); }
+
+  /* ── Analysis panel ── */
+  .analysis-panel { max-width: 860px; margin: 0 auto; padding: 1.5rem; }
+  .analysis-summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 560px) { .analysis-summary { grid-template-columns: 1fr; } }
+  .ppio-index-card {
+    background: var(--bg-soft);
+    border: 1px solid var(--rule-soft);
+    border-radius: 8px;
+    padding: 1.1rem 1.3rem;
+  }
+  .ppio-index-label {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 0.4rem;
+  }
+  .ppio-index-score {
+    font-family: var(--serif);
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.1;
+    margin-bottom: 0.35rem;
+  }
+  .ppio-index-delta {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 0.4rem;
+  }
+  .ppio-index-interp {
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+  .analysis-section {
+    margin-bottom: 2.4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .analysis-section:last-child { border-bottom: none; }
+  .analysis-title {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin: 0 0 0.3rem;
+  }
+  .analysis-desc {
+    font-family: var(--sans);
+    font-size: 0.8rem;
+    color: var(--ink-mute);
+    margin: 0 0 1rem;
+  }
+  .chart-wrap { position: relative; }
+  .chart-wrap--quadrant { max-width: 540px; margin: 0 auto; }
+  .chart-wrap--bar { max-width: 560px; }
+  .chart-wrap--donut { max-width: 380px; margin: 0 auto; }
+  .quadrant-bg {
+    position: absolute;
+    inset: 32px 8px 32px 48px;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .quadrant-bg .ql {
+    position: absolute;
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 0.18rem 0.45rem;
+    border-radius: 3px;
+    opacity: 0.55;
+  }
+  .ql-tl { top: 4px; left: 4px; background: #fef3c7; color: #92400e; }
+  .ql-tr { top: 4px; right: 4px; background: #fee2e2; color: #991b1b; }
+  .ql-bl { bottom: 4px; left: 4px; background: #d1fae5; color: #065f46; }
+  .ql-br { bottom: 4px; right: 4px; background: #dcfce7; color: #166534; }
+  .chart-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.9rem;
+    margin-top: 0.8rem;
+    font-family: var(--sans);
+    font-size: 0.75rem;
+    color: var(--ink-soft);
+  }
+  .legend-item { display: flex; align-items: center; gap: 0.3rem; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
 </style>
 </head>
 <body class="feed-page">
@@ -224,18 +348,27 @@
     <a href="archive.html">周报存档 →</a>
   </nav>
 </header>
+
+<!-- 顶层视图切换：本周 / 分析 -->
+<nav class="view-tabs" role="tablist" aria-label="视图切换">
+  <button class="view-tab is-active" data-view="feed" role="tab" aria-selected="true">本周</button>
+  <button class="view-tab" data-view="analysis" role="tab" aria-selected="false">分析</button>
+</nav>
+
+<!-- 本周视图 -->
+<div id="view-feed" class="view-panel">
 <nav class="feed-tabs" role="tablist">
           <button class="tab is-active" data-tab="all" role="tab" aria-selected="true">
-            全部 <span class="tab-count">6</span>
+            全部 <span class="tab-count">16</span>
           </button>
           <button class="tab" data-tab="政策" role="tab" aria-selected="false">
-      政策 <span class="tab-count">3</span>
+      政策 <span class="tab-count">4</span>
     </button>
           <button class="tab" data-tab="竞品" role="tab" aria-selected="false">
-      竞品 <span class="tab-count">1</span>
+      竞品 <span class="tab-count">4</span>
     </button>
           <button class="tab" data-tab="监管" role="tab" aria-selected="false">
-      监管 <span class="tab-count">1</span>
+      监管 <span class="tab-count">2</span>
     </button>
           <button class="tab" data-tab="资本" role="tab" aria-selected="false">
       资本 <span class="tab-count">0</span>
@@ -244,7 +377,7 @@
       海外 <span class="tab-count">1</span>
     </button>
           <button class="tab" data-tab="技术" role="tab" aria-selected="false">
-      技术 <span class="tab-count">0</span>
+      技术 <span class="tab-count">5</span>
     </button>
           <button class="tab" data-tab="治理" role="tab" aria-selected="false">
       治理 <span class="tab-count">0</span>
@@ -256,134 +389,330 @@
     <ol class="feed-list">
       <li class="feed-card" data-deep="true" data-tags="政策">
         <div class="card-header">
-          <span class="card-source">新华社/中国政府网</span>
+          <span class="card-source">新华网</span>
           <span class="card-sep">·</span>
-          <time class="card-date">2026-05-09</time>
+          <time class="card-date">2026-05-31</time>
           <span class="card-sep">·</span>
           <span class="card-cat" style="background:#e8f4fd">政策</span>
           
-          <span class="signal-chips"><span class="signal-chip" data-tip="中央/部委级别的政策文件与部署" aria-label="中央/部委级别的政策文件与部署">🏛️</span><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="signal-chips"><span class="signal-chip" data-tip="中央/部委级别的政策文件与部署" aria-label="中央/部委级别的政策文件与部署">🏛️</span></span>
           <span class="card-rank">#1</span>
         </div>
         <h2 class="card-title">
-          <a href="http://www.gov.cn/" target="_blank" rel="noopener">国常会审议通过《国家算力网建设行动计划》，2027年建成全国一体化算力网络</a>
+          <a href="https://www.news.cn/20260531/6ad3a37eab1547da9856e35822e343f6/c.html" target="_blank" rel="noopener">习近平：前瞻布局和发展未来产业（二十届中央政治局第二十四次集体学习讲话全文）</a>
         </h2>
-        <p class="card-excerpt">国常会审议通过《国家算力网建设行动计划》，2027年建成全国一体化算力网络 国务院常务会议审议通过《国家算力网建设行动计划》，提出到2027年建成覆盖全国、高通量、低时延的一体化算力网络，明确'适度超前部署算力基础设施'。</p>
+        <p class="card-excerpt">2026年1月30日，习近平在二十届中央政治局第二十四次集体学习（主题：前瞻布局和发展未来产业）上发表讲话，新华网于5月31日正式全文发布。讲话明确十五五未来产业主攻方向：量子科技、生物制造、氢能与核聚变能、脑机接口、具身智能、第六代移动通信。强调科技创新引领、企业主体作用，要求中央企业成为未来产业主力军，并提出构建与全生命周期融资需求相适应的科技金融体系，引导长期资本投早、投小、投长期、投硬科技。
+
+对PPIO的具体影响：具身智能与第六代移动通信被列为十五五主攻方向，两者均是边缘算力的核心消费场景——具身智能需要低延迟本地推理，6G需要分布式边缘计算节点。讲话为PPIO在IPO招股书中强化边缘算力承接未来产业算力需求叙事提供了最高层级政策背书。科技金融投硬科技导向，也对PPIO港股上市后的二级市场定价逻辑有直接支撑。</p>
         <details class="ppio-signal">
             <summary>PPIO 信号</summary>
-            <p><strong>🟢 利好信号：</strong>（待 AI 填写）</p>
-            <p><strong>🔴 风险信号：</strong>（待 AI 填写）</p>
-          </details>
-      </li>
-      <li class="feed-card" data-deep="false" data-tags="政策">
-        <div class="card-header">
-          <span class="card-source">工信部/网信办/发改委</span>
-          <span class="card-sep">·</span>
-          <time class="card-date">2026-05-08</time>
-          <span class="card-sep">·</span>
-          <span class="card-cat" style="background:#e8f4fd">政策</span>
-          
-          <span class="signal-chips"><span class="signal-chip" data-tip="竞争对手的融资、产品、战略变化" aria-label="竞争对手的融资、产品、战略变化">⚔️</span></span>
-          <span class="card-rank">#2</span>
-        </div>
-        <h2 class="card-title">
-          <a href="https://www.miit.gov.cn/" target="_blank" rel="noopener">三部门联合印发《促进AI智能体产业发展的实施意见》</a>
-        </h2>
-        <p class="card-excerpt">三部门联合印发《促进AI智能体产业发展的实施意见》 工信部、网信办、发改委联合印发实施意见，提出到2027年培育100个以上具有行业影响力的AI智能体产品，支持企业建设智能体服务平台。</p>
-        <details class="ppio-signal">
-            <summary>PPIO 信号</summary>
-            <p><strong>🟢 利好信号：</strong>（待 AI 填写）</p>
-            <p><strong>🔴 风险信号：</strong>（待 AI 填写）</p>
+            <p><strong>🟢 利好信号：</strong>政治局集体学习明确具身智能+6G为十五五主攻方向，两者均是边缘算力核心场景，为PPIO边缘云定位提供最高层级叙事背书；科技金融投硬科技导向利好IPO后估值逻辑</p>
+            <p><strong>🔴 风险信号：</strong>讲话强调新型举国体制与中央企业主力军，国资背景算力平台可能获得更多政策倾斜，对民营算力企业形成竞争压力</p>
           </details>
       </li>
       <li class="feed-card" data-deep="true" data-tags="监管">
         <div class="card-header">
-          <span class="card-source">中国政府网</span>
+          <span class="card-source">中国新闻网</span>
           <span class="card-sep">·</span>
-          <time class="card-date">2026-05-07</time>
+          <time class="card-date">2026-05-27</time>
           <span class="card-sep">·</span>
           <span class="card-cat" style="background:#fdf0f0">监管</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="AI立法、安全审查、合规动向" aria-label="AI立法、安全审查、合规动向">📜</span></span>
+          <span class="card-rank">#2</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1BOE14Skg2YzQtNzM4NnVUQ0IxZ29oZ3o0VU9IZmhkT09OYnVWcng4d1plenY2Y05SQzdxWW5BN2FtWWpiLTFKWmRETW5zdHFBM2N1cUEwOTNUaGYwM1RiLWFwUXhNdlNNY1E?oc=5" target="_blank" rel="noopener">司法部：加快推进人工智能健康发展综合性立法 - 中国新闻网</a>
+        </h2>
+        <p class="card-excerpt">司法部提出加快推进人工智能健康发展综合性立法。该立法将建立AI全生命周期监管框架，涵盖数据安全、算法治理、生成内容标识等核心议题。此举标志着我国AI监管从局部试点走向系统化法制建设。
+对于PPIO：作为边缘算力平台，需提前审视平台上的模型服务、内容分发等业务是否符合新法要求；同时，明确的AI法律环境有利于香港IPO审核中的合规陈述，但严监管可能增加合规成本，需尽早建立AI业务合规团队。</p>
+        <details class="ppio-signal">
+            <summary>PPIO 信号</summary>
+            <p><strong>🟢 利好信号：</strong>综合性AI立法为行业提供了清晰规则，有利于香港上市时展现合规确定性。</p>
+            <p><strong>🔴 风险信号：</strong>若立法对算力服务施加准入或审查义务，可能增加PPIO的边缘节点运营合规成本。</p>
+          </details>
+      </li>
+      <li class="feed-card" data-deep="true" data-tags="政策">
+        <div class="card-header">
+          <span class="card-source">中国网新闻中心</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-06-02</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#e8f4fd">政策</span>
           
           <span class="signal-chips"><span class="signal-chip" data-tip="中央/部委级别的政策文件与部署" aria-label="中央/部委级别的政策文件与部署">🏛️</span><span class="signal-chip" data-tip="AI立法、安全审查、合规动向" aria-label="AI立法、安全审查、合规动向">📜</span></span>
           <span class="card-rank">#3</span>
         </div>
         <h2 class="card-title">
-          <a href="http://www.gov.cn/" target="_blank" rel="noopener">国务院2026年度立法计划：《人工智能法（草案）》列入预备审议</a>
+          <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1LOUx2SXJKUmpOTXV1b0pZbHlsNVYxclJ5YWlXcTROUDk5WTV5a24xUm12aUxFbUQycW9qTXlxbDkzbm00aC1sZVBLaWtpcXpRZlE0YXNnY2tzdkhsTzBJaXg4TkZTMHROblE?oc=5" target="_blank" rel="noopener">中国发布丨国务院发布对外投资相关规定 支持投资者按照市场化原则开展对外投资活动 - 中国网新闻中心</a>
         </h2>
-        <p class="card-excerpt">《人工智能法（草案）》列入预备审议 国务院办公厅发布2026年度立法工作计划，《人工智能法（草案）》列入预备审议项目，标志着中国AI综合性立法进入实质推进阶段。</p>
+        <p class="card-excerpt">国务院发布对外投资相关规定，明确支持投资者按照市场化原则开展对外投资活动。新规旨在优化对外投资管理流程，鼓励企业参与全球资源配置，同时强调合规与风险防范。
+对PPIO：港股IPO涉及跨境资本流动和VIE架构合规，该政策释放了积极信号，表明监管层支持市场化对外投融资，有利于公司上市审批和后续跨境资金调度。PPIO应评估新规对境外上市、数据跨境等环节的具体影响。</p>
         <details class="ppio-signal">
             <summary>PPIO 信号</summary>
-            <p><strong>🟢 利好信号：</strong>（待 AI 填写）</p>
-            <p><strong>🔴 风险信号：</strong>（待 AI 填写）</p>
+            <p><strong>🟢 利好信号：</strong>国务院明确支持市场化对外投资，为PPIO港股IPO营造了有利的宏观政策环境。</p>
+            <p><strong>🔴 风险信号：</strong>仍需关注对外投资中涉及敏感技术或数据出海的特别审查要求。</p>
           </details>
       </li>
       <li class="feed-card" data-deep="true" data-tags="政策">
         <div class="card-header">
-          <span class="card-source">新华社</span>
+          <span class="card-source">新华网</span>
           <span class="card-sep">·</span>
-          <time class="card-date">2026-05-06</time>
+          <time class="card-date">2026-05-28</time>
           <span class="card-sep">·</span>
           <span class="card-cat" style="background:#e8f4fd">政策</span>
           
-          <span class="signal-chips"><span class="signal-chip" data-tip="中央/部委级别的政策文件与部署" aria-label="中央/部委级别的政策文件与部署">🏛️</span><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="signal-chips"><span class="signal-chip" data-tip="中央/部委级别的政策文件与部署" aria-label="中央/部委级别的政策文件与部署">🏛️</span></span>
           <span class="card-rank">#4</span>
         </div>
         <h2 class="card-title">
-          <a href="http://www.news.cn/" target="_blank" rel="noopener">国务院加强基础研究座谈会：算力基础设施适度超前部署</a>
+          <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxPbjdHZGx3WVhoX3ZKcVBlWVdLTks1ZUUzVm9oeWpuX3lPZW4wTnZFNUdVazR2eUt2UjBha0ZyaHAtZEdKQ2lCWGVwSS1EVjJldDlsVW85N0dkT014ZHBrOVpfcUxKTWdzWWVPY0ZpWVAwcHlBMmZFd21qeHpKMmt5THhB?oc=5" target="_blank" rel="noopener">中国经济面面观丨为什么是“六张网”——看政策出台的深层逻辑 - 新华网</a>
         </h2>
-        <p class="card-excerpt">算力基础设施适度超前部署 国务院召开加强基础研究工作座谈会，明确'算力基础设施适度超前部署'，将算力列为与交通、能源并列的国家基础设施。鼓励社会资本参与算力基础设施建设。</p>
+        <p class="card-excerpt">新华网深度解读国家“六张网”战略布局背后的政策逻辑，其中算力网作为关键基础设施被纳入顶层设计。文章从国家竞争、经济转型维度诠释算力网络建设的战略意义。
+对PPIO：算力网上升为国家战略，直接利好分布式、边缘算力节点的部署，PPIO的边缘云定位与国家算力网“云边端协同”方向高度契合，利于争取政策红利和客户信任，但在未来可能面临更多国家队玩家的竞争。</p>
         <details class="ppio-signal">
             <summary>PPIO 信号</summary>
-            <p><strong>🟢 利好信号：</strong>（待 AI 填写）</p>
-            <p><strong>🔴 风险信号：</strong>（待 AI 填写）</p>
+            <p><strong>🟢 利好信号：</strong>算力网纳入国家顶层布局，为PPIO分布式算力模式提供了最强背书。</p>
+            <p><strong>🔴 风险信号：</strong>电信运营商等国有资本可能加速边缘算力布局，挤压民营平台市场空间。</p>
           </details>
       </li>
       <li class="feed-card" data-deep="false" data-tags="竞品">
         <div class="card-header">
-          <span class="card-source">36氪</span>
+          <span class="card-source">21财经</span>
           <span class="card-sep">·</span>
-          <time class="card-date">2026-05-08</time>
+          <time class="card-date">2026-05-29</time>
           <span class="card-sep">·</span>
           <span class="card-cat" style="background:#fdf3e8">竞品</span>
           
-          <span class="signal-chips"><span class="signal-chip" data-tip="竞争对手的融资、产品、战略变化" aria-label="竞争对手的融资、产品、战略变化">⚔️</span><span class="signal-chip" data-tip="行业融资事件、估值变化、IPO动态" aria-label="行业融资事件、估值变化、IPO动态">💰</span></span>
+          <span class="signal-chips"><span class="signal-chip" data-tip="竞争对手的融资、产品、战略变化" aria-label="竞争对手的融资、产品、战略变化">⚔️</span></span>
           <span class="card-rank">#5</span>
         </div>
         <h2 class="card-title">
-          <a href="https://36kr.com/" target="_blank" rel="noopener">无问芯穹完成7亿元新一轮融资，定位「企业级智能体服务平台」</a>
+          <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQbVQySFU3aXZFdlJVbHdabHQ1YnI0UGo2ZTNtYXJBVnJWc2JMbm5hV3AzZl9iTEIyTVRlb0ttaFI0b0FiV3FDYlZWbzZ1aHhob0ljRUFmck9XUHVMdVp5NlNuLWstRUpiYXgwcll0RkhDVDJ3NmwxYlRCODk5RzA0QUtmNk5wUTk4dm5IOHkwTQ?oc=5" target="_blank" rel="noopener">算力下沉边缘，CDN公司发力“分布式推理网络” - 21财经</a>
         </h2>
-        <p class="card-excerpt">无问芯穹完成7亿元新一轮融资，定位「企业级智能体服务平台」 无问芯穹宣布完成7亿元新一轮融资，投后估值约45亿元，由红杉中国领投。公司定位从'AI Infra'升级为'企业级智能体服务平台'，与PPIO Sandbox产品定位正面重叠。</p>
+        <p class="card-excerpt">CDN公司正发力构建“分布式推理网络”，利用其广泛边缘节点布局AI推理服务。此举标志着CDN厂商正式切入边缘算力赛道，与PPIO边缘云分布式算力平台形成直接竞争。CDN公司在节点规模、带宽成本上具有优势，但在异构算力调度、模型适配能力上或存短板。对PPIO而言，一方面验证了分布式推理赛道的市场价值，有助IPO叙事；另一方面需警惕CDN厂商利用低价带宽策略争夺客户，应强化全栈算力调度与推理优化技术壁垒，并在港股招股书中突出差异化竞争力。</p>
         <details class="ppio-signal">
             <summary>PPIO 信号</summary>
-            <p><strong>🟢 利好信号：</strong>（待 AI 填写）</p>
-            <p><strong>🔴 风险信号：</strong>（待 AI 填写）</p>
+            <p><strong>🟢 利好信号：</strong>头部CDN厂商切入印证边缘推理市场爆发，为PPIO的IPO故事提供行业背书。</p>
+            <p><strong>🔴 风险信号：</strong>CDN厂商凭借低价带宽和已有节点规模可能抢占中小客户，倒逼PPIO加速技术溢价构建。</p>
           </details>
       </li>
-      <li class="feed-card" data-deep="false" data-tags="海外">
+      <li class="feed-card" data-deep="false" data-tags="监管">
         <div class="card-header">
-          <span class="card-source">Reuters</span>
+          <span class="card-source">电子工程专辑</span>
           <span class="card-sep">·</span>
-          <time class="card-date">2026-05-08</time>
+          <time class="card-date">2026-05-29</time>
           <span class="card-sep">·</span>
-          <span class="card-cat" style="background:#f3f0fd">海外</span>
+          <span class="card-cat" style="background:#fdf0f0">监管</span>
           
-          <span class="signal-chips"><span class="signal-chip" data-tip="AI立法、安全审查、合规动向" aria-label="AI立法、安全审查、合规动向">📜</span><span class="signal-chip" data-tip="美国/欧盟AI监管与政策动向" aria-label="美国/欧盟AI监管与政策动向">🌏</span></span>
+          <span class="signal-chips"><span class="signal-chip" data-tip="AI立法、安全审查、合规动向" aria-label="AI立法、安全审查、合规动向">📜</span></span>
           <span class="card-rank">#6</span>
         </div>
         <h2 class="card-title">
-          <a href="https://www.reuters.com/" target="_blank" rel="noopener">美国参议院推进AI安全审查机制，拟扩大对华AI技术出口管制</a>
+          <a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fUlJsOUpBYVlySHVrOC1xNFVLWWE5VnpaZ1JxVHZ1RlFkR2VnTjV0ZjdGRFo2QURtNVBKcENIaTJpOUt2LXQyV0xqLWdzVXJ2R1JN?oc=5" target="_blank" rel="noopener">华为昇腾领衔，9款国产AI芯片通过国家安全可靠测评 - 电子工程专辑</a>
         </h2>
-        <p class="card-excerpt">美国参议院推进AI安全审查机制，拟扩大对华AI技术出口管制 美国参议院商务委员会推进《AI安全审查法案》，拟要求美国公司在向中国等'关注国家'出口AI技术时接受更严格的安全审查。</p>
+        <p class="card-excerpt">华为昇腾等9款国产AI芯片通过国家安全可靠测评，获得信创市场准入资格。这意味着国产AI芯片的可靠性、安全性获国家层面背书，将加速在政府、金融等关键行业的应用。对PPIO而言，边缘节点引入国产芯片的选择更多、合规风险更低，有助于争取信创和政务边缘算力项目；同时可降低对英伟达等外部供应链的依赖，提升IPO阶段对监管的透明度和可控性。挑战在于国产芯片生态成熟度及与现有软件栈的适配成本。</p>
         <details class="ppio-signal">
             <summary>PPIO 信号</summary>
-            <p><strong>🟢 利好信号：</strong>（待 AI 填写）</p>
-            <p><strong>🔴 风险信号：</strong>（待 AI 填写）</p>
+            <p><strong>🟢 利好信号：</strong>国产芯片过评为PPIO提供多芯适配的信创通行证，有利于拓展政企边缘算力市场，增强IPO合规说服力。</p>
+            <p><strong>🔴 风险信号：</strong>国产芯片性能、工具链尚在追赶期，大规模部署可能增加运维与迁移成本。</p>
+          </details>
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="竞品">
+        <div class="card-header">
+          <span class="card-source">观点网</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-05-27</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#fdf3e8">竞品</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="竞争对手的融资、产品、战略变化" aria-label="竞争对手的融资、产品、战略变化">⚔️</span></span>
+          <span class="card-rank">#7</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE5GR3hqeHhnVW9kZkthTGowM0pXeUlfSjNwUzlVay1IR3Jfemw0LWlhc19lYnhCd3E4T3lOX1d2eExEc21BMGluc0toYW42dw?oc=5" target="_blank" rel="noopener">AI军备竞赛 | 字节跳动2000亿AI投入与豆包付费逻辑 - 观点网</a>
+        </h2>
+        <p class="card-excerpt">字节跳动宣布高达2000亿的AI投入，并同步推进豆包大模型的付费商业化。作为拥有火山引擎的巨头，字节在公共云AI基础设施上的激进扩张将对AI算力市场格局产生深远冲击。其庞大资本开支可能挤压中小算力平台的获客空间，但同时也加速整体市场教育，让“分布式算力”作为高性价比补充方案的价值凸显。PPIO应审视与火山引擎等中心化大云的竞合关系，在边缘推理、区域覆盖和混合云部署上建立不可替代性，IPO故事中需清晰定义“分布式边缘云”对抗“超大规模集中云”的独特价值。</p>
+        <details class="ppio-signal">
+            <summary>PPIO 信号</summary>
+            <p><strong>🟢 利好信号：</strong>巨头巨额投入做大AI算力蛋糕，并可能引发外溢需求，使PPIO的边缘分布式算力成为成本敏感的优质分流方案。</p>
+            <p><strong>🔴 风险信号：</strong>火山引擎等大云厂商以亏损换规模，短期可能冲击价格体系，考验PPIO的单位经济模型。</p>
+          </details>
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="竞品">
+        <div class="card-header">
+          <span class="card-source">区块周刊BlockWeeks</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-06-01</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#fdf3e8">竞品</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="竞争对手的融资、产品、战略变化" aria-label="竞争对手的融资、产品、战略变化">⚔️</span></span>
+          <span class="card-rank">#8</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiSkFVX3lxTFB0WEJtbTgtRDVSY005b0ZPRkh5R21JeWJFYWFLejBfeGhubks5OERqcFUzMkh6SjBaaHNYazEzdXE3Sy1TTF94aWR3?oc=5" target="_blank" rel="noopener">Cango发布一季度财报：总收入1.02亿美元，业务延伸至AI算力基础设施 - 区块周刊BlockWeeks</a>
+        </h2>
+        <p class="card-excerpt">二手车交易平台Cango发布Q1财报，总收入1.02亿美元，并宣布将业务延伸至AI算力基础设施领域。这一跨界动作表明算力市场吸引力持续增强，非传统云厂商也开始利用闲置资源切入GPU云服务。对PPIO而言，新晋玩家可能在中低端算力租赁市场形成直接竞争，需重点关注Cango的资源组织方式与定价策略，评估其在中小企业客户端的潜在分流效应。在港股IPO路演中，应准备清晰的竞品对比矩阵，突出PPIO在边缘节点分布密度、低延迟推理加速上的技术壁垒和先发优势。</p>
+        <details class="ppio-signal">
+            <summary>PPIO 信号</summary>
+            <p><strong>🟢 利好信号：</strong>新玩家入场验证AI算力赛道热度，有助于提升整体市场关注度和IPO估值想象空间。</p>
+            <p><strong>🔴 风险信号：</strong>可能分食中小企业客户，引发局部价格战，PPIO需强化差异化价值主张以维持溢价能力。</p>
+          </details>
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="竞品">
+        <div class="card-header">
+          <span class="card-source">极客公园</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-06-01</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#fdf3e8">竞品</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="竞争对手的融资、产品、战略变化" aria-label="竞争对手的融资、产品、战略变化">⚔️</span></span>
+          <span class="card-rank">#9</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE02RF9jZGF2R1AwM0Y4MG5vRmw1MVBCZ1lSVTJHa0RGWE1BZzdiS3ZFTlIydVRvaEdpS2NCc25peEhlUEJlQjlZNWRkVXE?oc=5" target="_blank" rel="noopener">华为亮相第三届中国高校算力学术会议：筑牢算力底座，赋能教育科研新范式 - 极客公园</a>
+        </h2>
+        <p class="card-excerpt">华为在第三届中国高校算力学术会议上重申筑牢算力底座战略，展示昇腾生态在教育和科研场景的解决方案，意在锁定高校这一高价值算力需求端。凭借硬件+平台一体化优势，华为在集中式AI算力建设中的话语权进一步强化，可能挤压第三方算力服务商进入同一领域的机会。PPIO需清醒认识到与华为正面竞争的不可取性，应坚持边缘侧、分布式和高性价比推理服务的差异化定位，重点面向互联网初创、AI应用开发者和区域节点市场，在教育科研侧则以互补身份提供服务，避免在华为强势区开展无效投入。港股IPO时应强调端侧部署、低时延优势，与华为中心化方案形成互补叙事。</p>
+        <details class="ppio-signal">
+            <summary>PPIO 信号</summary>
+            <p><strong>🟢 利好信号：</strong>华为的教育投入加速算力市场教育和需求增长，间接为所有算力服务商做大蛋糕。</p>
+            <p><strong>🔴 风险信号：</strong>华为软硬件锁定的生态可能使部分客户形成路径依赖，边缘云获客和留存难度加大。</p>
+          </details>
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="政策">
+        <div class="card-header">
+          <span class="card-source">Sinocism | Bill Bishop</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-06-01</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#e8f4fd">政策</span>
+          <span class="card-badge card-badge--en">EN</span>
+          <span class="signal-chips"><span class="signal-chip" data-tip="中央/部委级别的政策文件与部署" aria-label="中央/部委级别的政策文件与部署">🏛️</span><span class="signal-chip" data-tip="AI立法、安全审查、合规动向" aria-label="AI立法、安全审查、合规动向">📜</span><span class="signal-chip" data-tip="美国/欧盟AI监管与政策动向" aria-label="美国/欧盟AI监管与政策动向">🌏</span></span>
+          <span class="card-rank">#10</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNa3Z6V09YTFJ0M3pWempkN3ZyZWdfY3BDbE1abFhkbFYwWU1lVnE2R3JIbm14Z0RkN0RhcTZBOFFOdEZyYk5LWkx4cDA2cjVvQ2R6UGtnN3BvOFJQSU5sc3Zuc1dzVTJsQ21ramhJOG5lWUxtLVQ4NGRkVWRIS08yNFp4ZDRiQ2tHT0h6LVJvQWM?oc=5" target="_blank" rel="noopener">New regulations on outbound investment; Qiushi on future industries; Chip export control dysfunction; Shangri-La Dialogue; EU-China - Sinocism | Bill Bishop</a>
+        </h2>
+        <p class="card-excerpt">本期Sinocism简报聚合多项关键政策信号：《求是》杂志发文聚焦未来产业，明确将人工智能、算力基础设施等纳入国家战略重点，预示政策资源将持续倾斜；同时，中国发布对外投资新规，进一步规范企业境外投资和VIE架构，可能增加红筹企业港股上市的审批环节与时间成本。此外，美国芯片出口管制出现执行漏洞，显示管制体系并非铁板一块；香格里拉对话及中欧关系亦折射地缘不确定性。对PPIO而言，《求是》定调强化算力赛道的政策顺风，为港股IPO提供长期基本面背书；但对外投资新规带来的合规复杂度不可忽视，需提前筹备多重架构预案。芯片管制的松动虽为供应链带来微光，但地缘风险仍是跨境业务的常变量。</p>
+        <details class="ppio-signal">
+            <summary>PPIO 信号</summary>
+            <p><strong>🟢 利好信号：</strong>国家战略加持下算力基础设施政策面友好，港股IPO获得产业背书和成长确定性。</p>
+            <p><strong>🔴 风险信号：</strong>对外投资新规和地缘博弈可能抬高红筹上市门槛，VIE合规与审批节奏需严密监控。</p>
           </details>
       </li>
     </ol>
   </section>
 
   
+  <section class="feed-section">
+    <h2 class="date-section" title="简报">简报 (lane:silent)</h2>
+    <ol class="feed-list">
+      <li class="feed-card" data-deep="false" data-tags="海外">
+        <div class="card-header">
+          <span class="card-source">白鲸出海</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-05-27</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#f3f0fd">海外</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="美国/欧盟AI监管与政策动向" aria-label="美国/欧盟AI监管与政策动向">🌏</span></span>
+          <span class="card-rank">#11</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE1TeWZBRHdfUTB4Qk52V0g0OUNwaGJFX2FtWXpZbmRZelJaSjFlanZVQzZEOEh4aHhqSTFqWldJRDN3bm5YaktIY3QtMkU?oc=5" target="_blank" rel="noopener">泰国AI数据中心迎“基建时刻”！1000+算力产业代表云集曼谷｜DIFGC 2026·Thailand盛大开幕 - 白鲸出海</a>
+        </h2>
+        <p class="card-excerpt">泰国AI数据中心产业吸引超1000家算力代表，东南亚算力基建加速，可关注海外边缘云市场机会。</p>
+        
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="技术">
+        <div class="card-header">
+          <span class="card-source">财联社</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-05-31</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#f0f8fd">技术</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#12</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5" target="_blank" rel="noopener">三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社</a>
+        </h2>
+        <p class="card-excerpt">三大运营商推出Token套餐，推动AI算力按需消费，可能影响中小客户群体，对边缘云按需服务模式存在参考意义。</p>
+        
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="技术">
+        <div class="card-header">
+          <span class="card-source">品玩</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-05-30</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#f0f8fd">技术</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#13</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wa2VsajVHN1FfWXlOWGlsdzBsTno2RVNVZkpEQUJsOFUzTGlFX0QwVndtWVRvbzdJM2ctV0lZeHBBdFdOLWpCZw?oc=5" target="_blank" rel="noopener">最高降价99%背后：小米首次公开模型推理优化技术报告 - 品玩</a>
+        </h2>
+        <p class="card-excerpt">小米首次公开模型推理优化技术，宣称最高降价99%，有望进一步降低大模型推理成本，刺激边缘推理需求。</p>
+        
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="技术">
+        <div class="card-header">
+          <span class="card-source">thepaper.cn</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-05-30</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#f0f8fd">技术</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#14</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SR3ZCY2w2YWlGdkVSX0xOSFFOVnYzRzFKemptN3dIeGRaOXU2MHBwdnFDc3F1Vk5OTk1SLWRBSEtXblZxLUxaNDBNY2NOZGhfLWMyeXY4Tnk2RUpFNEE?oc=5" target="_blank" rel="noopener">2026全球AI算力报告及算力产业十大趋势重磅发布 - thepaper.cn</a>
+        </h2>
+        <p class="card-excerpt">2026全球AI算力报告及十大趋势发布，行业趋势指向算力泛在化、边缘化，与PPIO战略方向一致。</p>
+        
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="技术">
+        <div class="card-header">
+          <span class="card-source">虎嗅</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-06-01</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#f0f8fd">技术</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#15</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tS1g1MFdjUjdYemFGQ2Fsb0N4RGhIelRiR3NTUkJVaE9OQU10aEVnOVE1OWY4X1BsSnhEUlZQQ0RJLU9oYW1NV0Vlcy1GXzRKbE9qOA?oc=5" target="_blank" rel="noopener">Google CEO Pichai: Agent将成互联网基础设施，算力面临系统性瓶颈 - 虎嗅</a>
+        </h2>
+        <p class="card-excerpt">Google CEO预警AI Agent将引爆算力需求，算力面临系统性瓶颈，集中式方案难以满足。分布式算力调度成为破局方向，PPIO边缘云模式契合该趋势，可承接溢出的推理需求。</p>
+        
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="技术">
+        <div class="card-header">
+          <span class="card-source">虎嗅</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-05-29</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat" style="background:#f0f8fd">技术</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#16</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MOEZzT084MzlRcEtYTkN2SFpxOEJuanYxMGJ5ZnFBZEViYU91eGZ1eUtFTDd5ZVppbmdxbVlhSlFXQVQ1TlVVeWJram1QQ0NSbWRtTw?oc=5" target="_blank" rel="noopener">DeepSeek频繁服务异常背后：算力成本高企，免费模式难持续 - 虎嗅</a>
+        </h2>
+        <p class="card-excerpt">DeepSeek频繁服务异常暴露算力高成本与免费模式不可持续，凸显低成本推理的刚需。边缘云分布式推理可降本提效，为PPIO创造差异化渗透窗口。</p>
+        
+      </li>
+    </ol>
+  </section>
 
   <section class="wind-section">
   <div class="wind-header">
@@ -410,7 +739,6 @@
     </div>
   </div>
 </section>
-
   <section class="ppio-speed-read">
     <h2 class="speed-read-title">PPIO 信号速读</h2>
     <p class="speed-read-mainline"><strong>本周主线：</strong>本周算力网国家战略+智能体产业化双政策落地，为PPIO提供IPO叙事支撑；无问芯穹融资与AI立法加速构成竞争与合规双重压力。</p>
@@ -425,15 +753,21 @@
       </div>
     </div>
   </section>
-
   <section class="word-cloud-section">
   <h2 class="speed-read-title">本周高频词</h2>
   <div class="word-cloud">
-    <span class="wc-word" style="font-size:2.00rem;opacity:1.00" title="草案: 3次">草案</span>
+    <span class="wc-word" style="font-size:2.00rem;opacity:1.00" title="IPO: 9次">IPO</span>
+    <span class="wc-word" style="font-size:1.64rem;opacity:0.86" title="边缘云: 7次">边缘云</span>
+    <span class="wc-word" style="font-size:0.93rem;opacity:0.57" title="分布式算力: 3次">分布式算力</span>
+    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="人工智能: 2次">人工智能</span>
+    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="同时: 2次">同时</span>
+    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="对PPIO: 2次">对PPIO</span>
+    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="VIE: 2次">VIE</span>
+    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="算力调度: 2次">算力调度</span>
+    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="大模型: 2次">大模型</span>
+    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="虎嗅: 2次">虎嗅</span>
     <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="算力基础设施: 2次">算力基础设施</span>
-    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="明确: 2次">明确</span>
-    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="智能体: 2次">智能体</span>
-    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="列入预备审议: 2次">列入预备审议</span>
+    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="求是: 2次">求是</span>
   </div>
 </section>
 
@@ -441,8 +775,79 @@
     <a href="archive.html">浏览往期周报 →</a>
   </div>
 </main>
+</div>
 
+<!-- 分析视图 -->
+<div id="view-analysis" class="view-panel" style="display:none">
+  <main class="feed analysis-panel">
+  <!-- 顶部指数摘要 -->
+  <div class="analysis-summary">
+    <div class="ppio-index-card">
+      <div class="ppio-index-label">PPIO 战略环境指数</div>
+      <div class="ppio-index-score">58<span class="ppio-index-delta" style="color:#6b7280">0</span></div>
+      <div class="ppio-index-interp">政策利好与竞争压力并存，整体环境中性偏正</div>
+    </div>
+    <div class="ppio-index-card">
+      <div class="ppio-index-label">本周整体风向</div>
+      <div class="ppio-index-score" style="color:#555">平稳</div>
+      <div class="ppio-index-interp">政策面保持活跃，竞品与资本动态平稳，海外监管持续关注中。</div>
+    </div>
+  </div>
+
+  <!-- 象限图 -->
+  <section class="analysis-section">
+    <h2 class="analysis-title">机会-威胁象限图</h2>
+    <p class="analysis-desc">点大小 = 重要程度 · 颜色 = 新闻类别 · 悬停查看详情</p>
+    <div class="chart-wrap chart-wrap--quadrant">
+      <div class="quadrant-bg">
+        <span class="ql ql-tl">⚠ 险境</span>
+        <span class="ql ql-tr">🔴 红海</span>
+        <span class="ql ql-bl">🌱 机遇</span>
+        <span class="ql ql-br">🟢 蓝海</span>
+      </div>
+      <canvas id="chart-quadrant"></canvas>
+    </div>
+    <div class="chart-legend" id="quadrant-legend"></div>
+  </section>
+
+  <!-- 指数成分 -->
+  <section class="analysis-section">
+    <h2 class="analysis-title">PPIO 指数成分分解</h2>
+    <p class="analysis-desc">各因子对本周综合指数的贡献（绿=正向，红=负向）</p>
+    <div class="chart-wrap chart-wrap--bar">
+      <canvas id="chart-index"></canvas>
+    </div>
+  </section>
+
+  <!-- 信号分布 -->
+  <section class="analysis-section">
+    <h2 class="analysis-title">本周 Attend 信号分布</h2>
+    <p class="analysis-desc">深度处理条目按类别分布</p>
+    <div class="chart-wrap chart-wrap--donut">
+      <canvas id="chart-signals"></canvas>
+    </div>
+  </section>
+</main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script>
+  // ── View tabs (本周 / 分析) ──
+  (function() {
+    const viewTabs = document.querySelectorAll('.view-tab');
+    const viewPanels = document.querySelectorAll('.view-panel');
+    viewTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        viewTabs.forEach(t => { t.classList.remove('is-active'); t.setAttribute('aria-selected','false'); });
+        tab.classList.add('is-active'); tab.setAttribute('aria-selected','true');
+        const v = tab.dataset.view;
+        viewPanels.forEach(p => { p.style.display = p.id === 'view-' + v ? '' : 'none'; });
+        if (v === 'analysis') initCharts();
+      });
+    });
+  })();
+
+  // ── Feed category tabs ──
   (function() {
     const tabs = document.querySelectorAll('.feed-tabs .tab');
     const rows = document.querySelectorAll('.feed-card');
@@ -459,6 +864,170 @@
       });
     });
   })();
+
+  // ── Analysis charts ──
+  let chartsInit = false;
+  function initCharts() {
+    if (chartsInit) return;
+    chartsInit = true;
+
+    const SYNTHESIS = {"generated_at":"2026-06-02T03:12:17.798Z","week":"2026-W23","mainline":"本周算力网国家战略+智能体产业化双政策落地，为PPIO提供IPO叙事支撑；无问芯穹融资与AI立法加速构成竞争与合规双重压力。","signal_summary":{"🏛️":4,"📜":4,"⚔️":4,"💰":0,"🌏":2,"🔬":5},"speed_read":{"positive":["国常会算力网+基础研究座谈会→\"适度超前部署\"为PPIO产能扩张叙事提供国家级背书","三部门智能体实施意见→Sandbox产品直接受益","美国AI管制升级→自主可控算力叙事强化"],"risk":["无问芯穹7亿融资+「企业级智能体服务平台」定位→与Sandbox正面重叠","AI综合性立法进入预备审议→VIE备案不确定性叠加","美国AI安全审查机制→若管制扩至云服务，海外事业部跨境算力服务可能受波及"]},"wind_indicators":{"policy_heat":3,"competitor_heat":2,"capital_heat":2,"overseas_heat":2,"overall_sentiment":"平稳","summary":"政策面保持活跃，竞品与资本动态平稳，海外监管持续关注中。"},"competitor_updates":["无问芯穹：更新融资信息(7亿元/45亿估值)、新定位(企业级智能体服务平台)、竞品重叠分析"],"item_axes":[{"id":"1","title":"习近平：前瞻布局和发展未来产业（二十届中央政治局第二十四次集体学习讲话全文）","policy_axis":0.6,"competition_axis":0.7,"impact_score":4,"axis_reason":"（规则估算，仅供参考）"},{"id":"2","title":"司法部：加快推进人工智能健康发展综合性立法 - 中国新闻网","policy_axis":-0.5,"competition_axis":0.1,"impact_score":2,"axis_reason":"（规则估算，仅供参考）"},{"id":"3","title":"中国发布丨国务院发布对外投资相关规定 支持投资者按照市场化原则开展对外投资活动 ","policy_axis":0.6,"competition_axis":0.7,"impact_score":4,"axis_reason":"（规则估算，仅供参考）"},{"id":"4","title":"中国经济面面观丨为什么是“六张网”——看政策出台的深层逻辑 - 新华网","policy_axis":0,"competition_axis":0.1,"impact_score":2,"axis_reason":"（规则估算，仅供参考）"},{"id":"5","title":"算力下沉边缘，CDN公司发力“分布式推理网络” - 21财经","policy_axis":0,"competition_axis":0.7,"impact_score":3,"axis_reason":"（规则估算，仅供参考）"},{"id":"6","title":"华为昇腾领衔，9款国产AI芯片通过国家安全可靠测评 - 电子工程专辑","policy_axis":-0.5,"competition_axis":0.1,"impact_score":2,"axis_reason":"（规则估算，仅供参考）"},{"id":"7","title":"AI军备竞赛 | 字节跳动2000亿AI投入与豆包付费逻辑 - 观点网","policy_axis":0,"competition_axis":0.7,"impact_score":3,"axis_reason":"（规则估算，仅供参考）"},{"id":"8","title":"Cango发布一季度财报：总收入1.02亿美元，业务延伸至AI算力基础设施 - ","policy_axis":0,"competition_axis":0.7,"impact_score":3,"axis_reason":"（规则估算，仅供参考）"},{"id":"9","title":"华为亮相第三届中国高校算力学术会议：筑牢算力底座，赋能教育科研新范式 - 极客公","policy_axis":0,"competition_axis":0.1,"impact_score":2,"axis_reason":"（规则估算，仅供参考）"},{"id":"10","title":"New regulations on outbound investment; ","policy_axis":-0.5,"competition_axis":0.1,"impact_score":2,"axis_reason":"（规则估算，仅供参考）"}],"ppio_index":{"score":58,"delta":0,"components":{"policy_tailwind":25,"competitive_pressure":-15,"capital_sentiment":10,"regulatory_risk":-8,"overseas_headwind":-5},"interpretation":"政策利好与竞争压力并存，整体环境中性偏正"},"_generated_by":"template"};
+    const ITEMS = [{"id":"raw-manual-001","title":"习近平：前瞻布局和发展未来产业（二十届中央政治局第二十四次集体学习讲话全文）","url":"https://www.news.cn/20260531/6ad3a37eab1547da9856e35822e343f6/c.html","source":"新华网","category":"政策","published":"2026-05-31","body_snippet":"习近平在政治局第二十四次集体学习（未来产业）讲话。提出量子科技、具身智能、第六代移动通信为主攻方向；强调新型举国体制、科技金融支持、中央企业主力军角色。","lane":"attend","signals":["🏛️"],"is_deep_read":true,"compass_triggered":["c1","c2"],"summary_cn":"2026年1月30日，习近平在二十届中央政治局第二十四次集体学习（主题：前瞻布局和发展未来产业）上发表讲话，新华网于5月31日正式全文发布。讲话明确十五五未来产业主攻方向：量子科技、生物制造、氢能与核聚变能、脑机接口、具身智能、第六代移动通信。强调科技创新引领、企业主体作用，要求中央企业成为未来产业主力军，并提出构建与全生命周期融资需求相适应的科技金融体系，引导长期资本投早、投小、投长期、投硬科技。\n\n对PPIO的具体影响：具身智能与第六代移动通信被列为十五五主攻方向，两者均是边缘算力的核心消费场景——具身智能需要低延迟本地推理，6G需要分布式边缘计算节点。讲话为PPIO在IPO招股书中强化边缘算力承接未来产业算力需求叙事提供了最高层级政策背书。科技金融投硬科技导向，也对PPIO港股上市后的二级市场定价逻辑有直接支撑。","ppio_signal":{"positive":"政治局集体学习明确具身智能+6G为十五五主攻方向，两者均是边缘算力核心场景，为PPIO边缘云定位提供最高层级叙事背书；科技金融投硬科技导向利好IPO后估值逻辑","risk":"讲话强调新型举国体制与中央企业主力军，国资背景算力平台可能获得更多政策倾斜，对民营算力企业形成竞争压力"},"_classified_by":"manual","_manually_added":true},{"id":"raw-1","title":"司法部：加快推进人工智能健康发展综合性立法 - 中国新闻网","url":"https://news.google.com/rss/articles/CBMiakFVX3lxTE1BOE14Skg2YzQtNzM4NnVUQ0IxZ29oZ3o0VU9IZmhkT09OYnVWcng4d1plenY2Y05SQzdxWW5BN2FtWWpiLTFKWmRETW5zdHFBM2N1cUEwOTNUaGYwM1RiLWFwUXhNdlNNY1E?oc=5","source":"中国新闻网","category":"监管","published":"2026-05-27","body_snippet":"a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1BOE14Skg2YzQtNzM4NnVUQ0IxZ29oZ3o0VU9IZmhkT09OYnVWcng4d1plenY2Y05SQzdxWW5BN2FtWWpiLTFKWmRETW5zdHFBM2N1cUEwOTNUaGYwM1RiLWFwUXhNdlNNY1E?oc=5\" t","_query_boost":20,"lane":"attend","signals":["📜"],"is_deep_read":true,"compass_triggered":["c1","c3"],"summary_cn":"司法部提出加快推进人工智能健康发展综合性立法。该立法将建立AI全生命周期监管框架，涵盖数据安全、算法治理、生成内容标识等核心议题。此举标志着我国AI监管从局部试点走向系统化法制建设。\n对于PPIO：作为边缘算力平台，需提前审视平台上的模型服务、内容分发等业务是否符合新法要求；同时，明确的AI法律环境有利于香港IPO审核中的合规陈述，但严监管可能增加合规成本，需尽早建立AI业务合规团队。","ppio_signal":{"positive":"综合性AI立法为行业提供了清晰规则，有利于香港上市时展现合规确定性。","risk":"若立法对算力服务施加准入或审查义务，可能增加PPIO的边缘节点运营合规成本。"}},{"id":"raw-2","title":"中国发布丨国务院发布对外投资相关规定 支持投资者按照市场化原则开展对外投资活动 - 中国网新闻中心","url":"https://news.google.com/rss/articles/CBMiakFVX3lxTE1LOUx2SXJKUmpOTXV1b0pZbHlsNVYxclJ5YWlXcTROUDk5WTV5a24xUm12aUxFbUQycW9qTXlxbDkzbm00aC1sZVBLaWtpcXpRZlE0YXNnY2tzdkhsTzBJaXg4TkZTMHROblE?oc=5","source":"中国网新闻中心","category":"政策","published":"2026-06-02","body_snippet":"a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1LOUx2SXJKUmpOTXV1b0pZbHlsNVYxclJ5YWlXcTROUDk5WTV5a24xUm12aUxFbUQycW9qTXlxbDkzbm00aC1sZVBLaWtpcXpRZlE0YXNnY2tzdkhsTzBJaXg4TkZTMHROblE?oc=5\" t","_query_boost":30,"lane":"attend","signals":["🏛️","📜"],"is_deep_read":true,"compass_triggered":["c1","c3"],"summary_cn":"国务院发布对外投资相关规定，明确支持投资者按照市场化原则开展对外投资活动。新规旨在优化对外投资管理流程，鼓励企业参与全球资源配置，同时强调合规与风险防范。\n对PPIO：港股IPO涉及跨境资本流动和VIE架构合规，该政策释放了积极信号，表明监管层支持市场化对外投融资，有利于公司上市审批和后续跨境资金调度。PPIO应评估新规对境外上市、数据跨境等环节的具体影响。","ppio_signal":{"positive":"国务院明确支持市场化对外投资，为PPIO港股IPO营造了有利的宏观政策环境。","risk":"仍需关注对外投资中涉及敏感技术或数据出海的特别审查要求。"}},{"id":"raw-3","title":"泰国AI数据中心迎“基建时刻”！1000+算力产业代表云集曼谷｜DIFGC 2026·Thailand盛大开幕 - 白鲸出海","url":"https://news.google.com/rss/articles/CBMiTEFVX3lxTE1TeWZBRHdfUTB4Qk52V0g0OUNwaGJFX2FtWXpZbmRZelJaSjFlanZVQzZEOEh4aHhqSTFqWldJRDN3bm5YaktIY3QtMkU?oc=5","source":"白鲸出海","category":"海外","published":"2026-05-27","body_snippet":"a href=\"https://news.google.com/rss/articles/CBMiTEFVX3lxTE1TeWZBRHdfUTB4Qk52V0g0OUNwaGJFX2FtWXpZbmRZelJaSjFlanZVQzZEOEh4aHhqSTFqWldJRDN3bm5YaktIY3QtMkU?oc=5\" target=\"_blank\" 泰国AI数据中心迎“基建时刻”！1000+算力产业","_query_boost":10,"lane":"silent","signals":["🌏"],"is_deep_read":false,"compass_triggered":["c3"],"summary_cn":"泰国AI数据中心产业吸引超1000家算力代表，东南亚算力基建加速，可关注海外边缘云市场机会。","ppio_signal":null},{"id":"raw-4","title":"三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社","url":"https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5","source":"财联社","category":"技术","published":"2026-05-31","body_snippet":"a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5\" target=\"_blank\" 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？","_query_boost":0,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c2"],"summary_cn":"三大运营商推出Token套餐，推动AI算力按需消费，可能影响中小客户群体，对边缘云按需服务模式存在参考意义。","ppio_signal":null},{"id":"raw-5","title":"中国经济面面观丨为什么是“六张网”——看政策出台的深层逻辑 - 新华网","url":"https://news.google.com/rss/articles/CBMiggFBVV95cUxPbjdHZGx3WVhoX3ZKcVBlWVdLTks1ZUUzVm9oeWpuX3lPZW4wTnZFNUdVazR2eUt2UjBha0ZyaHAtZEdKQ2lCWGVwSS1EVjJldDlsVW85N0dkT014ZHBrOVpfcUxKTWdzWWVPY0ZpWVAwcHlBMmZFd21qeHpKMmt5THhB?oc=5","source":"新华网","category":"政策","published":"2026-05-28","body_snippet":"a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPbjdHZGx3WVhoX3ZKcVBlWVdLTks1ZUUzVm9oeWpuX3lPZW4wTnZFNUdVazR2eUt2UjBha0ZyaHAtZEdKQ2lCWGVwSS1EVjJldDlsVW85N0dkT014ZHBrOVpfcUxKTWdzWWVPY0ZpWVA","_query_boost":0,"lane":"attend","signals":["🏛️"],"is_deep_read":true,"compass_triggered":["c1"],"summary_cn":"新华网深度解读国家“六张网”战略布局背后的政策逻辑，其中算力网作为关键基础设施被纳入顶层设计。文章从国家竞争、经济转型维度诠释算力网络建设的战略意义。\n对PPIO：算力网上升为国家战略，直接利好分布式、边缘算力节点的部署，PPIO的边缘云定位与国家算力网“云边端协同”方向高度契合，利于争取政策红利和客户信任，但在未来可能面临更多国家队玩家的竞争。","ppio_signal":{"positive":"算力网纳入国家顶层布局，为PPIO分布式算力模式提供了最强背书。","risk":"电信运营商等国有资本可能加速边缘算力布局，挤压民营平台市场空间。"}},{"id":"raw-1","title":"算力下沉边缘，CDN公司发力“分布式推理网络” - 21财经","url":"https://news.google.com/rss/articles/CBMijwFBVV95cUxQbVQySFU3aXZFdlJVbHdabHQ1YnI0UGo2ZTNtYXJBVnJWc2JMbm5hV3AzZl9iTEIyTVRlb0ttaFI0b0FiV3FDYlZWbzZ1aHhob0ljRUFmck9XUHVMdVp5NlNuLWstRUpiYXgwcll0RkhDVDJ3NmwxYlRCODk5RzA0QUtmNk5wUTk4dm5IOHkwTQ?oc=5","source":"21财经","category":"竞品","published":"2026-05-29","body_snippet":"a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQbVQySFU3aXZFdlJVbHdabHQ1YnI0UGo2ZTNtYXJBVnJWc2JMbm5hV3AzZl9iTEIyTVRlb0ttaFI0b0FiV3FDYlZWbzZ1aHhob0ljRUFmck9XUHVMdVp5NlNuLWstRUpiYXgwcll0Rkh","_query_boost":0,"lane":"attend","signals":["⚔️"],"is_deep_read":false,"compass_triggered":["c2"],"summary_cn":"CDN公司正发力构建“分布式推理网络”，利用其广泛边缘节点布局AI推理服务。此举标志着CDN厂商正式切入边缘算力赛道，与PPIO边缘云分布式算力平台形成直接竞争。CDN公司在节点规模、带宽成本上具有优势，但在异构算力调度、模型适配能力上或存短板。对PPIO而言，一方面验证了分布式推理赛道的市场价值，有助IPO叙事；另一方面需警惕CDN厂商利用低价带宽策略争夺客户，应强化全栈算力调度与推理优化技术壁垒，并在港股招股书中突出差异化竞争力。","ppio_signal":{"positive":"头部CDN厂商切入印证边缘推理市场爆发，为PPIO的IPO故事提供行业背书。","risk":"CDN厂商凭借低价带宽和已有节点规模可能抢占中小客户，倒逼PPIO加速技术溢价构建。"}},{"id":"raw-2","title":"最高降价99%背后：小米首次公开模型推理优化技术报告 - 品玩","url":"https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wa2VsajVHN1FfWXlOWGlsdzBsTno2RVNVZkpEQUJsOFUzTGlFX0QwVndtWVRvbzdJM2ctV0lZeHBBdFdOLWpCZw?oc=5","source":"品玩","category":"技术","published":"2026-05-30","body_snippet":"a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wa2VsajVHN1FfWXlOWGlsdzBsTno2RVNVZkpEQUJsOFUzTGlFX0QwVndtWVRvbzdJM2ctV0lZeHBBdFdOLWpCZw?oc=5\" target=\"_blank\" 最高降价99%背后：小米首次公开模型推理优化技术报告 /a ","_query_boost":0,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":[],"summary_cn":"小米首次公开模型推理优化技术，宣称最高降价99%，有望进一步降低大模型推理成本，刺激边缘推理需求。","ppio_signal":null},{"id":"raw-3","title":"2026全球AI算力报告及算力产业十大趋势重磅发布 - thepaper.cn","url":"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SR3ZCY2w2YWlGdkVSX0xOSFFOVnYzRzFKemptN3dIeGRaOXU2MHBwdnFDc3F1Vk5OTk1SLWRBSEtXblZxLUxaNDBNY2NOZGhfLWMyeXY4Tnk2RUpFNEE?oc=5","source":"thepaper.cn","category":"技术","published":"2026-05-30","body_snippet":"a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SR3ZCY2w2YWlGdkVSX0xOSFFOVnYzRzFKemptN3dIeGRaOXU2MHBwdnFDc3F1Vk5OTk1SLWRBSEtXblZxLUxaNDBNY2NOZGhfLWMyeXY4Tnk2RUpFNEE?oc=5\" target=\"_blank\" 2","_query_boost":0,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":[],"summary_cn":"2026全球AI算力报告及十大趋势发布，行业趋势指向算力泛在化、边缘化，与PPIO战略方向一致。","ppio_signal":null},{"id":"raw-4","title":"华为昇腾领衔，9款国产AI芯片通过国家安全可靠测评 - 电子工程专辑","url":"https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fUlJsOUpBYVlySHVrOC1xNFVLWWE5VnpaZ1JxVHZ1RlFkR2VnTjV0ZjdGRFo2QURtNVBKcENIaTJpOUt2LXQyV0xqLWdzVXJ2R1JN?oc=5","source":"电子工程专辑","category":"监管","published":"2026-05-29","body_snippet":"a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fUlJsOUpBYVlySHVrOC1xNFVLWWE5VnpaZ1JxVHZ1RlFkR2VnTjV0ZjdGRFo2QURtNVBKcENIaTJpOUt2LXQyV0xqLWdzVXJ2R1JN?oc=5\" target=\"_blank\" 华为昇腾领衔，9款国产AI芯片通","_query_boost":20,"lane":"attend","signals":["📜"],"is_deep_read":false,"compass_triggered":["c1"],"summary_cn":"华为昇腾等9款国产AI芯片通过国家安全可靠测评，获得信创市场准入资格。这意味着国产AI芯片的可靠性、安全性获国家层面背书，将加速在政府、金融等关键行业的应用。对PPIO而言，边缘节点引入国产芯片的选择更多、合规风险更低，有助于争取信创和政务边缘算力项目；同时可降低对英伟达等外部供应链的依赖，提升IPO阶段对监管的透明度和可控性。挑战在于国产芯片生态成熟度及与现有软件栈的适配成本。","ppio_signal":{"positive":"国产芯片过评为PPIO提供多芯适配的信创通行证，有利于拓展政企边缘算力市场，增强IPO合规说服力。","risk":"国产芯片性能、工具链尚在追赶期，大规模部署可能增加运维与迁移成本。"}},{"id":"raw-5","title":"AI军备竞赛 | 字节跳动2000亿AI投入与豆包付费逻辑 - 观点网","url":"https://news.google.com/rss/articles/CBMiTkFVX3lxTE5GR3hqeHhnVW9kZkthTGowM0pXeUlfSjNwUzlVay1IR3Jfemw0LWlhc19lYnhCd3E4T3lOX1d2eExEc21BMGluc0toYW42dw?oc=5","source":"观点网","category":"竞品","published":"2026-05-27","body_snippet":"a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE5GR3hqeHhnVW9kZkthTGowM0pXeUlfSjNwUzlVay1IR3Jfemw0LWlhc19lYnhCd3E4T3lOX1d2eExEc21BMGluc0toYW42dw?oc=5\" target=\"_blank\" AI军备竞赛 | 字节跳动2000亿AI投入","_query_boost":20,"lane":"attend","signals":["⚔️"],"is_deep_read":false,"compass_triggered":["c2"],"summary_cn":"字节跳动宣布高达2000亿的AI投入，并同步推进豆包大模型的付费商业化。作为拥有火山引擎的巨头，字节在公共云AI基础设施上的激进扩张将对AI算力市场格局产生深远冲击。其庞大资本开支可能挤压中小算力平台的获客空间，但同时也加速整体市场教育，让“分布式算力”作为高性价比补充方案的价值凸显。PPIO应审视与火山引擎等中心化大云的竞合关系，在边缘推理、区域覆盖和混合云部署上建立不可替代性，IPO故事中需清晰定义“分布式边缘云”对抗“超大规模集中云”的独特价值。","ppio_signal":{"positive":"巨头巨额投入做大AI算力蛋糕，并可能引发外溢需求，使PPIO的边缘分布式算力成为成本敏感的优质分流方案。","risk":"火山引擎等大云厂商以亏损换规模，短期可能冲击价格体系，考验PPIO的单位经济模型。"}},{"id":"raw-1","title":"Google CEO Pichai: Agent将成互联网基础设施，算力面临系统性瓶颈 - 虎嗅","url":"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tS1g1MFdjUjdYemFGQ2Fsb0N4RGhIelRiR3NTUkJVaE9OQU10aEVnOVE1OWY4X1BsSnhEUlZQQ0RJLU9oYW1NV0Vlcy1GXzRKbE9qOA?oc=5","source":"虎嗅","category":"技术","published":"2026-06-01","body_snippet":"a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tS1g1MFdjUjdYemFGQ2Fsb0N4RGhIelRiR3NTUkJVaE9OQU10aEVnOVE1OWY4X1BsSnhEUlZQQ0RJLU9oYW1NV0Vlcy1GXzRKbE9qOA?oc=5\" target=\"_blank\" Google CEO Pic","_query_boost":0,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c3"],"summary_cn":"Google CEO预警AI Agent将引爆算力需求，算力面临系统性瓶颈，集中式方案难以满足。分布式算力调度成为破局方向，PPIO边缘云模式契合该趋势，可承接溢出的推理需求。","ppio_signal":null},{"id":"raw-2","title":"DeepSeek频繁服务异常背后：算力成本高企，免费模式难持续 - 虎嗅","url":"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MOEZzT084MzlRcEtYTkN2SFpxOEJuanYxMGJ5ZnFBZEViYU91eGZ1eUtFTDd5ZVppbmdxbVlhSlFXQVQ1TlVVeWJram1QQ0NSbWRtTw?oc=5","source":"虎嗅","category":"技术","published":"2026-05-29","body_snippet":"a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MOEZzT084MzlRcEtYTkN2SFpxOEJuanYxMGJ5ZnFBZEViYU91eGZ1eUtFTDd5ZVppbmdxbVlhSlFXQVQ1TlVVeWJram1QQ0NSbWRtTw?oc=5\" target=\"_blank\" DeepSeek频繁服务异常","_query_boost":0,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1"],"summary_cn":"DeepSeek频繁服务异常暴露算力高成本与免费模式不可持续，凸显低成本推理的刚需。边缘云分布式推理可降本提效，为PPIO创造差异化渗透窗口。","ppio_signal":null},{"id":"raw-3","title":"Cango发布一季度财报：总收入1.02亿美元，业务延伸至AI算力基础设施 - 区块周刊BlockWeeks","url":"https://news.google.com/rss/articles/CBMiSkFVX3lxTFB0WEJtbTgtRDVSY005b0ZPRkh5R21JeWJFYWFLejBfeGhubks5OERqcFUzMkh6SjBaaHNYazEzdXE3Sy1TTF94aWR3?oc=5","source":"区块周刊BlockWeeks","category":"竞品","published":"2026-06-01","body_snippet":"a href=\"https://news.google.com/rss/articles/CBMiSkFVX3lxTFB0WEJtbTgtRDVSY005b0ZPRkh5R21JeWJFYWFLejBfeGhubks5OERqcFUzMkh6SjBaaHNYazEzdXE3Sy1TTF94aWR3?oc=5\" target=\"_blank\" Cango发布一季度财报：总收入1.02亿美元，业务延伸","_query_boost":0,"lane":"attend","signals":["⚔️"],"is_deep_read":false,"compass_triggered":["c2"],"summary_cn":"二手车交易平台Cango发布Q1财报，总收入1.02亿美元，并宣布将业务延伸至AI算力基础设施领域。这一跨界动作表明算力市场吸引力持续增强，非传统云厂商也开始利用闲置资源切入GPU云服务。对PPIO而言，新晋玩家可能在中低端算力租赁市场形成直接竞争，需重点关注Cango的资源组织方式与定价策略，评估其在中小企业客户端的潜在分流效应。在港股IPO路演中，应准备清晰的竞品对比矩阵，突出PPIO在边缘节点分布密度、低延迟推理加速上的技术壁垒和先发优势。","ppio_signal":{"positive":"新玩家入场验证AI算力赛道热度，有助于提升整体市场关注度和IPO估值想象空间。","risk":"可能分食中小企业客户，引发局部价格战，PPIO需强化差异化价值主张以维持溢价能力。"}},{"id":"raw-4","title":"华为亮相第三届中国高校算力学术会议：筑牢算力底座，赋能教育科研新范式 - 极客公园","url":"https://news.google.com/rss/articles/CBMiTEFVX3lxTE02RF9jZGF2R1AwM0Y4MG5vRmw1MVBCZ1lSVTJHa0RGWE1BZzdiS3ZFTlIydVRvaEdpS2NCc25peEhlUEJlQjlZNWRkVXE?oc=5","source":"极客公园","category":"竞品","published":"2026-06-01","body_snippet":"a href=\"https://news.google.com/rss/articles/CBMiTEFVX3lxTE02RF9jZGF2R1AwM0Y4MG5vRmw1MVBCZ1lSVTJHa0RGWE1BZzdiS3ZFTlIydVRvaEdpS2NCc25peEhlUEJlQjlZNWRkVXE?oc=5\" target=\"_blank\" 华为亮相第三届中国高校算力学术会议：筑牢算力底座，","_query_boost":0,"lane":"attend","signals":["⚔️"],"is_deep_read":false,"compass_triggered":["c2"],"summary_cn":"华为在第三届中国高校算力学术会议上重申筑牢算力底座战略，展示昇腾生态在教育和科研场景的解决方案，意在锁定高校这一高价值算力需求端。凭借硬件+平台一体化优势，华为在集中式AI算力建设中的话语权进一步强化，可能挤压第三方算力服务商进入同一领域的机会。PPIO需清醒认识到与华为正面竞争的不可取性，应坚持边缘侧、分布式和高性价比推理服务的差异化定位，重点面向互联网初创、AI应用开发者和区域节点市场，在教育科研侧则以互补身份提供服务，避免在华为强势区开展无效投入。港股IPO时应强调端侧部署、低时延优势，与华为中心化方案形成互补叙事。","ppio_signal":{"positive":"华为的教育投入加速算力市场教育和需求增长，间接为所有算力服务商做大蛋糕。","risk":"华为软硬件锁定的生态可能使部分客户形成路径依赖，边缘云获客和留存难度加大。"}},{"id":"raw-5","title":"New regulations on outbound investment; Qiushi on future industries; Chip export control dysfunction; Shangri-La Dialogue; EU-China - Sinocism | Bill Bishop","url":"https://news.google.com/rss/articles/CBMikAFBVV95cUxNa3Z6V09YTFJ0M3pWempkN3ZyZWdfY3BDbE1abFhkbFYwWU1lVnE2R3JIbm14Z0RkN0RhcTZBOFFOdEZyYk5LWkx4cDA2cjVvQ2R6UGtnN3BvOFJQSU5sc3Zuc1dzVTJsQ21ramhJOG5lWUxtLVQ4NGRkVWRIS08yNFp4ZDRiQ2tHT0h6LVJvQWM?oc=5","source":"Sinocism | Bill Bishop","category":"政策","published":"2026-06-01","body_snippet":"a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNa3Z6V09YTFJ0M3pWempkN3ZyZWdfY3BDbE1abFhkbFYwWU1lVnE2R3JIbm14Z0RkN0RhcTZBOFFOdEZyYk5LWkx4cDA2cjVvQ2R6UGtnN3BvOFJQSU5sc3Zuc1dzVTJsQ21ramhJOG5","_query_boost":0,"lane":"attend","signals":["🏛️","📜","🌏"],"is_deep_read":false,"compass_triggered":["c1","c3"],"summary_cn":"本期Sinocism简报聚合多项关键政策信号：《求是》杂志发文聚焦未来产业，明确将人工智能、算力基础设施等纳入国家战略重点，预示政策资源将持续倾斜；同时，中国发布对外投资新规，进一步规范企业境外投资和VIE架构，可能增加红筹企业港股上市的审批环节与时间成本。此外，美国芯片出口管制出现执行漏洞，显示管制体系并非铁板一块；香格里拉对话及中欧关系亦折射地缘不确定性。对PPIO而言，《求是》定调强化算力赛道的政策顺风，为港股IPO提供长期基本面背书；但对外投资新规带来的合规复杂度不可忽视，需提前筹备多重架构预案。芯片管制的松动虽为供应链带来微光，但地缘风险仍是跨境业务的常变量。","ppio_signal":{"positive":"国家战略加持下算力基础设施政策面友好，港股IPO获得产业背书和成长确定性。","risk":"对外投资新规和地缘博弈可能抬高红筹上市门槛，VIE合规与审批节奏需严密监控。"}}];
+
+    // 1. 象限图 — 机会-威胁矩阵
+    (function() {
+      const axes = (SYNTHESIS.item_axes || []);
+      const catColor = {
+        '政策':'#2563eb','竞品':'#d97706','监管':'#dc2626',
+        '资本':'#16a34a','海外':'#7c3aed','技术':'#0891b2','治理':'#92400e'
+      };
+      const datasets = axes.map(a => {
+        const item = ITEMS.find(i => i.id && (i.id.endsWith('-' + a.id) || i.id === a.id)) || {};
+        const cat = item.category || '技术';
+        return {
+          label: (a.title || '').slice(0, 20),
+          data: [{ x: a.policy_axis || 0, y: a.competition_axis || 0 }],
+          backgroundColor: (catColor[cat] || '#6b7280') + 'cc',
+          borderColor: catColor[cat] || '#6b7280',
+          pointRadius: Math.max(6, (a.impact_score || 3) * 4),
+          pointHoverRadius: Math.max(8, (a.impact_score || 3) * 4 + 2),
+        };
+      });
+      new Chart(document.getElementById('chart-quadrant'), {
+        type: 'scatter',
+        data: { datasets },
+        options: {
+          responsive: true, maintainAspectRatio: true,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: ctx => {
+                  const a = axes[ctx.datasetIndex];
+                  return [
+                    (a.title || '').slice(0, 35),
+                    a.axis_reason || ''
+                  ];
+                }
+              }
+            }
+          },
+          scales: {
+            x: {
+              min: -1.2, max: 1.2,
+              border: { display: false },
+              grid: {
+                color: ctx => ctx.tick.value === 0 ? '#374151' : '#e5e7eb',
+                lineWidth: ctx => ctx.tick.value === 0 ? 2.5 : 1,
+              },
+              ticks: {
+                stepSize: 0.5,
+                font: { size: 10 },
+                color: ctx => ctx.tick.value === 0 ? '#374151' : '#9ca3af',
+                callback: v => {
+                  if (v === -1) return '← 收紧';
+                  if (v === 1) return '宽松 →';
+                  if (v === 0) return '中性';
+                  return '';
+                }
+              },
+              title: {
+                display: true,
+                text: '政策/监管环境',
+                font: { size: 11, weight: '600' },
+                color: '#4b5563'
+              }
+            },
+            y: {
+              min: -1.2, max: 1.2,
+              border: { display: false },
+              grid: {
+                color: ctx => ctx.tick.value === 0 ? '#374151' : '#e5e7eb',
+                lineWidth: ctx => ctx.tick.value === 0 ? 2.5 : 1,
+              },
+              ticks: {
+                stepSize: 0.5,
+                font: { size: 10 },
+                color: ctx => ctx.tick.value === 0 ? '#374151' : '#9ca3af',
+                callback: v => {
+                  if (v === -1) return '低竞争';
+                  if (v === 1) return '高竞争';
+                  if (v === 0) return '中性';
+                  return '';
+                }
+              },
+              title: {
+                display: true,
+                text: '竞争烈度',
+                font: { size: 11, weight: '600' },
+                color: '#4b5563'
+              }
+            }
+          }
+        }
+      });
+
+      // Build legend below chart
+      const legend = document.getElementById('quadrant-legend');
+      if (legend) {
+        legend.innerHTML = axes.map(a => {
+          const item = ITEMS.find(i => i.id && (i.id.endsWith('-' + a.id) || i.id === a.id)) || {};
+          const cat = item.category || '技术';
+          const color = catColor[cat] || '#6b7280';
+          return '<span class="legend-item">'
+            + '<span class="legend-dot" style="background:' + color + '"></span>'
+            + (a.title || '').slice(0, 24)
+            + '</span>';
+        }).join('');
+      }
+    })();
+
+    // 2. PPIO指数 — 成分柱状图
+    (function() {
+      const idx = SYNTHESIS.ppio_index || {};
+      const comp = idx.components || {};
+      const labels = ['政策顺风', '竞争压力', '资本情绪', '监管风险', '海外逆风'];
+      const keys = ['policy_tailwind','competitive_pressure','capital_sentiment','regulatory_risk','overseas_headwind'];
+      const values = keys.map(k => comp[k] || 0);
+      const colors = values.map(v => v >= 0 ? '#16a34acc' : '#dc2626cc');
+      new Chart(document.getElementById('chart-index'), {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [{ label: 'PPIO指数成分', data: values, backgroundColor: colors, borderRadius: 4 }]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: true,
+          plugins: { legend: { display: false } },
+          scales: {
+            y: { grid: { color: '#e5e7eb' }, ticks: { stepSize: 10 } },
+            x: { grid: { display: false } }
+          }
+        }
+      });
+    })();
+
+    // 3. 信号分布 — 类别条数
+    (function() {
+      const cats = ['政策','竞品','监管','资本','海外','技术','治理'];
+      const catColor = {
+        '政策':'#2563eb','竞品':'#d97706','监管':'#dc2626',
+        '资本':'#16a34a','海外':'#7c3aed','技术':'#0891b2','治理':'#92400e'
+      };
+      const counts = cats.map(c => ITEMS.filter(i => i.category === c && i.lane === 'attend').length);
+      new Chart(document.getElementById('chart-signals'), {
+        type: 'doughnut',
+        data: {
+          labels: cats,
+          datasets: [{ data: counts, backgroundColor: cats.map(c => catColor[c] + 'cc'), borderWidth: 1 }]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: true,
+          plugins: { legend: { position: 'right', labels: { font: { size: 11 } } } }
+        }
+      });
+    })();
+  }
 </script>
 </body>
 </html>

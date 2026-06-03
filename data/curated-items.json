@@ -1,75 +1,24 @@
 {
-  "generated_at": "2026-06-02T01:18:23.639Z",
+  "generated_at": "2026-06-03T03:42:51.534Z",
   "week": "2026-W23",
-  "classifier": "rule-based",
-  "total_raw": 7,
-  "total_curated": 6,
-  "attend_count": 6,
-  "silent_count": 0,
+  "classifier": "deepseek-v4-pro",
+  "total_raw": 15,
+  "total_curated": 11,
+  "attend_count": 5,
+  "silent_count": 6,
   "items": [
     {
       "id": "raw-001",
-      "title": "国常会审议通过《国家算力网建设行动计划》，2027年建成全国一体化算力网络",
-      "url": "http://www.gov.cn/",
-      "source": "新华社/中国政府网",
-      "category": "政策",
-      "published": "2026-05-09",
-      "body_snippet": "国务院常务会议审议通过《国家算力网建设行动计划》，提出到2027年建成覆盖全国、高通量、低时延的一体化算力网络，明确'适度超前部署算力基础设施'。",
-      "lane": "attend",
-      "signals": [
-        "🏛️",
-        "🔬"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "国常会审议通过《国家算力网建设行动计划》，2027年建成全国一体化算力网络 国务院常务会议审议通过《国家算力网建设行动计划》，提出到2027年建成覆盖全国、高通量、低时延的一体化算力网络，明确'适度超前部署算力基础设施'。",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-002",
-      "title": "三部门联合印发《促进AI智能体产业发展的实施意见》",
-      "url": "https://www.miit.gov.cn/",
-      "source": "工信部/网信办/发改委",
-      "category": "政策",
-      "published": "2026-05-08",
-      "body_snippet": "工信部、网信办、发改委联合印发实施意见，提出到2027年培育100个以上具有行业影响力的AI智能体产品，支持企业建设智能体服务平台。",
-      "lane": "attend",
-      "signals": [
-        "⚔️"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "三部门联合印发《促进AI智能体产业发展的实施意见》 工信部、网信办、发改委联合印发实施意见，提出到2027年培育100个以上具有行业影响力的AI智能体产品，支持企业建设智能体服务平台。",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-003",
-      "title": "国务院2026年度立法计划：《人工智能法（草案）》列入预备审议",
-      "url": "http://www.gov.cn/",
-      "source": "中国政府网",
+      "title": "李强签署国务院令 公布《国务院关于对外投资的规定》 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WWjVqeXBRbjUtOG5jcTRPS1hrVEIwZ3BmRmlnaTJmWFdyanJqNDhZWU5BN1NtLUoxbmlWWVFHMkVJWkFwVEVxMmpnWnRHbXFCVnN4WExTcnRzX3BQVXVEZ0hwdFRNQQ?oc=5",
+      "source": "中国新闻网",
       "category": "监管",
-      "published": "2026-05-07",
-      "body_snippet": "国务院办公厅发布2026年度立法工作计划，《人工智能法（草案）》列入预备审议项目，标志着中国AI综合性立法进入实质推进阶段。",
+      "published": "2026-06-01",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WWjVqeXBRbjUtOG5jcTRPS1hrVEIwZ3BmRmlnaTJmWFdyanJqNDhZWU5BN1NtLUoxbmlWWVFHMkVJWkFwVEVxMmpnWnRHbXFCVnN4WExTcnRzX3BQVXVEZ0hwdFRNQQ?oc=5\" target",
+      "_query_boost": 30,
       "lane": "attend",
       "signals": [
-        "🏛️",
-        "📜"
+        "🏛️"
       ],
       "is_deep_read": true,
       "compass_triggered": [
@@ -77,7 +26,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "《人工智能法（草案）》列入预备审议 国务院办公厅发布2026年度立法工作计划，《人工智能法（草案）》列入预备审议项目，标志着中国AI综合性立法进入实质推进阶段。",
+      "summary_cn": "//news.google.com/rss/articles/CBMiZkFVX3lxTE9WWjVqeXBRbjUtOG5jcTRPS1hrVEIwZ3BmRmlnaTJmWFdyanJqNDhZWU5BN1NtLUoxbmlWWVFHMkVJWkFwVEVxMmpnWnRHbXFCVnN4WExTcnRzX3BQVXVEZ0hwdFRNQQ?oc=5\" target",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）"
@@ -86,42 +35,39 @@
     },
     {
       "id": "raw-004",
-      "title": "国务院加强基础研究座谈会：算力基础设施适度超前部署",
-      "url": "http://www.news.cn/",
-      "source": "新华社",
-      "category": "政策",
-      "published": "2026-05-06",
-      "body_snippet": "国务院召开加强基础研究工作座谈会，明确'算力基础设施适度超前部署'，将算力列为与交通、能源并列的国家基础设施。鼓励社会资本参与算力基础设施建设。",
-      "lane": "attend",
+      "title": "最低5元办理“Token套餐” 运营商开始争相卖“算力” - 湖北日报传媒集团",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBFTXBVVFBDRUxmZ2xaTVMwbFFwZHNJbkt1RjIyd1hUeGI2bWpFMjZ2ZWVweUxXYjNQUzVEdEhjeWlxTVEybHZ2MFJmZUlnUXp1RWk3bWFpWDk?oc=5",
+      "source": "湖北日报传媒集团",
+      "category": "技术",
+      "published": "2026-06-02",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFBFTXBVVFBDRUxmZ2xaTVMwbFFwZHNJbkt1RjIyd1hUeGI2bWpFMjZ2ZWVweUxXYjNQUzVEdEhjeWlxTVEybHZ2MFJmZUlnUXp1RWk3bWFpWDk?oc=5\" target=\"_blank\" 最低5元办理“To",
+      "_query_boost": 0,
+      "lane": "silent",
       "signals": [
-        "🏛️",
         "🔬"
       ],
-      "is_deep_read": true,
+      "is_deep_read": false,
       "compass_triggered": [
         "c1",
         "c2",
         "c3"
       ],
-      "summary_cn": "算力基础设施适度超前部署 国务院召开加强基础研究工作座谈会，明确'算力基础设施适度超前部署'，将算力列为与交通、能源并列的国家基础设施。鼓励社会资本参与算力基础设施建设。",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）"
-      },
+      "summary_cn": "最低5元办理“Token套餐” 运营商开始争相卖“算力” - 湖北日报传媒集团 a href=\"https://news.google.com/rss/arti",
+      "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-005",
-      "title": "无问芯穹完成7亿元新一轮融资，定位「企业级智能体服务平台」",
-      "url": "https://36kr.com/",
-      "source": "36氪",
-      "category": "竞品",
-      "published": "2026-05-08",
-      "body_snippet": "无问芯穹宣布完成7亿元新一轮融资，投后估值约45亿元，由红杉中国领投。公司定位从'AI Infra'升级为'企业级智能体服务平台'，与PPIO Sandbox产品定位正面重叠。",
-      "lane": "attend",
+      "title": "算力下沉边缘，CDN公司发力“分布式推理网络” - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbVQySFU3aXZFdlJVbHdabHQ1YnI0UGo2ZTNtYXJBVnJWc2JMbm5hV3AzZl9iTEIyTVRlb0ttaFI0b0FiV3FDYlZWbzZ1aHhob0ljRUFmck9XUHVMdVp5NlNuLWstRUpiYXgwcll0RkhDVDJ3NmwxYlRCODk5RzA0QUtmNk5wUTk4dm5IOHkwTQ?oc=5",
+      "source": "21财经",
+      "category": "技术",
+      "published": "2026-05-29",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQbVQySFU3aXZFdlJVbHdabHQ1YnI0UGo2ZTNtYXJBVnJWc2JMbm5hV3AzZl9iTEIyTVRlb0ttaFI0b0FiV3FDYlZWbzZ1aHhob0ljRUFmck9XUHVMdVp5NlNuLWstRUpiYXgwcll0Rkh",
+      "_query_boost": 0,
+      "lane": "silent",
       "signals": [
-        "⚔️",
-        "💰"
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -129,38 +75,176 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "无问芯穹完成7亿元新一轮融资，定位「企业级智能体服务平台」 无问芯穹宣布完成7亿元新一轮融资，投后估值约45亿元，由红杉中国领投。公司定位从'AI Infra'升级为'企业级智能体服务平台'，与PPIO Sandbox产品定位正面重叠。",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）"
-      },
+      "summary_cn": "算力下沉边缘，CDN公司发力“分布式推理网络” - 21财经 a href=\"https://news.google.com/rss/articles/CBMi",
+      "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-007",
-      "title": "美国参议院推进AI安全审查机制，拟扩大对华AI技术出口管制",
-      "url": "https://www.reuters.com/",
-      "source": "Reuters",
-      "category": "海外",
-      "published": "2026-05-08",
-      "body_snippet": "美国参议院商务委员会推进《AI安全审查法案》，拟要求美国公司在向中国等'关注国家'出口AI技术时接受更严格的安全审查。",
+      "id": "raw-1",
+      "title": "最高降价99%背后：小米首次公开模型推理优化技术报告 - 品玩",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wa2VsajVHN1FfWXlOWGlsdzBsTno2RVNVZkpEQUJsOFUzTGlFX0QwVndtWVRvbzdJM2ctV0lZeHBBdFdOLWpCZw?oc=5",
+      "source": "品玩",
+      "category": "技术",
+      "published": "2026-05-30",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wa2VsajVHN1FfWXlOWGlsdzBsTno2RVNVZkpEQUJsOFUzTGlFX0QwVndtWVRvbzdJM2ctV0lZeHBBdFdOLWpCZw?oc=5\" target=\"_blank\" 最高降价99%背后：小米首次公开模型推理优化技术报告 /a ",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "小米公开模型推理优化技术报告，大幅降低推理成本，可能加速AI应用普及，对边缘云分布式算力的需求结构带来潜在影响。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-2",
+      "title": "华为昇腾领衔，9款国产AI芯片通过国家安全可靠测评 - 电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fUlJsOUpBYVlySHVrOC1xNFVLWWE5VnpaZ1JxVHZ1RlFkR2VnTjV0ZjdGRFo2QURtNVBKcENIaTJpOUt2LXQyV0xqLWdzVXJ2R1JN?oc=5",
+      "source": "电子工程专辑",
+      "category": "监管",
+      "published": "2026-05-29",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fUlJsOUpBYVlySHVrOC1xNFVLWWE5VnpaZ1JxVHZ1RlFkR2VnTjV0ZjdGRFo2QURtNVBKcENIaTJpOUt2LXQyV0xqLWdzVXJ2R1JN?oc=5\" target=\"_blank\" 华为昇腾领衔，9款国产AI芯片通",
+      "_query_boost": 20,
       "lane": "attend",
       "signals": [
-        "📜",
+        "📜"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "华为昇腾等9款国产AI芯片通过国家安全可靠测评，标志着信创体系对国产AI芯片的进一步认可。对PPIO而言，这意味着在边缘节点部署国产芯片（如昇腾）在政企项目中具备更强合规优势，可降低信创适配成本，加速进入政府、金融等对安全可靠要求高的算力服务市场。但需关注若后续政策强制绑定特定国产芯片，可能限制硬件选型灵活性，并需评估国产芯片在推理场景下的真实性价比。",
+      "ppio_signal": {
+        "positive": "国产AI芯片通过安全可靠测评，PPIO可在边缘云中合规部署昇腾等芯片，提升政企客户信任度，拓宽信创市场。",
+        "risk": "若测评结果转化为强制采购要求，可能限制PPIO的芯片选型，且部分国产芯片性能或生态不足可能影响边缘服务质量和客户体验。"
+      }
+    },
+    {
+      "id": "raw-3",
+      "title": "Google CEO Pichai: Agent将成互联网基础设施，算力面临系统性瓶颈 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tS1g1MFdjUjdYemFGQ2Fsb0N4RGhIelRiR3NTUkJVaE9OQU10aEVnOVE1OWY4X1BsSnhEUlZQQ0RJLU9oYW1NV0Vlcy1GXzRKbE9qOA?oc=5",
+      "source": "虎嗅",
+      "category": "海外",
+      "published": "2026-06-01",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tS1g1MFdjUjdYemFGQ2Fsb0N4RGhIelRiR3NTUkJVaE9OQU10aEVnOVE1OWY4X1BsSnhEUlZQQ0RJLU9oYW1NV0Vlcy1GXzRKbE9qOA?oc=5\" target=\"_blank\" Google CEO Pic",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
         "🌏"
       ],
       "is_deep_read": false,
       "compass_triggered": [
-        "c1",
-        "c2",
         "c3"
       ],
-      "summary_cn": "美国参议院推进AI安全审查机制，拟扩大对华AI技术出口管制 美国参议院商务委员会推进《AI安全审查法案》，拟要求美国公司在向中国等'关注国家'出口AI技术时接受更严格的安全审查。",
+      "summary_cn": "Google CEO皮查伊称Agent将成为互联网基础设施，并警告算力面临系统性瓶颈，凸显边缘云与分布式算力在全球算力重构中的战略价值。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-5",
+      "title": "上海企业加速全球算力布局！优刻得落子乌兹别克斯坦，已建成36个可用区 - shobserver.com",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jckRwWDRlMXUzR0VxU2VhVktXVy1oUld0dUhLMUFGVzB1aGhwNi0wMEJQaDFsemx3Mzd0RlpuNFQ4VjdacjNwX3RiTXhUSFVKNjlkQXdCQ0tQTUdoNFE?oc=5",
+      "source": "shobserver.com",
+      "category": "竞品",
+      "published": "2026-06-03",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jckRwWDRlMXUzR0VxU2VhVktXVy1oUld0dUhLMUFGVzB1aGhwNi0wMEJQaDFsemx3Mzd0RlpuNFQ4VjdacjNwX3RiTXhUSFVKNjlkQXdCQ0tQTUdoNFE?oc=5\" target=\"_blank\" 上",
+      "_query_boost": 0,
+      "lane": "attend",
+      "signals": [
+        "⚔️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "优刻得（UCloud）正式在乌兹别克斯坦部署算力节点，全球可用区达36个，加速海外边缘与云算力布局。对PPIO而言，优刻得的出海节奏与一带一路方向形成可见竞争，表明公有云背景的对手正在抢占新兴市场的边缘算力先机，可能挤压PPIO这类独立边缘云厂商的海外窗口期。但也验证了企业出海对分布式算力的刚性需求，PPIO可借鉴其节点选址策略，同时避免在海外重资产模式上与之正面碰撞。",
       "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
+        "positive": "优刻得全球拓展验证海外市场对边缘算力的强劲需求，PPIO可参考其路径差异化切入轻资产、高密度边缘节点。",
+        "risk": "优刻得等公有云厂商以重资产快速覆盖海外可用区，可能直接争夺同一批出海客户的边缘算力预算，加剧市场获客和定价压力。"
+      }
+    },
+    {
+      "id": "raw-1",
+      "title": "DeepSeek频繁服务异常背后：算力成本高企，免费模式难持续 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MOEZzT084MzlRcEtYTkN2SFpxOEJuanYxMGJ5ZnFBZEViYU91eGZ1eUtFTDd5ZVppbmdxbVlhSlFXQVQ1TlVVeWJram1QQ0NSbWRtTw?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-05-29",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MOEZzT084MzlRcEtYTkN2SFpxOEJuanYxMGJ5ZnFBZEViYU91eGZ1eUtFTDd5ZVppbmdxbVlhSlFXQVQ1TlVVeWJram1QQ0NSbWRtTw?oc=5\" target=\"_blank\" DeepSeek频繁服务异常",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "算力成本高企导致DeepSeek免费服务不稳，引发行业对算力经济性反思，可能驱动企业转向性价比更高的边缘算力方案。"
+    },
+    {
+      "id": "raw-2",
+      "title": "全国一体化算力网，怎么建？ - peopleapp.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc3hXaE5tVW82YjdncTV6WG45Wk5xM0FMazE2NkQwY09PajRvZ0VuZ2FQWWotZXRHcjlzQk1GbzZsSm9VMUU4d2dVOXZIRFpqZFkzVmZudXdVQ1lPQWVoYlZnQVZqdGI4dExmV3hNdTBFNHRHN19iYjlPYl9GUjVyeE5iMTY3emp3Wllxa0IyWk4?oc=5",
+      "source": "peopleapp.com",
+      "category": "政策",
+      "published": "2026-06-01",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNc3hXaE5tVW82YjdncTV6WG45Wk5xM0FMazE2NkQwY09PajRvZ0VuZ2FQWWotZXRHcjlzQk1GbzZsSm9VMUU4d2dVOXZIRFpqZFkzVmZudXdVQ1lPQWVoYlZnQVZqdGI4dExmV3hNdTB",
+      "_query_boost": 0,
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "①人民网刊发《全国一体化算力网，怎么建？》，系统阐述国家“东数西算”框架下全国算力集约化、互联互通的顶层设计思路，强调构建低时延、绿色、安全的算力服务体系，并对算力调度、标准统一、区域协同等提出政策方向。该文被视作算力网国家战略的又一宣贯举措，释放进一步统筹全国算力资源的强烈信号。②对PPIO而言，全国一体化算力网将重塑算力市场格局：其倡导的算力互联与标准化调度，为PPIO分布式边缘节点接入国家算力网络提供接口与信用背书，有望提升平台在港股IPO中的合规性与成长性叙事；但文件隐含的“全国统一算力调度平台”可能演化为强管控实体，要求边缘算力须通过指定管道运营，增加平台接入门槛与合规成本，弱化纯市场化灵活性。PPIO需主动对接政策制定方与标准组织，争取将边缘云纳入国家算力体系，避免被边缘化。",
+      "ppio_signal": {
+        "positive": "全国算力网政策为边缘算力纳入国家级基础设施网络打开窗口，有利于提升平台公共属性估值溢价，并拓展政务、公共服务等合规算力需求。",
+        "risk": "若国家统一算力调度平台实行强制接入与资源统管，可能削弱PPIO自主定价与资源调度能力，增加非自主可控的合规风险与网络依赖。"
+      }
+    },
+    {
+      "id": "raw-4",
+      "title": "New regulations on outbound investment; Qiushi on future industries; Chip export control dysfunction; Shangri-La Dialogue; EU-China - Sinocism | Bill Bishop",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa3Z6V09YTFJ0M3pWempkN3ZyZWdfY3BDbE1abFhkbFYwWU1lVnE2R3JIbm14Z0RkN0RhcTZBOFFOdEZyYk5LWkx4cDA2cjVvQ2R6UGtnN3BvOFJQSU5sc3Zuc1dzVTJsQ21ramhJOG5lWUxtLVQ4NGRkVWRIS08yNFp4ZDRiQ2tHT0h6LVJvQWM?oc=5",
+      "source": "Sinocism | Bill Bishop",
+      "category": "海外",
+      "published": "2026-06-01",
+      "body_snippet": "a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNa3Z6V09YTFJ0M3pWempkN3ZyZWdfY3BDbE1abFhkbFYwWU1lVnE2R3JIbm14Z0RkN0RhcTZBOFFOdEZyYk5LWkx4cDA2cjVvQ2R6UGtnN3BvOFJQSU5sc3Zuc1dzVTJsQ21ramhJOG5",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🌏"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c3"
+      ],
+      "summary_cn": "美国对华芯片出口管制执行暴露出功能障碍，可能影响高端算力芯片稳定供应，为国内边缘计算硬件采购带来不确定性，也催生替代方案机遇。"
+    },
+    {
+      "id": "raw-5",
+      "title": "微信将推出一款AI智能体？腾讯人士回应",
+      "url": "https://36kr.com/newsflashes/3836820673574024?f=rss",
+      "source": "36氪",
+      "published": "2026-06-03",
+      "body_snippet": "昨日，媒体报道称，微信将推出一款AI（人工智能）智能体，计划最快将于本月启动公开上线前所需的合规审批流程。腾讯人士表示，目前无法确定微信AI智能体何时推出，其上线时间很大程度上取决于监管方对智能体的审批进度，微信14亿的用户体量，合规流程可能比其他产品更加严格。关于微信智能体，腾讯相关负责人表示暂无回应。（财经）",
+      "category": "监管",
+      "lane": "attend",
+      "signals": [
+        "📜"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "①腾讯人士透露，微信AI智能体上线时间完全依赖监管机构审批进度，因微信14亿用户体量，其合规流程预计比其他产品更严格。该表态折射出面向广大消费者的AI应用正面临严苛的牌照与审查要求，智能体类产品的准入周期和不确定性上升。②对PPIO而言：AI智能体运行需大量推理算力，监管审批延迟将阶段性抑制下游算力消费端的爆发式增长，可能拖累短期收入预期；但另一方面，强合规会清理一批不合规的小型算力供给与套壳服务商，有助于提升持牌、合规化边缘云平台的准入门槛溢价。PPIO需提前储备相关安全认证与内容管控能力，以承接未来通过审批后的大型客户算力需求。",
+      "ppio_signal": {
+        "positive": "合规趋严抬高AI算力服务门槛，有利于淘汰不规范竞争者，巩固合规边缘云平台市场地位，提升港股上市合规形象。",
+        "risk": "AI智能体审批进度缓慢可能推迟大规模算力需求释放，若合规流程过长，将导致算力收入增长低于预期。"
+      }
     }
   ]
 }
