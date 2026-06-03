@@ -33,12 +33,13 @@ function loadConfig() {
 }
 
 function todayStr() {
-  const d = new Date();
+  // Use Beijing time (UTC+8) to avoid date boundary issues
+  const d = new Date(Date.now() + 8 * 3600_000);
   return d.toISOString().slice(0, 10);
 }
 
 function weekAgoStr() {
-  const d = new Date(Date.now() - 7 * 86400_000);
+  const d = new Date(Date.now() + 8 * 3600_000 - 7 * 86400_000);
   return d.toISOString().slice(0, 10);
 }
 
@@ -473,7 +474,7 @@ function scorePPIORelevance(item) {
 }
 
 function weekAgoStrPlus(days) {
-  const d = new Date(Date.now() - days * 86400_000);
+  const d = new Date(Date.now() + 8 * 3600_000 - days * 86400_000);
   return d.toISOString().slice(0, 10);
 }
 
