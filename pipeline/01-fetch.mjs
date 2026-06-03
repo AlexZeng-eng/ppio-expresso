@@ -56,7 +56,6 @@ function weekNumber() {
 
 function parseRSS(xml) {
   const items = [];
-  // Match <item>...</item> blocks (non-greedy won't work, use manual split)
   const blocks = xml.split(/<item[^>]*>/i).slice(1);
   for (const block of blocks) {
     const end = block.indexOf('</item>');
@@ -71,14 +70,38 @@ function parseRSS(xml) {
     };
 
     const title = get('title');
-    const link = get('link');
     const pubDate = get('pubDate');
-    const description = get('description');
     const source = get('source');
 
-    if (!title || !link) continue;
+    // Extract link — Google News uses <link> as plain text between tags (no href attr)
+    let link = get('link');
+    // Fallback: try <link href="..."> or <feedburner:origLink>
+    if (!link || link.startsWith('//') || !link.startsWith('http')) {
+      const hrefMatch = itemXML.match(/<link[^>]+href=["']([^"']+)["']/i);
+      const origLink = itemXML.match(/<(?:feedburner:origLink|origLink)[^>]*>(.*?)<\//is);
+      link = hrefMatch?.[1] || origLink?.[1] || link;
+    }
 
-    items.push({ title, link, pubDate, description, source });
+    // Extract description text — decode HTML entities first, then strip tags
+    let description = '';
+    let descFirstHref = '';
+    const descMatch = itemXML.match(/<description[^>]*>(.*?)<\/description>/is);
+    if (descMatch) {
+      let raw = descMatch[1].replace(/<!\[CDATA\[(.*?)\]\]>/gs, '$1');
+      // Decode HTML entities (Google News encodes the whole description)
+      raw = raw
+        .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
+        .replace(/&quot;/g, '"').replace(/&nbsp;/g, ' ').replace(/&#39;/g, "'");
+      // Extract text content: source names after </a> tags
+      // Google News format: <a href="...">标题</a>&nbsp;<font color="...">来源</font>
+      const sourceNames = [...raw.matchAll(/<font[^>]*>([^<]+)<\/font>/gi)].map(m => m[1]).join(' · ');
+      const linkTexts = [...raw.matchAll(/<a[^>]*>([^<]+)<\/a>/gi)].map(m => m[1]);
+      description = linkTexts.slice(0, 3).join(' / ') + (sourceNames ? '  ' + sourceNames : '');
+      description = description.replace(/\s+/g, ' ').trim();
+    }
+
+    if (!title || !link) continue;
+    items.push({ title, link, pubDate, description, descFirstHref: '', source });
   }
   return items;
 }
@@ -236,21 +259,23 @@ async function searchGoogleNews(query, category, boost = 0) {
     const items = parseRSS(xml);
     console.log(`    Search "${query.slice(0, 40)}" → ${items.length} items`);
     return items.slice(0, 20).map(item => {
-      // Normalize aggregator sources: use the actual publisher from description when available
+      // Google News RSS links are redirect URLs — acceptable, browser follows them
+      let realUrl = item.link;
+
+      // Normalize aggregator sources
       let source = item.source || 'Google News';
-      // 今日头条 / 百家号 / 微信公众号 etc. are pure aggregators — extract real source
-      if (/toutiao\.com|baijia\.baidu|mp\.weixin/.test(item.link || '')) {
+      if (/toutiao\.com|baijia\.baidu|mp\.weixin/.test(realUrl || '')) {
         const descMatch = (item.description || '').match(/来源[：:]\s*([^\s<，,。]{2,15})/);
-        if (descMatch) source = descMatch[1];
-        else source = item.source || '今日头条';
+        source = descMatch ? descMatch[1] : (item.source || '今日头条');
       }
+
       return {
         title: item.title,
-        url: item.link,
+        url: realUrl,
         source,
         category,
         published: parsePubDate(item.pubDate) || todayStr(),
-        body_snippet: stripHTML(item.description).slice(0, 200),
+        body_snippet: (item.description || '').slice(0, 200),
         _query_boost: boost
       };
     });
