@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-03T09:52:53.238Z",
+  "generated_at": "2026-06-04T01:41:56.976Z",
   "week": "2026-W23",
   "date_range": {
-    "from": "2026-05-27",
-    "to": "2026-06-03"
+    "from": "2026-05-28",
+    "to": "2026-06-04"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -20,13 +20,13 @@
     },
     {
       "id": "raw-002",
-      "title": "李强签署国务院令 公布《国务院关于对外投资的规定》 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WWjVqeXBRbjUtOG5jcTRPS1hrVEIwZ3BmRmlnaTJmWFdyanJqNDhZWU5BN1NtLUoxbmlWWVFHMkVJWkFwVEVxMmpnWnRHbXFCVnN4WExTcnRzX3BQVXVEZ0hwdFRNQQ?oc=5",
-      "source": "中国新闻网",
+      "title": "国务院关于对外投资的规定 - 人民日报",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WRkZhZnhHX3BHcXQ4bVBwamtDTzBXdUJibG41dVk4S1N0SS1nejlwWERRTHpydkZMbjRxanpzeXpEVXp3MDdJQ0haQXdaZXJXWFk2cUMyNWc5UTRpSk5OVDlLN1lZTGd3SFNYczE0NUhnUmdfOTN6LVRsXzltLXM?oc=5",
+      "source": "人民日报",
       "category": "监管",
-      "published": "2026-06-01",
-      "body_snippet": "李强签署国务院令 公布《国务院关于对外投资的规定》 中国新闻网",
-      "_query_boost": 30
+      "published": "2026-06-02",
+      "body_snippet": "国务院关于对外投资的规定 人民日报",
+      "_query_boost": 25
     },
     {
       "id": "raw-003",
@@ -40,26 +40,36 @@
     },
     {
       "id": "raw-004",
-      "title": "上海：优化布局算力设施，加强算力券支持和智能算力普惠供给 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sb0N0ZjV5R0tSbVZ6VmZ5VjZ6ZGE2NUY2V0M4c2hvM1VNbmU1Unh2M21Ga3BEN1RoNGpGSTNJVl85TG15QVkxOHlHZ0FGNlhPYXNybzN1RWZSX2J1UlBFWm4zb2M2WkE?oc=5",
-      "source": "中国新闻网",
+      "title": "AI短剧“抽卡”抽到跳脚！中小企遭遇“算力饥渴”怎么解？ - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ycGRySTlaeExoNlJBMHpFUkhrUDVEbkF6NndKSWlkNHQ5LXlwTm51V0Q5cDVOVms4S0E1VWxyaDVvc2gwd21uaE5lTmFwU3VFdllxYVpGWHdmb01YQUJVMw?oc=5",
+      "source": "thepaper.cn",
       "category": "政策",
-      "published": "2026-06-01",
-      "body_snippet": "上海：优化布局算力设施，加强算力券支持和智能算力普惠供给 中国新闻网",
+      "published": "2026-06-03",
+      "body_snippet": "AI短剧“抽卡”抽到跳脚！中小企遭遇“算力饥渴”怎么解？ thepaper.cn",
       "_query_boost": 0
     },
     {
       "id": "raw-005",
-      "title": "“六张网”建设重在质的跃升 - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oUVRHaXdHNHdpbHZrOGdtLWJzcV9wdHBoZzBiM2NJMnhuRGxxTHhwTFFxM1ZBTjBXamtBcVE5R2FORkxpSTJ5Q0FSUlFzTU5oTGVIWVFLVV9nUk5EWkE?oc=5",
-      "source": "thepaper.cn",
-      "category": "政策",
-      "published": "2026-06-02",
-      "body_snippet": "“六张网”建设重在质的跃升 thepaper.cn",
+      "title": "北京首个太空算力产业创新中心成立 发展卫星物联网行业 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9rNU52Q1RwYm5sMHhJNm1Da3RFZVZGelZTWWdfSU9CenVENUlYS3djUFJYWUtYdkU5T2V2dS1aUGZnYzhHN1BaY1NpMk1yU2pWd1d4T2pSbEZZQjllR1lnQUFKZ2lscEkwSnc?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-06-03",
+      "body_snippet": "北京首个太空算力产业创新中心成立 发展卫星物联网行业 联合早报",
       "_query_boost": 0
     },
     {
       "id": "raw-006",
+      "title": "德国总理默茨：五年内德国现有算力翻倍，将不再依赖中美AI数据中心 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92Q3BjSlBDbkFGOFozRUpIQk1ON3ZkRFpianhhR1RJTzkwWVBaSVN4bjdlOUd3U0dxUDY0a05HQzR6UFQyOFhzRjBFUHlkVTl5bFNLZw?oc=5",
+      "source": "中华网",
+      "category": "政策",
+      "published": "2026-06-02",
+      "body_snippet": "德国总理默茨：五年内德国现有算力翻倍，将不再依赖中美AI数据中心 中华网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-007",
       "title": "最低5元办理“Token套餐” 运营商开始争相卖“算力” - 湖北日报传媒集团",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBFTXBVVFBDRUxmZ2xaTVMwbFFwZHNJbkt1RjIyd1hUeGI2bWpFMjZ2ZWVweUxXYjNQUzVEdEhjeWlxTVEybHZ2MFJmZUlnUXp1RWk3bWFpWDk?oc=5",
       "source": "湖北日报传媒集团",
@@ -69,7 +79,27 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-007",
+      "id": "raw-008",
+      "title": "“六张网”建设重在质的跃升 - 经济日报",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBhMlJKU2tnZTdXdkNHYnBpZW45d0tMQVNtZTZnaEFQZGRmRnpkaHIxdHhFRkl3anEzNXowMm5YdkhkVDg2bDBjbXcza1FXekI4Z3B3NG9uN055U0ctSnV4NlFFUGJBcVlWWXFJ?oc=5",
+      "source": "经济日报",
+      "category": "政策",
+      "published": "2026-06-01",
+      "body_snippet": "“六张网”建设重在质的跃升 经济日报",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-009",
+      "title": "上海：优化布局算力设施，加强算力券支持和智能算力普惠供给 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sb0N0ZjV5R0tSbVZ6VmZ5VjZ6ZGE2NUY2V0M4c2hvM1VNbmU1Unh2M21Ga3BEN1RoNGpGSTNJVl85TG15QVkxOHlHZ0FGNlhPYXNybzN1RWZSX2J1UlBFWm4zb2M2WkE?oc=5",
+      "source": "中国新闻网",
+      "category": "政策",
+      "published": "2026-06-01",
+      "body_snippet": "上海：优化布局算力设施，加强算力券支持和智能算力普惠供给 中国新闻网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-010",
       "title": "算力下沉边缘，CDN公司发力“分布式推理网络” - 21财经",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbVQySFU3aXZFdlJVbHdabHQ1YnI0UGo2ZTNtYXJBVnJWc2JMbm5hV3AzZl9iTEIyTVRlb0ttaFI0b0FiV3FDYlZWbzZ1aHhob0ljRUFmck9XUHVMdVp5NlNuLWstRUpiYXgwcll0RkhDVDJ3NmwxYlRCODk5RzA0QUtmNk5wUTk4dm5IOHkwTQ?oc=5",
       "source": "21财经",
@@ -79,7 +109,25 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-008",
+      "id": "raw-011",
+      "title": "AI基建催生“算力金属”热潮，供给端“硬约束”成为核心逻辑",
+      "url": "https://36kr.com/newsflashes/3838146032077056?f=rss",
+      "source": "36氪",
+      "published": "2026-06-04",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-012",
+      "title": "中信证券：国内外AI算力与具身智能产业将迎重要产业进展",
+      "url": "https://36kr.com/newsflashes/3838133016054276?f=rss",
+      "source": "36氪",
+      "published": "2026-06-04",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-013",
       "title": "最高降价99%背后：小米首次公开模型推理优化技术报告 - 品玩",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wa2VsajVHN1FfWXlOWGlsdzBsTno2RVNVZkpEQUJsOFUzTGlFX0QwVndtWVRvbzdJM2ctV0lZeHBBdFdOLWpCZw?oc=5",
       "source": "品玩",
@@ -89,69 +137,19 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-009",
-      "title": "华为昇腾领衔，9款国产AI芯片通过国家安全可靠测评-腾讯新闻 - QQ News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MTW1ySWZXVzg3YTZnSzBkUDJyclJGS29JSGxrdGo2QUpGMmh3aTVMYUFSZUNTQTRHYS00dkxsNDBIQjR3cF9RaW9GM0w0bHZnanN4OTdn?oc=5",
-      "source": "QQ News",
-      "category": "技术",
-      "published": "2026-05-29",
-      "body_snippet": "华为昇腾领衔，9款国产AI芯片通过国家安全可靠测评-腾讯新闻 QQ News",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-010",
-      "title": "Google CEO Pichai: Agent将成互联网基础设施，算力面临系统性瓶颈 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tS1g1MFdjUjdYemFGQ2Fsb0N4RGhIelRiR3NTUkJVaE9OQU10aEVnOVE1OWY4X1BsSnhEUlZQQ0RJLU9oYW1NV0Vlcy1GXzRKbE9qOA?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-06-01",
-      "body_snippet": "Google CEO Pichai: Agent将成互联网基础设施，算力面临系统性瓶颈 虎嗅",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-011",
-      "title": "算力网火了，AI WAN为何备受关注？ - 维科号",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9wenR3Z2hDeDdIWUJleTNHaHNfQlMxR290VmZQMnRfMDRfa29JREU3dTNaTFM4SDM0d2FjN0lJaWlXbkNySno0ZTgzTS0tako5UEE?oc=5",
-      "source": "维科号",
-      "category": "政策",
-      "published": "2026-06-03",
-      "body_snippet": "算力网火了，AI WAN为何备受关注？ 维科号",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-012",
-      "title": "AI短剧“抽卡”抽到跳脚！中小企业正遭遇的“算力饥渴”怎么解？ - jfdaily.com",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KRlhrMmZmbHpLVmRRaW9KN1FiR2ROV0NUWlJJZkl0NjZRY2Etc28xcVZpNmVJZ2NBVXJZdVZQa1FNeU5jMlBMdTFoRmRpYWJGWHhRcWh0aEhpQQ?oc=5",
-      "source": "jfdaily.com",
-      "category": "政策",
-      "published": "2026-06-03",
-      "body_snippet": "AI短剧“抽卡”抽到跳脚！中小企业正遭遇的“算力饥渴”怎么解？ jfdaily.com",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-013",
-      "title": "上海企业加速全球算力布局！优刻得落子乌兹别克斯坦，已建成36个可用区 - shobserver.com",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jckRwWDRlMXUzR0VxU2VhVktXVy1oUld0dUhLMUFGVzB1aGhwNi0wMEJQaDFsemx3Mzd0RlpuNFQ4VjdacjNwX3RiTXhUSFVKNjlkQXdCQ0tQTUdoNFE?oc=5",
-      "source": "shobserver.com",
-      "category": "竞品",
-      "published": "2026-06-03",
-      "body_snippet": "上海企业加速全球算力布局！优刻得落子乌兹别克斯坦，已建成36个可用区 shobserver.com",
-      "_query_boost": 0
-    },
-    {
       "id": "raw-014",
-      "title": "DeepSeek频繁服务异常背后：算力成本高企，免费模式难持续 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MOEZzT084MzlRcEtYTkN2SFpxOEJuanYxMGJ5ZnFBZEViYU91eGZ1eUtFTDd5ZVppbmdxbVlhSlFXQVQ1TlVVeWJram1QQ0NSbWRtTw?oc=5",
-      "source": "虎嗅",
+      "title": "华为昇腾领衔，9款国产AI芯片通过国家安全可靠测评-腾讯新闻 - 腾讯新闻",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MTW1ySWZXVzg3YTZnSzBkUDJyclJGS29JSGxrdGo2QUpGMmh3aTVMYUFSZUNTQTRHYS00dkxsNDBIQjR3cF9RaW9GM0w0bHZnanN4OTdn?oc=5",
+      "source": "腾讯新闻",
       "category": "技术",
       "published": "2026-05-29",
-      "body_snippet": "DeepSeek频繁服务异常背后：算力成本高企，免费模式难持续 虎嗅",
-      "_query_boost": 0
+      "body_snippet": "华为昇腾领衔，9款国产AI芯片通过国家安全可靠测评-腾讯新闻 腾讯新闻",
+      "_query_boost": 20
     },
     {
       "id": "raw-015",
       "title": "New regulations on outbound investment; Qiushi on future industries; Chip export control dysfunction; Shangri-La Dialogue; EU-China - Sinocism | Bill Bishop",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa3Z6V09YTFJ0M3pWempkN3ZyZWdfY3BDbE1abFhkbFYwWU1lVnE2R3JIbm14Z0RkN0RhcTZBOFFOdEZyYk5LWkx4cDA2cjVvQ2R6UGtnN3BvOFJQSU5sc3Zuc1dzVTJsQ21ramhJOG5lWUxtLVQ4NGRkVWRIS08yNFp4ZDRiQ2tHT0h6LVJvQWM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SQ1JaR3Y3eFNYaDMtcEd2dl9VSlRPZ0Y2OUpvMmhqbm1ZZzdWZXdULU9sQXU1VWlkNWF0OW0xd0hlSEdONHpyUE91LUFwRGZpTV9hR09mek1xRjFJRG45OWhsN0Niak1ZX2RLRklR?oc=5",
       "source": "Sinocism | Bill Bishop",
       "category": "海外",
       "published": "2026-06-01",
