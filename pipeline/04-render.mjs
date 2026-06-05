@@ -1087,7 +1087,7 @@ function renderArchiveHTML(archive) {
   @media (max-width: 600px) { .trend-grid { grid-template-columns: 1fr; } }
   .trend-card { background: var(--bg-soft); border: 1px solid var(--rule-soft); border-radius: 6px; padding: 0.9rem 1rem; }
   .trend-card-title { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-mute); letter-spacing: 0.04em; text-transform: uppercase; margin: 0 0 0.6rem; }
-  .chart-wrap-sm { max-height: 140px; }
+  .chart-wrap-sm { max-height: 180px; }
 </style>
 </head>
 <body class="archive-page">
@@ -1148,8 +1148,8 @@ function renderArchiveHTML(archive) {
     responsive: true, maintainAspectRatio: false,
     plugins: { legend: { display: false } },
     scales: {
-      x: { grid: { display: false }, ticks: { font: { size: 9 }, maxTicksLimit: 8 } },
-      y: { grid: { color: '#f0f0f0' }, ticks: { font: { size: 9 } } }
+      x: { grid: { display: false }, ticks: { font: { size: 10 }, maxTicksLimit: 8 } },
+      y: { grid: { color: '#f0f0f0' }, ticks: { font: { size: 11 } } }
     }
   });
 
@@ -1176,7 +1176,7 @@ function renderArchiveHTML(archive) {
     new Chart(document.getElementById('chart-trend-policy'), {
       type: 'line',
       data: { labels: dates, datasets: [{ data: policy, borderColor: '#16a34a', backgroundColor: '#16a34a22', fill: true, tension: 0.3, pointRadius: 3 }] },
-      options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:9},maxTicksLimit:8}}, y:{min:1,max:5,grid:{color:'#f0f0f0'},ticks:{font:{size:9},stepSize:1}} } }
+      options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#f0f0f0'},ticks:{font:{size:11},stepSize:1}} } }
     });
   }
 
@@ -1185,7 +1185,7 @@ function renderArchiveHTML(archive) {
     new Chart(document.getElementById('chart-trend-compete'), {
       type: 'line',
       data: { labels: dates, datasets: [{ data: compete, borderColor: '#d97706', backgroundColor: '#d9770622', fill: true, tension: 0.3, pointRadius: 3 }] },
-      options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:9},maxTicksLimit:8}}, y:{min:1,max:5,grid:{color:'#f0f0f0'},ticks:{font:{size:9},stepSize:1}} } }
+      options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#f0f0f0'},ticks:{font:{size:11},stepSize:1}} } }
     });
   }
 })();
