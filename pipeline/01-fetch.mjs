@@ -932,6 +932,29 @@ async function main() {
   // Sort by score (desc) then date (desc)
   allItems.sort((a, b) => b._score - a._score || b.published.localeCompare(a.published));
 
+  // ── Cross-day dedup: filter out items already published in recent curated output ──
+  const CURATED_PATH = resolve(ROOT, 'data', 'curated-items.json');
+  if (existsSync(CURATED_PATH)) {
+    try {
+      const prev = JSON.parse(readFileSync(CURATED_PATH, 'utf-8'));
+      const prevDate = (prev.generated_at || '').slice(0, 10);
+      const todayDate = todayStr();
+      // Only apply cross-day dedup if previous output is from a different day
+      if (prevDate < todayDate) {
+        const seenTitles = new Set(
+          (prev.items || []).map(i => i.title.replace(/\s+/g,'').slice(0, 30))
+        );
+        const before = allItems.length;
+        allItems = allItems.filter(i => {
+          const key = i.title.replace(/\s+/g,'').slice(0, 30);
+          return !seenTitles.has(key);
+        });
+        const removed = before - allItems.length;
+        if (removed > 0) console.log(`  Cross-day dedup: removed ${removed} items seen in previous run`);
+      }
+    } catch { /* ok */ }
+  }
+
   // Trim: hard cap at 15, quality floor at score >= 22, but ensure at least 10 items
   const MIN_SCORE = 22;
   const MAX_RAW = 15;
