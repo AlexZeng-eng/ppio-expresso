@@ -934,25 +934,28 @@ async function main() {
 
   // ── Cross-day dedup: filter out items already published in recent curated output ──
   const CURATED_PATH = resolve(ROOT, 'data', 'curated-items.json');
-  if (existsSync(CURATED_PATH)) {
+  const SEEN_PATH = resolve(ROOT, 'data', 'seen-titles.json');
+
+  // Load previously seen titles (rolling 3-day window)
+  let seenTitles = new Set();
+  if (existsSync(SEEN_PATH)) {
     try {
-      const prev = JSON.parse(readFileSync(CURATED_PATH, 'utf-8'));
-      const prevDate = (prev.generated_at || '').slice(0, 10);
-      const todayDate = todayStr();
-      // Only apply cross-day dedup if previous output is from a different day
-      if (prevDate < todayDate) {
-        const seenTitles = new Set(
-          (prev.items || []).map(i => i.title.replace(/\s+/g,'').slice(0, 30))
-        );
-        const before = allItems.length;
-        allItems = allItems.filter(i => {
-          const key = i.title.replace(/\s+/g,'').slice(0, 30);
-          return !seenTitles.has(key);
-        });
-        const removed = before - allItems.length;
-        if (removed > 0) console.log(`  Cross-day dedup: removed ${removed} items seen in previous run`);
-      }
+      const seenData = JSON.parse(readFileSync(SEEN_PATH, 'utf-8'));
+      // Keep only entries from last 3 days
+      const cutoff = new Date(Date.now() + 8*3600_000 - 3*86400_000).toISOString().slice(0,10);
+      const recent = (seenData.entries || []).filter(e => e.date >= cutoff);
+      seenTitles = new Set(recent.map(e => e.key));
     } catch { /* ok */ }
+  }
+
+  if (seenTitles.size > 0) {
+    const before = allItems.length;
+    allItems = allItems.filter(i => {
+      const key = i.title.replace(/[\s\-—·]+/g,'').slice(0, 25);
+      return !seenTitles.has(key);
+    });
+    const removed = before - allItems.length;
+    if (removed > 0) console.log(`  Cross-day dedup: removed ${removed} items seen in last 3 days`);
   }
 
   // Trim: hard cap at 15, quality floor at score >= 22, but ensure at least 10 items
@@ -1032,6 +1035,26 @@ async function main() {
   writeFileSync(OUT_PATH, JSON.stringify(output, null, 2), 'utf-8');
   console.log(`\n  ✓ Wrote ${allItems.length} raw items → ${OUT_PATH}`);
   console.log(`  Fetch method: ${output.fetch_method}`);
+
+  // Update seen-titles rolling cache (3-day window)
+  if (!usedMock) {
+    const today = todayStr();
+    let seenData = { entries: [] };
+    if (existsSync(SEEN_PATH)) {
+      try { seenData = JSON.parse(readFileSync(SEEN_PATH, 'utf-8')); } catch { /* ok */ }
+    }
+    // Remove entries older than 3 days
+    const cutoff = new Date(Date.now() + 8*3600_000 - 3*86400_000).toISOString().slice(0,10);
+    seenData.entries = (seenData.entries || []).filter(e => e.date >= cutoff);
+    // Add today's items
+    for (const item of allItems) {
+      const key = item.title.replace(/[\s\-—·]+/g,'').slice(0, 25);
+      if (!seenData.entries.find(e => e.key === key)) {
+        seenData.entries.push({ key, date: today });
+      }
+    }
+    writeFileSync(SEEN_PATH, JSON.stringify(seenData, null, 2), 'utf-8');
+  }
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
