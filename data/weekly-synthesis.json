@@ -1,108 +1,75 @@
 {
-  "generated_at": "2026-06-04T01:47:04.182Z",
+  "generated_at": "2026-06-05T01:39:07.262Z",
   "week": "2026-W23",
-  "mainline": "本周主线：高层密集强调AI算力基建与自主可控，边缘推理赛道获政策背书但运营商和CDN厂低价杀入，PPIO需加速差异化卡位。",
+  "mainline": "本周算力网国家战略+智能体产业化双政策落地，为PPIO提供IPO叙事支撑；无问芯穹融资与AI立法加速构成竞争与合规双重压力。",
   "signal_summary": {
-    "🏛️": 4,
-    "📜": 2,
-    "⚔️": 2,
-    "💰": 0,
+    "🏛️": 1,
+    "📜": 0,
+    "⚔️": 0,
+    "💰": 1,
     "🌏": 0,
-    "🔬": 0
+    "🔬": 7
   },
   "speed_read": {
     "positive": [
-      "高层信号：习近平提出超常规措施解决科技“卡脖子”，人民日报发文要求前瞻布局未来产业，AI算力基础设施获顶层强力加持。",
-      "上海推出算力券普惠供给并优化算力设施布局，直接降低中小企业用算成本，利好PPIO在核心市场的客户拓展。",
-      "算力网建设从规模扩张转向提质跃升，强调按需调度与绿色集约，边缘分布式算力成为国家重点方向。"
+      "国常会算力网+基础研究座谈会→\"适度超前部署\"为PPIO产能扩张叙事提供国家级背书",
+      "三部门智能体实施意见→Sandbox产品直接受益",
+      "美国AI管制升级→自主可控算力叙事强化"
     ],
     "risk": [
-      "国务院发布对外投资新规，强化境外投资真实合规性审查，VIE架构赴港IPO面临的备案不确定性与合规成本上升。",
-      "运营商争相推出低至5元的Token套餐，以标准化低价杀入AI算力零售，可能引爆价格战并侵蚀PPIO现有业务。",
-      "CDN公司利用广泛边缘节点转型分布式推理网络，与PPIO的边缘云分发推理定位高度重叠，竞争烈度骤增。"
+      "无问芯穹7亿融资+「企业级智能体服务平台」定位→与Sandbox正面重叠",
+      "AI综合性立法进入预备审议→VIE备案不确定性叠加",
+      "美国AI安全审查机制→若管制扩至云服务，海外事业部跨境算力服务可能受波及"
     ]
   },
   "wind_indicators": {
-    "policy_heat": 5,
-    "competitor_heat": 4,
+    "policy_heat": 3,
+    "competitor_heat": 2,
     "capital_heat": 2,
     "overseas_heat": 2,
-    "overall_sentiment": "升温",
-    "summary": "政策窗口大开但竞争急速升温，边缘算力赛道从蓝海加速转入混战期。"
+    "overall_sentiment": "平稳",
+    "summary": "政策面保持活跃，竞品与资本动态平稳，海外监管持续关注中。"
   },
   "competitor_updates": [
-    "运营商（如湖北电信）：推出5元Token套餐等标准化算力产品，以零售低价切入AI推理市场，具备网络和渠道优势。",
-    "CDN厂商（网宿、白山等）：凭借边缘节点构建分布式推理网络，提供低延迟AI推理加速方案，与PPIO业务正面重叠。"
+    "无问芯穹：更新融资信息(7亿元/45亿估值)、新定位(企业级智能体服务平台)、竞品重叠分析"
   ],
   "item_axes": [
     {
       "id": "1",
-      "policy_axis": 0.9,
-      "competition_axis": -0.2,
+      "title": "加快前瞻布局和发展未来产业（深入学习贯彻习近平新时代中国特色社会主义思想） - ",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
       "impact_score": 4,
-      "axis_reason": "国家战略明确支持AI基础设施，打开长远政策窗口。"
+      "axis_reason": "（规则估算，仅供参考）"
     },
     {
       "id": "2",
-      "policy_axis": -0.7,
-      "competition_axis": -0.1,
+      "title": "国务院关于对外投资的规定 - 人民日报",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
       "impact_score": 4,
-      "axis_reason": "对外投资审查大幅收紧，VIE架构备案不确定性叠加，IPO合规风险上升。"
+      "axis_reason": "（规则估算，仅供参考）"
     },
     {
       "id": "3",
-      "policy_axis": 0.8,
-      "competition_axis": -0.2,
-      "impact_score": 5,
-      "axis_reason": "最高层强调算力自主可控，国产算力生态获顶层驱动，利好上游供给。"
-    },
-    {
-      "id": "4",
-      "policy_axis": -0.1,
-      "competition_axis": 0.9,
-      "impact_score": 4,
-      "axis_reason": "运营商以极低价格切入推理市场，直接威胁PPIO现有价格体系。"
-    },
-    {
-      "id": "5",
-      "policy_axis": 0.7,
-      "competition_axis": -0.1,
-      "impact_score": 3,
-      "axis_reason": "算力网提质强调按需调度，边缘分布式算力定位更契合国家新要求。"
-    },
-    {
-      "id": "6",
-      "policy_axis": 0.8,
-      "competition_axis": -0.2,
-      "impact_score": 4,
-      "axis_reason": "上海算力券及普惠供给直接降低客户成本，明显利好PPIO核心市场。"
-    },
-    {
-      "id": "7",
+      "title": "德国总理默茨：五年内德国现有算力翻倍，将不再依赖中美AI数据中心 - 中华网",
       "policy_axis": 0,
-      "competition_axis": 0.9,
-      "impact_score": 5,
-      "axis_reason": "边缘推理赛道被CDN厂商引爆，验证市场需求但使竞争迅速白热化。"
-    },
-    {
-      "id": "8",
-      "policy_axis": 0.6,
-      "competition_axis": -0.2,
-      "impact_score": 3,
-      "axis_reason": "国产芯片获信创认证，丰富PPIO算力供给，降低供应链单一风险。"
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "（规则估算，仅供参考）"
     }
   ],
   "ppio_index": {
-    "score": 66,
-    "delta": 5,
+    "score": 58,
+    "delta": 0,
     "components": {
-      "policy_tailwind": 35,
-      "competitive_pressure": -18,
-      "capital_sentiment": 12,
+      "policy_tailwind": 25,
+      "competitive_pressure": -15,
+      "capital_sentiment": 10,
       "regulatory_risk": -8,
       "overseas_headwind": -5
     },
-    "interpretation": "政策强驱动推高行业预期，但赛道竞争白热化，需加速产品差异化与生态卡位。"
+    "interpretation": "政策利好与竞争压力并存，整体环境中性偏正"
   },
-  "_generated_by": "deepseek-v4-pro"
+  "_generated_by": "template"
 }
