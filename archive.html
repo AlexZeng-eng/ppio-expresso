@@ -6,44 +6,183 @@
 <title>PPIO 产业政策信息流 — 日报存档</title>
 <link rel="stylesheet" href="reader.css">
 <style>
-  .archive-table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.84rem; margin-top: 1.4rem; }
-  .archive-table th { font-family: var(--mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-mute); border-bottom: 2px solid var(--ink); padding: 0.4rem 0.6rem; text-align: left; }
-  .archive-table td { padding: 0.55rem 0.6rem; border-bottom: 1px solid var(--rule-soft); vertical-align: top; color: var(--ink-soft); }
+  .archive-table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.84rem; margin-top: 1rem; }
+  .archive-table th { font-family: var(--mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-mute); border-bottom: 2px solid var(--ink); padding: 0.4rem 0.6rem; text-align: left; }
+  .archive-table td { padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--rule-soft); vertical-align: top; color: var(--ink-soft); }
   .archive-table tr:hover td { background: var(--bg-soft); }
   .archive-table a { color: var(--ink); font-weight: 600; text-decoration: none; }
   .archive-table a:hover { text-decoration: underline; }
-  .archive-mainline { max-width: 420px; line-height: 1.45; }
+  .archive-mainline { max-width: 340px; line-height: 1.4; font-size: 0.82rem; }
   .archive-empty { padding: 3rem; text-align: center; color: var(--ink-mute); font-family: var(--mono); font-size: 0.82rem; }
+  .trend-section { margin: 1.5rem 0; }
+  .trend-title { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-mute); margin: 0 0 0.5rem; }
+  .trend-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+  @media (max-width: 600px) { .trend-grid { grid-template-columns: 1fr; } }
+  .trend-card { background: var(--bg-soft); border: 1px solid var(--rule-soft); border-radius: 6px; padding: 0.9rem 1rem; }
+  .trend-card-title { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-mute); letter-spacing: 0.04em; text-transform: uppercase; margin: 0 0 0.6rem; }
+  .chart-wrap-sm { max-height: 140px; }
 </style>
 </head>
 <body class="archive-page">
 <header class="page-header">
   <span class="brand">PPIO 产业政策信息流</span>
-  <span class="header-meta">周报存档</span>
-  <nav class="header-nav">
-    <a href="index.html">← 本周</a>
-  </nav>
+  <span class="header-meta">日报存档</span>
+  <nav class="header-nav"><a href="index.html">← 今日</a></nav>
 </header>
-<main style="max-width:900px;margin:0 auto;padding:1.4rem 1.4rem 4rem">
-  <h1 style="font-family:var(--mono);font-size:0.9rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink);margin:0 0 0.3rem">周报存档</h1>
-  <p style="font-family:var(--sans);font-size:0.82rem;color:var(--ink-mute);margin:0 0 1.4rem">共 2 期 · 最近更新 2026-06-05</p>
+<main style="max-width:960px;margin:0 auto;padding:1.4rem 1.4rem 4rem">
+  <h1 style="font-family:var(--mono);font-size:0.9rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink);margin:0 0 0.2rem">日报存档</h1>
+  <p style="font-family:var(--sans);font-size:0.82rem;color:var(--ink-mute);margin:0 0 1.4rem">共 8 天 · 最近更新 2026-06-05</p>
+
+  <!-- 30天趋势图 -->
+  
+  <section class="trend-section">
+    <p class="trend-title">近30天趋势</p>
+    <div class="trend-grid">
+      <div class="trend-card">
+        <p class="trend-card-title">PPIO 战略环境指数</p>
+        <div class="chart-wrap-sm"><canvas id="chart-trend-index"></canvas></div>
+      </div>
+      <div class="trend-card">
+        <p class="trend-card-title">每日 Attend 条数</p>
+        <div class="chart-wrap-sm"><canvas id="chart-trend-attend"></canvas></div>
+      </div>
+      <div class="trend-card">
+        <p class="trend-card-title">政策热度</p>
+        <div class="chart-wrap-sm"><canvas id="chart-trend-policy"></canvas></div>
+      </div>
+      <div class="trend-card">
+        <p class="trend-card-title">竞争热度</p>
+        <div class="chart-wrap-sm"><canvas id="chart-trend-compete"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 日报列表 -->
   <table class="archive-table">
     <thead><tr>
-      <th>日期</th><th>当日主线</th><th>信号</th><th>深度/总计</th>
+      <th>日期</th><th>当日主线</th><th>信号</th><th>深度/总计</th><th>指数</th><th>风向</th>
     </tr></thead>
     <tbody><tr>
       <td><a href="reports/2026-06-05.html">2026-06-05</a></td>
-      <td class="archive-mainline">本周算力网国家战略+智能体产业化双政策落地，为PPIO提供IPO叙事支撑；无问芯穹融资与AI立法加速构成竞争与合规双重压力。</td>
+      <td class="archive-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
       <td>🏛️×1 💰×1 🔬×7</td>
       <td>3 / 9</td>
+      <td>55</td>
+      <td><span style="color:#888;font-weight:600">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-06-04.html">2026-06-04</a></td>
+      <td class="archive-mainline">本周主线：高层密集强调AI算力基建与自主可控，边缘推理赛道获政策背书但运营商和CDN厂低价杀入，PPIO需加速差异化卡位。</td>
+      <td>🏛️×4 📜×2 ⚔️×2</td>
+      <td>7 / 13</td>
+      <td>66<span style="color:#16a34a">+5</span></td>
+      <td><span style="color:#2d7a4f;font-weight:600">升温</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-06-03.html">2026-06-03</a></td>
+      <td class="archive-mainline">高层打出政策“组合拳”：习近平要求超常规攻关、上海发放算力券，但境外投资新规与CDN对手杀入边缘推理，令IPO窗口与竞争格局陡生变数。</td>
+      <td>🏛️×4 📜×3 ⚔️×2 🌏×1</td>
+      <td>4 / 14</td>
+      <td>62</td>
+      <td><span style="color:#2d7a4f;font-weight:600">升温</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-06-02.html">2026-06-02</a></td>
+      <td class="archive-mainline">本周算力网国家战略+智能体产业化双政策落地，为PPIO提供IPO叙事支撑；无问芯穹融资与AI立法加速构成竞争与合规双重压力。</td>
+      <td>🏛️×4 📜×4 ⚔️×4 🌏×2 🔬×5</td>
+      <td>4 / 16</td>
+      <td>58</td>
+      <td><span style="color:#888;font-weight:600">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-06-01.html">2026-06-01</a></td>
+      <td class="archive-mainline">本周算力网国家战略+智能体产业化双政策落地，为PPIO提供IPO叙事支撑；无问芯穹融资与AI立法加速构成竞争与合规双重压力。</td>
+      <td></td>
+      <td>9 / 15</td>
+      <td>—</td>
+      <td><span style="color:#888;font-weight:600"></span></td>
     </tr>
 <tr>
       <td><a href="reports/2026-05-29.html">2026-05-29</a></td>
       <td class="archive-mainline">本周算力网国家战略+智能体产业化双政策落地，为PPIO提供IPO叙事支撑；无问芯穹融资与AI立法加速构成竞争与合规双重压力。</td>
-      <td>🏛️×6 📜×1 ⚔️×3 💰×1 🔬×5</td>
-      <td>9 / 15</td>
+      <td></td>
+      <td>5 / 15</td>
+      <td>—</td>
+      <td><span style="color:#888;font-weight:600"></span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-05-28.html">2026-05-28</a></td>
+      <td class="archive-mainline">本周算力网国家战略+智能体产业化双政策落地，为PPIO提供IPO叙事支撑；无问芯穹融资与AI立法加速构成竞争与合规双重压力。</td>
+      <td></td>
+      <td>5 / 11</td>
+      <td>—</td>
+      <td><span style="color:#888;font-weight:600"></span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-05-27.html">2026-05-27</a></td>
+      <td class="archive-mainline">国家推“全国算力网”统一调度并鼓励算力交易新模式，但三大运营商强推Token套餐转型零售，PPIO遇政策东风与巨头伏击双重格局。</td>
+      <td></td>
+      <td>4 / 8</td>
+      <td>—</td>
+      <td><span style="color:#888;font-weight:600"></span></td>
     </tr></tbody>
   </table>
 </main>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+(function() {
+  const dates = ["05-27","05-28","05-29","06-01","06-02","06-03","06-04","06-05"];
+  const attend = [4,5,5,9,4,4,7,3];
+  const index = [null,null,null,null,58,62,66,55];
+  const policy = [0,0,0,0,3,5,5,3];
+  const compete = [0,0,0,0,2,3,4,2];
+
+  const baseOpts = (label, color) => ({
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { grid: { display: false }, ticks: { font: { size: 9 }, maxTicksLimit: 8 } },
+      y: { grid: { color: '#f0f0f0' }, ticks: { font: { size: 9 } } }
+    }
+  });
+
+  // PPIO 指数趋势
+  if (document.getElementById('chart-trend-index')) {
+    new Chart(document.getElementById('chart-trend-index'), {
+      type: 'line',
+      data: { labels: dates, datasets: [{ data: index, borderColor: '#2563eb', backgroundColor: '#2563eb22', fill: true, tension: 0.3, pointRadius: 3 }] },
+      options: { ...baseOpts(), scales: { x: { grid:{display:false}, ticks:{font:{size:9},maxTicksLimit:8} }, y: { min:0, max:100, grid:{color:'#f0f0f0'}, ticks:{font:{size:9}} } } }
+    });
+  }
+
+  // Attend 条数趋势
+  if (document.getElementById('chart-trend-attend')) {
+    new Chart(document.getElementById('chart-trend-attend'), {
+      type: 'bar',
+      data: { labels: dates, datasets: [{ data: attend, backgroundColor: '#2563ebcc', borderRadius: 3 }] },
+      options: baseOpts()
+    });
+  }
+
+  // 政策热度
+  if (document.getElementById('chart-trend-policy')) {
+    new Chart(document.getElementById('chart-trend-policy'), {
+      type: 'line',
+      data: { labels: dates, datasets: [{ data: policy, borderColor: '#16a34a', backgroundColor: '#16a34a22', fill: true, tension: 0.3, pointRadius: 3 }] },
+      options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:9},maxTicksLimit:8}}, y:{min:1,max:5,grid:{color:'#f0f0f0'},ticks:{font:{size:9},stepSize:1}} } }
+    });
+  }
+
+  // 竞争热度
+  if (document.getElementById('chart-trend-compete')) {
+    new Chart(document.getElementById('chart-trend-compete'), {
+      type: 'line',
+      data: { labels: dates, datasets: [{ data: compete, borderColor: '#d97706', backgroundColor: '#d9770622', fill: true, tension: 0.3, pointRadius: 3 }] },
+      options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:9},maxTicksLimit:8}}, y:{min:1,max:5,grid:{color:'#f0f0f0'},ticks:{font:{size:9},stepSize:1}} } }
+    });
+  }
+})();
+</script>
 </body>
 </html>

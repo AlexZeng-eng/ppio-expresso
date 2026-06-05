@@ -90,7 +90,7 @@ ls -t "$LOG_DIR"/*.log 2>/dev/null | tail -n +61 | xargs rm -f 2>/dev/null || tr
 # ── Push to GitHub Pages ────────────────────────────────────────────────────
 if [ $PIPELINE_EXIT -eq 0 ]; then
   cd "$PROJECT_DIR"
-  git add index.html archive.html reports/ data/archive.json data/curated-items.json data/weekly-synthesis.json data/raw-items.json
+  git add index.html archive.html reports/ data/archive.json data/curated-items.json data/daily-synthesis.json data/weekly-synthesis.json data/raw-items.json data/seen-titles.json
   git commit -m "Daily update: $(date '+%Y-%m-%d')" >> "$LOG_FILE" 2>&1 || true
   git push origin main >> "$LOG_FILE" 2>&1 \
     && log "✓ Pushed to GitHub Pages" \

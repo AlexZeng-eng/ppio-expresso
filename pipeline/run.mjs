@@ -41,7 +41,7 @@ loadEnv();
 const STEPS = [
   { id: 1, name: 'fetch',       file: '01-fetch.mjs',       produces: 'data/raw-items.json' },
   { id: 2, name: 'curate',      file: '02-curate.mjs',      produces: 'data/curated-items.json',   needs: 'data/raw-items.json' },
-  { id: 3, name: 'synthesize',  file: '03-synthesize.mjs',  produces: 'data/weekly-synthesis.json', needs: 'data/curated-items.json' },
+  { id: 3, name: 'synthesize',  file: '03-synthesize.mjs',  produces: 'data/daily-synthesis.json', needs: 'data/curated-items.json' },
   { id: 4, name: 'render',      file: '04-render.mjs',      produces: 'index.html',                  needs: 'data/curated-items.json' }
 ];
 

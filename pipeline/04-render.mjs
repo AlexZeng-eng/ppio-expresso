@@ -4,7 +4,7 @@
  * PPIO 产业政策信息流 — Step 4: Render
  * Generates static index.html from curated items + weekly synthesis.
  *
- * Input:  data/curated-items.json + data/weekly-synthesis.json
+ * Input:  data/curated-items.json + data/daily-synthesis.json
  * Output: index.html (overwrites the feed page)
  */
 
@@ -15,7 +15,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
 const CURATED_PATH = resolve(ROOT, 'data', 'curated-items.json');
-const SYNTH_PATH = resolve(ROOT, 'data', 'weekly-synthesis.json');
+const SYNTH_PATH = resolve(ROOT, 'data', 'daily-synthesis.json');
 const OUT_PATH = resolve(ROOT, 'index.html');
 
 // ---- helpers ---------------------------------------------------------------
@@ -136,7 +136,7 @@ function renderHeader(week) {
   </span>
   <nav class="header-nav" aria-label="导航">
     <a href="manage.html">管理</a>
-    <a href="archive.html">周报存档 →</a>
+    <a href="archive.html">日报存档 →</a>
   </nav>
 </header>`;
 }
@@ -274,7 +274,7 @@ function renderSpeedRead(synthesis) {
   const sr = synthesis.speed_read;
   return `<section class="ppio-speed-read">
     <h2 class="speed-read-title">PPIO 信号速读</h2>
-    <p class="speed-read-mainline"><strong>本周主线：</strong>${esc(synthesis.mainline || '')}</p>
+    <p class="speed-read-mainline"><strong>今日主线：</strong>${esc(synthesis.mainline || '')}</p>
     <div class="speed-read-grid">
       <div class="speed-card signal-positive">
         <h4>🟢 利好信号</h4>
@@ -703,13 +703,13 @@ function renderHTML(curated, synthesis) {
 <body class="feed-page">
 ${renderHeader(week)}
 
-<!-- 顶层视图切换：本周 / 分析 -->
+<!-- 顶层视图切换：今日 / 分析 -->
 <nav class="view-tabs" role="tablist" aria-label="视图切换">
-  <button class="view-tab is-active" data-view="feed" role="tab" aria-selected="true">本周</button>
+  <button class="view-tab is-active" data-view="feed" role="tab" aria-selected="true">今日</button>
   <button class="view-tab" data-view="analysis" role="tab" aria-selected="false">分析</button>
 </nav>
 
-<!-- 本周视图 -->
+<!-- 今日视图 -->
 <div id="view-feed" class="view-panel">
 ${renderTabs(curated)}
 <main class="feed">
@@ -733,7 +733,7 @@ ${renderTabs(curated)}
   ${renderWordCloud(keywords)}
 
   <div class="feed-end">
-    <a href="archive.html">浏览往期周报 →</a>
+    <a href="archive.html">浏览往期日报 →</a>
   </div>
 </main>
 </div>
@@ -983,24 +983,32 @@ async function main() {
 function updateArchive(curated, synthesis) {
   const ARCHIVE_PATH = resolve(ROOT, 'data', 'archive.json');
   const RAW_PATH = resolve(ROOT, 'data', 'raw-items.json');
-  let archive = { updated_at: '', weeks: [] };
+  let archive = { updated_at: '', days: [] };
   try {
-    archive = JSON.parse(readFileSync(ARCHIVE_PATH, 'utf-8'));
+    const existing = JSON.parse(readFileSync(ARCHIVE_PATH, 'utf-8'));
+    // Migrate from old weeks-based format
+    if (existing.weeks && !existing.days) {
+      archive.days = existing.weeks.map(w => ({
+        date: w.date || w.week,
+        mainline: w.mainline || '',
+        signal_summary: w.signal_summary || {},
+        item_count: w.item_count || {},
+        ppio_index: null,
+        competitor_updates: w.competitor_updates || []
+      }));
+    } else {
+      archive = existing;
+    }
   } catch { /* first run */ }
 
-  // Try to get date range from raw items
-  let dateRange = { from: '', to: '' };
-  try {
-    const raw = JSON.parse(readFileSync(RAW_PATH, 'utf-8'));
-    dateRange = raw.date_range || dateRange;
-  } catch { /* ok */ }
+  const today = new Date(Date.now() + 8 * 3600_000).toISOString().slice(0, 10);
 
   const entry = {
-    week: curated.week,
-    date: new Date().toISOString().slice(0, 10),
-    date_range: dateRange,
+    date: today,
     mainline: synthesis.mainline || '',
     signal_summary: synthesis.signal_summary || {},
+    wind_indicators: synthesis.wind_indicators || {},
+    ppio_index: synthesis.ppio_index || null,
     item_count: {
       total: curated.total_curated,
       attend: curated.attend_count,
@@ -1009,33 +1017,51 @@ function updateArchive(curated, synthesis) {
     competitor_updates: synthesis.competitor_updates || []
   };
 
-  const idx = archive.weeks.findIndex(w => w.week === entry.week);
-  if (idx >= 0) archive.weeks[idx] = entry;
-  else archive.weeks.unshift(entry);
+  const idx = (archive.days || []).findIndex(d => d.date === today);
+  if (idx >= 0) archive.days[idx] = entry;
+  else {
+    archive.days = archive.days || [];
+    archive.days.unshift(entry);
+  }
 
-  if (archive.weeks.length > 52) archive.weeks = archive.weeks.slice(0, 52);
+  // Keep 90 days of history
+  archive.days = archive.days
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, 90);
 
   archive.updated_at = new Date().toISOString();
   writeFileSync(ARCHIVE_PATH, JSON.stringify(archive, null, 2), 'utf-8');
-  console.log(`  ✓ Updated archive → ${ARCHIVE_PATH} (${archive.weeks.length} weeks)`);
+  console.log(`  ✓ Updated archive → ${ARCHIVE_PATH} (${archive.days.length} days)`);
   return archive;
 }
 
 function renderArchiveHTML(archive) {
-  const weeks = archive.weeks || [];
-  const rows = weeks.map(w => {
-    const signals = Object.entries(w.signal_summary || {})
-      .filter(([, v]) => v > 0)
-      .map(([k, v]) => `${k}×${v}`)
-      .join(' ');
-    const counts = w.item_count || {};
-    const date = w.date || '';
-    const reportLink = date ? `reports/${date}.html` : 'index.html';
+  const days = (archive.days || []).slice(0, 90);
+  // 30-day window for trend charts
+  const trend30 = days.slice(0, 30).reverse();
+
+  const trendDates = JSON.stringify(trend30.map(d => d.date.slice(5)));
+  const trendAttend = JSON.stringify(trend30.map(d => d.item_count?.attend || 0));
+  const trendIndex = JSON.stringify(trend30.map(d => d.ppio_index?.score ?? null));
+  const trendPolicy = JSON.stringify(trend30.map(d => d.wind_indicators?.policy_heat || 0));
+  const trendCompete = JSON.stringify(trend30.map(d => d.wind_indicators?.competitor_heat || 0));
+
+  const rows = days.map(d => {
+    const signals = Object.entries(d.signal_summary || {})
+      .filter(([, v]) => v > 0).map(([k, v]) => `${k}×${v}`).join(' ');
+    const counts = d.item_count || {};
+    const idxScore = d.ppio_index?.score;
+    const idxDelta = d.ppio_index?.delta;
+    const deltaStr = idxDelta != null ? (idxDelta > 0 ? `<span style="color:#16a34a">+${idxDelta}</span>` : idxDelta < 0 ? `<span style="color:#dc2626">${idxDelta}</span>` : '') : '';
+    const sentiment = d.wind_indicators?.overall_sentiment || '';
+    const sentColor = {'升温':'#2d7a4f','活跃':'#1a56db','平稳':'#888','降温':'#8f3b27','观望':'#8f7020'}[sentiment] || '#888';
     return `<tr>
-      <td><a href="${esc(reportLink)}">${esc(date || w.week)}</a></td>
-      <td class="archive-mainline">${esc(w.mainline || '')}</td>
+      <td><a href="reports/${esc(d.date)}.html">${esc(d.date)}</a></td>
+      <td class="archive-mainline">${esc(d.mainline || '')}</td>
       <td>${esc(signals)}</td>
       <td>${counts.attend || 0} / ${counts.total || 0}</td>
+      <td>${idxScore != null ? `${idxScore}${deltaStr}` : '—'}</td>
+      <td><span style="color:${sentColor};font-weight:600">${esc(sentiment)}</span></td>
     </tr>`;
   }).join('\n');
 
@@ -1047,36 +1073,123 @@ function renderArchiveHTML(archive) {
 <title>PPIO 产业政策信息流 — 日报存档</title>
 <link rel="stylesheet" href="reader.css">
 <style>
-  .archive-table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.84rem; margin-top: 1.4rem; }
-  .archive-table th { font-family: var(--mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-mute); border-bottom: 2px solid var(--ink); padding: 0.4rem 0.6rem; text-align: left; }
-  .archive-table td { padding: 0.55rem 0.6rem; border-bottom: 1px solid var(--rule-soft); vertical-align: top; color: var(--ink-soft); }
+  .archive-table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.84rem; margin-top: 1rem; }
+  .archive-table th { font-family: var(--mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-mute); border-bottom: 2px solid var(--ink); padding: 0.4rem 0.6rem; text-align: left; }
+  .archive-table td { padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--rule-soft); vertical-align: top; color: var(--ink-soft); }
   .archive-table tr:hover td { background: var(--bg-soft); }
   .archive-table a { color: var(--ink); font-weight: 600; text-decoration: none; }
   .archive-table a:hover { text-decoration: underline; }
-  .archive-mainline { max-width: 420px; line-height: 1.45; }
+  .archive-mainline { max-width: 340px; line-height: 1.4; font-size: 0.82rem; }
   .archive-empty { padding: 3rem; text-align: center; color: var(--ink-mute); font-family: var(--mono); font-size: 0.82rem; }
+  .trend-section { margin: 1.5rem 0; }
+  .trend-title { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-mute); margin: 0 0 0.5rem; }
+  .trend-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+  @media (max-width: 600px) { .trend-grid { grid-template-columns: 1fr; } }
+  .trend-card { background: var(--bg-soft); border: 1px solid var(--rule-soft); border-radius: 6px; padding: 0.9rem 1rem; }
+  .trend-card-title { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-mute); letter-spacing: 0.04em; text-transform: uppercase; margin: 0 0 0.6rem; }
+  .chart-wrap-sm { max-height: 140px; }
 </style>
 </head>
 <body class="archive-page">
 <header class="page-header">
   <span class="brand">PPIO 产业政策信息流</span>
-  <span class="header-meta">周报存档</span>
-  <nav class="header-nav">
-    <a href="index.html">← 本周</a>
-  </nav>
+  <span class="header-meta">日报存档</span>
+  <nav class="header-nav"><a href="index.html">← 今日</a></nav>
 </header>
-<main style="max-width:900px;margin:0 auto;padding:1.4rem 1.4rem 4rem">
-  <h1 style="font-family:var(--mono);font-size:0.9rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink);margin:0 0 0.3rem">周报存档</h1>
-  <p style="font-family:var(--sans);font-size:0.82rem;color:var(--ink-mute);margin:0 0 1.4rem">共 ${weeks.length} 期 · 最近更新 ${esc(archive.updated_at?.slice(0,10) || '')}</p>
-  ${weeks.length === 0
+<main style="max-width:960px;margin:0 auto;padding:1.4rem 1.4rem 4rem">
+  <h1 style="font-family:var(--mono);font-size:0.9rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink);margin:0 0 0.2rem">日报存档</h1>
+  <p style="font-family:var(--sans);font-size:0.82rem;color:var(--ink-mute);margin:0 0 1.4rem">共 ${days.length} 天 · 最近更新 ${esc(archive.updated_at?.slice(0,10) || '')}</p>
+
+  <!-- 30天趋势图 -->
+  ${trend30.length >= 2 ? `
+  <section class="trend-section">
+    <p class="trend-title">近30天趋势</p>
+    <div class="trend-grid">
+      <div class="trend-card">
+        <p class="trend-card-title">PPIO 战略环境指数</p>
+        <div class="chart-wrap-sm"><canvas id="chart-trend-index"></canvas></div>
+      </div>
+      <div class="trend-card">
+        <p class="trend-card-title">每日 Attend 条数</p>
+        <div class="chart-wrap-sm"><canvas id="chart-trend-attend"></canvas></div>
+      </div>
+      <div class="trend-card">
+        <p class="trend-card-title">政策热度</p>
+        <div class="chart-wrap-sm"><canvas id="chart-trend-policy"></canvas></div>
+      </div>
+      <div class="trend-card">
+        <p class="trend-card-title">竞争热度</p>
+        <div class="chart-wrap-sm"><canvas id="chart-trend-compete"></canvas></div>
+      </div>
+    </div>
+  </section>` : ''}
+
+  <!-- 日报列表 -->
+  ${days.length === 0
     ? `<div class="archive-empty">暂无存档</div>`
     : `<table class="archive-table">
     <thead><tr>
-      <th>日期</th><th>当日主线</th><th>信号</th><th>深度/总计</th>
+      <th>日期</th><th>当日主线</th><th>信号</th><th>深度/总计</th><th>指数</th><th>风向</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`}
 </main>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+(function() {
+  const dates = ${trendDates};
+  const attend = ${trendAttend};
+  const index = ${trendIndex};
+  const policy = ${trendPolicy};
+  const compete = ${trendCompete};
+
+  const baseOpts = (label, color) => ({
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { grid: { display: false }, ticks: { font: { size: 9 }, maxTicksLimit: 8 } },
+      y: { grid: { color: '#f0f0f0' }, ticks: { font: { size: 9 } } }
+    }
+  });
+
+  // PPIO 指数趋势
+  if (document.getElementById('chart-trend-index')) {
+    new Chart(document.getElementById('chart-trend-index'), {
+      type: 'line',
+      data: { labels: dates, datasets: [{ data: index, borderColor: '#2563eb', backgroundColor: '#2563eb22', fill: true, tension: 0.3, pointRadius: 3 }] },
+      options: { ...baseOpts(), scales: { x: { grid:{display:false}, ticks:{font:{size:9},maxTicksLimit:8} }, y: { min:0, max:100, grid:{color:'#f0f0f0'}, ticks:{font:{size:9}} } } }
+    });
+  }
+
+  // Attend 条数趋势
+  if (document.getElementById('chart-trend-attend')) {
+    new Chart(document.getElementById('chart-trend-attend'), {
+      type: 'bar',
+      data: { labels: dates, datasets: [{ data: attend, backgroundColor: '#2563ebcc', borderRadius: 3 }] },
+      options: baseOpts()
+    });
+  }
+
+  // 政策热度
+  if (document.getElementById('chart-trend-policy')) {
+    new Chart(document.getElementById('chart-trend-policy'), {
+      type: 'line',
+      data: { labels: dates, datasets: [{ data: policy, borderColor: '#16a34a', backgroundColor: '#16a34a22', fill: true, tension: 0.3, pointRadius: 3 }] },
+      options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:9},maxTicksLimit:8}}, y:{min:1,max:5,grid:{color:'#f0f0f0'},ticks:{font:{size:9},stepSize:1}} } }
+    });
+  }
+
+  // 竞争热度
+  if (document.getElementById('chart-trend-compete')) {
+    new Chart(document.getElementById('chart-trend-compete'), {
+      type: 'line',
+      data: { labels: dates, datasets: [{ data: compete, borderColor: '#d97706', backgroundColor: '#d9770622', fill: true, tension: 0.3, pointRadius: 3 }] },
+      options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:9},maxTicksLimit:8}}, y:{min:1,max:5,grid:{color:'#f0f0f0'},ticks:{font:{size:9},stepSize:1}} } }
+    });
+  }
+})();
+</script>
 </body>
 </html>`;
 }
