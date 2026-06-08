@@ -80,6 +80,7 @@
   .signal-positive h4 { color: #3d6b3d; }
   .signal-risk { background: #fdf3f0; border: 1px solid #f0d0c8; }
   .signal-risk h4 { color: #8f3b27; }
+  .speed-card ul li.muted { color: #999; font-style: italic; list-style: none; }
   .signal-watch { background: #fdfaf0; border: 1px solid #e8dcc0; }
   .signal-watch h4 { color: #8f7020; }
   .signal-action { background: #f0f4fa; border: 1px solid #c8d4e8; }
@@ -212,7 +213,44 @@
     margin: 0;
   }
 
-  /* ── View tabs (本周 / 分析) ── */
+  /* ── Analysis sub-tabs ── */
+  .analysis-tabs {
+    display: flex;
+    gap: 0;
+    border-bottom: 1px solid var(--rule-soft);
+    margin-bottom: 1.4rem;
+  }
+  .atab {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 0.45rem 1rem;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    background: none;
+    color: var(--ink-mute);
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .atab:hover { color: var(--ink); }
+  .atab.is-active { color: var(--accent, #2a5080); border-bottom-color: var(--accent, #2a5080); }
+
+  /* ── History table ── */
+  .hist-table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.82rem; }
+  .hist-table th { font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-mute); border-bottom: 2px solid var(--ink); padding: 0.35rem 0.5rem; text-align: left; }
+  .hist-table td { padding: 0.45rem 0.5rem; border-bottom: 1px solid var(--rule-soft); vertical-align: top; color: var(--ink-soft); }
+  .hist-table tr:hover td { background: var(--bg-soft); }
+  .hist-table a { color: var(--ink); font-weight: 600; text-decoration: none; }
+  .hist-table a:hover { text-decoration: underline; }
+  .hist-mainline { max-width: 320px; line-height: 1.4; font-size: 0.8rem; }
+
+  /* ── Trend grid ── */
+  .trend-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 0.5rem; }
+  @media (max-width: 600px) { .trend-grid { grid-template-columns: 1fr; } }
+  .trend-card { background: var(--bg-soft); border: 1px solid var(--rule-soft); border-radius: 6px; padding: 0.9rem 1rem; }
+  .trend-card-title { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-mute); letter-spacing: 0.04em; text-transform: uppercase; margin: 0 0 0.6rem; }
   .view-tabs {
     display: flex;
     gap: 0;
@@ -593,11 +631,11 @@
     <div class="speed-read-grid">
       <div class="speed-card signal-positive">
         <h4>🟢 利好信号</h4>
-        <ul><li>（待 AI 填写）</li><li>（待 AI 填写）</li><li>（待 AI 填写）</li></ul>
+        <ul><li class="muted">今日无重大利好信号</li></ul>
       </div>
       <div class="speed-card signal-risk">
         <h4>🔴 风险信号</h4>
-        <ul><li>（待 AI 填写）</li><li>（待 AI 填写）</li><li>（待 AI 填写）</li></ul>
+        <ul><li class="muted">今日无重大风险信号</li></ul>
       </div>
     </div>
   </section>
@@ -622,53 +660,152 @@
 <!-- 分析视图 -->
 <div id="view-analysis" class="view-panel" style="display:none">
   <main class="feed analysis-panel">
-  <!-- 顶部指数摘要 -->
-  <div class="analysis-summary">
-    <div class="ppio-index-card">
-      <div class="ppio-index-label">PPIO 战略环境指数</div>
-      <div class="ppio-index-score">55<span class="ppio-index-delta" style="color:#6b7280">0</span></div>
-      <div class="ppio-index-interp">规则估算，仅供参考</div>
+
+  <!-- 分析子 tab -->
+  <nav class="analysis-tabs" role="tablist">
+    <button class="atab is-active" data-atab="today" role="tab">今日分析</button>
+    <button class="atab" data-atab="trend" role="tab">30天趋势</button>
+    <button class="atab" data-atab="history" role="tab">历史存档</button>
+  </nav>
+
+  <!-- 今日分析 -->
+  <div class="atab-panel" id="atab-today">
+    <div class="analysis-summary">
+      <div class="ppio-index-card">
+        <div class="ppio-index-label">PPIO 战略环境指数</div>
+        <div class="ppio-index-score">55<span class="ppio-index-delta" style="color:#6b7280">0</span></div>
+        <div class="ppio-index-interp">规则估算，仅供参考</div>
+      </div>
+      <div class="ppio-index-card">
+        <div class="ppio-index-label">今日整体风向</div>
+        <div class="ppio-index-score" style="color:#555">平稳</div>
+        <div class="ppio-index-interp">规则估算，AI合成不可用时的占位数据。</div>
+      </div>
     </div>
-    <div class="ppio-index-card">
-      <div class="ppio-index-label">本周整体风向</div>
-      <div class="ppio-index-score" style="color:#555">平稳</div>
-      <div class="ppio-index-interp">规则估算，AI合成不可用时的占位数据。</div>
-    </div>
+    <section class="analysis-section">
+      <h2 class="analysis-title">机会-威胁象限图</h2>
+      <p class="analysis-desc">点大小 = 重要程度 · 颜色 = 新闻类别 · 悬停查看详情</p>
+      <div class="chart-wrap chart-wrap--quadrant">
+        <div class="quadrant-bg">
+          <span class="ql ql-tl">⚠ 险境</span>
+          <span class="ql ql-tr">🔴 红海</span>
+          <span class="ql ql-bl">🌱 机遇</span>
+          <span class="ql ql-br">🟢 蓝海</span>
+        </div>
+        <canvas id="chart-quadrant"></canvas>
+      </div>
+      <div class="chart-legend" id="quadrant-legend"></div>
+    </section>
+    <section class="analysis-section">
+      <h2 class="analysis-title">PPIO 指数成分分解</h2>
+      <p class="analysis-desc">各因子对今日综合指数的贡献（绿=正向，红=负向）</p>
+      <div class="chart-wrap chart-wrap--bar"><canvas id="chart-index"></canvas></div>
+    </section>
+    <section class="analysis-section">
+      <h2 class="analysis-title">今日 Attend 信号分布</h2>
+      <p class="analysis-desc">深度处理条目按类别分布</p>
+      <div class="chart-wrap chart-wrap--donut"><canvas id="chart-signals"></canvas></div>
+    </section>
   </div>
 
-  <!-- 象限图 -->
-  <section class="analysis-section">
-    <h2 class="analysis-title">机会-威胁象限图</h2>
-    <p class="analysis-desc">点大小 = 重要程度 · 颜色 = 新闻类别 · 悬停查看详情</p>
-    <div class="chart-wrap chart-wrap--quadrant">
-      <div class="quadrant-bg">
-        <span class="ql ql-tl">⚠ 险境</span>
-        <span class="ql ql-tr">🔴 红海</span>
-        <span class="ql ql-bl">🌱 机遇</span>
-        <span class="ql ql-br">🟢 蓝海</span>
+  <!-- 30天趋势 -->
+  <div class="atab-panel" id="atab-trend" style="display:none">
+    
+    <div class="trend-grid">
+      <div class="trend-card">
+        <p class="trend-card-title">PPIO 战略环境指数</p>
+        <div style="height:160px"><canvas id="chart-trend-index"></canvas></div>
       </div>
-      <canvas id="chart-quadrant"></canvas>
+      <div class="trend-card">
+        <p class="trend-card-title">每日 Attend 条数</p>
+        <div style="height:160px"><canvas id="chart-trend-attend"></canvas></div>
+      </div>
+      <div class="trend-card">
+        <p class="trend-card-title">政策热度</p>
+        <div style="height:160px"><canvas id="chart-trend-policy"></canvas></div>
+      </div>
+      <div class="trend-card">
+        <p class="trend-card-title">竞争热度</p>
+        <div style="height:160px"><canvas id="chart-trend-compete"></canvas></div>
+      </div>
     </div>
-    <div class="chart-legend" id="quadrant-legend"></div>
-  </section>
+    <script id="trend-data" type="application/json">{"dates":["05-27","05-28","05-29","06-01","06-02","06-03","06-04","06-05"],"attend":[4,5,5,9,4,4,7,3],"index":[null,null,null,null,58,62,66,55],"policy":[0,0,0,0,3,5,5,3],"compete":[0,0,0,0,2,3,4,2]}</script>
+  </div>
 
-  <!-- 指数成分 -->
-  <section class="analysis-section">
-    <h2 class="analysis-title">PPIO 指数成分分解</h2>
-    <p class="analysis-desc">各因子对本周综合指数的贡献（绿=正向，红=负向）</p>
-    <div class="chart-wrap chart-wrap--bar">
-      <canvas id="chart-index"></canvas>
-    </div>
-  </section>
-
-  <!-- 信号分布 -->
-  <section class="analysis-section">
-    <h2 class="analysis-title">本周 Attend 信号分布</h2>
-    <p class="analysis-desc">深度处理条目按类别分布</p>
-    <div class="chart-wrap chart-wrap--donut">
-      <canvas id="chart-signals"></canvas>
-    </div>
-  </section>
+  <!-- 历史存档 -->
+  <div class="atab-panel" id="atab-history" style="display:none">
+    <p style="font-family:var(--sans);font-size:0.82rem;color:var(--ink-mute);margin:0 0 1rem">共 8 天记录</p>
+    <div style="overflow-x:auto">
+      <table class="hist-table">
+        <thead><tr>
+          <th>日期</th><th>当日主线</th><th>信号</th><th>深度/总</th><th>指数</th><th>风向</th>
+        </tr></thead>
+        <tbody><tr>
+      <td><a href="reports/2026-06-05.html" target="_blank">2026-06-05</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 💰×1 🔬×7</td>
+      <td>3/9</td>
+      <td>55</td>
+      <td><span style="color:#555;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-06-04.html" target="_blank">2026-06-04</a></td>
+      <td class="hist-mainline">本周主线：高层密集强调AI算力基建与自主可控，边缘推理赛道获政策背书但运营商和CDN厂低价杀入，PPIO需加速差异化卡位。</td>
+      <td style="white-space:nowrap">🏛️×4 📜×2 ⚔️×2</td>
+      <td>7/13</td>
+      <td>66<span style="color:#16a34a;font-size:0.75rem">+5</span></td>
+      <td><span style="color:#2d7a4f;font-weight:600;font-size:0.78rem">升温</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-06-03.html" target="_blank">2026-06-03</a></td>
+      <td class="hist-mainline">高层打出政策“组合拳”：习近平要求超常规攻关、上海发放算力券，但境外投资新规与CDN对手杀入边缘推理，令IPO窗口与竞争格局陡生变数。</td>
+      <td style="white-space:nowrap">🏛️×4 📜×3 ⚔️×2 🌏×1</td>
+      <td>4/14</td>
+      <td>62</td>
+      <td><span style="color:#2d7a4f;font-weight:600;font-size:0.78rem">升温</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-06-02.html" target="_blank">2026-06-02</a></td>
+      <td class="hist-mainline">本周算力网国家战略+智能体产业化双政策落地，为PPIO提供IPO叙事支撑；无问芯穹融资与AI立法加速构成竞争与合规双重压力。</td>
+      <td style="white-space:nowrap">🏛️×4 📜×4 ⚔️×4 🌏×2 🔬×5</td>
+      <td>4/16</td>
+      <td>58</td>
+      <td><span style="color:#555;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-06-01.html" target="_blank">2026-06-01</a></td>
+      <td class="hist-mainline">本周算力网国家战略+智能体产业化双政策落地，为PPIO提供IPO叙事支撑；无问芯穹融资与AI立法加速构成竞争与合规双重压力。</td>
+      <td style="white-space:nowrap"></td>
+      <td>9/15</td>
+      <td>—</td>
+      <td><span style="color:#888;font-weight:600;font-size:0.78rem"></span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-05-29.html" target="_blank">2026-05-29</a></td>
+      <td class="hist-mainline">本周算力网国家战略+智能体产业化双政策落地，为PPIO提供IPO叙事支撑；无问芯穹融资与AI立法加速构成竞争与合规双重压力。</td>
+      <td style="white-space:nowrap"></td>
+      <td>5/15</td>
+      <td>—</td>
+      <td><span style="color:#888;font-weight:600;font-size:0.78rem"></span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-05-28.html" target="_blank">2026-05-28</a></td>
+      <td class="hist-mainline">本周算力网国家战略+智能体产业化双政策落地，为PPIO提供IPO叙事支撑；无问芯穹融资与AI立法加速构成竞争与合规双重压力。</td>
+      <td style="white-space:nowrap"></td>
+      <td>5/11</td>
+      <td>—</td>
+      <td><span style="color:#888;font-weight:600;font-size:0.78rem"></span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-05-27.html" target="_blank">2026-05-27</a></td>
+      <td class="hist-mainline">国家推“全国算力网”统一调度并鼓励算力交易新模式，但三大运营商强推Token套餐转型零售，PPIO遇政策东风与巨头伏击双重格局。</td>
+      <td style="white-space:nowrap"></td>
+      <td>4/8</td>
+      <td>—</td>
+      <td><span style="color:#888;font-weight:600;font-size:0.78rem"></span></td>
+    </tr></tbody>
+      </table></div>
+  </div>
 </main>
 </div>
 
@@ -684,7 +821,23 @@
         tab.classList.add('is-active'); tab.setAttribute('aria-selected','true');
         const v = tab.dataset.view;
         viewPanels.forEach(p => { p.style.display = p.id === 'view-' + v ? '' : 'none'; });
-        if (v === 'analysis') initCharts();
+        if (v === 'analysis') { initAnalysisTab('today'); }
+      });
+    });
+  })();
+
+  // ── Analysis sub-tabs ──
+  (function() {
+    const atabs = document.querySelectorAll('.atab');
+    atabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        atabs.forEach(t => t.classList.remove('is-active'));
+        tab.classList.add('is-active');
+        const id = tab.dataset.atab;
+        document.querySelectorAll('.atab-panel').forEach(p => {
+          p.style.display = p.id === 'atab-' + id ? '' : 'none';
+        });
+        initAnalysisTab(id);
       });
     });
   })();
@@ -708,13 +861,64 @@
   })();
 
   // ── Analysis charts ──
-  let chartsInit = false;
-  function initCharts() {
-    if (chartsInit) return;
-    chartsInit = true;
+  const chartsInited = {};
+  function initAnalysisTab(tab) {
+    if (chartsInited[tab]) return;
+    chartsInited[tab] = true;
 
     const SYNTHESIS = {"generated_at":"2026-06-05T06:21:01.135Z","date":"2026-06-05","date_label":"2026-06-05","mainline":"今日政策与竞争信号持续跟踪中，详情见各条目分析。","signal_summary":{"🏛️":1,"📜":0,"⚔️":0,"💰":1,"🌏":0,"🔬":7},"speed_read":{"positive":["（待 AI 填写）","（待 AI 填写）","（待 AI 填写）"],"risk":["（待 AI 填写）","（待 AI 填写）","（待 AI 填写）"]},"wind_indicators":{"policy_heat":3,"competitor_heat":2,"capital_heat":3,"overseas_heat":2,"overall_sentiment":"平稳","summary":"规则估算，AI合成不可用时的占位数据。"},"competitor_updates":[],"item_axes":[{"id":"1","title":"加快前瞻布局和发展未来产业（深入学习贯彻","policy_axis":0.6,"competition_axis":0.1,"impact_score":4,"axis_reason":"规则估算"},{"id":"2","title":"国务院关于对外投资的规定 - 人民日报","policy_axis":0.6,"competition_axis":0.1,"impact_score":4,"axis_reason":"规则估算"},{"id":"3","title":"德国总理默茨：五年内德国现有算力翻倍，将","policy_axis":0,"competition_axis":0.1,"impact_score":2,"axis_reason":"规则估算"}],"ppio_index":{"score":55,"delta":0,"components":{"policy_tailwind":8,"competitive_pressure":0,"capital_sentiment":5,"regulatory_risk":0,"overseas_headwind":0},"interpretation":"规则估算，仅供参考"},"_generated_by":"template"};
     const ITEMS = [{"id":"raw-001","title":"加快前瞻布局和发展未来产业（深入学习贯彻习近平新时代中国特色社会主义思想） - 人民日报","url":"https://news.google.com/rss/articles/CBMigAFBVV95cUxPSlA1SE1ZVzNXRERJYzBrTVZOdm1fcUJMejU3dk5FSFpaZl9WSWo1bVJEWUd0YnFpUWxpcVVNWERveHotdGU3Ri1ybXlLV3NTelhvbFVQUGhNY3Y2cXRBaFRmWHYteDNiNDRFQ09mQURLZGtzejl0V3RmcE42ZWN4eQ?oc=5","source":"人民日报","category":"政策","published":"2026-06-01","body_snippet":"加快前瞻布局和发展未来产业（深入学习贯彻习近平新时代中国特色社会主义思想） 人民日报","_query_boost":40,"lane":"attend","signals":["—"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"加快前瞻布局和发展未来产业（深入学习贯彻习近平新时代中国特色社会主义思想） - 人民日报 加快前瞻布局和发展未来产业（深入学习贯彻习近平新时代中国特色社会主义思想） 人民日报","ppio_signal":{"positive":"（待 AI 填写）","risk":"（待 AI 填写）"},"_classified_by":"rule"},{"id":"raw-002","title":"国务院关于对外投资的规定 - 人民日报","url":"https://news.google.com/rss/articles/CBMif0FVX3lxTE1WRkZhZnhHX3BHcXQ4bVBwamtDTzBXdUJibG41dVk4S1N0SS1nejlwWERRTHpydkZMbjRxanpzeXpEVXp3MDdJQ0haQXdaZXJXWFk2cUMyNWc5UTRpSk5OVDlLN1lZTGd3SFNYczE0NUhnUmdfOTN6LVRsXzltLXM?oc=5","source":"人民日报","category":"监管","published":"2026-06-02","body_snippet":"国务院关于对外投资的规定 人民日报","_query_boost":25,"lane":"attend","signals":["🏛️"],"is_deep_read":true,"compass_triggered":["c1","c2","c3"],"summary_cn":"国务院关于对外投资的规定 - 人民日报 国务院关于对外投资的规定 人民日报","ppio_signal":{"positive":"（待 AI 填写）","risk":"（待 AI 填写）"},"_classified_by":"rule"},{"id":"raw-003","title":"豆包专业版将至：免费与付费之间字节遇算力焦虑- 字节跳动ByteDance - cnBeta.COM","url":"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fWl82NFZEaHNxXzNfSnY3VllMYlNwdURvcWYxSHRaVTJVRlJ0UEw5NFgwdG1qTHdsYUdXVUpZdG1QOTQ3TFpaSXl2aGFPbjc3WEFMbjM5eFJFZU52bnYzMw?oc=5","source":"cnBeta.COM","category":"竞品","published":"2026-06-04","body_snippet":"豆包专业版将至：免费与付费之间字节遇算力焦虑- 字节跳动ByteDance cnBeta.COM","_query_boost":15,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"豆包专业版将至：免费与付费之间字节遇算力焦虑- 字节跳动ByteDance - cnBeta.COM 豆包专业版将至：免费与付费之间字节遇算力焦虑- 字节跳动B","ppio_signal":null,"_classified_by":"rule"},{"id":"raw-006","title":"三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社","url":"https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5","source":"财联社","category":"技术","published":"2026-06-04","body_snippet":"三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社","_query_boost":0,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社","ppio_signal":null,"_classified_by":"rule"},{"id":"raw-007","title":"AI短剧“抽卡”抽到跳脚！中小企遭遇“算力饥渴”怎么解？ - thepaper.cn","url":"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ycGRySTlaeExoNlJBMHpFUkhrUDVEbkF6NndKSWlkNHQ5LXlwTm51V0Q5cDVOVms4S0E1VWxyaDVvc2gwd21uaE5lTmFwU3VFdllxYVpGWHdmb01YQUJVMw?oc=5","source":"thepaper.cn","category":"政策","published":"2026-06-03","body_snippet":"AI短剧“抽卡”抽到跳脚！中小企遭遇“算力饥渴”怎么解？ thepaper.cn","_query_boost":0,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"AI短剧“抽卡”抽到跳脚！中小企遭遇“算力饥渴”怎么解？ - thepaper.cn AI短剧“抽卡”抽到跳脚！中小企遭遇“算力饥渴”怎么解？ thepaper","ppio_signal":null,"_classified_by":"rule"},{"id":"raw-008","title":"北京首个太空算力产业创新中心成立 发展卫星物联网行业 - 联合早报","url":"https://news.google.com/rss/articles/CBMiakFVX3lxTE9rNU52Q1RwYm5sMHhJNm1Da3RFZVZGelZTWWdfSU9CenVENUlYS3djUFJYWUtYdkU5T2V2dS1aUGZnYzhHN1BaY1NpMk1yU2pWd1d4T2pSbEZZQjllR1lnQUFKZ2lscEkwSnc?oc=5","source":"联合早报","category":"海外","published":"2026-06-03","body_snippet":"北京首个太空算力产业创新中心成立 发展卫星物联网行业 联合早报","_query_boost":0,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"北京首个太空算力产业创新中心成立 发展卫星物联网行业 - 联合早报 北京首个太空算力产业创新中心成立 发展卫星物联网行业 联合早报","ppio_signal":null,"_classified_by":"rule"},{"id":"raw-009","title":"算力租赁市场热度提升，上市公司抢抓机遇","url":"https://36kr.com/newsflashes/3839553373751554?f=rss","source":"36氪","published":"2026-06-05","body_snippet":"","category":"技术","lane":"silent","signals":["💰","🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"算力租赁市场热度提升，上市公司抢抓机遇 ","ppio_signal":null,"_classified_by":"rule"},{"id":"raw-010","title":"德国总理默茨：五年内德国现有算力翻倍，将不再依赖中美AI数据中心 - 中华网","url":"https://news.google.com/rss/articles/CBMiVEFVX3lxTE92Q3BjSlBDbkFGOFozRUpIQk1ON3ZkRFpianhhR1RJTzkwWVBaSVN4bjdlOUd3U0dxUDY0a05HQzR6UFQyOFhzRjBFUHlkVTl5bFNLZw?oc=5","source":"中华网","category":"政策","published":"2026-06-02","body_snippet":"德国总理默茨：五年内德国现有算力翻倍，将不再依赖中美AI数据中心 中华网","_query_boost":0,"lane":"attend","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"五年内德国现有算力翻倍，将不再依赖中美AI数据中心 - 中华网 德国总理默茨：五年内德国现有算力翻倍，将不再依赖中美AI数据中心 中华网","ppio_signal":{"positive":"（待 AI 填写）","risk":"（待 AI 填写）"},"_classified_by":"rule"},{"id":"raw-014","title":"最高降价99%背后：小米首次公开模型推理优化技术报告 - 品玩","url":"https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wa2VsajVHN1FfWXlOWGlsdzBsTno2RVNVZkpEQUJsOFUzTGlFX0QwVndtWVRvbzdJM2ctV0lZeHBBdFdOLWpCZw?oc=5","source":"品玩","category":"技术","published":"2026-05-30","body_snippet":"最高降价99%背后：小米首次公开模型推理优化技术报告 品玩","_query_boost":0,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"最高降价99%背后：小米首次公开模型推理优化技术报告 - 品玩 最高降价99%背后：小米首次公开模型推理优化技术报告 品玩","ppio_signal":null,"_classified_by":"rule"}];
+
+    if (tab === 'today') {
+      initCharts(SYNTHESIS, ITEMS);
+    } else if (tab === 'trend') {
+      initTrendCharts();
+    }
+  }
+
+  function initTrendCharts() {
+    const el = document.getElementById('trend-data');
+    if (!el) return;
+    const d = JSON.parse(el.textContent);
+    const baseOpts = () => ({
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { display: false }, ticks: { font: { size: 10 }, maxTicksLimit: 8 } },
+        y: { grid: { color: '#f0f0f0' }, ticks: { font: { size: 11 } } }
+      }
+    });
+    if (document.getElementById('chart-trend-index')) {
+      new Chart(document.getElementById('chart-trend-index'), {
+        type: 'line',
+        data: { labels: d.dates, datasets: [{ data: d.index, borderColor: '#2563eb', backgroundColor: '#2563eb22', fill: true, tension: 0.3, pointRadius: 3 }] },
+        options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:100,grid:{color:'#f0f0f0'},ticks:{font:{size:11}}} } }
+      });
+    }
+    if (document.getElementById('chart-trend-attend')) {
+      new Chart(document.getElementById('chart-trend-attend'), {
+        type: 'bar',
+        data: { labels: d.dates, datasets: [{ data: d.attend, backgroundColor: '#2563ebcc', borderRadius: 3 }] },
+        options: baseOpts()
+      });
+    }
+    if (document.getElementById('chart-trend-policy')) {
+      new Chart(document.getElementById('chart-trend-policy'), {
+        type: 'line',
+        data: { labels: d.dates, datasets: [{ data: d.policy, borderColor: '#16a34a', backgroundColor: '#16a34a22', fill: true, tension: 0.3, pointRadius: 3 }] },
+        options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#f0f0f0'},ticks:{font:{size:11},stepSize:1}} } }
+      });
+    }
+    if (document.getElementById('chart-trend-compete')) {
+      new Chart(document.getElementById('chart-trend-compete'), {
+        type: 'line',
+        data: { labels: d.dates, datasets: [{ data: d.compete, borderColor: '#d97706', backgroundColor: '#d9770622', fill: true, tension: 0.3, pointRadius: 3 }] },
+        options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#f0f0f0'},ticks:{font:{size:11},stepSize:1}} } }
+      });
+    }
+  }
+
+  function initCharts(SYNTHESIS, ITEMS) {
 
     // 1. 象限图 — 机会-威胁矩阵
     (function() {
