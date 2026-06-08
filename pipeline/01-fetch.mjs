@@ -332,7 +332,10 @@ const PPIO_KEYWORDS = {
     // 国产芯片认证 — 自主可控叙事
     /安全可靠测评.*芯片/, /国产.*AI.*芯片.*测评/, /AI.*训练推理芯片.*测评/,
     /国产芯片.*市场份额/, /海思半导体.*AI/,
-    // AI中转站/算力服务合规 — 业务边界与IPO合规直接相关
+    // 海外重大AI政策/资本事件中文报道
+    /特朗普.*AI.*行政令/, /特朗普.*人工智能.*命令/, /美国.*AI.*行政令/,
+    /Anthropic.*IPO/, /Anthropic.*上市/, /Anthropic.*SEC/, /Anthropic.*招股/,
+    /Vera.*Rubin.*量产/, /英伟达.*Vera.*Rubin/, /黄仁勋.*Vera/,
     /AI中转站.*合规/, /AI中转站.*备案/, /AI中转站.*监管/,
     /生成式AI.*增值电信/, /大模型.*增值电信.*备案/, /AI.*数据出境.*评估/,
     /对外投资.*规定/, /国令.*对外投资/, /跨境数据.*监管/, /技术出口.*管制.*对外投资/,
@@ -356,6 +359,16 @@ const PPIO_KEYWORDS = {
     // 大厂AI资本支出（高层级）
     /字节跳动.*AI/, /字节.*算力/, /字节.*基础设施/,
     /阿里云.*峰会/, /阿里云.*发布/, /阿里云.*模型/,
+    // 国内头部AI大模型融资 — 资本环境直接信号
+    /月之暗面.*融资/, /Moonshot.*融资/, /月之暗面.*估值/,
+    /DeepSeek.*融资/, /DeepSeek.*大基金/, /大基金.*DeepSeek/, /深度求索.*融资/,
+    /AI.*融资/, /融资.*AI/, /人工智能.*融资/,
+    // 国常会未来产业
+    /国常会.*未来产业/, /国务院常务.*未来产业/, /李强.*未来产业/,
+    // 求是党刊 — 最高规格政策信号
+    /求是.*习近平/, /习近平.*求是/, /求是.*未来产业/, /求是.*人工智能/,
+    /阴和俊.*求是/, /求是.*科技部/, /求是.*部长/, /阴和俊.*未来产业/,
+    /求是.*阴和俊/, /科技部.*部长.*求是/,
     // 全球AI基础设施投资
     /软银.*数据中心/, /软银.*AI.*投资/, /微软.*AI.*数据中心/,
     /谷歌.*AI.*基础设施/, /亚马逊.*AI.*数据中心/, /Meta.*AI.*基础设施/,
@@ -368,7 +381,7 @@ const PPIO_KEYWORDS = {
     /AI.*伦理/, /AI.*内容标注/, /生成式AI.*标注/, /短视频.*AI标签/,
   ],
   medium: [
-    /AI.*融资/, /融资.*AI/, /人工智能.*融资/, /AI.*IPO/,
+    /AI.*IPO/,
     /大模型/, /LLM/, /Agent.*平台/, /AI.*Agent/,
     /美国.*AI/, /EU.*AI/, /欧盟.*AI/, /AI.*Act/,
     /云服务/, /云计算.*AI/,
@@ -402,6 +415,9 @@ const PPIO_KEYWORDS = {
     /edge.*computing.*ai/i, /distributed.*inference/i, /ai.*cloud.*china/i,
     /h200.*china/i, /h100.*china/i, /export.*control.*ai/i,
     /baseten/i, /fireworks.*ai/i, /lightning.*ai.*inference/i, /parasail.*ai/i,
+    /anthropic.*ipo/i, /anthropic.*s-1/i, /anthropic.*sec/i,
+    /trump.*ai.*executive/i, /trump.*ai.*order/i, /white.*house.*ai.*order/i,
+    /nvidia.*vera.*rubin/i, /nvidia.*blackwell/i,
   ],
   en_high: [
     /ai.*regulation/i, /ai.*legislation/i, /ai.*safety.*act/i, /eu.*ai.*act/i,
@@ -410,6 +426,7 @@ const PPIO_KEYWORDS = {
     /nvidia.*regulation/i, /semiconductor.*china/i, /chip.*ban/i,
     /ai.*data.*center/i, /cloud.*computing.*ai/i, /ai.*inference/i,
     /trump.*ai/i, /us.*ai.*policy/i, /china.*ai.*competition/i,
+    /moonshot.*ai.*funding/i, /deepseek.*funding/i, /deepseek.*valuation/i,
   ],
   en_medium: [
     /artificial.*intelligence.*funding/i, /machine.*learning.*startup/i,
@@ -479,9 +496,10 @@ function scorePPIORelevance(item) {
     if (/21财经|21世纪经济|21jingji|第一财经|经济观察/.test(item.source || '')) score += 15;
     if (/虎嗅|36氪|量子位|机器之心|aibase/.test(item.source || '')) score += 10;
     if (/VentureBeat|MIT Tech Review|TechCrunch|The Verge|Politico|Axios/.test(item.source || '')) score += 12;
-    // 降权：股票/财经分析媒体
+    // 降权：股票/财经分析媒体（但命中critical关键词时豁免）
+    const isCriticalHit = PPIO_KEYWORDS.critical.some(re => re.test(text));
     if (/同花顺|东方财富|财富号|雪球|股吧|证券时报|证券日报|中国证券报/.test(item.source || '')) score -= 20;
-    if (/新浪财经|搜狐财经|网易财经|腾讯财经/.test(item.source || '')) score -= 10;
+    if (/新浪财经|搜狐财经|网易财经|腾讯财经/.test(item.source || '') && !isCriticalHit) score -= 10;
 
     if (item.published === todayStr()) score += 10;
     else if (item.published >= weekAgoStrPlus(2)) score += 5;
@@ -723,6 +741,20 @@ function buildSearchQueries(config) {
   // Anthropic / DeepSeek 官方动态
   queries.push({ q: 'site:anthropic.com AI safety model 2026', category: '海外' });
   queries.push({ q: 'DeepSeek 大模型 发布 融资 2026', category: '竞品' });
+  // 求是党刊 — 最高规格政策信号
+  queries.push({ q: '求是 习近平 人工智能 未来产业 算力', category: '政策', boost: 30 });
+  queries.push({ q: '求是 部长 人工智能 科技 2026', category: '政策', boost: 25 });
+  // 头部AI融资
+  queries.push({ q: '月之暗面 融资 估值 2026', category: '资本', boost: 20 });
+  queries.push({ q: 'DeepSeek 大基金 融资 估值 2026', category: '资本', boost: 20 });
+  queries.push({ q: 'Moonshot AI funding valuation 2026', category: '资本', boost: 15 });
+  // 海外AI政策重大事件
+  queries.push({ q: 'Trump AI executive order 2026', category: '海外', boost: 20 });
+  queries.push({ q: 'Anthropic IPO SEC filing S-1 2026', category: '海外', boost: 20 });
+  queries.push({ q: 'Nvidia Vera Rubin production 2026', category: '海外', boost: 15 });
+  // 国常会未来产业
+  queries.push({ q: '国务院常务会议 未来产业 2026', category: '政策', boost: 30 });
+  queries.push({ q: '李强 未来产业 国常会 2026', category: '政策', boost: 25 });
 
   // 海外
   queries.push({ q: '英伟达 H200 中国 出口 芯片', category: '海外' });
@@ -941,8 +973,8 @@ async function main() {
   if (existsSync(SEEN_PATH)) {
     try {
       const seenData = JSON.parse(readFileSync(SEEN_PATH, 'utf-8'));
-      // Keep only entries from last 3 days
-      const cutoff = new Date(Date.now() + 8*3600_000 - 3*86400_000).toISOString().slice(0,10);
+      // Keep only entries from last 2 days
+      const cutoff = new Date(Date.now() + 8*3600_000 - 2*86400_000).toISOString().slice(0,10);
       const recent = (seenData.entries || []).filter(e => e.date >= cutoff);
       seenTitles = new Set(recent.map(e => e.key));
     } catch { /* ok */ }
