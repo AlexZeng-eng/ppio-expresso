@@ -164,8 +164,12 @@ function buildFallback(curated) {
     mainline: '今日政策与竞争信号持续跟踪中，详情见各条目分析。',
     signal_summary: signalCounts,
     speed_read: {
-      positive: attend.filter(i => i.ppio_signal?.positive).map(i => i.ppio_signal.positive).slice(0, 3),
-      risk: attend.filter(i => i.ppio_signal?.risk).map(i => i.ppio_signal.risk).slice(0, 3)
+      positive: attend
+        .filter(i => i.ppio_signal?.positive && !i.ppio_signal.positive.includes('待 AI'))
+        .map(i => i.ppio_signal.positive).slice(0, 3),
+      risk: attend
+        .filter(i => i.ppio_signal?.risk && !i.ppio_signal.risk.includes('待 AI'))
+        .map(i => i.ppio_signal.risk).slice(0, 3)
     },
     wind_indicators: {
       policy_heat: signalCounts['🏛️'] >= 2 ? 4 : signalCounts['🏛️'] >= 1 ? 3 : 2,

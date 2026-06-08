@@ -1,212 +1,20 @@
 {
-  "generated_at": "2026-06-08T01:43:54.772Z",
+  "generated_at": "2026-06-08T02:32:44.655Z",
   "week": "2026-W24",
-  "classifier": "deepseek-v4-pro",
+  "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 12,
-  "attend_count": 5,
-  "silent_count": 7,
+  "total_curated": 2,
+  "attend_count": 0,
+  "silent_count": 2,
   "items": [
     {
-      "id": "raw-1",
-      "title": "李强签署国务院令 公布《国务院关于对外投资的规定》",
-      "url": "https://fgw.sh.gov.cn/fgw_fzggdt/20260605/fb532093047e439c8dba2d354c7f6b28.html",
-      "source": "上海市发改委",
-      "published": "2026-06-05",
-      "body_snippet": "",
-      "category": "政策",
-      "lane": "attend",
-      "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1"
-      ],
-      "summary_cn": "李强总理签署国务院令，正式公布《国务院关于对外投资的规定》。新规对境内企业境外投资行为作出系统性规范，预计在备案、审批、真实性合规等方面进一步强化监管，尤其关注大额非主业投资及敏感行业对外投资。这标志着中国对外投资监管进入更精细化的阶段。\n对PPIO而言，公司正处于香港IPO关键阶段，需全面审视该规定对上市架构、资金出境及后续境外融资的影响。积极方面，法规的清晰化有助于降低IPO过程中的政策不确定性，促使投行与律师更准确地进行合规安排。风险在于，若规定强化了对红筹架构或VIE模式企业的对外投资审查，可能牵涉PPIO境外主体设立与资金流动，需提前准备解释口径与备案材料，避免延误上市时间表。",
-      "ppio_signal": {
-        "positive": "对外投资规则明朗化，为港股IPO合规路径提供稳定的政策预期，有利于投行梳理架构。",
-        "risk": "新规可能收紧对境外上市涉及的投资监管，增加VIE结构备案与资金出境审批的不确定性，或延长上市筹备周期。"
-      }
-    },
-    {
-      "id": "raw-2",
-      "title": "豆包专业版将至：免费与付费之间 字节遇算力焦虑 - cnBeta.COM",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBySUV0LUVvN0E5T0F5R3ZEcTR1V1VRdngzcDFwYXpMUDJybWVKT1pGNlVvUWxDckhNbDYxbi1SZGdSVzRhM0NlVWFibWNzY2tWWFE?oc=5",
-      "source": "cnBeta.COM",
-      "category": "技术",
-      "published": "2026-06-04",
-      "body_snippet": "豆包专业版将至：免费与付费之间 字节遇算力焦虑 cnBeta.COM",
-      "_query_boost": 15,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "字节旗下豆包专业版遭遇算力瓶颈，凸显大模型推理侧算力需求的爆发式增长，对边缘分布式算力构成需求侧利好。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-3",
-      "title": "科技部部长阴和俊：以高水平科技自立自强引领未来产业发展 - 经济形势报告网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE54UzlvTC15OFJNTkptOWZtU2lyZ2phcEduV3BVX0hJU1R5a05kZDZDUzBoOElOazIxWjVfNUY0X3M4bzdJaUdxQ2hRdW1Yb0dJclhSQldqVUxkcWx0aUdHNWNn?oc=5",
-      "source": "经济形势报告网",
-      "category": "政策",
-      "published": "2026-06-02",
-      "body_snippet": "科技部部长阴和俊：以高水平科技自立自强引领未来产业发展 经济形势报告网",
-      "_query_boost": 35,
-      "lane": "attend",
-      "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1"
-      ],
-      "summary_cn": "科技部部长阴和俊公开强调以高水平科技自立自强引领未来产业发展，明确将自主创新作为未来产业发展的核心驱动力，预计后续会在算力基础设施、人工智能等领域出台更多国产化支持政策，强化关键技术的自主掌控能力。\nPPIO的边缘云分布式算力网络高度契合国家科技自立自强战略，尤其是其在异构算力纳管与低延迟推理方面的自主技术积累，有望被纳入未来产业重点支持目录，获得政策资源倾斜。同时，来自客户的自主可控要求可能加速政企市场对PPIO此类国产技术方案的采购。风险在于，政策对自主率的硬性指标可能提高研发投入门槛，并带来更频繁的技术审查，需要在开源组件依赖与自主知识产权之间做好平衡。",
-      "ppio_signal": {
-        "positive": "分布式边缘算力平台符合科技自立自强主线，有望获得政府项目试点、补贴及优先采购等政策红利。",
-        "risk": "自主可控要求趋严可能迫使PPIO加大自研投入，并应对外部技术依赖的合规性挑战，对短期现金流形成压力。"
-      }
-    },
-    {
-      "id": "raw-4",
-      "title": "中信建投：算力板块当前尚未达到中期大级别切换标准，主要是短期再平衡需求",
-      "url": "https://36kr.com/newsflashes/3843791725299976?f=rss",
-      "source": "36氪",
-      "published": "2026-06-08",
-      "body_snippet": "",
-      "category": "资本",
-      "lane": "silent",
-      "signals": [
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "中信建投认为算力板块尚未达到中期大级别切换条件，短期表现为再平衡，或影响算力企业短期估值情绪。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-1",
-      "title": "从AI Infra到Agentic Infra！华为云极致重构AI算力底座 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FNHUzYzR0Tm4wRDkydHh0Nm44Qjl0T1hUcDg5YW5CWUpiVkpSYUo5QVhlXzg2ZnpwZVZqdDREYjZZczNYQXpEMFJBZFB4NmNSQ3RvOFpHYUpydnJGd3NUUkNReTg1VXM5T0g1dml3?oc=5",
-      "source": "中华网",
-      "category": "竞品",
-      "published": "2026-06-07",
-      "body_snippet": "从AI Infra到Agentic Infra！华为云极致重构AI算力底座 中华网",
-      "_query_boost": 0,
-      "lane": "attend",
-      "signals": [
-        "⚔️"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "华为云提出从AI Infra向Agentic Infra演进，极致重构AI算力底座，强调面向智能体时代的架构升级。该战略表明头部云厂商正在定义下一代AI基础设施的标准，将算力服务从模型训练/推理推向更复杂的智能体工作负载。对PPIO而言，华为云作为大型中心云厂商，其基础设施路线升级可能牵引行业技术方向，但也可能挤压边缘云与分布式算力的差异化空间；PPIO需突出分布式、低时延的边缘优势，避免在中心侧标准上被动跟随。",
-      "ppio_signal": {
-        "positive": "AI Infra向Agentic Infra演进，可能带来边缘侧智能体部署的新需求，PPIO的分布式节点适合处理实时、低延迟的agent任务。",
-        "risk": "华为云凭借品牌和生态优势定义下一代算力架构，可能使客户更倾向于集中式方案，削弱边缘云的使用场景。"
-      }
-    },
-    {
-      "id": "raw-2",
-      "title": "【深圳特区报】算力服务加速走向普惠化和商业化 三大通信服务商齐推“词元套餐” - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSHZkZDB1TzUwd3YtWDlLM1V5eHJDQ3NDR19NN0NseXJ1M2xoRGkwNWpuWjdlLXdyMk5YTVB0XzJtY0lHUEoxRGZXVVBMREVTYjNDWVpzSTRvWGxVTTR1amU3UktwczNDT2NvLUxtMjRyU1RlbjRfX3JNSENBSWdNMnZZLUphdHlnMWx2cQ?oc=5",
-      "source": "搜狐网",
-      "category": "竞品",
-      "published": "2026-06-06",
-      "body_snippet": "【深圳特区报】算力服务加速走向普惠化和商业化 三大通信服务商齐推“词元套餐” 搜狐网",
-      "_query_boost": 0,
-      "lane": "attend",
-      "signals": [
-        "⚔️"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "三大通信运营商联合推出“词元套餐”，以标准化的词元计费模式将算力服务进一步商品化、普惠化。这体现了算力商业化的加速，运营商依托庞大网络和政企客户基础，将算力渗透至中小企业。对PPIO来说，运营商加入算力服务赛道，尤其是套餐化销售，可能迅速拉低单价并抢占市场；但同时也教育了市场，证明分布式算力商业化的可行性。PPIO需在边缘节点密度和灵活性上强化优势，并关注运营商边缘云布局带来的直接竞争。",
-      "ppio_signal": {
-        "positive": "算力服务普惠化和套餐化，加速市场接受度，利于PPIO作为分布式算力平台吸引中小客户。",
-        "risk": "三大运营商拥有网络和客户关系，若其边缘云推出类似套餐，将对PPIO形成包围式竞争。"
-      }
-    },
-    {
-      "id": "raw-3",
-      "title": "英伟达：接到中国订单…重启H200生产 - 朝鮮日報中文版",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSGpBZ3lBa05MTWg3MVAzX1BETVZZd2tTOU5NUUZWSDFQdEdCTjRpRkMtTlQyTUltb1hCbVpJOTlFMjZTWTN5SzlnTHd5TGZLWkIwWlBXMEdtNkZvLUF1NGcxWHJOXy1yLWRYTGlnNmNwUklSckZFNW9kNWNYcXFsS0tEVm16NlNhdDhXNjBB?oc=5",
-      "source": "朝鮮日報中文版",
-      "category": "海外",
-      "published": "2026-06-05",
-      "body_snippet": "英伟达：接到中国订单…重启H200生产 朝鮮日報中文版",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🌏",
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c3"
-      ],
-      "summary_cn": "英伟达接到中国客户订单后重启H200生产，预示着高性能算力芯片可能以某种合规方式继续流入中国市场，短期有助于缓解国内AI算力短缺。"
-    },
-    {
-      "id": "raw-4",
-      "title": "AI终结云计算价格战，优刻得如何借算力在海外杀出重围？｜高管访谈 - 国际金融报",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5NblNuc25rdEJnNXFGMzdZUENqWVVtYmhLWFNQamQxTWtkMkRlVElUWDhTX00zYkw0Mk1HRndfeHRXdHZ6dDBsOUE3eFh1MUs2eEt0cDRCbndXd0s2Z3FF?oc=5",
-      "source": "国际金融报",
-      "category": "竞品",
-      "published": "2026-06-04",
-      "body_snippet": "AI终结云计算价格战，优刻得如何借算力在海外杀出重围？｜高管访谈 国际金融报",
-      "_query_boost": 0,
-      "lane": "attend",
-      "signals": [
-        "⚔️"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "优刻得高管称AI已终结云计算价格战，公司正凭借算力服务在海外市场突围。这表明独立云厂商正从价格竞争转向AI算力驱动的差异化出海战略。对PPIO而言，优刻得是直接竞品，其海外算力扩张可能与PPIO的全球化边缘节点布局产生重叠；双方在海外市场的定位、合规能力及客户获取模式值得紧盯，PPIO需加快IPO以获取资本弹药，并在海外市场建立先发优势。",
-      "ppio_signal": {
-        "positive": "竞品转向AI算力和出海，验证了算力服务作为增长引擎的逻辑，为PPIO的IPO故事提供市场参考。",
-        "risk": "优刻得已明确海外扩张，可能在共争的海外中小企业客户群中与PPIO正面交锋，抢夺早期市场份额。"
-      }
-    },
-    {
-      "id": "raw-001",
-      "title": "Mistral AI全面转型全栈服务商，筑起欧洲算力与定制化护城河 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE94MFIzcG5feWdGZDZkRktQQ2NuVFoyT1NhTDhMb0NSY0pXQkxnM0tsNEU2X1pPSWRER3U0NkJjYUtpblNBcFlSMkpaRzJ3Zw?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-06-02",
-      "body_snippet": "Mistral AI全面转型全栈服务商，筑起欧洲算力与定制化护城河 AIBase",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🌏",
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c3"
-      ],
-      "summary_cn": "Mistral AI从模型商转向全栈服务商，重点布局欧洲算力与定制化方案，强化数据主权护城河。这可能引发全球AI服务商向“算力+模型”一体化演进，对PPIO的垂直整合模式形成远期对标压力。",
-      "ppio_signal": null
-    },
-    {
       "id": "raw-002",
-      "title": "算力租赁商全面上调价格，AI算力供需矛盾加剧 - 北京研精毕智",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9fTi1xdTNwcjMxenNJY21rSmtPRWdzdmwxR0lMb19mcG55R3JJT2F0UFYxTVpwSnZsOF9yRFd5WWJoODZOeWM5SXBRZjkzZw?oc=5",
-      "source": "北京研精毕智",
-      "category": "技术",
-      "published": "2026-06-02",
-      "body_snippet": "算力租赁商全面上调价格，AI算力供需矛盾加剧 北京研精毕智",
+      "title": "算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxOM2JqTXVPRTljM3hwbWo1Y2FPenMwelZMbVNJNmFGUDVJLXFkNTNIMXNac0o0c185aTZjVzQ5Nk1kaVJ1SXo5TlpHNGV4UTI3ZUNtRGI3TGRYX2o4NnRYS2R1azQ4WTVPVjc1RU80S202NVZGU1d6bDdUdWpzclRLS2tmNTEyU2xHU1A0dmN0aEltUWxaWXlZOXRHZGdxZlpaN1otcjBTbGdsWTV3ZGttR1dCamVXU0pRcDRkaXZLRGlCelBFOW5pblR4ZXZ5ODc0dUhtdTZEdlBKQzVIQnpRVWpnWDllZzdVNjRHaE1BdlhIN0RUMTlEdlJTLXd4UXFVNzdWMFh5b1Q5UEoyWTNGQWNxQk1YQmNSUmZLM1lydno3OC1pbXhMSEQtclVHS3dtNEZJdXQybUVYdGhGeVBqeXpWMm5QOHlmRGZOTFU3MmtDSzRVczVNTlcyYW9BdWs0azVndEN6UnZYQnRrcHJB?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-06-04",
+      "body_snippet": "算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 新浪财经",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
@@ -214,39 +22,22 @@
       ],
       "is_deep_read": false,
       "compass_triggered": [
-        "c1"
+        "c1",
+        "c2",
+        "c3"
       ],
-      "summary_cn": "多家算力租赁商上调价格，AI算力供需缺口扩大，边缘云平台面临资源成本上升与客户算力需求激增的双重挤压。",
-      "ppio_signal": null
+      "summary_cn": "算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 - 新浪财经 算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规",
+      "ppio_signal": null,
+      "_classified_by": "rule"
     },
     {
       "id": "raw-003",
-      "title": "中国军方及“国防七子”机构长期设法获得英伟达芯片受关注 - RFI",
-      "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxNSEtmbnNicDJIamFSSnhudzhjWFNYQTFIbHV5VEZqZHZNTGxVQmQ2Tjk4ZFN1c3Q5dkJMQTZRVHFXbk1oYURPMFBxM1lxbEpwN3MyQVpqNUFPc3ZnSDFVTENvOFJBbmZfQl8xMkFYMkd2N3pIR0ZwQ3hZZVhpaGNmWHRYVndtVjdHSHEycnptSTU2bkNLRnZmQTN0a2I3eVhURnZUVTI3OU9QMkNkd0s5aE5IVThPenlHTlN3TlF0OEVGSFB0U0REX1NSN2J1T0ZjOHJIWU1jVUJmdG5sd2tLS2hndGZacWkxSTF6NlRNRzJGWkpzLVdDb1JUWVU0SVNjVHVNQnF1YW5JRk5RMEU1TUJHZ0tQaXl2cERCUU1pZURkSXdLYV92Q3dOSG9kYnVpUEE4SHJfbGtjUnZLSkE3U0cxakRSZl9SeUV1YjYtTGFNeHdHZnRHejgxeW1MVERGUlBXNTdBakFlTHRSNTJNTFFoRW13RE1ENDhpNFRXRF9BVFdkMF9ZdExYOTBtdHBkZGY5UjktcFQ2Z0g3eEFDVDBienJRU182WG9xU2k0aGR3UQ?oc=5",
-      "source": "RFI",
-      "category": "海外",
-      "published": "2026-06-02",
-      "body_snippet": "中国军方及“国防七子”机构长期设法获得英伟达芯片受关注 RFI",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🌏"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c3"
-      ],
-      "summary_cn": "外媒持续关注中国军事背景机构获取英伟达芯片，或催化美国对华芯片出口管制再度收紧，PPIO的海外先进GPU供应链面临不确定性。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-004",
-      "title": "浙大&amp;阿里联合发布大模型Agent资源分配新范式|计算机科学|阿里云|Token|开源模型|经济_手机新浪网 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOWXhlb3E2ZjBJbVVXbU9TbnZBbU9Rcmo0aUpfbERiTXF5elA2WjQ4VURVSnh2ckRzOVFwSENDMzF4cEZoYXBPZk1FRHhrWUpyR1NHRTYyX0NvZXJ3SjdOdkxLNVFKUWtlLTZaZ3BHbEJJWEt0VTRoNThOS3NLRWZnbHRVTlZfR2tyeVBzTldNaFJnSlhIOW51Mk5QQ2xZd3hvQ2o2LW1QbTBTdGN1VG9yUUNvdUJqNENGLUxualJNSzFKMUJ6LU8zdUtLVWQwTGpFQUNRVEQ5NVFrWUpidUJKUllLWkxVRDgxVDZKcTBEWERUSENLYVVWdEw1Y3pheE9PNENsRklPQ1FEYkRvbTlhLWl3d1hUTW5HVG5hRmdieW8zVkJYRmhRZDZTVU5hZUJSNDI1TWhJZzVQNXhYUGh2Vw?oc=5",
+      "title": "工信部重磅推出“算力银行”，中小企业算力使用门槛降低 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxPY0tmcHFRM1hXWHRpbVBKdmc3ZEFEMXZaU19obEZaQ1JNVkJVajVHcmt2R1h4RTFELW9kZm9fTHl4SlpLeG1Vekp0d1hRUjhSZ0lnV19nLTBYeWtlTk5MRVVDTWotTGduMzZuQTNwbUIzRXJKY3JVUDRMd295WXNoR3l1RHRIbXNOSk54VUFlTkM1c3k5MHRYZTd0Q0M5U3BMOTRMcUhPYmdSNEc5WE9PQUt0ZHhiZVE1Qk10OUZneUJzX21yZXRqT0JacTFyMDVzeVBxaHZQSXFBLWZXcDlNTHBvRjV6T1RRbTczWlY2aE5jTllsNENTUks3VEE3LUZpZFM2UlpEM2JqQzl3eVctblpoc2k3ZjR3N3lOSlFMemROem5XNVhybGltc3FGU18yWnp1bzR1cEZpYXJCVTY0SVJ0UVdkTTN3MU1JQ2lCRUlGT0RvRTNWMERnd1lDcE83Q3dtQ2xaZHhlYXBvX01DRVNSdXNkd1FLbTBoc1Q0R3RHZGVRLXFNVER2eG8xQVhVM2N3alJpb3NjeVZEbW03MnJHSG9XZXBFS1RaM3NfanpJREVUaG9WdkZVZEJ5VnltLXJPblVKdnBkeGlEY0FQa1R5Mm1HekVNVXQzZDJrcnpSUm1fNWNNV0JTeUR1M3ZxMlZHSzNHOEZwd2JsNXc?oc=5",
       "source": "新浪财经",
-      "category": "技术",
-      "published": "2026-06-05",
-      "body_snippet": "浙大&阿里联合发布大模型Agent资源分配新范式|计算机科学|阿里云|Token|开源模型|经济_手机新浪网 新浪财经",
+      "category": "政策",
+      "published": "2026-06-03",
+      "body_snippet": "工信部重磅推出“算力银行”，中小企业算力使用门槛降低 新浪财经",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
@@ -254,10 +45,13 @@
       ],
       "is_deep_read": false,
       "compass_triggered": [
+        "c1",
+        "c2",
         "c3"
       ],
-      "summary_cn": "浙大与阿里提出大模型Agent资源分配新范式，通过算法优化提升Token效率，可能为边缘侧算力调度提供更轻量、高响应比的路径。",
-      "ppio_signal": null
+      "summary_cn": "工信部重磅推出“算力银行”，中小企业算力使用门槛降低 - 新浪财经 工信部重磅推出“算力银行”，中小企业算力使用门槛降低 新浪财经",
+      "ppio_signal": null,
+      "_classified_by": "rule"
     }
   ]
 }

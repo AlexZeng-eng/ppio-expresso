@@ -278,17 +278,17 @@ function renderSpeedRead(synthesis) {
     <div class="speed-read-grid">
       <div class="speed-card signal-positive">
         <h4>🟢 利好信号</h4>
-        <ul>${(sr.positive || []).map(s => `<li>${esc(s)}</li>`).join('')}</ul>
+        <ul>${(sr.positive || []).filter(s => s && !s.includes('待 AI')).map(s => `<li>${esc(s)}</li>`).join('') || '<li class="muted">今日无重大利好信号</li>'}</ul>
       </div>
       <div class="speed-card signal-risk">
         <h4>🔴 风险信号</h4>
-        <ul>${(sr.risk || []).map(s => `<li>${esc(s)}</li>`).join('')}</ul>
+        <ul>${(sr.risk || []).filter(s => s && !s.includes('待 AI')).map(s => `<li>${esc(s)}</li>`).join('') || '<li class="muted">今日无重大风险信号</li>'}</ul>
       </div>
     </div>
   </section>`;
 }
 
-function renderAnalysisPanel(synthesis, curated) {
+function renderAnalysisPanel(synthesis, curated, archive) {
   const idx = synthesis.ppio_index || {};
   const score = idx.score ?? '—';
   const delta = idx.delta ?? 0;
@@ -303,58 +303,133 @@ function renderAnalysisPanel(synthesis, curated) {
   const sentiment = w.overall_sentiment || '—';
   const sentFg = sentimentColor[sentiment] || '#555';
 
+  // Archive data for trend + history tabs
+  const days = (archive?.days || []).slice(0, 90);
+  const trend30 = days.slice(0, 30).reverse();
+  const trendDates = JSON.stringify(trend30.map(d => d.date.slice(5)));
+  const trendAttend = JSON.stringify(trend30.map(d => d.item_count?.attend || 0));
+  const trendIndex = JSON.stringify(trend30.map(d => d.ppio_index?.score ?? null));
+  const trendPolicy = JSON.stringify(trend30.map(d => d.wind_indicators?.policy_heat || 0));
+  const trendCompete = JSON.stringify(trend30.map(d => d.wind_indicators?.competitor_heat || 0));
+
+  // History table rows
+  const historyRows = days.map(d => {
+    const signals = Object.entries(d.signal_summary || {})
+      .filter(([, v]) => v > 0).map(([k, v]) => `${k}×${v}`).join(' ');
+    const counts = d.item_count || {};
+    const idxScore = d.ppio_index?.score;
+    const idxDelta = d.ppio_index?.delta;
+    const deltaHtml = idxDelta != null
+      ? (idxDelta > 0 ? `<span style="color:#16a34a;font-size:0.75rem">+${idxDelta}</span>`
+      : idxDelta < 0 ? `<span style="color:#dc2626;font-size:0.75rem">${idxDelta}</span>` : '') : '';
+    const sent = d.wind_indicators?.overall_sentiment || '';
+    const sentC = sentimentColor[sent] || '#888';
+    return `<tr>
+      <td><a href="reports/${esc(d.date)}.html" target="_blank">${esc(d.date)}</a></td>
+      <td class="hist-mainline">${esc(d.mainline || '')}</td>
+      <td style="white-space:nowrap">${esc(signals)}</td>
+      <td>${counts.attend || 0}/${counts.total || 0}</td>
+      <td>${idxScore != null ? `${idxScore}${deltaHtml}` : '—'}</td>
+      <td><span style="color:${sentC};font-weight:600;font-size:0.78rem">${esc(sent)}</span></td>
+    </tr>`;
+  }).join('\n');
+
   return `<main class="feed analysis-panel">
-  <!-- 顶部指数摘要 -->
-  <div class="analysis-summary">
-    <div class="ppio-index-card">
-      <div class="ppio-index-label">PPIO 战略环境指数</div>
-      <div class="ppio-index-score">${score}<span class="ppio-index-delta" style="color:${deltaColor}">${deltaStr}</span></div>
-      <div class="ppio-index-interp">${esc(interp)}</div>
+
+  <!-- 分析子 tab -->
+  <nav class="analysis-tabs" role="tablist">
+    <button class="atab is-active" data-atab="today" role="tab">今日分析</button>
+    <button class="atab" data-atab="trend" role="tab">30天趋势</button>
+    <button class="atab" data-atab="history" role="tab">历史存档</button>
+  </nav>
+
+  <!-- 今日分析 -->
+  <div class="atab-panel" id="atab-today">
+    <div class="analysis-summary">
+      <div class="ppio-index-card">
+        <div class="ppio-index-label">PPIO 战略环境指数</div>
+        <div class="ppio-index-score">${score}<span class="ppio-index-delta" style="color:${deltaColor}">${deltaStr}</span></div>
+        <div class="ppio-index-interp">${esc(interp)}</div>
+      </div>
+      <div class="ppio-index-card">
+        <div class="ppio-index-label">今日整体风向</div>
+        <div class="ppio-index-score" style="color:${sentFg}">${esc(sentiment)}</div>
+        <div class="ppio-index-interp">${esc(w.summary || '')}</div>
+      </div>
     </div>
-    <div class="ppio-index-card">
-      <div class="ppio-index-label">本周整体风向</div>
-      <div class="ppio-index-score" style="color:${sentFg}">${esc(sentiment)}</div>
-      <div class="ppio-index-interp">${esc(w.summary || '')}</div>
-    </div>
+    <section class="analysis-section">
+      <h2 class="analysis-title">机会-威胁象限图</h2>
+      <p class="analysis-desc">点大小 = 重要程度 · 颜色 = 新闻类别 · 悬停查看详情</p>
+      <div class="chart-wrap chart-wrap--quadrant">
+        <div class="quadrant-bg">
+          <span class="ql ql-tl">⚠ 险境</span>
+          <span class="ql ql-tr">🔴 红海</span>
+          <span class="ql ql-bl">🌱 机遇</span>
+          <span class="ql ql-br">🟢 蓝海</span>
+        </div>
+        <canvas id="chart-quadrant"></canvas>
+      </div>
+      <div class="chart-legend" id="quadrant-legend"></div>
+    </section>
+    <section class="analysis-section">
+      <h2 class="analysis-title">PPIO 指数成分分解</h2>
+      <p class="analysis-desc">各因子对今日综合指数的贡献（绿=正向，红=负向）</p>
+      <div class="chart-wrap chart-wrap--bar"><canvas id="chart-index"></canvas></div>
+    </section>
+    <section class="analysis-section">
+      <h2 class="analysis-title">今日 Attend 信号分布</h2>
+      <p class="analysis-desc">深度处理条目按类别分布</p>
+      <div class="chart-wrap chart-wrap--donut"><canvas id="chart-signals"></canvas></div>
+    </section>
   </div>
 
-  <!-- 象限图 -->
-  <section class="analysis-section">
-    <h2 class="analysis-title">机会-威胁象限图</h2>
-    <p class="analysis-desc">点大小 = 重要程度 · 颜色 = 新闻类别 · 悬停查看详情</p>
-    <div class="chart-wrap chart-wrap--quadrant">
-      <div class="quadrant-bg">
-        <span class="ql ql-tl">⚠ 险境</span>
-        <span class="ql ql-tr">🔴 红海</span>
-        <span class="ql ql-bl">🌱 机遇</span>
-        <span class="ql ql-br">🟢 蓝海</span>
+  <!-- 30天趋势 -->
+  <div class="atab-panel" id="atab-trend" style="display:none">
+    ${trend30.length < 2 ? '<p style="color:var(--ink-mute);font-family:var(--sans);font-size:0.84rem;padding:2rem 0">数据积累中，至少需要2天历史数据</p>' : `
+    <div class="trend-grid">
+      <div class="trend-card">
+        <p class="trend-card-title">PPIO 战略环境指数</p>
+        <div style="height:160px"><canvas id="chart-trend-index"></canvas></div>
       </div>
-      <canvas id="chart-quadrant"></canvas>
+      <div class="trend-card">
+        <p class="trend-card-title">每日 Attend 条数</p>
+        <div style="height:160px"><canvas id="chart-trend-attend"></canvas></div>
+      </div>
+      <div class="trend-card">
+        <p class="trend-card-title">政策热度</p>
+        <div style="height:160px"><canvas id="chart-trend-policy"></canvas></div>
+      </div>
+      <div class="trend-card">
+        <p class="trend-card-title">竞争热度</p>
+        <div style="height:160px"><canvas id="chart-trend-compete"></canvas></div>
+      </div>
     </div>
-    <div class="chart-legend" id="quadrant-legend"></div>
-  </section>
+    <script id="trend-data" type="application/json">${JSON.stringify({
+      dates: trend30.map(d => d.date.slice(5)),
+      attend: trend30.map(d => d.item_count?.attend || 0),
+      index: trend30.map(d => d.ppio_index?.score ?? null),
+      policy: trend30.map(d => d.wind_indicators?.policy_heat || 0),
+      compete: trend30.map(d => d.wind_indicators?.competitor_heat || 0)
+    })}</script>`}
+  </div>
 
-  <!-- 指数成分 -->
-  <section class="analysis-section">
-    <h2 class="analysis-title">PPIO 指数成分分解</h2>
-    <p class="analysis-desc">各因子对本周综合指数的贡献（绿=正向，红=负向）</p>
-    <div class="chart-wrap chart-wrap--bar">
-      <canvas id="chart-index"></canvas>
-    </div>
-  </section>
-
-  <!-- 信号分布 -->
-  <section class="analysis-section">
-    <h2 class="analysis-title">本周 Attend 信号分布</h2>
-    <p class="analysis-desc">深度处理条目按类别分布</p>
-    <div class="chart-wrap chart-wrap--donut">
-      <canvas id="chart-signals"></canvas>
-    </div>
-  </section>
+  <!-- 历史存档 -->
+  <div class="atab-panel" id="atab-history" style="display:none">
+    <p style="font-family:var(--sans);font-size:0.82rem;color:var(--ink-mute);margin:0 0 1rem">共 ${days.length} 天记录</p>
+    ${days.length === 0
+      ? '<p style="color:var(--ink-mute);font-family:var(--mono);font-size:0.82rem">暂无存档</p>'
+      : `<div style="overflow-x:auto">
+      <table class="hist-table">
+        <thead><tr>
+          <th>日期</th><th>当日主线</th><th>信号</th><th>深度/总</th><th>指数</th><th>风向</th>
+        </tr></thead>
+        <tbody>${historyRows}</tbody>
+      </table></div>`}
+  </div>
 </main>`;
 }
 
-function renderHTML(curated, synthesis) {
+function renderHTML(curated, synthesis, archive) {
   const week = curated.week || '';
   const items = curated.items || [];
   const attend = items.filter(i => i.lane === 'attend');
@@ -443,6 +518,7 @@ function renderHTML(curated, synthesis) {
   .signal-positive h4 { color: #3d6b3d; }
   .signal-risk { background: #fdf3f0; border: 1px solid #f0d0c8; }
   .signal-risk h4 { color: #8f3b27; }
+  .speed-card ul li.muted { color: #999; font-style: italic; list-style: none; }
   .signal-watch { background: #fdfaf0; border: 1px solid #e8dcc0; }
   .signal-watch h4 { color: #8f7020; }
   .signal-action { background: #f0f4fa; border: 1px solid #c8d4e8; }
@@ -575,7 +651,44 @@ function renderHTML(curated, synthesis) {
     margin: 0;
   }
 
-  /* ── View tabs (本周 / 分析) ── */
+  /* ── Analysis sub-tabs ── */
+  .analysis-tabs {
+    display: flex;
+    gap: 0;
+    border-bottom: 1px solid var(--rule-soft);
+    margin-bottom: 1.4rem;
+  }
+  .atab {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 0.45rem 1rem;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    background: none;
+    color: var(--ink-mute);
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .atab:hover { color: var(--ink); }
+  .atab.is-active { color: var(--accent, #2a5080); border-bottom-color: var(--accent, #2a5080); }
+
+  /* ── History table ── */
+  .hist-table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.82rem; }
+  .hist-table th { font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-mute); border-bottom: 2px solid var(--ink); padding: 0.35rem 0.5rem; text-align: left; }
+  .hist-table td { padding: 0.45rem 0.5rem; border-bottom: 1px solid var(--rule-soft); vertical-align: top; color: var(--ink-soft); }
+  .hist-table tr:hover td { background: var(--bg-soft); }
+  .hist-table a { color: var(--ink); font-weight: 600; text-decoration: none; }
+  .hist-table a:hover { text-decoration: underline; }
+  .hist-mainline { max-width: 320px; line-height: 1.4; font-size: 0.8rem; }
+
+  /* ── Trend grid ── */
+  .trend-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 0.5rem; }
+  @media (max-width: 600px) { .trend-grid { grid-template-columns: 1fr; } }
+  .trend-card { background: var(--bg-soft); border: 1px solid var(--rule-soft); border-radius: 6px; padding: 0.9rem 1rem; }
+  .trend-card-title { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-mute); letter-spacing: 0.04em; text-transform: uppercase; margin: 0 0 0.6rem; }
   .view-tabs {
     display: flex;
     gap: 0;
@@ -740,7 +853,7 @@ ${renderTabs(curated)}
 
 <!-- 分析视图 -->
 <div id="view-analysis" class="view-panel" style="display:none">
-  ${renderAnalysisPanel(synthesis, curated)}
+  ${renderAnalysisPanel(synthesis, curated, archive)}
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
@@ -755,7 +868,23 @@ ${renderTabs(curated)}
         tab.classList.add('is-active'); tab.setAttribute('aria-selected','true');
         const v = tab.dataset.view;
         viewPanels.forEach(p => { p.style.display = p.id === 'view-' + v ? '' : 'none'; });
-        if (v === 'analysis') initCharts();
+        if (v === 'analysis') { initAnalysisTab('today'); }
+      });
+    });
+  })();
+
+  // ── Analysis sub-tabs ──
+  (function() {
+    const atabs = document.querySelectorAll('.atab');
+    atabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        atabs.forEach(t => t.classList.remove('is-active'));
+        tab.classList.add('is-active');
+        const id = tab.dataset.atab;
+        document.querySelectorAll('.atab-panel').forEach(p => {
+          p.style.display = p.id === 'atab-' + id ? '' : 'none';
+        });
+        initAnalysisTab(id);
       });
     });
   })();
@@ -779,13 +908,64 @@ ${renderTabs(curated)}
   })();
 
   // ── Analysis charts ──
-  let chartsInit = false;
-  function initCharts() {
-    if (chartsInit) return;
-    chartsInit = true;
+  const chartsInited = {};
+  function initAnalysisTab(tab) {
+    if (chartsInited[tab]) return;
+    chartsInited[tab] = true;
 
     const SYNTHESIS = ${JSON.stringify(synthesis)};
     const ITEMS = ${JSON.stringify(curated.items || [])};
+
+    if (tab === 'today') {
+      initCharts(SYNTHESIS, ITEMS);
+    } else if (tab === 'trend') {
+      initTrendCharts();
+    }
+  }
+
+  function initTrendCharts() {
+    const el = document.getElementById('trend-data');
+    if (!el) return;
+    const d = JSON.parse(el.textContent);
+    const baseOpts = () => ({
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { display: false }, ticks: { font: { size: 10 }, maxTicksLimit: 8 } },
+        y: { grid: { color: '#f0f0f0' }, ticks: { font: { size: 11 } } }
+      }
+    });
+    if (document.getElementById('chart-trend-index')) {
+      new Chart(document.getElementById('chart-trend-index'), {
+        type: 'line',
+        data: { labels: d.dates, datasets: [{ data: d.index, borderColor: '#2563eb', backgroundColor: '#2563eb22', fill: true, tension: 0.3, pointRadius: 3 }] },
+        options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:100,grid:{color:'#f0f0f0'},ticks:{font:{size:11}}} } }
+      });
+    }
+    if (document.getElementById('chart-trend-attend')) {
+      new Chart(document.getElementById('chart-trend-attend'), {
+        type: 'bar',
+        data: { labels: d.dates, datasets: [{ data: d.attend, backgroundColor: '#2563ebcc', borderRadius: 3 }] },
+        options: baseOpts()
+      });
+    }
+    if (document.getElementById('chart-trend-policy')) {
+      new Chart(document.getElementById('chart-trend-policy'), {
+        type: 'line',
+        data: { labels: d.dates, datasets: [{ data: d.policy, borderColor: '#16a34a', backgroundColor: '#16a34a22', fill: true, tension: 0.3, pointRadius: 3 }] },
+        options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#f0f0f0'},ticks:{font:{size:11},stepSize:1}} } }
+      });
+    }
+    if (document.getElementById('chart-trend-compete')) {
+      new Chart(document.getElementById('chart-trend-compete'), {
+        type: 'line',
+        data: { labels: d.dates, datasets: [{ data: d.compete, borderColor: '#d97706', backgroundColor: '#d9770622', fill: true, tension: 0.3, pointRadius: 3 }] },
+        options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#f0f0f0'},ticks:{font:{size:11},stepSize:1}} } }
+      });
+    }
+  }
+
+  function initCharts(SYNTHESIS, ITEMS) {
 
     // 1. 象限图 — 机会-威胁矩阵
     (function() {
@@ -959,21 +1139,23 @@ async function main() {
     console.warn('  ⚠ No synthesis file found, rendering without speed-read section');
   }
 
-  const html = renderHTML(curated, synthesis);
+  // Update archive first so it's available for renderHTML
+  const archive = updateArchive(curated, synthesis);
+
+  const html = renderHTML(curated, synthesis, archive);
   writeFileSync(OUT_PATH, html, 'utf-8');
   console.log(`  ✓ Rendered index.html (${(html.length / 1024).toFixed(1)} KB) → ${OUT_PATH}`);
   console.log(`    ${curated.attend_count} attend items, ${curated.silent_count} silent items`);
 
   // Save daily report to reports/YYYY-MM-DD.html
-  const today = new Date().toISOString().slice(0, 10);
+  const today = new Date(Date.now() + 8 * 3600_000).toISOString().slice(0, 10);
   const REPORTS_DIR = resolve(ROOT, 'reports');
   if (!existsSync(REPORTS_DIR)) mkdirSync(REPORTS_DIR);
   const dailyPath = resolve(REPORTS_DIR, `${today}.html`);
   writeFileSync(dailyPath, html, 'utf-8');
   console.log(`  ✓ Saved daily report → reports/${today}.html`);
 
-  // Update archive data + render archive.html
-  const archive = updateArchive(curated, synthesis);
+  // Render archive.html (standalone page still available for external links)
   const archiveHtml = renderArchiveHTML(archive);
   const ARCHIVE_HTML_PATH = resolve(ROOT, 'archive.html');
   writeFileSync(ARCHIVE_HTML_PATH, archiveHtml, 'utf-8');
