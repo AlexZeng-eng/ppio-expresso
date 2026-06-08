@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-08T02:32:44.655Z",
+  "generated_at": "2026-06-08T06:23:11.332Z",
   "week": "2026-W24",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 2,
-  "attend_count": 0,
-  "silent_count": 2,
+  "total_curated": 6,
+  "attend_count": 6,
+  "silent_count": 0,
   "items": [
     {
       "id": "raw-002",
@@ -16,7 +16,7 @@
       "published": "2026-06-04",
       "body_snippet": "算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 新浪财经",
       "_query_boost": 0,
-      "lane": "silent",
+      "lane": "attend",
       "signals": [
         "🔬"
       ],
@@ -26,8 +26,11 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 - 新浪财经 算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规",
-      "ppio_signal": null,
+      "summary_cn": "电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 - 新浪财经 算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 新浪财经",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）"
+      },
       "_classified_by": "rule"
     },
     {
@@ -39,7 +42,7 @@
       "published": "2026-06-03",
       "body_snippet": "工信部重磅推出“算力银行”，中小企业算力使用门槛降低 新浪财经",
       "_query_boost": 0,
-      "lane": "silent",
+      "lane": "attend",
       "signals": [
         "🔬"
       ],
@@ -50,7 +53,114 @@
         "c3"
       ],
       "summary_cn": "工信部重磅推出“算力银行”，中小企业算力使用门槛降低 - 新浪财经 工信部重磅推出“算力银行”，中小企业算力使用门槛降低 新浪财经",
-      "ppio_signal": null,
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
+      "title": "837号令：中国对外投资监管迈入制度重构新阶段 - Lexology",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPel9sSDNPclFqVVU4MjhIekszR0ZCZWNwbk92eExnR2diTGJ2YmVZYzRBb3ZqSVIyZUZkYzBqYnJCOTJXR2N4NngzVUpWU2RyV1A3VTB2Ul9nWVpHay1QZEd0dUFhVldWeW8zQUZFZWdfNUw1aGs0V0RINnMya1luMzU5eVkwa3Q2c0pj?oc=5",
+      "source": "Lexology",
+      "category": "监管",
+      "published": "2026-06-02",
+      "body_snippet": "837号令：中国对外投资监管迈入制度重构新阶段 Lexology",
+      "_query_boost": 30,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "中国对外投资监管迈入制度重构新阶段 - Lexology 837号令：中国对外投资监管迈入制度重构新阶段 Lexology",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-007",
+      "title": "“围猎者”收网：中国对外投资全链监管时代来临 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB1RG1WWVFPUDJlQXRnWks0NHVHc0g2Z2l4ZjllUldFbHJFZWhUZzZ1dTlzQXREV1BJQk9KREVVOFVRdzFrX3hrWTJEd3NpTXhYdEVzWDB4dHprQnQzS0VqaWlidWFBM01rbUtRTzhDX3pKcjRDZmhmdThac1pZdw?oc=5",
+      "source": "新浪财经",
+      "category": "监管",
+      "published": "2026-06-02",
+      "body_snippet": "“围猎者”收网：中国对外投资全链监管时代来临 新浪财经",
+      "_query_boost": 30,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "中国对外投资全链监管时代来临 - 新浪财经 “围猎者”收网：中国对外投资全链监管时代来临 新浪财经",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-009",
+      "title": "中国升级全流程对外投资监管 - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MSThENExwX25LMVdRT1hUUkpKaWVNMk9IcVVIdFg0QnRTd21UTS00czY0Z053NWVrQzBvaE1Xd19hSUFaeVU1WkQ2MXJKU21HanI2dl9hSXdhaHpmUXc?oc=5",
+      "source": "thepaper.cn",
+      "category": "监管",
+      "published": "2026-06-08",
+      "body_snippet": "中国升级全流程对外投资监管 thepaper.cn",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "中国升级全流程对外投资监管 - thepaper.cn 中国升级全流程对外投资监管 thepaper.cn",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-012",
+      "title": "对外投资新规7月施行，对企业出海、居民投资影响几何？ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVXA1WXlBTEVyMWY3WTMtTnVFMVdqRUY2U0d3MHRZOHNnM2xJYmNTOW9aT2pHRXBvWmJDb0NGMUZOaUVUSzZJckpDa0p5Yzczdkk5blFFNXoySVJGR1hHTnE3YmlmVkJqNmEzdVdOTHI1WDJfellLS0E5ei1ObERPVm5ZWHJ1b2tUNGNsZzVLSQ?oc=5",
+      "source": "新浪财经",
+      "category": "监管",
+      "published": "2026-06-04",
+      "body_snippet": "对外投资新规7月施行，对企业出海、居民投资影响几何？ 新浪财经",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "对外投资新规7月施行，对企业出海、居民投资影响几何？ - 新浪财经 对外投资新规7月施行，对企业出海、居民投资影响几何？ 新浪财经",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）"
+      },
       "_classified_by": "rule"
     }
   ]

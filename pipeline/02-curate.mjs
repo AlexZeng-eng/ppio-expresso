@@ -196,6 +196,16 @@ function ruleBasedClassify(item, config) {
   if (/李强.*人工智能|李强.*算力|总理.*算力/.test(title)) lane = 'attend';
   if (/政治局.*人工智能|政治局.*算力|政治局常委.*AI/.test(title)) lane = 'attend';
   if (/无问芯穹|AI.*Infra/.test(title)) lane = 'attend';
+  // 部委重大政策
+  if (/工信部.*算力|算力银行|算力.*补贴|算力.*门槛/.test(title)) lane = 'attend';
+  if (/发改委.*算力|发改委.*AI|发改委.*数字经济/.test(title)) lane = 'attend';
+  if (/对外投资.*规定|对外投资.*新规|对外投资.*监管|837号令/.test(title)) lane = 'attend';
+  if (/VIE.*审查|VIE.*备案|境外上市.*新规|港交所.*科技/.test(title)) lane = 'attend';
+  if (/人工智能.*立法|AI.*立法|司法部.*人工智能/.test(title)) lane = 'attend';
+  // 竞品重大动态
+  if (/字节.*算力|字节.*AI基础设施|阿里云.*千问|硅基流动.*融资|无问芯穹.*融资/.test(title)) lane = 'attend';
+  // 电网/能耗 影响算力扩容
+  if (/电网.*算力|算力.*电网|电力.*数据中心|能耗.*AI/.test(title)) lane = 'attend';
 
   const isDeep = /政策原文|国务院|国常会|立法|招股书|深度分析|研究报告|政治局.*集体学习|习近平.*讲话/.test(title);
 

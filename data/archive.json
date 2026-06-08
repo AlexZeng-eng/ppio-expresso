@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-06-08T02:33:31.417Z",
+  "updated_at": "2026-06-08T06:26:28.548Z",
   "days": [
     {
       "date": "2026-06-08",
-      "mainline": "算力银行重磅出台降门槛，电网瓶颈警示扩容风险，PPIO边缘分布式叙事获双向支撑。",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
       "signal_summary": {
-        "🏛️": 1,
-        "📜": 1,
+        "🏛️": 0,
+        "📜": 0,
         "⚔️": 0,
         "💰": 0,
         "🌏": 0,
-        "🔬": 0
+        "🔬": 2
       },
       "wind_indicators": {
-        "policy_heat": 4,
-        "competitor_heat": 1,
+        "policy_heat": 2,
+        "competitor_heat": 2,
         "capital_heat": 2,
-        "overseas_heat": 1,
-        "overall_sentiment": "升温",
-        "summary": "算力银行政策直接利好行业生态，电网风险反向强化边缘计算价值，整体风向偏暖，竞争与海外无新扰动。"
+        "overseas_heat": 2,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
       },
       "ppio_index": {
-        "score": 64,
-        "delta": 2,
+        "score": 55,
+        "delta": 0,
         "components": {
-          "policy_tailwind": 35,
-          "competitive_pressure": -18,
-          "capital_sentiment": 12,
-          "regulatory_risk": -10,
-          "overseas_headwind": -5
+          "policy_tailwind": 0,
+          "competitive_pressure": 0,
+          "capital_sentiment": 0,
+          "regulatory_risk": 0,
+          "overseas_headwind": 0
         },
-        "interpretation": "算力银行政策大幅提升政策尾风，电网瓶颈引发监管风险微升，竞争格局不变，指数温和上行。"
+        "interpretation": "规则估算，仅供参考"
       },
       "item_count": {
-        "total": 2,
-        "attend": 0,
-        "silent": 2
+        "total": 6,
+        "attend": 6,
+        "silent": 0
       },
       "competitor_updates": []
     },

@@ -1,46 +1,90 @@
 {
-  "generated_at": "2026-06-08T02:33:31.321Z",
+  "generated_at": "2026-06-08T06:26:28.438Z",
   "date": "2026-06-08",
   "date_label": "2026-06-08",
-  "mainline": "算力银行重磅出台降门槛，电网瓶颈警示扩容风险，PPIO边缘分布式叙事获双向支撑。",
+  "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 1,
-    "📜": 1,
+    "🏛️": 0,
+    "📜": 0,
     "⚔️": 0,
     "💰": 0,
     "🌏": 0,
-    "🔬": 0
+    "🔬": 2
   },
   "speed_read": {
-    "positive": [
-      "工信部推出“算力银行”，中小企业算力使用门槛降低，利好算力服务商生态扩展",
-      "电网瓶颈凸显集中式算力脆弱性，边缘云分布式架构化解风险的价值叙事增强"
-    ],
-    "risk": [
-      "算力狂飙遭遇电网容量瓶颈，可能引发后续政策调控，增加算力基建合规不确定性"
-    ]
+    "positive": [],
+    "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 4,
-    "competitor_heat": 1,
+    "policy_heat": 2,
+    "competitor_heat": 2,
     "capital_heat": 2,
-    "overseas_heat": 1,
-    "overall_sentiment": "升温",
-    "summary": "算力银行政策直接利好行业生态，电网风险反向强化边缘计算价值，整体风向偏暖，竞争与海外无新扰动。"
+    "overseas_heat": 2,
+    "overall_sentiment": "平稳",
+    "summary": "规则估算，AI合成不可用时的占位数据。"
   },
   "competitor_updates": [],
-  "item_axes": [],
-  "ppio_index": {
-    "score": 64,
-    "delta": 2,
-    "components": {
-      "policy_tailwind": 35,
-      "competitive_pressure": -18,
-      "capital_sentiment": 12,
-      "regulatory_risk": -10,
-      "overseas_headwind": -5
+  "item_axes": [
+    {
+      "id": "1",
+      "title": "算力狂飙的瓶颈不止电量：电网风险正突破认",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     },
-    "interpretation": "算力银行政策大幅提升政策尾风，电网瓶颈引发监管风险微升，竞争格局不变，指数温和上行。"
+    {
+      "id": "2",
+      "title": "工信部重磅推出“算力银行”，中小企业算力",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "3",
+      "title": "837号令：中国对外投资监管迈入制度重构",
+      "policy_axis": -0.5,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "4",
+      "title": "“围猎者”收网：中国对外投资全链监管时代",
+      "policy_axis": -0.5,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "5",
+      "title": "中国升级全流程对外投资监管 - thep",
+      "policy_axis": -0.5,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "6",
+      "title": "对外投资新规7月施行，对企业出海、居民投",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    }
+  ],
+  "ppio_index": {
+    "score": 55,
+    "delta": 0,
+    "components": {
+      "policy_tailwind": 0,
+      "competitive_pressure": 0,
+      "capital_sentiment": 0,
+      "regulatory_risk": 0,
+      "overseas_headwind": 0
+    },
+    "interpretation": "规则估算，仅供参考"
   },
-  "_generated_by": "deepseek-v4-pro"
+  "_generated_by": "template"
 }
