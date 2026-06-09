@@ -1,167 +1,217 @@
 {
-  "generated_at": "2026-06-08T06:23:11.332Z",
+  "generated_at": "2026-06-09T01:02:41.452Z",
   "week": "2026-W24",
-  "classifier": "rule-based",
+  "classifier": "deepseek-v4-pro",
   "total_raw": 15,
-  "total_curated": 6,
-  "attend_count": 6,
-  "silent_count": 0,
+  "total_curated": 10,
+  "attend_count": 5,
+  "silent_count": 5,
   "items": [
     {
-      "id": "raw-002",
-      "title": "算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxOM2JqTXVPRTljM3hwbWo1Y2FPenMwelZMbVNJNmFGUDVJLXFkNTNIMXNac0o0c185aTZjVzQ5Nk1kaVJ1SXo5TlpHNGV4UTI3ZUNtRGI3TGRYX2o4NnRYS2R1azQ4WTVPVjc1RU80S202NVZGU1d6bDdUdWpzclRLS2tmNTEyU2xHU1A0dmN0aEltUWxaWXlZOXRHZGdxZlpaN1otcjBTbGdsWTV3ZGttR1dCamVXU0pRcDRkaXZLRGlCelBFOW5pblR4ZXZ5ODc0dUhtdTZEdlBKQzVIQnpRVWpnWDllZzdVNjRHaE1BdlhIN0RUMTlEdlJTLXd4UXFVNzdWMFh5b1Q5UEoyWTNGQWNxQk1YQmNSUmZLM1lydno3OC1pbXhMSEQtclVHS3dtNEZJdXQybUVYdGhGeVBqeXpWMm5QOHlmRGZOTFU3MmtDSzRVczVNTlcyYW9BdWs0azVndEN6UnZYQnRrcHJB?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-06-04",
-      "body_snippet": "算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 新浪财经",
-      "_query_boost": 0,
-      "lane": "attend",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 - 新浪财经 算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 新浪财经",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-003",
-      "title": "工信部重磅推出“算力银行”，中小企业算力使用门槛降低 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxPY0tmcHFRM1hXWHRpbVBKdmc3ZEFEMXZaU19obEZaQ1JNVkJVajVHcmt2R1h4RTFELW9kZm9fTHl4SlpLeG1Vekp0d1hRUjhSZ0lnV19nLTBYeWtlTk5MRVVDTWotTGduMzZuQTNwbUIzRXJKY3JVUDRMd295WXNoR3l1RHRIbXNOSk54VUFlTkM1c3k5MHRYZTd0Q0M5U3BMOTRMcUhPYmdSNEc5WE9PQUt0ZHhiZVE1Qk10OUZneUJzX21yZXRqT0JacTFyMDVzeVBxaHZQSXFBLWZXcDlNTHBvRjV6T1RRbTczWlY2aE5jTllsNENTUks3VEE3LUZpZFM2UlpEM2JqQzl3eVctblpoc2k3ZjR3N3lOSlFMemROem5XNVhybGltc3FGU18yWnp1bzR1cEZpYXJCVTY0SVJ0UVdkTTN3MU1JQ2lCRUlGT0RvRTNWMERnd1lDcE83Q3dtQ2xaZHhlYXBvX01DRVNSdXNkd1FLbTBoc1Q0R3RHZGVRLXFNVER2eG8xQVhVM2N3alJpb3NjeVZEbW03MnJHSG9XZXBFS1RaM3NfanpJREVUaG9WdkZVZEJ5VnltLXJPblVKdnBkeGlEY0FQa1R5Mm1HekVNVXQzZDJrcnpSUm1fNWNNV0JTeUR1M3ZxMlZHSzNHOEZwd2JsNXc?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-06-03",
-      "body_snippet": "工信部重磅推出“算力银行”，中小企业算力使用门槛降低 新浪财经",
-      "_query_boost": 0,
-      "lane": "attend",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "工信部重磅推出“算力银行”，中小企业算力使用门槛降低 - 新浪财经 工信部重磅推出“算力银行”，中小企业算力使用门槛降低 新浪财经",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-005",
-      "title": "837号令：中国对外投资监管迈入制度重构新阶段 - Lexology",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPel9sSDNPclFqVVU4MjhIekszR0ZCZWNwbk92eExnR2diTGJ2YmVZYzRBb3ZqSVIyZUZkYzBqYnJCOTJXR2N4NngzVUpWU2RyV1A3VTB2Ul9nWVpHay1QZEd0dUFhVldWeW8zQUZFZWdfNUw1aGs0V0RINnMya1luMzU5eVkwa3Q2c0pj?oc=5",
-      "source": "Lexology",
-      "category": "监管",
-      "published": "2026-06-02",
-      "body_snippet": "837号令：中国对外投资监管迈入制度重构新阶段 Lexology",
-      "_query_boost": 30,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "中国对外投资监管迈入制度重构新阶段 - Lexology 837号令：中国对外投资监管迈入制度重构新阶段 Lexology",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-007",
-      "title": "“围猎者”收网：中国对外投资全链监管时代来临 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB1RG1WWVFPUDJlQXRnWks0NHVHc0g2Z2l4ZjllUldFbHJFZWhUZzZ1dTlzQXREV1BJQk9KREVVOFVRdzFrX3hrWTJEd3NpTXhYdEVzWDB4dHprQnQzS0VqaWlidWFBM01rbUtRTzhDX3pKcjRDZmhmdThac1pZdw?oc=5",
-      "source": "新浪财经",
-      "category": "监管",
-      "published": "2026-06-02",
-      "body_snippet": "“围猎者”收网：中国对外投资全链监管时代来临 新浪财经",
-      "_query_boost": 30,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "中国对外投资全链监管时代来临 - 新浪财经 “围猎者”收网：中国对外投资全链监管时代来临 新浪财经",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-009",
-      "title": "中国升级全流程对外投资监管 - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MSThENExwX25LMVdRT1hUUkpKaWVNMk9IcVVIdFg0QnRTd21UTS00czY0Z053NWVrQzBvaE1Xd19hSUFaeVU1WkQ2MXJKU21HanI2dl9hSXdhaHpmUXc?oc=5",
+      "id": "raw-1",
+      "title": "月之暗面寻找新一轮20亿美元融资？估值较半年前增长6倍 - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLb2drMXlNSDhuUmdCWFpyMHI1d25URUFoM3RJRWRINHlTbUplamZaZjFvLTZTVkJpSGdwWDB3b2Q4ckNJQTExajNnUmk3Qk8zeDROMlc5amxDYnNUMEE?oc=5",
       "source": "thepaper.cn",
-      "category": "监管",
+      "category": "资本",
       "published": "2026-06-08",
-      "body_snippet": "中国升级全流程对外投资监管 thepaper.cn",
-      "_query_boost": 25,
-      "lane": "attend",
+      "body_snippet": "月之暗面寻找新一轮20亿美元融资？估值较半年前增长6倍 thepaper.cn",
+      "_query_boost": 20,
+      "lane": "silent",
       "signals": [
-        "—"
+        "💰"
       ],
       "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "中国升级全流程对外投资监管 - thepaper.cn 中国升级全流程对外投资监管 thepaper.cn",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
+      "compass_triggered": [],
+      "summary_cn": "月之暗面（Moonshot AI）正寻求新一轮约20亿美元融资，估值较半年前增长6倍，反映头部大模型公司仍受资本追捧。"
     },
     {
-      "id": "raw-012",
-      "title": "对外投资新规7月施行，对企业出海、居民投资影响几何？ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVXA1WXlBTEVyMWY3WTMtTnVFMVdqRUY2U0d3MHRZOHNnM2xJYmNTOW9aT2pHRXBvWmJDb0NGMUZOaUVUSzZJckpDa0p5Yzczdkk5blFFNXoySVJGR1hHTnE3YmlmVkJqNmEzdVdOTHI1WDJfellLS0E5ei1ObERPVm5ZWHJ1b2tUNGNsZzVLSQ?oc=5",
-      "source": "新浪财经",
-      "category": "监管",
+      "id": "raw-2",
+      "title": "豆包专业版将至：免费与付费之间字节遇算力焦虑- 字节跳动ByteDance - cnBeta.COM",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fWl82NFZEaHNxXzNfSnY3VllMYlNwdURvcWYxSHRaVTJVRlJ0UEw5NFgwdG1qTHdsYUdXVUpZdG1QOTQ3TFpaSXl2aGFPbjc3WEFMbjM5eFJFZU52bnYzMw?oc=5",
+      "source": "cnBeta.COM",
+      "category": "竞品",
       "published": "2026-06-04",
-      "body_snippet": "对外投资新规7月施行，对企业出海、居民投资影响几何？ 新浪财经",
-      "_query_boost": 25,
+      "body_snippet": "豆包专业版将至：免费与付费之间字节遇算力焦虑- 字节跳动ByteDance cnBeta.COM",
+      "_query_boost": 15,
       "lane": "attend",
       "signals": [
-        "—"
+        "⚔️"
       ],
       "is_deep_read": false,
       "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
+        "c2"
       ],
-      "summary_cn": "对外投资新规7月施行，对企业出海、居民投资影响几何？ - 新浪财经 对外投资新规7月施行，对企业出海、居民投资影响几何？ 新浪财经",
+      "summary_cn": "字节跳动旗下豆包大模型即将推出专业版并尝试付费，背后暴露出日益突出的算力焦虑；免费模式难以为继，算力成本倒逼商业变现。这一动态显示字节在加大自建算力与模型服务变现的投入。\n对PPIO而言，字节既是潜在客户也是间接竞品：其算力焦虑可能催生更多外部边缘算力采购需求，但同时字节自建边缘节点的决心也会分流部分市场；PPIO需强化差异化，提供更灵活、低成本的分布式推理算力，以应对大型云厂商的垂直整合趋势。",
       "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
+        "positive": "大型企业算力焦虑验证了分布式推理算力的旺盛需求，PPIO可争取成为其弹性补充。",
+        "risk": "字节等巨头加速自建边缘基础设施，可能减少对外部平台依赖，形成客户转竞品的风险。"
+      }
+    },
+    {
+      "id": "raw-3",
+      "title": "算力网纳入国家“六张网”，如何建得好、用得好、用得起？ - 开放数据中心委员会",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3QTZKVTJUbVE3a1hNZjlTaEUtZ1dIbEhEanc0REdIYUtUekQ5Y3hYblB6MXd3QTR2UGhycXZ6Y0V2encycGJLSE9LNkxmdVhPemxzNndRdWNVR1I1dWFuLU1wYmlQUQ?oc=5",
+      "source": "开放数据中心委员会",
+      "category": "政策",
+      "published": "2026-06-08",
+      "body_snippet": "算力网纳入国家“六张网”，如何建得好、用得好、用得起？ 开放数据中心委员会",
+      "_query_boost": 0,
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "国家将算力网正式纳入“六张网”重大基础设施布局，进一步明确算力作为新型关键生产要素的战略地位。该政策旨在推动全国一体化算力网络建设，促进算力资源的高效调度和普惠应用，确保算力“建得好、用得好、用得起”。\n对PPIO而言，政策明确了边缘计算节点在国家级算力网络中的合法身份，有望获得政策扶持、税收优惠以及更多政企合作机会；但同时也意味着国资云、运营商等将加速入场，竞争格局可能从市场化转为政策导向，PPIO需提前布局合规能力与政务渠道，并在港股IPO故事中强化“国家级算力网络共建者”的定位。",
+      "ppio_signal": {
+        "positive": "边缘分布式算力被纳入国家基础设施体系，政策红利打开市场天花板，利于IPO估值。",
+        "risk": "政策推进可能伴生子行业准入、数据安全等合规要求，增加运营成本；大型国企竞争者可能挤压初创份额。"
+      }
+    },
+    {
+      "id": "raw-4",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
+      "category": "竞品",
+      "published": "2026-06-08",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "_query_boost": 0,
+      "lane": "attend",
+      "signals": [
+        "⚔️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "中国移动、中国电信、中国联通三大运营商联合推出基于Token计费的AI算力套餐，将大模型调用封装为标准商品，大幅降低企业及个人使用门槛，加速AI算力“大众化”。\n此举对PPIO构成直接竞争：运营商拥有机房、网络和资金优势，Token套餐可能快速抢占中小客户市场；但同时也教育了市场，扩大整体算力消费需求。PPIO的差异化在于边缘近场处理、低延迟推理和异构算力调度，可聚焦实时性要求高的场景，避开价格战，以服务质量与灵活架构取胜。",
+      "ppio_signal": {
+        "positive": "算力套餐普及催熟市场，PPIO边缘分布式方案可服务对延迟敏感、数据本地化要求高的客户。",
+        "risk": "运营商暴力降价可能拉低行业毛利，挤压独立算力平台的生存空间。"
+      }
+    },
+    {
+      "id": "raw-5",
+      "title": "中信建投：当前全球AI算力基建的订单能见度仍比较高，依旧看好AI产业链",
+      "url": "https://36kr.com/newsflashes/3845195819124997?f=rss",
+      "source": "36氪",
+      "published": "2026-06-09",
+      "body_snippet": "",
+      "category": "资本",
+      "lane": "silent",
+      "signals": [
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "中信建投研报认为全球AI算力基建订单能见度仍高，看好AI产业链，维持行业景气判断。"
+    },
+    {
+      "id": "raw-1",
+      "title": "以原创性突破打开未来产业发展新空间 - 求是",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xaE1LU2pYWmpGSG1GRHJRV2ZYSGsxeElvYUVhaHR6OW1RaG9lZnlseXJQQnIzY1pHZS14bFdRLU9FNFFMVi1CZVhNbU42MTVWWE5tOTRLY3NsSnh0N0RVUW1pMWRhaHhSUVlCeUZMVHRJckpkV3N2Wk1CaFQ?oc=5",
+      "source": "求是",
+      "category": "政策",
+      "published": "2026-06-09",
+      "body_snippet": "以原创性突破打开未来产业发展新空间 求是",
+      "_query_boost": 30,
+      "lane": "silent",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "求是刊文强调原创性突破是打开未来产业发展新空间的关键，释放政策信号，未来产业有望获得更多科技资源倾斜，但无具体措施。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-4",
+      "title": "国常会定调未来产业，多地已前瞻布局 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcU5uUGJUYmRTMXA2S244RzhhMkNXZXlPWVctVGxQOE5CYl83LWhPWHlxbHZDN3JicmFmWVp3MXVjX0lNeTdWa1ZHWTVFdzVJMENtMEVwcG5EOXJyZXpCWnlsZE9KSGNvRnIwckUwVkpadnBlTENhTk1XNm5waWlGU0tFOWNKLTRn?oc=5",
+      "source": "搜狐网",
+      "category": "政策",
+      "published": "2026-06-07",
+      "body_snippet": "国常会定调未来产业，多地已前瞻布局 搜狐网",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "6月X日，国务院常务会议研究部署未来产业发展工作，强调要前瞻布局未来产业，加强原创性、引领性科技攻关，聚焦人工智能、量子信息、高端芯片、算力基础设施等重点领域，推动创新链产业链资金链深度融合，并指出将适时出台配套支持措施，加快先导区建设。\n对PPIO而言，国常会点名算力基础设施，边缘云分布式算力作为新基建重要组成部分将直接受益，有望迎来更明确的政策倾斜与补贴支持，降低合规与资源获取门槛，为港股IPO营造有利的政策叙事。",
+      "ppio_signal": {
+        "positive": "国常会明确算力基础设施为国家未来产业重点，边缘云分布式算力有望获得专项政策红利，加速市场拓展与上市进程。",
+        "risk": "政策落地时间与各地执行力度不明，可能引发大型云厂商及新进入者加大投入，导致竞争加剧。"
+      }
+    },
+    {
+      "id": "raw-5",
+      "title": "未来产业的根子在科技 - 求是",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HM2JCcXJHUWNzSlMwLVAzZ0JDdmg4ZkRtVEZ0MkcwMmZGWjlEamtVSndEWThmZzZGYlZNYy10SXpVWUxfMDJOQ1lXejd2eGxKMllBWlVSbFk2cTFfcmhlV1NvbjRKX0tFbDR1Qk1XaFU3OGVEb2RjdnludGQ?oc=5",
+      "source": "求是",
+      "category": "政策",
+      "published": "2026-06-06",
+      "body_snippet": "未来产业的根子在科技 求是",
+      "_query_boost": 30,
+      "lane": "silent",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "求是文章强调未来产业的发展根基在于科技创新，呼吁加强基础研究与核心技术攻关，对算力基础设施等形成长期支撑。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-2",
+      "title": "AI短剧“抽卡”抽到跳脚！中小企业正遭遇的“算力饥渴”怎么解？ - jfdaily.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KRlhrMmZmbHpLVmRRaW9KN1FiR2ROV0NUWlJJZkl0NjZRY2Etc28xcVZpNmVJZ2NBVXJZdVZQa1FNeU5jMlBMdTFoRmRpYWJGWHhRcWh0aEhpQQ?oc=5",
+      "source": "jfdaily.com",
+      "category": "技术",
+      "published": "2026-06-03",
+      "body_snippet": "AI短剧“抽卡”抽到跳脚！中小企业正遭遇的“算力饥渴”怎么解？ jfdaily.com",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "AI短剧算力饥渴反映中小企业对低成本、弹性算力的强烈需求，可能推动分布式边缘算力场景扩展。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-3",
+      "title": "上海企业加速全球算力布局！优刻得落子乌兹别克斯坦，已建成36个可用区 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aWC1ZOUlMd3FsLTlMa3ZIbjdZRWRLX1JHby1EaWZySFFsUzEtT29lbWlGTnM2SkZhMVR0YkRuU0ZHaGprbjJoSGhpQmlvd3Q1MUhKVk1SSnpZMnliSklnWGk3Z2NNc09wVVFoRjFJcWN5eWtpMGZQdw?oc=5",
+      "source": "新浪财经",
+      "category": "竞品",
+      "published": "2026-06-03",
+      "body_snippet": "上海企业加速全球算力布局！优刻得落子乌兹别克斯坦，已建成36个可用区 新浪财经",
+      "_query_boost": 0,
+      "lane": "attend",
+      "signals": [
+        "⚔️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "优刻得在乌兹别克斯坦增设可用区，全球可用区达36个，加速海外算力布局。此举显示其全球化战略提速，可能在中亚等新兴市场构建先发优势。对于PPIO而言，优刻得作为具备全球节点和云服务能力的竞争对手，其海外扩张将直接争夺出海客户的边缘计算与分布式算力需求。PPIO需评估自身在类似区域的资源部署速度，避免客户因覆盖不足而转向优刻得，同时需关注优刻得是否会在边缘侧推出更具性价比的分布式方案，威胁PPIO的差异化定位。",
+      "ppio_signal": {
+        "positive": "全球算力需求旺盛，验证分布式节点海外扩张的市场空间。",
+        "risk": "优刻得抢占海外新兴市场，可能挤压PPIO未来出海的客户获取窗口，且其云服务生态可能形成一体化替代。"
+      }
     }
   ]
 }

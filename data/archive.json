@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-06-08T06:26:28.548Z",
+  "updated_at": "2026-06-09T01:03:44.221Z",
   "days": [
+    {
+      "date": "2026-06-09",
+      "mainline": "算力网升格为“六张网”基础设施，政策红利打开；但运营商Token套餐和字节算力焦虑显化，竞争加剧。",
+      "signal_summary": {
+        "🏛️": 2,
+        "📜": 0,
+        "⚔️": 3,
+        "💰": 0,
+        "🌏": 0,
+        "🔬": 0
+      },
+      "wind_indicators": {
+        "policy_heat": 4,
+        "competitor_heat": 4,
+        "capital_heat": 3,
+        "overseas_heat": 2,
+        "overall_sentiment": "升温",
+        "summary": "政策端算力网升级与国常会定调释放利好，但竞品动作密集，运营商与多家对手加速布局，市场格局加速分化，风向升温。"
+      },
+      "ppio_index": {
+        "score": 66,
+        "delta": 11,
+        "components": {
+          "policy_tailwind": 35,
+          "competitive_pressure": -18,
+          "capital_sentiment": 12,
+          "regulatory_risk": -8,
+          "overseas_headwind": -5
+        },
+        "interpretation": "算力网纳入六张网和国常会定调提升政策预期，但运营商与字节等竞对举措增加短期竞争压力，指数温和上涨。"
+      },
+      "item_count": {
+        "total": 10,
+        "attend": 5,
+        "silent": 5
+      },
+      "competitor_updates": [
+        "字节跳动豆包专业版推出，付费暴露算力焦虑，或寻求低成本算力方案",
+        "三大运营商推出Token计费AI算力套餐，直接竞争PPIO边缘算力服务",
+        "优刻得落子乌兹别克斯坦，全球36个可用区，海外算力布局加速"
+      ]
+    },
     {
       "date": "2026-06-08",
       "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",

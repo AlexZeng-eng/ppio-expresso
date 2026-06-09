@@ -1,161 +1,161 @@
 {
-  "generated_at": "2026-06-08T02:31:44.419Z",
+  "generated_at": "2026-06-09T01:00:46.906Z",
   "week": "2026-W24",
   "date_range": {
-    "from": "2026-06-01",
-    "to": "2026-06-08"
+    "from": "2026-06-02",
+    "to": "2026-06-09"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "新华财经周报：6月1日至6月7日 - 中国金融信息网",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BVjl6NTZ4dlhRbDYzaFh3YUJPcFF1Y05fWGRDM3ZIOUNpdFVIdzhHaEs0czhqdXZtRmN2dnd5WWdLRy1KSF8yTmc3X0d4bEd3NUczakt5b2RFTlNINkpDbmNsVnNxQ2s?oc=5",
-      "source": "中国金融信息网",
-      "category": "监管",
-      "published": "2026-06-07",
-      "body_snippet": "新华财经周报：6月1日至6月7日 中国金融信息网",
-      "_query_boost": 30
+      "title": "月之暗面寻找新一轮20亿美元融资？估值较半年前增长6倍 - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLb2drMXlNSDhuUmdCWFpyMHI1d25URUFoM3RJRWRINHlTbUplamZaZjFvLTZTVkJpSGdwWDB3b2Q4ckNJQTExajNnUmk3Qk8zeDROMlc5amxDYnNUMEE?oc=5",
+      "source": "thepaper.cn",
+      "category": "资本",
+      "published": "2026-06-08",
+      "body_snippet": "月之暗面寻找新一轮20亿美元融资？估值较半年前增长6倍 thepaper.cn",
+      "_query_boost": 20
     },
     {
       "id": "raw-002",
-      "title": "算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxOM2JqTXVPRTljM3hwbWo1Y2FPenMwelZMbVNJNmFGUDVJLXFkNTNIMXNac0o0c185aTZjVzQ5Nk1kaVJ1SXo5TlpHNGV4UTI3ZUNtRGI3TGRYX2o4NnRYS2R1azQ4WTVPVjc1RU80S202NVZGU1d6bDdUdWpzclRLS2tmNTEyU2xHU1A0dmN0aEltUWxaWXlZOXRHZGdxZlpaN1otcjBTbGdsWTV3ZGttR1dCamVXU0pRcDRkaXZLRGlCelBFOW5pblR4ZXZ5ODc0dUhtdTZEdlBKQzVIQnpRVWpnWDllZzdVNjRHaE1BdlhIN0RUMTlEdlJTLXd4UXFVNzdWMFh5b1Q5UEoyWTNGQWNxQk1YQmNSUmZLM1lydno3OC1pbXhMSEQtclVHS3dtNEZJdXQybUVYdGhGeVBqeXpWMm5QOHlmRGZOTFU3MmtDSzRVczVNTlcyYW9BdWs0azVndEN6UnZYQnRrcHJB?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
+      "title": "豆包专业版将至：免费与付费之间字节遇算力焦虑- 字节跳动ByteDance - cnBeta.COM",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fWl82NFZEaHNxXzNfSnY3VllMYlNwdURvcWYxSHRaVTJVRlJ0UEw5NFgwdG1qTHdsYUdXVUpZdG1QOTQ3TFpaSXl2aGFPbjc3WEFMbjM5eFJFZU52bnYzMw?oc=5",
+      "source": "cnBeta.COM",
+      "category": "竞品",
       "published": "2026-06-04",
-      "body_snippet": "算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 新浪财经",
-      "_query_boost": 0
+      "body_snippet": "豆包专业版将至：免费与付费之间字节遇算力焦虑- 字节跳动ByteDance cnBeta.COM",
+      "_query_boost": 15
     },
     {
       "id": "raw-003",
-      "title": "工信部重磅推出“算力银行”，中小企业算力使用门槛降低 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxPY0tmcHFRM1hXWHRpbVBKdmc3ZEFEMXZaU19obEZaQ1JNVkJVajVHcmt2R1h4RTFELW9kZm9fTHl4SlpLeG1Vekp0d1hRUjhSZ0lnV19nLTBYeWtlTk5MRVVDTWotTGduMzZuQTNwbUIzRXJKY3JVUDRMd295WXNoR3l1RHRIbXNOSk54VUFlTkM1c3k5MHRYZTd0Q0M5U3BMOTRMcUhPYmdSNEc5WE9PQUt0ZHhiZVE1Qk10OUZneUJzX21yZXRqT0JacTFyMDVzeVBxaHZQSXFBLWZXcDlNTHBvRjV6T1RRbTczWlY2aE5jTllsNENTUks3VEE3LUZpZFM2UlpEM2JqQzl3eVctblpoc2k3ZjR3N3lOSlFMemROem5XNVhybGltc3FGU18yWnp1bzR1cEZpYXJCVTY0SVJ0UVdkTTN3MU1JQ2lCRUlGT0RvRTNWMERnd1lDcE83Q3dtQ2xaZHhlYXBvX01DRVNSdXNkd1FLbTBoc1Q0R3RHZGVRLXFNVER2eG8xQVhVM2N3alJpb3NjeVZEbW03MnJHSG9XZXBFS1RaM3NfanpJREVUaG9WdkZVZEJ5VnltLXJPblVKdnBkeGlEY0FQa1R5Mm1HekVNVXQzZDJrcnpSUm1fNWNNV0JTeUR1M3ZxMlZHSzNHOEZwd2JsNXc?oc=5",
-      "source": "新浪财经",
+      "title": "算力网纳入国家“六张网”，如何建得好、用得好、用得起？ - 开放数据中心委员会",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3QTZKVTJUbVE3a1hNZjlTaEUtZ1dIbEhEanc0REdIYUtUekQ5Y3hYblB6MXd3QTR2UGhycXZ6Y0V2encycGJLSE9LNkxmdVhPemxzNndRdWNVR1I1dWFuLU1wYmlQUQ?oc=5",
+      "source": "开放数据中心委员会",
       "category": "政策",
-      "published": "2026-06-03",
-      "body_snippet": "工信部重磅推出“算力银行”，中小企业算力使用门槛降低 新浪财经",
+      "published": "2026-06-08",
+      "body_snippet": "算力网纳入国家“六张网”，如何建得好、用得好、用得起？ 开放数据中心委员会",
       "_query_boost": 0
     },
     {
       "id": "raw-004",
-      "title": "每日一词 | 对外投资 outbound investment - 中国日报网",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kNUN4MUQ3bW80RVNqS0RCdFZoTnBEUHRhX3I1cXJudVZWY2F5anliWENSeUJoVlpGaGdxRkRRUUg5U2hCbjV6djFfRXlMOW9YSzhpeHZKZ2VOUEhCYTl4RUJ1NXpsUWx3ZXZJWnhXQkFzaWEzS3l6eFZ2SlQ?oc=5",
-      "source": "中国日报网",
-      "category": "监管",
-      "published": "2026-06-03",
-      "body_snippet": "每日一词 | 对外投资 outbound investment 中国日报网",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-005",
-      "title": "837号令：中国对外投资监管迈入制度重构新阶段 - Lexology",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPel9sSDNPclFqVVU4MjhIekszR0ZCZWNwbk92eExnR2diTGJ2YmVZYzRBb3ZqSVIyZUZkYzBqYnJCOTJXR2N4NngzVUpWU2RyV1A3VTB2Ul9nWVpHay1QZEd0dUFhVldWeW8zQUZFZWdfNUw1aGs0V0RINnMya1luMzU5eVkwa3Q2c0pj?oc=5",
-      "source": "Lexology",
-      "category": "监管",
-      "published": "2026-06-02",
-      "body_snippet": "837号令：中国对外投资监管迈入制度重构新阶段 Lexology",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-006",
-      "title": "以法治化、系统化、服务化引领对外投资高质量发展新阶段 - 风闻",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9USk40VjJvVWZGbmVReEpudS1xOEJXYXh6MTJ2bE5McUx0N2p2cW1RT21ReUlwT3BVV19WUjZmRWt4RGE2RjBkeFVuSWw4NVBQOFJyUTFmaXdsQk0?oc=5",
-      "source": "风闻",
-      "category": "监管",
-      "published": "2026-06-02",
-      "body_snippet": "以法治化、系统化、服务化引领对外投资高质量发展新阶段 风闻",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-007",
-      "title": "“围猎者”收网：中国对外投资全链监管时代来临 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB1RG1WWVFPUDJlQXRnWks0NHVHc0g2Z2l4ZjllUldFbHJFZWhUZzZ1dTlzQXREV1BJQk9KREVVOFVRdzFrX3hrWTJEd3NpTXhYdEVzWDB4dHprQnQzS0VqaWlidWFBM01rbUtRTzhDX3pKcjRDZmhmdThac1pZdw?oc=5",
-      "source": "新浪财经",
-      "category": "监管",
-      "published": "2026-06-02",
-      "body_snippet": "“围猎者”收网：中国对外投资全链监管时代来临 新浪财经",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-008",
-      "title": "大模型之家2026年5月热力榜：当“能干多久”取代“能跑多高” - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5uc2tfYk1ZLXNuUWROUHJVUTA2YkZ1cDUtcjFYSEE3ZnVEdXZVMXZ6dVdWOS1hbWk5Y21YNEF0Ml9XbWtwUXBJTndlQ2FQSVN6MzF2a0NSb0JxNnlsN2pUdnRBdFBTSHpFa0szbnJSNnVSUQ?oc=5",
-      "source": "thepaper.cn",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
       "category": "技术",
-      "published": "2026-06-02",
-      "body_snippet": "大模型之家2026年5月热力榜：当“能干多久”取代“能跑多高” thepaper.cn",
+      "published": "2026-06-08",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
       "_query_boost": 0
     },
     {
-      "id": "raw-009",
-      "title": "中国升级全流程对外投资监管 - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MSThENExwX25LMVdRT1hUUkpKaWVNMk9IcVVIdFg0QnRTd21UTS00czY0Z053NWVrQzBvaE1Xd19hSUFaeVU1WkQ2MXJKU21HanI2dl9hSXdhaHpmUXc?oc=5",
-      "source": "thepaper.cn",
-      "category": "监管",
-      "published": "2026-06-08",
-      "body_snippet": "中国升级全流程对外投资监管 thepaper.cn",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-010",
-      "title": "“中国人经济”，有了自己的海外保护法 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUU5DM3NSbV91R29hcTExR3NyU1NTWktaTXF3RmFkblJ1dmxvdWtsak9MX0hfdm1sSVkzdlpUc284MnlJU0dhNzVaTUpIMGJaVE41LVI1WHhaYkJDMXlLLTQtdUFndGRZRnh2MEhsbjdQbkw4YWxQZUJJQUc5a2RHZkhVWVMzc083OVlORWFuN3pDbWhWSjZ0N3ZXbE9IZlBVOVZyVGMtZ1ptWUxfTkZPbDVDSQ?oc=5",
-      "source": "新浪财经",
-      "category": "监管",
-      "published": "2026-06-08",
-      "body_snippet": "“中国人经济”，有了自己的海外保护法 新浪财经",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-011",
-      "title": "Manus收购案“破产”后的对外投资时代 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS2lCckVfUmdCRmFsU1Z3VDd1eFZMbndkbG1TVU1OZ21BVlB2U2g4V3dNYnpFencyVVg5NExTVW05VFVybTRiX2JxUDMzUzg3WTFkV2pWWlJSd1ZxVGROcWpSMEFlUzVZZXR4c2I1ZlBFZ3hfU3RzbTdXY21lNlVHRFR3M3AtV1U4VklwYUphd3NFRURq?oc=5",
-      "source": "21财经",
-      "category": "监管",
-      "published": "2026-06-04",
-      "body_snippet": "Manus收购案“破产”后的对外投资时代 21财经",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-012",
-      "title": "对外投资新规7月施行，对企业出海、居民投资影响几何？ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVXA1WXlBTEVyMWY3WTMtTnVFMVdqRUY2U0d3MHRZOHNnM2xJYmNTOW9aT2pHRXBvWmJDb0NGMUZOaUVUSzZJckpDa0p5Yzczdkk5blFFNXoySVJGR1hHTnE3YmlmVkJqNmEzdVdOTHI1WDJfellLS0E5ei1ObERPVm5ZWHJ1b2tUNGNsZzVLSQ?oc=5",
-      "source": "新浪财经",
-      "category": "监管",
-      "published": "2026-06-04",
-      "body_snippet": "对外投资新规7月施行，对企业出海、居民投资影响几何？ 新浪财经",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-013",
-      "title": "大模型发展三年半，AI圈终于等来了一场“不要大厂，只赌脑洞”的比赛",
-      "url": "https://www.qbitai.com/2026/06/431287.html",
-      "source": "量子位",
-      "published": "2026-06-06",
+      "id": "raw-005",
+      "title": "中信建投：当前全球AI算力基建的订单能见度仍比较高，依旧看好AI产业链",
+      "url": "https://36kr.com/newsflashes/3845195819124997?f=rss",
+      "source": "36氪",
+      "published": "2026-06-09",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-014",
-      "title": "Results for \" 新澳彩开奖结果历史记录｛官网：852.tw｝.mig - x.com",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNSHVtTXNHUzFWMVNsRC1EaDkzWWtRTnZQU2hkYkF3QTJkcWY1THZfd0NiYnE0NFk3NFYzVnpnMXl4eWNsMTdQSk1yZHZBeklXT080WEllZnhMUnpWNWpWUXRhWWtUTEkxdGZzQml4andWZ3Vrd1ZybklQd3BZaHJBN1dpbU96bjI4YXFWYW1Kc25LT2hEMXJySmw5aHh5b0V2aUppTWhDZWxJelhaNzVVN1RreDNZck1CNFJIMnh0OUdYbU5fYU1zaDRwa0tMcUw4ZGswUlRTd2QwaEdzRDdrZVotb3ZtOFcySmphTTV4UXNiazhxXzl4cEl0OUx2T2R1b0tVVVJMM0V6LS1Sb0FZVG5GbXJiN21ZRjcweFpaYw?oc=5",
-      "source": "x.com",
-      "category": "监管",
+      "id": "raw-006",
+      "title": "以原创性突破打开未来产业发展新空间 - 求是",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xaE1LU2pYWmpGSG1GRHJRV2ZYSGsxeElvYUVhaHR6OW1RaG9lZnlseXJQQnIzY1pHZS14bFdRLU9FNFFMVi1CZVhNbU42MTVWWE5tOTRLY3NsSnh0N0RVUW1pMWRhaHhSUVlCeUZMVHRJckpkV3N2Wk1CaFQ?oc=5",
+      "source": "求是",
+      "category": "政策",
+      "published": "2026-06-09",
+      "body_snippet": "以原创性突破打开未来产业发展新空间 求是",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-007",
+      "title": "吴清，周末发声！国常会，重磅部署！算力，大利好！重大资产重组，终止！影响一周市场的十大消息 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CdjFxWW5yX210RkhIazAwTlF6V0dhLUFZZVBQRDFDS1YwOVJoUHpWcWw3QmY0Nlp2MWh6Z1dvNDc0QXgtQUtlQ005WXNSbUhTSVQ4OG02WldFWnNpb0M5UA?oc=5",
+      "source": "东方财富",
+      "category": "政策",
+      "published": "2026-06-08",
+      "body_snippet": "吴清，周末发声！国常会，重磅部署！算力，大利好！重大资产重组，终止！影响一周市场的十大消息 东方财富",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-008",
+      "title": "周末要闻汇总：国常会研究未来产业发展有关工作_期市动态 - 中金在线",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vekhFaVNUQkNoS21hckRiNmxDb1ZPZWRUY21MbkluS3BCUVRWU2pVdmM4Y1cyWFdQa29kRGpYenp3SHJpOUpTMENsMFRweGNTSnV5czZ2NjI3Ymo4S0wzYnZZakdISkZlSlZkTERR?oc=5",
+      "source": "中金在线",
+      "category": "政策",
+      "published": "2026-06-07",
+      "body_snippet": "周末要闻汇总：国常会研究未来产业发展有关工作_期市动态 中金在线",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-009",
+      "title": "国常会定调未来产业，多地已前瞻布局 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcU5uUGJUYmRTMXA2S244RzhhMkNXZXlPWVctVGxQOE5CYl83LWhPWHlxbHZDN3JicmFmWVp3MXVjX0lNeTdWa1ZHWTVFdzVJMENtMEVwcG5EOXJyZXpCWnlsZE9KSGNvRnIwckUwVkpadnBlTENhTk1XNm5waWlGU0tFOWNKLTRn?oc=5",
+      "source": "搜狐网",
+      "category": "政策",
+      "published": "2026-06-07",
+      "body_snippet": "国常会定调未来产业，多地已前瞻布局 搜狐网",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-010",
+      "title": "未来产业的根子在科技 - 求是",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HM2JCcXJHUWNzSlMwLVAzZ0JDdmg4ZkRtVEZ0MkcwMmZGWjlEamtVSndEWThmZzZGYlZNYy10SXpVWUxfMDJOQ1lXejd2eGxKMllBWlVSbFk2cTFfcmhlV1NvbjRKX0tFbDR1Qk1XaFU3OGVEb2RjdnludGQ?oc=5",
+      "source": "求是",
+      "category": "政策",
       "published": "2026-06-06",
-      "body_snippet": "Results for \" 新澳彩开奖结果历史记录｛官网：852.tw｝.mig x.com",
-      "_query_boost": 20
+      "body_snippet": "未来产业的根子在科技 求是",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-011",
+      "title": "全球算力、芯片巨震，如何区分“AI科技牛顶”和“短期再平衡”？ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBxTjdjeGI0RjRKSnhzc2JIeGxtRjUtUDhUS0N4ZFJ5dkdteURUT0sxZG1rR2RfT0l2SkdpQmd1TDd4c3hmWTlkcGFSLXpHVDJDVVNnanVqdWdXQnpQblgyT05TbmpSTTRfSkhCY2tydw?oc=5",
+      "source": "新浪财经",
+      "category": "竞品",
+      "published": "2026-06-08",
+      "body_snippet": "全球算力、芯片巨震，如何区分“AI科技牛顶”和“短期再平衡”？ 新浪财经",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-012",
+      "title": "AI短剧“抽卡”抽到跳脚！中小企业正遭遇的“算力饥渴”怎么解？ - jfdaily.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KRlhrMmZmbHpLVmRRaW9KN1FiR2ROV0NUWlJJZkl0NjZRY2Etc28xcVZpNmVJZ2NBVXJZdVZQa1FNeU5jMlBMdTFoRmRpYWJGWHhRcWh0aEhpQQ?oc=5",
+      "source": "jfdaily.com",
+      "category": "政策",
+      "published": "2026-06-03",
+      "body_snippet": "AI短剧“抽卡”抽到跳脚！中小企业正遭遇的“算力饥渴”怎么解？ jfdaily.com",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-013",
+      "title": "上海企业加速全球算力布局！优刻得落子乌兹别克斯坦，已建成36个可用区 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aWC1ZOUlMd3FsLTlMa3ZIbjdZRWRLX1JHby1EaWZySFFsUzEtT29lbWlGTnM2SkZhMVR0YkRuU0ZHaGprbjJoSGhpQmlvd3Q1MUhKVk1SSnpZMnliSklnWGk3Z2NNc09wVVFoRjFJcWN5eWtpMGZQdw?oc=5",
+      "source": "新浪财经",
+      "category": "竞品",
+      "published": "2026-06-03",
+      "body_snippet": "上海企业加速全球算力布局！优刻得落子乌兹别克斯坦，已建成36个可用区 新浪财经",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-014",
+      "title": "【早报】国常会最新部署！事关未来产业；事关私募基金高质量发展，国办公布指导意见 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9jOFRwSzVsZDItLW04RTZBLWtWS3dXN1hyOVZpbGtDSkpKMGtfNG1PQ1o1SE8wM0hWX2dsaTRCZmhKOUlscW1BZg?oc=5",
+      "source": "财联社",
+      "category": "政策",
+      "published": "2026-06-08",
+      "body_snippet": "【早报】国常会最新部署！事关未来产业；事关私募基金高质量发展，国办公布指导意见 财联社",
+      "_query_boost": 25
     },
     {
       "id": "raw-015",
-      "title": "2026香港跨境财税服务机构测评：产业适配能力与专业服务效能深度分析 - 邢台网",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvMDZnTHRwVUZ3VlBtZ1lPT1ljcDdEeVF4RjhzeDRVNlItakFuQW5VMWcwMGRpOFVjeU0zZFp3Tzh3TXVxckIyeElJMVVOVHJZb3QyLXFDeGI0V0IxVGlEcTU3dGJMZw?oc=5",
-      "source": "邢台网",
-      "category": "监管",
-      "published": "2026-06-04",
-      "body_snippet": "2026香港跨境财税服务机构测评：产业适配能力与专业服务效能深度分析 邢台网",
-      "_query_boost": 20
+      "title": "【早报】李强：培育壮大新质生产力；事关算力，国资委最新部署 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE44WWJiLXl0U0hQZTNRaUFGQTdxS1QtSDcwMHRpUVdtNUJCb1ljMGk4WjN0bUk4VW5qVU82Ymw2WjM1dzBhLTVMdA?oc=5",
+      "source": "财联社",
+      "category": "政策",
+      "published": "2026-06-08",
+      "body_snippet": "【早报】李强：培育壮大新质生产力；事关算力，国资委最新部署 财联社",
+      "_query_boost": 0
     }
   ]
 }
