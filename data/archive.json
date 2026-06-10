@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-06-09T01:03:44.221Z",
+  "updated_at": "2026-06-10T01:05:27.579Z",
   "days": [
     {
-      "date": "2026-06-09",
-      "mainline": "算力网升格为“六张网”基础设施，政策红利打开；但运营商Token套餐和字节算力焦虑显化，竞争加剧。",
+      "date": "2026-06-10",
+      "mainline": "国常会密集部署未来产业与新型工业化，算力基建获强力背书；但对外投资新规出台为港股IPO路径增添变数",
       "signal_summary": {
-        "🏛️": 2,
+        "🏛️": 4,
         "📜": 0,
-        "⚔️": 3,
+        "⚔️": 0,
         "💰": 0,
         "🌏": 0,
         "🔬": 0
       },
       "wind_indicators": {
-        "policy_heat": 4,
-        "competitor_heat": 4,
+        "policy_heat": 5,
+        "competitor_heat": 2,
         "capital_heat": 3,
         "overseas_heat": 2,
         "overall_sentiment": "升温",
-        "summary": "政策端算力网升级与国常会定调释放利好，但竞品动作密集，运营商与多家对手加速布局，市场格局加速分化，风向升温。"
+        "summary": "政策端多重利好释放，但对外投资新规与算力供给增加引发竞争与合规担忧，整体风向偏暖中隐含谨慎"
       },
       "ppio_index": {
         "score": 66,
-        "delta": 11,
+        "delta": -2,
         "components": {
           "policy_tailwind": 35,
           "competitive_pressure": -18,
@@ -30,7 +30,7 @@
           "regulatory_risk": -8,
           "overseas_headwind": -5
         },
-        "interpretation": "算力网纳入六张网和国常会定调提升政策预期，但运营商与字节等竞对举措增加短期竞争压力，指数温和上涨。"
+        "interpretation": "政策持续加码算力基础设施，但对外投资新规增添监管不确定性，指数小幅回落"
       },
       "item_count": {
         "total": 10,
@@ -38,10 +38,46 @@
         "silent": 5
       },
       "competitor_updates": [
-        "字节跳动豆包专业版推出，付费暴露算力焦虑，或寻求低成本算力方案",
-        "三大运营商推出Token计费AI算力套餐，直接竞争PPIO边缘算力服务",
-        "优刻得落子乌兹别克斯坦，全球36个可用区，海外算力布局加速"
+        "国产AI算力芯片企业及算力中心项目加速落地，可能进入边缘算力市场形成潜在竞争"
       ]
+    },
+    {
+      "date": "2026-06-09",
+      "mainline": "顶层设计明确算力与AI战略布局，但中欧贸易战叠加AI备案向垂直行业延伸，为IPO带来合规与地缘双重变数。",
+      "signal_summary": {
+        "🏛️": 1,
+        "📜": 2,
+        "⚔️": 0,
+        "💰": 0,
+        "🌏": 0,
+        "🔬": 0
+      },
+      "wind_indicators": {
+        "policy_heat": 4,
+        "competitor_heat": 2,
+        "capital_heat": 1,
+        "overseas_heat": 3,
+        "overall_sentiment": "升温",
+        "summary": "政策面强劲升温，算力被纳入十五五核心赛道，但地缘博弈与监管延伸带来外部压力。"
+      },
+      "ppio_index": {
+        "score": 68,
+        "delta": 2,
+        "components": {
+          "policy_tailwind": 50,
+          "competitive_pressure": -5,
+          "capital_sentiment": -10,
+          "regulatory_risk": -15,
+          "overseas_headwind": -20
+        },
+        "interpretation": "十五五政策布局推升算力基建预期，但中欧贸易战与AI监管延伸增加合规与海外上市风险，整体指数小幅上行。"
+      },
+      "item_count": {
+        "total": 4,
+        "attend": 3,
+        "silent": 1
+      },
+      "competitor_updates": []
     },
     {
       "date": "2026-06-08",

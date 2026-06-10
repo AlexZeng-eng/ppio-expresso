@@ -1,161 +1,160 @@
 {
-  "generated_at": "2026-06-09T01:00:46.906Z",
+  "generated_at": "2026-06-10T01:00:55.260Z",
   "week": "2026-W24",
   "date_range": {
-    "from": "2026-06-02",
-    "to": "2026-06-09"
+    "from": "2026-06-03",
+    "to": "2026-06-10"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "月之暗面寻找新一轮20亿美元融资？估值较半年前增长6倍 - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLb2drMXlNSDhuUmdCWFpyMHI1d25URUFoM3RJRWRINHlTbUplamZaZjFvLTZTVkJpSGdwWDB3b2Q4ckNJQTExajNnUmk3Qk8zeDROMlc5amxDYnNUMEE?oc=5",
-      "source": "thepaper.cn",
-      "category": "资本",
-      "published": "2026-06-08",
-      "body_snippet": "月之暗面寻找新一轮20亿美元融资？估值较半年前增长6倍 thepaper.cn",
+      "title": "算力中心建设进入快车道，适合部署的国产AI算力芯片及计划上市企业推荐 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWVd5SG95Q25LTHFsUXRacS1wUmlrVjE5LWNYX0ZsN2t4MVA1SkZKTndua19CYWVmeHpPN2NJQVhOWEFjYkNESnNTdl9HbkdLUnp5QTFEaWlqQndfSi1zaEp4Ym1kTXpxTVZyMjdJZTVfNnktR2h1ZmJfT3NwdnNyY1RQcC1lRnJq?oc=5",
+      "source": "搜狐网",
+      "category": "技术",
+      "published": "2026-06-09",
+      "body_snippet": "算力中心建设进入快车道，适合部署的国产AI算力芯片及计划上市企业推荐 搜狐网",
       "_query_boost": 20
     },
     {
       "id": "raw-002",
-      "title": "豆包专业版将至：免费与付费之间字节遇算力焦虑- 字节跳动ByteDance - cnBeta.COM",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fWl82NFZEaHNxXzNfSnY3VllMYlNwdURvcWYxSHRaVTJVRlJ0UEw5NFgwdG1qTHdsYUdXVUpZdG1QOTQ3TFpaSXl2aGFPbjc3WEFMbjM5eFJFZU52bnYzMw?oc=5",
-      "source": "cnBeta.COM",
-      "category": "竞品",
-      "published": "2026-06-04",
-      "body_snippet": "豆包专业版将至：免费与付费之间字节遇算力焦虑- 字节跳动ByteDance cnBeta.COM",
-      "_query_boost": 15
+      "title": "Behind the Claude 5 rumors, Anthropic is turning model releases into IPO language - Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JZ1puVjhmdmVmbnJ5WXJqU3ptVGRYRng2eDhGdXhNMlRhbm54VWwxVDJSNkF3Nm5SUVBfRTN6R0EwOV9qd0RDZlhMNy03clEzcWpPSDlfZFlGTHhJc3pHTUFURzU?oc=5",
+      "source": "Binance",
+      "category": "海外",
+      "published": "2026-06-09",
+      "body_snippet": "Behind the Claude 5 rumors, Anthropic is turning model releases into IPO language Binance",
+      "_query_boost": 20
     },
     {
       "id": "raw-003",
-      "title": "算力网纳入国家“六张网”，如何建得好、用得好、用得起？ - 开放数据中心委员会",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3QTZKVTJUbVE3a1hNZjlTaEUtZ1dIbEhEanc0REdIYUtUekQ5Y3hYblB6MXd3QTR2UGhycXZ6Y0V2encycGJLSE9LNkxmdVhPemxzNndRdWNVR1I1dWFuLU1wYmlQUQ?oc=5",
-      "source": "开放数据中心委员会",
-      "category": "政策",
-      "published": "2026-06-08",
-      "body_snippet": "算力网纳入国家“六张网”，如何建得好、用得好、用得起？ 开放数据中心委员会",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-004",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
-      "category": "技术",
-      "published": "2026-06-08",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-005",
-      "title": "中信建投：当前全球AI算力基建的订单能见度仍比较高，依旧看好AI产业链",
-      "url": "https://36kr.com/newsflashes/3845195819124997?f=rss",
+      "title": "欧陆通：已与Google达成算力设备GPU电源项目合作，正推进至测试及小批量生产",
+      "url": "https://36kr.com/newsflashes/3846628037347849?f=rss",
       "source": "36氪",
-      "published": "2026-06-09",
+      "published": "2026-06-10",
       "body_snippet": "",
       "category": "技术"
     },
     {
+      "id": "raw-004",
+      "title": "中国软件国际：签订人民币10亿元高端AI算力设备销售协议",
+      "url": "https://36kr.com/newsflashes/3846599148177922?f=rss",
+      "source": "36氪",
+      "published": "2026-06-10",
+      "body_snippet": "",
+      "category": "资本"
+    },
+    {
+      "id": "raw-005",
+      "title": "算力网加速落地：国家推动算力互联互通，普通人数百元可租用算力 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FR3JDaGZ1QmI1N01sM2t2cEZhYXQ2XzhNdWVhU1BOUklQTm1HVUtCNVJvTWs5dmRtcW50dTNSMUZ4YTRRM2xMYnZnLUswcXV2TTJhZw?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-06-08",
+      "body_snippet": "算力网加速落地：国家推动算力互联互通，普通人数百元可租用算力 虎嗅",
+      "_query_boost": 0
+    },
+    {
       "id": "raw-006",
-      "title": "以原创性突破打开未来产业发展新空间 - 求是",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xaE1LU2pYWmpGSG1GRHJRV2ZYSGsxeElvYUVhaHR6OW1RaG9lZnlseXJQQnIzY1pHZS14bFdRLU9FNFFMVi1CZVhNbU42MTVWWE5tOTRLY3NsSnh0N0RVUW1pMWRhaHhSUVlCeUZMVHRJckpkV3N2Wk1CaFQ?oc=5",
-      "source": "求是",
+      "title": "国常会部署未来产业_新浪新闻 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIZ2NTQ1JNSVVFWEJ2bld4V1hURWpJaVFXRDlQaHBQZTFHQzFiS2xHdmxPaFlYMTlOdVhXQmtGU3RIY2ZfN1lUc1ZXcnhDTlBtMzczZkdYM0REMjZTcnlNVUl0VQ?oc=5",
+      "source": "手机新浪网",
       "category": "政策",
-      "published": "2026-06-09",
-      "body_snippet": "以原创性突破打开未来产业发展新空间 求是",
+      "published": "2026-06-05",
+      "body_snippet": "国常会部署未来产业_新浪新闻 手机新浪网",
       "_query_boost": 30
     },
     {
       "id": "raw-007",
-      "title": "吴清，周末发声！国常会，重磅部署！算力，大利好！重大资产重组，终止！影响一周市场的十大消息 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CdjFxWW5yX210RkhIazAwTlF6V0dhLUFZZVBQRDFDS1YwOVJoUHpWcWw3QmY0Nlp2MWh6Z1dvNDc0QXgtQUtlQ005WXNSbUhTSVQ4OG02WldFWnNpb0M5UA?oc=5",
-      "source": "东方财富",
-      "category": "政策",
-      "published": "2026-06-08",
-      "body_snippet": "吴清，周末发声！国常会，重磅部署！算力，大利好！重大资产重组，终止！影响一周市场的十大消息 东方财富",
-      "_query_boost": 25
+      "title": "苹果全面免除小型开发者云API费用，高昂算力成本下AI生态迎破局点 - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ycVRnbVJTQTN1aHdLaHB1Um5TLUx2QkVwZ1VVaUxiQjIzM0hFdmZUTFd6bEMybDlCSmRHQ1ZWdGRiVlBwOHFCd0JnVjVQdw?oc=5",
+      "source": "AIBase",
+      "category": "技术",
+      "published": "2026-06-09",
+      "body_snippet": "苹果全面免除小型开发者云API费用，高昂算力成本下AI生态迎破局点 AIBase",
+      "_query_boost": 0
     },
     {
       "id": "raw-008",
-      "title": "周末要闻汇总：国常会研究未来产业发展有关工作_期市动态 - 中金在线",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vekhFaVNUQkNoS21hckRiNmxDb1ZPZWRUY21MbkluS3BCUVRWU2pVdmM4Y1cyWFdQa29kRGpYenp3SHJpOUpTMENsMFRweGNTSnV5czZ2NjI3Ymo4S0wzYnZZakdISkZlSlZkTERR?oc=5",
-      "source": "中金在线",
+      "title": "未来产业根子在科技_新浪新闻 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hN1ZFVzBleXNzSkhsZnI5cUtRb05RTmtGRUFYMm50RFVaX2lKaUdhNHljMTBidFlNYVdtcXBMZUswVmhPamNORmpWLXFjRGJwTDBKenVaRjNUVE1FUEdTZl8xYw?oc=5",
+      "source": "手机新浪网",
       "category": "政策",
       "published": "2026-06-07",
-      "body_snippet": "周末要闻汇总：国常会研究未来产业发展有关工作_期市动态 中金在线",
-      "_query_boost": 25
+      "body_snippet": "未来产业根子在科技_新浪新闻 手机新浪网",
+      "_query_boost": 40
     },
     {
       "id": "raw-009",
-      "title": "国常会定调未来产业，多地已前瞻布局 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcU5uUGJUYmRTMXA2S244RzhhMkNXZXlPWVctVGxQOE5CYl83LWhPWHlxbHZDN3JicmFmWVp3MXVjX0lNeTdWa1ZHWTVFdzVJMENtMEVwcG5EOXJyZXpCWnlsZE9KSGNvRnIwckUwVkpadnBlTENhTk1XNm5waWlGU0tFOWNKLTRn?oc=5",
-      "source": "搜狐网",
-      "category": "政策",
-      "published": "2026-06-07",
-      "body_snippet": "国常会定调未来产业，多地已前瞻布局 搜狐网",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-010",
-      "title": "未来产业的根子在科技 - 求是",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HM2JCcXJHUWNzSlMwLVAzZ0JDdmg4ZkRtVEZ0MkcwMmZGWjlEamtVSndEWThmZzZGYlZNYy10SXpVWUxfMDJOQ1lXejd2eGxKMllBWlVSbFk2cTFfcmhlV1NvbjRKX0tFbDR1Qk1XaFU3OGVEb2RjdnludGQ?oc=5",
-      "source": "求是",
+      "title": "一周发展改革新闻要览 - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xQzJ5OFdWQnFqTnBWc1pxeU1Odm9raWxMWkVrU01jX1QydV9VYy1KM2wzQVhxeDB5WkxnUVRncTBQYjI3azBZOTVJdGh5UzV0NWlzUUM2WTBZWktzNUE?oc=5",
+      "source": "thepaper.cn",
       "category": "政策",
       "published": "2026-06-06",
-      "body_snippet": "未来产业的根子在科技 求是",
+      "body_snippet": "一周发展改革新闻要览 thepaper.cn",
       "_query_boost": 30
     },
     {
+      "id": "raw-010",
+      "title": "文脉传承高扬文化主体性 - 求是",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE82U01wdkt0cWM2dzBqNkVRbW9jaDlwMmdNN01JczBZeW5iem5ReTkxVnl5SGV5WDJqMC1MY2lKMXZIQUQwcDhEd2FKTHNPWkpNblV0ME5LOXpQMzFnUjFvLXFrMjlTQ0FiOXdxdGVELUlBdkdVQUNOZWRPTlM?oc=5",
+      "source": "求是",
+      "category": "政策",
+      "published": "2026-06-09",
+      "body_snippet": "文脉传承高扬文化主体性 求是",
+      "_query_boost": 25
+    },
+    {
       "id": "raw-011",
-      "title": "全球算力、芯片巨震，如何区分“AI科技牛顶”和“短期再平衡”？ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBxTjdjeGI0RjRKSnhzc2JIeGxtRjUtUDhUS0N4ZFJ5dkdteURUT0sxZG1rR2RfT0l2SkdpQmd1TDd4c3hmWTlkcGFSLXpHVDJDVVNnanVqdWdXQnpQblgyT05TbmpSTTRfSkhCY2tydw?oc=5",
-      "source": "新浪财经",
-      "category": "竞品",
-      "published": "2026-06-08",
-      "body_snippet": "全球算力、芯片巨震，如何区分“AI科技牛顶”和“短期再平衡”？ 新浪财经",
-      "_query_boost": 0
+      "title": "【早报】仅1纳米、功耗最低！北大实现芯片领域重要突破；美最高法院裁定特朗普政府关税政策违法 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1ZSGMyalYxcXlBWmZIaTNwM3R0cHB5NG5nQTRCamwzTGlGdzFZN0ZDSVRxem1ySnBvbXFleGJidWdCTGJENXZqZg?oc=5",
+      "source": "财联社",
+      "category": "政策",
+      "published": "2026-06-09",
+      "body_snippet": "【早报】仅1纳米、功耗最低！北大实现芯片领域重要突破；美最高法院裁定特朗普政府关税政策违法 财联社",
+      "_query_boost": 25
     },
     {
       "id": "raw-012",
-      "title": "AI短剧“抽卡”抽到跳脚！中小企业正遭遇的“算力饥渴”怎么解？ - jfdaily.com",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KRlhrMmZmbHpLVmRRaW9KN1FiR2ROV0NUWlJJZkl0NjZRY2Etc28xcVZpNmVJZ2NBVXJZdVZQa1FNeU5jMlBMdTFoRmRpYWJGWHhRcWh0aEhpQQ?oc=5",
-      "source": "jfdaily.com",
+      "title": "国常会定调新型工业化：要以发展新一代智能制造为主攻方向 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOGtCdTRyc3BsdWlvZ0R2bzdzc2dmSGQ2QXBXRWc1RTU5a1ZleEd0TXlzWjBpNGNubmFGTVl4RHVyNWNyZ28wVFU4MXdsSzJWWUpBTEd1Wk5nX0ZTbXg0MkR4eXBySjlyMG9Tb1UzdWJnaUZrWXJpSlowRU5xeF82OVV6RGRWTFZFUW5FNHdNaw?oc=5",
+      "source": "新浪财经",
       "category": "政策",
-      "published": "2026-06-03",
-      "body_snippet": "AI短剧“抽卡”抽到跳脚！中小企业正遭遇的“算力饥渴”怎么解？ jfdaily.com",
-      "_query_boost": 0
+      "published": "2026-06-09",
+      "body_snippet": "国常会定调新型工业化：要以发展新一代智能制造为主攻方向 新浪财经",
+      "_query_boost": 25
     },
     {
       "id": "raw-013",
-      "title": "上海企业加速全球算力布局！优刻得落子乌兹别克斯坦，已建成36个可用区 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aWC1ZOUlMd3FsLTlMa3ZIbjdZRWRLX1JHby1EaWZySFFsUzEtT29lbWlGTnM2SkZhMVR0YkRuU0ZHaGprbjJoSGhpQmlvd3Q1MUhKVk1SSnpZMnliSklnWGk3Z2NNc09wVVFoRjFJcWN5eWtpMGZQdw?oc=5",
-      "source": "新浪财经",
-      "category": "竞品",
-      "published": "2026-06-03",
-      "body_snippet": "上海企业加速全球算力布局！优刻得落子乌兹别克斯坦，已建成36个可用区 新浪财经",
-      "_query_boost": 0
+      "title": "刘佳：对外投资新规出台，是何信号？ - 乌有之乡",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14SW9NOHprTjQ5X1hVeEU1eVRDcjd1dE54ZTk2RXM1YmluR1FDdXFGSDlpY1Y1cWMwelNWWkpTdDJSV0t5U1BIRmF4eFliRTZnVXdKaGFGRnhPNEpPUDRQVXJJS080Qi1q?oc=5",
+      "source": "乌有之乡",
+      "category": "监管",
+      "published": "2026-06-08",
+      "body_snippet": "刘佳：对外投资新规出台，是何信号？ 乌有之乡",
+      "_query_boost": 25
     },
     {
       "id": "raw-014",
-      "title": "【早报】国常会最新部署！事关未来产业；事关私募基金高质量发展，国办公布指导意见 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9jOFRwSzVsZDItLW04RTZBLWtWS3dXN1hyOVZpbGtDSkpKMGtfNG1PQ1o1SE8wM0hWX2dsaTRCZmhKOUlscW1BZg?oc=5",
-      "source": "财联社",
+      "title": "AI渗透金融场景 风控、投研、评级逻辑加速重构 - cb.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wS0E3VF9VaTljT196Q1VNTWFmZV93bVhJWmtVQTZoS0pVaHRWLVQwVXhWUWY5cHhMRGk2NTRQcmdad3B2MlZWbVdmZ21uOW03dDBGOGx3QUZ5UVhWUDdXX0FB?oc=5",
+      "source": "cb.com.cn",
       "category": "政策",
       "published": "2026-06-08",
-      "body_snippet": "【早报】国常会最新部署！事关未来产业；事关私募基金高质量发展，国办公布指导意见 财联社",
+      "body_snippet": "AI渗透金融场景 风控、投研、评级逻辑加速重构 cb.com.cn",
       "_query_boost": 25
     },
     {
       "id": "raw-015",
-      "title": "【早报】李强：培育壮大新质生产力；事关算力，国资委最新部署 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE44WWJiLXl0U0hQZTNRaUFGQTdxS1QtSDcwMHRpUVdtNUJCb1ljMGk4WjN0bUk4VW5qVU82Ymw2WjM1dzBhLTVMdA?oc=5",
-      "source": "财联社",
+      "title": "国常会定调新型工业化：发展新一代智能制造是主攻方向 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObzZhU3A5eXMxTVRMNXJncGZ2ZG9ob1dpTGx0c2lQeVJFclBsdTcxSUU2X2oxSklQTXF6NGtYa2xkZFNYOWFIM2kyWGs0V1o5UXRiQTgzX1pBTUpqLUpJRXZ6RWhON3JQMndCT1BMTksyVFByRVRQX09nYUtHb2ZCSERQdWcwdTRFY0RJejR2cw?oc=5",
+      "source": "21财经",
       "category": "政策",
-      "published": "2026-06-08",
-      "body_snippet": "【早报】李强：培育壮大新质生产力；事关算力，国资委最新部署 财联社",
-      "_query_boost": 0
+      "published": "2026-06-07",
+      "body_snippet": "国常会定调新型工业化：发展新一代智能制造是主攻方向 21财经",
+      "_query_boost": 25
     }
   ]
 }

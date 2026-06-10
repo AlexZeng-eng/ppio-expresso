@@ -85,6 +85,82 @@
   .signal-watch h4 { color: #8f7020; }
   .signal-action { background: #f0f4fa; border: 1px solid #c8d4e8; }
   .signal-action h4 { color: #2a5080; }
+
+  /* ── Policy Momentum ── */
+  .momentum-section {
+    margin-top: 2rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--rule-soft);
+  }
+  .momentum-row {
+    padding: 0.7rem 0.9rem;
+    margin-bottom: 0.5rem;
+    background: var(--bg-soft);
+    border: 1px solid var(--rule-soft);
+    border-radius: 4px;
+  }
+  .momentum-thread {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+    margin-bottom: 0.3rem;
+  }
+  .momentum-arrow {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    margin-bottom: 0.3rem;
+  }
+  .momentum-from { color: var(--ink-mute); }
+  .momentum-chevron { color: var(--rule); }
+  .momentum-to { color: var(--ink-soft); font-weight: 600; }
+  .momentum-badge {
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 0.1rem 0.45rem;
+    border-radius: 3px;
+    letter-spacing: 0.03em;
+  }
+  .momentum-interp {
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+  .momentum-absent {
+    margin-top: 0.6rem;
+    padding: 0.5rem 0.8rem;
+    background: #fdfaf0;
+    border: 1px solid #e8dcc0;
+    border-radius: 4px;
+    font-family: var(--sans);
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.5rem;
+    align-items: baseline;
+  }
+  .momentum-absent-label {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    color: #8f7020;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+  }
+  .momentum-absent-item {
+    background: #fef3c7;
+    color: #92400e;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.76rem;
+  }
   .word-cloud-section {
     margin-top: 2.4rem;
     padding-top: 1.4rem;
@@ -397,19 +473,19 @@
 <div id="view-feed" class="view-panel">
 <nav class="feed-tabs" role="tablist">
           <button class="tab is-active" data-tab="all" role="tab" aria-selected="true">
-            全部 <span class="tab-count">10</span>
+            全部 <span class="tab-count">4</span>
           </button>
           <button class="tab" data-tab="政策" role="tab" aria-selected="false">
-      政策 <span class="tab-count">4</span>
+      政策 <span class="tab-count">1</span>
     </button>
           <button class="tab" data-tab="竞品" role="tab" aria-selected="false">
-      竞品 <span class="tab-count">3</span>
+      竞品 <span class="tab-count">0</span>
     </button>
           <button class="tab" data-tab="监管" role="tab" aria-selected="false">
-      监管 <span class="tab-count">0</span>
+      监管 <span class="tab-count">2</span>
     </button>
           <button class="tab" data-tab="资本" role="tab" aria-selected="false">
-      资本 <span class="tab-count">2</span>
+      资本 <span class="tab-count">0</span>
     </button>
           <button class="tab" data-tab="海外" role="tab" aria-selected="false">
       海外 <span class="tab-count">0</span>
@@ -425,33 +501,33 @@
   <section class="feed-section">
     <h2 class="date-section" title="2026-W24">2026-W24</h2>
     <ol class="feed-list">
-      <li class="feed-card" data-deep="false" data-tags="竞品">
+      <li class="feed-card" data-deep="false" data-tags="监管">
         <div class="card-header">
-          <span class="card-source">cnBeta.COM</span>
+          <span class="card-source">香港01</span>
           <span class="card-sep">·</span>
-          <time class="card-date">2026-06-04</time>
+          <time class="card-date">2026-06-09</time>
           <span class="card-sep">·</span>
-          <span class="card-cat" style="background:#fdf3e8">竞品</span>
+          <span class="card-cat" style="background:#fdf0f0">监管</span>
           
-          <span class="signal-chips"><span class="signal-chip" data-tip="竞争对手的融资、产品、战略变化" aria-label="竞争对手的融资、产品、战略变化">⚔️</span></span>
+          <span class="signal-chips"><span class="signal-chip" data-tip="AI立法、安全审查、合规动向" aria-label="AI立法、安全审查、合规动向">📜</span></span>
           <span class="card-rank">#1</span>
         </div>
         <h2 class="card-title">
-          <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fWl82NFZEaHNxXzNfSnY3VllMYlNwdURvcWYxSHRaVTJVRlJ0UEw5NFgwdG1qTHdsYUdXVUpZdG1QOTQ3TFpaSXl2aGFPbjc3WEFMbjM5eFJFZU52bnYzMw?oc=5" target="_blank" rel="noopener">豆包专业版将至：免费与付费之间字节遇算力焦虑- 字节跳动ByteDance - cnBeta.COM</a>
+          <a href="https://news.google.com/rss/articles/CBMiqANBVV95cUxOVHMtVGM0NE9ZWVp4Q2E1THFLRHFianRIMlQ5VHJrMEdsd1ZSSjk2MDFOSkw5bWF2NEdraGVzUmpBbXJqRzBOSDZmYTh4S19nQTJVQTYxUVVIekpVOVpnRlhORWlnRkRTU19oXzRqaGx4XzJ3YmRSUEhrRHBxcW9OdDF6V3ZYV3czZ2paS21MYkh1dzUtRnk5b0FtaVpmRm9zejZWVlBiWFNvSkhkVHQtbWQxWF9fU3E4TEQya1Y0UGN2ZmlXWXZoSlotSXlyRlA4OXkyQkNJR1pqbWJWUWFVdlc3Ylh3bkcyXzFkY0RvUjdhOFpCbW1uSWFQNmp3TV9TSGw3cTJWXzBEUWl1QW9JQnBKUnZwTzVBSmFTeGJWOTRZSmdUZVVQY3ZGakVYVFhLbHdrX0JUTmlmV2RqSUpkVmpXVm9IMl82RzV2Z2pvNkRiRHFsWU1VTDE3Yy1FVFV5WHN1c1owR3dweWtld1BkSEExU2NiSVhTcE9nMWZjZEFjTDBFSkF6Wi1oaHJKTVBLeW5XdTczUENNTVVHbWNtc3Vla20xUDdt?oc=5" target="_blank" rel="noopener">中欧博弈续写中美贸易战 北京反制更成熟结局更残酷 ｜点经 - 香港01</a>
         </h2>
-        <p class="card-excerpt">字节跳动旗下豆包大模型即将推出专业版并尝试付费，背后暴露出日益突出的算力焦虑；免费模式难以为继，算力成本倒逼商业变现。这一动态显示字节在加大自建算力与模型服务变现的投入。
-对PPIO而言，字节既是潜在客户也是间接竞品：其算力焦虑可能催生更多外部边缘算力采购需求，但同时字节自建边缘节点的决心也会分流部分市场；PPIO需强化差异化，提供更灵活、低成本的分布式推理算力，以应对大型云厂商的垂直整合趋势。</p>
+        <p class="card-excerpt">中欧贸易博弈持续发酵，叠加中美贸易战阴云，北京的反制措施更趋成熟但可能导致更残酷的经济脱钩后果。这种地缘冲突可能引发新一轮跨境投资审查与资本市场波动，尤其对中概股审计底稿、VIE架构及港股流动性带来不确定性。
+对PPIO影响：公司正处于港股IPO关键期，地缘政治激化可能使国际投资者对中国科技企业风险溢价提高，监管部门对赴港上市企业的合规审查可能加码，增加备案难度。但若反制措施有效稳定供应链预期，也可能为算力出海打开窗口。需密切跟踪商务部、证监会动态，提前准备多套上市合规预案。</p>
         <details class="ppio-signal">
             <summary>PPIO 信号</summary>
-            <p><strong>🟢 利好信号：</strong>大型企业算力焦虑验证了分布式推理算力的旺盛需求，PPIO可争取成为其弹性补充。</p>
-            <p><strong>🔴 风险信号：</strong>字节等巨头加速自建边缘基础设施，可能减少对外部平台依赖，形成客户转竞品的风险。</p>
+            <p><strong>🟢 利好信号：</strong>若反制成熟，中概股监管预期可能企稳，港股IPO窗口有望维持。</p>
+            <p><strong>🔴 风险信号：</strong>贸易战升级可能引致跨境审计与VIE架构审查收紧，延缓上市进程或压低估值。</p>
           </details>
       </li>
       <li class="feed-card" data-deep="true" data-tags="政策">
         <div class="card-header">
-          <span class="card-source">开放数据中心委员会</span>
+          <span class="card-source">经济形势报告网</span>
           <span class="card-sep">·</span>
-          <time class="card-date">2026-06-08</time>
+          <time class="card-date">2026-06-04</time>
           <span class="card-sep">·</span>
           <span class="card-cat" style="background:#e8f4fd">政策</span>
           
@@ -459,79 +535,36 @@
           <span class="card-rank">#2</span>
         </div>
         <h2 class="card-title">
-          <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3QTZKVTJUbVE3a1hNZjlTaEUtZ1dIbEhEanc0REdIYUtUekQ5Y3hYblB6MXd3QTR2UGhycXZ6Y0V2encycGJLSE9LNkxmdVhPemxzNndRdWNVR1I1dWFuLU1wYmlQUQ?oc=5" target="_blank" rel="noopener">算力网纳入国家“六张网”，如何建得好、用得好、用得起？ - 开放数据中心委员会</a>
+          <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LaEtkRXFKQjU0b1BVUUxGUERmVlRzZTc3OUZuS0g0aDg4YlJjQ0doUVV5XzVMaDZUc3NoR0JYZFhreGYybF9kbEg2YUxwYk10Q1JFOHNDZkEtQXZaNXRIZWZR?oc=5" target="_blank" rel="noopener">科学谋划 “十五五” 未来产业重点赛道 - 经济形势报告网</a>
         </h2>
-        <p class="card-excerpt">国家将算力网正式纳入“六张网”重大基础设施布局，进一步明确算力作为新型关键生产要素的战略地位。该政策旨在推动全国一体化算力网络建设，促进算力资源的高效调度和普惠应用，确保算力“建得好、用得好、用得起”。
-对PPIO而言，政策明确了边缘计算节点在国家级算力网络中的合法身份，有望获得政策扶持、税收优惠以及更多政企合作机会；但同时也意味着国资云、运营商等将加速入场，竞争格局可能从市场化转为政策导向，PPIO需提前布局合规能力与政务渠道，并在港股IPO故事中强化“国家级算力网络共建者”的定位。</p>
+        <p class="card-excerpt">有关部门正在科学谋划“十五五”未来产业重点赛道，预计将系统布局人工智能、先进计算等前沿领域。这一顶层设计将在2026-2030年规划期内明确国家资源投入方向，直接影响算力基础设施的供给结构和政策支持力度。
+对PPIO而言，若重点赛道突出分布式、边缘侧AI算力，将直接打开政策窗口，获得试点、补贴、客户导入等先发优势；但若规划偏重集中式超大规模算力中心，边缘云空间可能被压缩，港股IPO时的行业故事和估值逻辑需适应性调整。PPIO需紧密跟踪相关部委的具体赛道清单和实施细则，及时将自身边缘分布式算力嵌入国家未来产业叙事中。</p>
         <details class="ppio-signal">
             <summary>PPIO 信号</summary>
-            <p><strong>🟢 利好信号：</strong>边缘分布式算力被纳入国家基础设施体系，政策红利打开市场天花板，利于IPO估值。</p>
-            <p><strong>🔴 风险信号：</strong>政策推进可能伴生子行业准入、数据安全等合规要求，增加运营成本；大型国企竞争者可能挤压初创份额。</p>
+            <p><strong>🟢 利好信号：</strong>政策鲜明支持未来产业，AI与先进计算被纳入概率极大，为PPIO提供高位政策背书，有利于IPO招股书中描绘高增长赛道。</p>
+            <p><strong>🔴 风险信号：</strong>若重点赛道定义偏向集中式智算中心或量子计算等新范式，边缘云定位可能遭边缘化，影响资本市场对PPIO长期价值的判断。</p>
           </details>
       </li>
-      <li class="feed-card" data-deep="false" data-tags="竞品">
+      <li class="feed-card" data-deep="false" data-tags="监管">
         <div class="card-header">
-          <span class="card-source">财联社</span>
+          <span class="card-source">盖世汽车社区</span>
           <span class="card-sep">·</span>
           <time class="card-date">2026-06-08</time>
           <span class="card-sep">·</span>
-          <span class="card-cat" style="background:#fdf3e8">竞品</span>
+          <span class="card-cat" style="background:#fdf0f0">监管</span>
           
-          <span class="signal-chips"><span class="signal-chip" data-tip="竞争对手的融资、产品、战略变化" aria-label="竞争对手的融资、产品、战略变化">⚔️</span></span>
+          <span class="signal-chips"><span class="signal-chip" data-tip="AI立法、安全审查、合规动向" aria-label="AI立法、安全审查、合规动向">📜</span></span>
           <span class="card-rank">#3</span>
         </div>
         <h2 class="card-title">
-          <a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5" target="_blank" rel="noopener">三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社</a>
+          <a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XbkFpUmU2SE5GNTNLSzNieVlHc09jb3paUm9Db3A1V0ZaQnp4VGpqMVU0WEQwQlFmN0JsNHdQQ3FnU1YzT29RWUNNQUttTV9p?oc=5" target="_blank" rel="noopener">长安自研天枢大模型通过国家AI备案审批 - 盖世汽车社区</a>
         </h2>
-        <p class="card-excerpt">中国移动、中国电信、中国联通三大运营商联合推出基于Token计费的AI算力套餐，将大模型调用封装为标准商品，大幅降低企业及个人使用门槛，加速AI算力“大众化”。
-此举对PPIO构成直接竞争：运营商拥有机房、网络和资金优势，Token套餐可能快速抢占中小客户市场；但同时也教育了市场，扩大整体算力消费需求。PPIO的差异化在于边缘近场处理、低延迟推理和异构算力调度，可聚焦实时性要求高的场景，避开价格战，以服务质量与灵活架构取胜。</p>
+        <p class="card-excerpt">长安汽车自研天枢大模型通过国家AI备案审批，标志着车端大模型正式进入合规应用阶段，AI监管框架向垂直行业延伸。这反映出大模型备案制度已从通用模型扩展至行业专用模型，合规成为AI落地的硬性前置条件。
+对PPIO边缘云平台来说，大量AI客户（尤其是行业大模型厂商）未来部署在边缘侧的模型也需满足备案要求，PPIO需在算力服务中内置合规能力，帮助客户快速通过审核；同时自身若承担部分模型服务也可能面临备案义务。合规环境明朗化有利于规范市场，但短期内可能增加企业采购边缘算力的决策流程，PPIO在产品设计和客户引导上需前置考虑监管因素。</p>
         <details class="ppio-signal">
             <summary>PPIO 信号</summary>
-            <p><strong>🟢 利好信号：</strong>算力套餐普及催熟市场，PPIO边缘分布式方案可服务对延迟敏感、数据本地化要求高的客户。</p>
-            <p><strong>🔴 风险信号：</strong>运营商暴力降价可能拉低行业毛利，挤压独立算力平台的生存空间。</p>
-          </details>
-      </li>
-      <li class="feed-card" data-deep="true" data-tags="政策">
-        <div class="card-header">
-          <span class="card-source">搜狐网</span>
-          <span class="card-sep">·</span>
-          <time class="card-date">2026-06-07</time>
-          <span class="card-sep">·</span>
-          <span class="card-cat" style="background:#e8f4fd">政策</span>
-          
-          <span class="signal-chips"><span class="signal-chip" data-tip="中央/部委级别的政策文件与部署" aria-label="中央/部委级别的政策文件与部署">🏛️</span></span>
-          <span class="card-rank">#4</span>
-        </div>
-        <h2 class="card-title">
-          <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcU5uUGJUYmRTMXA2S244RzhhMkNXZXlPWVctVGxQOE5CYl83LWhPWHlxbHZDN3JicmFmWVp3MXVjX0lNeTdWa1ZHWTVFdzVJMENtMEVwcG5EOXJyZXpCWnlsZE9KSGNvRnIwckUwVkpadnBlTENhTk1XNm5waWlGU0tFOWNKLTRn?oc=5" target="_blank" rel="noopener">国常会定调未来产业，多地已前瞻布局 - 搜狐网</a>
-        </h2>
-        <p class="card-excerpt">6月X日，国务院常务会议研究部署未来产业发展工作，强调要前瞻布局未来产业，加强原创性、引领性科技攻关，聚焦人工智能、量子信息、高端芯片、算力基础设施等重点领域，推动创新链产业链资金链深度融合，并指出将适时出台配套支持措施，加快先导区建设。
-对PPIO而言，国常会点名算力基础设施，边缘云分布式算力作为新基建重要组成部分将直接受益，有望迎来更明确的政策倾斜与补贴支持，降低合规与资源获取门槛，为港股IPO营造有利的政策叙事。</p>
-        <details class="ppio-signal">
-            <summary>PPIO 信号</summary>
-            <p><strong>🟢 利好信号：</strong>国常会明确算力基础设施为国家未来产业重点，边缘云分布式算力有望获得专项政策红利，加速市场拓展与上市进程。</p>
-            <p><strong>🔴 风险信号：</strong>政策落地时间与各地执行力度不明，可能引发大型云厂商及新进入者加大投入，导致竞争加剧。</p>
-          </details>
-      </li>
-      <li class="feed-card" data-deep="false" data-tags="竞品">
-        <div class="card-header">
-          <span class="card-source">新浪财经</span>
-          <span class="card-sep">·</span>
-          <time class="card-date">2026-06-03</time>
-          <span class="card-sep">·</span>
-          <span class="card-cat" style="background:#fdf3e8">竞品</span>
-          
-          <span class="signal-chips"><span class="signal-chip" data-tip="竞争对手的融资、产品、战略变化" aria-label="竞争对手的融资、产品、战略变化">⚔️</span></span>
-          <span class="card-rank">#5</span>
-        </div>
-        <h2 class="card-title">
-          <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE5aWC1ZOUlMd3FsLTlMa3ZIbjdZRWRLX1JHby1EaWZySFFsUzEtT29lbWlGTnM2SkZhMVR0YkRuU0ZHaGprbjJoSGhpQmlvd3Q1MUhKVk1SSnpZMnliSklnWGk3Z2NNc09wVVFoRjFJcWN5eWtpMGZQdw?oc=5" target="_blank" rel="noopener">上海企业加速全球算力布局！优刻得落子乌兹别克斯坦，已建成36个可用区 - 新浪财经</a>
-        </h2>
-        <p class="card-excerpt">优刻得在乌兹别克斯坦增设可用区，全球可用区达36个，加速海外算力布局。此举显示其全球化战略提速，可能在中亚等新兴市场构建先发优势。对于PPIO而言，优刻得作为具备全球节点和云服务能力的竞争对手，其海外扩张将直接争夺出海客户的边缘计算与分布式算力需求。PPIO需评估自身在类似区域的资源部署速度，避免客户因覆盖不足而转向优刻得，同时需关注优刻得是否会在边缘侧推出更具性价比的分布式方案，威胁PPIO的差异化定位。</p>
-        <details class="ppio-signal">
-            <summary>PPIO 信号</summary>
-            <p><strong>🟢 利好信号：</strong>全球算力需求旺盛，验证分布式节点海外扩张的市场空间。</p>
-            <p><strong>🔴 风险信号：</strong>优刻得抢占海外新兴市场，可能挤压PPIO未来出海的客户获取窗口，且其云服务生态可能形成一体化替代。</p>
+            <p><strong>🟢 利好信号：</strong>备案审批常态化使AI市场走向合规，合规算力平台将更受企业信赖，PPIO可借此打造“合规边缘云”差异化标签，吸引大客户。</p>
+            <p><strong>🔴 风险信号：</strong>客户在边缘侧部署大模型需额外备案，可能延迟项目落地、提高部署成本，短期内抑制边缘算力消费意愿，影响PPIO业务增度。</p>
           </details>
       </li>
     </ol>
@@ -541,89 +574,21 @@
   <section class="feed-section">
     <h2 class="date-section" title="简报">简报 (lane:silent)</h2>
     <ol class="feed-list">
-      <li class="feed-card" data-deep="false" data-tags="资本">
-        <div class="card-header">
-          <span class="card-source">thepaper.cn</span>
-          <span class="card-sep">·</span>
-          <time class="card-date">2026-06-08</time>
-          <span class="card-sep">·</span>
-          <span class="card-cat" style="background:#f0fdf4">资本</span>
-          
-          <span class="signal-chips"><span class="signal-chip" data-tip="行业融资事件、估值变化、IPO动态" aria-label="行业融资事件、估值变化、IPO动态">💰</span></span>
-          <span class="card-rank">#6</span>
-        </div>
-        <h2 class="card-title">
-          <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLb2drMXlNSDhuUmdCWFpyMHI1d25URUFoM3RJRWRINHlTbUplamZaZjFvLTZTVkJpSGdwWDB3b2Q4ckNJQTExajNnUmk3Qk8zeDROMlc5amxDYnNUMEE?oc=5" target="_blank" rel="noopener">月之暗面寻找新一轮20亿美元融资？估值较半年前增长6倍 - thepaper.cn</a>
-        </h2>
-        <p class="card-excerpt">月之暗面（Moonshot AI）正寻求新一轮约20亿美元融资，估值较半年前增长6倍，反映头部大模型公司仍受资本追捧。</p>
-        
-      </li>
-      <li class="feed-card" data-deep="false" data-tags="资本">
-        <div class="card-header">
-          <span class="card-source">36氪</span>
-          <span class="card-sep">·</span>
-          <time class="card-date">2026-06-09</time>
-          <span class="card-sep">·</span>
-          <span class="card-cat" style="background:#f0fdf4">资本</span>
-          
-          <span class="signal-chips"><span class="signal-chip" data-tip="行业融资事件、估值变化、IPO动态" aria-label="行业融资事件、估值变化、IPO动态">💰</span></span>
-          <span class="card-rank">#7</span>
-        </div>
-        <h2 class="card-title">
-          <a href="https://36kr.com/newsflashes/3845195819124997?f=rss" target="_blank" rel="noopener">中信建投：当前全球AI算力基建的订单能见度仍比较高，依旧看好AI产业链</a>
-        </h2>
-        <p class="card-excerpt">中信建投研报认为全球AI算力基建订单能见度仍高，看好AI产业链，维持行业景气判断。</p>
-        
-      </li>
-      <li class="feed-card" data-deep="false" data-tags="政策">
-        <div class="card-header">
-          <span class="card-source">求是</span>
-          <span class="card-sep">·</span>
-          <time class="card-date">2026-06-09</time>
-          <span class="card-sep">·</span>
-          <span class="card-cat" style="background:#e8f4fd">政策</span>
-          
-          <span class="signal-chips"><span class="signal-chip" data-tip="中央/部委级别的政策文件与部署" aria-label="中央/部委级别的政策文件与部署">🏛️</span></span>
-          <span class="card-rank">#8</span>
-        </div>
-        <h2 class="card-title">
-          <a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE0xaE1LU2pYWmpGSG1GRHJRV2ZYSGsxeElvYUVhaHR6OW1RaG9lZnlseXJQQnIzY1pHZS14bFdRLU9FNFFMVi1CZVhNbU42MTVWWE5tOTRLY3NsSnh0N0RVUW1pMWRhaHhSUVlCeUZMVHRJckpkV3N2Wk1CaFQ?oc=5" target="_blank" rel="noopener">以原创性突破打开未来产业发展新空间 - 求是</a>
-        </h2>
-        <p class="card-excerpt">求是刊文强调原创性突破是打开未来产业发展新空间的关键，释放政策信号，未来产业有望获得更多科技资源倾斜，但无具体措施。</p>
-        
-      </li>
-      <li class="feed-card" data-deep="false" data-tags="政策">
-        <div class="card-header">
-          <span class="card-source">求是</span>
-          <span class="card-sep">·</span>
-          <time class="card-date">2026-06-06</time>
-          <span class="card-sep">·</span>
-          <span class="card-cat" style="background:#e8f4fd">政策</span>
-          
-          <span class="signal-chips"><span class="signal-chip" data-tip="中央/部委级别的政策文件与部署" aria-label="中央/部委级别的政策文件与部署">🏛️</span></span>
-          <span class="card-rank">#9</span>
-        </div>
-        <h2 class="card-title">
-          <a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE1HM2JCcXJHUWNzSlMwLVAzZ0JDdmg4ZkRtVEZ0MkcwMmZGWjlEamtVSndEWThmZzZGYlZNYy10SXpVWUxfMDJOQ1lXejd2eGxKMllBWlVSbFk2cTFfcmhlV1NvbjRKX0tFbDR1Qk1XaFU3OGVEb2RjdnludGQ?oc=5" target="_blank" rel="noopener">未来产业的根子在科技 - 求是</a>
-        </h2>
-        <p class="card-excerpt">求是文章强调未来产业的发展根基在于科技创新，呼吁加强基础研究与核心技术攻关，对算力基础设施等形成长期支撑。</p>
-        
-      </li>
       <li class="feed-card" data-deep="false" data-tags="技术">
         <div class="card-header">
-          <span class="card-source">jfdaily.com</span>
+          <span class="card-source">搜狐网</span>
           <span class="card-sep">·</span>
-          <time class="card-date">2026-06-03</time>
+          <time class="card-date">2026-06-09</time>
           <span class="card-sep">·</span>
           <span class="card-cat" style="background:#f0f8fd">技术</span>
           
           <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
-          <span class="card-rank">#10</span>
+          <span class="card-rank">#4</span>
         </div>
         <h2 class="card-title">
-          <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KRlhrMmZmbHpLVmRRaW9KN1FiR2ROV0NUWlJJZkl0NjZRY2Etc28xcVZpNmVJZ2NBVXJZdVZQa1FNeU5jMlBMdTFoRmRpYWJGWHhRcWh0aEhpQQ?oc=5" target="_blank" rel="noopener">AI短剧“抽卡”抽到跳脚！中小企业正遭遇的“算力饥渴”怎么解？ - jfdaily.com</a>
+          <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSFFXblVOQXVXRHlTMzZSeG5oTTZERlNrTURmUEY0a00yS2J1UDlScWhDQmltTXdRSk1UTDhQOFhLLW1JcU1jcWdrQkxXb2tJQVN3QVQxRWZKRzRNYlljMGx3MElKVV9VZmFzZWtPTVNHd0lKNDA4WWxlbkVYSk5rOVVFQTEzNzVH?oc=5" target="_blank" rel="noopener">智库观察丨推进通信算力电力融合 夯实智能经济底座 - 搜狐网</a>
         </h2>
-        <p class="card-excerpt">AI短剧算力饥渴反映中小企业对低成本、弹性算力的强烈需求，可能推动分布式边缘算力场景扩展。</p>
+        <p class="card-excerpt">智库提出推进通信、算力与电力融合，有望降低数据中心能耗成本。对PPIO布局边缘节点的能源方案优化和降本增效具有参考意义。</p>
         
       </li>
     </ol>
@@ -634,7 +599,7 @@
     <h2 class="speed-read-title">本周风向</h2>
     <span class="wind-sentiment" style="background:#e8f7ee;color:#2d7a4f">升温</span>
   </div>
-  <p class="wind-summary">政策端算力网升级与国常会定调释放利好，但竞品动作密集，运营商与多家对手加速布局，市场格局加速分化，风向升温。</p>
+  <p class="wind-summary">政策面强劲升温，算力被纳入十五五核心赛道，但地缘博弈与监管延伸带来外部压力。</p>
   <div class="wind-grid">
     <div class="wind-item">
       <span class="wind-label">政策热度</span>
@@ -642,42 +607,38 @@
     </div>
     <div class="wind-item">
       <span class="wind-label">竞品动态</span>
-      <span class="wind-bar"><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-off"></span></span>
+      <span class="wind-bar"><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span></span>
     </div>
     <div class="wind-item">
       <span class="wind-label">资本活跃</span>
-      <span class="wind-bar"><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span></span>
+      <span class="wind-bar"><span class="heat-dot heat-on"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span></span>
     </div>
     <div class="wind-item">
       <span class="wind-label">海外监管</span>
-      <span class="wind-bar"><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span></span>
+      <span class="wind-bar"><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span></span>
     </div>
   </div>
 </section>
   <section class="ppio-speed-read">
     <h2 class="speed-read-title">PPIO 信号速读</h2>
-    <p class="speed-read-mainline"><strong>今日主线：</strong>算力网升格为“六张网”基础设施，政策红利打开；但运营商Token套餐和字节算力焦虑显化，竞争加剧。</p>
+    <p class="speed-read-mainline"><strong>今日主线：</strong>顶层设计明确算力与AI战略布局，但中欧贸易战叠加AI备案向垂直行业延伸，为IPO带来合规与地缘双重变数。</p>
     <div class="speed-read-grid">
       <div class="speed-card signal-positive">
         <h4>🟢 利好信号</h4>
-        <ul><li>高层信号：国常会部署未来产业，强调人工智能与算力基础设施</li><li>算力网纳入国家“六张网”，算力基建获顶层背书</li><li>中信建投看好AI算力订单能见度，资本市场信心稳固</li></ul>
+        <ul><li>科学谋划十五五未来产业重点赛道，人工智能与先进计算获高层战略布局</li><li>智库强调通信、算力、电力融合，夯实智能经济底座，利好边缘算力基础设施</li></ul>
       </div>
       <div class="speed-card signal-risk">
         <h4>🔴 风险信号</h4>
-        <ul><li>运营商推出Token计费套餐，算力大众化加剧价格竞争</li><li>字节跳动豆包付费揭示算力成本压力，可能挤压第三方算力服务空间</li><li>优刻得拓展乌兹别克斯坦等海外节点，全球化竞争升温</li></ul>
+        <ul><li>中欧贸易博弈叠加中美贸易战，中概股VIE架构及港股流动性面临不确定性</li><li>大模型备案制度由通用向垂直行业扩展，合规成为AI落地的硬性前置条件</li></ul>
       </div>
     </div>
   </section>
+  
   <section class="word-cloud-section">
   <h2 class="speed-read-title">本周高频词</h2>
   <div class="word-cloud">
-    <span class="wc-word" style="font-size:2.00rem;opacity:1.00" title="大模型: 3次">大模型</span>
-    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="边缘计算: 2次">边缘计算</span>
-    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="用得好: 2次">用得好</span>
-    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="IPO: 2次">IPO</span>
-    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="求是: 2次">求是</span>
-    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="算力基础设施: 2次">算力基础设施</span>
-    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="分布式算力: 2次">分布式算力</span>
+    <span class="wc-word" style="font-size:1.38rem;opacity:0.75" title="IPO: 2次">IPO</span>
+    <span class="wc-word" style="font-size:1.38rem;opacity:0.75" title="边缘云: 2次">边缘云</span>
   </div>
 </section>
 
@@ -703,13 +664,13 @@
     <div class="analysis-summary">
       <div class="ppio-index-card">
         <div class="ppio-index-label">PPIO 战略环境指数</div>
-        <div class="ppio-index-score">66<span class="ppio-index-delta" style="color:#16a34a">+11</span></div>
-        <div class="ppio-index-interp">算力网纳入六张网和国常会定调提升政策预期，但运营商与字节等竞对举措增加短期竞争压力，指数温和上涨。</div>
+        <div class="ppio-index-score">68<span class="ppio-index-delta" style="color:#16a34a">+2</span></div>
+        <div class="ppio-index-interp">十五五政策布局推升算力基建预期，但中欧贸易战与AI监管延伸增加合规与海外上市风险，整体指数小幅上行。</div>
       </div>
       <div class="ppio-index-card">
         <div class="ppio-index-label">今日整体风向</div>
         <div class="ppio-index-score" style="color:#2d7a4f">升温</div>
-        <div class="ppio-index-interp">政策端算力网升级与国常会定调释放利好，但竞品动作密集，运营商与多家对手加速布局，市场格局加速分化，风向升温。</div>
+        <div class="ppio-index-interp">政策面强劲升温，算力被纳入十五五核心赛道，但地缘博弈与监管延伸带来外部压力。</div>
       </div>
     </div>
     <section class="analysis-section">
@@ -759,7 +720,7 @@
         <div style="height:160px"><canvas id="chart-trend-compete"></canvas></div>
       </div>
     </div>
-    <script id="trend-data" type="application/json">{"dates":["05-27","05-28","05-29","06-01","06-02","06-03","06-04","06-05","06-08","06-09"],"attend":[4,5,5,9,4,4,7,3,6,5],"index":[null,null,null,null,58,62,66,55,55,66],"policy":[0,0,0,0,3,5,5,3,2,4],"compete":[0,0,0,0,2,3,4,2,2,4]}</script>
+    <script id="trend-data" type="application/json">{"dates":["05-27","05-28","05-29","06-01","06-02","06-03","06-04","06-05","06-08","06-09"],"attend":[4,5,5,9,4,4,7,3,6,3],"index":[null,null,null,null,58,62,66,55,55,68],"policy":[0,0,0,0,3,5,5,3,2,4],"compete":[0,0,0,0,2,3,4,2,2,2]}</script>
   </div>
 
   <!-- 历史存档 -->
@@ -772,10 +733,10 @@
         </tr></thead>
         <tbody><tr>
       <td><a href="reports/2026-06-09.html" target="_blank">2026-06-09</a></td>
-      <td class="hist-mainline">算力网升格为“六张网”基础设施，政策红利打开；但运营商Token套餐和字节算力焦虑显化，竞争加剧。</td>
-      <td style="white-space:nowrap">🏛️×2 ⚔️×3</td>
-      <td>5/10</td>
-      <td>66<span style="color:#16a34a;font-size:0.75rem">+11</span></td>
+      <td class="hist-mainline">顶层设计明确算力与AI战略布局，但中欧贸易战叠加AI备案向垂直行业延伸，为IPO带来合规与地缘双重变数。</td>
+      <td style="white-space:nowrap">🏛️×1 📜×2</td>
+      <td>3/4</td>
+      <td>68<span style="color:#16a34a;font-size:0.75rem">+2</span></td>
       <td><span style="color:#2d7a4f;font-weight:600;font-size:0.78rem">升温</span></td>
     </tr>
 <tr>
@@ -912,8 +873,8 @@
     if (chartsInited[tab]) return;
     chartsInited[tab] = true;
 
-    const SYNTHESIS = {"generated_at":"2026-06-09T01:03:44.123Z","date":"2026-06-09","date_label":"2026-06-09","mainline":"算力网升格为“六张网”基础设施，政策红利打开；但运营商Token套餐和字节算力焦虑显化，竞争加剧。","signal_summary":{"🏛️":2,"📜":0,"⚔️":3,"💰":0,"🌏":0,"🔬":0},"speed_read":{"positive":["高层信号：国常会部署未来产业，强调人工智能与算力基础设施","算力网纳入国家“六张网”，算力基建获顶层背书","中信建投看好AI算力订单能见度，资本市场信心稳固"],"risk":["运营商推出Token计费套餐，算力大众化加剧价格竞争","字节跳动豆包付费揭示算力成本压力，可能挤压第三方算力服务空间","优刻得拓展乌兹别克斯坦等海外节点，全球化竞争升温"]},"wind_indicators":{"policy_heat":4,"competitor_heat":4,"capital_heat":3,"overseas_heat":2,"overall_sentiment":"升温","summary":"政策端算力网升级与国常会定调释放利好，但竞品动作密集，运营商与多家对手加速布局，市场格局加速分化，风向升温。"},"competitor_updates":["字节跳动豆包专业版推出，付费暴露算力焦虑，或寻求低成本算力方案","三大运营商推出Token计费AI算力套餐，直接竞争PPIO边缘算力服务","优刻得落子乌兹别克斯坦，全球36个可用区，海外算力布局加速"],"item_axes":[{"id":"1","title":"豆包专业版将至：免费与付费之间字节遇算力焦虑","policy_axis":0,"competition_axis":0.8,"impact_score":4,"axis_reason":"字节算力焦虑可能促使其自建算力或压价，对第三方边缘云构成竞争压力。"},{"id":"2","title":"算力网纳入国家“六张网”，如何建得好、用得好、用得起？","policy_axis":1,"competition_axis":0.2,"impact_score":5,"axis_reason":"算力网升格为国家级基础设施，政策红利巨大，利好分布式算力平台。"},{"id":"3","title":"三大运营商齐推Token套餐 AI算力“大众化”时代要来了？","policy_axis":0,"competition_axis":0.9,"impact_score":4,"axis_reason":"运营商以标准化Token套餐降低AI算力门槛，可能侵蚀PPIO在中小企业侧的差异化优势。"},{"id":"4","title":"国常会定调未来产业，多地已前瞻布局","policy_axis":0.8,"competition_axis":0.1,"impact_score":5,"axis_reason":"国常会定调未来产业，明确算力基础设施为着力点，政策东风强劲。"},{"id":"5","title":"上海企业加速全球算力布局！优刻得落子乌兹别克斯坦","policy_axis":0,"competition_axis":0.6,"impact_score":3,"axis_reason":"优刻得新增中亚节点，显示云端竞对全球化加速，可能挤压PPIO未来海外算力市场空间。"}],"ppio_index":{"score":66,"delta":11,"components":{"policy_tailwind":35,"competitive_pressure":-18,"capital_sentiment":12,"regulatory_risk":-8,"overseas_headwind":-5},"interpretation":"算力网纳入六张网和国常会定调提升政策预期，但运营商与字节等竞对举措增加短期竞争压力，指数温和上涨。"},"_generated_by":"deepseek-v4-pro"};
-    const ITEMS = [{"id":"raw-1","title":"月之暗面寻找新一轮20亿美元融资？估值较半年前增长6倍 - thepaper.cn","url":"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLb2drMXlNSDhuUmdCWFpyMHI1d25URUFoM3RJRWRINHlTbUplamZaZjFvLTZTVkJpSGdwWDB3b2Q4ckNJQTExajNnUmk3Qk8zeDROMlc5amxDYnNUMEE?oc=5","source":"thepaper.cn","category":"资本","published":"2026-06-08","body_snippet":"月之暗面寻找新一轮20亿美元融资？估值较半年前增长6倍 thepaper.cn","_query_boost":20,"lane":"silent","signals":["💰"],"is_deep_read":false,"compass_triggered":[],"summary_cn":"月之暗面（Moonshot AI）正寻求新一轮约20亿美元融资，估值较半年前增长6倍，反映头部大模型公司仍受资本追捧。"},{"id":"raw-2","title":"豆包专业版将至：免费与付费之间字节遇算力焦虑- 字节跳动ByteDance - cnBeta.COM","url":"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fWl82NFZEaHNxXzNfSnY3VllMYlNwdURvcWYxSHRaVTJVRlJ0UEw5NFgwdG1qTHdsYUdXVUpZdG1QOTQ3TFpaSXl2aGFPbjc3WEFMbjM5eFJFZU52bnYzMw?oc=5","source":"cnBeta.COM","category":"竞品","published":"2026-06-04","body_snippet":"豆包专业版将至：免费与付费之间字节遇算力焦虑- 字节跳动ByteDance cnBeta.COM","_query_boost":15,"lane":"attend","signals":["⚔️"],"is_deep_read":false,"compass_triggered":["c2"],"summary_cn":"字节跳动旗下豆包大模型即将推出专业版并尝试付费，背后暴露出日益突出的算力焦虑；免费模式难以为继，算力成本倒逼商业变现。这一动态显示字节在加大自建算力与模型服务变现的投入。\n对PPIO而言，字节既是潜在客户也是间接竞品：其算力焦虑可能催生更多外部边缘算力采购需求，但同时字节自建边缘节点的决心也会分流部分市场；PPIO需强化差异化，提供更灵活、低成本的分布式推理算力，以应对大型云厂商的垂直整合趋势。","ppio_signal":{"positive":"大型企业算力焦虑验证了分布式推理算力的旺盛需求，PPIO可争取成为其弹性补充。","risk":"字节等巨头加速自建边缘基础设施，可能减少对外部平台依赖，形成客户转竞品的风险。"}},{"id":"raw-3","title":"算力网纳入国家“六张网”，如何建得好、用得好、用得起？ - 开放数据中心委员会","url":"https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3QTZKVTJUbVE3a1hNZjlTaEUtZ1dIbEhEanc0REdIYUtUekQ5Y3hYblB6MXd3QTR2UGhycXZ6Y0V2encycGJLSE9LNkxmdVhPemxzNndRdWNVR1I1dWFuLU1wYmlQUQ?oc=5","source":"开放数据中心委员会","category":"政策","published":"2026-06-08","body_snippet":"算力网纳入国家“六张网”，如何建得好、用得好、用得起？ 开放数据中心委员会","_query_boost":0,"lane":"attend","signals":["🏛️"],"is_deep_read":true,"compass_triggered":["c1"],"summary_cn":"国家将算力网正式纳入“六张网”重大基础设施布局，进一步明确算力作为新型关键生产要素的战略地位。该政策旨在推动全国一体化算力网络建设，促进算力资源的高效调度和普惠应用，确保算力“建得好、用得好、用得起”。\n对PPIO而言，政策明确了边缘计算节点在国家级算力网络中的合法身份，有望获得政策扶持、税收优惠以及更多政企合作机会；但同时也意味着国资云、运营商等将加速入场，竞争格局可能从市场化转为政策导向，PPIO需提前布局合规能力与政务渠道，并在港股IPO故事中强化“国家级算力网络共建者”的定位。","ppio_signal":{"positive":"边缘分布式算力被纳入国家基础设施体系，政策红利打开市场天花板，利于IPO估值。","risk":"政策推进可能伴生子行业准入、数据安全等合规要求，增加运营成本；大型国企竞争者可能挤压初创份额。"}},{"id":"raw-4","title":"三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社","url":"https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5","source":"财联社","category":"竞品","published":"2026-06-08","body_snippet":"三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社","_query_boost":0,"lane":"attend","signals":["⚔️"],"is_deep_read":false,"compass_triggered":["c2"],"summary_cn":"中国移动、中国电信、中国联通三大运营商联合推出基于Token计费的AI算力套餐，将大模型调用封装为标准商品，大幅降低企业及个人使用门槛，加速AI算力“大众化”。\n此举对PPIO构成直接竞争：运营商拥有机房、网络和资金优势，Token套餐可能快速抢占中小客户市场；但同时也教育了市场，扩大整体算力消费需求。PPIO的差异化在于边缘近场处理、低延迟推理和异构算力调度，可聚焦实时性要求高的场景，避开价格战，以服务质量与灵活架构取胜。","ppio_signal":{"positive":"算力套餐普及催熟市场，PPIO边缘分布式方案可服务对延迟敏感、数据本地化要求高的客户。","risk":"运营商暴力降价可能拉低行业毛利，挤压独立算力平台的生存空间。"}},{"id":"raw-5","title":"中信建投：当前全球AI算力基建的订单能见度仍比较高，依旧看好AI产业链","url":"https://36kr.com/newsflashes/3845195819124997?f=rss","source":"36氪","published":"2026-06-09","body_snippet":"","category":"资本","lane":"silent","signals":["💰"],"is_deep_read":false,"compass_triggered":[],"summary_cn":"中信建投研报认为全球AI算力基建订单能见度仍高，看好AI产业链，维持行业景气判断。"},{"id":"raw-1","title":"以原创性突破打开未来产业发展新空间 - 求是","url":"https://news.google.com/rss/articles/CBMifEFVX3lxTE0xaE1LU2pYWmpGSG1GRHJRV2ZYSGsxeElvYUVhaHR6OW1RaG9lZnlseXJQQnIzY1pHZS14bFdRLU9FNFFMVi1CZVhNbU42MTVWWE5tOTRLY3NsSnh0N0RVUW1pMWRhaHhSUVlCeUZMVHRJckpkV3N2Wk1CaFQ?oc=5","source":"求是","category":"政策","published":"2026-06-09","body_snippet":"以原创性突破打开未来产业发展新空间 求是","_query_boost":30,"lane":"silent","signals":["🏛️"],"is_deep_read":false,"compass_triggered":["c1"],"summary_cn":"求是刊文强调原创性突破是打开未来产业发展新空间的关键，释放政策信号，未来产业有望获得更多科技资源倾斜，但无具体措施。","ppio_signal":null},{"id":"raw-4","title":"国常会定调未来产业，多地已前瞻布局 - 搜狐网","url":"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcU5uUGJUYmRTMXA2S244RzhhMkNXZXlPWVctVGxQOE5CYl83LWhPWHlxbHZDN3JicmFmWVp3MXVjX0lNeTdWa1ZHWTVFdzVJMENtMEVwcG5EOXJyZXpCWnlsZE9KSGNvRnIwckUwVkpadnBlTENhTk1XNm5waWlGU0tFOWNKLTRn?oc=5","source":"搜狐网","category":"政策","published":"2026-06-07","body_snippet":"国常会定调未来产业，多地已前瞻布局 搜狐网","_query_boost":25,"lane":"attend","signals":["🏛️"],"is_deep_read":true,"compass_triggered":["c1"],"summary_cn":"6月X日，国务院常务会议研究部署未来产业发展工作，强调要前瞻布局未来产业，加强原创性、引领性科技攻关，聚焦人工智能、量子信息、高端芯片、算力基础设施等重点领域，推动创新链产业链资金链深度融合，并指出将适时出台配套支持措施，加快先导区建设。\n对PPIO而言，国常会点名算力基础设施，边缘云分布式算力作为新基建重要组成部分将直接受益，有望迎来更明确的政策倾斜与补贴支持，降低合规与资源获取门槛，为港股IPO营造有利的政策叙事。","ppio_signal":{"positive":"国常会明确算力基础设施为国家未来产业重点，边缘云分布式算力有望获得专项政策红利，加速市场拓展与上市进程。","risk":"政策落地时间与各地执行力度不明，可能引发大型云厂商及新进入者加大投入，导致竞争加剧。"}},{"id":"raw-5","title":"未来产业的根子在科技 - 求是","url":"https://news.google.com/rss/articles/CBMifEFVX3lxTE1HM2JCcXJHUWNzSlMwLVAzZ0JDdmg4ZkRtVEZ0MkcwMmZGWjlEamtVSndEWThmZzZGYlZNYy10SXpVWUxfMDJOQ1lXejd2eGxKMllBWlVSbFk2cTFfcmhlV1NvbjRKX0tFbDR1Qk1XaFU3OGVEb2RjdnludGQ?oc=5","source":"求是","category":"政策","published":"2026-06-06","body_snippet":"未来产业的根子在科技 求是","_query_boost":30,"lane":"silent","signals":["🏛️"],"is_deep_read":false,"compass_triggered":["c1"],"summary_cn":"求是文章强调未来产业的发展根基在于科技创新，呼吁加强基础研究与核心技术攻关，对算力基础设施等形成长期支撑。","ppio_signal":null},{"id":"raw-2","title":"AI短剧“抽卡”抽到跳脚！中小企业正遭遇的“算力饥渴”怎么解？ - jfdaily.com","url":"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KRlhrMmZmbHpLVmRRaW9KN1FiR2ROV0NUWlJJZkl0NjZRY2Etc28xcVZpNmVJZ2NBVXJZdVZQa1FNeU5jMlBMdTFoRmRpYWJGWHhRcWh0aEhpQQ?oc=5","source":"jfdaily.com","category":"技术","published":"2026-06-03","body_snippet":"AI短剧“抽卡”抽到跳脚！中小企业正遭遇的“算力饥渴”怎么解？ jfdaily.com","_query_boost":0,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":[],"summary_cn":"AI短剧算力饥渴反映中小企业对低成本、弹性算力的强烈需求，可能推动分布式边缘算力场景扩展。","ppio_signal":null},{"id":"raw-3","title":"上海企业加速全球算力布局！优刻得落子乌兹别克斯坦，已建成36个可用区 - 新浪财经","url":"https://news.google.com/rss/articles/CBMieEFVX3lxTE5aWC1ZOUlMd3FsLTlMa3ZIbjdZRWRLX1JHby1EaWZySFFsUzEtT29lbWlGTnM2SkZhMVR0YkRuU0ZHaGprbjJoSGhpQmlvd3Q1MUhKVk1SSnpZMnliSklnWGk3Z2NNc09wVVFoRjFJcWN5eWtpMGZQdw?oc=5","source":"新浪财经","category":"竞品","published":"2026-06-03","body_snippet":"上海企业加速全球算力布局！优刻得落子乌兹别克斯坦，已建成36个可用区 新浪财经","_query_boost":0,"lane":"attend","signals":["⚔️"],"is_deep_read":false,"compass_triggered":["c2"],"summary_cn":"优刻得在乌兹别克斯坦增设可用区，全球可用区达36个，加速海外算力布局。此举显示其全球化战略提速，可能在中亚等新兴市场构建先发优势。对于PPIO而言，优刻得作为具备全球节点和云服务能力的竞争对手，其海外扩张将直接争夺出海客户的边缘计算与分布式算力需求。PPIO需评估自身在类似区域的资源部署速度，避免客户因覆盖不足而转向优刻得，同时需关注优刻得是否会在边缘侧推出更具性价比的分布式方案，威胁PPIO的差异化定位。","ppio_signal":{"positive":"全球算力需求旺盛，验证分布式节点海外扩张的市场空间。","risk":"优刻得抢占海外新兴市场，可能挤压PPIO未来出海的客户获取窗口，且其云服务生态可能形成一体化替代。"}}];
+    const SYNTHESIS = {"generated_at":"2026-06-09T01:58:06.415Z","date":"2026-06-09","date_label":"2026-06-09","mainline":"顶层设计明确算力与AI战略布局，但中欧贸易战叠加AI备案向垂直行业延伸，为IPO带来合规与地缘双重变数。","signal_summary":{"🏛️":1,"📜":2,"⚔️":0,"💰":0,"🌏":0,"🔬":0},"speed_read":{"positive":["科学谋划十五五未来产业重点赛道，人工智能与先进计算获高层战略布局","智库强调通信、算力、电力融合，夯实智能经济底座，利好边缘算力基础设施"],"risk":["中欧贸易博弈叠加中美贸易战，中概股VIE架构及港股流动性面临不确定性","大模型备案制度由通用向垂直行业扩展，合规成为AI落地的硬性前置条件"]},"wind_indicators":{"policy_heat":4,"competitor_heat":2,"capital_heat":1,"overseas_heat":3,"overall_sentiment":"升温","summary":"政策面强劲升温，算力被纳入十五五核心赛道，但地缘博弈与监管延伸带来外部压力。"},"competitor_updates":[],"item_axes":[{"id":"1","title":"中欧博弈续写中美贸易战 北京反制更成熟","policy_axis":-0.7,"competition_axis":0,"impact_score":4,"axis_reason":"地缘冲突加剧中概股VIE及港股IPO政策不确定性"},{"id":"2","title":"科学谋划 “十五五” 未来产业重点赛道","policy_axis":0.8,"competition_axis":0,"impact_score":5,"axis_reason":"顶层设计明确人工智能与先进计算投入，直接打开算力基建政策空间"},{"id":"3","title":"长安自研天枢大模型通过国家AI备案审批","policy_axis":-0.4,"competition_axis":0,"impact_score":3,"axis_reason":"AI监管框架向行业端延伸，合规成本上升，但利好合规算力服务商"}],"ppio_index":{"score":68,"delta":2,"components":{"policy_tailwind":50,"competitive_pressure":-5,"capital_sentiment":-10,"regulatory_risk":-15,"overseas_headwind":-20},"interpretation":"十五五政策布局推升算力基建预期，但中欧贸易战与AI监管延伸增加合规与海外上市风险，整体指数小幅上行。"},"_generated_by":"deepseek-v4-pro"};
+    const ITEMS = [{"id":"raw-2","title":"智库观察丨推进通信算力电力融合 夯实智能经济底座 - 搜狐网","url":"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSFFXblVOQXVXRHlTMzZSeG5oTTZERlNrTURmUEY0a00yS2J1UDlScWhDQmltTXdRSk1UTDhQOFhLLW1JcU1jcWdrQkxXb2tJQVN3QVQxRWZKRzRNYlljMGx3MElKVV9VZmFzZWtPTVNHd0lKNDA4WWxlbkVYSk5rOVVFQTEzNzVH?oc=5","source":"搜狐网","category":"技术","published":"2026-06-09","body_snippet":"智库观察丨推进通信算力电力融合 夯实智能经济底座 搜狐网","_query_boost":0,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c2"],"summary_cn":"智库提出推进通信、算力与电力融合，有望降低数据中心能耗成本。对PPIO布局边缘节点的能源方案优化和降本增效具有参考意义。","ppio_signal":null},{"id":"raw-3","title":"中欧博弈续写中美贸易战 北京反制更成熟结局更残酷 ｜点经 - 香港01","url":"https://news.google.com/rss/articles/CBMiqANBVV95cUxOVHMtVGM0NE9ZWVp4Q2E1THFLRHFianRIMlQ5VHJrMEdsd1ZSSjk2MDFOSkw5bWF2NEdraGVzUmpBbXJqRzBOSDZmYTh4S19nQTJVQTYxUVVIekpVOVpnRlhORWlnRkRTU19oXzRqaGx4XzJ3YmRSUEhrRHBxcW9OdDF6V3ZYV3czZ2paS21MYkh1dzUtRnk5b0FtaVpmRm9zejZWVlBiWFNvSkhkVHQtbWQxWF9fU3E4TEQya1Y0UGN2ZmlXWXZoSlotSXlyRlA4OXkyQkNJR1pqbWJWUWFVdlc3Ylh3bkcyXzFkY0RvUjdhOFpCbW1uSWFQNmp3TV9TSGw3cTJWXzBEUWl1QW9JQnBKUnZwTzVBSmFTeGJWOTRZSmdUZVVQY3ZGakVYVFhLbHdrX0JUTmlmV2RqSUpkVmpXVm9IMl82RzV2Z2pvNkRiRHFsWU1VTDE3Yy1FVFV5WHN1c1owR3dweWtld1BkSEExU2NiSVhTcE9nMWZjZEFjTDBFSkF6Wi1oaHJKTVBLeW5XdTczUENNTVVHbWNtc3Vla20xUDdt?oc=5","source":"香港01","category":"监管","published":"2026-06-09","body_snippet":"中欧博弈续写中美贸易战 北京反制更成熟结局更残酷 ｜点经 香港01","_query_boost":30,"lane":"attend","signals":["📜"],"is_deep_read":false,"compass_triggered":["c1","c3"],"summary_cn":"中欧贸易博弈持续发酵，叠加中美贸易战阴云，北京的反制措施更趋成熟但可能导致更残酷的经济脱钩后果。这种地缘冲突可能引发新一轮跨境投资审查与资本市场波动，尤其对中概股审计底稿、VIE架构及港股流动性带来不确定性。\n对PPIO影响：公司正处于港股IPO关键期，地缘政治激化可能使国际投资者对中国科技企业风险溢价提高，监管部门对赴港上市企业的合规审查可能加码，增加备案难度。但若反制措施有效稳定供应链预期，也可能为算力出海打开窗口。需密切跟踪商务部、证监会动态，提前准备多套上市合规预案。","ppio_signal":{"positive":"若反制成熟，中概股监管预期可能企稳，港股IPO窗口有望维持。","risk":"贸易战升级可能引致跨境审计与VIE架构审查收紧，延缓上市进程或压低估值。"}},{"id":"raw-4","title":"科学谋划 “十五五” 未来产业重点赛道 - 经济形势报告网","url":"https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LaEtkRXFKQjU0b1BVUUxGUERmVlRzZTc3OUZuS0g0aDg4YlJjQ0doUVV5XzVMaDZUc3NoR0JYZFhreGYybF9kbEg2YUxwYk10Q1JFOHNDZkEtQXZaNXRIZWZR?oc=5","source":"经济形势报告网","category":"政策","published":"2026-06-04","body_snippet":"科学谋划 “十五五” 未来产业重点赛道 经济形势报告网","_query_boost":30,"lane":"attend","signals":["🏛️"],"is_deep_read":true,"compass_triggered":["c1"],"summary_cn":"有关部门正在科学谋划“十五五”未来产业重点赛道，预计将系统布局人工智能、先进计算等前沿领域。这一顶层设计将在2026-2030年规划期内明确国家资源投入方向，直接影响算力基础设施的供给结构和政策支持力度。\n对PPIO而言，若重点赛道突出分布式、边缘侧AI算力，将直接打开政策窗口，获得试点、补贴、客户导入等先发优势；但若规划偏重集中式超大规模算力中心，边缘云空间可能被压缩，港股IPO时的行业故事和估值逻辑需适应性调整。PPIO需紧密跟踪相关部委的具体赛道清单和实施细则，及时将自身边缘分布式算力嵌入国家未来产业叙事中。","ppio_signal":{"positive":"政策鲜明支持未来产业，AI与先进计算被纳入概率极大，为PPIO提供高位政策背书，有利于IPO招股书中描绘高增长赛道。","risk":"若重点赛道定义偏向集中式智算中心或量子计算等新范式，边缘云定位可能遭边缘化，影响资本市场对PPIO长期价值的判断。"}},{"id":"raw-5","title":"长安自研天枢大模型通过国家AI备案审批 - 盖世汽车社区","url":"https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XbkFpUmU2SE5GNTNLSzNieVlHc09jb3paUm9Db3A1V0ZaQnp4VGpqMVU0WEQwQlFmN0JsNHdQQ3FnU1YzT29RWUNNQUttTV9p?oc=5","source":"盖世汽车社区","category":"监管","published":"2026-06-08","body_snippet":"长安自研天枢大模型通过国家AI备案审批 盖世汽车社区","_query_boost":15,"lane":"attend","signals":["📜"],"is_deep_read":false,"compass_triggered":["c1"],"summary_cn":"长安汽车自研天枢大模型通过国家AI备案审批，标志着车端大模型正式进入合规应用阶段，AI监管框架向垂直行业延伸。这反映出大模型备案制度已从通用模型扩展至行业专用模型，合规成为AI落地的硬性前置条件。\n对PPIO边缘云平台来说，大量AI客户（尤其是行业大模型厂商）未来部署在边缘侧的模型也需满足备案要求，PPIO需在算力服务中内置合规能力，帮助客户快速通过审核；同时自身若承担部分模型服务也可能面临备案义务。合规环境明朗化有利于规范市场，但短期内可能增加企业采购边缘算力的决策流程，PPIO在产品设计和客户引导上需前置考虑监管因素。","ppio_signal":{"positive":"备案审批常态化使AI市场走向合规，合规算力平台将更受企业信赖，PPIO可借此打造“合规边缘云”差异化标签，吸引大客户。","risk":"客户在边缘侧部署大模型需额外备案，可能延迟项目落地、提高部署成本，短期内抑制边缘算力消费意愿，影响PPIO业务增度。"}}];
 
     if (tab === 'today') {
       initCharts(SYNTHESIS, ITEMS);
