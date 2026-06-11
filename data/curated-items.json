@@ -1,134 +1,133 @@
 {
-  "generated_at": "2026-06-10T01:04:08.155Z",
+  "generated_at": "2026-06-11T01:39:29.614Z",
   "week": "2026-W24",
   "classifier": "deepseek-v4-pro",
   "total_raw": 15,
-  "total_curated": 10,
-  "attend_count": 5,
+  "total_curated": 13,
+  "attend_count": 8,
   "silent_count": 5,
   "items": [
     {
       "id": "raw-1",
-      "title": "算力中心建设进入快车道，适合部署的国产AI算力芯片及计划上市企业推荐 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWVd5SG95Q25LTHFsUXRacS1wUmlrVjE5LWNYX0ZsN2t4MVA1SkZKTndua19CYWVmeHpPN2NJQVhOWEFjYkNESnNTdl9HbkdLUnp5QTFEaWlqQndfSi1zaEp4Ym1kTXpxTVZyMjdJZTVfNnktR2h1ZmJfT3NwdnNyY1RQcC1lRnJq?oc=5",
-      "source": "搜狐网",
-      "category": "资本",
-      "published": "2026-06-09",
-      "body_snippet": "算力中心建设进入快车道，适合部署的国产AI算力芯片及计划上市企业推荐 搜狐网",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "💰",
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "算力中心建设提速，国产AI算力芯片及拟上市企业受关注。行业热度推高资本对算力板块的关注度，但未出现直接政策或竞品信号。"
-    },
-    {
-      "id": "raw-2",
-      "title": "Behind the Claude 5 rumors, Anthropic is turning model releases into IPO language - Binance",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JZ1puVjhmdmVmbnJ5WXJqU3ptVGRYRng2eDhGdXhNMlRhbm54VWwxVDJSNkF3Nm5SUVBfRTN6R0EwOV9qd0RDZlhMNy03clEzcWpPSDlfZFlGTHhJc3pHTUFURzU?oc=5",
-      "source": "Binance",
-      "category": "资本",
-      "published": "2026-06-09",
-      "body_snippet": "Behind the Claude 5 rumors, Anthropic is turning model releases into IPO language Binance",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "Anthropic借Claude 5传言为IPO造势，显示AI公司上市意愿增强，海外算力需求预期高涨，但对PPIO边缘云无直接竞争影响。"
-    },
-    {
-      "id": "raw-3",
-      "title": "欧陆通：已与Google达成算力设备GPU电源项目合作，正推进至测试及小批量生产",
-      "url": "https://36kr.com/newsflashes/3846628037347849?f=rss",
-      "source": "36氪",
-      "published": "2026-06-10",
-      "body_snippet": "",
-      "category": "技术",
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "欧陆通与Google达成GPU电源合作并进入测试生产，AI硬件供应链扩张利好边缘算力成本下降，但短期对PPIO业务无直接拉动。"
-    },
-    {
-      "id": "raw-4",
-      "title": "中国软件国际：签订人民币10亿元高端AI算力设备销售协议",
-      "url": "https://36kr.com/newsflashes/3846599148177922?f=rss",
-      "source": "36氪",
-      "published": "2026-06-10",
-      "body_snippet": "",
-      "category": "资本",
-      "lane": "silent",
-      "signals": [
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "中国软件国际获10亿元AI算力设备销售大单，印证算力基建投资热度，PPIO所处的分布式算力市场将受益于整体扩容。"
-    },
-    {
-      "id": "raw-5",
-      "title": "算力网加速落地：国家推动算力互联互通，普通人数百元可租用算力 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FR3JDaGZ1QmI1N01sM2t2cEZhYXQ2XzhNdWVhU1BOUklQTm1HVUtCNVJvTWs5dmRtcW50dTNSMUZ4YTRRM2xMYnZnLUswcXV2TTJhZw?oc=5",
-      "source": "虎嗅",
-      "category": "政策",
-      "published": "2026-06-08",
-      "body_snippet": "算力网加速落地：国家推动算力互联互通，普通人数百元可租用算力 虎嗅",
-      "_query_boost": 0,
-      "lane": "attend",
-      "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1"
-      ],
-      "summary_cn": "国家推动算力互联互通，普通用户可数百元租用算力，标志算力资源正走向普惠化和市场化。此举旨在打破算力孤岛，促进全国一体化算力网建设，可能涉及“东数西算”工程后续政策落地。对PPIO而言，普惠算力租赁将直接扩大边缘云需求，降低用户门槛，利于分布式算力平台获客；但国家主导的互联互通可能引入更多竞争者，包括运营商和云巨头，加剧价格战；同时香港IPO需关注政策对算力定价和合规的要求，把握普惠化带来的市场规模扩大机会。",
-      "ppio_signal": {
-        "positive": "算力普惠化与边缘云分布式部署天然契合，PPIO可借助政策东风快速覆盖中小企业和个人开发者，拓宽收入来源。",
-        "risk": "国家介入可能导致行业标准化和定价管制，削弱差异化优势，同时国企背景玩家涌入，压缩利润空间，IPO估值需谨慎应对政策风险。"
-      }
-    },
-    {
-      "id": "raw-1",
-      "title": "国常会部署未来产业_新浪新闻 - 手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIZ2NTQ1JNSVVFWEJ2bld4V1hURWpJaVFXRDlQaHBQZTFHQzFiS2xHdmxPaFlYMTlOdVhXQmtGU3RIY2ZfN1lUc1ZXcnhDTlBtMzczZkdYM0REMjZTcnlNVUl0VQ?oc=5",
-      "source": "手机新浪网",
-      "category": "政策",
+      "title": "李强签署国务院令 公布《国务院关于对外投资的规定》",
+      "url": "https://fgw.sh.gov.cn/fgw_fzggdt/20260605/fb532093047e439c8dba2d354c7f6b28.html",
+      "source": "上海市发改委",
       "published": "2026-06-05",
-      "body_snippet": "国常会部署未来产业_新浪新闻 手机新浪网",
-      "_query_boost": 30,
+      "body_snippet": "",
+      "category": "监管",
       "lane": "attend",
       "signals": [
-        "🏛️"
+        "🏛️",
+        "📜"
       ],
       "is_deep_read": true,
       "compass_triggered": [
         "c1"
       ],
-      "summary_cn": "2026年6月5日国务院常务会议专题部署“未来产业”发展方向。此前中央已明确未来产业涵盖人工智能、量子信息、生命科学等领域，本次国常会进一步要求强化技术攻关和场景应用，推动形成新质生产力。作为顶层政策指引，后续部委和地方有望出台配套措施，加大资金、人才和基础设施建设支持。\n对PPIO而言，未来产业政策将直接放大边缘云与分布式算力的需求缺口。AI大模型训练推理下沉、物联网实时处理等场景都需要低延迟、高带宽的边缘算力设施，PPIO的分布式节点布局恰能承接这部分增量。政策红利有助于公司在赴港IPO进程中讲好增长故事，提升机构估值认可；但也需注意，未来产业可能引发更多巨头和创业公司涌入边缘算力赛道，加之数据安全法规大概率同步趋严，PPIO需提前构建合规与技术壁垒，平衡扩张与风控。",
+      "summary_cn": "李强总理签署《国务院关于对外投资的规定》，旨在系统规范中国企业境外投资行为，完善审批和备案机制。该规定将对 VIE 架构、红筹上市及资金出境等关键环节产生直接影响。对于 PPIO 正在推进的香港 IPO，新规可能带来 ODI 备案趋严、审批流程加长以及合规成本上升等挑战，同时也为合法合规的境外融资提供更清晰的法律依据。",
       "ppio_signal": {
-        "positive": "国常会明确支持未来产业，AI、量子等前沿领域将加速发展，直接拉动对边缘云和分布式算力的需求，为PPIO带来确定性的市场扩容机遇，也可成为港股IPO路演中关键的政策背书。",
-        "risk": "政策吸引更多竞争者（包括云巨头与AI infra新秀）涌入同类赛道，可能加剧价格战与客户争夺；同时未来产业常伴随更严格的数据安全与基础设施监管，若合规准备不足，可能影响上市进程和业务扩张。"
+        "positive": "为对外投资提供统一的法律框架，若能顺利满足备案要求，可降低上市过程中的制度不确定性，增强国际投资者信心。",
+        "risk": "若规定收紧资金出境和红筹架构审查，可能拖延 PPIO 的上市时间表，增加额外的合规成本和架构调整难度。"
       }
     },
     {
       "id": "raw-2",
-      "title": "苹果全面免除小型开发者云API费用，高昂算力成本下AI生态迎破局点 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ycVRnbVJTQTN1aHdLaHB1Um5TLUx2QkVwZ1VVaUxiQjIzM0hFdmZUTFd6bEMybDlCSmRHQ1ZWdGRiVlBwOHFCd0JnVjVQdw?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-06-09",
-      "body_snippet": "苹果全面免除小型开发者云API费用，高昂算力成本下AI生态迎破局点 AIBase",
+      "title": "刚刚，工信部重磅发布！AI算力新利好 - Sina finance",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ELUw5TzN5b1NRV1RyVU9PcXB5bDl1Z0l5dDR2V3J4b2tzZlhRYkFnckhJX2pDWk9qc3VaMjJXYmgzYVpKLVdoN2YyQ2hNTzVWR014OFB6VFhMcE9uV2VRX0FJLXdIdE15am5iMEk1aDdOdWRWQ0kwNg?oc=5",
+      "source": "Sina finance",
+      "category": "政策",
+      "published": "2026-06-10",
+      "body_snippet": "刚刚，工信部重磅发布！AI算力新利好 Sina finance",
       "_query_boost": 0,
+      "lane": "attend",
+      "signals": [
+        "🏛️",
+        "🔬"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1",
+        "c2"
+      ],
+      "summary_cn": "工信部发布针对 AI 算力的重要利好政策，预计涵盖基础设施建设补贴、算力网络融合、边缘计算节点支持等内容。这标志着国家级算力资源布局进一步加速，将为整个算力产业链注入政策红利。对 PPIO 而言，边缘分布式算力平台直接受益于政策推动，可借此扩大节点覆盖、降低硬件采购成本，并争取政府合作项目。",
+      "ppio_signal": {
+        "positive": "政策红利直接降低边缘算力部署成本，加速企业客户将推理任务下沉，推动 PPIO 边缘云业务快速增长，增强上市故事中的政策背书。",
+        "risk": "利好同样吸引阿里云、华为云等巨头加大边缘投入，可能导致市场快速变为价格战，挤压 PPIO 的差异化空间和盈利预期。"
+      }
+    },
+    {
+      "id": "raw-3",
+      "title": "Dell Pro Max 16 Plus Review A More Mobile NVIDIA RTX Pro 5000 Blackwell System",
+      "url": "https://www.servethehome.com/dell-pro-max-16-plus-review-intel-nvidia-rtx-pro-5000-blackwell-system/",
+      "source": "ServeTheHome",
+      "published": "2026-06-10",
+      "body_snippet": "Dell Pro Max 16 Plus Review A More Mobile NVIDIA RTX Pro 5000 Blackwell System / ServeTheHome",
+      "category": "技术",
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "戴尔新款移动工作站搭载 NVIDIA RTX Pro 5000 Blackwell GPU，展示移动专业计算能力提升，但属于单点终端设备，对分布式边缘云架构影响有限，仅作为算力硬件演进参考。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-4",
+      "title": "从AI Infra到Agentic Infra！华为云极致重构AI算力底座 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FNHUzYzR0Tm4wRDkydHh0Nm44Qjl0T1hUcDg5YW5CWUpiVkpSYUo5QVhlXzg2ZnpwZVZqdDREYjZZczNYQXpEMFJBZFB4NmNSQ3RvOFpHYUpydnJGd3NUUkNReTg1VXM5T0g1dml3?oc=5",
+      "source": "中华网",
+      "category": "竞品",
+      "published": "2026-06-07",
+      "body_snippet": "从AI Infra到Agentic Infra！华为云极致重构AI算力底座 中华网",
+      "_query_boost": 0,
+      "lane": "attend",
+      "signals": [
+        "⚔️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "华为云宣布从 AI Infra 向 Agentic Infra 升级，旨在重构 AI 算力底座，可能推出面向智能体、分布式推理和边缘协同的新一代云服务。这一定位与 PPIO 的边缘分布式算力平台高度重叠，尤其是在边缘推理和低延迟场景中形成直接竞争。华为此举可能引领行业从训练基建转向推理和代理服务，改变市场格局。",
+      "ppio_signal": {
+        "positive": "Agentic Infra 理念推动市场认知向分布式推理和智能体服务迁移，为 PPIO 的分布式算力网络提供更高的战略价值锚点，有利于差异化定位。",
+        "risk": "华为云凭借品牌、生态和政企资源，可能快速抢占边缘推理和 Agent 服务市场，PPIO 需警惕其在价格、捆绑销售上的挤压，避免客户迁移。"
+      }
+    },
+    {
+      "id": "raw-5",
+      "title": "英伟达：接到中国订单…重启H200生产 - 朝鮮日報中文版",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNEEzNEw0Mnd6X1FDNmM2MkRmZGpDb0FOc1g3NF9TT0Q0cHpHdjFiWXJEVXExc0pqOXVuMUJpeENpbkhlMjJNMVM0SnNyM2sycXBoWF9lNndfLW1JN1diejZRQm1DbV9zNHkyLXRMQzZRUjNiOXFrc0UwM05NaU1NZXVnNTg1X3UyQjBfZDFrM0hCZw?oc=5",
+      "source": "朝鮮日報中文版",
+      "category": "海外",
+      "published": "2026-06-07",
+      "body_snippet": "英伟达：接到中国订单…重启H200生产 朝鮮日報中文版",
+      "_query_boost": 0,
+      "lane": "attend",
+      "signals": [
+        "🌏",
+        "📜"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1",
+        "c3"
+      ],
+      "summary_cn": "英伟达称接到中国客户订单，将重启 H200 芯片生产。H200 是受美国出口管制的高性能芯片，此消息暗示中国企业可能通过特供版（如 H20）或特定渠道获取高端算力。对 PPIO 而言，若 H200 级芯片供应增加，可显著提升边缘节点的推理性能，但需面对制裁合规风险和供应稳定性疑虑，并可能冲击国产芯片替代生态。",
+      "ppio_signal": {
+        "positive": "获得 H200 级别算力可大幅增强边缘云处理大模型推理的能力，提升产品竞争力，使 PPIO 在港股上市时具备更强的技术叙事。",
+        "risk": "供应链高度受制于地缘政治，若未来出口管制收紧或供应中断，将导致核心硬件断供风险，并引发港股投资者的合规性质疑。"
+      }
+    },
+    {
+      "id": "raw-1",
+      "title": "中国第一、全球第二！HiDream-O1-Image-1.5 登顶文生图榜单，超越谷歌、英伟达",
+      "url": "https://www.qbitai.com/2026/06/434196.html",
+      "source": "量子位",
+      "published": "2026-06-10",
+      "body_snippet": "",
+      "category": "技术",
       "lane": "silent",
       "signals": [
         "🔬"
@@ -137,86 +136,160 @@
       "compass_triggered": [
         "c2"
       ],
-      "summary_cn": "苹果免除小型开发者云API费用，降低AI应用开发门槛，或推动端侧智能与云算力需求结构变化，侧面印证算力成本是行业痛点，边缘分布式降本方案的重要性上升。",
+      "summary_cn": "中国文生图模型HiDream-O1-Image-1.5在榜单上夺冠，体现国产AI模型竞争力提升，但未直接涉及边缘云或分布式算力竞争格局。",
       "ppio_signal": null
     },
     {
-      "id": "raw-012",
-      "title": "国常会定调新型工业化：要以发展新一代智能制造为主攻方向 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOGtCdTRyc3BsdWlvZ0R2bzdzc2dmSGQ2QXBXRWc1RTU5a1ZleEd0TXlzWjBpNGNubmFGTVl4RHVyNWNyZ28wVFU4MXdsSzJWWUpBTEd1Wk5nX0ZTbXg0MkR4eXBySjlyMG9Tb1UzdWJnaUZrWXJpSlowRU5xeF82OVV6RGRWTFZFUW5FNHdNaw?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-06-09",
-      "body_snippet": "国常会定调新型工业化：要以发展新一代智能制造为主攻方向 新浪财经",
-      "_query_boost": 25,
-      "lane": "attend",
+      "id": "raw-2",
+      "title": "甲骨文CFO：公司积压订单达6380亿美元，体现市场对AI基建和云服务的需求旺盛",
+      "url": "https://36kr.com/newsflashes/3848088702260225?f=rss",
+      "source": "36氪",
+      "published": "2026-06-11",
+      "body_snippet": "",
+      "category": "海外",
+      "lane": "silent",
       "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "要以发展新一代智能制造为主攻方向 - 新浪财经 国常会定调新型工业化：要以发展新一代智能制造为主攻方向 新浪财经",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-013",
-      "title": "刘佳：对外投资新规出台，是何信号？ - 乌有之乡",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14SW9NOHprTjQ5X1hVeEU1eVRDcjd1dE54ZTk2RXM1YmluR1FDdXFGSDlpY1Y1cWMwelNWWkpTdDJSV0t5U1BIRmF4eFliRTZnVXdKaGFGRnhPNEpPUDRQVXJJS080Qi1q?oc=5",
-      "source": "乌有之乡",
-      "category": "监管",
-      "published": "2026-06-08",
-      "body_snippet": "刘佳：对外投资新规出台，是何信号？ 乌有之乡",
-      "_query_boost": 25,
-      "lane": "attend",
-      "signals": [
-        "—"
+        "🔬",
+        "🌏"
       ],
       "is_deep_read": false,
       "compass_triggered": [
-        "c1",
-        "c2",
         "c3"
       ],
-      "summary_cn": "对外投资新规出台，是何信号？ - 乌有之乡 刘佳：对外投资新规出台，是何信号？ 乌有之乡",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
+      "summary_cn": "甲骨文云积压订单激增至6380亿美元，反映全球AI基建与云服务需求旺盛，海外市场对算力基础设施的强劲需求可能对国内算力出海形成参考。",
+      "ppio_signal": null
     },
     {
-      "id": "raw-015",
-      "title": "国常会定调新型工业化：发展新一代智能制造是主攻方向 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObzZhU3A5eXMxTVRMNXJncGZ2ZG9ob1dpTGx0c2lQeVJFclBsdTcxSUU2X2oxSklQTXF6NGtYa2xkZFNYOWFIM2kyWGs0V1o5UXRiQTgzX1pBTUpqLUpJRXZ6RWhON3JQMndCT1BMTksyVFByRVRQX09nYUtHb2ZCSERQdWcwdTRFY0RJejR2cw?oc=5",
-      "source": "21财经",
+      "id": "raw-3",
+      "title": "两部门：深入实施“人工智能+三品”专项行动，建设一批行业大模型和高质量数据集",
+      "url": "https://36kr.com/newsflashes/3848066038174724?f=rss",
+      "source": "36氪",
+      "published": "2026-06-11",
+      "body_snippet": "",
       "category": "政策",
-      "published": "2026-06-07",
-      "body_snippet": "国常会定调新型工业化：发展新一代智能制造是主攻方向 21财经",
-      "_query_boost": 25,
       "lane": "attend",
       "signals": [
         "🏛️"
       ],
       "is_deep_read": true,
       "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "两部门联合发文推进“人工智能+三品”专项行动，要求建设一批行业大模型和高质量数据集。这是部委层面继“人工智能+”写入政府工作报告后的具体落地政策，旨在通过AI赋能消费品工业增品种、提品质、创品牌。政策明确鼓励行业大模型与高质量数据集建设，将直接拉动对分布式算力和边缘推理节点的需求，为AI Infra企业带来订单机会。\n对PPIO而言，行业大模型的训练和微调需要大量分布式GPU算力，而边缘推理场景与PPIO的分布式边缘云定位高度契合。该政策可能促使更多传统行业客户寻求合规、低延迟的算力方案，PPIO可借此拓展消费品、工业质检等领域的边缘推理业务。同时，政策推动的高质量数据集建设也可能衍生出数据预处理和存储的算力需求，需要PPIO在解决方案中集成相关能力。风险在于，政策落地节奏和实际采购预算尚不确定，且大型云厂商可能借机抢占市场份额。",
+      "ppio_signal": {
+        "positive": "行业大模型与边缘推理场景直接拉动分布式算力需求，PPIO的分布式边缘云定位与政策方向高度契合，可拓展消费品、工业质检等行业的边缘推理业务。",
+        "risk": "政策落地节奏和实际采购预算不确定，大型云厂商可能借机竞争，PPIO需快速形成行业解决方案以抢占先机。"
+      }
+    },
+    {
+      "id": "raw-4",
+      "title": "中国升级全流程对外投资监管 - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MSThENExwX25LMVdRT1hUUkpKaWVNMk9IcVVIdFg0QnRTd21UTS00czY0Z053NWVrQzBvaE1Xd19hSUFaeVU1WkQ2MXJKU21HanI2dl9hSXdhaHpmUXc?oc=5",
+      "source": "thepaper.cn",
+      "category": "监管",
+      "published": "2026-06-08",
+      "body_snippet": "中国升级全流程对外投资监管 thepaper.cn",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "📜"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
         "c1",
-        "c2",
         "c3"
       ],
-      "summary_cn": "发展新一代智能制造是主攻方向 - 21财经 国常会定调新型工业化：发展新一代智能制造是主攻方向 21财经",
+      "summary_cn": "中国有关部门升级全流程对外投资监管体系，加强从备案、审核到事中事后监管的全链条管理。此举意在规范企业境外投资行为，防范资本无序外流，同时确保对外投资符合国家战略和产业政策。对于有海外架构或计划境外上市的企业，监管政策的变化将直接影响其合规成本和上市进程。\nPPIO正筹备香港IPO，跨境架构和境外融资必然涉及对外投资监管申报。全流程监管升级可能意味着ODI备案审批更趋严格、时限延长，增加上市前重组的不确定性。同时，PPIO若未来计划在海外建设边缘节点，对外投资监管将直接约束资金出境和项目落地。需要密切关注该政策的具体实施细则，提前与监管部门沟通，确保红筹架构和外投资流程合规，避免影响IPO时间表。",
       "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
+        "positive": "无直接积极影响，但规范的市场环境有助于长期合规经营。",
+        "risk": "ODI备案审批趋严可能延缓红筹架构重组和资金出境，增加港股IPO时间成本；境外边缘节点部署也可能受对外投资限制，影响国际化战略。"
+      }
+    },
+    {
+      "id": "raw-5",
+      "title": "“中国人经济”，有了自己的海外保护法 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUU5DM3NSbV91R29hcTExR3NyU1NTWktaTXF3RmFkblJ1dmxvdWtsak9MX0hfdm1sSVkzdlpUc284MnlJU0dhNzVaTUpIMGJaVE41LVI1WHhaYkJDMXlLLTQtdUFndGRZRnh2MEhsbjdQbkw4YWxQZUJJQUc5a2RHZkhVWVMzc083OVlORWFuN3pDbWhWSjZ0N3ZXbE9IZlBVOVZyVGMtZ1ptWUxfTkZPbDVDSQ?oc=5",
+      "source": "新浪财经",
+      "category": "监管",
+      "published": "2026-06-08",
+      "body_snippet": "“中国人经济”，有了自己的海外保护法 新浪财经",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "📜"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "出台海外投资保护相关法律，为“中国人经济”的海外资产和经营活动提供法律保障。该法可能涉及海外投资保险、领事保护升级和争端解决机制，对拥有海外架构或海外资产的企业产生直接影响。\nPPIO虽主要业务在国内，但港股IPO涉及境外上市主体和境外资金，海外保护法的出台为境外上市后中国股东权益提供了一定法律后盾。同时，若PPIO未来向东南亚等地区输出边缘云解决方案，该法可为中国在海外的算力资产提供保护框架。但需注意法律是否附带更严格的海外投资合规要求。",
+      "ppio_signal": {
+        "positive": "为港股上市后的中国股东权益提供法律后盾，为未来算力出海提供资产保护框架。",
+        "risk": "可能伴随更严格的海外投资合规义务，增加境外资产申报和管理成本。"
+      }
+    },
+    {
+      "id": "raw-2",
+      "title": "国常会：加大重点群体就业支持力度 拓展青年就业成才渠道 - 香港電台",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbFhJUHR3ak9sMkg0Q2lfQzZhZWRlNXRwLU9kQ1hQTG9JbzhhR3R4YUd0QjluRlRLd0I0Q0U3dWw5RDlJdGZhUDgxT3dWMkl1V1NhU0xVWE9SX1ZSOVdJM2k1NzVjbWtaQm9lbUNub24yUFlYdF9sb0VvQS1TdVFESDRTWmlxRW5fZUtZ?oc=5",
+      "source": "香港電台",
+      "category": "政策",
+      "published": "2026-06-05",
+      "body_snippet": "国常会：加大重点群体就业支持力度 拓展青年就业成才渠道 香港電台",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "国常会部署加大重点群体就业支持、拓展青年就业渠道，属于宏观就业保障政策。\n对PPIO而言，该政策不直接涉及AI或算力基建，但稳定的就业环境有助于维持互联网与科技行业的整体消费需求与人才供给，间接为边缘云服务创造了持续的终端使用场景。作为拟港股IPO企业，宏观政策托底就业意味着经济韧性增强，可缓解外部市场对业务增长预期的担忧。",
+      "ppio_signal": {
+        "positive": "就业稳定利好终端数字化需求，维持边缘云服务的基本盘；政策托底有助于提升整体市场信心。",
+        "risk": "政策未直接涉及算力或AI基础设施，无法提供行业专项催化，边缘云业务受益有限。"
+      }
+    },
+    {
+      "id": "raw-3",
+      "title": "Anthropic 2026年IPO：如何在加拿大投资Anthropic？ - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeWk1RVpRbmdrVXR6VEhNN08yMzhJYXRHTEptNXdfUjA2TncwZ1Z5QnV3YTdReDA1cDFJR3I2SVJCNkRiUVdfTTUzbkVsNzRaZXVKRURnbGxzTTU4cURnMGVNdzVONkdjclN0YzFRdzdCZWhLQ0hTbUM1VVNzUzN2cmZQekE0djViTUplR1g4azM?oc=5",
+      "source": "Moomoo",
+      "category": "资本",
+      "published": "2026-06-10",
+      "body_snippet": "Anthropic 2026年IPO：如何在加拿大投资Anthropic？ Moomoo",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c3"
+      ],
+      "summary_cn": "Anthropic计划2026年IPO，海外AI公司资本化进程持续，反映全球市场对AI算力需求的长期看好。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-4",
+      "title": "华尔街和AI圈内人真正怎么看 OpenAI 的IPO - Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQLXdHejh5b2wzN051cmZlaGxhYXduTEFwTm5CU2ZlRFRpNGdWMzRZVzNnQXR1TklFSk9SaEJmV1hZcHREd3JvZ0F5S1Ricl82OHBseE93dC13YXNnRmt1SnMxTEF0Qk05NTZpY3BRNW1rR2RMcDJ4OHJELUtDUDN1TXlMeURqU2hfUVpMZU1OY0tNS1NVa1NFc29oWXBHRkp6MFhWWmhPWDNpY3lWR0F3RDZPVmpwNW1jcjhmcHo2STFZclc1UWhYaWNrYjl0Sl9NcTc1YVU3TWdTdnRNSHd5LTVkSHpRSGtEck1vMW13?oc=5",
+      "source": "Yellow.com",
+      "category": "资本",
+      "published": "2026-06-10",
+      "body_snippet": "华尔街和AI圈内人真正怎么看 OpenAI 的IPO Yellow.com",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c3"
+      ],
+      "summary_cn": "华尔街及AI圈对OpenAI IPO的看法分析，显示头部AI企业的融资与估值动向仍受高度关注。",
+      "ppio_signal": null
     }
   ]
 }

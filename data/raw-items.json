@@ -1,160 +1,157 @@
 {
-  "generated_at": "2026-06-10T01:00:55.260Z",
+  "generated_at": "2026-06-11T01:37:35.452Z",
   "week": "2026-W24",
   "date_range": {
-    "from": "2026-06-03",
-    "to": "2026-06-10"
+    "from": "2026-06-04",
+    "to": "2026-06-11"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "算力中心建设进入快车道，适合部署的国产AI算力芯片及计划上市企业推荐 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWVd5SG95Q25LTHFsUXRacS1wUmlrVjE5LWNYX0ZsN2t4MVA1SkZKTndua19CYWVmeHpPN2NJQVhOWEFjYkNESnNTdl9HbkdLUnp5QTFEaWlqQndfSi1zaEp4Ym1kTXpxTVZyMjdJZTVfNnktR2h1ZmJfT3NwdnNyY1RQcC1lRnJq?oc=5",
-      "source": "搜狐网",
-      "category": "技术",
-      "published": "2026-06-09",
-      "body_snippet": "算力中心建设进入快车道，适合部署的国产AI算力芯片及计划上市企业推荐 搜狐网",
-      "_query_boost": 20
+      "title": "李强签署国务院令 公布《国务院关于对外投资的规定》",
+      "url": "https://fgw.sh.gov.cn/fgw_fzggdt/20260605/fb532093047e439c8dba2d354c7f6b28.html",
+      "source": "上海市发改委",
+      "published": "2026-06-05",
+      "body_snippet": "",
+      "category": "监管"
     },
     {
       "id": "raw-002",
-      "title": "Behind the Claude 5 rumors, Anthropic is turning model releases into IPO language - Binance",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JZ1puVjhmdmVmbnJ5WXJqU3ptVGRYRng2eDhGdXhNMlRhbm54VWwxVDJSNkF3Nm5SUVBfRTN6R0EwOV9qd0RDZlhMNy03clEzcWpPSDlfZFlGTHhJc3pHTUFURzU?oc=5",
-      "source": "Binance",
-      "category": "海外",
-      "published": "2026-06-09",
-      "body_snippet": "Behind the Claude 5 rumors, Anthropic is turning model releases into IPO language Binance",
-      "_query_boost": 20
+      "title": "刚刚，工信部重磅发布！AI算力新利好 - Sina finance",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ELUw5TzN5b1NRV1RyVU9PcXB5bDl1Z0l5dDR2V3J4b2tzZlhRYkFnckhJX2pDWk9qc3VaMjJXYmgzYVpKLVdoN2YyQ2hNTzVWR014OFB6VFhMcE9uV2VRX0FJLXdIdE15am5iMEk1aDdOdWRWQ0kwNg?oc=5",
+      "source": "Sina finance",
+      "category": "政策",
+      "published": "2026-06-10",
+      "body_snippet": "刚刚，工信部重磅发布！AI算力新利好 Sina finance",
+      "_query_boost": 0
     },
     {
       "id": "raw-003",
-      "title": "欧陆通：已与Google达成算力设备GPU电源项目合作，正推进至测试及小批量生产",
-      "url": "https://36kr.com/newsflashes/3846628037347849?f=rss",
-      "source": "36氪",
+      "title": "Dell Pro Max 16 Plus Review A More Mobile NVIDIA RTX Pro 5000 Blackwell System",
+      "url": "https://www.servethehome.com/dell-pro-max-16-plus-review-intel-nvidia-rtx-pro-5000-blackwell-system/",
+      "source": "ServeTheHome",
+      "published": "2026-06-10",
+      "body_snippet": "Dell Pro Max 16 Plus Review A More Mobile NVIDIA RTX Pro 5000 Blackwell System / ServeTheHome",
+      "category": "技术"
+    },
+    {
+      "id": "raw-004",
+      "title": "从AI Infra到Agentic Infra！华为云极致重构AI算力底座 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FNHUzYzR0Tm4wRDkydHh0Nm44Qjl0T1hUcDg5YW5CWUpiVkpSYUo5QVhlXzg2ZnpwZVZqdDREYjZZczNYQXpEMFJBZFB4NmNSQ3RvOFpHYUpydnJGd3NUUkNReTg1VXM5T0g1dml3?oc=5",
+      "source": "中华网",
+      "category": "技术",
+      "published": "2026-06-07",
+      "body_snippet": "从AI Infra到Agentic Infra！华为云极致重构AI算力底座 中华网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-005",
+      "title": "英伟达：接到中国订单…重启H200生产 - 朝鮮日報中文版",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNEEzNEw0Mnd6X1FDNmM2MkRmZGpDb0FOc1g3NF9TT0Q0cHpHdjFiWXJEVXExc0pqOXVuMUJpeENpbkhlMjJNMVM0SnNyM2sycXBoWF9lNndfLW1JN1diejZRQm1DbV9zNHkyLXRMQzZRUjNiOXFrc0UwM05NaU1NZXVnNTg1X3UyQjBfZDFrM0hCZw?oc=5",
+      "source": "朝鮮日報中文版",
+      "category": "海外",
+      "published": "2026-06-07",
+      "body_snippet": "英伟达：接到中国订单…重启H200生产 朝鮮日報中文版",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-006",
+      "title": "中国第一、全球第二！HiDream-O1-Image-1.5 登顶文生图榜单，超越谷歌、英伟达",
+      "url": "https://www.qbitai.com/2026/06/434196.html",
+      "source": "量子位",
       "published": "2026-06-10",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-004",
-      "title": "中国软件国际：签订人民币10亿元高端AI算力设备销售协议",
-      "url": "https://36kr.com/newsflashes/3846599148177922?f=rss",
-      "source": "36氪",
-      "published": "2026-06-10",
-      "body_snippet": "",
-      "category": "资本"
-    },
-    {
-      "id": "raw-005",
-      "title": "算力网加速落地：国家推动算力互联互通，普通人数百元可租用算力 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FR3JDaGZ1QmI1N01sM2t2cEZhYXQ2XzhNdWVhU1BOUklQTm1HVUtCNVJvTWs5dmRtcW50dTNSMUZ4YTRRM2xMYnZnLUswcXV2TTJhZw?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-06-08",
-      "body_snippet": "算力网加速落地：国家推动算力互联互通，普通人数百元可租用算力 虎嗅",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-006",
-      "title": "国常会部署未来产业_新浪新闻 - 手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIZ2NTQ1JNSVVFWEJ2bld4V1hURWpJaVFXRDlQaHBQZTFHQzFiS2xHdmxPaFlYMTlOdVhXQmtGU3RIY2ZfN1lUc1ZXcnhDTlBtMzczZkdYM0REMjZTcnlNVUl0VQ?oc=5",
-      "source": "手机新浪网",
-      "category": "政策",
-      "published": "2026-06-05",
-      "body_snippet": "国常会部署未来产业_新浪新闻 手机新浪网",
-      "_query_boost": 30
-    },
-    {
       "id": "raw-007",
-      "title": "苹果全面免除小型开发者云API费用，高昂算力成本下AI生态迎破局点 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ycVRnbVJTQTN1aHdLaHB1Um5TLUx2QkVwZ1VVaUxiQjIzM0hFdmZUTFd6bEMybDlCSmRHQ1ZWdGRiVlBwOHFCd0JnVjVQdw?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-06-09",
-      "body_snippet": "苹果全面免除小型开发者云API费用，高昂算力成本下AI生态迎破局点 AIBase",
-      "_query_boost": 0
+      "title": "甲骨文CFO：公司积压订单达6380亿美元，体现市场对AI基建和云服务的需求旺盛",
+      "url": "https://36kr.com/newsflashes/3848088702260225?f=rss",
+      "source": "36氪",
+      "published": "2026-06-11",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-008",
-      "title": "未来产业根子在科技_新浪新闻 - 手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hN1ZFVzBleXNzSkhsZnI5cUtRb05RTmtGRUFYMm50RFVaX2lKaUdhNHljMTBidFlNYVdtcXBMZUswVmhPamNORmpWLXFjRGJwTDBKenVaRjNUVE1FUEdTZl8xYw?oc=5",
-      "source": "手机新浪网",
-      "category": "政策",
-      "published": "2026-06-07",
-      "body_snippet": "未来产业根子在科技_新浪新闻 手机新浪网",
-      "_query_boost": 40
+      "title": "两部门：深入实施“人工智能+三品”专项行动，建设一批行业大模型和高质量数据集",
+      "url": "https://36kr.com/newsflashes/3848066038174724?f=rss",
+      "source": "36氪",
+      "published": "2026-06-11",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-009",
-      "title": "一周发展改革新闻要览 - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xQzJ5OFdWQnFqTnBWc1pxeU1Odm9raWxMWkVrU01jX1QydV9VYy1KM2wzQVhxeDB5WkxnUVRncTBQYjI3azBZOTVJdGh5UzV0NWlzUUM2WTBZWktzNUE?oc=5",
+      "title": "中国升级全流程对外投资监管 - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MSThENExwX25LMVdRT1hUUkpKaWVNMk9IcVVIdFg0QnRTd21UTS00czY0Z053NWVrQzBvaE1Xd19hSUFaeVU1WkQ2MXJKU21HanI2dl9hSXdhaHpmUXc?oc=5",
       "source": "thepaper.cn",
-      "category": "政策",
-      "published": "2026-06-06",
-      "body_snippet": "一周发展改革新闻要览 thepaper.cn",
-      "_query_boost": 30
+      "category": "监管",
+      "published": "2026-06-08",
+      "body_snippet": "中国升级全流程对外投资监管 thepaper.cn",
+      "_query_boost": 25
     },
     {
       "id": "raw-010",
-      "title": "文脉传承高扬文化主体性 - 求是",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE82U01wdkt0cWM2dzBqNkVRbW9jaDlwMmdNN01JczBZeW5iem5ReTkxVnl5SGV5WDJqMC1MY2lKMXZIQUQwcDhEd2FKTHNPWkpNblV0ME5LOXpQMzFnUjFvLXFrMjlTQ0FiOXdxdGVELUlBdkdVQUNOZWRPTlM?oc=5",
-      "source": "求是",
-      "category": "政策",
-      "published": "2026-06-09",
-      "body_snippet": "文脉传承高扬文化主体性 求是",
+      "title": "“中国人经济”，有了自己的海外保护法 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUU5DM3NSbV91R29hcTExR3NyU1NTWktaTXF3RmFkblJ1dmxvdWtsak9MX0hfdm1sSVkzdlpUc284MnlJU0dhNzVaTUpIMGJaVE41LVI1WHhaYkJDMXlLLTQtdUFndGRZRnh2MEhsbjdQbkw4YWxQZUJJQUc5a2RHZkhVWVMzc083OVlORWFuN3pDbWhWSjZ0N3ZXbE9IZlBVOVZyVGMtZ1ptWUxfTkZPbDVDSQ?oc=5",
+      "source": "新浪财经",
+      "category": "监管",
+      "published": "2026-06-08",
+      "body_snippet": "“中国人经济”，有了自己的海外保护法 新浪财经",
       "_query_boost": 25
     },
     {
       "id": "raw-011",
-      "title": "【早报】仅1纳米、功耗最低！北大实现芯片领域重要突破；美最高法院裁定特朗普政府关税政策违法 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1ZSGMyalYxcXlBWmZIaTNwM3R0cHB5NG5nQTRCamwzTGlGdzFZN0ZDSVRxem1ySnBvbXFleGJidWdCTGJENXZqZg?oc=5",
-      "source": "财联社",
+      "title": "新闻 - 腾讯新闻",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hcXdxR09QUTk1QWZlaTlETDZzWHQtVzR2RmJXakIwRUstbkxYZVBFOHBPd2VyNFBvMVFuNTlTSDdpMVBpdEo3aGs1T09DNGJXV0pMemxB?oc=5",
+      "source": "腾讯新闻",
       "category": "政策",
-      "published": "2026-06-09",
-      "body_snippet": "【早报】仅1纳米、功耗最低！北大实现芯片领域重要突破；美最高法院裁定特朗普政府关税政策违法 财联社",
+      "published": "2026-06-08",
+      "body_snippet": "新闻 腾讯新闻",
       "_query_boost": 25
     },
     {
       "id": "raw-012",
-      "title": "国常会定调新型工业化：要以发展新一代智能制造为主攻方向 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOGtCdTRyc3BsdWlvZ0R2bzdzc2dmSGQ2QXBXRWc1RTU5a1ZleEd0TXlzWjBpNGNubmFGTVl4RHVyNWNyZ28wVFU4MXdsSzJWWUpBTEd1Wk5nX0ZTbXg0MkR4eXBySjlyMG9Tb1UzdWJnaUZrWXJpSlowRU5xeF82OVV6RGRWTFZFUW5FNHdNaw?oc=5",
-      "source": "新浪财经",
+      "title": "国常会：加大重点群体就业支持力度 拓展青年就业成才渠道 - 香港電台",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbFhJUHR3ak9sMkg0Q2lfQzZhZWRlNXRwLU9kQ1hQTG9JbzhhR3R4YUd0QjluRlRLd0I0Q0U3dWw5RDlJdGZhUDgxT3dWMkl1V1NhU0xVWE9SX1ZSOVdJM2k1NzVjbWtaQm9lbUNub24yUFlYdF9sb0VvQS1TdVFESDRTWmlxRW5fZUtZ?oc=5",
+      "source": "香港電台",
       "category": "政策",
-      "published": "2026-06-09",
-      "body_snippet": "国常会定调新型工业化：要以发展新一代智能制造为主攻方向 新浪财经",
+      "published": "2026-06-05",
+      "body_snippet": "国常会：加大重点群体就业支持力度 拓展青年就业成才渠道 香港電台",
       "_query_boost": 25
     },
     {
       "id": "raw-013",
-      "title": "刘佳：对外投资新规出台，是何信号？ - 乌有之乡",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14SW9NOHprTjQ5X1hVeEU1eVRDcjd1dE54ZTk2RXM1YmluR1FDdXFGSDlpY1Y1cWMwelNWWkpTdDJSV0t5U1BIRmF4eFliRTZnVXdKaGFGRnhPNEpPUDRQVXJJS080Qi1q?oc=5",
-      "source": "乌有之乡",
-      "category": "监管",
-      "published": "2026-06-08",
-      "body_snippet": "刘佳：对外投资新规出台，是何信号？ 乌有之乡",
-      "_query_boost": 25
+      "title": "Anthropic 2026年IPO：如何在加拿大投资Anthropic？ - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeWk1RVpRbmdrVXR6VEhNN08yMzhJYXRHTEptNXdfUjA2TncwZ1Z5QnV3YTdReDA1cDFJR3I2SVJCNkRiUVdfTTUzbkVsNzRaZXVKRURnbGxzTTU4cURnMGVNdzVONkdjclN0YzFRdzdCZWhLQ0hTbUM1VVNzUzN2cmZQekE0djViTUplR1g4azM?oc=5",
+      "source": "Moomoo",
+      "category": "海外",
+      "published": "2026-06-10",
+      "body_snippet": "Anthropic 2026年IPO：如何在加拿大投资Anthropic？ Moomoo",
+      "_query_boost": 20
     },
     {
       "id": "raw-014",
-      "title": "AI渗透金融场景 风控、投研、评级逻辑加速重构 - cb.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wS0E3VF9VaTljT196Q1VNTWFmZV93bVhJWmtVQTZoS0pVaHRWLVQwVXhWUWY5cHhMRGk2NTRQcmdad3B2MlZWbVdmZ21uOW03dDBGOGx3QUZ5UVhWUDdXX0FB?oc=5",
-      "source": "cb.com.cn",
-      "category": "政策",
-      "published": "2026-06-08",
-      "body_snippet": "AI渗透金融场景 风控、投研、评级逻辑加速重构 cb.com.cn",
-      "_query_boost": 25
+      "title": "华尔街和AI圈内人真正怎么看 OpenAI 的IPO - Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQLXdHejh5b2wzN051cmZlaGxhYXduTEFwTm5CU2ZlRFRpNGdWMzRZVzNnQXR1TklFSk9SaEJmV1hZcHREd3JvZ0F5S1Ricl82OHBseE93dC13YXNnRmt1SnMxTEF0Qk05NTZpY3BRNW1rR2RMcDJ4OHJELUtDUDN1TXlMeURqU2hfUVpMZU1OY0tNS1NVa1NFc29oWXBHRkp6MFhWWmhPWDNpY3lWR0F3RDZPVmpwNW1jcjhmcHo2STFZclc1UWhYaWNrYjl0Sl9NcTc1YVU3TWdTdnRNSHd5LTVkSHpRSGtEck1vMW13?oc=5",
+      "source": "Yellow.com",
+      "category": "海外",
+      "published": "2026-06-10",
+      "body_snippet": "华尔街和AI圈内人真正怎么看 OpenAI 的IPO Yellow.com",
+      "_query_boost": 20
     },
     {
       "id": "raw-015",
-      "title": "国常会定调新型工业化：发展新一代智能制造是主攻方向 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObzZhU3A5eXMxTVRMNXJncGZ2ZG9ob1dpTGx0c2lQeVJFclBsdTcxSUU2X2oxSklQTXF6NGtYa2xkZFNYOWFIM2kyWGs0V1o5UXRiQTgzX1pBTUpqLUpJRXZ6RWhON3JQMndCT1BMTksyVFByRVRQX09nYUtHb2ZCSERQdWcwdTRFY0RJejR2cw?oc=5",
-      "source": "21财经",
-      "category": "政策",
-      "published": "2026-06-07",
-      "body_snippet": "国常会定调新型工业化：发展新一代智能制造是主攻方向 21财经",
-      "_query_boost": 25
+      "title": "\"gucci 官网电话【微信１００８６０８２】-lv低仿五金[微信１００８６０８２]\" - Results on X | Live Posts &amp; Updates - x.com",
+      "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxQc3dGaWR3NU1ZUlFuYXNjRFVoNkoyenVqOFRGM2MtVHBndkJwSGVkWEJFNzFQbXB1S2pHZ0FaQWRpQ1lUZW1Ka1ZLU3pMS1NWTmwzNV9HV3BEWkhWTXJPZWJCbXhHSkRTS2k2czY5bWh6STNTQ29CZHNrcGcyZjlQbGl4YWxmWUp2b1NuYllYaFF5Q21MdHFRRXRZSDgxZUVsbDU1VDB1UXVOcVFZQmU5Z2lTRFAtQlU5SkZKTTRvQjRvcy1HVlVQR2dmLWhGNnRfNVVKMVR0TS13NmJNZDB5dFVGVkw3elBtYnJSVFNTa09Kb1dSZlhzMm4zZTltbkpvV2RURjQzS1hVOE5QN1JjbnFMMnJVWHgxTzBQdEplcWpFRE0ya2RHZXJzWll6aUw1OV9ZUFluZHpVWF9FeURUVXczMlpRNjhCSExnVFVOaHpQWWhTVUpJcHhZV1VwcTZpLUhEQmNPZlZ4UU1NM21LRVVHVUZDLXpCVXE5YTMzSDlNYkZaSjVZMnZBRnBOUWowSjdtcXFuUWF4MElqR2NUQzBLdUJ2VUxrajJ3cUwwLVA5WEJ1SVlBOE5CM19ZSGdobnZESg?oc=5",
+      "source": "x.com",
+      "category": "监管",
+      "published": "2026-06-09",
+      "body_snippet": "\"gucci 官网电话【微信１００８６０８２】-lv低仿五金[微信１００８６０８２]\" - Results on X | Live Posts & Updates x.com",
+      "_query_boost": 20
     }
   ]
 }

@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-06-10T01:05:27.579Z",
+  "updated_at": "2026-06-11T01:40:42.421Z",
   "days": [
+    {
+      "date": "2026-06-11",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "signal_summary": {
+        "🏛️": 4,
+        "📜": 4,
+        "⚔️": 1,
+        "💰": 2,
+        "🌏": 2,
+        "🔬": 4
+      },
+      "wind_indicators": {
+        "policy_heat": 4,
+        "competitor_heat": 3,
+        "capital_heat": 3,
+        "overseas_heat": 3,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
+      },
+      "ppio_index": {
+        "score": 55,
+        "delta": 0,
+        "components": {
+          "policy_tailwind": 32,
+          "competitive_pressure": -6,
+          "capital_sentiment": 10,
+          "regulatory_risk": -20,
+          "overseas_headwind": -8
+        },
+        "interpretation": "规则估算，仅供参考"
+      },
+      "item_count": {
+        "total": 13,
+        "attend": 8,
+        "silent": 5
+      },
+      "competitor_updates": []
+    },
     {
       "date": "2026-06-10",
       "mainline": "国常会密集部署未来产业与新型工业化，算力基建获强力背书；但对外投资新规出台为港股IPO路径增添变数",

@@ -1,109 +1,116 @@
 {
-  "generated_at": "2026-06-10T01:05:27.485Z",
-  "date": "2026-06-10",
-  "date_label": "2026-06-10",
-  "mainline": "国常会密集部署未来产业与新型工业化，算力基建获强力背书；但对外投资新规出台为港股IPO路径增添变数",
+  "generated_at": "2026-06-11T01:40:42.330Z",
+  "date": "2026-06-11",
+  "date_label": "2026-06-11",
+  "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 4,
-    "📜": 0,
-    "⚔️": 0,
-    "💰": 0,
-    "🌏": 0,
-    "🔬": 0
+    "📜": 4,
+    "⚔️": 1,
+    "💰": 2,
+    "🌏": 2,
+    "🔬": 4
   },
   "speed_read": {
     "positive": [
-      "高层信号：国常会部署未来产业与新型工业化，明确以人工智能、智能制造为主攻方向，算力基础设施再获顶层支撑",
-      "算力网加速互联互通，普通用户可百元租用算力，边缘云分布式算力应用场景有望进一步扩大"
+      "为对外投资提供统一的法律框架，若能顺利满足备案要求，可降低上市过程中的制度不确定性，增强国际投资者信心。",
+      "政策红利直接降低边缘算力部署成本，加速企业客户将推理任务下沉，推动 PPIO 边缘云业务快速增长，增强上市故事中的政策背书。",
+      "Agentic Infra 理念推动市场认知向分布式推理和智能体服务迁移，为 PPIO 的分布式算力网络提供更高的战略价值锚点，有利于差异化定位。"
     ],
     "risk": [
-      "对外投资新规出台，可能预示跨境资本监管趋严，对PPIO港股IPO所涉VIE备案增添合规不确定性",
-      "算力中心建设进入快车道，国产算力供给加速可能加剧行业竞争，对定价能力形成压力"
+      "若规定收紧资金出境和红筹架构审查，可能拖延 PPIO 的上市时间表，增加额外的合规成本和架构调整难度。",
+      "利好同样吸引阿里云、华为云等巨头加大边缘投入，可能导致市场快速变为价格战，挤压 PPIO 的差异化空间和盈利预期。",
+      "华为云凭借品牌、生态和政企资源，可能快速抢占边缘推理和 Agent 服务市场，PPIO 需警惕其在价格、捆绑销售上的挤压，避免客户迁移。"
     ]
   },
   "wind_indicators": {
-    "policy_heat": 5,
-    "competitor_heat": 2,
+    "policy_heat": 4,
+    "competitor_heat": 3,
     "capital_heat": 3,
-    "overseas_heat": 2,
-    "overall_sentiment": "升温",
-    "summary": "政策端多重利好释放，但对外投资新规与算力供给增加引发竞争与合规担忧，整体风向偏暖中隐含谨慎"
+    "overseas_heat": 3,
+    "overall_sentiment": "平稳",
+    "summary": "规则估算，AI合成不可用时的占位数据。"
   },
-  "competitor_updates": [
-    "国产AI算力芯片企业及算力中心项目加速落地，可能进入边缘算力市场形成潜在竞争"
-  ],
+  "competitor_updates": [],
   "item_axes": [
     {
       "id": "1",
-      "title": "算力网加速落地：国家推动算力互联互通，普通人",
-      "policy_axis": 0.8,
-      "competition_axis": 0.2,
+      "title": "李强签署国务院令 公布《国务院关于对外投",
+      "policy_axis": 0.6,
+      "competition_axis": 0.7,
       "impact_score": 4,
-      "axis_reason": "算力普惠直接利好PPIO边缘云场景，政策明确推动互联互通"
+      "axis_reason": "规则估算"
     },
     {
       "id": "2",
-      "title": "国常会部署未来产业_新浪新闻",
-      "policy_axis": 0.7,
+      "title": "刚刚，工信部重磅发布！AI算力新利好 -",
+      "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
-      "axis_reason": "未来产业涵盖AI，顶层设计强化算力长期需求"
+      "axis_reason": "规则估算"
     },
     {
       "id": "3",
-      "title": "国常会定调新型工业化：要以发展新一代智能制造为",
-      "policy_axis": 0.6,
+      "title": "从AI Infra到Agentic In",
+      "policy_axis": 0,
       "competition_axis": 0.1,
-      "impact_score": 3,
-      "axis_reason": "智能制造拓宽算力应用市场，但对边缘云直接拉动略低于算力网政策"
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     },
     {
       "id": "4",
-      "title": "刘佳：对外投资新规出台，是何信号？",
+      "title": "英伟达：接到中国订单…重启H200生产 ",
       "policy_axis": -0.5,
-      "competition_axis": 0,
-      "impact_score": 3,
-      "axis_reason": "对外投资监管收紧可能波及VIE架构审批，增添港股IPO不确定性"
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     },
     {
       "id": "5",
-      "title": "国常会定调新型工业化：发展新一代智能制造是主攻",
+      "title": "两部门：深入实施“人工智能+三品”专项行",
+      "policy_axis": -0.5,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "6",
+      "title": "中国升级全流程对外投资监管 - thep",
+      "policy_axis": -0.5,
+      "competition_axis": 0.7,
+      "impact_score": 3,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "7",
+      "title": "“中国人经济”，有了自己的海外保护法 -",
+      "policy_axis": -0.5,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "8",
+      "title": "国常会：加大重点群体就业支持力度 拓展青",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
-      "impact_score": 3,
-      "axis_reason": "与第三条同源，巩固智能制造政策信号"
+      "impact_score": 4,
+      "axis_reason": "规则估算"
     }
   ],
   "ppio_index": {
-    "score": 66,
-    "delta": -2,
+    "score": 55,
+    "delta": 0,
     "components": {
-      "policy_tailwind": 35,
-      "competitive_pressure": -18,
-      "capital_sentiment": 12,
-      "regulatory_risk": -8,
-      "overseas_headwind": -5
+      "policy_tailwind": 32,
+      "competitive_pressure": -6,
+      "capital_sentiment": 10,
+      "regulatory_risk": -20,
+      "overseas_headwind": -8
     },
-    "interpretation": "政策持续加码算力基础设施，但对外投资新规增添监管不确定性，指数小幅回落"
+    "interpretation": "规则估算，仅供参考"
   },
-  "policy_momentum": [
-    {
-      "thread": "算力网",
-      "last_signal": "地方试点",
-      "this_signal": "国家推动互联互通与普惠租用",
-      "level_delta": "升级",
-      "interpretation": "从地方试点升级为全国推动，PPIO分布式算力平台直接受益"
-    },
-    {
-      "thread": "未来产业",
-      "last_signal": "中央经济工作会议提及",
-      "this_signal": "国常会专题部署",
-      "level_delta": "升级",
-      "interpretation": "未来产业上升至国务院常务会议专项部署，AI算力获明确政策背书"
-    }
-  ],
-  "expected_but_absent": [
-    "人工智能法草案征求意见稿"
-  ],
-  "_generated_by": "deepseek-v4-pro"
+  "policy_momentum": [],
+  "expected_but_absent": [],
+  "_generated_by": "template"
 }
