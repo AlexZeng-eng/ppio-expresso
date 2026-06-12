@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-06-11T01:40:42.330Z",
-  "date": "2026-06-11",
-  "date_label": "2026-06-11",
+  "generated_at": "2026-06-12T01:43:46.170Z",
+  "date": "2026-06-12",
+  "date_label": "2026-06-12",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 4,
-    "📜": 4,
+    "🏛️": 6,
+    "📜": 1,
     "⚔️": 1,
     "💰": 2,
-    "🌏": 2,
+    "🌏": 0,
     "🔬": 4
   },
   "speed_read": {
     "positive": [
-      "为对外投资提供统一的法律框架，若能顺利满足备案要求，可降低上市过程中的制度不确定性，增强国际投资者信心。",
-      "政策红利直接降低边缘算力部署成本，加速企业客户将推理任务下沉，推动 PPIO 边缘云业务快速增长，增强上市故事中的政策背书。",
-      "Agentic Infra 理念推动市场认知向分布式推理和智能体服务迁移，为 PPIO 的分布式算力网络提供更高的战略价值锚点，有利于差异化定位。"
+      "监管框架清晰化利于长期稳定，提前合规可为上市铺平道路。",
+      "算力网上升为国家战略，为PPIO的分布式边缘算力纳入主网提供政策准入，显著提升IPO想象空间。",
+      "高层鼓励原创性突破，边缘云作为新算力形态有望获得政策支持，提升市场信心。"
     ],
     "risk": [
-      "若规定收紧资金出境和红筹架构审查，可能拖延 PPIO 的上市时间表，增加额外的合规成本和架构调整难度。",
-      "利好同样吸引阿里云、华为云等巨头加大边缘投入，可能导致市场快速变为价格战，挤压 PPIO 的差异化空间和盈利预期。",
-      "华为云凭借品牌、生态和政企资源，可能快速抢占边缘推理和 Agent 服务市场，PPIO 需警惕其在价格、捆绑销售上的挤压，避免客户迁移。"
+      "跨境监管收紧可能波及科技企业，增加港股IPO审批及跨境资金流动的不确定性。",
+      "国有运营商主导算力网可能压缩民营边缘云平台的市场空间与定价话语权。",
+      "政策若偏向集中式大算力，可能削弱分布式边缘云的资源倾斜。"
     ]
   },
   "wind_indicators": {
     "policy_heat": 4,
     "competitor_heat": 3,
     "capital_heat": 3,
-    "overseas_heat": 3,
+    "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
@@ -35,7 +35,7 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "李强签署国务院令 公布《国务院关于对外投",
+      "title": "《国务院关于对外投资的规定》对新能源企业",
       "policy_axis": 0.6,
       "competition_axis": 0.7,
       "impact_score": 4,
@@ -43,15 +43,15 @@
     },
     {
       "id": "2",
-      "title": "刚刚，工信部重磅发布！AI算力新利好 -",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
+      "title": "算力网纳入国家“六张网”，如何建得好、用",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 3,
       "axis_reason": "规则估算"
     },
     {
       "id": "3",
-      "title": "从AI Infra到Agentic In",
+      "title": "以原创性突破打开未来产业发展新空间 - ",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -59,15 +59,15 @@
     },
     {
       "id": "4",
-      "title": "英伟达：接到中国订单…重启H200生产 ",
-      "policy_axis": -0.5,
-      "competition_axis": 0.1,
-      "impact_score": 2,
+      "title": "吴清，周末发声！国常会，重磅部署！算力，",
+      "policy_axis": 0.6,
+      "competition_axis": 0.7,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
       "id": "5",
-      "title": "两部门：深入实施“人工智能+三品”专项行",
+      "title": "未来产业的根子在科技 - 求是",
       "policy_axis": -0.5,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -75,26 +75,18 @@
     },
     {
       "id": "6",
-      "title": "中国升级全流程对外投资监管 - thep",
-      "policy_axis": -0.5,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "7",
-      "title": "“中国人经济”，有了自己的海外保护法 -",
-      "policy_axis": -0.5,
+      "title": "云天畅想创始人茅晓东：AI算力市场将增十",
+      "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
       "axis_reason": "规则估算"
     },
     {
-      "id": "8",
-      "title": "国常会：加大重点群体就业支持力度 拓展青",
-      "policy_axis": 0.6,
+      "id": "7",
+      "title": "国际能源局势波动，国内算力能源保障政策持",
+      "policy_axis": -0.5,
       "competition_axis": 0.1,
-      "impact_score": 4,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     }
   ],
@@ -102,11 +94,11 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 32,
+      "policy_tailwind": 48,
       "competitive_pressure": -6,
       "capital_sentiment": 10,
-      "regulatory_risk": -20,
-      "overseas_headwind": -8
+      "regulatory_risk": -5,
+      "overseas_headwind": 0
     },
     "interpretation": "规则估算，仅供参考"
   },

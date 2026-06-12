@@ -1,157 +1,160 @@
 {
-  "generated_at": "2026-06-11T01:37:35.452Z",
+  "generated_at": "2026-06-12T01:40:31.217Z",
   "week": "2026-W24",
   "date_range": {
-    "from": "2026-06-04",
-    "to": "2026-06-11"
+    "from": "2026-06-05",
+    "to": "2026-06-12"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "李强签署国务院令 公布《国务院关于对外投资的规定》",
-      "url": "https://fgw.sh.gov.cn/fgw_fzggdt/20260605/fb532093047e439c8dba2d354c7f6b28.html",
-      "source": "上海市发改委",
-      "published": "2026-06-05",
-      "body_snippet": "",
-      "category": "监管"
+      "title": "月之暗面寻找新一轮20亿美元融资？估值较半年前增长6倍 - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLb2drMXlNSDhuUmdCWFpyMHI1d25URUFoM3RJRWRINHlTbUplamZaZjFvLTZTVkJpSGdwWDB3b2Q4ckNJQTExajNnUmk3Qk8zeDROMlc5amxDYnNUMEE?oc=5",
+      "source": "thepaper.cn",
+      "category": "资本",
+      "published": "2026-06-08",
+      "body_snippet": "月之暗面寻找新一轮20亿美元融资？估值较半年前增长6倍 thepaper.cn",
+      "_query_boost": 20
     },
     {
       "id": "raw-002",
-      "title": "刚刚，工信部重磅发布！AI算力新利好 - Sina finance",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ELUw5TzN5b1NRV1RyVU9PcXB5bDl1Z0l5dDR2V3J4b2tzZlhRYkFnckhJX2pDWk9qc3VaMjJXYmgzYVpKLVdoN2YyQ2hNTzVWR014OFB6VFhMcE9uV2VRX0FJLXdIdE15am5iMEk1aDdOdWRWQ0kwNg?oc=5",
-      "source": "Sina finance",
-      "category": "政策",
-      "published": "2026-06-10",
-      "body_snippet": "刚刚，工信部重磅发布！AI算力新利好 Sina finance",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
+      "category": "技术",
+      "published": "2026-06-12",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
       "_query_boost": 0
     },
     {
       "id": "raw-003",
-      "title": "Dell Pro Max 16 Plus Review A More Mobile NVIDIA RTX Pro 5000 Blackwell System",
-      "url": "https://www.servethehome.com/dell-pro-max-16-plus-review-intel-nvidia-rtx-pro-5000-blackwell-system/",
-      "source": "ServeTheHome",
-      "published": "2026-06-10",
-      "body_snippet": "Dell Pro Max 16 Plus Review A More Mobile NVIDIA RTX Pro 5000 Blackwell System / ServeTheHome",
-      "category": "技术"
+      "title": "《国务院关于对外投资的规定》对新能源企业出海的影响简析 - Lexology",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRkx4REpRR285Z2txR20wTkVnWFVGc3dEeUNsbHBINzE4VzBjUGRjSHY0c1FDb3VMWHhZaEd3eWtWRV82U092X1dDWHdTYmlZN0toaEk5UHlWai1lUGd6c2NkaVVsaTQyNFFqRHJQTjZvUGZVWUJOMUlLUWpCeXlwRTZLMU1mWW10WDBV?oc=5",
+      "source": "Lexology",
+      "category": "监管",
+      "published": "2026-06-09",
+      "body_snippet": "《国务院关于对外投资的规定》对新能源企业出海的影响简析 Lexology",
+      "_query_boost": 30
     },
     {
       "id": "raw-004",
-      "title": "从AI Infra到Agentic Infra！华为云极致重构AI算力底座 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FNHUzYzR0Tm4wRDkydHh0Nm44Qjl0T1hUcDg5YW5CWUpiVkpSYUo5QVhlXzg2ZnpwZVZqdDREYjZZczNYQXpEMFJBZFB4NmNSQ3RvOFpHYUpydnJGd3NUUkNReTg1VXM5T0g1dml3?oc=5",
-      "source": "中华网",
-      "category": "技术",
-      "published": "2026-06-07",
-      "body_snippet": "从AI Infra到Agentic Infra！华为云极致重构AI算力底座 中华网",
-      "_query_boost": 0
+      "title": "中信建投：算力等高频高速需求快速增长，电子级PTFE有望大规模应用",
+      "url": "https://36kr.com/newsflashes/3849487518798857?f=rss",
+      "source": "36氪",
+      "published": "2026-06-12",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-005",
-      "title": "英伟达：接到中国订单…重启H200生产 - 朝鮮日報中文版",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNEEzNEw0Mnd6X1FDNmM2MkRmZGpDb0FOc1g3NF9TT0Q0cHpHdjFiWXJEVXExc0pqOXVuMUJpeENpbkhlMjJNMVM0SnNyM2sycXBoWF9lNndfLW1JN1diejZRQm1DbV9zNHkyLXRMQzZRUjNiOXFrc0UwM05NaU1NZXVnNTg1X3UyQjBfZDFrM0hCZw?oc=5",
-      "source": "朝鮮日報中文版",
-      "category": "海外",
-      "published": "2026-06-07",
-      "body_snippet": "英伟达：接到中国订单…重启H200生产 朝鮮日報中文版",
+      "title": "算力网纳入国家“六张网”，如何建得好、用得好、用得起？ - 开放数据中心委员会",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3QTZKVTJUbVE3a1hNZjlTaEUtZ1dIbEhEanc0REdIYUtUekQ5Y3hYblB6MXd3QTR2UGhycXZ6Y0V2encycGJLSE9LNkxmdVhPemxzNndRdWNVR1I1dWFuLU1wYmlQUQ?oc=5",
+      "source": "开放数据中心委员会",
+      "category": "政策",
+      "published": "2026-06-08",
+      "body_snippet": "算力网纳入国家“六张网”，如何建得好、用得好、用得起？ 开放数据中心委员会",
       "_query_boost": 0
     },
     {
       "id": "raw-006",
-      "title": "中国第一、全球第二！HiDream-O1-Image-1.5 登顶文生图榜单，超越谷歌、英伟达",
-      "url": "https://www.qbitai.com/2026/06/434196.html",
-      "source": "量子位",
-      "published": "2026-06-10",
+      "title": "氪星晚报｜百万Token只要几块钱，算力价格还在往下降；OpenAI正考虑大幅下调产品价格；今起儿童旅客可购买铁路旅游计次票，票价为成人旅客的5折",
+      "url": "https://36kr.com/p/3848516305605892?f=rss",
+      "source": "36氪",
+      "published": "2026-06-11",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-007",
-      "title": "甲骨文CFO：公司积压订单达6380亿美元，体现市场对AI基建和云服务的需求旺盛",
-      "url": "https://36kr.com/newsflashes/3848088702260225?f=rss",
-      "source": "36氪",
+      "title": "华为昇腾950PR处理器将推动国产算力进入系统级竞争时代 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9uRVgwNzdVR04weGgtdlBqT0twUVB6ZzVRc0s0cmJXVUpWVmtfNjVvU1l4d2xvWTBoMTVuSC0zOGRYOTF4dGZVLVBLVjlnYmo4OGhrTg?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
       "published": "2026-06-11",
-      "body_snippet": "",
-      "category": "技术"
+      "body_snippet": "华为昇腾950PR处理器将推动国产算力进入系统级竞争时代 虎嗅",
+      "_query_boost": 0
     },
     {
       "id": "raw-008",
-      "title": "两部门：深入实施“人工智能+三品”专项行动，建设一批行业大模型和高质量数据集",
-      "url": "https://36kr.com/newsflashes/3848066038174724?f=rss",
-      "source": "36氪",
-      "published": "2026-06-11",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "国产AI算力里程碑：摩尔线程发布并开源首个全链路自研代码大模型MusaCoder - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBXdVo3WS1KNUt5U0IzVmc3bU5fSlFPUmM0cVpwTUJNMjB0RGJfNDV0Q1h0WEV4TXVUU1E5VUl3ZFdzNFI1NFNLVEVIbXZ6dw?oc=5",
+      "source": "AIBase",
+      "category": "技术",
+      "published": "2026-06-10",
+      "body_snippet": "国产AI算力里程碑：摩尔线程发布并开源首个全链路自研代码大模型MusaCoder AIBase",
+      "_query_boost": 0
     },
     {
       "id": "raw-009",
-      "title": "中国升级全流程对外投资监管 - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MSThENExwX25LMVdRT1hUUkpKaWVNMk9IcVVIdFg0QnRTd21UTS00czY0Z053NWVrQzBvaE1Xd19hSUFaeVU1WkQ2MXJKU21HanI2dl9hSXdhaHpmUXc?oc=5",
-      "source": "thepaper.cn",
-      "category": "监管",
-      "published": "2026-06-08",
-      "body_snippet": "中国升级全流程对外投资监管 thepaper.cn",
-      "_query_boost": 25
+      "title": "以原创性突破打开未来产业发展新空间 - 求是",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16UWNwREpzRi0zOGJEakI0a2JDMmhwcWdOTmQ5RWM3ZjBHUjVMOEdvNFRFbEk1MU5NX1NxT2pySDN4R2E3eWd0dDNEcnU4RWdaRUNac2QzN19JUlJNM0RJTjVicnJsbHNhbENPVURFRUJBYnljYlE?oc=5",
+      "source": "求是",
+      "category": "政策",
+      "published": "2026-06-09",
+      "body_snippet": "以原创性突破打开未来产业发展新空间 求是",
+      "_query_boost": 30
     },
     {
       "id": "raw-010",
-      "title": "“中国人经济”，有了自己的海外保护法 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUU5DM3NSbV91R29hcTExR3NyU1NTWktaTXF3RmFkblJ1dmxvdWtsak9MX0hfdm1sSVkzdlpUc284MnlJU0dhNzVaTUpIMGJaVE41LVI1WHhaYkJDMXlLLTQtdUFndGRZRnh2MEhsbjdQbkw4YWxQZUJJQUc5a2RHZkhVWVMzc083OVlORWFuN3pDbWhWSjZ0N3ZXbE9IZlBVOVZyVGMtZ1ptWUxfTkZPbDVDSQ?oc=5",
-      "source": "新浪财经",
-      "category": "监管",
-      "published": "2026-06-08",
-      "body_snippet": "“中国人经济”，有了自己的海外保护法 新浪财经",
-      "_query_boost": 25
+      "title": "吴清，周末发声！国常会，重磅部署！算力，大利好！重大资产重组，终止！影响一周市场的十大消息 - 证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pUmJnSlNpRVdvWmk0dEdjT3AxRFZ2Z2IxSnkxQjNFbldKTGlZZzJGUDBjdDlhUjN2YnlhNHZadndWZ2Q5Q1JjUUFCTVMzZk9kMjVsd0ZXWnhZVTNL?oc=5",
+      "source": "证券时报",
+      "category": "政策",
+      "published": "2026-06-07",
+      "body_snippet": "吴清，周末发声！国常会，重磅部署！算力，大利好！重大资产重组，终止！影响一周市场的十大消息 证券时报",
+      "_query_boost": 30
     },
     {
       "id": "raw-011",
-      "title": "新闻 - 腾讯新闻",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hcXdxR09QUTk1QWZlaTlETDZzWHQtVzR2RmJXakIwRUstbkxYZVBFOHBPd2VyNFBvMVFuNTlTSDdpMVBpdEo3aGs1T09DNGJXV0pMemxB?oc=5",
-      "source": "腾讯新闻",
+      "title": "未来产业的根子在科技 - 求是",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HM2JCcXJHUWNzSlMwLVAzZ0JDdmg4ZkRtVEZ0MkcwMmZGWjlEamtVSndEWThmZzZGYlZNYy10SXpVWUxfMDJOQ1lXejd2eGxKMllBWlVSbFk2cTFfcmhlV1NvbjRKX0tFbDR1Qk1XaFU3OGVEb2RjdnludGQ?oc=5",
+      "source": "求是",
       "category": "政策",
-      "published": "2026-06-08",
-      "body_snippet": "新闻 腾讯新闻",
-      "_query_boost": 25
+      "published": "2026-06-06",
+      "body_snippet": "未来产业的根子在科技 求是",
+      "_query_boost": 30
     },
     {
       "id": "raw-012",
-      "title": "国常会：加大重点群体就业支持力度 拓展青年就业成才渠道 - 香港電台",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbFhJUHR3ak9sMkg0Q2lfQzZhZWRlNXRwLU9kQ1hQTG9JbzhhR3R4YUd0QjluRlRLd0I0Q0U3dWw5RDlJdGZhUDgxT3dWMkl1V1NhU0xVWE9SX1ZSOVdJM2k1NzVjbWtaQm9lbUNub24yUFlYdF9sb0VvQS1TdVFESDRTWmlxRW5fZUtZ?oc=5",
-      "source": "香港電台",
+      "title": "算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOQ1BfdVQyeFlNakpqaVBWa2xSYWJ6R1IxX1B1ckk3QkhfYV9lcDlma0VndXZOZGhpRFN1WUVRdWFlbllYMEhQRXB1OVpicXQ0VkJjTllCNHVGVHo5Z0duanRaZEpkdjZtX2VaZS1iRWxvM2lva2p2blk1OGtQWG4yU2t2c2tuenZUSG9WZ3dCb21zdlhoMjktZVY1WUU3eHlGM2llMkZrUnduX1IzcFBURDVUVG5ZZEJpOHVqTWRObkZuZ3ltQkYwMl9DcWxjRFR6VUY3S2w5ZWt4OHVSMjBsZ2tSb0tfb28xZ3NlN1pHcU1Za2JOcmZYZTgxTjl6SHE0RHJNRERfeFdvRXlfVkNsX1hmVGg0TEk2LW1rczVsREZjWTRFTDBHY09KRmJ3MDN5UDdCU2w1Yi1VYUZyMllBeHlkbVFwMUJMRWU4aHAyNDJZUVlWM2drRVZiUVRpQXcwbkR2b3lVZ0J1dDZ4RjBfY1pn?oc=5",
+      "source": "新浪财经",
       "category": "政策",
-      "published": "2026-06-05",
-      "body_snippet": "国常会：加大重点群体就业支持力度 拓展青年就业成才渠道 香港電台",
-      "_query_boost": 25
+      "published": "2026-06-11",
+      "body_snippet": "算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 新浪财经",
+      "_query_boost": 0
     },
     {
       "id": "raw-013",
-      "title": "Anthropic 2026年IPO：如何在加拿大投资Anthropic？ - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeWk1RVpRbmdrVXR6VEhNN08yMzhJYXRHTEptNXdfUjA2TncwZ1Z5QnV3YTdReDA1cDFJR3I2SVJCNkRiUVdfTTUzbkVsNzRaZXVKRURnbGxzTTU4cURnMGVNdzVONkdjclN0YzFRdzdCZWhLQ0hTbUM1VVNzUzN2cmZQekE0djViTUplR1g4azM?oc=5",
-      "source": "Moomoo",
-      "category": "海外",
-      "published": "2026-06-10",
-      "body_snippet": "Anthropic 2026年IPO：如何在加拿大投资Anthropic？ Moomoo",
-      "_query_boost": 20
+      "title": "云天畅想创始人茅晓东：AI算力市场将增十万倍达百万亿级，边缘算力将在多场景催生“黄金十年”|连线创始人 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBxR2tyc09IV0lEd3BIWkxFMG5CZEwxcmNFZ25ITzN1SWZ2TURPU3Buc19jaF9admhhZW5oNUcwdE1tOWJYLW83cw?oc=5",
+      "source": "财联社",
+      "category": "政策",
+      "published": "2026-06-11",
+      "body_snippet": "云天畅想创始人茅晓东：AI算力市场将增十万倍达百万亿级，边缘算力将在多场景催生“黄金十年”|连线创始人 财联社",
+      "_query_boost": 0
     },
     {
       "id": "raw-014",
-      "title": "华尔街和AI圈内人真正怎么看 OpenAI 的IPO - Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQLXdHejh5b2wzN051cmZlaGxhYXduTEFwTm5CU2ZlRFRpNGdWMzRZVzNnQXR1TklFSk9SaEJmV1hZcHREd3JvZ0F5S1Ricl82OHBseE93dC13YXNnRmt1SnMxTEF0Qk05NTZpY3BRNW1rR2RMcDJ4OHJELUtDUDN1TXlMeURqU2hfUVpMZU1OY0tNS1NVa1NFc29oWXBHRkp6MFhWWmhPWDNpY3lWR0F3RDZPVmpwNW1jcjhmcHo2STFZclc1UWhYaWNrYjl0Sl9NcTc1YVU3TWdTdnRNSHd5LTVkSHpRSGtEck1vMW13?oc=5",
-      "source": "Yellow.com",
-      "category": "海外",
-      "published": "2026-06-10",
-      "body_snippet": "华尔街和AI圈内人真正怎么看 OpenAI 的IPO Yellow.com",
-      "_query_boost": 20
+      "title": "国际能源局势波动，国内算力能源保障政策持续迭代完善 - 北京研精毕智",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1nSldEb2Z5cWVhdFZCTlhQcnpqTlZoLW9FQmJzdDIwZmJkdkRIV1hxRmE0QzdFaUhvaVRHOE5vZ095ZkNYM2FrbktOeVM?oc=5",
+      "source": "北京研精毕智",
+      "category": "政策",
+      "published": "2026-06-11",
+      "body_snippet": "国际能源局势波动，国内算力能源保障政策持续迭代完善 北京研精毕智",
+      "_query_boost": 0
     },
     {
       "id": "raw-015",
-      "title": "\"gucci 官网电话【微信１００８６０８２】-lv低仿五金[微信１００８６０８２]\" - Results on X | Live Posts &amp; Updates - x.com",
-      "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxQc3dGaWR3NU1ZUlFuYXNjRFVoNkoyenVqOFRGM2MtVHBndkJwSGVkWEJFNzFQbXB1S2pHZ0FaQWRpQ1lUZW1Ka1ZLU3pMS1NWTmwzNV9HV3BEWkhWTXJPZWJCbXhHSkRTS2k2czY5bWh6STNTQ29CZHNrcGcyZjlQbGl4YWxmWUp2b1NuYllYaFF5Q21MdHFRRXRZSDgxZUVsbDU1VDB1UXVOcVFZQmU5Z2lTRFAtQlU5SkZKTTRvQjRvcy1HVlVQR2dmLWhGNnRfNVVKMVR0TS13NmJNZDB5dFVGVkw3elBtYnJSVFNTa09Kb1dSZlhzMm4zZTltbkpvV2RURjQzS1hVOE5QN1JjbnFMMnJVWHgxTzBQdEplcWpFRE0ya2RHZXJzWll6aUw1OV9ZUFluZHpVWF9FeURUVXczMlpRNjhCSExnVFVOaHpQWWhTVUpJcHhZV1VwcTZpLUhEQmNPZlZ4UU1NM21LRVVHVUZDLXpCVXE5YTMzSDlNYkZaSjVZMnZBRnBOUWowSjdtcXFuUWF4MElqR2NUQzBLdUJ2VUxrajJ3cUwwLVA5WEJ1SVlBOE5CM19ZSGdobnZESg?oc=5",
-      "source": "x.com",
-      "category": "监管",
-      "published": "2026-06-09",
-      "body_snippet": "\"gucci 官网电话【微信１００８６０８２】-lv低仿五金[微信１００８６０８２]\" - Results on X | Live Posts & Updates x.com",
-      "_query_boost": 20
+      "title": "小米、张江高科，入股人工智能产业基金 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNWU9YYVZYM0NmUXhld3lkZ1AyOWphZmJFTV81OE85a0xPYXI0OGtkbVBQMlhsSjJWelM1bFVjc2FRbkhCRWh0QWlNOEFlVzhJWmNXR0hHMUVXOGZaQXRWWlpUY25INldfaUY2am9nRHc3T1RGeFFNcWc1RngyVFMyRFdmSzFXd1YxUzVmLS1GMHVPR1B3aElkZUdaZUxudDJIeXF5X3FsQlgza2l4OEVPVXRMM2VoTEkyMEpzX2NmSUxndFUwUGpKUWJucVNEZG1XNFU4UmluZFN6eXpKeHoxdEYzR3p2NFZiYUFoQVA3TVFzUHlBZ2VmZl9aR1VQTFMtZ0IyR0NZbmxzQk9iOUFfZG1pNXd4UHd2S1NQN1hCaHpVSjJ1RUVWdzNMZGRuUQ?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-06-11",
+      "body_snippet": "小米、张江高科，入股人工智能产业基金 新浪财经",
+      "_query_boost": 0
     }
   ]
 }
