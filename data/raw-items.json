@@ -1,15 +1,54 @@
 {
-  "generated_at": "2026-06-12T01:40:31.217Z",
-  "week": "2026-W24",
+  "generated_at": "2026-06-13T02:34:40.739Z",
+  "week": "2026-W25",
   "date_range": {
-    "from": "2026-06-05",
-    "to": "2026-06-12"
+    "from": "2026-06-06",
+    "to": "2026-06-13"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
+      "title": "共筑全栈AI底座 中国移动贵州公司与硅基流动深化战略合作 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOR3JFcFVRQV83TDBDZzNqd0dULU1wdUJFbkJMZmNUTHdfdjBpamhib1gzLXU0WklGVGVYejZuQ0NjZWlTRkYyYkZGLW5JRGNDSUJXSVBvNzU1Uk5BbFo5TVU5Zm1iR0RwSDVIam9vQTFwVFhVazJjc3JSOUJZTnlXbjVB?oc=5",
+      "source": "新华网",
+      "category": "竞品",
+      "published": "2026-06-11",
+      "body_snippet": "共筑全栈AI底座 中国移动贵州公司与硅基流动深化战略合作 新华网",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-002",
+      "title": "李乐成《人民日报》撰文：加快前瞻布局和发展未来产业",
+      "url": "https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_5c1a96a6fc304444b9fd19c9f9ea9b35.html",
+      "source": "工信部-新闻",
+      "published": "2026-06-13",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-003",
+      "title": "华夏时评：“算力网+新通信网”的三重投资逻辑 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUWpRQi11YUJ6VXpPSDlQQ3Z2eHNpNlJlTFhZR010bk1UeFVZWGdaUnNxcE04UUJTbnh0ZGpBSkFxMkhUeGduV3drSlItaGVMTXU3X3NtaVZjV2NfT2NUTkxvODBSclAyUVU5dGgtT3ZuX1lHTUYzM1g5MlR0MVg2bVZicGJwMm9S?oc=5",
+      "source": "搜狐网",
+      "category": "政策",
+      "published": "2026-06-12",
+      "body_snippet": "华夏时评：“算力网+新通信网”的三重投资逻辑 搜狐网",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-004",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
+      "category": "竞品",
+      "published": "2026-06-12",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-005",
       "title": "月之暗面寻找新一轮20亿美元融资？估值较半年前增长6倍 - thepaper.cn",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLb2drMXlNSDhuUmdCWFpyMHI1d25URUFoM3RJRWRINHlTbUplamZaZjFvLTZTVkJpSGdwWDB3b2Q4ckNJQTExajNnUmk3Qk8zeDROMlc5amxDYnNUMEE?oc=5",
       "source": "thepaper.cn",
@@ -19,75 +58,76 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-002",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
-      "category": "技术",
-      "published": "2026-06-12",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-003",
-      "title": "《国务院关于对外投资的规定》对新能源企业出海的影响简析 - Lexology",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRkx4REpRR285Z2txR20wTkVnWFVGc3dEeUNsbHBINzE4VzBjUGRjSHY0c1FDb3VMWHhZaEd3eWtWRV82U092X1dDWHdTYmlZN0toaEk5UHlWai1lUGd6c2NkaVVsaTQyNFFqRHJQTjZvUGZVWUJOMUlLUWpCeXlwRTZLMU1mWW10WDBV?oc=5",
-      "source": "Lexology",
-      "category": "监管",
-      "published": "2026-06-09",
-      "body_snippet": "《国务院关于对外投资的规定》对新能源企业出海的影响简析 Lexology",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-004",
-      "title": "中信建投：算力等高频高速需求快速增长，电子级PTFE有望大规模应用",
-      "url": "https://36kr.com/newsflashes/3849487518798857?f=rss",
-      "source": "36氪",
-      "published": "2026-06-12",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-005",
-      "title": "算力网纳入国家“六张网”，如何建得好、用得好、用得起？ - 开放数据中心委员会",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3QTZKVTJUbVE3a1hNZjlTaEUtZ1dIbEhEanc0REdIYUtUekQ5Y3hYblB6MXd3QTR2UGhycXZ6Y0V2encycGJLSE9LNkxmdVhPemxzNndRdWNVR1I1dWFuLU1wYmlQUQ?oc=5",
-      "source": "开放数据中心委员会",
-      "category": "政策",
-      "published": "2026-06-08",
-      "body_snippet": "算力网纳入国家“六张网”，如何建得好、用得好、用得起？ 开放数据中心委员会",
-      "_query_boost": 0
-    },
-    {
       "id": "raw-006",
-      "title": "氪星晚报｜百万Token只要几块钱，算力价格还在往下降；OpenAI正考虑大幅下调产品价格；今起儿童旅客可购买铁路旅游计次票，票价为成人旅客的5折",
-      "url": "https://36kr.com/p/3848516305605892?f=rss",
-      "source": "36氪",
-      "published": "2026-06-11",
+      "title": "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
+      "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
+      "source": "TechCrunch",
+      "published": "2026-06-12",
       "body_snippet": "",
-      "category": "技术"
+      "category": "资本"
     },
     {
       "id": "raw-007",
-      "title": "华为昇腾950PR处理器将推动国产算力进入系统级竞争时代 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9uRVgwNzdVR04weGgtdlBqT0twUVB6ZzVRc0s0cmJXVUpWVmtfNjVvU1l4d2xvWTBoMTVuSC0zOGRYOTF4dGZVLVBLVjlnYmo4OGhrTg?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-06-11",
-      "body_snippet": "华为昇腾950PR处理器将推动国产算力进入系统级竞争时代 虎嗅",
-      "_query_boost": 0
+      "title": "工信部印发“人工智能+信息通信”创新发展实施意见 - 集微网",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE94LWpQRHd0dTR0VEtxVjVQOHhjd1JZZmZscWhVLVAtcmJFcFJsbGY1TGRwSkFnTFdyLWVuSl96TlRtVE9OX3RNLTZn?oc=5",
+      "source": "集微网",
+      "category": "政策",
+      "published": "2026-06-12",
+      "body_snippet": "工信部印发“人工智能+信息通信”创新发展实施意见 集微网",
+      "_query_boost": 30
     },
     {
       "id": "raw-008",
-      "title": "国产AI算力里程碑：摩尔线程发布并开源首个全链路自研代码大模型MusaCoder - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBXdVo3WS1KNUt5U0IzVmc3bU5fSlFPUmM0cVpwTUJNMjB0RGJfNDV0Q1h0WEV4TXVUU1E5VUl3ZFdzNFI1NFNLVEVIbXZ6dw?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-06-10",
-      "body_snippet": "国产AI算力里程碑：摩尔线程发布并开源首个全链路自研代码大模型MusaCoder AIBase",
-      "_query_boost": 0
+      "title": "工信部发文！城域实现1毫秒算力时延，光电混合组网开启规模化试验｜创业板早参 - 手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QUGZlUWdIZTdfQmFhMkZ3d2NwcE5ZbGxIekthcGNqaEc5S0xGZHY4ZGpMSEkzWk5FT0hOenU2bmJLNU1NbzQ0aTFVV09scVlld25mTkNrMzNndW5Od2Rlc0N3?oc=5",
+      "source": "手机网易网",
+      "category": "政策",
+      "published": "2026-06-11",
+      "body_snippet": "工信部发文！城域实现1毫秒算力时延，光电混合组网开启规模化试验｜创业板早参 手机网易网",
+      "_query_boost": 25
     },
     {
       "id": "raw-009",
+      "title": "英伟达据报向中国客户推销Vera处理器 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxQVlUQ2lZQnpSUE1Qd3dYQ0hKZ1htdXRJR2FKdVY4V2s0Z0xWQXl2UlBxTVA2Z0k3TjRmLTdFNjdrbUhoelU2Q3NKZ1ZKcjg2NXB6WXZvcjU5TDNKaWVrS1RKRlFrbHlUUFE?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-06-12",
+      "body_snippet": "英伟达据报向中国客户推销Vera处理器 联合早报",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-010",
+      "title": "欧盟新法案祭出“四档分级”欲赶走美国云巨头| China Business News - PressReader",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYzlRQTE3WnRRT04ydTN0VlJCdzEwSVdRYmJ2YlZlcThNX25vM0RMMkRqNWtzMlFRejZPNUJQcEl4eTBQaGRTT2F1S213RkFTWXEwRDIyQUJMQzVPcTNSZnpBdm1NSlg3Y2c3Z1luUTRUUGEzblF1ZUlWMDZjQ1lFMGFrclg?oc=5",
+      "source": "PressReader",
+      "category": "海外",
+      "published": "2026-06-08",
+      "body_snippet": "欧盟新法案祭出“四档分级”欲赶走美国云巨头| China Business News PressReader",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-011",
+      "title": "聚力“六张网”建设！中国中冶以地下管网筑牢城市基建“核心底座” - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NOFd3ZFF5X3ZTWGk4OWlMd1JsdGRmYjhkZGhwc1p1akZCUUhzYUhpaTcyNWpfR0NKa1JYVVVQaW8zTVdvcC1JRDU1RWlyZzllQURnWnNualJYME1pUFE?oc=5",
+      "source": "thepaper.cn",
+      "category": "政策",
+      "published": "2026-06-10",
+      "body_snippet": "聚力“六张网”建设！中国中冶以地下管网筑牢城市基建“核心底座” thepaper.cn",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-012",
+      "title": "Behind the Claude 5 rumors, Anthropic is turning model releases into IPO language - Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JZ1puVjhmdmVmbnJ5WXJqU3ptVGRYRng2eDhGdXhNMlRhbm54VWwxVDJSNkF3Nm5SUVBfRTN6R0EwOV9qd0RDZlhMNy03clEzcWpPSDlfZFlGTHhJc3pHTUFURzU?oc=5",
+      "source": "Binance",
+      "category": "海外",
+      "published": "2026-06-09",
+      "body_snippet": "Behind the Claude 5 rumors, Anthropic is turning model releases into IPO language Binance",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-013",
       "title": "以原创性突破打开未来产业发展新空间 - 求是",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16UWNwREpzRi0zOGJEakI0a2JDMmhwcWdOTmQ5RWM3ZjBHUjVMOEdvNFRFbEk1MU5NX1NxT2pySDN4R2E3eWd0dDNEcnU4RWdaRUNac2QzN19JUlJNM0RJTjVicnJsbHNhbENPVURFRUJBYnljYlE?oc=5",
       "source": "求是",
@@ -97,7 +137,7 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-010",
+      "id": "raw-014",
       "title": "吴清，周末发声！国常会，重磅部署！算力，大利好！重大资产重组，终止！影响一周市场的十大消息 - 证券时报",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pUmJnSlNpRVdvWmk0dEdjT3AxRFZ2Z2IxSnkxQjNFbldKTGlZZzJGUDBjdDlhUjN2YnlhNHZadndWZ2Q5Q1JjUUFCTVMzZk9kMjVsd0ZXWnhZVTNL?oc=5",
       "source": "证券时报",
@@ -107,54 +147,13 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-011",
-      "title": "未来产业的根子在科技 - 求是",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HM2JCcXJHUWNzSlMwLVAzZ0JDdmg4ZkRtVEZ0MkcwMmZGWjlEamtVSndEWThmZzZGYlZNYy10SXpVWUxfMDJOQ1lXejd2eGxKMllBWlVSbFk2cTFfcmhlV1NvbjRKX0tFbDR1Qk1XaFU3OGVEb2RjdnludGQ?oc=5",
-      "source": "求是",
-      "category": "政策",
-      "published": "2026-06-06",
-      "body_snippet": "未来产业的根子在科技 求是",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-012",
-      "title": "算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOQ1BfdVQyeFlNakpqaVBWa2xSYWJ6R1IxX1B1ckk3QkhfYV9lcDlma0VndXZOZGhpRFN1WUVRdWFlbllYMEhQRXB1OVpicXQ0VkJjTllCNHVGVHo5Z0duanRaZEpkdjZtX2VaZS1iRWxvM2lva2p2blk1OGtQWG4yU2t2c2tuenZUSG9WZ3dCb21zdlhoMjktZVY1WUU3eHlGM2llMkZrUnduX1IzcFBURDVUVG5ZZEJpOHVqTWRObkZuZ3ltQkYwMl9DcWxjRFR6VUY3S2w5ZWt4OHVSMjBsZ2tSb0tfb28xZ3NlN1pHcU1Za2JOcmZYZTgxTjl6SHE0RHJNRERfeFdvRXlfVkNsX1hmVGg0TEk2LW1rczVsREZjWTRFTDBHY09KRmJ3MDN5UDdCU2w1Yi1VYUZyMllBeHlkbVFwMUJMRWU4aHAyNDJZUVlWM2drRVZiUVRpQXcwbkR2b3lVZ0J1dDZ4RjBfY1pn?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-06-11",
-      "body_snippet": "算力狂飙的瓶颈不止电量：电网风险正突破认知|电力|系统|规划|新能源|负荷_手机新浪网 新浪财经",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-013",
-      "title": "云天畅想创始人茅晓东：AI算力市场将增十万倍达百万亿级，边缘算力将在多场景催生“黄金十年”|连线创始人 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBxR2tyc09IV0lEd3BIWkxFMG5CZEwxcmNFZ25ITzN1SWZ2TURPU3Buc19jaF9admhhZW5oNUcwdE1tOWJYLW83cw?oc=5",
-      "source": "财联社",
-      "category": "政策",
-      "published": "2026-06-11",
-      "body_snippet": "云天畅想创始人茅晓东：AI算力市场将增十万倍达百万亿级，边缘算力将在多场景催生“黄金十年”|连线创始人 财联社",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-014",
-      "title": "国际能源局势波动，国内算力能源保障政策持续迭代完善 - 北京研精毕智",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1nSldEb2Z5cWVhdFZCTlhQcnpqTlZoLW9FQmJzdDIwZmJkdkRIV1hxRmE0QzdFaUhvaVRHOE5vZ095ZkNYM2FrbktOeVM?oc=5",
-      "source": "北京研精毕智",
-      "category": "政策",
-      "published": "2026-06-11",
-      "body_snippet": "国际能源局势波动，国内算力能源保障政策持续迭代完善 北京研精毕智",
-      "_query_boost": 0
-    },
-    {
       "id": "raw-015",
-      "title": "小米、张江高科，入股人工智能产业基金 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNWU9YYVZYM0NmUXhld3lkZ1AyOWphZmJFTV81OE85a0xPYXI0OGtkbVBQMlhsSjJWelM1bFVjc2FRbkhCRWh0QWlNOEFlVzhJWmNXR0hHMUVXOGZaQXRWWlpUY25INldfaUY2am9nRHc3T1RGeFFNcWc1RngyVFMyRFdmSzFXd1YxUzVmLS1GMHVPR1B3aElkZUdaZUxudDJIeXF5X3FsQlgza2l4OEVPVXRMM2VoTEkyMEpzX2NmSUxndFUwUGpKUWJucVNEZG1XNFU4UmluZFN6eXpKeHoxdEYzR3p2NFZiYUFoQVA3TVFzUHlBZ2VmZl9aR1VQTFMtZ0IyR0NZbmxzQk9iOUFfZG1pNXd4UHd2S1NQN1hCaHpVSjJ1RUVWdzNMZGRuUQ?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-06-11",
-      "body_snippet": "小米、张江高科，入股人工智能产业基金 新浪财经",
-      "_query_boost": 0
+      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+      "url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "source": "NVIDIA Blog",
+      "published": "2026-06-12",
+      "body_snippet": "",
+      "category": "技术"
     }
   ]
 }
