@@ -1,6 +1,47 @@
 {
-  "updated_at": "2026-06-13T05:25:27.524Z",
+  "updated_at": "2026-06-14T01:40:02.679Z",
   "days": [
+    {
+      "date": "2026-06-14",
+      "mainline": "工信部等联合印发AI+信息通信融合意见，明确边缘算力纳入国家信息基础设施，叠加国常会要求前瞻布局未来产业，政策东风强劲；同时金山云AI算力提价15%-50%，凸显边缘分布式方案成本优势。",
+      "signal_summary": {
+        "🏛️": 4,
+        "📜": 0,
+        "⚔️": 2,
+        "💰": 0,
+        "🌏": 0,
+        "🔬": 0
+      },
+      "wind_indicators": {
+        "policy_heat": 5,
+        "competitor_heat": 3,
+        "capital_heat": 1,
+        "overseas_heat": 2,
+        "overall_sentiment": "升温",
+        "summary": "政策集中释放边缘算力利好，竞争对手提价反而强化PPIO性价比叙事，整体风向明显升温。"
+      },
+      "ppio_index": {
+        "score": 66,
+        "delta": 11,
+        "components": {
+          "policy_tailwind": 35,
+          "competitive_pressure": -18,
+          "capital_sentiment": 12,
+          "regulatory_risk": -8,
+          "overseas_headwind": -5
+        },
+        "interpretation": "国常会与部委意见形成政策合力，边缘算力地位空前提升，金山云提价使PPIO价值凸显，指数跃升。"
+      },
+      "item_count": {
+        "total": 13,
+        "attend": 6,
+        "silent": 7
+      },
+      "competitor_updates": [
+        "金山云：AI算力产品服务价格上调约15%-50%，部分客户寻求边缘替代方案",
+        "无问芯穹：完成7亿融资，构建企业级智能体服务平台，与PPIO部分产品形成正面竞争"
+      ]
+    },
     {
       "date": "2026-06-13",
       "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
