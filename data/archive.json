@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-06-15T01:40:44.734Z",
+  "updated_at": "2026-06-16T01:44:22.710Z",
   "days": [
+    {
+      "date": "2026-06-16",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "signal_summary": {
+        "🏛️": 4,
+        "📜": 0,
+        "⚔️": 2,
+        "💰": 0,
+        "🌏": 0,
+        "🔬": 7
+      },
+      "wind_indicators": {
+        "policy_heat": 4,
+        "competitor_heat": 4,
+        "capital_heat": 2,
+        "overseas_heat": 2,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
+      },
+      "ppio_index": {
+        "score": 55,
+        "delta": 0,
+        "components": {
+          "policy_tailwind": 32,
+          "competitive_pressure": -12,
+          "capital_sentiment": 0,
+          "regulatory_risk": 0,
+          "overseas_headwind": 0
+        },
+        "interpretation": "规则估算，仅供参考"
+      },
+      "item_count": {
+        "total": 14,
+        "attend": 7,
+        "silent": 7
+      },
+      "competitor_updates": []
+    },
     {
       "date": "2026-06-15",
       "mainline": "算力网络建设目标量化落地与头部云厂商提价，边缘算力基建获政策强驱动，同时客户外溢窗口出现；但供给紧张带来的成本压力不容忽视。",

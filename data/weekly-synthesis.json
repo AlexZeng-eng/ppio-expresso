@@ -1,99 +1,108 @@
 {
-  "generated_at": "2026-06-15T01:40:44.635Z",
-  "date": "2026-06-15",
-  "date_label": "2026-06-15",
-  "mainline": "算力网络建设目标量化落地与头部云厂商提价，边缘算力基建获政策强驱动，同时客户外溢窗口出现；但供给紧张带来的成本压力不容忽视。",
+  "generated_at": "2026-06-16T01:44:22.611Z",
+  "date": "2026-06-16",
+  "date_label": "2026-06-16",
+  "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 3,
+    "🏛️": 4,
     "📜": 0,
-    "⚔️": 1,
-    "💰": 3,
+    "⚔️": 2,
+    "💰": 0,
     "🌏": 0,
-    "🔬": 2
+    "🔬": 7
   },
   "speed_read": {
     "positive": [
-      "工信部明确2028年城域算力1ms时延圈覆盖率≥75%，直接催生边缘节点建设需求",
-      "超智融合算力一张网政策鼓励算力池化与边缘接入，PPIO平台价值凸显",
-      "国际能源波动下，国内算力能源保障政策完善，降低分布式节点运营风险"
+      "未来产业政策加码有望带来新的边缘算力应用场景，可嵌入国家级未来产业示范项目，提升公司战略地位。",
+      "运营商与AI Infra公司合作升温，验证了算力服务市场的高速增长逻辑，利于行业估值。",
+      "运营商大力推广Token套餐有助于教育市场、拉低AI推理使用门槛，为行业带来更多客户增量。"
     ],
     "risk": [
-      "金山云AI算力提价15%-50%，折射全市场算力供给紧张，上游资源成本可能传导"
+      "政策叙事偏重中央枢纽算力，边缘云若未被纳入优先方向，可能在资源竞争中被动，港股IPO招股书需提前构建政策契合性故事。",
+      "竞品与运营商深度绑定，可能借助运营商网络和机房资源快速铺开边缘节点，与PPIO的边缘云模式形成正面竞争。",
+      "运营商利用网络、机房和计费优势切入推理算力零售，可能对独立边缘云平台形成降维打击，尤其在价格敏感型客户群中竞争压力陡增。"
     ]
   },
   "wind_indicators": {
-    "policy_heat": 5,
-    "competitor_heat": 2,
-    "capital_heat": 3,
-    "overseas_heat": 1,
-    "overall_sentiment": "升温",
-    "summary": "政策东风叠加竞品提价带来结构性机会，但算力供需失衡暗藏成本隐忧。"
+    "policy_heat": 4,
+    "competitor_heat": 4,
+    "capital_heat": 2,
+    "overseas_heat": 2,
+    "overall_sentiment": "平稳",
+    "summary": "规则估算，AI合成不可用时的占位数据。"
   },
-  "competitor_updates": [
-    "金山云：上调AI算力产品服务价格15%-50%，反映AI算力需求旺盛与议价能力增强，中小客户或因成本压力考虑替代方案。"
-  ],
+  "competitor_updates": [],
   "item_axes": [
     {
       "id": "1",
-      "title": "中国工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75%",
-      "policy_axis": 0.9,
+      "title": "李乐成《人民日报》撰文：加快前瞻布局和发",
+      "policy_axis": 0.6,
       "competition_axis": 0.1,
-      "impact_score": 5,
-      "axis_reason": "硬性指标直指边缘低时延覆盖，对PPIO分布式边缘云构成重大政策利好"
+      "impact_score": 4,
+      "axis_reason": "规则估算"
     },
     {
       "id": "2",
-      "title": "超智融合 织就国家算力一张网",
-      "policy_axis": 0.8,
-      "competition_axis": 0.2,
-      "impact_score": 4,
-      "axis_reason": "算力池化与边缘接入导向为PPIO参与全国算力网打开大门"
+      "title": "共筑全栈AI底座 中国移动贵州公司与硅基",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 3,
+      "axis_reason": "规则估算"
     },
     {
       "id": "3",
-      "title": "长鑫科技科创板IPO注册生效 金山云上调AI算力相关产品服务价格约15%-50%",
-      "policy_axis": -0.1,
+      "title": "三大运营商齐推Token套餐 AI算力“",
+      "policy_axis": 0,
       "competition_axis": 0.7,
-      "impact_score": 4,
-      "axis_reason": "竞品提价或引发客户外溢，但折射市场供给紧张与头部云厂商竞争力强化"
+      "impact_score": 3,
+      "axis_reason": "规则估算"
     },
     {
       "id": "4",
-      "title": "国际能源局势波动，国内算力能源保障政策持续迭代完善",
-      "policy_axis": 0.7,
-      "competition_axis": 0,
-      "impact_score": 3,
-      "axis_reason": "能源保障升级降低边缘节点供电风险，长期利好分布式基础设施"
+      "title": "工信部印发“人工智能+信息通信”创新发展",
+      "policy_axis": 0.6,
+      "competition_axis": 0.7,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "5",
+      "title": "工信部发文！城域实现1毫秒算力时延，光电",
+      "policy_axis": 0.6,
+      "competition_axis": 0.7,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "6",
+      "title": "#一图看懂基建六张网#央视梳理的国家六大",
+      "policy_axis": -0.5,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "7",
+      "title": "NVIDIA Blackwell Lea",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     }
   ],
   "ppio_index": {
-    "score": 72,
-    "delta": 6,
+    "score": 55,
+    "delta": 0,
     "components": {
-      "policy_tailwind": 40,
-      "competitive_pressure": -15,
-      "capital_sentiment": 15,
-      "regulatory_risk": -5,
-      "overseas_headwind": -5
+      "policy_tailwind": 32,
+      "competitive_pressure": -12,
+      "capital_sentiment": 0,
+      "regulatory_risk": 0,
+      "overseas_headwind": 0
     },
-    "interpretation": "政策大礼包与竞品提价驱动指数上行，但算力成本潜在传导压制部分涨幅。"
+    "interpretation": "规则估算，仅供参考"
   },
-  "policy_momentum": [
-    {
-      "thread": "算力网络建设",
-      "last_signal": "算力枢纽布局与互联互通",
-      "this_signal": "工信部定标2028年城域1ms时延覆盖率≥75%",
-      "level_delta": "升级",
-      "interpretation": "从宏观布局到具体KPI，边缘算力需求明确加速，PPIO战略窗口开启。"
-    },
-    {
-      "thread": "算力能源保障",
-      "last_signal": "地方绿电交易试点",
-      "this_signal": "算力能源保障政策持续迭代完善",
-      "level_delta": "升级",
-      "interpretation": "供电优先级与绿电政策夯实运营底座，降低分布式节点风险。"
-    }
-  ],
+  "policy_momentum": [],
   "expected_but_absent": [],
-  "_generated_by": "deepseek-v4-pro"
+  "_generated_by": "template"
 }
