@@ -1,108 +1,114 @@
 {
-  "generated_at": "2026-06-16T01:44:22.611Z",
-  "date": "2026-06-16",
-  "date_label": "2026-06-16",
-  "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+  "generated_at": "2026-06-17T01:37:23.370Z",
+  "date": "2026-06-17",
+  "date_label": "2026-06-17",
+  "mainline": "工信部发文力推边缘计算与AI深度适配，运营商加码推理服务合作，算力涨价凸显供给紧缺——政策撑腰但竞速白热化。",
   "signal_summary": {
-    "🏛️": 4,
+    "🏛️": 2,
     "📜": 0,
-    "⚔️": 2,
+    "⚔️": 4,
     "💰": 0,
     "🌏": 0,
-    "🔬": 7
+    "🔬": 0
   },
   "speed_read": {
     "positive": [
-      "未来产业政策加码有望带来新的边缘算力应用场景，可嵌入国家级未来产业示范项目，提升公司战略地位。",
-      "运营商与AI Infra公司合作升温，验证了算力服务市场的高速增长逻辑，利于行业估值。",
-      "运营商大力推广Token套餐有助于教育市场、拉低AI推理使用门槛，为行业带来更多客户增量。"
+      "工信部印发“人工智能+信息通信”实施意见，明确推动边缘计算与算力网络深度适配，直接利好PPIO边缘云部署。",
+      "李乐成在《人民日报》强调加快算力基础设施和人工智能前瞻布局，强化自主可控生态，为边缘算力供给释放政策红利。",
+      "金山云AI算力涨价15%-50%，印证算力资源严重供不应求，PPIO分布式共享边缘算力成本优势凸显，有望吸纳外溢需求。"
     ],
     "risk": [
-      "政策叙事偏重中央枢纽算力，边缘云若未被纳入优先方向，可能在资源竞争中被动，港股IPO招股书需提前构建政策契合性故事。",
-      "竞品与运营商深度绑定，可能借助运营商网络和机房资源快速铺开边缘节点，与PPIO的边缘云模式形成正面竞争。",
-      "运营商利用网络、机房和计费优势切入推理算力零售，可能对独立边缘云平台形成降维打击，尤其在价格敏感型客户群中竞争压力陡增。"
+      "中国移动联合硅基流动共建“全栈AI底座”，深度整合边缘计算节点与推理引擎，直接切入PPIO目标政企市场，竞合边界承压。",
+      "三大运营商齐推Token套餐，算力消费化趋势下运营商掌握分发入口，独立边缘算力平台面临渠道挤压和客户分流风险。"
     ]
   },
   "wind_indicators": {
     "policy_heat": 4,
     "competitor_heat": 4,
-    "capital_heat": 2,
+    "capital_heat": 3,
     "overseas_heat": 2,
-    "overall_sentiment": "平稳",
-    "summary": "规则估算，AI合成不可用时的占位数据。"
+    "overall_sentiment": "升温",
+    "summary": "政策端持续释放边缘计算利好，但运营商与推理厂商密集结盟使竞争急剧升温，算力涨价则强化了供给端价值叙事。"
   },
-  "competitor_updates": [],
+  "competitor_updates": [
+    "硅基流动：与中国移动贵州公司深化合作，共建全栈AI底座，整合运营商边缘节点与推理引擎，面向政企客户提供低延迟高并发推理服务。",
+    "三大运营商：相继推出面向终端用户的Token套餐，将AI算力以标准化商品售卖给大众市场，加速推理型边缘节点大规模部署。",
+    "金山云：AI算力产品价格上调15%-50%，称全球AI算力需求攀升导致成本上涨，反映云市场算力资源紧缺持续加剧。"
+  ],
   "item_axes": [
     {
       "id": "1",
-      "title": "李乐成《人民日报》撰文：加快前瞻布局和发",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
+      "title": "李乐成《人民日报》撰文：加快前瞻布局和发展",
+      "policy_axis": 0.7,
+      "competition_axis": 0,
       "impact_score": 4,
-      "axis_reason": "规则估算"
+      "axis_reason": "工信部高层强调算力基础设施自主可控，政策性利好边缘算力供给。"
     },
     {
       "id": "2",
-      "title": "共筑全栈AI底座 中国移动贵州公司与硅基",
+      "title": "共筑全栈AI底座 中国移动贵州公司与硅基流",
       "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "规则估算"
+      "competition_axis": 0.8,
+      "impact_score": 4,
+      "axis_reason": "运营商边缘节点+推理引擎组合直击PPIO政企市场，竞争威胁显著上升。"
     },
     {
       "id": "3",
-      "title": "三大运营商齐推Token套餐 AI算力“",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”",
       "policy_axis": 0,
       "competition_axis": 0.7,
       "impact_score": 3,
-      "axis_reason": "规则估算"
+      "axis_reason": "消费级Token套餐推动边缘节点需求但强化运营商分发地位，挤压独立平台。"
     },
     {
       "id": "4",
-      "title": "工信部印发“人工智能+信息通信”创新发展",
-      "policy_axis": 0.6,
-      "competition_axis": 0.7,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
+      "title": "工信部印发“人工智能+信息通信”创新发展实",
+      "policy_axis": 0.9,
+      "competition_axis": 0,
+      "impact_score": 5,
+      "axis_reason": "正式文件明确边缘计算与AI大模型深度适配，政策红利直接落地。"
     },
     {
       "id": "5",
-      "title": "工信部发文！城域实现1毫秒算力时延，光电",
-      "policy_axis": 0.6,
-      "competition_axis": 0.7,
+      "title": "金山云AI算力产品涨价15%-50%，称全球AI算",
+      "policy_axis": 0,
+      "competition_axis": -0.3,
       "impact_score": 4,
-      "axis_reason": "规则估算"
+      "axis_reason": "大厂涨价反映算力紧缺，倒逼客户寻求替代方案，PPIO性价比优势提升。"
     },
     {
       "id": "6",
-      "title": "#一图看懂基建六张网#央视梳理的国家六大",
-      "policy_axis": -0.5,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "7",
-      "title": "NVIDIA Blackwell Lea",
+      "title": "金山云：AI算力相关产品服务上调约15%-50%",
       "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
+      "competition_axis": -0.3,
+      "impact_score": 3,
+      "axis_reason": "连续涨价强化算力供不应求认知，有利于边缘算力平台市场教育。"
     }
   ],
   "ppio_index": {
-    "score": 55,
-    "delta": 0,
+    "score": 62,
+    "delta": 7,
     "components": {
-      "policy_tailwind": 32,
-      "competitive_pressure": -12,
-      "capital_sentiment": 0,
-      "regulatory_risk": 0,
-      "overseas_headwind": 0
+      "policy_tailwind": 30,
+      "competitive_pressure": -20,
+      "capital_sentiment": 10,
+      "regulatory_risk": -5,
+      "overseas_headwind": -3
     },
-    "interpretation": "规则估算，仅供参考"
+    "interpretation": "工信部正式文件提供政策强心剂，但运营商竞合升级拉高竞争压力，算力涨价支撑边缘供给价值，指数小幅上行。"
   },
-  "policy_momentum": [],
-  "expected_but_absent": [],
-  "_generated_by": "template"
+  "policy_momentum": [
+    {
+      "thread": "算力基础设施",
+      "last_signal": "李乐成人民日报撰文",
+      "this_signal": "工信部印发实施意见",
+      "level_delta": "升级",
+      "interpretation": "从领导层文章到部门正式发文，边缘与AI融合获明确背书，PPIO部署环境改善。"
+    }
+  ],
+  "expected_but_absent": [
+    "人工智能法草案征求意见稿",
+    "VIE备案新规细则"
+  ],
+  "_generated_by": "deepseek-v4-pro"
 }

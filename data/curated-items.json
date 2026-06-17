@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-16T01:43:13.198Z",
+  "generated_at": "2026-06-17T01:36:27.278Z",
   "week": "2026-W25",
   "classifier": "deepseek-v4-pro",
   "total_raw": 15,
-  "total_curated": 14,
-  "attend_count": 7,
-  "silent_count": 7,
+  "total_curated": 12,
+  "attend_count": 6,
+  "silent_count": 6,
   "items": [
     {
       "id": "raw-1",
       "title": "李乐成《人民日报》撰文：加快前瞻布局和发展未来产业",
       "url": "https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_5c1a96a6fc304444b9fd19c9f9ea9b35.html",
       "source": "工信部-新闻",
-      "published": "2026-06-16",
+      "published": "2026-06-17",
       "body_snippet": "",
       "category": "政策",
       "lane": "attend",
@@ -23,10 +23,10 @@
       "compass_triggered": [
         "c1"
       ],
-      "summary_cn": "工信部党组书记李乐成在《人民日报》发表署名文章，系统阐述加快前瞻布局和发展未来产业的思路，强调要强化顶层设计、打造标志性产品、壮大产业主体、丰富应用场景。文章释放了工信部将未来产业作为重点培育方向的明确信号，人形机器人、脑机接口、6G、原子级制造、量子科技等被点名，预示着相关配套政策与资源倾斜将加速落地。\n\n对PPIO而言，未来产业普遍依赖大规模分布式算力支持，政策重心向这些新赛道转移，可能催生新的边缘侧算力需求场景。但需警惕政策资源过度集中于中央主导的算力枢纽，边缘云在“未来产业”叙事中的地位若未被明确提及，可能在顶层设计中处于配角位置，影响后续项目申报与政府合作机会。港股IPO进程中，此类政策基调可用于强化招股书中“国家战略方向契合”的论述。",
+      "summary_cn": "工信部相关负责人李乐成在《人民日报》发文，强调要加快前瞻布局和发展未来产业，重点包括新一代人工智能、下一代网络、算力基础设施等。文章提出要加强政策引导，统筹跨周期与逆周期调节，构建自主可控的产业生态。此文释放出部委层面对算力及相关未来产业的持续高规格支持信号，有望为分布式算力、边缘云等纳入“新基建”重点方向提供政策背书。\n对PPIO而言，高层定调进一步明确边缘算力作为未来产业关键一环的地位，有利于公司在港股IPO路演中强化“国家鼓励的新一代信息基础设施”叙事，同时在争取地方政府的算力网络建设试点、绿色电力指标、土地及能耗等资源方面获得更多政策红利。但需注意，随着政策密集出台，更多国资背景企业与运营商可能加速涌入边缘云赛道，竞争烈度将提升。",
       "ppio_signal": {
-        "positive": "未来产业政策加码有望带来新的边缘算力应用场景，可嵌入国家级未来产业示范项目，提升公司战略地位。",
-        "risk": "政策叙事偏重中央枢纽算力，边缘云若未被纳入优先方向，可能在资源竞争中被动，港股IPO招股书需提前构建政策契合性故事。"
+        "positive": "部委级定调明确算力及未来产业战略地位，为PPIO港股IPO及与地方政府合作获取政策资源打开空间。",
+        "risk": "政策利好可能吸引更多央企、运营商等重资产巨头切入分布式算力市场，压缩独立平台的生存空间。"
       }
     },
     {
@@ -42,14 +42,14 @@
       "signals": [
         "⚔️"
       ],
-      "is_deep_read": false,
+      "is_deep_read": true,
       "compass_triggered": [
         "c2"
       ],
-      "summary_cn": "中国移动贵州公司与硅基流动达成战略合作，共同打造全栈AI底座。硅基流动作为AI Infra/MaaS领域明星创业公司，在模型部署、算力调度方面能力突出，此次与运营商省级公司深度绑定，意味着其在运营商算力网络中的渗透进一步加深，可能获得大量的政企客户资源和机房基础设施支持。\n\n硅基流动是PPIO在分布式算力服务和AI推理部署环节的直接竞品，其与运营商的绑定将显著增强其资源壁垒和渠道能力，可能挤压PPIO在类似政企项目中的份额。需密切关注其是否借助运营商资源切入边缘算力节点布局，以及运营商是否借此自建边缘AI底座，从而绕开第三方平台。",
+      "summary_cn": "中国移动贵州公司与AI推理加速服务商硅基流动宣布深化战略合作，双方将共建“全栈AI底座”，整合运营商网络、边缘计算节点与硅基流动的推理引擎及模型服务能力，面向政企客户提供低延迟、高并发的AI推理服务。此举是运营商从传统带宽销售向AI算力服务转型的典型样本，通过与其省公司的深度绑定，硅基流动得以快速渗透区域市场，并可能在边缘侧形成“网络+算力+模型”闭环。\n对PPIO而言，本次合作直接冲击其边缘云业务腹地：一方面，中国移动作为全国性运营商，拥有无可比拟的机房、光缆及政企客户关系，一旦其将AI推理服务下沉至区县级节点，将对专注于分布式算力的PPIO构成明显的资源挤出效应；另一方面，硅基流动在推理层面的技术积累叠加运营商网络能力，可能打造出比PPIO更具性价比的边缘推理方案，尤其在政务、工业互联网等领域形成较强的先发优势。",
       "ppio_signal": {
-        "positive": "运营商与AI Infra公司合作升温，验证了算力服务市场的高速增长逻辑，利于行业估值。",
-        "risk": "竞品与运营商深度绑定，可能借助运营商网络和机房资源快速铺开边缘节点，与PPIO的边缘云模式形成正面竞争。"
+        "positive": "运营商带动AI推理市场走向普及，客观上扩大了整体边缘算力需求，为PPIO提供了更多潜在客户与场景示范。",
+        "risk": "运营商+AI推理引擎的捆绑模式可能蚕食PPIO在政企市场的份额，尤其在低时延推理领域形成直接替代性竞争。"
       }
     },
     {
@@ -58,7 +58,7 @@
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
       "category": "竞品",
-      "published": "2026-06-15",
+      "published": "2026-06-16",
       "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
       "_query_boost": 15,
       "lane": "attend",
@@ -69,11 +69,31 @@
       "compass_triggered": [
         "c2"
       ],
-      "summary_cn": "三大运营商相继推出AI算力Token套餐，将算力服务标准化、消费品化，降低企业和开发者使用AI推理的门槛。此举表明运营商正加速从资源批发商向AI算力零售商转型，依托其网络覆盖、计费系统和庞大客户群，意图抢占推理算力市场。\n\n运营商凭借网络和机房分布天然具备靠近用户的边缘资源优势，其Token套餐若结合边缘节点提供低时延推理服务，将直接与PPIO的分布式算力平台形成竞争。须警惕运营商利用管道优势和定价权挤压独立边缘云服务商的利润空间，同时关注其是否会将Token套餐与5G专网、云计算等捆绑销售，构建封闭生态。",
+      "summary_cn": "中国移动、中国电信、中国联通近期相继推出面向终端用户的Token套餐，将AI算力以标准化商品形式售卖给大众市场，标志着算力网络正式向消费级场景下沉，也加速了推理型边缘节点的大规模部署。\n对PPIO的影响具有两面性：一方面，算力的“大众化”教育和市场需求爆发有利于做大整个边缘云蛋糕，PPIO作为中立的分布式算力平台，有望承接部分长尾及非运营商体系的商业流量；另一方面，三大运营商凭借庞大的用户基数和网络接入优势，如将其Token服务与云边协同网关捆绑，可能形成封闭的算力生态，压缩独立算力调度平台的谈判空间，并可能对PPIO的定价体系产生向下牵引力。",
       "ppio_signal": {
-        "positive": "运营商大力推广Token套餐有助于教育市场、拉低AI推理使用门槛，为行业带来更多客户增量。",
-        "risk": "运营商利用网络、机房和计费优势切入推理算力零售，可能对独立边缘云平台形成降维打击，尤其在价格敏感型客户群中竞争压力陡增。"
+        "positive": "算力消费市场被彻底激活，PPIO面向非运营商场景的分布式推理业务有望获得更大的增长基数。",
+        "risk": "运营商Token套餐可能演变为集采式算力分发，边缘节点的归属权之争将加剧，独立平台的议价能力或被削弱。"
       }
+    },
+    {
+      "id": "raw-4",
+      "title": "欧盟推出技术主权一揽子方案 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9QVXYwcVlzeU05bkxvOEI3cm5lV0YtS0RhMGxWR0djdTVuTkNvcURBQmFfMzV3dTZ5bk5SYjdVS1RTYnB4WHAxVzhLRGVQRlJjSE9hSHdwaFVVYy00aWhvN2JGNE1fOVZDR0RtczZtdzg5SUxv?oc=5",
+      "source": "新浪财经",
+      "category": "海外",
+      "published": "2026-06-15",
+      "body_snippet": "欧盟推出技术主权一揽子方案 新浪财经",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🌏"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c3"
+      ],
+      "summary_cn": "欧盟推出技术主权一揽子方案，旨在强化关键数字基础设施自主性，可能涉及AI算力、芯片及数据跨境监管，为中国算力出海与港股IPO监管路径增添新的外部变数。",
+      "ppio_signal": null
     },
     {
       "id": "raw-5",
@@ -92,63 +112,80 @@
       "compass_triggered": [
         "c1"
       ],
-      "summary_cn": "工信部印发《“人工智能+信息通信”创新发展实施意见》，旨在推动AI技术与信息通信基础设施深度融合，重点包括布局AI原生网络、建设高质量AI数据集、提升算力基础设施智能化水平、发展AI终端等。文件从网络、算力、数据、终端全链条部署任务，体现了将信息通信业作为AI落地关键载体的政策意图。\n\n对PPIO而言，实施意见明确提出要“提升算力基础设施智能化水平”和“发展AI终端”，这为边缘算力在智能制造、智慧城市、AI终端云侧推理等场景的应用提供了上位文件支撑，可借势推动与运营商的边缘云合作。但文件强调算力基础设施与网络的“深度融合”，若政策落地偏向运营商主导的云边协同架构，独立边缘云平台可能面临接入标准和资源分配上的壁垒。港股IPO可引用该意见作为行业政策利好，但需补齐与运营商生态的互操作叙事。",
+      "summary_cn": "工信部正式印发《“人工智能+信息通信”创新发展实施意见》，从网络架构、算力设施、数据处理和跨行业融合等多个维度规划AI与信息通信基础设施的协同创新，明确提出要推动边缘计算、算力网络与AI大模型的深度适配，鼓励社会资本参与建设融合型基础设施，并在标准制定、数据流通和安全保障方面给出制度安排。\n对PPIO而言，这是极具分量的行业级政策利好：一方面，政策首次将边缘云、分布式算力与AI大模型明确纳入国家重点推进方向，直接夯实了PPIO的商业逻辑和国家合规性，对港股IPO过程中的ESG及产业合规审查提供强力背书；另一方面，鼓励社会资本参与、推动标准建设，有助于PPIO在算力调度、边缘节点认证等环节建立先发规范和行业壁垒。同时，文件强调数据流通和安全要求，也可能加速行业准入门槛的细化，需密切关注配套的牌照或资质管理是否波及边缘云领域。",
       "ppio_signal": {
-        "positive": "政策明确推动AI与信息通信融合，边缘智能算力需求将被激发，利于拓展工业互联网、车联网等场景。",
-        "risk": "算力与网络深度融合的叙事可能强化运营商主导地位，独立边缘云平台需警惕被管道化或边缘化。"
+        "positive": "获得工信部层面直接政策背书，边缘算力首次被明确纳入AI信息基础设施，为IPO合规与业务拓展注入强心剂。",
+        "risk": "后续若出台细化的网络接入或算力服务牌照要求，可能增加合规成本；标准确立也可能引来更多大厂竞争者。"
       }
     },
     {
-      "id": "raw-1",
-      "title": "工信部发文！城域实现1毫秒算力时延，光电混合组网开启规模化试验｜创业板早参 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QUGZlUWdIZTdfQmFhMkZ3d2NwcE5ZbGxIekthcGNqaEc5S0xGZHY4ZGpMSEkzWk5FT0hOenU2bmJLNU1NbzQ0aTFVV09scVlld25mTkNrMzNndW5Od2Rlc0N3?oc=5",
-      "source": "手机网易网",
-      "category": "政策",
-      "published": "2026-06-11",
-      "body_snippet": "工信部发文！城域实现1毫秒算力时延，光电混合组网开启规模化试验｜创业板早参 手机网易网",
-      "_query_boost": 25,
-      "lane": "attend",
+      "id": "raw-4",
+      "title": "南方电网公司部署移动算力方舱 破解传统数据中心建设痛点 - 时代储能网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1QQS10dkY0cTVMQ0VJMS1EemJVVzhodERoNllid0cybkxRZjdZeDNFbnd2dTFzSGNZOE1SM1A5RzlYUzZ4ajVpdG1xRHhfOF9TOXlESw?oc=5",
+      "source": "时代储能网",
+      "category": "技术",
+      "published": "2026-06-12",
+      "body_snippet": "南方电网公司部署移动算力方舱 破解传统数据中心建设痛点 时代储能网",
+      "_query_boost": 0,
+      "lane": "silent",
       "signals": [
-        "🏛️"
+        "🔬"
       ],
-      "is_deep_read": true,
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "南方电网部署移动算力方舱，以可移动集装箱形态提供边缘算力，破解传统数据中心选址与建设周期长等痛点，为分布式算力在电力等垂直行业落地提供新案例。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-5",
+      "title": "算力网万亿级投资_新浪新闻 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42VkxRN3NRSFNRNlpkS2I4clVSR1J5LUw3eDZ1cVBhUi0wVzc1RjVlZVBVVm1yVkFnVmIyYUczWDBGRnFERmxVeXV0S0ZuU1pxamhBbFJuYTRaTjg1NTdZUTBQWQ?oc=5",
+      "source": "新浪网",
+      "category": "资本",
+      "published": "2026-06-16",
+      "body_snippet": "算力网万亿级投资_新浪新闻 新浪网",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "💰"
+      ],
+      "is_deep_read": false,
       "compass_triggered": [
         "c1"
       ],
-      "summary_cn": "工信部发文提出城域网络须实现1毫秒算力时延，并启动光电混合组网规模化试验，标志着低时延、高带宽的算力网络从规划进入落地实施阶段。该政策将驱动运营商加速城域光传送网升级，为分布式算力调度提供更优基础网络环境。\n对PPIO而言，城域1ms时延恰好匹配工业互联网、云游戏、实时AI推理等边缘场景的刚性需求，可显著增强PPIO分布式边缘云的低延迟竞争优势，吸引更多企业用户将工作负载部署在边缘节点。但风险在于，运营商凭借光电混合组网天然优势，可能进一步强化自身边缘云服务能力，挤压第三方服务商生存空间；大规模建设也可能导致算力供给区域性过剩，引发价格竞争，需要PPIO在港股IPO阶段清晰展示与运营商的差异化定位及稳健盈利模型。",
+      "summary_cn": "行业消息称算力网建设将带动万亿级投资规模，算力基础设施赛道热度持续，边缘云作为算力网络的关键组成有望间接受益。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-1",
+      "title": "金山云AI算力产品涨价15%-50%，称全球AI算力需求攀升导致 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUkhTWW5FV1R0aS0taWFMbGg5emF6SmFWSUlmOXFFTUxBdTFYbERNQXJoY1oxLXIwbC0zMHd3SDR2ZGVRUHR4ZDFCSnpzdm5aMnI2QzgxVTNUOTNkQXpYSHgzRW5MUW9pamJHOHBDdlpCaGtfdzU3bk82c2xkdHRqVGZPOS10R01ZTGow?oc=5",
+      "source": "新浪财经",
+      "category": "竞品",
+      "published": "2026-06-16",
+      "body_snippet": "金山云AI算力产品涨价15%-50%，称全球AI算力需求攀升导致 新浪财经",
+      "_query_boost": 0,
+      "lane": "attend",
+      "signals": [
+        "⚔️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "金山云宣布AI算力相关产品服务价格上调15%-50%，理由是全球AI算力需求持续攀升导致成本上涨。此举反映出AI训练与推理对云服务资源的强劲消耗，头部云厂商开始通过直接提价来应对供需失衡，而非仅通过扩容缓解。\n\n对PPIO的影响：作为边缘云分布式算力平台，金山云的涨价行为可能加速中小企业及对成本敏感的AI推理客户向边缘侧迁移，寻求更具性价比的分布式算力调度方案。PPIO若能在此时凸显成本优势与弹性扩展能力，有望承接外溢需求。同时，行业整体涨价趋势也为PPIO在港股IPO时向投资者阐述自身定价权与盈利模式提供了有利的估值参照，但需警惕大型云厂商提价后进一步挤压边缘市场的定价空间。",
       "ppio_signal": {
-        "positive": "低时延网络政策利好PPIO边缘云核心卖点，可借势拓展实时渲染、IoT推理等业务，提升港股上市吸引力。",
-        "risk": "运营商主导组网或抢占边缘云市场，造成竞争加剧；海量算力投入可能引发供过于求，影响议价能力。"
+        "positive": "行业涨价验证了算力资源的稀缺性与溢价能力，为PPIO边缘算力的成本替代逻辑提供了实证，有利于IPO故事中“高性价比分布式算力”的定位。",
+        "risk": "若头部云厂商将提价收益用于抢占边缘节点，可能加剧价格战；IPO问询中可能要求说明与金山云等竞品的差异化定价可持续性。"
       }
     },
     {
       "id": "raw-2",
-      "title": "#一图看懂基建六张网#央视梳理的国家六大基建网络分别为水网、新型电网、算力网、新一代通信网、城市地下管网、物流网，十五五期间合计投入规模巨大，水网投资突破6万亿，推进南水北调等跨流域调水工程；新型电网投资超5万亿，完善特高压与新能源储能配套；算 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0d20zWFl2bHY0U1N4QWdxWjl6QmZfeFZ1MkhSU2Y2eHRHYXJZQXJpVFB5OTZrLXQ2VDUzaTZrTC12XzItQV9ReWQ2VHVDS2k5Rld0TE5WLWdoeXVlbmc3VFk3WQ?oc=5",
-      "source": "新浪网",
-      "category": "政策",
-      "published": "2026-06-15",
-      "body_snippet": "#一图看懂基建六张网#央视梳理的国家六大基建网络分别为水网、新型电网、算力网、新一代通信网、城市地下管网、物流网，十五五期间合计投入规模巨大，水网投资突破6万亿，推进南水北调等跨流域调水工程；新型电网投资超5万亿，完善特高压与新能源储能配套；算 新浪网",
-      "_query_boost": 0,
-      "lane": "attend",
-      "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1"
-      ],
-      "summary_cn": "央视梳理的六大新基建网络中，算力网与电网、水网等并列，并将在“十五五”期间获得大规模投资，首次从顶层规划将算力基础设施纳入国家骨干网络体系。这一政策定调意味着算力网建设将获得长期、稳定的财政和市场资源支持。\n对PPIO来说，算力网明确为国家战略，分布式边缘算力作为整体网络中的外围节点，有望被纳入统一规划，从而获得政策补贴、网络接入和政企订单的倾斜，为即将启动的港股IPO构建坚实的宏观叙事基础。然而，算力网可能由大型国企和云巨头主导，形成准封闭供应生态，第三方边缘云接入面临壁垒，且民营企业在基建敏感领域存在VIE架构与合规性审查的额外风险，需提前布局政策沟通。",
-      "ppio_signal": {
-        "positive": "算力网上升为国家新基建核心，政策红利将为PPIO边缘节点带来需求、订单及估值利好。",
-        "risk": "巨头垄断算力网建设可能导致边缘生态封闭，并给民营企业港股上市带来合规挑战。"
-      }
-    },
-    {
-      "id": "raw-3",
-      "title": "银河证券：AI算力建设需求爆发推动存储长周期涨价，HBM投片比重将持续提升",
-      "url": "https://36kr.com/newsflashes/3855121244935175?f=rss",
-      "source": "36氪",
+      "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+      "url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+      "source": "NVIDIA Blog",
       "published": "2026-06-16",
       "body_snippet": "",
       "category": "技术",
@@ -157,162 +194,73 @@
         "🔬"
       ],
       "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "银河证券指出AI算力建设需求爆发将推动存储价格长期上涨，HBM投资比重提升，侧面印证算力总需求持续旺盛，有利于分布式算力平台的业务预期。",
+      "compass_triggered": [
+        "c3"
+      ],
+      "summary_cn": "NVIDIA Blackwell GPU在MLPerf Training 6.0基准测试中全面领先，刷新训练速度与规模记录，巩固了其在AI训练硬件领域的统治地位。",
       "ppio_signal": null
     },
     {
+      "id": "raw-3",
+      "title": "金山云：AI算力相关产品服务上调约15%-50% - MSN",
+      "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNUDRRYTNaZEpseU51bTYta2Zndmd2cVh4dHBqVmtjWjNSX2d6ZXBsUVRYaUZ0YV9aQ004TEhKRTM1blZjVllRT01MNDVDYjFvWGxOMUhXRG15TmhYWUItSXdOX0NIaDF6QzVzTGtLZ2JjaWxrcDJnU3h4UTVkNDJISjNEYnNKd2o4a0FTNzRkWWc1cEhOWm8wa2JUSkgtbVAxSjF5RXJubWh5RUJkRlJ0MVVkWUUtbWI4T1E3WVJfd2FDRzE4ZFlOYWF5YzYxUnVuZWttWnR0b2xtT2FNU3hSN3ZGZmdfZEZpZjZGWVFEZlVTTEZlQ3hHc0h2Tldza2dOWTFZQUF5WHRHMFg0OVJIR014VE5DOUpmUFNDb19oTWxFNTBVUzlPNHlzUzk4RkZ3ZTBzb1dKSjh6d1pBVXNmb3k3Ul95T2YyZFFhbXlVOU9EaG5OR1RkVDhJeDEzYWRnYldUZXZxZzJNODFTTGhHbHZFbTNoWGJlY0EzZk56bGI0c1hWeC04WFl3bVg1akpma1dWcTBFYjZiSFJ1d1N0Y1hKbWhYZw?oc=5",
+      "source": "MSN",
+      "category": "竞品",
+      "published": "2026-06-12",
+      "body_snippet": "金山云：AI算力相关产品服务上调约15%-50% MSN",
+      "_query_boost": 0,
+      "lane": "attend",
+      "signals": [
+        "⚔️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "金山云再次确认其AI算力服务价格上调约15%-50%，与数天前的公告一致，强调全球AI算力需求攀升是调价主因。该消息通过多个渠道传播，强化了市场对算力资源紧缺的认知。\n\n对PPIO的影响：连续的价格信号意味着算力供需矛盾并非短期波动，而是结构性趋势。这为PPIO边缘云平台的差异化竞争提供了时间窗口：在客户尚未完全消化涨价冲击时，主动推广边缘分布式算力的弹性定价与低延迟推理优势，有助于加速客户导入。但需注意，金山云的多次提价可能引发行业监管关注，未来若出台价格指导政策，也可能波及边缘算力定价体系，影响IPO估值模型。",
+      "ppio_signal": {
+        "positive": "重复的涨价公告强化了“算力即稀缺资源”的市场共识，PPIO可借此在招股书中论证分布式边缘算力的价值锚点与长期需求逻辑。",
+        "risk": "频繁涨价可能招致反垄断或价格管制预期，若延伸至云服务市场，PPIO的低价策略可能面临合规挑战，或被迫调整定价模式。"
+      }
+    },
+    {
       "id": "raw-4",
-      "title": "算力网建设火热，光通信等多板块景气度抬升 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcUZYazROS051SFVpWEFJZVpKYXRJR1NfTEhsTlpZNkp3VnpqQjBGQUdBaUNsN1p0dFRXZHhiUEdXaThEb0I2QmdXLTV2NURpZlFydUFPQ0Vib1NSc1FZSUtQZVJNbHNvbDF3bEJBMFgxSnhpNklNNG11UlVEQWdwYUxsd3FWLTM4bUNncDJGYw?oc=5",
-      "source": "21财经",
+      "title": "AI推理时代来临，算力需求正在从中心走向边缘 - 51CTO",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5UZ2RrZHRoT2F1WGN6MmlvQ3hvak90Q1hBVDZmVnNqdG1EUWdCN2ZtSkthM2dEQzUwSGI2b1dib0Q3YVdKaDdLMWNNV3VQS2NTVjlN?oc=5",
+      "source": "51CTO",
       "category": "技术",
-      "published": "2026-06-15",
-      "body_snippet": "算力网建设火热，光通信等多板块景气度抬升 21财经",
+      "published": "2026-06-12",
+      "body_snippet": "AI推理时代来临，算力需求正在从中心走向边缘 51CTO",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
         "🔬"
       ],
       "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "算力网建设带动光通信等多板块景气上行，边缘算力节点作为基础设施增量部分，其建设和连接需求将同步升温。",
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "行业分析指出，AI推理负载正从集中式云端向边缘节点迁移，低延迟、高并发的边缘算力成为推理时代的关键基础设施。",
       "ppio_signal": null
     },
     {
       "id": "raw-5",
-      "title": "黄仁勋 x GTC + COMPUTEX 2026 ：全球AI算力新起点，五层蛋糕的重心转移 - 北美智權",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8ySVBxeThJX1czV0NvNmpkZG9ZWXFxeVo4aUgxQU5ROHc3YXZTWDZQdjU0QVRXTE0xRDZCS3o0ZTdGVmVZZ2NIdS0wejRUd3QzVFFv?oc=5",
-      "source": "北美智權",
-      "category": "海外",
-      "published": "2026-06-15",
-      "body_snippet": "黄仁勋 x GTC + COMPUTEX 2026 ：全球AI算力新起点，五层蛋糕的重心转移 北美智權",
-      "_query_boost": 15,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "黄仁勋在GTC+Computex 2026强调全球AI算力向推理与边缘侧倾斜，算力五层蛋糕重心转移，边缘计算战略地位进一步提升。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-011",
-      "title": "算力底座硬核突围：星火多模态大模型X2-VL正式发布 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zVHZGeG5IUktOdElsZnZCRTBuaHJGc3h5Wjh1cU9SeG1hcVdwb0doZDhBM3pLTGx0WmFDTGlJSTFsRVpiNWNudEtaZlVpZw?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-06-15",
-      "body_snippet": "算力底座硬核突围：星火多模态大模型X2-VL正式发布 AIBase",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "算力底座硬核突围：星火多模态大模型X2-VL正式发布 - AIBase 算力底座硬核突围：星火多模态大模型X2-VL正式发布 AIBase",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "华为昇腾950PR处理器将推动国产算力进入系统级竞争时代 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9uRVgwNzdVR04weGgtdlBqT0twUVB6ZzVRc0s0cmJXVUpWVmtfNjVvU1l4d2xvWTBoMTVuSC0zOGRYOTF4dGZVLVBLVjlnYmo4OGhrTg?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-06-11",
-      "body_snippet": "华为昇腾950PR处理器将推动国产算力进入系统级竞争时代 虎嗅",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "华为昇腾950PR处理器将推动国产算力进入系统级竞争时代 - 虎嗅 华为昇腾950PR处理器将推动国产算力进入系统级竞争时代 虎嗅",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-013",
-      "title": "金山云(03896.HK)：AI算力相关产品服务价格上调15%至50% - AASTOCKS.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWE9UN3pGelZhXzFBdHdpSWtmd3otRjU3QXF6WWFOTGVFNUpMcXQyWTRoVnFrRmFCMlVEdFcteVVXTFRFQ0kwcGFtZ2toWGEyaElSX2RMbUQwbnNTMEc4Uk1IZlI5bGJ1NzJOVEpvUkdZVUQxT09UR0NPVDJPY3BNbGRDbXM?oc=5",
-      "source": "AASTOCKS.com",
-      "category": "竞品",
-      "published": "2026-06-15",
-      "body_snippet": "金山云(03896.HK)：AI算力相关产品服务价格上调15%至50% AASTOCKS.com",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "金山云(03896.HK)：AI算力相关产品服务价格上调15%至50% - AASTOCKS.com 金山云(03896.HK)：AI算力相关产品服务价格上调1",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-014",
-      "title": "金山云早盘上涨5% AI算力相关产品服务价格上调约15%至50% - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORDhqd0VjcVlKdFprc1dTa2EyVUxTMThrWkgzVF9CajB1MzduT1MwbWtFeEJJQzZyc0dIS0dJWk1vRVJlYm1tM2MxNnRKZHUtVmxpbHpnSTVrZGJJaldQR0VJdWVTb043TExycjdmUXJPS2VBcUV2cWF4WGdCNUFFWm56RDBIQlVoZUVrX1NEUGdqdDBxQkE?oc=5",
-      "source": "新浪网",
-      "category": "竞品",
-      "published": "2026-06-15",
-      "body_snippet": "金山云早盘上涨5% AI算力相关产品服务价格上调约15%至50% 新浪网",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "金山云早盘上涨5% AI算力相关产品服务价格上调约15%至50% - 新浪网 金山云早盘上涨5% AI算力相关产品服务价格上调约15%至50% 新浪网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-015",
       "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
       "url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
       "source": "NVIDIA Blog",
       "published": "2026-06-12",
       "body_snippet": "",
       "category": "技术",
-      "lane": "attend",
+      "lane": "silent",
       "signals": [
-        "—"
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
-        "c1",
-        "c2",
         "c3"
       ],
-      "summary_cn": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark ",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
+      "summary_cn": "NVIDIA Blackwell在首个面向智能体AI的基础设施基准测试中取得领先，证明其在大规模推理与实时决策场景下的优势，巩固其AI算力领导地位。",
+      "ppio_signal": null
     }
   ]
 }

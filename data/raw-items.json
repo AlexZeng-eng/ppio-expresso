@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-16T01:40:11.977Z",
+  "generated_at": "2026-06-17T01:34:50.521Z",
   "week": "2026-W25",
   "date_range": {
-    "from": "2026-06-09",
-    "to": "2026-06-16"
+    "from": "2026-06-10",
+    "to": "2026-06-17"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -13,7 +13,7 @@
       "title": "李乐成《人民日报》撰文：加快前瞻布局和发展未来产业",
       "url": "https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_5c1a96a6fc304444b9fd19c9f9ea9b35.html",
       "source": "工信部-新闻",
-      "published": "2026-06-16",
+      "published": "2026-06-17",
       "body_snippet": "",
       "category": "技术"
     },
@@ -33,18 +33,18 @@
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
       "category": "竞品",
-      "published": "2026-06-15",
+      "published": "2026-06-16",
       "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
       "_query_boost": 15
     },
     {
       "id": "raw-004",
-      "title": "国务院关于对外投资的规定解读（三）：在837号令下的License-out、NewCo、海外临床——生物医药企业最该关注什么？ - ByDrug",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DRVNVRHdBcmlNTGFpV1N0aVVqR2VoWERBbzAwdU1nbGtqczl0azNlcXFWa1V5XzRxZHl0SXBrS1dPbGlNWkFnSDAzbkNZTW55RTlHS3NDenRkamZZSzl4Ulc5b2pvbXo2QTJDS1d4enhtU2h3ek1wN0xzWE5KUQ?oc=5",
-      "source": "ByDrug",
-      "category": "监管",
+      "title": "欧盟推出技术主权一揽子方案 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9QVXYwcVlzeU05bkxvOEI3cm5lV0YtS0RhMGxWR0djdTVuTkNvcURBQmFfMzV3dTZ5bk5SYjdVS1RTYnB4WHAxVzhLRGVQRlJjSE9hSHdwaFVVYy00aWhvN2JGNE1fOVZDR0RtczZtdzg5SUxv?oc=5",
+      "source": "新浪财经",
+      "category": "海外",
       "published": "2026-06-15",
-      "body_snippet": "国务院关于对外投资的规定解读（三）：在837号令下的License-out、NewCo、海外临床——生物医药企业最该关注什么？ ByDrug",
+      "body_snippet": "欧盟推出技术主权一揽子方案 新浪财经",
       "_query_boost": 25
     },
     {
@@ -59,6 +59,26 @@
     },
     {
       "id": "raw-006",
+      "title": "事关“六张网”建设，国家发展改革委召开重磅座谈会；国际油价大跌丨盘前情报 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY1NXaUVGenlKNGw0WDVQQlhwbzAxUUVSV0NVWkN2aXNfa05YVFRfVVN2RnBQYXZZWjluMlFxM2tmekNWcUR6YW1pdDJJQ0JkclN1R1hIVEtoLTlCQ1Z4cmtsS3IwRDFSVXF6QkhKVllUaktZWHRvWEZMQTNud1YzODJfa1NRU1k4bkVUaFEtYw?oc=5",
+      "source": "21财经",
+      "category": "政策",
+      "published": "2026-06-17",
+      "body_snippet": "事关“六张网”建设，国家发展改革委召开重磅座谈会；国际油价大跌丨盘前情报 21财经",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-007",
+      "title": "影响市场重大事件： 我国成功发射实践三十一号卫星；奥本海默：SpaceX将重塑1.6万亿美元通信市场，传统宽带与电信运营商面临冲击；北京、上海、杭州等地布局把算力搬上天 - mrjjxw.com",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OaFF5MkQ3Nm9fQ0wtbFhZMEZodVc3cXZEczBwUjFSVDUzZE5JWG4zckhYVmd0UTNSRzFCZUxhV1lrRHFJMUVLaHZFQ0tSZGpaQWFPVGlTRzZBblFhNXlqY3NrSkZtdw?oc=5",
+      "source": "mrjjxw.com",
+      "category": "政策",
+      "published": "2026-06-16",
+      "body_snippet": "影响市场重大事件： 我国成功发射实践三十一号卫星；奥本海默：SpaceX将重塑1.6万亿美元通信市场，传统宽带与电信运营商面临冲击；北京、上海、杭州等地布局把算力搬上天 mrjjxw.com",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-008",
       "title": "工信部发文！城域实现1毫秒算力时延，光电混合组网开启规模化试验｜创业板早参 - 手机网易网",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QUGZlUWdIZTdfQmFhMkZ3d2NwcE5ZbGxIekthcGNqaEc5S0xGZHY4ZGpMSEkzWk5FT0hOenU2bmJLNU1NbzQ0aTFVV09scVlld25mTkNrMzNndW5Od2Rlc0N3?oc=5",
       "source": "手机网易网",
@@ -68,82 +88,62 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-007",
-      "title": "#一图看懂基建六张网#央视梳理的国家六大基建网络分别为水网、新型电网、算力网、新一代通信网、城市地下管网、物流网，十五五期间合计投入规模巨大，水网投资突破6万亿，推进南水北调等跨流域调水工程；新型电网投资超5万亿，完善特高压与新能源储能配套；算 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0d20zWFl2bHY0U1N4QWdxWjl6QmZfeFZ1MkhSU2Y2eHRHYXJZQXJpVFB5OTZrLXQ2VDUzaTZrTC12XzItQV9ReWQ2VHVDS2k5Rld0TE5WLWdoeXVlbmc3VFk3WQ?oc=5",
-      "source": "新浪网",
+      "id": "raw-009",
+      "title": "南方电网公司部署移动算力方舱 破解传统数据中心建设痛点 - 时代储能网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1QQS10dkY0cTVMQ0VJMS1EemJVVzhodERoNllid0cybkxRZjdZeDNFbnd2dTFzSGNZOE1SM1A5RzlYUzZ4ajVpdG1xRHhfOF9TOXlESw?oc=5",
+      "source": "时代储能网",
       "category": "政策",
-      "published": "2026-06-15",
-      "body_snippet": "#一图看懂基建六张网#央视梳理的国家六大基建网络分别为水网、新型电网、算力网、新一代通信网、城市地下管网、物流网，十五五期间合计投入规模巨大，水网投资突破6万亿，推进南水北调等跨流域调水工程；新型电网投资超5万亿，完善特高压与新能源储能配套；算 新浪网",
+      "published": "2026-06-12",
+      "body_snippet": "南方电网公司部署移动算力方舱 破解传统数据中心建设痛点 时代储能网",
       "_query_boost": 0
     },
     {
-      "id": "raw-008",
-      "title": "银河证券：AI算力建设需求爆发推动存储长周期涨价，HBM投片比重将持续提升",
-      "url": "https://36kr.com/newsflashes/3855121244935175?f=rss",
-      "source": "36氪",
+      "id": "raw-010",
+      "title": "算力网万亿级投资_新浪新闻 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42VkxRN3NRSFNRNlpkS2I4clVSR1J5LUw3eDZ1cVBhUi0wVzc1RjVlZVBVVm1yVkFnVmIyYUczWDBGRnFERmxVeXV0S0ZuU1pxamhBbFJuYTRaTjg1NTdZUTBQWQ?oc=5",
+      "source": "新浪网",
+      "category": "政策",
+      "published": "2026-06-16",
+      "body_snippet": "算力网万亿级投资_新浪新闻 新浪网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-011",
+      "title": "金山云AI算力产品涨价15%-50%，称全球AI算力需求攀升导致 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUkhTWW5FV1R0aS0taWFMbGg5emF6SmFWSUlmOXFFTUxBdTFYbERNQXJoY1oxLXIwbC0zMHd3SDR2ZGVRUHR4ZDFCSnpzdm5aMnI2QzgxVTNUOTNkQXpYSHgzRW5MUW9pamJHOHBDdlpCaGtfdzU3bk82c2xkdHRqVGZPOS10R01ZTGow?oc=5",
+      "source": "新浪财经",
+      "category": "竞品",
+      "published": "2026-06-16",
+      "body_snippet": "金山云AI算力产品涨价15%-50%，称全球AI算力需求攀升导致 新浪财经",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-012",
+      "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+      "url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+      "source": "NVIDIA Blog",
       "published": "2026-06-16",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-009",
-      "title": "算力网建设火热，光通信等多板块景气度抬升 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcUZYazROS051SFVpWEFJZVpKYXRJR1NfTEhsTlpZNkp3VnpqQjBGQUdBaUNsN1p0dFRXZHhiUEdXaThEb0I2QmdXLTV2NURpZlFydUFPQ0Vib1NSc1FZSUtQZVJNbHNvbDF3bEJBMFgxSnhpNklNNG11UlVEQWdwYUxsd3FWLTM4bUNncDJGYw?oc=5",
-      "source": "21财经",
-      "category": "政策",
-      "published": "2026-06-15",
-      "body_snippet": "算力网建设火热，光通信等多板块景气度抬升 21财经",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-010",
-      "title": "黄仁勋 x GTC + COMPUTEX 2026 ：全球AI算力新起点，五层蛋糕的重心转移 - 北美智權",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8ySVBxeThJX1czV0NvNmpkZG9ZWXFxeVo4aUgxQU5ROHc3YXZTWDZQdjU0QVRXTE0xRDZCS3o0ZTdGVmVZZ2NIdS0wejRUd3QzVFFv?oc=5",
-      "source": "北美智權",
-      "category": "海外",
-      "published": "2026-06-15",
-      "body_snippet": "黄仁勋 x GTC + COMPUTEX 2026 ：全球AI算力新起点，五层蛋糕的重心转移 北美智權",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-011",
-      "title": "算力底座硬核突围：星火多模态大模型X2-VL正式发布 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zVHZGeG5IUktOdElsZnZCRTBuaHJGc3h5Wjh1cU9SeG1hcVdwb0doZDhBM3pLTGx0WmFDTGlJSTFsRVpiNWNudEtaZlVpZw?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-06-15",
-      "body_snippet": "算力底座硬核突围：星火多模态大模型X2-VL正式发布 AIBase",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-012",
-      "title": "华为昇腾950PR处理器将推动国产算力进入系统级竞争时代 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9uRVgwNzdVR04weGgtdlBqT0twUVB6ZzVRc0s0cmJXVUpWVmtfNjVvU1l4d2xvWTBoMTVuSC0zOGRYOTF4dGZVLVBLVjlnYmo4OGhrTg?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-06-11",
-      "body_snippet": "华为昇腾950PR处理器将推动国产算力进入系统级竞争时代 虎嗅",
-      "_query_boost": 0
-    },
-    {
       "id": "raw-013",
-      "title": "金山云(03896.HK)：AI算力相关产品服务价格上调15%至50% - AASTOCKS.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWE9UN3pGelZhXzFBdHdpSWtmd3otRjU3QXF6WWFOTGVFNUpMcXQyWTRoVnFrRmFCMlVEdFcteVVXTFRFQ0kwcGFtZ2toWGEyaElSX2RMbUQwbnNTMEc4Uk1IZlI5bGJ1NzJOVEpvUkdZVUQxT09UR0NPVDJPY3BNbGRDbXM?oc=5",
-      "source": "AASTOCKS.com",
+      "title": "金山云：AI算力相关产品服务上调约15%-50% - MSN",
+      "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNUDRRYTNaZEpseU51bTYta2Zndmd2cVh4dHBqVmtjWjNSX2d6ZXBsUVRYaUZ0YV9aQ004TEhKRTM1blZjVllRT01MNDVDYjFvWGxOMUhXRG15TmhYWUItSXdOX0NIaDF6QzVzTGtLZ2JjaWxrcDJnU3h4UTVkNDJISjNEYnNKd2o4a0FTNzRkWWc1cEhOWm8wa2JUSkgtbVAxSjF5RXJubWh5RUJkRlJ0MVVkWUUtbWI4T1E3WVJfd2FDRzE4ZFlOYWF5YzYxUnVuZWttWnR0b2xtT2FNU3hSN3ZGZmdfZEZpZjZGWVFEZlVTTEZlQ3hHc0h2Tldza2dOWTFZQUF5WHRHMFg0OVJIR014VE5DOUpmUFNDb19oTWxFNTBVUzlPNHlzUzk4RkZ3ZTBzb1dKSjh6d1pBVXNmb3k3Ul95T2YyZFFhbXlVOU9EaG5OR1RkVDhJeDEzYWRnYldUZXZxZzJNODFTTGhHbHZFbTNoWGJlY0EzZk56bGI0c1hWeC04WFl3bVg1akpma1dWcTBFYjZiSFJ1d1N0Y1hKbWhYZw?oc=5",
+      "source": "MSN",
       "category": "竞品",
-      "published": "2026-06-15",
-      "body_snippet": "金山云(03896.HK)：AI算力相关产品服务价格上调15%至50% AASTOCKS.com",
+      "published": "2026-06-12",
+      "body_snippet": "金山云：AI算力相关产品服务上调约15%-50% MSN",
       "_query_boost": 0
     },
     {
       "id": "raw-014",
-      "title": "金山云早盘上涨5% AI算力相关产品服务价格上调约15%至50% - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORDhqd0VjcVlKdFprc1dTa2EyVUxTMThrWkgzVF9CajB1MzduT1MwbWtFeEJJQzZyc0dIS0dJWk1vRVJlYm1tM2MxNnRKZHUtVmxpbHpnSTVrZGJJaldQR0VJdWVTb043TExycjdmUXJPS2VBcUV2cWF4WGdCNUFFWm56RDBIQlVoZUVrX1NEUGdqdDBxQkE?oc=5",
-      "source": "新浪网",
-      "category": "竞品",
-      "published": "2026-06-15",
-      "body_snippet": "金山云早盘上涨5% AI算力相关产品服务价格上调约15%至50% 新浪网",
+      "title": "AI推理时代来临，算力需求正在从中心走向边缘 - 51CTO",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5UZ2RrZHRoT2F1WGN6MmlvQ3hvak90Q1hBVDZmVnNqdG1EUWdCN2ZtSkthM2dEQzUwSGI2b1dib0Q3YVdKaDdLMWNNV3VQS2NTVjlN?oc=5",
+      "source": "51CTO",
+      "category": "技术",
+      "published": "2026-06-12",
+      "body_snippet": "AI推理时代来临，算力需求正在从中心走向边缘 51CTO",
       "_query_boost": 0
     },
     {
