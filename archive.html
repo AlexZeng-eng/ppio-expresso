@@ -31,7 +31,7 @@
 </header>
 <main style="max-width:960px;margin:0 auto;padding:1.4rem 1.4rem 4rem">
   <h1 style="font-family:var(--mono);font-size:0.9rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink);margin:0 0 0.2rem">日报存档</h1>
-  <p style="font-family:var(--sans);font-size:0.82rem;color:var(--ink-mute);margin:0 0 1.4rem">共 18 天 · 最近更新 2026-06-17</p>
+  <p style="font-family:var(--sans);font-size:0.82rem;color:var(--ink-mute);margin:0 0 1.4rem">共 19 天 · 最近更新 2026-06-18</p>
 
   <!-- 30天趋势图 -->
   
@@ -63,6 +63,14 @@
       <th>日期</th><th>当日主线</th><th>信号</th><th>深度/总计</th><th>指数</th><th>风向</th>
     </tr></thead>
     <tbody><tr>
+      <td><a href="reports/2026-06-18.html">2026-06-18</a></td>
+      <td class="archive-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td>🏛️×2 ⚔️×4 💰×3 🌏×2 🔬×6</td>
+      <td>5 / 15</td>
+      <td>55</td>
+      <td><span style="color:#888;font-weight:600">平稳</span></td>
+    </tr>
+<tr>
       <td><a href="reports/2026-06-17.html">2026-06-17</a></td>
       <td class="archive-mainline">工信部发文力推边缘计算与AI深度适配，运营商加码推理服务合作，算力涨价凸显供给紧缺——政策撑腰但竞速白热化。</td>
       <td>🏛️×2 ⚔️×4</td>
@@ -212,11 +220,11 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script>
 (function() {
-  const dates = ["05-27","05-28","05-29","06-01","06-02","06-03","06-04","06-05","06-08","06-09","06-10","06-11","06-12","06-13","06-14","06-15","06-16","06-17"];
-  const attend = [4,5,5,9,4,4,7,3,6,3,5,8,7,4,6,4,7,6];
-  const index = [null,null,null,null,58,62,66,55,55,68,66,55,55,55,66,72,55,62];
-  const policy = [0,0,0,0,3,5,5,3,2,4,5,4,4,3,5,5,4,4];
-  const compete = [0,0,0,0,2,3,4,2,2,2,2,3,3,3,3,2,4,4];
+  const dates = ["05-27","05-28","05-29","06-01","06-02","06-03","06-04","06-05","06-08","06-09","06-10","06-11","06-12","06-13","06-14","06-15","06-16","06-17","06-18"];
+  const attend = [4,5,5,9,4,4,7,3,6,3,5,8,7,4,6,4,7,6,5];
+  const index = [null,null,null,null,58,62,66,55,55,68,66,55,55,55,66,72,55,62,55];
+  const policy = [0,0,0,0,3,5,5,3,2,4,5,4,4,3,5,5,4,4,4];
+  const compete = [0,0,0,0,2,3,4,2,2,2,2,3,3,3,3,2,4,4,4];
 
   const baseOpts = (label, color) => ({
     responsive: true, maintainAspectRatio: false,

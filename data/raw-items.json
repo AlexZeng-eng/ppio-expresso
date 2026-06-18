@@ -1,143 +1,152 @@
 {
-  "generated_at": "2026-06-17T01:34:50.521Z",
+  "generated_at": "2026-06-18T01:01:06.429Z",
   "week": "2026-W25",
   "date_range": {
-    "from": "2026-06-10",
-    "to": "2026-06-17"
+    "from": "2026-06-11",
+    "to": "2026-06-18"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "李乐成《人民日报》撰文：加快前瞻布局和发展未来产业",
-      "url": "https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_5c1a96a6fc304444b9fd19c9f9ea9b35.html",
-      "source": "工信部-新闻",
+      "title": "“Token工厂”硅基流动，拿下超20亿元B轮融资 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWEtfVlMwVkRlZnkxNVdLSXdZQXh0dml5bFlFSDl6LTRjS3laV1ROS18yVVBqSnBhZWhjYUY4OWE0Rl9pa1hkM2dwZmktclFLaTJ3YnV0ZkdETU8yWWRGN19jSW5jVXJkYzZUdjFzNGViVm9qeDRDRWtJVVJoNmt2YkZhS2NHa0tycGdZWGJRNVJWZ3JD?oc=5",
+      "source": "21财经",
+      "category": "竞品",
       "published": "2026-06-17",
-      "body_snippet": "",
-      "category": "技术"
+      "body_snippet": "“Token工厂”硅基流动，拿下超20亿元B轮融资 21财经",
+      "_query_boost": 20
     },
     {
       "id": "raw-002",
-      "title": "共筑全栈AI底座 中国移动贵州公司与硅基流动深化战略合作 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOR3JFcFVRQV83TDBDZzNqd0dULU1wdUJFbkJMZmNUTHdfdjBpamhib1gzLXU0WklGVGVYejZuQ0NjZWlTRkYyYkZGLW5JRGNDSUJXSVBvNzU1Uk5BbFo5TVU5Zm1iR0RwSDVIam9vQTFwVFhVazJjc3JSOUJZTnlXbjVB?oc=5",
-      "source": "新华网",
-      "category": "竞品",
-      "published": "2026-06-11",
-      "body_snippet": "共筑全栈AI底座 中国移动贵州公司与硅基流动深化战略合作 新华网",
+      "title": "月之暗面寻求20亿美元融资，Kimi估值300亿背后大模型估值逻辑生变！ - blog.csdn.net",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5fQl84ODlmWkZoOXo0V3RYdU96LVJXMVc2bldSTTdqUXJDQ1BtUHdMM25VakxHcmRyQk5FNUdTQnFvSlg5Mk9waGgxaVZtV1RyZUN1V2hFdzk3M20tTU4xUDRibGF0Zm51TEow?oc=5",
+      "source": "blog.csdn.net",
+      "category": "资本",
+      "published": "2026-06-13",
+      "body_snippet": "月之暗面寻求20亿美元融资，Kimi估值300亿背后大模型估值逻辑生变！ blog.csdn.net",
       "_query_boost": 20
     },
     {
       "id": "raw-003",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
-      "category": "竞品",
-      "published": "2026-06-16",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "_query_boost": 15
+      "title": "欧盟推出技术主权一揽子方案 - Sina finance",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9QVXYwcVlzeU05bkxvOEI3cm5lV0YtS0RhMGxWR0djdTVuTkNvcURBQmFfMzV3dTZ5bk5SYjdVS1RTYnB4WHAxVzhLRGVQRlJjSE9hSHdwaFVVYy00aWhvN2JGNE1fOVZDR0RtczZtdzg5SUxv?oc=5",
+      "source": "Sina finance",
+      "category": "海外",
+      "published": "2026-06-15",
+      "body_snippet": "欧盟推出技术主权一揽子方案 Sina finance",
+      "_query_boost": 25
     },
     {
       "id": "raw-004",
-      "title": "欧盟推出技术主权一揽子方案 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9QVXYwcVlzeU05bkxvOEI3cm5lV0YtS0RhMGxWR0djdTVuTkNvcURBQmFfMzV3dTZ5bk5SYjdVS1RTYnB4WHAxVzhLRGVQRlJjSE9hSHdwaFVVYy00aWhvN2JGNE1fOVZDR0RtczZtdzg5SUxv?oc=5",
-      "source": "新浪财经",
-      "category": "海外",
-      "published": "2026-06-15",
-      "body_snippet": "欧盟推出技术主权一揽子方案 新浪财经",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-005",
-      "title": "工信部印发“人工智能+信息通信”创新发展实施意见 - 集微网",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE94LWpQRHd0dTR0VEtxVjVQOHhjd1JZZmZscWhVLVAtcmJFcFJsbGY1TGRwSkFnTFdyLWVuSl96TlRtVE9OX3RNLTZn?oc=5",
-      "source": "集微网",
-      "category": "政策",
-      "published": "2026-06-12",
-      "body_snippet": "工信部印发“人工智能+信息通信”创新发展实施意见 集微网",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-006",
-      "title": "事关“六张网”建设，国家发展改革委召开重磅座谈会；国际油价大跌丨盘前情报 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY1NXaUVGenlKNGw0WDVQQlhwbzAxUUVSV0NVWkN2aXNfa05YVFRfVVN2RnBQYXZZWjluMlFxM2tmekNWcUR6YW1pdDJJQ0JkclN1R1hIVEtoLTlCQ1Z4cmtsS3IwRDFSVXF6QkhKVllUaktZWHRvWEZMQTNud1YzODJfa1NRU1k4bkVUaFEtYw?oc=5",
+      "title": "国家发改委：积极吸引社会资本参与“六张网”建设 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNEpUQVhMOHMybVNzd3FwUWtUNUtHcVM2bkh0Q0FhcnFwMnM0cnhEZi1qb3Z0am12V1lTV09lQ1RVY1FOWnJyQm52T1FVSGVyOU1KQy1IT2JDbDRTX0NEWXNHbmgyWnJZOUY0NjBIYnh3bDN6Qk05SVppcFpRWHhCLXVjcjk0S051T0FCWlV5MA?oc=5",
       "source": "21财经",
       "category": "政策",
       "published": "2026-06-17",
-      "body_snippet": "事关“六张网”建设，国家发展改革委召开重磅座谈会；国际油价大跌丨盘前情报 21财经",
+      "body_snippet": "国家发改委：积极吸引社会资本参与“六张网”建设 21财经",
       "_query_boost": 0
     },
     {
-      "id": "raw-007",
-      "title": "影响市场重大事件： 我国成功发射实践三十一号卫星；奥本海默：SpaceX将重塑1.6万亿美元通信市场，传统宽带与电信运营商面临冲击；北京、上海、杭州等地布局把算力搬上天 - mrjjxw.com",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OaFF5MkQ3Nm9fQ0wtbFhZMEZodVc3cXZEczBwUjFSVDUzZE5JWG4zckhYVmd0UTNSRzFCZUxhV1lrRHFJMUVLaHZFQ0tSZGpaQWFPVGlTRzZBblFhNXlqY3NrSkZtdw?oc=5",
-      "source": "mrjjxw.com",
-      "category": "政策",
-      "published": "2026-06-16",
-      "body_snippet": "影响市场重大事件： 我国成功发射实践三十一号卫星；奥本海默：SpaceX将重塑1.6万亿美元通信市场，传统宽带与电信运营商面临冲击；北京、上海、杭州等地布局把算力搬上天 mrjjxw.com",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-008",
-      "title": "工信部发文！城域实现1毫秒算力时延，光电混合组网开启规模化试验｜创业板早参 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QUGZlUWdIZTdfQmFhMkZ3d2NwcE5ZbGxIekthcGNqaEc5S0xGZHY4ZGpMSEkzWk5FT0hOenU2bmJLNU1NbzQ0aTFVV09scVlld25mTkNrMzNndW5Od2Rlc0N3?oc=5",
-      "source": "手机网易网",
-      "category": "政策",
-      "published": "2026-06-11",
-      "body_snippet": "工信部发文！城域实现1毫秒算力时延，光电混合组网开启规模化试验｜创业板早参 手机网易网",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-009",
-      "title": "南方电网公司部署移动算力方舱 破解传统数据中心建设痛点 - 时代储能网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1QQS10dkY0cTVMQ0VJMS1EemJVVzhodERoNllid0cybkxRZjdZeDNFbnd2dTFzSGNZOE1SM1A5RzlYUzZ4ajVpdG1xRHhfOF9TOXlESw?oc=5",
-      "source": "时代储能网",
-      "category": "政策",
-      "published": "2026-06-12",
-      "body_snippet": "南方电网公司部署移动算力方舱 破解传统数据中心建设痛点 时代储能网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-010",
-      "title": "算力网万亿级投资_新浪新闻 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42VkxRN3NRSFNRNlpkS2I4clVSR1J5LUw3eDZ1cVBhUi0wVzc1RjVlZVBVVm1yVkFnVmIyYUczWDBGRnFERmxVeXV0S0ZuU1pxamhBbFJuYTRaTjg1NTdZUTBQWQ?oc=5",
-      "source": "新浪网",
-      "category": "政策",
-      "published": "2026-06-16",
-      "body_snippet": "算力网万亿级投资_新浪新闻 新浪网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-011",
-      "title": "金山云AI算力产品涨价15%-50%，称全球AI算力需求攀升导致 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUkhTWW5FV1R0aS0taWFMbGg5emF6SmFWSUlmOXFFTUxBdTFYbERNQXJoY1oxLXIwbC0zMHd3SDR2ZGVRUHR4ZDFCSnpzdm5aMnI2QzgxVTNUOTNkQXpYSHgzRW5MUW9pamJHOHBDdlpCaGtfdzU3bk82c2xkdHRqVGZPOS10R01ZTGow?oc=5",
-      "source": "新浪财经",
+      "id": "raw-005",
+      "title": "乌兹别克斯坦可用区上线，优刻得全球节点达到36个 - Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb2xKRlUwMWVsek05UFdWNDdtOWUxWHFPeEJZU3M4cTYyZjBSOHV2OFhtNGVhaU9hekxack1XMVNIWi1hTHdObVRnZ3hsUDJNeG5adDVrRnRFaV8xdmRCTnQ4UFlUcDh0WU0ySjcxSHRHaGNqalhoaW95NVg3ZTcxVFhkdzhDczRi?oc=5",
+      "source": "Sohu",
       "category": "竞品",
-      "published": "2026-06-16",
-      "body_snippet": "金山云AI算力产品涨价15%-50%，称全球AI算力需求攀升导致 新浪财经",
-      "_query_boost": 0
+      "published": "2026-06-17",
+      "body_snippet": "乌兹别克斯坦可用区上线，优刻得全球节点达到36个 Sohu",
+      "_query_boost": 15
     },
     {
-      "id": "raw-012",
-      "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
-      "url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
-      "source": "NVIDIA Blog",
-      "published": "2026-06-16",
+      "id": "raw-006",
+      "title": "刚刚，北京建了一座AI工厂：目标10万P算力，日产10万亿Token！",
+      "url": "https://www.qbitai.com/2026/06/436456.html",
+      "source": "量子位",
+      "published": "2026-06-17",
       "body_snippet": "",
       "category": "技术"
     },
     {
+      "id": "raw-007",
+      "title": "算苗3D TokenPU正式流片 引领国产AI云端大算力芯片再升级",
+      "url": "https://www.qbitai.com/2026/06/436213.html",
+      "source": "量子位",
+      "published": "2026-06-17",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-008",
+      "title": "美国卡内基报告建议组建\"算力联盟\"构建对华算力壁垒 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tSmVzbWtKRUpGM3Ywa3NRMEVIZjUteHNPd3JENXBlcGNyU3Z1WW1qWlZiRWdFNlBVZXptU1d5UEh2Z3M2Mk5mZHBJd2szRWsteUVDaHFVWVZ3dGxESnVzVVBn?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-06-17",
+      "body_snippet": "美国卡内基报告建议组建\"算力联盟\"构建对华算力壁垒 虎嗅",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-009",
+      "title": "增长17.3% 软信业坐稳第三大产业 算力需求井喷成为高速增长核心引擎 保持既有优势之外还在挖掘新增量",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260617/a562073cfbbc4623b7aa57f5b81dfe8e.html",
+      "source": "上海市政府-动态",
+      "published": "2026-06-17",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-010",
+      "title": "拟控股秦淮数据，东阳光\"能源-制造-算力-AI\"产业链版图全面成型 - 中金在线",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HbDdfeGZnMy1HV1I5RmFpS2VxcnVnZWZSOVJVeEh5MzBJNmxkMU1CTWJUZ0lZYzcxZ19yOEJSTTgtaFJ6aVlXWldOOW9HMmhwVzdwUGdwS2QxVTBsNFNYekhVQ1RfeXNoazhZUHRkNV9DUQ?oc=5",
+      "source": "中金在线",
+      "category": "政策",
+      "published": "2026-06-17",
+      "body_snippet": "拟控股秦淮数据，东阳光\"能源-制造-算力-AI\"产业链版图全面成型 中金在线",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-011",
+      "title": "各地抢抓布局太空算力，培育空天领域新质生产力 - xindb.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWVBKRHY5TGpFc0d6U2w5Mk1pSC13bHVyaGQ3clhGeGdPbFRPVWFPUzcwTUJnTU5mV1ItU01GX0JETTIzWW5kaU1UUmJEa1BGXzliVHN3dUlTRzcyeDJIa1M3UmtVX0s3UWNDbFplaWtFQzdFSEZsek4ySHVxZFFLb1pEUQ?oc=5",
+      "source": "xindb.com",
+      "category": "政策",
+      "published": "2026-06-17",
+      "body_snippet": "各地抢抓布局太空算力，培育空天领域新质生产力 xindb.com",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-012",
+      "title": "超10亿！边缘算力赛道诞生今年最大单笔融资 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4ybUJ3QUZTMVBuMmZrM0twdlBMdnlaNmxRWVBOdlJvYnBlRloyXy16bjh6MzVvaldTb2tyQjhvdm5pX2JQRHo2VQ?oc=5",
+      "source": "财联社",
+      "category": "政策",
+      "published": "2026-06-17",
+      "body_snippet": "超10亿！边缘算力赛道诞生今年最大单笔融资 财联社",
+      "_query_boost": 0
+    },
+    {
       "id": "raw-013",
-      "title": "金山云：AI算力相关产品服务上调约15%-50% - MSN",
-      "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNUDRRYTNaZEpseU51bTYta2Zndmd2cVh4dHBqVmtjWjNSX2d6ZXBsUVRYaUZ0YV9aQ004TEhKRTM1blZjVllRT01MNDVDYjFvWGxOMUhXRG15TmhYWUItSXdOX0NIaDF6QzVzTGtLZ2JjaWxrcDJnU3h4UTVkNDJISjNEYnNKd2o4a0FTNzRkWWc1cEhOWm8wa2JUSkgtbVAxSjF5RXJubWh5RUJkRlJ0MVVkWUUtbWI4T1E3WVJfd2FDRzE4ZFlOYWF5YzYxUnVuZWttWnR0b2xtT2FNU3hSN3ZGZmdfZEZpZjZGWVFEZlVTTEZlQ3hHc0h2Tldza2dOWTFZQUF5WHRHMFg0OVJIR014VE5DOUpmUFNDb19oTWxFNTBVUzlPNHlzUzk4RkZ3ZTBzb1dKSjh6d1pBVXNmb3k3Ul95T2YyZFFhbXlVOU9EaG5OR1RkVDhJeDEzYWRnYldUZXZxZzJNODFTTGhHbHZFbTNoWGJlY0EzZk56bGI0c1hWeC04WFl3bVg1akpma1dWcTBFYjZiSFJ1d1N0Y1hKbWhYZw?oc=5",
-      "source": "MSN",
-      "category": "竞品",
-      "published": "2026-06-12",
-      "body_snippet": "金山云：AI算力相关产品服务上调约15%-50% MSN",
+      "title": "金融展直击：国产大算力芯片抢眼 - 电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ua3pZemlzc0MwMjhoeTczUVZfODVna3Z5NFBUdmRkTFJpR3RmVThJTE5HOUMyMXlHNkhQNDNEeThWOVlQc0k1SklVN01yTFB5SElV?oc=5",
+      "source": "电子工程专辑",
+      "category": "政策",
+      "published": "2026-06-17",
+      "body_snippet": "金融展直击：国产大算力芯片抢眼 电子工程专辑",
       "_query_boost": 0
     },
     {
       "id": "raw-014",
+      "title": "浙大&amp;阿里联合发布大模型Agent资源分配新范式|计算机科学|阿里云|Token|开源模型|经济_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi3ARBVV95cUxNUV9YUVUyczdnbGI5UXctMVlFQVBsZGh1R19VTUFCT1VIQmZRdXpfWEVzNWlheUhROUwwSUZ6Zk5OU3BVcFBSUzhFTXBYVDdETHZhMmlRd1VDT1Y2MTM0eEk0czVqdVF5MzZlOWstMGIzZWYwNTZYY3NaVS1WYi16YXlqMUlwR25zWkYzeG12Ykh2MTNxZDFFakhuYzl0a2ROS0JtOEZtNUplaWpQSWlzcGNuYnVNc3ZnM2lDWURwaHF6T0VBcVRiaWhpallnOEY1aWdOVnJOUFIwMU5Yc1JGX1JvOFo1QWlfZ3hBemJvcXR3QkdBRm5ibFViQnJtQXd6X0VoWjdFQkptQjhvbjdSdENoTUpvYUtvUkFmVHlDa1pWRjVVaXJfemxWZ0pmZnpCcEJTaG42eG55Y1VGcS1TUkJMY21GRnBmbHJPM1hzTHQ4a0pGa1lXNkNMeUR4ZVdqSDBWdEJSdUxydG0zNWJCLTkxRUQzUjU3b2MwdzBQNVdHRENYZkRXVkhzTmJfT1FWdHZ1am5zTm4xRTc0ekdWUlQzOEVhY3NPSWp1N1NHT1ZNLXdSSC10UUY0OWlEcEw1YzNsekVjNGR1VFZlcVVGdU5KN3ZmTVV1VGhZbnh6WlFGVmZ2REQ4Q29OR0d3bjdxWWs0YjdOTVFOal8wZDRpbWtrcGtEY2dkTTE3dVRzRUZwcGsyc3ZfbjBmanVqcGFTNk9XZVhIdXZ6Yk5mQk5jY1lJbXp2QzhLZmxRTUpnQlVMNWZVRmVGSEhKM3VjNUk2ZzhzeW5yUFNmVXY0?oc=5",
+      "source": "新浪财经",
+      "category": "技术",
+      "published": "2026-06-16",
+      "body_snippet": "浙大&阿里联合发布大模型Agent资源分配新范式|计算机科学|阿里云|Token|开源模型|经济_手机新浪网 新浪财经",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-015",
       "title": "AI推理时代来临，算力需求正在从中心走向边缘 - 51CTO",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5UZ2RrZHRoT2F1WGN6MmlvQ3hvak90Q1hBVDZmVnNqdG1EUWdCN2ZtSkthM2dEQzUwSGI2b1dib0Q3YVdKaDdLMWNNV3VQS2NTVjlN?oc=5",
       "source": "51CTO",
@@ -145,15 +154,6 @@
       "published": "2026-06-12",
       "body_snippet": "AI推理时代来临，算力需求正在从中心走向边缘 51CTO",
       "_query_boost": 0
-    },
-    {
-      "id": "raw-015",
-      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
-      "url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
-      "source": "NVIDIA Blog",
-      "published": "2026-06-12",
-      "body_snippet": "",
-      "category": "技术"
     }
   ]
 }
