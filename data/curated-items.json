@@ -1,83 +1,147 @@
 {
-  "generated_at": "2026-06-18T01:02:22.571Z",
-  "week": "2026-W25",
+  "generated_at": "2026-06-22T01:43:49.942Z",
+  "week": "2026-W26",
   "classifier": "deepseek-v4-pro",
   "total_raw": 15,
-  "total_curated": 15,
-  "attend_count": 5,
-  "silent_count": 10,
+  "total_curated": 14,
+  "attend_count": 6,
+  "silent_count": 8,
   "items": [
     {
-      "id": "raw-001",
-      "title": "“Token工厂”硅基流动，拿下超20亿元B轮融资 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWEtfVlMwVkRlZnkxNVdLSXdZQXh0dml5bFlFSDl6LTRjS3laV1ROS18yVVBqSnBhZWhjYUY4OWE0Rl9pa1hkM2dwZmktclFLaTJ3YnV0ZkdETU8yWWRGN19jSW5jVXJkYzZUdjFzNGViVm9qeDRDRWtJVVJoNmt2YkZhS2NHa0tycGdZWGJRNVJWZ3JD?oc=5",
-      "source": "21财经",
+      "id": "raw-2",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
       "category": "竞品",
-      "published": "2026-06-17",
-      "body_snippet": "“Token工厂”硅基流动，拿下超20亿元B轮融资 21财经",
-      "_query_boost": 20,
+      "published": "2026-06-21",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "_query_boost": 15,
       "lane": "attend",
       "signals": [
         "⚔️"
       ],
-      "is_deep_read": true,
+      "is_deep_read": false,
       "compass_triggered": [
         "c2"
       ],
-      "summary_cn": "AI推理基础设施提供商硅基流动完成超20亿元B轮融资，资金将用于扩大其“Token工厂”推理服务能力。作为专注模型推理部署的Infra公司，硅基流动直接与PPIO在边缘分布式推理算力供给上形成竞争。\n\n对PPIO影响直接：本次大额融资将显著增强硅基流动在GPU资源采购、推理节点铺建和客户获取方面的火力，可能挤压PPIO在边缘云推理场景的市场空间。但“Token工厂”模式验证了推理即服务赛道的资本认可度，为PPIO港股IPO提供了有利的行业对标叙事。PPIO需在边缘分布式架构的成本优势和低延迟特性上形成差异化壁垒，同时在IPO招股书中清晰区隔与硅基流动等集中式推理平台的技术路线差异。",
+      "summary_cn": "事件：三大运营商集体推出Token套餐，将AI算力封装为标准服务，推动算力“大众化”，意图通过已有的广泛云网基础抢占生成式AI推理市场。\n对PPIO影响：运营商凭借IDC、网络和客户覆盖优势切入算力服务，与PPIO边缘云分布式算力形成正面竞争，可能导致中小企业客户的集中化采购倾斜。但运营商的Token套餐更偏向集中式数据中心体验，PPIO在超低延迟、本地推理以及异构芯片纳管上具备差异化竞争力，可重点布局对时延敏感的实时交互场景，避免与大厂进行纯GPU Token的价格战。",
       "ppio_signal": {
-        "positive": "推理Infra赛道获得超20亿元大额融资，验证市场需求和资本认可，为PPIO港股IPO提供对标叙事支撑。",
-        "risk": "竞争对手资金实力大幅增强，可能在GPU资源争夺和客户抢夺上对PPIO构成直接压力，削弱价格竞争力。"
+        "positive": "运营商入场教育市场，加速AI算力普及化，利好边缘推理的整体需求增长；PPIO的低延迟分布式架构优势得以凸显。",
+        "risk": "运营商利用其网络和资金优势可能压低Token单价，挤压中小算力平台利润空间，导致PPIO在通用推理市场的获客成本上升。"
       }
     },
     {
-      "id": "raw-002",
-      "title": "月之暗面寻求20亿美元融资，Kimi估值300亿背后大模型估值逻辑生变！ - blog.csdn.net",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5fQl84ODlmWkZoOXo0V3RYdU96LVJXMVc2bldSTTdqUXJDQ1BtUHdMM25VakxHcmRyQk5FNUdTQnFvSlg5Mk9waGgxaVZtV1RyZUN1V2hFdzk3M20tTU4xUDRibGF0Zm51TEow?oc=5",
-      "source": "blog.csdn.net",
-      "category": "资本",
-      "published": "2026-06-13",
-      "body_snippet": "月之暗面寻求20亿美元融资，Kimi估值300亿背后大模型估值逻辑生变！ blog.csdn.net",
+      "id": "raw-3",
+      "title": "曝字节跳动加码国产算力：洽谈采购天数智芯 5 万颗推理芯片，互联网大厂竞速算力基建 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVzZMQ1h6UkhWeW1XQUdWbGVIY0ZoMWttX2JjYXd3aDN2V0JoS3daV3lOLUxVVVVuWDhYZHhQTkRScnYwazFYanNNbzFEcHJLQnlBekVqalUwTG4xazJ2UlFNYUpVQjl6WHpHdllsNm1fei0wM19yUHpjekVwNzJ0eVJR?oc=5",
+      "source": "手机新浪网",
+      "category": "竞品",
+      "published": "2026-06-17",
+      "body_snippet": "曝字节跳动加码国产算力：洽谈采购天数智芯 5 万颗推理芯片，互联网大厂竞速算力基建 手机新浪网",
+      "_query_boost": 15,
+      "lane": "attend",
+      "signals": [
+        "⚔️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "事件：字节跳动被曝洽谈采购天数智芯5万颗推理芯片，加大自建算力基础设施，用于支持内部AI业务及可能的对外服务，反映互联网大厂竞速算力基建态势。\n对PPIO影响：大厂自持推理算力规模的扩大，可能减少对第三方分布式推理服务的采购需求，直接分食潜在客户市场。然而，国产芯片异构生态复杂，PPIO以异构算力调度能力可成为大厂国产芯片纳管的合作伙伴。此外，大规模采购会进一步挤占国产芯片供应，中小平台芯片资源获取难度增大，凸显PPIO汇聚碎片化闲置算力的平台价值。",
+      "ppio_signal": {
+        "positive": "国产芯片生态愈加多元，PPIO具备的异构算力纳管能力可转化为面向大厂的算力整合方案机会。",
+        "risk": "头部互联网企业自建推理算力集群，减少外部算力采购，可能缩减PPIO目标客群的长期需求总量。"
+      }
+    },
+    {
+      "id": "raw-4",
+      "title": "“Token工厂”硅基流动，拿下超20亿元B轮融资 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM25xZkJucjlOYm14c1lXbVJLQ291YnYwOHdTRGlXNmVvYkZfdjVXWW9HTlhvcV9fbkplV3VZeVgtZ19Na2c1LXZXZXh4OUNLNV9Eb25pQ0JiNjhmdS1CQzJJNTY4U3BEQzl1ZWFNV21OaUg2eFlhUnJKLVVSeFNFS2dzdlZKRmtWRGVPYXJQZw?oc=5",
+      "source": "21财经",
+      "category": "竞品",
+      "published": "2026-06-16",
+      "body_snippet": "“Token工厂”硅基流动，拿下超20亿元B轮融资 21财经",
       "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "⚔️",
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "事件：AI推理服务商硅基流动完成超20亿元B轮融资，定位“Token工厂”，主攻大模型API服务，成为AI Infra领域又一独角兽。\n对PPIO影响：硅基流动与PPIO同处AI Infra层，在推理服务上存在客户重叠与直接竞争；巨额融资将使其加速扩张规模并可能发起价格战，对毛利率产生压力。另一方面，赛道大额融资验证行业高景气度，对PPIO港股IPO估值构成积极参考。PPIO也可探索与硅基流动的上下游合作，为其提供底层分布式算力调度。",
+      "ppio_signal": {
+        "positive": "行业大额融资事件不断，有力验证AI算力服务赛道热度，为PPIO的IPO故事提供估值锚点。",
+        "risk": "硅基流动大规模融资后可能以低价策略抢占推理服务市场，与PPIO形成直接竞争，压缩利润空间。"
+      }
+    },
+    {
+      "id": "raw-5",
+      "title": "绿电直连集群已“卷”至GW级 万亿算力网投资周期下数据中心分化加剧 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5scHdJbEhmUDA4X0w3MjdjUmx2TS05OC1ZaER3NHZJektRTUNaVmNWRzRUcmJ4RlRVMWtiS25xbzFES2htTTNNVg?oc=5",
+      "source": "财联社",
+      "category": "资本",
+      "published": "2026-06-19",
+      "body_snippet": "绿电直连集群已“卷”至GW级 万亿算力网投资周期下数据中心分化加剧 财联社",
+      "_query_boost": 0,
       "lane": "silent",
       "signals": [
         "💰"
       ],
       "is_deep_read": false,
       "compass_triggered": [
-        "c3"
+        "c2"
       ],
-      "summary_cn": "大模型公司月之暗面寻求20亿美元融资，估值达300亿美元，反映AI应用层资本热情持续高涨，上游算力需求预期获支撑。",
+      "summary_cn": "万亿算力网投资推动下，绿电直连数据中心集群规模达GW级，行业分工加剧，超大规模与边缘计算两极分化，边缘节点的分布式价值受到关注。",
       "ppio_signal": null
     },
     {
-      "id": "raw-003",
-      "title": "欧盟推出技术主权一揽子方案 - Sina finance",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9QVXYwcVlzeU05bkxvOEI3cm5lV0YtS0RhMGxWR0djdTVuTkNvcURBQmFfMzV3dTZ5bk5SYjdVS1RTYnB4WHAxVzhLRGVQRlJjSE9hSHdwaFVVYy00aWhvN2JGNE1fOVZDR0RtczZtdzg5SUxv?oc=5",
-      "source": "Sina finance",
-      "category": "海外",
-      "published": "2026-06-15",
-      "body_snippet": "欧盟推出技术主权一揽子方案 Sina finance",
-      "_query_boost": 25,
+      "id": "raw-1",
+      "title": "大模型发展重塑AI算力运营模式 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QcHpqaFRHTkJIV3d0Zml0Ui0xYjZmUlF6R1c3cG1kbnFvMm5helI2VmZlTWxndl9FYWJHZHhJTURwd05qMlNHNk9SUGZDNXNZdjBSSnRvaU9qTlYtVHp3czd1Y1BDaHBpUzA1NDk3aEY?oc=5",
+      "source": "中国科技网",
+      "category": "技术",
+      "published": "2026-06-18",
+      "body_snippet": "大模型发展重塑AI算力运营模式 中国科技网",
+      "_query_boost": 15,
       "lane": "silent",
       "signals": [
-        "🌏"
+        "🔬"
       ],
       "is_deep_read": false,
-      "compass_triggered": [
-        "c3"
-      ],
-      "summary_cn": "欧盟推出技术主权一揽子方案，强化数字基础设施自主可控，长期可能影响中国云厂商在欧洲的节点部署和数据合规策略。",
+      "compass_triggered": [],
+      "summary_cn": "大模型发展推动AI算力运营模式重塑，可能涉及从集中式到分布式的转变，但具体影响待观察。",
       "ppio_signal": null
     },
     {
-      "id": "raw-004",
-      "title": "国家发改委：积极吸引社会资本参与“六张网”建设 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNEpUQVhMOHMybVNzd3FwUWtUNUtHcVM2bkh0Q0FhcnFwMnM0cnhEZi1qb3Z0am12V1lTV09lQ1RVY1FOWnJyQm52T1FVSGVyOU1KQy1IT2JDbDRTX0NEWXNHbmgyWnJZOUY0NjBIYnh3bDN6Qk05SVppcFpRWHhCLXVjcjk0S051T0FCWlV5MA?oc=5",
+      "id": "raw-2",
+      "title": "智谱GLM-5.2上线开源_新浪新闻 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAzWHlMS3RmYzdZdDY3NkZHQmlUUW13UFFCRHVrUUN4NTU5NW84NGFCNE82NG9VMGdMTjVhVE9IRGZzLUc4LTRqaE81OEhLeGdHMThxQnZqLS1aekR1LVg4OFpFSQ?oc=5",
+      "source": "手机新浪网",
+      "category": "技术",
+      "published": "2026-06-17",
+      "body_snippet": "智谱GLM-5.2上线开源_新浪新闻 手机新浪网",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "智谱发布GLM-5.2开源模型，模型能力跃升可能进一步推高推理算力需求，利好算力服务商。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-3",
+      "title": "数万亿元，为何投向这“六张网”？ - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVC0yRVhuM2E1WEFtMUlPN3h6NlNTNV9TVlo2QXVYTjN2VmdmeUM0eWcwbzBXTjF1bXQxN01xNGZFM1h5TWV2MnRldE9RS3NrdGliME5yRXpKa1VrTHZvbmNUcTM5cHFzdW1MNDFRR2J6bTIyZDZ1R2pSa2MzRF9wcWxoODBjcGFmVlgtVktzUQ?oc=5",
       "source": "21财经",
       "category": "政策",
-      "published": "2026-06-17",
-      "body_snippet": "国家发改委：积极吸引社会资本参与“六张网”建设 21财经",
+      "published": "2026-06-18",
+      "body_snippet": "数万亿元，为何投向这“六张网”？ 21财经",
       "_query_boost": 0,
       "lane": "attend",
       "signals": [
@@ -87,21 +151,39 @@
       "compass_triggered": [
         "c1"
       ],
-      "summary_cn": "国家发改委提出积极吸引社会资本参与“六张网”建设，涵盖算力网、数据网等新型基础设施网络。这是部委层面对社会资本进入数字基础设施领域的最新鼓励信号。\n\n对PPIO构成显著政策利好：边缘云分布式算力属于算力网的关键组成部分，政策明确拓宽社会资本准入通道，有助于PPIO在后续算力节点建设中获得地方政府配套支持和更优的融资环境。港股IPO进程中可将此作为国家战略支撑的有力背书，强化监管沟通中的合规确定性。但需关注社会资本参与机制的具体实施细则，以及是否伴随更严格的运营资质审查。",
+      "summary_cn": "媒体报道国家拟投入数万亿元建设“六张网”，其中可能包含算力网等新型基础设施，旨在全面提升数字化发展水平。该政策信号表明算力基础设施被纳入国家级战略投资方向，边缘计算节点作为算力网络的重要组成部分，有望受益于资金与政策倾斜。对PPIO而言，边缘云分布式算力平台将获得更有利的政策环境和市场需求，加速节点部署和商业化落地，同时提升公司在港股IPO时的政策合规形象与估值吸引力。风险在于政策落地节奏与执行力度可能不及预期，以及大型云厂商可能获得更多份额挤压初创空间，需持续跟踪具体细则以优化资源分配。",
       "ppio_signal": {
-        "positive": "部委政策明确支持社会资本参与算力网建设，为PPIO边缘云业务扩张提供政策正当性和融资便利，直接利好IPO叙事。",
-        "risk": "社会资本涌入可能加剧算力网节点资源的获取竞争，需密切关注资质准入门槛变化对运营合规成本的影响。"
+        "positive": "算力基础设施获得国家级投资背书，边缘节点有望纳入整体规划，利好公司扩张及IPO估值",
+        "risk": "政策落地不确定性及资源向头部集中风险，需持续关注执行细节"
       }
     },
     {
-      "id": "raw-005",
-      "title": "乌兹别克斯坦可用区上线，优刻得全球节点达到36个 - Sohu",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb2xKRlUwMWVsek05UFdWNDdtOWUxWHFPeEJZU3M4cTYyZjBSOHV2OFhtNGVhaU9hekxack1XMVNIWi1hTHdObVRnZ3hsUDJNeG5adDVrRnRFaV8xdmRCTnQ4UFlUcDh0WU0ySjcxSHRHaGNqalhoaW95NVg3ZTcxVFhkdzhDczRi?oc=5",
-      "source": "Sohu",
+      "id": "raw-4",
+      "title": "太空算力：天地协同新范式与战略路径 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5EbThBdVY1U2c2Y2FCcFMyRWx0TmdJUXdlaTNsRWk3VEpwajB5dlJQT1AwQ00zZVZVeDZUUm9WNUkzb1NhcExIUlB6OTE0QmEyU1E?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-06-19",
+      "body_snippet": "太空算力：天地协同新范式与战略路径 虎嗅",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "探讨太空算力天地协同新范式，属于远期基础设施构想，短期对地面分布式算力直接影响有限。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-5",
+      "title": "无问芯穹CEO夏立雪：Token进入5G阶段，AI型组织将爆发 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE80eldmZmIxZnUzMFljNE9jQ2NpVE9WY3RrWmZiQk5YVXQ2QmxUbTBrU19BX3YtMlotQVAtRUFvVVpVQnpyS2dfd3JOdVNuOTBxc2c?oc=5",
+      "source": "虎嗅",
       "category": "竞品",
-      "published": "2026-06-17",
-      "body_snippet": "乌兹别克斯坦可用区上线，优刻得全球节点达到36个 Sohu",
-      "_query_boost": 15,
+      "published": "2026-06-19",
+      "body_snippet": "无问芯穹CEO夏立雪：Token进入5G阶段，AI型组织将爆发 虎嗅",
+      "_query_boost": 0,
       "lane": "attend",
       "signals": [
         "⚔️"
@@ -110,54 +192,37 @@
       "compass_triggered": [
         "c2"
       ],
-      "summary_cn": "优刻得在乌兹别克斯坦上线可用区，全球节点总数达到36个。优刻得是国内中立的云计算服务商，与PPIO在分布式算力服务上存在潜在竞争。\n\n短期对PPIO直接影响有限，PPIO当前聚焦国内边缘云场景而非海外节点铺设。但优刻得持续扩大基础设施版图，展现其资源型云厂商的扩张能力，可能在客户获取时形成“全栈云服务”的竞争叙事。PPIO需在IPO材料中强调自身“轻资产、分布式、深边缘”的差异化定位，而非与重资产公有云厂商比拼节点数量。",
+      "summary_cn": "无问芯穹CEO夏立雪提出Token进入5G阶段，意味着AI推理请求将像5G流量一样爆发增长，AI型组织将大量涌现。这显示该竞品正重点布局推理算力市场，强调Token时代的低延迟、高并发等需求，与PPIO边缘云分布式算力的定位高度重叠。对PPIO而言，竞品正式提出类似概念，可能加速市场竞争。PPIO需强化自身差异化优势，如边缘节点覆盖密度、成本控制、混合云协同等，同时在港股IPO叙事中突出技术先进性和市场先发优势。风险在于无问芯穹融资和资源能力可能抢占客户，需要密切关注其产品落地与客户进展。",
       "ppio_signal": {
-        "positive": "竞品海外扩张不直接触碰PPIO国内边缘云腹地，为PPIO聚焦打磨分布式架构和成本效率留出窗口期。",
-        "risk": "优刻得若将海外经验反哺国内边缘节点布局，中长期可能形成对PPIO边缘场景的迂回竞争压力。"
+        "positive": "竞品验证推理算力市场巨大，PPIO可借助先发布局和经验积累巩固地位",
+        "risk": "无问芯穹明确瞄准同一市场，可能引发价格战或客户争夺，影响盈利预期"
       }
     },
     {
       "id": "raw-1",
-      "title": "刚刚，北京建了一座AI工厂：目标10万P算力，日产10万亿Token！",
-      "url": "https://www.qbitai.com/2026/06/436456.html",
-      "source": "量子位",
-      "published": "2026-06-17",
-      "body_snippet": "",
+      "title": "谷歌TPU加速崛起：AI推理时代算力格局生变 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1RWEpscllldC1JRnpQcXdmcnFxaTJHUGVjZW5OdGRkMTlhUldjM0RqZVQ2TEloNF93c2tiYTd2Wi1GMjJvNUhGcTc2OFdnSTUzM1NQbw?oc=5",
+      "source": "虎嗅",
       "category": "技术",
+      "published": "2026-06-18",
+      "body_snippet": "谷歌TPU加速崛起：AI推理时代算力格局生变 虎嗅",
+      "_query_boost": 0,
       "lane": "silent",
       "signals": [
         "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
-        "c2"
+        "c2",
+        "c3"
       ],
-      "summary_cn": "北京建设目标10万P算力的AI工厂，日产10万亿Token，超大规模集中式算力供给加速落地。PPIO需关注集中式算力与分布式边缘算力的竞合关系。",
+      "summary_cn": "谷歌TPU在AI推理时代加速崛起，可能重塑算力市场格局，边缘推理需求或随之增长。PPIO需关注技术路线变化对分布式算力部署的影响。",
       "ppio_signal": null
     },
     {
       "id": "raw-2",
-      "title": "算苗3D TokenPU正式流片 引领国产AI云端大算力芯片再升级",
-      "url": "https://www.qbitai.com/2026/06/436213.html",
-      "source": "量子位",
-      "published": "2026-06-17",
-      "body_snippet": "",
-      "category": "技术",
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1"
-      ],
-      "summary_cn": "国产AI云端大算力芯片“算苗3D TokenPU”正式流片，推动云端推理芯片国产替代。PPIO作为算力平台可关注国产芯片供应扩大带来的成本优化机会。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-3",
       "title": "美国卡内基报告建议组建\"算力联盟\"构建对华算力壁垒 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tSmVzbWtKRUpGM3Ywa3NRMEVIZjUteHNPd3JENXBlcGNyU3Z1WW1qWlZiRWdFNlBVZXptU1d5UEh2Z3M2Mk5mZHBJd2szRWsteUVDaHFVWVZ3dGxESnVzVVBn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Ba0tfTnNzb2ZaZjUzbzFxOXk4N2hCXzBfa09aWER4RV96dW9vX3h5TXhOWXRBN0lfNVE4WUFydFo5R2YzRzhTT3FQVG0xVVBKWnZZTw?oc=5",
       "source": "虎嗅",
       "category": "海外",
       "published": "2026-06-17",
@@ -171,154 +236,69 @@
       "compass_triggered": [
         "c3"
       ],
-      "summary_cn": "美国卡内基报告建议组建“算力联盟”构建对华算力壁垒，进一步收紧高性能算力出口管制。对PPIO而言，海外高端芯片获取难度加大，但可能刺激国内分布式算力替代需求。",
+      "summary_cn": "美国卡内基报告建议组建“算力联盟”以构建对华算力壁垒，可能加剧国际算力供应链脱钩，影响中国AI企业获取先进算力，对PPIO港股IPO的外部环境构成潜在风险。",
       "ppio_signal": null
     },
     {
-      "id": "raw-4",
-      "title": "增长17.3% 软信业坐稳第三大产业 算力需求井喷成为高速增长核心引擎 保持既有优势之外还在挖掘新增量",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260617/a562073cfbbc4623b7aa57f5b81dfe8e.html",
-      "source": "上海市政府-动态",
-      "published": "2026-06-17",
-      "body_snippet": "",
+      "id": "raw-3",
+      "title": "我国形成“8＋10＋3”算力空间布局 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83YVZrd2dPTzV0YnlxYnB6dUV2NkRqN2t4ME1rNTBmWmhONlhRMGJmTG9kLTdjLVY5VEhQVWw1Nk9LUV9vd2RGX0tKbWJiWGI1V0hoYVJjTFNhU3FUWjlSTENFRTFyZmtjVUUxeGt6NDN0Y3o4RFdkaQ?oc=5",
+      "source": "新浪财经",
       "category": "政策",
+      "published": "2026-06-21",
+      "body_snippet": "我国形成“8＋10＋3”算力空间布局 新浪财经",
+      "_query_boost": 0,
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "事件：近日国家正式确立“8+10+3”全国一体化算力网络布局，即8个国家算力枢纽节点、10个国家数据中心集群和3个新型互联网交换中心。该布局旨在统筹东西部算力资源，推动数据中心集约化、绿色化发展，并明确鼓励在枢纽节点外围部署边缘计算节点，实现云边协同。对PPIO的影响：这一顶层设计为PPIO的分布式边缘云战略提供了直接政策支撑。一方面，国家鼓励的边缘计算节点部署与PPIO商业模式高度契合，有利于其加速在枢纽周边区域的节点落地，抢占边缘算力红利；另一方面，西部低成本算力的规模化供给能显著降低PPIO的上游算力获取成本，增强其供给弹性和价格竞争力。在港股IPO背景下，国家算力战略的明确支持将强化投资者对公司合规性和长期成长性的信心，但需警惕枢纽节点内大型云厂商可能凭借资源优势挤压独立边缘云服务商的生存空间。",
+      "ppio_signal": {
+        "positive": "国家算力布局明确支持边缘计算，PPIO可借势加速节点扩张并降低采购成本，强化IPO投资故事。",
+        "risk": "大型云厂商在枢纽节点的集中布局可能加剧竞争，独立边缘云需差异化运营以保持优势。"
+      }
+    },
+    {
+      "id": "raw-4",
+      "title": "AI 算力需求全面爆发，国产芯片集群携手共建产业新底座 - 富途牛牛",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92eFliR3d6OTI0Y0UzY3ZSVmhNVm92a3g5c2oyZ2cwSS1na1FWSElSZkFoTmtqelVDc1R6RVd1ME1wN3RnRzdJMkNPMXRUQUJsSlE?oc=5",
+      "source": "富途牛牛",
+      "category": "技术",
+      "published": "2026-06-21",
+      "body_snippet": "AI 算力需求全面爆发，国产芯片集群携手共建产业新底座 富途牛牛",
+      "_query_boost": 0,
       "lane": "silent",
       "signals": [
         "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
-        "c1"
+        "c2"
       ],
-      "summary_cn": "上海软信业增长17.3%，算力需求成为核心引擎，地方产业数据印证算力刚需。PPIO边缘云服务符合算力泛在化趋势，可借此利好拓展需求场景。",
+      "summary_cn": "AI算力需求井喷，国产芯片厂商携手构建产业联盟，有望提升国产算力供给能力。边缘云平台如PPIO可从中受益，降低对海外芯片依赖并获得成本优势。",
       "ppio_signal": null
     },
     {
       "id": "raw-5",
-      "title": "拟控股秦淮数据，东阳光\"能源-制造-算力-AI\"产业链版图全面成型 - 中金在线",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HbDdfeGZnMy1HV1I5RmFpS2VxcnVnZWZSOVJVeEh5MzBJNmxkMU1CTWJUZ0lZYzcxZ19yOEJSTTgtaFJ6aVlXWldOOW9HMmhwVzdwUGdwS2QxVTBsNFNYekhVQ1RfeXNoazhZUHRkNV9DUQ?oc=5",
-      "source": "中金在线",
-      "category": "资本",
-      "published": "2026-06-17",
-      "body_snippet": "拟控股秦淮数据，东阳光\"能源-制造-算力-AI\"产业链版图全面成型 中金在线",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "东阳光拟控股秦淮数据，构建“能源-制造-算力-AI”全产业链，传统企业跨界整合算力资源。PPIO需警惕产业资本进入带来的竞争格局变化。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-news1",
-      "title": "各地抢抓布局太空算力，培育空天领域新质生产力 - xindb.com",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWVBKRHY5TGpFc0d6U2w5Mk1pSC13bHVyaGQ3clhGeGdPbFRPVWFPUzcwTUJnTU5mV1ItU01GX0JETTIzWW5kaU1UUmJEa1BGXzliVHN3dUlTRzcyeDJIa1M3UmtVX0s3UWNDbFplaWtFQzdFSEZsek4ySHVxZFFLb1pEUQ?oc=5",
-      "source": "xindb.com",
-      "category": "政策",
-      "published": "2026-06-17",
-      "body_snippet": "各地抢抓布局太空算力，培育空天领域新质生产力 xindb.com",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1"
-      ],
-      "summary_cn": "各地加快太空算力布局，培育空天领域新质生产力，政策引导算力基础设施向天基延伸，为未来泛在边缘算力开辟新场景，但短期内与PPIO地面分布式边缘云业务直接关联有限。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-news2",
-      "title": "超10亿！边缘算力赛道诞生今年最大单笔融资 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4ybUJ3QUZTMVBuMmZrM0twdlBMdnlaNmxRWVBOdlJvYnBlRloyXy16bjh6MzVvaldTb2tyQjhvdm5pX2JQRHo2VQ?oc=5",
-      "source": "财联社",
-      "category": "资本",
-      "published": "2026-06-17",
-      "body_snippet": "超10亿！边缘算力赛道诞生今年最大单笔融资 财联社",
-      "_query_boost": 0,
-      "lane": "attend",
-      "signals": [
-        "⚔️",
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "边缘算力赛道出现年内最大单笔融资，金额超过10亿元，投资方未披露具体被投企业，但事件本身标志着资本对边缘算力基础设施的强烈追捧。\n\n对PPIO而言，这是极大利好：赛道热度与资本认可度直接抬升了公司港股IPO的估值预期，证明边缘云分布式算力正进入爆发前夜。但风险同样存在——大额融资意味着潜在竞争对手将获得充足弹药，可能在客户获取、节点建设和定价上发起更激烈竞争。PPIO需在IPO前加速扩大客户规模、强化技术壁垒，并在招股书中突出自身在真实边缘场景下的运营能力和成本优势，以化解资本洪流带来的冲击。",
-      "ppio_signal": {
-        "positive": "边缘算力赛道大额融资证明市场需求与资本信心，有利于PPIO港股IPO获得更高估值和投资者兴趣。",
-        "risk": "竞争对手获得巨额资金后可能发动价格战或加速节点扩张，蚕食PPIO市场份额，IPO窗口期内竞争烈度陡增。"
-      }
-    },
-    {
-      "id": "raw-news3",
-      "title": "金融展直击：国产大算力芯片抢眼 - 电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ua3pZemlzc0MwMjhoeTczUVZfODVna3Z5NFBUdmRkTFJpR3RmVThJTE5HOUMyMXlHNkhQNDNEeThWOVlQc0k1SklVN01yTFB5SElV?oc=5",
-      "source": "电子工程专辑",
-      "category": "技术",
-      "published": "2026-06-17",
-      "body_snippet": "金融展直击：国产大算力芯片抢眼 电子工程专辑",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1"
-      ],
-      "summary_cn": "金融展上国产大算力芯片集中亮相，显示国产AI芯片替代进程加快，未来有望降低边缘节点服务器硬件成本，对PPIO供应链和成本控制构成正面影响。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-news4",
-      "title": "浙大&amp;阿里联合发布大模型Agent资源分配新范式|计算机科学|阿里云|Token|开源模型|经济_手机新浪网 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi3ARBVV95cUxNUV9YUVUyczdnbGI5UXctMVlFQVBsZGh1R19VTUFCT1VIQmZRdXpfWEVzNWlheUhROUwwSUZ6Zk5OU3BVcFBSUzhFTXBYVDdETHZhMmlRd1VDT1Y2MTM0eEk0czVqdVF5MzZlOWstMGIzZWYwNTZYY3NaVS1WYi16YXlqMUlwR25zWkYzeG12Ykh2MTNxZDFFakhuYzl0a2ROS0JtOEZtNUplaWpQSWlzcGNuYnVNc3ZnM2lDWURwaHF6T0VBcVRiaWhpallnOEY1aWdOVnJOUFIwMU5Yc1JGX1JvOFo1QWlfZ3hBemJvcXR3QkdBRm5ibFViQnJtQXd6X0VoWjdFQkptQjhvbjdSdENoTUpvYUtvUkFmVHlDa1pWRjVVaXJfemxWZ0pmZnpCcEJTaG42eG55Y1VGcS1TUkJMY21GRnBmbHJPM1hzTHQ4a0pGa1lXNkNMeUR4ZVdqSDBWdEJSdUxydG0zNWJCLTkxRUQzUjU3b2MwdzBQNVdHRENYZkRXVkhzTmJfT1FWdHZ1am5zTm4xRTc0ekdWUlQzOEVhY3NPSWp1N1NHT1ZNLXdSSC10UUY0OWlEcEw1YzNsekVjNGR1VFZlcVVGdU5KN3ZmTVV1VGhZbnh6WlFGVmZ2REQ4Q29OR0d3bjdxWWs0YjdOTVFOal8wZDRpbWtrcGtEY2dkTTE3dVRzRUZwcGsyc3ZfbjBmanVqcGFTNk9XZVhIdXZ6Yk5mQk5jY1lJbXp2QzhLZmxRTUpnQlVMNWZVRmVGSEhKM3VjNUk2ZzhzeW5yUFNmVXY0?oc=5",
-      "source": "新浪财经",
-      "category": "技术",
+      "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+      "url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+      "source": "NVIDIA Blog",
       "published": "2026-06-16",
-      "body_snippet": "浙大&阿里联合发布大模型Agent资源分配新范式|计算机科学|阿里云|Token|开源模型|经济_手机新浪网 新浪财经",
-      "_query_boost": 0,
-      "lane": "attend",
-      "signals": [
-        "⚔️",
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "浙江大学与阿里云联合提出面向大模型Agent的资源分配新范式，通过优化的调度算法和动态优先级策略，提升多Agent场景下的推理效率与Token利用率。该范式可能涉及异构计算资源池化、弹性伸缩等技术路径。\n\n对PPIO而言，阿里云作为边缘云和AI infra领域的直接竞争者，发布资源分配新范式意味着其在分布式推理调度上投入巨大，可能对PPIO自研的调度系统构成技术对标压力。如果该范式开源或成为行业事实标准，PPIO的调度引擎独特性将被削弱。PPIO需密切跟踪该研究的技术细节，评估其与自身方案在真实边缘异构环境下的性能差异，并在IPO技术叙述中强调自身在弱网、受限设备等真实场景下的工程落地能力，避免陷入与云巨头纯算法参数的对比。",
-      "ppio_signal": {
-        "positive": "新范式提供了优化资源分配的思路，可借鉴改进PPIO分布式推理调度系统，提升整体竞争力。",
-        "risk": "阿里云直接投入大模型Agent资源分配领域，可能形成技术壁垒或开源社区生态，挤压PPIO的技术叙事空间和开发者生态。"
-      }
-    },
-    {
-      "id": "raw-news5",
-      "title": "AI推理时代来临，算力需求正在从中心走向边缘 - 51CTO",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5UZ2RrZHRoT2F1WGN6MmlvQ3hvak90Q1hBVDZmVnNqdG1EUWdCN2ZtSkthM2dEQzUwSGI2b1dib0Q3YVdKaDdLMWNNV3VQS2NTVjlN?oc=5",
-      "source": "51CTO",
+      "body_snippet": "",
       "category": "技术",
-      "published": "2026-06-12",
-      "body_snippet": "AI推理时代来临，算力需求正在从中心走向边缘 51CTO",
-      "_query_boost": 0,
       "lane": "silent",
       "signals": [
         "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
-        "c1"
+        "c2"
       ],
-      "summary_cn": "技术分析指出AI推理时代的算力需求正从云端中心向边缘转移，这一趋势直接印证了PPIO分布式边缘云的核心业务逻辑，有利于增强投资者对行业长坡厚雪属性的认知。",
+      "summary_cn": "NVIDIA Blackwell在MLPerf Training 6.0中展现断崖式性能领先，巩固训练算力霸主地位。这一突破或将加速大模型迭代，推高推理侧边缘算力需求，PPIO作为分布式推理基础设施或间接受益。",
       "ppio_signal": null
     }
   ]

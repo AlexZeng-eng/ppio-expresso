@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-06-18T01:03:07.640Z",
-  "date": "2026-06-18",
-  "date_label": "2026-06-18",
+  "generated_at": "2026-06-22T01:44:40.892Z",
+  "date": "2026-06-22",
+  "date_label": "2026-06-22",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 2,
     "📜": 0,
     "⚔️": 4,
-    "💰": 3,
-    "🌏": 2,
+    "💰": 2,
+    "🌏": 1,
     "🔬": 6
   },
   "speed_read": {
     "positive": [
-      "推理Infra赛道获得超20亿元大额融资，验证市场需求和资本认可，为PPIO港股IPO提供对标叙事支撑。",
-      "部委政策明确支持社会资本参与算力网建设，为PPIO边缘云业务扩张提供政策正当性和融资便利，直接利好IPO叙事。",
-      "竞品海外扩张不直接触碰PPIO国内边缘云腹地，为PPIO聚焦打磨分布式架构和成本效率留出窗口期。"
+      "运营商入场教育市场，加速AI算力普及化，利好边缘推理的整体需求增长；PPIO的低延迟分布式架构优势得以凸显。",
+      "国产芯片生态愈加多元，PPIO具备的异构算力纳管能力可转化为面向大厂的算力整合方案机会。",
+      "行业大额融资事件不断，有力验证AI算力服务赛道热度，为PPIO的IPO故事提供估值锚点。"
     ],
     "risk": [
-      "竞争对手资金实力大幅增强，可能在GPU资源争夺和客户抢夺上对PPIO构成直接压力，削弱价格竞争力。",
-      "社会资本涌入可能加剧算力网节点资源的获取竞争，需密切关注资质准入门槛变化对运营合规成本的影响。",
-      "优刻得若将海外经验反哺国内边缘节点布局，中长期可能形成对PPIO边缘场景的迂回竞争压力。"
+      "运营商利用其网络和资金优势可能压低Token单价，挤压中小算力平台利润空间，导致PPIO在通用推理市场的获客成本上升。",
+      "头部互联网企业自建推理算力集群，减少外部算力采购，可能缩减PPIO目标客群的长期需求总量。",
+      "硅基流动大规模融资后可能以低价策略抢占推理服务市场，与PPIO形成直接竞争，压缩利润空间。"
     ]
   },
   "wind_indicators": {
@@ -35,7 +35,7 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "“Token工厂”硅基流动，拿下超20亿",
+      "title": "三大运营商齐推Token套餐 AI算力“",
       "policy_axis": 0,
       "competition_axis": 0.7,
       "impact_score": 3,
@@ -43,34 +43,42 @@
     },
     {
       "id": "2",
-      "title": "国家发改委：积极吸引社会资本参与“六张网",
-      "policy_axis": 0.6,
+      "title": "曝字节跳动加码国产算力：洽谈采购天数智芯",
+      "policy_axis": 0,
       "competition_axis": 0.7,
-      "impact_score": 4,
+      "impact_score": 3,
       "axis_reason": "规则估算"
     },
     {
       "id": "3",
-      "title": "乌兹别克斯坦可用区上线，优刻得全球节点达",
+      "title": "“Token工厂”硅基流动，拿下超20亿",
       "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 3,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "4",
+      "title": "数万亿元，为何投向这“六张网”？ - 2",
+      "policy_axis": -0.5,
       "competition_axis": 0.1,
       "impact_score": 2,
       "axis_reason": "规则估算"
     },
     {
-      "id": "4",
-      "title": "超10亿！边缘算力赛道诞生今年最大单笔融",
+      "id": "5",
+      "title": "无问芯穹CEO夏立雪：Token进入5G",
       "policy_axis": 0,
       "competition_axis": 0.7,
       "impact_score": 3,
       "axis_reason": "规则估算"
     },
     {
-      "id": "5",
-      "title": "浙大&amp;阿里联合发布大模型Agen",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
+      "id": "6",
+      "title": "我国形成“8＋10＋3”算力空间布局 -",
+      "policy_axis": -0.5,
+      "competition_axis": 0.1,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     }
   ],
@@ -80,9 +88,9 @@
     "components": {
       "policy_tailwind": 16,
       "competitive_pressure": -24,
-      "capital_sentiment": 15,
+      "capital_sentiment": 10,
       "regulatory_risk": 0,
-      "overseas_headwind": -8
+      "overseas_headwind": -4
     },
     "interpretation": "规则估算，仅供参考"
   },
