@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-06-24T02:03:29.033Z",
+  "updated_at": "2026-06-25T01:40:12.006Z",
   "days": [
+    {
+      "date": "2026-06-25",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "signal_summary": {
+        "🏛️": 2,
+        "📜": 0,
+        "⚔️": 2,
+        "💰": 2,
+        "🌏": 2,
+        "🔬": 3
+      },
+      "wind_indicators": {
+        "policy_heat": 4,
+        "competitor_heat": 4,
+        "capital_heat": 3,
+        "overseas_heat": 3,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
+      },
+      "ppio_index": {
+        "score": 55,
+        "delta": 0,
+        "components": {
+          "policy_tailwind": 16,
+          "competitive_pressure": -12,
+          "capital_sentiment": 10,
+          "regulatory_risk": 0,
+          "overseas_headwind": -8
+        },
+        "interpretation": "规则估算，仅供参考"
+      },
+      "item_count": {
+        "total": 9,
+        "attend": 4,
+        "silent": 5
+      },
+      "competitor_updates": []
+    },
     {
       "date": "2026-06-24",
       "mainline": "竞品硅基流动20亿融资与AI算力黑马IPO点燃赛道竞争，算力普惠化政策窗口同时打开，但ODI备案新规给VIE架构出境带来不确定性。",

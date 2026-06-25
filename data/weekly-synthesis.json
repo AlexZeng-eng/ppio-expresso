@@ -1,103 +1,84 @@
 {
-  "generated_at": "2026-06-24T02:03:28.912Z",
-  "date": "2026-06-24",
-  "date_label": "2026-06-24",
-  "mainline": "竞品硅基流动20亿融资与AI算力黑马IPO点燃赛道竞争，算力普惠化政策窗口同时打开，但ODI备案新规给VIE架构出境带来不确定性。",
+  "generated_at": "2026-06-25T01:40:11.899Z",
+  "date": "2026-06-25",
+  "date_label": "2026-06-25",
+  "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 1,
-    "📜": 1,
+    "🏛️": 2,
+    "📜": 0,
     "⚔️": 2,
-    "💰": 1,
-    "🌏": 0,
-    "🔬": 0
+    "💰": 2,
+    "🌏": 2,
+    "🔬": 3
   },
   "speed_read": {
     "positive": [
-      "算力普惠化纳入政策框架，边缘云分布式算力获明确利好",
-      "产业资本加码AI推理赛道，佐证市场需求与高估值逻辑"
+      "工信部高层明确支持AI与算力基础设施，为PPIO边缘云分布式算力业务提供政策背书，有利于IPO阶段的监管沟通与市场叙事。",
+      "运营商推动算力大众化教育市场，为PPIO边缘云创造更大的推理算力需求基数。",
+      "绿色算力政策导向利好PPIO分布式边缘节点，低能耗、贴近用户侧的模式符合政策方向，可成为IPO绿色金融叙事亮点。"
     ],
     "risk": [
-      "竞品硅基流动超20亿元融资直接进入推理服务，挤压PPIO云原生推理市场",
-      "AI算力黑马启动IPO，将引发资本分流与估值对标压力",
-      "对外投资ODI备案强调多部门合规，红筹资金出境面临收紧风险"
+      "政策支持可能伴随更严格的算力安全审查或准入牌照要求，增加合规成本与上市不确定性。",
+      "运营商凭借渠道和价格优势直接竞争，可能挤压PPIO在中小客户市场的份额，影响营收增速和IPO估值。",
+      "大型绿电直连集群可能虹吸客户，且IPO审核中对算力基础设施的能耗合规要求趋严，增加披露和合规成本。"
     ]
   },
   "wind_indicators": {
-    "policy_heat": 3,
+    "policy_heat": 4,
     "competitor_heat": 4,
-    "capital_heat": 4,
-    "overseas_heat": 2,
-    "overall_sentiment": "升温",
-    "summary": "政策利好释放边缘云机遇，但竞品资本运作密集加剧赛道拥挤，ODI趋严增添合规变数。"
+    "capital_heat": 3,
+    "overseas_heat": 3,
+    "overall_sentiment": "平稳",
+    "summary": "规则估算，AI合成不可用时的占位数据。"
   },
-  "competitor_updates": [
-    "硅基流动：完成超20亿元融资，定位“Token工厂”，强化推理服务，与PPIO云原生推理重叠",
-    "AI算力黑马（未具名）：据传启动IPO，可能成为估值对标对象，需持续跟踪其业务模式与规模"
-  ],
+  "competitor_updates": [],
   "item_axes": [
     {
       "id": "1",
-      "title": "深耕“Token工厂”，硅基流动完成新一轮超20亿",
-      "policy_axis": 0,
-      "competition_axis": 0.9,
-      "impact_score": 5,
-      "axis_reason": "直接竞品大额融资，与PPIO推理服务重叠，构成显著竞争威胁"
+      "title": "李乐成在浙江调研新兴产业和未来产业发展",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
     },
     {
       "id": "2",
-      "title": "数字经济与Token产业规范化落地，算力普惠化迎来关键节点",
-      "policy_axis": 0.7,
-      "competition_axis": -0.1,
-      "impact_score": 4,
-      "axis_reason": "普惠算力政策打开边缘云政策窗口，为PPIO创造发展红利"
+      "title": "三大运营商齐推Token套餐 AI算力“",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 3,
+      "axis_reason": "规则估算"
     },
     {
       "id": "3",
-      "title": "AI算力“黑马”要IPO了",
-      "policy_axis": 0,
-      "competition_axis": 0.8,
-      "impact_score": 4,
-      "axis_reason": "同类企业IPO加速资本竞争与估值对标，对PPIO港股上市构成直接压力"
+      "title": "绿电直连集群已“卷”至GW级 万亿算力网",
+      "policy_axis": -0.5,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     },
     {
       "id": "4",
-      "title": "对外投资新规：收购香港公司ODI合规指南",
-      "policy_axis": -0.6,
-      "competition_axis": 0,
+      "title": "无问芯穹CEO夏立雪：Token进入5G",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
       "impact_score": 3,
-      "axis_reason": "ODI备案趋严增加红筹架构资金出境不确定性，可能影响VIE合规与资本运作"
+      "axis_reason": "规则估算"
     }
   ],
   "ppio_index": {
-    "score": 66,
-    "delta": 11,
+    "score": 55,
+    "delta": 0,
     "components": {
-      "policy_tailwind": 35,
-      "competitive_pressure": -18,
-      "capital_sentiment": 12,
-      "regulatory_risk": -8,
-      "overseas_headwind": -5
+      "policy_tailwind": 16,
+      "competitive_pressure": -12,
+      "capital_sentiment": 10,
+      "regulatory_risk": 0,
+      "overseas_headwind": -8
     },
-    "interpretation": "算力普惠政策推高政策顺风，但竞品密集资本运作加剧竞争压力，ODI新规增添合规变数。"
+    "interpretation": "规则估算，仅供参考"
   },
-  "policy_momentum": [
-    {
-      "thread": "算力普惠化",
-      "last_signal": "地方试点示范",
-      "this_signal": "研报确认关键节点",
-      "level_delta": "升级",
-      "interpretation": "从地方探索上升为国家政策框架，边缘云基础设施受益明确。"
-    },
-    {
-      "thread": "跨境资本流动监管",
-      "last_signal": "现行ODI流程",
-      "this_signal": "新规强调多部门协同审核",
-      "level_delta": "升级",
-      "interpretation": "ODI审核全面趋严，增加红筹架构下资金出境难度。"
-    }
-  ],
-  "expected_but_absent": [
-    "人工智能法草案征求意见稿"
-  ],
-  "_generated_by": "deepseek-v4-pro"
+  "policy_momentum": [],
+  "expected_but_absent": [],
+  "_generated_by": "template"
 }
