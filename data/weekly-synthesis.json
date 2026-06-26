@@ -1,84 +1,87 @@
 {
-  "generated_at": "2026-06-25T01:40:11.899Z",
-  "date": "2026-06-25",
-  "date_label": "2026-06-25",
-  "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+  "generated_at": "2026-06-26T01:43:22.661Z",
+  "date": "2026-06-26",
+  "date_label": "2026-06-26",
+  "mainline": "运营商与硅基流动齐推Token化算力服务，竞争直指AI推理中间层；政策端贵州算力平台上线、全链条协同提速，算力基建风口与对手涌入并存。",
   "signal_summary": {
     "🏛️": 2,
     "📜": 0,
     "⚔️": 2,
-    "💰": 2,
-    "🌏": 2,
+    "💰": 1,
+    "🌏": 4,
     "🔬": 3
   },
   "speed_read": {
     "positive": [
-      "工信部高层明确支持AI与算力基础设施，为PPIO边缘云分布式算力业务提供政策背书，有利于IPO阶段的监管沟通与市场叙事。",
-      "运营商推动算力大众化教育市场，为PPIO边缘云创造更大的推理算力需求基数。",
-      "绿色算力政策导向利好PPIO分布式边缘节点，低能耗、贴近用户侧的模式符合政策方向，可成为IPO绿色金融叙事亮点。"
+      "AI政策全链条协同布局提速，算力网络建设获政策资源加码",
+      "贵州算力平台上线，地方算力基建落地标志算力网建设进入实质阶段"
     ],
     "risk": [
-      "政策支持可能伴随更严格的算力安全审查或准入牌照要求，增加合规成本与上市不确定性。",
-      "运营商凭借渠道和价格优势直接竞争，可能挤压PPIO在中小客户市场的份额，影响营收增速和IPO估值。",
-      "大型绿电直连集群可能虹吸客户，且IPO审核中对算力基础设施的能耗合规要求趋严，增加披露和合规成本。"
+      "三大运营商与硅基流动同时主推Token套餐/Token工厂，算力服务化赛道竞争白热化，可能挤压PPIO差异化空间",
+      "澳洲释放AI监管重大改革信号，跨境数据合规压力或向国内传导"
     ]
   },
   "wind_indicators": {
     "policy_heat": 4,
     "competitor_heat": 4,
-    "capital_heat": 3,
+    "capital_heat": 2,
     "overseas_heat": 3,
-    "overall_sentiment": "平稳",
-    "summary": "规则估算，AI合成不可用时的占位数据。"
+    "overall_sentiment": "升温",
+    "summary": "政策暖风频吹，但竞品集中发力Token化推理服务，风向呈现利好与威胁交织的升温态势"
   },
-  "competitor_updates": [],
+  "competitor_updates": [
+    "三大运营商联合推出Token套餐，从网络管道向AI算力服务商延伸，具备网络、客户与政企关系优势",
+    "硅基流动放弃模型自研，全面转型Token工厂，聚焦高效推理中间层，与PPIO边缘推理服务正面重叠"
+  ],
   "item_axes": [
     {
       "id": "1",
-      "title": "李乐成在浙江调研新兴产业和未来产业发展",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”",
+      "policy_axis": 0.3,
+      "competition_axis": 0.8,
       "impact_score": 4,
-      "axis_reason": "规则估算"
+      "axis_reason": "运营商以政策型资源切入，虽推动算力惠及面，但直接形成渠道与定价双重竞争"
     },
     {
       "id": "2",
-      "title": "三大运营商齐推Token套餐 AI算力“",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "规则估算"
+      "title": "弃模型自研深耕中间层 硅基流动“Token工厂”",
+      "policy_axis": 0.1,
+      "competition_axis": 0.9,
+      "impact_score": 4,
+      "axis_reason": "专注推理中间层，与PPIO边缘云推理服务高度重叠，对手聚焦度与规模化压力巨大"
     },
     {
       "id": "3",
-      "title": "绿电直连集群已“卷”至GW级 万亿算力网",
-      "policy_axis": -0.5,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "4",
-      "title": "无问芯穹CEO夏立雪：Token进入5G",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "规则估算"
+      "title": "AI政策密集落地 全链条协同布局提速",
+      "policy_axis": 0.9,
+      "competition_axis": 0.2,
+      "impact_score": 5,
+      "axis_reason": "全链条政策加码，算力基建明确受益，拓展产业空间，短期竞争加剧但长期利好层厚"
     }
   ],
   "ppio_index": {
-    "score": 55,
-    "delta": 0,
+    "score": 60,
+    "delta": 5,
     "components": {
-      "policy_tailwind": 16,
-      "competitive_pressure": -12,
-      "capital_sentiment": 10,
-      "regulatory_risk": 0,
-      "overseas_headwind": -8
+      "policy_tailwind": 35,
+      "competitive_pressure": -20,
+      "capital_sentiment": 12,
+      "regulatory_risk": -8,
+      "overseas_headwind": -5
     },
-    "interpretation": "规则估算，仅供参考"
+    "interpretation": "政策红利拉升基建预期，但竞品密集卡位推理中间层，指数微涨反映多空交织"
   },
-  "policy_momentum": [],
-  "expected_but_absent": [],
-  "_generated_by": "template"
+  "policy_momentum": [
+    {
+      "thread": "算力基建",
+      "last_signal": "工信部推动算力网络建设",
+      "this_signal": "贵州算力平台上线+全链条协同提速",
+      "level_delta": "升级",
+      "interpretation": "从部委推动到地方落地与全链条协同，政策做实，为PPIO拓展节点与客户创造更好土壤"
+    }
+  ],
+  "expected_but_absent": [
+    "人工智能法草案征求意见稿"
+  ],
+  "_generated_by": "deepseek-v4-pro"
 }

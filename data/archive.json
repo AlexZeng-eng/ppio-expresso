@@ -1,6 +1,47 @@
 {
-  "updated_at": "2026-06-25T01:40:12.006Z",
+  "updated_at": "2026-06-26T01:43:22.754Z",
   "days": [
+    {
+      "date": "2026-06-26",
+      "mainline": "运营商与硅基流动齐推Token化算力服务，竞争直指AI推理中间层；政策端贵州算力平台上线、全链条协同提速，算力基建风口与对手涌入并存。",
+      "signal_summary": {
+        "🏛️": 2,
+        "📜": 0,
+        "⚔️": 2,
+        "💰": 1,
+        "🌏": 4,
+        "🔬": 3
+      },
+      "wind_indicators": {
+        "policy_heat": 4,
+        "competitor_heat": 4,
+        "capital_heat": 2,
+        "overseas_heat": 3,
+        "overall_sentiment": "升温",
+        "summary": "政策暖风频吹，但竞品集中发力Token化推理服务，风向呈现利好与威胁交织的升温态势"
+      },
+      "ppio_index": {
+        "score": 60,
+        "delta": 5,
+        "components": {
+          "policy_tailwind": 35,
+          "competitive_pressure": -20,
+          "capital_sentiment": 12,
+          "regulatory_risk": -8,
+          "overseas_headwind": -5
+        },
+        "interpretation": "政策红利拉升基建预期，但竞品密集卡位推理中间层，指数微涨反映多空交织"
+      },
+      "item_count": {
+        "total": 12,
+        "attend": 3,
+        "silent": 9
+      },
+      "competitor_updates": [
+        "三大运营商联合推出Token套餐，从网络管道向AI算力服务商延伸，具备网络、客户与政企关系优势",
+        "硅基流动放弃模型自研，全面转型Token工厂，聚焦高效推理中间层，与PPIO边缘推理服务正面重叠"
+      ]
+    },
     {
       "date": "2026-06-25",
       "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
