@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-06-26T01:43:22.754Z",
+  "updated_at": "2026-06-28T01:47:13.189Z",
   "days": [
+    {
+      "date": "2026-06-28",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "signal_summary": {
+        "🏛️": 4,
+        "📜": 2,
+        "⚔️": 0,
+        "💰": 3,
+        "🌏": 3,
+        "🔬": 3
+      },
+      "wind_indicators": {
+        "policy_heat": 4,
+        "competitor_heat": 2,
+        "capital_heat": 3,
+        "overseas_heat": 3,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
+      },
+      "ppio_index": {
+        "score": 55,
+        "delta": 0,
+        "components": {
+          "policy_tailwind": 32,
+          "competitive_pressure": 0,
+          "capital_sentiment": 15,
+          "regulatory_risk": -10,
+          "overseas_headwind": -12
+        },
+        "interpretation": "规则估算，仅供参考"
+      },
+      "item_count": {
+        "total": 13,
+        "attend": 5,
+        "silent": 8
+      },
+      "competitor_updates": []
+    },
     {
       "date": "2026-06-26",
       "mainline": "运营商与硅基流动齐推Token化算力服务，竞争直指AI推理中间层；政策端贵州算力平台上线、全链条协同提速，算力基建风口与对手涌入并存。",

@@ -1,87 +1,92 @@
 {
-  "generated_at": "2026-06-26T01:43:22.661Z",
-  "date": "2026-06-26",
-  "date_label": "2026-06-26",
-  "mainline": "运营商与硅基流动齐推Token化算力服务，竞争直指AI推理中间层；政策端贵州算力平台上线、全链条协同提速，算力基建风口与对手涌入并存。",
+  "generated_at": "2026-06-28T01:47:13.086Z",
+  "date": "2026-06-28",
+  "date_label": "2026-06-28",
+  "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 2,
-    "📜": 0,
-    "⚔️": 2,
-    "💰": 1,
-    "🌏": 4,
+    "🏛️": 4,
+    "📜": 2,
+    "⚔️": 0,
+    "💰": 3,
+    "🌏": 3,
     "🔬": 3
   },
   "speed_read": {
     "positive": [
-      "AI政策全链条协同布局提速，算力网络建设获政策资源加码",
-      "贵州算力平台上线，地方算力基建落地标志算力网建设进入实质阶段"
+      "新规旨在规范而非禁止正常境外投资，合规底色清晰的企业若提前完成备案流程，可借助政策清晰期获得监管背书的‘通行证’，长期有利于出海企业治理透明化。",
+      "地方政府主动建设算力公共服务平台，进一步激活AI产业算力需求，PPIO的分布式边缘算力可作为中心化政府算力的低延迟补充层，借势与官方生态对接，承接实时推理等场景需求。",
+      "算力网国家战略明确支持边缘基础设施，PPIO分布式边缘云模式受益政策东风，IPO故事获强力背书。"
     ],
     "risk": [
-      "三大运营商与硅基流动同时主推Token套餐/Token工厂，算力服务化赛道竞争白热化，可能挤压PPIO差异化空间",
-      "澳洲释放AI监管重大改革信号，跨境数据合规压力或向国内传导"
+      "PPIO正在筹备港股IPO，若涉及通过境内主体对外投资设立境外上市主体，可能面临ODI备案被从严审核或延长审批周期，直接拖慢上市进度，甚至需调整红筹架构，增加上市成本与不确定性。",
+      "政府补贴的算力Token可能在一定范围内替代商业算力服务，造成局部市场价格扭曲，PPIO若难以融入该公共服务体系，可能在特定客户群中面临政府背书的低价竞争，挤压利润率。",
+      "万亿投资吸引巨头入场，可能导致边缘算力市场迅速红海化，对PPIO的先发优势和定价能力形成挑战。"
     ]
   },
   "wind_indicators": {
     "policy_heat": 4,
-    "competitor_heat": 4,
-    "capital_heat": 2,
+    "competitor_heat": 2,
+    "capital_heat": 3,
     "overseas_heat": 3,
-    "overall_sentiment": "升温",
-    "summary": "政策暖风频吹，但竞品集中发力Token化推理服务，风向呈现利好与威胁交织的升温态势"
+    "overall_sentiment": "平稳",
+    "summary": "规则估算，AI合成不可用时的占位数据。"
   },
-  "competitor_updates": [
-    "三大运营商联合推出Token套餐，从网络管道向AI算力服务商延伸，具备网络、客户与政企关系优势",
-    "硅基流动放弃模型自研，全面转型Token工厂，聚焦高效推理中间层，与PPIO边缘推理服务正面重叠"
-  ],
+  "competitor_updates": [],
   "item_axes": [
     {
       "id": "1",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”",
-      "policy_axis": 0.3,
-      "competition_axis": 0.8,
+      "title": "国务院关于对外投资的规定解读（一）：83",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
       "impact_score": 4,
-      "axis_reason": "运营商以政策型资源切入，虽推动算力惠及面，但直接形成渠道与定价双重竞争"
+      "axis_reason": "规则估算"
     },
     {
       "id": "2",
-      "title": "弃模型自研深耕中间层 硅基流动“Token工厂”",
-      "policy_axis": 0.1,
-      "competition_axis": 0.9,
-      "impact_score": 4,
-      "axis_reason": "专注推理中间层，与PPIO边缘云推理服务高度重叠，对手聚焦度与规模化压力巨大"
+      "title": "上海数通链谷服务清单3.0上线：新增To",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     },
     {
       "id": "3",
-      "title": "AI政策密集落地 全链条协同布局提速",
-      "policy_axis": 0.9,
-      "competition_axis": 0.2,
-      "impact_score": 5,
-      "axis_reason": "全链条政策加码，算力基建明确受益，拓展产业空间，短期竞争加剧但长期利好层厚"
+      "title": "六网织就新未来丨支撑人工智能等高质量发展",
+      "policy_axis": -0.5,
+      "competition_axis": 0.7,
+      "impact_score": 3,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "4",
+      "title": "英伟达：接到中国订单…重启H200生产 ",
+      "policy_axis": -0.5,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "5",
+      "title": "绿色算力政策加速落地，全国首个全栈AI平",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     }
   ],
   "ppio_index": {
-    "score": 60,
-    "delta": 5,
+    "score": 55,
+    "delta": 0,
     "components": {
-      "policy_tailwind": 35,
-      "competitive_pressure": -20,
-      "capital_sentiment": 12,
-      "regulatory_risk": -8,
-      "overseas_headwind": -5
+      "policy_tailwind": 32,
+      "competitive_pressure": 0,
+      "capital_sentiment": 15,
+      "regulatory_risk": -10,
+      "overseas_headwind": -12
     },
-    "interpretation": "政策红利拉升基建预期，但竞品密集卡位推理中间层，指数微涨反映多空交织"
+    "interpretation": "规则估算，仅供参考"
   },
-  "policy_momentum": [
-    {
-      "thread": "算力基建",
-      "last_signal": "工信部推动算力网络建设",
-      "this_signal": "贵州算力平台上线+全链条协同提速",
-      "level_delta": "升级",
-      "interpretation": "从部委推动到地方落地与全链条协同，政策做实，为PPIO拓展节点与客户创造更好土壤"
-    }
-  ],
-  "expected_but_absent": [
-    "人工智能法草案征求意见稿"
-  ],
-  "_generated_by": "deepseek-v4-pro"
+  "policy_momentum": [],
+  "expected_but_absent": [],
+  "_generated_by": "template"
 }
