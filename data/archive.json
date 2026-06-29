@@ -1,6 +1,49 @@
 {
-  "updated_at": "2026-06-28T01:47:13.189Z",
+  "updated_at": "2026-06-29T02:04:00.592Z",
   "days": [
+    {
+      "date": "2026-06-29",
+      "mainline": "政策全链条加码算力基础设施，利好边缘云赛道；但竞品密集出招——运营商推Token套餐、硅基流动转型Token工厂、黑马启动IPO，AI Infra赛道竞争急速升温。",
+      "signal_summary": {
+        "🏛️": 1,
+        "📜": 1,
+        "⚔️": 4,
+        "💰": 1,
+        "🌏": 0,
+        "🔬": 0
+      },
+      "wind_indicators": {
+        "policy_heat": 4,
+        "competitor_heat": 5,
+        "capital_heat": 3,
+        "overseas_heat": 2,
+        "overall_sentiment": "升温",
+        "summary": "政策红利集中释放与竞争对手密集融资、转型交织，赛道热度陡增，机遇与近身搏杀并存。"
+      },
+      "ppio_index": {
+        "score": 60,
+        "delta": 5,
+        "components": {
+          "policy_tailwind": 40,
+          "competitive_pressure": -25,
+          "capital_sentiment": 15,
+          "regulatory_risk": -12,
+          "overseas_headwind": -8
+        },
+        "interpretation": "政策强支撑与资本热度推高指数，但竞品IPO及业务转型带来的正面冲击令竞争压力项显著负面，整体温和改善。"
+      },
+      "item_count": {
+        "total": 10,
+        "attend": 6,
+        "silent": 4
+      },
+      "competitor_updates": [
+        "无问芯穹（疑为黑马）启动港股/美股IPO流程，预计融资后将大幅强化市场投放与客户争夺",
+        "硅基流动由模型自研转向AI Infra Token工厂，定位与PPIO现有企业级推理服务高度重合",
+        "三大运营商全国性算力Token套餐化，分销化可能削弱独立边缘云厂商的中小客户吸引力",
+        "SuperX AI科技赴哈萨克斯坦探索GW级集中式算力园区，虽暂未直接竞逐边缘云，但标注出海资源争夺起点"
+      ]
+    },
     {
       "date": "2026-06-28",
       "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",

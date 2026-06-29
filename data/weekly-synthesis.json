@@ -1,92 +1,115 @@
 {
-  "generated_at": "2026-06-28T01:47:13.086Z",
-  "date": "2026-06-28",
-  "date_label": "2026-06-28",
-  "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+  "generated_at": "2026-06-29T02:04:00.492Z",
+  "date": "2026-06-29",
+  "date_label": "2026-06-29",
+  "mainline": "政策全链条加码算力基础设施，利好边缘云赛道；但竞品密集出招——运营商推Token套餐、硅基流动转型Token工厂、黑马启动IPO，AI Infra赛道竞争急速升温。",
   "signal_summary": {
-    "🏛️": 4,
-    "📜": 2,
-    "⚔️": 0,
-    "💰": 3,
-    "🌏": 3,
-    "🔬": 3
+    "🏛️": 1,
+    "📜": 1,
+    "⚔️": 4,
+    "💰": 1,
+    "🌏": 0,
+    "🔬": 0
   },
   "speed_read": {
     "positive": [
-      "新规旨在规范而非禁止正常境外投资，合规底色清晰的企业若提前完成备案流程，可借助政策清晰期获得监管背书的‘通行证’，长期有利于出海企业治理透明化。",
-      "地方政府主动建设算力公共服务平台，进一步激活AI产业算力需求，PPIO的分布式边缘算力可作为中心化政府算力的低延迟补充层，借势与官方生态对接，承接实时推理等场景需求。",
-      "算力网国家战略明确支持边缘基础设施，PPIO分布式边缘云模式受益政策东风，IPO故事获强力背书。"
+      "高层信号：央广财经报道AI政策密集落地，全链条协同布局提速，算力基础设施获明确方向性支持",
+      "监管收紧境外大模型落地，限制跨境数据流动，本土合规算力需求有望进一步向国内厂商集中",
+      "中国算力平台（贵州）上线、多技术验证算力底座进化，边缘云纳入全国算力网的预期提升"
     ],
     "risk": [
-      "PPIO正在筹备港股IPO，若涉及通过境内主体对外投资设立境外上市主体，可能面临ODI备案被从严审核或延长审批周期，直接拖慢上市进度，甚至需调整红筹架构，增加上市成本与不确定性。",
-      "政府补贴的算力Token可能在一定范围内替代商业算力服务，造成局部市场价格扭曲，PPIO若难以融入该公共服务体系，可能在特定客户群中面临政府背书的低价竞争，挤压利润率。",
-      "万亿投资吸引巨头入场，可能导致边缘算力市场迅速红海化，对PPIO的先发优势和定价能力形成挑战。"
+      "竞品集结：无问芯穹等AI算力黑马启动IPO，资本加持后可能快速抢占边缘市场份额",
+      "硅基流动全面转向AI Infra Token工厂，与PPIO企业级推理服务正面重叠，竞争边界直接相交",
+      "三大运营商齐推Token套餐，以渠道与价格优势蚕食中小企业客户，算力零售化挤压第三方平台"
     ]
   },
   "wind_indicators": {
     "policy_heat": 4,
-    "competitor_heat": 2,
+    "competitor_heat": 5,
     "capital_heat": 3,
-    "overseas_heat": 3,
-    "overall_sentiment": "平稳",
-    "summary": "规则估算，AI合成不可用时的占位数据。"
+    "overseas_heat": 2,
+    "overall_sentiment": "升温",
+    "summary": "政策红利集中释放与竞争对手密集融资、转型交织，赛道热度陡增，机遇与近身搏杀并存。"
   },
-  "competitor_updates": [],
+  "competitor_updates": [
+    "无问芯穹（疑为黑马）启动港股/美股IPO流程，预计融资后将大幅强化市场投放与客户争夺",
+    "硅基流动由模型自研转向AI Infra Token工厂，定位与PPIO现有企业级推理服务高度重合",
+    "三大运营商全国性算力Token套餐化，分销化可能削弱独立边缘云厂商的中小客户吸引力",
+    "SuperX AI科技赴哈萨克斯坦探索GW级集中式算力园区，虽暂未直接竞逐边缘云，但标注出海资源争夺起点"
+  ],
   "item_axes": [
     {
       "id": "1",
-      "title": "国务院关于对外投资的规定解读（一）：83",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
+      "title": "三大运营商齐推Token套餐",
+      "policy_axis": 0.5,
+      "competition_axis": 0.8,
       "impact_score": 4,
-      "axis_reason": "规则估算"
+      "axis_reason": "算力商品化体现政策导向，但运营商入局直接加剧边缘推理市场渠道与价格竞争"
     },
     {
       "id": "2",
-      "title": "上海数通链谷服务清单3.0上线：新增To",
+      "title": "弃模型自研深耕中间层",
       "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
+      "competition_axis": 0.8,
+      "impact_score": 4,
+      "axis_reason": "纯市场竞争动作，转型Token工厂正面切入PPIO企业级推理客户群"
     },
     {
       "id": "3",
-      "title": "六网织就新未来丨支撑人工智能等高质量发展",
-      "policy_axis": -0.5,
-      "competition_axis": 0.7,
+      "title": "SuperX与哈萨克斯坦探讨1GW算力园区",
+      "policy_axis": 0.3,
+      "competition_axis": 0.2,
       "impact_score": 3,
-      "axis_reason": "规则估算"
+      "axis_reason": "出海探索受益于“数字丝绸之路”氛围，但对当前分布式边缘云直接竞争有限"
     },
     {
       "id": "4",
-      "title": "英伟达：接到中国订单…重启H200生产 ",
-      "policy_axis": -0.5,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
+      "title": "AI算力“黑马”要IPO了",
+      "policy_axis": 0.2,
+      "competition_axis": 0.7,
+      "impact_score": 4,
+      "axis_reason": "资本市场活跃利好行业估值，但竞品获得资金优势后将提升竞争烈度"
     },
     {
       "id": "5",
-      "title": "绿色算力政策加速落地，全国首个全栈AI平",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
+      "title": "境外大模型卖回国内，为什么迟早会翻车？",
+      "policy_axis": 0.7,
+      "competition_axis": -0.2,
+      "impact_score": 3,
+      "axis_reason": "监管明确限制跨境模型，推动需求向合规本土算力倾斜，形成政策屏障"
+    },
+    {
+      "id": "6",
+      "title": "AI政策密集落地 全链条协同布局提速",
+      "policy_axis": 0.9,
+      "competition_axis": 0,
+      "impact_score": 5,
+      "axis_reason": "顶层设计持续加码算力基建，边缘云作为组成部分直接享受政策顺风"
     }
   ],
   "ppio_index": {
-    "score": 55,
-    "delta": 0,
+    "score": 60,
+    "delta": 5,
     "components": {
-      "policy_tailwind": 32,
-      "competitive_pressure": 0,
+      "policy_tailwind": 40,
+      "competitive_pressure": -25,
       "capital_sentiment": 15,
-      "regulatory_risk": -10,
-      "overseas_headwind": -12
+      "regulatory_risk": -12,
+      "overseas_headwind": -8
     },
-    "interpretation": "规则估算，仅供参考"
+    "interpretation": "政策强支撑与资本热度推高指数，但竞品IPO及业务转型带来的正面冲击令竞争压力项显著负面，整体温和改善。"
   },
-  "policy_momentum": [],
-  "expected_but_absent": [],
-  "_generated_by": "template"
+  "policy_momentum": [
+    {
+      "thread": "AI算力基础设施政策",
+      "last_signal": "多部委联合印发算力高质量发展行动计划",
+      "this_signal": "央广财经报道全链条协同布局提速",
+      "level_delta": "升级",
+      "interpretation": "顶层重视加速落地，边缘云有望纳入国家算力网络，政策红利进一步释放。"
+    }
+  ],
+  "expected_but_absent": [
+    "人工智能法草案公开征求意见稿"
+  ],
+  "_generated_by": "deepseek-v4-pro"
 }
