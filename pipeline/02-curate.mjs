@@ -28,7 +28,7 @@ const DEEPSEEK_API_KEY = process.env.PPIO_DEEPSEEK_API_KEY || '';
 const DEEPSEEK_BASE_URL = process.env.PPIO_DEEPSEEK_BASE_URL || 'https://apiproxy.paigod.work/v1';
 // Model name in the proxy: deepseek/deepseek-v4-pro
 const DEEPSEEK_MODEL = process.env.PPIO_DEEPSEEK_MODEL || 'deepseek/deepseek-v4-pro';
-const BACKUP_MODELS = (process.env.PPIO_BACKUP_MODELS || 'deepseek/deepseek-chat,claude-sonnet-4-6,claude-opus-4-8,deepseek/deepseek-r1')
+const BACKUP_MODELS = (process.env.PPIO_BACKUP_MODELS || 'deepseek/deepseek-v4-flash,pa/claude-sonnet-4-6-ppinfra,pa/claude-opus-4-8-ppinfra')
   .split(',').map(s => s.trim()).filter(Boolean);
 
 // ---- helpers ---------------------------------------------------------------
@@ -37,7 +37,7 @@ function loadJSON(path) {
   return JSON.parse(readFileSync(path, 'utf-8'));
 }
 
-async function callLLM(messages, { maxTokens = 1024, temperature = 0.3 } = {}) {
+async function callLLM(messages, { maxTokens = 1024, temperature = 0.3, validate } = {}) {
   if (!DEEPSEEK_API_KEY) {
     throw new Error('PPIO_DEEPSEEK_API_KEY not set');
   }
@@ -62,8 +62,21 @@ async function callLLM(messages, { maxTokens = 1024, temperature = 0.3 } = {}) {
         continue; // try next model
       }
       const data = await resp.json();
+      const content = data.choices[0].message.content;
+      // 调用方提供 validate 时，解析失败也触发 fallback
+      if (validate) {
+        try {
+          const validated = validate(content);
+          console.log(`    ✓ 模型: ${model}`);
+          return validated;
+        } catch (validationErr) {
+          console.warn(`    ⚠ ${model}: 返回内容无效 (${validationErr.message.slice(0,40)}) — 尝试下一个模型`);
+          tried.push(`${model}(invalid)`);
+          continue;
+        }
+      }
       console.log(`    ✓ 模型: ${model}`);
-      return data.choices[0].message.content;
+      return content;
     } catch (err) {
       console.warn(`    ⚠ ${model}: ${err.message.slice(0,60)} — 尝试下一个模型`);
       tried.push(`${model}(${err.message.slice(0,30)})`);
@@ -270,19 +283,23 @@ async function main() {
         const batchPrompt = batch.map(item => buildItemPrompt(item)).join('\n---\n');
         const systemPrompt = buildSystemPrompt(config);
 
-        const result = await callLLM([
-          { role: 'system', content: systemPrompt },
-          { role: 'user', content: `请分析以下 ${batch.length} 条新闻，对每条返回一个 JSON 对象（放在数组中）：\n\n${batchPrompt}\n\n返回 JSON 数组，不要 markdown 代码块。` }
-        ], { maxTokens: 4096, temperature: 0.3 });
-
-        // Parse the AI response — it should be a JSON array
+        // JSON 解析作为 validate 传入：解析失败也自动 fallback 到下一个模型
         let parsed;
         try {
-          // Strip potential markdown fences
-          const cleaned = result.replace(/```json\s*|```\s*/g, '').trim();
-          parsed = JSON.parse(cleaned);
-        } catch {
-          console.warn(`  ⚠ Failed to parse AI response for batch ${i}, falling back to rules`);
+          parsed = await callLLM([
+            { role: 'system', content: systemPrompt },
+            { role: 'user', content: `请分析以下 ${batch.length} 条新闻，对每条返回一个 JSON 对象（放在数组中）：\n\n${batchPrompt}\n\n返回 JSON 数组，不要 markdown 代码块。` }
+          ], {
+            maxTokens: 4096, temperature: 0.3,
+            validate: (content) => {
+              const cleaned = content.replace(/```json\s*|```\s*/g, '').trim();
+              const arr = JSON.parse(cleaned);
+              if (!Array.isArray(arr)) throw new Error('Response not a JSON array');
+              return arr;
+            }
+          });
+        } catch (err) {
+          console.warn(`    ⚠ Batch ${Math.floor(i/batchSize) + 1} 所有模型解析失败，使用规则分类: ${err.message.slice(0,40)}`);
           parsed = batch.map(item => ruleBasedClassify(item, config));
         }
 

@@ -25,7 +25,7 @@ const LEGACY_PATH = resolve(ROOT, 'data', 'weekly-synthesis.json');
 const DEEPSEEK_API_KEY = process.env.PPIO_DEEPSEEK_API_KEY || '';
 const DEEPSEEK_BASE_URL = process.env.PPIO_DEEPSEEK_BASE_URL || 'https://apiproxy.paigod.work/v1';
 const DEEPSEEK_MODEL = process.env.PPIO_DEEPSEEK_MODEL || 'deepseek/deepseek-v4-pro';
-const BACKUP_MODELS = (process.env.PPIO_BACKUP_MODELS || 'deepseek/deepseek-chat,claude-sonnet-4-6,claude-opus-4-8')
+const BACKUP_MODELS = (process.env.PPIO_BACKUP_MODELS || 'deepseek/deepseek-v4-flash,pa/claude-sonnet-4-6-ppinfra,pa/claude-opus-4-8-ppinfra')
   .split(',').map(s => s.trim()).filter(Boolean);
 
 function loadJSON(path) {
@@ -54,8 +54,21 @@ async function callLLM(messages, opts = {}) {
         continue;
       }
       const data = await resp.json();
+      const content = data.choices[0].message.content;
+      // 如果调用方提供了 validate 回调，验证返回内容（解析失败也触发 fallback）
+      if (opts.validate) {
+        try {
+          const validated = opts.validate(content);
+          console.log(`    ✓ 模型: ${model}`);
+          return validated;
+        } catch (validationErr) {
+          console.warn(`    ⚠ ${model}: 返回内容无效 (${validationErr.message.slice(0,40)}) — 尝试下一个模型`);
+          tried.push(`${model}(invalid)`);
+          continue;
+        }
+      }
       console.log(`    ✓ 模型: ${model}`);
-      return data.choices[0].message.content;
+      return content;
     } catch (err) {
       console.warn(`    ⚠ ${model}: ${err.message.slice(0,60)} — 尝试下一个模型`);
       tried.push(`${model}(${err.message.slice(0,30)})`);
@@ -261,18 +274,22 @@ async function main() {
     try {
       console.log('  Using AI for daily synthesis...');
       const prompt = buildSynthesisPrompt(config, curated, prevScore);
-      const result = await callLLM([
+      // JSON 解析作为 validate 传入：解析失败也自动 fallback 到下一个模型
+      synthesis = await callLLM([
         { role: 'user', content: prompt }
-      ], { maxTokens: 4096, temperature: 0.4 });
-
-      const cleaned = result.replace(/```json\s*|```\s*/g, '').trim();
-      const jsonMatch = cleaned.match(/\{[\s\S]*\}/);
-      if (!jsonMatch) throw new Error('No JSON object found in response');
-      synthesis = JSON.parse(jsonMatch[0]);
-      synthesis._generated_by = 'deepseek-v4-pro';
+      ], {
+        maxTokens: 4096, temperature: 0.4,
+        validate: (content) => {
+          const cleaned = content.replace(/```json\s*|```\s*/g, '').trim();
+          const jsonMatch = cleaned.match(/\{[\s\S]*\}/);
+          if (!jsonMatch) throw new Error('No JSON object in response');
+          return JSON.parse(jsonMatch[0]);
+        }
+      });
+      synthesis._generated_by = 'ai';
       console.log('  ✓ AI synthesis complete');
     } catch (err) {
-      console.warn(`  ⚠ DeepSeek API error (${err.message}), using template`);
+      console.warn(`  ⚠ AI synthesis failed (${err.message}), using template`);
     }
   }
 
