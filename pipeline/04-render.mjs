@@ -224,6 +224,44 @@ function renderFeedItem(item, idx) {
       </li>`;
 }
 
+function renderPolicyMomentum(synthesis) {
+  const momentum = synthesis?.policy_momentum;
+  const absent = synthesis?.expected_but_absent;
+  if ((!momentum || momentum.length === 0) && (!absent || absent.length === 0)) return '';
+
+  const levelColor = { '升级': '#2d7a4f', '首现': '#1a56db', '持平': '#888', '降温': '#8f3b27' };
+  const levelBg   = { '升级': '#f0f7f0', '首现': '#eef2fe', '持平': '#f5f5f5', '降温': '#fdf3f0' };
+
+  const rows = (momentum || []).map(m => {
+    const fg = levelColor[m.level_delta] || '#555';
+    const bg = levelBg[m.level_delta] || '#f5f5f5';
+    return `<div class="momentum-row">
+      <div class="momentum-thread">${esc(m.thread || '')}</div>
+      <div class="momentum-arrow">
+        <span class="momentum-from">${esc(m.last_signal || '—')}</span>
+        <span class="momentum-chevron">→</span>
+        <span class="momentum-to">${esc(m.this_signal || '—')}</span>
+        <span class="momentum-badge" style="background:${bg};color:${fg}">${esc(m.level_delta || '')}</span>
+      </div>
+      <div class="momentum-interp">${esc(m.interpretation || '')}</div>
+    </div>`;
+  }).join('');
+
+  const absentHtml = (absent && absent.length > 0)
+    ? `<div class="momentum-absent">
+        <span class="momentum-absent-label">预期未见：</span>
+        ${absent.filter(s => s && !s.includes('无则填')).map(s => `<span class="momentum-absent-item">${esc(s)}</span>`).join('')}
+      </div>` : '';
+
+  if (!rows && !absentHtml) return '';
+
+  return `<section class="momentum-section">
+  <h2 class="speed-read-title">政策动能追踪</h2>
+  ${rows}
+  ${absentHtml}
+</section>`;
+}
+
 function renderWindIndicators(synthesis) {
   if (!synthesis || !synthesis.wind_indicators) return '';
   const w = synthesis.wind_indicators;
@@ -523,6 +561,82 @@ function renderHTML(curated, synthesis, archive) {
   .signal-watch h4 { color: #8f7020; }
   .signal-action { background: #f0f4fa; border: 1px solid #c8d4e8; }
   .signal-action h4 { color: #2a5080; }
+
+  /* ── Policy Momentum ── */
+  .momentum-section {
+    margin-top: 2rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--rule-soft);
+  }
+  .momentum-row {
+    padding: 0.7rem 0.9rem;
+    margin-bottom: 0.5rem;
+    background: var(--bg-soft);
+    border: 1px solid var(--rule-soft);
+    border-radius: 4px;
+  }
+  .momentum-thread {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+    margin-bottom: 0.3rem;
+  }
+  .momentum-arrow {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    margin-bottom: 0.3rem;
+  }
+  .momentum-from { color: var(--ink-mute); }
+  .momentum-chevron { color: var(--rule); }
+  .momentum-to { color: var(--ink-soft); font-weight: 600; }
+  .momentum-badge {
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 0.1rem 0.45rem;
+    border-radius: 3px;
+    letter-spacing: 0.03em;
+  }
+  .momentum-interp {
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+  .momentum-absent {
+    margin-top: 0.6rem;
+    padding: 0.5rem 0.8rem;
+    background: #fdfaf0;
+    border: 1px solid #e8dcc0;
+    border-radius: 4px;
+    font-family: var(--sans);
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.5rem;
+    align-items: baseline;
+  }
+  .momentum-absent-label {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    color: #8f7020;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+  }
+  .momentum-absent-item {
+    background: #fef3c7;
+    color: #92400e;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.76rem;
+  }
   .word-cloud-section {
     margin-top: 2.4rem;
     padding-top: 1.4rem;
@@ -843,6 +957,7 @@ ${renderTabs(curated)}
 
   ${renderWindIndicators(synthesis)}
   ${renderSpeedRead(synthesis)}
+  ${renderPolicyMomentum(synthesis)}
   ${renderWordCloud(keywords)}
 
   <div class="feed-end">

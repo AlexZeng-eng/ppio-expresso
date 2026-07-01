@@ -25,28 +25,44 @@ const LEGACY_PATH = resolve(ROOT, 'data', 'weekly-synthesis.json');
 const DEEPSEEK_API_KEY = process.env.PPIO_DEEPSEEK_API_KEY || '';
 const DEEPSEEK_BASE_URL = process.env.PPIO_DEEPSEEK_BASE_URL || 'https://apiproxy.paigod.work/v1';
 const DEEPSEEK_MODEL = process.env.PPIO_DEEPSEEK_MODEL || 'deepseek/deepseek-v4-pro';
+const BACKUP_MODELS = (process.env.PPIO_BACKUP_MODELS || 'deepseek/deepseek-chat,claude-sonnet-4-6,claude-opus-4-8')
+  .split(',').map(s => s.trim()).filter(Boolean);
 
 function loadJSON(path) {
   return JSON.parse(readFileSync(path, 'utf-8'));
 }
 
-async function callDeepSeek(messages, opts = {}) {
-  const resp = await fetch(`${DEEPSEEK_BASE_URL}/chat/completions`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${DEEPSEEK_API_KEY}`
-    },
-    body: JSON.stringify({
-      model: DEEPSEEK_MODEL,
-      messages,
-      max_tokens: opts.maxTokens || 4096,
-      temperature: opts.temperature || 0.5
-    })
-  });
-  if (!resp.ok) throw new Error(`DeepSeek API error ${resp.status}`);
-  const data = await resp.json();
-  return data.choices[0].message.content;
+async function callLLM(messages, opts = {}) {
+  if (!DEEPSEEK_API_KEY) throw new Error('PPIO_DEEPSEEK_API_KEY not set');
+  const models = [DEEPSEEK_MODEL, ...BACKUP_MODELS];
+  let lastError;
+  const tried = [];
+
+  for (const model of models) {
+    try {
+      const resp = await fetch(`${DEEPSEEK_BASE_URL}/chat/completions`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${DEEPSEEK_API_KEY}`
+        },
+        body: JSON.stringify({ model, messages, max_tokens: opts.maxTokens || 4096, temperature: opts.temperature || 0.5 })
+      });
+      if (!resp.ok) {
+        console.warn(`    ⚠ ${model}: HTTP ${resp.status} — 尝试下一个模型`);
+        tried.push(`${model}(HTTP${resp.status})`);
+        continue;
+      }
+      const data = await resp.json();
+      console.log(`    ✓ 模型: ${model}`);
+      return data.choices[0].message.content;
+    } catch (err) {
+      console.warn(`    ⚠ ${model}: ${err.message.slice(0,60)} — 尝试下一个模型`);
+      tried.push(`${model}(${err.message.slice(0,30)})`);
+      lastError = err;
+    }
+  }
+  throw lastError || new Error(`所有模型不可用: ${tried.join(', ')}`);
 }
 
 // Load previous day's ppio_index score for delta calculation
@@ -132,7 +148,17 @@ ${prevScore !== null ? `## 昨日 PPIO 指数：${prevScore}` : ''}
       "overseas_headwind": -5
     },
     "interpretation": "一句话解读今日指数变化"
-  }
+  },
+  "policy_momentum": [
+    {
+      "thread": "算力立法",
+      "last_signal": "司法部征求意见",
+      "this_signal": "国常会讨论",
+      "level_delta": "升级",
+      "interpretation": "从部委层面升至国务院讨论，推进节奏明显加快，立法落地概率上升"
+    }
+  ],
+  "expected_but_absent": ["预期本周应出现但未见的信号，如无则填空数组"]
 }
 
 重要规则：
@@ -148,6 +174,14 @@ ${prevScore !== null ? `## 昨日 PPIO 指数：${prevScore}` : ''}
 - ppio_index.score: 0-100（50=中性，>50=有利）
 - ppio_index.delta: 与昨日相比变化（昨日分数 ${prevScore ?? '未知'}，无历史则填0）
 - components 各项绝对值之和 ≈ 100
+- policy_momentum: 追踪今日新闻中政策信号的纵向演进，每条主线一个对象
+  - thread: 政策主线名称（如"算力立法"、"算力补贴"、"VIE备案"）
+  - last_signal: 上一阶段信号（可从标题/摘要推断，或填"未知"）
+  - this_signal: 今日信号级别（如"国常会讨论"、"部委印发"、"地方跟进"）
+  - level_delta: 信号变化方向 — 升级 / 持平 / 降温 / 首现
+  - interpretation: ≤30字，说明这条演进对PPIO意味着什么
+  - 今日无明确政策演进信号则返回空数组 []
+- expected_but_absent: 预期本周应出现但今日未见的信号（如"人工智能法草案征求意见稿"）；无则返回 []
 - 直接返回 JSON，不要 markdown 代码块`;
 }
 
@@ -206,6 +240,8 @@ function buildFallback(curated) {
       },
       interpretation: '规则估算，仅供参考'
     },
+    policy_momentum: [],
+    expected_but_absent: [],
     _generated_by: 'template'
   };
 }
@@ -223,9 +259,9 @@ async function main() {
 
   if (DEEPSEEK_API_KEY) {
     try {
-      console.log('  Using DeepSeek V4 Pro for daily synthesis...');
+      console.log('  Using AI for daily synthesis...');
       const prompt = buildSynthesisPrompt(config, curated, prevScore);
-      const result = await callDeepSeek([
+      const result = await callLLM([
         { role: 'user', content: prompt }
       ], { maxTokens: 4096, temperature: 0.4 });
 

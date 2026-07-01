@@ -343,6 +343,24 @@ const PPIO_KEYWORDS = {
     // 部委署名文章 — 高规格政策信号
     /工信部.*部长.*人民日报/, /工信部.*部长.*署名/, /部长.*未来产业/, /李乐成.*未来产业/,
     /司法部.*AI.*立法/, /司法部.*人工智能.*立法/, /人工智能健康发展综合性立法/,
+    // 工信部信息通信实施意见 — 边缘算力直接利好
+    /工信部.*信息通信.*实施意见/, /AI.*信息通信.*实施意见/, /城域算力.*时延/,
+    /1毫秒.*时延圈/, /通感算智一体化/, /边缘推理.*5G/, /网络智能体.*业务/,
+    // 竞品产品发布
+    /Token工厂/, /硅基流动.*运营商/, /无问芯穹.*一体机/, /无问芯穹.*Mizar/,
+    /优刻得.*全球.*节点/, /UCloud.*可用区/,
+    // 欧盟云主权/技术主权
+    /欧盟.*云.*法案/, /云与人工智能发展法案/, /技术主权.*一揽子/, /欧盟.*云主权/,
+    /EU.*Cloud.*AI.*Act/i, /技术主权.*芯片法案/,
+    // BIS中资子公司指引
+    /中资.*海外.*子公司.*芯片/, /BIS.*中资.*许可/, /海外子公司.*出口许可/,
+    // 模型层出口管制 — 中美技术摩擦新战场
+    /模型.*出口管制/, /模型.*暂停.*外国/, /Anthropic.*出口/, /Mythos.*暂停/,
+    /AI模型.*外国.*访问/, /模型访问.*限制/, /出口管制.*模型/,
+    // 模型发布 — 开源/能力跃迁影响推理需求
+    /智谱.*开源/, /GLM.*5/, /GLM.*Coding/, /智谱.*发布/,
+    /DeepSeek.*发布/, /DeepSeek.*开源/, /通义千问.*开源/, /Qwen.*开源/,
+    /大模型.*开源.*MIT/, /模型.*开源.*协议/,
   ],
   high: [
     /AI.*基础设施/, /AI.*Infra/, /智算中心/, /数据中心.*算力/,
@@ -418,6 +436,8 @@ const PPIO_KEYWORDS = {
     /anthropic.*ipo/i, /anthropic.*s-1/i, /anthropic.*sec/i,
     /trump.*ai.*executive/i, /trump.*ai.*order/i, /white.*house.*ai.*order/i,
     /nvidia.*vera.*rubin/i, /nvidia.*blackwell/i,
+    /eu.*cloud.*ai.*act/i, /cloud.*ai.*development.*act/i, /eu.*tech.*sovereignty/i,
+    /bis.*china.*subsidiary/i, /china.*subsidiary.*chip.*license/i, /bis.*export.*guidance.*china/i,
   ],
   en_high: [
     /ai.*regulation/i, /ai.*legislation/i, /ai.*safety.*act/i, /eu.*ai.*act/i,
@@ -659,6 +679,8 @@ function buildSearchQueries(config) {
   queries.push({ q: '工信部 人工智能 智能体 实施意见', category: '政策' });
   queries.push({ q: '工信部 算力 中小企业 数字化 补贴', category: '政策' });
   queries.push({ q: '工信部 AI 伦理 审查 治理', category: '政策' });
+  queries.push({ q: '工信部 人工智能 信息通信 实施意见 2026', category: '政策', boost: 30 });
+  queries.push({ q: '工信部 城域算力 时延 边缘推理 2026', category: '政策', boost: 25 });
   queries.push({ q: '国家发改委 算力网 东数西算 部署', category: '政策' });
   queries.push({ q: '发改委 数据中心 绿色算力 能耗', category: '政策' });
   queries.push({ q: '发改委 数字基础设施 投资 规划', category: '政策' });
@@ -674,9 +696,12 @@ function buildSearchQueries(config) {
   queries.push({ q: '上海市数据局 数据要素 算力 政策', category: '政策' });
   queries.push({ q: '上海市发改委 算力 数字经济 规划', category: '政策' });
   queries.push({ q: '上海市委金融办 科技金融 AI 算力', category: '政策' });
+  queries.push({ q: '上海 十五五 服务业 智算云 AI 2026', category: '政策', boost: 20 });
+  queries.push({ q: '上海 科学智能 百团百项 算力 语料 2026', category: '政策', boost: 20 });
   queries.push({ q: '浦东新区 人工智能 算力 政策 产业', category: '政策' });
   queries.push({ q: '浦东新区科经委 AI 大模型 算力 支持', category: '政策' });
   queries.push({ q: '浦东新区数据局 数据要素 算力 开放', category: '政策' });
+  queries.push({ q: '浦东 AI 文创 阅文 算力 出海 2026', category: '政策', boost: 15 });
   queries.push({ q: '张江科学城 人工智能 算力 产业 2026', category: '政策' });
 
   // 监管
@@ -702,15 +727,26 @@ function buildSearchQueries(config) {
 
   // 竞品 — 国内
   queries.push({ q: '无问芯穹 融资 产品 动态', category: '竞品' });
+  queries.push({ q: '无问芯穹 一体机 推理 产品发布 2026', category: '竞品', boost: 20 });
   queries.push({ q: '硅基流动 推理 融资 产品', category: '竞品' });
+  queries.push({ q: '硅基流动 Token工厂 运营商 合作 2026', category: '竞品', boost: 20 });
+  queries.push({ q: 'Token工厂 算力 推理 运营商 2026', category: '竞品', boost: 15 });
   queries.push({ q: '七牛云 AI 算力 产品', category: '竞品' });
   queries.push({ q: '优刻得 UCloud AI 算力 融资', category: '竞品' });
+  queries.push({ q: '优刻得 UCloud 全球化 海外节点 2026', category: '竞品', boost: 15 });
   queries.push({ q: 'AI基础设施 AI Infra 融资 2026', category: '竞品' });
   // 大厂AI资本支出 — 竞品生态压力
   queries.push({ q: '字节跳动 AI 基础设施 投入 2026', category: '竞品', boost: 20 });
   queries.push({ q: '字节跳动 算力 芯片 自研 2026', category: '竞品', boost: 15 });
   queries.push({ q: '阿里云 千问云 Agent 峰会 发布 2026', category: '竞品', boost: 20 });
   queries.push({ q: '阿里云 百度 腾讯 AI 基础设施 投入 2026', category: '竞品', boost: 15 });
+  // 模型发布 — 开源/能力跃迁影响推理需求格局
+  queries.push({ q: '智谱 开源 模型发布 GLM 2026', category: '技术', boost: 20 });
+  queries.push({ q: 'DeepSeek 模型 发布 开源 2026', category: '技术', boost: 20 });
+  queries.push({ q: '通义千问 模型 开源 发布 2026', category: '技术', boost: 20 });
+  queries.push({ q: '大模型 开源 MIT 协议 发布 2026', category: '技术', boost: 15 });
+  queries.push({ q: 'Anthropic 出口管制 模型 暂停 外国 访问 2026', category: '海外', boost: 30 });
+  queries.push({ q: 'AI模型 出口管制 美国限制 外国公民 2026', category: '海外', boost: 25 });
 
   // 竞品 — 海外
   queries.push({ q: 'Baseten AI inference startup funding', category: '竞品' });
@@ -776,6 +812,10 @@ function buildSearchQueries(config) {
   queries.push({ q: 'White House AI policy China semiconductor 2026', category: '海外' });
   queries.push({ q: 'Congress AI regulation China technology bill 2026', category: '海外' });
   queries.push({ q: 'EU AI Act enforcement 2026', category: '海外' });
+  queries.push({ q: 'EU Cloud AI Development Act 云主权 技术主权 2026', category: '海外', boost: 25 });
+  queries.push({ q: '欧盟 云与人工智能发展法案 技术主权 数据中心 2026', category: '海外', boost: 25 });
+  queries.push({ q: 'BIS China subsidiary AI chip export license 2026', category: '海外', boost: 25 });
+  queries.push({ q: '中资 海外子公司 英伟达 芯片 出口许可 2026', category: '海外', boost: 25 });
   queries.push({ q: '中国 美国 AI 出口管制 芯片 供应链', category: '海外' });
   queries.push({ q: '中俄 AI 合作 治理 标准', category: '海外' });
 
@@ -886,17 +926,23 @@ async function main() {
     { url: 'https://openai.com/news/rss.xml', source: 'OpenAI News' },
     // 研究媒体（有效）
     { url: 'https://www.technologyreview.com/topic/artificial-intelligence/feed', source: 'MIT Tech Review AI' },
+    // 中文科技媒体
+    { url: 'https://www.ithome.com/rss/', source: 'IT之家' },
   ];
 
   const rssResults = await Promise.all(rssFeeds.map(f => fetchRSS(f.url, f.source)));
   for (const items of rssResults) allItems.push(...items);
 
-  // ── Phase 1b: Shanghai government pages ────────────────────────────
-  console.log('\n  🏛️ Shanghai gov pages...');
+  // ── Phase 1b: Government pages ────────────────────────────
+  console.log('\n  🏛️ Gov pages...');
   const govPages = [
     { url: 'https://sheitc.sh.gov.cn/zxgkxx/index.html', source: '上海市经信委' },
     { url: 'https://sheitc.sh.gov.cn/zcfg/index.html', source: '上海市经信委-政策法规' },
     { url: 'https://fgw.sh.gov.cn/index.html', source: '上海市发改委' },
+    { url: 'https://www.miit.gov.cn/jgsj/rj司/gzdt/index.html', source: '工信部-软件司' },
+    { url: 'https://www.miit.gov.cn/xwfb/index.html', source: '工信部-新闻' },
+    { url: 'https://www.shanghai.gov.cn/nw4411/index.html', source: '上海市政府-动态' },
+    { url: 'http://www.pdnews.cn/category/keji', source: '浦东新区-科技' },
   ];
   const govResults = await Promise.all(govPages.map(g => scrapeGovList(g.url, g.source)));
   for (const items of govResults) allItems.push(...items);

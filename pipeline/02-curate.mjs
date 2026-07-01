@@ -26,8 +26,10 @@ const OUT_PATH = resolve(ROOT, 'data', 'curated-items.json');
 
 const DEEPSEEK_API_KEY = process.env.PPIO_DEEPSEEK_API_KEY || '';
 const DEEPSEEK_BASE_URL = process.env.PPIO_DEEPSEEK_BASE_URL || 'https://apiproxy.paigod.work/v1';
-// Model name in the proxy: claude-deepseek/deepseek-v4-pro
+// Model name in the proxy: deepseek/deepseek-v4-pro
 const DEEPSEEK_MODEL = process.env.PPIO_DEEPSEEK_MODEL || 'deepseek/deepseek-v4-pro';
+const BACKUP_MODELS = (process.env.PPIO_BACKUP_MODELS || 'deepseek/deepseek-chat,claude-sonnet-4-6,claude-opus-4-8,deepseek/deepseek-r1')
+  .split(',').map(s => s.trim()).filter(Boolean);
 
 // ---- helpers ---------------------------------------------------------------
 
@@ -35,28 +37,40 @@ function loadJSON(path) {
   return JSON.parse(readFileSync(path, 'utf-8'));
 }
 
-async function callDeepSeek(messages, { maxTokens = 1024, temperature = 0.3 } = {}) {
+async function callLLM(messages, { maxTokens = 1024, temperature = 0.3 } = {}) {
   if (!DEEPSEEK_API_KEY) {
     throw new Error('PPIO_DEEPSEEK_API_KEY not set');
   }
-  const resp = await fetch(`${DEEPSEEK_BASE_URL}/chat/completions`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${DEEPSEEK_API_KEY}`
-    },
-    body: JSON.stringify({
-      model: DEEPSEEK_MODEL,
-      messages,
-      max_tokens: maxTokens,
-      temperature
-    })
-  });
-  if (!resp.ok) {
-    throw new Error(`DeepSeek API error ${resp.status}: ${await resp.text()}`);
+  const models = [DEEPSEEK_MODEL, ...BACKUP_MODELS];
+  let lastError;
+  const tried = [];
+
+  for (const model of models) {
+    try {
+      const resp = await fetch(`${DEEPSEEK_BASE_URL}/chat/completions`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${DEEPSEEK_API_KEY}`
+        },
+        body: JSON.stringify({ model, messages, max_tokens: maxTokens, temperature })
+      });
+      if (!resp.ok) {
+        const errBody = await resp.text();
+        console.warn(`    ⚠ ${model}: HTTP ${resp.status} — 尝试下一个模型`);
+        tried.push(`${model}(HTTP${resp.status})`);
+        continue; // try next model
+      }
+      const data = await resp.json();
+      console.log(`    ✓ 模型: ${model}`);
+      return data.choices[0].message.content;
+    } catch (err) {
+      console.warn(`    ⚠ ${model}: ${err.message.slice(0,60)} — 尝试下一个模型`);
+      tried.push(`${model}(${err.message.slice(0,30)})`);
+      lastError = err;
+    }
   }
-  const data = await resp.json();
-  return data.choices[0].message.content;
+  throw lastError || new Error(`所有模型不可用: ${tried.join(', ')}`);
 }
 
 // ---- signal detection prompts ----------------------------------------------
@@ -206,6 +220,10 @@ function ruleBasedClassify(item, config) {
   if (/字节.*算力|字节.*AI基础设施|阿里云.*千问|硅基流动.*融资|无问芯穹.*融资/.test(title)) lane = 'attend';
   // 电网/能耗 影响算力扩容
   if (/电网.*算力|算力.*电网|电力.*数据中心|能耗.*AI/.test(title)) lane = 'attend';
+  // 模型层出口管制 — 中美技术摩擦新战线
+  if (/模型.*出口管制|模型.*暂停.*访问|Anthropic.*暂停|Mythos.*暂停|AI模型.*限制/.test(title)) lane = 'attend';
+  // 模型发布 — 开源/能力跃迁影响推理需求格局
+  if (/智谱.*开源|GLM.*5|智谱.*发布|DeepSeek.*开源|通义千问.*开源|大模型.*开源/.test(title)) lane = 'attend';
 
   const isDeep = /政策原文|国务院|国常会|立法|招股书|深度分析|研究报告|政治局.*集体学习|习近平.*讲话/.test(title);
 
@@ -241,7 +259,7 @@ async function main() {
   let useAI = false;
   if (DEEPSEEK_API_KEY) {
     try {
-      console.log('  Using DeepSeek V4 Pro for signal classification...');
+      console.log('  Using AI for signal classification...');
 
       // Batch items in groups of 5 to keep prompts manageable
       const curated = [];
@@ -252,7 +270,7 @@ async function main() {
         const batchPrompt = batch.map(item => buildItemPrompt(item)).join('\n---\n');
         const systemPrompt = buildSystemPrompt(config);
 
-        const result = await callDeepSeek([
+        const result = await callLLM([
           { role: 'system', content: systemPrompt },
           { role: 'user', content: `请分析以下 ${batch.length} 条新闻，对每条返回一个 JSON 对象（放在数组中）：\n\n${batchPrompt}\n\n返回 JSON 数组，不要 markdown 代码块。` }
         ], { maxTokens: 4096, temperature: 0.3 });
