@@ -2,8 +2,8 @@ name: PPIO 产业政策信息流 — Daily Pipeline
 
 on:
   schedule:
-    # 每天 UTC 00:30 = 北京时间 08:30
-    - cron: '30 0 * * *'
+    # 每天 UTC 00:37 = 北京时间 08:37（避开整点高峰，GitHub Actions schedule 高峰期易延迟/跳过）
+    - cron: '37 0 * * *'
   workflow_dispatch:
     # 支持手动触发（GitHub UI 或 API）
     inputs:
@@ -55,6 +55,7 @@ jobs:
           PPIO_DEEPSEEK_API_KEY: ${{ secrets.PPIO_DEEPSEEK_API_KEY }}
           PPIO_DEEPSEEK_BASE_URL: ${{ secrets.PPIO_DEEPSEEK_BASE_URL }}
           PPIO_DEEPSEEK_MODEL: ${{ secrets.PPIO_DEEPSEEK_MODEL }}
+          PPIO_BACKUP_MODELS: ${{ secrets.PPIO_BACKUP_MODELS }}
           DISPLAY: ':99'
         run: |
           # Start virtual display for Chromium
