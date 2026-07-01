@@ -1,6 +1,47 @@
 {
-  "updated_at": "2026-06-29T02:04:00.592Z",
+  "updated_at": "2026-07-01T01:52:12.031Z",
   "days": [
+    {
+      "date": "2026-07-01",
+      "mainline": "算力基建获国家级平台落地与头部需求加码双重利好，但运营商及中间层竞品加速渗透，叠加对外投资新规收紧出海预期，边缘云赛道机遇与压力同步放大。",
+      "signal_summary": {
+        "🏛️": 3,
+        "📜": 2,
+        "⚔️": 2,
+        "💰": 1,
+        "🌏": 0,
+        "🔬": 0
+      },
+      "wind_indicators": {
+        "policy_heat": 4,
+        "competitor_heat": 4,
+        "capital_heat": 3,
+        "overseas_heat": 3,
+        "overall_sentiment": "升温",
+        "summary": "政策端算力基建立地平线清晰，资本端头部需求膨胀，但竞品扎堆切入AI算力服务，出海监管突现冷锋，整体风向偏暖而暗流涌动。"
+      },
+      "ppio_index": {
+        "score": 67,
+        "delta": 7,
+        "components": {
+          "policy_tailwind": 25,
+          "competitive_pressure": -15,
+          "capital_sentiment": 10,
+          "regulatory_risk": -8,
+          "overseas_headwind": -5
+        },
+        "interpretation": "算力基建落地与头部需求扩张推升指数，但运营商及中间层竞品渗透对冲出海监管新规，限制涨幅。"
+      },
+      "item_count": {
+        "total": 11,
+        "attend": 6,
+        "silent": 5
+      },
+      "competitor_updates": [
+        "三大运营商：已推出面向AI应用的Token套餐，将网络、机房与算力服务打包，正在从基础设施层向上抢占模型调用与边缘推理市场。",
+        "硅基流动：推出“Token工厂”模式，放弃自研模型转而聚合下游需求、调度多方算力，形成与PPIO分布式算力平台相似的中间层聚合定位。"
+      ]
+    },
     {
       "date": "2026-06-29",
       "mainline": "政策全链条加码算力基础设施，利好边缘云赛道；但竞品密集出招——运营商推Token套餐、硅基流动转型Token工厂、黑马启动IPO，AI Infra赛道竞争急速升温。",

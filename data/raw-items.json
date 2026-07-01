@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-29T02:01:13.616Z",
+  "generated_at": "2026-07-01T01:49:47.475Z",
   "week": "2026-W27",
   "date_range": {
-    "from": "2026-06-22",
-    "to": "2026-06-29"
+    "from": "2026-06-24",
+    "to": "2026-07-01"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -13,7 +13,7 @@
       "title": "李乐成在浙江调研新兴产业和未来产业发展",
       "url": "https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_c585def8b8fc48e98cc015d9015c845e.html",
       "source": "工信部-新闻",
-      "published": "2026-06-29",
+      "published": "2026-07-01",
       "body_snippet": "",
       "category": "技术"
     },
@@ -22,7 +22,7 @@
       "title": "中国算力平台（贵州）正式建成上线",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/dfdt/art/2026/art_4f3c96d6e15d46f3ba00f0b45f4072c0.html",
       "source": "工信部-新闻",
-      "published": "2026-06-29",
+      "published": "2026-07-01",
       "body_snippet": "",
       "category": "技术"
     },
@@ -32,14 +32,84 @@
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
       "category": "竞品",
-      "published": "2026-06-28",
+      "published": "2026-06-30",
       "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
       "_query_boost": 15
     },
     {
       "id": "raw-004",
+      "title": "字节跳动AI开支大幅提升，国产算力采购获政策导向支持 - 北京研精毕智",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9sRlA4RUpPSmFvUEM3eWk2Z000elBOcV9hbi1uS0xhVkFXaFA3azltbDNPRHR5RWVXOHBTWUtwZVRERXJxb2hRRDE1TUU?oc=5",
+      "source": "北京研精毕智",
+      "category": "竞品",
+      "published": "2026-06-29",
+      "body_snippet": "字节跳动AI开支大幅提升，国产算力采购获政策导向支持 北京研精毕智",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-005",
+      "title": "SpaceX AI业务深度分析：算力租赁暴利与太空数据中心豪赌 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OSzBuLS1hZ0JUbU5STUdQbzVaQXRKWUxFSmU2US00UjhmTGZJTkNvZXNkTXM3WU12Rnd5T19fWnplSGhZSXc4N0VMcFVOMXFGV3c?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-06-30",
+      "body_snippet": "SpaceX AI业务深度分析：算力租赁暴利与太空数据中心豪赌 虎嗅",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-006",
+      "title": "伊朗：未来几天与美无开展任何谈判计划；特斯拉涨超8%；世界杯巴西2-1淘汰日本；国常会部署！事关人工智能；宁德时代枧下窝矿复产丨每经早参 - mrjjxw.com",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04b1Fqb1BTbVdTM3B0c1lKYUFvbWZRdUNsQlMtNWtIaDF4U2JwS2lkdThDdVc5MXVJeTF3Y2VaSGczRlMwWTlUZXAyMUJyaTN5dlR3cGRfQmlkRjA1YXljT0ZyU2pQdw?oc=5",
+      "source": "mrjjxw.com",
+      "category": "政策",
+      "published": "2026-06-29",
+      "body_snippet": "伊朗：未来几天与美无开展任何谈判计划；特斯拉涨超8%；世界杯巴西2-1淘汰日本；国常会部署！事关人工智能；宁德时代枧下窝矿复产丨每经早参 mrjjxw.com",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-007",
+      "title": "消息称美国政府即将解除对 Anthropic Fable 5 模型的出口管制，最快下周恢复访问 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmNmpOaUhnMUU4bWE4ZHFFdUtVWm1YV2xxZ0F3Y05xQW5nNG1tMVBHQThSVUpGV0F2UWhyZS1LaGRRMGVHbVBNQ1lPWTdPemhiWGcxenItbGp4blRrUjdQTExpT09aOThzQkJfbllyeGRIeVBHTnl5blhPeU9ocU0?oc=5",
+      "source": "新浪财经",
+      "category": "海外",
+      "published": "2026-06-28",
+      "body_snippet": "消息称美国政府即将解除对 Anthropic Fable 5 模型的出口管制，最快下周恢复访问 新浪财经",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-008",
+      "title": "AI Token 出海：把中国算力卖向全球的三条路 - PANews",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTRE92eEoyZldhaHFUVW5PZ29kcThFTEdueG5YSVYzelZvMWVkMkhOcTdDS2xGVzFtMUNrdUNfN0xuVF9od3Y3cWFhR2N5ZmxmM0hFbWh2UWJjWDZWaDdaUjZyTWhPRk1xQkZ4b193WUhGQ0czWFJZREJDckpxV2c?oc=5",
+      "source": "PANews",
+      "category": "监管",
+      "published": "2026-07-01",
+      "body_snippet": "AI Token 出海：把中国算力卖向全球的三条路 PANews",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-009",
+      "title": "美团发布首个使用国产算力集群训练的AI模型 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RYjZraTVpM3ZLMFhEcDI5TU1HSVhxM1k1YjJjRVgzcEwyX3RvYTRUS01PWDI1WUxOSGM3dG1kQXM5bkJOVzhENlFZaFNOOURabm1zQnU2ZGdJbXpGTnY3bWdJa0EwU2xiT2c?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-06-30",
+      "body_snippet": "美团发布首个使用国产算力集群训练的AI模型 联合早报",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-010",
+      "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？_苏里南_新闻 - 华人头条",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0tMmhsTjRKcXBFb0toQk1NSTA0M3Q4NS1GVzgxVDdMSTZQSFhBbFNvdnVkSHctWDBtbHI0XzB6T2pUWVFxVUpIampUdEtsNDdNdGVEUmk2Qm1XY3B5UGdN?oc=5",
+      "source": "华人头条",
+      "category": "监管",
+      "published": "2026-06-26",
+      "body_snippet": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？_苏里南_新闻 华人头条",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-011",
       "title": "财经慧说丨“铁公基”到“六张网” 中国基建升级ing - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9RZHZnbUVXSkZTQ0prLWJOVXpuZ3FvNXRZTmswejVJZFZIVVp5bk8welc4cmhTNFVkSkFUcXJISDNTS0ZyaGJvYUdYZEZkNU5OQlVEWWFPZnRDYnpmRlpBbXNPaEhFM09XWVhuamY5cFU5RUlZRkM4?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeXA3NTUtTXg2OUtVX0xJaFA3c2pyVHBOVTBZazExay1XTklFY2xCYU83aUxoaFF4VnJELWtNdV9JZG9kUWtLeVNQdEM4cmZDNHNhOXQzTzlvMkRGTDYzbWtWTVZEdGsyZ0J3bzNBdzFYVVA2NTVNWEdLcFZ6MU94VjFn?oc=5",
       "source": "新华网",
       "category": "政策",
       "published": "2026-06-25",
@@ -47,16 +117,7 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-005",
-      "title": "太空算力的国产答案：用光子更高效！马斯克和老黄都太绕了",
-      "url": "https://www.qbitai.com/2026/06/439728.html",
-      "source": "量子位",
-      "published": "2026-06-29",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-006",
+      "id": "raw-012",
       "title": "弃模型自研深耕中间层 硅基流动“Token工厂”模式的AI产业破局与博弈 - 搜狐网",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX1ltYzVGa05vSEI4OGFxb011eU1MNExoWlowTk5FcklPdjcwRG90dzJnVklJUmx2UmcyZ0pRNl9JcTJNREUtdUI4U3N5bWVaRGFZMEhKT3RfaFZTbk9QeFJBZzliaEpib3pBdF9lbVF4cEphT29RUGk2TWZfYUlqOXdNam1Rc0dB?oc=5",
       "source": "搜狐网",
@@ -66,94 +127,34 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-007",
-      "title": "聚焦GW级Token工厂，解码下一代算力底座｜6月30日，深圳 - 品玩",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBCbmppXy1qZDU5c0doRkdhV2p6cWp5aFNBWHZCUTJmSlNXWS1JRVN3UEdJMVFnMXA1SWFrUlU3aHN3dUhheVBVRw?oc=5",
-      "source": "品玩",
-      "category": "竞品",
-      "published": "2026-06-25",
-      "body_snippet": "聚焦GW级Token工厂，解码下一代算力底座｜6月30日，深圳 品玩",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-008",
-      "title": "SuperX AI科技与哈萨克斯坦总理探讨1GW AI算力园区提案， 探索中亚数字基建市场 - 美通社",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5zNUZGcXNWTWlzbTZ4LU10V2JuT1ozU2dCOE55Z1BZZjM3U3p4ejdjNU1keG85ZFBnWXlwc1RfZWxaTVExNnpUYUJqbHJyWkItTlVKalBaOA?oc=5",
-      "source": "美通社",
-      "category": "政策",
-      "published": "2026-06-25",
-      "body_snippet": "SuperX AI科技与哈萨克斯坦总理探讨1GW AI算力园区提案， 探索中亚数字基建市场 美通社",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-009",
-      "title": "“AI颠覆一切”杀向美国就业市场! 甲骨文(ORCL.US)裁员超2万人，AI算力预算加速替代人力 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHRUZUFIYWtSTkR6UFRiTDlScjZZeHJQMVVVOHhZWlVMUWN3OExoREZiTERCcUZUTXJmdDNIWGdodG5NTmVrbVp2dnVtRFU1N0NuR3pHRy1CcGJvcTdkNjA0S0w1NVZza3VFMFMwbW43Vm9IcmoyZkp2OFV4Y3BBRjE4Vm44WkdiQTRLTDB6Q1FGX1VReE5HY3NacXFESzVRZDczekNvNVY0cWdNR3A1X0hR?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-06-23",
-      "body_snippet": "“AI颠覆一切”杀向美国就业市场! 甲骨文(ORCL.US)裁员超2万人，AI算力预算加速替代人力 新浪财经",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-010",
-      "title": "数字经济与Token产业规范化落地，算力普惠化迎来关键节点 - 北京研精毕智",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Hdkk5YUxiNUVwQkNOMVZkRUFONkw5aHY1TDVzLUNmeFNMaTlwbnV4T3l2V1R1M1JBV1ZyRkFVajJGOHdGRTVFLV96YU8?oc=5",
-      "source": "北京研精毕智",
-      "category": "政策",
-      "published": "2026-06-23",
-      "body_snippet": "数字经济与Token产业规范化落地，算力普惠化迎来关键节点 北京研精毕智",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-011",
-      "title": "AI算力“黑马”要IPO了 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPX0Rubzk4b19TaGRCQXFRdXJqUlNTVW44bVZRcS10X3JOaVBMeVBqTGZ2MENBdWl4b1cwS1Q5Y3oycFJUWXczUnNFMktNTkFrY0Fnd1kzRUZ2Y3lHUjZFZFVFTUdOOXU1NnozSnFISndBZGlMTFFWZ3d6aXJsYk5GTnJ6U21YYnBOVUljU3h5NWVHakFOUmxPbG1qVHhXX1BzWVdSbzZFbVN6MDJEQ3ZwdldDS2lpRU1vRU9sbXFuT0RtckM1aVExUHFXbUUtMlBVV3k5QjdjbnQyTncxWUlDcjRCdE4?oc=5",
-      "source": "新浪网",
-      "category": "竞品",
-      "published": "2026-06-23",
-      "body_snippet": "AI算力“黑马”要IPO了 新浪网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-012",
-      "title": "境外大模型卖回国内，为什么迟早会翻车？ - PANews",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Nc1Ita2hiaUZ4Y3VIZXlBTnJCb251dzRtektTbTd5MTF6b0xHbzlPOVVEM2YtZzFyeTdMWDZReXFaV3kwT1pWVjVJSlBfV1h5Ynp5d1hKYU9hZExaTXdxSWpNSjZ3OThNdnAtdnJ6X1QzTWc3YXo3NlcwR19xRjg?oc=5",
-      "source": "PANews",
-      "category": "监管",
-      "published": "2026-06-27",
-      "body_snippet": "境外大模型卖回国内，为什么迟早会翻车？ PANews",
-      "_query_boost": 20
-    },
-    {
       "id": "raw-013",
-      "title": "量子科技赋能AI+通信产业升级 - 集微网",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5JbnhFXzAwZ2FPcnNxWU5kUnRsWThDVGVybTVWaklLaDhZSDYycG9FbDZCckhycDNQbk5EVHQ1Z2tNU1E?oc=5",
-      "source": "集微网",
-      "category": "政策",
-      "published": "2026-06-28",
-      "body_snippet": "量子科技赋能AI+通信产业升级 集微网",
-      "_query_boost": 30
+      "title": "内存涨价与AI算力集中正挤压普通人技术入口 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9TNm55TnhPUXlEZmpPVEZQY3pYSUo5Sm5lNFdLeFFscTNvRm5RNWJoN0JIWWJubHd5ZkxBYWlnSHlObjRaRW1KMVRDNldVNVd0VUxGcw?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-06-30",
+      "body_snippet": "内存涨价与AI算力集中正挤压普通人技术入口 虎嗅",
+      "_query_boost": 0
     },
     {
       "id": "raw-014",
-      "title": "AI政策密集落地 全链条协同布局提速 - 央广财经",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsY2VvN2VjaUJ0V1VDb2xpYVhNSTgzTS1CRmwwdmJDdmxsTlhib0JyNm1OWktWNkwyc3YtMUkwQ3lhR2hTdHhKOHlQdGZFazV0OFRiNjRtREpFRGdybkkzam1HaGJiM292RkhNNXlB?oc=5",
-      "source": "央广财经",
-      "category": "政策",
-      "published": "2026-06-25",
-      "body_snippet": "AI政策密集落地 全链条协同布局提速 央广财经",
-      "_query_boost": 30
+      "title": "ASIC芯片正从边缘走向AI算力中心，云厂商与OpenAI密集自研驱动产业链重构 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ndjI2ZmFweHdZWjViVy1mWU94X3dKUjd0UnZ2a1dCaFB0dTRLZWdwc0VyQ0hna2M0dEF1UWQ1UDZWSDdORnVVY1NPNjRwUUI1YzV3RXNDbl9pZEt6WXdhaXhB?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-06-29",
+      "body_snippet": "ASIC芯片正从边缘走向AI算力中心，云厂商与OpenAI密集自研驱动产业链重构 虎嗅",
+      "_query_boost": 0
     },
     {
       "id": "raw-015",
-      "title": "中国联通创新成果精彩亮相2026上海世界移动通信大会 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE85eThMalZ2RE12TGJPc3hRem1NV2ZmblY1Nk9XcXQyTDB4SWJwZFZLbTFEUWEwWXM3bkR1a0ZhMGEtbUI1blFQVWktb2M0cGUyc2pmYVRTWmdpamZDeE4tbEU1MDl4WlE5ZzJ3WG53?oc=5",
-      "source": "中华网",
-      "category": "政策",
-      "published": "2026-06-25",
-      "body_snippet": "中国联通创新成果精彩亮相2026上海世界移动通信大会 中华网",
-      "_query_boost": 30
+      "title": "CPO技术成AI算力瓶颈突破关键，上游供应链订单排至2028年 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1IQlZCZ2V2RHhld0NRSkRLME9zWG9zY2lfUW9CdnVXZDI0NzJEQVlDR09PNHNpZ3V5ZUU5WkoxRUp2dHFobVgyNHFHa2RuOWFTN0g1Sw?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-06-29",
+      "body_snippet": "CPO技术成AI算力瓶颈突破关键，上游供应链订单排至2028年 虎嗅",
+      "_query_boost": 0
     }
   ]
 }
