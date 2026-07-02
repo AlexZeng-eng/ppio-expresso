@@ -1,100 +1,130 @@
 {
-  "generated_at": "2026-07-01T01:51:23.514Z",
+  "generated_at": "2026-07-02T01:19:40.451Z",
   "week": "2026-W27",
   "classifier": "deepseek-v4-pro",
   "total_raw": 15,
-  "total_curated": 11,
-  "attend_count": 6,
-  "silent_count": 5,
+  "total_curated": 15,
+  "attend_count": 4,
+  "silent_count": 11,
   "items": [
     {
-      "id": "raw-2",
-      "title": "中国算力平台（贵州）正式建成上线",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/dfdt/art/2026/art_4f3c96d6e15d46f3ba00f0b45f4072c0.html",
-      "source": "工信部-新闻",
+      "id": "raw-1",
+      "title": "美国政府解除大模型出口管制Anthropic：将开始恢复访问 - 砍柴网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5tVVd4dWxwT3MyLXFJR0FzYkxTb0E4NVVxU09zN180aEFESFhFMDVmajRlOFhhRXhjLWt5RUNfdVJNN2l0ZXFpeXlGZzJOSjJEcTQyMGhOWFVQOFRp?oc=5",
+      "source": "砍柴网",
+      "category": "海外",
       "published": "2026-07-01",
-      "body_snippet": "",
-      "category": "政策",
-      "lane": "attend",
+      "body_snippet": "美国政府解除大模型出口管制Anthropic：将开始恢复访问 砍柴网",
+      "_query_boost": 30,
+      "lane": "silent",
       "signals": [
-        "🏛️"
+        "🌏"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c3"
+      ],
+      "summary_cn": "美国解除对Anthropic大模型出口管制，恢复部分企业访问权限，海外监管风向有所松动，对PPIO的海外对标和合规参考影响有限。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-2",
+      "title": "美国解除出口管制后Anthropic再次开放Claude Fable 5模型访问- AI 人工智能 - cnBeta.COM",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VRU9SUjBwQktBcDFyeUJ2S3k0TEppYW1wSTN1R2ZLbXdfUG1zRlpvNGRLeWdOYUduaWJEUFBzbm13YkxLcjh6aFAybGJtd1YzajJkUDE2VVl0Rkp4UnlvNA?oc=5",
+      "source": "cnBeta.COM",
+      "category": "海外",
+      "published": "2026-07-02",
+      "body_snippet": "美国解除出口管制后Anthropic再次开放Claude Fable 5模型访问- AI 人工智能 cnBeta.COM",
+      "_query_boost": 30,
+      "lane": "silent",
+      "signals": [
+        "🌏"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c3"
+      ],
+      "summary_cn": "美国解除出口管制后，Anthropic再次开放Claude Fable 5模型访问，短期对国内算力需求无直接影响。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-3",
+      "title": "在美国取消出口管制后，Anthropic恢复了其AI模型Fable和Mythos - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSjEzdUptX1pFU05MUWhhMTV4SzA4MlVMYXc1R0lZSjVabkczY2ZuX0JDMndWaEh0dDFEMEZvQjJ5STFqYmJqU1JOMDhXVjRkRVBPbGpDOGVVc194ZDI2bzhSam5YcjFxZ2IycTEzYzB3Rmo4NHFBbmdDNVYzNXppQzgwX2VCUjY3aDJxQm10Ykl2UE5zWWE0Z19sNjNlMW13ODQxcmpRRk5WVWhzZXRRY01ZS0J6azlINjVnZFVn?oc=5",
+      "source": "CoinDesk",
+      "category": "海外",
+      "published": "2026-07-01",
+      "body_snippet": "在美国取消出口管制后，Anthropic恢复了其AI模型Fable和Mythos CoinDesk",
+      "_query_boost": 30,
+      "lane": "silent",
+      "signals": [
+        "🌏"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c3"
+      ],
+      "summary_cn": "美国取消出口管制，Anthropic恢复Fable和Mythos模型访问，海外AI监管趋松信号，但对PPIO边缘云业务暂无直接关联。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-4",
+      "title": "美国解除Anthropic最强AI模型出口管制 恢复部份企业访问权限 - 香港01",
+      "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxNTEdwQnRPaEF4UGVKUE1Wc1MzMzRldUlrTTN4dEoydkx2RW8tWWhUUnVlRUxwSEZIakV4c1ZPN2VqQnBtajUtS0xRNW43SGxrR0ZmX2VhT0Y5NktsLXhWQmcwWlZyYmdsbWxZZHpEeEtEZWIxR25HM2RTemZSMTB4b0tlSkhMR0ZteVdOTk9SMnROXzBZSVBhYkRMV1RVODRSNF9NQTFOZ0d6bktfZTJPSW14NGFfSWctb0lhZ0RTdG9iaTF0UXgzVmV4YXpTN2JvWFpVOVloMWF4ZFhLdzBNNTduNTdVRDdxWnN2a0JJY3lFdklHcFpPaXRiNXFTQ3ZvTmlQOUpaektTajNsclF4ZGRQN1l4YllqNklHci1JbWNsYmZfWFh4X3BHTmZiVWc0OEpkSkV0S1BZZlpMdElSZHRaeHViUEtVc09ESkhIV1VSVExiX0hHMndwWndKVlZhTThoaHpNdHhoT1lDdHJHWlVreWctX0dDVnNzZm5rZVNPMDdFV1M2R3dOR2tVem16Q1E?oc=5",
+      "source": "香港01",
+      "category": "海外",
+      "published": "2026-07-01",
+      "body_snippet": "美国解除Anthropic最强AI模型出口管制 恢复部份企业访问权限 香港01",
+      "_query_boost": 30,
+      "lane": "silent",
+      "signals": [
+        "🌏"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c3"
+      ],
+      "summary_cn": "美国解除Anthropic最强AI模型出口管制，恢复部分企业访问权限，海外AI监管松动，PPIO需关注其对中国市场策略的影响。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-5",
+      "title": "中国AI算力建设面临有效供给不足与部分智算中心低利用率并存矛盾 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1HQlU3YmJpdnBWWU11MmNQV0twRHo5aGE3TDFNQjdjQWNkeHY5blpEVlVwcElVS3JGbGlpMzF1bW1TaXRiSW9DekNrNjJUVlZ1eXc?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-07-01",
+      "body_snippet": "中国AI算力建设面临有效供给不足与部分智算中心低利用率并存矛盾 虎嗅",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
         "c1"
       ],
-      "summary_cn": "工信部主导的「中国算力平台（贵州）」正式上线，标志着国家级算力基础设施布局进一步下沉，地方算力资源纳入统一调度体系。该平台有望通过集约化运营降低算力使用门槛，推动边缘计算与云边协同需求。\n\n对PPIO而言，算力平台的国家级认证将增强行业信心，带动更多企业与开发者尝试分布式算力服务，利于拓展客户与生态；但统一的算力交易调度体系也可能将定价权向中心化平台集中，边缘云需强化差异化与低时延优势，避免同质化竞争。同时，在港股IPO前，国家主导的算力基础网络为行业讲述“新基建”故事提供了政策背书。",
-      "ppio_signal": {
-        "positive": "国家算力平台上线，推动算力普惠，为边缘云创造更大的长尾需求；政策背书提升投资人信心，助力IPO叙事。",
-        "risk": "中心化算力调度可能导致定价权失衡，边缘云若不能突出时延、弹性等差异化价值，可能被标准化服务替代。"
-      }
+      "summary_cn": "中国AI算力建设存在有效供给不足与智算中心低利用率并存矛盾，凸显分布式边缘算力对优化资源配置的潜力，利好PPIO业务逻辑。",
+      "ppio_signal": null
     },
     {
-      "id": "raw-3",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
-      "category": "竞品",
-      "published": "2026-06-30",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "_query_boost": 15,
-      "lane": "attend",
+      "id": "raw-1",
+      "title": "人保财险签发全国首单“算力保”专属产品 - 新华网客户端",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYTFHVHVkUzdzekpGWXpCZlBkUVJkVkx6aXlXREJvQWp4SXdDMnpLZnFyZENlUVZvd1RzeGVtQk04aURualZNMm95Uml4MHVNNmJjcGE5c0hJWmE4X1hvaGhMRWdGZXgteXVucEcyYkJCVkVwVjBYVjYwTkk3NFV3VndNRk9fTno1UTFhRjJpMEJ3elE0bHZKRUl3?oc=5",
+      "source": "新华网客户端",
+      "category": "资本",
+      "published": "2026-07-01",
+      "body_snippet": "人保财险签发全国首单“算力保”专属产品 新华网客户端",
+      "_query_boost": 0,
+      "lane": "silent",
       "signals": [
-        "⚔️"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "中国电信、中国移动、中国联通三大运营商相继推出面向AI应用的Token套餐，降低开发者调用大模型的成本，推动AI算力消费从资源型转向服务型，被市场看作算力“大众化”的标志。\n\n运营商凭借网络、机房和客户触达优势，直接切入AI推理服务市场，与PPIO的边缘推理节点形成竞争。短期内可能分流部分价格敏感客户；但长期看，市场教育加速对整体分布式算力有利。PPIO需在时延、弹性部署和模型定制层面建立护城河，避免陷入价格战，同时可探索与运营商在网络接入层的合作。",
-      "ppio_signal": {
-        "positive": "运营商教育市场，降低企业使用AI算力门槛，扩大整体需求，有利于分布式边缘推理场景的增长。",
-        "risk": "运营商具备全栈资源与客户基础，若大规模投入边缘推理，可能形成直接替代，压缩第三方边缘云生存空间。"
-      }
-    },
-    {
-      "id": "raw-4",
-      "title": "字节跳动AI开支大幅提升，国产算力采购获政策导向支持 - 北京研精毕智",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9sRlA4RUpPSmFvUEM3eWk2Z000elBOcV9hbi1uS0xhVkFXaFA3azltbDNPRHR5RWVXOHBTWUtwZVRERXJxb2hRRDE1TUU?oc=5",
-      "source": "北京研精毕智",
-      "category": "政策",
-      "published": "2026-06-29",
-      "body_snippet": "字节跳动AI开支大幅提升，国产算力采购获政策导向支持 北京研精毕智",
-      "_query_boost": 15,
-      "lane": "attend",
-      "signals": [
-        "🏛️",
         "💰"
       ],
       "is_deep_read": false,
       "compass_triggered": [
         "c1"
       ],
-      "summary_cn": "北京研精毕智报告显示字节跳动AI资本开支大幅提升，且国产算力采购受到政策明确鼓励，大型互联网企业正加速转向国产芯片和算力平台。\n\n对PPIO而言，两大积极信号：一是头部客户AI投入膨胀，边缘推理与分布式训练需求将持续爆发；二是政策扶持国产算力，公司作为国产化边缘云服务商，有望在招投标、供应链和区域落地中获得倾斜。风险在于字节等巨头可能自建边缘节点或组建联盟，削弱第三方独立平台的议价能力。在IPO前，政策的国产导向形成强背书。",
-      "ppio_signal": {
-        "positive": "政策鼓励国产算力采购叠加头部客户AI开支增长，双重利好打开边缘算力需求空间，并强化国产厂商市场份额。",
-        "risk": "互联网大厂可能借此政策自建或联合国有资源布局边缘算力，导致第三方平台面临客户集中度高、转投自研风险。"
-      }
-    },
-    {
-      "id": "raw-5",
-      "title": "SpaceX AI业务深度分析：算力租赁暴利与太空数据中心豪赌 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OSzBuLS1hZ0JUbU5STUdQbzVaQXRKWUxFSmU2US00UjhmTGZJTkNvZXNkTXM3WU12Rnd5T19fWnplSGhZSXc4N0VMcFVOMXFGV3c?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-06-30",
-      "body_snippet": "SpaceX AI业务深度分析：算力租赁暴利与太空数据中心豪赌 虎嗅",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🌏",
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c3"
-      ],
-      "summary_cn": "SpaceX探索基于星链的太空数据中心与算力租赁模式，极端环境下的边缘算力创新或对国内空天地一体化算力网络构成远期参照，但短期内对PPIO业务影响有限。",
+      "summary_cn": "人保财险推出国内首款算力专属保险产品“算力保”，为算力设施提供风险保障。此举可能降低算力运营方的经营风险，对PPIO等边缘云平台在资产保护与客户信心方面形成间接利好，但直接业务影响有限。",
       "ppio_signal": null
     },
     {
@@ -114,60 +144,119 @@
       "compass_triggered": [
         "c3"
       ],
-      "summary_cn": "美国政府可能解除对Anthropic Fable 5模型的出口管制，恢复访问，显示海外对高端模型出口的摇摆态度，需关注其对中国市场的辐射影响。",
+      "summary_cn": "美国拟解除对Anthropic Fable 5模型的出口管制，反映AI技术扩散管制可能出现松动，对全球算力服务贸易释放积极信号，但与中国边缘云业务无直接关联。",
       "ppio_signal": null
     },
     {
       "id": "raw-3",
-      "title": "AI Token 出海：把中国算力卖向全球的三条路 - PANews",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTRE92eEoyZldhaHFUVW5PZ29kcThFTEdueG5YSVYzelZvMWVkMkhOcTdDS2xGVzFtMUNrdUNfN0xuVF9od3Y3cWFhR2N5ZmxmM0hFbWh2UWJjWDZWaDdaUjZyTWhPRk1xQkZ4b193WUhGQ0czWFJZREJDckpxV2c?oc=5",
-      "source": "PANews",
-      "category": "监管",
+      "title": "Meta布局AI云业务拟对外出售额外算力|云计算|亚马逊|微软|谷歌|数据中心_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPeHRFekZOTTlLQnJYNEJNWkxJMlA2VktxNWVQNUd0ZWpnckZiWXFsN1lOUnN1bjVxZmFDa3JTM1I4LUhjLXlZLUVaY0tQM0RFZXNjWVMzQ2gzQXkzMnRUZmRxRnBleHFvcU9iZ0ZtM0s4RHEyUHNyeW84X1JsejBYNlMyN3JMVVZ2am5PNVRZZUpRbkxFejlIc1gxRmhpUzluVUh6TlZjUXFnblRkLTZfWjhVcTZDN1B6U2Z0Tkt6Q2ZyLTdhWW1pb0dVVVpWU0ZaSjlockdiY1FjUGROR285N3pic201XzhoSGpjZTFnSFV2UEpuaFdPSDZwVjZ6YVlqTS00T3YxdmktVi1sUlRNWXlXckV1dDJS?oc=5",
+      "source": "新浪财经",
+      "category": "海外",
       "published": "2026-07-01",
-      "body_snippet": "AI Token 出海：把中国算力卖向全球的三条路 PANews",
-      "_query_boost": 15,
-      "lane": "attend",
-      "signals": [
-        "📜"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1"
-      ],
-      "summary_cn": "PANews文章探讨通过AI Token将中国算力出售至全球的三条路径，涉及算力跨境流动、数据出境及加密资产合规等敏感议题。作为算力出海的新型商业模式，它直接触碰当前数据主权与出口管制监管的模糊地带。对PPIO而言，若后续此类模式被监管层明确要求纳入牌照管理或安全审查，将增加出海业务合规成本，甚至影响港股IPO时对商业模式合规性的问询。",
-      "ppio_signal": {
-        "positive": "预示着算力出海可通过创新交易结构突破物理边界，若合规路径清晰，可为PPIO边缘算力的全球销售打开新渠道。",
-        "risk": "算力Token化处于监管灰色区，易被认定为变相跨境金融活动或数据违规出境，可能遭遇政策突击收紧，导致业务中断或牌照风险。"
-      }
-    },
-    {
-      "id": "raw-4",
-      "title": "美团发布首个使用国产算力集群训练的AI模型 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RYjZraTVpM3ZLMFhEcDI5TU1HSVhxM1k1YjJjRVgzcEwyX3RvYTRUS01PWDI1WUxOSGM3dG1kQXM5bkJOVzhENlFZaFNOOURabm1zQnU2ZGdJbXpGTnY3bWdJa0EwU2xiT2c?oc=5",
-      "source": "联合早报",
-      "category": "技术",
-      "published": "2026-06-30",
-      "body_snippet": "美团发布首个使用国产算力集群训练的AI模型 联合早报",
+      "body_snippet": "Meta布局AI云业务拟对外出售额外算力|云计算|亚马逊|微软|谷歌|数据中心_手机新浪网 新浪财经",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
-        "🔬"
+        "🌏"
       ],
       "is_deep_read": false,
       "compass_triggered": [
         "c2"
       ],
-      "summary_cn": "美团发布首个基于国产算力集群训练的AI模型，验证了国产异构算力在大规模训练中的可行性，可能加速互联网大厂对国产算力生态的依赖。",
+      "summary_cn": "Meta计划对外出售AI云算力，加剧全球云计算市场供给端竞争，可能间接压低算力价格，对PPIO的定价策略和出海布局产生远期影响。",
       "ppio_signal": null
     },
     {
+      "id": "raw-4",
+      "title": "关于2026年第2季度张江AI创新小镇“算力券”“模型券”“语料券”专项政策受理工作的通知_上观新闻 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1GdWVSYXlFTlMtMHZ0bEhMcWdGcUp5YkNpb3YyRFRKNUNscC1vdWNzZXVUaGZNT01QWUM3dXZvRHR3YmhMcmZSNkFXUVNOalVJQ0VKUWFBaXI?oc=5",
+      "source": "上观新闻",
+      "category": "政策",
+      "published": "2026-07-01",
+      "body_snippet": "关于2026年第2季度张江AI创新小镇“算力券”“模型券”“语料券”专项政策受理工作的通知_上观新闻 上观新闻",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "上海张江AI创新小镇启动2026年Q2算力券、模型券、语料券专项政策受理，向区内企业发放算力补贴。该政策直接降低AI企业用云门槛，有望刺激边缘端训推需求增长。对PPIO而言，可积极对接上海本地客户，利用分布式算力网络承接被补贴激活的长尾算力需求，同时应关注各地类似补贴政策带来的增量市场机会。",
+      "ppio_signal": {
+        "positive": "地方算力补贴直接催生更多中小客户群，有利于PPIO分布式边缘节点承接碎片化推理与微调任务，加速收入增长。",
+        "risk": "补贴集中于特定区域或特定云厂商渠道，可能扭曲市场竞争，PPIO需及时跟进各地政策窗口才能受益。"
+      }
+    },
+    {
       "id": "raw-5",
-      "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？_苏里南_新闻 - 华人头条",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0tMmhsTjRKcXBFb0toQk1NSTA0M3Q4NS1GVzgxVDdMSTZQSFhBbFNvdnVkSHctWDBtbHI0XzB6T2pUWVFxVUpIampUdEtsNDdNdGVEUmk2Qm1XY3B5UGdN?oc=5",
-      "source": "华人头条",
+      "title": "硅基流动冲刺港交所：「Token工厂」2025年营收增7倍 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS09FeGVDcF9kNW5ibkVtd2RDaWYtY2VEZWViMXR2Y2VTdjFES0pkSk84YnJGVnZjNmdiT1VEeEtwYVl6bV9EQWUzRW5udGRQem9iZEhHSFhybW56dWdyRGVDeWNjcHVHVUxZTVJBb2pqcHZnZFB4enlUQU85X2RCTGZnX0dzbFhFWVRBeQ?oc=5",
+      "source": "搜狐网",
+      "category": "竞品",
+      "published": "2026-07-01",
+      "body_snippet": "硅基流动冲刺港交所：「Token工厂」2025年营收增7倍 搜狐网",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "⚔️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "AI Infra公司硅基流动已冲刺港交所，2025年营收增长7倍，定位“Token工厂”，主攻模型部署与推理服务。其上市将获得大量资本加持，可能加速在分布式推理、边缘云领域的市场扩张，与PPIO的边缘算力平台形成直接竞争。对PPIO而言，需在差异化方面发力，例如强化端侧部署能力、混合云调度优势，亦需加快自身港股IPO节奏以争取对称竞争地位。",
+      "ppio_signal": {
+        "positive": "竞品上市验证AI Infra赛道资本认可度，为PPIO赴港IPO提供正向市场参照，并可能带动板块整体估值提升。",
+        "risk": "硅基流动上市后弹药充足，可能在价格、客户获取上发起激烈竞争，挤压PPIO的市场份额与利润空间。"
+      }
+    },
+    {
+      "id": "raw-1",
+      "title": "美团跑通国产算力万亿模型，探索始于2023年 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMFgtVFA3cWFMN3Etc3dYSW1CNEZteGNVQXB2RzVXRk51RHZRSy1TM0NYUDVFNDUzVU1ONVZuN1p2YUFnWkloZkc5RThENlA2cklONlNJa0QzOWpLSGVFNmg5Z0hvVnhNcXBTemQzNWVNM1hteVJLZWwyZzBVRFE5WlB3c2laaWZzT1B1Zg?oc=5",
+      "source": "搜狐网",
+      "category": "技术",
+      "published": "2026-07-01",
+      "body_snippet": "美团跑通国产算力万亿模型，探索始于2023年 搜狐网",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "美团在国产算力上成功训练万亿参数大模型，验证了国产芯片集群的可行性，间接利好国产算力生态建设。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-2",
+      "title": "月之暗面Kimi半年融资超39亿美元，投前估值升至315亿美元 - 电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRYmVEUndEWEpHZ2tSWEpUbWtjV19WWXNxZUlGSjNTYzNXOUJWTktSX3otWUpGdzRsMkZURHY5a3RhNVQxcEI2RHloaXJLWkY1U2hPbUx1Z3Bqc1NE?oc=5",
+      "source": "电子工程专辑",
+      "category": "资本",
+      "published": "2026-07-01",
+      "body_snippet": "月之暗面Kimi半年融资超39亿美元，投前估值升至315亿美元 电子工程专辑",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "月之暗面半年内完成超39亿美元融资，投前估值达315亿美元，大模型赛道资本持续狂热。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-3",
+      "title": "《国务院关于对外投资的规定》对跨国企业的意义 - China Briefing",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYVFiZkRkWmliNXhHenlmWUVmSjhSZ0w3dFd5ZGdrRnpwdEp5ekpGd2poVmN0UTlyclFKVjJRMVdTcEpBVm5NdkJjd1ZmTjlEZVFmbHd3UGhpNk1NQV9XZGsxdEFqbE9ZeTBBMXJqeEhfNHo3OU1qNnRnaDNXOVROdDJMaHJITkk1Y2ZzaEpZa2FRVTFOWGpUcnZ1d3lXQUtkZzBMUWpEbWs?oc=5",
+      "source": "China Briefing",
       "category": "监管",
-      "published": "2026-06-26",
-      "body_snippet": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？_苏里南_新闻 华人头条",
+      "published": "2026-06-29",
+      "body_snippet": "《国务院关于对外投资的规定》对跨国企业的意义 China Briefing",
       "_query_boost": 25,
       "lane": "attend",
       "signals": [
@@ -178,21 +267,37 @@
       "compass_triggered": [
         "c1"
       ],
-      "summary_cn": "国务院发布对外投资新规（837号令），可能收紧中国企业境外投资的审查口径，特别是涉及敏感技术和数据出境的领域。该规定重新定义了对外投资的合规要求，企业出海架构、资金出境、备案流程均需重新审视。对PPIO而言，其港股IPO主体若涉及境内资产或VIE结构，赴港上市本身及未来海外业务拓展都可能被纳入更严格的外投资监管框架，需提前调整法律架构以确保合规。",
+      "summary_cn": "国务院发布《对外投资的规定》，对跨国企业境外投资和资金流动提出新的合规要求。对于正在筹备香港IPO的PPIO而言，此规定可能涉及跨境资金流动、VIE架构合规性及CSRC备案等环节，需密切关注对外投资审批和返程投资限制。若规定收紧，可能增加上市审批时间与合规成本；若明确支持合规境外融资，则可能为PPIO提供更清晰的路径。",
       "ppio_signal": {
-        "positive": "新规若明确规范投资路径，长期来看可为企业出海提供更清晰的法治保障，减少不确定性。",
-        "risk": "短期可能引发监管窗口指导收紧，增加PPIO境外上市备案的沟通成本与时间，若算力出海被归类为敏感领域，甚至遭遇实质性障碍。"
+        "positive": "规定可能为合规境外上市提供更清晰的指引，有助于PPIO在港股IPO过程中满足监管要求，减少不确定性。",
+        "risk": "若规定收紧了ODI审批或加强了对VIE架构的审查，PPIO可能面临更长的审批周期和更高的合规成本，甚至影响上市时间表。"
       }
     },
     {
-      "id": "raw-2",
-      "title": "弃模型自研深耕中间层 硅基流动“Token工厂”模式的AI产业破局与博弈 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX1ltYzVGa05vSEI4OGFxb011eU1MNExoWlowTk5FcklPdjcwRG90dzJnVklJUmx2UmcyZ0pRNl9JcTJNREUtdUI4U3N5bWVaRGFZMEhKT3RfaFZTbk9QeFJBZzliaEpib3pBdF9lbVF4cEphT29RUGk2TWZfYUlqOXdNam1Rc0dB?oc=5",
-      "source": "搜狐网",
+      "id": "raw-4",
+      "title": "硬氪首发 | 清华系芯片企业再获数千万融资，要以新技术突破AI算力瓶颈",
+      "url": "https://36kr.com/p/3877057215393793?f=rss",
+      "source": "36氪",
+      "published": "2026-07-01",
+      "body_snippet": "",
+      "category": "资本",
+      "lane": "silent",
+      "signals": [
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "清华系AI芯片公司获数千万人民币融资，用于突破AI算力瓶颈，但金额较小，不影响格局。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-5",
+      "title": "卖Token也不是稳赚不赔！硅基流动招股书来了",
+      "url": "https://www.qbitai.com/2026/07/441127.html",
+      "source": "量子位",
+      "published": "2026-07-01",
+      "body_snippet": "",
       "category": "竞品",
-      "published": "2026-06-25",
-      "body_snippet": "弃模型自研深耕中间层 硅基流动“Token工厂”模式的AI产业破局与博弈 搜狐网",
-      "_query_boost": 20,
       "lane": "attend",
       "signals": [
         "⚔️"
@@ -201,51 +306,11 @@
       "compass_triggered": [
         "c2"
       ],
-      "summary_cn": "硅基流动放弃自研大模型，深耕中间层推出“Token工厂”模式，从算力消费者转向调度者，按需提供模型调用服务。该模式旨在聚合下游需求、降低AI应用门槛，逐步构建中间层生态。对PPIO而言，Token工厂需要大量分布式推理算力，PPIO的边缘云分布式算力平台可作为其底层基础设施，为其提供低成本、低延迟的推理节点，有望扩大PPIO的客户基础和算力销售。但硅基流动可能自行整合边缘算力或与其他云平台合作，削弱PPIO的供应地位；同时中间层赛道热度上升将吸引更多竞争者，可能挤压PPIO在边缘算力市场的议价空间。",
+      "summary_cn": "AI Infra公司硅基流动递交招股书，其商业模式以售卖Token为主，招股书可能揭示其收入结构、客户集中度及毛利率等关键指标。作为边缘云分布式算力平台，PPIO需关注其Token模式的盈利能力与可持续性：若招股书显示高增长但持续亏损，说明市场仍在烧钱换规模；若已接近盈亏平衡，则可能重塑AI Infra盈利预期，对PPIO估值和IPO定价产生影响。",
       "ppio_signal": {
-        "positive": "硅基流动的‘Token工厂’模式需要大量异构推理算力，PPIO的边缘云分布式算力可成为其理想的底层，有望拓展新的大型客户，提升算力利用率。",
-        "risk": "硅基流动可能自建算力池或与其它边缘云合作，削弱PPIO的议价地位；中间层赛道拥挤，PPIO需强化直客模式，避免过度依赖中间层。"
+        "positive": "竞品招股书公开数据可为PPIO提供对标参考，帮助其在上市前优化商业模式，突出边缘云分布式的成本优势。",
+        "risk": "若硅基流动展现出强劲的财务表现和快速的客户增长，可能提前抢占市场认知，导致PPIO在IPO时面临更激烈的估值竞争。"
       }
-    },
-    {
-      "id": "raw-4",
-      "title": "ASIC芯片正从边缘走向AI算力中心，云厂商与OpenAI密集自研驱动产业链重构 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ndjI2ZmFweHdZWjViVy1mWU94X3dKUjd0UnZ2a1dCaFB0dTRLZWdwc0VyQ0hna2M0dEF1UWQ1UDZWSDdORnVVY1NPNjRwUUI1YzV3RXNDbl9pZEt6WXdhaXhB?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-06-29",
-      "body_snippet": "ASIC芯片正从边缘走向AI算力中心，云厂商与OpenAI密集自研驱动产业链重构 虎嗅",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "云厂商与OpenAI自研ASIC芯片从边缘延伸至AI中心，推动算力基础设施重构，可能降低通用GPU依赖，PPIO可关注异构算力适配以保持边缘成本优势。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-5",
-      "title": "CPO技术成AI算力瓶颈突破关键，上游供应链订单排至2028年 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1IQlZCZ2V2RHhld0NRSkRLME9zWG9zY2lfUW9CdnVXZDI0NzJEQVlDR09PNHNpZ3V5ZUU5WkoxRUp2dHFobVgyNHFHa2RuOWFTN0g1Sw?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-06-29",
-      "body_snippet": "CPO技术成AI算力瓶颈突破关键，上游供应链订单排至2028年 虎嗅",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "CPO光电共封装技术有望突破AI算力互联瓶颈，供应链订单排至2028年，预示着高带宽低延迟互联的发展，PPIO的边缘节点互联效率或将受益，但需关注技术成熟度与成本。",
-      "ppio_signal": null
     }
   ]
 }

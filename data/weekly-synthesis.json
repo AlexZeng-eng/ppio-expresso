@@ -1,128 +1,99 @@
 {
-  "generated_at": "2026-07-01T01:52:11.934Z",
-  "date": "2026-07-01",
-  "date_label": "2026-07-01",
-  "mainline": "算力基建获国家级平台落地与头部需求加码双重利好，但运营商及中间层竞品加速渗透，叠加对外投资新规收紧出海预期，边缘云赛道机遇与压力同步放大。",
+  "generated_at": "2026-07-02T01:37:01.599Z",
+  "date": "2026-07-02",
+  "date_label": "2026-07-02",
+  "mainline": "硅基流动冲刺港交所加剧边缘云竞争，国务院对外投资规定增加VIE备案不确定性，张江算力券利好需求",
   "signal_summary": {
-    "🏛️": 3,
-    "📜": 2,
+    "🏛️": 2,
+    "📜": 1,
     "⚔️": 2,
-    "💰": 1,
+    "💰": 0,
     "🌏": 0,
     "🔬": 0
   },
   "speed_read": {
     "positive": [
-      "工信部主导「中国算力平台（贵州）」上线，边缘计算与云边协同需求将随集约化调度进一步释放",
-      "字节跳动AI资本开支大幅提升，且国产算力采购受政策鼓励，头部客户扩张为PPIO边缘推理带来明确增量",
-      "国产算力替代政策深化落地，PPIO基于国产芯片的边缘云方案更易获得政企客户信任"
+      "上海张江AI创新小镇Q2算力券政策降低企业用云门槛，刺激边缘训推需求",
+      "全国首单“算力保”保险产品落地，降低算力投资风险，利好行业融资环境"
     ],
     "risk": [
-      "三大运营商集体推出AI Token套餐，凭借网络与机房优势直接介入算力消费市场，对PPIO的即时推理服务构成直接竞争",
-      "国务院837号令收紧对外投资审查，涉及敏感技术与数据出境的VIE架构及海外部署计划面临合规重估",
-      "AI Token出海模式触碰数据主权与出口管制模糊地带，PPIO任何跨境算力服务都可能因监管突变而受阻"
+      "硅基流动冲刺港交所将获得资本加持，加速在分布式推理与边缘云领域扩张，直接威胁PPIO市场份额",
+      "国务院《对外投资规定》可能涉及跨境资金流动及VIE架构合规，增加香港IPO备案不确定性"
     ]
   },
   "wind_indicators": {
-    "policy_heat": 4,
+    "policy_heat": 3,
     "competitor_heat": 4,
     "capital_heat": 3,
-    "overseas_heat": 3,
+    "overseas_heat": 2,
     "overall_sentiment": "升温",
-    "summary": "政策端算力基建立地平线清晰，资本端头部需求膨胀，但竞品扎堆切入AI算力服务，出海监管突现冷锋，整体风向偏暖而暗流涌动。"
+    "summary": "地方算力补贴与行业融资热度支撑基本面，但竞品上市与监管新规带来双重压力"
   },
   "competitor_updates": [
-    "三大运营商：已推出面向AI应用的Token套餐，将网络、机房与算力服务打包，正在从基础设施层向上抢占模型调用与边缘推理市场。",
-    "硅基流动：推出“Token工厂”模式，放弃自研模型转而聚合下游需求、调度多方算力，形成与PPIO分布式算力平台相似的中间层聚合定位。"
+    "硅基流动：已向港交所递交招股书，2025年营收增长7倍，定位Token工厂，专注模型部署与推理服务，上市后可能加大边缘云投入"
   ],
   "item_axes": [
     {
       "id": "1",
-      "title": "中国算力平台（贵州）正式建成上线",
+      "title": "张江AI创新小镇算力券专项政策受理",
       "policy_axis": 0.8,
       "competition_axis": -0.3,
       "impact_score": 4,
-      "axis_reason": "国家级算力平台落地利好基础设施，推动边缘计算需求，竞争端暂不直接威胁PPIO。"
+      "axis_reason": "直接降低客户成本，利好需求，政策宽松，竞争影响负面（非直接竞争）"
     },
     {
       "id": "2",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”",
+      "title": "硅基流动冲刺港交所：营收增7倍",
       "policy_axis": 0,
       "competition_axis": 0.9,
       "impact_score": 5,
-      "axis_reason": "运营商利用网络和用户优势直接进入AI算力消费，对PPIO边缘推理构成高威胁竞争。"
+      "axis_reason": "无政策影响，高度竞争威胁，上市将大幅增强对手资本实力"
     },
     {
       "id": "3",
-      "title": "字节跳动AI开支大幅提升，国产算力采购获政策",
-      "policy_axis": 0.6,
-      "competition_axis": -0.5,
-      "impact_score": 5,
-      "axis_reason": "头部企业AI投入膨胀且政策引导国产算力，PPIO有望直接受益于需求外溢和信创红利。"
+      "title": "国务院对外投资规定对跨国公司影响",
+      "policy_axis": -0.7,
+      "competition_axis": 0,
+      "impact_score": 4,
+      "axis_reason": "监管收紧，增加VIE备案与跨境资金流动合规成本，不直接影响竞争格局"
     },
     {
       "id": "4",
-      "title": "AI Token 出海：把中国算力卖向全球的三条路",
-      "policy_axis": -0.7,
-      "competition_axis": 0,
-      "impact_score": 3,
-      "axis_reason": "算力出海触碰数据出境模糊地带，给PPIO任何跨境算力尝试带来显著合规不确定性。"
-    },
-    {
-      "id": "5",
-      "title": "国务院837号令来了，出海为何需重新审视？",
-      "policy_axis": -0.8,
-      "competition_axis": 0,
-      "impact_score": 4,
-      "axis_reason": "对外投资新规全面收紧，PPIO涉及敏感技术的VIE架构与海外算力部署须重新合规评估。"
-    },
-    {
-      "id": "6",
-      "title": "弃模型自研深耕中间层 硅基流动“Token工厂”模",
+      "title": "硅基流动招股书：卖Token模式解析",
       "policy_axis": 0,
       "competition_axis": 0.8,
       "impact_score": 4,
-      "axis_reason": "硅基流动中间层调度模式与PPIO分布式算力服务存在定位重叠，路径竞争升级。"
+      "axis_reason": "揭示对手盈利模式及可持续性，为PPIO竞争策略调整提供参考"
     }
   ],
   "ppio_index": {
-    "score": 67,
-    "delta": 7,
+    "score": 62,
+    "delta": 2,
     "components": {
-      "policy_tailwind": 25,
-      "competitive_pressure": -15,
-      "capital_sentiment": 10,
-      "regulatory_risk": -8,
-      "overseas_headwind": -5
+      "policy_tailwind": 35,
+      "competitive_pressure": -22,
+      "capital_sentiment": 15,
+      "regulatory_risk": -13,
+      "overseas_headwind": -10
     },
-    "interpretation": "算力基建落地与头部需求扩张推升指数，但运营商及中间层竞品渗透对冲出海监管新规，限制涨幅。"
+    "interpretation": "政策支撑与资本热度抵消部分竞品压力及监管风险，指数小幅回升2点"
   },
   "policy_momentum": [
     {
-      "thread": "算力基建",
-      "last_signal": "政策鼓励算力网络建设",
-      "this_signal": "省级算力平台正式上线",
-      "level_delta": "升级",
-      "interpretation": "基建从规划进入落地阶段，边缘算力基础设施明确受益。"
-    },
-    {
-      "thread": "国产算力替代",
-      "last_signal": "政策鼓励信创采购",
-      "this_signal": "头部企业明确转向国产算力",
-      "level_delta": "升级",
-      "interpretation": "国产算力采购由政策引导转为实际订单，PPIO国产芯片适配迎来加速窗口。"
+      "thread": "算力补贴",
+      "last_signal": "2026Q1上海张江算力券政策",
+      "this_signal": "2026Q2专项政策受理通知",
+      "level_delta": "持平",
+      "interpretation": "地方算力补贴常态化推进，持续降低AI企业用云成本"
     },
     {
       "thread": "对外投资监管",
       "last_signal": "未知",
-      "this_signal": "国务院837号令发布",
+      "this_signal": "国务院发布《对外投资的规定》",
       "level_delta": "首现",
-      "interpretation": "境外投资审查新规突现，增加PPIO出海架构与VIE合规不确定性。"
+      "interpretation": "对VIE架构及跨境资金流动提出全新合规要求"
     }
   ],
-  "expected_but_absent": [
-    "人工智能法草案征求意见稿",
-    "VIE备案新规细则"
-  ],
-  "_generated_by": "deepseek-v4-pro"
+  "expected_but_absent": [],
+  "_generated_by": "ai"
 }

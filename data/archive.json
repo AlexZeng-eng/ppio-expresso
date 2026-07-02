@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-07-01T01:52:12.031Z",
+  "updated_at": "2026-07-02T01:37:01.702Z",
   "days": [
+    {
+      "date": "2026-07-02",
+      "mainline": "硅基流动冲刺港交所加剧边缘云竞争，国务院对外投资规定增加VIE备案不确定性，张江算力券利好需求",
+      "signal_summary": {
+        "🏛️": 2,
+        "📜": 1,
+        "⚔️": 2,
+        "💰": 0,
+        "🌏": 0,
+        "🔬": 0
+      },
+      "wind_indicators": {
+        "policy_heat": 3,
+        "competitor_heat": 4,
+        "capital_heat": 3,
+        "overseas_heat": 2,
+        "overall_sentiment": "升温",
+        "summary": "地方算力补贴与行业融资热度支撑基本面，但竞品上市与监管新规带来双重压力"
+      },
+      "ppio_index": {
+        "score": 62,
+        "delta": 2,
+        "components": {
+          "policy_tailwind": 35,
+          "competitive_pressure": -22,
+          "capital_sentiment": 15,
+          "regulatory_risk": -13,
+          "overseas_headwind": -10
+        },
+        "interpretation": "政策支撑与资本热度抵消部分竞品压力及监管风险，指数小幅回升2点"
+      },
+      "item_count": {
+        "total": 15,
+        "attend": 4,
+        "silent": 11
+      },
+      "competitor_updates": [
+        "硅基流动：已向港交所递交招股书，2025年营收增长7倍，定位Token工厂，专注模型部署与推理服务，上市后可能加大边缘云投入"
+      ]
+    },
     {
       "date": "2026-07-01",
       "mainline": "算力基建获国家级平台落地与头部需求加码双重利好，但运营商及中间层竞品加速渗透，叠加对外投资新规收紧出海预期，边缘云赛道机遇与压力同步放大。",
