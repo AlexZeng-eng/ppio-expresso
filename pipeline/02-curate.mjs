@@ -117,15 +117,18 @@ ${signalList}
 - lane:silent = 触发 💰🌏🔬 任一但未触发 attend 信号 → 感知处理（一句话摘要）
 - lane:skip = 无信号触发 → 不入库
 
-例外：
-- 国常会/中央/部委级政策全部 lane:attend
+例外（全部 lane:attend）：
+- 国常会/中央/部委级政策全部 lane:attend，is_deep_read:true
 - 习近平/李强/政治局常委调研或讲话涉及AI/算力，全部 lane:attend，is_deep_read:true
-- 无问芯穹及 AI Infra 主要竞品全部 lane:attend
-- 纯小额融资（<1亿元）降级为 lane:silent
+- 无问芯穹及 AI Infra 主要竞品（硅基流动/优刻得/七牛云/字节AI基建/阿里云/华为）的融资、产品、战略动态，全部 lane:attend
+- 模型发布或开源（如 GLM/DeepSeek/通义千问/Pangu 等新版本、开源框架、推理优化）— 影响推理需求格局，lane:attend
+- AI 模型出口管制/限制（如 Anthropic/OpenAI 模型访问管制）— 中美技术摩擦信号，lane:attend
+- 边缘算力/分布式算力赛道的融资事件（不论金额），lane:attend
+- 纯小额融资（<1亿元）且非边缘算力赛道，才降级为 lane:silent
 
 ## 深度阅读判定
-- 深度阅读：政策原文、竞品深度分析、行业研究报告、海外监管原文、技术架构深度
-- 快讯：纯融资事件、产品发布、人事变动
+- 深度阅读(is_deep_read:true)：政策原文、竞品深度分析、行业研究报告、海外监管原文、技术架构深度、模型发布/开源
+- 快讯(is_deep_read:false)：人事变动、纯股价/涨跌分析、日程预告
 
 ## 输出格式（JSON，严格遵循）
 对每条新闻返回：
@@ -164,6 +167,38 @@ function buildItemPrompt(item) {
 // ---- category normalization ------------------------------------------------
 
 const VALID_CATEGORIES = ['政策', '竞品', '监管', '资本', '海外', '技术', '治理'];
+
+// 保底回捞: AI 分类偏保守时，从 silent 里把高价值信号升级为 attend
+// 触发条件: attend 数 < 3；升级上限: 补到至少 3 条
+const PROMOTE_PATTERNS = [
+  /模型.*出口管制|出口管制.*模型|Mythos.*暂停|Fable.*管制|Anthropic.*出口|Anthropic.*暂停/,
+  /开源.*(DeepSeek|DSpark|推理框架|GLM|通义|Pangu)|DeepSeek.*开源|GLM.*5.*发布/,
+  /万亿参数|5万张.*国产算力|国产算力卡.*训练|全流程.*训练/,
+  /边缘算力.*融资|边缘.*算力.*融资|单笔.*最大.*融资.*算力|算力.*最大.*融资/,
+  /硅基流动|无问芯穹|优刻得|七牛云/,
+  /openPangu|华为.*算力|阿里云.*千问.*发布/,
+];
+
+function promoteUnderservedAttend(items) {
+  const attendCount = items.filter(i => i.lane === 'attend').length;
+  if (attendCount >= 3) return; // 够了，不需要回捞
+
+  const silentItems = items.filter(i => i.lane === 'silent');
+  let promoted = 0;
+  for (const item of silentItems) {
+    if (attendCount + promoted >= 3) break;
+    const text = (item.title || '') + ' ' + (item.summary_cn || '') + ' ' + (item.body_snippet || '');
+    if (PROMOTE_PATTERNS.some(re => re.test(text))) {
+      item.lane = 'attend';
+      item.is_deep_read = true;
+      if (!item.ppio_signal) item.ppio_signal = { positive: '（待补充）', risk: '（待补充）' };
+      promoted++;
+    }
+  }
+  if (promoted > 0) {
+    console.log(`  ↻ 保底回捞: attend 不足，从 silent 升级 ${promoted} 条高价值信号为 attend`);
+  }
+}
 
 function normalizeCategory(cat) {
   if (!cat) return '政策';
@@ -318,6 +353,9 @@ async function main() {
 
       // Filter out lane:skip items
       const filtered = curated.filter(item => item.lane !== 'skip');
+
+      // 保底回捞: attend 过少时，从 silent 里按关键词升级几条关键信号为 attend
+      promoteUnderservedAttend(filtered);
       console.log(`  After filtering: ${filtered.length} items (${filtered.filter(i => i.lane === 'attend').length} attend, ${filtered.filter(i => i.lane === 'silent').length} silent)`);
 
       const output = {
