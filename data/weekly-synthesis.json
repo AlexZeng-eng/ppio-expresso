@@ -1,99 +1,61 @@
 {
-  "generated_at": "2026-07-02T01:37:01.599Z",
-  "date": "2026-07-02",
-  "date_label": "2026-07-02",
-  "mainline": "硅基流动冲刺港交所加剧边缘云竞争，国务院对外投资规定增加VIE备案不确定性，张江算力券利好需求",
+  "generated_at": "2026-07-03T01:50:52.812Z",
+  "date": "2026-07-03",
+  "date_label": "2026-07-03",
+  "mainline": "竞品硅基流动冲击“AI Token工厂”港股IPO，边缘算力赛道单笔最大融资点燃风口，推理服务竞争加剧。",
   "signal_summary": {
-    "🏛️": 2,
-    "📜": 1,
-    "⚔️": 2,
-    "💰": 0,
-    "🌏": 0,
-    "🔬": 0
+    "🏛️": 0,
+    "📜": 0,
+    "⚔️": 1,
+    "💰": 2,
+    "🌏": 3,
+    "🔬": 6
   },
   "speed_read": {
     "positive": [
-      "上海张江AI创新小镇Q2算力券政策降低企业用云门槛，刺激边缘训推需求",
-      "全国首单“算力保”保险产品落地，降低算力投资风险，利好行业融资环境"
+      "边缘算力站上万亿风口，年内单笔最大融资落地，赛道关注度飙升利好PPIO叙事",
+      "美团基于5万张国产算力卡训练万亿参数模型，国产算力生态加速兑现",
+      "Anthropic出口管制解除、英伟达H200重启生产，全球AI算力需求仍处扩张期"
     ],
     "risk": [
-      "硅基流动冲刺港交所将获得资本加持，加速在分布式推理与边缘云领域扩张，直接威胁PPIO市场份额",
-      "国务院《对外投资规定》可能涉及跨境资金流动及VIE架构合规，增加香港IPO备案不确定性"
+      "硅基流动以MaaS模式冲击港股IPO，推理服务与PPIO边缘推理能力高度重叠，可能分流客户与资本关注",
+      "边缘算力细分领域大额融资频现，热钱涌入或加速行业洗牌与价格战"
     ]
   },
   "wind_indicators": {
-    "policy_heat": 3,
+    "policy_heat": 1,
     "competitor_heat": 4,
-    "capital_heat": 3,
-    "overseas_heat": 2,
-    "overall_sentiment": "升温",
-    "summary": "地方算力补贴与行业融资热度支撑基本面，但竞品上市与监管新规带来双重压力"
+    "capital_heat": 5,
+    "overseas_heat": 3,
+    "overall_sentiment": "活跃",
+    "summary": "边缘算力风口火力全开，资本热浪与竞品IPO交织，行业竞争烈度显著提升，但整体环境仍有利于算力基建讲故事。"
   },
   "competitor_updates": [
-    "硅基流动：已向港交所递交招股书，2025年营收增长7倍，定位Token工厂，专注模型部署与推理服务，上市后可能加大边缘云投入"
+    "硅基流动：冲击港股IPO，定位“AI Token工厂”，市占率约1.5%，阿里、美团等入股，核心MaaS推理服务与PPIO边缘推理存在直接竞争。"
   ],
   "item_axes": [
     {
       "id": "1",
-      "title": "张江AI创新小镇算力券专项政策受理",
-      "policy_axis": 0.8,
-      "competition_axis": -0.3,
-      "impact_score": 4,
-      "axis_reason": "直接降低客户成本，利好需求，政策宽松，竞争影响负面（非直接竞争）"
-    },
-    {
-      "id": "2",
-      "title": "硅基流动冲刺港交所：营收增7倍",
-      "policy_axis": 0,
-      "competition_axis": 0.9,
-      "impact_score": 5,
-      "axis_reason": "无政策影响，高度竞争威胁，上市将大幅增强对手资本实力"
-    },
-    {
-      "id": "3",
-      "title": "国务院对外投资规定对跨国公司影响",
-      "policy_axis": -0.7,
-      "competition_axis": 0,
-      "impact_score": 4,
-      "axis_reason": "监管收紧，增加VIE备案与跨境资金流动合规成本，不直接影响竞争格局"
-    },
-    {
-      "id": "4",
-      "title": "硅基流动招股书：卖Token模式解析",
+      "title": "硅基流动冲击“AI Token工厂第一股”：市占率约1.5%",
       "policy_axis": 0,
       "competition_axis": 0.8,
       "impact_score": 4,
-      "axis_reason": "揭示对手盈利模式及可持续性，为PPIO竞争策略调整提供参考"
+      "axis_reason": "竞品IPO直接威胁，MaaS推理服务与PPIO边缘云推理能力高度同质化，竞争威胁明确。"
     }
   ],
   "ppio_index": {
-    "score": 62,
-    "delta": 2,
+    "score": 67,
+    "delta": 5,
     "components": {
-      "policy_tailwind": 35,
-      "competitive_pressure": -22,
-      "capital_sentiment": 15,
-      "regulatory_risk": -13,
-      "overseas_headwind": -10
+      "policy_tailwind": 38,
+      "competitive_pressure": -25,
+      "capital_sentiment": 22,
+      "regulatory_risk": -12,
+      "overseas_headwind": -6
     },
-    "interpretation": "政策支撑与资本热度抵消部分竞品压力及监管风险，指数小幅回升2点"
+    "interpretation": "边缘算力风口与资本热浪推高指数，但竞品IPO导致竞争压力分项负贡献扩大，整体仍站在政策与市场双顺风位置。"
   },
-  "policy_momentum": [
-    {
-      "thread": "算力补贴",
-      "last_signal": "2026Q1上海张江算力券政策",
-      "this_signal": "2026Q2专项政策受理通知",
-      "level_delta": "持平",
-      "interpretation": "地方算力补贴常态化推进，持续降低AI企业用云成本"
-    },
-    {
-      "thread": "对外投资监管",
-      "last_signal": "未知",
-      "this_signal": "国务院发布《对外投资的规定》",
-      "level_delta": "首现",
-      "interpretation": "对VIE架构及跨境资金流动提出全新合规要求"
-    }
-  ],
+  "policy_momentum": [],
   "expected_but_absent": [],
   "_generated_by": "ai"
 }

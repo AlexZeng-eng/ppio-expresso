@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-07-02T01:37:01.702Z",
+  "updated_at": "2026-07-03T01:50:52.902Z",
   "days": [
+    {
+      "date": "2026-07-03",
+      "mainline": "竞品硅基流动冲击“AI Token工厂”港股IPO，边缘算力赛道单笔最大融资点燃风口，推理服务竞争加剧。",
+      "signal_summary": {
+        "🏛️": 0,
+        "📜": 0,
+        "⚔️": 1,
+        "💰": 2,
+        "🌏": 3,
+        "🔬": 6
+      },
+      "wind_indicators": {
+        "policy_heat": 1,
+        "competitor_heat": 4,
+        "capital_heat": 5,
+        "overseas_heat": 3,
+        "overall_sentiment": "活跃",
+        "summary": "边缘算力风口火力全开，资本热浪与竞品IPO交织，行业竞争烈度显著提升，但整体环境仍有利于算力基建讲故事。"
+      },
+      "ppio_index": {
+        "score": 67,
+        "delta": 5,
+        "components": {
+          "policy_tailwind": 38,
+          "competitive_pressure": -25,
+          "capital_sentiment": 22,
+          "regulatory_risk": -12,
+          "overseas_headwind": -6
+        },
+        "interpretation": "边缘算力风口与资本热浪推高指数，但竞品IPO导致竞争压力分项负贡献扩大，整体仍站在政策与市场双顺风位置。"
+      },
+      "item_count": {
+        "total": 12,
+        "attend": 1,
+        "silent": 11
+      },
+      "competitor_updates": [
+        "硅基流动：冲击港股IPO，定位“AI Token工厂”，市占率约1.5%，阿里、美团等入股，核心MaaS推理服务与PPIO边缘推理存在直接竞争。"
+      ]
+    },
     {
       "date": "2026-07-02",
       "mainline": "硅基流动冲刺港交所加剧边缘云竞争，国务院对外投资规定增加VIE备案不确定性，张江算力券利好需求",
