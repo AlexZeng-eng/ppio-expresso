@@ -272,6 +272,13 @@ function ruleBasedClassify(item, config) {
   if (/模型.*出口管制|模型.*暂停.*访问|Anthropic.*暂停|Mythos.*暂停|AI模型.*限制/.test(title)) lane = 'attend';
   // 模型发布 — 开源/能力跃迁影响推理需求格局
   if (/智谱.*开源|GLM.*5|智谱.*发布|DeepSeek.*开源|通义千问.*开源|大模型.*开源/.test(title)) lane = 'attend';
+  // 公司参与的政策 — MAAS/AI中能站/算力补贴白名单/AI安全专项整治/信通院标准
+  if (/工信部.*MAAS|MAAS.*平台.*政策|AI.*中能站|人工智能.*中能站/.test(title)) lane = 'attend';
+  if (/算力补贴.*白名单|白名单.*算力|算力.*补贴.*门槛|自建集群.*算力/.test(title)) lane = 'attend';
+  if (/人工智能.*安全.*专项整治|AI.*安全.*专项整治|安全.*专项整治.*人工智能/.test(title)) lane = 'attend';
+  if (/信通院.*智能体.*标准|智能体.*运行能力.*标准|智能体.*能力要求/.test(title)) lane = 'attend';
+  // 高端GPU供应链波动 — 供给紧张/缺货（不追价格）
+  if (/B300.*供货|B300.*紧缺|B300.*交期|GB300.*供应|GPU.*缺货|GPU.*供应链.*波动|高端算力.*短缺|算力.*供给.*紧张/.test(title)) lane = 'attend';
 
   const isDeep = /政策原文|国务院|国常会|立法|招股书|深度分析|研究报告|政治局.*集体学习|习近平.*讲话/.test(title);
 

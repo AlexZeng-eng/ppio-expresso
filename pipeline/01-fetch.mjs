@@ -361,6 +361,15 @@ const PPIO_KEYWORDS = {
     /智谱.*开源/, /GLM.*5/, /GLM.*Coding/, /智谱.*发布/,
     /DeepSeek.*发布/, /DeepSeek.*开源/, /通义千问.*开源/, /Qwen.*开源/,
     /大模型.*开源.*MIT/, /模型.*开源.*协议/,
+    // 公司正参与的政策 — MAAS/AI中能站/算力补贴白名单/AI安全专项整治
+    /MAAS.*平台.*政策/, /工信部.*MAAS/, /AI.*中能站/, /人工智能.*中能站/,
+    /算力补贴.*白名单/, /白名单.*算力/, /算力.*补贴.*门槛/, /自建集群.*算力/,
+    /人工智能.*安全.*专项整治/, /AI.*安全.*专项整治/, /安全.*专项整治.*人工智能/,
+    /信通院.*智能体.*标准/, /智能体.*运行能力.*标准/, /智能体.*能力要求.*信通院/,
+    // 高端GPU供应链波动 — 只追供给信号，不追价格
+    /B300.*供货/, /B300.*紧缺/, /B300.*交期/, /B300.*产能/,
+    /GB300.*供应/, /英伟达.*供货.*紧张/, /GPU.*缺货/, /GPU.*供应链.*波动/,
+    /算力.*供给.*紧张/, /高端算力.*短缺/, /算力.*供需/,
   ],
   high: [
     /AI.*基础设施/, /AI.*Infra/, /智算中心/, /数据中心.*算力/,
@@ -712,6 +721,21 @@ function buildSearchQueries(config) {
   queries.push({ q: 'AI中转站 合规 备案 数据出境 监管 2026', category: '监管', boost: 20 });
   queries.push({ q: '生成式AI 增值电信业务 备案 合规 2026', category: '监管', boost: 15 });
   queries.push({ q: 'AI API 数据出境 安全评估 合规 云服务', category: '监管', boost: 15 });
+  // 公司正参与制定的政策 — MAAS平台/AI中能站
+  queries.push({ q: '工信部 MAAS 平台 人工智能 模型 服务 2026', category: '监管', boost: 25 });
+  queries.push({ q: 'AI 中能站 人工智能 算力 政策 2026', category: '监管', boost: 20 });
+  // 上海市算力补贴白名单 — 公司非成员，正建议改政策
+  queries.push({ q: '上海 算力补贴 白名单 集群 门槛 2026', category: '监管', boost: 25 });
+  queries.push({ q: '算力补贴 自建集群 3000P 6000P 政策 2026', category: '监管', boost: 20 });
+  // 7月人工智能安全专项整治
+  queries.push({ q: '人工智能 安全 专项整治 2026 网信办', category: '监管', boost: 25 });
+  queries.push({ q: 'AI 安全 专项治理 网络安全 整治 2026', category: '监管', boost: 20 });
+  // Modelhub/海外公转站监管
+  queries.push({ q: 'AI 中转站 海外模型 监管 网安 2026', category: '监管', boost: 20 });
+  queries.push({ q: '海外大模型 公转站 合规 信安局 网安局 2026', category: '监管', boost: 20 });
+  // 信通院智能体标准
+  queries.push({ q: '信通院 智能体 运行能力 标准 评估 2026', category: '监管', boost: 20 });
+  queries.push({ q: '智能体 能力要求 标准 制定 信通院 排名', category: '监管', boost: 15 });
   // 对外投资/VIE/跨境数据 — IPO合规直接相关
   queries.push({ q: '国务院 对外投资 规定 国令 2026', category: '监管', boost: 30 });
   queries.push({ q: '对外投资规定 跨境数据 技术出口管制', category: '监管', boost: 25 });
@@ -763,6 +787,12 @@ function buildSearchQueries(config) {
   // 国产芯片认证 — 自主可控叙事
   queries.push({ q: '安全可靠测评 AI 训练推理芯片 国产 2026', category: '技术', boost: 20 });
   queries.push({ q: '国产AI芯片 市场份额 测评 2026', category: '技术', boost: 15 });
+  // 高端GPU供应链波动（不搜实时价格，只追供给紧张/交期/产能信号）
+  queries.push({ q: 'B300 GB300 供应 交期 产能 紧张 2026', category: '技术', boost: 20 });
+  queries.push({ q: '英伟达 高端GPU 供货 紧缺 缺货 2026', category: '技术', boost: 15 });
+  queries.push({ q: 'AI算力 GPU 供应链 波动 紧缺 涨价 2026', category: '技术', boost: 15 });
+  queries.push({ q: '算力 周报 供需 行情 总结 2026', category: '技术', boost: 15 });
+  queries.push({ q: 'GPU 算力 市场周报 供给 需求 2026', category: '技术', boost: 15 });
   queries.push({ q: 'site:news.aibase.com AI 算力 大模型 2026', category: '技术' });
   queries.push({ q: '中国电信 中国移动 算力 Token AI', category: '技术' });
   queries.push({ q: '算力调度 推理优化 Agent 技术突破', category: '技术' });
