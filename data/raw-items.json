@@ -1,27 +1,116 @@
 {
-  "generated_at": "2026-07-03T01:47:55.885Z",
-  "week": "2026-W27",
+  "generated_at": "2026-07-06T01:36:37.056Z",
+  "week": "2026-W28",
   "date_range": {
-    "from": "2026-06-26",
-    "to": "2026-07-03"
+    "from": "2026-06-29",
+    "to": "2026-07-06"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "Anthropic称美国政府解除对其Fable 5和Mythos 5模型的出口管制 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFFpY3NucElhNzRCMmxBVk0xZkl5UktjVm9zZlNZY21KdGV1WVV3bGg3MjRzVlRoekJUNVpJWDdwd1BMa1ItUWVYeXZSRjBPZzJBVldCaHZxQUdkbVByQ2g2X3NMSTZWcE54N3llNlI0WDlhTDZCUHAtUFJLdG4xdzRmQlU1TGNDU3pBWkdwODJVM1N5QjFKNmwxb3Q?oc=5",
-      "source": "新浪财经",
-      "category": "海外",
-      "published": "2026-07-01",
-      "body_snippet": "Anthropic称美国政府解除对其Fable 5和Mythos 5模型的出口管制 新浪财经",
-      "_query_boost": 30
+      "title": "李乐成在浙江调研新兴产业和未来产业发展",
+      "url": "https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_c585def8b8fc48e98cc015d9015c845e.html",
+      "source": "工信部-新闻",
+      "published": "2026-07-06",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-002",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
+      "category": "竞品",
+      "published": "2026-07-05",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-003",
+      "title": "美国政府解除大模型出口管制Anthropic：将开始恢复访问 - qq.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pbUlxZXdDSFdnc2hXNktIWHF1WnB4b1NrdE1lRUlQWmJGcXVqdERtR05FU0VGeDl5NUJvODVtTktiMmNscnJUWDE5bkd1YjAwQmZzY1gyU1YwSU5zWTFWOGtYQlNWTUIyVE1OOWtWb3pJRWZnblRGZw?oc=5",
+      "source": "qq.com",
+      "category": "海外",
+      "published": "2026-07-01",
+      "body_snippet": "美国政府解除大模型出口管制Anthropic：将开始恢复访问 qq.com",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-004",
+      "title": "美国解除出口管制后Anthropic再次开放Claude Fable 5模型访问- AI 人工智能 - cnBeta.COM",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VRU9SUjBwQktBcDFyeUJ2S3k0TEppYW1wSTN1R2ZLbXdfUG1zRlpvNGRLeWdOYUduaWJEUFBzbm13YkxLcjh6aFAybGJtd1YzajJkUDE2VVl0Rkp4UnlvNA?oc=5",
+      "source": "cnBeta.COM",
+      "category": "海外",
+      "published": "2026-07-02",
+      "body_snippet": "美国解除出口管制后Anthropic再次开放Claude Fable 5模型访问- AI 人工智能 cnBeta.COM",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-005",
+      "title": "在美国取消出口管制后，Anthropic恢复了其AI模型Fable和Mythos - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSjEzdUptX1pFU05MUWhhMTV4SzA4MlVMYXc1R0lZSjVabkczY2ZuX0JDMndWaEh0dDFEMEZvQjJ5STFqYmJqU1JOMDhXVjRkRVBPbGpDOGVVc194ZDI2bzhSam5YcjFxZ2IycTEzYzB3Rmo4NHFBbmdDNVYzNXppQzgwX2VCUjY3aDJxQm10Ykl2UE5zWWE0Z19sNjNlMW13ODQxcmpRRk5WVWhzZXRRY01ZS0J6azlINjVnZFVn?oc=5",
+      "source": "CoinDesk",
+      "category": "海外",
+      "published": "2026-07-01",
+      "body_snippet": "在美国取消出口管制后，Anthropic恢复了其AI模型Fable和Mythos CoinDesk",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-006",
+      "title": "美国解除Anthropic最强AI模型出口管制 恢复部份企业访问权限 - 香港01",
+      "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxNTEdwQnRPaEF4UGVKUE1Wc1MzMzRldUlrTTN4dEoydkx2RW8tWWhUUnVlRUxwSEZIakV4c1ZPN2VqQnBtajUtS0xRNW43SGxrR0ZmX2VhT0Y5NktsLXhWQmcwWlZyYmdsbWxZZHpEeEtEZWIxR25HM2RTemZSMTB4b0tlSkhMR0ZteVdOTk9SMnROXzBZSVBhYkRMV1RVODRSNF9NQTFOZ0d6bktfZTJPSW14NGFfSWctb0lhZ0RTdG9iaTF0UXgzVmV4YXpTN2JvWFpVOVloMWF4ZFhLdzBNNTduNTdVRDdxWnN2a0JJY3lFdklHcFpPaXRiNXFTQ3ZvTmlQOUpaektTajNsclF4ZGRQN1l4YllqNklHci1JbWNsYmZfWFh4X3BHTmZiVWc0OEpkSkV0S1BZZlpMdElSZHRaeHViUEtVc09ESkhIV1VSVExiX0hHMndwWndKVlZhTThoaHpNdHhoT1lDdHJHWlVreWctX0dDVnNzZm5rZVNPMDdFV1M2R3dOR2tVem16Q1E?oc=5",
+      "source": "香港01",
+      "category": "海外",
+      "published": "2026-07-01",
+      "body_snippet": "美国解除Anthropic最强AI模型出口管制 恢复部份企业访问权限 香港01",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-007",
+      "title": "SpaceX AI业务深度分析：算力租赁暴利与太空数据中心豪赌 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OSzBuLS1hZ0JUbU5STUdQbzVaQXRKWUxFSmU2US00UjhmTGZJTkNvZXNkTXM3WU12Rnd5T19fWnplSGhZSXc4N0VMcFVOMXFGV3c?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-06-30",
+      "body_snippet": "SpaceX AI业务深度分析：算力租赁暴利与太空数据中心豪赌 虎嗅",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-008",
+      "title": "润建股份五象云谷：从出租算力到经营Token的AI新基建-AI云资讯 - icloudnews.net",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qWU9qYVo0RzZ0WTR3SFptYzluTEk3RkVvM3lvRGRUeEZMYUJXS19WaXVOU2plWU5VNk5xREM0a0V2Z2VkT2ROZ0VPMFJYWTUtU3c?oc=5",
+      "source": "icloudnews.net",
+      "category": "竞品",
+      "published": "2026-07-06",
+      "body_snippet": "润建股份五象云谷：从出租算力到经营Token的AI新基建-AI云资讯 icloudnews.net",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-009",
+      "title": "词元经济呼唤算力新底座 北京数据集团发布“京算Token工厂” - cb.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5oNWVxVlNzU3lKaEc3V3p2eUxZMWwya0pCU1pKRUdwZzRybFZxZ1RNT0dkS0w1VW9GR1JWWWwwMG1TcVZ0bGZnbkRtRERuZEFWM1hJWDQwU0VjU0tmc1duOGNB?oc=5",
+      "source": "cb.com.cn",
+      "category": "竞品",
+      "published": "2026-07-05",
+      "body_snippet": "词元经济呼唤算力新底座 北京数据集团发布“京算Token工厂” cb.com.cn",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-010",
+      "title": "人保财险签发全国首单“算力保”专属产品 - 新华网客户端",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYTFHVHVkUzdzekpGWXpCZlBkUVJkVkx6aXlXREJvQWp4SXdDMnpLZnFyZENlUVZvd1RzeGVtQk04aURualZNMm95Uml4MHVNNmJjcGE5c0hJWmE4X1hvaGhMRWdGZXgteXVucEcyYkJCVkVwVjBYVjYwTkk3NFV3VndNRk9fTno1UTFhRjJpMEJ3elE0bHZKRUl3?oc=5",
+      "source": "新华网客户端",
+      "category": "政策",
+      "published": "2026-07-01",
+      "body_snippet": "人保财险签发全国首单“算力保”专属产品 新华网客户端",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-011",
       "title": "硅基流动冲击“AI Token工厂第一股”：市占率约1.5%，阿里巴巴、美团等入股 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObllsSHRKVDAwN19VdXROMWw1d1dKVFl6bUFXTGQ3dWtQWHJNM1BzWDhqeE40LVhfdGltZE50ZTRsLU9XcmRKMVo0eHJ0ZkRYTmtRTHY1bzRHb09KUE55SHNBaElRb2R3TTFFOEttQUFnRFpSQ1daUEljUUJVUXl2M2Z5RUxsN2Fmak01NjdGVUstZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPMzJNeWlYX3lmY1J3eXBWd0JUU2JOSTdMNjd0U3Fka3BGN0JrZ0VMbWs1TkQzQnF2bnRKWHFoXzlhZkh4amlRMUhuOUtRMFhyRzNrWThRdmJ6Q250YzJRTUJPcjFaNmVrS1FwZmh0SEg2Wm1mcDZTc3BQWlVhVFZ4RUo1M2xacFZHUFdxSHFjeUxTTHpQQnV0MXRkdEZnbDk4U3ZLdHJiZHBtdlpGZmQ0cEZJRWtuZHJXai1lZVRmT2NHUjFQbXJ0N2p3aEFFZWkwdm5Jb24tUEFic0ZaV0ZoWHBhZXBSZEgwYkdNQlRHQzUxMlJNMTg5ZGc3bG1iM3dfUngzRnpPdERQOHhmbWpIVHB4RkMzbTRNMEZPb08ydk9PaDJueG9TcUU1eG50dnhTbGE1R3o2ZkFqbExNRW1aRE4yeHJ5cnlzVXYtUENjdnBTam5vWnJrZ1FpTENuQQ?oc=5",
       "source": "新浪财经",
       "category": "竞品",
       "published": "2026-07-02",
@@ -29,131 +118,43 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-003",
-      "title": "美团发布万亿参数大模型LongCat-2.0，首次基于5万张国产算力卡全流程训练 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hSEJTbE1QZkJiOXdVUHRCeWxTWk5iXzhqUEdnQUhoWVRVZlVCNlJUMzRSc3paSF93akt6ZDlaNzc4RzltQ0x4b1N6ak9KNklReEtyUQ?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-07-02",
-      "body_snippet": "美团发布万亿参数大模型LongCat-2.0，首次基于5万张国产算力卡全流程训练 虎嗅",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-004",
-      "title": "思特奇：目前未参与内蒙古算力网建设",
-      "url": "https://36kr.com/newsflashes/3879231845642501?f=rss",
-      "source": "36氪",
-      "published": "2026-07-03",
-      "body_snippet": "",
-      "category": "政策"
-    },
-    {
-      "id": "raw-005",
-      "title": "中信证券：国产算力主线明确，龙头业绩有望加速兑现",
-      "url": "https://36kr.com/newsflashes/3879180027817992?f=rss",
-      "source": "36氪",
-      "published": "2026-07-03",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-006",
-      "title": "推理性能大幅提升！北大与DeepSeek联合开源大模型推理框架DSpark - 17173",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9kYzNLcW1qUVVVV3hMSVlrNFpJMFdjQnYtdkIzUHQ5d2VqemRweGJKM1FfNzVIWTVZWUtDb0kyMXB6T0hhS09vNFpoLXlnTVBFb2I4S3FSWjhRSGxEMTZGd0VQUGQ?oc=5",
-      "source": "17173",
-      "category": "技术",
-      "published": "2026-06-28",
-      "body_snippet": "推理性能大幅提升！北大与DeepSeek联合开源大模型推理框架DSpark 17173",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-007",
-      "title": "激活“三重价值” “六张网”解锁沪市蓝筹叙事“新视角” - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYeG0xQkVUX1dCY2N1ZkYwMnBKaUg4akR4NkhQNm9iZDNFZWgtMHpXSDJGRkdhRVNzLURJWkQtVHY3QXV2amdpQWxQZnpQRVNNbXhYQUl4UW1GdUc0NE1rVXdzSUZ1WG1HZ2F6aUhB?oc=5",
+      "id": "raw-012",
+      "title": "Meta布局AI云业务拟对外出售额外算力|云计算|亚马逊|微软|谷歌|数据中心_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQR3dhR0RkdzFVQnpYNU9XOUxveldIeFZMMWFrcW1MSGU1RHA1MVdLS1V6YkdmX1MybGF4MkNuSWhlXzNTVlcwLU1sUTlVZFdiaTFPcnZ2SWJydDNoTDNQYkhHV0ZxQUhlRkxHYlVJTUNKcjI2ekFXS2gzMUZKTkdQYlRIdlV1a0YtNmxMbTB3bkVTUGdGS05CZjkxUkhFMTQ4Ni02ZHl6RGlKVk1vVUFKQWxxWlFTOU13d2k3eVA2SzlxUDU0eHkxRDJvOXM5RHJqVy1MY2RKTTBJY3pIMF8weURDZmdZOTRBclFiVHF3S09LWnk0TVJHMlRBTW4xSzFWT1ZROTFIVzZxUDNGSnYyeA?oc=5",
       "source": "新浪财经",
       "category": "政策",
-      "published": "2026-07-02",
-      "body_snippet": "激活“三重价值” “六张网”解锁沪市蓝筹叙事“新视角” 新浪财经",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-008",
-      "title": "上半年AI热钱涌动，国资基金抢滩人工智能｜2026张江AI小镇生态日现场侧记 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5rTE5hdFRhVEI1V3RPSkVHQ2MwTl91WUNWQV9RMUJ5YmE2S0R3bEFJc3g2c18wakVuU1ZHWjNFSUczaVFiMWo2dQ?oc=5",
-      "source": "财联社",
-      "category": "政策",
-      "published": "2026-07-02",
-      "body_snippet": "上半年AI热钱涌动，国资基金抢滩人工智能｜2026张江AI小镇生态日现场侧记 财联社",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-009",
-      "title": "英伟达：接到中国订单…重启H200生产 - 朝鮮日報中文版",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOHRfbWtRSzhWSG9BbXFMSHU5b0x6MDhGNDVrdG1IS1hSU3I2YkFvQmt1RG00VDNYTkstblFvVENyTWdGMG1Da3ZBYjBGSXJSUm0ydUwtalZCeWZlQ0RscVhvc2RybjVnTm1wLTA3UWE1VFhfMk5zSWQzMEVKeDJyT2NQRHlROGZVbkhUUHlpdWd4bmlPeTZMZ0xDTjFmblRn?oc=5",
-      "source": "朝鮮日報中文版",
-      "category": "海外",
-      "published": "2026-07-02",
-      "body_snippet": "英伟达：接到中国订单…重启H200生产 朝鮮日報中文版",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-010",
-      "title": "SuperX携手天孚通信打造全球AI算力光互连核心生态， 战略合资全面落地 - 美通社",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1LZ3lISTI0UGtZQzJWWXk4eUpfbDNnQ0RBM1NSTVpOM0ZMSFJ1SUMyUTIyRVJabUVlT1M4dXRnd1lweE5WUXJzcWtORzlEa3YwOGVVRC10bw?oc=5",
-      "source": "美通社",
-      "category": "政策",
       "published": "2026-07-01",
-      "body_snippet": "SuperX携手天孚通信打造全球AI算力光互连核心生态， 战略合资全面落地 美通社",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-011",
-      "title": "金融界财经早餐：中央政治局部署主汛期防汛抗旱；八部门落地工业互联网算力政策；证监会构建财务造假惩防体系；券商7月金股布局AI、医药；益生股份业绩暴增、寒武纪发风险提示；优必选机器人订单破万（7月1日）-手机金融界 - 金融界",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Oa29kYWJ1cG5ydDBOU3JGNU1hb1JVdDhGb3VyODFheml0c2hDTFB2aDRQZVIyTWFuczdlamJQRTV2dHZUNm5uemxuVWVuRHJoS1c4SEpxbEpUM1JSNjh4N0JILWNsbEdDQnQ4ZkdIbElFOF9W?oc=5",
-      "source": "金融界",
-      "category": "政策",
-      "published": "2026-07-01",
-      "body_snippet": "金融界财经早餐：中央政治局部署主汛期防汛抗旱；八部门落地工业互联网算力政策；证监会构建财务造假惩防体系；券商7月金股布局AI、医药；益生股份业绩暴增、寒武纪发风险提示；优必选机器人订单破万（7月1日）-手机金融界 金融界",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-012",
-      "title": "年内单笔规模最大融资交易诞生 边缘算力站上万亿风口 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPV0d3Y2hVZE1wamVwdlJXSVhaQVpTZVBzZTQ4SnNaZkh6UTMxWi10OExpMFlvTWtVS0l3SDZNOTZmeXdqQ29SR3dSbXphdWpubXhsUE1EVlZOVzJaNG5zaXViWUFaQjNJcHVwbXQ3RWFSMmVwaVd5N01pRmVydDhPX3BWSzV5aldhVENhZQ?oc=5",
-      "source": "搜狐网",
-      "category": "政策",
-      "published": "2026-06-30",
-      "body_snippet": "年内单笔规模最大融资交易诞生 边缘算力站上万亿风口 搜狐网",
+      "body_snippet": "Meta布局AI云业务拟对外出售额外算力|云计算|亚马逊|微软|谷歌|数据中心_手机新浪网 新浪财经",
       "_query_boost": 0
     },
     {
       "id": "raw-013",
-      "title": "华为openPangu2.0双版本亮相:加速Agent时代算力与生态双向突围 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAyOFllZlFkM2RxeHY4anJ4LVJUVHRvdGl6QlVUdWNzRllaazRsbUhmZkxyczhCZnExaVhlSjlKSjJJcVVWeUFoTDBOWkNvdw?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-06-30",
-      "body_snippet": "华为openPangu2.0双版本亮相:加速Agent时代算力与生态双向突围 AIBase",
-      "_query_boost": 0
+      "title": "关于2026年第2季度张江AI创新小镇“算力券”“模型券”“语料券”专项政策受理工作的通知_上观新闻 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1GdWVSYXlFTlMtMHZ0bEhMcWdGcUp5YkNpb3YyRFRKNUNscC1vdWNzZXVUaGZNT01QWUM3dXZvRHR3YmhMcmZSNkFXUVNOalVJQ0VKUWFBaXI?oc=5",
+      "source": "上观新闻",
+      "category": "政策",
+      "published": "2026-07-01",
+      "body_snippet": "关于2026年第2季度张江AI创新小镇“算力券”“模型券”“语料券”专项政策受理工作的通知_上观新闻 上观新闻",
+      "_query_boost": 20
     },
     {
       "id": "raw-014",
-      "title": "微软加码 AI 算力：Azure 全面引入 Anthropic Claude 模型，搭载英伟达 GB300 架构 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBUb0dUdWN6azFUYmh1a1JiSHNfQ1Z0ZnRsSk85SzIyWVVQX3lsSXg4akxmYkRTcXVkY0FTMGttN0hpZExrbGZMNnF1SDN4UQ?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-06-30",
-      "body_snippet": "微软加码 AI 算力：Azure 全面引入 Anthropic Claude 模型，搭载英伟达 GB300 架构 AIBase",
-      "_query_boost": 0
+      "title": "月之暗面Kimi半年融资超39亿美元，投前估值升至315亿美元 - 电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRYmVEUndEWEpHZ2tSWEpUbWtjV19WWXNxZUlGSjNTYzNXOUJWTktSX3otWUpGdzRsMkZURHY5a3RhNVQxcEI2RHloaXJLWkY1U2hPbUx1Z3Bqc1NE?oc=5",
+      "source": "电子工程专辑",
+      "category": "资本",
+      "published": "2026-07-01",
+      "body_snippet": "月之暗面Kimi半年融资超39亿美元，投前估值升至315亿美元 电子工程专辑",
+      "_query_boost": 20
     },
     {
       "id": "raw-015",
-      "title": "算力界的“巨无霸”来了：美团开源万亿参数模型 LongCat-2.0 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBlY1U1ZjFXRGVmR2FNeklNazlBa0JoRlEwZk5vVHk2c01pa0RXeFlNTS1YYTgzc1Z6akJjQmkyX1FyT0NicWtCZ0tfbUtfUQ?oc=5",
-      "source": "AIBase",
-      "category": "技术",
+      "title": "美团发布首个使用国产算力集群训练的AI模型 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RYjZraTVpM3ZLMFhEcDI5TU1HSVhxM1k1YjJjRVgzcEwyX3RvYTRUS01PWDI1WUxOSGM3dG1kQXM5bkJOVzhENlFZaFNOOURabm1zQnU2ZGdJbXpGTnY3bWdJa0EwU2xiT2c?oc=5",
+      "source": "联合早报",
+      "category": "海外",
       "published": "2026-06-30",
-      "body_snippet": "算力界的“巨无霸”来了：美团开源万亿参数模型 LongCat-2.0 AIBase",
+      "body_snippet": "美团发布首个使用国产算力集群训练的AI模型 联合早报",
       "_query_boost": 0
     }
   ]

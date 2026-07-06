@@ -1,6 +1,49 @@
 {
-  "updated_at": "2026-07-03T01:50:52.902Z",
+  "updated_at": "2026-07-06T01:41:27.264Z",
   "days": [
+    {
+      "date": "2026-07-06",
+      "mainline": "今日主线：算力Token化竞争全面爆发，三大运营商、地方国资、创业公司密集下场；美国对Anthropic出口管制解除，AI模型访问恢复，可能拉动推理算力需求。",
+      "signal_summary": {
+        "🏛️": 1,
+        "📜": 1,
+        "⚔️": 4,
+        "💰": 0,
+        "🌏": 4,
+        "🔬": 1
+      },
+      "wind_indicators": {
+        "policy_heat": 2,
+        "competitor_heat": 5,
+        "capital_heat": 2,
+        "overseas_heat": 4,
+        "overall_sentiment": "活跃",
+        "summary": "政策面偏暖但竞争白热化，算力Token化从概念转向实质落地，赛道拥挤程度显著上升，行业活跃度较高。"
+      },
+      "ppio_index": {
+        "score": 64,
+        "delta": -3,
+        "components": {
+          "policy_tailwind": 30,
+          "competitive_pressure": -28,
+          "capital_sentiment": 15,
+          "regulatory_risk": -10,
+          "overseas_headwind": -5
+        },
+        "interpretation": "美国出口管制松动与国产算力突破带来需求侧利好，但算力Token化引发多方密集布局，短期竞争压力显著上升，指数小幅回调。"
+      },
+      "item_count": {
+        "total": 12,
+        "attend": 10,
+        "silent": 2
+      },
+      "competitor_updates": [
+        "硅基流动：冲击“AI Token工厂第一股”，市占率约1.5%，阿里、美团入股，定位轻量级推理与Token服务，需纳入重点竞品监测",
+        "北京数据集团：发布“京算Token工厂”，打造区域统一的算力调度与Token化交易平台，国资主导，具备资源整合能力",
+        "润建股份：旗下五象云谷从出租物理算力转向经营Token，标志性算力金融化转型，可能成为区域性Token供应商",
+        "三大运营商：联合推出基于Token的AI算力套餐，利用网络和渠道优势推动算力大众化，边缘侧与PPIO存在潜在竞争"
+      ]
+    },
     {
       "date": "2026-07-03",
       "mainline": "竞品硅基流动冲击“AI Token工厂”港股IPO，边缘算力赛道单笔最大融资点燃风口，推理服务竞争加剧。",
