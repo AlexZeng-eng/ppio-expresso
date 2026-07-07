@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-07-06T01:41:27.264Z",
+  "updated_at": "2026-07-07T01:44:19.590Z",
   "days": [
+    {
+      "date": "2026-07-07",
+      "mainline": "对外投资新规收紧出海合规，VIE备案不确定性上升；竞品硅基流动冲刺IPO，算力赛道资本化加速；国产算力验证成功带来需求利好。",
+      "signal_summary": {
+        "🏛️": 1,
+        "📜": 2,
+        "⚔️": 1,
+        "💰": 0,
+        "🌏": 1,
+        "🔬": 1
+      },
+      "wind_indicators": {
+        "policy_heat": 4,
+        "competitor_heat": 4,
+        "capital_heat": 3,
+        "overseas_heat": 2,
+        "overall_sentiment": "平稳",
+        "summary": "新规带来合规收紧，但国产算力与资本工具支撑行业基本面，多空交织使得今日风向整体平稳。"
+      },
+      "ppio_index": {
+        "score": 62,
+        "delta": -2,
+        "components": {
+          "policy_tailwind": 30,
+          "competitive_pressure": -25,
+          "capital_sentiment": 15,
+          "regulatory_risk": -12,
+          "overseas_headwind": -6
+        },
+        "interpretation": "对外投资新规增加出海不确定性，但国产算力验证与算力保险提振信心，竞争加剧使指数微降。"
+      },
+      "item_count": {
+        "total": 10,
+        "attend": 4,
+        "silent": 6
+      },
+      "competitor_updates": [
+        "硅基流动 (SiliconFlow): IPO冲刺中，定位AI Token工厂，市占率约1.5%，阿里巴巴、美团等入股。"
+      ]
+    },
     {
       "date": "2026-07-06",
       "mainline": "今日主线：算力Token化竞争全面爆发，三大运营商、地方国资、创业公司密集下场；美国对Anthropic出口管制解除，AI模型访问恢复，可能拉动推理算力需求。",

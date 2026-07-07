@@ -1,154 +1,97 @@
 {
-  "generated_at": "2026-07-06T01:41:27.170Z",
-  "date": "2026-07-06",
-  "date_label": "2026-07-06",
-  "mainline": "今日主线：算力Token化竞争全面爆发，三大运营商、地方国资、创业公司密集下场；美国对Anthropic出口管制解除，AI模型访问恢复，可能拉动推理算力需求。",
+  "generated_at": "2026-07-07T01:44:19.499Z",
+  "date": "2026-07-07",
+  "date_label": "2026-07-07",
+  "mainline": "对外投资新规收紧出海合规，VIE备案不确定性上升；竞品硅基流动冲刺IPO，算力赛道资本化加速；国产算力验证成功带来需求利好。",
   "signal_summary": {
     "🏛️": 1,
-    "📜": 1,
-    "⚔️": 4,
+    "📜": 2,
+    "⚔️": 1,
     "💰": 0,
-    "🌏": 4,
+    "🌏": 1,
     "🔬": 1
   },
   "speed_read": {
     "positive": [
-      "美国解除Anthropic大模型出口管制，恢复Fable/Mythos等模型访问，有望激发国内AI推理应用增量，算力消耗利好分布式平台",
-      "人保财险签发全国首单“算力保”专属产品，算力服务风险保障机制落地，行业标准化、合规化提速，利好合规边缘云",
-      "美团发布首个使用国产算力集群训练的AI模型，验证国产算力端到端训练能力，有望降低整体推理成本，扩大边缘算力适用场景"
+      "美团大模型基于5万张国产算力卡全流程训练，首次验证国产算力可用性，利好边缘算力需求与国产生态。",
+      "人保财险签发全国首单“算力保”专属产品，为算力服务提供风险保障，增强行业资本信心。",
+      "张家口打造“算力之都”、长三角绿电匹配算力中心，地方算力基建政策持续加码。"
     ],
     "risk": [
-      "三大运营商齐推Token算力套餐，润建股份、北京数据集团等国资及上市企业同时布局算力Token工厂，供给端快速放量，可能加速价格竞争",
-      "硅基流动冲击“AI Token工厂第一股”，市占率约1.5%且已获阿里、美团入股，推理公有云集中度提升，将挤压PPIO差异化空间",
-      "Token化算力交付模式正被快速复制，各平台功能趋同，PPIO需警惕同质化风险"
+      "国务院《对外投资的规定》7月施行，跨境审批与资金出境可能收紧，增加VIE架构备案不确定性。",
+      "硅基流动以“AI Token工厂”定位冲击IPO，阿里、美团入股加持，推理服务赛道竞争压力骤升。",
+      "AI Token出海提供新增长路径，但跨境合规与代币化监管风险仍需高度警惕。"
     ]
   },
   "wind_indicators": {
-    "policy_heat": 2,
-    "competitor_heat": 5,
-    "capital_heat": 2,
-    "overseas_heat": 4,
-    "overall_sentiment": "活跃",
-    "summary": "政策面偏暖但竞争白热化，算力Token化从概念转向实质落地，赛道拥挤程度显著上升，行业活跃度较高。"
+    "policy_heat": 4,
+    "competitor_heat": 4,
+    "capital_heat": 3,
+    "overseas_heat": 2,
+    "overall_sentiment": "平稳",
+    "summary": "新规带来合规收紧，但国产算力与资本工具支撑行业基本面，多空交织使得今日风向整体平稳。"
   },
   "competitor_updates": [
-    "硅基流动：冲击“AI Token工厂第一股”，市占率约1.5%，阿里、美团入股，定位轻量级推理与Token服务，需纳入重点竞品监测",
-    "北京数据集团：发布“京算Token工厂”，打造区域统一的算力调度与Token化交易平台，国资主导，具备资源整合能力",
-    "润建股份：旗下五象云谷从出租物理算力转向经营Token，标志性算力金融化转型，可能成为区域性Token供应商",
-    "三大运营商：联合推出基于Token的AI算力套餐，利用网络和渠道优势推动算力大众化，边缘侧与PPIO存在潜在竞争"
+    "硅基流动 (SiliconFlow): IPO冲刺中，定位AI Token工厂，市占率约1.5%，阿里巴巴、美团等入股。"
   ],
   "item_axes": [
     {
       "id": "1",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？",
-      "policy_axis": 0,
-      "competition_axis": 0.9,
-      "impact_score": 5,
-      "axis_reason": "运营商直接进入Token化算力市场，渠道与规模优势明显，对PPIO竞争威胁极大"
+      "title": "7月新规即将施行|《国务院关于对外投资的规定》|7月新规",
+      "policy_axis": -0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "新规收紧对外投资，可能增加VIE备案和资金出境难度，影响香港IPO进程。"
     },
     {
       "id": "2",
-      "title": "美国政府解除大模型出口管制Anthropic：将开始恢复访问",
-      "policy_axis": 0.7,
-      "competition_axis": 0,
+      "title": "硅基流动冲击“AI Token工厂第一股”：市占率约1.5%，阿里巴巴、美团等入股",
+      "policy_axis": 0.1,
+      "competition_axis": 0.8,
       "impact_score": 4,
-      "axis_reason": "管制解除利好国内AI生态，可能增加推理算力需求，对PPIO偏正面"
+      "axis_reason": "直接竞品冲刺IPO，资本加持将加速其扩张，加剧推理服务市场争夺。"
     },
     {
       "id": "3",
-      "title": "美国解除出口管制后Anthropic再次开放Claude Fable 5模型访问",
-      "policy_axis": 0.6,
-      "competition_axis": 0,
+      "title": "美团发布万亿参数大模型LongCat-2.0，首次基于5万张国产算力卡全流程训练",
+      "policy_axis": 0.7,
+      "competition_axis": -0.3,
       "impact_score": 3,
-      "axis_reason": "具体模型恢复开放，进一步确认出口缓和趋势"
+      "axis_reason": "国产算力全流程训练成功，政策鼓励下将提升市场采用，利好PPIO分布式算力需求。"
     },
     {
       "id": "4",
-      "title": "在美国取消出口管制后，Anthropic恢复了其AI模型Fable和Mythos",
-      "policy_axis": 0.6,
-      "competition_axis": 0,
-      "impact_score": 3,
-      "axis_reason": "多模型恢复显示管制放宽幅度较大，利好推理应用落地"
-    },
-    {
-      "id": "5",
-      "title": "美国解除Anthropic最强AI模型出口管制 恢复部份企业访问权限",
-      "policy_axis": 0.5,
-      "competition_axis": 0,
-      "impact_score": 3,
-      "axis_reason": "最强模型部分恢复访问，仍有企业限制，影响略收敛"
-    },
-    {
-      "id": "6",
-      "title": "润建股份五象云谷：从出租算力到经营Token的AI新基建",
-      "policy_axis": 0.1,
-      "competition_axis": 0.7,
+      "title": "AI Token 出海：把中国算力卖向全球的三条路",
+      "policy_axis": 0.4,
+      "competition_axis": 0.5,
       "impact_score": 4,
-      "axis_reason": "传统算力服务商转型Token模式，进一步加剧供给端竞争，威胁中等偏高"
-    },
-    {
-      "id": "7",
-      "title": "词元经济呼唤算力新底座 北京数据集团发布“京算Token工厂”",
-      "policy_axis": 0.2,
-      "competition_axis": 0.8,
-      "impact_score": 5,
-      "axis_reason": "国资主导的Token工厂直接构建区域算力调度平台，竞争格局重大变化"
-    },
-    {
-      "id": "8",
-      "title": "人保财险签发全国首单“算力保”专属产品",
-      "policy_axis": 0.9,
-      "competition_axis": 0,
-      "impact_score": 4,
-      "axis_reason": "政策引导下的算力产业风险保障，利好行业信任与合规化，对PPIO正面影响"
-    },
-    {
-      "id": "9",
-      "title": "硅基流动冲击“AI Token工厂第一股”：市占率约1.5%，阿里巴巴、美团等入股",
-      "policy_axis": 0,
-      "competition_axis": 0.8,
-      "impact_score": 4,
-      "axis_reason": "直接竞对启动IPO，资本集中化加剧，对PPIO形成资金与市场双重压力"
-    },
-    {
-      "id": "10",
-      "title": "美团发布首个使用国产算力集群训练的AI模型",
-      "policy_axis": 0.5,
-      "competition_axis": -0.2,
-      "impact_score": 3,
-      "axis_reason": "国产算力体系化能力提升，或降低推理成本，虽增加服务平台需求但竞争上偏中性"
+      "axis_reason": "算力Token化打开出海新通道，但跨境支付合规灰色区域可能引发监管跟进，机遇与风险并存。"
     }
   ],
   "ppio_index": {
-    "score": 64,
-    "delta": -3,
+    "score": 62,
+    "delta": -2,
     "components": {
       "policy_tailwind": 30,
-      "competitive_pressure": -28,
+      "competitive_pressure": -25,
       "capital_sentiment": 15,
-      "regulatory_risk": -10,
-      "overseas_headwind": -5
+      "regulatory_risk": -12,
+      "overseas_headwind": -6
     },
-    "interpretation": "美国出口管制松动与国产算力突破带来需求侧利好，但算力Token化引发多方密集布局，短期竞争压力显著上升，指数小幅回调。"
+    "interpretation": "对外投资新规增加出海不确定性，但国产算力验证与算力保险提振信心，竞争加剧使指数微降。"
   },
   "policy_momentum": [
     {
-      "thread": "算力产业风险保障",
-      "last_signal": "未见明确政策",
-      "this_signal": "首单算力保落地",
+      "thread": "对外投资监管",
+      "last_signal": "此前无明确信号",
+      "this_signal": "国务院《对外投资的规定》施行",
       "level_delta": "首现",
-      "interpretation": "保险机制建立增强算力消费信心，有利于PPIO合规服务推广"
-    },
-    {
-      "thread": "AI出口管制",
-      "last_signal": "美国管制Anthropic模型出口",
-      "this_signal": "出口管制解除",
-      "level_delta": "降温",
-      "interpretation": "管制缓和将扩大国内AI模型可及性，可能带来边缘推理增量需求"
+      "interpretation": "跨境投资审批和资金出境收紧，对VIE架构IPO构成新增不确定性。"
     }
   ],
   "expected_but_absent": [
-    "人工智能法草案征求意见稿"
+    "人工智能法草案征求意见稿",
+    "算力基建补贴政策细则"
   ],
   "_generated_by": "ai"
 }
