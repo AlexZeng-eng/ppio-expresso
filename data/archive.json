@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-07-07T01:44:19.590Z",
+  "updated_at": "2026-07-08T01:13:09.162Z",
   "days": [
+    {
+      "date": "2026-07-08",
+      "mainline": "竞品三重施压（无问芯穹融资、华为硬刚、移动入场）叠加海外脱钩加速，但算力网络政策利好亦在升温，PPIO需在夹击中强化差异化。",
+      "signal_summary": {
+        "🏛️": 0,
+        "📜": 0,
+        "⚔️": 3,
+        "💰": 2,
+        "🌏": 1,
+        "🔬": 1
+      },
+      "wind_indicators": {
+        "policy_heat": 3,
+        "competitor_heat": 5,
+        "capital_heat": 4,
+        "overseas_heat": 3,
+        "overall_sentiment": "升温",
+        "summary": "竞品活动密集、资本热度高涨，但政策端算力网络积极信号与海外脱钩加速共同推动国产替代逻辑，整体情绪升温但结构性压力显著。"
+      },
+      "ppio_index": {
+        "score": 64,
+        "delta": 2,
+        "components": {
+          "policy_tailwind": 35,
+          "competitive_pressure": -28,
+          "capital_sentiment": 18,
+          "regulatory_risk": -10,
+          "overseas_headwind": -7
+        },
+        "interpretation": "政策利好与国产替代上升对冲竞争压力，指数小幅回升2点，但竞品密集入场仍需警惕。"
+      },
+      "item_count": {
+        "total": 10,
+        "attend": 4,
+        "silent": 6
+      },
+      "competitor_updates": [
+        "无问芯穹：完成超7亿元融资，首发AI生产力公式，定位Token经济枢纽，与PPIO Sandbox正面重叠",
+        "华为：Atlas 950即将亮相WAIC，超节点架构巩固国产集中式算力硬件壁垒",
+        "中国移动：首家设立算力、Token相关部门，运营商算力网络战略升级，边缘云入场加速"
+      ]
+    },
     {
       "date": "2026-07-07",
       "mainline": "对外投资新规收紧出海合规，VIE备案不确定性上升；竞品硅基流动冲刺IPO，算力赛道资本化加速；国产算力验证成功带来需求利好。",
