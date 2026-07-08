@@ -200,18 +200,13 @@ function renderFeedItem(item, idx) {
   const rank = String(idx + 1);
   const isEnglish = /[a-z]{4,}/.test(item.title) && !/[一-鿿]/.test(item.title);
   const enBadge = isEnglish ? '<span class="card-badge card-badge--en">EN</span>' : '';
-  const catColor = {
-    '政策': '#e8f4fd', '竞品': '#fdf3e8', '监管': '#fdf0f0',
-    '资本': '#f0fdf4', '海外': '#f3f0fd', '技术': '#f0f8fd', '治理': '#fdf8f0'
-  };
-  const catBg = catColor[item.category] || '#f5f5f5';
   return `<li class="feed-card" data-deep="${item.is_deep_read ? 'true' : 'false'}" data-tags="${esc(item.category || '')}">
         <div class="card-header">
           <span class="card-source">${esc(item.source)}</span>
           <span class="card-sep">·</span>
           <time class="card-date">${esc(item.published || '')}</time>
           <span class="card-sep">·</span>
-          <span class="card-cat" style="background:${catBg}">${esc(item.category)}</span>
+          <span class="card-cat">${esc(item.category)}</span>
           ${enBadge}
           ${renderSignalChips(item.signals)}
           <span class="card-rank">#${rank}</span>
@@ -229,8 +224,8 @@ function renderPolicyMomentum(synthesis) {
   const absent = synthesis?.expected_but_absent;
   if ((!momentum || momentum.length === 0) && (!absent || absent.length === 0)) return '';
 
-  const levelColor = { '升级': '#2d7a4f', '首现': '#1a56db', '持平': '#888', '降温': '#8f3b27' };
-  const levelBg   = { '升级': '#f0f7f0', '首现': '#eef2fe', '持平': '#f5f5f5', '降温': '#fdf3f0' };
+  const levelColor = { '升级': '#0a0a0a', '首现': '#0a0a0a', '持平': '#0a0a0a', '降温': '#fafaf8' };
+  const levelBg   = { '升级': '#FFD500', '首现': '#FFD500', '持平': '#d4d4d2', '降温': '#0a0a0a' };
 
   const rows = (momentum || []).map(m => {
     const fg = levelColor[m.level_delta] || '#555';
@@ -267,12 +262,12 @@ function renderWindIndicators(synthesis) {
   const w = synthesis.wind_indicators;
 
   const sentimentColor = {
-    '升温': '#e8f7ee', '活跃': '#e8f0fe', '平稳': '#f5f5f5',
-    '降温': '#fdf3f0', '观望': '#fdfaf0'
+    '升温': '#FFD500', '活跃': '#FFD500', '平稳': '#d4d4d2',
+    '降温': '#0a0a0a', '观望': '#f0f0ee'
   };
   const sentimentText = {
-    '升温': '#2d7a4f', '活跃': '#1a56db', '平稳': '#555',
-    '降温': '#8f3b27', '观望': '#8f7020'
+    '升温': '#0a0a0a', '活跃': '#0a0a0a', '平稳': '#0a0a0a',
+    '降温': '#fafaf8', '观望': '#0a0a0a'
   };
   const bg = sentimentColor[w.overall_sentiment] || '#f5f5f5';
   const fg = sentimentText[w.overall_sentiment] || '#333';
@@ -331,11 +326,11 @@ function renderAnalysisPanel(synthesis, curated, archive) {
   const score = idx.score ?? '—';
   const delta = idx.delta ?? 0;
   const deltaStr = delta > 0 ? `+${delta}` : String(delta);
-  const deltaColor = delta > 0 ? '#16a34a' : delta < 0 ? '#dc2626' : '#6b7280';
+  const deltaColor = delta > 0 ? '#0a0a0a' : delta < 0 ? '#FFD500' : '#737373';
   const interp = idx.interpretation || '';
 
   const sentimentColor = {
-    '升温':'#2d7a4f','活跃':'#1a56db','平稳':'#555','降温':'#8f3b27','观望':'#8f7020'
+    '升温':'#0a0a0a','活跃':'#0a0a0a','平稳':'#737373','降温':'#0a0a0a','观望':'#737373'
   };
   const w = synthesis.wind_indicators || {};
   const sentiment = w.overall_sentiment || '—';
@@ -358,8 +353,8 @@ function renderAnalysisPanel(synthesis, curated, archive) {
     const idxScore = d.ppio_index?.score;
     const idxDelta = d.ppio_index?.delta;
     const deltaHtml = idxDelta != null
-      ? (idxDelta > 0 ? `<span style="color:#16a34a;font-size:0.75rem">+${idxDelta}</span>`
-      : idxDelta < 0 ? `<span style="color:#dc2626;font-size:0.75rem">${idxDelta}</span>` : '') : '';
+      ? (idxDelta > 0 ? `<span style="color:#0a0a0a;font-size:0.75rem">+${idxDelta}</span>`
+      : idxDelta < 0 ? `<span style="color:#FFD500;font-size:0.75rem">${idxDelta}</span>` : '') : '';
     const sent = d.wind_indicators?.overall_sentiment || '';
     const sentC = sentimentColor[sent] || '#888';
     return `<tr>
@@ -482,6 +477,30 @@ function renderHTML(curated, synthesis, archive) {
 <title>PPIO 产业政策信息流 — ${week}</title>
 <link rel="stylesheet" href="reader.css">
 <style>
+  /* ============ Swiss 基座覆盖（覆盖 course.css 的 :root）============
+     瑞士国际主义 + 柠檬黄 #FFD500 单色锚点。
+     --serif 别名到 --sans：一处封死，所有引用 --serif 的组件自动无衬线。 */
+  :root{
+    --paper:#fafaf8; --paper-rgb:250,250,248;
+    --ink:#0a0a0a; --ink-soft:#525252; --ink-mute:#737373;
+    --grey-1:#f0f0ee; --grey-2:#d4d4d2; --grey-3:#737373;
+    --rule:#e0e0e0; --rule-soft:#ececec;
+    --bg:#fafaf8; --bg-soft:#f0f0ee; --bg-code:#f0f0ee;
+    --accent:#FFD500; --accent-rgb:255,213,0; --accent-on:#0a0a0a;
+    --link:#0a0a0a;
+    --sans:"Inter","Helvetica Neue","PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei UI",sans-serif;
+    --serif:var(--sans);
+    --mono:"JetBrains Mono","SF Mono","IBM Plex Mono",Menlo,monospace;
+  }
+  body.feed-page,body.archive-page,body.article-page{
+    font-family:var(--sans); background:var(--paper); color:var(--ink);
+    font-feature-settings:"ss01","cv11";
+    -webkit-font-smoothing:antialiased;
+  }
+  /* 全局直角 + 去阴影（瑞士风硬规则，!important 压过内联与 reader.css）*/
+  .feed-page *,.archive-page *,.article-page *{border-radius:0!important; box-shadow:none!important}
+  .feed-page .feed-card:hover{box-shadow:none!important}
+
   .ppio-signal {
     margin-top: 0.45rem;
     font-family: var(--sans);
@@ -505,27 +524,30 @@ function renderHTML(curated, synthesis, archive) {
   .ppio-signal p { margin: 0.25rem 0 0; }
 
   .ppio-speed-read {
-    margin-top: 2.8rem;
-    padding-top: 1.4rem;
+    margin-top: 4rem;
+    padding-top: 1.6rem;
     border-top: 2px solid var(--ink);
   }
   .speed-read-title {
     font-family: var(--mono);
-    font-size: 0.82rem;
-    letter-spacing: 0.06em;
+    font-size: 0.95rem;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
     color: var(--ink);
-    margin: 0 0 0.8rem;
+    margin: 0 0 1rem;
+    font-weight: 600;
   }
   .speed-read-mainline {
-    font-family: var(--serif);
-    font-size: 1rem;
-    line-height: 1.55;
+    font-family: var(--sans);
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
     color: var(--ink);
-    margin: 0 0 1.2rem;
-    padding: 0.7rem 0.9rem;
-    background: var(--bg-soft);
-    border-radius: 3px;
+    margin: 0 0 1.4rem;
+    padding: 1rem 1.2rem;
+    background: var(--grey-1);
+    border-left: 3px solid var(--accent);
   }
   .speed-read-grid {
     display: grid;
@@ -552,95 +574,96 @@ function renderHTML(curated, synthesis, archive) {
   .speed-card ul { margin: 0; padding-left: 1.1rem; }
   .speed-card li { margin-bottom: 0.28rem; color: var(--ink-soft); }
   .speed-card li:last-child { margin-bottom: 0; }
-  .signal-positive { background: #f0f7f0; border: 1px solid #c8e0c8; }
-  .signal-positive h4 { color: #3d6b3d; }
-  .signal-risk { background: #fdf3f0; border: 1px solid #f0d0c8; }
-  .signal-risk h4 { color: #8f3b27; }
-  .speed-card ul li.muted { color: #999; font-style: italic; list-style: none; }
-  .signal-watch { background: #fdfaf0; border: 1px solid #e8dcc0; }
-  .signal-watch h4 { color: #8f7020; }
-  .signal-action { background: #f0f4fa; border: 1px solid #c8d4e8; }
-  .signal-action h4 { color: #2a5080; }
+  .signal-positive { background: var(--grey-1); border: 1px solid var(--rule); }
+  .signal-positive h4 { color: var(--ink); }
+  .signal-risk { background: var(--accent); border: 1px solid var(--accent); color: var(--accent-on); }
+  .signal-risk h4 { color: var(--accent-on); }
+  .speed-card ul li.muted { color: var(--ink-mute); font-style: italic; list-style: none; }
+  .signal-watch { background: var(--grey-1); border: 1px solid var(--rule); }
+  .signal-watch h4 { color: var(--ink); }
+  .signal-action { background: var(--grey-1); border: 1px solid var(--rule); }
+  .signal-action h4 { color: var(--ink); }
 
   /* ── Policy Momentum ── */
   .momentum-section {
-    margin-top: 2rem;
+    margin-top: 4rem;
     padding-top: 1.4rem;
-    border-top: 1px solid var(--rule-soft);
+    border-top: 1px solid var(--rule);
   }
   .momentum-row {
-    padding: 0.7rem 0.9rem;
-    margin-bottom: 0.5rem;
-    background: var(--bg-soft);
-    border: 1px solid var(--rule-soft);
-    border-radius: 4px;
+    padding: 0.9rem 1rem;
+    margin-bottom: 0.6rem;
+    background: var(--grey-1);
+    border: 1px solid var(--rule);
   }
   .momentum-thread {
     font-family: var(--mono);
-    font-size: 0.72rem;
+    font-size: 0.74rem;
     font-weight: 700;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.06em;
     color: var(--ink);
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
   }
   .momentum-arrow {
     display: flex;
     align-items: center;
-    gap: 0.4rem;
+    gap: 0.5rem;
     flex-wrap: wrap;
     font-family: var(--mono);
-    font-size: 0.78rem;
-    margin-bottom: 0.3rem;
+    font-size: 0.82rem;
+    margin-bottom: 0.4rem;
   }
   .momentum-from { color: var(--ink-mute); }
-  .momentum-chevron { color: var(--rule); }
-  .momentum-to { color: var(--ink-soft); font-weight: 600; }
+  .momentum-chevron { color: var(--ink-mute); }
+  .momentum-to { color: var(--ink); font-weight: 600; }
   .momentum-badge {
     font-size: 0.68rem;
     font-weight: 700;
-    padding: 0.1rem 0.45rem;
-    border-radius: 3px;
-    letter-spacing: 0.03em;
+    padding: 0.12rem 0.5rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
   }
   .momentum-interp {
     font-family: var(--sans);
-    font-size: 0.82rem;
+    font-size: 0.86rem;
     color: var(--ink-soft);
-    line-height: 1.5;
+    line-height: 1.55;
   }
   .momentum-absent {
-    margin-top: 0.6rem;
-    padding: 0.5rem 0.8rem;
-    background: #fdfaf0;
-    border: 1px solid #e8dcc0;
-    border-radius: 4px;
+    margin-top: 0.8rem;
+    padding: 0.6rem 0.9rem;
+    background: var(--grey-1);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--ink);
     font-family: var(--sans);
-    font-size: 0.8rem;
+    font-size: 0.84rem;
     color: var(--ink-soft);
     display: flex;
     flex-wrap: wrap;
-    gap: 0.3rem 0.5rem;
+    gap: 0.4rem 0.5rem;
     align-items: baseline;
   }
   .momentum-absent-label {
     font-family: var(--mono);
-    font-size: 0.68rem;
-    color: #8f7020;
+    font-size: 0.7rem;
+    color: var(--ink);
     font-weight: 700;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.06em;
     white-space: nowrap;
+    text-transform: uppercase;
   }
   .momentum-absent-item {
-    background: #fef3c7;
-    color: #92400e;
-    padding: 0.1rem 0.4rem;
-    border-radius: 3px;
-    font-size: 0.76rem;
+    background: var(--ink);
+    color: var(--paper);
+    padding: 0.12rem 0.45rem;
+    font-size: 0.78rem;
+    font-weight: 500;
   }
   .word-cloud-section {
-    margin-top: 2.4rem;
+    margin-top: 4rem;
     padding-top: 1.4rem;
-    border-top: 1px solid var(--rule-soft);
+    border-top: 1px solid var(--rule);
   }
   .word-cloud {
     display: flex;
@@ -654,35 +677,35 @@ function renderHTML(curated, synthesis, archive) {
     font-family: var(--sans);
     color: var(--ink);
     cursor: default;
-    transition: opacity 0.15s;
+    transition: opacity 0.15s, background 0.15s, color 0.15s;
     white-space: nowrap;
+    padding: 0 0.2rem;
   }
-  .wc-word:hover { opacity: 1 !important; color: var(--accent, #2a5080); }
+  .wc-word:hover { opacity: 1 !important; background: var(--accent); color: var(--accent-on); }
 
   /* ── Wind indicators ── */
   .wind-section {
-    margin-top: 2.4rem;
-    padding: 1.1rem 1.2rem;
-    background: var(--bg-soft);
-    border: 1px solid var(--rule-soft);
-    border-radius: 6px;
+    margin-top: 4rem;
+    padding: 1.2rem 1.3rem;
+    background: var(--grey-1);
+    border: 1px solid var(--rule);
   }
-  .wind-header { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 0.4rem; }
+  .wind-header { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 0.5rem; }
   .wind-header .speed-read-title { margin: 0; }
   .wind-sentiment {
     font-family: var(--mono);
     font-size: 0.72rem;
     font-weight: 700;
     padding: 0.15rem 0.55rem;
-    border-radius: 3px;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
   }
   .wind-summary {
     font-family: var(--sans);
-    font-size: 0.84rem;
+    font-size: 0.88rem;
     color: var(--ink-soft);
-    margin: 0 0 0.9rem;
-    line-height: 1.5;
+    margin: 0 0 1rem;
+    line-height: 1.55;
   }
   .wind-grid {
     display: grid;
@@ -693,91 +716,92 @@ function renderHTML(curated, synthesis, archive) {
   .wind-item {
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
-    background: #fff;
-    border: 1px solid var(--rule-soft);
-    border-radius: 4px;
-    padding: 0.55rem 0.7rem;
+    gap: 0.35rem;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    padding: 0.6rem 0.75rem;
   }
-  .wind-label { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-mute); letter-spacing: 0.03em; }
+  .wind-label { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-mute); letter-spacing: 0.06em; text-transform: uppercase; }
   .wind-bar { display: flex; gap: 3px; align-items: center; }
-  .heat-dot { width: 8px; height: 8px; border-radius: 50%; }
-  .heat-on { background: #2a7a4f; }
-  .heat-off { background: #dde; }
+  .heat-dot { width: 8px; height: 8px; }
+  .heat-on { background: var(--ink); }
+  .heat-off { background: var(--grey-2); }
 
   /* ── Feed cards ── */
-  .feed-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.9rem; }
+  .feed-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 1.4rem; }
   .feed-card {
-    background: #fff;
-    border: 1px solid #e2e8f0;
-    border-radius: 6px;
-    padding: 0.9rem 1.1rem 0.85rem;
-    transition: box-shadow 0.15s, border-color 0.15s;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    padding: 1.1rem 1.3rem 1rem;
+    transition: border-color 0.15s;
+    border-left: 3px solid transparent;
   }
-  .feed-card:hover { border-color: #b8c8dc; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .feed-card:hover { border-color: var(--ink); border-left-color: var(--accent); }
   .feed-card.is-tab-hidden { display: none; }
   .card-header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 0.3rem 0.4rem;
-    margin-bottom: 0.45rem;
+    gap: 0.3rem 0.45rem;
+    margin-bottom: 0.55rem;
     font-family: var(--mono);
     font-size: 0.72rem;
     color: var(--ink-mute);
   }
-  .card-source { font-weight: 600; color: var(--ink-soft); }
+  .card-source { font-weight: 600; color: var(--ink); letter-spacing: 0.02em; }
   .card-sep { color: var(--rule); }
   .card-date { color: var(--ink-mute); }
   .card-cat {
-    padding: 0.1rem 0.45rem;
-    border-radius: 3px;
+    padding: 0.12rem 0.5rem;
     font-size: 0.68rem;
     font-weight: 600;
-    color: var(--ink-soft);
-    border: 1px solid rgba(0,0,0,0.07);
+    color: var(--ink);
+    background: var(--grey-1);
+    border: 1px solid var(--rule);
+    letter-spacing: 0.02em;
   }
   .card-badge--en {
-    padding: 0.1rem 0.4rem;
-    border-radius: 3px;
+    padding: 0.12rem 0.45rem;
     font-size: 0.68rem;
     font-weight: 700;
-    background: #e8f0fe;
-    color: #1a56db;
-    border: 1px solid #c3d4f7;
+    background: var(--ink);
+    color: var(--paper);
+    letter-spacing: 0.04em;
   }
-  .card-rank { margin-left: auto; color: var(--rule); font-size: 0.68rem; }
+  .card-rank { margin-left: auto; color: var(--ink-mute); font-size: 0.68rem; font-family: var(--mono); }
   .card-title {
-    font-family: var(--serif);
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.45;
-    margin: 0 0 0.5rem;
+    font-family: var(--sans);
+    font-size: 1.3rem;
+    font-weight: 200;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.6rem;
     color: var(--ink);
   }
   .card-title a { color: inherit; text-decoration: none; }
-  .card-title a:hover { text-decoration: underline; color: var(--accent, #2a5080); }
+  .card-title a:hover { background: var(--accent); color: var(--accent-on); }
   .card-excerpt {
     font-family: var(--sans);
-    font-size: 0.86rem;
-    line-height: 1.6;
+    font-size: 0.9rem;
+    line-height: 1.65;
     color: var(--ink-soft);
     margin: 0;
+    font-weight: 300;
   }
 
   /* ── Analysis sub-tabs ── */
   .analysis-tabs {
     display: flex;
     gap: 0;
-    border-bottom: 1px solid var(--rule-soft);
-    margin-bottom: 1.4rem;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 1.6rem;
   }
   .atab {
     font-family: var(--mono);
-    font-size: 0.78rem;
+    font-size: 0.8rem;
     font-weight: 600;
-    letter-spacing: 0.04em;
-    padding: 0.45rem 1rem;
+    letter-spacing: 0.06em;
+    padding: 0.55rem 1.1rem;
     border: none;
     border-bottom: 2px solid transparent;
     margin-bottom: -1px;
@@ -785,28 +809,29 @@ function renderHTML(curated, synthesis, archive) {
     color: var(--ink-mute);
     cursor: pointer;
     transition: color 0.15s, border-color 0.15s;
+    text-transform: uppercase;
   }
   .atab:hover { color: var(--ink); }
-  .atab.is-active { color: var(--accent, #2a5080); border-bottom-color: var(--accent, #2a5080); }
+  .atab.is-active { color: var(--ink); border-bottom-color: var(--ink); }
 
   /* ── History table ── */
-  .hist-table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.82rem; }
-  .hist-table th { font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-mute); border-bottom: 2px solid var(--ink); padding: 0.35rem 0.5rem; text-align: left; }
-  .hist-table td { padding: 0.45rem 0.5rem; border-bottom: 1px solid var(--rule-soft); vertical-align: top; color: var(--ink-soft); }
-  .hist-table tr:hover td { background: var(--bg-soft); }
+  .hist-table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.84rem; }
+  .hist-table th { font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-mute); border-bottom: 2px solid var(--ink); padding: 0.45rem 0.55rem; text-align: left; }
+  .hist-table td { padding: 0.5rem 0.55rem; border-bottom: 1px solid var(--rule); vertical-align: top; color: var(--ink-soft); }
+  .hist-table tr:hover td { background: var(--grey-1); }
   .hist-table a { color: var(--ink); font-weight: 600; text-decoration: none; }
-  .hist-table a:hover { text-decoration: underline; }
+  .hist-table a:hover { background: var(--accent); color: var(--accent-on); }
   .hist-mainline { max-width: 320px; line-height: 1.4; font-size: 0.8rem; }
 
   /* ── Trend grid ── */
   .trend-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 0.5rem; }
   @media (max-width: 600px) { .trend-grid { grid-template-columns: 1fr; } }
-  .trend-card { background: var(--bg-soft); border: 1px solid var(--rule-soft); border-radius: 6px; padding: 0.9rem 1rem; }
-  .trend-card-title { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-mute); letter-spacing: 0.04em; text-transform: uppercase; margin: 0 0 0.6rem; }
+  .trend-card { background: var(--grey-1); border: 1px solid var(--rule); padding: 0.9rem 1rem; }
+  .trend-card-title { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-mute); letter-spacing: 0.06em; text-transform: uppercase; margin: 0 0 0.6rem; }
   .view-tabs {
     display: flex;
     gap: 0;
-    border-bottom: 2px solid var(--rule-soft);
+    border-bottom: 2px solid var(--ink);
     max-width: 860px;
     margin: 0 auto;
     padding: 0 1.5rem;
@@ -815,8 +840,8 @@ function renderHTML(curated, synthesis, archive) {
     font-family: var(--mono);
     font-size: 0.82rem;
     font-weight: 600;
-    letter-spacing: 0.04em;
-    padding: 0.55rem 1.2rem;
+    letter-spacing: 0.06em;
+    padding: 0.6rem 1.3rem;
     border: none;
     border-bottom: 2px solid transparent;
     margin-bottom: -2px;
@@ -824,9 +849,10 @@ function renderHTML(curated, synthesis, archive) {
     color: var(--ink-mute);
     cursor: pointer;
     transition: color 0.15s, border-color 0.15s;
+    text-transform: uppercase;
   }
   .view-tab:hover { color: var(--ink); }
-  .view-tab.is-active { color: var(--accent, #2a5080); border-bottom-color: var(--accent, #2a5080); }
+  .view-tab.is-active { color: var(--ink); border-bottom-color: var(--ink); }
 
   /* ── Analysis panel ── */
   .analysis-panel { max-width: 860px; margin: 0 auto; padding: 1.5rem; }
@@ -834,61 +860,63 @@ function renderHTML(curated, synthesis, archive) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.4rem;
   }
   @media (max-width: 560px) { .analysis-summary { grid-template-columns: 1fr; } }
   .ppio-index-card {
-    background: var(--bg-soft);
-    border: 1px solid var(--rule-soft);
-    border-radius: 8px;
-    padding: 1.1rem 1.3rem;
+    background: var(--grey-1);
+    border: 1px solid var(--rule);
+    padding: 1.3rem 1.5rem;
   }
   .ppio-index-label {
     font-family: var(--mono);
     font-size: 0.7rem;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--ink-mute);
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
   }
   .ppio-index-score {
-    font-family: var(--serif);
-    font-size: 2.4rem;
-    font-weight: 700;
+    font-family: var(--sans);
+    font-size: min(8vw, 5rem);
+    font-weight: 200;
     color: var(--ink);
-    line-height: 1.1;
-    margin-bottom: 0.35rem;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    margin-bottom: 0.4rem;
   }
   .ppio-index-delta {
-    font-size: 1rem;
-    font-weight: 600;
-    margin-left: 0.4rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin-left: 0.5rem;
   }
   .ppio-index-interp {
     font-family: var(--sans);
-    font-size: 0.82rem;
+    font-size: 0.86rem;
     color: var(--ink-soft);
-    line-height: 1.5;
+    line-height: 1.55;
+    font-weight: 300;
   }
   .analysis-section {
-    margin-bottom: 2.4rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid var(--rule-soft);
+    margin-bottom: 2.8rem;
+    padding-bottom: 2.2rem;
+    border-bottom: 1px solid var(--rule);
   }
   .analysis-section:last-child { border-bottom: none; }
   .analysis-title {
     font-family: var(--mono);
-    font-size: 0.78rem;
+    font-size: 0.8rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--ink-mute);
-    margin: 0 0 0.3rem;
+    color: var(--ink);
+    margin: 0 0 0.35rem;
   }
   .analysis-desc {
     font-family: var(--sans);
-    font-size: 0.8rem;
+    font-size: 0.82rem;
     color: var(--ink-mute);
-    margin: 0 0 1rem;
+    margin: 0 0 1.2rem;
+    font-weight: 300;
   }
   .chart-wrap { position: relative; }
   .chart-wrap--quadrant { max-width: 540px; margin: 0 auto; }
@@ -905,26 +933,26 @@ function renderHTML(curated, synthesis, archive) {
     font-family: var(--mono);
     font-size: 0.65rem;
     font-weight: 700;
-    letter-spacing: 0.04em;
-    padding: 0.18rem 0.45rem;
-    border-radius: 3px;
-    opacity: 0.55;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.5rem;
+    opacity: 0.85;
   }
-  .ql-tl { top: 4px; left: 4px; background: #fef3c7; color: #92400e; }
-  .ql-tr { top: 4px; right: 4px; background: #fee2e2; color: #991b1b; }
-  .ql-bl { bottom: 4px; left: 4px; background: #d1fae5; color: #065f46; }
-  .ql-br { bottom: 4px; right: 4px; background: #dcfce7; color: #166534; }
+  .ql-tl { top: 4px; left: 4px; background: var(--ink); color: var(--paper); }
+  .ql-tr { top: 4px; right: 4px; background: var(--grey-2); color: var(--ink); }
+  .ql-bl { bottom: 4px; left: 4px; background: var(--accent); color: var(--accent-on); }
+  .ql-br { bottom: 4px; right: 4px; background: var(--grey-1); color: var(--ink); border: 1px solid var(--rule); }
   .chart-legend {
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem 0.9rem;
-    margin-top: 0.8rem;
+    margin-top: 0.9rem;
     font-family: var(--sans);
-    font-size: 0.75rem;
+    font-size: 0.78rem;
     color: var(--ink-soft);
   }
-  .legend-item { display: flex; align-items: center; gap: 0.3rem; }
-  .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .legend-item { display: flex; align-items: center; gap: 0.35rem; }
+  .legend-dot { width: 10px; height: 10px; flex-shrink: 0; }
 </style>
 </head>
 <body class="feed-page">
@@ -1047,35 +1075,35 @@ ${renderTabs(curated)}
       plugins: { legend: { display: false } },
       scales: {
         x: { grid: { display: false }, ticks: { font: { size: 10 }, maxTicksLimit: 8 } },
-        y: { grid: { color: '#f0f0f0' }, ticks: { font: { size: 11 } } }
+        y: { grid: { color: '#ececec' }, ticks: { font: { size: 11 } } }
       }
     });
     if (document.getElementById('chart-trend-index')) {
       new Chart(document.getElementById('chart-trend-index'), {
         type: 'line',
-        data: { labels: d.dates, datasets: [{ data: d.index, borderColor: '#2563eb', backgroundColor: '#2563eb22', fill: true, tension: 0.3, pointRadius: 3 }] },
-        options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:100,grid:{color:'#f0f0f0'},ticks:{font:{size:11}}} } }
+        data: { labels: d.dates, datasets: [{ data: d.index, borderColor: '#0a0a0a', backgroundColor: '#0a0a0a22', fill: true, tension: 0.3, pointRadius: 3 }] },
+        options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:100,grid:{color:'#ececec'},ticks:{font:{size:11}}} } }
       });
     }
     if (document.getElementById('chart-trend-attend')) {
       new Chart(document.getElementById('chart-trend-attend'), {
         type: 'bar',
-        data: { labels: d.dates, datasets: [{ data: d.attend, backgroundColor: '#2563ebcc', borderRadius: 3 }] },
+        data: { labels: d.dates, datasets: [{ data: d.attend, backgroundColor: '#d4d4d2', borderRadius: 0 }] },
         options: baseOpts()
       });
     }
     if (document.getElementById('chart-trend-policy')) {
       new Chart(document.getElementById('chart-trend-policy'), {
         type: 'line',
-        data: { labels: d.dates, datasets: [{ data: d.policy, borderColor: '#16a34a', backgroundColor: '#16a34a22', fill: true, tension: 0.3, pointRadius: 3 }] },
-        options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#f0f0f0'},ticks:{font:{size:11},stepSize:1}} } }
+        data: { labels: d.dates, datasets: [{ data: d.policy, borderColor: '#737373', backgroundColor: '#73737322', fill: true, tension: 0.3, pointRadius: 3 }] },
+        options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#ececec'},ticks:{font:{size:11},stepSize:1}} } }
       });
     }
     if (document.getElementById('chart-trend-compete')) {
       new Chart(document.getElementById('chart-trend-compete'), {
         type: 'line',
-        data: { labels: d.dates, datasets: [{ data: d.compete, borderColor: '#d97706', backgroundColor: '#d9770622', fill: true, tension: 0.3, pointRadius: 3 }] },
-        options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#f0f0f0'},ticks:{font:{size:11},stepSize:1}} } }
+        data: { labels: d.dates, datasets: [{ data: d.compete, borderColor: '#FFD500', backgroundColor: '#FFD50022', fill: true, tension: 0.3, pointRadius: 3 }] },
+        options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#ececec'},ticks:{font:{size:11},stepSize:1}} } }
       });
     }
   }
@@ -1086,8 +1114,8 @@ ${renderTabs(curated)}
     (function() {
       const axes = (SYNTHESIS.item_axes || []);
       const catColor = {
-        '政策':'#2563eb','竞品':'#d97706','监管':'#dc2626',
-        '资本':'#16a34a','海外':'#7c3aed','技术':'#0891b2','治理':'#92400e'
+        '政策':'#0a0a0a','竞品':'#404040','监管':'#525252',
+        '资本':'#737373','海外':'#a3a3a3','技术':'#d4d4d2','治理':'#e0e0e0'
       };
       const datasets = axes.map(a => {
         const item = ITEMS.find(i => i.id && (i.id.endsWith('-' + a.id) || i.id === a.id)) || {};
@@ -1125,13 +1153,13 @@ ${renderTabs(curated)}
               min: -1.2, max: 1.2,
               border: { display: false },
               grid: {
-                color: ctx => ctx.tick.value === 0 ? '#374151' : '#e5e7eb',
+                color: ctx => ctx.tick.value === 0 ? '#0a0a0a' : '#ececec',
                 lineWidth: ctx => ctx.tick.value === 0 ? 2.5 : 1,
               },
               ticks: {
                 stepSize: 0.5,
                 font: { size: 10 },
-                color: ctx => ctx.tick.value === 0 ? '#374151' : '#9ca3af',
+                color: ctx => ctx.tick.value === 0 ? '#0a0a0a' : '#737373',
                 callback: v => {
                   if (v === -1) return '← 收紧';
                   if (v === 1) return '宽松 →';
@@ -1143,20 +1171,20 @@ ${renderTabs(curated)}
                 display: true,
                 text: '政策/监管环境',
                 font: { size: 11, weight: '600' },
-                color: '#4b5563'
+                color: '#737373'
               }
             },
             y: {
               min: -1.2, max: 1.2,
               border: { display: false },
               grid: {
-                color: ctx => ctx.tick.value === 0 ? '#374151' : '#e5e7eb',
+                color: ctx => ctx.tick.value === 0 ? '#0a0a0a' : '#ececec',
                 lineWidth: ctx => ctx.tick.value === 0 ? 2.5 : 1,
               },
               ticks: {
                 stepSize: 0.5,
                 font: { size: 10 },
-                color: ctx => ctx.tick.value === 0 ? '#374151' : '#9ca3af',
+                color: ctx => ctx.tick.value === 0 ? '#0a0a0a' : '#737373',
                 callback: v => {
                   if (v === -1) return '低竞争';
                   if (v === 1) return '高竞争';
@@ -1168,7 +1196,7 @@ ${renderTabs(curated)}
                 display: true,
                 text: '竞争烈度',
                 font: { size: 11, weight: '600' },
-                color: '#4b5563'
+                color: '#737373'
               }
             }
           }
@@ -1197,18 +1225,18 @@ ${renderTabs(curated)}
       const labels = ['政策顺风', '竞争压力', '资本情绪', '监管风险', '海外逆风'];
       const keys = ['policy_tailwind','competitive_pressure','capital_sentiment','regulatory_risk','overseas_headwind'];
       const values = keys.map(k => comp[k] || 0);
-      const colors = values.map(v => v >= 0 ? '#16a34acc' : '#dc2626cc');
+      const colors = values.map(v => v >= 0 ? '#0a0a0acc' : '#FFD500cc');
       new Chart(document.getElementById('chart-index'), {
         type: 'bar',
         data: {
           labels,
-          datasets: [{ label: 'PPIO指数成分', data: values, backgroundColor: colors, borderRadius: 4 }]
+          datasets: [{ label: 'PPIO指数成分', data: values, backgroundColor: colors, borderRadius: 0 }]
         },
         options: {
           responsive: true, maintainAspectRatio: true,
           plugins: { legend: { display: false } },
           scales: {
-            y: { grid: { color: '#e5e7eb' }, ticks: { stepSize: 10 } },
+            y: { grid: { color: '#ececec' }, ticks: { stepSize: 10 } },
             x: { grid: { display: false } }
           }
         }
@@ -1219,8 +1247,8 @@ ${renderTabs(curated)}
     (function() {
       const cats = ['政策','竞品','监管','资本','海外','技术','治理'];
       const catColor = {
-        '政策':'#2563eb','竞品':'#d97706','监管':'#dc2626',
-        '资本':'#16a34a','海外':'#7c3aed','技术':'#0891b2','治理':'#92400e'
+        '政策':'#0a0a0a','竞品':'#404040','监管':'#525252',
+        '资本':'#737373','海外':'#a3a3a3','技术':'#d4d4d2','治理':'#e0e0e0'
       };
       const counts = cats.map(c => ITEMS.filter(i => i.category === c && i.lane === 'attend').length);
       new Chart(document.getElementById('chart-signals'), {
@@ -1349,9 +1377,9 @@ function renderArchiveHTML(archive) {
     const counts = d.item_count || {};
     const idxScore = d.ppio_index?.score;
     const idxDelta = d.ppio_index?.delta;
-    const deltaStr = idxDelta != null ? (idxDelta > 0 ? `<span style="color:#16a34a">+${idxDelta}</span>` : idxDelta < 0 ? `<span style="color:#dc2626">${idxDelta}</span>` : '') : '';
+    const deltaStr = idxDelta != null ? (idxDelta > 0 ? `<span style="color:#0a0a0a">+${idxDelta}</span>` : idxDelta < 0 ? `<span style="color:#FFD500">${idxDelta}</span>` : '') : '';
     const sentiment = d.wind_indicators?.overall_sentiment || '';
-    const sentColor = {'升温':'#2d7a4f','活跃':'#1a56db','平稳':'#888','降温':'#8f3b27','观望':'#8f7020'}[sentiment] || '#888';
+    const sentColor = {'升温':'#0a0a0a','活跃':'#0a0a0a','平稳':'#737373','降温':'#0a0a0a','观望':'#737373'}[sentiment] || '#737373';
     return `<tr>
       <td><a href="reports/${esc(d.date)}.html">${esc(d.date)}</a></td>
       <td class="archive-mainline">${esc(d.mainline || '')}</td>
@@ -1446,7 +1474,7 @@ function renderArchiveHTML(archive) {
     plugins: { legend: { display: false } },
     scales: {
       x: { grid: { display: false }, ticks: { font: { size: 10 }, maxTicksLimit: 8 } },
-      y: { grid: { color: '#f0f0f0' }, ticks: { font: { size: 11 } } }
+      y: { grid: { color: '#ececec' }, ticks: { font: { size: 11 } } }
     }
   });
 
@@ -1454,8 +1482,8 @@ function renderArchiveHTML(archive) {
   if (document.getElementById('chart-trend-index')) {
     new Chart(document.getElementById('chart-trend-index'), {
       type: 'line',
-      data: { labels: dates, datasets: [{ data: index, borderColor: '#2563eb', backgroundColor: '#2563eb22', fill: true, tension: 0.3, pointRadius: 3 }] },
-      options: { ...baseOpts(), scales: { x: { grid:{display:false}, ticks:{font:{size:9},maxTicksLimit:8} }, y: { min:0, max:100, grid:{color:'#f0f0f0'}, ticks:{font:{size:9}} } } }
+      data: { labels: dates, datasets: [{ data: index, borderColor: '#0a0a0a', backgroundColor: '#0a0a0a22', fill: true, tension: 0.3, pointRadius: 3 }] },
+      options: { ...baseOpts(), scales: { x: { grid:{display:false}, ticks:{font:{size:9},maxTicksLimit:8} }, y: { min:0, max:100, grid:{color:'#ececec'}, ticks:{font:{size:9}} } } }
     });
   }
 
@@ -1463,7 +1491,7 @@ function renderArchiveHTML(archive) {
   if (document.getElementById('chart-trend-attend')) {
     new Chart(document.getElementById('chart-trend-attend'), {
       type: 'bar',
-      data: { labels: dates, datasets: [{ data: attend, backgroundColor: '#2563ebcc', borderRadius: 3 }] },
+      data: { labels: dates, datasets: [{ data: attend, backgroundColor: '#d4d4d2', borderRadius: 0 }] },
       options: baseOpts()
     });
   }
@@ -1472,8 +1500,8 @@ function renderArchiveHTML(archive) {
   if (document.getElementById('chart-trend-policy')) {
     new Chart(document.getElementById('chart-trend-policy'), {
       type: 'line',
-      data: { labels: dates, datasets: [{ data: policy, borderColor: '#16a34a', backgroundColor: '#16a34a22', fill: true, tension: 0.3, pointRadius: 3 }] },
-      options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#f0f0f0'},ticks:{font:{size:11},stepSize:1}} } }
+      data: { labels: dates, datasets: [{ data: policy, borderColor: '#737373', backgroundColor: '#73737322', fill: true, tension: 0.3, pointRadius: 3 }] },
+      options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#ececec'},ticks:{font:{size:11},stepSize:1}} } }
     });
   }
 
@@ -1481,8 +1509,8 @@ function renderArchiveHTML(archive) {
   if (document.getElementById('chart-trend-compete')) {
     new Chart(document.getElementById('chart-trend-compete'), {
       type: 'line',
-      data: { labels: dates, datasets: [{ data: compete, borderColor: '#d97706', backgroundColor: '#d9770622', fill: true, tension: 0.3, pointRadius: 3 }] },
-      options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#f0f0f0'},ticks:{font:{size:11},stepSize:1}} } }
+      data: { labels: dates, datasets: [{ data: compete, borderColor: '#FFD500', backgroundColor: '#FFD50022', fill: true, tension: 0.3, pointRadius: 3 }] },
+      options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#ececec'},ticks:{font:{size:11},stepSize:1}} } }
     });
   }
 })();
