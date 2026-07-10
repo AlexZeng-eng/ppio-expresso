@@ -1,156 +1,139 @@
 {
-  "generated_at": "2026-07-09T01:48:02.227Z",
-  "date": "2026-07-09",
-  "date_label": "2026-07-09",
-  "mainline": "Token经济引爆算力服务化赛道，三大运营商与国资平台入局，竞争加剧；高层持续定调科技强国利好基建叙事。",
+  "generated_at": "2026-07-10T01:43:07.459Z",
+  "date": "2026-07-10",
+  "date_label": "2026-07-10",
+  "mainline": "算力网国家战略升温，运营商与国资Token化竞争加剧，边缘云迎来政策利好与市场挤压的双重局面。",
   "signal_summary": {
-    "🏛️": 4,
-    "📜": 1,
-    "⚔️": 5,
-    "💰": 1,
-    "🌏": 1,
-    "🔬": 0
+    "🏛️": 5,
+    "📜": 0,
+    "⚔️": 3,
+    "💰": 0,
+    "🌏": 2,
+    "🔬": 1
   },
   "speed_read": {
     "positive": [
-      "高层信号：求是杂志刊文强调科技强国、科技自立自强，长期利好国产算力基础设施。",
-      "高层信号：习近平指出积极引进海外人才，释放开放与基础创新信号，有助于缓解算力领域人才瓶颈。",
-      "李乐成调研新兴产业和未来产业，释放部委层面持续关注算力基础设施信号。"
+      "新华网刊文强调万亿级算力网建设，明确云边端协同方向，PPIO分布式边缘云模式获政策背书。",
+      "工信部副部长调研算力网络，部委层面释放利好信号，边缘算力节点建设预期加快。",
+      "美团开源LongCat-2.0大模型，降低AI应用门槛，刺激边缘推理需求增长。"
     ],
     "risk": [
-      "三大运营商齐推Token套餐，正式切入AI算力服务市场，与PPIO形成直接竞争。",
-      "硅基流动完成超20亿元融资，明确要做全球Token供应平台，资本实力和品牌声量对PPIO构成威胁。",
-      "北京数据集团“京算Token工厂”以国资背景入局，润建股份转向Token经营，传统IDC和国资力量加速挤压边缘云份额。"
+      "三大运营商同步推出Token套餐，算力零售化直击第三方平台定价空间，可能抢占中小企业客户。",
+      "北京数据集团发布‘京算Token工厂’，国资背景+区域数据优势，在Token化算力市场形成卡位压力。",
+      "联合国AI治理对话强调安全可控，中国参与规则制定，未来VIE合规与跨境数据限制可能加码。"
     ]
   },
   "wind_indicators": {
     "policy_heat": 4,
-    "competitor_heat": 5,
-    "capital_heat": 4,
-    "overseas_heat": 3,
+    "competitor_heat": 4,
+    "capital_heat": 3,
+    "overseas_heat": 2,
     "overall_sentiment": "升温",
-    "summary": "政策端持续利好算力基建，但竞争态势急剧升温，Token经济赛道涌入多个重量级玩家。"
+    "summary": "政策面密集利好算力基础设施建设，但运营商与国资平台Token化转型带来强竞争压力，整体情绪偏暖但需警惕市场挤压。"
   },
   "competitor_updates": [
-    "硅基流动：完成新一轮超20亿元融资，定位全球Token供应平台，AI Infra竞争加剧。",
-    "北京数据集团：发布“京算Token工厂”，国资背景入局推理服务市场。",
-    "润建股份（五象云谷）：从出租算力转向经营Token，争夺AI推理入口。",
-    "三大运营商：联合推出Token套餐，算力标准化商品化，直接对标边缘算力平台。",
-    "美团：开源大模型LongCat-2.0并适配国产芯片，降低企业部署门槛，可能改变推理生态。"
+    "三大运营商同步推出Token套餐，将算力以词元标准化售卖，直接冲击第三方算力平台定价权。",
+    "北京数据集团发布‘京算Token工厂’，基于国资背景卡位Token经济入口。",
+    "润建股份五象云谷从算力租赁转型Token经营模式，提供按Token计费推理服务。",
+    "海兰信提出解决东部低时延算力缺口方案（感知新闻，需关注）。"
   ],
   "item_axes": [
     {
       "id": "1",
-      "title": "建设科技强国，习近平总书记这样引领推动",
+      "title": "李乐成在浙江调研新兴产业和未来产业发展",
       "policy_axis": 0.8,
-      "competition_axis": -0.2,
-      "impact_score": 4,
-      "axis_reason": "顶层定调科技强国，政策高度利好算力基建，不涉及竞争维度。"
+      "competition_axis": 0.1,
+      "impact_score": 3,
+      "axis_reason": "部委调研算力网络释放明确政策利好，边缘云建设预期增强，竞争影响低。"
     },
     {
       "id": "2",
-      "title": "李乐成在浙江调研新兴产业和未来产业发展",
-      "policy_axis": 0.6,
-      "competition_axis": 0,
-      "impact_score": 3,
-      "axis_reason": "部委调研释放关注信号，政策偏向利好，竞争无直接关联。"
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？",
+      "policy_axis": 0.2,
+      "competition_axis": 0.9,
+      "impact_score": 5,
+      "axis_reason": "运营商背靠网络与客户资源，Token套餐直接挤压第三方算力平台定价与获客空间，竞争威胁极高。"
     },
     {
       "id": "3",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？",
-      "policy_axis": 0.1,
-      "competition_axis": 0.8,
-      "impact_score": 5,
-      "axis_reason": "运营商入局直接加剧算力服务竞争，政策影响中性。"
+      "title": "加快万亿级算力网建设 夯实智能经济新底座",
+      "policy_axis": 0.9,
+      "competition_axis": 0.2,
+      "impact_score": 4,
+      "axis_reason": "官方媒体定调算力网国家战略，云边端协同利好边缘云，竞争影响较小。"
     },
     {
       "id": "4",
-      "title": "中国或部分放宽对英伟达H200芯片的自设禁令",
-      "policy_axis": -0.3,
-      "competition_axis": 0.4,
+      "title": "词元经济呼唤算力新底座 北京数据集团发布“京算Token工厂”",
+      "policy_axis": 0.3,
+      "competition_axis": 0.8,
       "impact_score": 4,
-      "axis_reason": "政策微调增加高端算力供给，利好头部企业，但动摇国产替代叙事，竞争维度利好拥有海外渠道的对手。"
+      "axis_reason": "国资背景平台切入Token赛道，政策上获地方支持，竞争威胁大，可能抢占边缘闲散算力资源。"
     },
     {
       "id": "5",
-      "title": "习近平：中国一些科技领域原创能力不足 要积极引进海外人才",
-      "policy_axis": 0.7,
-      "competition_axis": -0.1,
+      "title": "润建股份五象云谷：从出租算力到经营Token的AI新基建",
+      "policy_axis": 0.2,
+      "competition_axis": 0.7,
       "impact_score": 3,
-      "axis_reason": "人才开放信号利好创新，政策积极，竞争影响微弱。"
+      "axis_reason": "传统算力租赁商转型Token模式，强化推理服务竞争，但规模有限，竞争威胁中等。"
     },
     {
       "id": "6",
-      "title": "硅基流动完成新一轮超20亿元融资",
-      "policy_axis": 0,
-      "competition_axis": 0.9,
-      "impact_score": 5,
-      "axis_reason": "巨额融资强化竞品地位，竞争压力极大，政策中性。"
+      "title": "李乐成率团出席联合国人工智能治理全球对话首次会议",
+      "policy_axis": -0.3,
+      "competition_axis": 0,
+      "impact_score": 3,
+      "axis_reason": "中国参与国际AI治理规则制定，强调安全可控，可能加速国内合规要求出台，对VIE架构构成潜在风险。"
     },
     {
       "id": "7",
-      "title": "美团大模型LongCat-2.0开源 国产芯片完成适配",
-      "policy_axis": 0.3,
-      "competition_axis": 0.5,
-      "impact_score": 4,
-      "axis_reason": "开源+国产适配降低门槛，可能吸引中小企业自建推理，减少对边缘云需求，竞争威胁中等。"
+      "title": "李乐成出席联合国首届人工智能治理全球对话：愿...",
+      "policy_axis": 0.4,
+      "competition_axis": 0,
+      "impact_score": 2,
+      "axis_reason": "官方表态开放合作，引导资本投向AI基础设施，间接利好算力投资，但信号强度一般。"
     },
     {
       "id": "8",
-      "title": "北京数据集团发布“京算Token工厂”",
+      "title": "国产算力新里程碑：美团LongCat-2.0 大模型正式开源",
       "policy_axis": 0.2,
-      "competition_axis": 0.8,
-      "impact_score": 4,
-      "axis_reason": "国资入局推理服务市场，政策部分利好，竞争压力显著。"
+      "competition_axis": 0.3,
+      "impact_score": 3,
+      "axis_reason": "开源模型降低AI应用门槛，刺激推理需求增长，利好边缘推理场景，但竞品也可受益。"
     },
     {
       "id": "9",
-      "title": "润建股份五象云谷：从出租算力到经营Token的AI新基建",
-      "policy_axis": 0.1,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "传统IDC转型向上游服务延伸，竞争加剧，政策中性。"
-    },
-    {
-      "id": "10",
-      "title": "李乐成出席联合国首届人工智能治理全球对话",
-      "policy_axis": 0.4,
-      "competition_axis": -0.1,
-      "impact_score": 3,
-      "axis_reason": "参与全球治理对话，政策信号积极，利长远且竞争无关。"
+      "title": "东北首个调度平台投运，算力“一张网”加速成形",
+      "policy_axis": 0.9,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "算力调度平台落地标志全国算力网加速，PPIO分布式平台具备接入优势，政策利好显著。"
     }
   ],
   "ppio_index": {
-    "score": 62,
-    "delta": -2,
+    "score": 65,
+    "delta": 3,
     "components": {
-      "policy_tailwind": 35,
+      "policy_tailwind": 42,
       "competitive_pressure": -22,
       "capital_sentiment": 10,
-      "regulatory_risk": -6,
-      "overseas_headwind": -5
+      "regulatory_risk": -10,
+      "overseas_headwind": -6
     },
-    "interpretation": "政策利好托底，但竞争压力骤升导致指数小幅下调。"
+    "interpretation": "政策利好（算力网战略、部委调研）推高指数，但运营商与国资Token化竞争形成压制，整体小幅上升。"
   },
   "policy_momentum": [
     {
-      "thread": "科技强国/算力基建",
-      "last_signal": "国常会/总书记讲话",
-      "this_signal": "求是杂志刊文强化定调",
-      "level_delta": "持平",
-      "interpretation": "高层持续释放利好，政策红利稳定。"
-    },
-    {
-      "thread": "AI治理国际参与",
-      "last_signal": "未知",
-      "this_signal": "联合国首届AI治理全球对话",
-      "level_delta": "首现",
-      "interpretation": "中国积极融入全球AI治理，可能影响跨境合规节奏。"
+      "thread": "算力网建设",
+      "last_signal": "国家数据局等政策文件发布",
+      "this_signal": "新华网刊文强调+东北调度平台投运",
+      "level_delta": "升级",
+      "interpretation": "从顶层设计走向地方落地，边缘云节点接入机会增加。"
     }
   ],
   "expected_but_absent": [
-    "人工智能法草案征求意见稿未出现",
-    "地方算力补贴政策更新未出现"
+    "人工智能法草案征求意见稿"
   ],
   "_generated_by": "ai"
 }

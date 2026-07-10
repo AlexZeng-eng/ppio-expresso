@@ -1,6 +1,49 @@
 {
-  "updated_at": "2026-07-09T01:48:02.315Z",
+  "updated_at": "2026-07-10T01:43:07.565Z",
   "days": [
+    {
+      "date": "2026-07-10",
+      "mainline": "算力网国家战略升温，运营商与国资Token化竞争加剧，边缘云迎来政策利好与市场挤压的双重局面。",
+      "signal_summary": {
+        "🏛️": 5,
+        "📜": 0,
+        "⚔️": 3,
+        "💰": 0,
+        "🌏": 2,
+        "🔬": 1
+      },
+      "wind_indicators": {
+        "policy_heat": 4,
+        "competitor_heat": 4,
+        "capital_heat": 3,
+        "overseas_heat": 2,
+        "overall_sentiment": "升温",
+        "summary": "政策面密集利好算力基础设施建设，但运营商与国资平台Token化转型带来强竞争压力，整体情绪偏暖但需警惕市场挤压。"
+      },
+      "ppio_index": {
+        "score": 65,
+        "delta": 3,
+        "components": {
+          "policy_tailwind": 42,
+          "competitive_pressure": -22,
+          "capital_sentiment": 10,
+          "regulatory_risk": -10,
+          "overseas_headwind": -6
+        },
+        "interpretation": "政策利好（算力网战略、部委调研）推高指数，但运营商与国资Token化竞争形成压制，整体小幅上升。"
+      },
+      "item_count": {
+        "total": 15,
+        "attend": 9,
+        "silent": 6
+      },
+      "competitor_updates": [
+        "三大运营商同步推出Token套餐，将算力以词元标准化售卖，直接冲击第三方算力平台定价权。",
+        "北京数据集团发布‘京算Token工厂’，基于国资背景卡位Token经济入口。",
+        "润建股份五象云谷从算力租赁转型Token经营模式，提供按Token计费推理服务。",
+        "海兰信提出解决东部低时延算力缺口方案（感知新闻，需关注）。"
+      ]
+    },
     {
       "date": "2026-07-09",
       "mainline": "Token经济引爆算力服务化赛道，三大运营商与国资平台入局，竞争加剧；高层持续定调科技强国利好基建叙事。",

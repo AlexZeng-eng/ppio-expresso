@@ -1,104 +1,54 @@
 {
-  "generated_at": "2026-07-09T01:44:01.380Z",
+  "generated_at": "2026-07-10T01:39:46.974Z",
   "week": "2026-W28",
   "date_range": {
-    "from": "2026-07-02",
-    "to": "2026-07-09"
+    "from": "2026-07-03",
+    "to": "2026-07-10"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "建设科技强国，习近平总书记这样引领推动 - 求是",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9kek95cVZJd0xyNUptWUVwZ3RwdmQ3T29hWkFDZ2FDTHhZRXpsU1ExZUZrdFpoUlBFZTl1aVNsMzRPd2w3cTZRLXdtNzdmVmlpVnhsQzNJdnM2d3ZtU1cyd1cyVlZOM0VFZGxFQ2NtNE5nUll3RUg0clVhTnk?oc=5",
-      "source": "求是",
-      "category": "政策",
-      "published": "2026-07-09",
-      "body_snippet": "建设科技强国，习近平总书记这样引领推动 求是",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-002",
       "title": "李乐成在浙江调研新兴产业和未来产业发展",
       "url": "https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_c585def8b8fc48e98cc015d9015c845e.html",
       "source": "工信部-新闻",
-      "published": "2026-07-09",
+      "published": "2026-07-10",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-003",
+      "id": "raw-002",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
       "category": "竞品",
-      "published": "2026-07-08",
+      "published": "2026-07-09",
       "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
       "_query_boost": 15
     },
     {
+      "id": "raw-003",
+      "title": "加快万亿级算力网建设 夯实智能经济新底座 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeE9zMTBPakpLRXNKUW4wb2F5eXBIbnR5X0FobVdvV1BHZF84dWhGM0pFM25QSUVUOU1QRkxDMXJRVG1ISkhROHJ1NnBDU19zXy1UZ3N0N2JZR1d1YjlPVmdhc0lGSDZKcGFwMXExUWlEdFZHRExIQXk5UHFjX0x4RQ?oc=5",
+      "source": "新华网",
+      "category": "政策",
+      "published": "2026-07-09",
+      "body_snippet": "加快万亿级算力网建设 夯实智能经济新底座 新华网",
+      "_query_boost": 0
+    },
+    {
       "id": "raw-004",
-      "title": "收评：创业板指延续调整跌1.7% 全市场近3800只个股下挫 云计算、华为算力概念表现活跃 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiggRBVV95cUxNSC1ZT0J6bGljTXdyU1dTa3ZXWGloZnBkR2NtYjEwTzdhb3pFVmZvM2ZtNjhWVEFHLUFKUjBoT3ZadHJIZ1Z6dmlGUG91azNlejN1dkM4TWxRN2VFYWl1bVMyd1AyZXBfa1FuWXMxYTRvUzhTQnFJRHBFV05pS3JXbDBkZTMxd0JIeXZzZmxwR3RCSldmdDBCZnVNTHhrNWhNdXFmdW9SeC1OZGd3Z1NqTkNZSVF2Z193dENKTWhwTVNWWGk1dHd4eEhkNER1VHh1QlAxWk04LVNWczBXcE1QQVI1RXlhN3U4VEJpSTlZc2tLZmNsQlZHdHJsdzlOTEhrZVlZcVpYbEczN2NJNHU4V2ZaNlFIaG54b2o1T0JBNmlxSFNwbjFaVGZXdVdRaDRSSjQxTEZfMk9ib1NHeGlwbncwR3lraWZITEw0UUs2bk1EcnV2M2hEQkc1dDhMb0ZqUGwxaUtadXVGbE5rYTVzUHFlWkR1b0FtTXpFVEFTYWV5X2JreEp4NklpbTNzVzY1elpORnFteDA2bnRMQ2phQk54RDEwbk1sd05yaEpta0pHdUF5X19KS0F6NVhuVDFhQWU2RnltZUtMZzNyN0VTbkpGenNsMFJkTDc5X3pmYnBiMkR5M2xTWXpoT2RJYVdWb3Y5NmJ3X0pFbllKVmhRV2JB?oc=5",
-      "source": "新浪财经",
-      "category": "监管",
-      "published": "2026-07-08",
-      "body_snippet": "收评：创业板指延续调整跌1.7% 全市场近3800只个股下挫 云计算、华为算力概念表现活跃 新浪财经",
-      "_query_boost": 25
+      "title": "Anthropic 开启百亿级算力豪赌，拟在澳大利亚加码千兆瓦数据中心 - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBKdnVjQ1QxMHJ1WW5QMElPc2tUNDVCT0F0WFk5aFZwSGp6TDNPcmp6YnNveVhOSzgwcmd4c3haenVvMnJDVU5yUHFUenhMdw?oc=5",
+      "source": "AIBase",
+      "category": "技术",
+      "published": "2026-07-06",
+      "body_snippet": "Anthropic 开启百亿级算力豪赌，拟在澳大利亚加码千兆瓦数据中心 AIBase",
+      "_query_boost": 0
     },
     {
       "id": "raw-005",
-      "title": "2026 年算力产业巨变：国产芯片、存算一体等多领域突破，重塑智能文明！ - blog.csdn.net",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5nc0tucEZ2MmdYTkZZMzd6ZTdXRi1ib09TOHdaWFQtWHdmSVZVamJsbnliUXg3dG8zVFcwMUo5TFQ4amhvbTdrYkQta3V1bDJ6M3hfWElwMWhLY2NhUFJMX0tjcTduS0lKUXFV?oc=5",
-      "source": "blog.csdn.net",
-      "category": "技术",
-      "published": "2026-07-08",
-      "body_snippet": "2026 年算力产业巨变：国产芯片、存算一体等多领域突破，重塑智能文明！ blog.csdn.net",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-006",
-      "title": "中国或部分放宽对英伟达H200芯片的自设禁令头部企业有望获批限量采购- CHINA 中国 - cnBeta.COM",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43cFdnaG9iaks2SHBYSDRsTmlyaUlwdnhBMks3R0ZhMlc3dHlaNjBJV3JQM1ZOTndKdmk4cmdJcEpNb0N4R1JyMlBwdlRNbE0zMFFNV3RPZks0ckpkcG5GOA?oc=5",
-      "source": "cnBeta.COM",
-      "category": "海外",
-      "published": "2026-07-08",
-      "body_snippet": "中国或部分放宽对英伟达H200芯片的自设禁令头部企业有望获批限量采购- CHINA 中国 cnBeta.COM",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-007",
-      "title": "习近平：中国一些科技领域原创能力不足 要积极引进海外人才 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3RGxGOVlVUWFzbW94WTlIQ3FmR2kyYzgtMUNZazktZFVZR0ppZklyMXdmWTFkYjRYWGcwRzJWTmwxV1NZZ2t3OXM3N3libmlFZl9QUkllTmNINnYtR01nLTJsc1FnYVUtYkE?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-07-08",
-      "body_snippet": "习近平：中国一些科技领域原创能力不足 要积极引进海外人才 联合早报",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-008",
-      "title": "硅基流动完成新一轮超20亿元融资，要做「全球最好的Token供应平台」 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMitARBVV95cUxPaFI4U3JNR0pnbHppVml4cUpQcC1zWFlKX000djM1WTJVUy1zT0pMd2pHY1RoTlNwV2FoNGxQVkZpT0NVZ1A5ZTJocUpJRFkxWjNGQ0dZUFozc2RnM0RMTlhOV2FMTUxOY3p6eHMzSHJsY19QZ2l2Y3V4cEc4bjBQRHItQi1XLVFkbzFZd0w1RDFzMnB1VktFUThNX19NcnY0UWx6TVlKb3hGc3BMQ2RzUGlkTXUtSWdoY2trSGFnUnJ5MXVsVlVuV21jZDA0OEVXakFwMjBqc3RndEoteGY5R080VTAyZXY1YV9OSWdBbHJ5WHJiWEplSFZDWVVvZU96MmwwLWhjU3lZUHdHa1ZWRzlaY3RVTzVYakxsV010MzFZd1NUaXlqMDVkOVJKYUhhVjdrMXhNRlJoU0x3TVdZUFkzSURMZ0JrclVLb0tvVmJYcWwyTEUxOWpVbTRBbFpuMGp1TWFUZVZYcHZZVzhtWFppY2xob210Sm16cDJsei16em04TFJQdnV1UFJ0bWNsdUVyUnVacGkzb25Ra3o1SjEzeUc5UHJqNW9PMl9UamJUSEg0YkJQYzBYMFdTS1ZGY0wwcVJGU0hWOTJfT1lCVVdHREZUY1NVRjBIWGwzd245N3VfNGlNWUplRHZmZnh2aUR2djRsdVBxV2I0eXEyWUdUUDkyUXNUNWIyOEppNk4zMXV6YTVCNmR2OUx4aG00c0ZmUTI1a3lkbXp0Y29qb0JXR2k?oc=5",
-      "source": "新浪财经",
-      "category": "竞品",
-      "published": "2026-07-07",
-      "body_snippet": "硅基流动完成新一轮超20亿元融资，要做「全球最好的Token供应平台」 新浪财经",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-009",
-      "title": "美团大模型LongCat-2.0开源 国产芯片宣布完成推理适配 - 财新",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10U2plbGVfSkh6SVR6Sm1HNnN2LS1qeVBZeTlMN25xbUktSHBGZFBnZ3FFdkVJUW9QeGQwa2w2WDlQc0tqazRHRDByQUNGM1YwRjJVRkVha2xvTVQ1UkN6VkZDTG9JZm8?oc=5",
-      "source": "财新",
-      "category": "技术",
-      "published": "2026-07-06",
-      "body_snippet": "美团大模型LongCat-2.0开源 国产芯片宣布完成推理适配 财新",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-010",
       "title": "词元经济呼唤算力新底座 北京数据集团发布“京算Token工厂” - cb.com.cn",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zdzhoOFlSSTVxQlRDNFNZRzM2YmFoSFRULWtEZ053OTY1dDlCWUN1WXV1b3FpSUlXVlNfekhCY2E2ZHFFRmd1Z05EV3lQVDZDdk4xa1FadzFvSVZHRTZSYTZn?oc=5",
       "source": "cb.com.cn",
@@ -108,37 +58,27 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-011",
-      "title": "AI硬件板块调整引发算力稀缺逻辑讨论 Meta出售算力并非需求下降 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQa2RzSjhZWUo5ODd2Y1BZaGxqR3Y3MldZNG5LQXRLQUI1NUNrSzFVS1lOdDd2Z2VkaG15Um9hOFN0MmxrTG5hTUFhM3FuSks4M2g2RXZwTFhHUldBdnBKaFFxUU84T3lDbXA3b0I4eUtrVFR1eXNqdUxKbUh4dFphMUI3eVlNVkhVTlo0?oc=5",
+      "id": "raw-006",
+      "title": "Meta出售AI算力引发市场恐慌 真相是结构性过剩 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5NMHRjbC00Z1RsNTBUazk5R2kxUHVvQW1rNlJGZ056SEJYY3BzMnF3SVZtLTdaRkNvenpsM1JybUVNYUxyVUJOamEwSlY2bDVxYWhCTg?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-07-09",
+      "body_snippet": "Meta出售AI算力引发市场恐慌 真相是结构性过剩 虎嗅网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-007",
+      "title": "美国AI研究员Nathan Lambert中国行：年轻人才、算力焦虑与AGI展示厅 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PanUwVXRSWnpac0tsWXhOX3Q2SWlRd25nX0NtZzU5VmF2akh5V1V6Z25JVzlFVnRnd1JicTNOVjJ6aWlqaERxVWtEdVE1M2hFMFE?oc=5",
       "source": "虎嗅网",
       "category": "技术",
       "published": "2026-07-08",
-      "body_snippet": "AI硬件板块调整引发算力稀缺逻辑讨论 Meta出售算力并非需求下降 虎嗅网",
+      "body_snippet": "美国AI研究员Nathan Lambert中国行：年轻人才、算力焦虑与AGI展示厅 虎嗅网",
       "_query_boost": 0
     },
     {
-      "id": "raw-012",
-      "title": "AI算力泡沫破了吗？ - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5nM0R1dVNVdU1VTzJ6RW5adzZJVXJNWlE2Y1QxUEd4N01Yd1JleTR3U1JkU2lrSjczZkdCNWJTNlZoNjd6TjNoMXRURktISC1lRk5KaFl1dkdEeTRrNmE4cHl3?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-07-08",
-      "body_snippet": "AI算力泡沫破了吗？ 虎嗅网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-013",
-      "title": "众智FlagOS获颁全球AI for Good优秀案例，推动AI算力普惠 - 机器之心",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1RcnNhYWNTYzY0dno3dHZsWTB2clJHd2JhUTh0Sk5lNExkdXJDMVB0ZTFzcnNxaXZ5R0lZUERVM3o2X2J2elVIbExkdlNsUVpuWWZ1QURWeWlnYVpM?oc=5",
-      "source": "机器之心",
-      "category": "技术",
-      "published": "2026-07-08",
-      "body_snippet": "众智FlagOS获颁全球AI for Good优秀案例，推动AI算力普惠 机器之心",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-014",
+      "id": "raw-008",
       "title": "润建股份五象云谷：从出租算力到经营Token的AI新基建-AI云资讯 - icloudnews.net",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qWU9qYVo0RzZ0WTR3SFptYzluTEk3RkVvM3lvRGRUeEZMYUJXS19WaXVOU2plWU5VNk5xREM0a0V2Z2VkT2ROZ0VPMFJYWTUtU3c?oc=5",
       "source": "icloudnews.net",
@@ -148,13 +88,71 @@
       "_query_boost": 15
     },
     {
-      "id": "raw-015",
-      "title": "李乐成出席联合国首届人工智能治理全球对话：愿共同构建全球治理体系",
-      "url": "http://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
+      "id": "raw-009",
+      "title": "李乐成率团出席联合国人工智能治理全球对话首次会议等系列活动",
+      "url": "https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_7b206a82ae3844fd981ff3e42daf0267.html",
       "source": "工信部-新闻",
-      "published": "2026-07-09",
+      "published": "2026-07-10",
       "body_snippet": "",
       "category": "技术"
+    },
+    {
+      "id": "raw-010",
+      "title": "李乐成出席联合国首届人工智能治理全球对话：愿...",
+      "url": "https://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
+      "source": "工信部-新闻",
+      "published": "2026-07-10",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-011",
+      "title": "开启“算力自主”，粤港澳大湾区国产智算超万卡集群发布",
+      "url": "https://www.ithome.com/0/974/822.htm",
+      "source": "IT之家",
+      "published": "2026-07-10",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-012",
+      "title": "海兰信：解决东部低时延算力巨大缺口与路径的王者 - 财富号",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE04UFhNc25tODlrR09CSGlPbXpBSlo0bUowZG94ZjllMVB3ZDRiMnladUxQeDZxYnI0Sk5RWHlQVGJySTZ2SE9tcWNIYmFMakp4b3hTbHhxdk0xaGtZRXMzZzZkcnVmQWJPUmdZ?oc=5",
+      "source": "财富号",
+      "category": "政策",
+      "published": "2026-07-08",
+      "body_snippet": "海兰信：解决东部低时延算力巨大缺口与路径的王者 财富号",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-013",
+      "title": "国产算力新里程碑：美团LongCat-2. 0 大模型正式开源 - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA2elBQbXVEeUxXMFJBdmFQMlBCdlEzcWZHb0lzUlRrTlVmQ0pQLWEtQmNhbWF4ekdpU0hPYy1Ua3BITHBGOURILUZhZXdTdw?oc=5",
+      "source": "AIBase",
+      "category": "技术",
+      "published": "2026-07-07",
+      "body_snippet": "国产算力新里程碑：美团LongCat-2. 0 大模型正式开源 AIBase",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-014",
+      "title": "东北首个调度平台投运，算力“一张网”加速成形，产业链迎业绩拐点 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBDZUdJQndpZ3V0UGtKRTI5UXZNeFZEb1FfSjFJTzR2S1ctWHFkaHlOYW1VMjJCRklvUlVJWHVZa3RHMWV3Ty1paA?oc=5",
+      "source": "财联社",
+      "category": "政策",
+      "published": "2026-07-09",
+      "body_snippet": "东北首个调度平台投运，算力“一张网”加速成形，产业链迎业绩拐点 财联社",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-015",
+      "title": "AI算力进入“下半场”：高质量通用算力仍稀缺 上海为什么能“长”出这些公司 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5mcFg4QlE4Y2NDdFNjaHNiZ3Y4MWJ2WmhjZ3poeVdCOV96ZUF6bkIxTzlGdDJtZFEzT1M0X2JhUHNhWVVrWk1ZSw?oc=5",
+      "source": "财联社",
+      "category": "政策",
+      "published": "2026-07-09",
+      "body_snippet": "AI算力进入“下半场”：高质量通用算力仍稀缺 上海为什么能“长”出这些公司 财联社",
+      "_query_boost": 0
     }
   ]
 }
