@@ -1,6 +1,47 @@
 {
-  "updated_at": "2026-07-10T01:43:07.565Z",
+  "updated_at": "2026-07-13T02:04:22.000Z",
   "days": [
+    {
+      "date": "2026-07-13",
+      "mainline": "国务院将算力网纳入核心目标，政策顺风强劲；但三大运营商以Token套餐入局推理入口，竞争烈度升级",
+      "signal_summary": {
+        "🏛️": 2,
+        "📜": 1,
+        "⚔️": 2,
+        "💰": 0,
+        "🌏": 0,
+        "🔬": 0
+      },
+      "wind_indicators": {
+        "policy_heat": 5,
+        "competitor_heat": 4,
+        "capital_heat": 2,
+        "overseas_heat": 2,
+        "overall_sentiment": "升温",
+        "summary": "政策端由国常会释放强烈利多，但算力消费化和垂直化竞争显著升温，整体风向偏政策热火、竞争暗涌"
+      },
+      "ppio_index": {
+        "score": 70,
+        "delta": 5,
+        "components": {
+          "policy_tailwind": 45,
+          "competitive_pressure": -25,
+          "capital_sentiment": 15,
+          "regulatory_risk": -10,
+          "overseas_headwind": -5
+        },
+        "interpretation": "国务院将算力网纳入数字经济核心目标，政策顺风强劲，但运营商Token化入局加剧推理侧竞争，指数上升至70"
+      },
+      "item_count": {
+        "total": 13,
+        "attend": 5,
+        "silent": 8
+      },
+      "competitor_updates": [
+        "三大运营商推出Token套餐，以预付费/按量形式售卖大模型推理能力，争夺AI消费入口",
+        "硅基流动通过推理优化引擎绑定金融大模型落地场景，与宇信科技共建行业壁垒"
+      ]
+    },
     {
       "date": "2026-07-10",
       "mainline": "算力网国家战略升温，运营商与国资Token化竞争加剧，边缘云迎来政策利好与市场挤压的双重局面。",
