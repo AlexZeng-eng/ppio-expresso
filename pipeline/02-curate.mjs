@@ -253,6 +253,7 @@ function ruleBasedClassify(item, config) {
 
   // Exceptions
   if (/国常会|国务院常务会议|国务院.*AI|国务院.*算力/.test(title)) lane = 'attend';
+  if (/数字中国.*算力|数字基础设施.*超前|新兴支柱产业|新兴产业.*全链条|数智化.*算力/.test(title)) lane = 'attend';
   if (/习近平.*人工智能|习近平.*算力|习近平.*数字经济|习近平.*未来产业|习近平.*具身智能/.test(title)) lane = 'attend';
   if (/政治局.*集体学习.*人工智能|政治局.*集体学习.*算力|政治局.*集体学习.*未来产业/.test(title)) lane = 'attend';
   if (/李强.*人工智能|李强.*算力|总理.*算力/.test(title)) lane = 'attend';
@@ -277,6 +278,8 @@ function ruleBasedClassify(item, config) {
   if (/算力补贴.*白名单|白名单.*算力|算力.*补贴.*门槛|自建集群.*算力/.test(title)) lane = 'attend';
   if (/人工智能.*安全.*专项整治|AI.*安全.*专项整治|安全.*专项整治.*人工智能/.test(title)) lane = 'attend';
   if (/信通院.*智能体.*标准|智能体.*运行能力.*标准|智能体.*能力要求/.test(title)) lane = 'attend';
+  // NVDB/闭源模型工具安全检测 — 工信部漏洞平台通报
+  if (/NVDB.*通报|NVDB.*风险提示|工信部.*网络安全.*平台.*AI|Claude Code.*后门|AI编程工具.*后门|闭源.*后门|闭源模型.*安全|AI工具.*安全后门|安全后门.*AI/.test(title)) lane = 'attend';
   // 高端GPU供应链波动 — 供给紧张/缺货（不追价格）
   if (/B300.*供货|B300.*紧缺|B300.*交期|GB300.*供应|GPU.*缺货|GPU.*供应链.*波动|高端算力.*短缺|算力.*供给.*紧张/.test(title)) lane = 'attend';
 
