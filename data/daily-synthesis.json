@@ -1,113 +1,134 @@
 {
-  "generated_at": "2026-07-13T02:04:21.902Z",
-  "date": "2026-07-13",
-  "date_label": "2026-07-13",
-  "mainline": "国务院将算力网纳入核心目标，政策顺风强劲；但三大运营商以Token套餐入局推理入口，竞争烈度升级",
+  "generated_at": "2026-07-14T01:42:46.931Z",
+  "date": "2026-07-14",
+  "date_label": "2026-07-14",
+  "mainline": "国常会与习近平双重最高层信号明确算力基建战略地位，运营商推出Token套餐加剧算力服务化竞争",
   "signal_summary": {
-    "🏛️": 2,
-    "📜": 1,
+    "🏛️": 3,
+    "📜": 2,
     "⚔️": 2,
     "💰": 0,
-    "🌏": 0,
-    "🔬": 0
+    "🌏": 2,
+    "🔬": 1
   },
   "speed_read": {
     "positive": [
-      "【高层信号】国务院部署算力网与通信网融合建设，明确2030年数字经济核心产业占比目标，算力基建上升为国家战略",
-      "【高层信号】习近平指出要积极引进海外人才，科技企业有望迎来更宽松的国际引智环境",
-      "中国或部分放宽英伟达H200自设禁令，头部企业有望获批限量采购，高端GPU供给紧张或得到缓解"
+      "高层信号：国常会定调算力、AI为'十五五'重点战略性领域，要求加快构建自主可控产业生态",
+      "高层信号：习近平将出席2026世界人工智能大会并发表主旨讲话，AI基础设施获最高背书",
+      "智谱模型性能跃升预期将带动下游推理调用量激增，利好边缘推理算力需求"
     ],
     "risk": [
-      "三大运营商集体推出Token套餐，以网络渠道优势直接切入模型推理消费市场，对PPIO的分布式推理服务构成直接竞争",
-      "宇信科技与硅基流动联手深耕金融大模型算力，AI Infra竞品正加速垂直行业绑定，壁垒型客户获取难度加大",
-      "中国智算中心GPU平均利用率不足30%，算力供给过剩可能引发价格战，压缩边缘云服务溢价空间"
+      "算力基建'急刹车'舆论暗示政策层可能纠正重复建设，短期影响边缘云资源获取节奏",
+      "三大运营商推Token套餐，算力交付从'卖资源'转向'卖服务'，直接挤压独立平台利润空间",
+      "算力出海法律合规路径复杂，数据出境评估与目标国主权立法构成海外拓展硬约束"
     ]
   },
   "wind_indicators": {
     "policy_heat": 5,
     "competitor_heat": 4,
     "capital_heat": 2,
-    "overseas_heat": 2,
+    "overseas_heat": 3,
     "overall_sentiment": "升温",
-    "summary": "政策端由国常会释放强烈利多，但算力消费化和垂直化竞争显著升温，整体风向偏政策热火、竞争暗涌"
+    "summary": "政策面迎来最高层双重强信号，为IPO估值提供确定性支撑；但竞品攻势与监管隐忧同步抬头，整体情绪积极但需警惕短期波动"
   },
   "competitor_updates": [
-    "三大运营商推出Token套餐，以预付费/按量形式售卖大模型推理能力，争夺AI消费入口",
-    "硅基流动通过推理优化引擎绑定金融大模型落地场景，与宇信科技共建行业壁垒"
+    "三大运营商：推出AI Token套餐，算力服务化加速，边缘云市场面临运营商渠道挤压",
+    "智谱：启动'摸高计划'，模型能力跃升可能带动推理需求，但若自建算力则成为直接对手"
   ],
   "item_axes": [
     {
       "id": "1",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？",
-      "policy_axis": 0.3,
-      "competition_axis": 0.8,
-      "impact_score": 4,
-      "axis_reason": "政策上鼓励算力普惠，但运营商下场直接冲击PPIO推理服务，竞争威胁令"
+      "title": "国常会定调新兴产业发展主线",
+      "policy_axis": 0.9,
+      "competition_axis": 0,
+      "impact_score": 5,
+      "axis_reason": "最高层级会议明确算力基建战略地位，强利好政策"
     },
     {
       "id": "2",
-      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光",
-      "policy_axis": 1,
-      "competition_axis": -0.5,
-      "impact_score": 5,
-      "axis_reason": "国家级算力基建利好，产业整体受益，PPIO分布式算力定位高度契合"
+      "title": "三大运营商齐推Token套餐",
+      "policy_axis": -0.2,
+      "competition_axis": 0.8,
+      "impact_score": 4,
+      "axis_reason": "政策中性偏负面（可能挤占独立平台），竞争威胁高，服务模式变革直接冲击PPIO"
     },
     {
       "id": "3",
-      "title": "宇信科技与硅基流动达成战略合作，携手破解金融大模型算力落地瓶颈",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "竞品深入金融垂直行业形成壁垒，对PPIO的行业拓展构成直接竞争压力"
+      "title": "习近平将出席2026世界人工智能大会",
+      "policy_axis": 1,
+      "competition_axis": 0.1,
+      "impact_score": 5,
+      "axis_reason": "最高领导人公开背书AI基础设施，政策面极度利好"
     },
     {
       "id": "4",
-      "title": "中国或部分放宽对英伟达H200芯片的自设禁令头部企业有望获批限量采购",
-      "policy_axis": 0.8,
+      "title": "算力基建，遭遇急刹车？",
+      "policy_axis": -0.7,
       "competition_axis": 0.2,
       "impact_score": 4,
-      "axis_reason": "禁令降温缓解高端GPU供给，若PPIO关联方获配额将直接受益，但竞争格局尚不明朗"
+      "axis_reason": "政策风向可能收紧，投资节奏放缓对分布式算力供给构成短期压力"
     },
     {
       "id": "5",
-      "title": "习近平：中国一些科技领域原创能力不足 要积极引进海外人才",
-      "policy_axis": 0.5,
+      "title": "智谱创始人唐杰发布内部信",
+      "policy_axis": 0,
+      "competition_axis": 0.6,
+      "impact_score": 3,
+      "axis_reason": "模型性能提升若自建算力则加剧竞争；若依赖外部则利好，不确定性高"
+    },
+    {
+      "id": "6",
+      "title": "算力出海业务的法律合规路径",
+      "policy_axis": -0.5,
       "competition_axis": 0,
-      "impact_score": 2,
-      "axis_reason": "引智信号正面但距直接影响算力业务尚有距离，长期利好人才储备"
+      "impact_score": 3,
+      "axis_reason": "数据出境等合规风险明确，政策收紧信号，但非即时冲击"
+    },
+    {
+      "id": "7",
+      "title": "李乐成率团出席联合国AI治理对话",
+      "policy_axis": 0.3,
+      "competition_axis": 0,
+      "impact_score": 3,
+      "axis_reason": "中国参与全球AI治理，可能推动国内监管加强，但长期利好有序发展"
+    },
+    {
+      "id": "8",
+      "title": "李乐成出席联合国首届AI治理对话",
+      "policy_axis": 0.3,
+      "competition_axis": 0,
+      "impact_score": 3,
+      "axis_reason": "同上条，内容一致"
     }
   ],
   "ppio_index": {
-    "score": 70,
+    "score": 75,
     "delta": 5,
     "components": {
-      "policy_tailwind": 45,
-      "competitive_pressure": -25,
-      "capital_sentiment": 15,
-      "regulatory_risk": -10,
-      "overseas_headwind": -5
+      "policy_tailwind": 85,
+      "competitive_pressure": -15,
+      "capital_sentiment": 12,
+      "regulatory_risk": -5,
+      "overseas_headwind": -2
     },
-    "interpretation": "国务院将算力网纳入数字经济核心目标，政策顺风强劲，但运营商Token化入局加剧推理侧竞争，指数上升至70"
+    "interpretation": "政策双高峰强推算力基建叙事，指数上行5点；竞品压力与监管隐忧权重较低，整体利好格局未变"
   },
   "policy_momentum": [
     {
-      "thread": "算力基础设施建设",
-      "last_signal": "各部门推动算力网通信网建设",
-      "this_signal": "国务院部署加速构建",
+      "thread": "算力基建政策定调",
+      "last_signal": "东数西算等部委文件",
+      "this_signal": "国常会专研新兴产业发展主旨定调",
       "level_delta": "升级",
-      "interpretation": "算力网建设从部委层面升至国务院战略，PPIO分布式算力平台定位获得更强政策背书"
+      "interpretation": "从部委行动升格为国务院战略，算力基建地位进一步确认"
     },
     {
-      "thread": "AI芯片进出口管制",
-      "last_signal": "全面自设禁令",
-      "this_signal": "部分放宽H200采购",
-      "level_delta": "降温",
-      "interpretation": "出口管制出现松动，高端GPU供给改善有望加速推理部署，但配额制仍需跟踪"
+      "thread": "AI最高层背书",
+      "last_signal": "未知（此前无直接最高领导人参与AI大会先例）",
+      "this_signal": "习近平将出席2026世界人工智能大会",
+      "level_delta": "首现",
+      "interpretation": "AI基础设施获得最高规格公开支持，政策风险大幅降低"
     }
   ],
-  "expected_but_absent": [
-    "人工智能法草案征求意见稿",
-    "VIE备案新规进展"
-  ],
+  "expected_but_absent": [],
   "_generated_by": "ai"
 }

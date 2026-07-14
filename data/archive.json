@@ -1,6 +1,47 @@
 {
-  "updated_at": "2026-07-13T02:04:22.000Z",
+  "updated_at": "2026-07-14T01:42:47.016Z",
   "days": [
+    {
+      "date": "2026-07-14",
+      "mainline": "国常会与习近平双重最高层信号明确算力基建战略地位，运营商推出Token套餐加剧算力服务化竞争",
+      "signal_summary": {
+        "🏛️": 3,
+        "📜": 2,
+        "⚔️": 2,
+        "💰": 0,
+        "🌏": 2,
+        "🔬": 1
+      },
+      "wind_indicators": {
+        "policy_heat": 5,
+        "competitor_heat": 4,
+        "capital_heat": 2,
+        "overseas_heat": 3,
+        "overall_sentiment": "升温",
+        "summary": "政策面迎来最高层双重强信号，为IPO估值提供确定性支撑；但竞品攻势与监管隐忧同步抬头，整体情绪积极但需警惕短期波动"
+      },
+      "ppio_index": {
+        "score": 75,
+        "delta": 5,
+        "components": {
+          "policy_tailwind": 85,
+          "competitive_pressure": -15,
+          "capital_sentiment": 12,
+          "regulatory_risk": -5,
+          "overseas_headwind": -2
+        },
+        "interpretation": "政策双高峰强推算力基建叙事，指数上行5点；竞品压力与监管隐忧权重较低，整体利好格局未变"
+      },
+      "item_count": {
+        "total": 13,
+        "attend": 8,
+        "silent": 5
+      },
+      "competitor_updates": [
+        "三大运营商：推出AI Token套餐，算力服务化加速，边缘云市场面临运营商渠道挤压",
+        "智谱：启动'摸高计划'，模型能力跃升可能带动推理需求，但若自建算力则成为直接对手"
+      ]
+    },
     {
       "date": "2026-07-13",
       "mainline": "国务院将算力网纳入核心目标，政策顺风强劲；但三大运营商以Token套餐入局推理入口，竞争烈度升级",
