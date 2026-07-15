@@ -182,10 +182,12 @@ function renderPPIOSignal(ppio) {
   if (!ppio) return '';
   const fields = [
     { key: 'positive', label: '🟢 利好信号' },
-    { key: 'risk', label: '🔴 风险信号' }
+    { key: 'risk', label: '🔴 风险信号' },
+    { key: 'beneficiaries', label: '↑ 受益方' },
+    { key: 'pressure_parties', label: '↓ 承压方' }
   ];
   const body = fields
-    .filter(f => ppio[f.key])
+    .filter(f => ppio[f.key] && !String(ppio[f.key]).includes('待 AI') && !String(ppio[f.key]).includes('待补充'))
     .map(f => `<p><strong>${f.label}：</strong>${esc(ppio[f.key])}</p>`)
     .join('\n            ');
 

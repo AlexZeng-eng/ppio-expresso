@@ -139,14 +139,17 @@ ${signalList}
   "category": "政策",           // 内容分类，必须从以下枚举中选一个：政策|竞品|监管|资本|海外|技术|治理
   "is_deep_read": true,        // 是否深度阅读
   "compass_triggered": ["c1"], // 触发的 Compass Question
-  "summary_cn": "...",         // lane:attend 250-300字，分两段：①事件本身 ②对PPIO的具体影响（结合边缘云/分布式算力/港股IPO背景）；lane:silent ≤80字
+  "summary_cn": "...",         // lane:attend 250-300字，分两段：①事件本身（须嵌入至少1个量化数据） ②对PPIO的具体影响（结合边缘云/分布式算力/港股IPO背景）；lane:silent ≤80字
   "ppio_signal": {             // 仅 lane:attend
     "positive": "...",
-    "risk": "..."
+    "risk": "...",
+    "beneficiaries": "...",     // 行业层面受益方（具体企业类型+举例，如"国产芯片厂商(海光/寒武纪)、AI应用企业"）
+    "pressure_parties": "..."   // 行业层面承压方（具体企业类型+举例，如"依赖海外芯片的算力集成商、传统云厂商"）
   }
 }
 
 重要：ppio_signal 仅在 lane:attend 时填写。lane:silent 时 ppio_signal 为 null。
+beneficiaries/pressure_parties 要具体到企业类型并举例，不要泛泛而谈"相关企业"。
 注意：如果内容是早报/晚报/日报汇编形式（标题含【早报】【晚报】等），或正文明显是旧日期内容的转发，直接 lane:skip。`;
 }
 
@@ -191,7 +194,7 @@ function promoteUnderservedAttend(items) {
     if (PROMOTE_PATTERNS.some(re => re.test(text))) {
       item.lane = 'attend';
       item.is_deep_read = true;
-      if (!item.ppio_signal) item.ppio_signal = { positive: '（待补充）', risk: '（待补充）' };
+      if (!item.ppio_signal) item.ppio_signal = { positive: '（待补充）', risk: '（待补充）', beneficiaries: '（待补充）', pressure_parties: '（待补充）' };
       promoted++;
     }
   }
@@ -296,7 +299,9 @@ function ruleBasedClassify(item, config) {
       : title.slice(0, 80),
     ppio_signal: lane === 'attend' ? {
       positive: '（待 AI 填写）',
-      risk: '（待 AI 填写）'
+      risk: '（待 AI 填写）',
+      beneficiaries: '（待 AI 填写）',
+      pressure_parties: '（待 AI 填写）'
     } : null,
     _classified_by: 'rule'
   };

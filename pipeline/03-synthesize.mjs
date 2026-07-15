@@ -212,10 +212,10 @@ function buildFallback(curated) {
     signal_summary: signalCounts,
     speed_read: {
       positive: attend
-        .filter(i => i.ppio_signal?.positive && !i.ppio_signal.positive.includes('待 AI'))
+        .filter(i => i.ppio_signal?.positive && !i.ppio_signal.positive.includes('待 AI') && !i.ppio_signal.positive.includes('待补充'))
         .map(i => i.ppio_signal.positive).slice(0, 3),
       risk: attend
-        .filter(i => i.ppio_signal?.risk && !i.ppio_signal.risk.includes('待 AI'))
+        .filter(i => i.ppio_signal?.risk && !i.ppio_signal.risk.includes('待 AI') && !i.ppio_signal.risk.includes('待补充'))
         .map(i => i.ppio_signal.risk).slice(0, 3)
     },
     wind_indicators: {
