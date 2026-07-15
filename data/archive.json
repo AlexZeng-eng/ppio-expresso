@@ -1,6 +1,47 @@
 {
-  "updated_at": "2026-07-14T01:42:47.016Z",
+  "updated_at": "2026-07-15T01:47:41.990Z",
   "days": [
+    {
+      "date": "2026-07-15",
+      "mainline": "竞品密集冲刺IPO、工信部对接全球AI治理，监管提速与资本竞争双重压力；H200芯片出口松动带来一丝暖意。",
+      "signal_summary": {
+        "🏛️": 2,
+        "📜": 0,
+        "⚔️": 2,
+        "💰": 1,
+        "🌏": 2,
+        "🔬": 0
+      },
+      "wind_indicators": {
+        "policy_heat": 3,
+        "competitor_heat": 4,
+        "capital_heat": 3,
+        "overseas_heat": 3,
+        "overall_sentiment": "升温",
+        "summary": "竞争火药味上升，芯片供应松动对冲，政策基调积极但隐含监管提速，整体‘升温’博弈"
+      },
+      "ppio_index": {
+        "score": 65,
+        "delta": -10,
+        "components": {
+          "policy_tailwind": 35,
+          "competitive_pressure": -30,
+          "capital_sentiment": 15,
+          "regulatory_risk": -15,
+          "overseas_headwind": 10
+        },
+        "interpretation": "竞品扎堆上市推高竞争压力，监管对标全球加快担忧，抵消政策暖意与芯片松动利好，指数从高位回落"
+      },
+      "item_count": {
+        "total": 13,
+        "attend": 5,
+        "silent": 8
+      },
+      "competitor_updates": [
+        "硅基流动增聘华兴证券为香港整体协调人，加速冲刺‘AI Token工厂第一股’",
+        "某AI算力‘黑马’启动IPO进程，或为边缘云/分布式算力平台，直接争夺赛道注意力"
+      ]
+    },
     {
       "date": "2026-07-14",
       "mainline": "国常会与习近平双重最高层信号明确算力基建战略地位，运营商推出Token套餐加剧算力服务化竞争",

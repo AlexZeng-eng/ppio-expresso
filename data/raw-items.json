@@ -1,160 +1,160 @@
 {
-  "generated_at": "2026-07-14T01:38:46.521Z",
+  "generated_at": "2026-07-15T01:43:46.451Z",
   "week": "2026-W29",
   "date_range": {
-    "from": "2026-07-07",
-    "to": "2026-07-14"
+    "from": "2026-07-08",
+    "to": "2026-07-15"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "国常会定调新兴产业发展主线 券商：中长期布局三大高景气赛道 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOelJnLVV5THpweGhLOXMwT2ZUYkZvUHVZc3dzM2kzanR4ckRZOUl3MmtxNG1kTUZyZVhQQXhuWHlOUFE5R2ZKUHcyeEVtWmdzYkpwQkxoOGUtRmwzQ2hIQ19BLUVYeFlEQi1MVElsQmhUb1RYWjEzdVVyWTdlT0RSODVNSlhhckNPVGVaWg?oc=5",
-      "source": "21财经",
-      "category": "政策",
-      "published": "2026-07-11",
-      "body_snippet": "国常会定调新兴产业发展主线 券商：中长期布局三大高景气赛道 21财经",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-002",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
-      "category": "竞品",
-      "published": "2026-07-13",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-003",
-      "title": "十五五算力通信龙头爆发，5只黑马抢先受益 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5OV05EZHVtSFR6TFVyY083Q2JHQzc4aUNKeDJIRmF6VEJ2ZkpCX3V4MmR0N1AxSV9wZjlaRUNhS2JHaW8tdktVQTNPZ3hGT2tMRlkzRGNkclhUdjRjNksyZ013?oc=5",
-      "source": "手机网易网",
-      "category": "政策",
-      "published": "2026-07-13",
-      "body_snippet": "十五五算力通信龙头爆发，5只黑马抢先受益 手机网易网",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-004",
-      "title": "2029年国内算力卡全年采购额将达1.44万亿元，科创100ETF博时(588030)盘中交投活跃 - Jiemian.com",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mTHRHZUJKdTM1WTB6a1A5TTN3a0VKWnlrVzc4aE5Nd1NhR0FaS2ViS01QUGZ5Z011TzdpV2pmMmZ4T0MxQU1Na2dleHZEWkphMlZVdndB?oc=5",
-      "source": "Jiemian.com",
-      "category": "政策",
-      "published": "2026-07-13",
-      "body_snippet": "2029年国内算力卡全年采购额将达1.44万亿元，科创100ETF博时(588030)盘中交投活跃 Jiemian.com",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-005",
-      "title": "智能伙伴，共创未来：习近平将出席2026世界人工智能大会大会开幕式并发表主旨讲话，大会有5大亮点，今日已一票难求 - 智慧城市行业分析",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBFZFcwOWw3SFliTVF5NUNnNGtWTFZxZngzV3B1ZFRxRlFNZkZPQ0pobmE3YlZzQWQwako0dHFTSWdzSWpuWUlhZjdZRFNHdDVRLVc4?oc=5",
-      "source": "智慧城市行业分析",
-      "category": "政策",
-      "published": "2026-07-13",
-      "body_snippet": "智能伙伴，共创未来：习近平将出席2026世界人工智能大会大会开幕式并发表主旨讲话，大会有5大亮点，今日已一票难求 智慧城市行业分析",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-006",
-      "title": "2026下半年十大主线科技：AI算力+脑机接口+6G+商业航天+低空经济 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qdkJwNThTdHluVFVGQ0NEN1owVUNlMTQ3dW1pbERDRkFuMTFIMXcwZVRvRGxwSTV1RklRcWlOVl90ekZ2YWRubkZJRnp0WDAyd3JDQmNISm1uV1JydkkxWDl3?oc=5",
-      "source": "手机网易网",
-      "category": "政策",
-      "published": "2026-07-12",
-      "body_snippet": "2026下半年十大主线科技：AI算力+脑机接口+6G+商业航天+低空经济 手机网易网",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-007",
-      "title": "互联网退居幕后？2026中国互联网大会揭开AI时代算力底牌 - 腾讯新闻",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE94SGtQOUl6X0UtcXhEampyWDFTbU1GNGtSelpCSGpWa21oTmoyMWpWeWl4TGpFNnV3MlR5SVBsQlpadFZBMVlnazg3bFIyUGt2ZzA3dVJ0SQ?oc=5",
-      "source": "腾讯新闻",
-      "category": "政策",
-      "published": "2026-07-10",
-      "body_snippet": "互联网退居幕后？2026中国互联网大会揭开AI时代算力底牌 腾讯新闻",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-008",
-      "title": "2026国内算力芯片推理场景权衡：SRAM专用、全栈自研、通用GPU三条路线评估 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fOVdUd0c3a1RxVVhLOUtuOU5EczAtc2lwMnpxRXVXRUdTQVJZdWgySWd3clRyTmsyY25mZVJaWDZiUm5id1BkRmlmZFkwZnVwcnpQY2xCaVdtd2dVZjJOcDRB?oc=5",
+      "title": "硅基流动增聘华兴证券为香港上市整体协调人，冲击“AI Token工厂第一股” - 手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZeUdoZmZjV25GZXBHal9oN2N1a0pZNUh3UzA2UWpwWmlBd2tkU0NXZ0ZHMzVsYXR3V0JCUGZOTkxDM0twWkZpTzdHWXFmUnN4NU5zZlhMTUxYMkd4M29lc0N3?oc=5",
       "source": "手机网易网",
       "category": "竞品",
-      "published": "2026-07-13",
-      "body_snippet": "2026国内算力芯片推理场景权衡：SRAM专用、全栈自研、通用GPU三条路线评估 手机网易网",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-009",
-      "title": "算力基建，遭遇急刹车？ - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5hRVNPckFWZ2NRLUV6b2k5UmR3SGJCLXdaMUNxMkxubXd0RnpDSU1hZ3JaX1RlS3RqR0lGQU5wNlBmT3UzRXY5d1h3M1d2b21GTEszTmNNcV81eWpsb0FhdWp3?oc=5",
-      "source": "手机网易网",
-      "category": "技术",
-      "published": "2026-07-12",
-      "body_snippet": "算力基建，遭遇急刹车？ 手机网易网",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-010",
-      "title": "智谱创始人唐杰发布内部信：将开启 Touch High（摸高）计划，“不登顶，就是失败” - 华尔街见闻",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MeS1KZTJZWW5wczhyZWgxdERVeDc5Sy1WZjRtQ1M5YXNNOWNTdF9GdjlXTWpyeDFaUFV2TVBtemRkQTJZZURDODlSZ2V2QXhFZkpR?oc=5",
-      "source": "华尔街见闻",
-      "category": "技术",
-      "published": "2026-07-11",
-      "body_snippet": "智谱创始人唐杰发布内部信：将开启 Touch High（摸高）计划，“不登顶，就是失败” 华尔街见闻",
+      "published": "2026-07-15",
+      "body_snippet": "硅基流动增聘华兴证券为香港上市整体协调人，冲击“AI Token工厂第一股” 手机网易网",
       "_query_boost": 20
     },
     {
-      "id": "raw-011",
-      "title": "云厂商AI利润率提升逻辑分析：算力供需或于2028年转向过剩 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBWeEFqWFUtZDlJUU1BTjRoeDAzakxBQ2s4TjlNQVp0OGNlZ2pVYUl1c1B5NHNYVlVsX3NINFZvbWF5VW5Mc2JCckNCXzRSWC04VHc?oc=5",
-      "source": "虎嗅网",
+      "id": "raw-002",
+      "title": "产业延链聚能 城市更新紧贴“六张网” - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PREt5eVlkLVZLbzFMN184bklCUlMycl9yWlVhQ05na09oNGVUa2VJNU9RdEhBZEJ1MjJGSW4xZlFSMGM5Q3Q3aUxZU1JmY1V4YzNyUzBucFhzUEVqZ1E?oc=5",
+      "source": "thepaper.cn",
+      "category": "政策",
+      "published": "2026-07-14",
+      "body_snippet": "产业延链聚能 城市更新紧贴“六张网” thepaper.cn",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-003",
+      "title": "Meta大手笔：斥资 500 亿美元打造5GW数据中心，AI算力格局迎来重塑 - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxYUd4Skx6eGpWMm1nNHFHTmNmMEs4emlQdEFKVXo5c2YxMnI2TlZkV2h6c0NZNV9GZWNkaE5fUUNIbXhvV2NSalVROERidw?oc=5",
+      "source": "AIBase",
       "category": "技术",
+      "published": "2026-07-14",
+      "body_snippet": "Meta大手笔：斥资 500 亿美元打造5GW数据中心，AI算力格局迎来重塑 AIBase",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-004",
+      "title": "中信证券：继续全面看好国产算力产业链",
+      "url": "https://36kr.com/newsflashes/3896189224781440?f=rss",
+      "source": "36氪",
+      "published": "2026-07-15",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-005",
+      "title": "AI进入“重工业时代”：万亿算力基建，如何赚钱？ - 手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBsQlhFZTJqT2d0UkFXWEM4VXlUQU5QcFZvN19vYkp2eUp6RVJDclZiNEh5d1hnLWdFaUVoMk1ZcTBKUzFxdzFhNDd0dURINlluUkEwcHVMaTBhcHBkTXBGSzJR?oc=5",
+      "source": "手机网易网",
+      "category": "海外",
+      "published": "2026-07-14",
+      "body_snippet": "AI进入“重工业时代”：万亿算力基建，如何赚钱？ 手机网易网",
+      "_query_boost": 10
+    },
+    {
+      "id": "raw-006",
+      "title": "2026国内算力芯片推理加速评估：SRAM专用、全栈自研、通用GPU三条技术路线怎么选 - Jiemian.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB6Q2hELXZrT1lBTDdpamNhN1NxbTBaYWNEb2ktMWNIcGxPWEVEa25vdzQweXJxNFVRNGlRRDBmT1BlMl9hT1FiUHV3SzZfN0NNd1NWb1lXUHI?oc=5",
+      "source": "Jiemian.com",
+      "category": "竞品",
+      "published": "2026-07-11",
+      "body_snippet": "2026国内算力芯片推理加速评估：SRAM专用、全栈自研、通用GPU三条技术路线怎么选 Jiemian.com",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-007",
+      "title": "李乐成出席联合国首届人工智能治理全球对话：愿...",
+      "url": "https://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
+      "source": "工信部-新闻",
+      "published": "2026-07-15",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-008",
+      "title": "欢迎访问2026广东AI算力展览会 - 手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1iUHZmTm1nTDBzX1QzakRlQlNRREZBV1o0Vk8zSXBsRmJxc1I0RUkxeFJVZTY4ckk5N1dQMFlNc09BcXdGMXVVS3o1ODVKa2ljbFhJSEl1cmJUT2Rzdjh4eVln?oc=5",
+      "source": "手机网易网",
+      "category": "政策",
+      "published": "2026-07-15",
+      "body_snippet": "欢迎访问2026广东AI算力展览会 手机网易网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-009",
+      "title": "WAIC 2026 | 晟联科携高速接口IP亮相H3C、上海国投、模力社区展台，共筑AI算力互连新生态 - 砍柴网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrUFhVNHZhVXNibUVVZFVKLXh3cGN0OUM1Skkyb1Jna1p5empQMkVUWU95OHVXMUNtM2h1UFA3TzJXeDhQMmp0WGVBRHY2VWE5OUUwaHJDcmYxZ0h4?oc=5",
+      "source": "砍柴网",
+      "category": "政策",
+      "published": "2026-07-14",
+      "body_snippet": "WAIC 2026 | 晟联科携高速接口IP亮相H3C、上海国投、模力社区展台，共筑AI算力互连新生态 砍柴网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-010",
+      "title": "三家中国公司获准购买英伟达H200芯片，引发市场关注| 乌克兰新闻 - Межа. Новини України.",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GRlgyejkyamlQLUhWZ3BuWGdSUDZ4TzFVakhHc3VPZ1g1aXdtbDQ3UXhMYVhPVm15U1RQZjlZWUsxM1VZeTUtemxYOWJMd0dRbVlmNFlRRC1fNWxkMGhXd1ZCaHc?oc=5",
+      "source": "Межа. Новини України.",
+      "category": "海外",
+      "published": "2026-07-14",
+      "body_snippet": "三家中国公司获准购买英伟达H200芯片，引发市场关注| 乌克兰新闻 Межа. Новини України.",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-011",
+      "title": "智能体时代，重构企业AI算力基础设施 - 手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QSE1LdXVHM1lRM21yOW5ZeDRmVjhKY2V1a1otYjhpTlZNNG5LT3FhNE9BempQdXZzUm96QWxmbU5ZbmRQVFBaY1cxNGlHVzVsOTZ1R040N2p6YTlFdDJsZUlR?oc=5",
+      "source": "手机网易网",
+      "category": "政策",
       "published": "2026-07-13",
-      "body_snippet": "云厂商AI利润率提升逻辑分析：算力供需或于2028年转向过剩 虎嗅网",
+      "body_snippet": "智能体时代，重构企业AI算力基础设施 手机网易网",
       "_query_boost": 0
     },
     {
       "id": "raw-012",
-      "title": "摩根士丹利： AI 基建豪掷 1.4 万亿美元， META 的“算力账”能回本吗？ - odaily.news",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB4S05kZnhhR0NuUS1qbjQxbmlTeW1lRnF6ZEZmTXlOcEJVbk5OOTdXTGhOeHdvYTYzN0x3anM3Sk5mbkR0WFFZcGpPUTF2NUtB?oc=5",
-      "source": "odaily.news",
-      "category": "海外",
+      "title": "AI算力“黑马”要IPO了 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOTTFpdWJLRjdMenRsTnY4ZzFfa2oyM1NBVzdCdXpuR2pWVTlDdE5saXVQYjZmbkZfdHBUR3h2M2FmLUxTSmVxODFWcDVrZVdXYVNNcmdqdUFHdllqaml2T0tNRkFLNUZXaUR2TVlBLTFVSU1BS252UDljbFdNbUZqTTdiNnRVOEFlX0tPaElBbWJyTHhsRWRlbzFJZG9aQmVIVThTSDFYU2pCTEVWNjRBUHFBb3N1VzMxT1oybzY2dExuczFYY2d5OURFRmVLOTZ3MHZTdElzcE5HWGwzZXlLVDhqREZCbUNZX0o5cXFlNFhkUjFCNTRTYUdrTmVIdEJMRGk2aGtfU3pURmtldjkwblgyS3dwZkE?oc=5",
+      "source": "新浪网",
+      "category": "竞品",
       "published": "2026-07-13",
-      "body_snippet": "摩根士丹利： AI 基建豪掷 1.4 万亿美元， META 的“算力账”能回本吗？ odaily.news",
-      "_query_boost": 10
+      "body_snippet": "AI算力“黑马”要IPO了 新浪网",
+      "_query_boost": 0
     },
     {
       "id": "raw-013",
-      "title": "算力出海业务的法律合规路径探索与风险解析 - Lexology",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVkNtODlfVFhoQml4aEZWUV9iRXFqZEZheTFZUHotMHVWN09iYlRSSlhPT1VGem1yRGhoanNkRzJ4S2FaLXI2SlBtc0VLUXBPNU1RLTh2RkJmUXVBR2pubTQ0U1JUclVrbmMxZDQzcm0xbXVORTJ2d2hQbnNjaEE1TXF3TG8wUEU5RnhF?oc=5",
-      "source": "Lexology",
-      "category": "监管",
-      "published": "2026-07-10",
-      "body_snippet": "算力出海业务的法律合规路径探索与风险解析 Lexology",
-      "_query_boost": 15
+      "title": "人工智能发展的中国之道：前瞻布局 健康发展 - 手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9leTZZRlJ6WnYwdURYZERKVGNMc3ZySDczNTlrRkl6R2FHMGJsRnk2WlN3RGNrR0I4a2NXSndWdHVXMUxhMzNnaTMwR0NPUXdRZHVGMkVmOUF1MHlKU3c0alFWbEc?oc=5",
+      "source": "手机网易网",
+      "category": "政策",
+      "published": "2026-07-15",
+      "body_snippet": "人工智能发展的中国之道：前瞻布局 健康发展 手机网易网",
+      "_query_boost": 40
     },
     {
       "id": "raw-014",
-      "title": "李乐成率团出席联合国人工智能治理全球对话首次会议等系列活动",
-      "url": "https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_7b206a82ae3844fd981ff3e42daf0267.html",
-      "source": "工信部-新闻",
-      "published": "2026-07-14",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "AI算力从“规模上半场”转向“应用下半场”，CPU需求持续走高|智能算力|Token|郑州市|芯片|河南省_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNRW92SGVod2FuNHYxSHFHTnVOQS1hbTMwaUpnVnhaNkViRk9LRTY5dXpOV0lndDZxRFBMVDBoa3FxN1FNMWNvTmZ0RHVWMmpQd3pWWmRoTk1lbzNwYWswcE5uQ1ZDSC1lNmNncHpaaXQtd0s3TEhTS0ZGemRfd2dwaFBXWlg0QlFiS3ZCeEdfdWd4aENqajh6bkZ6YnR0SkdDSE0waHJweFlkYUZqV0s5VzZ2YkQ0VlNvNnVnUTFzdldfOFdIQV9SeWNZSXBwdFNCa1RSRGJvTFJ2b0xSZ2pmYk45Ukppc0sxZUpEaEZYSUd3SUUxYy16V296c3ZTWTVIYThpYXd0d0hIYjRxejR6LXZWdWhadUxHaEFVSGQ3SEo3V3JBX3c?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-07-11",
+      "body_snippet": "AI算力从“规模上半场”转向“应用下半场”，CPU需求持续走高|智能算力|Token|郑州市|芯片|河南省_手机新浪网 新浪财经",
+      "_query_boost": 0
     },
     {
       "id": "raw-015",
-      "title": "李乐成出席联合国首届人工智能治理全球对话：愿共同构建全球治理体系",
-      "url": "http://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
-      "source": "工信部-新闻",
-      "published": "2026-07-14",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "算力过剩是个伪命题 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdnJYd0ZYOHh1Y0t3c0Zpc1NhNlpxVzVhSWpMc2pVS3ppTFIzenpPLTk1VnJETXBFMDY1c3NkTjRRMHhVOVg1NkV0bWwxelNDUG43SzZHbV83akZvRzhyTWtYRFpMekdNbFdOb3JLUzJkb01tS1J4bDQwaGpucC1HSzRxcUFuN2JFak9hbmFoeXZ4Zw?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-07-11",
+      "body_snippet": "算力过剩是个伪命题 新浪财经",
+      "_query_boost": 0
     }
   ]
 }
