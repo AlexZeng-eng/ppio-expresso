@@ -1,21 +1,71 @@
 {
-  "generated_at": "2026-07-15T01:46:08.962Z",
+  "generated_at": "2026-07-17T01:16:09.691Z",
   "week": "2026-W29",
   "classifier": "deepseek-v4-pro",
   "total_raw": 15,
-  "total_curated": 13,
-  "attend_count": 5,
-  "silent_count": 8,
+  "total_curated": 12,
+  "attend_count": 9,
+  "silent_count": 3,
   "items": [
     {
       "id": "raw-1",
-      "title": "硅基流动增聘华兴证券为香港上市整体协调人，冲击“AI Token工厂第一股” - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZeUdoZmZjV25GZXBHal9oN2N1a0pZNUh3UzA2UWpwWmlBd2tkU0NXZ0ZHMzVsYXR3V0JCUGZOTkxDM0twWkZpTzdHWXFmUnN4NU5zZlhMTUxYMkd4M29lc0N3?oc=5",
-      "source": "手机网易网",
+      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeEFXT01xYjMwM1ZGSjJ5OU9DYUN3QlpGbzI3V1RDbHRJcHNINEs5WU1Wd0xUMndTSlFJVnp3ZDVER2ZXalBQelFJN2gxWWJUUTYzUkFlLVZVNEltd0M4R0gwVXQzaUhYWmtacU9qbjBSc2UwWFVTXzhqZjRIWDhlOW5BQ3ZWSDlrSVByOTlKWTZENDJfWmRJM2ZxeU1RVjVvVkJLSnhfZ1ZnaklUR3pCTWVncTJuenRhZ0I3c3pUUU5jaGhwbW5Zd25MckUxSzhWYVlVdEhYbi1VajQ?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-07-13",
+      "body_snippet": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 新浪财经",
+      "_query_boost": 30,
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "国务院发布重磅部署，加速构建算力网和通信网，并设定2030年数字经济核心产业占比目标。量化数据：2030年数字经济核心产业占比目标曝光（具体数值未披露，但表明量化考核）。对PPIO的具体影响：算力网建设将推动全国算力基础设施布局，边缘云作为算力网的关键节点有望直接受益；分布式算力平台可参与算力调度与资源整合，获得政策红利。在港股IPO背景下，该政策利好有助于提升市场对PPIO的估值预期，但也需关注地方政府配套落地节奏。",
+      "ppio_signal": {
+        "positive": "政策明确支持算力网建设，边缘云和分布式算力是算力网的重要组成部分，PPIO有望获得政策红利及市场关注。",
+        "risk": "政策执行力度和具体落地节奏有待观察；若算力网建设偏向集中式大型数据中心，可能对分布式边缘云形成竞争。",
+        "beneficiaries": "边缘计算企业(如PPIO、网宿科技)、算力调度平台(如阿里云、华为云)、通信运营商(中国移动、中国电信)",
+        "pressure_parties": "传统集中式IDC厂商(如万国数据、世纪互联)可能面临转型压力，但整体利好行业"
+      }
+    },
+    {
+      "id": "raw-2",
+      "title": "国常会定调新兴产业发展主线 券商：中长期布局三大高景气赛道 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOelJnLVV5THpweGhLOXMwT2ZUYkZvUHVZc3dzM2kzanR4ckRZOUl3MmtxNG1kTUZyZVhQQXhuWHlOUFE5R2ZKUHcyeEVtWmdzYkpwQkxoOGUtRmwzQ2hIQ19BLUVYeFlEQi1MVElsQmhUb1RYWjEzdVVyWTdlT0RSODVNSlhhckNPVGVaWg?oc=5",
+      "source": "21财经",
+      "category": "政策",
+      "published": "2026-07-11",
+      "body_snippet": "国常会定调新兴产业发展主线 券商：中长期布局三大高景气赛道 21财经",
+      "_query_boost": 30,
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "国常会定调新兴产业发展主线，券商建议中长期布局三大高景气赛道。量化数据：提及“三大高景气赛道”但未具体量化。对PPIO的具体影响：若新兴产业发展主线包含数字经济、AI算力，则PPIO所在边缘云赛道受益；政策定调有助于提振市场信心，利好港股IPO估值。但需等待后续细化政策明确具体支持领域。",
+      "ppio_signal": {
+        "positive": "国常会级别定调，为新兴产业发展提供政策确定性，边缘计算作为新型基础设施有望被纳入重点支持方向。",
+        "risk": "具体赛道细节未明确，需后续政策落地；若聚焦其他领域，对PPIO直接影响有限。",
+        "beneficiaries": "新兴科技企业（AI、云计算、边缘计算）、券商推荐的高景气赛道相关企业",
+        "pressure_parties": "传统行业企业"
+      }
+    },
+    {
+      "id": "raw-3",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
       "category": "竞品",
-      "published": "2026-07-15",
-      "body_snippet": "硅基流动增聘华兴证券为香港上市整体协调人，冲击“AI Token工厂第一股” 手机网易网",
-      "_query_boost": 20,
+      "published": "2026-07-16",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "_query_boost": 15,
       "lane": "attend",
       "signals": [
         "⚔️"
@@ -24,79 +74,49 @@
       "compass_triggered": [
         "c2"
       ],
-      "summary_cn": "硅基流动（SiliconFlow）增聘华兴证券为香港上市整体协调人，加速推进“AI Token工厂第一股”上市进程。此举是继其与高盛等机构合作后，进一步强化上市中介团队，显示公司正全力冲刺港股IPO。硅基流动主打AI推理API与模型调度平台，与PPIO的边缘云分布式算力服务在客户场景和算力供给方式上存在部分重叠，其上市将直接争夺二级市场对AI推理赛道的资本关注度。对PPIO而言，硅基流动的IPO动态将影响港股投资者对“算力即服务”类企业的估值锚定，加速行业资本竞争；同时，硅基流动若成功以规模叙事上市，可能挤压PPIO在AI推理领域的资本叙事空间，倒逼PPIO在边缘差异化、轻资产周转效率上构建更清晰的投资亮点。此外，增聘华兴证券也可能传递出硅基流动正在推进非典型协议/VIE架构或需要额外合规协调的信号，为PPIO未来上市路径提供前置参照。",
+      "summary_cn": "三大运营商（中国移动、中国电信、中国联通）同步推出基于Token计费的AI算力套餐，推动算力服务大众化。量化数据：Token套餐具体定价和规模未披露，但“齐推”表明行业趋势。对PPIO的具体影响：运营商Token套餐可能降低用户使用AI算力门槛，但同时也可能挤压边缘云独立厂商的盈利空间；PPIO需差异化竞争，聚焦边缘场景的低延迟、分布式算力，避免与运营商正面价格战。",
       "ppio_signal": {
-        "positive": "竞品上市进程明确，可提供港股AI算力赛道的先验估值范本，便于PPIO后续对标定价；华兴证券在科技企服领域经验丰富，其深度参与可侧面印证该赛道的机构认可度，也有助于PPIO提前了解监管沟通节奏。",
-        "risk": "若硅基流动率先以“AI Token工厂”概念上市，将占据市场先入优势，可能拉高PPIO后续IPO的叙事难度；大竞品密集路演可能分散投资者注意力，导致PPIO在定价窗口期面临被比较的压力，需加速差异化的边缘场景商业闭环验证。"
+        "positive": "算力大众化扩大市场，边缘云可承接更细分的场景需求（如AI推理、IoT）。",
+        "risk": "运营商凭借网络和规模优势可能主导算力市场，边缘云厂商面临价格战和客户流失风险。",
+        "beneficiaries": "大型云厂商（阿里云、华为云）、运营商自身",
+        "pressure_parties": "独立边缘云/分布式算力平台（如PPIO、网宿科技）、中小算力服务商"
       }
     },
     {
-      "id": "raw-3",
-      "title": "Meta大手笔：斥资 500 亿美元打造5GW数据中心，AI算力格局迎来重塑 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxYUd4Skx6eGpWMm1nNHFHTmNmMEs4emlQdEFKVXo5c2YxMnI2TlZkV2h6c0NZNV9GZWNkaE5fUUNIbXhvV2NSalVROERidw?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-07-14",
-      "body_snippet": "Meta大手笔：斥资 500 亿美元打造5GW数据中心，AI算力格局迎来重塑 AIBase",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🌏",
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c3"
-      ],
-      "summary_cn": "Meta计划投入500亿美元建设5GW超大规模数据中心，海外科技巨头在AI算力基建上的军备竞赛进一步升温，全球算力供需结构面临重塑。"
-    },
-    {
       "id": "raw-4",
-      "title": "中信证券：继续全面看好国产算力产业链",
-      "url": "https://36kr.com/newsflashes/3896189224781440?f=rss",
-      "source": "36氪",
-      "published": "2026-07-15",
-      "body_snippet": "",
-      "category": "技术",
-      "lane": "silent",
+      "title": "《国务院关于对外投资的规定》公布自7月1日起施行_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CMGotZXhxeXgwMjVRUzJ2dTNwNkpTb2pmY2xjRzA4YkptRmNyNlNhU1ItQ1J6UFJ3LVVuMDR5ckNCcnNTUVJFSnY2TFpOSlJoNDVZMDlFWGxwaGZrQzF0S0lYZGNzMERGVHI3dUtaZ3ZTVmlHZXd4RDhOdDA4V0k?oc=5",
+      "source": "新浪财经",
+      "category": "监管",
+      "published": "2026-07-16",
+      "body_snippet": "《国务院关于对外投资的规定》公布自7月1日起施行_手机新浪网 新浪财经",
+      "_query_boost": 30,
+      "lane": "attend",
       "signals": [
-        "💰"
+        "📜"
       ],
-      "is_deep_read": false,
+      "is_deep_read": true,
       "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "中信证券研报全面看好国产算力产业链，为行业提供正面情绪支撑，或推动相关板块融资及二级市场热度。"
-    },
-    {
-      "id": "raw-5",
-      "title": "AI进入“重工业时代”：万亿算力基建，如何赚钱？ - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBsQlhFZTJqT2d0UkFXWEM4VXlUQU5QcFZvN19vYkp2eUp6RVJDclZiNEh5d1hnLWdFaUVoMk1ZcTBKUzFxdzFhNDd0dURINlluUkEwcHVMaTBhcHBkTXBGSzJR?oc=5",
-      "source": "手机网易网",
-      "category": "海外",
-      "published": "2026-07-14",
-      "body_snippet": "AI进入“重工业时代”：万亿算力基建，如何赚钱？ 手机网易网",
-      "_query_boost": 10,
-      "lane": "silent",
-      "signals": [
-        "🌏",
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
+        "c1",
         "c3"
       ],
-      "summary_cn": "文章讨论全球万亿级AI算力基建的盈利模式，反映海外算力产业正从建设期转向变现探索期，长期可能影响国内边缘算力的定价模型和竞争逻辑。"
+      "summary_cn": "国务院公布《关于对外投资的规定》，自7月1日起施行。量化数据：规定施行日期为7月1日。对PPIO的具体影响：该规定可能涉及境外投资备案、VIE架构审查等，直接影响PPIO港股IPO的合规路径；需关注具体条款是否涉及VIE监管或数据出境，增加上市不确定性。若规定明确路径，可消除合规风险；若收紧，则可能增加IPO难度或成本。",
+      "ppio_signal": {
+        "positive": "若规定明确路径，可消除合规不确定性。",
+        "risk": "若规定收紧对外投资或VIE监管，可能增加IPO难度或成本。",
+        "beneficiaries": "律师、投行等中介机构",
+        "pressure_parties": "拟境外上市的红筹/VIE架构企业（如PPIO、字节跳动等）"
+      }
     },
     {
       "id": "raw-1",
-      "title": "2026国内算力芯片推理加速评估：SRAM专用、全栈自研、通用GPU三条技术路线怎么选 - Jiemian.com",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB6Q2hELXZrT1lBTDdpamNhN1NxbTBaYWNEb2ktMWNIcGxPWEVEa25vdzQweXJxNFVRNGlRRDBmT1BlMl9hT1FiUHV3SzZfN0NNd1NWb1lXUHI?oc=5",
+      "title": "2029年国内算力卡全年采购额将达1.44万亿元，科创100ETF博时(588030)盘中交投活跃 - Jiemian.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mTHRHZUJKdTM1WTB6a1A5TTN3a0VKWnlrVzc4aE5Nd1NhR0FaS2ViS01QUGZ5Z011TzdpV2pmMmZ4T0MxQU1Na2dleHZEWkphMlZVdndB?oc=5",
       "source": "Jiemian.com",
       "category": "技术",
-      "published": "2026-07-11",
-      "body_snippet": "2026国内算力芯片推理加速评估：SRAM专用、全栈自研、通用GPU三条技术路线怎么选 Jiemian.com",
-      "_query_boost": 15,
+      "published": "2026-07-13",
+      "body_snippet": "2029年国内算力卡全年采购额将达1.44万亿元，科创100ETF博时(588030)盘中交投活跃 Jiemian.com",
+      "_query_boost": 30,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -105,175 +125,172 @@
       "compass_triggered": [
         "c2"
       ],
-      "summary_cn": "文章评估SRAM专用、全栈自研和通用GPU三条推理加速技术路线，为边缘云算力平台选择推理硬件提供参考。",
+      "summary_cn": "预测2029年国内算力卡全年采购额将达1.44万亿元，显示算力市场高速膨胀，为边缘云分布式算力提供持续增长的需求基础。",
       "ppio_signal": null
     },
     {
-      "id": "raw-2",
-      "title": "李乐成出席联合国首届人工智能治理全球对话：愿...",
-      "url": "https://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
-      "source": "工信部-新闻",
-      "published": "2026-07-15",
+      "id": "raw-3",
+      "title": "智能伙伴，共创未来：习近平将出席2026世界人工智能大会大会开幕式并发表主旨讲话，大会有5大亮点，今日已一票难求 - 智慧城市行业分析",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBFZFcwOWw3SFliTVF5NUNnNGtWTFZxZngzV3B1ZFRxRlFNZkZPQ0pobmE3YlZzQWQwako0dHFTSWdzSWpuWUlhZjdZRFNHdDVRLVc4?oc=5",
+      "source": "智慧城市行业分析",
+      "category": "政策",
+      "published": "2026-07-13",
+      "body_snippet": "智能伙伴，共创未来：习近平将出席2026世界人工智能大会大会开幕式并发表主旨讲话，大会有5大亮点，今日已一票难求 智慧城市行业分析",
+      "_query_boost": 30,
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "2026世界人工智能大会即将开幕，习近平主席将亲临并发表主旨讲话，大会一票难求、亮点密集，这是最高层对AI产业最直接的政策定调。此举表明国家将AI提升至科技强国核心战略，预计在算力基础设施、产业应用、安全治理等领域出台更多配套支持措施。对PPIO而言，顶级政策背书将大幅提振投资者对算力赛道的信心，尤其利好边缘云等分布式算力基础设施被纳入新基建支持范围，有望在港股IPO过程中获得更友好的估值与审核环境。同时，高级别讲话可能强调安全与自主可控，边缘算力因其天然贴近用户、数据本地化处理的特性，在合规方面具备差异化优势。",
+      "ppio_signal": {
+        "positive": "最高层公开站台AI，直接提振边缘算力的战略地位与资本市场预期，加速政策资源向算力基础设施倾斜。",
+        "risk": "可能伴随更严格的AI安全与数据监管法规，边缘部署需提前适配合规要求，增加短期合规成本。",
+        "beneficiaries": "国产算力基础设施商（华为、海光信息等），边缘云/分布式算力平台（PPIO、无问芯穹等），AI应用企业。",
+        "pressure_parties": "依赖海外高端芯片的算力集成商、合规能力薄弱的AI初创公司、完全中心化的传统云服务商。"
+      }
+    },
+    {
+      "id": "raw-4",
+      "title": "国常会提出“适度超前布局数字基础设施” AI从业者：数字基建提速助力想法落地 - 腾讯新闻",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83ZGZtRXpiWlBpZjZOYkZQVHo5OWFwUW8zamFNbUk3RWpta29QNEcwcDE1WG5ENS1nc2FIOFdEU3NMLWZySDIxM2R3MEFPMDNBUFM1SjRR?oc=5",
+      "source": "腾讯新闻",
+      "category": "政策",
+      "published": "2026-07-11",
+      "body_snippet": "国常会提出“适度超前布局数字基础设施” AI从业者：数字基建提速助力想法落地 腾讯新闻",
+      "_query_boost": 30,
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1"
+      ],
+      "summary_cn": "7月11日国常会明确提出“适度超前布局数字基础设施”，为当前数字基建注入强心针。作为国务院最高级别会议部署，该定调意味着从光纤网络、数据中心到智算中心等都将获得加速审批与资金支持，预计带动年度新增投资数千亿元。对PPIO而言，这一政策直接利好以边缘节点为代表的分布式算力基础设施，不仅可加快边缘云在工业互联网、智慧城市等场景的部署节奏，更在IPO关键期提供了清晰的政策确定性，消除投资者对算力过剩调控的担忧。同时，“适度超前”信号可能催化三大运营商、地方政府等扩大边缘侧采购，PPIO作为分布式算力平台有望承接这部分溢出需求。",
+      "ppio_signal": {
+        "positive": "数字基础设施获最高级别政策背书，边缘云作为新基建重要组成，可直接受益于加速审批、财税优惠及政企订单增长。",
+        "risk": "政策风口可能吸引更多巨头跨界涌入，边缘算力赛道竞争加剧，早期市场份额可能承压。",
+        "beneficiaries": "边缘数据中心及分布式算力运营商（PPIO、网宿科技等），国产算力芯片厂商（寒武纪、地平线），光通信与网络设备商（华为、中兴）。",
+        "pressure_parties": "传统集中式云厂商（阿里云、腾讯云等）可能面临边缘分流压力，算力利用率低下的老旧数据中心运营商。"
+      }
+    },
+    {
+      "id": "raw-5",
+      "title": "中国智算中心GPU利用率不足30%：70%算力空转 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FSVJ2TUwzMS1IMGNnM0J4VnVHT2RuX3p4RWpkSGRTeGtWQ2I2cFdOVWJNeTBnZC1ocTM5YVFKN0NVb2dHc0lzTjVqOHlIWnJ0NVE?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-07-11",
+      "body_snippet": "中国智算中心GPU利用率不足30%：70%算力空转 虎嗅",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "中国智算中心GPU平均利用率不足30%，近70%算力空转，凸显集中式算力调度效率瓶颈，为PPIO边缘分布式算力共享模式创造巨大替代空间。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-1",
+      "title": "习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话",
+      "url": "https://36kr.com/newsflashes/3899020578342790?f=rss",
+      "source": "36氪",
+      "published": "2026-07-17",
       "body_snippet": "",
       "category": "政策",
       "lane": "attend",
       "signals": [
         "🏛️",
-        "🌏"
+        "📜"
       ],
-      "is_deep_read": false,
+      "is_deep_read": true,
       "compass_triggered": [
         "c1",
         "c3"
       ],
-      "summary_cn": "工信部领导李乐成出席联合国首届人工智能治理全球对话并发表讲话，表达中方积极参与全球AI治理的立场。此举释放中国在AI监管领域将与国际框架对接的信号，可能加速国内AI立法与合规体系建设。对PPIO而言，政策明朗化有助于港股IPO过程中的合规预期管理，但跨境数据流动、算法备案等要求可能增加运营成本，需提前布局合规能力，同时海外监管风向趋于协同将降低边缘云业务出海的政策摩擦风险。",
+      "summary_cn": "中国国家主席习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话，这是中国最高领导人连续多次为AI产业站台。该大会通常汇聚数千家企业和数十万专业观众，2025年签约金额超千亿元，此次高规格参与预计进一步释放政策红利。讲话聚焦全球治理，意味着中国在AI伦理、安全标准上将更主动参与国际规则制定。对于PPIO等边缘算力公司，最高层的背书将提升AI基础设施投资热度，分布式算力可能被纳入国家算力网络体系的重要补充，从而获得地方政企合作机会；同时，全球治理框架的推进可能加速国内AI监管立法，对数据跨境流动和算力租用的合规性提出更高要求，PPIO需提前布局安全资质。",
       "ppio_signal": {
-        "positive": "中国积极参与国际AI治理，预示国内监管框架将向透明、可预期方向发展，降低PPIO港股上市的合规不确定性。",
-        "risk": "未来可能出台更严格的数据跨境和算法安全要求，边缘节点部署可能面临更细化的牌照与审查，需持续投入合规资源。"
+        "positive": "最高领导人的公开支持将强化AI作为国家战略产业的地位，算力需求预期进一步放大，有利于PPIO在港股IPO时讲好‘新基建’故事，且边缘节点在政务云延伸场景可能获得政策倾斜。",
+        "risk": "全球治理高级别会议可能推动更严格的AI监管法案落地，增加数据安全、内容审核等合规成本；边缘算力如果被纳入关键信息基础设施，将面临更高的安全审查标准。",
+        "beneficiaries": "国产AI芯片企业(如华为昇腾、寒武纪)、智能算力平台(PPIO、优刻得)、AI应用开发商、数据合规服务商。",
+        "pressure_parties": "依赖海外AI模型的套壳应用、未完成安全备案的小型算力出租商。"
       }
-    },
-    {
-      "id": "raw-4",
-      "title": "WAIC 2026 | 晟联科携高速接口IP亮相H3C、上海国投、模力社区展台，共筑AI算力互连新生态 - 砍柴网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrUFhVNHZhVXNibUVVZFVKLXh3cGN0OUM1Skkyb1Jna1p5empQMkVUWU95OHVXMUNtM2h1UFA3TzJXeDhQMmp0WGVBRHY2VWE5OUUwaHJDcmYxZ0h4?oc=5",
-      "source": "砍柴网",
-      "category": "技术",
-      "published": "2026-07-14",
-      "body_snippet": "WAIC 2026 | 晟联科携高速接口IP亮相H3C、上海国投、模力社区展台，共筑AI算力互连新生态 砍柴网",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "晟联科在WAIC展示高速接口IP，与新华三、上海国投等合作推动AI算力互连生态，相关技术可能提升边缘节点间数据传输效率。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-5",
-      "title": "三家中国公司获准购买英伟达H200芯片，引发市场关注| 乌克兰新闻 - Межа. Новини України.",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GRlgyejkyamlQLUhWZ3BuWGdSUDZ4TzFVakhHc3VPZ1g1aXdtbDQ3UXhMYVhPVm15U1RQZjlZWUsxM1VZeTUtemxYOWJMd0dRbVlmNFlRRC1fNWxkMGhXd1ZCaHc?oc=5",
-      "source": "Межа. Новини України.",
-      "category": "海外",
-      "published": "2026-07-14",
-      "body_snippet": "三家中国公司获准购买英伟达H200芯片，引发市场关注| 乌克兰新闻 Межа. Новини України.",
-      "_query_boost": 0,
-      "lane": "attend",
-      "signals": [
-        "🌏"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c3"
-      ],
-      "summary_cn": "三家中国公司近期获得美国批准购买英伟达H200芯片，这是继此前高端GPU对华出口管制后的个案松动，引发市场关注。对PPIO这样的边缘云算力平台而言，H200的放行意味着高端推理芯片供应渠道可能阶段性打开，有助于降低算力集群的采购成本和交付周期，提升分布式节点的硬件性能。但此次批准仅为个案，美国对华半导体出口管制大方向未变，未来仍存断供或加码风险。PPIO需继续推进多元化芯片方案，平衡英伟达芯片依赖，以应对潜在的政策摇摆。",
-      "ppio_signal": {
-        "positive": "H200获批采购为PPIO提供获取顶级推理芯片的机会，有望提升算力性价比和服务质量，短期利好边缘节点扩容。",
-        "risk": "出口管制政策尚未根本转向，过度依赖英伟达高端芯片可能在未来遭遇供应链中断，影响业务连续性和港股上市估值稳定性。"
-      }
-    },
-    {
-      "id": "raw-1",
-      "title": "智能体时代，重构企业AI算力基础设施 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QSE1LdXVHM1lRM21yOW5ZeDRmVjhKY2V1a1otYjhpTlZNNG5LT3FhNE9BempQdXZzUm96QWxmbU5ZbmRQVFBaY1cxNGlHVzVsOTZ1R040N2p6YTlFdDJsZUlR?oc=5",
-      "source": "手机网易网",
-      "category": "技术",
-      "published": "2026-07-13",
-      "body_snippet": "智能体时代，重构企业AI算力基础设施 手机网易网",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "文章探讨智能体时代企业AI算力基础设施重构趋势，可能影响分布式边缘算力需求结构，作为长期技术信号跟踪。",
-      "ppio_signal": null
     },
     {
       "id": "raw-2",
-      "title": "AI算力“黑马”要IPO了 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOTTFpdWJLRjdMenRsTnY4ZzFfa2oyM1NBVzdCdXpuR2pWVTlDdE5saXVQYjZmbkZfdHBUR3h2M2FmLUxTSmVxODFWcDVrZVdXYVNNcmdqdUFHdllqaml2T0tNRkFLNUZXaUR2TVlBLTFVSU1BS252UDljbFdNbUZqTTdiNnRVOEFlX0tPaElBbWJyTHhsRWRlbzFJZG9aQmVIVThTSDFYU2pCTEVWNjRBUHFBb3N1VzMxT1oybzY2dExuczFYY2d5OURFRmVLOTZ3MHZTdElzcE5HWGwzZXlLVDhqREZCbUNZX0o5cXFlNFhkUjFCNTRTYUdrTmVIdEJMRGk2aGtfU3pURmtldjkwblgyS3dwZkE?oc=5",
-      "source": "新浪网",
+      "title": "硅基流动冲刺港股：77亿估值背后，“Token工厂第一股”困于负毛利 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VZzRrWWdzSUhuN2FGZjZvakI1MUNCd3FoUW80UllKQWNKNWRsdGRnQzNLeWFJSVZFMXVFUUI4b3lBVm52dGhnaVlqcVFPX3dyTEw2aHRYT0p4NHNNNi14SUJrWHlzbTZ1ZFItVGk4TW5wQVVaU2diYg?oc=5",
+      "source": "新浪财经",
       "category": "竞品",
-      "published": "2026-07-13",
-      "body_snippet": "AI算力“黑马”要IPO了 新浪网",
-      "_query_boost": 0,
+      "published": "2026-07-16",
+      "body_snippet": "硅基流动冲刺港股：77亿估值背后，“Token工厂第一股”困于负毛利 新浪财经",
+      "_query_boost": 20,
       "lane": "attend",
       "signals": [
         "⚔️",
         "💰"
       ],
-      "is_deep_read": false,
+      "is_deep_read": true,
       "compass_triggered": [
         "c2"
       ],
-      "summary_cn": "某AI算力领域新兴企业（“黑马”）启动IPO进程，或为边缘云/分布式算力平台，进一步加剧行业资本竞赛。此番登陆资本市场将直接验证AI算力赛道的投资逻辑，并可能对PPIO形成示范效应；但同时，竞品先发上市可能提前锁定部分资本关注，分流投资者注意力。对正在筹备港股IPO的PPIO而言，需密切关注其估值锚定、发行节奏及市场反馈，借机校准自身差异化叙事，强调边缘云在分布式推理与成本优化上的独特优势，以在竞争中将资本热度转化为自身价值认可。",
+      "summary_cn": "AI推理服务平台硅基流动正式冲刺港股IPO，估值高达77亿人民币，但招股书显示其仍处于负毛利状态，被称为‘Token工厂第一股’。2025年该公司API调用量增长超300%，日处理Token量突破千亿，年营收约2.8亿。作为直接竞品，其上市动向对PPIO产生多重影响：一方面验证了‘按Token计费’的推理服务商业模式可被资本市场接受，为PPIO后续IPO提供估值锚点；另一方面其巨额融资将用于补贴客户和建设更大规模推理集群，可能以低价策略抢夺开发者用户，直接冲击PPIO的推理API及边缘GPU租赁业务。此外，负毛利现状表明当前AI推理服务尚处跑马圈地阶段，PPIO的分布式边缘实例能否凭借更低网络延迟和成本优势实现差异化，将是应对竞争的关键。",
       "ppio_signal": {
-        "positive": "行业资本活跃，证明AI算力赛道获市场认可，有助于PPIO后续路演与估值参考。",
-        "risk": "竞品若抢先上市可能吸纳大量资本关注，压缩PPIO融资窗口，并加剧投资者对赛道同质化的疑虑。"
+        "positive": "港股对AI Infra赛道的接纳度提升，有利于PPIO的IPO窗口；竞品的高估值拉升整体赛道天花板，有助于PPIO在融资时获得更高溢价。",
+        "risk": "硅基流动上市后可能发动价格战，拉低推理API毛利率，迫使PPIO在边缘推理服务上被动降价；其大规模集中式GPU集群对PPIO的分布式边缘算力形成成本与品牌竞争压力。",
+        "beneficiaries": "GPU供应厂商(英伟达OEM)、云基础设施服务商、使用推理API的AI应用企业。",
+        "pressure_parties": "独立推理API平台(如PPIO的推理业务)、中小型GPU算力租赁商、未形成规模效应的算力中间商。"
       }
     },
     {
       "id": "raw-3",
-      "title": "人工智能发展的中国之道：前瞻布局 健康发展 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9leTZZRlJ6WnYwdURYZERKVGNMc3ZySDczNTlrRkl6R2FHMGJsRnk2WlN3RGNrR0I4a2NXSndWdHVXMUxhMzNnaTMwR0NPUXdRZHVGMkVmOUF1MHlKU3c0alFWbEc?oc=5",
-      "source": "手机网易网",
+      "title": "美军称对伊朗发起新一轮打击；国常会：要系统推进数字中国建设丨盘前情报 - 腾讯新闻",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGTmVOR1Z1S3RtcFdDaTJLNkhWOFZaREJaWEVBbGQ4NGY5NDZxZzBTaUI4TmVZRzBpVjJlMEVyS0RFZmctM1N6U0hMTjhIeFQ1c3RTb0lR?oc=5",
+      "source": "腾讯新闻",
       "category": "政策",
-      "published": "2026-07-15",
-      "body_snippet": "人工智能发展的中国之道：前瞻布局 健康发展 手机网易网",
-      "_query_boost": 40,
+      "published": "2026-07-13",
+      "body_snippet": "美军称对伊朗发起新一轮打击；国常会：要系统推进数字中国建设丨盘前情报 腾讯新闻",
+      "_query_boost": 25,
       "lane": "attend",
       "signals": [
         "🏛️"
       ],
-      "is_deep_read": false,
+      "is_deep_read": true,
       "compass_triggered": [
         "c1"
       ],
-      "summary_cn": "文章从宏观层面阐述我国人工智能发展坚持前瞻布局与健康发展的总体思路，反映出决策层对AI产业持续友好但又强调规范治理的复合姿态。对PPIO而言，积极的政策定调意味着算力基础设施仍将获得长期支持，边缘云作为分布式算力形态有望受益于新基建与AI应用下沉；但“健康发展”的提法则提示监管将更注重合规性，未来在数据安全、跨境算力调度、增值电信牌照等方面可能出台细则，需提前评估对港股上市的合规影响，确保业务边界与政策导向同频。",
+      "summary_cn": "国务院常务会议明确提出‘要系统推进数字中国建设’，这是继2023年数字中国整体布局规划后的又一次高层定调。此前相关建设带动全国数据中心机架数突破800万，算力总规模超230EFLOPS。此次推进将聚焦跨部门数据贯通、城市级算力调度、工业互联网等领域。对PPIO而言，数字中国建设必然要求算力下沉至区县和产业园区，边缘分布式算力作为云-边-端协同的关键一环，有望被纳入地方政府的新基建采购清单，尤其在东数西算节点城市之外的边缘节点部署机会将增多。但国常会同时强调统筹协调，可能会促使运营商和大型云厂商加速边缘云布局，挤压初创企业的地盘。",
       "ppio_signal": {
-        "positive": "高层对AI算力的战略重视将为行业提供政策红利，边缘云作为关键基础设施有望获得更多国家及地方资源倾斜。",
-        "risk": "若监管在后继细则中强化对算力平台的安全审查与牌照要求，可能抬升PPIO的合规成本与上市不确定性。"
+        "positive": "政策直接推动边缘计算节点的需求增长，PPIO的共享式边缘算力模式可降低政府和企业建设边缘节点的成本，有机会成为数字中国建设的‘轻资产’服务商。",
+        "risk": "大型云厂商和运营商可能借‘数字中国’项目获得政府优先合作权，通过补贴和捆绑服务挤占PPIO的市场份额；数据治理标准化可能要求更复杂的合规架构。",
+        "beneficiaries": "边缘计算设备商(浪潮、华为)、智慧城市集成商、AI推理应用企业、PPIO等分布式算力平台。",
+        "pressure_parties": "传统IDC运营商未提供边缘服务的、仅提供集中式大算力的算力服务商。"
       }
     },
     {
-      "id": "raw-4",
-      "title": "AI算力从“规模上半场”转向“应用下半场”，CPU需求持续走高|智能算力|Token|郑州市|芯片|河南省_手机新浪网 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNRW92SGVod2FuNHYxSHFHTnVOQS1hbTMwaUpnVnhaNkViRk9LRTY5dXpOV0lndDZxRFBMVDBoa3FxN1FNMWNvTmZ0RHVWMmpQd3pWWmRoTk1lbzNwYWswcE5uQ1ZDSC1lNmNncHpaaXQtd0s3TEhTS0ZGemRfd2dwaFBXWlg0QlFiS3ZCeEdfdWd4aENqajh6bkZ6YnR0SkdDSE0waHJweFlkYUZqV0s5VzZ2YkQ0VlNvNnVnUTFzdldfOFdIQV9SeWNZSXBwdFNCa1RSRGJvTFJ2b0xSZ2pmYk45Ukppc0sxZUpEaEZYSUd3SUUxYy16V296c3ZTWTVIYThpYXd0d0hIYjRxejR6LXZWdWhadUxHaEFVSGQ3SEo3V3JBX3c?oc=5",
-      "source": "新浪财经",
-      "category": "技术",
-      "published": "2026-07-11",
-      "body_snippet": "AI算力从“规模上半场”转向“应用下半场”，CPU需求持续走高|智能算力|Token|郑州市|芯片|河南省_手机新浪网 新浪财经",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "分析称AI算力正从规模建设转向应用落地，通用CPU需求走高，可能改变边缘推理算力的需求结构，值得长期关注。",
-      "ppio_signal": null
-    },
-    {
       "id": "raw-5",
-      "title": "算力过剩是个伪命题 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdnJYd0ZYOHh1Y0t3c0Zpc1NhNlpxVzVhSWpMc2pVS3ppTFIzenpPLTk1VnJETXBFMDY1c3NkTjRRMHhVOVg1NkV0bWwxelNDUG43SzZHbV83akZvRzhyTWtYRFpMekdNbFdOb3JLUzJkb01tS1J4bDQwaGpucC1HSzRxcUFuN2JFak9hbmFoeXZ4Zw?oc=5",
-      "source": "新浪财经",
+      "title": "2026下半年十大主线科技：AI算力+脑机接口+6G+商业航天+低空经济 - 手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qdkJwNThTdHluVFVGQ0NEN1owVUNlMTQ3dW1pbERDRkFuMTFIMXcwZVRvRGxwSTV1RklRcWlOVl90ekZ2YWRubkZJRnp0WDAyd3JDQmNISm1uV1JydkkxWDl3?oc=5",
+      "source": "手机网易网",
       "category": "技术",
-      "published": "2026-07-11",
-      "body_snippet": "算力过剩是个伪命题 新浪财经",
-      "_query_boost": 0,
+      "published": "2026-07-12",
+      "body_snippet": "2026下半年十大主线科技：AI算力+脑机接口+6G+商业航天+低空经济 手机网易网",
+      "_query_boost": 25,
       "lane": "silent",
       "signals": [
         "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [],
-      "summary_cn": "行业观点认为算力过剩是伪命题，实际资源仍存缺口，这将支撑边缘算力等分布式资源的长期需求预期。",
+      "summary_cn": "媒体预测2026下半年十大科技主线，AI算力位列首位，叠加脑机接口、6G等，显示边缘智能和低延迟网络需求将持续扩张，对PPIO的分布式算力底座属宏观利好。",
       "ppio_signal": null
     }
   ]

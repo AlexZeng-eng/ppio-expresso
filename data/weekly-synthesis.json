@@ -1,108 +1,140 @@
 {
-  "generated_at": "2026-07-15T01:47:41.906Z",
-  "date": "2026-07-15",
-  "date_label": "2026-07-15",
-  "mainline": "竞品密集冲刺IPO、工信部对接全球AI治理，监管提速与资本竞争双重压力；H200芯片出口松动带来一丝暖意。",
+  "generated_at": "2026-07-17T01:17:05.285Z",
+  "date": "2026-07-17",
+  "date_label": "2026-07-17",
+  "mainline": "习近平将出席世界人工智能大会释放最强音，国常会定调适度超前布局数字基建，政策红利加码；但运营商集体推Token套餐、硅基流动负毛利冲刺港股，竞争与估值压力同增。",
   "signal_summary": {
-    "🏛️": 2,
-    "📜": 0,
+    "🏛️": 6,
+    "📜": 2,
     "⚔️": 2,
     "💰": 1,
-    "🌏": 2,
+    "🌏": 0,
     "🔬": 0
   },
   "speed_read": {
     "positive": [
-      "高层信号：工信部李乐成出席联合国AI治理对话，释放算力基建获得政策持续支持的预期",
-      "三家中国公司获准购买英伟达H200芯片，高端推理芯片供应梗阻出现阶段性松动",
-      "人民日报定调‘前瞻布局健康发展’，边缘云纳入国家算力网络的长期逻辑未变"
+      "高层信号：习近平出席2026世界人工智能大会并发表主旨讲话，AI战略地位再提升",
+      "高层信号：国常会明确适度超前布局数字基础设施，边缘算力及网络建设审批与资金有望加速",
+      "国常会提出系统推进数字中国建设，算力网通信网目标首次量化，打开长期增长空间"
     ],
     "risk": [
-      "竞品硅基流动增聘华兴证券加速IPO，AI算力‘黑马’也启动上市，资本与客户资源争夺陡升",
-      "AI全球治理对话暗示国内监管与立法节奏可能加快，VIE备案、数据合规不确定性同步放大",
-      "赛道资产证券化节奏若超前于PPIO，可能面临二级市场定价窗口收窄的被动局面"
+      "三大运营商齐推Token套餐，算力服务加速大众化，边缘云定价权和客户黏性面临挑战",
+      "《国务院关于对外投资的规定》施行，VIE架构及备案不确定性增加，IPO合规窗口可能收窄",
+      "硅基流动以77亿估值冲刺港股但负毛利，竞品估值压力可能传导至PPIO定价叙事"
     ]
   },
   "wind_indicators": {
-    "policy_heat": 3,
+    "policy_heat": 5,
     "competitor_heat": 4,
     "capital_heat": 3,
-    "overseas_heat": 3,
+    "overseas_heat": 1,
     "overall_sentiment": "升温",
-    "summary": "竞争火药味上升，芯片供应松动对冲，政策基调积极但隐含监管提速，整体‘升温’博弈"
+    "summary": "最高层密集为AI和数字基建定调，政策热度年度最高；但竞品迅速抢占大众算力市场，叠加上市合规新规，风险面不可忽视。"
   },
   "competitor_updates": [
-    "硅基流动增聘华兴证券为香港整体协调人，加速冲刺‘AI Token工厂第一股’",
-    "某AI算力‘黑马’启动IPO进程，或为边缘云/分布式算力平台，直接争夺赛道注意力"
+    "[竞品] 硅基流动：冲刺港股，估值77亿元，但负毛利状态持续，日处理千亿Token，被称为‘Token工厂第一股’",
+    "[竞品] 三大运营商：同步推出Token计费AI算力套餐，推动算力‘大众化’，直接在推理服务层与PPIO形成价格竞争"
   ],
   "item_axes": [
     {
       "id": "1",
-      "title": "硅基流动增聘华兴证券为香港上市整体协调人，冲",
-      "policy_axis": 0.2,
-      "competition_axis": 0.8,
+      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光",
+      "policy_axis": 0.9,
+      "competition_axis": 0,
       "impact_score": 4,
-      "axis_reason": "竞品加速IPO，资本市场竞争烈度显著上升，可能压缩PPIO估值空间"
+      "axis_reason": "高层明确算力网建设目标，直接利好PPIO边缘云基建叙事"
     },
     {
       "id": "2",
-      "title": "李乐成出席联合国首届人工智能治理全球对话：愿",
-      "policy_axis": -0.5,
+      "title": "国常会定调新兴产业发展主线 券商：中长期布局三大高景气赛道",
+      "policy_axis": 0.7,
       "competition_axis": 0,
       "impact_score": 3,
-      "axis_reason": "对接国际治理框架，或催化国内AI立法提速，增加合规投放和备案不确定性"
+      "axis_reason": "新兴产业主线若含数字与算力，将进一步强化赛道资本关注"
     },
     {
       "id": "3",
-      "title": "三家中国公司获准购买英伟达H200芯片，引发市场关",
-      "policy_axis": 0.7,
-      "competition_axis": 0.4,
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？",
+      "policy_axis": 0.2,
+      "competition_axis": 0.8,
       "impact_score": 4,
-      "axis_reason": "高端芯片出口松动利好行业，但获准公司可能攫取先发优势，构成短期竞争威胁"
+      "axis_reason": "运营商凭借渠道和成本优势切入推理市场，对PPIO形成直接竞争威胁"
     },
     {
       "id": "4",
-      "title": "AI算力“黑马”要IPO了",
-      "policy_axis": 0,
-      "competition_axis": 0.9,
-      "impact_score": 5,
-      "axis_reason": "潜在边缘云竞品启动IPO，直接争夺资金与客户，赛道资本化竞赛白热化"
+      "title": "《国务院关于对外投资的规定》公布自7月1日起施行_手机新浪网",
+      "policy_axis": -0.4,
+      "competition_axis": 0,
+      "impact_score": 3,
+      "axis_reason": "对外投资新规可能收紧VIE备案审查，增加港股IPO合规不确定性"
     },
     {
       "id": "5",
-      "title": "人工智能发展的中国之道：前瞻布局 健康发展",
-      "policy_axis": 0.6,
+      "title": "智能伙伴，共创未来：习近平将出席2026世界人工智能大会大会开幕式并发表主旨讲话，大会有5大亮点，今日已一票难求",
+      "policy_axis": 1,
+      "competition_axis": 0,
+      "impact_score": 5,
+      "axis_reason": "最高领导人亲自站台，为全年AI产业注入最强政策信心"
+    },
+    {
+      "id": "6",
+      "title": "国常会提出“适度超前布局数字基础设施” AI从业者：数字基建提速助力想法落地",
+      "policy_axis": 0.9,
+      "competition_axis": 0,
+      "impact_score": 4,
+      "axis_reason": "适度超前基建直指算力等新设施，有望迅速拉动边缘节点部署需求"
+    },
+    {
+      "id": "7",
+      "title": "习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话",
+      "policy_axis": 0.7,
+      "competition_axis": 0,
+      "impact_score": 5,
+      "axis_reason": "最高层站台叠加全球治理议题，长远利好但可能推动国内监管细则跟进"
+    },
+    {
+      "id": "8",
+      "title": "硅基流动冲刺港股：77亿估值背后，“Token工厂第一股”困于负毛利",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 4,
+      "axis_reason": "同类竞品IPO暴露商业模式与毛利问题，市场对AI Infra估值更趋审慎"
+    },
+    {
+      "id": "9",
+      "title": "美军称对伊朗发起新一轮打击；国常会：要系统推进数字中国建设丨盘前情报",
+      "policy_axis": 0.8,
       "competition_axis": 0,
       "impact_score": 3,
-      "axis_reason": "宏观定调支持算力基建，但强调规范治理，对边缘云而言机遇与合规要求并存"
+      "axis_reason": "系统推进数字中国将加速算力需求与标准化，利于持牌合规的边缘云平台"
     }
   ],
   "ppio_index": {
-    "score": 65,
-    "delta": -10,
+    "score": 64,
+    "delta": -1,
     "components": {
-      "policy_tailwind": 35,
-      "competitive_pressure": -30,
+      "policy_tailwind": 42,
+      "competitive_pressure": -25,
       "capital_sentiment": 15,
-      "regulatory_risk": -15,
-      "overseas_headwind": 10
+      "regulatory_risk": -10,
+      "overseas_headwind": -8
     },
-    "interpretation": "竞品扎堆上市推高竞争压力，监管对标全球加快担忧，抵消政策暖意与芯片松动利好，指数从高位回落"
+    "interpretation": "最强政策红利对冲竞品施压与上市合规新规，指数微降但仍偏暖，结构性博弈加剧"
   },
   "policy_momentum": [
     {
-      "thread": "AI治理立法",
-      "last_signal": "国内立法研讨与征求意见",
-      "this_signal": "工信部领导出席联合国全球对话表态",
+      "thread": "数字基建提速",
+      "last_signal": "此前国务院发布数字经济相关规划",
+      "this_signal": "国常会部署适度超前布局+系统推进数字中国建设",
       "level_delta": "升级",
-      "interpretation": "由国内讨论升至国际对接，立法节奏有望加速，VIE架构合规风险上升"
+      "interpretation": "从规划进入加速落实阶段，边缘云基建投资预期显著增强"
     },
     {
-      "thread": "算力产业政策",
-      "last_signal": "鼓励算力基础设施建设",
-      "this_signal": "官媒文章重申前瞻布局健康发展",
-      "level_delta": "持平",
-      "interpretation": "延续支持态度，但‘健康’二字提示可持续与合规，扩张红利边际收敛"
+      "thread": "境外投资合规",
+      "last_signal": "未知",
+      "this_signal": "国务院公布《对外投资规定》",
+      "level_delta": "首现",
+      "interpretation": "新增境外投资法规出台，港股IPO面临更明确合规审查，需重新评估备案时间表"
     }
   ],
   "expected_but_absent": [
