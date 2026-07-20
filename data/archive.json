@@ -1,6 +1,49 @@
 {
-  "updated_at": "2026-07-17T01:17:05.386Z",
+  "updated_at": "2026-07-20T01:56:26.882Z",
   "days": [
+    {
+      "date": "2026-07-20",
+      "mainline": "国常会定调算力网建设利好，但商汤、运营商密集布局太空与Token算力，竞争急剧升温",
+      "signal_summary": {
+        "🏛️": 2,
+        "📜": 1,
+        "⚔️": 5,
+        "💰": 0,
+        "🌏": 0,
+        "🔬": 0
+      },
+      "wind_indicators": {
+        "policy_heat": 5,
+        "competitor_heat": 5,
+        "capital_heat": 3,
+        "overseas_heat": 3,
+        "overall_sentiment": "升温",
+        "summary": "政策面强力助推算力网建设，但竞品密集发布太空和运营商算力战略，市场情绪偏积极但竞争烈度骤升"
+      },
+      "ppio_index": {
+        "score": 65,
+        "delta": 1,
+        "components": {
+          "policy_tailwind": 38,
+          "competitive_pressure": -22,
+          "capital_sentiment": 14,
+          "regulatory_risk": -9,
+          "overseas_headwind": -6
+        },
+        "interpretation": "政策利好大幅拉升指数，但竞品密集发力和监管风险部分抵消，整体微升"
+      },
+      "item_count": {
+        "total": 14,
+        "attend": 8,
+        "silent": 6
+      },
+      "competitor_updates": [
+        "商汤：年内发射首批算力卫星，拟建5个万卡国产集群",
+        "三大运营商：联合推出Token套餐，按量售算力，推动AI算力大众化",
+        "中国电信：适度超前建设算力基础设施，未来两年新增20个大型数据中心",
+        "优刻得：联合上海理工发布太空算力样机系统，瞄准在轨边缘计算"
+      ]
+    },
     {
       "date": "2026-07-17",
       "mainline": "习近平将出席世界人工智能大会释放最强音，国常会定调适度超前布局数字基建，政策红利加码；但运营商集体推Token套餐、硅基流动负毛利冲刺港股，竞争与估值压力同增。",

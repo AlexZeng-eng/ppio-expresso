@@ -1,140 +1,139 @@
 {
-  "generated_at": "2026-07-17T01:17:05.285Z",
-  "date": "2026-07-17",
-  "date_label": "2026-07-17",
-  "mainline": "习近平将出席世界人工智能大会释放最强音，国常会定调适度超前布局数字基建，政策红利加码；但运营商集体推Token套餐、硅基流动负毛利冲刺港股，竞争与估值压力同增。",
+  "generated_at": "2026-07-20T01:56:26.781Z",
+  "date": "2026-07-20",
+  "date_label": "2026-07-20",
+  "mainline": "国常会定调算力网建设利好，但商汤、运营商密集布局太空与Token算力，竞争急剧升温",
   "signal_summary": {
-    "🏛️": 6,
-    "📜": 2,
-    "⚔️": 2,
-    "💰": 1,
+    "🏛️": 2,
+    "📜": 1,
+    "⚔️": 5,
+    "💰": 0,
     "🌏": 0,
     "🔬": 0
   },
   "speed_read": {
     "positive": [
-      "高层信号：习近平出席2026世界人工智能大会并发表主旨讲话，AI战略地位再提升",
-      "高层信号：国常会明确适度超前布局数字基础设施，边缘算力及网络建设审批与资金有望加速",
-      "国常会提出系统推进数字中国建设，算力网通信网目标首次量化，打开长期增长空间"
+      "国常会重磅部署加快通信网、算力网建设，政策利好明确，边缘云受益",
+      "中共政治局第二次集体学习AI，顶层战略重视有望加速算力基础设施投资"
     ],
     "risk": [
-      "三大运营商齐推Token套餐，算力服务加速大众化，边缘云定价权和客户黏性面临挑战",
-      "《国务院关于对外投资的规定》施行，VIE架构及备案不确定性增加，IPO合规窗口可能收窄",
-      "硅基流动以77亿估值冲刺港股但负毛利，竞品估值压力可能传导至PPIO定价叙事"
+      "《国务院关于对外投资的规定》7月1日施行，VIE架构审批或更严格，增加香港IPO不确定性",
+      "商汤发射算力卫星、三大运营商推Token套餐，分布式算力竞争从地面延伸至太空，直接挤压PPIO市场空间"
     ]
   },
   "wind_indicators": {
     "policy_heat": 5,
-    "competitor_heat": 4,
+    "competitor_heat": 5,
     "capital_heat": 3,
-    "overseas_heat": 1,
+    "overseas_heat": 3,
     "overall_sentiment": "升温",
-    "summary": "最高层密集为AI和数字基建定调，政策热度年度最高；但竞品迅速抢占大众算力市场，叠加上市合规新规，风险面不可忽视。"
+    "summary": "政策面强力助推算力网建设，但竞品密集发布太空和运营商算力战略，市场情绪偏积极但竞争烈度骤升"
   },
   "competitor_updates": [
-    "[竞品] 硅基流动：冲刺港股，估值77亿元，但负毛利状态持续，日处理千亿Token，被称为‘Token工厂第一股’",
-    "[竞品] 三大运营商：同步推出Token计费AI算力套餐，推动算力‘大众化’，直接在推理服务层与PPIO形成价格竞争"
+    "商汤：年内发射首批算力卫星，拟建5个万卡国产集群",
+    "三大运营商：联合推出Token套餐，按量售算力，推动AI算力大众化",
+    "中国电信：适度超前建设算力基础设施，未来两年新增20个大型数据中心",
+    "优刻得：联合上海理工发布太空算力样机系统，瞄准在轨边缘计算"
   ],
   "item_axes": [
     {
       "id": "1",
-      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光",
-      "policy_axis": 0.9,
-      "competition_axis": 0,
-      "impact_score": 4,
-      "axis_reason": "高层明确算力网建设目标，直接利好PPIO边缘云基建叙事"
+      "title": "商汤计划年内发射首批算力卫星",
+      "policy_axis": 0.1,
+      "competition_axis": 0.9,
+      "impact_score": 5,
+      "axis_reason": "政策中性，但竞品直接布局太空边缘算力，威胁PPIO分布式推理场景"
     },
     {
       "id": "2",
-      "title": "国常会定调新兴产业发展主线 券商：中长期布局三大高景气赛道",
-      "policy_axis": 0.7,
-      "competition_axis": 0,
-      "impact_score": 3,
-      "axis_reason": "新兴产业主线若含数字与算力，将进一步强化赛道资本关注"
-    },
-    {
-      "id": "3",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？",
+      "title": "三大运营商齐推Token套餐 AI算力",
       "policy_axis": 0.2,
       "competition_axis": 0.8,
       "impact_score": 4,
-      "axis_reason": "运营商凭借渠道和成本优势切入推理市场，对PPIO形成直接竞争威胁"
+      "axis_reason": "政策微利（普惠算力），但运营商以网络和渠道优势切入，对PPIO市场侵蚀明显"
+    },
+    {
+      "id": "3",
+      "title": "中国电信柯瑞文：将适度超前建设",
+      "policy_axis": 0.3,
+      "competition_axis": 0.7,
+      "impact_score": 4,
+      "axis_reason": "呼应国常会，政策利好，但电信巨头扩产加剧基础设施层面的竞争"
     },
     {
       "id": "4",
-      "title": "《国务院关于对外投资的规定》公布自7月1日起施行_手机新浪网",
-      "policy_axis": -0.4,
-      "competition_axis": 0,
-      "impact_score": 3,
-      "axis_reason": "对外投资新规可能收紧VIE备案审查，增加港股IPO合规不确定性"
+      "title": "算力产业，迎重磅消息！电信巨头",
+      "policy_axis": 0.3,
+      "competition_axis": 0.7,
+      "impact_score": 4,
+      "axis_reason": "与上条类似，政策助推+电信扩张对PPIO构成双重压力"
     },
     {
       "id": "5",
-      "title": "智能伙伴，共创未来：习近平将出席2026世界人工智能大会大会开幕式并发表主旨讲话，大会有5大亮点，今日已一票难求",
-      "policy_axis": 1,
-      "competition_axis": 0,
-      "impact_score": 5,
-      "axis_reason": "最高领导人亲自站台，为全年AI产业注入最强政策信心"
+      "title": "瞄准未来太空数据中心，优刻得与",
+      "policy_axis": 0.2,
+      "competition_axis": 0.8,
+      "impact_score": 3,
+      "axis_reason": "太空边缘计算概念，技术成熟度低但方向与PPIO边缘云重叠，威胁中等"
     },
     {
       "id": "6",
-      "title": "国常会提出“适度超前布局数字基础设施” AI从业者：数字基建提速助力想法落地",
+      "title": "人工智能主題 兩次進入中共中央政",
       "policy_axis": 0.9,
       "competition_axis": 0,
       "impact_score": 4,
-      "axis_reason": "适度超前基建直指算力等新设施，有望迅速拉动边缘节点部署需求"
+      "axis_reason": "顶层政策强力利好，直接推动算力基建和AI应用，PPIO边缘云受益"
     },
     {
       "id": "7",
-      "title": "习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话",
-      "policy_axis": 0.7,
+      "title": "国常会重磅部署！加快通信网、算",
+      "policy_axis": 1,
       "competition_axis": 0,
       "impact_score": 5,
-      "axis_reason": "最高层站台叠加全球治理议题，长远利好但可能推动国内监管细则跟进"
+      "axis_reason": "国常会最高级别部署，明确算力网为基建重点，对PPIO是极大利好信号"
     },
     {
       "id": "8",
-      "title": "硅基流动冲刺港股：77亿估值背后，“Token工厂第一股”困于负毛利",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 4,
-      "axis_reason": "同类竞品IPO暴露商业模式与毛利问题，市场对AI Infra估值更趋审慎"
-    },
-    {
-      "id": "9",
-      "title": "美军称对伊朗发起新一轮打击；国常会：要系统推进数字中国建设丨盘前情报",
-      "policy_axis": 0.8,
+      "title": "《国务院关于对外投资的规定》公",
+      "policy_axis": -0.6,
       "competition_axis": 0,
-      "impact_score": 3,
-      "axis_reason": "系统推进数字中国将加速算力需求与标准化，利于持牌合规的边缘云平台"
+      "impact_score": 4,
+      "axis_reason": "监管收紧，对外投资规定增加VIE架构合规成本，直接关联香港IPO进程"
     }
   ],
   "ppio_index": {
-    "score": 64,
-    "delta": -1,
+    "score": 65,
+    "delta": 1,
     "components": {
-      "policy_tailwind": 42,
-      "competitive_pressure": -25,
-      "capital_sentiment": 15,
-      "regulatory_risk": -10,
-      "overseas_headwind": -8
+      "policy_tailwind": 38,
+      "competitive_pressure": -22,
+      "capital_sentiment": 14,
+      "regulatory_risk": -9,
+      "overseas_headwind": -6
     },
-    "interpretation": "最强政策红利对冲竞品施压与上市合规新规，指数微降但仍偏暖，结构性博弈加剧"
+    "interpretation": "政策利好大幅拉升指数，但竞品密集发力和监管风险部分抵消，整体微升"
   },
   "policy_momentum": [
     {
-      "thread": "数字基建提速",
-      "last_signal": "此前国务院发布数字经济相关规划",
-      "this_signal": "国常会部署适度超前布局+系统推进数字中国建设",
+      "thread": "算力网建设",
+      "last_signal": "发改委/工信部规划",
+      "this_signal": "国常会部署",
       "level_delta": "升级",
-      "interpretation": "从规划进入加速落实阶段，边缘云基建投资预期显著增强"
+      "interpretation": "从部门规划上升至国务院层面，建设将提速，利好PPIO"
     },
     {
-      "thread": "境外投资合规",
+      "thread": "AI顶层战略",
+      "last_signal": "政治局第一次学习",
+      "this_signal": "政治局第二次学习",
+      "level_delta": "升级",
+      "interpretation": "AI战略地位再提升，算力基础设施获国家背书"
+    },
+    {
+      "thread": "VIE备案与对外投资",
       "last_signal": "未知",
-      "this_signal": "国务院公布《对外投资规定》",
+      "this_signal": "国务院公布规定施行",
       "level_delta": "首现",
-      "interpretation": "新增境外投资法规出台，港股IPO面临更明确合规审查，需重新评估备案时间表"
+      "interpretation": "对外投资新规落地，VIE架构审批趋严，IPO不确定性增加"
     }
   ],
   "expected_but_absent": [
