@@ -120,7 +120,10 @@ ${signalList}
 例外（全部 lane:attend）：
 - 国常会/中央/部委级政策全部 lane:attend，is_deep_read:true
 - 习近平/李强/政治局常委调研或讲话涉及AI/算力，全部 lane:attend，is_deep_read:true
-- 无问芯穹及 AI Infra 主要竞品（硅基流动/优刻得/七牛云/字节AI基建/阿里云/华为）的融资、产品、战略动态，全部 lane:attend
+- 习近平出席世界人工智能大会(WAIC)/AI全球治理会议，全部 lane:attend，is_deep_read:true — 最高规格战略意志信号
+- 部委官方数据发布（如智能算力规模/上架率/用电量等），全部 lane:attend，is_deep_read:true — 不是快讯
+- 无问芯穹及 AI Infra 主要竞品（硅基流动/优刻得/七牛云/字节AI基建/阿里云/华为/阶跃星辰/智谱）的融资、产品、战略、收购动态，全部 lane:attend
+- 美国数据中心抗议/反AI基建信号 — 海外基建阻力，lane:attend
 - 模型发布或开源（如 GLM/DeepSeek/通义千问/Pangu 等新版本、开源框架、推理优化）— 影响推理需求格局，lane:attend
 - AI 模型出口管制/限制（如 Anthropic/OpenAI 模型访问管制）— 中美技术摩擦信号，lane:attend
 - 边缘算力/分布式算力赛道的融资事件（不论金额），lane:attend
@@ -258,10 +261,18 @@ function ruleBasedClassify(item, config) {
   if (/国常会|国务院常务会议|国务院.*AI|国务院.*算力/.test(title)) lane = 'attend';
   if (/数字中国.*算力|数字基础设施.*超前|新兴支柱产业|新兴产业.*全链条|数智化.*算力/.test(title)) lane = 'attend';
   if (/习近平.*人工智能|习近平.*算力|习近平.*数字经济|习近平.*未来产业|习近平.*具身智能/.test(title)) lane = 'attend';
+  // WAIC/习近平主旨讲话 — 最高规格战略意志信号
+  if (/习近平.*人工智能大会|习近平.*WAIC|世界人工智能大会.*主旨|世界人工智能大会.*开幕|WAIC.*算力|WAIC.*大模型/.test(title)) lane = 'attend';
   if (/政治局.*集体学习.*人工智能|政治局.*集体学习.*算力|政治局.*集体学习.*未来产业/.test(title)) lane = 'attend';
   if (/李强.*人工智能|李强.*算力|总理.*算力/.test(title)) lane = 'attend';
   if (/政治局.*人工智能|政治局.*算力|政治局常委.*AI/.test(title)) lane = 'attend';
   if (/无问芯穹|AI.*Infra/.test(title)) lane = 'attend';
+  // 阶跃星辰/智谱收购 — 竞品重大动态
+  if (/阶跃星辰|Step.*AOS|STEPX|智谱.*收购|智谱.*中科加禾/.test(title)) lane = 'attend';
+  // 美国数据中心抗议 — 反AI基建信号
+  if (/数据中心.*抗议|数据中心.*反对|data center.*protest|data center.*backlash/.test(title)) lane = 'attend';
+  // 工信部AI+软件行动方案 / 官方数据发布
+  if (/工信部.*软件.*行动|工信部.*技术市场|工信部.*算力.*规模|智能算力.*EFLOPS|上架率/.test(title)) lane = 'attend';
   // 部委重大政策
   if (/工信部.*算力|算力银行|算力.*补贴|算力.*门槛/.test(title)) lane = 'attend';
   if (/发改委.*算力|发改委.*AI|发改委.*数字经济/.test(title)) lane = 'attend';

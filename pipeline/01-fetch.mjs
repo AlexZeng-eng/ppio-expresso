@@ -322,6 +322,10 @@ const PPIO_KEYWORDS = {
     /数字基础设施.*超前/, /算力网.*建设.*新一代/, /数智化.*算力/,
     /新兴支柱产业.*AI/, /新兴支柱产业.*算力/, /新兴产业.*规模化.*AI/, /新兴产业.*全链条/,
     /总理.*算力/, /总理.*人工智能/, /总理.*AI/,
+    // WAIC/习近平主旨讲话 — 最高规格战略意志信号
+    /习近平.*人工智能大会/, /习近平.*WAIC/, /世界人工智能大会.*开幕/, /世界人工智能大会.*主旨/,
+    /习近平.*AI.*治理/, /习近平.*人工智能.*四点/, /人工智能.*全球治理.*习近平/,
+    /WAIC.*算力/, /WAIC.*大模型/, /WAIC.*智能体/,
     /六张网/, /算力网.*建设/, /一体化算力网/,
     // OPC / 个人AI创业
     /OPC/, /一人公司.*AI/, /个人.*AI.*创业/, /AI.*个人创业/,
@@ -352,6 +356,12 @@ const PPIO_KEYWORDS = {
     // 竞品产品发布
     /Token工厂/, /硅基流动.*运营商/, /无问芯穹.*一体机/, /无问芯穹.*Mizar/,
     /优刻得.*全球.*节点/, /UCloud.*可用区/,
+    // 阶跃星辰 — 智能体OS/AI终端
+    /阶跃星辰/, /Step.*AOS/, /STEPX/, /阶跃.*发布/,
+    // 智谱 — 收购/AI Infra/国产算力适配
+    /智谱.*收购/, /智谱.*中科加禾/, /智谱.*Infra/, /智谱.*国产.*算力/,
+    // 美国数据中心抗议 — 反AI基建信号
+    /数据中心.*抗议/, /数据中心.*反对/, /反.*AI.*基建/, /数据中心.*抗议.*蔓延/,
     // 欧盟云主权/技术主权
     /欧盟.*云.*法案/, /云与人工智能发展法案/, /技术主权.*一揽子/, /欧盟.*云主权/,
     /EU.*Cloud.*AI.*Act/i, /技术主权.*芯片法案/,
@@ -622,6 +632,9 @@ function entitySignature(title) {
     ['Token.*套餐|算力套餐|运营商.*Token|Token.*运营商|卖Token', '运营商Token套餐'],
     ['无问芯穹', '无问芯穹'],
     ['硅基流动', '硅基流动'],
+    ['阶跃星辰|Step.*AOS|STEPX', '阶跃星辰'],
+    ['智谱.*收购|智谱.*中科加禾|智谱.*Infra', '智谱收购'],
+    ['数据中心.*抗议|data center.*protest', '美国数据中心抗议'],
     ['七牛云|七牛.*AI', '七牛云'],
     ['优刻得|UCloud.*AI', '优刻得'],
     ['Baseten', 'Baseten'],
@@ -684,8 +697,13 @@ function buildSearchQueries(config) {
   queries.push({ q: '新兴产业 基础研究 软硬件攻关 应用牵引 2026', category: '政策', boost: 20 });
   queries.push({ q: '数字中国建设 算力网 数智化 新一代通信网 2026', category: '政策', boost: 25 });
   queries.push({ q: '李强 数字中国 新兴产业 算力网 部署 2026', category: '政策', boost: 25 });
-  queries.push({ q: '习近平 人工智能 算力 调研 部署 2026', category: '政策' });
+  queries.push({ q: '习近平 人工智能 算力 调研 部署 2026', category: '政策', boost: 45 });
   queries.push({ q: '习近平 未来产业 具身智能 量子 讲话 2026', category: '政策', boost: 40 });
+  // WAIC 世界人工智能大会 — 最高规格AI信号
+  queries.push({ q: '习近平 世界人工智能大会 主旨讲话 2026', category: '政策', boost: 50 });
+  queries.push({ q: '世界人工智能大会 WAIC 2026 上海 开幕', category: '政策', boost: 35 });
+  queries.push({ q: 'WAIC 人工智能 全球治理 习近平 四点主张 2026', category: '政策', boost: 45 });
+  queries.push({ q: '世界人工智能大会 算力 大模型 发布 2026', category: '政策', boost: 25 });
   queries.push({ q: '政治局集体学习 未来产业 人工智能 2026', category: '政策', boost: 35 });
   queries.push({ q: '李强 人工智能 算力 数字经济 调研 2026', category: '政策' });
   queries.push({ q: '总理 算力 AI 基础设施 部署 2026', category: '政策' });
@@ -715,6 +733,9 @@ function buildSearchQueries(config) {
   queries.push({ q: '网信办 数据安全 跨境 合规', category: '政策' });
   queries.push({ q: '国家人工智能产业投资基金 算力 布局', category: '政策' });
   queries.push({ q: '财政部 数字经济 专项资金 补贴', category: '政策' });
+  // 工信部 AI+软件行动方案 + 技术市场
+  queries.push({ q: '工信部 人工智能 软件 行动方案 2026', category: '政策', boost: 25 });
+  queries.push({ q: '工信部 技术市场 人工智能 软件智能化 2026', category: '政策', boost: 20 });
 
   // 政策 — 上海市级政府
   queries.push({ q: '上海市政府 人工智能 算力 政策 2026', category: '政策' });
@@ -786,6 +807,13 @@ function buildSearchQueries(config) {
   queries.push({ q: '优刻得 UCloud AI 算力 融资', category: '竞品' });
   queries.push({ q: '优刻得 UCloud 全球化 海外节点 2026', category: '竞品', boost: 15 });
   queries.push({ q: 'AI基础设施 AI Infra 融资 2026', category: '竞品' });
+  // 阶跃星辰 — 智能体OS/AI终端
+  queries.push({ q: '阶跃星辰 智能体 操作系统 AI手机 发布 2026', category: '竞品', boost: 25 });
+  queries.push({ q: '阶跃星辰 Step AOS STEPX 产品 2026', category: '竞品', boost: 20 });
+  // 智谱 — 收购/AI Infra/国产算力适配
+  queries.push({ q: '智谱 收购 中科加禾 AI Infra 2026', category: '竞品', boost: 30 });
+  queries.push({ q: '智谱 GLM 国产算力 适配 编译 2026', category: '竞品', boost: 20 });
+  queries.push({ q: '智谱 收购 融资 产品 发布 2026', category: '竞品', boost: 15 });
   // 大厂AI资本支出 — 竞品生态压力
   queries.push({ q: '字节跳动 AI 基础设施 投入 2026', category: '竞品', boost: 20 });
   queries.push({ q: '字节跳动 算力 芯片 自研 2026', category: '竞品', boost: 15 });
@@ -875,6 +903,10 @@ function buildSearchQueries(config) {
   queries.push({ q: '中资 海外子公司 英伟达 芯片 出口许可 2026', category: '海外', boost: 25 });
   queries.push({ q: '中国 美国 AI 出口管制 芯片 供应链', category: '海外' });
   queries.push({ q: '中俄 AI 合作 治理 标准', category: '海外' });
+  // 美国数据中心抗议 — 反AI基建信号
+  queries.push({ q: 'data center protest backlash US 2026', category: '海外', boost: 25 });
+  queries.push({ q: '美国 数据中心 抗议 反对 AI基建 2026', category: '海外', boost: 25 });
+  queries.push({ q: 'AI infrastructure opposition community resistance 2026', category: '海外', boost: 15 });
 
   // 海外媒体 — FT / Reuters / 联合早报
   queries.push({ q: 'site:ft.com China AI chip regulation 2026', category: '海外' });
