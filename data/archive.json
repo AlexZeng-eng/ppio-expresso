@@ -1,47 +1,46 @@
 {
-  "updated_at": "2026-07-20T01:56:26.882Z",
+  "updated_at": "2026-07-20T06:35:33.233Z",
   "days": [
     {
       "date": "2026-07-20",
-      "mainline": "国常会定调算力网建设利好，但商汤、运营商密集布局太空与Token算力，竞争急剧升温",
+      "mainline": "对外投资新规收紧IPO合规，算力基建急刹车信号与华为算力爆发并存，PPIO面临政策与竞争双重压力。",
       "signal_summary": {
-        "🏛️": 2,
+        "🏛️": 3,
         "📜": 1,
-        "⚔️": 5,
-        "💰": 0,
-        "🌏": 0,
-        "🔬": 0
+        "⚔️": 3,
+        "💰": 2,
+        "🌏": 1,
+        "🔬": 1
       },
       "wind_indicators": {
-        "policy_heat": 5,
-        "competitor_heat": 5,
+        "policy_heat": 4,
+        "competitor_heat": 4,
         "capital_heat": 3,
-        "overseas_heat": 3,
-        "overall_sentiment": "升温",
-        "summary": "政策面强力助推算力网建设，但竞品密集发布太空和运营商算力战略，市场情绪偏积极但竞争烈度骤升"
+        "overseas_heat": 2,
+        "overall_sentiment": "降温",
+        "summary": "政策面喜忧参半：算力地位提升但对外投资收紧；竞争加剧且盈利模式受质疑，资本情绪趋于谨慎。"
       },
       "ppio_index": {
-        "score": 65,
-        "delta": 1,
+        "score": 62,
+        "delta": -3,
         "components": {
-          "policy_tailwind": 38,
-          "competitive_pressure": -22,
-          "capital_sentiment": 14,
-          "regulatory_risk": -9,
-          "overseas_headwind": -6
+          "policy_tailwind": 34,
+          "competitive_pressure": -20,
+          "capital_sentiment": 13,
+          "regulatory_risk": -10,
+          "overseas_headwind": -5
         },
-        "interpretation": "政策利好大幅拉升指数，但竞品密集发力和监管风险部分抵消，整体微升"
+        "interpretation": "指数小幅回落，对外投资新规与算基建急刹车信号压制风险偏好，但国产算力爆发和算力地位提升提供支撑。"
       },
       "item_count": {
         "total": 14,
-        "attend": 8,
-        "silent": 6
+        "attend": 7,
+        "silent": 7
       },
       "competitor_updates": [
-        "商汤：年内发射首批算力卫星，拟建5个万卡国产集群",
-        "三大运营商：联合推出Token套餐，按量售算力，推动AI算力大众化",
-        "中国电信：适度超前建设算力基础设施，未来两年新增20个大型数据中心",
-        "优刻得：联合上海理工发布太空算力样机系统，瞄准在轨边缘计算"
+        "硅基流动冲刺港股IPO，估值77亿元，但毛利长期为负，2025年调整净亏损率仍超30%。",
+        "华为首展昇腾CloudMatrix 8.0集群，算力达H100同级别6.7倍，已实现千卡液冷部署。",
+        "国产算力链CPU紧俏、GPU爆发，2026上半年国产AI芯片出货量同比增超150%。"
       ]
     },
     {

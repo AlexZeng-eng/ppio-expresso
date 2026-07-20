@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T01:45:38.970Z",
+  "generated_at": "2026-07-20T06:31:43.847Z",
   "week": "2026-W30",
   "date_range": {
     "from": "2026-07-13",
@@ -10,150 +10,146 @@
   "items": [
     {
       "id": "raw-001",
-      "title": "商汤计划年内发射首批算力卫星 拟建5个万卡以上国产集群 - 财新",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CMjVxZERyNnNMTFpfU2djemwyalByQ1Q0YXF3MTZUVXhmVWF0aFptMjlxZUJGUkdOVFl5bzJLam9ma1hNOUxFZHcyVUpyZzdqcmZqdDBSZkRoRmhvTDdBRTRMaXY?oc=5",
-      "source": "财新",
-      "category": "竞品",
-      "published": "2026-07-18",
-      "body_snippet": "商汤计划年内发射首批算力卫星 拟建5个万卡以上国产集群 财新",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-002",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
-      "category": "竞品",
-      "published": "2026-07-19",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-003",
-      "title": "中国电信柯瑞文：将适度超前建设算力基础设施- 经济 - 中工网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4eTJwU3RvUy04a2FLZVkzWTVWd0o3VC1nVkxwOUNkZGdQdEJrMFl5bmhhWnM1bHJ6LVNaMlFwdk0yX1djdjlvaUwzcWsyODQzcW43TC1jVU0tcGVySlU4?oc=5",
-      "source": "中工网",
-      "category": "政策",
-      "published": "2026-07-19",
-      "body_snippet": "中国电信柯瑞文：将适度超前建设算力基础设施- 经济 中工网",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-004",
-      "title": "算力产业，迎重磅消息！电信巨头，最新宣布！|2026世界人工智能大会|中国电信|上海市|柯瑞文|人工智能_手机新浪网 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNYkVOY0VGWXVnU2JIbXkyY045em9uVEtWX1Nya1JXS3pZZGt6SzFWMGtFWFk2a1htVUZEalZ2Y0ZZQmpTNFZKdnUxa2Zma0dyZzc3SVZkalBDa3g3ZzhKRktiMnhieDJGQjc1VklLbFh2LTRQR0lNTHZ2ZElHdVRhSzdHV0o0ZUpVNDVEWjBYcHd1ODc4ZUZYc1dtN2JOeWo0NGVaOFhtV2MwMUJvMkU1eEltZ1dyT2NzN2tDcm9GaUNCZU5EazZrY2R5b0ZqVkpIM3dtSkczR0NBZllGQWNseWtNX09aMjh2RU92VS1uRzgtU21tTUg0SC05REc1Sm1iTDJoVWI4RjBzeXd3VjA4NWxXQnRXVEZOdjQxanZQcEMyT2tubTJkVWR4SGNyeEFLYnh4aFpn?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-07-18",
-      "body_snippet": "算力产业，迎重磅消息！电信巨头，最新宣布！|2026世界人工智能大会|中国电信|上海市|柯瑞文|人工智能_手机新浪网 新浪财经",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-005",
-      "title": "瞄准未来太空数据中心，优刻得与上海理工联合发布“太空算力”样机系统 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4xNVdEQlNTc2lHc1Y4WkRrS2N0NmtxNlIzdXJLdE80ZDl5dkJzRkMtV0k4WVo1QmZZdDBlWF9qczZGX2VJX0wxbDJYSk5jZEIwQjMydzRiV1ZvbjlMRzNjcDBB?oc=5",
-      "source": "手机网易网",
-      "category": "竞品",
-      "published": "2026-07-17",
-      "body_snippet": "瞄准未来太空数据中心，优刻得与上海理工联合发布“太空算力”样机系统 手机网易网",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-006",
-      "title": "「人工智能」主題 兩次進入中共中央政治局的集體學習議程 - 世界新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WZUFRajVDeUwzd19wSlpwMFZQcWtjb3FydldmbzJCWndDbU1SbUtIUGRFVk9rWDdtVDZQQVFqSU1lTThLM1pwV1FzNmFPNXBvNUJhYXRjaTBRbnAtR0FycGRjRlNXY0lvWGfSAWdBVV95cUxNQ2hVTXpwZndBTFJscVMwWXJBNVdkek1nb2lMNS10QjFDY0lab0lJNUhDbjBvRy1BMUZCRTMxYUppaW1tcWFPbjE0WEYwM0dSVFFpdzRMcHJUNUJiU3VkenYzSnpzU3FN?oc=5",
-      "source": "世界新聞網",
-      "category": "政策",
-      "published": "2026-07-16",
-      "body_snippet": "「人工智能」主題 兩次進入中共中央政治局的集體學習議程 世界新聞網",
-      "_query_boost": 35
-    },
-    {
-      "id": "raw-007",
-      "title": "Meta或向Anthropic出租算力 寻求变现巨额AI投资 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4yM095SHg1SWZEdl9mYUxrekVNbXE4SjBHSHJVRkJaVmRIVXVmeVlDWWdmZG5OMHVlUVo1M3poOWV2WV9tRkcyQkc1SGMzdmREVk5mNk1xY0YxWkJxMkVMQlV2bGNOa1BOdFE?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-07-19",
-      "body_snippet": "Meta或向Anthropic出租算力 寻求变现巨额AI投资 联合早报",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-008",
-      "title": "月之暗面暂停新用户订阅：面临始料未及的算力挑战 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTb1REc3FreWpHSWo5ZmdsX3Q1aWhac0pMQ0pnUlJUMjlyc1dvRDRNZ1BkRUZPMVdsSXB3Y1p1T1ViNE1rc25TM3RMWUh5OWttdGtVY1FJaFhrV1NLTXVMeHRGSmh2MGFCN2c?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-07-20",
-      "body_snippet": "月之暗面暂停新用户订阅：面临始料未及的算力挑战 联合早报",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-009",
-      "title": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMipgRBVV95cUxNTnVkRFVNWVRLcUhNY3MzNmJFSUFucFNCdVE0eU1pdkZNRDdlRTE1ZDZjRkZtT0JtLVlIT2RtR2dCMHp3TzhQMm9OUXhkTXZnNl9wOGNLc3g2NThkUHZ3ZWItNVJfRF9GN3kyam9yM3l5N2RVR2dCSnJrRkEwUmt4M3pVYkhnd1M3UWJJY3lnOC11QzVRaUc4ZmVnZUFWeVR5TUdiZkRINGdndF8yOWliNks0dDZMLUpja0xPUktmU0R3QzVYM0E0LTdnLXZ0TFUyNmxfRUJDdmh4bVpyUlZSUkZpOTkwQy1EcnZsQjRaSUZxRkNTcGpiUHB0RUxEY21UNjkxalZhYnJ5QU1aTE9aU3pMZXlKSFM3X1diZVdvakw2Z1FEZndXNThzYkxLX2ZheTRkYndtUDRYNzRqeDZOZXFiZHo1cE40enJyeGk4bE5BS2ktTF9qbXM5TTVDZlJoUkJ2Ylh0QkwxdHUzZDB5SmpucUU2dkVTR1ltVXFKLUhyaFphV1c5aWZVakNnUl9ENU9SZHQ0b09EOWNvNnBzR2dDMlo4am5YV1ZuN1dfR0U0NjA3RlZKU3FVTVV3MW44QjJ0ZnFKXzBMSEMwV2JlMkJldHpPQ3B3dEJrQngycEtObnRLZ0VVUnZabEtTaHkzSUdVR0FCalduOFRnWUFPSE1QdF9nem51OG93VktucWlvYlM5d0hIakdLVERZVEF6S3pyVHB3?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-07-18",
-      "body_snippet": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ 新浪财经",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-010",
       "title": "《国务院关于对外投资的规定》公布自7月1日起施行_手机新浪网 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CMGotZXhxeXgwMjVRUzJ2dTNwNkpTb2pmY2xjRzA4YkptRmNyNlNhU1ItQ1J6UFJ3LVVuMDR5ckNCcnNTUVJFSnY2TFpOSlJoNDVZMDlFWGxwaGZrQzF0S0lYZGNzMERGVHI3dUtaZ3ZTVmlHZXd4RDhOdDA4V0k?oc=5",
       "source": "新浪财经",
       "category": "监管",
       "published": "2026-07-16",
       "body_snippet": "《国务院关于对外投资的规定》公布自7月1日起施行_手机新浪网 新浪财经",
-      "_query_boost": 30
+      "_query_boost": 25
     },
     {
-      "id": "raw-011",
-      "title": "周末，利好来袭！上海，重大发布！事关太空算力 - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jRzY1VktMRllSZm1ucU12Vkx1c1dSZjJqcHU5MWItWlROOEFKVTBjMEpRcUdFM3BFSkJNZWRkc0xFQUNDSVo1Uk5jSm4zUXhVSGYzNERGbVVwSmoxTkE?oc=5",
-      "source": "thepaper.cn",
-      "category": "政策",
-      "published": "2026-07-18",
-      "body_snippet": "周末，利好来袭！上海，重大发布！事关太空算力 thepaper.cn",
-      "_query_boost": 0
+      "id": "raw-002",
+      "title": "中国科学院院士：三大需求倒逼算力从地面走向太空 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56QWpEbXdoWW5oRlBvVldJcnJtYVc1aWhYM2VjNkI1eWRnSzZXV24tN2RDdzRyVnRVVEV5Y0dzbUpYc2lsUEl0R1JSNWNheVlMa2ptcWl4Q2o0d041WXM1N0w1WElnSWpnVWRrWi1jQ0E?oc=5",
+      "source": "新浪财经",
+      "category": "监管",
+      "published": "2026-07-19",
+      "body_snippet": "中国科学院院士：三大需求倒逼算力从地面走向太空 新浪财经",
+      "_query_boost": 15
     },
     {
-      "id": "raw-012",
-      "title": "超节点、Token经济与智能体的三重变奏，国产算力迈入“系统时代”｜WAIC 2026 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xZWlpbHJHVkM2cThQSzZ5VTdQaWR5dGRUUWYtNlN6NThmVWNaSWxrbGwyQktzUzc4eUNHbE5udDU3X3c5Q0ljdkw3N2dkaGgzY1hIT1I2R29uM3pJQk04RVVn?oc=5",
-      "source": "手机网易网",
+      "id": "raw-003",
+      "title": "硅基流动冲刺港股：77亿估值背后，“Token工厂第一股”困于负毛利 - 维科号",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ib0NKajY2X3FIbDVZMWhSNko5dDNNQ3U4dFVkVWFLVGpqeUh2blUxRUlfSllvd1d2bnN0al9YU1RaZkpCbTY5dldSLU5MRms?oc=5",
+      "source": "维科号",
       "category": "竞品",
-      "published": "2026-07-18",
-      "body_snippet": "超节点、Token经济与智能体的三重变奏，国产算力迈入“系统时代”｜WAIC 2026 手机网易网",
+      "published": "2026-07-17",
+      "body_snippet": "硅基流动冲刺港股：77亿估值背后，“Token工厂第一股”困于负毛利 维科号",
       "_query_boost": 20
     },
     {
-      "id": "raw-013",
-      "title": "中国民企计划建设千星万P级太空算力星座 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE92YklmTTU3YnpVOUpBeE9LSGZ0MWVjSm4wT0RlMVJtenIwUXN6aXBicXR3YlBBWE9HMXN2V2FCdFBPNnFBa0g3aUdhRlotWEpkSFpORXVTYXdkMU00RjF3VGRxR3E1V2xmelE?oc=5",
+      "id": "raw-004",
+      "title": "华为首度展出最强AI晶片集群 算力是英伟达同级别系统6.7倍 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43bVhnRmlPdzBrLU5haDhrbjdzWWFaTTFfeWl2R1p1RnVIdW5jUUx3TXN4dEhlX2hQcUpJWFh4eVlvRmZkVkxYY1lMR2lBSllVMTB0bjQ4NVBLYk1CbExjT1B3Sm9ERFBjMXc?oc=5",
       "source": "联合早报",
       "category": "海外",
-      "published": "2026-07-18",
-      "body_snippet": "中国民企计划建设千星万P级太空算力星座 联合早报",
+      "published": "2026-07-17",
+      "body_snippet": "华为首度展出最强AI晶片集群 算力是英伟达同级别系统6.7倍 联合早报",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-005",
+      "title": "产业延链聚能 城市更新紧贴“六张网” - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PREt5eVlkLVZLbzFMN184bklCUlMycl9yWlVhQ05na09oNGVUa2VJNU9RdEhBZEJ1MjJGSW4xZlFSMGM5Q3Q3aUxZU1JmY1V4YzNyUzBucFhzUEVqZ1E?oc=5",
+      "source": "thepaper.cn",
+      "category": "政策",
+      "published": "2026-07-14",
+      "body_snippet": "产业延链聚能 城市更新紧贴“六张网” thepaper.cn",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-006",
+      "title": "AI基础设施投资飙升，拉里·芬克警示算力成本与电力供应瓶颈 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GLTV3NkNoUmlpMUxBRlZPS21GMENDRFo3ZzNlSVdVc2lDWVdzeFNwZGxIV1NxRGRnaUlUN2V4N3VvQ3NRRFozekpwTGRaU2xFR09xd09helg0UVU0WlNv?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-07-17",
+      "body_snippet": "AI基础设施投资飙升，拉里·芬克警示算力成本与电力供应瓶颈 虎嗅",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-007",
+      "title": "国产算力链弄潮：CPU紧俏、GPU爆发 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMizgRBVV95cUxPUWZYQjFVZ0hVZVR6S1ZEb0UwZk9mMGJHblpYdDFwNGpscExwTHRXNVVyUnU0b2lWaS14ZXVBeXNGZUVpVmQta3FLcU9iVU5LNW9rZDBQblVLcS1XLTdnNFdxeDFGbk5fMGpzWUd4LXZ1LWI0SmZ3RkVNSUk1UnRQNVdKd3NnTzVwOVV0eF9LbzAxdm9lakw5cEwwVTMtZGRqbnZibUdOVUlEcjhQWVYwSlpwR3pYQTBJejVOUndRRXVaTURrQTlFVUE2T1lycGxmdzJLRXY4bzlFMHZYZ1ZHU0VBMkJkNE1Ubk5TUGY0eWRFMHdvR3A2T2dWVzBJRzVwc00xbFFhY2VlM3RidlNRLUFReVFVMi1YdkR6ZlplbW9jaDZGQkw3RXNVN0dhdWFNWFVjVjNGQllUUGktb2p0Y3NVbm5fem5FMnZkQWhMNVpGQldSQ2pGVzVJank3c3VDbDVuSXdjSXBzR1JnMWpMbHp6UnRNeGNOZ05lc2tQR0NiZHhkamtFMGxvMGNzakZnZndNWUVNS2R4ZG5KODFmWXFBcnRZbWVja1JfSmZqWlVQLXI1WDN0UFRoMXFKNGRkUnFySlZnRUNmUHEyN2t6MVczN3lIblZ5bWJzeDJsV1VLWi1Ba1lNT1lzM2xpZVRHbVcxb2QxMFAyR2VwY2Y4UnRfbE5DbVlZX09KVHZxamVJU3NSRXZONm1ldTZ1Vi1JcGl3TFpMOFN1ZjJhTEFiOS1fcWRSWmlBZWtDcms1eHJ3QWZ5WmYyNlVWWGZWdw?oc=5",
+      "source": "新浪财经",
+      "category": "技术",
+      "published": "2026-07-17",
+      "body_snippet": "国产算力链弄潮：CPU紧俏、GPU爆发 新浪财经",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-008",
+      "title": "中电联：预计2030年全国算力用电量将占全社会用电量6%左右 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcXBvMk53TWU5aHRNTHpUT0ZKeEowQ01Ya004UXJ1b1Q4TzRNLUdzdlJZSjlWSVZtYzZHTTVnUUdVVUoxblpGdFloaXBNQnYyakpQSU5YTnltTGNRSW03aWp6cE8wTlprU1V3VXBCZzdCcTR0b3hNOEduejF3aEhNUmw3OUVMQXpTN2JEUA?oc=5",
+      "source": "21财经",
+      "category": "政策",
+      "published": "2026-07-15",
+      "body_snippet": "中电联：预计2030年全国算力用电量将占全社会用电量6%左右 21财经",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-009",
+      "title": "算力基建，遭遇急刹车？ - 手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03ZTZjbTA2TkNSWjU1cHBlcGNZc1NVOV8ydGJjbU0td1pLWHZkWnlGYklheDhBTkhKNFJtYmZGNUppaTJQZnVFVDdhdlJ5b2xVa0ZTalg3a2FLUzlKZHBDZjRB?oc=5",
+      "source": "手机网易网",
+      "category": "技术",
+      "published": "2026-07-15",
+      "body_snippet": "算力基建，遭遇急刹车？ 手机网易网",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-010",
+      "title": "李乐成率团出席联合国人工智能治理全球对话首次会议等系列活动",
+      "url": "https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_7b206a82ae3844fd981ff3e42daf0267.html",
+      "source": "工信部-新闻",
+      "published": "2026-07-20",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-011",
+      "title": "李乐成出席联合国首届人工智能治理全球对话：愿共同构建全球治理体系",
+      "url": "http://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
+      "source": "工信部-新闻",
+      "published": "2026-07-20",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-012",
+      "title": "李乐成出席联合国首届人工智能治理全球对话：愿...",
+      "url": "https://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
+      "source": "工信部-新闻",
+      "published": "2026-07-20",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-013",
+      "title": "太空算力大消息！上海发布“星枢计划”新进展|2026世界人工智能大会|复旦大学|上海市|大模型|金亚秋_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQU28zUjJBRVlSVzRrdkp4WE92UzB6dGNqZmRvRFJ1dXBpd1dJdE9VR255YnJfamFhZGlLakNVNUwyb1Izc0xjNXU5VFZfS1VWV044N2ZKTnRJSTFPT2h3STJrdEp2aWVEc0t6dkc2a2NOOWs4TUNSWG40XzMzZEhNeWVPc3V1eEpDSV9uSFphZEY4QzdNNjFDNjIwc2xGeTA3UHVIUU5SYnR2SXhtZ3FvR1dFQV91NmVnZ1V4dDVocnNLU2RCLW51Wm0tQWVFejNlRy1BMW50ODNacTk4ZmFQMFE2QW1DLTdzWkxSbFptc0xiSDdFd1ozX1ZMa291aDRfQmNrY2I3clR5bHhD?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-07-19",
+      "body_snippet": "太空算力大消息！上海发布“星枢计划”新进展|2026世界人工智能大会|复旦大学|上海市|大模型|金亚秋_手机新浪网 新浪财经",
       "_query_boost": 0
     },
     {
       "id": "raw-014",
-      "title": "“申智杯”科学智能与AI算力两大赛道迎来巅峰对决 - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lSUFIRUsxX1VnLUE3SnNlSlpVSmhQcXl6UlQyVG9YYzluelR0VEpWcU5QR0U1dC14MXNlUEpkcm1wdWl2azR1ODgxNXNFdzdmY3B3VEdwdFFGczI5R1E?oc=5",
-      "source": "thepaper.cn",
-      "category": "政策",
-      "published": "2026-07-17",
-      "body_snippet": "“申智杯”科学智能与AI算力两大赛道迎来巅峰对决 thepaper.cn",
-      "_query_boost": 0
+      "title": "我国智能算力规模达 2185EFLOPS，全国算力设施整体上架率达 71.4%",
+      "url": "https://www.ithome.com/0/978/943.htm",
+      "source": "IT之家",
+      "published": "2026-07-20",
+      "body_snippet": "目前该阶段任务已完成 70% / 高文院士 WAIC 2026 发言：中国算力网第一阶段已完成 70%，全面落地或需二十年",
+      "category": "政策"
     },
     {
       "id": "raw-015",
-      "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
-      "url": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
-      "source": "NVIDIA Blog",
-      "published": "2026-07-17",
+      "title": "爱芯元智揭晓元曦系列大算力产品，A 系列 AI 推理卡算力超 1000TOPS",
+      "url": "https://www.ithome.com/0/978/841.htm",
+      "source": "IT之家",
+      "published": "2026-07-20",
       "body_snippet": "",
       "category": "技术"
     }
