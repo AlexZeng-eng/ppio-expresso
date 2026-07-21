@@ -1,113 +1,157 @@
 {
-  "generated_at": "2026-07-20T06:35:33.151Z",
-  "date": "2026-07-20",
-  "date_label": "2026-07-20",
-  "mainline": "对外投资新规收紧IPO合规，算力基建急刹车信号与华为算力爆发并存，PPIO面临政策与竞争双重压力。",
+  "generated_at": "2026-07-21T01:39:40.108Z",
+  "date": "2026-07-21",
+  "date_label": "2026-07-21",
+  "mainline": "习近平出席世界AI大会并提算力开放共享，工信部明确支持边缘算力，政策风向全面利好PPIO基建叙事。",
   "signal_summary": {
-    "🏛️": 3,
-    "📜": 1,
-    "⚔️": 3,
-    "💰": 2,
-    "🌏": 1,
-    "🔬": 1
+    "🏛️": 11,
+    "📜": 0,
+    "⚔️": 0,
+    "💰": 1,
+    "🌏": 4,
+    "🔬": 0
   },
   "speed_read": {
     "positive": [
-      "国产算力链结构性爆发，GPU出货量同比增超150%，利好算力基础设施叙事，边缘云长期需求支撑。",
-      "中电联预测算力用电占比将升至6%，首次由权威机构确认算力战略地位，强化政策叙事基础。"
+      "习近平主席在2026世界人工智能大会上发表主旨讲话，强调加强算力基础设施开放共享，智能算力规模年均增长30%以上（高层信号）",
+      "工信部表态支持边缘算力节点与云边协同发展，研究差异化电价和税收优惠（直接利好PPIO商业模式）",
+      "大会签约重点合作项目金额超1200亿元，显示产业资本高度活跃"
     ],
     "risk": [
-      "《国务院对外投资规定》7月1日施行，境外投资审核趋严，PPIO港股IPO的VIE架构合规风险上升。",
-      "网传算力基建遭遇急刹车，大型智算中心审批收紧或补贴退坡，可能影响边缘云需求增速。",
-      "硅基流动冲刺港股估值77亿但负毛利，暴露推理Infra盈利困境，对PPIO同类业务估值逻辑形成压力。"
+      "AI立法加速趋势下，VIE备案不确定性仍存，需关注后续配套细则",
+      "中美科技竞争背景下，海外AI安全审查机制可能形成先例效应，跨境数据合规压力未减"
     ]
   },
   "wind_indicators": {
-    "policy_heat": 4,
-    "competitor_heat": 4,
-    "capital_heat": 3,
-    "overseas_heat": 2,
-    "overall_sentiment": "降温",
-    "summary": "政策面喜忧参半：算力地位提升但对外投资收紧；竞争加剧且盈利模式受质疑，资本情绪趋于谨慎。"
+    "policy_heat": 5,
+    "competitor_heat": 2,
+    "capital_heat": 4,
+    "overseas_heat": 3,
+    "overall_sentiment": "升温",
+    "summary": "AI大会最高层定调叠加工信部专项政策，边缘算力成为明确受益方向，整体情绪显著回暖。"
   },
   "competitor_updates": [
-    "硅基流动冲刺港股IPO，估值77亿元，但毛利长期为负，2025年调整净亏损率仍超30%。",
-    "华为首展昇腾CloudMatrix 8.0集群，算力达H100同级别6.7倍，已实现千卡液冷部署。",
-    "国产算力链CPU紧俏、GPU爆发，2026上半年国产AI芯片出货量同比增超150%。"
+    "今日无直接竞品新闻，但需关注无问芯穹等AI Infra企业动态"
   ],
   "item_axes": [
     {
       "id": "1",
-      "title": "国务院对外投资规定施行",
-      "policy_axis": -0.7,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "对外投资监管收紧，对港股IPO合规有直接负面影响；竞争影响小，但可能间接影响跨境融资"
+      "title": "习近平出席2026世界人工智能大会",
+      "policy_axis": 0.9,
+      "competition_axis": 0,
+      "impact_score": 5,
+      "axis_reason": "最高领导人亲自站台，算力开放共享提法直接利好基建叙事；无竞争信号"
     },
     {
       "id": "2",
-      "title": "硅基流动冲刺港股：77亿估值",
-      "policy_axis": 0,
-      "competition_axis": 0.8,
-      "impact_score": 4,
-      "axis_reason": "直接竞品IPO，商业模式验证失败（负毛利）对PPIO同类业务估值构成压力，竞争威胁高"
+      "title": "新华社消息丨习近平在2026世",
+      "policy_axis": 0.9,
+      "competition_axis": 0,
+      "impact_score": 5,
+      "axis_reason": "同上，重复确认高层信号"
     },
     {
       "id": "3",
-      "title": "华为首度展出最强AI晶片集",
-      "policy_axis": 0.3,
-      "competition_axis": 0.5,
-      "impact_score": 3,
-      "axis_reason": "华为算力提升加速国产替代，利好算力生态但华为也涉足云服务，竞争威胁中等偏上"
+      "title": "习近平：要始终用人类智慧和国际",
+      "policy_axis": 0.7,
+      "competition_axis": 0,
+      "impact_score": 4,
+      "axis_reason": "强调AI治理国际合作，短期VIE风险可控，长期合规窗口趋紧"
     },
     {
       "id": "4",
-      "title": "国产算力链弄潮：CPU紧俏、",
-      "policy_axis": 0.4,
-      "competition_axis": 0.3,
-      "impact_score": 3,
-      "axis_reason": "国产替代加速利好算力供应，但供应链紧张可能推高成本；竞争加剧但整体利好行业"
+      "title": "习近平在2026世界人工智能大会",
+      "policy_axis": 0.9,
+      "competition_axis": 0,
+      "impact_score": 5,
+      "axis_reason": "全文发布，算力年均增长30%以上为强量化目标"
     },
     {
       "id": "5",
-      "title": "中电联：预计2030年全国算",
-      "policy_axis": 0.6,
+      "title": "市委常委会扩大会议传达学习习近",
+      "policy_axis": 0.8,
       "competition_axis": 0,
-      "impact_score": 3,
-      "axis_reason": "权威机构确认算力用电占比提升，强化算力基建政策叙事，间接利好边缘云，无竞争影响"
+      "impact_score": 4,
+      "axis_reason": "上海地方迅速跟进，政策落地预期加强"
     },
     {
       "id": "6",
-      "title": "算力基建，遭遇急刹车？",
-      "policy_axis": -0.5,
-      "competition_axis": 0.2,
+      "title": "习近平主席出席2026世界人工智",
+      "policy_axis": 0.8,
+      "competition_axis": 0,
       "impact_score": 4,
-      "axis_reason": "算力投资放缓将直接抑制需求，对PPIO短期不利；若属实则行业进入调整期，竞争可能缓和"
+      "axis_reason": "侧记披露更多细节，全球AI治理倡议含中国方案"
     },
     {
       "id": "7",
-      "title": "李乐成率团出席联合国人工",
-      "policy_axis": 0.1,
+      "title": "2026世界人工智能大会开幕",
+      "policy_axis": 0.7,
+      "competition_axis": 0.2,
+      "impact_score": 4,
+      "axis_reason": "展会规模宏大，算力芯片等竞品展示增加竞争感知"
+    },
+    {
+      "id": "8",
+      "title": "习近平主席讲话为全球人工智能治",
+      "policy_axis": 0.8,
       "competition_axis": 0,
-      "impact_score": 2,
-      "axis_reason": "中国参与全球AI治理，后续可能影响国内AI监管节奏，短期影响有限，中期需关注合规标准"
+      "impact_score": 4,
+      "axis_reason": "强调AI能力建设，发展中国家市场或成新机会"
+    },
+    {
+      "id": "9",
+      "title": "习近平主席出席二〇二六世界人工",
+      "policy_axis": 0.9,
+      "competition_axis": 0,
+      "impact_score": 5,
+      "axis_reason": "工信部后续发布纪实，算力开放共享具体化"
+    },
+    {
+      "id": "10",
+      "title": "工信部将持续优化算力基础设施资",
+      "policy_axis": 0.9,
+      "competition_axis": 0.1,
+      "impact_score": 5,
+      "axis_reason": "边缘算力直接受益，差异化电价税收为实质性利好；竞争中性"
+    },
+    {
+      "id": "11",
+      "title": "2026世界人工智能大会开幕 习",
+      "policy_axis": 0.8,
+      "competition_axis": 0.2,
+      "impact_score": 4,
+      "axis_reason": "1200余家企业参展，竞争格局展示但无直接威胁"
+    },
+    {
+      "id": "12",
+      "title": "中美科技竞争背景下 习近平将首",
+      "policy_axis": 0.6,
+      "competition_axis": 0.3,
+      "impact_score": 4,
+      "axis_reason": "海外媒体关注度提升，中美科技博弈或增加政策不确定性"
     }
   ],
   "ppio_index": {
-    "score": 62,
-    "delta": -3,
+    "score": 70,
+    "delta": 8,
     "components": {
-      "policy_tailwind": 34,
-      "competitive_pressure": -20,
-      "capital_sentiment": 13,
-      "regulatory_risk": -10,
-      "overseas_headwind": -5
+      "policy_tailwind": 45,
+      "competitive_pressure": -15,
+      "capital_sentiment": 20,
+      "regulatory_risk": -12,
+      "overseas_headwind": -8
     },
-    "interpretation": "指数小幅回落，对外投资新规与算基建急刹车信号压制风险偏好，但国产算力爆发和算力地位提升提供支撑。"
+    "interpretation": "高层定调+工信部专项政策推动指数大幅回升，边缘算力成为政策明确受益方向。"
   },
-  "policy_momentum": [],
-  "expected_but_absent": [
-    "人工智能法草案征求意见稿"
+  "policy_momentum": [
+    {
+      "thread": "算力基础设施支持",
+      "last_signal": "部委规划智能算力占比目标",
+      "this_signal": "工信部明确支持边缘算力节点、差异化电价税收优惠",
+      "level_delta": "升级",
+      "interpretation": "从宏观目标到具体措施，边缘算力获实质性政策红利"
+    }
   ],
+  "expected_but_absent": [],
   "_generated_by": "ai"
 }

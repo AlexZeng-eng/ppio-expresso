@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-07-20T06:35:33.233Z",
+  "updated_at": "2026-07-21T01:39:40.229Z",
   "days": [
+    {
+      "date": "2026-07-21",
+      "mainline": "习近平出席世界AI大会并提算力开放共享，工信部明确支持边缘算力，政策风向全面利好PPIO基建叙事。",
+      "signal_summary": {
+        "🏛️": 11,
+        "📜": 0,
+        "⚔️": 0,
+        "💰": 1,
+        "🌏": 4,
+        "🔬": 0
+      },
+      "wind_indicators": {
+        "policy_heat": 5,
+        "competitor_heat": 2,
+        "capital_heat": 4,
+        "overseas_heat": 3,
+        "overall_sentiment": "升温",
+        "summary": "AI大会最高层定调叠加工信部专项政策，边缘算力成为明确受益方向，整体情绪显著回暖。"
+      },
+      "ppio_index": {
+        "score": 70,
+        "delta": 8,
+        "components": {
+          "policy_tailwind": 45,
+          "competitive_pressure": -15,
+          "capital_sentiment": 20,
+          "regulatory_risk": -12,
+          "overseas_headwind": -8
+        },
+        "interpretation": "高层定调+工信部专项政策推动指数大幅回升，边缘算力成为政策明确受益方向。"
+      },
+      "item_count": {
+        "total": 13,
+        "attend": 12,
+        "silent": 1
+      },
+      "competitor_updates": [
+        "今日无直接竞品新闻，但需关注无问芯穹等AI Infra企业动态"
+      ]
+    },
     {
       "date": "2026-07-20",
       "mainline": "对外投资新规收紧IPO合规，算力基建急刹车信号与华为算力爆发并存，PPIO面临政策与竞争双重压力。",
