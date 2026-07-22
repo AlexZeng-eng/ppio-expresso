@@ -1,164 +1,108 @@
 {
-  "generated_at": "2026-07-22T01:45:24.232Z",
+  "generated_at": "2026-07-22T04:02:12.238Z",
   "date": "2026-07-22",
   "date_label": "2026-07-22",
-  "mainline": "习近平最高层定调AI安全治理，竞品智谱、无问芯穹加速算力基建与Agentic Infra布局，PPIO面临政策利好与竞争加剧双重环境。",
+  "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 4,
-    "📜": 2,
-    "⚔️": 5,
-    "💰": 3,
-    "🌏": 2,
-    "🔬": 3
+    "🏛️": 1,
+    "📜": 0,
+    "⚔️": 1,
+    "💰": 1,
+    "🌏": 0,
+    "🔬": 7
   },
   "speed_read": {
-    "positive": [
-      "高层信号：习近平主席提出全球AI治理四点意见，将AI安全上升至国家战略，利好算力基建叙事",
-      "算力支撑国家能力体系定调，有望加速国产算力网络与边缘云纳入新型举国体制",
-      "月之暗面500亿美元Pre-IPO估值，大幅提升AI基础设施板块资本市场情绪，利好PPIO IPO估值想象"
-    ],
-    "risk": [
-      "全美42州爆发大规模数据中心抗议，可能影响海外算力布局节奏及公众认知",
-      "无问芯穹提出Agentic Infra战略，与PPIO分布式算力调度定位高度重叠，竞争加剧",
-      "硅基流动IPO暴露负毛利，Token分发商业模式承压，警示纯算力交易型企业的盈利困境"
-    ]
+    "positive": [],
+    "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 4,
-    "competitor_heat": 5,
-    "capital_heat": 4,
-    "overseas_heat": 3,
-    "overall_sentiment": "升温",
-    "summary": "总统级AI治理定调叠加竞品算力布局加速，行业进入政策与资本双轮驱动阶段，但竞争强度同步攀升。"
+    "policy_heat": 3,
+    "competitor_heat": 3,
+    "capital_heat": 3,
+    "overseas_heat": 2,
+    "overall_sentiment": "平稳",
+    "summary": "规则估算，AI合成不可用时的占位数据。"
   },
-  "competitor_updates": [
-    "智谱AI：落地1GW级国产AI算力数据中心，完成收购中科加禾（编译器），股价暴涨37%，从大模型向底层算力基础设施渗透",
-    "无问芯穹：CEO夏立雪提出AGI时代决胜Agentic Infra，与PPIO分布式算力调度战略正面重叠",
-    "阶跃星辰：发布STEPX Neo端侧设备，大模型公司切入硬件，可能改变云端与端侧算力分配格局",
-    "硅基流动：冲刺港股IPO估值77亿，但负毛利暴露Token分发商业模式风险",
-    "月之暗面：传Pre-IPO估值500亿美元，中国大模型赛道顶级估值，提振板块情绪"
-  ],
+  "competitor_updates": [],
   "item_axes": [
     {
       "id": "1",
-      "title": "习近平提出四点意见，倡导构建公正合理的全球人工智能治理体系",
-      "policy_axis": 0.8,
-      "competition_axis": 0,
-      "impact_score": 5,
-      "axis_reason": "最高层定调AI安全治理，政策利好显著，无直接竞争影响"
+      "title": "同济大学院士专家在世界人工智能大会多个分",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     },
     {
       "id": "2",
-      "title": "盘中涨超20%！智谱落地1GW级国产AI算力数据中心，完成收购中科加禾",
-      "policy_axis": 0.2,
-      "competition_axis": 0.9,
-      "impact_score": 5,
-      "axis_reason": "政策中性偏利好（国产算力），竞争威胁极高，直接冲击PPIO基建叙事"
+      "title": "WAIC现场：摩尔沐曦齐喊“国产芯片能训",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     },
     {
       "id": "3",
-      "title": "习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
-      "policy_axis": 0.7,
-      "competition_axis": 0,
-      "impact_score": 4,
-      "axis_reason": "高规格出席确认AI治理优先级，政策利好，无竞争信号"
+      "title": "月之暗面启动Pre-IPO融资 目标估值",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 3,
+      "axis_reason": "规则估算"
     },
     {
       "id": "4",
-      "title": "外交部介绍2026世界人工智能大会成果和亮点",
-      "policy_axis": 0.5,
-      "competition_axis": 0,
-      "impact_score": 3,
-      "axis_reason": "外交闭环确认治理共识，政策利好，但信息已被市场消化"
+      "title": "《国务院关于对外投资的规定》公布自7月1",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
     },
     {
       "id": "5",
-      "title": "反对大举兴建数据中心 全美42州爆发百多场抗议活动",
+      "title": "直击WAIC 2026：AI高景气延续 ",
       "policy_axis": 0,
-      "competition_axis": 0,
-      "impact_score": 3,
-      "axis_reason": "海外社会阻力，影响海外算力布局，但非直接政策或竞争"
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     },
     {
       "id": "6",
-      "title": "港股牛股| 重回1200港元！智谱飙涨近37%，落地1GW级国产AI算力中心；利好密集催化，半导体产业链暴力反弹",
-      "policy_axis": 0.1,
-      "competition_axis": 0.8,
+      "title": "培育人工智能健康生态，习近平主席主旨讲话",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
       "impact_score": 4,
-      "axis_reason": "股价暴涨反映市场对智谱算力布局的认可，竞争压力加大"
+      "axis_reason": "规则估算"
     },
     {
       "id": "7",
-      "title": "大模型公司下场做手机，阶跃星辰STEPX Neo亮相WAIC 2026",
+      "title": "2026世界人工智能大会今开幕：申城的一",
       "policy_axis": 0,
-      "competition_axis": 0.6,
-      "impact_score": 3,
-      "axis_reason": "端侧硬件分流推理算力，对PPIO边缘云需求构成潜在替代威胁"
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     },
     {
       "id": "8",
-      "title": "投资界24h|腾讯成中国最赚钱互联网企业；张一鸣已给家乡捐10亿；传月之暗面以500亿美元估值进行Pre-IPO融资",
+      "title": "WAIC重磅成果｜上海市教育算力专区正式",
       "policy_axis": 0,
-      "competition_axis": 0.3,
-      "impact_score": 4,
-      "axis_reason": "资本信号利好整体板块，竞争维度月之暗面与PPIO非直接重叠但抬升估值锚"
-    },
-    {
-      "id": "9",
-      "title": "无问芯穹夏立雪：AGI时代，基础设施的决胜点是“AI原生的Agentic Infra”",
-      "policy_axis": 0,
-      "competition_axis": 0.9,
-      "impact_score": 4,
-      "axis_reason": "战略定位与PPIO高度重叠，竞争威胁极强，需关注其产品落地进度"
-    },
-    {
-      "id": "10",
-      "title": "以算力支撑新型国家能力体系建设",
-      "policy_axis": 0.7,
-      "competition_axis": 0,
-      "impact_score": 4,
-      "axis_reason": "顶层理论铺垫，算力上升为国家能力核心要素，政策利好明确"
-    },
-    {
-      "id": "11",
-      "title": "硅基流动冲刺港股：77亿估值背后，“Token工厂第一股”困于负毛利",
-      "policy_axis": 0,
-      "competition_axis": 0.5,
-      "impact_score": 3,
-      "axis_reason": "竞品IPO暴露商业模式缺陷，对PPIO构成警示但非直接威胁"
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     }
   ],
   "ppio_index": {
-    "score": 72,
-    "delta": 2,
+    "score": 55,
+    "delta": 0,
     "components": {
-      "policy_tailwind": 42,
-      "competitive_pressure": -22,
-      "capital_sentiment": 18,
-      "regulatory_risk": -10,
-      "overseas_headwind": -6
+      "policy_tailwind": 8,
+      "competitive_pressure": -6,
+      "capital_sentiment": 5,
+      "regulatory_risk": 0,
+      "overseas_headwind": 0
     },
-    "interpretation": "政策利好与资本情绪升温推高指数，但竞品加速布局及海外抗议压制部分涨幅，整体小幅上行。"
+    "interpretation": "规则估算，仅供参考"
   },
-  "policy_momentum": [
-    {
-      "thread": "AI治理法规",
-      "last_signal": "WAIC发布《全球人工智能治理倡议》",
-      "this_signal": "习近平提出四点意见，倡导构建公正合理全球AI治理体系",
-      "level_delta": "升级",
-      "interpretation": "最高层定调，AI治理框架加速成形，合规要求趋严"
-    },
-    {
-      "thread": "算力国家能力",
-      "last_signal": "未知",
-      "this_signal": "中国社会科学网文章将算力上升为国家能力核心要素",
-      "level_delta": "首现",
-      "interpretation": "理论铺垫，算力基础设施可能纳入新型举国体制"
-    }
-  ],
-  "expected_but_absent": [
-    "人工智能法草案征求意见稿",
-    "第二批全国一体化算力枢纽节点批复"
-  ],
-  "_generated_by": "ai"
+  "policy_momentum": [],
+  "expected_but_absent": [],
+  "_generated_by": "template"
 }

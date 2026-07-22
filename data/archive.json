@@ -1,49 +1,43 @@
 {
-  "updated_at": "2026-07-22T01:45:24.300Z",
+  "updated_at": "2026-07-22T04:02:12.282Z",
   "days": [
     {
       "date": "2026-07-22",
-      "mainline": "习近平最高层定调AI安全治理，竞品智谱、无问芯穹加速算力基建与Agentic Infra布局，PPIO面临政策利好与竞争加剧双重环境。",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
       "signal_summary": {
-        "🏛️": 4,
-        "📜": 2,
-        "⚔️": 5,
-        "💰": 3,
-        "🌏": 2,
-        "🔬": 3
+        "🏛️": 1,
+        "📜": 0,
+        "⚔️": 1,
+        "💰": 1,
+        "🌏": 0,
+        "🔬": 7
       },
       "wind_indicators": {
-        "policy_heat": 4,
-        "competitor_heat": 5,
-        "capital_heat": 4,
-        "overseas_heat": 3,
-        "overall_sentiment": "升温",
-        "summary": "总统级AI治理定调叠加竞品算力布局加速，行业进入政策与资本双轮驱动阶段，但竞争强度同步攀升。"
+        "policy_heat": 3,
+        "competitor_heat": 3,
+        "capital_heat": 3,
+        "overseas_heat": 2,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
       },
       "ppio_index": {
-        "score": 72,
-        "delta": 2,
+        "score": 55,
+        "delta": 0,
         "components": {
-          "policy_tailwind": 42,
-          "competitive_pressure": -22,
-          "capital_sentiment": 18,
-          "regulatory_risk": -10,
-          "overseas_headwind": -6
+          "policy_tailwind": 8,
+          "competitive_pressure": -6,
+          "capital_sentiment": 5,
+          "regulatory_risk": 0,
+          "overseas_headwind": 0
         },
-        "interpretation": "政策利好与资本情绪升温推高指数，但竞品加速布局及海外抗议压制部分涨幅，整体小幅上行。"
+        "interpretation": "规则估算，仅供参考"
       },
       "item_count": {
-        "total": 14,
-        "attend": 11,
-        "silent": 3
+        "total": 12,
+        "attend": 8,
+        "silent": 4
       },
-      "competitor_updates": [
-        "智谱AI：落地1GW级国产AI算力数据中心，完成收购中科加禾（编译器），股价暴涨37%，从大模型向底层算力基础设施渗透",
-        "无问芯穹：CEO夏立雪提出AGI时代决胜Agentic Infra，与PPIO分布式算力调度战略正面重叠",
-        "阶跃星辰：发布STEPX Neo端侧设备，大模型公司切入硬件，可能改变云端与端侧算力分配格局",
-        "硅基流动：冲刺港股IPO估值77亿，但负毛利暴露Token分发商业模式风险",
-        "月之暗面：传Pre-IPO估值500亿美元，中国大模型赛道顶级估值，提振板块情绪"
-      ]
+      "competitor_updates": []
     },
     {
       "date": "2026-07-21",
