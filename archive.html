@@ -31,7 +31,7 @@
 </header>
 <main style="max-width:960px;margin:0 auto;padding:1.4rem 1.4rem 4rem">
   <h1 style="font-family:var(--mono);font-size:0.9rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink);margin:0 0 0.2rem">日报存档</h1>
-  <p style="font-family:var(--sans);font-size:0.82rem;color:var(--ink-mute);margin:0 0 1.4rem">共 39 天 · 最近更新 2026-07-21</p>
+  <p style="font-family:var(--sans);font-size:0.82rem;color:var(--ink-mute);margin:0 0 1.4rem">共 40 天 · 最近更新 2026-07-22</p>
 
   <!-- 30天趋势图 -->
   
@@ -63,6 +63,14 @@
       <th>日期</th><th>当日主线</th><th>信号</th><th>深度/总计</th><th>指数</th><th>风向</th>
     </tr></thead>
     <tbody><tr>
+      <td><a href="reports/2026-07-22.html">2026-07-22</a></td>
+      <td class="archive-mainline">习近平最高层定调AI安全治理，竞品智谱、无问芯穹加速算力基建与Agentic Infra布局，PPIO面临政策利好与竞争加剧双重环境。</td>
+      <td>🏛️×4 📜×2 ⚔️×5 💰×3 🌏×2 🔬×3</td>
+      <td>11 / 14</td>
+      <td>72<span style="color:#0a0a0a">+2</span></td>
+      <td><span style="color:#0a0a0a;font-weight:600">升温</span></td>
+    </tr>
+<tr>
       <td><a href="reports/2026-07-21.html">2026-07-21</a></td>
       <td class="archive-mainline">习近平出席世界AI大会并提算力开放共享，工信部明确支持边缘算力，政策风向全面利好PPIO基建叙事。</td>
       <td>🏛️×11 💰×1 🌏×4</td>
@@ -380,11 +388,11 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script>
 (function() {
-  const dates = ["06-09","06-10","06-11","06-12","06-13","06-14","06-15","06-16","06-17","06-18","06-22","06-24","06-25","06-26","06-28","06-29","07-01","07-02","07-03","07-06","07-07","07-08","07-09","07-10","07-13","07-14","07-15","07-17","07-20","07-21"];
-  const attend = [3,5,8,7,4,6,4,7,6,5,6,4,4,3,5,6,6,4,1,10,4,4,10,9,5,8,5,9,7,12];
-  const index = [68,66,55,55,55,66,72,55,62,55,55,66,55,60,55,60,67,62,67,64,62,64,62,65,70,75,65,64,62,70];
-  const policy = [4,5,4,4,3,5,5,4,4,4,4,3,4,4,4,4,4,3,1,2,4,3,4,4,5,5,3,5,4,5];
-  const compete = [2,2,3,3,3,3,2,4,4,4,4,4,4,4,2,5,4,4,4,5,4,5,5,4,4,4,4,4,4,2];
+  const dates = ["06-10","06-11","06-12","06-13","06-14","06-15","06-16","06-17","06-18","06-22","06-24","06-25","06-26","06-28","06-29","07-01","07-02","07-03","07-06","07-07","07-08","07-09","07-10","07-13","07-14","07-15","07-17","07-20","07-21","07-22"];
+  const attend = [5,8,7,4,6,4,7,6,5,6,4,4,3,5,6,6,4,1,10,4,4,10,9,5,8,5,9,7,12,11];
+  const index = [66,55,55,55,66,72,55,62,55,55,66,55,60,55,60,67,62,67,64,62,64,62,65,70,75,65,64,62,70,72];
+  const policy = [5,4,4,3,5,5,4,4,4,4,3,4,4,4,4,4,3,1,2,4,3,4,4,5,5,3,5,4,5,4];
+  const compete = [2,3,3,3,3,2,4,4,4,4,4,4,4,2,5,4,4,4,5,4,5,5,4,4,4,4,4,4,2,5];
 
   const baseOpts = (label, color) => ({
     responsive: true, maintainAspectRatio: false,

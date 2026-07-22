@@ -1,164 +1,25 @@
 {
-  "generated_at": "2026-07-21T01:38:08.153Z",
+  "generated_at": "2026-07-22T01:43:36.072Z",
   "week": "2026-W30",
   "classifier": "deepseek-v4-pro",
   "total_raw": 15,
-  "total_curated": 13,
-  "attend_count": 12,
-  "silent_count": 1,
+  "total_curated": 14,
+  "attend_count": 11,
+  "silent_count": 3,
   "items": [
     {
-      "id": "raw-001",
-      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbTVsTy02RWhGU3BsWVpvUDNoOVZIX0ZQcmkxTTZ3Y2hNR0lfbjgtdWNuMGJhbVl5WGpNM29zaERYaFRGc2RDRTVPQ0JrUDBrRmhWdmpjbTZGWjhCdDR0T2hfSVdJRE5yMmM0aXFCWk1DMi1SRVRYRE4yNVIyeXFJM3VyQXFla3RPQy11dURR?oc=5",
-      "source": "新华网",
-      "category": "政策",
-      "published": "2026-07-17",
-      "body_snippet": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 新华网",
-      "_query_boost": 50,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - 新华网 习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 新华网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-002",
-      "title": "新华社消息丨习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上发表主旨讲话 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdHJNcWZ2Smt0SFNkbUc3TXJnLTRwemFGWVpRX0ptNzZvRTVCRnZ2ZndGR3ZrdFZ2Tnpvejh6UTBTTGg3a0wtSDhucjJFN3hwT0x2SDlFQ1RESkZlMThOdVhNZDVNbVF3Tlg2emxyZENFRENDSDc5MkVSb3RnSE44Y01B?oc=5",
-      "source": "新华网",
-      "category": "政策",
-      "published": "2026-07-17",
-      "body_snippet": "新华社消息丨习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上发表主旨讲话 新华网",
-      "_query_boost": 50,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "新华社消息丨习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上发表主旨讲话 - 新华网 新华社消息丨习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上发表主旨讲话 新华网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-003",
-      "title": "【讲习所·中国与世界】习近平：要始终用人类智慧和国际共识引领人工智能发展 - 央视网",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NM1VTdXhVOUR0OUp0YjBnbzZhSVo0NERGRFhHMm4zY3l1VDdCVk9iV0drczVJcjFnc3JtSHRKZlI2dDFyQW9qWllFR0FsanVsb3dJaDhiMVJEMUs0X1drT3pZZW1saFZaUjUyaE9vUGY1RjFmNlJ0Zg?oc=5",
-      "source": "央视网",
-      "category": "政策",
-      "published": "2026-07-19",
-      "body_snippet": "【讲习所·中国与世界】习近平：要始终用人类智慧和国际共识引领人工智能发展 央视网",
-      "_query_boost": 45,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "要始终用人类智慧和国际共识引领人工智能发展 - 央视网 【讲习所·中国与世界】习近平：要始终用人类智慧和国际共识引领人工智能发展 央视网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-004",
-      "title": "习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（全文） - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRWNKMkZoYjZ5WmxTbTYzY0ZBY1ZVVlAwRlVZYkw5b0pNeVhxSW0tb2JsZFY1YkFuQjlhS3lUYUdSR1ZWRnNFYUMzd3pEVGtZTWc1N3M0ZElrVmVOU3dsdjlaam9FMEVVMEJJaG10TldPTFh3c2p4NE96ZUdwb0VZTERfM3VTSVU0Z0FzUHpB?oc=5",
-      "source": "新华网",
-      "category": "政策",
-      "published": "2026-07-17",
-      "body_snippet": "习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（全文） 新华网",
-      "_query_boost": 35,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（全文） - 新华网 习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（全文） 新华网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-005",
-      "title": "市委常委会扩大会议传达学习习近平总书记考察上海重要指示和在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话精神 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ETmlTQlVYT3M1WE85LXVyTVBmQ29GdGdVOEtIalNUQVFzWm5KMUtmMmtaNkVFR3liVWQxT3lmdDZ0bWxnVEdWLWtPVklFczJPWkY1d3lnQ2lhZw?oc=5",
-      "source": "上观新闻",
-      "category": "政策",
-      "published": "2026-07-20",
-      "body_snippet": "市委常委会扩大会议传达学习习近平总书记考察上海重要指示和在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话精神 上观新闻",
-      "_query_boost": 50,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "市委常委会扩大会议传达学习习近平总书记考察上海重要指示和在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话精神 - 上观新闻 市委常委会扩大会议传达学习习近平总书记考察上海重要指示和在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话精神 上观新闻",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
       "id": "raw-1",
-      "title": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记 - 习近平外交思想和新时代中国外交",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3VlVKSTduc2FWZU5MMFh0ZFRUODhRb3VReW5BcXVlS1ZqRTdwX2Vxc0NRWlpwU2ZXblViSGNMNVBXOTl3Z0FPRVBqX20zanllVFB1MGNpOHJQUG5lLTBsQ3lrZU9iVWdLNWtkeF9NOE1mUXByRnc?oc=5",
-      "source": "习近平外交思想和新时代中国外交",
-      "category": "政策",
-      "published": "2026-07-19",
-      "body_snippet": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记 习近平外交思想和新时代中国外交",
+      "title": "习近平提出四点意见，倡导携手构建公正合理的全球人工智能治理体系 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeWJXX2ZtaW9DalBWS3lOU29DNWwta2VwZmdLLU5qaVM4c2xWRzgyR256NkwyVWYwZ3VVRmg1V0djdjlrT05mcDJmblJhNU1KUV9wZ1oyRXdZRkZUXzJqYjc1YVhKU0NscklsYmFsRFo0blJYOTBDSzU4cGZGZTJXMWU4cS1CbktvQThLSl93?oc=5",
+      "source": "新华网",
+      "category": "治理",
+      "published": "2026-07-17",
+      "body_snippet": "习近平提出四点意见，倡导携手构建公正合理的全球人工智能治理体系 新华网",
       "_query_boost": 50,
       "lane": "attend",
       "signals": [
         "🏛️",
+        "📜",
         "🌏"
       ],
       "is_deep_read": true,
@@ -166,53 +27,55 @@
         "c1",
         "c3"
       ],
-      "summary_cn": "2026年7月19日，习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨演讲，全面阐述人工智能发展治理的中国方案，提出坚持发展优先、公平普惠、协同共治等原则，发布《全球人工智能治理倡议》获国际广泛响应。本届大会吸引全球1500余家企业、机构参展，我国人工智能核心产业规模已突破1万亿元，智能算力规模三年增长超300%。\n对PPIO的影响：最高领导人站台AI，凸显算力基础设施的战略地位，有利于边缘云分布式算力获得政策倾斜和资本市场认可，为港股IPO营造积极舆论环境。但全球治理框架的推进可能引入数据跨境、算法安全等新合规要求，需提前布局安全审查能力，尤其若拓展海外市场将面临更严格的互信机制。此外，国产化算力需求被进一步激活，无问芯穹等同行同样受益，PPIO需加快差异化竞争。",
+      "summary_cn": "7月17日，国家主席习近平就全球人工智能治理提出四点意见，核心包括：坚持智能向善、坚持安全可控（要求算力设施等安全）、坚持平等互利、坚持协同共治，倡导构建公正合理的全球AI治理体系。此次讲话将AI安全与基础设施安全强绑定。对PPIO而言，最高层首次将“算力设施安全”提升至AI治理的核心高度，直接利好国产合规的边缘云与分布式算力架构：①合规壁垒上升，海外芯片依赖型数据中心面临更严审查，PPIO的国产适配分布式架构获得政策护城河；②“协同共治”原则有望推动算力网络统一调度政策出台，利于PPIO这类异构算力平台接入国家算力网；③港股IPO叙事中，合规与安全正成为核心加分项。但需注意，安全管控可能增加客户准入与内容审核合规成本。",
       "ppio_signal": {
-        "positive": "国家最高领导人公开支持AI发展，强化算力基础设施的战略地位，极大增强边缘云分布式算力赛道的政策确定性和资本市场信心，利好港股IPO估值和路演。",
-        "risk": "全球人工智能治理倡议可能推动更严格的算法备案、数据跨境要求，涉及海外节点部署的合规成本上升，若不能及时满足可能影响国际化节奏。",
-        "beneficiaries": "算力平台企业（PPIO、无问芯穹、硅基流动），国产芯片厂商（海光、寒武纪），AI应用企业（受益普惠算力）。",
-        "pressure_parties": "依赖海外技术且合规能力薄弱的中小AI企业，传统数据中心运营商（需升级国产化方案）。"
+        "positive": "最高层明确算力设施安全是AI治理核心，国产合规的分布式算力平台政策站位升至最高；协同共治理念有利于异构算力接入国家调度网络。",
+        "risk": "安全管控收紧可能延长企业客户合规审查周期，推高PPIO的合规运营成本与内容风控压力。",
+        "beneficiaries": "国产芯片适配的分布式算力平台（PPIO/硅基流动）、自主可控AI算力设施提供商（华为昇腾生态）、合规AI应用企业。",
+        "pressure_parties": "依赖海外芯片的集中式数据中心运营商（部分第三方IDC）、合规能力弱的AI应用创业公司、非国产方案为主的传统云厂商。"
       }
     },
     {
       "id": "raw-2",
-      "title": "2026世界人工智能大会开幕 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0M29idHJ6aENzTElqTlRqWXVCakNJT2FCclR1cUpOdW12ZUx1ZFVKUm41Szh4T05ZTHVualYzY1J5SjF0SFV6eU9QUFNIZlZiWXMyNmk1eWNWTVlrWEk5Ni1jWTNwYVlub1Y2bEcyRUgzOVlYSWEtanFZMEUtSlE?oc=5",
-      "source": "新华网",
-      "category": "政策",
-      "published": "2026-07-17",
-      "body_snippet": "2026世界人工智能大会开幕 新华网",
-      "_query_boost": 35,
+      "title": "盘中涨超20%！智谱落地1GW级国产AI算力数据中心，完成收购中科加禾 - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0zU2RyTlVtVzJsajNnM21HdVRqWExnMDh4eVdGMWZRc0FUZXVManBkbmNvNFM0VDBsUXBSRzBMek1fSjh2bEdtc1dyUkdWLWN3eWNkRG1VRDBXd3FLaUE?oc=5",
+      "source": "thepaper.cn",
+      "category": "竞品",
+      "published": "2026-07-21",
+      "body_snippet": "盘中涨超20%！智谱落地1GW级国产AI算力数据中心，完成收购中科加禾 thepaper.cn",
+      "_query_boost": 30,
       "lane": "attend",
       "signals": [
-        "🏛️",
-        "🌏"
+        "⚔️",
+        "💰",
+        "🔬"
       ],
       "is_deep_read": true,
       "compass_triggered": [
-        "c1",
+        "c2",
         "c3"
       ],
-      "summary_cn": "2026世界人工智能大会于7月17日在上海开幕，以“智能向善 赋能未来”为主题，举办超过150场论坛，集中展示大模型、算力芯片、智能网联等前沿成果，预计签署重点合作项目金额超1200亿元，吸引来自50多个国家和地区的科学家、企业家参会。大会期间发布的《中国人工智能发展报告》显示，我国智能算力规模已达1200 EFLOPS，上架率提升至72%。\n对PPIO的影响：大会释放出强烈的AI基础设施建设信号，边缘算力作为云边端协同的关键一环，受到政策与产业双重关注。密集的算力订单和战略合作有望拉动分布式节点部署需求，提升上架率和整体收入预期。但以无问芯穹为代表的同赛道竞品也在展会上获得高曝光，PPIO需借助此类国家级平台加快客户拓展，同时确保上市前业绩增长能支撑估值，避免被竞品抢占先机。",
+      "summary_cn": "7月21日，智谱AI在资本市场盘中大涨超20%，核心催化是其宣布落地1GW级国产AI算力数据中心，并完成对国产AI编译器厂商中科加禾的收购。1GW规模相当于约10万张高端GPU集群，标志着国产大模型厂商正式向重资产算力基础设施上游延伸。对PPIO产生双重挤压：①智谱通过收购中科加禾获得底层编译优化能力，叠加自建超大规模国产算力池，可能开放对外推理API服务，从大模型用户变为PPIO在推理服务层的直接竞争对手；②1GW级数据中心锁定大量国产芯片产能，可能挤占PPIO获取国产算力的渠道与议价空间。但也验证了边缘/分布式之外，集中式AI数据中心仍是大模型训练刚需，PPIO的推理分散化定位反而形成差异化。港股IPO需明确回应与模型厂商自建算力的竞合关系。",
       "ppio_signal": {
-        "positive": "国家级平台集中展示AI基建成果，边缘云分布式算力作为普惠算力关键基础设施，有望获得更多政企订单和战略合作，直接提振上架率和营收预期。",
-        "risk": "展会期间竞品（如无问芯穹、硅基流动）同样获得高规格曝光，可能导致客户争夺加剧，PPIO需差异化定位以避免同质化竞争。",
-        "beneficiaries": "边缘算力平台（PPIO、无问芯穹），国产AI芯片企业（寒武纪、海光），AI大模型应用开发商。",
-        "pressure_parties": "传统集中式云服务商（面临边缘分流），未进入国家队视野的算力二线厂商。"
+        "positive": "验证AI算力赛道高景气度，提升行业整体估值中枢；PPIO的分布式推理定位与传统集中式训练中心形成差异，赛道逻辑更清晰。",
+        "risk": "智谱从大模型用户变为算力中心运营商，可能抢占推理API市场；大量锁定国产芯片产能挤压PPIO算力供给端议价空间。",
+        "beneficiaries": "国产AI芯片厂商（华为昇腾/寒武纪/海光）、大模型训练需求方、AI编译器与基础软件厂商。",
+        "pressure_parties": "算力云服务商（无问芯穹/硅基流动）、纯第三方算力PaaS平台（PPIO）、中小型国产算力分销渠道、未绑定大模型厂的传统IDC。"
       }
     },
     {
       "id": "raw-3",
-      "title": "习近平主席讲话为全球人工智能治理贡献中国智慧_大陆_国内新闻_新闻 - 齐鲁网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmVHdSMkVWUUR4RzlfN05nZ0NlNEN4Ml8yMXY0NGZfZmRKOTJNcXNrb2Y0SGlYS21FZmJiY0t5QXBlQmtMOTZLLVh4ME1RdDRmcUZndWtmTjcwMFhUdmkzdzR6ZUtoblZy?oc=5",
-      "source": "齐鲁网",
+      "title": "习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实 - 湖南省人民政府",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1peEpxSHRfcDczbnRXeTFUOEhfQ05Ycnl4b2lqX05faHpUNHVnRkg1Qnd3TjFKbmtYeGFTTkZ0MU1RaENEeEt1WHJ0bVpKX2xTa3NVcmlDRE5oQllqUk9ZYVAwMkFvbk9oQU5PekU4NlpKRWl4OHZBLTNzTnZKUQ?oc=5",
+      "source": "湖南省人民政府",
       "category": "政策",
-      "published": "2026-07-19",
-      "body_snippet": "习近平主席讲话为全球人工智能治理贡献中国智慧_大陆_国内新闻_新闻 齐鲁网",
-      "_query_boost": 45,
+      "published": "2026-07-20",
+      "body_snippet": "习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实 湖南省人民政府",
+      "_query_boost": 50,
       "lane": "attend",
       "signals": [
         "🏛️",
+        "📜",
         "🌏"
       ],
       "is_deep_read": true,
@@ -220,74 +83,180 @@
         "c1",
         "c3"
       ],
-      "summary_cn": "习近平主席在2026世界人工智能大会的讲话中提出《全球人工智能治理倡议》，贡献中国智慧，包括推动人工智能伦理标准制定、建立风险等级测试评估体系、加强发展中国家的AI能力建设等。我国已初步建成全球规模最大的人工智能治理实践体系，智能算力占全球比重超30%，并计划到2027年将这一比例提升至50%。\n对PPIO的影响：全球治理框架的落地将加速国内《人工智能法》等监管法规的制定，算力平台面临算法备案、安全审查和跨境数据流动等刚性合规要求。合规能力将成为上市审核的重要考量，PPIO在港股IPO过程中需要充分披露治理结构和数据安全措施。另一方面，政策强调普惠算力和包容发展，边缘云分布式模式正好契合“让算力像水电一样触手可及”的理念，有望在履行社会责任层面获加分。",
+      "summary_cn": "7月20日，习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议系列活动。这是习主席继此前WAIC经历后再度出席该大会，规格达到最高层级。大会核心议程包括发布《全球人工智能治理倡议》落实进展、推动AI基础设施互联互通国际合作等。对PPIO的意义：①习主席亲自站台WAIC释放明确信号——中国将持续引领全球AI治理议程，且算力基础设施被纳入国际合作框架，利于PPIO这类出海意愿强的边缘云厂商获得政策背书；②治理高级别会议聚焦AI基础设施安全与互联互通，有望推动算力跨境流动的规则形成，为PPIO潜在海外边缘节点部署打开政策窗口；③港股IPO叙事中，“国家级战略大会最高层站台”是极强的行业信心背书，可提升国际资本对AI算力赛道的合规认可度。",
       "ppio_signal": {
-        "positive": "中国AI治理经验被全球认可，合规性强的算力平台将获得监管信任和客户青睐，边缘云分布式架构适配普惠算力理念，有助于提升品牌形象和IPO审核中的环境、社会及治理（ESG）评分。",
-        "risk": "即将出台的AI监管法规可能包含算力安全审查要求，增加运营成本，且若审核周期延长可能影响IPO时间窗口。",
-        "beneficiaries": "拥有完整合规体系的算力平台（PPIO等），国产AI芯片和服务器厂商（海光、中科曙光），AI治理技术服务商。",
-        "pressure_parties": "数据安全能力不达标的算力散户，依赖海外大模型API的区域服务商（面临合规调整）。"
+        "positive": "最高层持续站台WAIC，AI基础设施安全与互联互通升至全球治理议题，为PPIO海外边缘节点拓展提供政策背书与想象空间。",
+        "risk": "全球AI治理规则若过严，可能增加算力跨境调度合规成本；国际治理话语权争夺也可能引发地缘摩擦波及算力贸易。",
+        "beneficiaries": "有出海能力的AI算力平台（PPIO/阿里云海外站）、国产AI芯片出海企业、参与跨境算力网络建设的运营商。",
+        "pressure_parties": "仅聚焦国内且合规体系薄弱的AI基础设施企业、对国际治理规则不敏感的纯技术型创业公司。"
       }
     },
     {
       "id": "raw-4",
-      "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
-      "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
-      "source": "工信部-新闻",
-      "published": "2026-07-21",
-      "body_snippet": "",
+      "title": "外交部介绍2026世界人工智能大会成果和亮点 - 习近平外交思想和新时代中国外交",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xMHprdzdtNGtKLU5kdVprUnF3bDZQS3dlbDh5MWM2Wm9YaGJ4X0N2aW0wSU5lTnp5T29YckFJZmJFM19tWWZNaTNldVZnUjNCMEZXT3FXYjRzc2tFcUdsVE4zRmFha055ZnRaUTRfc2dwU1F4Ync?oc=5",
+      "source": "习近平外交思想和新时代中国外交",
       "category": "政策",
+      "published": "2026-07-21",
+      "body_snippet": "外交部介绍2026世界人工智能大会成果和亮点 习近平外交思想和新时代中国外交",
+      "_query_boost": 50,
       "lane": "attend",
       "signals": [
         "🏛️",
         "🌏"
       ],
-      "is_deep_read": true,
+      "is_deep_read": false,
       "compass_triggered": [
         "c1",
         "c3"
       ],
-      "summary_cn": "2026年7月21日，工信部发布习近平主席出席世界人工智能大会系列活动纪实，详细记录开幕式主旨讲话、会见重要嘉宾情景，重点提及中国将加强算力基础设施开放共享，推动智能算力规模年均增长30%以上，力争到2027年形成全国一体化算力网络，实现东数西算、云边协同。纪实披露我国已建成340余座大型、超大型数据中心，智算中心80余个，边缘算力节点超200万个。\n对PPIO的影响：最高层直接部署算力基础设施阶段性目标，边缘算力节点数量达到百万级，意味着分布式算力已上升为国家战略组成部分，PPIO作为边缘云服务商直接受益于政策红利，将赶上算力网络一体化和开放共享的东风。港股IPO叙事可围绕“国家一体化算力网关键节点”展开，估值逻辑得到强化。但需关注大型云厂商可能加快自建边缘节点，竞争烈度或加剧。",
+      "summary_cn": "7月21日，外交部就2026世界人工智能大会召开发布会介绍成果与亮点，重点提及大会达成的多项AI治理共识、算力基础设施国际合作倡议以及多边技术交流机制。作为WAIC高层系列的外交维度闭环，进一步确认AI治理与基础设施安全已成为中国外交议程的核心之一。对PPIO：外交部层面背书将为PPIO这类有计划布局海外边缘节点的企业提供政治互信保障，降低东道国监管阻力；国际AI合作制度化也可能催生算力互联互通标准，利于PPIO的API经济模式跨境复制。但需关注成果落实情况。",
       "ppio_signal": {
-        "positive": "边缘算力节点明确列入国家一体化算力网络战略，数量达标目标为PPIO的商业模式提供政策背书，显著提升其作为云边协同关键服务商的定位，利好港股IPO估值和投资故事。",
-        "risk": "华为、阿里等巨头可能同步加速边缘节点自建，中小型边缘算力平台面临被替代的风险，PPIO需强化技术壁垒和客户黏性。",
-        "beneficiaries": "边缘云服务商（PPIO、无问芯穹），边缘计算硬件厂商（英特尔、地平线），东数西算枢纽节点运营商。",
-        "pressure_parties": "纯中心化云服务商（面临边缘分流），未纳入国家级算力网络的小型地方IDC。"
+        "positive": "AI治理进入外交部议程，PPIO海外业务获得国家级政治背书；算力互联互通合作倡议可能催生行业标准，降低跨境部署门槛。",
+        "risk": "若后续国际承诺落地迟缓，可能仅停留在宣言层面；算力安全议题过度政治化可能引发东道国防范。",
+        "beneficiaries": "有出海布局的边缘云与算力平台（PPIO）、参与国际AI合作的中国科技企业（阿里云/华为）、国内政企渠道强的大模型厂商（百度/讯飞/智谱）。",
+        "pressure_parties": "纯内需型且无出海规划的中小云服务商、对国际政治风险敏感的AI硬件出海企业。"
       }
     },
     {
       "id": "raw-5",
-      "title": "工信部将持续优化算力基础设施资源部署 - 香港電台",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa2FtVlJldlBzd182VmE0bnhFbW1YVnBYYmJVMFg3Uklka3NYMWd1ZUhob1J3WVFvMFNGdThNbklwWGRqRjFvTGFHSDhpSHktZjJncDJVN0FDS2JHbmgyZG9GMFJjcUpFOEYxVkVqT3lGTzZjaThabk1FYWJRcW9jQkp2WWtPUkdmc213RW1aaWNiR1g0d0NpNmRhQXRaaTA?oc=5",
-      "source": "香港電台",
-      "category": "政策",
-      "published": "2026-07-20",
-      "body_snippet": "工信部将持续优化算力基础设施资源部署 香港電台",
-      "_query_boost": 45,
+      "title": "反对大举兴建数据中心 全美42州爆发百多场抗议活动 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQN1diZkhMTXVRU0dRTzVxdzNnekpqbG9ZMXNUeExzRTlwaE5UdjlObDFSOF9nYk5NQzd6NWUtdWJoMWl3TFZXVWdPb0JHWHpLNnZJU2JJTWtjc3ladWlwczdYY05ZTGNhNWc?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-07-19",
+      "body_snippet": "反对大举兴建数据中心 全美42州爆发百多场抗议活动 联合早报",
+      "_query_boost": 25,
       "lane": "attend",
       "signals": [
-        "🏛️"
+        "🌏",
+        "💰"
       ],
       "is_deep_read": true,
       "compass_triggered": [
-        "c1"
+        "c3",
+        "c2"
       ],
-      "summary_cn": "2026年7月20日，工信部公开表态将持续优化算力基础设施资源部署，明确支持边缘算力节点与云边协同发展，提出到2027年智能算力占比不低于50%，并研究对符合条件的边缘算力设施给予差异化电价和税收优惠。同时，将启动“算力普惠百万节点”计划，鼓励社会资本参与建设，预期带动直接投资超3000亿元。\n对PPIO的影响：政策直接指向PPIO主营业务，边缘分布式算力被明确支持，成本端有望因电价优惠和补贴显著下降，模型经济性进一步改善。政府主导的“百万节点”计划可能带来大量采购订单，助力上架率和收入快速增长，为港股IPO提供坚实的财务基础。然而，政策利好也将吸引更多竞争者涌入，无问芯穹等竞品可能同步获资本加注，PPIO需抓住先发窗口期快速做大规模，锁定头部客户。",
+      "summary_cn": "7月19日，据联合早报报道，全美42个州爆发超过100场反对大规模新建数据中心的抗议活动。抗议焦点集中在数据中心对当地电力资源的挤占、环境与噪声影响以及社区利益分配不均。这是继个别州零星抗议后，首次出现全国性、跨州联动的大规模反AI基建运动。对PPIO产生三重信号：①海外市场（尤其美国）集中式大型数据中心建设正遭遇社会阻力，边缘算力因其分布式、小规模、融入现有城市基建的特性，成为绕过选址困局的替代方案——PPIO的边缘云模式在叙事上获得海外对标利好；②数据中心超大规模化受阻，可能加速美国算力需求向分布式架构迁移，利于PPIO如果未来探索海外市场时的模式输出；③短期看，美国本土算力供给若受限，可能增加中国企业对海外（如东南亚）AI算力节点的需求，PPIO的分布式算力出海窗口提前打开。但需注意国内是否出现类似社区抗议的辐射效应。",
       "ppio_signal": {
-        "positive": "正对PPIO业务的政策专向支持（边缘算力节点、云边协同），包含电价补贴和政府采购计划，将直接降低运营成本并创造增量订单，业绩增长确定性大幅提升，是IPO路演中的重大利好素材。",
-        "risk": "政策吸引下竞品涌入，可能引发价格竞争，加之中小玩家获得补贴后不计成本扩张，可能扰乱市场格局，PPIO需依靠技术和服务稳定性维持溢价。",
-        "beneficiaries": "边缘算力平台（PPIO、无问芯穹），微模块/边缘服务器供应商（浪潮、华为），社会资本参与方。",
-        "pressure_parties": "尚未获得政策准入认证的边缘算力散户，依赖电力成本优势的传统IDC（面临电价调整）。"
+        "positive": "海外大规模数据中心遭遇社会阻力，验证PPIO边缘分布式算力的海外叙事；算力分布式部署从技术选项升级为规避选址风险的必要方案。",
+        "risk": "国内可能跟进出现对数据中心的社区环境抗议；海外扩展仍面临当地法律与社区关系挑战。",
+        "beneficiaries": "分布式边缘算力平台（PPIO/边缘智算等同业）、模块化数据中心设备商、城市级微改造算力设施方案商。",
+        "pressure_parties": "超大规模算力中心运营商（北美数据中心REITs/国内大型IDC）、依赖集中式数据中心的高耗能AI训练厂商。"
       }
     },
     {
-      "id": "raw-1",
-      "title": "视频丨2026世界人工智能大会开幕 习近平主席主旨讲话引发热烈反响 - 中国经济网",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoNHphelRiWk5YenRHY29md0RiMURXVm90QVpCaHNxN3ExbGNxWHg0Z0twdEp6ZGdlRkl4T3ZNOGlmdkZOUHZYSXRvSUd4VF9aUmVDWm1IM1VycTRoUFdENHg1dTBaMm9WQ1pISUVYYw?oc=5",
-      "source": "中国经济网",
+      "id": "raw-001",
+      "title": "港股牛股| 重回1200港元！智谱飙涨近37%，落地1GW级国产AI算力中心；利好密集催化，半导体产业链暴力反弹！华虹宏力涨17.9% 港美股资讯 - hstong.com",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5WLWZnLU1tVGI4Q0FzZTJrQlA4LVBZZUZoSjdkTFJXZ1hNaEJtM0NCNWRPdmZRSE1ENXZBbERJX0wtTjFWaER2SzFyVy1QdWcycUZBZ1JNUmdsSDdSX3dMM25n?oc=5",
+      "source": "hstong.com",
+      "category": "竞品",
+      "published": "2026-07-21",
+      "body_snippet": "港股牛股| 重回1200港元！智谱飙涨近37%，落地1GW级国产AI算力中心；利好密集催化，半导体产业链暴力反弹！华虹宏力涨17.9% 港美股资讯 hstong.com",
+      "_query_boost": 30,
+      "lane": "attend",
+      "signals": [
+        "⚔️",
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "智谱AI股价单日飙涨近37%重回1200港元，同时宣布落地1GW级国产AI算力中心。该算力中心规模达1000兆瓦，全部采用国产芯片方案，标志着智谱从大模型研发向底层算力基础设施层加速渗透，意图构建从模型到算力的完整闭环。对PPIO而言，这是直接竞品信号：智谱自建超大规模算力池可能减少对外部边缘云/分布式算力的采购需求，进一步挤压第三方算力平台市场空间；但1GW全栈国产化也验证了国产芯片在训练+推理场景的工程化能力，对PPIO的国产化算力调度策略有一定参考价值。",
+      "ppio_signal": {
+        "positive": "验证国产芯片大规模集群工程化能力，为PPIO国产化算力纳管与调度积累行业案例",
+        "risk": "大模型厂商自建算力中心趋势加速，可能蚕食PPIO作为第三方算力平台的需求基本盘，尤其在推理算力需求端",
+        "beneficiaries": "国产AI芯片厂商(海光/寒武纪/昇腾)、液冷与IDC基建服务商",
+        "pressure_parties": "边缘云/分布式算力平台(PPIO等)、中立第三方GPU算力调度平台、传统云厂商的AI算力业务"
+      }
+    },
+    {
+      "id": "raw-002",
+      "title": "大模型公司下场做手机，阶跃星辰STEPX Neo亮相WAIC 2026 - nfplus.nfnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82MVdZay1kaFFqV1IwS1k2RmZnaW9sc2N3U1VoWGMwVmJSSDF6NndlOXlpaHVySGJ6QUoyZmNYUlk5WW01eUxHRTlvbHZxQVFiVFdWTmF4Vloyb1pxTkltdGJIOHhYeDFDOWc?oc=5",
+      "source": "nfplus.nfnews.com",
+      "category": "竞品",
+      "published": "2026-07-17",
+      "body_snippet": "大模型公司下场做手机，阶跃星辰STEPX Neo亮相WAIC 2026 nfplus.nfnews.com",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "⚔️",
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "阶跃星辰在WAIC 2026发布STEPX Neo终端设备，标志着大模型创业公司从软件层进入端侧硬件赛道。此举可能推动AI推理向手机等终端设备进一步下沉，改变云端与端侧的算力分布格局。对PPIO而言，端侧AI硬件增多意味着边缘侧实时推理需求场景扩大，分布式算力节点在端-边协同中可能获得新的调度价值；但若大模型厂商自建端侧推理闭环生态(硬件+模型+服务)，可能减少对外部边缘算力的依赖，形成新型竞争壁垒。",
+      "ppio_signal": {
+        "positive": "端侧AI爆发将催生海量端边协同推理场景，分布式边缘算力节点的响应延迟优势更加明显",
+        "risk": "大模型厂商通过终端硬件绑定用户推理服务，可能绕过第三方算力平台直接触达端侧需求",
+        "beneficiaries": "端侧AI芯片厂商(高通/联发科)、边缘计算节点运营商、AI应用开发者",
+        "pressure_parties": "纯云端推理服务商、缺乏端侧协同能力的算力平台、传统App应用商店分发渠道"
+      }
+    },
+    {
+      "id": "raw-003",
+      "title": "投资界24h|腾讯成中国最赚钱互联网企业；张一鸣已给家乡捐10亿；传月之暗面以500亿美元估值进行Pre-IPO融资 - 投资界",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aX3UwUUFFaU9JUEM0N0dJQ3pzOG8xeEpLSWdXSElBN2NibGdWSHc4RG1XMnhrelJvQ0NmQVhGTExlOGxQRC1aOGl3a0lfaUdnQ0ZRcUVR?oc=5",
+      "source": "投资界",
+      "category": "资本",
+      "published": "2026-07-22",
+      "body_snippet": "投资界24h|腾讯成中国最赚钱互联网企业；张一鸣已给家乡捐10亿；传月之暗面以500亿美元估值进行Pre-IPO融资 投资界",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "💰",
+        "⚔️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "月之暗面被传以500亿美元估值进行Pre-IPO融资，金额和估值均为中国大模型赛道顶级水平。这一资本动态将大幅推高AI基础设施层公司的估值想象空间，尤其对即将冲击港股IPO的PPIO构成资本市场情绪利好；但同时也意味着头部大模型厂商资金极度充裕，有能力持续自建算力体系，进一步挤压第三方中立算力平台的需求层级。",
+      "ppio_signal": {
+        "positive": "大模型赛道估值持续走高，提升AI基础设施品类在二级市场的关注度和估值锚点，利于PPIO港股IPO定价",
+        "risk": "头部大模型厂商获取巨额融资后自建算力的能力与意愿同步增强，PPIO作为独立算力平台的议价空间可能收窄",
+        "beneficiaries": "拟上市的AI基础设施公司(PPIO等)、持有大模型股权的投资机构、算力硬件供应商",
+        "pressure_parties": "中小型算力租赁平台、无差异化能力的纯资源转售型算力服务商"
+      }
+    },
+    {
+      "id": "raw-004",
+      "title": "无问芯穹夏立雪：AGI时代，基础设施的决胜点是“AI原生的Agentic Infra” - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aV3lXMl9TVGMyeEgwb2lnR3I5VVU5UVU0S0JSWjRNRGhCSXhEV3ZGaVo5akNGQnQ2U2V1MGs2bG1pM2pMYl9TMVVYekotSGxqTkZZLS1HRkx4cjdaUVZPR1NOSXdwNGlLREZaQk9oUUM?oc=5",
+      "source": "中国科技网",
+      "category": "竞品",
+      "published": "2026-07-20",
+      "body_snippet": "无问芯穹夏立雪：AGI时代，基础设施的决胜点是“AI原生的Agentic Infra” 中国科技网",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "⚔️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "无问芯穹CEO夏立雪提出AGI时代基础设施的核心决胜点是AI原生的Agentic Infra。这一战略定位与PPIO高度重叠，明确指向从传统云架构向Agent驱动的自适应算力调度体系转型，暗示无问芯穹正在构建以AI Agent自治运维、智能编排为卖点的下一代算力网络。对PPIO而言，这是直接竞品在技术路线上的正面交锋：双方均在争夺分布式算力的AI原生调度制高点，港股IPO路演中需要清晰阐述PPIO在Agentic Infra方向上的差异化能力和先发优势，否则可能面临估值被竞品拉平的风险。",
+      "ppio_signal": {
+        "positive": "Agentic Infra概念得到竞品高层背书，验证PPIO的AI原生算力调度方向具备行业共识，利于IPO叙事",
+        "risk": "无问芯穹以Agentic Infra为差异化卖点直接对标，PPIO必须在技术落地案例、客户规模上展示明确领先才能维持估值溢价",
+        "beneficiaries": "具备AI Agent编排能力的算力平台、向量数据库与自动化运维工具厂商",
+        "pressure_parties": "传统人工运维为主的IDC服务商、缺乏智能调度能力的二手算力转售平台"
+      }
+    },
+    {
+      "id": "raw-005",
+      "title": "以算力支撑新型国家能力体系建设 - 中国社会科学网",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXaU9TdjV4M2dOemx1LTM0eHZnbVF4SmtVV0dxUFNrMTg3QmVGOTB1WExjZVpxUjZUUThVUXpTQ2hjWmlzTUloUE1NeHBCZTRkVnFjNWFuYzAtRlNtUGFlX1FqQW5adDBzRUs3Ng?oc=5",
+      "source": "中国社会科学网",
       "category": "政策",
-      "published": "2026-07-18",
-      "body_snippet": "视频丨2026世界人工智能大会开幕 习近平主席主旨讲话引发热烈反响 中国经济网",
-      "_query_boost": 50,
+      "published": "2026-07-16",
+      "body_snippet": "以算力支撑新型国家能力体系建设 中国社会科学网",
+      "_query_boost": 30,
       "lane": "attend",
       "signals": [
         "🏛️"
@@ -296,45 +265,86 @@
       "compass_triggered": [
         "c1"
       ],
-      "summary_cn": "2026年7月18日，2026世界人工智能大会在上海开幕，国家主席习近平发表主旨讲话，引发热烈反响。本届大会吸引来自超过50个国家和地区的1200余家企业参展，展示大模型、具身智能、自动驾驶等最新成果。这是习近平主席首次亲自出席WAIC，在中美科技竞争白热化的节点上，释放出中国最高层强力扶持人工智能产业的战略信号。讲话内容据报涵盖人工智能治理、国际合作与自主创新，被视为AI产业最高级别的定调。对PPIO而言，主席亲自站台将大幅强化市场对AI基础设施投入的预期，边缘云与分布式算力作为AI落地的关键一环，有望直接受益于政策驱动的终端推理需求爆发。公司港股IPO之路可借势嵌入“国策级算力底座”的叙事，提振估值。但需密切关注大会后续可能出台的监管细则，例如算力调度、数据跨境流动要求，可能增加合规与运营成本。",
+      "summary_cn": "中国社会科学网发表文章探讨以算力支撑新型国家能力体系建设，将算力上升为国家能力核心要素，释放顶层理论铺垫信号。该定调可能推动后续算力基础设施纳入新型举国体制框架，加速国产算力替代、算力网络互联互通、边缘算力节点纳入国家调度体系等政策落地。对PPIO而言，这一政策方向与分布式边缘算力平台定位高度契合——若国家正式将边缘算力纳入新型国家能力体系，PPIO作为具备规模化分布式节点部署与智能调度能力的商业平台，有望获得政策资源倾斜、标准制定参与权及政府算力采购订单，但同时也面临国企/运营商入场竞争压力。",
       "ppio_signal": {
-        "positive": "习近平主席首度出席WAIC释放最高层战略意志，AI基础设施投资确定性显著提升，边缘与分布式算力赛道直接受益，利好PPIO港股IPO估值叙事。",
-        "risk": "国际高度聚焦下，AI治理与安全审查料将趋严，PPIO需应对数据跨境与海外硬件供应链受限的潜在挑战。",
-        "beneficiaries": "国产AI芯片厂商（海光/寒武纪）、边缘云与分布式算力平台（PPIO）、大模型应用企业",
-        "pressure_parties": "依赖海外芯片的算力集成商（部分传统IDC）、数据跨境流动敏感型应用商、合规能力弱的AI初创"
+        "positive": "算力上升为国家能力要素，分布式边缘算力平台有望纳入国家战略支持范围，政策红利可期",
+        "risk": "国家算力体系可能优先由国资主导，民营算力平台面临接入标准、安全审查等合规门槛",
+        "beneficiaries": "具备规模化分布式算力节点的民营平台(PPIO等)、国产算力芯片厂商、算力调度软件服务商",
+        "pressure_parties": "依赖海外芯片的算力服务商、未完成信创适配的边缘计算玩家、仅提供裸金属租赁的传统IDC"
+      }
+    },
+    {
+      "id": "raw-2",
+      "title": "硅基流动冲刺港股：77亿估值背后，“Token工厂第一股”困于负毛利 - yemacaijing.com",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1XSXVhN1RYZ1FfSjFhZF9ma3cyWk9IVF9oWnVyemZCcGxrQW9pYVhiYTVmcFdjTE05WTJ3cnBTVXpHMmhEeTNidDloUGdKczNSNFAxRlBhcEhzUnRNUTFSaF9R?oc=5",
+      "source": "yemacaijing.com",
+      "category": "竞品",
+      "published": "2026-07-21",
+      "body_snippet": "硅基流动冲刺港股：77亿估值背后，“Token工厂第一股”困于负毛利 yemacaijing.com",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "⚔️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c2"
+      ],
+      "summary_cn": "AI Infra公司硅基流动（SiliconFlow）冲刺港股IPO，估值约77亿元，定位“Token工厂第一股”。招股书暴露其毛利率为负，大规模Token分发业务虽营收高增但成本压力巨大，商业模式盈利能力尚待验证。\n对PPIO的直接影响：作为同赛道竞品，硅基流动的IPO将提升市场对AI推理服务的关注度，但其负毛利现状也折射出当前云端集中式推理服务在成本控制上的困境。PPIO依托边缘云分布式算力与闲散资源调度，具备更优的边际成本结构，可能在盈利模型上形成差异化优势。不过，硅基流动上市所获得的品牌与资本势能可能加剧客户与生态伙伴的争夺，PPIO需在港股IPO窗口期内强化自身财务故事，凸显分布式架构的单位经济模型。",
+      "ppio_signal": {
+        "positive": "同赛道竞品的高估值上市验证了AI推理服务市场的资本关注度，对PPIO估值逻辑有正向映射。",
+        "risk": "硅基流动上市后可能获得资金优势，加速市场扩张与价格竞争，挤压PPIO在部分客户群中的份额。",
+        "beneficiaries": "具备差异化成本结构的AI推理服务商（如边缘云分布式算力平台PPIO）、底层算力租赁商。",
+        "pressure_parties": "高度依赖集中式云推理且毛利薄弱的AI Infra初创公司（如硅基流动自身所代表的模式）。"
       }
     },
     {
       "id": "raw-3",
-      "title": "要闻解说 - 中美科技竞争背景下 习近平将首次出席上海世界人工智能大会 - RFI",
-      "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxPWjBLVnVxbHdTb21lT1BlRkdWaDRYS3VzVHRtZlJsWk11V043TWNYb1Z1dUt4aEFTWXpBTW5nM2hXNFVNV1lpZzA4dUtZU0JZdUY0NXIxQnRSUXF1NE5qaFRjdjdZX1dWckVFY09qNERLd3g0NEVpVmJsVWJyTVBxNjRKcTJEbjFhZHJJMm9Zbkloai0yR1ZiNWNmUFdRanRydHJld29ic19CaThyTmxwT0lQMDdtM2I1dDJLeDZ6UlZ2TlhPZ0xJdzNmWTk4QjBfTnRac01DUjVyXzdpNWxZZ3JfRHFaZ09lSXk5MU1ZZVdSQW9PdkZSOEN2ZE12SUlld2tZUFp3NEV0SXBxWjc5VGkyeG52aENMVDk0T3lxWGhSSTAzbzJhcEd6UEJDNk5pRlpjSU5LaGpITUk5VUtYRWczXzIza1F4UEViTWpDMC1QeFZzMDBlb20xR1l4LWZwMjJCTnR1M3dZRFVSR1NaMjJUTkx4Yy1GR3ctMU96Z2xXN2psWmRxNkc0VDh4cUdGMG9iRnF2RFp1b2gxeUthTkpudEFnTkRkZDNPdzdoM3VJQTRCOW82VWZ6amtWa1ZOTks5bUtRVDJDOURhZXZVQ0NMendybk9tcXFJOFFsXzAxTlN2R1FqMnhfNnh4QQ?oc=5",
-      "source": "RFI",
-      "category": "政策",
-      "published": "2026-07-16",
-      "body_snippet": "要闻解说 - 中美科技竞争背景下 习近平将首次出席上海世界人工智能大会 RFI",
-      "_query_boost": 45,
-      "lane": "attend",
+      "title": "商汤科技联合国星宇航发射算力卫星，2030年建千星万P太空算力星座 - 电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16WTRkSEp0LWdxLUVKSEN1UHdzaXRFdUllaldoQVhuYURFVVdaUE1PaHY3d0pzblpuS0ZvRXNzSTBtVkExQzNYVERjZ21qSzJKaWYwS1dhQWs5VVpy?oc=5",
+      "source": "电子工程专辑",
+      "category": "技术",
+      "published": "2026-07-20",
+      "body_snippet": "商汤科技联合国星宇航发射算力卫星，2030年建千星万P太空算力星座 电子工程专辑",
+      "_query_boost": 20,
+      "lane": "silent",
       "signals": [
-        "🏛️"
+        "🔬"
       ],
-      "is_deep_read": true,
+      "is_deep_read": false,
       "compass_triggered": [
-        "c1"
+        "c3"
       ],
-      "summary_cn": "2026年7月16日，法国国际广播电台（RFI）刊发要闻解说，聚焦中国国家主席习近平将首次出席上海世界人工智能大会。在中美科技竞争不断加剧的背景下，此举被视为中国最高领导人向AI产业发出的最明确、最强有力的政策背书。WAIC自2018年创办以来已成功举办七届，本届首次迎来习近平主席亲临，展商预计超过500家。分析普遍认为，这标志着人工智能已从产业议题跃升为国家战略博弈的核心，将对全球AI治理格局和产业链布局产生深远影响。对PPIO而言，习近平主席的亲自出席是一份最高规格的战略意志信号，将催化AI算力基础设施建设浪潮。边缘云和分布式算力作为AI从云端向终端渗透的关键环节，政策红利确定性大幅提升，PPIO可借此强化其港股IPO的「国策算力」投资逻辑。然而，大会在全球瞩目下召开，后续可能引发欧美对华AI技术管控的进一步升级，为中国AI企业带来更复杂的国际合规压力。",
-      "ppio_signal": {
-        "positive": "最高领导人亲自站台AI大会，政策推动力达到顶峰，边缘云与分布式算力部署将加速，为PPIO提供强劲需求与IPO故事支撑。",
-        "risk": "大会强化国际关注度，可能加速欧美对华AI技术封锁与投资审查，增加PPIO及合作伙伴的海外供应链风险。",
-        "beneficiaries": "AI算力服务商（PPIO、优刻得）、国产芯片商（海光、寒武纪）、AI应用开发商",
-        "pressure_parties": "依赖NVIDIA等海外高端芯片的云厂商（部分头部云服务商）、涉及跨境数据AI训练的企业"
-      }
+      "summary_cn": "商汤科技与国星宇航合作发射算力卫星，计划2030年建成千星万P太空算力星座，属前沿探索，暂无直接竞争关系。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-4",
+      "title": "WAIC观察｜模型越大算力越紧，国产AI集体死磕“利用率” - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeHBZTUJTUUk1RHF3eHROb1d3bmRXQ1JaZjZyWHgtU2xjUXl5STRDQWZxX3FlQ1pMekV1YVB4UE85UjdUV3FvODFZenJWWUl1V1BVMl9EU0Y3dHRSV3E0N3pMekRqNjMya0tPekVhUFNNME9CUFYwU0F4Sktvc2t4aFlB?oc=5",
+      "source": "新浪网",
+      "category": "技术",
+      "published": "2026-07-20",
+      "body_snippet": "WAIC观察｜模型越大算力越紧，国产AI集体死磕“利用率” 新浪网",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2"
+      ],
+      "summary_cn": "WAIC观察文章指出，随着模型规模扩大算力日益紧张，国产AI企业正集体聚焦提升计算资源利用率，推理效率优化成为行业共识。",
+      "ppio_signal": null
     },
     {
       "id": "raw-5",
-      "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
-      "url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+      "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin/",
       "source": "NVIDIA Blog",
-      "published": "2026-07-20",
+      "published": "2026-07-21",
       "body_snippet": "",
       "category": "技术",
       "lane": "silent",
@@ -345,7 +355,7 @@
       "compass_triggered": [
         "c3"
       ],
-      "summary_cn": "百时美施贵宝（Bristol Myers Squibb）宣布基于NVIDIA下一代Vera Rubin架构打造生命科学行业最先进的AI工厂，用于加速药物发现与研发。该合作标志高端AI基础设施正快速切入垂直行业，或带动新一轮算力架构升级潮。",
+      "summary_cn": "NVIDIA发布Vera Rubin芯片，宣称实现每瓦最优性能与史上最低Token推理成本，将大幅提升全球AI算力效率。",
       "ppio_signal": null
     }
   ]

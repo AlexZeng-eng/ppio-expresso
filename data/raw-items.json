@@ -1,158 +1,159 @@
 {
-  "generated_at": "2026-07-21T01:32:39.726Z",
+  "generated_at": "2026-07-22T01:41:26.342Z",
   "week": "2026-W30",
   "date_range": {
-    "from": "2026-07-14",
-    "to": "2026-07-21"
+    "from": "2026-07-15",
+    "to": "2026-07-22"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbTVsTy02RWhGU3BsWVpvUDNoOVZIX0ZQcmkxTTZ3Y2hNR0lfbjgtdWNuMGJhbVl5WGpNM29zaERYaFRGc2RDRTVPQ0JrUDBrRmhWdmpjbTZGWjhCdDR0T2hfSVdJRE5yMmM0aXFCWk1DMi1SRVRYRE4yNVIyeXFJM3VyQXFla3RPQy11dURR?oc=5",
+      "title": "习近平提出四点意见，倡导携手构建公正合理的全球人工智能治理体系 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeWJXX2ZtaW9DalBWS3lOU29DNWwta2VwZmdLLU5qaVM4c2xWRzgyR256NkwyVWYwZ3VVRmg1V0djdjlrT05mcDJmblJhNU1KUV9wZ1oyRXdZRkZUXzJqYjc1YVhKU0NscklsYmFsRFo0blJYOTBDSzU4cGZGZTJXMWU4cS1CbktvQThLSl93?oc=5",
       "source": "新华网",
       "category": "政策",
       "published": "2026-07-17",
-      "body_snippet": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 新华网",
+      "body_snippet": "习近平提出四点意见，倡导携手构建公正合理的全球人工智能治理体系 新华网",
       "_query_boost": 50
     },
     {
       "id": "raw-002",
-      "title": "新华社消息丨习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上发表主旨讲话 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdHJNcWZ2Smt0SFNkbUc3TXJnLTRwemFGWVpRX0ptNzZvRTVCRnZ2ZndGR3ZrdFZ2Tnpvejh6UTBTTGg3a0wtSDhucjJFN3hwT0x2SDlFQ1RESkZlMThOdVhNZDVNbVF3Tlg2emxyZENFRENDSDc5MkVSb3RnSE44Y01B?oc=5",
-      "source": "新华网",
-      "category": "政策",
-      "published": "2026-07-17",
-      "body_snippet": "新华社消息丨习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上发表主旨讲话 新华网",
-      "_query_boost": 50
+      "title": "盘中涨超20%！智谱落地1GW级国产AI算力数据中心，完成收购中科加禾 - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0zU2RyTlVtVzJsajNnM21HdVRqWExnMDh4eVdGMWZRc0FUZXVManBkbmNvNFM0VDBsUXBSRzBMek1fSjh2bEdtc1dyUkdWLWN3eWNkRG1VRDBXd3FLaUE?oc=5",
+      "source": "thepaper.cn",
+      "category": "竞品",
+      "published": "2026-07-21",
+      "body_snippet": "盘中涨超20%！智谱落地1GW级国产AI算力数据中心，完成收购中科加禾 thepaper.cn",
+      "_query_boost": 30
     },
     {
       "id": "raw-003",
-      "title": "【讲习所·中国与世界】习近平：要始终用人类智慧和国际共识引领人工智能发展 - 央视网",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NM1VTdXhVOUR0OUp0YjBnbzZhSVo0NERGRFhHMm4zY3l1VDdCVk9iV0drczVJcjFnc3JtSHRKZlI2dDFyQW9qWllFR0FsanVsb3dJaDhiMVJEMUs0X1drT3pZZW1saFZaUjUyaE9vUGY1RjFmNlJ0Zg?oc=5",
-      "source": "央视网",
+      "title": "习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实 - 湖南省人民政府",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1peEpxSHRfcDczbnRXeTFUOEhfQ05Ycnl4b2lqX05faHpUNHVnRkg1Qnd3TjFKbmtYeGFTTkZ0MU1RaENEeEt1WHJ0bVpKX2xTa3NVcmlDRE5oQllqUk9ZYVAwMkFvbk9oQU5PekU4NlpKRWl4OHZBLTNzTnZKUQ?oc=5",
+      "source": "湖南省人民政府",
       "category": "政策",
-      "published": "2026-07-19",
-      "body_snippet": "【讲习所·中国与世界】习近平：要始终用人类智慧和国际共识引领人工智能发展 央视网",
-      "_query_boost": 45
+      "published": "2026-07-20",
+      "body_snippet": "习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实 湖南省人民政府",
+      "_query_boost": 50
     },
     {
       "id": "raw-004",
-      "title": "习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（全文） - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRWNKMkZoYjZ5WmxTbTYzY0ZBY1ZVVlAwRlVZYkw5b0pNeVhxSW0tb2JsZFY1YkFuQjlhS3lUYUdSR1ZWRnNFYUMzd3pEVGtZTWc1N3M0ZElrVmVOU3dsdjlaam9FMEVVMEJJaG10TldPTFh3c2p4NE96ZUdwb0VZTERfM3VTSVU0Z0FzUHpB?oc=5",
-      "source": "新华网",
+      "title": "外交部介绍2026世界人工智能大会成果和亮点 - 习近平外交思想和新时代中国外交",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xMHprdzdtNGtKLU5kdVprUnF3bDZQS3dlbDh5MWM2Wm9YaGJ4X0N2aW0wSU5lTnp5T29YckFJZmJFM19tWWZNaTNldVZnUjNCMEZXT3FXYjRzc2tFcUdsVE4zRmFha055ZnRaUTRfc2dwU1F4Ync?oc=5",
+      "source": "习近平外交思想和新时代中国外交",
       "category": "政策",
-      "published": "2026-07-17",
-      "body_snippet": "习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（全文） 新华网",
-      "_query_boost": 35
+      "published": "2026-07-21",
+      "body_snippet": "外交部介绍2026世界人工智能大会成果和亮点 习近平外交思想和新时代中国外交",
+      "_query_boost": 50
     },
     {
       "id": "raw-005",
-      "title": "市委常委会扩大会议传达学习习近平总书记考察上海重要指示和在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话精神 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ETmlTQlVYT3M1WE85LXVyTVBmQ29GdGdVOEtIalNUQVFzWm5KMUtmMmtaNkVFR3liVWQxT3lmdDZ0bWxnVEdWLWtPVklFczJPWkY1d3lnQ2lhZw?oc=5",
-      "source": "上观新闻",
-      "category": "政策",
-      "published": "2026-07-20",
-      "body_snippet": "市委常委会扩大会议传达学习习近平总书记考察上海重要指示和在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话精神 上观新闻",
-      "_query_boost": 50
+      "title": "反对大举兴建数据中心 全美42州爆发百多场抗议活动 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQN1diZkhMTXVRU0dRTzVxdzNnekpqbG9ZMXNUeExzRTlwaE5UdjlObDFSOF9nYk5NQzd6NWUtdWJoMWl3TFZXVWdPb0JHWHpLNnZJU2JJTWtjc3ladWlwczdYY05ZTGNhNWc?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-07-19",
+      "body_snippet": "反对大举兴建数据中心 全美42州爆发百多场抗议活动 联合早报",
+      "_query_boost": 25
     },
     {
       "id": "raw-006",
-      "title": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记 - 习近平外交思想和新时代中国外交",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3VlVKSTduc2FWZU5MMFh0ZFRUODhRb3VReW5BcXVlS1ZqRTdwX2Vxc0NRWlpwU2ZXblViSGNMNVBXOTl3Z0FPRVBqX20zanllVFB1MGNpOHJQUG5lLTBsQ3lrZU9iVWdLNWtkeF9NOE1mUXByRnc?oc=5",
-      "source": "习近平外交思想和新时代中国外交",
-      "category": "政策",
-      "published": "2026-07-19",
-      "body_snippet": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记 习近平外交思想和新时代中国外交",
-      "_query_boost": 50
+      "title": "港股牛股| 重回1200港元！智谱飙涨近37%，落地1GW级国产AI算力中心；利好密集催化，半导体产业链暴力反弹！华虹宏力涨17.9% 港美股资讯 - hstong.com",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5WLWZnLU1tVGI4Q0FzZTJrQlA4LVBZZUZoSjdkTFJXZ1hNaEJtM0NCNWRPdmZRSE1ENXZBbERJX0wtTjFWaER2SzFyVy1QdWcycUZBZ1JNUmdsSDdSX3dMM25n?oc=5",
+      "source": "hstong.com",
+      "category": "竞品",
+      "published": "2026-07-21",
+      "body_snippet": "港股牛股| 重回1200港元！智谱飙涨近37%，落地1GW级国产AI算力中心；利好密集催化，半导体产业链暴力反弹！华虹宏力涨17.9% 港美股资讯 hstong.com",
+      "_query_boost": 30
     },
     {
       "id": "raw-007",
-      "title": "2026世界人工智能大会开幕 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0M29idHJ6aENzTElqTlRqWXVCakNJT2FCclR1cUpOdW12ZUx1ZFVKUm41Szh4T05ZTHVualYzY1J5SjF0SFV6eU9QUFNIZlZiWXMyNmk1eWNWTVlrWEk5Ni1jWTNwYVlub1Y2bEcyRUgzOVlYSWEtanFZMEUtSlE?oc=5",
-      "source": "新华网",
-      "category": "政策",
+      "title": "大模型公司下场做手机，阶跃星辰STEPX Neo亮相WAIC 2026 - nfplus.nfnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82MVdZay1kaFFqV1IwS1k2RmZnaW9sc2N3U1VoWGMwVmJSSDF6NndlOXlpaHVySGJ6QUoyZmNYUlk5WW01eUxHRTlvbHZxQVFiVFdWTmF4Vloyb1pxTkltdGJIOHhYeDFDOWc?oc=5",
+      "source": "nfplus.nfnews.com",
+      "category": "竞品",
       "published": "2026-07-17",
-      "body_snippet": "2026世界人工智能大会开幕 新华网",
-      "_query_boost": 35
+      "body_snippet": "大模型公司下场做手机，阶跃星辰STEPX Neo亮相WAIC 2026 nfplus.nfnews.com",
+      "_query_boost": 25
     },
     {
       "id": "raw-008",
-      "title": "习近平主席讲话为全球人工智能治理贡献中国智慧_大陆_国内新闻_新闻 - 齐鲁网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmVHdSMkVWUUR4RzlfN05nZ0NlNEN4Ml8yMXY0NGZfZmRKOTJNcXNrb2Y0SGlYS21FZmJiY0t5QXBlQmtMOTZLLVh4ME1RdDRmcUZndWtmTjcwMFhUdmkzdzR6ZUtoblZy?oc=5",
-      "source": "齐鲁网",
-      "category": "政策",
-      "published": "2026-07-19",
-      "body_snippet": "习近平主席讲话为全球人工智能治理贡献中国智慧_大陆_国内新闻_新闻 齐鲁网",
-      "_query_boost": 45
+      "title": "投资界24h|腾讯成中国最赚钱互联网企业；张一鸣已给家乡捐10亿；传月之暗面以500亿美元估值进行Pre-IPO融资 - 投资界",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aX3UwUUFFaU9JUEM0N0dJQ3pzOG8xeEpLSWdXSElBN2NibGdWSHc4RG1XMnhrelJvQ0NmQVhGTExlOGxQRC1aOGl3a0lfaUdnQ0ZRcUVR?oc=5",
+      "source": "投资界",
+      "category": "资本",
+      "published": "2026-07-22",
+      "body_snippet": "投资界24h|腾讯成中国最赚钱互联网企业；张一鸣已给家乡捐10亿；传月之暗面以500亿美元估值进行Pre-IPO融资 投资界",
+      "_query_boost": 20
     },
     {
       "id": "raw-009",
-      "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
-      "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
-      "source": "工信部-新闻",
-      "published": "2026-07-21",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "无问芯穹夏立雪：AGI时代，基础设施的决胜点是“AI原生的Agentic Infra” - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aV3lXMl9TVGMyeEgwb2lnR3I5VVU5UVU0S0JSWjRNRGhCSXhEV3ZGaVo5akNGQnQ2U2V1MGs2bG1pM2pMYl9TMVVYekotSGxqTkZZLS1HRkx4cjdaUVZPR1NOSXdwNGlLREZaQk9oUUM?oc=5",
+      "source": "中国科技网",
+      "category": "监管",
+      "published": "2026-07-20",
+      "body_snippet": "无问芯穹夏立雪：AGI时代，基础设施的决胜点是“AI原生的Agentic Infra” 中国科技网",
+      "_query_boost": 25
     },
     {
       "id": "raw-010",
-      "title": "工信部将持续优化算力基础设施资源部署 - 香港電台",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa2FtVlJldlBzd182VmE0bnhFbW1YVnBYYmJVMFg3Uklka3NYMWd1ZUhob1J3WVFvMFNGdThNbklwWGRqRjFvTGFHSDhpSHktZjJncDJVN0FDS2JHbmgyZG9GMFJjcUpFOEYxVkVqT3lGTzZjaThabk1FYWJRcW9jQkp2WWtPUkdmc213RW1aaWNiR1g0d0NpNmRhQXRaaTA?oc=5",
-      "source": "香港電台",
+      "title": "以算力支撑新型国家能力体系建设 - 中国社会科学网",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXaU9TdjV4M2dOemx1LTM0eHZnbVF4SmtVV0dxUFNrMTg3QmVGOTB1WExjZVpxUjZUUThVUXpTQ2hjWmlzTUloUE1NeHBCZTRkVnFjNWFuYzAtRlNtUGFlX1FqQW5adDBzRUs3Ng?oc=5",
+      "source": "中国社会科学网",
       "category": "政策",
-      "published": "2026-07-20",
-      "body_snippet": "工信部将持续优化算力基础设施资源部署 香港電台",
-      "_query_boost": 45
+      "published": "2026-07-16",
+      "body_snippet": "以算力支撑新型国家能力体系建设 中国社会科学网",
+      "_query_boost": 30
     },
     {
       "id": "raw-011",
-      "title": "视频丨2026世界人工智能大会开幕 习近平主席主旨讲话引发热烈反响 - 中国经济网",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoNHphelRiWk5YenRHY29md0RiMURXVm90QVpCaHNxN3ExbGNxWHg0Z0twdEp6ZGdlRkl4T3ZNOGlmdkZOUHZYSXRvSUd4VF9aUmVDWm1IM1VycTRoUFdENHg1dTBaMm9WQ1pISUVYYw?oc=5",
-      "source": "中国经济网",
-      "category": "政策",
-      "published": "2026-07-18",
-      "body_snippet": "视频丨2026世界人工智能大会开幕 习近平主席主旨讲话引发热烈反响 中国经济网",
-      "_query_boost": 50
+      "title": "浦新篇AI共赢｜维谛技术(Vertiv)2026合作伙伴大会共绘AI算力共赢新蓝图-AI云资讯 - icloudnews.net",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vT1JsZU9kZVljbnhjM3NUQTAtWFFhRVFITlh0LUVBTko2U1N5YjRkRDAwdTRJMEdnc2FyVDZCMjZSUjk0dmw0ZElBS0w0cnF2OEE?oc=5",
+      "source": "icloudnews.net",
+      "category": "监管",
+      "published": "2026-07-21",
+      "body_snippet": "浦新篇AI共赢｜维谛技术(Vertiv)2026合作伙伴大会共绘AI算力共赢新蓝图-AI云资讯 icloudnews.net",
+      "_query_boost": 20
     },
     {
       "id": "raw-012",
-      "title": "2026世界人工智能大会开幕；Kimi K3发布；小鹏汽车量产首款飞行汽车 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9BSnBqbTNzZk03YjZrckxxWnlqeERwanpDeVFMVks5bThQcU93aE0yaVFpRGRlN1dlcWFvN2lQaFhKRUhuN2lJelV5Q1N1dXMyeUFxSjliNU9yemZYc3Z5d1pn?oc=5",
-      "source": "手机网易网",
-      "category": "政策",
-      "published": "2026-07-17",
-      "body_snippet": "2026世界人工智能大会开幕；Kimi K3发布；小鹏汽车量产首款飞行汽车 手机网易网",
-      "_query_boost": 45
+      "title": "硅基流动冲刺港股：77亿估值背后，“Token工厂第一股”困于负毛利 - yemacaijing.com",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1XSXVhN1RYZ1FfSjFhZF9ma3cyWk9IVF9oWnVyemZCcGxrQW9pYVhiYTVmcFdjTE05WTJ3cnBTVXpHMmhEeTNidDloUGdKczNSNFAxRlBhcEhzUnRNUTFSaF9R?oc=5",
+      "source": "yemacaijing.com",
+      "category": "竞品",
+      "published": "2026-07-21",
+      "body_snippet": "硅基流动冲刺港股：77亿估值背后，“Token工厂第一股”困于负毛利 yemacaijing.com",
+      "_query_boost": 20
     },
     {
       "id": "raw-013",
-      "title": "要闻解说 - 中美科技竞争背景下 习近平将首次出席上海世界人工智能大会 - RFI",
-      "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxPWjBLVnVxbHdTb21lT1BlRkdWaDRYS3VzVHRtZlJsWk11V043TWNYb1Z1dUt4aEFTWXpBTW5nM2hXNFVNV1lpZzA4dUtZU0JZdUY0NXIxQnRSUXF1NE5qaFRjdjdZX1dWckVFY09qNERLd3g0NEVpVmJsVWJyTVBxNjRKcTJEbjFhZHJJMm9Zbkloai0yR1ZiNWNmUFdRanRydHJld29ic19CaThyTmxwT0lQMDdtM2I1dDJLeDZ6UlZ2TlhPZ0xJdzNmWTk4QjBfTnRac01DUjVyXzdpNWxZZ3JfRHFaZ09lSXk5MU1ZZVdSQW9PdkZSOEN2ZE12SUlld2tZUFp3NEV0SXBxWjc5VGkyeG52aENMVDk0T3lxWGhSSTAzbzJhcEd6UEJDNk5pRlpjSU5LaGpITUk5VUtYRWczXzIza1F4UEViTWpDMC1QeFZzMDBlb20xR1l4LWZwMjJCTnR1M3dZRFVSR1NaMjJUTkx4Yy1GR3ctMU96Z2xXN2psWmRxNkc0VDh4cUdGMG9iRnF2RFp1b2gxeUthTkpudEFnTkRkZDNPdzdoM3VJQTRCOW82VWZ6amtWa1ZOTks5bUtRVDJDOURhZXZVQ0NMendybk9tcXFJOFFsXzAxTlN2R1FqMnhfNnh4QQ?oc=5",
-      "source": "RFI",
-      "category": "政策",
-      "published": "2026-07-16",
-      "body_snippet": "要闻解说 - 中美科技竞争背景下 习近平将首次出席上海世界人工智能大会 RFI",
-      "_query_boost": 45
+      "title": "商汤科技联合国星宇航发射算力卫星，2030年建千星万P太空算力星座 - 电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16WTRkSEp0LWdxLUVKSEN1UHdzaXRFdUllaldoQVhuYURFVVdaUE1PaHY3d0pzblpuS0ZvRXNzSTBtVkExQzNYVERjZ21qSzJKaWYwS1dhQWs5VVpy?oc=5",
+      "source": "电子工程专辑",
+      "category": "竞品",
+      "published": "2026-07-20",
+      "body_snippet": "商汤科技联合国星宇航发射算力卫星，2030年建千星万P太空算力星座 电子工程专辑",
+      "_query_boost": 20
     },
     {
       "id": "raw-014",
-      "title": "2026世界人工智能大会暨人工智能全球治理高级别会议闭幕，龚正出席闭幕式并为上海物理智能与机器人研究院揭牌 - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FZDRQRVRQU0FtQVpUZ1VPdm9mV0hJRXhOY3FCcTIzSHFpN3Uzem1qNVNSQ01SaWEtckYzQVYtVGY3V1hUb1pLaWo1SE8xMFluZTZqXzROaE9FcVBZeGE1SA?oc=5",
-      "source": "thepaper.cn",
-      "category": "政策",
+      "title": "WAIC观察｜模型越大算力越紧，国产AI集体死磕“利用率” - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeHBZTUJTUUk1RHF3eHROb1d3bmRXQ1JaZjZyWHgtU2xjUXl5STRDQWZxX3FlQ1pMekV1YVB4UE85UjdUV3FvODFZenJWWUl1V1BVMl9EU0Y3dHRSV3E0N3pMekRqNjMya0tPekVhUFNNME9CUFYwU0F4Sktvc2t4aFlB?oc=5",
+      "source": "新浪网",
+      "category": "竞品",
       "published": "2026-07-20",
-      "body_snippet": "2026世界人工智能大会暨人工智能全球治理高级别会议闭幕，龚正出席闭幕式并为上海物理智能与机器人研究院揭牌 thepaper.cn",
-      "_query_boost": 50
+      "body_snippet": "WAIC观察｜模型越大算力越紧，国产AI集体死磕“利用率” 新浪网",
+      "_query_boost": 20
     },
     {
       "id": "raw-015",
-      "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
-      "url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+      "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin/",
       "source": "NVIDIA Blog",
-      "published": "2026-07-20",
+      "published": "2026-07-21",
       "body_snippet": "",
       "category": "技术"
     }
