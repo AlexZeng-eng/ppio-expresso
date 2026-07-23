@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-22T04:02:12.238Z",
-  "date": "2026-07-22",
-  "date_label": "2026-07-22",
+  "generated_at": "2026-07-23T03:59:56.370Z",
+  "date": "2026-07-23",
+  "date_label": "2026-07-23",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
     "📜": 0,
     "⚔️": 1,
     "💰": 1,
-    "🌏": 0,
-    "🔬": 7
+    "🌏": 1,
+    "🔬": 12
   },
   "speed_read": {
     "positive": [],
@@ -19,7 +19,7 @@
     "policy_heat": 3,
     "competitor_heat": 3,
     "capital_heat": 3,
-    "overseas_heat": 2,
+    "overseas_heat": 3,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
@@ -27,7 +27,7 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "同济大学院士专家在世界人工智能大会多个分",
+      "title": "启明头条 | WAIC启明创投·创业与投",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -35,7 +35,7 @@
     },
     {
       "id": "2",
-      "title": "WAIC现场：摩尔沐曦齐喊“国产芯片能训",
+      "title": "港投生态圈企业阶跃星辰发布全球首个大模型",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -43,50 +43,18 @@
     },
     {
       "id": "3",
-      "title": "月之暗面启动Pre-IPO融资 目标估值",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
+      "title": "国常会重磅部署！加快通信网、算力网建设！",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
       "id": "4",
-      "title": "《国务院关于对外投资的规定》公布自7月1",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "5",
-      "title": "直击WAIC 2026：AI高景气延续 ",
+      "title": "估值500亿美元！月之暗面计划8月启动上",
       "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "6",
-      "title": "培育人工智能健康生态，习近平主席主旨讲话",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "7",
-      "title": "2026世界人工智能大会今开幕：申城的一",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "8",
-      "title": "WAIC重磅成果｜上海市教育算力专区正式",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
+      "competition_axis": 0.7,
+      "impact_score": 3,
       "axis_reason": "规则估算"
     }
   ],
@@ -98,7 +66,7 @@
       "competitive_pressure": -6,
       "capital_sentiment": 5,
       "regulatory_risk": 0,
-      "overseas_headwind": 0
+      "overseas_headwind": -4
     },
     "interpretation": "规则估算，仅供参考"
   },
