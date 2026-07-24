@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-23T03:59:56.370Z",
-  "date": "2026-07-23",
-  "date_label": "2026-07-23",
+  "generated_at": "2026-07-24T03:58:48.192Z",
+  "date": "2026-07-24",
+  "date_label": "2026-07-24",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 1,
+    "🏛️": 0,
     "📜": 0,
-    "⚔️": 1,
-    "💰": 1,
-    "🌏": 1,
-    "🔬": 12
+    "⚔️": 0,
+    "💰": 0,
+    "🌏": 0,
+    "🔬": 6
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 3,
-    "competitor_heat": 3,
-    "capital_heat": 3,
-    "overseas_heat": 3,
+    "policy_heat": 2,
+    "competitor_heat": 2,
+    "capital_heat": 2,
+    "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
@@ -27,23 +27,23 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "启明头条 | WAIC启明创投·创业与投",
-      "policy_axis": 0,
+      "title": "【讲习所·中国与世界】习近平：要始终用人",
+      "policy_axis": 0.6,
       "competition_axis": 0.1,
-      "impact_score": 2,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
       "id": "2",
-      "title": "港投生态圈企业阶跃星辰发布全球首个大模型",
-      "policy_axis": 0,
+      "title": "习近平主席出席2026世界人工智能大会暨",
+      "policy_axis": 0.6,
       "competition_axis": 0.1,
-      "impact_score": 2,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
       "id": "3",
-      "title": "国常会重磅部署！加快通信网、算力网建设！",
+      "title": "习近平出席2026世界人工智能大会暨人工",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
@@ -51,10 +51,42 @@
     },
     {
       "id": "4",
-      "title": "估值500亿美元！月之暗面计划8月启动上",
+      "title": "“促进全球人工智能朝着向上向善、造福人类",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "5",
+      "title": "习近平主席讲话为全球人工智能治理贡献中国",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "6",
+      "title": "世界AI大会开幕|世界人工智能大会|中方",
       "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "7",
+      "title": "启明头条 | WAIC启明创投·创业与投",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "8",
+      "title": "港投生态圈企业阶跃星辰发布全球首个大模型",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     }
   ],
@@ -62,11 +94,11 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 8,
-      "competitive_pressure": -6,
-      "capital_sentiment": 5,
+      "policy_tailwind": 0,
+      "competitive_pressure": 0,
+      "capital_sentiment": 0,
       "regulatory_risk": 0,
-      "overseas_headwind": -4
+      "overseas_headwind": 0
     },
     "interpretation": "规则估算，仅供参考"
   },

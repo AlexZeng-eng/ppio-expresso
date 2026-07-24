@@ -1,18 +1,180 @@
 {
-  "generated_at": "2026-07-23T03:59:56.341Z",
+  "generated_at": "2026-07-24T03:58:48.157Z",
   "week": "2026-W30",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 14,
-  "attend_count": 4,
-  "silent_count": 10,
+  "total_curated": 13,
+  "attend_count": 8,
+  "silent_count": 5,
   "items": [
     {
       "id": "raw-001",
+      "title": "【讲习所·中国与世界】习近平：要始终用人类智慧和国际共识引领人工智能发展 - 央视网",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NM1VTdXhVOUR0OUp0YjBnbzZhSVo0NERGRFhHMm4zY3l1VDdCVk9iV0drczVJcjFnc3JtSHRKZlI2dDFyQW9qWllFR0FsanVsb3dJaDhiMVJEMUs0X1drT3pZZW1saFZaUjUyaE9vUGY1RjFmNlJ0Zg?oc=5",
+      "source": "央视网",
+      "category": "政策",
+      "published": "2026-07-19",
+      "body_snippet": "【讲习所·中国与世界】习近平：要始终用人类智慧和国际共识引领人工智能发展 央视网",
+      "_query_boost": 45,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "要始终用人类智慧和国际共识引领人工智能发展 - 央视网 【讲习所·中国与世界】习近平：要始终用人类智慧和国际共识引领人工智能发展 央视网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-002",
+      "title": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记 - 中安在线",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5BQ0NVX1ktay1OV3BxejFud3JsYldtR21Wc1NoaGpmRXJrUVRtQktlcC1QMm9xZ0p6QWpOZVpyeXdnaVJWcGtFczVpRjR2MGxZVC14c2tBOHRRTmcyM2VrOUxn?oc=5",
+      "source": "中安在线",
+      "category": "政策",
+      "published": "2026-07-23",
+      "body_snippet": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记 中安在线",
+      "_query_boost": 50,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记 - 中安在线 习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记 中安在线",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-003",
+      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - zhengzhou.gov.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GVGpLamVkRUpOMktHU3ByOXlVLUFmMUd0RXh4N0hERDZlalRSR2xSSDhKbmJpeHIxZS1MZWVyQnFXQzVxdXd3UFVtZXpJTTRaWEh1V25kVWMtMzE2LVE?oc=5",
+      "source": "zhengzhou.gov.cn",
+      "category": "政策",
+      "published": "2026-07-20",
+      "body_snippet": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 zhengzhou.gov.cn",
+      "_query_boost": 50,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - zhengzhou.gov.cn 习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 zhengzhou.gov.cn",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-004",
+      "title": "「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪赌 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWnRicl9ILWNnNHZWYkZoN2dFZFZIU1hocnVfVUo4TWE1RktDRFg2eTVBRmlNNzNMenVBRDZnT2toa1hPek9tOXdPelZDcW5lak5rd3VoUllDUG8ybE93ci1PbHZRcnk3NGtYaHdhVHhXQXhZbWJkVTRUcGZleTlJdzJPRzJ6ck9sdk52dnozMWRaN25nX1FFeThoNi15ODc1bllOWkNIMVQxNEVleWs0N29B?oc=5",
+      "source": "新浪财经",
+      "category": "竞品",
+      "published": "2026-07-23",
+      "body_snippet": "「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪赌 新浪财经",
+      "_query_boost": 30,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪赌 - 新浪财经 「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪赌 新浪财经",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
+      "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
+      "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
+      "source": "工信部-新闻",
+      "published": "2026-07-24",
+      "body_snippet": "",
+      "category": "技术",
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实 ",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-006",
+      "title": "习近平主席讲话为全球人工智能治理贡献中国智慧_大陆_国内新闻_新闻 - 齐鲁网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmVHdSMkVWUUR4RzlfN05nZ0NlNEN4Ml8yMXY0NGZfZmRKOTJNcXNrb2Y0SGlYS21FZmJiY0t5QXBlQmtMOTZLLVh4ME1RdDRmcUZndWtmTjcwMFhUdmkzdzR6ZUtoblZy?oc=5",
+      "source": "齐鲁网",
+      "category": "政策",
+      "published": "2026-07-19",
+      "body_snippet": "习近平主席讲话为全球人工智能治理贡献中国智慧_大陆_国内新闻_新闻 齐鲁网",
+      "_query_boost": 45,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "习近平主席讲话为全球人工智能治理贡献中国智慧_大陆_国内新闻_新闻 - 齐鲁网 习近平主席讲话为全球人工智能治理贡献中国智慧_大陆_国内新闻_新闻 齐鲁网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-007",
       "title": "西藏通信管理局召开算力基础设施高质量发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/dfdt/art/2026/art_08c748c6c5a049b3bc40386c8366a338.html",
       "source": "工信部-新闻",
-      "published": "2026-07-23",
+      "published": "2026-07-24",
       "body_snippet": "",
       "category": "技术",
       "lane": "silent",
@@ -30,7 +192,81 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-002",
+      "id": "raw-008",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
+      "category": "竞品",
+      "published": "2026-07-24",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "_query_boost": 15,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-009",
+      "title": "Kimi K3有多火，月之暗面的算力和资本就有多急 - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00OGdhQWhycUtVbGNVeUtVdlZKUW9aQTlfZThZNTNGYmp2UnBITTk3RXpUWTlmVXEyb3NxQmF6dC1ITmZkQ1E0cW0ycXRtenVuQUI1SW9vcGlOZU9MT2pPdg?oc=5",
+      "source": "thepaper.cn",
+      "category": "资本",
+      "published": "2026-07-23",
+      "body_snippet": "Kimi K3有多火，月之暗面的算力和资本就有多急 thepaper.cn",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "Kimi K3有多火，月之暗面的算力和资本就有多急 - thepaper.cn Kimi K3有多火，月之暗面的算力和资本就有多急 thepaper.cn",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
+      "title": "世界AI大会开幕|世界人工智能大会|中方|百余国家和地区|四点主张_新浪新闻 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hMkdEc29QdzdLZDAzLTFQUVZFOWhWWEpNVm9TNzBlcnZwLWc3cnh3U3pxZ1lYa3lkejJkRDZwb2FRV2s5WXl2Uk53azd2UUY0TlNMaHRjdklkeHAyX3FZSzZlNA?oc=5",
+      "source": "新浪网",
+      "category": "政策",
+      "published": "2026-07-19",
+      "body_snippet": "世界AI大会开幕|世界人工智能大会|中方|百余国家和地区|四点主张_新浪新闻 新浪网",
+      "_query_boost": 45,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "世界AI大会开幕|世界人工智能大会|中方|百余国家和地区|四点主张_新浪新闻 - 新浪网 世界AI大会开幕|世界人工智能大会|中方|百余国家和地区|四点主张_新浪新闻 新浪网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-012",
       "title": "商汤计划年内发射首批算力卫星 拟建5个万卡以上国产集群 - 财新",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MZU9Rb3RTb3ZCS1M0VkZnS0ZLdldfdlA3bmVTM1VkR0hmcGpORE0xd2tYUjRjUmFmLVZvSndpUi1KOU9HcXVvTU1mOGpKMEZHQlpfNmZqMjJ2ZEZtSkxtMVJiUEkxYTg?oc=5",
       "source": "财新",
@@ -53,7 +289,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-003",
+      "id": "raw-013",
       "title": "启明头条 | WAIC启明创投·创业与投资论坛—从算力原点到应用落地的进化征程成功举办 - 启明创投",
       "url": "https://news.google.com/rss/articles/CBMi-wNBVV95cUxQVXByRVQ1S1lURXZKOGFtMWIzQ2UwcTdlWnFyc2o3QjFKNXdrdzhXOFJnSXVIOWp3eEFfSlY2MURvc0lRNHBaQjZUNmhJaXdwSmp6VFA5UGZiTkVhbGFacXpkeThXcG5MS19OUEdLeXJTUklVdWwxWlF3UDNwM3VZc2ZuZDFIazVsVVBLaHY1TmFRaFpzeXhQRi1ET29mdlFfcVFkNzloOE1PU1ViTGF5ZUl2bDRmMDRjTFdqSkhRbzBvTC01MDEtYzhZLVEwX0RrN0VqdlgzWk02ajNLVHB6dWl2VzJYNkdEaURnT1VabUFjVlV5TkVoZjZENkVJUTNqVG53YTZod3c2Z2FIWEVUY19abUY0YnNZLTdKWVd2dzZLaS0wYXVCWTZHUlB6ZGNoSXNSTk1FaW5HS0pVZlVRZjNhYnZkVTRhcFpoU1hiMkdrQlhTODFpbjN5eXU3cFl4dV9pdWE0ODA0X2w4TjVyRUpCRWsySUdOdzV2REJvUXlXS0FMZUNJSUVOSC13YjJPMHdORThZRVo3U3dYQXp2WGJjQlU1ZFh1cG5CemIxSWlXUVF0eTRncE9jelNNQ0h5QnRkSDZ5TWhsLWpnS2FYVkYyOC1FYkJFaHhjVnNDeEozY2QtS1Y1X0tCeFlxLXVGbndfVFEzbUpmMUk?oc=5",
       "source": "启明创投",
@@ -81,7 +317,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
+      "id": "raw-014",
       "title": "港投生态圈企业阶跃星辰发布全球首个大模型原生AI终端品牌 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQb1pBRHVtYlE5dXZwNTNyT2Etb0l2cTJTdi1kRGFRNkVGRDFfLXozOXFGdTkyZUFvZWtoSHlHN0w1bE9QWFk2NENpczBWbFdzaEFsOGc4Z19DU3BpR1dRYjFvSjFRdkpYUWZrNllTS0ozYkFTajNhb2NlaHhNeWkzR19RSkZ4OHIwMGQ3djJRbw?oc=5",
       "source": "新浪财经",
@@ -100,249 +336,6 @@
         "c3"
       ],
       "summary_cn": "港投生态圈企业阶跃星辰发布全球首个大模型原生AI终端品牌 - 新浪财经 港投生态圈企业阶跃星辰发布全球首个大模型原生AI终端品牌 新浪财经",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-005",
-      "title": "（区域观察）算力筑基向“空”而行 长春净月打造“算空融合”东北样本 - jl.chinanews.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1nRTlDVTlHcGdVQlRDMnpUMlc2S2tENW9LWjlLN0FaUGdVSHh5Y2djZTB6dnVLNDA0cVItVzJrdTBxUzVuVkQzc3JrYlUtOWd6ODNSQU1hZHR1X0psWElaLUtZcVRLc1dUd0RUNTB6Yw?oc=5",
-      "source": "jl.chinanews.com.cn",
-      "category": "政策",
-      "published": "2026-07-22",
-      "body_snippet": "（区域观察）算力筑基向“空”而行 长春净月打造“算空融合”东北样本 jl.chinanews.com.cn",
-      "_query_boost": 30,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "（区域观察）算力筑基向“空”而行 长春净月打造“算空融合”东北样本 - jl.chinanews.com.cn （区域观察）算力筑基向“空”而行 长春净月打造“",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-006",
-      "title": "腾讯云将大规模部署国产化算力；阿里速卖通与魔法原子达成战略合作｜数智早参 - mrjjxw.com",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBWWlYzYzRCXzVmM3h3R0kweEdlR0NUM3VONm1FMWVkUEc4eEhzU0RxbllQR0lQUTR6OUJVMTctWVYzQ0ZqWlppZ2FoT0NJZjc4NEhucnRjc3hkV2pLdFN4alJsdWNmdw?oc=5",
-      "source": "mrjjxw.com",
-      "category": "竞品",
-      "published": "2026-07-21",
-      "body_snippet": "腾讯云将大规模部署国产化算力；阿里速卖通与魔法原子达成战略合作｜数智早参 mrjjxw.com",
-      "_query_boost": 30,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "腾讯云将大规模部署国产化算力；阿里速卖通与魔法原子达成战略合作｜数智早参 - mrjjxw.com 腾讯云将大规模部署国产化算力；阿里速卖通与魔法原子达成战略合",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-007",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
-      "category": "竞品",
-      "published": "2026-07-20",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "_query_boost": 15,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-008",
-      "title": "瞄准未来太空数据中心，优刻得与上海理工联合发布“太空算力”样机系统 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4xNVdEQlNTc2lHc1Y4WkRrS2N0NmtxNlIzdXJLdE80ZDl5dkJzRkMtV0k4WVo1QmZZdDBlWF9qczZGX2VJX0wxbDJYSk5jZEIwQjMydzRiV1ZvbjlMRzNjcDBB?oc=5",
-      "source": "手机网易网",
-      "category": "竞品",
-      "published": "2026-07-17",
-      "body_snippet": "瞄准未来太空数据中心，优刻得与上海理工联合发布“太空算力”样机系统 手机网易网",
-      "_query_boost": 15,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "瞄准未来太空数据中心，优刻得与上海理工联合发布“太空算力”样机系统 - 手机网易网 瞄准未来太空数据中心，优刻得与上海理工联合发布“太空算力”样机系统 手机网易",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-009",
-      "title": "每刻深思以空间光计算开辟算力新路径 - zqrb.cn",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13dnQtWmhnTGVYWU1XaGQ0Slp4SjlRWHVRMW9lM0lnVzAyYnZXYm10TFMyYWNtNWxUNlVhMV81bUo4UVJyaVF0ZHkzOEkzQk5oSVRTcU5aOGtPcE5rUlB3UzNzRm96NWpRSmpjeFQtUQ?oc=5",
-      "source": "zqrb.cn",
-      "category": "政策",
-      "published": "2026-07-22",
-      "body_snippet": "每刻深思以空间光计算开辟算力新路径 zqrb.cn",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "每刻深思以空间光计算开辟算力新路径 - zqrb.cn 每刻深思以空间光计算开辟算力新路径 zqrb.cn",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-010",
-      "title": "中国电信柯瑞文：将适度超前建设算力基础设施- 经济 - 中工网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4eTJwU3RvUy04a2FLZVkzWTVWd0o3VC1nVkxwOUNkZGdQdEJrMFl5bmhhWnM1bHJ6LVNaMlFwdk0yX1djdjlvaUwzcWsyODQzcW43TC1jVU0tcGVySlU4?oc=5",
-      "source": "中工网",
-      "category": "政策",
-      "published": "2026-07-19",
-      "body_snippet": "中国电信柯瑞文：将适度超前建设算力基础设施- 经济 中工网",
-      "_query_boost": 30,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "中国电信柯瑞文：将适度超前建设算力基础设施- 经济 - 中工网 中国电信柯瑞文：将适度超前建设算力基础设施- 经济 中工网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-011",
-      "title": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMipgRBVV95cUxNTnVkRFVNWVRLcUhNY3MzNmJFSUFucFNCdVE0eU1pdkZNRDdlRTE1ZDZjRkZtT0JtLVlIT2RtR2dCMHp3TzhQMm9OUXhkTXZnNl9wOGNLc3g2NThkUHZ3ZWItNVJfRF9GN3kyam9yM3l5N2RVR2dCSnJrRkEwUmt4M3pVYkhnd1M3UWJJY3lnOC11QzVRaUc4ZmVnZUFWeVR5TUdiZkRINGdndF8yOWliNks0dDZMLUpja0xPUktmU0R3QzVYM0E0LTdnLXZ0TFUyNmxfRUJDdmh4bVpyUlZSUkZpOTkwQy1EcnZsQjRaSUZxRkNTcGpiUHB0RUxEY21UNjkxalZhYnJ5QU1aTE9aU3pMZXlKSFM3X1diZVdvakw2Z1FEZndXNThzYkxLX2ZheTRkYndtUDRYNzRqeDZOZXFiZHo1cE40enJyeGk4bE5BS2ktTF9qbXM5TTVDZlJoUkJ2Ylh0QkwxdHUzZDB5SmpucUU2dkVTR1ltVXFKLUhyaFphV1c5aWZVakNnUl9ENU9SZHQ0b09EOWNvNnBzR2dDMlo4am5YV1ZuN1dfR0U0NjA3RlZKU3FVTVV3MW44QjJ0ZnFKXzBMSEMwV2JlMkJldHpPQ3B3dEJrQngycEtObnRLZ0VVUnZabEtTaHkzSUdVR0FCalduOFRnWUFPSE1QdF9nem51OG93VktucWlvYlM5d0hIakdLVERZVEF6S3pyVHB3?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-07-18",
-      "body_snippet": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ 新浪财经",
-      "_query_boost": 30,
-      "lane": "attend",
-      "signals": [
-        "🏛️",
-        "🔬"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ - 新浪财经 国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ 新浪财经",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "国产AI算力新品曦景S600正式发布|2026世界人工智能大会|智算中心|并行计算|大模型|上海市_手机新浪网 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNlUzaEFBcEF5WEwyVnd2SGs2NVA4NFlsQ25kckZSbW1ZM3BhSy1jQXUwaFdBY3V0U2JwZEUydlB6a0dOZmxmM1pTRklpWXVkTjdmd0xwQkdOcGI4bmlmUVp0bTdoeElRTTAzeEhHRUFBeGttekROUXB6alFyNkxXV0cyREhES0EzZHE5eC13eFdnLWl6UlBqbEhmOThfR1JJQkM2Z2oxTHZyTWhrSTBwQXNB?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-07-18",
-      "body_snippet": "国产AI算力新品曦景S600正式发布|2026世界人工智能大会|智算中心|并行计算|大模型|上海市_手机新浪网 新浪财经",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "国产AI算力新品曦景S600正式发布|2026世界人工智能大会|智算中心|并行计算|大模型|上海市_手机新浪网 - 新浪财经 国产AI算力新品曦景S600正式发",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-013",
-      "title": "Kimi K3再度震惊美国，“DeepSeek 2.0时刻”冲破算力围堵｜AI国际政经观察（资讯·2026年第13期） - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1OTkU2TXlRekdBUDVjZ3NmZ3FqdlE0VzJRZk9hRVJfSXhBcF94allmWXljaHgtaWpReWI5OU8zVGtKMC1waWFOM254VnlSNDA2NmJIN2lHcjRCcDZaSUo4Ymt3?oc=5",
-      "source": "手机网易网",
-      "category": "技术",
-      "published": "2026-07-22",
-      "body_snippet": "Kimi K3再度震惊美国，“DeepSeek 2.0时刻”冲破算力围堵｜AI国际政经观察（资讯·2026年第13期） 手机网易网",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🌏",
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "Kimi K3再度震惊美国，“DeepSeek 2.0时刻”冲破算力围堵｜AI国际政经观察（资讯·2026年第13期） - 手机网易网 Kimi K3再度震惊美",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-014",
-      "title": "估值500亿美元！月之暗面计划8月启动上市前最后一轮融资 - 中国宁波网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1NbTVJNzNXbnNwcXoxNmF1WlpwbkFwcjRHMWxUclMzTGs2TlFESnFXbTFYV1h6R2EtQ0VuaEdzUndTaHZSZnMtU3hNdzZXd1p5M1hGU2JPelJqVFYxc3E1MzNkS3Fldkdx?oc=5",
-      "source": "中国宁波网",
-      "category": "资本",
-      "published": "2026-07-22",
-      "body_snippet": "估值500亿美元！月之暗面计划8月启动上市前最后一轮融资 中国宁波网",
-      "_query_boost": 20,
-      "lane": "attend",
-      "signals": [
-        "⚔️",
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "估值500亿美元！月之暗面计划8月启动上市前最后一轮融资 - 中国宁波网 估值500亿美元！月之暗面计划8月启动上市前最后一轮融资 中国宁波网",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
