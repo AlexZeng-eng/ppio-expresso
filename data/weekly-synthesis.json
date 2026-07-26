@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T03:54:53.949Z",
-  "date": "2026-07-25",
-  "date_label": "2026-07-25",
+  "generated_at": "2026-07-26T04:11:04.494Z",
+  "date": "2026-07-26",
+  "date_label": "2026-07-26",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
@@ -9,7 +9,7 @@
     "⚔️": 0,
     "💰": 0,
     "🌏": 0,
-    "🔬": 5
+    "🔬": 6
   },
   "speed_read": {
     "positive": [],
@@ -35,14 +35,6 @@
     },
     {
       "id": "2",
-      "title": "【讲习所·中国与世界】习近平：要始终用人",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "3",
       "title": "习近平主席出席2026世界人工智能大会暨",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
@@ -50,7 +42,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "4",
+      "id": "3",
       "title": "习近平主席出席二〇二六世界人工智能大会暨",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
@@ -58,7 +50,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "5",
+      "id": "4",
       "title": "集成电路学院党委理论学习中心组专题学习习",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
@@ -66,7 +58,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "6",
+      "id": "5",
       "title": "“促进全球人工智能朝着向上向善、造福人类",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
@@ -74,15 +66,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "7",
-      "title": "习近平主席讲话为全球人工智能治理贡献中国",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "8",
+      "id": "6",
       "title": "外交部介绍2026世界人工智能大会成果和",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
@@ -90,11 +74,27 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "9",
+      "id": "7",
       "title": "习近平出席2026世界人工智能大会暨人工",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "8",
+      "title": "港投生态圈企业阶跃星辰发布全球首个大模型",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "9",
+      "title": "启明头条 | WAIC启明创投·创业与投",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     }
   ],

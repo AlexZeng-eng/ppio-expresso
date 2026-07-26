@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-25T03:54:53.826Z",
+  "generated_at": "2026-07-26T04:11:04.366Z",
   "week": "2026-W31",
   "date_range": {
-    "from": "2026-07-18",
-    "to": "2026-07-25"
+    "from": "2026-07-19",
+    "to": "2026-07-26"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -20,16 +20,6 @@
     },
     {
       "id": "raw-002",
-      "title": "【讲习所·中国与世界】习近平：要始终用人类智慧和国际共识引领人工智能发展 - 央视网",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NM1VTdXhVOUR0OUp0YjBnbzZhSVo0NERGRFhHMm4zY3l1VDdCVk9iV0drczVJcjFnc3JtSHRKZlI2dDFyQW9qWllFR0FsanVsb3dJaDhiMVJEMUs0X1drT3pZZW1saFZaUjUyaE9vUGY1RjFmNlJ0Zg?oc=5",
-      "source": "央视网",
-      "category": "政策",
-      "published": "2026-07-19",
-      "body_snippet": "【讲习所·中国与世界】习近平：要始终用人类智慧和国际共识引领人工智能发展 央视网",
-      "_query_boost": 45
-    },
-    {
-      "id": "raw-003",
       "title": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记 - 中安在线",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5BQ0NVX1ktay1OV3BxejFud3JsYldtR21Wc1NoaGpmRXJrUVRtQktlcC1QMm9xZ0p6QWpOZVpyeXdnaVJWcGtFczVpRjR2MGxZVC14c2tBOHRRTmcyM2VrOUxn?oc=5",
       "source": "中安在线",
@@ -39,7 +29,7 @@
       "_query_boost": 50
     },
     {
-      "id": "raw-004",
+      "id": "raw-003",
       "title": "习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实 - 湖南省人民政府",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1peEpxSHRfcDczbnRXeTFUOEhfQ05Ycnl4b2lqX05faHpUNHVnRkg1Qnd3TjFKbmtYeGFTTkZ0MU1RaENEeEt1WHJ0bVpKX2xTa3NVcmlDRE5oQllqUk9ZYVAwMkFvbk9oQU5PekU4NlpKRWl4OHZBLTNzTnZKUQ?oc=5",
       "source": "湖南省人民政府",
@@ -49,7 +39,7 @@
       "_query_boost": 50
     },
     {
-      "id": "raw-005",
+      "id": "raw-004",
       "title": "集成电路学院党委理论学习中心组专题学习习近平总书记关于科技创新和人工智能的重要讲话精神 - 上海交通大学 新闻网",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kRUNPUkdjUlV1NWNIcTcxVTJvb094Y1paUEFWMG4ycHl4U0xYWjRWQWZxSzVjT3NhemR1WXgzZEtqZjA5empCNXNyOE0wOUFvREFQNWZzS1pZRDhYUnVv?oc=5",
       "source": "上海交通大学 新闻网",
@@ -59,36 +49,26 @@
       "_query_boost": 50
     },
     {
-      "id": "raw-006",
-      "title": "「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪赌 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVExodkRjVWN0RENsMjdkVHU0V2FITUtnRHNieHdmTE5ENjgyd0lFLXM5TUgwa3RyWUx2UmRTck5OYlRMTlZnZVVwUTNaVVNvVEk3dVN6YWlCcnVtQVFVM2FHSEtOeXpHZGR0UW11NGdNUE1mR204X2lhWFpjbVhvSFQtYVpVcHNGVmlVQVBQVE5xZw?oc=5",
-      "source": "新浪财经",
-      "category": "竞品",
-      "published": "2026-07-24",
-      "body_snippet": "「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪赌 新浪财经",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-007",
+      "id": "raw-005",
       "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
       "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
       "source": "工信部-新闻",
-      "published": "2026-07-25",
+      "published": "2026-07-26",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-008",
-      "title": "习近平主席讲话为全球人工智能治理贡献中国智慧_大陆_国内新闻_新闻 - 齐鲁网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmVHdSMkVWUUR4RzlfN05nZ0NlNEN4Ml8yMXY0NGZfZmRKOTJNcXNrb2Y0SGlYS21FZmJiY0t5QXBlQmtMOTZLLVh4ME1RdDRmcUZndWtmTjcwMFhUdmkzdzR6ZUtoblZy?oc=5",
-      "source": "齐鲁网",
-      "category": "政策",
-      "published": "2026-07-19",
-      "body_snippet": "习近平主席讲话为全球人工智能治理贡献中国智慧_大陆_国内新闻_新闻 齐鲁网",
-      "_query_boost": 45
+      "id": "raw-006",
+      "title": "「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪赌 - finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU3cxUnFpVlFTT3B5V2F0aEpVNGdWWkVXa05uOU05TGdhWHlDSEw4VHRGRFRKUlZYNGVaLUJra21ybHBwMkZ3VWU1dzd3Vjl1bmJaNUFqcWJDajdDVDFxN0tvSm5TaUtQb3pHb1BRR3FUNHNqZnVFYWNSbkRUR2lFRjEwaUxBVnE5bG5TZDRON3JYc0dtblRTMjNmYnlSMk10UDBCYjMwdw?oc=5",
+      "source": "finance.sina.com.cn",
+      "category": "竞品",
+      "published": "2026-07-23",
+      "body_snippet": "「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪赌 finance.sina.com.cn",
+      "_query_boost": 30
     },
     {
-      "id": "raw-009",
+      "id": "raw-007",
       "title": "外交部介绍2026世界人工智能大会成果和亮点 - 习近平外交思想和新时代中国外交",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xMHprdzdtNGtKLU5kdVprUnF3bDZQS3dlbDh5MWM2Wm9YaGJ4X0N2aW0wSU5lTnp5T29YckFJZmJFM19tWWZNaTNldVZnUjNCMEZXT3FXYjRzc2tFcUdsVE4zRmFha055ZnRaUTRfc2dwU1F4Ync?oc=5",
       "source": "习近平外交思想和新时代中国外交",
@@ -98,13 +78,33 @@
       "_query_boost": 50
     },
     {
-      "id": "raw-010",
+      "id": "raw-008",
       "title": "西藏通信管理局召开算力基础设施高质量发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/dfdt/art/2026/art_08c748c6c5a049b3bc40386c8366a338.html",
       "source": "工信部-新闻",
-      "published": "2026-07-25",
+      "published": "2026-07-26",
       "body_snippet": "",
       "category": "技术"
+    },
+    {
+      "id": "raw-009",
+      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - zhengzhou.gov.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GVGpLamVkRUpOMktHU3ByOXlVLUFmMUd0RXh4N0hERDZlalRSR2xSSDhKbmJpeHIxZS1MZWVyQnFXQzVxdXd3UFVtZXpJTTRaWEh1V25kVWMtMzE2LVE?oc=5",
+      "source": "zhengzhou.gov.cn",
+      "category": "政策",
+      "published": "2026-07-20",
+      "body_snippet": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 zhengzhou.gov.cn",
+      "_query_boost": 35
+    },
+    {
+      "id": "raw-010",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
+      "category": "竞品",
+      "published": "2026-07-25",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "_query_boost": 15
     },
     {
       "id": "raw-011",
@@ -118,23 +118,23 @@
     },
     {
       "id": "raw-012",
-      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - zhengzhou.gov.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GVGpLamVkRUpOMktHU3ByOXlVLUFmMUd0RXh4N0hERDZlalRSR2xSSDhKbmJpeHIxZS1MZWVyQnFXQzVxdXd3UFVtZXpJTTRaWEh1V25kVWMtMzE2LVE?oc=5",
-      "source": "zhengzhou.gov.cn",
-      "category": "政策",
-      "published": "2026-07-20",
-      "body_snippet": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 zhengzhou.gov.cn",
-      "_query_boost": 35
+      "title": "港投生态圈企业阶跃星辰发布全球首个大模型原生AI终端品牌STEPX，打通全链路AI生态 - FX168",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeE13SDFoTUVZa2NaeWtYTWtuSWEtOG1hWTlETnhJbHhjSWl1WDdvSGJNekZDdmJCTzgtVzZfb0ZxMEdial9Xb1k3cGM1LWNVR2VMSWpULXIzbWVmSjJmYkdIVGZGR3ItWUFnV0xmUHNMYkN0VjJlQTdiS3JuQ1hJQ1VhcFY?oc=5",
+      "source": "FX168",
+      "category": "竞品",
+      "published": "2026-07-24",
+      "body_snippet": "港投生态圈企业阶跃星辰发布全球首个大模型原生AI终端品牌STEPX，打通全链路AI生态 FX168",
+      "_query_boost": 25
     },
     {
       "id": "raw-013",
-      "title": "云从科技董秘杨桦：算力建设要立足客户真实需求，AI业务关键在于商业落地 - 证券市场周刊",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9heVdXUUNCUVAza09WblhJaTN0OHBSSnhkYzFvWldEN0xyQnNnME1wQjBPdE04Q3JYRUNhQnR2azl3MDE4RWRCOXFvQ1IyMm5ieEg1OHlwWnhFSm1UMnBNX2FtcFo?oc=5",
-      "source": "证券市场周刊",
+      "title": "启明头条 | WAIC启明创投·创业与投资论坛—从算力原点到应用落地的进化征程成功举办 - 启明创投",
+      "url": "https://news.google.com/rss/articles/CBMi-wNBVV95cUxQVXByRVQ1S1lURXZKOGFtMWIzQ2UwcTdlWnFyc2o3QjFKNXdrdzhXOFJnSXVIOWp3eEFfSlY2MURvc0lRNHBaQjZUNmhJaXdwSmp6VFA5UGZiTkVhbGFacXpkeThXcG5MS19OUEdLeXJTUklVdWwxWlF3UDNwM3VZc2ZuZDFIazVsVVBLaHY1TmFRaFpzeXhQRi1ET29mdlFfcVFkNzloOE1PU1ViTGF5ZUl2bDRmMDRjTFdqSkhRbzBvTC01MDEtYzhZLVEwX0RrN0VqdlgzWk02ajNLVHB6dWl2VzJYNkdEaURnT1VabUFjVlV5TkVoZjZENkVJUTNqVG53YTZod3c2Z2FIWEVUY19abUY0YnNZLTdKWVd2dzZLaS0wYXVCWTZHUlB6ZGNoSXNSTk1FaW5HS0pVZlVRZjNhYnZkVTRhcFpoU1hiMkdrQlhTODFpbjN5eXU3cFl4dV9pdWE0ODA0X2w4TjVyRUpCRWsySUdOdzV2REJvUXlXS0FMZUNJSUVOSC13YjJPMHdORThZRVo3U3dYQXp2WGJjQlU1ZFh1cG5CemIxSWlXUVF0eTRncE9jelNNQ0h5QnRkSDZ5TWhsLWpnS2FYVkYyOC1FYkJFaHhjVnNDeEozY2QtS1Y1X0tCeFlxLXVGbndfVFEzbUpmMUk?oc=5",
+      "source": "启明创投",
       "category": "政策",
-      "published": "2026-07-24",
-      "body_snippet": "云从科技董秘杨桦：算力建设要立足客户真实需求，AI业务关键在于商业落地 证券市场周刊",
-      "_query_boost": 35
+      "published": "2026-07-22",
+      "body_snippet": "启明头条 | WAIC启明创投·创业与投资论坛—从算力原点到应用落地的进化征程成功举办 启明创投",
+      "_query_boost": 25
     },
     {
       "id": "raw-014",
