@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-26T04:11:04.494Z",
-  "date": "2026-07-26",
-  "date_label": "2026-07-26",
+  "generated_at": "2026-07-27T04:27:03.070Z",
+  "date": "2026-07-27",
+  "date_label": "2026-07-27",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
@@ -9,7 +9,7 @@
     "⚔️": 0,
     "💰": 0,
     "🌏": 0,
-    "🔬": 6
+    "🔬": 8
   },
   "speed_read": {
     "positive": [],
@@ -43,14 +43,6 @@
     },
     {
       "id": "3",
-      "title": "习近平主席出席二〇二六世界人工智能大会暨",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "4",
       "title": "集成电路学院党委理论学习中心组专题学习习",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
@@ -58,15 +50,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "5",
-      "title": "“促进全球人工智能朝着向上向善、造福人类",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "6",
+      "id": "4",
       "title": "外交部介绍2026世界人工智能大会成果和",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
@@ -74,15 +58,15 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "7",
-      "title": "习近平出席2026世界人工智能大会暨人工",
-      "policy_axis": 0.6,
+      "id": "5",
+      "title": "爱芯元智WAIC 2026展示算力新布局",
+      "policy_axis": 0,
       "competition_axis": 0.1,
-      "impact_score": 4,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     },
     {
-      "id": "8",
+      "id": "6",
       "title": "港投生态圈企业阶跃星辰发布全球首个大模型",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -90,8 +74,16 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "9",
+      "id": "7",
       "title": "启明头条 | WAIC启明创投·创业与投",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "8",
+      "title": "智汇多元算力，赋能AI产业升级！数据港亮",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,

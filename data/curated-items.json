@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-26T04:11:04.455Z",
+  "generated_at": "2026-07-27T04:27:03.033Z",
   "week": "2026-W31",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 13,
-  "attend_count": 9,
+  "total_curated": 12,
+  "attend_count": 8,
   "silent_count": 4,
   "items": [
     {
@@ -64,34 +64,6 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-003",
-      "title": "习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实 - 湖南省人民政府",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1peEpxSHRfcDczbnRXeTFUOEhfQ05Ycnl4b2lqX05faHpUNHVnRkg1Qnd3TjFKbmtYeGFTTkZ0MU1RaENEeEt1WHJ0bVpKX2xTa3NVcmlDRE5oQllqUk9ZYVAwMkFvbk9oQU5PekU4NlpKRWl4OHZBLTNzTnZKUQ?oc=5",
-      "source": "湖南省人民政府",
-      "category": "政策",
-      "published": "2026-07-20",
-      "body_snippet": "习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实 湖南省人民政府",
-      "_query_boost": 50,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实 - 湖南省人民政府 习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实 湖南省人民政府",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
       "id": "raw-004",
       "title": "集成电路学院党委理论学习中心组专题学习习近平总书记关于科技创新和人工智能的重要讲话精神 - 上海交通大学 新闻网",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kRUNPUkdjUlV1NWNIcTcxVTJvb094Y1paUEFWMG4ycHl4U0xYWjRWQWZxSzVjT3NhemR1WXgzZEtqZjA5empCNXNyOE0wOUFvREFQNWZzS1pZRDhYUnVv?oc=5",
@@ -121,39 +93,12 @@
     },
     {
       "id": "raw-005",
-      "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
-      "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
-      "source": "工信部-新闻",
-      "published": "2026-07-26",
-      "body_snippet": "",
-      "category": "技术",
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实 ",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-006",
-      "title": "「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪赌 - finance.sina.com.cn",
+      "title": "「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪赌 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU3cxUnFpVlFTT3B5V2F0aEpVNGdWWkVXa05uOU05TGdhWHlDSEw4VHRGRFRKUlZYNGVaLUJra21ybHBwMkZ3VWU1dzd3Vjl1bmJaNUFqcWJDajdDVDFxN0tvSm5TaUtQb3pHb1BRR3FUNHNqZnVFYWNSbkRUR2lFRjEwaUxBVnE5bG5TZDRON3JYc0dtblRTMjNmYnlSMk10UDBCYjMwdw?oc=5",
-      "source": "finance.sina.com.cn",
+      "source": "新浪财经",
       "category": "竞品",
       "published": "2026-07-23",
-      "body_snippet": "「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪赌 finance.sina.com.cn",
+      "body_snippet": "「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪赌 新浪财经",
       "_query_boost": 30,
       "lane": "silent",
       "signals": [
@@ -165,12 +110,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪赌 - finance.sina.com.cn 「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪",
+      "summary_cn": "「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪赌 - 新浪财经 「AI新世代」智谱算力出鞘：1GW数据中心背后的算盘与豪赌 新浪财经",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-007",
+      "id": "raw-006",
       "title": "外交部介绍2026世界人工智能大会成果和亮点 - 习近平外交思想和新时代中国外交",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xMHprdzdtNGtKLU5kdVprUnF3bDZQS3dlbDh5MWM2Wm9YaGJ4X0N2aW0wSU5lTnp5T29YckFJZmJFM19tWWZNaTNldVZnUjNCMEZXT3FXYjRzc2tFcUdsVE4zRmFha055ZnRaUTRfc2dwU1F4Ync?oc=5",
       "source": "习近平外交思想和新时代中国外交",
@@ -198,62 +143,12 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-008",
-      "title": "西藏通信管理局召开算力基础设施高质量发展座谈会",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/dfdt/art/2026/art_08c748c6c5a049b3bc40386c8366a338.html",
-      "source": "工信部-新闻",
-      "published": "2026-07-26",
-      "body_snippet": "",
-      "category": "技术",
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "西藏通信管理局召开算力基础设施高质量发展座谈会 ",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-009",
-      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - zhengzhou.gov.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GVGpLamVkRUpOMktHU3ByOXlVLUFmMUd0RXh4N0hERDZlalRSR2xSSDhKbmJpeHIxZS1MZWVyQnFXQzVxdXd3UFVtZXpJTTRaWEh1V25kVWMtMzE2LVE?oc=5",
-      "source": "zhengzhou.gov.cn",
-      "category": "政策",
-      "published": "2026-07-20",
-      "body_snippet": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 zhengzhou.gov.cn",
-      "_query_boost": 35,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - zhengzhou.gov.cn 习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 zhengzhou.gov.cn",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-010",
+      "id": "raw-007",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
       "category": "竞品",
-      "published": "2026-07-25",
+      "published": "2026-07-26",
       "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
       "_query_boost": 15,
       "lane": "silent",
@@ -271,9 +166,9 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-011",
+      "id": "raw-008",
       "title": "Kimi K3有多火，月之暗面的算力和资本就有多急 - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tdXg3ZENKQXM3SGFSNnBnRTdTdTBlQXBvblJjX09VU3Y0XzQwbDVialI5SmhuMFN3U2d2RTV5M1NrbXNxbXRwS19Fb1VIbjBUdmtPVVdrTUthSndwamp6amZ2MXdnSGJ1Q2NoVVlaU0dEZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DTFktajZnVzF5b2VoY3NKYkNMOWRyQkVGeVhWbEtyaHFMZGNZYnFqNnl3ZGVOcEQzMXR0UzhZMERBVEVzSDkwbmUxa01RV3lIUnIyWDNfUG9WWF8wcUE?oc=5",
       "source": "thepaper.cn",
       "category": "资本",
       "published": "2026-07-23",
@@ -294,7 +189,35 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-012",
+      "id": "raw-009",
+      "title": "爱芯元智WAIC 2026展示算力新布局，“元曦”AI推理产品首秀-AI云资讯 - icloudnews.net",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLanhyRkVMSW5CUWpVTXJtaWlmZkhoeUhSX1pUQnk5a0s5Z1RVdU5aVFl5UzhVd0dDVFd5RHI5cVJzLXhqalhWaEE1d0ZKZElucFE?oc=5",
+      "source": "icloudnews.net",
+      "category": "政策",
+      "published": "2026-07-27",
+      "body_snippet": "爱芯元智WAIC 2026展示算力新布局，“元曦”AI推理产品首秀-AI云资讯 icloudnews.net",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "爱芯元智WAIC 2026展示算力新布局，“元曦”AI推理产品首秀-AI云资讯 - icloudnews.net 爱芯元智WAIC 2026展示算力新布局，“元曦”AI推理产品首秀-AI云资讯 icloudnews.net",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
       "title": "港投生态圈企业阶跃星辰发布全球首个大模型原生AI终端品牌STEPX，打通全链路AI生态 - FX168",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeE13SDFoTUVZa2NaeWtYTWtuSWEtOG1hWTlETnhJbHhjSWl1WDdvSGJNekZDdmJCTzgtVzZfb0ZxMEdial9Xb1k3cGM1LWNVR2VMSWpULXIzbWVmSjJmYkdIVGZGR3ItWUFnV0xmUHNMYkN0VjJlQTdiS3JuQ1hJQ1VhcFY?oc=5",
       "source": "FX168",
@@ -322,7 +245,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-013",
+      "id": "raw-011",
       "title": "启明头条 | WAIC启明创投·创业与投资论坛—从算力原点到应用落地的进化征程成功举办 - 启明创投",
       "url": "https://news.google.com/rss/articles/CBMi-wNBVV95cUxQVXByRVQ1S1lURXZKOGFtMWIzQ2UwcTdlWnFyc2o3QjFKNXdrdzhXOFJnSXVIOWp3eEFfSlY2MURvc0lRNHBaQjZUNmhJaXdwSmp6VFA5UGZiTkVhbGFacXpkeThXcG5MS19OUEdLeXJTUklVdWwxWlF3UDNwM3VZc2ZuZDFIazVsVVBLaHY1TmFRaFpzeXhQRi1ET29mdlFfcVFkNzloOE1PU1ViTGF5ZUl2bDRmMDRjTFdqSkhRbzBvTC01MDEtYzhZLVEwX0RrN0VqdlgzWk02ajNLVHB6dWl2VzJYNkdEaURnT1VabUFjVlV5TkVoZjZENkVJUTNqVG53YTZod3c2Z2FIWEVUY19abUY0YnNZLTdKWVd2dzZLaS0wYXVCWTZHUlB6ZGNoSXNSTk1FaW5HS0pVZlVRZjNhYnZkVTRhcFpoU1hiMkdrQlhTODFpbjN5eXU3cFl4dV9pdWE0ODA0X2w4TjVyRUpCRWsySUdOdzV2REJvUXlXS0FMZUNJSUVOSC13YjJPMHdORThZRVo3U3dYQXp2WGJjQlU1ZFh1cG5CemIxSWlXUVF0eTRncE9jelNNQ0h5QnRkSDZ5TWhsLWpnS2FYVkYyOC1FYkJFaHhjVnNDeEozY2QtS1Y1X0tCeFlxLXVGbndfVFEzbUpmMUk?oc=5",
       "source": "启明创投",
@@ -341,6 +264,57 @@
         "c3"
       ],
       "summary_cn": "启明头条 | WAIC启明创投·创业与投资论坛—从算力原点到应用落地的进化征程成功举办 - 启明创投 启明头条 | WAIC启明创投·创业与投资论坛—从算力原点到应用落地的进化征程成功举办 启明创投",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-012",
+      "title": "发布国内首个“数据·算力·Token”三合一AI基础设施平台！贵州数据宝惊艳亮相世界人工智能大会 - 中国日报网",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE50TFpQQ18tTkZLR2M4Q1hCY0Z2UUEzbERMdTRYM240NlMzS2I0bmJETWNQS1lvLUFTS2tVaDExT1kwcDNDUEpiV0M1Z080T05YWUFlclhqVnpVM3dlREJrelRuUUxqMll4c2ZHNzNjVkR3dGVYc2dreGRBVFQ?oc=5",
+      "source": "中国日报网",
+      "category": "政策",
+      "published": "2026-07-25",
+      "body_snippet": "发布国内首个“数据·算力·Token”三合一AI基础设施平台！贵州数据宝惊艳亮相世界人工智能大会 中国日报网",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "发布国内首个“数据·算力·Token”三合一AI基础设施平台！贵州数据宝惊艳亮相世界人工智能大会 - 中国日报网 发布国内首个“数据·算力·Token”三合一A",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-013",
+      "title": "智汇多元算力，赋能AI产业升级！数据港亮相WAIC 2026并带来重磅发布 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PeEhMeHloSXB0SDNxNnBoZW9xQjNXbzF4UnJYb2JKalpseGdYR0FpVnE5THNnYmV0Z0lVVWo0SFJvcGlqYjhxeTIyWUZ2SnktZ0FpbnNKMWYtdjBnNDl0OHo3YzZ5T19QRHk0Z0tUT2tzdFV4UFhsUTRNUmxXajQ?oc=5",
+      "source": "手机新浪网",
+      "category": "政策",
+      "published": "2026-07-25",
+      "body_snippet": "智汇多元算力，赋能AI产业升级！数据港亮相WAIC 2026并带来重磅发布 手机新浪网",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "智汇多元算力，赋能AI产业升级！数据港亮相WAIC 2026并带来重磅发布 - 手机新浪网 智汇多元算力，赋能AI产业升级！数据港亮相WAIC 2026并带来重磅发布 手机新浪网",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
