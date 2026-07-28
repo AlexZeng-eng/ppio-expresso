@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-27T04:27:03.070Z",
-  "date": "2026-07-27",
-  "date_label": "2026-07-27",
+  "generated_at": "2026-07-28T03:52:50.526Z",
+  "date": "2026-07-28",
+  "date_label": "2026-07-28",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 0,
+    "🏛️": 1,
     "📜": 0,
     "⚔️": 0,
     "💰": 0,
     "🌏": 0,
-    "🔬": 8
+    "🔬": 9
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 2,
+    "policy_heat": 3,
     "competitor_heat": 2,
     "capital_heat": 2,
     "overseas_heat": 2,
@@ -27,22 +27,14 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "盘中涨超20%！智谱落地1GW级国产AI",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "2",
-      "title": "习近平主席出席2026世界人工智能大会暨",
+      "title": "“促进全球人工智能朝着向上向善、造福人类",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
-      "id": "3",
+      "id": "2",
       "title": "集成电路学院党委理论学习中心组专题学习习",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
@@ -50,23 +42,15 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "4",
-      "title": "外交部介绍2026世界人工智能大会成果和",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "5",
-      "title": "爱芯元智WAIC 2026展示算力新布局",
+      "id": "3",
+      "title": "算力突围，押注字节的封闭私网，还是智谱的",
       "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
+      "competition_axis": 0.7,
+      "impact_score": 3,
       "axis_reason": "规则估算"
     },
     {
-      "id": "6",
+      "id": "4",
       "title": "港投生态圈企业阶跃星辰发布全球首个大模型",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -74,7 +58,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "7",
+      "id": "5",
       "title": "启明头条 | WAIC启明创投·创业与投",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -82,11 +66,27 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "8",
-      "title": "智汇多元算力，赋能AI产业升级！数据港亮",
+      "id": "6",
+      "title": "智谱完成对AI基础设施企业中科加禾（XC",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "7",
+      "title": "WAIC 2026 | 亿铸科技发布通用",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "8",
+      "title": "《国务院关于对外投资的规定》对矿业海外投",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     }
   ],
@@ -94,7 +94,7 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 0,
+      "policy_tailwind": 8,
       "competitive_pressure": 0,
       "capital_sentiment": 0,
       "regulatory_risk": 0,
