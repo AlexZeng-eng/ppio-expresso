@@ -1,41 +1,14 @@
 {
-  "generated_at": "2026-07-28T03:52:50.492Z",
+  "generated_at": "2026-07-29T03:56:09.231Z",
   "week": "2026-W31",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 14,
-  "attend_count": 8,
-  "silent_count": 6,
+  "total_curated": 13,
+  "attend_count": 9,
+  "silent_count": 4,
   "items": [
     {
       "id": "raw-001",
-      "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
-      "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
-      "source": "工信部-新闻",
-      "published": "2026-07-28",
-      "body_snippet": "",
-      "category": "技术",
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实 ",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-002",
       "title": "集成电路学院党委理论学习中心组专题学习习近平总书记关于科技创新和人工智能的重要讲话精神 - 上海交通大学 新闻网",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kRUNPUkdjUlV1NWNIcTcxVTJvb094Y1paUEFWMG4ycHl4U0xYWjRWQWZxSzVjT3NhemR1WXgzZEtqZjA5empCNXNyOE0wOUFvREFQNWZzS1pZRDhYUnVv?oc=5",
       "source": "上海交通大学 新闻网",
@@ -63,34 +36,12 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-003",
-      "title": "西藏通信管理局召开算力基础设施高质量发展座谈会",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/dfdt/art/2026/art_08c748c6c5a049b3bc40386c8366a338.html",
-      "source": "工信部-新闻",
-      "published": "2026-07-28",
-      "body_snippet": "",
-      "category": "技术",
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "西藏通信管理局召开算力基础设施高质量发展座谈会 ",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-004",
+      "id": "raw-002",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
       "category": "竞品",
-      "published": "2026-07-27",
+      "published": "2026-07-29",
       "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
       "_query_boost": 15,
       "lane": "silent",
@@ -108,7 +59,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
+      "id": "raw-003",
       "title": "算力突围，押注字节的封闭私网，还是智谱的开源活水？ - 见道网",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83N3ZOWmJXY3QydzVsV0lYYmV5bFcyalJZZVlHUHFlSXNTN2pJZkZIRC13LUMwQWl4alFkV2k3Zm1EMFNpOFkxRDd5cE43OElrSDlDaA?oc=5",
       "source": "见道网",
@@ -136,30 +87,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
-      "title": "Kimi K3有多火，月之暗面的算力和资本就有多急 - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DTFktajZnVzF5b2VoY3NKYkNMOWRyQkVGeVhWbEtyaHFMZGNZYnFqNnl3ZGVOcEQzMXR0UzhZMERBVEVzSDkwbmUxa01RV3lIUnIyWDNfUG9WWF8wcUE?oc=5",
-      "source": "thepaper.cn",
-      "category": "资本",
-      "published": "2026-07-23",
-      "body_snippet": "Kimi K3有多火，月之暗面的算力和资本就有多急 thepaper.cn",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "Kimi K3有多火，月之暗面的算力和资本就有多急 - thepaper.cn Kimi K3有多火，月之暗面的算力和资本就有多急 thepaper.cn",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-007",
+      "id": "raw-004",
       "title": "港投生态圈企业阶跃星辰发布全球首个大模型原生AI终端品牌STEPX，打通全链路AI生态 - FX168财经",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeE13SDFoTUVZa2NaeWtYTWtuSWEtOG1hWTlETnhJbHhjSWl1WDdvSGJNekZDdmJCTzgtVzZfb0ZxMEdial9Xb1k3cGM1LWNVR2VMSWpULXIzbWVmSjJmYkdIVGZGR3ItWUFnV0xmUHNMYkN0VjJlQTdiS3JuQ1hJQ1VhcFY?oc=5",
       "source": "FX168财经",
@@ -187,15 +115,15 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-008",
-      "title": "启明头条 | WAIC启明创投·创业与投资论坛—从算力原点到应用落地的进化征程成功举办 - 启明创投",
-      "url": "https://news.google.com/rss/articles/CBMi-wNBVV95cUxQVXByRVQ1S1lURXZKOGFtMWIzQ2UwcTdlWnFyc2o3QjFKNXdrdzhXOFJnSXVIOWp3eEFfSlY2MURvc0lRNHBaQjZUNmhJaXdwSmp6VFA5UGZiTkVhbGFacXpkeThXcG5MS19OUEdLeXJTUklVdWwxWlF3UDNwM3VZc2ZuZDFIazVsVVBLaHY1TmFRaFpzeXhQRi1ET29mdlFfcVFkNzloOE1PU1ViTGF5ZUl2bDRmMDRjTFdqSkhRbzBvTC01MDEtYzhZLVEwX0RrN0VqdlgzWk02ajNLVHB6dWl2VzJYNkdEaURnT1VabUFjVlV5TkVoZjZENkVJUTNqVG53YTZod3c2Z2FIWEVUY19abUY0YnNZLTdKWVd2dzZLaS0wYXVCWTZHUlB6ZGNoSXNSTk1FaW5HS0pVZlVRZjNhYnZkVTRhcFpoU1hiMkdrQlhTODFpbjN5eXU3cFl4dV9pdWE0ODA0X2w4TjVyRUpCRWsySUdOdzV2REJvUXlXS0FMZUNJSUVOSC13YjJPMHdORThZRVo3U3dYQXp2WGJjQlU1ZFh1cG5CemIxSWlXUVF0eTRncE9jelNNQ0h5QnRkSDZ5TWhsLWpnS2FYVkYyOC1FYkJFaHhjVnNDeEozY2QtS1Y1X0tCeFlxLXVGbndfVFEzbUpmMUk?oc=5",
-      "source": "启明创投",
+      "id": "raw-005",
+      "title": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 - 证券市场周刊",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmZ19kWDdRSTRaT0hqMW04R2pHMmVIdjhCM3M4ZXpacWc1ZGYySFZuX2ZsNHk4bzRIWFpPMmRWVGhiRmRBbXFKaVh4UjBvYThjU3hxY0dJT0RNUmY0Y0txS3d5WHg5QQ?oc=5",
+      "source": "证券市场周刊",
       "category": "政策",
-      "published": "2026-07-22",
-      "body_snippet": "启明头条 | WAIC启明创投·创业与投资论坛—从算力原点到应用落地的进化征程成功举办 启明创投",
+      "published": "2026-07-28",
+      "body_snippet": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 证券市场周刊",
       "_query_boost": 25,
-      "lane": "attend",
+      "lane": "silent",
       "signals": [
         "🔬"
       ],
@@ -205,17 +133,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "启明头条 | WAIC启明创投·创业与投资论坛—从算力原点到应用落地的进化征程成功举办 - 启明创投 启明头条 | WAIC启明创投·创业与投资论坛—从算力原点到应用落地的进化征程成功举办 启明创投",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
+      "summary_cn": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 - 证券市场周刊 预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 证券市场周刊",
+      "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
+      "id": "raw-007",
       "title": "智谱完成对AI基础设施企业中科加禾（XCore Sigma）的战略收购 - 多知网",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NZDZkSVBVY2l6eU1DTGJjdHRrM0NtcGt0dnBVbG5SdzBhSjhMQWNHczVKb3ZpeEhYMHFRQXVDbXl1ZXJfVVV1S2c1WnZ6T21zRnJNTkE4MUItTDBxZ3hFVnF6UnVPMGxPR1E?oc=5",
       "source": "多知网",
@@ -243,30 +166,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-010",
-      "title": "（区域观察）算力筑基向“空”而行 长春净月打造“算空融合”东北样本 - jl.chinanews.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1nRTlDVTlHcGdVQlRDMnpUMlc2S2tENW9LWjlLN0FaUGdVSHh5Y2djZTB6dnVLNDA0cVItVzJrdTBxUzVuVkQzc3JrYlUtOWd6ODNSQU1hZHR1X0psWElaLUtZcVRLc1dUd0RUNTB6Yw?oc=5",
-      "source": "jl.chinanews.com.cn",
-      "category": "政策",
-      "published": "2026-07-22",
-      "body_snippet": "（区域观察）算力筑基向“空”而行 长春净月打造“算空融合”东北样本 jl.chinanews.com.cn",
-      "_query_boost": 30,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "（区域观察）算力筑基向“空”而行 长春净月打造“算空融合”东北样本 - jl.chinanews.com.cn （区域观察）算力筑基向“空”而行 长春净月打造“",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-011",
+      "id": "raw-008",
       "title": "发布国内首个“数据·算力·Token”三合一AI基础设施平台！贵州数据宝惊艳亮相世界人工智能大会 - 中国日报网",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE50TFpQQ18tTkZLR2M4Q1hCY0Z2UUEzbERMdTRYM240NlMzS2I0bmJETWNQS1lvLUFTS2tVaDExT1kwcDNDUEpiV0M1Z080T05YWUFlclhqVnpVM3dlREJrelRuUUxqMll4c2ZHNzNjVkR3dGVYc2dreGRBVFQ?oc=5",
       "source": "中国日报网",
@@ -289,7 +189,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-013",
+      "id": "raw-009",
       "title": "从算力到应用，拱墅企业组团亮相世界人工智能大会 - gongshunews.com",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sdjA0NmFVR0VwckJxVlFpbzZTajBFQ0pKaWdneDlYak5MVFFTTC1kN3l2ZjB0LVhfNkdZT1BKcEZoZEpoWmJxVTVuNEpjMEN3RkF3ZUJ4ZkdWdlZlRUhaMGY5Q2RNRUZDUnlEZ2QyRHUtR2syUlE?oc=5",
       "source": "gongshunews.com",
@@ -312,35 +212,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-014",
-      "title": "WAIC 2026 | 亿铸科技发布通用存算一体三大定律，探索 AI 算力演进新路径 - 凤凰网",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB2Y21HZF9NUnhGbzJqNDJ5b09YX2FhdE9qWnFhd0hIOEFEd1ZKcjBBZU5sdTFnekp4d0hJWGswYkh1YnRkeGNjU1J3dmNkX2c?oc=5",
-      "source": "凤凰网",
-      "category": "政策",
-      "published": "2026-07-24",
-      "body_snippet": "WAIC 2026 | 亿铸科技发布通用存算一体三大定律，探索 AI 算力演进新路径 凤凰网",
-      "_query_boost": 25,
-      "lane": "attend",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "WAIC 2026 | 亿铸科技发布通用存算一体三大定律，探索 AI 算力演进新路径 - 凤凰网 WAIC 2026 | 亿铸科技发布通用存算一体三大定律，探索 AI 算力演进新路径 凤凰网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-015",
+      "id": "raw-010",
       "title": "《国务院关于对外投资的规定》对矿业海外投资和并购的影响简析 - Lexology",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcXJpTDNqdVRqbW5LVG9RVFF6dloxQXNuNGJuOVJMbWVIQWhLQUpLNko0bmtYWld4VjJHTERnWW9OQmltUjBWRVZvb2J2RV8zUDl1R0I0U0NhUDNVMm9NaEpNd1BhTU13WXdFOUl0aHNZaVVkOE82YjdYb293czNJYXh4TWpHUkEwd0R3?oc=5",
       "source": "Lexology",
@@ -359,6 +231,120 @@
         "c3"
       ],
       "summary_cn": "《国务院关于对外投资的规定》对矿业海外投资和并购的影响简析 - Lexology 《国务院关于对外投资的规定》对矿业海外投资和并购的影响简析 Lexology",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-011",
+      "title": "AI用电太猛引民众抗议特朗普发起倡议：数据中心应付更高电费- the United States 美国 - cnBeta.COM",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Sd2JYbW95U0hIR2dHeE9EUFpHeEdvNzVzT09BLTN6anJDSXJPUTUwNkVHVVdtdGQ1LTBkR1N2NFhwMVNXRXJlb2J3T0kxQ2VfZ24zbW14MlNLaHNWYzdmeA?oc=5",
+      "source": "cnBeta.COM",
+      "category": "海外",
+      "published": "2026-07-23",
+      "body_snippet": "AI用电太猛引民众抗议特朗普发起倡议：数据中心应付更高电费- the United States 美国 cnBeta.COM",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "🌏"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "数据中心应付更高电费- the United States 美国 - cnBeta.COM AI用电太猛引民众抗议特朗普发起倡议：数据中心应付更高电费- the United States 美国 cnBeta.COM",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-013",
+      "title": "硅基流动完成新一轮超 20 亿元融资 - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE40STJ2SlBhUHZhajdpbmRtSGo5NU9YcXdHTmg4VVlOdEhzX3dGeHJaeHVkVmtBendRbVlHSVFhQ1dDb29yMlJqem5HMS1MUQ?oc=5",
+      "source": "36 Kr",
+      "category": "竞品",
+      "published": "2026-07-25",
+      "body_snippet": "硅基流动完成新一轮超 20 亿元融资 36 Kr",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "⚔️",
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "硅基流动完成新一轮超 20 亿元融资 - 36 Kr 硅基流动完成新一轮超 20 亿元融资 36 Kr",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-014",
+      "title": "GPT-6被泄露？OpenAI史上最尴尬自曝，救场的居然是智谱的开源模型GLM-5.2！ - doit.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwOVZSVmxMZ0tqdlZfWXNSSzhPUWZiMEd0bF9NY2JzbUdfYnI0aDFad0dBWW5kM09ISW04enoyWFdodDQ2eHZlRXg3T0VBMEMtVURPYTRkQkR0MlU?oc=5",
+      "source": "doit.com.cn",
+      "category": "技术",
+      "published": "2026-07-23",
+      "body_snippet": "GPT-6被泄露？OpenAI史上最尴尬自曝，救场的居然是智谱的开源模型GLM-5.2！ doit.com.cn",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "GPT-6被泄露？OpenAI史上最尴尬自曝，救场的居然是智谱的开源模型GLM-5.2！ - doit.com.cn GPT-6被泄露？OpenAI史上最尴尬自曝，救场的居然是智谱的开源模型GLM-5.2！ doit.com.cn",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-015",
+      "title": "月之暗面以500亿美元估值洽谈Pre-IPO融资，Kimi K3引爆全球AI圈 - 风闻",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4ydUlLWXdQZkNhdzNwYk5FTjBFYXJHMjd6Q3FlWno2Njk3MXRpTm4xaFN5dzNXUFZZVTFxeGsySWxWU0JYVUYtb3Z5akhDT1FXUUFSSFZQOU1JRGM?oc=5",
+      "source": "风闻",
+      "category": "资本",
+      "published": "2026-07-23",
+      "body_snippet": "月之暗面以500亿美元估值洽谈Pre-IPO融资，Kimi K3引爆全球AI圈 风闻",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "⚔️",
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "月之暗面以500亿美元估值洽谈Pre-IPO融资，Kimi K3引爆全球AI圈 - 风闻 月之暗面以500亿美元估值洽谈Pre-IPO融资，Kimi K3引爆全球AI圈 风闻",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
