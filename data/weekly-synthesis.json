@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-29T03:56:09.267Z",
-  "date": "2026-07-29",
-  "date_label": "2026-07-29",
+  "generated_at": "2026-07-30T03:46:25.463Z",
+  "date": "2026-07-30",
+  "date_label": "2026-07-30",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 1,
+    "🏛️": 0,
     "📜": 0,
     "⚔️": 2,
     "💰": 2,
-    "🌏": 1,
-    "🔬": 5
+    "🌏": 0,
+    "🔬": 6
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 3,
+    "policy_heat": 2,
     "competitor_heat": 4,
     "capital_heat": 3,
-    "overseas_heat": 3,
+    "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
@@ -27,7 +27,7 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "集成电路学院党委理论学习中心组专题学习习",
+      "title": "“促进全球人工智能朝着向上向善、造福人类",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
@@ -43,38 +43,14 @@
     },
     {
       "id": "3",
-      "title": "港投生态圈企业阶跃星辰发布全球首个大模型",
+      "title": "月之暗面完成超35亿美元F轮融资，投后估",
       "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
+      "competition_axis": 0.7,
+      "impact_score": 3,
       "axis_reason": "规则估算"
     },
     {
       "id": "4",
-      "title": "智谱完成对AI基础设施企业中科加禾（XC",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "5",
-      "title": "《国务院关于对外投资的规定》对矿业海外投",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "6",
-      "title": "AI用电太猛引民众抗议特朗普发起倡议：数",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "7",
       "title": "硅基流动完成新一轮超 20 亿元融资 -",
       "policy_axis": 0,
       "competition_axis": 0.7,
@@ -82,19 +58,27 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "8",
-      "title": "GPT-6被泄露？OpenAI史上最尴尬",
+      "id": "5",
+      "title": "智谱完成对AI基础设施企业中科加禾（XC",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
       "axis_reason": "规则估算"
     },
     {
-      "id": "9",
-      "title": "月之暗面以500亿美元估值洽谈Pre-I",
+      "id": "6",
+      "title": "港投生态圈企业阶跃星辰发布全球首个大模型",
       "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "7",
+      "title": "中国信通院联合360启动《企业办公智能体",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     }
   ],
@@ -102,11 +86,11 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 8,
+      "policy_tailwind": 0,
       "competitive_pressure": -12,
       "capital_sentiment": 10,
       "regulatory_risk": 0,
-      "overseas_headwind": -4
+      "overseas_headwind": 0
     },
     "interpretation": "规则估算，仅供参考"
   },
