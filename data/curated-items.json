@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-30T03:46:25.427Z",
+  "generated_at": "2026-07-31T04:06:29.934Z",
   "week": "2026-W31",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 12,
-  "attend_count": 7,
+  "total_curated": 11,
+  "attend_count": 6,
   "silent_count": 5,
   "items": [
     {
@@ -32,38 +32,11 @@
     },
     {
       "id": "raw-002",
-      "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
-      "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
-      "source": "工信部-新闻",
-      "published": "2026-07-30",
-      "body_snippet": "",
-      "category": "技术",
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实 ",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-003",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
       "category": "竞品",
-      "published": "2026-07-30",
+      "published": "2026-07-31",
       "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
       "_query_boost": 15,
       "lane": "silent",
@@ -82,13 +55,35 @@
     },
     {
       "id": "raw-004",
-      "title": "算力突围，押注字节的封闭私网，还是智谱的开源活水？ - 见道网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83N3ZOWmJXY3QydzVsV0lYYmV5bFcyalJZZVlHUHFlSXNTN2pJZkZIRC13LUMwQWl4alFkV2k3Zm1EMFNpOFkxRDd5cE43OElrSDlDaA?oc=5",
-      "source": "见道网",
-      "category": "竞品",
-      "published": "2026-07-24",
-      "body_snippet": "算力突围，押注字节的封闭私网，还是智谱的开源活水？ 见道网",
-      "_query_boost": 20,
+      "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxPU3JJOG1XOGlBWnh0Q3RlaVJadWttcXpjQ0dCZTRnMFl0bWVMdzNqZ0FXRTJ3UUFRRU5JVmdCLXNjQWRFV1dKbVg2T3Q5eXNGYVhBeWRnQ2s2Q2U4bHdLb0YxdnB2TS0tR3FRdTZXNWJoUE1YSS1QOWVNTHY3X2hkWHBMck5ZN2xPVXZkaGZvaVdOYjlmS25rY0JKamhQOUp6NU5YeDBJOWdTcmN2UUVpX3ctcHV2ZDh5YURTV3g4Q0tXV3BGbjA5NHotbzNIaWZYTlNlZVBReFVWUGY5d2ZUSWxzSWVPZXJvMUFBXzlINkVuMUlOWHk4RWJ5dVVSdVE0LVJieXB4RWVyaENSa2E4R2FwNENweWt5eUdFWHdubURsU1dEdUNIVlR3VWNoOWF6LUxRTkx4X1NVRjFlZHRqUmFSRWx1d3pGT2FDdW5HYmJ2c1BTRnQtaHFDY0JhdXBmTXhlTmdzZFQyQ1Vud2h4MHkwdUJIRGxQdW9wU0hsX1hoZWRRN2NYQWdmYUlSVVU5NEdpeGk1NkphNjE5a1I5MHQ5Wi01ejl3b0xBU3RIN0w4M3Q0S25sTy1xVUp3WXhwcW9CYzdlT2J1Y2lZTlc0emJjbVVyVzkzU1kwajQ3S0F3UXV3VWdRZXRGUERmdk5wSWpmdkpEdnNrSzRlaVNZaFlJVjVpdGw3Z29NdXVIZWZHRGRzZ1NzTVlHNU9jRWxJWnVnOF9HRFJVQjNPcTkySnhQa2JZY0JyVl9pV21vdFA3cWRTclRiME9FUnZxaEFMMkJYWUgwTURIUUxyN2c?oc=5",
+      "source": "finance.sina.com.cn",
+      "category": "政策",
+      "published": "2026-07-29",
+      "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 finance.sina.com.cn",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - finance.sina.com.cn 燧原科技携手合作伙伴发布三大成果，国产算力",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
+      "title": "国家发改委：有关机构测算“十五五”时期算力网建设将新增直接投资4万亿元",
+      "url": "https://36kr.com/newsflashes/3918951167651461?f=rss",
+      "source": "36氪",
+      "published": "2026-07-31",
+      "body_snippet": "",
+      "category": "政策",
       "lane": "attend",
       "signals": [
         "🔬"
@@ -99,36 +94,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "算力突围，押注字节的封闭私网，还是智谱的开源活水？ - 见道网 算力突围，押注字节的封闭私网，还是智谱的开源活水？ 见道网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-005",
-      "title": "月之暗面完成超35亿美元F轮融资，投后估值达350亿美元 - Sohu",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONldRVXF4OUxKRFcxSTBKaUdrVUlkT3VrYXh3NUVTQXJpWER4anVpWEtKN3VkSHpSMHdpQlZIdndzRmlTZmkyY0cxUWk2cjZLNEMtbDQzXzNodkFXdGw5V1R1ckpkcmVRd3dkNVAxUlR6MVdmTk1XM3M0ZDV1eFEwX1U3dzRtWm1v?oc=5",
-      "source": "Sohu",
-      "category": "资本",
-      "published": "2026-07-30",
-      "body_snippet": "月之暗面完成超35亿美元F轮融资，投后估值达350亿美元 Sohu",
-      "_query_boost": 20,
-      "lane": "attend",
-      "signals": [
-        "⚔️",
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "月之暗面完成超35亿美元F轮融资，投后估值达350亿美元 - Sohu 月之暗面完成超35亿美元F轮融资，投后估值达350亿美元 Sohu",
+      "summary_cn": "有关机构测算“十五五”时期算力网建设将新增直接投资4万亿元 ",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -139,58 +105,12 @@
     },
     {
       "id": "raw-006",
-      "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxPU3JJOG1XOGlBWnh0Q3RlaVJadWttcXpjQ0dCZTRnMFl0bWVMdzNqZ0FXRTJ3UUFRRU5JVmdCLXNjQWRFV1dKbVg2T3Q5eXNGYVhBeWRnQ2s2Q2U4bHdLb0YxdnB2TS0tR3FRdTZXNWJoUE1YSS1QOWVNTHY3X2hkWHBMck5ZN2xPVXZkaGZvaVdOYjlmS25rY0JKamhQOUp6NU5YeDBJOWdTcmN2UUVpX3ctcHV2ZDh5YURTV3g4Q0tXV3BGbjA5NHotbzNIaWZYTlNlZVBReFVWUGY5d2ZUSWxzSWVPZXJvMUFBXzlINkVuMUlOWHk4RWJ5dVVSdVE0LVJieXB4RWVyaENSa2E4R2FwNENweWt5eUdFWHdubURsU1dEdUNIVlR3VWNoOWF6LUxRTkx4X1NVRjFlZHRqUmFSRWx1d3pGT2FDdW5HYmJ2c1BTRnQtaHFDY0JhdXBmTXhlTmdzZFQyQ1Vud2h4MHkwdUJIRGxQdW9wU0hsX1hoZWRRN2NYQWdmYUlSVVU5NEdpeGk1NkphNjE5a1I5MHQ5Wi01ejl3b0xBU3RIN0w4M3Q0S25sTy1xVUp3WXhwcW9CYzdlT2J1Y2lZTlc0emJjbVVyVzkzU1kwajQ3S0F3UXV3VWdRZXRGUERmdk5wSWpmdkpEdnNrSzRlaVNZaFlJVjVpdGw3Z29NdXVIZWZHRGRzZ1NzTVlHNU9jRWxJWnVnOF9HRFJVQjNPcTkySnhQa2JZY0JyVl9pV21vdFA3cWRTclRiME9FUnZxaEFMMkJYWUgwTURIUUxyN2c?oc=5",
-      "source": "新浪网",
-      "category": "政策",
-      "published": "2026-07-29",
-      "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 新浪网",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪网 燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 ",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-007",
-      "title": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 - 证券市场周刊",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmZ19kWDdRSTRaT0hqMW04R2pHMmVIdjhCM3M4ZXpacWc1ZGYySFZuX2ZsNHk4bzRIWFpPMmRWVGhiRmRBbXFKaVh4UjBvYThjU3hxY0dJT0RNUmY0Y0txS3d5WHg5QQ?oc=5",
-      "source": "证券市场周刊",
-      "category": "政策",
-      "published": "2026-07-28",
-      "body_snippet": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 证券市场周刊",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 - 证券市场周刊 预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 证券市场周刊",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-008",
-      "title": "硅基流动完成新一轮超 20 亿元融资 - 36氪",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE40STJ2SlBhUHZhajdpbmRtSGo5NU9YcXdHTmg4VVlOdEhzX3dGeHJaeHVkVmtBendRbVlHSVFhQ1dDb29yMlJqem5HMS1MUQ?oc=5",
-      "source": "36氪",
-      "category": "竞品",
-      "published": "2026-07-25",
-      "body_snippet": "硅基流动完成新一轮超 20 亿元融资 36氪",
+      "title": "月之暗面完成35亿美元超预期融资 投后估值达350亿美元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5aSkk4ZUhwUzNoZ0Q0WVp1akVOOGFad0w5dkR4S3MweDhyZXN5QU5iTng2UnlQcVNmX1dTWV9vUWJuQXpPVFhKWW5QemgtQQ?oc=5",
+      "source": "观点网",
+      "category": "资本",
+      "published": "2026-07-30",
+      "body_snippet": "月之暗面完成35亿美元超预期融资 投后估值达350亿美元 观点网",
       "_query_boost": 20,
       "lane": "attend",
       "signals": [
@@ -203,7 +123,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "硅基流动完成新一轮超 20 亿元融资 - 36氪 硅基流动完成新一轮超 20 亿元融资 36氪",
+      "summary_cn": "月之暗面完成35亿美元超预期融资 投后估值达350亿美元 - 观点网 月之暗面完成35亿美元超预期融资 投后估值达350亿美元 观点网",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -213,63 +133,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
-      "title": "智谱完成对AI基础设施企业中科加禾（XCore Sigma）的战略收购 - 多知网",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NZDZkSVBVY2l6eU1DTGJjdHRrM0NtcGt0dnBVbG5SdzBhSjhMQWNHczVKb3ZpeEhYMHFRQXVDbXl1ZXJfVVV1S2c1WnZ6T21zRnJNTkE4MUItTDBxZ3hFVnF6UnVPMGxPR1E?oc=5",
-      "source": "多知网",
-      "category": "竞品",
-      "published": "2026-07-24",
-      "body_snippet": "智谱完成对AI基础设施企业中科加禾（XCore Sigma）的战略收购 多知网",
-      "_query_boost": 30,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "智谱完成对AI基础设施企业中科加禾（XCore Sigma）的战略收购 - 多知网 智谱完成对AI基础设施企业中科加禾（XCore Sigma）的战略收购 多知网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-010",
-      "title": "港投生态圈企业阶跃星辰发布全球首个大模型原生AI终端品牌STEPX，打通全链路AI生态 - fx168news.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeE13SDFoTUVZa2NaeWtYTWtuSWEtOG1hWTlETnhJbHhjSWl1WDdvSGJNekZDdmJCTzgtVzZfb0ZxMEdial9Xb1k3cGM1LWNVR2VMSWpULXIzbWVmSjJmYkdIVGZGR3ItWUFnV0xmUHNMYkN0VjJlQTdiS3JuQ1hJQ1VhcFY?oc=5",
-      "source": "fx168news.com",
-      "category": "竞品",
-      "published": "2026-07-24",
-      "body_snippet": "港投生态圈企业阶跃星辰发布全球首个大模型原生AI终端品牌STEPX，打通全链路AI生态 fx168news.com",
-      "_query_boost": 20,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "港投生态圈企业阶跃星辰发布全球首个大模型原生AI终端品牌STEPX，打通全链路AI生态 - fx168news.com 港投生态圈企业阶跃星辰发布全球首个大模型原生AI终端品牌STEPX，打通全链路AI生态 fx168news.com",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-011",
+      "id": "raw-007",
       "title": "中国信通院联合360启动《企业办公智能体能力要求》标准研制-公司动态 - 证券市场周刊",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5meS04ZzJyZENNYzB2RnM2LVpRMm5mRGZlbmZCRWRGY0xtR0gyRVozWk82VGN2XzdPelR0OUl4TWM4ZmNZRi1ydnlOcHFzd2w3QXFQLWZ5NVc1d1Vmenh4aGhNbHpvZw?oc=5",
       "source": "证券市场周刊",
@@ -297,7 +161,58 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-013",
+      "id": "raw-008",
+      "title": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 - 证券市场周刊",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmZ19kWDdRSTRaT0hqMW04R2pHMmVIdjhCM3M4ZXpacWc1ZGYySFZuX2ZsNHk4bzRIWFpPMmRWVGhiRmRBbXFKaVh4UjBvYThjU3hxY0dJT0RNUmY0Y0txS3d5WHg5QQ?oc=5",
+      "source": "证券市场周刊",
+      "category": "政策",
+      "published": "2026-07-28",
+      "body_snippet": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 证券市场周刊",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 - 证券市场周刊 预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 证券市场周刊",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
+      "title": "AI智能体手机竞赛启幕：努比亚、阶跃星辰、荣耀同场竞速，模型、硬件、App背后“暗战” - 时代在线",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oaFl0MXhENnlLX2RzN2xld2pDWnN4Y040SGd5WTBqX1dKOW9sM28wNGNGNzdwdnB3LTBiYjBFeXJwT0R1ejJ4NW5ySzFNNU5neVVFWHAySzlZZw?oc=5",
+      "source": "时代在线",
+      "category": "竞品",
+      "published": "2026-07-26",
+      "body_snippet": "AI智能体手机竞赛启幕：努比亚、阶跃星辰、荣耀同场竞速，模型、硬件、App背后“暗战” 时代在线",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "努比亚、阶跃星辰、荣耀同场竞速，模型、硬件、App背后“暗战” - 时代在线 AI智能体手机竞赛启幕：努比亚、阶跃星辰、荣耀同场竞速，模型、硬件、App背后“暗战” 时代在线",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-011",
       "title": "发布国内首个“数据·算力·Token”三合一AI基础设施平台！贵州数据宝惊艳亮相世界人工智能大会 - 中国日报网",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE50TFpQQ18tTkZLR2M4Q1hCY0Z2UUEzbERMdTRYM240NlMzS2I0bmJETWNQS1lvLUFTS2tVaDExT1kwcDNDUEpiV0M1Z080T05YWUFlclhqVnpVM3dlREJrelRuUUxqMll4c2ZHNzNjVkR3dGVYc2dreGRBVFQ?oc=5",
       "source": "中国日报网",
@@ -317,6 +232,62 @@
       ],
       "summary_cn": "发布国内首个“数据·算力·Token”三合一AI基础设施平台！贵州数据宝惊艳亮相世界人工智能大会 - 中国日报网 发布国内首个“数据·算力·Token”三合一A",
       "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-013",
+      "title": "硅基流动完成新一轮超 20 亿元融资 - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE40STJ2SlBhUHZhajdpbmRtSGo5NU9YcXdHTmg4VVlOdEhzX3dGeHJaeHVkVmtBendRbVlHSVFhQ1dDb29yMlJqem5HMS1MUQ?oc=5",
+      "source": "36 Kr",
+      "category": "竞品",
+      "published": "2026-07-25",
+      "body_snippet": "硅基流动完成新一轮超 20 亿元融资 36 Kr",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "⚔️",
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "硅基流动完成新一轮超 20 亿元融资 - 36 Kr 硅基流动完成新一轮超 20 亿元融资 36 Kr",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-014",
+      "title": "国家发改委：将加快《人工智能法》立法进程",
+      "url": "https://www.ithome.com/0/983/974.htm",
+      "source": "IT之家",
+      "published": "2026-07-31",
+      "body_snippet": "",
+      "category": "监管",
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "将加快《人工智能法》立法进程 ",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
       "_classified_by": "rule"
     }
   ]
