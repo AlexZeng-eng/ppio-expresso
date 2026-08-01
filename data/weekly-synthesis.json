@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-31T04:06:29.977Z",
-  "date": "2026-07-31",
-  "date_label": "2026-07-31",
+  "generated_at": "2026-08-01T04:05:38.845Z",
+  "date": "2026-08-01",
+  "date_label": "2026-08-01",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
     "📜": 0,
-    "⚔️": 2,
-    "💰": 2,
+    "⚔️": 1,
+    "💰": 1,
     "🌏": 0,
-    "🔬": 6
+    "🔬": 8
   },
   "speed_read": {
     "positive": [],
@@ -17,7 +17,7 @@
   },
   "wind_indicators": {
     "policy_heat": 3,
-    "competitor_heat": 4,
+    "competitor_heat": 3,
     "capital_heat": 3,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
@@ -27,7 +27,7 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "国家发改委：有关机构测算“十五五”时期算",
+      "title": "“促进全球人工智能朝着向上向善、造福人类",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
@@ -35,15 +35,15 @@
     },
     {
       "id": "2",
-      "title": "月之暗面完成35亿美元超预期融资 投后估",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
+      "title": "国常会重磅部署！加快通信网、算力网建设！",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
       "id": "3",
-      "title": "中国信通院联合360启动《企业办公智能体",
+      "title": "WAIC 2026圆满落幕｜Frore ",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -51,6 +51,14 @@
     },
     {
       "id": "4",
+      "title": "月之暗面完成35亿美元超预期融资 投后估",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 3,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "5",
       "title": "AI智能体手机竞赛启幕：努比亚、阶跃星辰",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -58,19 +66,11 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "5",
-      "title": "硅基流动完成新一轮超 20 亿元融资 -",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "规则估算"
-    },
-    {
       "id": "6",
-      "title": "国家发改委：将加快《人工智能法》立法进程",
-      "policy_axis": 0.6,
+      "title": "中国信通院联合360启动《企业办公智能体",
+      "policy_axis": 0,
       "competition_axis": 0.1,
-      "impact_score": 4,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     }
   ],
@@ -79,8 +79,8 @@
     "delta": 0,
     "components": {
       "policy_tailwind": 8,
-      "competitive_pressure": -12,
-      "capital_sentiment": 10,
+      "competitive_pressure": -6,
+      "capital_sentiment": 5,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },
