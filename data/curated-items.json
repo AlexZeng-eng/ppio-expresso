@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T04:05:38.808Z",
+  "generated_at": "2026-08-02T04:09:26.791Z",
   "week": "2026-W32",
   "classifier": "rule-based",
   "total_raw": 15,
@@ -12,7 +12,7 @@
       "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
       "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
       "source": "工信部-新闻",
-      "published": "2026-08-01",
+      "published": "2026-08-02",
       "body_snippet": "",
       "category": "技术",
       "lane": "attend",
@@ -59,12 +59,12 @@
     },
     {
       "id": "raw-003",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - cls.cn",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
+      "source": "cls.cn",
       "category": "竞品",
-      "published": "2026-07-31",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "published": "2026-08-01",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ cls.cn",
       "_query_boost": 15,
       "lane": "silent",
       "signals": [
@@ -76,12 +76,41 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "summary_cn": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - cls.cn 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ cls.cn",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-004",
+      "title": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipARBVV95cUxNS2xmVXFNeGlSQTkzZ1c0dWR5QlRRbVVCVlc4eEgyYjBYWjVNVHB1b19OM2JPN0dzWF9nRWtZZGVUZWY2TFBqODUwYUlFR3hWeGtoRkdsMk9YbUotNlBvSTFXVlREZG9QQkpVTGNyMktrV3pKZ09PcFdWTnp0aFcweXJzNW1MLVI2eXAtRnpXYTBKY0JGdjhUYldpU1ZubUhob2EtRVQwY0Y0Z1FfUWI5WHhtZGRVN0VsV19UMXVGeVdkSnVudDBnUDJsLXh1M2pWb1NLS0tMUFBZZWpaajNrOEJpTUlBTmxPRHZWNDJIOGNRRm00cS1YMnUzejJTdGI3bHlOb2NvNmNnNndLUjVtMEhyRHVZUGtXSzByR1dhN0pTWEZhNXVpX1dsMUI5Y1NLUHlMMEtfU2c3RVNjVjZockZVWHpXU21JZzZqOTBjZ1g0Vy1Jbnk5NWZoQThPNUZ5R2RBWWJSb3J5TV9HajJCdDdLZ0lqQ0xqV2lnTGZicE5NdzhQRmY4aEZpMjNMTkJzZlg2YVk5RWVXRWhuOXBVSjAwNVN6aUdpdlZLaGlMYkZXcjdDUjRuUnM4N0luSWp1ZUdYeXdrQWhQLVNwb0ZnZHNZSHgxWFhHN01Ec09KblBDdll0NFo1SEUySDN6bjRyZjRWTHI5R0JpSEd3V0JqUzdwYXB3N2FHUEk2ZEU5dV8yZTQ0dkZDY2NqR2NLbWZQXzdaMA?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-07-31",
+      "body_snippet": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ 新浪财经",
+      "_query_boost": 30,
+      "lane": "attend",
+      "signals": [
+        "🏛️",
+        "🔬"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ - 新浪财经 国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ 新浪财经",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
       "title": "算力重构汽车产业突围新路径- 中国日报网 - China Daily",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vNWJJZFc5TGhkemxZOXZCS2VKTlNaVkotSFVzWVZhWnhPZFVVWWxJdVhsTGFBc19GakRfLTB4bVZjZjhwZzMtSXFMVjZ6OWFCdmZCR1FyTW8xSVB1Rkh0aUtmMnpaWHE0R0UxZHI3bTdGQ0g2SWpWdU50ZU5ScWs?oc=5",
       "source": "China Daily",
@@ -104,42 +133,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
-      "title": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ - finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMipARBVV95cUxNS2xmVXFNeGlSQTkzZ1c0dWR5QlRRbVVCVlc4eEgyYjBYWjVNVHB1b19OM2JPN0dzWF9nRWtZZGVUZWY2TFBqODUwYUlFR3hWeGtoRkdsMk9YbUotNlBvSTFXVlREZG9QQkpVTGNyMktrV3pKZ09PcFdWTnp0aFcweXJzNW1MLVI2eXAtRnpXYTBKY0JGdjhUYldpU1ZubUhob2EtRVQwY0Y0Z1FfUWI5WHhtZGRVN0VsV19UMXVGeVdkSnVudDBnUDJsLXh1M2pWb1NLS0tMUFBZZWpaajNrOEJpTUlBTmxPRHZWNDJIOGNRRm00cS1YMnUzejJTdGI3bHlOb2NvNmNnNndLUjVtMEhyRHVZUGtXSzByR1dhN0pTWEZhNXVpX1dsMUI5Y1NLUHlMMEtfU2c3RVNjVjZockZVWHpXU21JZzZqOTBjZ1g0Vy1Jbnk5NWZoQThPNUZ5R2RBWWJSb3J5TV9HajJCdDdLZ0lqQ0xqV2lnTGZicE5NdzhQRmY4aEZpMjNMTkJzZlg2YVk5RWVXRWhuOXBVSjAwNVN6aUdpdlZLaGlMYkZXcjdDUjRuUnM4N0luSWp1ZUdYeXdrQWhQLVNwb0ZnZHNZSHgxWFhHN01Ec09KblBDdll0NFo1SEUySDN6bjRyZjRWTHI5R0JpSEd3V0JqUzdwYXB3N2FHUEk2ZEU5dV8yZTQ0dkZDY2NqR2NLbWZQXzdaMA?oc=5",
-      "source": "finance.sina.com.cn",
-      "category": "政策",
-      "published": "2026-07-31",
-      "body_snippet": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ finance.sina.com.cn",
-      "_query_boost": 25,
-      "lane": "attend",
-      "signals": [
-        "🏛️",
-        "🔬"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ - finance.sina.com.cn 国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ finance.sina.com.cn",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
       "id": "raw-006",
-      "title": "辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 - finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVC1LTVJNWXZYRXMyRHRVMko5WTJmWTIwdmRxaUJlUFVVb2ZBZW9RYkktdjdranZub2t1MmdDOGtvMVF6U0Naamh6dHZmcGp6OXB3YmNLZzI5VVU0V1JCQ2lXWGlERUw1MnVyLW9Sd3hzcFFacTZmc29ROUY0VkhpN3FIdGpwRF9XNUtZczRtek5oOXFZOElJTFdMaEZpc1dmeWlRYzVoUQ?oc=5",
-      "source": "finance.sina.com.cn",
+      "title": "辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8ydklBMHhnWUdONmVZNzJzVGFwaU12QmNJakstV1FqLUhBcWU4U3lnZ1pSc0dzOGFBV2QzQnY2UzlSMHphc3dBcEJUMlM1WDZBMk1UMWhkVWw?oc=5",
+      "source": "上观新闻",
       "category": "政策",
       "published": "2026-07-31",
-      "body_snippet": "辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 finance.sina.com.cn",
+      "body_snippet": "辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 上观新闻",
       "_query_boost": 25,
       "lane": "silent",
       "signals": [
@@ -151,7 +151,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 - finance.sina.com.cn 辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 ",
+      "summary_cn": "辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 - 上观新闻 辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 上观新闻",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
@@ -185,6 +185,52 @@
     },
     {
       "id": "raw-009",
+      "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxPU3JJOG1XOGlBWnh0Q3RlaVJadWttcXpjQ0dCZTRnMFl0bWVMdzNqZ0FXRTJ3UUFRRU5JVmdCLXNjQWRFV1dKbVg2T3Q5eXNGYVhBeWRnQ2s2Q2U4bHdLb0YxdnB2TS0tR3FRdTZXNWJoUE1YSS1QOWVNTHY3X2hkWHBMck5ZN2xPVXZkaGZvaVdOYjlmS25rY0JKamhQOUp6NU5YeDBJOWdTcmN2UUVpX3ctcHV2ZDh5YURTV3g4Q0tXV3BGbjA5NHotbzNIaWZYTlNlZVBReFVWUGY5d2ZUSWxzSWVPZXJvMUFBXzlINkVuMUlOWHk4RWJ5dVVSdVE0LVJieXB4RWVyaENSa2E4R2FwNENweWt5eUdFWHdubURsU1dEdUNIVlR3VWNoOWF6LUxRTkx4X1NVRjFlZHRqUmFSRWx1d3pGT2FDdW5HYmJ2c1BTRnQtaHFDY0JhdXBmTXhlTmdzZFQyQ1Vud2h4MHkwdUJIRGxQdW9wU0hsX1hoZWRRN2NYQWdmYUlSVVU5NEdpeGk1NkphNjE5a1I5MHQ5Wi01ejl3b0xBU3RIN0w4M3Q0S25sTy1xVUp3WXhwcW9CYzdlT2J1Y2lZTlc0emJjbVVyVzkzU1kwajQ3S0F3UXV3VWdRZXRGUERmdk5wSWpmdkpEdnNrSzRlaVNZaFlJVjVpdGw3Z29NdXVIZWZHRGRzZ1NzTVlHNU9jRWxJWnVnOF9HRFJVQjNPcTkySnhQa2JZY0JyVl9pV21vdFA3cWRTclRiME9FUnZxaEFMMkJYWUgwTURIUUxyN2c?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-07-29",
+      "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 新浪财经",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪财经 燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
+      "title": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 - 证券市场周刊",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmZ19kWDdRSTRaT0hqMW04R2pHMmVIdjhCM3M4ZXpacWc1ZGYySFZuX2ZsNHk4bzRIWFpPMmRWVGhiRmRBbXFKaVh4UjBvYThjU3hxY0dJT0RNUmY0Y0txS3d5WHg5QQ?oc=5",
+      "source": "证券市场周刊",
+      "category": "政策",
+      "published": "2026-07-28",
+      "body_snippet": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 证券市场周刊",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 - 证券市场周刊 预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 证券市场周刊",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-012",
       "title": "月之暗面完成35亿美元超预期融资 投后估值达350亿美元 - 观点网",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5aSkk4ZUhwUzNoZ0Q0WVp1akVOOGFad0w5dkR4S3MweDhyZXN5QU5iTng2UnlQcVNmX1dTWV9vUWJuQXpPVFhKWW5QemgtQQ?oc=5",
       "source": "观点网",
@@ -213,80 +259,6 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-010",
-      "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxPU3JJOG1XOGlBWnh0Q3RlaVJadWttcXpjQ0dCZTRnMFl0bWVMdzNqZ0FXRTJ3UUFRRU5JVmdCLXNjQWRFV1dKbVg2T3Q5eXNGYVhBeWRnQ2s2Q2U4bHdLb0YxdnB2TS0tR3FRdTZXNWJoUE1YSS1QOWVNTHY3X2hkWHBMck5ZN2xPVXZkaGZvaVdOYjlmS25rY0JKamhQOUp6NU5YeDBJOWdTcmN2UUVpX3ctcHV2ZDh5YURTV3g4Q0tXV3BGbjA5NHotbzNIaWZYTlNlZVBReFVWUGY5d2ZUSWxzSWVPZXJvMUFBXzlINkVuMUlOWHk4RWJ5dVVSdVE0LVJieXB4RWVyaENSa2E4R2FwNENweWt5eUdFWHdubURsU1dEdUNIVlR3VWNoOWF6LUxRTkx4X1NVRjFlZHRqUmFSRWx1d3pGT2FDdW5HYmJ2c1BTRnQtaHFDY0JhdXBmTXhlTmdzZFQyQ1Vud2h4MHkwdUJIRGxQdW9wU0hsX1hoZWRRN2NYQWdmYUlSVVU5NEdpeGk1NkphNjE5a1I5MHQ5Wi01ejl3b0xBU3RIN0w4M3Q0S25sTy1xVUp3WXhwcW9CYzdlT2J1Y2lZTlc0emJjbVVyVzkzU1kwajQ3S0F3UXV3VWdRZXRGUERmdk5wSWpmdkpEdnNrSzRlaVNZaFlJVjVpdGw3Z29NdXVIZWZHRGRzZ1NzTVlHNU9jRWxJWnVnOF9HRFJVQjNPcTkySnhQa2JZY0JyVl9pV21vdFA3cWRTclRiME9FUnZxaEFMMkJYWUgwTURIUUxyN2c?oc=5",
-      "source": "finance.sina.com.cn",
-      "category": "政策",
-      "published": "2026-07-29",
-      "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 finance.sina.com.cn",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - finance.sina.com.cn 燧原科技携手合作伙伴发布三大成果，国产算力",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-011",
-      "title": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 - 证券市场周刊",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmZ19kWDdRSTRaT0hqMW04R2pHMmVIdjhCM3M4ZXpacWc1ZGYySFZuX2ZsNHk4bzRIWFpPMmRWVGhiRmRBbXFKaVh4UjBvYThjU3hxY0dJT0RNUmY0Y0txS3d5WHg5QQ?oc=5",
-      "source": "证券市场周刊",
-      "category": "政策",
-      "published": "2026-07-28",
-      "body_snippet": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 证券市场周刊",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 - 证券市场周刊 预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 证券市场周刊",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "AI智能体手机竞赛启幕：努比亚、阶跃星辰、荣耀同场竞速，模型、硬件、App背后“暗战” - 时代在线",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oaFl0MXhENnlLX2RzN2xld2pDWnN4Y040SGd5WTBqX1dKOW9sM28wNGNGNzdwdnB3LTBiYjBFeXJwT0R1ejJ4NW5ySzFNNU5neVVFWHAySzlZZw?oc=5",
-      "source": "时代在线",
-      "category": "竞品",
-      "published": "2026-07-26",
-      "body_snippet": "AI智能体手机竞赛启幕：努比亚、阶跃星辰、荣耀同场竞速，模型、硬件、App背后“暗战” 时代在线",
-      "_query_boost": 25,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "努比亚、阶跃星辰、荣耀同场竞速，模型、硬件、App背后“暗战” - 时代在线 AI智能体手机竞赛启幕：努比亚、阶跃星辰、荣耀同场竞速，模型、硬件、App背后“暗战” 时代在线",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
       "id": "raw-013",
       "title": "中国信通院联合360启动《企业办公智能体能力要求》标准研制-公司动态 - 证券市场周刊",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5meS04ZzJyZENNYzB2RnM2LVpRMm5mRGZlbmZCRWRGY0xtR0gyRVozWk82VGN2XzdPelR0OUl4TWM4ZmNZRi1ydnlOcHFzd2w3QXFQLWZ5NVc1d1Vmenh4aGhNbHpvZw?oc=5",
@@ -306,6 +278,34 @@
         "c3"
       ],
       "summary_cn": "中国信通院联合360启动《企业办公智能体能力要求》标准研制-公司动态 - 证券市场周刊 中国信通院联合360启动《企业办公智能体能力要求》标准研制-公司动态 证券市场周刊",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-015",
+      "title": "美国因国家安全指令限制外国公民访问Anthropic两款AI模型，模型访问权纳入出口管制 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UTUlNb3UxcnRGYVhjaE9rRnVrRkU0U1R2c2E5QVNfVmduRkgxUUlNY09YZ0tjTGlLdzRWbFpvbFU4TEN6ZlZFTzRwVDVNY2hNblQzdHhkTUVUb0FvcHhxMk93?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-08-01",
+      "body_snippet": "美国因国家安全指令限制外国公民访问Anthropic两款AI模型，模型访问权纳入出口管制 虎嗅网",
+      "_query_boost": 0,
+      "lane": "attend",
+      "signals": [
+        "🌏"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "美国因国家安全指令限制外国公民访问Anthropic两款AI模型，模型访问权纳入出口管制 - 虎嗅网 美国因国家安全指令限制外国公民访问Anthropic两款AI模型，模型访问权纳入出口管制 虎嗅网",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",

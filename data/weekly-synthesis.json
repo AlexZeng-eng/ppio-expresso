@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-01T04:05:38.845Z",
-  "date": "2026-08-01",
-  "date_label": "2026-08-01",
+  "generated_at": "2026-08-02T04:09:26.823Z",
+  "date": "2026-08-02",
+  "date_label": "2026-08-02",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
     "📜": 0,
     "⚔️": 1,
     "💰": 1,
-    "🌏": 0,
+    "🌏": 1,
     "🔬": 8
   },
   "speed_read": {
@@ -19,7 +19,7 @@
     "policy_heat": 3,
     "competitor_heat": 3,
     "capital_heat": 3,
-    "overseas_heat": 2,
+    "overseas_heat": 3,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
@@ -59,7 +59,7 @@
     },
     {
       "id": "5",
-      "title": "AI智能体手机竞赛启幕：努比亚、阶跃星辰",
+      "title": "中国信通院联合360启动《企业办公智能体",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -67,8 +67,8 @@
     },
     {
       "id": "6",
-      "title": "中国信通院联合360启动《企业办公智能体",
-      "policy_axis": 0,
+      "title": "美国因国家安全指令限制外国公民访问Ant",
+      "policy_axis": -0.5,
       "competition_axis": 0.1,
       "impact_score": 2,
       "axis_reason": "规则估算"
@@ -82,7 +82,7 @@
       "competitive_pressure": -6,
       "capital_sentiment": 5,
       "regulatory_risk": 0,
-      "overseas_headwind": 0
+      "overseas_headwind": -4
     },
     "interpretation": "规则估算，仅供参考"
   },
