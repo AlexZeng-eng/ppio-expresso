@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-02T04:09:26.823Z",
-  "date": "2026-08-02",
-  "date_label": "2026-08-02",
+  "generated_at": "2026-08-03T04:21:11.284Z",
+  "date": "2026-08-03",
+  "date_label": "2026-08-03",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
@@ -35,18 +35,18 @@
     },
     {
       "id": "2",
-      "title": "国常会重磅部署！加快通信网、算力网建设！",
-      "policy_axis": 0.6,
+      "title": "AI智能体手机竞赛启幕，努比亚、阶跃星辰",
+      "policy_axis": 0,
       "competition_axis": 0.1,
-      "impact_score": 4,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     },
     {
       "id": "3",
-      "title": "WAIC 2026圆满落幕｜Frore ",
-      "policy_axis": 0,
+      "title": "国常会重磅部署！加快通信网、算力网建设！",
+      "policy_axis": 0.6,
       "competition_axis": 0.1,
-      "impact_score": 2,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "id": "5",
-      "title": "中国信通院联合360启动《企业办公智能体",
+      "title": "中国信通院联合360研制智能体能力标准，",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,

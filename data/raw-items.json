@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-02T04:09:26.713Z",
+  "generated_at": "2026-08-03T04:21:11.194Z",
   "week": "2026-W32",
   "date_range": {
-    "from": "2026-07-26",
-    "to": "2026-08-02"
+    "from": "2026-07-27",
+    "to": "2026-08-03"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -13,7 +13,7 @@
       "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
       "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
       "source": "工信部-新闻",
-      "published": "2026-08-02",
+      "published": "2026-08-03",
       "body_snippet": "",
       "category": "技术"
     },
@@ -29,16 +29,26 @@
     },
     {
       "id": "raw-003",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - cls.cn",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "cls.cn",
+      "source": "财联社",
       "category": "竞品",
-      "published": "2026-08-01",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ cls.cn",
+      "published": "2026-08-02",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
       "_query_boost": 15
     },
     {
       "id": "raw-004",
+      "title": "AI智能体手机竞赛启幕，努比亚、阶跃星辰、荣耀竞速 - CBNData-第一财经商业数据中心",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5JZnlvM3M5cEFndUpPcnljU1V6a2NOb3JxZGhrWS15UHg4YVRXeWpyX2lfWGFXZVhWaWpYN1ZvazI2Y2drX3Y2anBIUjFRNHVFOVc2Xw?oc=5",
+      "source": "CBNData-第一财经商业数据中心",
+      "category": "竞品",
+      "published": "2026-07-29",
+      "body_snippet": "AI智能体手机竞赛启幕，努比亚、阶跃星辰、荣耀竞速 CBNData-第一财经商业数据中心",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-005",
       "title": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMipARBVV95cUxNS2xmVXFNeGlSQTkzZ1c0dWR5QlRRbVVCVlc4eEgyYjBYWjVNVHB1b19OM2JPN0dzWF9nRWtZZGVUZWY2TFBqODUwYUlFR3hWeGtoRkdsMk9YbUotNlBvSTFXVlREZG9QQkpVTGNyMktrV3pKZ09PcFdWTnp0aFcweXJzNW1MLVI2eXAtRnpXYTBKY0JGdjhUYldpU1ZubUhob2EtRVQwY0Y0Z1FfUWI5WHhtZGRVN0VsV19UMXVGeVdkSnVudDBnUDJsLXh1M2pWb1NLS0tMUFBZZWpaajNrOEJpTUlBTmxPRHZWNDJIOGNRRm00cS1YMnUzejJTdGI3bHlOb2NvNmNnNndLUjVtMEhyRHVZUGtXSzByR1dhN0pTWEZhNXVpX1dsMUI5Y1NLUHlMMEtfU2c3RVNjVjZockZVWHpXU21JZzZqOTBjZ1g0Vy1Jbnk5NWZoQThPNUZ5R2RBWWJSb3J5TV9HajJCdDdLZ0lqQ0xqV2lnTGZicE5NdzhQRmY4aEZpMjNMTkJzZlg2YVk5RWVXRWhuOXBVSjAwNVN6aUdpdlZLaGlMYkZXcjdDUjRuUnM4N0luSWp1ZUdYeXdrQWhQLVNwb0ZnZHNZSHgxWFhHN01Ec09KblBDdll0NFo1SEUySDN6bjRyZjRWTHI5R0JpSEd3V0JqUzdwYXB3N2FHUEk2ZEU5dV8yZTQ0dkZDY2NqR2NLbWZQXzdaMA?oc=5",
       "source": "新浪财经",
@@ -48,7 +58,17 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-005",
+      "id": "raw-006",
+      "title": "超节点如何撬动国产AI算力的“第二增长曲线”？ | VIP洞察周报|AI大模型|国海证券|国金证券|GPU|DeepSeek_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVDFEM2Y0V1J4LWpDYjNKVFh3ZW9LRWF1TlZSMHRDWGlqZWNCb0o0MWtFaklBV0lpTWZrRGlJYmVic0NKQ09kSWduQnhMUWhHZWpUQ0Q1cjlsekNDUVRYQTVrQ1g0SUFQckh0T0JrWkRzdFJmeHJsOHB3MWdlVUJSX1dWUC0tc1ZwWFlJTGVtMnM3U21BWVZwVEpXZGhQRHItZHh6Y0lLTQ?oc=5",
+      "source": "新浪财经",
+      "category": "技术",
+      "published": "2026-08-02",
+      "body_snippet": "超节点如何撬动国产AI算力的“第二增长曲线”？ | VIP洞察周报|AI大模型|国海证券|国金证券|GPU|DeepSeek_手机新浪网 新浪财经",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-007",
       "title": "算力重构汽车产业突围新路径- 中国日报网 - China Daily",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vNWJJZFc5TGhkemxZOXZCS2VKTlNaVkotSFVzWVZhWnhPZFVVWWxJdVhsTGFBc19GakRfLTB4bVZjZjhwZzMtSXFMVjZ6OWFCdmZCR1FyTW8xSVB1Rkh0aUtmMnpaWHE0R0UxZHI3bTdGQ0g2SWpWdU50ZU5ScWs?oc=5",
       "source": "China Daily",
@@ -58,34 +78,14 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-006",
-      "title": "辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8ydklBMHhnWUdONmVZNzJzVGFwaU12QmNJakstV1FqLUhBcWU4U3lnZ1pSc0dzOGFBV2QzQnY2UzlSMHphc3dBcEJUMlM1WDZBMk1UMWhkVWw?oc=5",
-      "source": "上观新闻",
-      "category": "政策",
-      "published": "2026-07-31",
-      "body_snippet": "辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 上观新闻",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-007",
-      "title": "WAIC 2026圆满落幕｜Frore Systems CEO Seshu博士定义AI热管理全新行业范式 算力竞争下半场，散热决定产业天花板 - 电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE51THNGSGlDSkEwQlFuY1NjbUtGdV9PZC1CUjFvQk0tN2lLaWlTWEVLVTROMzVSRTVHaVdFYTJZV3Z3Slc2U1lkN0JpYmhYWWVkVTFN?oc=5",
-      "source": "电子工程专辑",
-      "category": "政策",
-      "published": "2026-07-31",
-      "body_snippet": "WAIC 2026圆满落幕｜Frore Systems CEO Seshu博士定义AI热管理全新行业范式 算力竞争下半场，散热决定产业天花板 电子工程专辑",
-      "_query_boost": 25
-    },
-    {
       "id": "raw-008",
-      "title": "硅基流动冲击“AI Token工厂第一股”：市占率约1.5%，阿里巴巴、美团等入股 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQZ0NXUDRNVHgwNzZLNUtmMC04VlJxYm1vVGFTRXdWSzByZ0JxZ1Z1dTlUN202NTFlOWRSUjRJQXFiWEtoVENpd0tRdld0NFlTeW1VWkVKTTVUWFp1dEM0WlM1ZjU3cVVvanZEc0FuNGZHV2M1MzhjSmFhZ3l4NmVDc1hIbEJFMlQ4X3lNNlV5eFRBbm5UMW52V3AtV3pfU1ZUT0NVMTNfc0dLNTlkSkdpcVZNVXZ4eGpEdDhUdFgxYTFab3B0WGszYTNUdzdxY3h3bmdidlByckxzSHJRaTEtSjc0b3h2d01zWHhORGpBRjVNSUJYRXZsbXBPV1FTZ3lLZnpZOXRJZ0tUb2lldk15Vy13?oc=5",
-      "source": "新浪财经",
-      "category": "竞品",
+      "title": "辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 - shobserver.com",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0ycTFXU05jdVZBeF9zZjVoUWZlQlhFWktCX0hNcHdZWG11MEdUR3VPNWtPelRKekNCZm1hQUtTX21veVJvLUdKeWMtZUQza1RpS3VHamt5TWRWeE1RU0Vn?oc=5",
+      "source": "shobserver.com",
+      "category": "政策",
       "published": "2026-07-31",
-      "body_snippet": "硅基流动冲击“AI Token工厂第一股”：市占率约1.5%，阿里巴巴、美团等入股 新浪财经",
-      "_query_boost": 20
+      "body_snippet": "辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 shobserver.com",
+      "_query_boost": 25
     },
     {
       "id": "raw-009",
@@ -99,13 +99,12 @@
     },
     {
       "id": "raw-010",
-      "title": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 - 证券市场周刊",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmZ19kWDdRSTRaT0hqMW04R2pHMmVIdjhCM3M4ZXpacWc1ZGYySFZuX2ZsNHk4bzRIWFpPMmRWVGhiRmRBbXFKaVh4UjBvYThjU3hxY0dJT0RNUmY0Y0txS3d5WHg5QQ?oc=5",
-      "source": "证券市场周刊",
-      "category": "政策",
-      "published": "2026-07-28",
-      "body_snippet": "预喜率近70%！国产算力告别“堆卡”时代，机构悄悄盯上这些公司 证券市场周刊",
-      "_query_boost": 25
+      "title": "OpenAI下一代模型Astra曝光，以2000美元算力成本破解十项数学难题",
+      "url": "https://36kr.com/newsflashes/3923212228292232?f=rss",
+      "source": "36氪",
+      "published": "2026-08-03",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-011",
@@ -119,6 +118,16 @@
     },
     {
       "id": "raw-012",
+      "title": "硅基流动冲击“AI Token工厂第一股”：市占率约1.5%，阿里巴巴、美团等入股 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQZ0NXUDRNVHgwNzZLNUtmMC04VlJxYm1vVGFTRXdWSzByZ0JxZ1Z1dTlUN202NTFlOWRSUjRJQXFiWEtoVENpd0tRdld0NFlTeW1VWkVKTTVUWFp1dEM0WlM1ZjU3cVVvanZEc0FuNGZHV2M1MzhjSmFhZ3l4NmVDc1hIbEJFMlQ4X3lNNlV5eFRBbm5UMW52V3AtV3pfU1ZUT0NVMTNfc0dLNTlkSkdpcVZNVXZ4eGpEdDhUdFgxYTFab3B0WGszYTNUdzdxY3h3bmdidlByckxzSHJRaTEtSjc0b3h2d01zWHhORGpBRjVNSUJYRXZsbXBPV1FTZ3lLZnpZOXRJZ0tUb2lldk15Vy13?oc=5",
+      "source": "新浪财经",
+      "category": "竞品",
+      "published": "2026-07-31",
+      "body_snippet": "硅基流动冲击“AI Token工厂第一股”：市占率约1.5%，阿里巴巴、美团等入股 新浪财经",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-013",
       "title": "月之暗面完成35亿美元超预期融资 投后估值达350亿美元 - 观点网",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5aSkk4ZUhwUzNoZ0Q0WVp1akVOOGFad0w5dkR4S3MweDhyZXN5QU5iTng2UnlQcVNmX1dTWV9vUWJuQXpPVFhKWW5QemgtQQ?oc=5",
       "source": "观点网",
@@ -128,24 +137,14 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-013",
-      "title": "中国信通院联合360启动《企业办公智能体能力要求》标准研制-公司动态 - 证券市场周刊",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5meS04ZzJyZENNYzB2RnM2LVpRMm5mRGZlbmZCRWRGY0xtR0gyRVozWk82VGN2XzdPelR0OUl4TWM4ZmNZRi1ydnlOcHFzd2w3QXFQLWZ5NVc1d1Vmenh4aGhNbHpvZw?oc=5",
-      "source": "证券市场周刊",
+      "id": "raw-014",
+      "title": "中国信通院联合360研制智能体能力标准，纳米Work提供企业级落地标准验证 - 金融界",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBlX2JOMUtjWjlJZ1NpZmc0QktJSEFfNDREZlVQNjdZRnJZRHF2MVp6UkJoYnlqRnpLellxYmkxcndUdkp4eUV1Y2VNZnZtbGV4TlpzNDc3RHEwTFFwRzNCV3NoVHRFT2dNUFcyLUJrRHp1QmFO?oc=5",
+      "source": "金融界",
       "category": "监管",
       "published": "2026-07-29",
-      "body_snippet": "中国信通院联合360启动《企业办公智能体能力要求》标准研制-公司动态 证券市场周刊",
+      "body_snippet": "中国信通院联合360研制智能体能力标准，纳米Work提供企业级落地标准验证 金融界",
       "_query_boost": 20
-    },
-    {
-      "id": "raw-014",
-      "title": "2026人工智能全球治理会议在我校举办 - 对外经济贸易大学新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HYzhWNWdKU3NXWEsxS3hQZVB6d3VIekxXNFRxaHY4WmxaVks3c0p3TVItSUFmVmZ1MGh5Y1BGNjhWem1uVTE0TmxIeGNRXzFNRG1SWWFPZk8?oc=5",
-      "source": "对外经济贸易大学新闻网",
-      "category": "政策",
-      "published": "2026-07-28",
-      "body_snippet": "2026人工智能全球治理会议在我校举办 对外经济贸易大学新闻网",
-      "_query_boost": 50
     },
     {
       "id": "raw-015",
