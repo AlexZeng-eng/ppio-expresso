@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-03T04:21:11.194Z",
+  "generated_at": "2026-08-04T03:54:46.014Z",
   "week": "2026-W32",
   "date_range": {
-    "from": "2026-07-27",
-    "to": "2026-08-03"
+    "from": "2026-07-28",
+    "to": "2026-08-04"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -13,7 +13,7 @@
       "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
       "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
       "source": "工信部-新闻",
-      "published": "2026-08-03",
+      "published": "2026-08-04",
       "body_snippet": "",
       "category": "技术"
     },
@@ -29,16 +29,26 @@
     },
     {
       "id": "raw-003",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
-      "category": "竞品",
-      "published": "2026-08-02",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "_query_boost": 15
+      "title": "习近平经济思想指引中国经济高质量发展行稳致远 - 求是",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5qSGs4d0RWR1gzXzc1Sk1qbzRvRndnRjJKXzd0bG5GU0tsNGFmVHNzdTltS3RTVUp4OGpuYXJna1dzX1Eza0NLQVo4YzB6c29Vc1hlbnFDYkRXUC1QeHhjcDM1LUstRnBxZlhXSjhCU2VmUk0xRXVaTjVlZ2k?oc=5",
+      "source": "求是",
+      "category": "政策",
+      "published": "2026-08-04",
+      "body_snippet": "习近平经济思想指引中国经济高质量发展行稳致远 求是",
+      "_query_boost": 30
     },
     {
       "id": "raw-004",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - cls.cn",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "cls.cn",
+      "category": "竞品",
+      "published": "2026-08-02",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ cls.cn",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-005",
       "title": "AI智能体手机竞赛启幕，努比亚、阶跃星辰、荣耀竞速 - CBNData-第一财经商业数据中心",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5JZnlvM3M5cEFndUpPcnljU1V6a2NOb3JxZGhrWS15UHg4YVRXeWpyX2lfWGFXZVhWaWpYN1ZvazI2Y2drX3Y2anBIUjFRNHVFOVc2Xw?oc=5",
       "source": "CBNData-第一财经商业数据中心",
@@ -48,7 +58,7 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-005",
+      "id": "raw-006",
       "title": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMipARBVV95cUxNS2xmVXFNeGlSQTkzZ1c0dWR5QlRRbVVCVlc4eEgyYjBYWjVNVHB1b19OM2JPN0dzWF9nRWtZZGVUZWY2TFBqODUwYUlFR3hWeGtoRkdsMk9YbUotNlBvSTFXVlREZG9QQkpVTGNyMktrV3pKZ09PcFdWTnp0aFcweXJzNW1MLVI2eXAtRnpXYTBKY0JGdjhUYldpU1ZubUhob2EtRVQwY0Y0Z1FfUWI5WHhtZGRVN0VsV19UMXVGeVdkSnVudDBnUDJsLXh1M2pWb1NLS0tMUFBZZWpaajNrOEJpTUlBTmxPRHZWNDJIOGNRRm00cS1YMnUzejJTdGI3bHlOb2NvNmNnNndLUjVtMEhyRHVZUGtXSzByR1dhN0pTWEZhNXVpX1dsMUI5Y1NLUHlMMEtfU2c3RVNjVjZockZVWHpXU21JZzZqOTBjZ1g0Vy1Jbnk5NWZoQThPNUZ5R2RBWWJSb3J5TV9HajJCdDdLZ0lqQ0xqV2lnTGZicE5NdzhQRmY4aEZpMjNMTkJzZlg2YVk5RWVXRWhuOXBVSjAwNVN6aUdpdlZLaGlMYkZXcjdDUjRuUnM4N0luSWp1ZUdYeXdrQWhQLVNwb0ZnZHNZSHgxWFhHN01Ec09KblBDdll0NFo1SEUySDN6bjRyZjRWTHI5R0JpSEd3V0JqUzdwYXB3N2FHUEk2ZEU5dV8yZTQ0dkZDY2NqR2NLbWZQXzdaMA?oc=5",
       "source": "新浪财经",
@@ -58,7 +68,17 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-006",
+      "id": "raw-007",
+      "title": "算力下沉迎来政策风口！云边协同如何破解产业数字化转型痛点 - nfplus.nfnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YZGJISXdhSENjRUYxYzJDZ2dfMWR3bEQ3ZEpWQWczYlNnaHJsaFRsZWh2dkpoNVpLQlNNUG9ZZnZjX3lRRG1pb0ExSUVULTU5RGFRNmg1TWNPcWZPYS1CZkh3TURjWHBJRnc?oc=5",
+      "source": "nfplus.nfnews.com",
+      "category": "政策",
+      "published": "2026-07-30",
+      "body_snippet": "算力下沉迎来政策风口！云边协同如何破解产业数字化转型痛点 nfplus.nfnews.com",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-008",
       "title": "超节点如何撬动国产AI算力的“第二增长曲线”？ | VIP洞察周报|AI大模型|国海证券|国金证券|GPU|DeepSeek_手机新浪网 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVDFEM2Y0V1J4LWpDYjNKVFh3ZW9LRWF1TlZSMHRDWGlqZWNCb0o0MWtFaklBV0lpTWZrRGlJYmVic0NKQ09kSWduQnhMUWhHZWpUQ0Q1cjlsekNDUVRYQTVrQ1g0SUFQckh0T0JrWkRzdFJmeHJsOHB3MWdlVUJSX1dWUC0tc1ZwWFlJTGVtMnM3U21BWVZwVEpXZGhQRHItZHh6Y0lLTQ?oc=5",
       "source": "新浪财经",
@@ -68,17 +88,17 @@
       "_query_boost": 15
     },
     {
-      "id": "raw-007",
-      "title": "算力重构汽车产业突围新路径- 中国日报网 - China Daily",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vNWJJZFc5TGhkemxZOXZCS2VKTlNaVkotSFVzWVZhWnhPZFVVWWxJdVhsTGFBc19GakRfLTB4bVZjZjhwZzMtSXFMVjZ6OWFCdmZCR1FyTW8xSVB1Rkh0aUtmMnpaWHE0R0UxZHI3bTdGQ0g2SWpWdU50ZU5ScWs?oc=5",
-      "source": "China Daily",
-      "category": "政策",
-      "published": "2026-07-31",
-      "body_snippet": "算力重构汽车产业突围新路径- 中国日报网 China Daily",
-      "_query_boost": 25
+      "id": "raw-009",
+      "title": "Politburo study session; Regulation on Exit and Entry Administration; US-China; AI; Scarborough Shoal/Huangyan Dao - Sinocism | Bill Bishop",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XZ2tTRnhSNDY2UVZMRkdHQlpQZHBSREw3Q2RBUHFYUnhrOGRHZnVqbWRQUGg5ZFhhc3Rkd1lRNjlSN3EwaHZOUW9LVGJ4V1VOaHRUeHh0dWdVc1ZiWEdxQ0Q1bDdHWkZT?oc=5",
+      "source": "Sinocism | Bill Bishop",
+      "category": "海外",
+      "published": "2026-08-03",
+      "body_snippet": "Politburo study session; Regulation on Exit and Entry Administration; US-China; AI; Scarborough Shoal/Huangyan Dao Sinocism | Bill Bishop",
+      "_query_boost": 0
     },
     {
-      "id": "raw-008",
+      "id": "raw-010",
       "title": "辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 - shobserver.com",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0ycTFXU05jdVZBeF9zZjVoUWZlQlhFWktCX0hNcHdZWG11MEdUR3VPNWtPelRKekNCZm1hQUtTX21veVJvLUdKeWMtZUQza1RpS3VHamt5TWRWeE1RU0Vn?oc=5",
       "source": "shobserver.com",
@@ -88,33 +108,13 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-009",
-      "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxPU3JJOG1XOGlBWnh0Q3RlaVJadWttcXpjQ0dCZTRnMFl0bWVMdzNqZ0FXRTJ3UUFRRU5JVmdCLXNjQWRFV1dKbVg2T3Q5eXNGYVhBeWRnQ2s2Q2U4bHdLb0YxdnB2TS0tR3FRdTZXNWJoUE1YSS1QOWVNTHY3X2hkWHBMck5ZN2xPVXZkaGZvaVdOYjlmS25rY0JKamhQOUp6NU5YeDBJOWdTcmN2UUVpX3ctcHV2ZDh5YURTV3g4Q0tXV3BGbjA5NHotbzNIaWZYTlNlZVBReFVWUGY5d2ZUSWxzSWVPZXJvMUFBXzlINkVuMUlOWHk4RWJ5dVVSdVE0LVJieXB4RWVyaENSa2E4R2FwNENweWt5eUdFWHdubURsU1dEdUNIVlR3VWNoOWF6LUxRTkx4X1NVRjFlZHRqUmFSRWx1d3pGT2FDdW5HYmJ2c1BTRnQtaHFDY0JhdXBmTXhlTmdzZFQyQ1Vud2h4MHkwdUJIRGxQdW9wU0hsX1hoZWRRN2NYQWdmYUlSVVU5NEdpeGk1NkphNjE5a1I5MHQ5Wi01ejl3b0xBU3RIN0w4M3Q0S25sTy1xVUp3WXhwcW9CYzdlT2J1Y2lZTlc0emJjbVVyVzkzU1kwajQ3S0F3UXV3VWdRZXRGUERmdk5wSWpmdkpEdnNrSzRlaVNZaFlJVjVpdGw3Z29NdXVIZWZHRGRzZ1NzTVlHNU9jRWxJWnVnOF9HRFJVQjNPcTkySnhQa2JZY0JyVl9pV21vdFA3cWRTclRiME9FUnZxaEFMMkJYWUgwTURIUUxyN2c?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-07-29",
-      "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 新浪财经",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-010",
-      "title": "OpenAI下一代模型Astra曝光，以2000美元算力成本破解十项数学难题",
-      "url": "https://36kr.com/newsflashes/3923212228292232?f=rss",
-      "source": "36氪",
-      "published": "2026-08-03",
+      "id": "raw-011",
+      "title": "亿级日活App的“算力生死劫”：推理成本倒挂，他们靠跨云架构砍掉75% GPU集群",
+      "url": "https://www.qbitai.com/2026/08/465732.html",
+      "source": "量子位",
+      "published": "2026-08-04",
       "body_snippet": "",
       "category": "技术"
-    },
-    {
-      "id": "raw-011",
-      "title": "为何要着重部署“扎实推进‘六张网’规划建设”？ 专家解读→ - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONTlPVmZjOTBlV3c2MWdyb05VcXg1aS1xTEh6VG9hdG9BYkJjNklhU05nUmYtLUhDZTFSQ1A2MjZrOXhWWWRhT21YVDRNRW8zbEFOWXVBYWdPd1prMXdaaTk4bHBITl93MXVpZ2w0UGZzNzZRNU5RLXRSbXNseDdXbUFZajNRbVhRQTdXcw?oc=5",
-      "source": "21财经",
-      "category": "政策",
-      "published": "2026-08-01",
-      "body_snippet": "为何要着重部署“扎实推进‘六张网’规划建设”？ 专家解读→ 21财经",
-      "_query_boost": 0
     },
     {
       "id": "raw-012",
@@ -129,7 +129,7 @@
     {
       "id": "raw-013",
       "title": "月之暗面完成35亿美元超预期融资 投后估值达350亿美元 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5aSkk4ZUhwUzNoZ0Q0WVp1akVOOGFad0w5dkR4S3MweDhyZXN5QU5iTng2UnlQcVNmX1dTWV9vUWJuQXpPVFhKWW5QemgtQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55ZWVQWnR1VklMQWtwNDRTaFZkYmtXZFpES0F1VEswM2RfbU9UX0cyZzFEOG9TMExJZmdFYlcxT1l0UUZ0V2RiSWoxa3FkdVBadFUtRWw0d085MTRPcUN6LXV3?oc=5",
       "source": "观点网",
       "category": "资本",
       "published": "2026-07-30",
@@ -148,12 +148,12 @@
     },
     {
       "id": "raw-015",
-      "title": "美国因国家安全指令限制外国公民访问Anthropic两款AI模型，模型访问权纳入出口管制 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UTUlNb3UxcnRGYVhjaE9rRnVrRkU0U1R2c2E5QVNfVmduRkgxUUlNY09YZ0tjTGlLdzRWbFpvbFU4TEN6ZlZFTzRwVDVNY2hNblQzdHhkTUVUb0FvcHhxMk93?oc=5",
+      "title": "AI行业奇点临近：从LLM到Agent，Token游戏与算力稀缺 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDS19JeUdqRUgtT1pJdjUwNUpTeDBFQ0ZVRTd6VC1OeTBpQ0JuX0Z0blVwdU9KeTBscTN6dHJ6STlCTmp3cWFFakxoSnhUY2NEendUbTZSX1NmN0RPVTc5dnVn?oc=5",
       "source": "虎嗅网",
       "category": "技术",
-      "published": "2026-08-01",
-      "body_snippet": "美国因国家安全指令限制外国公民访问Anthropic两款AI模型，模型访问权纳入出口管制 虎嗅网",
+      "published": "2026-08-03",
+      "body_snippet": "AI行业奇点临近：从LLM到Agent，Token游戏与算力稀缺 虎嗅网",
       "_query_boost": 0
     }
   ]
