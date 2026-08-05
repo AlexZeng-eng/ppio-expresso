@@ -1,31 +1,32 @@
 {
-  "generated_at": "2026-08-04T03:54:46.014Z",
+  "generated_at": "2026-08-05T03:49:13.665Z",
   "week": "2026-W32",
   "date_range": {
-    "from": "2026-07-28",
-    "to": "2026-08-04"
+    "from": "2026-07-29",
+    "to": "2026-08-05"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
-      "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
-      "source": "工信部-新闻",
-      "published": "2026-08-04",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "毛伟明在长沙调研算力建设情况 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBScFhnY18ydmxrcWRyazhJRG1EUEJxTHVGaGFfbW1JZXJNRW5hZVBTS0FCSTJvcXpodTVFc0YzMWZ2RVJTWGRHMHZfSWdZS0l0S3VmUXZheEp6cXlDaDVvd3QwQ3hJY0FsS0s4MGxwZ3hYYTdWRkxzaWVXYw?oc=5",
+      "source": "新华网",
+      "category": "政策",
+      "published": "2026-07-30",
+      "body_snippet": "毛伟明在长沙调研算力建设情况 新华网",
+      "_query_boost": 45
     },
     {
       "id": "raw-002",
-      "title": "毛伟明在长沙调研算力建设情况 - 湖南省人民政府",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa3VCQlJhQXJUSzNleERKclVqUHlkNjRqZzRLcEZtSXNYMG1Hek1KZmQ3WW1jOXBsNHhmbnlCU3FJaDlUdEduSlZJYzVDalZXZF9tRGNOMTlPRVh2UjdOV3J3dVYzdXBHN0ZmcmZDVVYyUzFnVkwwYnVPTmg2el9ueg?oc=5",
-      "source": "湖南省人民政府",
-      "category": "政策",
-      "published": "2026-07-29",
-      "body_snippet": "毛伟明在长沙调研算力建设情况 湖南省人民政府",
-      "_query_boost": 45
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
+      "category": "竞品",
+      "published": "2026-08-04",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "_query_boost": 15
     },
     {
       "id": "raw-003",
@@ -39,26 +40,6 @@
     },
     {
       "id": "raw-004",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - cls.cn",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "cls.cn",
-      "category": "竞品",
-      "published": "2026-08-02",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ cls.cn",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-005",
-      "title": "AI智能体手机竞赛启幕，努比亚、阶跃星辰、荣耀竞速 - CBNData-第一财经商业数据中心",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5JZnlvM3M5cEFndUpPcnljU1V6a2NOb3JxZGhrWS15UHg4YVRXeWpyX2lfWGFXZVhWaWpYN1ZvazI2Y2drX3Y2anBIUjFRNHVFOVc2Xw?oc=5",
-      "source": "CBNData-第一财经商业数据中心",
-      "category": "竞品",
-      "published": "2026-07-29",
-      "body_snippet": "AI智能体手机竞赛启幕，努比亚、阶跃星辰、荣耀竞速 CBNData-第一财经商业数据中心",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-006",
       "title": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMipARBVV95cUxNS2xmVXFNeGlSQTkzZ1c0dWR5QlRRbVVCVlc4eEgyYjBYWjVNVHB1b19OM2JPN0dzWF9nRWtZZGVUZWY2TFBqODUwYUlFR3hWeGtoRkdsMk9YbUotNlBvSTFXVlREZG9QQkpVTGNyMktrV3pKZ09PcFdWTnp0aFcweXJzNW1MLVI2eXAtRnpXYTBKY0JGdjhUYldpU1ZubUhob2EtRVQwY0Y0Z1FfUWI5WHhtZGRVN0VsV19UMXVGeVdkSnVudDBnUDJsLXh1M2pWb1NLS0tMUFBZZWpaajNrOEJpTUlBTmxPRHZWNDJIOGNRRm00cS1YMnUzejJTdGI3bHlOb2NvNmNnNndLUjVtMEhyRHVZUGtXSzByR1dhN0pTWEZhNXVpX1dsMUI5Y1NLUHlMMEtfU2c3RVNjVjZockZVWHpXU21JZzZqOTBjZ1g0Vy1Jbnk5NWZoQThPNUZ5R2RBWWJSb3J5TV9HajJCdDdLZ0lqQ0xqV2lnTGZicE5NdzhQRmY4aEZpMjNMTkJzZlg2YVk5RWVXRWhuOXBVSjAwNVN6aUdpdlZLaGlMYkZXcjdDUjRuUnM4N0luSWp1ZUdYeXdrQWhQLVNwb0ZnZHNZSHgxWFhHN01Ec09KblBDdll0NFo1SEUySDN6bjRyZjRWTHI5R0JpSEd3V0JqUzdwYXB3N2FHUEk2ZEU5dV8yZTQ0dkZDY2NqR2NLbWZQXzdaMA?oc=5",
       "source": "新浪财经",
@@ -68,7 +49,7 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-007",
+      "id": "raw-005",
       "title": "算力下沉迎来政策风口！云边协同如何破解产业数字化转型痛点 - nfplus.nfnews.com",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YZGJISXdhSENjRUYxYzJDZ2dfMWR3bEQ3ZEpWQWczYlNnaHJsaFRsZWh2dkpoNVpLQlNNUG9ZZnZjX3lRRG1pb0ExSUVULTU5RGFRNmg1TWNPcWZPYS1CZkh3TURjWHBJRnc?oc=5",
       "source": "nfplus.nfnews.com",
@@ -78,7 +59,37 @@
       "_query_boost": 30
     },
     {
+      "id": "raw-006",
+      "title": "智算筑底・液冷破局｜2027 中国西部国际 AI 算力产业大会暨数据中心液冷技术展览会全面启动全球招商 - 中华网生活",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tY09OY0V3eFcyMFdGUHB1WV96RHY2MS1oblZma1FJclRZQUthd19KYjhHbEJ4S0hsamFmM2I5NlZ5Sk5Ob2NfUDhEeDVkUjNDSGpaemNaVnFjTGJ1RGcwN01tSQ?oc=5",
+      "source": "中华网生活",
+      "category": "政策",
+      "published": "2026-08-04",
+      "body_snippet": "智算筑底・液冷破局｜2027 中国西部国际 AI 算力产业大会暨数据中心液冷技术展览会全面启动全球招商 中华网生活",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-007",
+      "title": "智谱 GLM-5.3 提前曝光 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE12SnUycm5nQUJESjNMUjhsaUFjbDlWTTNsN2k4cXJ2ajc4TVlibklNTzBOZTZycUR6emJycTFLcDE3S2laRW9wT0pmMA?oc=5",
+      "source": "OSCHINA",
+      "category": "技术",
+      "published": "2026-08-04",
+      "body_snippet": "智谱 GLM-5.3 提前曝光 - OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA",
+      "_query_boost": 20
+    },
+    {
       "id": "raw-008",
+      "title": "辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8ydklBMHhnWUdONmVZNzJzVGFwaU12QmNJakstV1FqLUhBcWU4U3lnZ1pSc0dzOGFBV2QzQnY2UzlSMHphc3dBcEJUMlM1WDZBMk1UMWhkVWw?oc=5",
+      "source": "上观新闻",
+      "category": "政策",
+      "published": "2026-07-31",
+      "body_snippet": "辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 上观新闻",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-009",
       "title": "超节点如何撬动国产AI算力的“第二增长曲线”？ | VIP洞察周报|AI大模型|国海证券|国金证券|GPU|DeepSeek_手机新浪网 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVDFEM2Y0V1J4LWpDYjNKVFh3ZW9LRWF1TlZSMHRDWGlqZWNCb0o0MWtFaklBV0lpTWZrRGlJYmVic0NKQ09kSWduQnhMUWhHZWpUQ0Q1cjlsekNDUVRYQTVrQ1g0SUFQckh0T0JrWkRzdFJmeHJsOHB3MWdlVUJSX1dWUC0tc1ZwWFlJTGVtMnM3U21BWVZwVEpXZGhQRHItZHh6Y0lLTQ?oc=5",
       "source": "新浪财经",
@@ -88,36 +99,7 @@
       "_query_boost": 15
     },
     {
-      "id": "raw-009",
-      "title": "Politburo study session; Regulation on Exit and Entry Administration; US-China; AI; Scarborough Shoal/Huangyan Dao - Sinocism | Bill Bishop",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XZ2tTRnhSNDY2UVZMRkdHQlpQZHBSREw3Q2RBUHFYUnhrOGRHZnVqbWRQUGg5ZFhhc3Rkd1lRNjlSN3EwaHZOUW9LVGJ4V1VOaHRUeHh0dWdVc1ZiWEdxQ0Q1bDdHWkZT?oc=5",
-      "source": "Sinocism | Bill Bishop",
-      "category": "海外",
-      "published": "2026-08-03",
-      "body_snippet": "Politburo study session; Regulation on Exit and Entry Administration; US-China; AI; Scarborough Shoal/Huangyan Dao Sinocism | Bill Bishop",
-      "_query_boost": 0
-    },
-    {
       "id": "raw-010",
-      "title": "辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 - shobserver.com",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0ycTFXU05jdVZBeF9zZjVoUWZlQlhFWktCX0hNcHdZWG11MEdUR3VPNWtPelRKekNCZm1hQUtTX21veVJvLUdKeWMtZUQza1RpS3VHamt5TWRWeE1RU0Vn?oc=5",
-      "source": "shobserver.com",
-      "category": "政策",
-      "published": "2026-07-31",
-      "body_snippet": "辉羲智能发布系统级算力底座 支撑世界模型落地真实物理场景 shobserver.com",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-011",
-      "title": "亿级日活App的“算力生死劫”：推理成本倒挂，他们靠跨云架构砍掉75% GPU集群",
-      "url": "https://www.qbitai.com/2026/08/465732.html",
-      "source": "量子位",
-      "published": "2026-08-04",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-012",
       "title": "硅基流动冲击“AI Token工厂第一股”：市占率约1.5%，阿里巴巴、美团等入股 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQZ0NXUDRNVHgwNzZLNUtmMC04VlJxYm1vVGFTRXdWSzByZ0JxZ1Z1dTlUN202NTFlOWRSUjRJQXFiWEtoVENpd0tRdld0NFlTeW1VWkVKTTVUWFp1dEM0WlM1ZjU3cVVvanZEc0FuNGZHV2M1MzhjSmFhZ3l4NmVDc1hIbEJFMlQ4X3lNNlV5eFRBbm5UMW52V3AtV3pfU1ZUT0NVMTNfc0dLNTlkSkdpcVZNVXZ4eGpEdDhUdFgxYTFab3B0WGszYTNUdzdxY3h3bmdidlByckxzSHJRaTEtSjc0b3h2d01zWHhORGpBRjVNSUJYRXZsbXBPV1FTZ3lLZnpZOXRJZ0tUb2lldk15Vy13?oc=5",
       "source": "新浪财经",
@@ -127,9 +109,9 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-013",
+      "id": "raw-011",
       "title": "月之暗面完成35亿美元超预期融资 投后估值达350亿美元 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55ZWVQWnR1VklMQWtwNDRTaFZkYmtXZFpES0F1VEswM2RfbU9UX0cyZzFEOG9TMExJZmdFYlcxT1l0UUZ0V2RiSWoxa3FkdVBadFUtRWw0d085MTRPcUN6LXV3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5aSkk4ZUhwUzNoZ0Q0WVp1akVOOGFad0w5dkR4S3MweDhyZXN5QU5iTng2UnlQcVNmX1dTWV9vUWJuQXpPVFhKWW5QemgtQQ?oc=5",
       "source": "观点网",
       "category": "资本",
       "published": "2026-07-30",
@@ -137,17 +119,16 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-014",
-      "title": "中国信通院联合360研制智能体能力标准，纳米Work提供企业级落地标准验证 - 金融界",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBlX2JOMUtjWjlJZ1NpZmc0QktJSEFfNDREZlVQNjdZRnJZRHF2MVp6UkJoYnlqRnpLellxYmkxcndUdkp4eUV1Y2VNZnZtbGV4TlpzNDc3RHEwTFFwRzNCV3NoVHRFT2dNUFcyLUJrRHp1QmFO?oc=5",
-      "source": "金融界",
-      "category": "监管",
-      "published": "2026-07-29",
-      "body_snippet": "中国信通院联合360研制智能体能力标准，纳米Work提供企业级落地标准验证 金融界",
-      "_query_boost": 20
+      "id": "raw-012",
+      "title": "亿级日活App的“算力生死劫”：推理成本倒挂，他们靠跨云架构砍掉75% GPU集群",
+      "url": "https://www.qbitai.com/2026/08/465732.html",
+      "source": "量子位",
+      "published": "2026-08-04",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
-      "id": "raw-015",
+      "id": "raw-013",
       "title": "AI行业奇点临近：从LLM到Agent，Token游戏与算力稀缺 - 虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDS19JeUdqRUgtT1pJdjUwNUpTeDBFQ0ZVRTd6VC1OeTBpQ0JuX0Z0blVwdU9KeTBscTN6dHJ6STlCTmp3cWFFakxoSnhUY2NEendUbTZSX1NmN0RPVTc5dnVn?oc=5",
       "source": "虎嗅网",
@@ -155,6 +136,26 @@
       "published": "2026-08-03",
       "body_snippet": "AI行业奇点临近：从LLM到Agent，Token游戏与算力稀缺 虎嗅网",
       "_query_boost": 0
+    },
+    {
+      "id": "raw-014",
+      "title": "为何要着重部署“扎实推进‘六张网’规划建设”？ 专家解读→ - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONTlPVmZjOTBlV3c2MWdyb05VcXg1aS1xTEh6VG9hdG9BYkJjNklhU05nUmYtLUhDZTFSQ1A2MjZrOXhWWWRhT21YVDRNRW8zbEFOWXVBYWdPd1prMXdaaTk4bHBITl93MXVpZ2w0UGZzNzZRNU5RLXRSbXNseDdXbUFZajNRbVhRQTdXcw?oc=5",
+      "source": "21财经",
+      "category": "政策",
+      "published": "2026-08-01",
+      "body_snippet": "为何要着重部署“扎实推进‘六张网’规划建设”？ 专家解读→ 21财经",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-015",
+      "title": "大模型之家2026年7月热力榜：WAIC 2026的7月，中国大模型把主场搬到了世界舞台 - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0aERJcDRleC1BMXRnRTZlQ2Z5TnF6ejROZHZFeFQ4OWJWeHJVR0ZpN1NudDZka2NCeEI4b0xtZDRxbE94dkYzT0NXUkFzaXl0MVRtT0pRUUhEM1V3RWVrRw?oc=5",
+      "source": "thepaper.cn",
+      "category": "技术",
+      "published": "2026-08-04",
+      "body_snippet": "大模型之家2026年7月热力榜：WAIC 2026的7月，中国大模型把主场搬到了世界舞台 thepaper.cn",
+      "_query_boost": 20
     }
   ]
 }
