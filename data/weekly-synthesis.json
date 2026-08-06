@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T03:49:13.797Z",
-  "date": "2026-08-05",
-  "date_label": "2026-08-05",
+  "generated_at": "2026-08-06T03:54:46.946Z",
+  "date": "2026-08-06",
+  "date_label": "2026-08-06",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
@@ -9,7 +9,7 @@
     "⚔️": 1,
     "💰": 1,
     "🌏": 0,
-    "🔬": 9
+    "🔬": 7
   },
   "speed_read": {
     "positive": [],
@@ -27,15 +27,15 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "国常会重磅部署！加快通信网、算力网建设！",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
+      "title": "月之暗面Kimi启动Pre-IPO融资估",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 3,
       "axis_reason": "规则估算"
     },
     {
       "id": "2",
-      "title": "智谱 GLM-5.3 提前曝光 - OS",
+      "title": "服务器与民众的对立： 为何美国会出现反对",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -43,14 +43,22 @@
     },
     {
       "id": "3",
-      "title": "月之暗面完成35亿美元超预期融资 投后估",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
+      "title": "国常会重磅部署！加快通信网、算力网建设！",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
       "id": "4",
+      "title": "智谱 GLM-5.3 提前曝光 - OS",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "5",
       "title": "大模型之家2026年7月热力榜：WAIC",
       "policy_axis": 0,
       "competition_axis": 0.1,
