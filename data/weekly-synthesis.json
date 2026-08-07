@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-06T03:54:46.946Z",
-  "date": "2026-08-06",
-  "date_label": "2026-08-06",
+  "generated_at": "2026-08-07T03:36:53.774Z",
+  "date": "2026-08-07",
+  "date_label": "2026-08-07",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 1,
+    "🏛️": 0,
     "📜": 0,
     "⚔️": 1,
     "💰": 1,
     "🌏": 0,
-    "🔬": 7
+    "🔬": 5
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 3,
+    "policy_heat": 2,
     "competitor_heat": 3,
     "capital_heat": 3,
     "overseas_heat": 2,
@@ -27,6 +27,14 @@
   "item_axes": [
     {
       "id": "1",
+      "title": "“促进全球人工智能朝着向上向善、造福人类",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "2",
       "title": "月之暗面Kimi启动Pre-IPO融资估",
       "policy_axis": 0,
       "competition_axis": 0.7,
@@ -34,32 +42,16 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "2",
-      "title": "服务器与民众的对立： 为何美国会出现反对",
+      "id": "3",
+      "title": "2026世界人工智能大会开幕在即 聚焦“",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "3",
-      "title": "国常会重磅部署！加快通信网、算力网建设！",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
       "id": "4",
       "title": "智谱 GLM-5.3 提前曝光 - OS",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "5",
-      "title": "大模型之家2026年7月热力榜：WAIC",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -70,7 +62,7 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 8,
+      "policy_tailwind": 0,
       "competitive_pressure": -6,
       "capital_sentiment": 5,
       "regulatory_risk": 0,
