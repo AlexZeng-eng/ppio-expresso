@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-07T03:36:53.774Z",
-  "date": "2026-08-07",
-  "date_label": "2026-08-07",
+  "generated_at": "2026-08-08T02:34:21.064Z",
+  "date": "2026-08-08",
+  "date_label": "2026-08-08",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
@@ -9,7 +9,7 @@
     "⚔️": 1,
     "💰": 1,
     "🌏": 0,
-    "🔬": 5
+    "🔬": 6
   },
   "speed_read": {
     "positive": [],
@@ -35,7 +35,7 @@
     },
     {
       "id": "2",
-      "title": "月之暗面Kimi启动Pre-IPO融资估",
+      "title": "字节跳动与百度开始测试v88体育平台ap",
       "policy_axis": 0,
       "competition_axis": 0.7,
       "impact_score": 3,
@@ -51,6 +51,14 @@
     },
     {
       "id": "4",
+      "title": "否认IPO递表传闻，月之暗面再融资估值约",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 3,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "5",
       "title": "智谱 GLM-5.3 提前曝光 - OS",
       "policy_axis": 0,
       "competition_axis": 0.1,

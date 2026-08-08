@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-07T03:36:53.653Z",
-  "week": "2026-W32",
+  "generated_at": "2026-08-08T02:34:20.939Z",
+  "week": "2026-W33",
   "date_range": {
-    "from": "2026-07-31",
-    "to": "2026-08-07"
+    "from": "2026-08-01",
+    "to": "2026-08-08"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -23,22 +23,32 @@
       "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
       "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
       "source": "工信部-新闻",
-      "published": "2026-08-07",
+      "published": "2026-08-08",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-003",
-      "title": "月之暗面Kimi启动Pre-IPO融资估值达500亿美元- AI 人工智能 - cnBeta.COM",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBpYTRkMGpIRDZRVVBfeFVCXzllUUFna2ZTcnpZV3VxdU9IZ3FtRmNEWjFtOWppdURaVFZ6cHpvWVhnSUR3djhMdkFzbWtBSGNIek81bVlBLVkwTG9NZGR6bg?oc=5",
-      "source": "cnBeta.COM",
-      "category": "资本",
-      "published": "2026-08-05",
-      "body_snippet": "月之暗面Kimi启动Pre-IPO融资估值达500亿美元- AI 人工智能 cnBeta.COM",
-      "_query_boost": 20
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
+      "category": "竞品",
+      "published": "2026-08-07",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "_query_boost": 15
     },
     {
       "id": "raw-004",
+      "title": "字节跳动与百度开始测试v88体育平台app下载自研芯片 国产AI算力替代迈出关键一步 - 电玩巴士",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1kYTBGQ3hUOWNSU1YzWTNoaGVyb285MExVTDdLNmRpdktqXzdUdnVaZGoyVVJ2OEVhRVg2Z282TzRqekhCd0k2b1ZXNVRzdklrb1lPU0JUTQ?oc=5",
+      "source": "电玩巴士",
+      "category": "竞品",
+      "published": "2026-08-07",
+      "body_snippet": "字节跳动与百度开始测试v88体育平台app下载自研芯片 国产AI算力替代迈出关键一步 电玩巴士",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-005",
       "title": "2026世界人工智能大会开幕在即 聚焦“年轻的事业”与“新质时代”新成效 - FX168财经",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZZExiTVdGbzQxWm5jWDhNOWZqa3BFNnhOd0dMQW9XZEIweFhjQWp0amhQT3VHUm1lMFh0dFNTYklLY1l3WHZoQ2hYSi1tN2l5ZUg0?oc=5",
       "source": "FX168财经",
@@ -48,17 +58,17 @@
       "_query_boost": 35
     },
     {
-      "id": "raw-005",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
-      "category": "竞品",
+      "id": "raw-006",
+      "title": "否认IPO递表传闻，月之暗面再融资估值约500亿美元 - 21jingji.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTTY0VGhyamZIOW5PWlAwY1JIeHFab1YwckF5Ujk0U0tfcVJCM2JRNGMxOFA2RlJmaVg3UzNZU001NlZjZ1RUSlRZWFdJZldDQXFwSXkzUndpMUlYZkRMaWNCYmhZMDlreThhSTNiY1BZYVFzV0lCQ3NrQzQwSUhZVGtrSEhra0k5bnJLdA?oc=5",
+      "source": "21jingji.com",
+      "category": "资本",
       "published": "2026-08-06",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "_query_boost": 15
+      "body_snippet": "否认IPO递表传闻，月之暗面再融资估值约500亿美元 21jingji.com",
+      "_query_boost": 20
     },
     {
-      "id": "raw-006",
+      "id": "raw-007",
       "title": "习近平经济思想指引中国经济高质量发展行稳致远 - 求是",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5qSGs4d0RWR1gzXzc1Sk1qbzRvRndnRjJKXzd0bG5GU0tsNGFmVHNzdTltS3RTVUp4OGpuYXJna1dzX1Eza0NLQVo4YzB6c29Vc1hlbnFDYkRXUC1QeHhjcDM1LUstRnBxZlhXSjhCU2VmUk0xRXVaTjVlZ2k?oc=5",
       "source": "求是",
@@ -68,7 +78,7 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-007",
+      "id": "raw-008",
       "title": "超节点如何撬动国产AI算力的“第二增长曲线”？ | VIP洞察周报|AI大模型|国海证券|国金证券|GPU|DeepSeek_手机新浪网 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVDFEM2Y0V1J4LWpDYjNKVFh3ZW9LRWF1TlZSMHRDWGlqZWNCb0o0MWtFaklBV0lpTWZrRGlJYmVic0NKQ09kSWduQnhMUWhHZWpUQ0Q1cjlsekNDUVRYQTVrQ1g0SUFQckh0T0JrWkRzdFJmeHJsOHB3MWdlVUJSX1dWUC0tc1ZwWFlJTGVtMnM3U21BWVZwVEpXZGhQRHItZHh6Y0lLTQ?oc=5",
       "source": "新浪财经",
@@ -78,17 +88,17 @@
       "_query_boost": 15
     },
     {
-      "id": "raw-008",
-      "title": "区域城市竞争新赛道！四川将花三年大力打造绿色算力Token工厂！ - 碳索储能网",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vaUt1QjlKaHlwWkpEdWFfb3FKLWxCUHlVR040dXd4aTl0V3dhc1VpXzVsaEpPdVpRRG02c3ZtUTEyanY5UHJZWWliR0lYVmRTcXV0NHVhbC1yZnRpTmxfOQ?oc=5",
-      "source": "碳索储能网",
+      "id": "raw-009",
+      "title": "区域城市竞争新赛道！四川将花三年大力打造绿色算力Token工厂！ - cn.solarbe.com",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE13SUw3cmViOXZiX3J4ZV9saDBieGhXd1pLdnAxZE1oOHpMcnQ3djFlYkJqejRwQ3hTYW45UU5OazV6R0ZvMFhlWHROMTNXSlgzdHBKX1NuMEthaUk4R0Jv?oc=5",
+      "source": "cn.solarbe.com",
       "category": "竞品",
       "published": "2026-08-06",
-      "body_snippet": "区域城市竞争新赛道！四川将花三年大力打造绿色算力Token工厂！ 碳索储能网",
+      "body_snippet": "区域城市竞争新赛道！四川将花三年大力打造绿色算力Token工厂！ cn.solarbe.com",
       "_query_boost": 15
     },
     {
-      "id": "raw-009",
+      "id": "raw-010",
       "title": "智算筑底・液冷破局｜2027 中国西部国际 AI 算力产业大会暨数据中心液冷技术展览会全面启动全球招商 - 中华网生活",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tY09OY0V3eFcyMFdGUHB1WV96RHY2MS1oblZma1FJclRZQUthd19KYjhHbEJ4S0hsamFmM2I5NlZ5Sk5Ob2NfUDhEeDVkUjNDSGpaemNaVnFjTGJ1RGcwN01tSQ?oc=5",
       "source": "中华网生活",
@@ -98,7 +108,7 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-010",
+      "id": "raw-011",
       "title": "智谱 GLM-5.3 提前曝光 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE12SnUycm5nQUJESjNMUjhsaUFjbDlWTTNsN2k4cXJ2ajc4TVlibklNTzBOZTZycUR6emJycTFLcDE3S2laRW9wT0pmMA?oc=5",
       "source": "OSCHINA",
@@ -108,52 +118,42 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-011",
-      "title": "Nvidia’s Stunning $1 Trillion Blackwell and Vera Rubin Chip Projection Signals AI’s Unstoppable March - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYVRKMHRqMEVrSTRaVTZ3MnhZcy1xMHhFOVZJZ2dnU0NlLWNxa1YzWWNaOVRkQkZ0bTNXRjREaWJEZjZ3Y0x2OWxKSGpoZU90VU1NejJHQVljSVM4QUY0ZmNWYzY4SWpZcW85SG9hNUJtYnpfWlJ5RFpHVjFoY0xkdmJFTGxCbUdfRmlJUkkyendEQQ?oc=5",
-      "source": "CryptoRank",
+      "id": "raw-012",
+      "title": "Politburo study session; Regulation on Exit and Entry Administration; US-China; AI; Scarborough Shoal/Huangyan Dao - Sinocism | Bill Bishop",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XZ2tTRnhSNDY2UVZMRkdHQlpQZHBSREw3Q2RBUHFYUnhrOGRHZnVqbWRQUGg5ZFhhc3Rkd1lRNjlSN3EwaHZOUW9LVGJ4V1VOaHRUeHh0dWdVc1ZiWEdxQ0Q1bDdHWkZT?oc=5",
+      "source": "Sinocism | Bill Bishop",
       "category": "海外",
       "published": "2026-08-03",
-      "body_snippet": "Nvidia’s Stunning $1 Trillion Blackwell and Vera Rubin Chip Projection Signals AI’s Unstoppable March CryptoRank",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-012",
-      "title": "为何要着重部署“扎实推进‘六张网’规划建设”？ 专家解读→ - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONTlPVmZjOTBlV3c2MWdyb05VcXg1aS1xTEh6VG9hdG9BYkJjNklhU05nUmYtLUhDZTFSQ1A2MjZrOXhWWWRhT21YVDRNRW8zbEFOWXVBYWdPd1prMXdaaTk4bHBITl93MXVpZ2w0UGZzNzZRNU5RLXRSbXNseDdXbUFZajNRbVhRQTdXcw?oc=5",
-      "source": "21财经",
-      "category": "政策",
-      "published": "2026-08-01",
-      "body_snippet": "为何要着重部署“扎实推进‘六张网’规划建设”？ 专家解读→ 21财经",
+      "body_snippet": "Politburo study session; Regulation on Exit and Entry Administration; US-China; AI; Scarborough Shoal/Huangyan Dao Sinocism | Bill Bishop",
       "_query_boost": 0
     },
     {
       "id": "raw-013",
-      "title": "李乐成出席联合国首届人工智能治理全球对话：愿共同构建全球治理体系",
-      "url": "http://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
-      "source": "工信部-新闻",
-      "published": "2026-08-07",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "AI算力争夺战再升级！Anthropic与AI云初创公司Volta签100亿美元协议 - news.aibase.com",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9nLUNjbG9MUHN0aGFJMnpya1M5YTdnenQwNV9reDBSMldJWjYxZkFhVFdYcDk4clY5X2t1MzFYSU5aSndFdDBSU2ZWRDA1UQ?oc=5",
+      "source": "news.aibase.com",
+      "category": "技术",
+      "published": "2026-08-06",
+      "body_snippet": "AI算力争夺战再升级！Anthropic与AI云初创公司Volta签100亿美元协议 news.aibase.com",
+      "_query_boost": 0
     },
     {
       "id": "raw-014",
-      "title": "李乐成出席联合国首届人工智能治理全球对话：愿...",
-      "url": "https://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
+      "title": "李乐成出席联合国首届人工智能治理全球对话：愿共同构建全球治理体系",
+      "url": "http://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
       "source": "工信部-新闻",
-      "published": "2026-08-07",
+      "published": "2026-08-08",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-015",
-      "title": "中国联通重庆市分公司以全光算网一体化服务使能算力普惠山城！ - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaXk5OG91UXAzOURic3N5V1BpS3hXbjhBODVPN2x3cEZtcEVlUnp5UGdaOFRJZzB0MklCbU13NExibkUwblpxaW1xOEFfOVBrMllGTG1mNllEOXVNVzNldTVqajhLVklUekdHanpjdmVMdjI5RElHdmVmU2RyRUlkN19LUWdnbTVM?oc=5",
-      "source": "搜狐网",
-      "category": "政策",
-      "published": "2026-08-07",
-      "body_snippet": "中国联通重庆市分公司以全光算网一体化服务使能算力普惠山城！ 搜狐网",
-      "_query_boost": 0
+      "title": "李乐成出席联合国首届人工智能治理全球对话：愿...",
+      "url": "https://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
+      "source": "工信部-新闻",
+      "published": "2026-08-08",
+      "body_snippet": "",
+      "category": "技术"
     }
   ]
 }
