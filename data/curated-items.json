@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-08T02:34:21.028Z",
+  "generated_at": "2026-08-09T02:40:02.075Z",
   "week": "2026-W33",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 10,
-  "attend_count": 5,
-  "silent_count": 5,
+  "total_curated": 9,
+  "attend_count": 6,
+  "silent_count": 3,
   "items": [
     {
       "id": "raw-002",
       "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
       "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
       "source": "工信部-新闻",
-      "published": "2026-08-08",
+      "published": "2026-08-09",
       "body_snippet": "",
       "category": "技术",
       "lane": "attend",
@@ -36,15 +36,16 @@
     },
     {
       "id": "raw-003",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
-      "category": "竞品",
-      "published": "2026-08-07",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "_query_boost": 15,
-      "lane": "silent",
+      "title": "无问芯穹牵手 MiniMax：从推理效能到 Token 服务，国产大模型上下游抱团共建 - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4zaDF0MC1YVzlhU2lTdHJPdUpwRkd3S3F6VnFmbWNGS3BfSmtSa2hDU082bDhXWGdhckRvZ21CUVNNZ1RzdVBvaHItZGhZZw?oc=5",
+      "source": "AIBase",
+      "category": "技术",
+      "published": "2026-08-05",
+      "body_snippet": "无问芯穹牵手 MiniMax：从推理效能到 Token 服务，国产大模型上下游抱团共建 AIBase",
+      "_query_boost": 0,
+      "lane": "attend",
       "signals": [
+        "⚔️",
         "🔬"
       ],
       "is_deep_read": false,
@@ -53,8 +54,13 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "ppio_signal": null,
+      "summary_cn": "从推理效能到 Token 服务，国产大模型上下游抱团共建 - AIBase 无问芯穹牵手 MiniMax：从推理效能到 Token 服务，国产大模型上下游抱团共建 AIBase",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
       "_classified_by": "rule"
     },
     {
@@ -87,6 +93,35 @@
     },
     {
       "id": "raw-005",
+      "title": "月之暗面Kimi启动Pre-IPO融资估值达500亿美元- AI 人工智能 - cnBeta.COM",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBpYTRkMGpIRDZRVVBfeFVCXzllUUFna2ZTcnpZV3VxdU9IZ3FtRmNEWjFtOWppdURaVFZ6cHpvWVhnSUR3djhMdkFzbWtBSGNIek81bVlBLVkwTG9NZGR6bg?oc=5",
+      "source": "cnBeta.COM",
+      "category": "资本",
+      "published": "2026-08-05",
+      "body_snippet": "月之暗面Kimi启动Pre-IPO融资估值达500亿美元- AI 人工智能 cnBeta.COM",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "⚔️",
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "月之暗面Kimi启动Pre-IPO融资估值达500亿美元- AI 人工智能 - cnBeta.COM 月之暗面Kimi启动Pre-IPO融资估值达500亿美元- AI 人工智能 cnBeta.COM",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-006",
       "title": "2026世界人工智能大会开幕在即 聚焦“年轻的事业”与“新质时代”新成效 - FX168财经",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZZExiTVdGbzQxWm5jWDhNOWZqa3BFNnhOd0dMQW9XZEIweFhjQWp0amhQT3VHUm1lMFh0dFNTYklLY1l3WHZoQ2hYSi1tN2l5ZUg0?oc=5",
       "source": "FX168财经",
@@ -114,18 +149,17 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
-      "title": "否认IPO递表传闻，月之暗面再融资估值约500亿美元 - 21jingji.com",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTTY0VGhyamZIOW5PWlAwY1JIeHFab1YwckF5Ujk0U0tfcVJCM2JRNGMxOFA2RlJmaVg3UzNZU001NlZjZ1RUSlRZWFdJZldDQXFwSXkzUndpMUlYZkRMaWNCYmhZMDlreThhSTNiY1BZYVFzV0lCQ3NrQzQwSUhZVGtrSEhra0k5bnJLdA?oc=5",
-      "source": "21jingji.com",
-      "category": "资本",
+      "id": "raw-008",
+      "title": "字节跳动发布全双工大模型SeedRealtime，国产算力产业链景气度获强化 - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9EMU8yeFA1V1ZrS2ZNT0Facl9vVm13cEhjd18waFBlVUZjazROUmRDUE50VlR2VWx2SDYyZ1hjc1BlcV9GcHYycjI0eTlZZw?oc=5",
+      "source": "AIBase",
+      "category": "技术",
       "published": "2026-08-06",
-      "body_snippet": "否认IPO递表传闻，月之暗面再融资估值约500亿美元 21jingji.com",
-      "_query_boost": 20,
+      "body_snippet": "字节跳动发布全双工大模型SeedRealtime，国产算力产业链景气度获强化 AIBase",
+      "_query_boost": 0,
       "lane": "attend",
       "signals": [
-        "⚔️",
-        "💰"
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -133,59 +167,13 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "否认IPO递表传闻，月之暗面再融资估值约500亿美元 - 21jingji.com 否认IPO递表传闻，月之暗面再融资估值约500亿美元 21jingji.com",
+      "summary_cn": "字节跳动发布全双工大模型SeedRealtime，国产算力产业链景气度获强化 - AIBase 字节跳动发布全双工大模型SeedRealtime，国产算力产业链景气度获强化 AIBase",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
         "beneficiaries": "（待 AI 填写）",
         "pressure_parties": "（待 AI 填写）"
       },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-008",
-      "title": "超节点如何撬动国产AI算力的“第二增长曲线”？ | VIP洞察周报|AI大模型|国海证券|国金证券|GPU|DeepSeek_手机新浪网 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVDFEM2Y0V1J4LWpDYjNKVFh3ZW9LRWF1TlZSMHRDWGlqZWNCb0o0MWtFaklBV0lpTWZrRGlJYmVic0NKQ09kSWduQnhMUWhHZWpUQ0Q1cjlsekNDUVRYQTVrQ1g0SUFQckh0T0JrWkRzdFJmeHJsOHB3MWdlVUJSX1dWUC0tc1ZwWFlJTGVtMnM3U21BWVZwVEpXZGhQRHItZHh6Y0lLTQ?oc=5",
-      "source": "新浪财经",
-      "category": "技术",
-      "published": "2026-08-02",
-      "body_snippet": "超节点如何撬动国产AI算力的“第二增长曲线”？ | VIP洞察周报|AI大模型|国海证券|国金证券|GPU|DeepSeek_手机新浪网 新浪财经",
-      "_query_boost": 15,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "超节点如何撬动国产AI算力的“第二增长曲线”？ | VIP洞察周报|AI大模型|国海证券|国金证券|GPU|DeepSeek_手机新浪网 - 新浪财经 超节点如",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-009",
-      "title": "区域城市竞争新赛道！四川将花三年大力打造绿色算力Token工厂！ - cn.solarbe.com",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE13SUw3cmViOXZiX3J4ZV9saDBieGhXd1pLdnAxZE1oOHpMcnQ3djFlYkJqejRwQ3hTYW45UU5OazV6R0ZvMFhlWHROMTNXSlgzdHBKX1NuMEthaUk4R0Jv?oc=5",
-      "source": "cn.solarbe.com",
-      "category": "竞品",
-      "published": "2026-08-06",
-      "body_snippet": "区域城市竞争新赛道！四川将花三年大力打造绿色算力Token工厂！ cn.solarbe.com",
-      "_query_boost": 15,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "区域城市竞争新赛道！四川将花三年大力打造绿色算力Token工厂！ - cn.solarbe.com 区域城市竞争新赛道！四川将花三年大力打造绿色算力Token工",
-      "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
@@ -212,41 +200,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-011",
-      "title": "智谱 GLM-5.3 提前曝光 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE12SnUycm5nQUJESjNMUjhsaUFjbDlWTTNsN2k4cXJ2ajc4TVlibklNTzBOZTZycUR6emJycTFLcDE3S2laRW9wT0pmMA?oc=5",
-      "source": "OSCHINA",
+      "id": "raw-012",
+      "title": "存储行业周期被AI算力颠覆：DDR5价格暴涨超400%，消费电子承压 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90ZUZFZ3RZcFhsWjZBamJZbVI2cGFoclBqaVYtZWNuV2VYUUFrd2d6cWxKUXdwTDQ2WE5ZOThOVEZXTjkza0NVVlVvT21jMF9oR290blZyM2NiZE5HWjBYQWh3?oc=5",
+      "source": "虎嗅",
       "category": "技术",
-      "published": "2026-08-04",
-      "body_snippet": "智谱 GLM-5.3 提前曝光 - OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA",
-      "_query_boost": 20,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "智谱 GLM-5.3 提前曝光 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA 智谱 GLM-5.3 提前曝光 - OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-013",
-      "title": "AI算力争夺战再升级！Anthropic与AI云初创公司Volta签100亿美元协议 - news.aibase.com",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9nLUNjbG9MUHN0aGFJMnpya1M5YTdnenQwNV9reDBSMldJWjYxZkFhVFdYcDk4clY5X2t1MzFYSU5aSndFdDBSU2ZWRDA1UQ?oc=5",
-      "source": "news.aibase.com",
-      "category": "技术",
-      "published": "2026-08-06",
-      "body_snippet": "AI算力争夺战再升级！Anthropic与AI云初创公司Volta签100亿美元协议 news.aibase.com",
+      "published": "2026-08-07",
+      "body_snippet": "存储行业周期被AI算力颠覆：DDR5价格暴涨超400%，消费电子承压 虎嗅",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
@@ -258,7 +218,30 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "AI算力争夺战再升级！Anthropic与AI云初创公司Volta签100亿美元协议 - news.aibase.com AI算力争夺战再升级！Anthropi",
+      "summary_cn": "存储行业周期被AI算力颠覆：DDR5价格暴涨超400%，消费电子承压 - 虎嗅 存储行业周期被AI算力颠覆：DDR5价格暴涨超400%，消费电子承压 虎嗅",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-013",
+      "title": "区域城市竞争新赛道！四川将花三年大力打造绿色算力Token工厂！ - 碳索储能网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE13SUw3cmViOXZiX3J4ZV9saDBieGhXd1pLdnAxZE1oOHpMcnQ3djFlYkJqejRwQ3hTYW45UU5OazV6R0ZvMFhlWHROMTNXSlgzdHBKX1NuMEthaUk4R0Jv?oc=5",
+      "source": "碳索储能网",
+      "category": "竞品",
+      "published": "2026-08-06",
+      "body_snippet": "区域城市竞争新赛道！四川将花三年大力打造绿色算力Token工厂！ 碳索储能网",
+      "_query_boost": 15,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "区域城市竞争新赛道！四川将花三年大力打造绿色算力Token工厂！ - 碳索储能网 区域城市竞争新赛道！四川将花三年大力打造绿色算力Token工厂！ 碳索储能网",
       "ppio_signal": null,
       "_classified_by": "rule"
     }

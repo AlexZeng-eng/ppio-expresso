@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-08T02:34:21.064Z",
-  "date": "2026-08-08",
-  "date_label": "2026-08-08",
+  "generated_at": "2026-08-09T02:40:02.108Z",
+  "date": "2026-08-09",
+  "date_label": "2026-08-09",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
     "📜": 0,
-    "⚔️": 1,
+    "⚔️": 2,
     "💰": 1,
     "🌏": 0,
     "🔬": 6
@@ -17,7 +17,7 @@
   },
   "wind_indicators": {
     "policy_heat": 2,
-    "competitor_heat": 3,
+    "competitor_heat": 4,
     "capital_heat": 3,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
@@ -35,7 +35,7 @@
     },
     {
       "id": "2",
-      "title": "字节跳动与百度开始测试v88体育平台ap",
+      "title": "无问芯穹牵手 MiniMax：从推理效能",
       "policy_axis": 0,
       "competition_axis": 0.7,
       "impact_score": 3,
@@ -43,15 +43,15 @@
     },
     {
       "id": "3",
-      "title": "2026世界人工智能大会开幕在即 聚焦“",
+      "title": "字节跳动与百度开始测试v88体育平台ap",
       "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
+      "competition_axis": 0.7,
+      "impact_score": 3,
       "axis_reason": "规则估算"
     },
     {
       "id": "4",
-      "title": "否认IPO递表传闻，月之暗面再融资估值约",
+      "title": "月之暗面Kimi启动Pre-IPO融资估",
       "policy_axis": 0,
       "competition_axis": 0.7,
       "impact_score": 3,
@@ -59,10 +59,18 @@
     },
     {
       "id": "5",
-      "title": "智谱 GLM-5.3 提前曝光 - OS",
+      "title": "2026世界人工智能大会开幕在即 聚焦“",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "6",
+      "title": "字节跳动发布全双工大模型SeedReal",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 3,
       "axis_reason": "规则估算"
     }
   ],
@@ -71,7 +79,7 @@
     "delta": 0,
     "components": {
       "policy_tailwind": 0,
-      "competitive_pressure": -6,
+      "competitive_pressure": -12,
       "capital_sentiment": 5,
       "regulatory_risk": 0,
       "overseas_headwind": 0
