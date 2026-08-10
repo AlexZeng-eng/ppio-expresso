@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T02:40:02.108Z",
-  "date": "2026-08-09",
-  "date_label": "2026-08-09",
+  "generated_at": "2026-08-10T02:57:30.857Z",
+  "date": "2026-08-10",
+  "date_label": "2026-08-10",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
@@ -27,7 +27,7 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "“促进全球人工智能朝着向上向善、造福人类",
+      "title": "习近平将出席2026世界人工智能大会暨人",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
@@ -35,6 +35,14 @@
     },
     {
       "id": "2",
+      "title": "“促进全球人工智能朝着向上向善、造福人类",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "3",
       "title": "无问芯穹牵手 MiniMax：从推理效能",
       "policy_axis": 0,
       "competition_axis": 0.7,
@@ -42,16 +50,8 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "3",
-      "title": "字节跳动与百度开始测试v88体育平台ap",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "规则估算"
-    },
-    {
       "id": "4",
-      "title": "月之暗面Kimi启动Pre-IPO融资估",
+      "title": "字节跳动与百度开始测试竞彩网app手机版",
       "policy_axis": 0,
       "competition_axis": 0.7,
       "impact_score": 3,
@@ -59,6 +59,14 @@
     },
     {
       "id": "5",
+      "title": "月之暗面Kimi启动Pre-IPO融资估",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 3,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "6",
       "title": "2026世界人工智能大会开幕在即 聚焦“",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -66,11 +74,19 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "6",
+      "id": "7",
       "title": "字节跳动发布全双工大模型SeedReal",
       "policy_axis": 0,
       "competition_axis": 0.7,
       "impact_score": 3,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "8",
+      "title": "服务器与民众的对立： 为何美国会出现反对",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     }
   ],
