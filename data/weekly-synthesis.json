@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-11T02:40:12.927Z",
-  "date": "2026-08-11",
-  "date_label": "2026-08-11",
+  "generated_at": "2026-08-12T03:09:52.640Z",
+  "date": "2026-08-12",
+  "date_label": "2026-08-12",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
     "📜": 0,
-    "⚔️": 2,
+    "⚔️": 1,
     "💰": 1,
     "🌏": 0,
-    "🔬": 7
+    "🔬": 8
   },
   "speed_read": {
     "positive": [],
@@ -17,7 +17,7 @@
   },
   "wind_indicators": {
     "policy_heat": 2,
-    "competitor_heat": 4,
+    "competitor_heat": 3,
     "capital_heat": 3,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
@@ -43,14 +43,6 @@
     },
     {
       "id": "3",
-      "title": "无问芯穹牵手 MiniMax：从推理效能",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "4",
       "title": "字节跳动与百度开始测试竞彩网app手机版",
       "policy_axis": 0,
       "competition_axis": 0.7,
@@ -58,7 +50,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "5",
+      "id": "4",
       "title": "2026世界人工智能大会开幕在即 聚焦“",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -66,7 +58,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "6",
+      "id": "5",
       "title": "否认IPO递表传闻，月之暗面再融资估值约",
       "policy_axis": 0,
       "competition_axis": 0.7,
@@ -74,16 +66,8 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "7",
-      "title": "字节跳动发布全双工大模型SeedReal",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "8",
-      "title": "服务器与民众的对立： 为何美国会出现反对",
+      "id": "6",
+      "title": "美国数据中心新建禁令7月激增 142个城",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -95,7 +79,7 @@
     "delta": 0,
     "components": {
       "policy_tailwind": 0,
-      "competitive_pressure": -12,
+      "competitive_pressure": -6,
       "capital_sentiment": 5,
       "regulatory_risk": 0,
       "overseas_headwind": 0

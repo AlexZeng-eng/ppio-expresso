@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-11T02:40:12.890Z",
+  "generated_at": "2026-08-12T03:09:52.604Z",
   "week": "2026-W33",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 12,
-  "attend_count": 8,
-  "silent_count": 4,
+  "total_curated": 13,
+  "attend_count": 6,
+  "silent_count": 7,
   "items": [
     {
       "id": "raw-001",
@@ -32,12 +32,12 @@
     },
     {
       "id": "raw-002",
-      "title": "习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - 52hrtt.com",
+      "title": "习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - 华人头条",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQLUNCMDFLSnZOdnhuSERpX3lUX2R6d3hlMGxaOWJxdTY4RXRtMkhGbVZHazdsMkJVT0lyb3BSRlZsS0dCQ0ZkU1A1THhfT1l3eVZVakxyRGJyMlJYZ3BpeGdHMi0zanNsUUc5TkpGeU5CRHJsbXZydHVXY3V6d0l3cXNWY196bTA?oc=5",
-      "source": "52hrtt.com",
+      "source": "华人头条",
       "category": "政策",
       "published": "2026-08-08",
-      "body_snippet": "习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 52hrtt.com",
+      "body_snippet": "习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 华人头条",
       "_query_boost": 50,
       "lane": "attend",
       "signals": [
@@ -49,7 +49,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - 52hrtt.com 习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 52hrtt.com",
+      "summary_cn": "习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - 华人头条 习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 华人头条",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -63,7 +63,7 @@
       "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
       "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
       "source": "工信部-新闻",
-      "published": "2026-08-11",
+      "published": "2026-08-12",
       "body_snippet": "",
       "category": "技术",
       "lane": "attend",
@@ -87,35 +87,6 @@
     },
     {
       "id": "raw-004",
-      "title": "无问芯穹牵手 MiniMax：从推理效能到 Token 服务，国产大模型上下游抱团共建 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4zaDF0MC1YVzlhU2lTdHJPdUpwRkd3S3F6VnFmbWNGS3BfSmtSa2hDU082bDhXWGdhckRvZ21CUVNNZ1RzdVBvaHItZGhZZw?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-08-05",
-      "body_snippet": "无问芯穹牵手 MiniMax：从推理效能到 Token 服务，国产大模型上下游抱团共建 AIBase",
-      "_query_boost": 0,
-      "lane": "attend",
-      "signals": [
-        "⚔️",
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "从推理效能到 Token 服务，国产大模型上下游抱团共建 - AIBase 无问芯穹牵手 MiniMax：从推理效能到 Token 服务，国产大模型上下游抱团共建 AIBase",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-005",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
@@ -134,6 +105,29 @@
         "c3"
       ],
       "summary_cn": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
+      "title": "2026算力网发展大会9月即将在京启幕——筑基智能经济新底座，共筑全国算力一张网 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IQlN4cmxCWUgteWs3bjVGWXU4Ujh0QmlvNXkteUdHQXh4VUE1VVVRTWI4dkFBcHowU0RaYjY4aThfSjZTNEpqLWZVaG1lSnN0dWtTZGozak9BaTlLOHdiUEZqRzF1ZmNScEQtSnhR?oc=5",
+      "source": "中华网",
+      "category": "政策",
+      "published": "2026-08-11",
+      "body_snippet": "2026算力网发展大会9月即将在京启幕——筑基智能经济新底座，共筑全国算力一张网 中华网",
+      "_query_boost": 30,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "2026算力网发展大会9月即将在京启幕——筑基智能经济新底座，共筑全国算力一张网 - 中华网 2026算力网发展大会9月即将在京启幕——筑基智能经济新底座，共筑",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
@@ -247,63 +241,12 @@
     },
     {
       "id": "raw-011",
-      "title": "字节跳动发布全双工大模型SeedRealtime，国产算力产业链景气度获强化 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9EMU8yeFA1V1ZrS2ZNT0Facl9vVm13cEhjd18waFBlVUZjazROUmRDUE50VlR2VWx2SDYyZ1hjc1BlcV9GcHYycjI0eTlZZw?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-08-06",
-      "body_snippet": "字节跳动发布全双工大模型SeedRealtime，国产算力产业链景气度获强化 AIBase",
-      "_query_boost": 0,
-      "lane": "attend",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "字节跳动发布全双工大模型SeedRealtime，国产算力产业链景气度获强化 - AIBase 字节跳动发布全双工大模型SeedRealtime，国产算力产业链景气度获强化 AIBase",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "算力网要“建”更要“连”|国家发展改革委|智算中心|甘肃省|上海市|DeepSeek_手机新浪网 - finance.sina.cn",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBuRWRuNlo0dGxUWk5ldGlVbEx5c19fY1htLTJjTUVpQURzSjU1U21pZ0dLcl9EZVl2UlBLakRDLW5Na3drUnlhRUFaZ3RhanhIOEFlYkZ5TDhEN0dfVENoM2l1STdOeDI0YTloMjJkS1gyZTBPN1RSMQ?oc=5",
-      "source": "finance.sina.cn",
-      "category": "政策",
-      "published": "2026-08-10",
-      "body_snippet": "算力网要“建”更要“连”|国家发展改革委|智算中心|甘肃省|上海市|DeepSeek_手机新浪网 finance.sina.cn",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "算力网要“建”更要“连”|国家发展改革委|智算中心|甘肃省|上海市|DeepSeek_手机新浪网 - finance.sina.cn 算力网要“建”更要“连”|",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-013",
-      "title": "服务器与民众的对立： 为何美国会出现反对数据中心的抗议活动 - UA.NEWS",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc25RQ1NtQXp0S2FTbmhxLVBUbjVZbTFYQXVJdEh2MjVtR21wMi1SNGFDSkhRbGMxeUdTLXBYdW1iQndZQUhZVHZUUVhoMXVVM0hPXzhaMnRpYXZqQmJGSjZnMF9EUEVILU9CUWtxMC16X0NLd0ZRU0laTTFqTm81VjBCLXY1SF9BbmtadERsUm9EUGpOWl9mX09NaUtRUQ?oc=5",
-      "source": "UA.NEWS",
+      "title": "美国数据中心新建禁令7月激增 142个城市爆发反对活动 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1wNUQ1MEE0V041WmQ2WXMxSlBQUUJWTkZTVFVJWmo0VnBWTnhMMWRfbEZ6MHpSMTBCdnpIZjQzY0dLUllkNkE?oc=5",
+      "source": "财联社",
       "category": "海外",
-      "published": "2026-08-05",
-      "body_snippet": "服务器与民众的对立： 为何美国会出现反对数据中心的抗议活动 UA.NEWS",
+      "published": "2026-08-10",
+      "body_snippet": "美国数据中心新建禁令7月激增 142个城市爆发反对活动 财联社",
       "_query_boost": 25,
       "lane": "attend",
       "signals": [
@@ -315,13 +258,82 @@
         "c2",
         "c3"
       ],
-      "summary_cn": " 为何美国会出现反对数据中心的抗议活动 - UA.NEWS 服务器与民众的对立： 为何美国会出现反对数据中心的抗议活动 UA.NEWS",
+      "summary_cn": "美国数据中心新建禁令7月激增 142个城市爆发反对活动 - 财联社 美国数据中心新建禁令7月激增 142个城市爆发反对活动 财联社",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
         "beneficiaries": "（待 AI 填写）",
         "pressure_parties": "（待 AI 填写）"
       },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-012",
+      "title": "上海，最新发文！事关AI、算力 - finance.sina.cn",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ST3FGRnE1WWpscWpiNHlmUFJDUmJfRkdEZkZUYllwVzBYT0N5akhZSzFDcFd1V21paFRIbExWVFhWdFdhX1lkTTc5aEJ4NmVBZldselhVREdlNXhoTDhtSFdzeXA1a3JKTVFIN1dhMzhUdWk1YWdvNw?oc=5",
+      "source": "finance.sina.cn",
+      "category": "政策",
+      "published": "2026-08-11",
+      "body_snippet": "上海，最新发文！事关AI、算力 finance.sina.cn",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "上海，最新发文！事关AI、算力 - finance.sina.cn 上海，最新发文！事关AI、算力 finance.sina.cn",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-013",
+      "title": "算力下沉、生态聚合、标准出海：POS总裁峰会锚定AI赋能实体新坐标 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBXZV9ycGJTTndIeUhTemN2VlpnZzh4SmpjWXhnc1ZKTVRCTWppdjRiUjZMY1VfRU45OWp0U2pOc1ctWHVwYS12SzJCc0hIREdlMVV3ekx4LXUwdV9OeWc?oc=5",
+      "source": "中华网",
+      "category": "监管",
+      "published": "2026-08-11",
+      "body_snippet": "算力下沉、生态聚合、标准出海：POS总裁峰会锚定AI赋能实体新坐标 中华网",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "算力下沉、生态聚合、标准出海：POS总裁峰会锚定AI赋能实体新坐标 - 中华网 算力下沉、生态聚合、标准出海：POS总裁峰会锚定AI赋能实体新坐标 中华网",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-014",
+      "title": "消息：Anthropic与加密货币挖矿商Riot达成116亿元算力购买交易 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jc3VQWm1TWUFtTkhQYVNjNk1VWE50aXRGX2pjMUw3QlhVZnR4ZmVWOUd5VmlpTGFEZW5adXhwekZRVmt6T3hxajY1SzMwM2RpS0JEdnZYRnd4WEVKNFJEYTdscFEzekZZWk9CQUR3?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-08-11",
+      "body_snippet": "消息：Anthropic与加密货币挖矿商Riot达成116亿元算力购买交易 联合早报",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "消息：Anthropic与加密货币挖矿商Riot达成116亿元算力购买交易 - 联合早报 消息：Anthropic与加密货币挖矿商Riot达成116亿元算力购买",
+      "ppio_signal": null,
       "_classified_by": "rule"
     }
   ]
