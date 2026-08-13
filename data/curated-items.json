@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-12T03:09:52.604Z",
+  "generated_at": "2026-08-13T03:14:15.752Z",
   "week": "2026-W33",
   "classifier": "rule-based",
   "total_raw": 15,
   "total_curated": 13,
-  "attend_count": 6,
-  "silent_count": 7,
+  "attend_count": 5,
+  "silent_count": 8,
   "items": [
     {
       "id": "raw-001",
-      "title": "中国AI算力大换血：国产芯片逼近90%，英伟达失去的不是一张订单 - me.news",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJMElRSzVmVlA1MHB0c3lUcVlSdEUyeXdJWTNPSG5FalVDYnlWZ19LeHJWR0xlNlg2RjlUbkJRTG91eUhlMUg2WGdBMA?oc=5",
-      "source": "me.news",
-      "category": "竞品",
-      "published": "2026-08-10",
-      "body_snippet": "中国AI算力大换血：国产芯片逼近90%，英伟达失去的不是一张订单 me.news",
-      "_query_boost": 15,
-      "lane": "silent",
+      "title": "学习手记 | 习近平总书记指引人工智能发展与治理 - 党建网",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzQWFKYU5fUDc0UkhQX1FDbk1MOU1uLXluVW5oU3FQc2ExUGJ5bzljaEotR2t2b190YkFGOHJHdGhTbW9vbGIxc0Y3S01ZZnA0ZmhPbWJEUmtTS1d6bVdDeXFCVktHbGVBQ0swMmJSb0dXX0sw?oc=5",
+      "source": "党建网",
+      "category": "政策",
+      "published": "2026-08-13",
+      "body_snippet": "学习手记 | 习近平总书记指引人工智能发展与治理 党建网",
+      "_query_boost": 50,
+      "lane": "attend",
       "signals": [
-        "🔬"
+        "—"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -26,8 +26,13 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "中国AI算力大换血：国产芯片逼近90%，英伟达失去的不是一张订单 - me.news 中国AI算力大换血：国产芯片逼近90%，英伟达失去的不是一张订单 me.n",
-      "ppio_signal": null,
+      "summary_cn": "学习手记 | 习近平总书记指引人工智能发展与治理 - 党建网 学习手记 | 习近平总书记指引人工智能发展与治理 党建网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
       "_classified_by": "rule"
     },
     {
@@ -60,10 +65,33 @@
     },
     {
       "id": "raw-003",
+      "title": "中国AI算力大换血：国产芯片逼近90%，英伟达失去的不是一张订单 - me.news",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJMElRSzVmVlA1MHB0c3lUcVlSdEUyeXdJWTNPSG5FalVDYnlWZ19LeHJWR0xlNlg2RjlUbkJRTG91eUhlMUg2WGdBMA?oc=5",
+      "source": "me.news",
+      "category": "竞品",
+      "published": "2026-08-10",
+      "body_snippet": "中国AI算力大换血：国产芯片逼近90%，英伟达失去的不是一张订单 me.news",
+      "_query_boost": 15,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "中国AI算力大换血：国产芯片逼近90%，英伟达失去的不是一张订单 - me.news 中国AI算力大换血：国产芯片逼近90%，英伟达失去的不是一张订单 me.n",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-004",
       "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
       "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
       "source": "工信部-新闻",
-      "published": "2026-08-12",
+      "published": "2026-08-13",
       "body_snippet": "",
       "category": "技术",
       "lane": "attend",
@@ -86,14 +114,14 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
+      "id": "raw-005",
+      "title": "深耕Token工厂赛道 硅基流动以技术与流量构筑AI算力服务新生态 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB5VFhxcEFaZm43czBvaDI2bDFUdTdLTlJldlRkZkJ4WHk3VThoXzQ0elp3LXptWEVWY1VIdEpET29ndWhyRUxnM3hQcW85QmU0S3dQZ1E3cVRIR3BFLXNYREFCY0NrNzhvdnU0THhDZG9rY01sdncxanEtdWI?oc=5",
+      "source": "新华网",
       "category": "竞品",
-      "published": "2026-08-10",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "_query_boost": 15,
+      "published": "2026-08-12",
+      "body_snippet": "深耕Token工厂赛道 硅基流动以技术与流量构筑AI算力服务新生态 新华网",
+      "_query_boost": 20,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -104,12 +132,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "summary_cn": "深耕Token工厂赛道 硅基流动以技术与流量构筑AI算力服务新生态 - 新华网 深耕Token工厂赛道 硅基流动以技术与流量构筑AI算力服务新生态 新华网",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
+      "id": "raw-007",
       "title": "2026算力网发展大会9月即将在京启幕——筑基智能经济新底座，共筑全国算力一张网 - 中华网",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IQlN4cmxCWUgteWs3bjVGWXU4Ujh0QmlvNXkteUdHQXh4VUE1VVVRTWI4dkFBcHowU0RaYjY4aThfSjZTNEpqLWZVaG1lSnN0dWtTZGozak9BaTlLOHdiUEZqRzF1ZmNScEQtSnhR?oc=5",
       "source": "中华网",
@@ -132,7 +160,30 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
+      "id": "raw-008",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
+      "category": "竞品",
+      "published": "2026-08-10",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "_query_boost": 15,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-009",
       "title": "字节跳动与百度开始测试竞彩网app手机版下载自研芯片 国产AI算力替代迈出关键一步 - 电玩巴士",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4za2NxLXJNS0F0eGtXTVd3ZUV0VVVXcW01RnlPT2tkdHRDTFJNS2NTTUl4N0Y0NWROc21ob2owZ2xUV0pMYWMzOURka0pvUGJO?oc=5",
       "source": "电玩巴士",
@@ -160,70 +211,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-007",
-      "title": "2026世界人工智能大会开幕在即 聚焦“年轻的事业”与“新质时代”新成效 - FX168财经",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZZExiTVdGbzQxWm5jWDhNOWZqa3BFNnhOd0dMQW9XZEIweFhjQWp0amhQT3VHUm1lMFh0dFNTYklLY1l3WHZoQ2hYSi1tN2l5ZUg0?oc=5",
-      "source": "FX168财经",
+      "id": "raw-010",
+      "title": "中国联通重庆市分公司以全光算网一体化服务使能算力普惠山城！ - 中国日报网",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90dEhncUcyTjVmd0hNRklBZkU3VXk2NkRCUUQzVjI3Q0FXX3NtQ1VicjNMNnp0bm1vVmFCd1Vna0hJZEExLWtYSEZxTVNhcklhMDZzbWg3RmF4QnNkR2ozMFBfQWJ2UzhZMUlLeHBMM2VMQnlEa1gyWU1QT24?oc=5",
+      "source": "中国日报网",
       "category": "政策",
-      "published": "2026-08-06",
-      "body_snippet": "2026世界人工智能大会开幕在即 聚焦“年轻的事业”与“新质时代”新成效 FX168财经",
-      "_query_boost": 35,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "2026世界人工智能大会开幕在即 聚焦“年轻的事业”与“新质时代”新成效 - FX168财经 2026世界人工智能大会开幕在即 聚焦“年轻的事业”与“新质时代”新成效 FX168财经",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-008",
-      "title": "否认IPO递表传闻，月之暗面再融资估值约500亿美元 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTTY0VGhyamZIOW5PWlAwY1JIeHFab1YwckF5Ujk0U0tfcVJCM2JRNGMxOFA2RlJmaVg3UzNZU001NlZjZ1RUSlRZWFdJZldDQXFwSXkzUndpMUlYZkRMaWNCYmhZMDlreThhSTNiY1BZYVFzV0lCQ3NrQzQwSUhZVGtrSEhra0k5bnJLdA?oc=5",
-      "source": "21财经",
-      "category": "资本",
-      "published": "2026-08-06",
-      "body_snippet": "否认IPO递表传闻，月之暗面再融资估值约500亿美元 21财经",
-      "_query_boost": 20,
-      "lane": "attend",
-      "signals": [
-        "⚔️",
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "否认IPO递表传闻，月之暗面再融资估值约500亿美元 - 21财经 否认IPO递表传闻，月之暗面再融资估值约500亿美元 21财经",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-009",
-      "title": "2026算力服务市场盘点：如何识别靠谱的算力服务商？ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1cXd0RDV6cHB3eWJxVEs1Ni1ZNUNsSERabkVLN3VPMzVkZy1qdjRzYmg5QjZzYUVsaUtRTFpnSEJ4UktMLUZhZjZuR3F6ajF5VEl6QnlNTWhrUnhUS2JWLXhpU19NSkR2VE5DY2p3?oc=5",
-      "source": "新浪财经",
-      "category": "监管",
-      "published": "2026-08-10",
-      "body_snippet": "2026算力服务市场盘点：如何识别靠谱的算力服务商？ 新浪财经",
+      "published": "2026-08-11",
+      "body_snippet": "中国联通重庆市分公司以全光算网一体化服务使能算力普惠山城！ 中国日报网",
       "_query_boost": 25,
       "lane": "silent",
       "signals": [
@@ -235,12 +229,81 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "2026算力服务市场盘点：如何识别靠谱的算力服务商？ - 新浪财经 2026算力服务市场盘点：如何识别靠谱的算力服务商？ 新浪财经",
+      "summary_cn": "中国联通重庆市分公司以全光算网一体化服务使能算力普惠山城！ - 中国日报网 中国联通重庆市分公司以全光算网一体化服务使能算力普惠山城！ 中国日报网",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-011",
+      "title": "上海，最新发文！事关AI、算力 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ST3FGRnE1WWpscWpiNHlmUFJDUmJfRkdEZkZUYllwVzBYT0N5akhZSzFDcFd1V21paFRIbExWVFhWdFdhX1lkTTc5aEJ4NmVBZldselhVREdlNXhoTDhtSFdzeXA1a3JKTVFIN1dhMzhUdWk1YWdvNw?oc=5",
+      "source": "新浪网",
+      "category": "政策",
+      "published": "2026-08-11",
+      "body_snippet": "上海，最新发文！事关AI、算力 新浪网",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "上海，最新发文！事关AI、算力 - 新浪网 上海，最新发文！事关AI、算力 新浪网",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-012",
+      "title": "消息：Anthropic与加密货币挖矿商Riot达成116亿元算力购买交易 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jc3VQWm1TWUFtTkhQYVNjNk1VWE50aXRGX2pjMUw3QlhVZnR4ZmVWOUd5VmlpTGFEZW5adXhwekZRVmt6T3hxajY1SzMwM2RpS0JEdnZYRnd4WEVKNFJEYTdscFEzekZZWk9CQUR3?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-08-11",
+      "body_snippet": "消息：Anthropic与加密货币挖矿商Riot达成116亿元算力购买交易 联合早报",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "消息：Anthropic与加密货币挖矿商Riot达成116亿元算力购买交易 - 联合早报 消息：Anthropic与加密货币挖矿商Riot达成116亿元算力购买",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-013",
+      "title": "2026算力服务市场盘点：如何识别靠谱的算力服务商？ - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1cXd0RDV6cHB3eWJxVEs1Ni1ZNUNsSERabkVLN3VPMzVkZy1qdjRzYmg5QjZzYUVsaUtRTFpnSEJ4UktMLUZhZjZuR3F6ajF5VEl6QnlNTWhrUnhUS2JWLXhpU19NSkR2VE5DY2p3?oc=5",
+      "source": "新浪网",
+      "category": "监管",
+      "published": "2026-08-10",
+      "body_snippet": "2026算力服务市场盘点：如何识别靠谱的算力服务商？ 新浪网",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "2026算力服务市场盘点：如何识别靠谱的算力服务商？ - 新浪网 2026算力服务市场盘点：如何识别靠谱的算力服务商？ 新浪网",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-015",
       "title": "美国数据中心新建禁令7月激增 142个城市爆发反对活动 - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1wNUQ1MEE0V041WmQ2WXMxSlBQUUJWTkZTVFVJWmo0VnBWTnhMMWRfbEZ6MHpSMTBCdnpIZjQzY0dLUllkNkE?oc=5",
       "source": "财联社",
@@ -265,75 +328,6 @@
         "beneficiaries": "（待 AI 填写）",
         "pressure_parties": "（待 AI 填写）"
       },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "上海，最新发文！事关AI、算力 - finance.sina.cn",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ST3FGRnE1WWpscWpiNHlmUFJDUmJfRkdEZkZUYllwVzBYT0N5akhZSzFDcFd1V21paFRIbExWVFhWdFdhX1lkTTc5aEJ4NmVBZldselhVREdlNXhoTDhtSFdzeXA1a3JKTVFIN1dhMzhUdWk1YWdvNw?oc=5",
-      "source": "finance.sina.cn",
-      "category": "政策",
-      "published": "2026-08-11",
-      "body_snippet": "上海，最新发文！事关AI、算力 finance.sina.cn",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "上海，最新发文！事关AI、算力 - finance.sina.cn 上海，最新发文！事关AI、算力 finance.sina.cn",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-013",
-      "title": "算力下沉、生态聚合、标准出海：POS总裁峰会锚定AI赋能实体新坐标 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBXZV9ycGJTTndIeUhTemN2VlpnZzh4SmpjWXhnc1ZKTVRCTWppdjRiUjZMY1VfRU45OWp0U2pOc1ctWHVwYS12SzJCc0hIREdlMVV3ekx4LXUwdV9OeWc?oc=5",
-      "source": "中华网",
-      "category": "监管",
-      "published": "2026-08-11",
-      "body_snippet": "算力下沉、生态聚合、标准出海：POS总裁峰会锚定AI赋能实体新坐标 中华网",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "算力下沉、生态聚合、标准出海：POS总裁峰会锚定AI赋能实体新坐标 - 中华网 算力下沉、生态聚合、标准出海：POS总裁峰会锚定AI赋能实体新坐标 中华网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-014",
-      "title": "消息：Anthropic与加密货币挖矿商Riot达成116亿元算力购买交易 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jc3VQWm1TWUFtTkhQYVNjNk1VWE50aXRGX2pjMUw3QlhVZnR4ZmVWOUd5VmlpTGFEZW5adXhwekZRVmt6T3hxajY1SzMwM2RpS0JEdnZYRnd4WEVKNFJEYTdscFEzekZZWk9CQUR3?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-08-11",
-      "body_snippet": "消息：Anthropic与加密货币挖矿商Riot达成116亿元算力购买交易 联合早报",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "消息：Anthropic与加密货币挖矿商Riot达成116亿元算力购买交易 - 联合早报 消息：Anthropic与加密货币挖矿商Riot达成116亿元算力购买",
-      "ppio_signal": null,
       "_classified_by": "rule"
     }
   ]

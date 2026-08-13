@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-12T03:09:52.640Z",
-  "date": "2026-08-12",
-  "date_label": "2026-08-12",
+  "generated_at": "2026-08-13T03:14:15.790Z",
+  "date": "2026-08-13",
+  "date_label": "2026-08-13",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
     "📜": 0,
-    "⚔️": 1,
-    "💰": 1,
+    "⚔️": 0,
+    "💰": 0,
     "🌏": 0,
-    "🔬": 8
+    "🔬": 9
   },
   "speed_read": {
     "positive": [],
@@ -17,8 +17,8 @@
   },
   "wind_indicators": {
     "policy_heat": 2,
-    "competitor_heat": 3,
-    "capital_heat": 3,
+    "competitor_heat": 2,
+    "capital_heat": 2,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
@@ -27,7 +27,7 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "习近平将出席2026世界人工智能大会暨人",
+      "title": "学习手记 | 习近平总书记指引人工智能发",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
@@ -35,7 +35,7 @@
     },
     {
       "id": "2",
-      "title": "“促进全球人工智能朝着向上向善、造福人类",
+      "title": "习近平将出席2026世界人工智能大会暨人",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
@@ -43,6 +43,14 @@
     },
     {
       "id": "3",
+      "title": "“促进全球人工智能朝着向上向善、造福人类",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "4",
       "title": "字节跳动与百度开始测试竞彩网app手机版",
       "policy_axis": 0,
       "competition_axis": 0.7,
@@ -50,23 +58,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "4",
-      "title": "2026世界人工智能大会开幕在即 聚焦“",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
       "id": "5",
-      "title": "否认IPO递表传闻，月之暗面再融资估值约",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "6",
       "title": "美国数据中心新建禁令7月激增 142个城",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -79,8 +71,8 @@
     "delta": 0,
     "components": {
       "policy_tailwind": 0,
-      "competitive_pressure": -6,
-      "capital_sentiment": 5,
+      "competitive_pressure": 0,
+      "capital_sentiment": 0,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },
