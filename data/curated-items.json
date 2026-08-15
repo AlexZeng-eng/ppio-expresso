@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-14T03:12:25.451Z",
-  "week": "2026-W33",
+  "generated_at": "2026-08-15T02:04:19.394Z",
+  "week": "2026-W34",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 12,
+  "total_curated": 13,
   "attend_count": 5,
-  "silent_count": 7,
+  "silent_count": 8,
   "items": [
     {
       "id": "raw-001",
-      "title": "学习手记 | 习近平总书记指引人工智能发展与治理 - 党建网",
+      "title": "学习手记 | 习近平总书记指引人工智能发展与治理 - dangjian.cn",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzQWFKYU5fUDc0UkhQX1FDbk1MOU1uLXluVW5oU3FQc2ExUGJ5bzljaEotR2t2b190YkFGOHJHdGhTbW9vbGIxc0Y3S01ZZnA0ZmhPbWJEUmtTS1d6bVdDeXFCVktHbGVBQ0swMmJSb0dXX0sw?oc=5",
-      "source": "党建网",
+      "source": "dangjian.cn",
       "category": "政策",
       "published": "2026-08-13",
-      "body_snippet": "学习手记 | 习近平总书记指引人工智能发展与治理 党建网",
+      "body_snippet": "学习手记 | 习近平总书记指引人工智能发展与治理 dangjian.cn",
       "_query_boost": 50,
       "lane": "attend",
       "signals": [
@@ -26,7 +26,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "学习手记 | 习近平总书记指引人工智能发展与治理 - 党建网 学习手记 | 习近平总书记指引人工智能发展与治理 党建网",
+      "summary_cn": "学习手记 | 习近平总书记指引人工智能发展与治理 - dangjian.cn 学习手记 | 习近平总书记指引人工智能发展与治理 dangjian.cn",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -37,34 +37,6 @@
     },
     {
       "id": "raw-002",
-      "title": "习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - 华人头条",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQLUNCMDFLSnZOdnhuSERpX3lUX2R6d3hlMGxaOWJxdTY4RXRtMkhGbVZHazdsMkJVT0lyb3BSRlZsS0dCQ0ZkU1A1THhfT1l3eVZVakxyRGJyMlJYZ3BpeGdHMi0zanNsUUc5TkpGeU5CRHJsbXZydHVXY3V6d0l3cXNWY196bTA?oc=5",
-      "source": "华人头条",
-      "category": "政策",
-      "published": "2026-08-08",
-      "body_snippet": "习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 华人头条",
-      "_query_boost": 50,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - 华人头条 习近平将出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 华人头条",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-003",
       "title": "中国AI算力大换血：国产芯片逼近90%，英伟达失去的不是一张订单 - me.news",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJMElRSzVmVlA1MHB0c3lUcVlSdEUyeXdJWTNPSG5FalVDYnlWZ19LeHJWR0xlNlg2RjlUbkJRTG91eUhlMUg2WGdBMA?oc=5",
       "source": "me.news",
@@ -87,11 +59,11 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
+      "id": "raw-003",
       "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展”——习近平主席出席二〇二六世界人工智能大会暨人工智能全球治理高级别会议系列活动纪实",
       "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_810b809dc0c4454ca8186b06757333b1.html",
       "source": "工信部-新闻",
-      "published": "2026-08-14",
+      "published": "2026-08-15",
       "body_snippet": "",
       "category": "技术",
       "lane": "attend",
@@ -114,7 +86,63 @@
       "_classified_by": "rule"
     },
     {
+      "id": "raw-004",
+      "title": "智谱发布新模型GLM-5.3 强调模型编程与网络安全能力 - 财新",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BVUN4TVNuSmoyRnZESzN0R3RGMXM1RGtyMW50aUNZMF9Pb1FZekFFOGpJb0FRQzBGczYwaTNBNGZ1TjBjX1ZsLVRRMm5lckdYbzlFY3Q2S2xkYV9nTnEtUlNnUlQ?oc=5",
+      "source": "财新",
+      "category": "技术",
+      "published": "2026-08-14",
+      "body_snippet": "智谱发布新模型GLM-5.3 强调模型编程与网络安全能力 财新",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "智谱发布新模型GLM-5.3 强调模型编程与网络安全能力 - 财新 智谱发布新模型GLM-5.3 强调模型编程与网络安全能力 财新",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
       "id": "raw-005",
+      "title": "GPT周报｜智谱发布GLM-5.3模型；DeepSeek发布V4 Pro正式版和Harness工具；Manus恢复独立公司运营；腾讯预告发布更大参数模型Hy4 - 财新",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5rbTl4cURJaUpocTVnQnNySTlfVlpXY09odjByUlhlc0t5R21TdWx5V2djQkJBdXZITWU1U1pWeFN5ZW81eXY4YzM0V0xqdVRKRHRRMU9aSGh6V20yd2ZHbWFtSS0?oc=5",
+      "source": "财新",
+      "category": "技术",
+      "published": "2026-08-14",
+      "body_snippet": "GPT周报｜智谱发布GLM-5.3模型；DeepSeek发布V4 Pro正式版和Harness工具；Manus恢复独立公司运营；腾讯预告发布更大参数模型Hy4 财新",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "GPT周报｜智谱发布GLM-5.3模型；DeepSeek发布V4 Pro正式版和Harness工具；Manus恢复独立公司运营；腾讯预告发布更大参数模型Hy4 - 财新 GPT周报｜智谱发布GLM-5.3模型；DeepSeek发布V4 Pro正式版和Harness工具；Manus恢复独立公司运营；腾讯预告发布更大参数模型Hy4 财新",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-006",
       "title": "深耕Token工厂赛道 硅基流动以技术与流量构筑AI算力服务新生态 - 新华网",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB5VFhxcEFaZm43czBvaDI2bDFUdTdLTlJldlRkZkJ4WHk3VThoXzQ0elp3LXptWEVWY1VIdEpET29ndWhyRUxnM3hQcW85QmU0S3dQZ1E3cVRIR3BFLXNYREFCY0NrNzhvdnU0THhDZG9rY01sdncxanEtdWI?oc=5",
       "source": "新华网",
@@ -137,7 +165,30 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
+      "id": "raw-007",
+      "title": "4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 - 见道网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1rZEJJb28xcmpmQV9LRU5NS2U0ME16TjlTSGdTZTBvZmpMdG9XVm9qM01sZVFjMVJEVDMtZ0xwWFY2UVEyNUx6ekZSTEQ1aVVFNDNfNA?oc=5",
+      "source": "见道网",
+      "category": "政策",
+      "published": "2026-08-14",
+      "body_snippet": "4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 见道网",
+      "_query_boost": 30,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 - 见道网 4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 见道网",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-008",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
@@ -160,14 +211,14 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-007",
-      "title": "物理AI时代的产业逻辑推演——AIDC算力底座|具身智能|钛媒体|DeepSeek|月之暗面|芯片_手机新浪网 - finance.sina.cn",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVGdZQXQ0QUJYVFd1MTFITjJFMDVIZEtwdUVwYkRjWGJCWUpFNWFWNENqRHJ2TnRKdjJlbGRmZlFwdjJDZE5GRFQ3VDg3TW9INTgtakZSY09aak52SHh0a0FkRXJNb0g1aUNnTG80QzMtbnFUNFpNSXpzUHdxdm9QcThLZ1BwN2tSbkhpX25mQlNiTVRSVDF4ckFKdGQ3UlZkbk1qdjZkUQ?oc=5",
-      "source": "finance.sina.cn",
-      "category": "政策",
-      "published": "2026-08-13",
-      "body_snippet": "物理AI时代的产业逻辑推演——AIDC算力底座|具身智能|钛媒体|DeepSeek|月之暗面|芯片_手机新浪网 finance.sina.cn",
-      "_query_boost": 30,
+      "id": "raw-010",
+      "title": "【禁闻】川普指北京煽动反AI浪潮美中算力差距曝光| AI资料中心| 美中AI竞争 | AI算力| 新唐人电视台 - 新唐人電視台",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE94RVBicVk2RUVvZ3BwT1V1SU9Lakh4WXFpSFdWX1hBUm9UeFJVRklmckZZZF9uQmNPRWdXTHp6bkJZcFRQVjZmSW9YMFpIWGl3dFpGSm5FNGpobmpSYVhsZGNrU05SUmk0Z1pQRg?oc=5",
+      "source": "新唐人電視台",
+      "category": "海外",
+      "published": "2026-08-14",
+      "body_snippet": "【禁闻】川普指北京煽动反AI浪潮美中算力差距曝光| AI资料中心| 美中AI竞争 | AI算力| 新唐人电视台 新唐人電視台",
+      "_query_boost": 25,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -178,22 +229,22 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "物理AI时代的产业逻辑推演——AIDC算力底座|具身智能|钛媒体|DeepSeek|月之暗面|芯片_手机新浪网 - finance.sina.cn 物理AI时代",
+      "summary_cn": "【禁闻】川普指北京煽动反AI浪潮美中算力差距曝光| AI资料中心| 美中AI竞争 | AI算力| 新唐人电视台 - 新唐人電視台 【禁闻】川普指北京煽动反AI浪",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-008",
-      "title": "字节跳动与百度开始测试竞彩网app手机版下载自研芯片 国产AI算力替代迈出关键一步 - 电玩巴士",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4za2NxLXJNS0F0eGtXTVd3ZUV0VVVXcW01RnlPT2tkdHRDTFJNS2NTTUl4N0Y0NWROc21ob2owZ2xUV0pMYWMzOURka0pvUGJO?oc=5",
-      "source": "电玩巴士",
-      "category": "竞品",
-      "published": "2026-08-08",
-      "body_snippet": "字节跳动与百度开始测试竞彩网app手机版下载自研芯片 国产AI算力替代迈出关键一步 电玩巴士",
-      "_query_boost": 15,
+      "id": "raw-011",
+      "title": "记忆能力达4+级！中兴通讯Co-Claw智能体平台首批通过中国信通院可信AI认证 - ZTE",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUm8zSWJkT2swbE5JbWNmelJQcFNvNU0yV3BSWmgxTWN6dEpKbXdVUUJQZkZyd1BTajF4MHVkRjBkT2dabHM0MUxucDJxZW5mY1BBdFBTWklCdXcxX3p4dWM4QnNmemRUd0wxVzNCVE5BdXgyNHZIblQ5Um8zeVA2Tl8zOUQ1VzQyTWdEMnNiREM?oc=5",
+      "source": "ZTE",
+      "category": "监管",
+      "published": "2026-08-14",
+      "body_snippet": "记忆能力达4+级！中兴通讯Co-Claw智能体平台首批通过中国信通院可信AI认证 ZTE",
+      "_query_boost": 20,
       "lane": "attend",
       "signals": [
-        "🔬"
+        "⚔️"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -201,7 +252,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "字节跳动与百度开始测试竞彩网app手机版下载自研芯片 国产AI算力替代迈出关键一步 - 电玩巴士 字节跳动与百度开始测试竞彩网app手机版下载自研芯片 国产AI算力替代迈出关键一步 电玩巴士",
+      "summary_cn": "记忆能力达4+级！中兴通讯Co-Claw智能体平台首批通过中国信通院可信AI认证 - ZTE 记忆能力达4+级！中兴通讯Co-Claw智能体平台首批通过中国信通院可信AI认证 ZTE",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -211,30 +262,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-010",
-      "title": "2026算力网发展大会9月即将在京启幕——筑基智能经济新底座，共筑全国算力一张网 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IQlN4cmxCWUgteWs3bjVGWXU4Ujh0QmlvNXkteUdHQXh4VUE1VVVRTWI4dkFBcHowU0RaYjY4aThfSjZTNEpqLWZVaG1lSnN0dWtTZGozak9BaTlLOHdiUEZqRzF1ZmNScEQtSnhR?oc=5",
-      "source": "中华网",
-      "category": "政策",
-      "published": "2026-08-11",
-      "body_snippet": "2026算力网发展大会9月即将在京启幕——筑基智能经济新底座，共筑全国算力一张网 中华网",
-      "_query_boost": 30,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "2026算力网发展大会9月即将在京启幕——筑基智能经济新底座，共筑全国算力一张网 - 中华网 2026算力网发展大会9月即将在京启幕——筑基智能经济新底座，共筑",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-011",
+      "id": "raw-012",
       "title": "陈奕强：从GPU、数据中心到AI算力经济的完整指南 | 名家 | 评论 - orientaldaily.com.my",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MODRHd1VVMTlGcVBSc0E5V0N2M3hpX2FwQ0h4cVVaZGpaRHY0UnBmNHkwN29jTXRvWXBRb2ZDUy0xV2FnMkZfNVhYUjJMalk2aE9jbXB0WVAwTjhBdXV6OF90eE0xMENRT2JDX1ZqZ3I?oc=5",
       "source": "orientaldaily.com.my",
@@ -257,13 +285,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-012",
-      "title": "2026算力服务市场盘点：如何识别靠谱的算力服务商？ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1cXd0RDV6cHB3eWJxVEs1Ni1ZNUNsSERabkVLN3VPMzVkZy1qdjRzYmg5QjZzYUVsaUtRTFpnSEJ4UktMLUZhZjZuR3F6ajF5VEl6QnlNTWhrUnhUS2JWLXhpU19NSkR2VE5DY2p3?oc=5",
-      "source": "新浪财经",
-      "category": "监管",
-      "published": "2026-08-10",
-      "body_snippet": "2026算力服务市场盘点：如何识别靠谱的算力服务商？ 新浪财经",
+      "id": "raw-014",
+      "title": "中国联通重庆市分公司以全光算网一体化服务使能算力普惠山城！-AI云资讯 - icloudnews.net",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDajJ0NzBPNERzZ1VXbE1TSFFONzBOaHVhQXQzSzVzc29VNWFlajA4aHQyRnY3ZWNsUTcxRmJaay1TOEJDa1FmZ3FaRGdzMGxrMUE?oc=5",
+      "source": "icloudnews.net",
+      "category": "政策",
+      "published": "2026-08-11",
+      "body_snippet": "中国联通重庆市分公司以全光算网一体化服务使能算力普惠山城！-AI云资讯 icloudnews.net",
       "_query_boost": 25,
       "lane": "silent",
       "signals": [
@@ -275,22 +303,23 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "2026算力服务市场盘点：如何识别靠谱的算力服务商？ - 新浪财经 2026算力服务市场盘点：如何识别靠谱的算力服务商？ 新浪财经",
+      "summary_cn": "中国联通重庆市分公司以全光算网一体化服务使能算力普惠山城！-AI云资讯 - icloudnews.net 中国联通重庆市分公司以全光算网一体化服务使能算力普惠山",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-014",
-      "title": "美国数据中心新建禁令7月激增 142个城市爆发反对活动 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1wNUQ1MEE0V041WmQ2WXMxSlBQUUJWTkZTVFVJWmo0VnBWTnhMMWRfbEZ6MHpSMTBCdnpIZjQzY0dLUllkNkE?oc=5",
-      "source": "财联社",
-      "category": "海外",
-      "published": "2026-08-10",
-      "body_snippet": "美国数据中心新建禁令7月激增 142个城市爆发反对活动 财联社",
+      "id": "raw-015",
+      "title": "【求是缘推荐】核共创营·算力产业链专场 | 与独角兽同频，向上市公司提案 - 电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLcnpNZFV4Slh5ME5WbU5ab19DYVUxVFFqYkVpR0M2OXEwYlVidXRGbWluZ1pUaHRDTzVXSWpKdFVtbUNMNHFCUllqUkhRNDlkR0Jn?oc=5",
+      "source": "电子工程专辑",
+      "category": "政策",
+      "published": "2026-08-11",
+      "body_snippet": "【求是缘推荐】核共创营·算力产业链专场 | 与独角兽同频，向上市公司提案 电子工程专辑",
       "_query_boost": 25,
-      "lane": "attend",
+      "lane": "silent",
       "signals": [
-        "—"
+        "💰",
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -298,13 +327,8 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "美国数据中心新建禁令7月激增 142个城市爆发反对活动 - 财联社 美国数据中心新建禁令7月激增 142个城市爆发反对活动 财联社",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
+      "summary_cn": "【求是缘推荐】核共创营·算力产业链专场 | 与独角兽同频，向上市公司提案 - 电子工程专辑 【求是缘推荐】核共创营·算力产业链专场 | 与独角兽同频，向上市公司",
+      "ppio_signal": null,
       "_classified_by": "rule"
     }
   ]

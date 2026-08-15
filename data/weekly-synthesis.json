@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-14T03:12:25.486Z",
-  "date": "2026-08-14",
-  "date_label": "2026-08-14",
+  "generated_at": "2026-08-15T02:04:19.427Z",
+  "date": "2026-08-15",
+  "date_label": "2026-08-15",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
     "📜": 0,
-    "⚔️": 0,
-    "💰": 0,
+    "⚔️": 1,
+    "💰": 1,
     "🌏": 0,
     "🔬": 8
   },
@@ -17,8 +17,8 @@
   },
   "wind_indicators": {
     "policy_heat": 2,
-    "competitor_heat": 2,
-    "capital_heat": 2,
+    "competitor_heat": 3,
+    "capital_heat": 3,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
@@ -35,14 +35,6 @@
     },
     {
       "id": "2",
-      "title": "习近平将出席2026世界人工智能大会暨人",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "3",
       "title": "“促进全球人工智能朝着向上向善、造福人类",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
@@ -50,16 +42,24 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "4",
-      "title": "字节跳动与百度开始测试竞彩网app手机版",
+      "id": "3",
+      "title": "智谱发布新模型GLM-5.3 强调模型编",
       "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "4",
+      "title": "GPT周报｜智谱发布GLM-5.3模型；",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     },
     {
       "id": "5",
-      "title": "美国数据中心新建禁令7月激增 142个城",
+      "title": "记忆能力达4+级！中兴通讯Co-Claw",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -71,8 +71,8 @@
     "delta": 0,
     "components": {
       "policy_tailwind": 0,
-      "competitive_pressure": 0,
-      "capital_sentiment": 0,
+      "competitive_pressure": -6,
+      "capital_sentiment": 5,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },
