@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-15T02:04:19.427Z",
-  "date": "2026-08-15",
-  "date_label": "2026-08-15",
+  "generated_at": "2026-08-16T02:11:08.031Z",
+  "date": "2026-08-16",
+  "date_label": "2026-08-16",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
-    "📜": 0,
+    "📜": 1,
     "⚔️": 1,
-    "💰": 1,
+    "💰": 0,
     "🌏": 0,
-    "🔬": 8
+    "🔬": 9
   },
   "speed_read": {
     "positive": [],
@@ -18,7 +18,7 @@
   "wind_indicators": {
     "policy_heat": 2,
     "competitor_heat": 3,
-    "capital_heat": 3,
+    "capital_heat": 2,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
@@ -35,14 +35,6 @@
     },
     {
       "id": "2",
-      "title": "“促进全球人工智能朝着向上向善、造福人类",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "3",
       "title": "智谱发布新模型GLM-5.3 强调模型编",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -50,7 +42,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "4",
+      "id": "3",
       "title": "GPT周报｜智谱发布GLM-5.3模型；",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -58,8 +50,24 @@
       "axis_reason": "规则估算"
     },
     {
+      "id": "4",
+      "title": "“New Global Table（新全",
+      "policy_axis": -0.5,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
       "id": "5",
       "title": "记忆能力达4+级！中兴通讯Co-Claw",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "6",
+      "title": "阿里通义千问正式开源Qwen3.8-27",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -72,8 +80,8 @@
     "components": {
       "policy_tailwind": 0,
       "competitive_pressure": -6,
-      "capital_sentiment": 5,
-      "regulatory_risk": 0,
+      "capital_sentiment": 0,
+      "regulatory_risk": -5,
       "overseas_headwind": 0
     },
     "interpretation": "规则估算，仅供参考"
