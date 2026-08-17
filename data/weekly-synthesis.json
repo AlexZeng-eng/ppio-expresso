@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-16T02:11:08.031Z",
-  "date": "2026-08-16",
-  "date_label": "2026-08-16",
+  "generated_at": "2026-08-17T02:08:52.059Z",
+  "date": "2026-08-17",
+  "date_label": "2026-08-17",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
-    "📜": 1,
+    "📜": 0,
     "⚔️": 1,
     "💰": 0,
     "🌏": 0,
-    "🔬": 9
+    "🔬": 8
   },
   "speed_read": {
     "positive": [],
@@ -35,7 +35,7 @@
     },
     {
       "id": "2",
-      "title": "智谱发布新模型GLM-5.3 强调模型编",
+      "title": "T早报｜蹩脚动画电影《牛来》走红；阿里巴",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -51,8 +51,8 @@
     },
     {
       "id": "4",
-      "title": "“New Global Table（新全",
-      "policy_axis": -0.5,
+      "title": "【数智周报】 华为云OfficeClaw",
+      "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
       "axis_reason": "规则估算"
@@ -81,7 +81,7 @@
       "policy_tailwind": 0,
       "competitive_pressure": -6,
       "capital_sentiment": 0,
-      "regulatory_risk": -5,
+      "regulatory_risk": 0,
       "overseas_headwind": 0
     },
     "interpretation": "规则估算，仅供参考"
