@@ -1,15 +1,25 @@
 {
-  "generated_at": "2026-08-17T02:08:51.967Z",
+  "generated_at": "2026-08-18T02:07:14.061Z",
   "week": "2026-W34",
   "date_range": {
-    "from": "2026-08-10",
-    "to": "2026-08-17"
+    "from": "2026-08-11",
+    "to": "2026-08-18"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
+      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - 中国驻塔吉克斯坦大使馆",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5EMTBHNXROeTBXYzZSa2hxdkN0U011cVlvS3lpZTNYdzlEb09wTV9YcW1aUjV0UkVYZ3JHb3ZoVjBKSVRXR28tLWZQQnFVTDlLUlhCZTdXcHp4dzg1WnE2S1R2UFR0eWpqUk9kZkNPRHR1bjB2?oc=5",
+      "source": "中国驻塔吉克斯坦大使馆",
+      "category": "政策",
+      "published": "2026-08-17",
+      "body_snippet": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 中国驻塔吉克斯坦大使馆",
+      "_query_boost": 50
+    },
+    {
+      "id": "raw-002",
       "title": "学习手记 | 习近平总书记指引人工智能发展与治理 - 党建网",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzQWFKYU5fUDc0UkhQX1FDbk1MOU1uLXluVW5oU3FQc2ExUGJ5bzljaEotR2t2b190YkFGOHJHdGhTbW9vbGIxc0Y3S01ZZnA0ZmhPbWJEUmtTS1d6bVdDeXFCVktHbGVBQ0swMmJSb0dXX0sw?oc=5",
       "source": "党建网",
@@ -19,23 +29,13 @@
       "_query_boost": 50
     },
     {
-      "id": "raw-002",
+      "id": "raw-003",
       "title": "T早报｜蹩脚动画电影《牛来》走红；阿里巴巴开源Qwen3.8系列模型；智谱发布新模型GLM-5.3；美商务部长：不希望苹果从中国采购存储芯片 - 财新",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3cnhuVnVaV3N2N0V0VGpqd01NdXlPa3FDQ1hpNkUyZElIa21hSzVnZ1ZMSXpzRlRGNVdDbnZTbGZqS0x0UjdHbmp3YldzbUxaZjYzREQtLTVQOHZsRHI5SC1jWXQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40TkF4VHpSV1FQanI4a1lFQThxT2ZnTy03ZzI5R1d5VkdMVlB6b3NqbFJ2d01zQUU2U3dVYjNjOUJ1bG5zU2ZmVVg3UC1VR2d0Q2M5YjRENElIVXFYOFRaT0xTMGNrVUU?oc=5",
       "source": "财新",
       "category": "技术",
       "published": "2026-08-17",
       "body_snippet": "T早报｜蹩脚动画电影《牛来》走红；阿里巴巴开源Qwen3.8系列模型；智谱发布新模型GLM-5.3；美商务部长：不希望苹果从中国采购存储芯片 财新",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-003",
-      "title": "深耕Token工厂赛道 硅基流动以技术与流量构筑AI算力服务新生态 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB5VFhxcEFaZm43czBvaDI2bDFUdTdLTlJldlRkZkJ4WHk3VThoXzQ0elp3LXptWEVWY1VIdEpET29ndWhyRUxnM3hQcW85QmU0S3dQZ1E3cVRIR3BFLXNYREFCY0NrNzhvdnU0THhDZG9rY01sdncxanEtdWI?oc=5",
-      "source": "新华网",
-      "category": "竞品",
-      "published": "2026-08-12",
-      "body_snippet": "深耕Token工厂赛道 硅基流动以技术与流量构筑AI算力服务新生态 新华网",
       "_query_boost": 20
     },
     {
@@ -60,6 +60,16 @@
     },
     {
       "id": "raw-006",
+      "title": "新一代通信网：数字经济时代的核心信息基座 | 拆解“六张网” - Jiemian.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LcGg5dTdOeHpvVzBVZ1VoSUozRFVhODBtSlhtOWQxcU5SaHZXZmRLYlNKYVVKNUl5OUlqRy1WVEVZUmQ4VXpQTFRCX1AtRi1iTGNlV3BTMEM?oc=5",
+      "source": "Jiemian.com",
+      "category": "政策",
+      "published": "2026-08-18",
+      "body_snippet": "新一代通信网：数字经济时代的核心信息基座 | 拆解“六张网” Jiemian.com",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-007",
       "title": "爱游戏・ayx体育(china)官方网站 技术体系成效显著：全球部署节点超12000个，AI算力生态覆盖86个行业 - womenofchina.com",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2NnFCTHdtVEVid0p4MGg4dHNLWmtfZEwxTlBYMFdVVmk5dmxBMkpYcXI4ZE83Ty1OWEtoQnRPY0NKQ29Ia19LeEhBamZHUUpUTEhqMlNMUjZNN3BPdkpCTjF4X09HYVh6YmRCNg?oc=5",
       "source": "womenofchina.com",
@@ -69,7 +79,7 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-007",
+      "id": "raw-008",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
@@ -79,27 +89,37 @@
       "_query_boost": 15
     },
     {
-      "id": "raw-008",
-      "title": "全球与国内算力建设前景深度分析 - t.cj.sina.cn",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uVGZSZTBCYkdXUndiZEF1RDh6cVRfTmpQNGo0SVJxbGlXbFhPNldPZzJaWnIxdlVOQzJUc1hxTWQxOXdiUDlxU0xGcURjT2hvaEpodFhWcl9LSWRyUGdDVlUzTTQwWlZHVEg5MTJNWjk?oc=5",
-      "source": "t.cj.sina.cn",
+      "id": "raw-009",
+      "title": "[国泰海通证券]：创业板算力基础设施指数投资价值分析：算力需求扩张，基础设施环节受益 - 发现报告",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xdGdUelhfSWNZeXZnLTNUZ19rZ2RfRHE4TEU4NHBhLXBRd2dVZnI4WWtUUDJieUFtOFdIZWxCRElMSGJPUTAtWkpPanhsVXBs?oc=5",
+      "source": "发现报告",
       "category": "竞品",
-      "published": "2026-08-15",
-      "body_snippet": "全球与国内算力建设前景深度分析 t.cj.sina.cn",
+      "published": "2026-08-17",
+      "body_snippet": "[国泰海通证券]：创业板算力基础设施指数投资价值分析：算力需求扩张，基础设施环节受益 发现报告",
       "_query_boost": 20
     },
     {
-      "id": "raw-009",
-      "title": "【禁闻】川普指北京煽动反AI浪潮美中算力差距曝光| AI资料中心| 美中AI竞争 | AI算力| 新唐人电视台 - 新唐人電視台",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE94RVBicVk2RUVvZ3BwT1V1SU9Lakh4WXFpSFdWX1hBUm9UeFJVRklmckZZZF9uQmNPRWdXTHp6bkJZcFRQVjZmSW9YMFpIWGl3dFpGSm5FNGpobmpSYVhsZGNrU05SUmk0Z1pQRg?oc=5",
-      "source": "新唐人電視台",
-      "category": "海外",
-      "published": "2026-08-14",
-      "body_snippet": "【禁闻】川普指北京煽动反AI浪潮美中算力差距曝光| AI资料中心| 美中AI竞争 | AI算力| 新唐人电视台 新唐人電視台",
+      "id": "raw-010",
+      "title": "超节点：市场规模剑指万亿，算力竞赛进入“系统级”较量！ - finance.sina.cn",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPanl6Q3pQaGVkTmNtelRpZnNfUW9yQWVhSlJmZW5ydDhFZ2tPSkdBMFlNcmJwSjRkNjRfUnZiMVFuUXZFdWdLMERyZUl6cW1DWnNpanlCWGxyeU9PRlRkaGh2cWk2bHlaWEZqTWhOLXdSeWFJMGpUNG81aUpDMHd4Yjc1VFVpbzByX1JVTmRzT2FDTkNibzRrZXZuVmFkT1pJQ0ZkRU14ZXRyU1dZOXVoMUtIandkMzZpTDJZWg?oc=5",
+      "source": "finance.sina.cn",
+      "category": "政策",
+      "published": "2026-08-17",
+      "body_snippet": "超节点：市场规模剑指万亿，算力竞赛进入“系统级”较量！ finance.sina.cn",
       "_query_boost": 25
     },
     {
-      "id": "raw-010",
+      "id": "raw-011",
+      "title": "米博体育8383：智能芯片算力革命与产业生态重塑 - womenofchina.com",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBaZ21GVjdyTGRWaDJMZzJETE5NZE1oSWMxMXZfRDB1Qkk0aXFYcm5kZG9RRW1aYXZVVUN0cWdVRXhkNFJrWThEYVJuR0pKQk12TTlCYXVyUjRjMHhtZEFN?oc=5",
+      "source": "womenofchina.com",
+      "category": "政策",
+      "published": "2026-08-17",
+      "body_snippet": "米博体育8383：智能芯片算力革命与产业生态重塑 womenofchina.com",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-012",
       "title": "活力中国调研行｜人工智能从“浙”里起飞 - 求是",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90SlluY2pVUUNzZDhwU3MxWDN5Sm5fZkktTG5KLVF4UEtXcXY4YU1WeWFFZXZHcUJCSFJVSmk3NDJnNXkyVzZBaVh3eUJ0c2pXS3IzZjdINWpKX3RWTzhEZDBuZS1YVGlXOXZtQlRxMUc3VmRsaU1NUmFHYmw?oc=5",
       "source": "求是",
@@ -109,17 +129,7 @@
       "_query_boost": 45
     },
     {
-      "id": "raw-011",
-      "title": "中国联通重庆市分公司以全光算网一体化服务使能算力普惠山城！ - cn.chinadaily.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90dEhncUcyTjVmd0hNRklBZkU3VXk2NkRCUUQzVjI3Q0FXX3NtQ1VicjNMNnp0bm1vVmFCd1Vna0hJZEExLWtYSEZxTVNhcklhMDZzbWg3RmF4QnNkR2ozMFBfQWJ2UzhZMUlLeHBMM2VMQnlEa1gyWU1QT24?oc=5",
-      "source": "cn.chinadaily.com.cn",
-      "category": "政策",
-      "published": "2026-08-11",
-      "body_snippet": "中国联通重庆市分公司以全光算网一体化服务使能算力普惠山城！ cn.chinadaily.com.cn",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-012",
+      "id": "raw-013",
       "title": "【数智周报】 华为云OfficeClaw升级为OfficeAce；Meta发布轻量化AI模型，单张显卡即可运行；千问办公助理收费；智谱宣布ZCode全面升级 - 潮起网",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ZdnNQeG5hYnNzSFpMejdnZklnWlRRaHYtYWVLejJVOXpETUFVbkNCRWVmZVNSYlBUVHNOdmpoWWdmT1M2a3hsWVVPdGN5S245SHcxYnpQUDgyRDJiUzBGdDZ3aw?oc=5",
       "source": "潮起网",
@@ -129,33 +139,23 @@
       "_query_boost": 15
     },
     {
-      "id": "raw-013",
+      "id": "raw-014",
+      "title": "全球与国内算力建设前景深度分析 - t.cj.sina.cn",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uVGZSZTBCYkdXUndiZEF1RDh6cVRfTmpQNGo0SVJxbGlXbFhPNldPZzJaWnIxdlVOQzJUc1hxTWQxOXdiUDlxU0xGcURjT2hvaEpodFhWcl9LSWRyUGdDVlUzTTQwWlZHVEg5MTJNWjk?oc=5",
+      "source": "t.cj.sina.cn",
+      "category": "竞品",
+      "published": "2026-08-15",
+      "body_snippet": "全球与国内算力建设前景深度分析 t.cj.sina.cn",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-015",
       "title": "记忆能力达4+级！中兴通讯Co-Claw智能体平台首批通过中国信通院可信AI认证 - ZTE",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUm8zSWJkT2swbE5JbWNmelJQcFNvNU0yV3BSWmgxTWN6dEpKbXdVUUJQZkZyd1BTajF4MHVkRjBkT2dabHM0MUxucDJxZW5mY1BBdFBTWklCdXcxX3p4dWM4QnNmemRUd0wxVzNCVE5BdXgyNHZIblQ5Um8zeVA2Tl8zOUQ1VzQyTWdEMnNiREM?oc=5",
       "source": "ZTE",
       "category": "监管",
       "published": "2026-08-14",
       "body_snippet": "记忆能力达4+级！中兴通讯Co-Claw智能体平台首批通过中国信通院可信AI认证 ZTE",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-014",
-      "title": "从“囤算力”到“织算网”，4万亿元算力基建大幕拉开 - QQ News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15YThzU3MzaWstV1JqWHpld2w1LUF0OGpLRHVMNnNVNmZHOGd2SlUyTnk5QUtqRmtlR1J6STRnaTc2U0lacDlDSV9RVFNsWm9Ja2VTOEJB?oc=5",
-      "source": "QQ News",
-      "category": "竞品",
-      "published": "2026-08-14",
-      "body_snippet": "从“囤算力”到“织算网”，4万亿元算力基建大幕拉开 QQ News",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-015",
-      "title": "阿里通义千问正式开源Qwen3.8-27B，支持原生多模态及26.2万上下文 - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4yVnFYbmlxX1ZzZGVCbU42MzZ5a0ROaWtXUXBYQ3QwYV9GckRoejk0VEFhRlJCQy1TWDNweEphZTBDWlgxeGFkdkNMZ1k4V1dnVXV3YXYxampWblhxbGMwVXQ1eWpNUQ?oc=5",
-      "source": "TradingView",
-      "category": "技术",
-      "published": "2026-08-14",
-      "body_snippet": "阿里通义千问正式开源Qwen3.8-27B，支持原生多模态及26.2万上下文 TradingView",
       "_query_boost": 20
     }
   ]

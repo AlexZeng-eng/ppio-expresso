@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T02:08:52.059Z",
-  "date": "2026-08-17",
-  "date_label": "2026-08-17",
+  "generated_at": "2026-08-18T02:07:14.177Z",
+  "date": "2026-08-18",
+  "date_label": "2026-08-18",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
@@ -9,7 +9,7 @@
     "⚔️": 1,
     "💰": 0,
     "🌏": 0,
-    "🔬": 8
+    "🔬": 7
   },
   "speed_read": {
     "positive": [],
@@ -27,7 +27,7 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "学习手记 | 习近平总书记指引人工智能发",
+      "title": "习近平出席2026世界人工智能大会暨人工",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
@@ -35,6 +35,14 @@
     },
     {
       "id": "2",
+      "title": "学习手记 | 习近平总书记指引人工智能发",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "3",
       "title": "T早报｜蹩脚动画电影《牛来》走红；阿里巴",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -42,7 +50,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "GPT周报｜智谱发布GLM-5.3模型；",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -50,7 +58,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "【数智周报】 华为云OfficeClaw",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -58,16 +66,8 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "5",
-      "title": "记忆能力达4+级！中兴通讯Co-Claw",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
       "id": "6",
-      "title": "阿里通义千问正式开源Qwen3.8-27",
+      "title": "记忆能力达4+级！中兴通讯Co-Claw",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
