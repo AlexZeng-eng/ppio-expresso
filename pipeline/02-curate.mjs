@@ -121,6 +121,7 @@ ${signalList}
 - 国常会/中央/部委级政策全部 lane:attend，is_deep_read:true
 - 习近平/李强/政治局常委调研或讲话涉及AI/算力，全部 lane:attend，is_deep_read:true
 - 习近平出席世界人工智能大会(WAIC)/AI全球治理会议，全部 lane:attend，is_deep_read:true — 最高规格战略意志信号
+- 上海AI服务贸易/出海政策（算力境外调用、模型产品出口、模速空间、浦东AI创新应用先导区），全部 lane:attend，is_deep_read:true — 与PPIO Modelhub海外算力叙事直接相关
 - 部委官方数据发布（如智能算力规模/上架率/用电量等），全部 lane:attend，is_deep_read:true — 不是快讯
 - 无问芯穹及 AI Infra 主要竞品（硅基流动/优刻得/七牛云/字节AI基建/阿里云/华为/阶跃星辰/智谱）的融资、产品、战略、收购动态，全部 lane:attend
 - 美国数据中心抗议/反AI基建信号 — 海外基建阻力，lane:attend
@@ -296,6 +297,8 @@ function ruleBasedClassify(item, config) {
   if (/NVDB.*通报|NVDB.*风险提示|工信部.*网络安全.*平台.*AI|Claude Code.*后门|AI编程工具.*后门|闭源.*后门|闭源模型.*安全|AI工具.*安全后门|安全后门.*AI/.test(title)) lane = 'attend';
   // 高端GPU供应链波动 — 供给紧张/缺货（不追价格）
   if (/B300.*供货|B300.*紧缺|B300.*交期|GB300.*供应|GPU.*缺货|GPU.*供应链.*波动|高端算力.*短缺|算力.*供给.*紧张/.test(title)) lane = 'attend';
+  // 上海AI服务贸易/出海 — 算力境外调用、模型出口、模速空间、浦东先导区（Modelhub叙事直接相关）
+  if (/服务贸易.*人工智能|人工智能.*服务贸易|算力.*境外调用|大模型.*境外调用|模型.*产品出口|模速空间|人工智能.*创新应用先导区/.test(title)) lane = 'attend';
 
   const isDeep = /政策原文|国务院|国常会|立法|招股书|深度分析|研究报告|政治局.*集体学习|习近平.*讲话/.test(title);
 

@@ -307,9 +307,12 @@ const PPIO_KEYWORDS = {
     /智能体产业/, /AI智能体.*政策/, /AI智能体.*规范/, /AI智能体.*发展/,
     /三部门.*AI/, /三部门.*智能体/, /国办.*人工智能/, /国务院.*AI/,
     // 上海市级政府
-    /上海市经信委/, /上海市数据局/, /上海市发改委/, /上海市委金融办/,
+    /上海市经信委/, /上海市数据局/, /上海市发改委/, /上海市委金融办/, /上海市商务委员会/,
     /浦东新区.*AI/, /浦东新区.*算力/, /浦东.*科经委/, /浦东.*数据局/,
     /张江科学城.*AI/, /张江.*算力/, /张江.*人工智能/,
+    // 上海AI服务贸易/出海（2026-07-30服务贸易示范区方案漏抓后补）
+    /服务贸易.*人工智能/, /人工智能.*服务贸易/, /算力.*境外调用/, /模型.*产品出口/,
+    /模速空间/, /人工智能.*创新应用先导区/, /具身智能.*出海/, /大模型.*出口/,
     // 高层调研/部署
     /丁薛祥/, /李强.*AI/, /李强.*算力/, /李强.*数字经济/, /李强.*人工智能/,
     /习近平.*人工智能/, /习近平.*算力/, /习近平.*数字经济/, /习近平.*科技/,
@@ -518,7 +521,7 @@ function scorePPIORelevance(item) {
   }
 
   // Shanghai gov sources: boost if content is AI/computing related
-  const isShanghaigov = /上海市经信委|上海经信委|上海市数据局|上海市发改委|上海市委金融办|浦东新区|张江科学城/.test(item.source || '');
+  const isShanghaigov = /上海市经信委|上海经信委|上海市数据局|上海市发改委|上海市委金融办|上海市商务委员会|上海市政府|浦东新区|张江科学城/.test(item.source || '');
   if (isShanghaigov && score > -50) {
     const isAIRelated = /人工智能|算力|大模型|智能体|数字经济|数据要素|AI|科技|创新|产业/.test(text);
     if (isAIRelated) {
@@ -537,7 +540,7 @@ function scorePPIORelevance(item) {
     }
     if (/新华社|中国政府网|工信部|发改委|证监会|网信办|广电总局|国家数据局|司法部/.test(item.source || '')) score += 35;
     if (/人民日报|央视|新华网|中国新闻网|科技日报|经济日报/.test(item.source || '')) score += 25;
-    if (/上海市经信委|上海经信委|上海市数据局|上海市发改委|上海市委金融办/.test(item.source || '')) score += 35;
+    if (/上海市经信委|上海经信委|上海市数据局|上海市发改委|上海市委金融办|上海市商务委员会|上海市政府/.test(item.source || '')) score += 35;
     if (/浦东新区|张江科学城|张江/.test(item.source || '')) score += 30;
     if (/财新|澎湃|thepaper|南华早报|SCMP|Reuters|Financial Times|FT\.com|联合早报|zaobao/.test(item.source || '')) score += 20;
     if (/21财经|21世纪经济|21jingji|第一财经|经济观察/.test(item.source || '')) score += 15;
@@ -745,6 +748,10 @@ function buildSearchQueries(config) {
   queries.push({ q: '上海市委金融办 科技金融 AI 算力', category: '政策' });
   queries.push({ q: '上海 十五五 服务业 智算云 AI 2026', category: '政策', boost: 20 });
   queries.push({ q: '上海 科学智能 百团百项 算力 语料 2026', category: '政策', boost: 20 });
+  // 上海AI服务贸易/出海 — 服务贸易示范区方案（算力境外调用/模型出口/模速空间/浦东先导区）
+  queries.push({ q: '上海 服务贸易 人工智能 算力 境外调用 2026', category: '政策', boost: 30 });
+  queries.push({ q: '上海市商务委员会 服务贸易 示范区 人工智能 大模型', category: '政策', boost: 25 });
+  queries.push({ q: '模速空间 徐汇 浦东 人工智能 先导区 大模型 2026', category: '政策', boost: 30 });
   queries.push({ q: '浦东新区 人工智能 算力 政策 产业', category: '政策' });
   queries.push({ q: '浦东新区科经委 AI 大模型 算力 支持', category: '政策' });
   queries.push({ q: '浦东新区数据局 数据要素 算力 开放', category: '政策' });
@@ -1031,6 +1038,7 @@ async function main() {
     { url: 'https://www.miit.gov.cn/jgsj/rj司/gzdt/index.html', source: '工信部-软件司' },
     { url: 'https://www.miit.gov.cn/xwfb/index.html', source: '工信部-新闻' },
     { url: 'https://www.shanghai.gov.cn/nw4411/index.html', source: '上海市政府-动态' },
+    { url: 'https://www.shanghai.gov.cn/nw12344/index.html', source: '上海市政府-政策文件' },
     { url: 'http://www.pdnews.cn/category/keji', source: '浦东新区-科技' },
   ];
   const govResults = await Promise.all(govPages.map(g => scrapeGovList(g.url, g.source)));
@@ -1062,6 +1070,15 @@ async function main() {
   // Filter by date (within 7 days)
   allItems = allItems.filter(item => isWithinWeek(item.published));
   console.log(`  Within 7 days: ${allItems.length} items`);
+
+  // Hard-drop gambling/SEO spam — spam farm titles stuff tech keywords (算力/智能芯片)
+  // to ride Google News ranking into our searches (e.g. "爱游戏・ayx体育 算力革命")
+  const SPAM_TITLE = /爱游戏|ayx体育|米博|开云|半岛体育|乐鱼|华体会|必威|betway|皇冠体育|AG旗舰|娱乐城|威尼斯人|时时彩|博彩|赌球|棋牌/i;
+  const spamDropped = allItems.filter(i => SPAM_TITLE.test(`${i.title||''} ${i.body_snippet||''}`) || SPAM_TITLE.test(i.source||''));
+  if (spamDropped.length) {
+    console.log(`  🚫 博彩垃圾过滤: dropped ${spamDropped.length} items (${spamDropped.slice(0,3).map(i=>i.title.slice(0,30)).join(' | ')})`);
+    allItems = allItems.filter(i => !spamDropped.includes(i));
+  }
 
   // Filter out items whose title contains a date older than 7 days
   // e.g. 【早报】2026-02-12 or titles with explicit old dates

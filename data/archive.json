@@ -1,43 +1,45 @@
 {
-  "updated_at": "2026-08-19T02:07:46.615Z",
+  "updated_at": "2026-08-19T07:19:09.692Z",
   "days": [
     {
       "date": "2026-08-19",
-      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "mainline": "习近平出席WAIC并发表主旨讲话，定调AI发展与治理，上海同步推出算力和模型出口创新方案，政策面利好集中释放，但美国反数据中心浪潮与芯片言论带来海外阻力",
       "signal_summary": {
-        "🏛️": 0,
-        "📜": 0,
-        "⚔️": 0,
-        "💰": 0,
-        "🌏": 0,
-        "🔬": 7
+        "🏛️": 4,
+        "📜": 2,
+        "⚔️": 2,
+        "💰": 2,
+        "🌏": 2,
+        "🔬": 3
       },
       "wind_indicators": {
-        "policy_heat": 2,
-        "competitor_heat": 2,
+        "policy_heat": 5,
+        "competitor_heat": 3,
         "capital_heat": 2,
-        "overseas_heat": 2,
-        "overall_sentiment": "平稳",
-        "summary": "规则估算，AI合成不可用时的占位数据。"
+        "overseas_heat": 3,
+        "overall_sentiment": "升温",
+        "summary": "高层定调叠加上海算力出口政策，促使行业风偏快速上升，但海外逆风与合规隐忧形成对冲，整体偏暖"
       },
       "ppio_index": {
-        "score": 55,
-        "delta": 0,
+        "score": 76,
+        "delta": 4,
         "components": {
-          "policy_tailwind": 0,
-          "competitive_pressure": 0,
-          "capital_sentiment": 0,
-          "regulatory_risk": 0,
-          "overseas_headwind": 0
+          "policy_tailwind": 50,
+          "competitive_pressure": -15,
+          "capital_sentiment": 10,
+          "regulatory_risk": -10,
+          "overseas_headwind": -9
         },
-        "interpretation": "规则估算，仅供参考"
+        "interpretation": "习近平讲话与上海算力出口方案强劲提振政策顺风，指数突破75关口，海外逆风与合规压力仅部分抵消乐观情绪"
       },
       "item_count": {
-        "total": 13,
-        "attend": 6,
+        "total": 14,
+        "attend": 7,
         "silent": 7
       },
-      "competitor_updates": []
+      "competitor_updates": [
+        "三大运营商齐推Token套餐：算力‘大众化’低价策略可能挤占边缘云推理市场，需关注定价和服务差异化"
+      ]
     },
     {
       "date": "2026-08-18",
