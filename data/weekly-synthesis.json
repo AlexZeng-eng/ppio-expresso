@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-18T02:07:14.177Z",
-  "date": "2026-08-18",
-  "date_label": "2026-08-18",
+  "generated_at": "2026-08-19T02:07:46.565Z",
+  "date": "2026-08-19",
+  "date_label": "2026-08-19",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
     "📜": 0,
-    "⚔️": 1,
+    "⚔️": 0,
     "💰": 0,
     "🌏": 0,
     "🔬": 7
@@ -17,7 +17,7 @@
   },
   "wind_indicators": {
     "policy_heat": 2,
-    "competitor_heat": 3,
+    "competitor_heat": 2,
     "capital_heat": 2,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
@@ -59,7 +59,7 @@
     },
     {
       "id": "5",
-      "title": "【数智周报】 华为云OfficeClaw",
+      "title": "美国出现反对建设数据中心潮 - fina",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -67,7 +67,7 @@
     },
     {
       "id": "6",
-      "title": "记忆能力达4+级！中兴通讯Co-Claw",
+      "title": "阿里通义千问正式开源Qwen3.8-27",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -79,7 +79,7 @@
     "delta": 0,
     "components": {
       "policy_tailwind": 0,
-      "competitive_pressure": -6,
+      "competitive_pressure": 0,
       "capital_sentiment": 0,
       "regulatory_risk": 0,
       "overseas_headwind": 0
