@@ -3,9 +3,9 @@
   "week": "2026-W34",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 14,
+  "total_curated": 12,
   "attend_count": 7,
-  "silent_count": 7,
+  "silent_count": 5,
   "items": [
     {
       "id": "manual-sh-service-trade-20260730",
@@ -240,52 +240,6 @@
         "c3"
       ],
       "summary_cn": "超节点：市场规模剑指万亿，算力竞赛进入“系统级”较量！ - finance.sina.com.cn 超节点：市场规模剑指万亿，算力竞赛进入“系统级”较量！ fi",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-010",
-      "title": "米博体育8383：智能芯片算力革命与产业生态重塑 - womenofchina.com",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBaZ21GVjdyTGRWaDJMZzJETE5NZE1oSWMxMXZfRDB1Qkk0aXFYcm5kZG9RRW1aYXZVVUN0cWdVRXhkNFJrWThEYVJuR0pKQk12TTlCYXVyUjRjMHhtZEFN?oc=5",
-      "source": "womenofchina.com",
-      "category": "政策",
-      "published": "2026-08-17",
-      "body_snippet": "米博体育8383：智能芯片算力革命与产业生态重塑 womenofchina.com",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "米博体育8383：智能芯片算力革命与产业生态重塑 - womenofchina.com 米博体育8383：智能芯片算力革命与产业生态重塑 womenofchin",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-011",
-      "title": "爱游戏・ayx体育(china)官方网站 技术体系成效显著：全球部署节点超12000个，AI算力生态覆盖86个行业 - womenofchina.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2NnFCTHdtVEVid0p4MGg4dHNLWmtfZEwxTlBYMFdVVmk5dmxBMkpYcXI4ZE83Ty1OWEtoQnRPY0NKQ29Ia19LeEhBamZHUUpUTEhqMlNMUjZNN3BPdkpCTjF4X09HYVh6YmRCNg?oc=5",
-      "source": "womenofchina.com",
-      "category": "政策",
-      "published": "2026-08-16",
-      "body_snippet": "爱游戏・ayx体育(china)官方网站 技术体系成效显著：全球部署节点超12000个，AI算力生态覆盖86个行业 womenofchina.com",
-      "_query_boost": 30,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "爱游戏・ayx体育(china)官方网站 技术体系成效显著：全球部署节点超12000个，AI算力生态覆盖86个行业 - womenofchina.com 爱游戏",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
