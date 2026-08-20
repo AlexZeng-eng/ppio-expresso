@@ -1,76 +1,88 @@
 {
-  "generated_at": "2026-08-20T02:07:03.865Z",
+  "generated_at": "2026-08-20T09:25:53.954Z",
   "date": "2026-08-20",
   "date_label": "2026-08-20",
-  "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+  "mainline": "算力网4万亿投资与国产大模型密集开源点燃边缘算力预期，但运营商Token套餐入局和中美博弈再添竞争压力",
   "signal_summary": {
-    "🏛️": 1,
+    "🏛️": 3,
     "📜": 0,
-    "⚔️": 0,
+    "⚔️": 3,
     "💰": 0,
-    "🌏": 0,
-    "🔬": 7
+    "🌏": 1,
+    "🔬": 3
   },
   "speed_read": {
-    "positive": [],
-    "risk": []
+    "positive": [
+      "4万亿投资潮涌算力网，智算基础设施进入爆发期，直接拉动边缘分布式算力需求",
+      "阿里、智谱、DeepSeek密集开源新模型，推理成本下降利好PPIO轻量化边缘推理场景",
+      "上海张江“十五五”规划明确突破光计算、类脑芯片，算力自主化刺激边缘部署"
+    ],
+    "risk": [
+      "三大运营商齐推Token套餐，AI算力大众化可能挤压第三方边缘云服务定价空间",
+      "特朗普再指责北京反AI浪潮并渲染中美算力差距，出口管制与数据合规不确定性上升"
+    ]
   },
   "wind_indicators": {
-    "policy_heat": 3,
-    "competitor_heat": 2,
+    "policy_heat": 4,
+    "competitor_heat": 3,
     "capital_heat": 2,
-    "overseas_heat": 2,
-    "overall_sentiment": "平稳",
-    "summary": "规则估算，AI合成不可用时的占位数据。"
+    "overseas_heat": 3,
+    "overall_sentiment": "升温",
+    "sumary": "算力基建政策窗口密集打开，开源模型竞赛带火推理需求，但运营商套餐与大单签约显示下游竞争形态正在重塑"
   },
-  "competitor_updates": [],
+  "competitor_updates": [
+    "三大运营商齐推Token套餐，AI算力服务向大众化渗透",
+    "赛意信息签订金额超去年营收3倍的算力大单，下游需求强劲但供给端争夺加剧"
+  ],
   "item_axes": [
     {
       "id": "1",
-      "title": "T早报｜蹩脚动画电影《牛来》走红；阿里巴",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
+      "title": "T早报｜蹩脚动画电影走红；阿里巴巴开源Qwen3.8；美商务部长言论",
+      "policy_axis": -0.3,
+      "competition_axis": 0.7,
+      "impact_score": 3,
+      "axis_reason": "美官员限制芯片采购释放中美脱钩信号，但模型开源加剧国内底层算力竞争"
     },
     {
       "id": "2",
-      "title": "GPT周报｜智谱发布GLM-5.3模型；",
+      "title": "GPT周报｜智谱发布GLM-5.3；DeepSeek发布V4 Pro；Manus恢复独立运营",
       "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
+      "competition_axis": 0.8,
+      "impact_score": 4,
+      "axis_reason": "头部模型厂商密集发布新产品，AI Infra层竞争强度进一步抬升，对算力平台提出差异化要求"
     },
     {
       "id": "3",
-      "title": "阿里通义千问正式开源Qwen3.8-27",
+      "title": "阿里通义千问正式开源Qwen3.8-27B，支持原生多模态及长上下文",
       "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "4",
-      "title": "省政府与部分部委央企在京举行工作会谈 毛",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
+      "competition_axis": 0.7,
+      "impact_score": 3,
+      "axis_reason": "高频开源推动模型推理平民化，利于边缘场景但削弱平台独占优势"
     }
   ],
   "ppio_index": {
-    "score": 55,
-    "delta": 0,
-    "components": {
-      "policy_tailwind": 8,
-      "competitive_pressure": 0,
-      "capital_sentiment": 0,
-      "regulatory_risk": 0,
-      "overseas_headwind": 0
+    "score": 86,
+    "delta": 8,
+    "componets": {
+      "policy_tailwind": 52,
+      "competitive_pressure": -18,
+      "capital_sentiment": 16,
+      "regulatory_risk": -6,
+      "overseas_headwind": -8
     },
-    "interpretation": "规则估算，仅供参考"
+    "interpetation": "算力基建地方细则与开源模型生态双重利好推高政策顺风，抵消运营商入局与海外施压的负面影响，指数温和上行"
   },
-  "policy_momentum": [],
-  "expected_but_absent": [],
-  "_generated_by": "template"
+  "policy_momentum": [
+    {
+      "thread": "算力基础设施建设",
+      "last_signal": "多地发布算力发展规划",
+      "this_signal": "4万亿投资潮涌算力网，绿色算力大会与上海张江规划跟进",
+      "level_delta": "升级",
+      "interpetation": "算力投资规模与地方执行细则集中浮出，PPIO边缘节点部署的政策基础进一步夯实"
+    }
+  ],
+  "expected_but_absent": [
+    "人工智能法草案征求意见稿"
+  ],
+  "_generated_by": "ai"
 }

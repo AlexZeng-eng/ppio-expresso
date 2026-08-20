@@ -3,8 +3,8 @@
   "week": "2026-W34",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 11,
-  "attend_count": 4,
+  "total_curated": 10,
+  "attend_count": 3,
   "silent_count": 7,
   "items": [
     {
@@ -181,34 +181,6 @@
       ],
       "summary_cn": "全球与国内算力建设前景深度分析 - t.cj.sina.cn 全球与国内算力建设前景深度分析 t.cj.sina.cn",
       "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "省政府与部分部委央企在京举行工作会谈 毛伟明程福波丁向群孙永才出席 - 湖南红网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1MUWpYSFFvS0tqZjQzaGg5enhCd2k1eHFvNWtOeUpScl93bTdIREtFLVdpSldUMTJQVFVKY3h5NE5WR3pra0xJRmNPMFVZRS1JWEpuSldrdGVhODQzY2E4bjNR?oc=5",
-      "source": "湖南红网",
-      "category": "政策",
-      "published": "2026-08-19",
-      "body_snippet": "省政府与部分部委央企在京举行工作会谈 毛伟明程福波丁向群孙永才出席 湖南红网",
-      "_query_boost": 45,
-      "lane": "attend",
-      "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "省政府与部分部委央企在京举行工作会谈 毛伟明程福波丁向群孙永才出席 - 湖南红网 省政府与部分部委央企在京举行工作会谈 毛伟明程福波丁向群孙永才出席 湖南红网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
       "_classified_by": "rule"
     },
     {

@@ -118,7 +118,7 @@ ${signalList}
 - lane:skip = 无信号触发 → 不入库
 
 例外（全部 lane:attend）：
-- 国常会/中央/部委级政策全部 lane:attend，is_deep_read:true
+- 国常会/中央/部委级政策全部 lane:attend，is_deep_read:true（指中央部委自身印发的政策/数据/署名文章；省级政府与部委的例行工作会谈、签约、座谈会若无AI/算力实质内容则 lane:skip）
 - 习近平/李强/政治局常委调研或讲话涉及AI/算力，全部 lane:attend，is_deep_read:true
 - 习近平出席世界人工智能大会(WAIC)/AI全球治理会议，全部 lane:attend，is_deep_read:true — 最高规格战略意志信号
 - 上海AI服务贸易/出海政策（算力境外调用、模型产品出口、模速空间、浦东AI创新应用先导区），全部 lane:attend，is_deep_read:true — 与PPIO Modelhub海外算力叙事直接相关
@@ -228,6 +228,12 @@ function ruleBasedClassify(item, config) {
   const category = item.category || '';
   const signals = [];
   const compasses = [];
+
+  // 省级政府例行会谈/座谈/会见/签约，若无 AI/算力/科技 实质内容 → 直接 skip
+  // （避免 Google News 蹭"部委/央企"关键词的无关地方新闻被当作政策信号）
+  if (/省政府|省人民|省委/.test(title) && /会谈|座谈|会见|签约|合作交流/.test(title) && !/人工智能|AI|算力|大模型|数字经济|数据要素|未来产业|具身智能|科技|创新|产业/.test(title)) {
+    return { lane: 'skip', signals: ['—'], category: '政策', is_deep_read: false, compass_triggered: ['c1'], summary_cn: '', ppio_signal: null, _classified_by: 'rule' };
+  }
 
   // Keyword-based signal detection
   const rules = [

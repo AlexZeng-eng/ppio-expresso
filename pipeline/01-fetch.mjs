@@ -558,8 +558,10 @@ function scorePPIORelevance(item) {
     if (/【早报】|【晚报】|【日报】|早知道|每日速递/.test(title)) score -= 15;
   }
 
-  // Query-level boost: items from high-signal queries get a floor raise
-  if (item._query_boost && score > -50) {
+  // Query-level boost: items from high-signal queries get a floor raise.
+  // 关键: 仅当命中 PPIO 关键词(matched)时才加权 — 否则 Google News 对高权重查询的
+  // 模糊匹配会把无关新闻(如"省政府与部委央企会谈")以 boost 分硬拉进 top15。
+  if (item._query_boost && matched && score > -50) {
     score += item._query_boost;
   }
 
