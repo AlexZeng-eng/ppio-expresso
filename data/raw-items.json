@@ -1,45 +1,15 @@
 {
-  "generated_at": "2026-08-19T02:07:46.435Z",
+  "generated_at": "2026-08-20T01:40:49.482Z",
   "week": "2026-W34",
   "date_range": {
-    "from": "2026-08-12",
-    "to": "2026-08-19"
+    "from": "2026-08-13",
+    "to": "2026-08-20"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - 中国驻塔吉克斯坦大使馆",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5EMTBHNXROeTBXYzZSa2hxdkN0U011cVlvS3lpZTNYdzlEb09wTV9YcW1aUjV0UkVYZ3JHb3ZoVjBKSVRXR28tLWZQQnFVTDlLUlhCZTdXcHp4dzg1WnE2S1R2UFR0eWpqUk9kZkNPRHR1bjB2?oc=5",
-      "source": "中国驻塔吉克斯坦大使馆",
-      "category": "政策",
-      "published": "2026-08-17",
-      "body_snippet": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 中国驻塔吉克斯坦大使馆",
-      "_query_boost": 50
-    },
-    {
-      "id": "raw-002",
-      "title": "学习手记 | 习近平总书记指引人工智能发展与治理 - 党建网",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzQWFKYU5fUDc0UkhQX1FDbk1MOU1uLXluVW5oU3FQc2ExUGJ5bzljaEotR2t2b190YkFGOHJHdGhTbW9vbGIxc0Y3S01ZZnA0ZmhPbWJEUmtTS1d6bVdDeXFCVktHbGVBQ0swMmJSb0dXX0sw?oc=5",
-      "source": "党建网",
-      "category": "政策",
-      "published": "2026-08-13",
-      "body_snippet": "学习手记 | 习近平总书记指引人工智能发展与治理 党建网",
-      "_query_boost": 50
-    },
-    {
-      "id": "raw-003",
-      "title": "T早报｜蹩脚动画电影《牛来》走红；阿里巴巴开源Qwen3.8系列模型；智谱发布新模型GLM-5.3；美商务部长：不希望苹果从中国采购存储芯片 - 财新",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40TkF4VHpSV1FQanI4a1lFQThxT2ZnTy03ZzI5R1d5VkdMVlB6b3NqbFJ2d01zQUU2U3dVYjNjOUJ1bG5zU2ZmVVg3UC1VR2d0Q2M5YjRENElIVXFYOFRaT0xTMGNrVUU?oc=5",
-      "source": "财新",
-      "category": "技术",
-      "published": "2026-08-17",
-      "body_snippet": "T早报｜蹩脚动画电影《牛来》走红；阿里巴巴开源Qwen3.8系列模型；智谱发布新模型GLM-5.3；美商务部长：不希望苹果从中国采购存储芯片 财新",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-004",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
@@ -49,7 +19,17 @@
       "_query_boost": 15
     },
     {
-      "id": "raw-005",
+      "id": "raw-002",
+      "title": "T早报｜蹩脚动画电影《牛来》走红；阿里巴巴开源Qwen3.8系列模型；智谱发布新模型GLM-5.3；美商务部长：不希望苹果从中国采购存储芯片 - 财新",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40TkF4VHpSV1FQanI4a1lFQThxT2ZnTy03ZzI5R1d5VkdMVlB6b3NqbFJ2d01zQUU2U3dVYjNjOUJ1bG5zU2ZmVVg3UC1VR2d0Q2M5YjRENElIVXFYOFRaT0xTMGNrVUU?oc=5",
+      "source": "财新",
+      "category": "技术",
+      "published": "2026-08-17",
+      "body_snippet": "T早报｜蹩脚动画电影《牛来》走红；阿里巴巴开源Qwen3.8系列模型；智谱发布新模型GLM-5.3；美商务部长：不希望苹果从中国采购存储芯片 财新",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-003",
       "title": "GPT周报｜智谱发布GLM-5.3模型；DeepSeek发布V4 Pro正式版和Harness工具；Manus恢复独立公司运营；腾讯预告发布更大参数模型Hy4 - 财新",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tU09odjZicUFPYnRxbXIxMEN6QVNReEZLXzBfSUswU05LOG9BczI2UDdKcFp4YXpWU00yYVFTdWxuY2thVmhqSHdKVUxGYXJwVUNueDhhZzRHWGFVYTVFZGdIMUpBOTQ?oc=5",
       "source": "财新",
@@ -59,7 +39,7 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-006",
+      "id": "raw-004",
       "title": "4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 - 见道网",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1rZEJJb28xcmpmQV9LRU5NS2U0ME16TjlTSGdTZTBvZmpMdG9XVm9qM01sZVFjMVJEVDMtZ0xwWFY2UVEyNUx6ekZSTEQ1aVVFNDNfNA?oc=5",
       "source": "见道网",
@@ -69,57 +49,37 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-007",
-      "title": "新一代通信网：数字经济时代的核心信息基座 | 拆解“六张网” - Jiemian.com",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LcGg5dTdOeHpvVzBVZ1VoSUozRFVhODBtSlhtOWQxcU5SaHZXZmRLYlNKYVVKNUl5OUlqRy1WVEVZUmQ4VXpQTFRCX1AtRi1iTGNlV3BTMEM?oc=5",
-      "source": "Jiemian.com",
-      "category": "政策",
-      "published": "2026-08-18",
-      "body_snippet": "新一代通信网：数字经济时代的核心信息基座 | 拆解“六张网” Jiemian.com",
+      "id": "raw-005",
+      "title": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 - 光通信Pro",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1tN25UVXVNX0xWTlZRZW1pR3hQM2wza3h5ZGhUNTNjOUJNZjhwd3IxLXZ1MWZ0M0VYaEdSUGtxQkt5NWtadDdLdHRJU2hCLUQwU2d5cnk0cw?oc=5",
+      "source": "光通信Pro",
+      "category": "竞品",
+      "published": "2026-08-19",
+      "body_snippet": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 光通信Pro",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-006",
+      "title": "【禁闻】川普指北京煽动反AI浪潮美中算力差距曝光| AI资料中心| 美中AI竞争 | AI算力| 新唐人电视台 - 新唐人電視台",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE94RVBicVk2RUVvZ3BwT1V1SU9Lakh4WXFpSFdWX1hBUm9UeFJVRklmckZZZF9uQmNPRWdXTHp6bkJZcFRQVjZmSW9YMFpIWGl3dFpGSm5FNGpobmpSYVhsZGNrU05SUmk0Z1pQRg?oc=5",
+      "source": "新唐人電視台",
+      "category": "海外",
+      "published": "2026-08-14",
+      "body_snippet": "【禁闻】川普指北京煽动反AI浪潮美中算力差距曝光| AI资料中心| 美中AI竞争 | AI算力| 新唐人电视台 新唐人電視台",
       "_query_boost": 25
+    },
+    {
+      "id": "raw-007",
+      "title": "从“放牧牛羊”到“放牧算力”：一座草原城市的产业跃迁 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWjdKT0JBR3I4UkJjVUlPU1FkNHQ4SWlaTGhoaTdrMW45aXBydmdPQUdxRlNZdlFTeVRYZ0JXYlRnS2w4SGJQQlBYRENLaXJ1R0F4emxCbDZJSnF6WTJYVFA1bHNpV0d1WnNMR01HUFhreXdLd2Q5ZmFFOUFEb3RKRFctUy0?oc=5",
+      "source": "新浪财经",
+      "category": "技术",
+      "published": "2026-08-19",
+      "body_snippet": "从“放牧牛羊”到“放牧算力”：一座草原城市的产业跃迁 新浪财经",
+      "_query_boost": 15
     },
     {
       "id": "raw-008",
-      "title": "美国出现反对建设数据中心潮 - finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcVhiSjRuemRHX3l2WHk0RHk3V09tU3hNZ3NKdlZWbWlPUFlSS3FwQmY3cmtTRS13aDFXdTJmYjM5aXp2clhZYWRWLWg0STJTVjFsbmM4aDlLblFHYmNHYkVOV1RPcGJkcVZya2RTYUE5X3pSdndjeGpBMkxyTk5ObC01Vnd3X0k2Wm9OWXA4eEhyVmdaVGc3QU5NdTFTS1JZQy1hLVdtQkM2Sk1raWJab3FR?oc=5",
-      "source": "finance.sina.com.cn",
-      "category": "海外",
-      "published": "2026-08-18",
-      "body_snippet": "美国出现反对建设数据中心潮 finance.sina.com.cn",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-009",
-      "title": "超节点：市场规模剑指万亿，算力竞赛进入“系统级”较量！ - finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPanl6Q3pQaGVkTmNtelRpZnNfUW9yQWVhSlJmZW5ydDhFZ2tPSkdBMFlNcmJwSjRkNjRfUnZiMVFuUXZFdWdLMERyZUl6cW1DWnNpanlCWGxyeU9PRlRkaGh2cWk2bHlaWEZqTWhOLXdSeWFJMGpUNG81aUpDMHd4Yjc1VFVpbzByX1JVTmRzT2FDTkNibzRrZXZuVmFkT1pJQ0ZkRU14ZXRyU1dZOXVoMUtIandkMzZpTDJZWg?oc=5",
-      "source": "finance.sina.com.cn",
-      "category": "政策",
-      "published": "2026-08-17",
-      "body_snippet": "超节点：市场规模剑指万亿，算力竞赛进入“系统级”较量！ finance.sina.com.cn",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-012",
-      "title": "山东铁路基金公司与硅基流动达成战略合作，共建Token工厂 - 大河财立方",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SSktNTTJaNHhKWGk5MlJ3SnRkMDVvY1ctQWxBcHdfd21XeTNXR3FPVHJHV3Jlei1zbUg3LV9pbFJwRC1xY2cyQjBVSEd2UVptN2FEQUxGbUU1NTNQYUhQOXZOQXVWcjktTExoMURZNzZTc05O?oc=5",
-      "source": "大河财立方",
-      "category": "竞品",
-      "published": "2026-08-18",
-      "body_snippet": "山东铁路基金公司与硅基流动达成战略合作，共建Token工厂 大河财立方",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-013",
-      "title": "全球与国内算力建设前景深度分析 - t.cj.sina.cn",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uVGZSZTBCYkdXUndiZEF1RDh6cVRfTmpQNGo0SVJxbGlXbFhPNldPZzJaWnIxdlVOQzJUc1hxTWQxOXdiUDlxU0xGcURjT2hvaEpodFhWcl9LSWRyUGdDVlUzTTQwWlZHVEg5MTJNWjk?oc=5",
-      "source": "t.cj.sina.cn",
-      "category": "竞品",
-      "published": "2026-08-15",
-      "body_snippet": "全球与国内算力建设前景深度分析 t.cj.sina.cn",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-014",
       "title": "从“囤算力”到“织算网”，4万亿元算力基建大幕拉开 - QQ News",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15YThzU3MzaWstV1JqWHpld2w1LUF0OGpLRHVMNnNVNmZHOGd2SlUyTnk5QUtqRmtlR1J6STRnaTc2U0lacDlDSV9RVFNsWm9Ja2VTOEJB?oc=5",
       "source": "QQ News",
@@ -129,7 +89,7 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-015",
+      "id": "raw-009",
       "title": "阿里通义千问正式开源Qwen3.8-27B，支持原生多模态及26.2万上下文 - TradingView",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4yVnFYbmlxX1ZzZGVCbU42MzZ5a0ROaWtXUXBYQ3QwYV9GckRoejk0VEFhRlJCQy1TWDNweEphZTBDWlgxeGFkdkNMZ1k4V1dnVXV3YXYxampWblhxbGMwVXQ1eWpNUQ?oc=5",
       "source": "TradingView",
@@ -137,6 +97,64 @@
       "published": "2026-08-14",
       "body_snippet": "阿里通义千问正式开源Qwen3.8-27B，支持原生多模态及26.2万上下文 TradingView",
       "_query_boost": 20
+    },
+    {
+      "id": "raw-010",
+      "title": "全球与国内算力建设前景深度分析 - t.cj.sina.cn",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uVGZSZTBCYkdXUndiZEF1RDh6cVRfTmpQNGo0SVJxbGlXbFhPNldPZzJaWnIxdlVOQzJUc1hxTWQxOXdiUDlxU0xGcURjT2hvaEpodFhWcl9LSWRyUGdDVlUzTTQwWlZHVEg5MTJNWjk?oc=5",
+      "source": "t.cj.sina.cn",
+      "category": "竞品",
+      "published": "2026-08-15",
+      "body_snippet": "全球与国内算力建设前景深度分析 t.cj.sina.cn",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-011",
+      "title": "我国首个渔业大模型4. 0 版发布，算力飙升、直击八大核心！ - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE45TkJGWHhiRUlBNXRYS0hVME9YOHZLQ2JIcDZHV04tbXZtVl83cm0xaFZvLTlhQlRPWWlJQnRKblVnd2JfZkJtbEdGYm8wUQ?oc=5",
+      "source": "AIBase",
+      "category": "技术",
+      "published": "2026-08-18",
+      "body_snippet": "我国首个渔业大模型4. 0 版发布，算力飙升、直击八大核心！ AIBase",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-012",
+      "title": "消息称英伟达在北欧充当 AI 算力“牵线人”，当地数据中心交易热度攀升",
+      "url": "https://www.ithome.com/0/991/900.htm",
+      "source": "IT之家",
+      "published": "2026-08-20",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-013",
+      "title": "千年“妈祖”，何以锻造中国科技名片？ - 东南网",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBrV0R5cFZ5Q3RRY2V5N2g2a2VLNjJnNFp3Z0lubHh4R3BfTnNpQ1h6U2ZuVUNtX1VzLUZCYjRyTDduNnRveEswaWVrSC1vYklZVXJXYm5Qd1oydTFzeGQzdTVmc0NPQQ?oc=5",
+      "source": "东南网",
+      "category": "政策",
+      "published": "2026-08-19",
+      "body_snippet": "千年“妈祖”，何以锻造中国科技名片？ 东南网",
+      "_query_boost": 50
+    },
+    {
+      "id": "raw-014",
+      "title": "广州拟立法促进人工智能发展：建设统一算力调度平台和应用赋能中心 - 广州日报新花城",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ2g0UWw1YnpjMGt2OFhaVkRMOWpmWjAyS0VTTnZnTU5LT1FrSHVNdVdxc2xGZDJRYlNKSjNoUWpSS2dMRlBsNE81OUY2dEVBaU5qc19IbF9MSGxHVkFSejJsM01XbzlLN2N4akVMY0NlT0hkeElxVG93TjZWaDhuM1JGc2Ytb3VVb1E?oc=5",
+      "source": "广州日报新花城",
+      "category": "政策",
+      "published": "2026-08-17",
+      "body_snippet": "广州拟立法促进人工智能发展：建设统一算力调度平台和应用赋能中心 广州日报新花城",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-015",
+      "title": "特朗普力挺 AI 数据中心：反对建设的州和社区将被甩在后面",
+      "url": "https://www.ithome.com/0/991/871.htm",
+      "source": "IT之家",
+      "published": "2026-08-19",
+      "body_snippet": "",
+      "category": "技术"
     }
   ]
 }

@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-08-19T07:23:26.583Z",
+  "updated_at": "2026-08-20T01:48:28.638Z",
   "days": [
+    {
+      "date": "2026-08-20",
+      "mainline": "今日主线：4万亿「织算网」政策明确指向边缘/分布式算力，PPIO核心叙事获国家级背书；但三大运营商Token套餐启动算力大众化，价格战压力逼近。",
+      "signal_summary": {
+        "🏛️": 2,
+        "📜": 1,
+        "⚔️": 1,
+        "💰": 1,
+        "🌏": 3,
+        "🔬": 2
+      },
+      "wind_indicators": {
+        "policy_heat": 4,
+        "competitor_heat": 4,
+        "capital_heat": 3,
+        "overseas_heat": 3,
+        "overall_sentiment": "升温",
+        "summary": "政策与资本同向加码算力网基建，但运营商入局把竞争推向大众化，机会与挤压并存。"
+      },
+      "ppio_index": {
+        "score": 78,
+        "delta": 2,
+        "components": {
+          "policy_tailwind": 40,
+          "competitive_pressure": -24,
+          "capital_sentiment": 12,
+          "regulatory_risk": -14,
+          "overseas_headwind": -10
+        },
+        "interpretation": "政策与资本双向加码算力网小幅推高指数，但运营商Token套餐的竞争压力限制了上行幅度。"
+      },
+      "item_count": {
+        "total": 9,
+        "attend": 4,
+        "silent": 5
+      },
+      "competitor_updates": [
+        "新增：三大运营商（移动/电信/联通）推出Token化算力套餐，中国移动「九天Token」基础版约0.1元/千Tok，运营商正式切入按量推理交付，形成价格锚点与渠道竞争"
+      ]
+    },
     {
       "date": "2026-08-19",
       "mainline": "习近平出席WAIC并发表主旨讲话，定调AI发展与治理，上海同步推出算力和模型出口创新方案，政策面利好集中释放，但美国反数据中心浪潮与芯片言论带来海外阻力",
