@@ -1,57 +1,116 @@
 {
-  "generated_at": "2026-08-20T01:45:28.356Z",
+  "generated_at": "2026-08-20T02:07:03.828Z",
   "week": "2026-W34",
-  "classifier": "deepseek-v4-pro",
+  "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 9,
+  "total_curated": 11,
   "attend_count": 4,
-  "silent_count": 5,
+  "silent_count": 7,
   "items": [
     {
-      "id": "raw-1",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "id": "raw-001",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - cls.cn",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
+      "source": "cls.cn",
       "category": "竞品",
       "published": "2026-08-18",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ cls.cn",
       "_query_boost": 15,
-      "lane": "attend",
+      "lane": "silent",
       "signals": [
-        "⚔️"
+        "🔬"
       ],
-      "is_deep_read": true,
+      "is_deep_read": false,
       "compass_triggered": [
-        "c2"
+        "c1",
+        "c2",
+        "c3"
       ],
-      "summary_cn": "三大运营商（移动、电信、联通）近期推出Token化算力套餐，用户可按Token购买AI推理能力，标志着算力从资源型租赁向价值型交付转变。以中国移动“九天Token”为例，基础版定价约0.1元/千Token，低于主流云厂商20%-30%。对PPIO而言：运营商进入Token模式将重塑算力定价体系，PPIO的边缘分布式算力若采用类似Token计费，需评估与运营商网络的协同性（如联通5G MEC节点）。同时，Token化降低了AI应用使用门槛，可能驱动更多长尾推理需求向边缘迁移，利好PPIO的模型分发与就近计算场景。但运营商凭借网络资源与政企渠道优势，可能在城市核心区域对PPIO形成压制，PPIO需聚焦中小城市与低时延差异化场景。",
-      "ppio_signal": {
-        "positive": "Token化推动算力普及，扩大边缘推理需求市场，PPIO的分布式节点可提供更低延迟的本地Token处理，有机会切入运营商覆盖不足的细分场景。",
-        "risk": "三大运营商卡位4G/5G边缘节点，若将Token套餐与自身边缘算力绑定，将挤压PPIO在核心城市的空间；且运营商降价可能拉低整体算力价格，PPIO需证明边际成本优势。",
-        "beneficiaries": "AI应用企业（如AIGC初创公司）、边缘算力平台（PPIO、金山云）、低算功耗芯片厂商（如ARM架构服务器处理器）",
-        "pressure_parties": "传统集中式云厂商（阿里云、腾讯云——运营商MEC分流）、纯资源出租型IDC（光环新网、万国数据——价值竞争加剧）"
-      }
+      "summary_cn": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - cls.cn 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ cls.cn",
+      "ppio_signal": null,
+      "_classified_by": "rule"
     },
     {
-      "id": "raw-4",
+      "id": "raw-002",
+      "title": "T早报｜蹩脚动画电影《牛来》走红；阿里巴巴开源Qwen3.8系列模型；智谱发布新模型GLM-5.3；美商务部长：不希望苹果从中国采购存储芯片 - 财新",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40TkF4VHpSV1FQanI4a1lFQThxT2ZnTy03ZzI5R1d5VkdMVlB6b3NqbFJ2d01zQUU2U3dVYjNjOUJ1bG5zU2ZmVVg3UC1VR2d0Q2M5YjRENElIVXFYOFRaT0xTMGNrVUU?oc=5",
+      "source": "财新",
+      "category": "技术",
+      "published": "2026-08-17",
+      "body_snippet": "T早报｜蹩脚动画电影《牛来》走红；阿里巴巴开源Qwen3.8系列模型；智谱发布新模型GLM-5.3；美商务部长：不希望苹果从中国采购存储芯片 财新",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "不希望苹果从中国采购存储芯片 - 财新 T早报｜蹩脚动画电影《牛来》走红；阿里巴巴开源Qwen3.8系列模型；智谱发布新模型GLM-5.3；美商务部长：不希望苹果从中国采购存储芯片 财新",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-003",
+      "title": "GPT周报｜智谱发布GLM-5.3模型；DeepSeek发布V4 Pro正式版和Harness工具；Manus恢复独立公司运营；腾讯预告发布更大参数模型Hy4 - 财新",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tU09odjZicUFPYnRxbXIxMEN6QVNReEZLXzBfSUswU05LOG9BczI2UDdKcFp4YXpWU00yYVFTdWxuY2thVmhqSHdKVUxGYXJwVUNueDhhZzRHWGFVYTVFZGdIMUpBOTQ?oc=5",
+      "source": "财新",
+      "category": "技术",
+      "published": "2026-08-14",
+      "body_snippet": "GPT周报｜智谱发布GLM-5.3模型；DeepSeek发布V4 Pro正式版和Harness工具；Manus恢复独立公司运营；腾讯预告发布更大参数模型Hy4 财新",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "GPT周报｜智谱发布GLM-5.3模型；DeepSeek发布V4 Pro正式版和Harness工具；Manus恢复独立公司运营；腾讯预告发布更大参数模型Hy4 - 财新 GPT周报｜智谱发布GLM-5.3模型；DeepSeek发布V4 Pro正式版和Harness工具；Manus恢复独立公司运营；腾讯预告发布更大参数模型Hy4 财新",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-004",
       "title": "4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 - 见道网",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1rZEJJb28xcmpmQV9LRU5NS2U0ME16TjlTSGdTZTBvZmpMdG9XVm9qM01sZVFjMVJEVDMtZ0xwWFY2UVEyNUx6ekZSTEQ1aVVFNDNfNA?oc=5",
       "source": "见道网",
-      "category": "资本",
+      "category": "政策",
       "published": "2026-08-14",
       "body_snippet": "4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 见道网",
       "_query_boost": 30,
       "lane": "silent",
       "signals": [
-        "💰"
+        "🔬"
       ],
       "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "媒体报道称国内智算基础设施投资将达4万亿元，智算中心进入爆发期，但未提及具体政策文件或官方数据发布。",
-      "ppio_signal": null
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 - 见道网 4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 见道网",
+      "ppio_signal": null,
+      "_classified_by": "rule"
     },
     {
-      "id": "raw-1",
+      "id": "raw-007",
       "title": "【禁闻】川普指北京煽动反AI浪潮美中算力差距曝光| AI资料中心| 美中AI竞争 | AI算力| 新唐人电视台 - 新唐人電視台",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE94RVBicVk2RUVvZ3BwT1V1SU9Lakh4WXFpSFdWX1hBUm9UeFJVRklmckZZZF9uQmNPRWdXTHp6bkJZcFRQVjZmSW9YMFpIWGl3dFpGSm5FNGpobmpSYVhsZGNrU05SUmk0Z1pQRg?oc=5",
       "source": "新唐人電視台",
@@ -61,42 +120,20 @@
       "_query_boost": 25,
       "lane": "silent",
       "signals": [
-        "🌏"
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
+        "c1",
+        "c2",
         "c3"
       ],
-      "summary_cn": "川普指责中国煽动反AI浪潮，并曝光美中算力差距，加剧中美科技竞争紧张氛围。",
-      "ppio_signal": null
+      "summary_cn": "【禁闻】川普指北京煽动反AI浪潮美中算力差距曝光| AI资料中心| 美中AI竞争 | AI算力| 新唐人电视台 - 新唐人電視台 【禁闻】川普指北京煽动反AI浪",
+      "ppio_signal": null,
+      "_classified_by": "rule"
     },
     {
-      "id": "raw-3",
-      "title": "从“囤算力”到“织算网”，4万亿元算力基建大幕拉开 - QQ News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15YThzU3MzaWstV1JqWHpld2w1LUF0OGpLRHVMNnNVNmZHOGd2SlUyTnk5QUtqRmtlR1J6STRnaTc2U0lacDlDSV9RVFNsWm9Ja2VTOEJB?oc=5",
-      "source": "QQ News",
-      "category": "政策",
-      "published": "2026-08-14",
-      "body_snippet": "从“囤算力”到“织算网”，4万亿元算力基建大幕拉开 QQ News",
-      "_query_boost": 20,
-      "lane": "attend",
-      "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1"
-      ],
-      "summary_cn": "文章揭示从“囤算力”到“织算网”的产业趋势，并提出4万亿元算力基建规模。这一量级暗示国家层面将统筹分布式算力网络建设，推动算力从集中式向边缘延伸。对PPIO而言，政策红利明确指向边缘云和分布式算力平台，公司有机会参与全国算力调度网络建设，但需警惕传统云厂商（阿里云、华为云）同步布局带来的竞争压力。",
-      "ppio_signal": {
-        "positive": "4万亿基建规模将催生大量分布式算力需求，PPIO的边缘云节点可成为算力网络末梢的重要构成，政策倾斜有望带来政府订单和补贴机会。",
-        "negative": "若政策导向由“做蛋糕”转向“切蛋糕”，可能加速头部云厂商下沉边缘市场，挤压独立平台生存空间，且4万亿资金分配不透明可能使PPIO实际获益有限。",
-        "beneficiaries": "边缘算力平台（PPIO、网宿科技）、分布式算力调度服务商、算力网络设备商（中兴通讯、锐捷网络）",
-        "pressure_parties": "传统集中式云厂商（阿里云、华为云）需转型适应网络化架构，依赖单一区域算力的IDC运营商"
-      }
-    },
-    {
-      "id": "raw-4",
+      "id": "raw-008",
       "title": "阿里通义千问正式开源Qwen3.8-27B，支持原生多模态及26.2万上下文 - TradingView",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4yVnFYbmlxX1ZzZGVCbU42MzZ5a0ROaWtXUXBYQ3QwYV9GckRoejk0VEFhRlJCQy1TWDNweEphZTBDWlgxeGFkdkNMZ1k4V1dnVXV3YXYxampWblhxbGMwVXQ1eWpNUQ?oc=5",
       "source": "TradingView",
@@ -106,103 +143,142 @@
       "_query_boost": 20,
       "lane": "attend",
       "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "阿里通义千问正式开源Qwen3.8-27B，支持原生多模态及26.2万上下文 - TradingView 阿里通义千问正式开源Qwen3.8-27B，支持原生多模态及26.2万上下文 TradingView",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-009",
+      "title": "全球与国内算力建设前景深度分析 - t.cj.sina.cn",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uVGZSZTBCYkdXUndiZEF1RDh6cVRfTmpQNGo0SVJxbGlXbFhPNldPZzJaWnIxdlVOQzJUc1hxTWQxOXdiUDlxU0xGcURjT2hvaEpodFhWcl9LSWRyUGdDVlUzTTQwWlZHVEg5MTJNWjk?oc=5",
+      "source": "t.cj.sina.cn",
+      "category": "竞品",
+      "published": "2026-08-15",
+      "body_snippet": "全球与国内算力建设前景深度分析 t.cj.sina.cn",
+      "_query_boost": 15,
+      "lane": "silent",
+      "signals": [
         "🔬"
       ],
       "is_deep_read": true,
       "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "阿里通义千问开源Qwen3.8-27B模型，支持原生多模态及26.2万上下文，参数规模适中但能力跃迁明显。该模型可在消费级显卡上部署，大幅降低边缘推理门槛。对PPIO而言，此模型开源利好边缘云推理需求增长——模型轻量化使更多端侧和边缘节点可承载AI应用，PPIO的分布式算力平台有望承接由此衍生的海量推理请求。但同时，阿里自身也在布局边缘算力（含阿里云ENS），可能形成竞争。",
-      "ppio_signal": {
-        "positive": "轻量级开源模型降低边缘AI部署成本，刺激更多企业将推理负载下沉至边缘，PPIO的分布式节点将直接受益于推理流量增长。",
-        "negative": "阿里通义千问生态可能绑定其自有的边缘算力服务（ENS），使得PPIO在承接阿里模型推理需求时面临生态排斥风险。",
-        "beneficiaries": "边缘算力平台（PPIO、七牛云）、AI应用开发者、推理芯片厂商（英伟达、寒武纪）",
-        "pressure_parties": "依赖闭源模型的算力服务商、传统IDC运营商"
-      }
-    },
-    {
-      "id": "raw-1",
-      "title": "我国首个渔业大模型4. 0 版发布，算力飙升、直击八大核心！ - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE45TkJGWHhiRUlBNXRYS0hVME9YOHZLQ2JIcDZHV04tbXZtVl83cm0xaFZvLTlhQlRPWWlJQnRKblVnd2JfZkJtbEdGYm8wUQ?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-08-18",
-      "body_snippet": "我国首个渔业大模型4. 0 版发布，算力飙升、直击八大核心！ AIBase",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "我国首个渔业大模型4.0版本发布，算力提升显著，覆盖八大核心场景。作为垂直行业大模型，其算力需求增长对边缘云推理服务有潜在拉动，但非PPIO直接竞品或技术架构突破。",
-      "ppio_signal": null
-    },
-    {
-      "id": "raw-2",
-      "title": "消息称英伟达在北欧充当 AI 算力“牵线人”，当地数据中心交易热度攀升",
-      "url": "https://www.ithome.com/0/991/900.htm",
-      "source": "IT之家",
-      "published": "2026-08-20",
-      "body_snippet": "",
-      "category": "海外",
-      "lane": "silent",
-      "signals": [
-        "🌏"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
+        "c1",
+        "c2",
         "c3"
       ],
-      "summary_cn": "英伟达充当北欧AI算力牵线人，推动当地数据中心交易升温。海外算力基建活跃对PPIO海外布局形成间接市场验证，但需关注地主国政策风险与竞争态势。",
-      "ppio_signal": null
+      "summary_cn": "全球与国内算力建设前景深度分析 - t.cj.sina.cn 全球与国内算力建设前景深度分析 t.cj.sina.cn",
+      "ppio_signal": null,
+      "_classified_by": "rule"
     },
     {
-      "id": "raw-4",
-      "title": "广州拟立法促进人工智能发展：建设统一算力调度平台和应用赋能中心 - 广州日报新花城",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ2g0UWw1YnpjMGt2OFhaVkRMOWpmWjAyS0VTTnZnTU5LT1FrSHVNdVdxc2xGZDJRYlNKSjNoUWpSS2dMRlBsNE81OUY2dEVBaU5qc19IbF9MSGxHVkFSejJsM01XbzlLN2N4akVMY0NlT0hkeElxVG93TjZWaDhuM1JGc2Ytb3VVb1E?oc=5",
-      "source": "广州日报新花城",
-      "category": "监管",
-      "published": "2026-08-17",
-      "body_snippet": "广州拟立法促进人工智能发展：建设统一算力调度平台和应用赋能中心 广州日报新花城",
-      "_query_boost": 0,
+      "id": "raw-012",
+      "title": "省政府与部分部委央企在京举行工作会谈 毛伟明程福波丁向群孙永才出席 - 湖南红网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1MUWpYSFFvS0tqZjQzaGg5enhCd2k1eHFvNWtOeUpScl93bTdIREtFLVdpSldUMTJQVFVKY3h5NE5WR3pra0xJRmNPMFVZRS1JWEpuSldrdGVhODQzY2E4bjNR?oc=5",
+      "source": "湖南红网",
+      "category": "政策",
+      "published": "2026-08-19",
+      "body_snippet": "省政府与部分部委央企在京举行工作会谈 毛伟明程福波丁向群孙永才出席 湖南红网",
+      "_query_boost": 45,
       "lane": "attend",
       "signals": [
-        "🏛️",
-        "📜"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1"
-      ],
-      "summary_cn": "广州市拟通过立法促进人工智能发展，核心举措包括建设全市统一算力调度平台和AI应用赋能中心。该政策直接涉及算力资源整合与调度，可能影响分布式算力平台的接入标准与运营模式。对PPIO而言，统一调度平台若开放边缘节点接入，将带来新合作机遇；若形成垄断性平台，则可能挤压独立边缘云服务商的生存空间。",
-      "ppio_signal": {
-        "positive": "广州立法明确建设统一算力调度平台，若采用开放架构，PPIO的分布式节点可纳入调度体系，获得稳定订单和现金流，加速商业化落地。同时政策信号表明地方政府重视算力效率，利好算力调度技术企业。",
-        "negative": "若平台由国资或传统云厂商主导，PPIO作为独立边缘云服务商可能被边缘化，需支付较高接入成本或失去议价权。此外，平台建设周期长、标准不明确，短期对营收无直接拉动。",
-        "beneficiaries": "算力调度技术企业（如PPIO、九州云、边缘计算平台）、AI应用开发商（如商汤、旷视）、IDC机柜租赁商（如万国数据）",
-        "pressure_parties": "无统一调度能力的传统云厂商（如部分地方政务云集成商）、纯算力批发商（如世纪互联批发业务）"
-      }
-    },
-    {
-      "id": "raw-5",
-      "title": "特朗普力挺 AI 数据中心：反对建设的州和社区将被甩在后面",
-      "url": "https://www.ithome.com/0/991/871.htm",
-      "source": "IT之家",
-      "published": "2026-08-19",
-      "body_snippet": "",
-      "category": "海外",
-      "lane": "silent",
-      "signals": [
-        "🌏"
+        "🏛️"
       ],
       "is_deep_read": false,
       "compass_triggered": [
+        "c1",
+        "c2",
         "c3"
       ],
-      "summary_cn": "特朗普表态支持AI数据中心建设，警告反对的州和社区将被甩在后面。美国联邦层面积极信号可能加速本土算力扩张，对PPIO海外算力布局形成竞争压力，但短期无直接冲击。",
-      "ppio_signal": null
+      "summary_cn": "省政府与部分部委央企在京举行工作会谈 毛伟明程福波丁向群孙永才出席 - 湖南红网 省政府与部分部委央企在京举行工作会谈 毛伟明程福波丁向群孙永才出席 湖南红网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-013",
+      "title": "金额超去年营收3倍！赛意信息签订算力大单 - 中财网",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oV3BnQXc0a2ZVUTNndmV4M0NUVm5TY2hLczhOMGNlaU5YRkRvVThlMFlNckxyRDdqWVRnT1BSNkZfTE5FOUw5bkdLeE9Oa1lKZVZDam13?oc=5",
+      "source": "中财网",
+      "category": "竞品",
+      "published": "2026-08-19",
+      "body_snippet": "金额超去年营收3倍！赛意信息签订算力大单 中财网",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "金额超去年营收3倍！赛意信息签订算力大单 - 中财网 金额超去年营收3倍！赛意信息签订算力大单 中财网",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-014",
+      "title": "2026绿色算力（人工智能）大会即将举办 我国“算电协同”产业正从局部探索迈向全面跃升 - 经济形势报告网",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JOXBWWlFKMEstbTB3ZXVjaWtEMlgzSk8wcFg3SWNFbkJ1SGVQMVBlTzFQcWFocFJRVnkzMUVxM3pjNHplQmMtNzROa1BPU0NIZTg3RWNKeVhNeFVmUFViSE5QZ2hhUnM?oc=5",
+      "source": "经济形势报告网",
+      "category": "政策",
+      "published": "2026-08-18",
+      "body_snippet": "2026绿色算力（人工智能）大会即将举办 我国“算电协同”产业正从局部探索迈向全面跃升 经济形势报告网",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "2026绿色算力（人工智能）大会即将举办 我国“算电协同”产业正从局部探索迈向全面跃升 - 经济形势报告网 2026绿色算力（人工智能）大会即将举办 我国“算电",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-015",
+      "title": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力突破光计算、类脑等颠覆性芯片架构构建超算智算融合的自主算力体系 - cls.cn",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE14MGhleGRIZ2dyWjFZR1MzYUJkTkZyb3V2OEs5LTlwTnluV2hDMUdEQzluSmRKWkZ5M09aaEYtV0NiM3d4Mmc?oc=5",
+      "source": "cls.cn",
+      "category": "政策",
+      "published": "2026-08-18",
+      "body_snippet": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力突破光计算、类脑等颠覆性芯片架构构建超算智算融合的自主算力体系 cls.cn",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力突破光计算、类脑等颠覆性芯片架构构建超算智算融合的自主算力体系 - cls.cn 上海张江高新技术",
+      "ppio_signal": null,
+      "_classified_by": "rule"
     }
   ]
 }

@@ -1,103 +1,76 @@
 {
-  "generated_at": "2026-08-20T01:48:28.518Z",
+  "generated_at": "2026-08-20T02:07:03.865Z",
   "date": "2026-08-20",
   "date_label": "2026-08-20",
-  "mainline": "今日主线：4万亿「织算网」政策明确指向边缘/分布式算力，PPIO核心叙事获国家级背书；但三大运营商Token套餐启动算力大众化，价格战压力逼近。",
+  "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 2,
-    "📜": 1,
-    "⚔️": 1,
-    "💰": 1,
-    "🌏": 3,
-    "🔬": 2
+    "🏛️": 1,
+    "📜": 0,
+    "⚔️": 0,
+    "💰": 0,
+    "🌏": 0,
+    "🔬": 7
   },
   "speed_read": {
-    "positive": [
-      "4万亿「织算网」从囤算力转向统筹分布式算力网络，政策红利直指边缘云与分布式平台，正中PPIO叙事",
-      "阿里开源Qwen3.8-27B支持多模态+26万上下文且可消费级显卡部署，显著降低边缘推理门槛，利好推理需求侧"
-    ],
-    "risk": [
-      "三大运营商齐推Token化套餐（移动九天约0.1元/千Tok），算力从租赁转向价值型交付，推动大众化并逼近价格战，压缩差异化空间",
-      "广州拟立法建全市统一算力调度平台，接入标准与运营模式或被重塑，第三方分布式平台面临被纳管/边缘化的不确定性"
-    ]
+    "positive": [],
+    "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 4,
-    "competitor_heat": 4,
-    "capital_heat": 3,
-    "overseas_heat": 3,
-    "overall_sentiment": "升温",
-    "summary": "政策与资本同向加码算力网基建，但运营商入局把竞争推向大众化，机会与挤压并存。"
+    "policy_heat": 3,
+    "competitor_heat": 2,
+    "capital_heat": 2,
+    "overseas_heat": 2,
+    "overall_sentiment": "平稳",
+    "summary": "规则估算，AI合成不可用时的占位数据。"
   },
-  "competitor_updates": [
-    "新增：三大运营商（移动/电信/联通）推出Token化算力套餐，中国移动「九天Token」基础版约0.1元/千Tok，运营商正式切入按量推理交付，形成价格锚点与渠道竞争"
-  ],
+  "competitor_updates": [],
   "item_axes": [
     {
       "id": "1",
-      "title": "三大运营商齐推Token套餐 AI算力",
-      "policy_axis": 0.1,
-      "competition_axis": 0.8,
-      "impact_score": 4,
-      "axis_reason": "运营商以Token计价切入推理交付，设定价格锚点，直接威胁PPIO的按量商业模式"
+      "title": "T早报｜蹩脚动画电影《牛来》走红；阿里巴",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     },
     {
       "id": "2",
-      "title": "从囤算力到织算网 4万亿算力",
-      "policy_axis": 0.9,
+      "title": "GPT周报｜智谱发布GLM-5.3模型；",
+      "policy_axis": 0,
       "competition_axis": 0.1,
-      "impact_score": 5,
-      "axis_reason": "国家层面统筹分布式算力网络，政策红利明确指向边缘云，PPIO最直接利好"
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     },
     {
       "id": "3",
-      "title": "阿里通义千问开源Qwen3.8",
-      "policy_axis": 0.2,
-      "competition_axis": 0.2,
-      "impact_score": 3,
-      "axis_reason": "开源模型可边缘部署放大推理需求，利好PPIO承载侧，竞争影响中性偏低"
+      "title": "阿里通义千问正式开源Qwen3.8-27",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     },
     {
       "id": "4",
-      "title": "广州拟立法促进人工智能发展",
-      "policy_axis": 0.4,
-      "competition_axis": 0.3,
-      "impact_score": 3,
-      "axis_reason": "地方立法建统一调度平台既带来接入机会也可能设合规门槛，方向偏利好但含不确定性"
+      "title": "省政府与部分部委央企在京举行工作会谈 毛",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     }
   ],
   "ppio_index": {
-    "score": 78,
-    "delta": 2,
+    "score": 55,
+    "delta": 0,
     "components": {
-      "policy_tailwind": 40,
-      "competitive_pressure": -24,
-      "capital_sentiment": 12,
-      "regulatory_risk": -14,
-      "overseas_headwind": -10
+      "policy_tailwind": 8,
+      "competitive_pressure": 0,
+      "capital_sentiment": 0,
+      "regulatory_risk": 0,
+      "overseas_headwind": 0
     },
-    "interpretation": "政策与资本双向加码算力网小幅推高指数，但运营商Token套餐的竞争压力限制了上行幅度。"
+    "interpretation": "规则估算，仅供参考"
   },
-  "policy_momentum": [
-    {
-      "thread": "算力网基建",
-      "last_signal": "东数西算/囤算力阶段",
-      "this_signal": "4万亿织算网统筹",
-      "level_delta": "升级",
-      "interpretation": "从集中囤算力转向国家级分布式织网，PPIO叙事获顶层背书"
-    },
-    {
-      "thread": "AI立法",
-      "last_signal": "国家层面框架讨论",
-      "this_signal": "广州地方立法先行",
-      "level_delta": "首现",
-      "interpretation": "地方立法引入统一调度平台，接入标准或先在城市层面成型"
-    }
-  ],
-  "expected_but_absent": [
-    "国家《人工智能法》草案征求意见稿",
-    "国常会/高层对算力网或AI立法的直接表态",
-    "VIE架构境外上市备案的最新监管口径"
-  ],
-  "_generated_by": "ai"
+  "policy_momentum": [],
+  "expected_but_absent": [],
+  "_generated_by": "template"
 }
