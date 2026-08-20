@@ -1083,11 +1083,19 @@ async function main() {
   }
 
   // Hard-drop 境外反华/邪教关联媒体 — 不可信源，绝不进入信息流（可扩展）
-  const BLOCKED_SOURCES = /新唐人|大纪元|希望之声|看中国|明慧网|阿波罗网|禁闻/i;
+  const BLOCKED_SOURCES = /新唐人|禁闻|大纪元|希望之声|看中国|明慧网|阿波罗网|博讯|中国密报|中国数字时代|自由亚洲电台|美国之音|多维新闻/i;
   const blockedDropped = allItems.filter(i => BLOCKED_SOURCES.test(`${i.source||''} ${i.title||''}`));
   if (blockedDropped.length) {
     console.log(`  🚫 封禁媒体过滤: dropped ${blockedDropped.length} items (${blockedDropped.slice(0,3).map(i=>i.source.slice(0,24)).join(' | ')})`);
     allItems = allItems.filter(i => !blockedDropped.includes(i));
+  }
+
+  // Hard-drop 分裂/邪教非法内容词 + 金融灰产/诈骗 SEO + 黄毒医疗谣言
+  const ILLEGAL_CONTENT = /法轮功|法轮大法|大法弟子|藏独|疆独|东突|台独|港独|分裂国家|杀猪盘|荐股|网赚|刷单|兼职日结|虚拟币.*拉盘|区块链.*传销|电信诈骗|招嫖|卖淫|冰毒|大麻|神医.*根治|偏方.*根治/i;
+  const illegalDropped = allItems.filter(i => ILLEGAL_CONTENT.test(`${i.title||''} ${i.body_snippet||''}`));
+  if (illegalDropped.length) {
+    console.log(`  🚫 非法/灰产内容过滤: dropped ${illegalDropped.length} items (${illegalDropped.slice(0,3).map(i=>i.title.slice(0,30)).join(' | ')})`);
+    allItems = allItems.filter(i => !illegalDropped.includes(i));
   }
 
   // Hard-drop 关键词堆砌(挂靠词): 标题用 ≥3 个 '|' 分隔的 SEO 关键词 dump 蹭检索
