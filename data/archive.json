@@ -1,45 +1,45 @@
 {
-  "updated_at": "2026-08-20T09:25:54.067Z",
+  "updated_at": "2026-08-20T09:37:04.488Z",
   "days": [
     {
       "date": "2026-08-20",
-      "mainline": "算力网4万亿投资与国产大模型密集开源点燃边缘算力预期，但运营商Token套餐入局和中美博弈再添竞争压力",
+      "mainline": "算力基建获4万亿投资潮与地方规划加持，政策面持续升温；但运营商集体推出Token套餐，叠加企业大单直接采购算力，边缘云市场面临大厂挤压风险。",
       "signal_summary": {
-        "🏛️": 3,
-        "📜": 0,
-        "⚔️": 3,
-        "💰": 0,
-        "🌏": 1,
+        "🏛️": 0,
+        "📜": 4,
+        "⚔️": 4,
+        "💰": 3,
+        "🌏": 2,
         "🔬": 3
       },
       "wind_indicators": {
         "policy_heat": 4,
-        "competitor_heat": 3,
-        "capital_heat": 2,
-        "overseas_heat": 3,
+        "competitor_heat": 4,
+        "capital_heat": 3,
+        "overseas_heat": 2,
         "overall_sentiment": "升温",
-        "sumary": "算力基建政策窗口密集打开，开源模型竞赛带火推理需求，但运营商套餐与大单签约显示下游竞争形态正在重塑"
+        "summary": "政策端算力投资加码与地方规划密集发布，市场情绪积极，但运营商入局与海外芯片信号带来竞争和监管压力，整体风向偏暖但警惕性上升。"
       },
       "ppio_index": {
-        "score": 86,
-        "delta": 8,
-        "componets": {
-          "policy_tailwind": 52,
-          "competitive_pressure": -18,
-          "capital_sentiment": 16,
-          "regulatory_risk": -6,
-          "overseas_headwind": -8
+        "score": 81,
+        "delta": -5,
+        "components": {
+          "policy_tailwind": 35,
+          "competitive_pressure": -25,
+          "capital_sentiment": 20,
+          "regulatory_risk": -10,
+          "overseas_headwind": -10
         },
-        "interpetation": "算力基建地方细则与开源模型生态双重利好推高政策顺风，抵消运营商入局与海外施压的负面影响，指数温和上行"
+        "interpretation": "政策暖风拉高基建预期，但运营商入局带来竞争压力，指数从86高位小幅回调，仍处于有利区间。"
       },
       "item_count": {
-        "total": 10,
+        "total": 9,
         "attend": 3,
-        "silent": 7
+        "silent": 6
       },
       "competitor_updates": [
-        "三大运营商齐推Token套餐，AI算力服务向大众化渗透",
-        "赛意信息签订金额超去年营收3倍的算力大单，下游需求强劲但供给端争夺加剧"
+        "三大运营商：推出Token套餐，切入AI算力大众化市场，直接与PPIO边缘云算力服务形成竞争。",
+        "赛意信息：签订巨额算力订单，展示企业直采算力模式，可能成为大型客户绕过平台的新趋势。"
       ]
     },
     {

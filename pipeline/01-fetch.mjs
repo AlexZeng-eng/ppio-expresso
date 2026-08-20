@@ -1082,6 +1082,14 @@ async function main() {
     allItems = allItems.filter(i => !spamDropped.includes(i));
   }
 
+  // Hard-drop 境外反华/邪教关联媒体 — 不可信源，绝不进入信息流（可扩展）
+  const BLOCKED_SOURCES = /新唐人|大纪元|希望之声|看中国|明慧网|阿波罗网|禁闻/i;
+  const blockedDropped = allItems.filter(i => BLOCKED_SOURCES.test(`${i.source||''} ${i.title||''}`));
+  if (blockedDropped.length) {
+    console.log(`  🚫 封禁媒体过滤: dropped ${blockedDropped.length} items (${blockedDropped.slice(0,3).map(i=>i.source.slice(0,24)).join(' | ')})`);
+    allItems = allItems.filter(i => !blockedDropped.includes(i));
+  }
+
   // Filter out items whose title contains a date older than 7 days
   // e.g. 【早报】2026-02-12 or titles with explicit old dates
   const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);

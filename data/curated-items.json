@@ -3,9 +3,9 @@
   "week": "2026-W34",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 10,
+  "total_curated": 9,
   "attend_count": 3,
-  "silent_count": 7,
+  "silent_count": 6,
   "items": [
     {
       "id": "raw-001",
@@ -106,29 +106,6 @@
         "c3"
       ],
       "summary_cn": "4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 - 见道网 4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 见道网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-007",
-      "title": "【禁闻】川普指北京煽动反AI浪潮美中算力差距曝光| AI资料中心| 美中AI竞争 | AI算力| 新唐人电视台 - 新唐人電視台",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE94RVBicVk2RUVvZ3BwT1V1SU9Lakh4WXFpSFdWX1hBUm9UeFJVRklmckZZZF9uQmNPRWdXTHp6bkJZcFRQVjZmSW9YMFpIWGl3dFpGSm5FNGpobmpSYVhsZGNrU05SUmk0Z1pQRg?oc=5",
-      "source": "新唐人電視台",
-      "category": "海外",
-      "published": "2026-08-14",
-      "body_snippet": "【禁闻】川普指北京煽动反AI浪潮美中算力差距曝光| AI资料中心| 美中AI竞争 | AI算力| 新唐人电视台 新唐人電視台",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "【禁闻】川普指北京煽动反AI浪潮美中算力差距曝光| AI资料中心| 美中AI竞争 | AI算力| 新唐人电视台 - 新唐人電視台 【禁闻】川普指北京煽动反AI浪",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
