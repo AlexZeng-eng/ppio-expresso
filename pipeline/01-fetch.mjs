@@ -1090,6 +1090,14 @@ async function main() {
     allItems = allItems.filter(i => !blockedDropped.includes(i));
   }
 
+  // Hard-drop 关键词堆砌(挂靠词): 标题用 ≥3 个 '|' 分隔的 SEO 关键词 dump 蹭检索
+  // 如 "…| AI资料中心| 美中AI竞争 | AI算力| 来源名"。正常新闻标题罕见 ≥3 个 '|'。
+  const keywordStuffed = allItems.filter(i => (i.title||'').split('|').length - 1 >= 3);
+  if (keywordStuffed.length) {
+    console.log(`  🚫 关键词堆砌过滤: dropped ${keywordStuffed.length} items (${keywordStuffed.slice(0,3).map(i=>i.title.slice(0,30)).join(' | ')})`);
+    allItems = allItems.filter(i => !keywordStuffed.includes(i));
+  }
+
   // Filter out items whose title contains a date older than 7 days
   // e.g. 【早报】2026-02-12 or titles with explicit old dates
   const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
