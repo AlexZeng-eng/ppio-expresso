@@ -1,117 +1,92 @@
 {
-  "generated_at": "2026-08-21T01:47:32.234Z",
+  "generated_at": "2026-08-21T02:12:47.506Z",
   "date": "2026-08-21",
   "date_label": "2026-08-21",
-  "mainline": "习主席出席WAIC最高层定调AI基建，上海推算力服务全球；但三大运营商与英伟达入局加剧竞争，PPIO面临政策利好与竞争升温的双重格局。",
+  "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 4,
+    "🏛️": 2,
     "📜": 0,
-    "⚔️": 2,
-    "💰": 1,
+    "⚔️": 1,
+    "💰": 2,
     "🌏": 2,
-    "🔬": 0
+    "🔬": 5
   },
   "speed_read": {
-    "positive": [
-      "高层信号：习近平主席出席2026WAIC并发表主旨讲话，明确AI基建国家战略地位，算力基础设施受益确定性增强。",
-      "上海推动'中国算力服务全球'战略，算力境外调用开闸，PPIO边缘云可承接海外需求，打开新市场空间。",
-      "中国放行小批量英伟达H200芯片，字节跳动、腾讯各获1万颗，芯片供给松动利好算力平台整体扩容。"
-    ],
-    "risk": [
-      "三大运营商同步推出AI Token套餐，将大模型调用标准化，直接冲击边缘云算力分销模式，客户可能转向运营商。",
-      "英伟达联合六家金融机构建立5000亿美元AI算力融资平台，降低企业自建GPU门槛，可能削弱对第三方算力平台的依赖。"
-    ]
+    "positive": [],
+    "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 5,
-    "competitor_heat": 4,
+    "policy_heat": 4,
+    "competitor_heat": 3,
     "capital_heat": 3,
     "overseas_heat": 3,
-    "overall_sentiment": "升温",
-    "summary": "政策面迎来最高层背书和出口利好，但运营商与英伟达的入局使竞争格局急剧升温，整体情绪偏向积极但需警惕竞争压力。"
+    "overall_sentiment": "平稳",
+    "summary": "规则估算，AI合成不可用时的占位数据。"
   },
-  "competitor_updates": [
-    "三大运营商推出AI Token套餐，标准化计费，直接切入算力服务市场。",
-    "英伟达联合金融机构建立AI算力融资平台，目标5000亿美元，改变算力消费模式。"
-  ],
+  "competitor_updates": [],
   "item_axes": [
     {
       "id": "1",
-      "title": "习近平出席2026世界人工智能大会",
-      "policy_axis": 0.9,
-      "competition_axis": 0,
-      "impact_score": 5,
-      "axis_reason": "最高领导人亲临，政策利好极大，无竞争关联，影响全局。"
+      "title": "习近平出席2026世界人工智能大会暨人工",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
     },
     {
       "id": "2",
-      "title": "海外需求“接”进来，中国算力",
-      "policy_axis": 0.8,
+      "title": "国务院关于对外投资的规定解读（一）：83",
+      "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
-      "axis_reason": "政策开放算力出口，利好PPIO出海，但可能吸引更多玩家，竞争略有上升。"
+      "axis_reason": "规则估算"
     },
     {
       "id": "3",
-      "title": "三大运营商齐推Token套餐",
+      "title": "英伟达联合六家金融机构建立AI算力融资平",
       "policy_axis": 0,
-      "competition_axis": 0.8,
-      "impact_score": 4,
-      "axis_reason": "政策中性，运营商直接竞争威胁大，可能挤压边缘云市场。"
+      "competition_axis": 0.7,
+      "impact_score": 3,
+      "axis_reason": "规则估算"
     },
     {
       "id": "4",
-      "title": "李乐成出席联合国AI治理对话",
-      "policy_axis": 0.3,
-      "competition_axis": 0,
-      "impact_score": 3,
-      "axis_reason": "中国参与全球治理框架，长期利好合规预期，短期无直接影响。"
+      "title": "人工智能撰写立法提案涌入美国国会，错误百",
+      "policy_axis": -0.5,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     },
     {
       "id": "5",
-      "title": "英伟达联合六家金融机构建立",
+      "title": "中国开源AI“狂飙”，成美国大模型“底座",
       "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 4,
-      "axis_reason": "英伟达金融杠杆降低自建门槛，对第三方算力平台构成替代威胁。"
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     },
     {
       "id": "6",
-      "title": "中国放行小批量英伟达H200",
-      "policy_axis": 0.6,
-      "competition_axis": -0.1,
-      "impact_score": 3,
-      "axis_reason": "芯片供给增加，利好所有算力平台，竞争压力略有缓解，但影响有限。"
+      "title": "限制硬件还不够，还要封杀开源大模型？中美",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
     }
   ],
   "ppio_index": {
-    "score": 70,
-    "delta": -11,
+    "score": 55,
+    "delta": 0,
     "components": {
-      "policy_tailwind": 40,
-      "competitive_pressure": -22,
-      "capital_sentiment": 12,
-      "regulatory_risk": -8,
-      "overseas_headwind": -6
+      "policy_tailwind": 16,
+      "competitive_pressure": -6,
+      "capital_sentiment": 10,
+      "regulatory_risk": 0,
+      "overseas_headwind": -8
     },
-    "interpretation": "今日指数小幅下降，主因运营商与英伟达的双重竞争压力，但政策利好（习主席讲话、算力出口）仍支撑指数处于高位。"
+    "interpretation": "规则估算，仅供参考"
   },
-  "policy_momentum": [
-    {
-      "thread": "AI算力基建",
-      "last_signal": "2024WAIC习近平讲话",
-      "this_signal": "2026WAIC习近平讲话",
-      "level_delta": "升级",
-      "interpretation": "最高领导人持续背书，算力基建确定性增强，利好PPIO长期叙事。"
-    },
-    {
-      "thread": "算力出口",
-      "last_signal": "未知",
-      "this_signal": "上海推‘算力服务全球’战略",
-      "level_delta": "首现",
-      "interpretation": "算力出口政策开闸，PPIO可借势拓展海外市场。"
-    }
-  ],
+  "policy_momentum": [],
   "expected_but_absent": [],
-  "_generated_by": "ai"
+  "_generated_by": "template"
 }

@@ -1,46 +1,43 @@
 {
-  "updated_at": "2026-08-21T01:47:32.362Z",
+  "updated_at": "2026-08-21T02:12:47.551Z",
   "days": [
     {
       "date": "2026-08-21",
-      "mainline": "习主席出席WAIC最高层定调AI基建，上海推算力服务全球；但三大运营商与英伟达入局加剧竞争，PPIO面临政策利好与竞争升温的双重格局。",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
       "signal_summary": {
-        "🏛️": 4,
+        "🏛️": 2,
         "📜": 0,
-        "⚔️": 2,
-        "💰": 1,
+        "⚔️": 1,
+        "💰": 2,
         "🌏": 2,
-        "🔬": 0
+        "🔬": 5
       },
       "wind_indicators": {
-        "policy_heat": 5,
-        "competitor_heat": 4,
+        "policy_heat": 4,
+        "competitor_heat": 3,
         "capital_heat": 3,
         "overseas_heat": 3,
-        "overall_sentiment": "升温",
-        "summary": "政策面迎来最高层背书和出口利好，但运营商与英伟达的入局使竞争格局急剧升温，整体情绪偏向积极但需警惕竞争压力。"
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
       },
       "ppio_index": {
-        "score": 70,
-        "delta": -11,
+        "score": 55,
+        "delta": 0,
         "components": {
-          "policy_tailwind": 40,
-          "competitive_pressure": -22,
-          "capital_sentiment": 12,
-          "regulatory_risk": -8,
-          "overseas_headwind": -6
+          "policy_tailwind": 16,
+          "competitive_pressure": -6,
+          "capital_sentiment": 10,
+          "regulatory_risk": 0,
+          "overseas_headwind": -8
         },
-        "interpretation": "今日指数小幅下降，主因运营商与英伟达的双重竞争压力，但政策利好（习主席讲话、算力出口）仍支撑指数处于高位。"
+        "interpretation": "规则估算，仅供参考"
       },
       "item_count": {
-        "total": 6,
+        "total": 12,
         "attend": 6,
-        "silent": 0
+        "silent": 6
       },
-      "competitor_updates": [
-        "三大运营商推出AI Token套餐，标准化计费，直接切入算力服务市场。",
-        "英伟达联合金融机构建立AI算力融资平台，目标5000亿美元，改变算力消费模式。"
-      ]
+      "competitor_updates": []
     },
     {
       "date": "2026-08-20",
