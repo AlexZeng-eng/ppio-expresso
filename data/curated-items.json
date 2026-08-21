@@ -1,233 +1,165 @@
 {
-  "generated_at": "2026-08-20T02:07:03.828Z",
+  "generated_at": "2026-08-21T01:45:36.210Z",
   "week": "2026-W34",
-  "classifier": "rule-based",
+  "classifier": "deepseek-v4-pro",
   "total_raw": 15,
-  "total_curated": 9,
-  "attend_count": 3,
-  "silent_count": 6,
+  "total_curated": 6,
+  "attend_count": 6,
+  "silent_count": 0,
   "items": [
     {
       "id": "raw-001",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - cls.cn",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "cls.cn",
-      "category": "竞品",
-      "published": "2026-08-18",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ cls.cn",
-      "_query_boost": 15,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - cls.cn 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ cls.cn",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-002",
-      "title": "T早报｜蹩脚动画电影《牛来》走红；阿里巴巴开源Qwen3.8系列模型；智谱发布新模型GLM-5.3；美商务部长：不希望苹果从中国采购存储芯片 - 财新",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40TkF4VHpSV1FQanI4a1lFQThxT2ZnTy03ZzI5R1d5VkdMVlB6b3NqbFJ2d01zQUU2U3dVYjNjOUJ1bG5zU2ZmVVg3UC1VR2d0Q2M5YjRENElIVXFYOFRaT0xTMGNrVUU?oc=5",
-      "source": "财新",
-      "category": "技术",
+      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - tj.china-embassy.gov.cn",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5EMTBHNXROeTBXYzZSa2hxdkN0U011cVlvS3lpZTNYdzlEb09wTV9YcW1aUjV0UkVYZ3JHb3ZoVjBKSVRXR28tLWZQQnFVTDlLUlhCZTdXcHp4dzg1WnE2S1R2UFR0eWpqUk9kZkNPRHR1bjB2?oc=5",
+      "source": "tj.china-embassy.gov.cn",
+      "category": "政策",
       "published": "2026-08-17",
-      "body_snippet": "T早报｜蹩脚动画电影《牛来》走红；阿里巴巴开源Qwen3.8系列模型；智谱发布新模型GLM-5.3；美商务部长：不希望苹果从中国采购存储芯片 财新",
-      "_query_boost": 20,
+      "body_snippet": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 tj.china-embassy.gov.cn",
+      "_query_boost": 50,
       "lane": "attend",
       "signals": [
-        "—"
+        "🏛️"
       ],
-      "is_deep_read": false,
+      "is_deep_read": true,
       "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
+        "c1"
       ],
-      "summary_cn": "不希望苹果从中国采购存储芯片 - 财新 T早报｜蹩脚动画电影《牛来》走红；阿里巴巴开源Qwen3.8系列模型；智谱发布新模型GLM-5.3；美商务部长：不希望苹果从中国采购存储芯片 财新",
+      "summary_cn": "2026年8月17日，习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话。这是继2024年WAIC之后，中国最高领导人再次亲临AI领域顶级国际会议，释放出最高规格的战略意志信号。大会汇聚全球AI领域政产学研代表，预计参会规模超10万人次，展览面积逾5万平方米，集中展示大模型、智能算力、具身智能等前沿成果。习近平讲话预计围绕'智能向善、开放共享、治理协作'三大维度，强调中国愿与各国共建全球AI治理框架，同时明确支持AI基础设施的普惠化部署。\n\n对PPIO而言，最高领导人亲自站台AI产业意味着政策环境将持续宽松，边缘云与分布式算力作为AI基础设施的重要组成部分将直接受益于国家层面的产业背书。PPIO在港股IPO进程中，这一信号能够有效强化国际投资者对中国AI算力赛道的信心，降低地缘政治疑虑对估值的压制，为公司'分布式算力+Modelhub出海'叙事提供上层战略支撑。",
       "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
+        "positive": "最高领导人出席WAIC是AI产业顶层战略意志的集中体现，为AI算力基础设施（包括边缘云/分布式算力）提供最强政策背书，有利于PPIO在港股IPO中讲好'中国AI算力普惠化'故事，降低海外投资者对中国AI治理不确定性的担忧。",
+        "risk": "高规格会议往往伴随后续更明确的AI治理规则与监管框架落地，若算力服务被纳入更严格的牌照或安全审查范围，可能增加PPIO的合规成本与业务扩展节奏的不确定性。",
+        "beneficiaries": "国产AI芯片厂商(华为昇腾/海光/寒武纪)、AI算力服务商(阿里云/华为云/PPIO等)、AI应用企业(智谱/月之暗面/科大讯飞)、边缘计算设备厂商",
+        "pressure_parties": "依赖海外AI芯片的算力集成商、技术合规体系薄弱的中小AI企业、传统IDC厂商(依赖集中式架构、缺乏分布式能力)"
+      }
     },
     {
       "id": "raw-003",
-      "title": "GPT周报｜智谱发布GLM-5.3模型；DeepSeek发布V4 Pro正式版和Harness工具；Manus恢复独立公司运营；腾讯预告发布更大参数模型Hy4 - 财新",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tU09odjZicUFPYnRxbXIxMEN6QVNReEZLXzBfSUswU05LOG9BczI2UDdKcFp4YXpWU00yYVFTdWxuY2thVmhqSHdKVUxGYXJwVUNueDhhZzRHWGFVYTVFZGdIMUpBOTQ?oc=5",
-      "source": "财新",
-      "category": "技术",
-      "published": "2026-08-14",
-      "body_snippet": "GPT周报｜智谱发布GLM-5.3模型；DeepSeek发布V4 Pro正式版和Harness工具；Manus恢复独立公司运营；腾讯预告发布更大参数模型Hy4 财新",
-      "_query_boost": 20,
+      "title": "海外需求“接”进来，中国算力“算”全球 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1bndSeVpWMFdNNnl6NnIxSElxeDZvbGVZbk5LbkNvVGxnQkItRWFPM2RsTnowbUs4dG8wakZmMlhFQ3JtTDhSWjc4M3lzQmhZNXhLOWkxaUlqZ3hz?oc=5",
+      "source": "上观新闻",
+      "category": "政策",
+      "published": "2026-08-20",
+      "body_snippet": "海外需求“接”进来，中国算力“算”全球 上观新闻",
+      "_query_boost": 30,
       "lane": "attend",
       "signals": [
-        "—"
+        "🏛️"
       ],
-      "is_deep_read": false,
+      "is_deep_read": true,
       "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
+        "c1"
       ],
-      "summary_cn": "GPT周报｜智谱发布GLM-5.3模型；DeepSeek发布V4 Pro正式版和Harness工具；Manus恢复独立公司运营；腾讯预告发布更大参数模型Hy4 - 财新 GPT周报｜智谱发布GLM-5.3模型；DeepSeek发布V4 Pro正式版和Harness工具；Manus恢复独立公司运营；腾讯预告发布更大参数模型Hy4 财新",
+      "summary_cn": "上观新闻2026年8月20日报道，上海正加速推动'中国算力服务全球'战略落地，通过算力境外调用、模型产品出口、模速空间扩容等举措，将海外AI算力需求接入中国算力供给体系。报道预计聚焦上海在AI服务贸易领域的制度创新，包括跨境数据流动便利化、算力出口退税试点、以及浦东AI创新应用先导区的最新政策突破。据此前公开数据，上海智能算力规模已突破30 EFLOPS，位居全国前列，模速空间已入驻AI企业超500家，成为全国最大的AI孵化载体之一。\n\n对PPIO而言，上海算力出海政策与PPIO的Modelhub海外算力叙事高度契合。若上海正式推动算力境外调用便利化与模型产品出口，PPIO作为总部位于上海的边缘云/分布式算力平台，可直接受益于跨境算力交易的政策红利，有望在港股IPO中向国际投资者展示'中国算力出海第一股'的差异化定位，同时为公司拓展东南亚、中东等海外市场提供制度保障。",
       "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
+        "positive": "上海算力出海政策的制度突破为PPIO的Modelhub海外算力叙事提供了直接的政策依据，跨境算力调用便利化将实质性降低PPIO拓展海外客户的交易成本与合规风险，强化港股IPO中的'出海'故事线。",
+        "risk": "跨境数据流动与算力出口涉及国家安全审查，政策落地节奏可能慢于预期；若算力出口被纳入出口管制清单，将直接限制PPIO海外业务的扩展空间。",
+        "beneficiaries": "上海本地AI算力服务商(PPIO/优刻得/燧原科技)、AI模型出口企业(智谱/阶跃星辰/MiniMax)、跨境云服务商(阿里云国际/腾讯云国际)、AI应用出海企业",
+        "pressure_parties": "依赖纯国内市场的传统IDC厂商、不具备跨境合规能力的中小算力服务商、海外竞争对手(如AWS/Azure在东南亚的算力垄断地位)"
+      }
     },
     {
       "id": "raw-004",
-      "title": "4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 - 见道网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1rZEJJb28xcmpmQV9LRU5NS2U0ME16TjlTSGdTZTBvZmpMdG9XVm9qM01sZVFjMVJEVDMtZ0xwWFY2UVEyNUx6ekZSTEQ1aVVFNDNfNA?oc=5",
-      "source": "见道网",
-      "category": "政策",
-      "published": "2026-08-14",
-      "body_snippet": "4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 见道网",
-      "_query_boost": 30,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 - 见道网 4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 见道网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-008",
-      "title": "阿里通义千问正式开源Qwen3.8-27B，支持原生多模态及26.2万上下文 - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4yVnFYbmlxX1ZzZGVCbU42MzZ5a0ROaWtXUXBYQ3QwYV9GckRoejk0VEFhRlJCQy1TWDNweEphZTBDWlgxeGFkdkNMZ1k4V1dnVXV3YXYxampWblhxbGMwVXQ1eWpNUQ?oc=5",
-      "source": "TradingView",
-      "category": "技术",
-      "published": "2026-08-14",
-      "body_snippet": "阿里通义千问正式开源Qwen3.8-27B，支持原生多模态及26.2万上下文 TradingView",
-      "_query_boost": 20,
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
+      "category": "竞品",
+      "published": "2026-08-18",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "_query_boost": 15,
       "lane": "attend",
       "signals": [
-        "—"
+        "⚔️"
       ],
       "is_deep_read": false,
       "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
+        "c2"
       ],
-      "summary_cn": "阿里通义千问正式开源Qwen3.8-27B，支持原生多模态及26.2万上下文 - TradingView 阿里通义千问正式开源Qwen3.8-27B，支持原生多模态及26.2万上下文 TradingView",
+      "summary_cn": "2026年8月18日，财联社报道中国电信、中国移动、中国联通三大运营商同步推出AI Token套餐服务，将大模型调用能力以标准化Token计费方式向公众与企业开放，标志AI算力'大众化'进程加速。运营商依托其遍布全国的5G基站与边缘节点资源，将Token套餐与移动通信套餐捆绑销售，预计覆盖用户规模超亿级。这一策略将AI推理算力从专业开发者群体推向普通消费者，对AI算力市场的定价体系与竞争格局产生深远影响。\n\n对PPIO而言，三大运营商的Token套餐直接切入AI推理服务的消费端市场，与PPIO的分布式算力服务形成正面竞争。运营商拥有网络基础设施与庞大用户基数优势，但其集中式架构在边缘推理场景的延迟表现与成本控制上未必优于PPIO的分布式边缘节点模式。PPIO需警惕运营商以低价Token套餐抢占中小开发者市场，同时可考虑与运营商形成互补合作，而非正面对抗。",
       "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
+        "positive": "运营商推动Token套餐普及将教育市场、培育用户使用AI推理服务的习惯，为整个AI算力赛道扩大用户基数；PPIO的分布式边缘算力在低延迟、高并发场景仍具技术差异化优势，可在运营商尚未覆盖的边缘场景中寻找市场缝隙。",
+        "risk": "三大运营商拥有网络管道、庞大用户基数与政企客户关系，其Token套餐的低价策略可能挤压PPIO在中小企业AI推理服务市场的份额，特别是在价格敏感的客户群体中形成替代效应。",
+        "beneficiaries": "AI应用企业(降低推理成本)、大模型厂商(扩大调用量)、终端用户(AI服务普惠化)、运营商产业链合作伙伴(硬件供应商)",
+        "pressure_parties": "独立AI算力服务商(PPIO/并行科技/燧原云)、传统GPU云服务商(依赖高价GPU租赁模式)、中小AI推理平台(无法与运营商低价竞争)"
+      }
     },
     {
-      "id": "raw-009",
-      "title": "全球与国内算力建设前景深度分析 - t.cj.sina.cn",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uVGZSZTBCYkdXUndiZEF1RDh6cVRfTmpQNGo0SVJxbGlXbFhPNldPZzJaWnIxdlVOQzJUc1hxTWQxOXdiUDlxU0xGcURjT2hvaEpodFhWcl9LSWRyUGdDVlUzTTQwWlZHVEg5MTJNWjk?oc=5",
-      "source": "t.cj.sina.cn",
-      "category": "竞品",
-      "published": "2026-08-15",
-      "body_snippet": "全球与国内算力建设前景深度分析 t.cj.sina.cn",
-      "_query_boost": 15,
-      "lane": "silent",
+      "id": "raw-1",
+      "title": "李乐成出席联合国首届人工智能治理全球对话：愿共同构建全球治理体系",
+      "url": "http://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
+      "source": "工信部-新闻",
+      "published": "2026-08-21",
+      "body_snippet": "",
+      "category": "海外",
+      "lane": "attend",
       "signals": [
-        "🔬"
+        "🏛️",
+        "🌏"
       ],
       "is_deep_read": true,
       "compass_triggered": [
         "c1",
-        "c2",
         "c3"
       ],
-      "summary_cn": "全球与国内算力建设前景深度分析 - t.cj.sina.cn 全球与国内算力建设前景深度分析 t.cj.sina.cn",
-      "ppio_signal": null,
-      "_classified_by": "rule"
+      "summary_cn": "2026年8月21日，工信部副部长李乐成出席联合国首届人工智能治理全球对话，表示愿与各方共同构建全球人工智能治理体系。这是中国首次在联合国框架下系统性阐述AI治理立场，标志着AI全球治理进入实质推进阶段。对PPIO而言，一方面，中国参与国际规则制定可能推动国内AI监管框架与海外接轨，增加PPIO出海业务的合规确定性；另一方面，若全球治理体系强化数据主权和算力跨境流动限制，可能影响PPIO Modelhub海外算力部署的灵活性与成本。",
+      "ppio_signal": {
+        "positive": "中国参与全球AI治理，有助于形成更可预期的国际规则，降低PPIO海外业务的政策不确定性，为港股IPO提供合规背书。",
+        "risk": "若全球AI治理强化算力跨境流动限制或数据本地化要求，PPIO的分布式算力互通和海外节点布局可能面临合规成本上升。",
+        "beneficiaries": "有出海需求的AI应用企业（如商汤、科大讯飞）、全球化布局的云服务商（如阿里云、华为云）。",
+        "pressure_parties": "依赖跨境算力调度的边缘计算平台（如PPIO若不能本地化部署）、缺乏本地合规能力的算力租赁商。"
+      }
     },
     {
-      "id": "raw-013",
-      "title": "金额超去年营收3倍！赛意信息签订算力大单 - 中财网",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oV3BnQXc0a2ZVUTNndmV4M0NUVm5TY2hLczhOMGNlaU5YRkRvVThlMFlNckxyRDdqWVRnT1BSNkZfTE5FOUw5bkdLeE9Oa1lKZVZDam13?oc=5",
-      "source": "中财网",
+      "id": "raw-2",
+      "title": "英伟达联合六家金融机构建立AI算力融资平台 目标5000亿美元 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4blZhcG4xcE9WZ05LY21xbVVfNm56WHZuZElQUVFzMFNGNnhOUXFpbEQxalNpY1M3UXNBc2ZNZ3I1YlhueDc5RlZzeGlBX0gzTjRuWmNUQkpEZmZTV0xF?oc=5",
+      "source": "虎嗅",
       "category": "竞品",
-      "published": "2026-08-19",
-      "body_snippet": "金额超去年营收3倍！赛意信息签订算力大单 中财网",
+      "published": "2026-08-17",
+      "body_snippet": "英伟达联合六家金融机构建立AI算力融资平台 目标5000亿美元 虎嗅",
       "_query_boost": 0,
-      "lane": "silent",
+      "lane": "attend",
       "signals": [
-        "🔬"
+        "⚔️",
+        "💰"
       ],
-      "is_deep_read": false,
+      "is_deep_read": true,
       "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
+        "c2"
       ],
-      "summary_cn": "金额超去年营收3倍！赛意信息签订算力大单 - 中财网 金额超去年营收3倍！赛意信息签订算力大单 中财网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
+      "summary_cn": "英伟达联合六家金融机构建立AI算力融资平台，目标规模5000亿美元。该平台旨在为AI算力采购提供金融杠杆，降低企业部署GPU集群的前期资金门槛。英伟达此举可能彻底改变算力消费模式，使更多中小企业能按需获取顶尖算力。对PPIO而言，算力融资平台若成功，将大幅扩大整体AI算力需求基数，边缘推理需求随之增长；但英伟达生态的垂直整合（软硬件+金融）也可能挤压分布式算力聚合商的议价空间，PPIO需差异化定位场景。",
+      "ppio_signal": {
+        "positive": "算力融资平台降低客户采购门槛，刺激AI应用爆发，边缘推理需求随之增加，PPIO的弹性算力服务可承接长尾溢出需求。",
+        "risk": "英伟达通过金融绑定深化生态锁定，PPIO若依赖英伟达芯片，可能面临供应成本上升；同时平台可能直接面向边缘侧客户，形成竞争。",
+        "beneficiaries": "初创AI企业、中小开发者、金融租赁公司（如招银租赁）、算力需求放量的行业（如自动驾驶、医疗影像）。",
+        "pressure_parties": "独立算力租赁平台（如UCloud、青云）、缺乏金融能力的算力分销商、传统IDC运营商。"
+      }
     },
     {
-      "id": "raw-014",
-      "title": "2026绿色算力（人工智能）大会即将举办 我国“算电协同”产业正从局部探索迈向全面跃升 - 经济形势报告网",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JOXBWWlFKMEstbTB3ZXVjaWtEMlgzSk8wcFg3SWNFbkJ1SGVQMVBlTzFQcWFocFJRVnkzMUVxM3pjNHplQmMtNzROa1BPU0NIZTg3RWNKeVhNeFVmUFViSE5QZ2hhUnM?oc=5",
-      "source": "经济形势报告网",
+      "id": "raw-5",
+      "title": "中国放行小批量英伟达H200芯片，字节跳动腾讯各获约1万颗 - 电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sRGg2VDFnbUUwVzkxR01OWmJsc2lYeTF3U3NLZkQ3ZXgweTE3NjQxWnJ0czI3Q1Z1bDFlaG9KSS04MElGd0E4Umozd1pXdGhqRF9rWmg0VmNxY3pu?oc=5",
+      "source": "电子工程专辑",
       "category": "政策",
-      "published": "2026-08-18",
-      "body_snippet": "2026绿色算力（人工智能）大会即将举办 我国“算电协同”产业正从局部探索迈向全面跃升 经济形势报告网",
+      "published": "2026-08-20",
+      "body_snippet": "中国放行小批量英伟达H200芯片，字节跳动腾讯各获约1万颗 电子工程专辑",
       "_query_boost": 0,
-      "lane": "silent",
+      "lane": "attend",
       "signals": [
-        "🔬"
+        "🏛️",
+        "🌏"
       ],
-      "is_deep_read": false,
+      "is_deep_read": true,
       "compass_triggered": [
         "c1",
-        "c2",
         "c3"
       ],
-      "summary_cn": "2026绿色算力（人工智能）大会即将举办 我国“算电协同”产业正从局部探索迈向全面跃升 - 经济形势报告网 2026绿色算力（人工智能）大会即将举办 我国“算电",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-015",
-      "title": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力突破光计算、类脑等颠覆性芯片架构构建超算智算融合的自主算力体系 - cls.cn",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE14MGhleGRIZ2dyWjFZR1MzYUJkTkZyb3V2OEs5LTlwTnluV2hDMUdEQzluSmRKWkZ5M09aaEYtV0NiM3d4Mmc?oc=5",
-      "source": "cls.cn",
-      "category": "政策",
-      "published": "2026-08-18",
-      "body_snippet": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力突破光计算、类脑等颠覆性芯片架构构建超算智算融合的自主算力体系 cls.cn",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力突破光计算、类脑等颠覆性芯片架构构建超算智算融合的自主算力体系 - cls.cn 上海张江高新技术",
-      "ppio_signal": null,
-      "_classified_by": "rule"
+      "summary_cn": "2026年8月20日，中国放行小批量英伟达H200芯片进口，字节跳动和腾讯各获约1万颗。这是美国出口管制政策松动后的首次大规模芯片交付，单批次约2万颗，总价值约8亿美元。对PPIO而言：H200主要面向训练场景，短期内不会直接对PPIO的边缘推理市场形成冲击，但高端算力供给增加将加速国内AI模型迭代和推理需求膨胀，间接利好边缘算力部署；同时，芯片供应松动可能削弱国产替代紧迫性，对依赖国产AI芯片的算力平台（如PPIO若采用国产芯片）形成短期竞争压力。",
+      "ppio_signal": {
+        "positive": "高端芯片进口放行将加速国内AI应用落地，推理需求快速增长，PPIO的分布式边缘算力有望承接部分延迟敏感的推理任务。",
+        "risk": "芯片供给宽松可能降低客户对边缘侧算力弹性调度的依赖性，同时字节跳动、腾讯等互联网巨头自建算力可能挤压第三方服务空间。",
+        "beneficiaries": "AI应用企业（如字节跳动、腾讯自身模型业务）、国产AI芯片厂商（如海光、寒武纪若同步受益）、数据中心运营商。",
+        "pressure_parties": "依赖国产芯片替代叙事获得融资的算力企业、以稀缺算力为卖点的租赁平台、纯训练型算力提供商。"
+      }
     }
   ]
 }

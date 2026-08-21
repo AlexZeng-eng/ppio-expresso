@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-20T02:07:03.739Z",
+  "generated_at": "2026-08-21T01:41:19.842Z",
   "week": "2026-W34",
   "date_range": {
-    "from": "2026-08-13",
-    "to": "2026-08-20"
+    "from": "2026-08-14",
+    "to": "2026-08-21"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - cls.cn",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "cls.cn",
-      "category": "竞品",
-      "published": "2026-08-18",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ cls.cn",
-      "_query_boost": 15
+      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - tj.china-embassy.gov.cn",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5EMTBHNXROeTBXYzZSa2hxdkN0U011cVlvS3lpZTNYdzlEb09wTV9YcW1aUjV0UkVYZ3JHb3ZoVjBKSVRXR28tLWZQQnFVTDlLUlhCZTdXcHp4dzg1WnE2S1R2UFR0eWpqUk9kZkNPRHR1bjB2?oc=5",
+      "source": "tj.china-embassy.gov.cn",
+      "category": "政策",
+      "published": "2026-08-17",
+      "body_snippet": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 tj.china-embassy.gov.cn",
+      "_query_boost": 50
     },
     {
       "id": "raw-002",
@@ -30,26 +30,64 @@
     },
     {
       "id": "raw-003",
-      "title": "GPT周报｜智谱发布GLM-5.3模型；DeepSeek发布V4 Pro正式版和Harness工具；Manus恢复独立公司运营；腾讯预告发布更大参数模型Hy4 - 财新",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tU09odjZicUFPYnRxbXIxMEN6QVNReEZLXzBfSUswU05LOG9BczI2UDdKcFp4YXpWU00yYVFTdWxuY2thVmhqSHdKVUxGYXJwVUNueDhhZzRHWGFVYTVFZGdIMUpBOTQ?oc=5",
-      "source": "财新",
-      "category": "技术",
-      "published": "2026-08-14",
-      "body_snippet": "GPT周报｜智谱发布GLM-5.3模型；DeepSeek发布V4 Pro正式版和Harness工具；Manus恢复独立公司运营；腾讯预告发布更大参数模型Hy4 财新",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-004",
-      "title": "4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 - 见道网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1rZEJJb28xcmpmQV9LRU5NS2U0ME16TjlTSGdTZTBvZmpMdG9XVm9qM01sZVFjMVJEVDMtZ0xwWFY2UVEyNUx6ekZSTEQ1aVVFNDNfNA?oc=5",
-      "source": "见道网",
+      "title": "海外需求“接”进来，中国算力“算”全球 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1bndSeVpWMFdNNnl6NnIxSElxeDZvbGVZbk5LbkNvVGxnQkItRWFPM2RsTnowbUs4dG8wakZmMlhFQ3JtTDhSWjc4M3lzQmhZNXhLOWkxaUlqZ3hz?oc=5",
+      "source": "上观新闻",
       "category": "政策",
-      "published": "2026-08-14",
-      "body_snippet": "4万亿投资潮涌算力网，国内智算基础设施建设进入爆发期 见道网",
+      "published": "2026-08-20",
+      "body_snippet": "海外需求“接”进来，中国算力“算”全球 上观新闻",
       "_query_boost": 30
     },
     {
+      "id": "raw-004",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
+      "category": "竞品",
+      "published": "2026-08-18",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "_query_boost": 15
+    },
+    {
       "id": "raw-005",
+      "title": "实干开新局｜织密“六张网” 畅通大市场 - 央视网",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1veGlsOTFJcDJoTVF6ZVpOVUNtdjBpclZJRUNfNHdqRVFWOF9RUzZXMml5MmRZT2VWdzRQRVp1aDJSX19kWHVjSUtKM3JidGYydjhuck9DS2RPcGFHS1Mtc19BcHBZOHIzZkVQektha0pDWTB5VVl2bQ?oc=5",
+      "source": "央视网",
+      "category": "政策",
+      "published": "2026-08-20",
+      "body_snippet": "实干开新局｜织密“六张网” 畅通大市场 央视网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-006",
+      "title": "锚定“十五五”算力网战略，深圳算力生态对接大会在前海一号智算基地举行 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONTVQLXBWbW0yYjFKVFFkMUVjN1JrQW1xQUpRcG1iSXFqalFfcUZiWjg2ZjdrWWtqNi1xU0pJR21keEd3aXVrVEpkR1VXSG9fQ19sRG1FR0RLTWJ1VGNZRDdVem1kVjZweTNIRHY2QlhqVEV2cEN3OHd5cnFxNjBSLURuaF9aSkhz?oc=5",
+      "source": "搜狐网",
+      "category": "政策",
+      "published": "2026-08-17",
+      "body_snippet": "锚定“十五五”算力网战略，深圳算力生态对接大会在前海一号智算基地举行 搜狐网",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-007",
+      "title": "加强经贸产业投资交流合作 龚正会见厄瓜多尔总统诺沃亚",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260821/09e0365f07df4b16841e957c1499ddd7.html",
+      "source": "上海市政府-动态",
+      "published": "2026-08-21",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-008",
+      "title": "上海公安“珠峰战队”打击技术窃密 破案周期从10个月压缩至3.5个月 攻坚知产珠峰 守护创新热土",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260821/7f6bfc425d424fc5b21ecdbe9a45fe1e.html",
+      "source": "上海市政府-动态",
+      "published": "2026-08-21",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-009",
       "title": "推动更多创新成果在沪转化 龚正会见美国赛默飞世尔科技董事长",
       "url": "https://www.shanghai.gov.cn/nw4411/20260820/71f4f8b00a8c47a596fd44e8c022aedc.html",
       "source": "上海市政府-动态",
@@ -58,26 +96,7 @@
       "category": "海外"
     },
     {
-      "id": "raw-006",
-      "title": "精准服务“微需求”的民生逻辑 临汾便民小车成为社区工作“创新点”、老年居民“幸福点”",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260820/02e154a3a82b430aba4561df42803c92.html",
-      "source": "上海市政府-动态",
-      "published": "2026-08-20",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-008",
-      "title": "阿里通义千问正式开源Qwen3.8-27B，支持原生多模态及26.2万上下文 - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4yVnFYbmlxX1ZzZGVCbU42MzZ5a0ROaWtXUXBYQ3QwYV9GckRoejk0VEFhRlJCQy1TWDNweEphZTBDWlgxeGFkdkNMZ1k4V1dnVXV3YXYxampWblhxbGMwVXQ1eWpNUQ?oc=5",
-      "source": "TradingView",
-      "category": "技术",
-      "published": "2026-08-14",
-      "body_snippet": "阿里通义千问正式开源Qwen3.8-27B，支持原生多模态及26.2万上下文 TradingView",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-009",
+      "id": "raw-010",
       "title": "全球与国内算力建设前景深度分析 - t.cj.sina.cn",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uVGZSZTBCYkdXUndiZEF1RDh6cVRfTmpQNGo0SVJxbGlXbFhPNldPZzJaWnIxdlVOQzJUc1hxTWQxOXdiUDlxU0xGcURjT2hvaEpodFhWcl9LSWRyUGdDVlUzTTQwWlZHVEg5MTJNWjk?oc=5",
       "source": "t.cj.sina.cn",
@@ -87,53 +106,52 @@
       "_query_boost": 15
     },
     {
-      "id": "raw-010",
+      "id": "raw-011",
+      "title": "李乐成出席联合国首届人工智能治理全球对话：愿共同构建全球治理体系",
+      "url": "http://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
+      "source": "工信部-新闻",
+      "published": "2026-08-21",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-012",
+      "title": "英伟达联合六家金融机构建立AI算力融资平台 目标5000亿美元 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4blZhcG4xcE9WZ05LY21xbVVfNm56WHZuZElQUVFzMFNGNnhOUXFpbEQxalNpY1M3UXNBc2ZNZ3I1YlhueDc5RlZzeGlBX0gzTjRuWmNUQkpEZmZTV0xF?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-08-17",
+      "body_snippet": "英伟达联合六家金融机构建立AI算力融资平台 目标5000亿美元 虎嗅",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-013",
+      "title": "AI算力重塑产能流向 功率半导体领涨产业链 - 证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9HWDhOc01sTVhSWjZRMVZhbmpiWHFocHdTWS1BNGM0ZldYaTUzUFJNRC1UUW5ncGtSZEQ1WGNwaUROWWRBaDZqVkpKdUVDa0VwTDFicXBWY3RyZDF0?oc=5",
+      "source": "证券时报",
+      "category": "技术",
+      "published": "2026-08-21",
+      "body_snippet": "AI算力重塑产能流向 功率半导体领涨产业链 证券时报",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-014",
+      "title": "见证青岛丨从算力拼车到供电乐高！探秘青岛AI“最强大脑” - 半岛网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0yQkM2c3pTck8xbW9LWG1KZkRFUWNfTGlwSFY0UnF0enFieXJIYTYwdVBXektZOHNWSjhrV0JSTWtxLWFvQXpBbDFRMmI4aHBOTDcyeU5KRTVod25D?oc=5",
+      "source": "半岛网",
+      "category": "技术",
+      "published": "2026-08-20",
+      "body_snippet": "见证青岛丨从算力拼车到供电乐高！探秘青岛AI“最强大脑” 半岛网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-015",
       "title": "中国放行小批量英伟达H200芯片，字节跳动腾讯各获约1万颗 - 电子工程专辑",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sRGg2VDFnbUUwVzkxR01OWmJsc2lYeTF3U3NLZkQ3ZXgweTE3NjQxWnJ0czI3Q1Z1bDFlaG9KSS04MElGd0E4Umozd1pXdGhqRF9rWmg0VmNxY3pu?oc=5",
       "source": "电子工程专辑",
       "category": "海外",
       "published": "2026-08-20",
       "body_snippet": "中国放行小批量英伟达H200芯片，字节跳动腾讯各获约1万颗 电子工程专辑",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-011",
-      "title": "千年“妈祖”，何以锻造中国科技名片？ - fjnews.fjsen.com",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBrV0R5cFZ5Q3RRY2V5N2g2a2VLNjJnNFp3Z0lubHh4R3BfTnNpQ1h6U2ZuVUNtX1VzLUZCYjRyTDduNnRveEswaWVrSC1vYklZVXJXYm5Qd1oydTFzeGQzdTVmc0NPQQ?oc=5",
-      "source": "fjnews.fjsen.com",
-      "category": "政策",
-      "published": "2026-08-19",
-      "body_snippet": "千年“妈祖”，何以锻造中国科技名片？ fjnews.fjsen.com",
-      "_query_boost": 50
-    },
-    {
-      "id": "raw-013",
-      "title": "金额超去年营收3倍！赛意信息签订算力大单 - 中财网",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oV3BnQXc0a2ZVUTNndmV4M0NUVm5TY2hLczhOMGNlaU5YRkRvVThlMFlNckxyRDdqWVRnT1BSNkZfTE5FOUw5bkdLeE9Oa1lKZVZDam13?oc=5",
-      "source": "中财网",
-      "category": "竞品",
-      "published": "2026-08-19",
-      "body_snippet": "金额超去年营收3倍！赛意信息签订算力大单 中财网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-014",
-      "title": "2026绿色算力（人工智能）大会即将举办 我国“算电协同”产业正从局部探索迈向全面跃升 - 经济形势报告网",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JOXBWWlFKMEstbTB3ZXVjaWtEMlgzSk8wcFg3SWNFbkJ1SGVQMVBlTzFQcWFocFJRVnkzMUVxM3pjNHplQmMtNzROa1BPU0NIZTg3RWNKeVhNeFVmUFViSE5QZ2hhUnM?oc=5",
-      "source": "经济形势报告网",
-      "category": "政策",
-      "published": "2026-08-18",
-      "body_snippet": "2026绿色算力（人工智能）大会即将举办 我国“算电协同”产业正从局部探索迈向全面跃升 经济形势报告网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-015",
-      "title": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力突破光计算、类脑等颠覆性芯片架构构建超算智算融合的自主算力体系 - cls.cn",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE14MGhleGRIZ2dyWjFZR1MzYUJkTkZyb3V2OEs5LTlwTnluV2hDMUdEQzluSmRKWkZ5M09aaEYtV0NiM3d4Mmc?oc=5",
-      "source": "cls.cn",
-      "category": "政策",
-      "published": "2026-08-18",
-      "body_snippet": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力突破光计算、类脑等颠覆性芯片架构构建超算智算融合的自主算力体系 cls.cn",
       "_query_boost": 0
     }
   ]
