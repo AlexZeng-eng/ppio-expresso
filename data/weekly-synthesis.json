@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-21T02:12:47.506Z",
-  "date": "2026-08-21",
-  "date_label": "2026-08-21",
+  "generated_at": "2026-08-22T02:06:00.722Z",
+  "date": "2026-08-22",
+  "date_label": "2026-08-22",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 2,
+    "🏛️": 1,
     "📜": 0,
     "⚔️": 1,
-    "💰": 2,
-    "🌏": 2,
-    "🔬": 5
+    "💰": 1,
+    "🌏": 0,
+    "🔬": 8
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 4,
+    "policy_heat": 3,
     "competitor_heat": 3,
     "capital_heat": 3,
-    "overseas_heat": 3,
+    "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
@@ -43,34 +43,26 @@
     },
     {
       "id": "3",
-      "title": "英伟达联合六家金融机构建立AI算力融资平",
+      "title": "阶跃星辰连发三张王牌：STEPX品牌+S",
       "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
+      "competition_axis": 0.1,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     },
     {
       "id": "4",
-      "title": "人工智能撰写立法提案涌入美国国会，错误百",
-      "policy_axis": -0.5,
+      "title": "美国出现反对建设数据中心潮 - 新浪财经",
+      "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
       "axis_reason": "规则估算"
     },
     {
       "id": "5",
-      "title": "中国开源AI“狂飙”，成美国大模型“底座",
+      "title": "英伟达联合六家金融机构建立AI算力融资平",
       "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "6",
-      "title": "限制硬件还不够，还要封杀开源大模型？中美",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
+      "competition_axis": 0.7,
+      "impact_score": 3,
       "axis_reason": "规则估算"
     }
   ],
@@ -78,11 +70,11 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 16,
+      "policy_tailwind": 8,
       "competitive_pressure": -6,
-      "capital_sentiment": 10,
+      "capital_sentiment": 5,
       "regulatory_risk": 0,
-      "overseas_headwind": -8
+      "overseas_headwind": 0
     },
     "interpretation": "规则估算，仅供参考"
   },

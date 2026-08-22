@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-21T02:12:47.393Z",
-  "week": "2026-W34",
+  "generated_at": "2026-08-22T02:06:00.628Z",
+  "week": "2026-W35",
   "date_range": {
-    "from": "2026-08-14",
-    "to": "2026-08-21"
+    "from": "2026-08-15",
+    "to": "2026-08-22"
   },
   "fetch_method": "live",
-  "item_count": 14,
+  "item_count": 15,
   "items": [
     {
       "id": "raw-001",
@@ -20,6 +20,16 @@
     },
     {
       "id": "raw-002",
+      "title": "下午察：算力狂飙，加剧西部用水紧张？ - 早晨报",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44Wl9BYlVKVEdUNGR5MmppSnhqZG1NNXBLTUNRdG9YX1dvSDNOck9IcDRzanF1aVA2NE1odEVwWTNkN0V1bnBTTUxIblRDTmNPZkhHYUNObzBvblY3eG0xQk81MUI4Ti1p?oc=5",
+      "source": "早晨报",
+      "category": "海外",
+      "published": "2026-08-21",
+      "body_snippet": "下午察：算力狂飙，加剧西部用水紧张？ 早晨报",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-003",
       "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ - 华人头条",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZlFzTGdVZk1tN3dSQ0RvX0VOSWNEM0VuZm5EZnpScjFBNmJFMWwtVjFKdDI4Q3VRdzk4cTZ1eHV4NjdIamhkZ3luVlhTLXNQNmx1NnZ4aHNKVlJ4cVBZN2NjWjl6aFE5R1U1SVJhN1pWS2hyaUlUbDc5UFBYLWdHZE5jaFNKNGpxYWc?oc=5",
       "source": "华人头条",
@@ -29,16 +39,95 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-003",
-      "title": "李乐成出席联合国首届人工智能治理全球对话：愿共同构建全球治理体系",
-      "url": "http://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
-      "source": "工信部-新闻",
+      "id": "raw-004",
+      "title": "新一代通信网：数字经济时代的核心信息基座 | 拆解“六张网” - Jiemian.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LcGg5dTdOeHpvVzBVZ1VoSUozRFVhODBtSlhtOWQxcU5SaHZXZmRLYlNKYVVKNUl5OUlqRy1WVEVZUmQ4VXpQTFRCX1AtRi1iTGNlV3BTMEM?oc=5",
+      "source": "Jiemian.com",
+      "category": "政策",
+      "published": "2026-08-18",
+      "body_snippet": "新一代通信网：数字经济时代的核心信息基座 | 拆解“六张网” Jiemian.com",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-005",
+      "title": "阶跃星辰连发三张王牌：STEPX品牌+Step AOS系统+首款原生智能体手机亮相 - 中关村在线",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBTTEkxNTN3SjBxekZRd0p5NUxBRkJ5SnFJa0h5VjJPTTBsYnZNbEtRUk5TR0ZZNjZBeFVhUC05VWMxT1QwQkMyY01STVZkVkRsYlZpbFAtRQ?oc=5",
+      "source": "中关村在线",
+      "category": "竞品",
+      "published": "2026-08-18",
+      "body_snippet": "阶跃星辰连发三张王牌：STEPX品牌+Step AOS系统+首款原生智能体手机亮相 中关村在线",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-006",
+      "title": "美国出现反对建设数据中心潮 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX0tVZU9Vai1aamtqSzdWNGxnMGg2QjJ5Qm4ydHVhcFIxdzRucXdmdVJwb0FqMldTYWx4Q2NGQTZHS1dtNXV2cmxsMF83MVZveEZxWTZVQ0VQaTBTdkp4dGtLTVdUR2JVaEJqRnB1OGR2aVBpY29VS1BfaS1rcjZhU0xfdFN1ZmVGcTJN?oc=5",
+      "source": "新浪财经",
+      "category": "海外",
+      "published": "2026-08-18",
+      "body_snippet": "美国出现反对建设数据中心潮 新浪财经",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-007",
+      "title": "拟共建“Token工厂”！山东铁发基金签约硅基流动，后者将冲刺“AI Token工厂第一股” - QQ News",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4Sm5jSU9QZ2x5WHg1Z1l4NEoyVUkyWF9MZmtwRTJJZHhfNHlaQk5PcXloTEVXQXRiNW5KeGRLM2JmM2NiZFpEQmg0VFBzYkhKYUJpakM0NFIzbHhQZXpQUkRn?oc=5",
+      "source": "QQ News",
+      "category": "竞品",
+      "published": "2026-08-19",
+      "body_snippet": "拟共建“Token工厂”！山东铁发基金签约硅基流动，后者将冲刺“AI Token工厂第一股” QQ News",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-008",
+      "title": "国产“预制算力”来了：工厂预制率超90% 24小时内投运 交付效率提升70%",
+      "url": "https://www.qbitai.com/2026/08/476409.html",
+      "source": "量子位",
       "published": "2026-08-21",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-004",
+      "id": "raw-009",
+      "title": "内蒙古算力规模全国第一 加速转向词元经济 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rai13RFF3UjV0TTQ2WW5YV1h1ZG1iMUhDTVFoT0o0TzlVdjhPLXhDV05HSFoxc1JmNi00YWUyMVBwSEJQdWg2OGxJb3QzUFhYOWVXb1JlcWI0RWI3bzZDUHpR?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-08-21",
+      "body_snippet": "内蒙古算力规模全国第一 加速转向词元经济 虎嗅",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-010",
+      "title": "AI基建大决战：芯片封锁倒逼中国AI企业转向算力中心建设 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tazFNMFVMay0wN0Y3RGxwSGM2X2hmYnhYQXlJNWhOTmpQVlRoYVNwMDE1bWVuRXUtTTA0TnM4dGszYVd1YlpVRTVsd2RPWTlpWmc?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-08-20",
+      "body_snippet": "AI基建大决战：芯片封锁倒逼中国AI企业转向算力中心建设 虎嗅",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-011",
+      "title": "算力租赁+Token经济，商业化最快的7家公司 - 手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOdXJ2VHlYYVQ5SjdCbUpFY0FxS05aU3ZKeFZob1dSclNOVFhrSHIzM0tYRXVIdDEyOEh6dlY1ME5CRGdaSlZiS3VUbkdLRVk0ZXVCVXVPa2lkU0pRbENmLTNn?oc=5",
+      "source": "手机网易网",
+      "category": "竞品",
+      "published": "2026-08-17",
+      "body_snippet": "算力租赁+Token经济，商业化最快的7家公司 手机网易网",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-012",
+      "title": "李乐成出席联合国首届人工智能治理全球对话：愿共同构建全球治理体系",
+      "url": "http://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
+      "source": "工信部-新闻",
+      "published": "2026-08-22",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-013",
       "title": "英伟达联合六家金融机构建立AI算力融资平台 目标5000亿美元 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4blZhcG4xcE9WZ05LY21xbVVfNm56WHZuZElQUVFzMFNGNnhOUXFpbEQxalNpY1M3UXNBc2ZNZ3I1YlhueDc5RlZzeGlBX0gzTjRuWmNUQkpEZmZTV0xF?oc=5",
       "source": "虎嗅",
@@ -48,103 +137,23 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-005",
-      "title": "2026绿色算力（人工智能）大会即将举办 我国“算电协同”产业正从局部探索迈向全面跃升 - 经济形势报告网",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JOXBWWlFKMEstbTB3ZXVjaWtEMlgzSk8wcFg3SWNFbkJ1SGVQMVBlTzFQcWFocFJRVnkzMUVxM3pjNHplQmMtNzROa1BPU0NIZTg3RWNKeVhNeFVmUFViSE5QZ2hhUnM?oc=5",
-      "source": "经济形势报告网",
-      "category": "政策",
-      "published": "2026-08-18",
-      "body_snippet": "2026绿色算力（人工智能）大会即将举办 我国“算电协同”产业正从局部探索迈向全面跃升 经济形势报告网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-006",
-      "title": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力突破光计算、类脑等颠覆性芯片架构构建超算智算融合的自主算力体系 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE14MGhleGRIZ2dyWjFZR1MzYUJkTkZyb3V2OEs5LTlwTnluV2hDMUdEQzluSmRKWkZ5M09aaEYtV0NiM3d4Mmc?oc=5",
-      "source": "财联社",
-      "category": "政策",
-      "published": "2026-08-18",
-      "body_snippet": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力突破光计算、类脑等颠覆性芯片架构构建超算智算融合的自主算力体系 财联社",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-007",
-      "title": "AI算力基建迎超级风口：OpenAI与英伟达深化合作，千亿级生态加速落地 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE93Wkk4WlNRcml5MERwVlBybWZrTVB0Mm1tQ0pRTUFsc1ptTkdtdzFrU2lmUl9PNVQ0Mm5aOUZKWHpneWxPcUcwWF8tejRLQQ?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-08-18",
-      "body_snippet": "AI算力基建迎超级风口：OpenAI与英伟达深化合作，千亿级生态加速落地 AIBase",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-008",
-      "title": "算力租赁全拆解：AI时代的“房东生意”，谁在收租，谁在！ - 财富号",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16ZlREMU4tczVaOFNqTF8tVkhCdUhsczN2SFJzWDdHOGFwSE0xVG1ZS1JaOUhHSlNKazkyLVB3RWxUSWM3OGE0T1kzcU42SkdXQlFrdi1xQ0ozMm40M0RHMU13bHoydUdVMllj?oc=5",
-      "source": "财富号",
-      "category": "技术",
-      "published": "2026-08-17",
-      "body_snippet": "算力租赁全拆解：AI时代的“房东生意”，谁在收租，谁在！ 财富号",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-009",
-      "title": "人工智能撰写立法提案涌入美国国会，错误百出 - 京报网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9VUzZxenRQQUZhYnFtSkp2SFpadzJfNkZOeVBaT1ZqRzN4NW5Gc19fa1FIbXBJSDFIbXNFTmFxYTk2T3g5SEw4bVJaNE1MejYwejV1UG1JMzhYTmZMSDdXZnV6WjdWY245azlZa243OFo2Zw?oc=5",
-      "source": "京报网",
-      "category": "监管",
-      "published": "2026-08-20",
-      "body_snippet": "人工智能撰写立法提案涌入美国国会，错误百出 京报网",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-010",
-      "title": "中国开源AI“狂飙”，成美国大模型“底座”-观察者网 - guancha.cn",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42cWZuNmd5MlpMRDFxLVBxekd6NHJHcmFrNXV6a3hCemVBZm1RZkhsZDNCdlp3MUpyV04yQ21SZEFkTzV6Vk5FNXM3bXRaek8wTUthWGpXT2haTlp3bVBRd0xoem4?oc=5",
-      "source": "guancha.cn",
-      "category": "技术",
-      "published": "2026-08-17",
-      "body_snippet": "中国开源AI“狂飙”，成美国大模型“底座”-观察者网 guancha.cn",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-011",
-      "title": "梁文锋杨植麟竞速：一级市场上演疯狂吸金，大模型估值逻辑变了？ - 时代财经",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNR1RvS0tGdU9QaFdPd1IxS1A1aVhjV3Y5MHVZMHZFRlhrUkZ3Uzk5RExtVExlR3hCOXZpUDhOZ1hXQjBXZUJzdWJHdGVNb011QWl5bWIyUTAyb09fRWlIUTBGWm5ScUlpeDVFbWF5a2RtLVQxSUF5aFZmdnhyWVdQM1JSVmJtTS1FLS00MkEwSlM?oc=5",
-      "source": "时代财经",
-      "category": "资本",
-      "published": "2026-08-15",
-      "body_snippet": "梁文锋杨植麟竞速：一级市场上演疯狂吸金，大模型估值逻辑变了？ 时代财经",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-012",
-      "title": "GPAI obligations under the EU AI Act: Enforcement has started 2 August 2026 - Taylor Wessing",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPanB5WlNDWS0zR3ctTjdOQXNTMHNFLWhldWdvYTFudG9qeVhRb0V2UjBxZnJYMGlYMUNkUlhMaEpDNGNTcm55Nk5UUWZqdlRfZnY0ejV1NUVET2xYZ2NaaUg2SzFpSkY5b0doTE4tNFgxbVN2TFBVQk5tRVhDbW90ZTNyMFRUSFFHaUJIU0pfTnB3NGdzTTgzTFpCSnQwdzNTUW53SHg2bHQzQmZXTUxkUA?oc=5",
-      "source": "Taylor Wessing",
-      "category": "海外",
-      "published": "2026-08-19",
-      "body_snippet": "GPAI obligations under the EU AI Act: Enforcement has started 2 August 2026 Taylor Wessing",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-013",
-      "title": "AI圈迎来“降本”潮：企业对大模型成本愈发敏感，直言对主流AI实验室不抱期望 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBST1VlN1ZrRGpmSVBKMDZJQkRTX3BQU05CeDNfVm5iSzU3RFFKZWc1d2FVOFFxbnA5dTdKRDFiMnVaRTJPU0RQVHBrb2hTQQ?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-08-17",
-      "body_snippet": "AI圈迎来“降本”潮：企业对大模型成本愈发敏感，直言对主流AI实验室不抱期望 AIBase",
-      "_query_boost": 0
-    },
-    {
       "id": "raw-014",
-      "title": "限制硬件还不够，还要封杀开源大模型？中美AI脱钩的真正风险来了 - QQ News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QaDZrUEZKVkJXUWJrWXJZTEk1eHlqWXhjRWhhTHZLbmF2ano5NGNHWmdHX3VweTdtVC10MEtOTk16N3lZWnhOaEh1ZkpwWWxUb2k2SmFn?oc=5",
-      "source": "QQ News",
-      "category": "海外",
-      "published": "2026-08-15",
-      "body_snippet": "限制硬件还不够，还要封杀开源大模型？中美AI脱钩的真正风险来了 QQ News",
+      "title": "2026算力和大模型企业如何选择展会 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XMzJRbWtDSF9XLVlXN3BnejJ2Um8xbjV5dDFwcjdfc3NoVGdhVXVGYkk1dUZNN2Z2c0V6SlROX3hiMWoxVzBuTGxIaWhkSklvaVBGTlBEWVRIMW8tdmc?oc=5",
+      "source": "中华网",
+      "category": "技术",
+      "published": "2026-08-18",
+      "body_snippet": "2026算力和大模型企业如何选择展会 中华网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-015",
+      "title": "9月11日廊坊见！2026中国算力大会报名通道正式开启 - 河北广播电视台",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85MTVyTWJlUXJ6S0dKbGpKWTVERnVfQnhjNU9hN1dIQURidGh3MHJweUNoMjB1Y3pDOUE1dldwOERGM0NJaFBoZVNZNUdGWngxOFBWMzhWX180MWZRakE?oc=5",
+      "source": "河北广播电视台",
+      "category": "政策",
+      "published": "2026-08-21",
+      "body_snippet": "9月11日廊坊见！2026中国算力大会报名通道正式开启 河北广播电视台",
       "_query_boost": 0
     }
   ]
