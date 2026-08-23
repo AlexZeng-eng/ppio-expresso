@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-22T02:06:00.628Z",
+  "generated_at": "2026-08-23T02:14:00.512Z",
   "week": "2026-W35",
   "date_range": {
-    "from": "2026-08-15",
-    "to": "2026-08-22"
+    "from": "2026-08-16",
+    "to": "2026-08-23"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -20,6 +20,16 @@
     },
     {
       "id": "raw-002",
+      "title": "国产AI算力再突破 中诚华隆发布新一代推理芯片及超节点集群 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mMnE4cE1ZZUFlMkpWNHRjWTI1NzNfbk81VDJWVDdRZGxYUFJYa1gxZkkzYXpGYXhBVXN2VEQ2dnZscDVVUjFrczJ6eEw2a2lMVGhIc1dNWTd0dmItYU9YR2I3TEY?oc=5",
+      "source": "新京报",
+      "category": "政策",
+      "published": "2026-08-22",
+      "body_snippet": "国产AI算力再突破 中诚华隆发布新一代推理芯片及超节点集群 新京报",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-003",
       "title": "下午察：算力狂飙，加剧西部用水紧张？ - 早晨报",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44Wl9BYlVKVEdUNGR5MmppSnhqZG1NNXBLTUNRdG9YX1dvSDNOck9IcDRzanF1aVA2NE1odEVwWTNkN0V1bnBTTUxIblRDTmNPZkhHYUNObzBvblY3eG0xQk81MUI4Ti1p?oc=5",
       "source": "早晨报",
@@ -29,23 +39,13 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-003",
+      "id": "raw-004",
       "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ - 华人头条",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZlFzTGdVZk1tN3dSQ0RvX0VOSWNEM0VuZm5EZnpScjFBNmJFMWwtVjFKdDI4Q3VRdzk4cTZ1eHV4NjdIamhkZ3luVlhTLXNQNmx1NnZ4aHNKVlJ4cVBZN2NjWjl6aFE5R1U1SVJhN1pWS2hyaUlUbDc5UFBYLWdHZE5jaFNKNGpxYWc?oc=5",
       "source": "华人头条",
       "category": "监管",
       "published": "2026-08-19",
       "body_snippet": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ 华人头条",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-004",
-      "title": "新一代通信网：数字经济时代的核心信息基座 | 拆解“六张网” - Jiemian.com",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LcGg5dTdOeHpvVzBVZ1VoSUozRFVhODBtSlhtOWQxcU5SaHZXZmRLYlNKYVVKNUl5OUlqRy1WVEVZUmQ4VXpQTFRCX1AtRi1iTGNlV3BTMEM?oc=5",
-      "source": "Jiemian.com",
-      "category": "政策",
-      "published": "2026-08-18",
-      "body_snippet": "新一代通信网：数字经济时代的核心信息基座 | 拆解“六张网” Jiemian.com",
       "_query_boost": 25
     },
     {
@@ -70,6 +70,34 @@
     },
     {
       "id": "raw-007",
+      "title": "《人民日报》理论版｜薛澜 陈颖：以丰富国际公共产品供给引领人工智能全球治理 - 智源社区",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QTFJNZXFELU1lRllxV3c5eGFVTFp1MmFoOHQ4MlRIWC1qeDBCVFNaQzhwVVg2dkU0OHE1MlpDQjhKeEFINzVTMA?oc=5",
+      "source": "智源社区",
+      "category": "政策",
+      "published": "2026-08-22",
+      "body_snippet": "《人民日报》理论版｜薛澜 陈颖：以丰富国际公共产品供给引领人工智能全球治理 智源社区",
+      "_query_boost": 50
+    },
+    {
+      "id": "raw-008",
+      "title": "助推创新链产业链无缝对接 市政协开展重点提案督办",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260822/39d06878575346d18aaa4f379ea516d5.html",
+      "source": "上海市政府-动态",
+      "published": "2026-08-22",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-009",
+      "title": "创新融合生产生活生态空间 更深度联动体育休闲文创 上海林地“含金量”持续提升",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260822/9337b94d2a094976a69961d72eaa02ce.html",
+      "source": "上海市政府-动态",
+      "published": "2026-08-22",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-010",
       "title": "拟共建“Token工厂”！山东铁发基金签约硅基流动，后者将冲刺“AI Token工厂第一股” - QQ News",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4Sm5jSU9QZ2x5WHg1Z1l4NEoyVUkyWF9MZmtwRTJJZHhfNHlaQk5PcXloTEVXQXRiNW5KeGRLM2JmM2NiZFpEQmg0VFBzYkhKYUJpakM0NFIzbHhQZXpQUkRn?oc=5",
       "source": "QQ News",
@@ -79,18 +107,29 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-008",
-      "title": "国产“预制算力”来了：工厂预制率超90% 24小时内投运 交付效率提升70%",
-      "url": "https://www.qbitai.com/2026/08/476409.html",
-      "source": "量子位",
-      "published": "2026-08-21",
-      "body_snippet": "",
-      "category": "技术"
+      "id": "raw-011",
+      "title": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvVFBRR2hjWGNiNDc1M3ZKNlpJNXljWmtYc21ZMXE0SlpGSXdzYXY0cTRiWDFxRU5Ob0Z5YlUzSnlJaTBwOWhkeGJDMEljZw?oc=5",
+      "source": "36 Kr",
+      "category": "竞品",
+      "published": "2026-08-18",
+      "body_snippet": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 36 Kr",
+      "_query_boost": 20
     },
     {
-      "id": "raw-009",
+      "id": "raw-012",
+      "title": "AI算力的新格局 - 投资界",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHVmg5bjdIS0UtUnRaZ0k2RGFGNGc1UmxkbGhORS1WbUZuNlR4RXlfZzdFVkw5WW8xRk5CVDFyd2FvRFBiSUlJUkllSTc0UDZ2T2s2aTVB?oc=5",
+      "source": "投资界",
+      "category": "技术",
+      "published": "2026-08-23",
+      "body_snippet": "AI算力的新格局 投资界",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-013",
       "title": "内蒙古算力规模全国第一 加速转向词元经济 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rai13RFF3UjV0TTQ2WW5YV1h1ZG1iMUhDTVFoT0o0TzlVdjhPLXhDV05HSFoxc1JmNi00YWUyMVBwSEJQdWg2OGxJb3QzUFhYOWVXb1JlcWI0RWI3bzZDUHpR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Qd2ZsaDN4X3VYdmJ2WDdZcXlfSHEzcW1Nc2RQRV9YaGxaNjFPeC1TZ2dVeWdoaktaWldRQVItTFVYRGpFRE9ZYTNNMkxWMG1Vak1zSA?oc=5",
       "source": "虎嗅",
       "category": "技术",
       "published": "2026-08-21",
@@ -98,17 +137,7 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-010",
-      "title": "AI基建大决战：芯片封锁倒逼中国AI企业转向算力中心建设 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tazFNMFVMay0wN0Y3RGxwSGM2X2hmYnhYQXlJNWhOTmpQVlRoYVNwMDE1bWVuRXUtTTA0TnM4dGszYVd1YlpVRTVsd2RPWTlpWmc?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-08-20",
-      "body_snippet": "AI基建大决战：芯片封锁倒逼中国AI企业转向算力中心建设 虎嗅",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-011",
+      "id": "raw-014",
       "title": "算力租赁+Token经济，商业化最快的7家公司 - 手机网易网",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOdXJ2VHlYYVQ5SjdCbUpFY0FxS05aU3ZKeFZob1dSclNOVFhrSHIzM0tYRXVIdDEyOEh6dlY1ME5CRGdaSlZiS3VUbkdLRVk0ZXVCVXVPa2lkU0pRbENmLTNn?oc=5",
       "source": "手机网易网",
@@ -118,43 +147,13 @@
       "_query_boost": 15
     },
     {
-      "id": "raw-012",
+      "id": "raw-015",
       "title": "李乐成出席联合国首届人工智能治理全球对话：愿共同构建全球治理体系",
       "url": "http://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
       "source": "工信部-新闻",
-      "published": "2026-08-22",
+      "published": "2026-08-23",
       "body_snippet": "",
       "category": "技术"
-    },
-    {
-      "id": "raw-013",
-      "title": "英伟达联合六家金融机构建立AI算力融资平台 目标5000亿美元 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4blZhcG4xcE9WZ05LY21xbVVfNm56WHZuZElQUVFzMFNGNnhOUXFpbEQxalNpY1M3UXNBc2ZNZ3I1YlhueDc5RlZzeGlBX0gzTjRuWmNUQkpEZmZTV0xF?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-08-17",
-      "body_snippet": "英伟达联合六家金融机构建立AI算力融资平台 目标5000亿美元 虎嗅",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-014",
-      "title": "2026算力和大模型企业如何选择展会 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XMzJRbWtDSF9XLVlXN3BnejJ2Um8xbjV5dDFwcjdfc3NoVGdhVXVGYkk1dUZNN2Z2c0V6SlROX3hiMWoxVzBuTGxIaWhkSklvaVBGTlBEWVRIMW8tdmc?oc=5",
-      "source": "中华网",
-      "category": "技术",
-      "published": "2026-08-18",
-      "body_snippet": "2026算力和大模型企业如何选择展会 中华网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-015",
-      "title": "9月11日廊坊见！2026中国算力大会报名通道正式开启 - 河北广播电视台",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85MTVyTWJlUXJ6S0dKbGpKWTVERnVfQnhjNU9hN1dIQURidGh3MHJweUNoMjB1Y3pDOUE1dldwOERGM0NJaFBoZVNZNUdGWngxOFBWMzhWX180MWZRakE?oc=5",
-      "source": "河北广播电视台",
-      "category": "政策",
-      "published": "2026-08-21",
-      "body_snippet": "9月11日廊坊见！2026中国算力大会报名通道正式开启 河北广播电视台",
-      "_query_boost": 0
     }
   ]
 }

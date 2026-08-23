@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-22T02:06:00.698Z",
+  "generated_at": "2026-08-23T02:14:00.581Z",
   "week": "2026-W35",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 12,
-  "attend_count": 5,
-  "silent_count": 7,
+  "total_curated": 10,
+  "attend_count": 4,
+  "silent_count": 6,
   "items": [
     {
       "id": "raw-001",
@@ -37,6 +37,29 @@
     },
     {
       "id": "raw-002",
+      "title": "国产AI算力再突破 中诚华隆发布新一代推理芯片及超节点集群 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mMnE4cE1ZZUFlMkpWNHRjWTI1NzNfbk81VDJWVDdRZGxYUFJYa1gxZkkzYXpGYXhBVXN2VEQ2dnZscDVVUjFrczJ6eEw2a2lMVGhIc1dNWTd0dmItYU9YR2I3TEY?oc=5",
+      "source": "新京报",
+      "category": "政策",
+      "published": "2026-08-22",
+      "body_snippet": "国产AI算力再突破 中诚华隆发布新一代推理芯片及超节点集群 新京报",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "国产AI算力再突破 中诚华隆发布新一代推理芯片及超节点集群 - 新京报 国产AI算力再突破 中诚华隆发布新一代推理芯片及超节点集群 新京报",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-003",
       "title": "下午察：算力狂飙，加剧西部用水紧张？ - 早晨报",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44Wl9BYlVKVEdUNGR5MmppSnhqZG1NNXBLTUNRdG9YX1dvSDNOck9IcDRzanF1aVA2NE1odEVwWTNkN0V1bnBTTUxIblRDTmNPZkhHYUNObzBvblY3eG0xQk81MUI4Ti1p?oc=5",
       "source": "早晨报",
@@ -59,7 +82,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-003",
+      "id": "raw-004",
       "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ - 华人头条",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZlFzTGdVZk1tN3dSQ0RvX0VOSWNEM0VuZm5EZnpScjFBNmJFMWwtVjFKdDI4Q3VRdzk4cTZ1eHV4NjdIamhkZ3luVlhTLXNQNmx1NnZ4aHNKVlJ4cVBZN2NjWjl6aFE5R1U1SVJhN1pWS2hyaUlUbDc5UFBYLWdHZE5jaFNKNGpxYWc?oc=5",
       "source": "华人头条",
@@ -143,13 +166,14 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-008",
-      "title": "国产“预制算力”来了：工厂预制率超90% 24小时内投运 交付效率提升70%",
-      "url": "https://www.qbitai.com/2026/08/476409.html",
-      "source": "量子位",
-      "published": "2026-08-21",
-      "body_snippet": "",
-      "category": "技术",
+      "id": "raw-011",
+      "title": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvVFBRR2hjWGNiNDc1M3ZKNlpJNXljWmtYc21ZMXE0SlpGSXdzYXY0cTRiWDFxRU5Ob0Z5YlUzSnlJaTBwOWhkeGJDMEljZw?oc=5",
+      "source": "36 Kr",
+      "category": "竞品",
+      "published": "2026-08-18",
+      "body_snippet": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 36 Kr",
+      "_query_boost": 20,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -160,14 +184,37 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "国产“预制算力”来了：工厂预制率超90% 24小时内投运 交付效率提升70% ",
+      "summary_cn": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 - 36 Kr 告别“堆卡”：2026，中国算力开启“Token价值产出”大考 36 Kr",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
+      "id": "raw-012",
+      "title": "AI算力的新格局 - 投资界",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHVmg5bjdIS0UtUnRaZ0k2RGFGNGc1UmxkbGhORS1WbUZuNlR4RXlfZzdFVkw5WW8xRk5CVDFyd2FvRFBiSUlJUkllSTc0UDZ2T2s2aTVB?oc=5",
+      "source": "投资界",
+      "category": "技术",
+      "published": "2026-08-23",
+      "body_snippet": "AI算力的新格局 投资界",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "AI算力的新格局 - 投资界 AI算力的新格局 投资界",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-013",
       "title": "内蒙古算力规模全国第一 加速转向词元经济 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rai13RFF3UjV0TTQ2WW5YV1h1ZG1iMUhDTVFoT0o0TzlVdjhPLXhDV05HSFoxc1JmNi00YWUyMVBwSEJQdWg2OGxJb3QzUFhYOWVXb1JlcWI0RWI3bzZDUHpR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Qd2ZsaDN4X3VYdmJ2WDdZcXlfSHEzcW1Nc2RQRV9YaGxaNjFPeC1TZ2dVeWdoaktaWldRQVItTFVYRGpFRE9ZYTNNMkxWMG1Vak1zSA?oc=5",
       "source": "虎嗅",
       "category": "技术",
       "published": "2026-08-21",
@@ -188,30 +235,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-010",
-      "title": "AI基建大决战：芯片封锁倒逼中国AI企业转向算力中心建设 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tazFNMFVMay0wN0Y3RGxwSGM2X2hmYnhYQXlJNWhOTmpQVlRoYVNwMDE1bWVuRXUtTTA0TnM4dGszYVd1YlpVRTVsd2RPWTlpWmc?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-08-20",
-      "body_snippet": "AI基建大决战：芯片封锁倒逼中国AI企业转向算力中心建设 虎嗅",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "AI基建大决战：芯片封锁倒逼中国AI企业转向算力中心建设 - 虎嗅 AI基建大决战：芯片封锁倒逼中国AI企业转向算力中心建设 虎嗅",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-011",
+      "id": "raw-014",
       "title": "算力租赁+Token经济，商业化最快的7家公司 - 手机网易网",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOdXJ2VHlYYVQ5SjdCbUpFY0FxS05aU3ZKeFZob1dSclNOVFhrSHIzM0tYRXVIdDEyOEh6dlY1ME5CRGdaSlZiS3VUbkdLRVk0ZXVCVXVPa2lkU0pRbENmLTNn?oc=5",
       "source": "手机网易网",
@@ -230,82 +254,6 @@
         "c3"
       ],
       "summary_cn": "算力租赁+Token经济，商业化最快的7家公司 - 手机网易网 算力租赁+Token经济，商业化最快的7家公司 手机网易网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-013",
-      "title": "英伟达联合六家金融机构建立AI算力融资平台 目标5000亿美元 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4blZhcG4xcE9WZ05LY21xbVVfNm56WHZuZElQUVFzMFNGNnhOUXFpbEQxalNpY1M3UXNBc2ZNZ3I1YlhueDc5RlZzeGlBX0gzTjRuWmNUQkpEZmZTV0xF?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-08-17",
-      "body_snippet": "英伟达联合六家金融机构建立AI算力融资平台 目标5000亿美元 虎嗅",
-      "_query_boost": 0,
-      "lane": "attend",
-      "signals": [
-        "⚔️",
-        "💰",
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "英伟达联合六家金融机构建立AI算力融资平台 目标5000亿美元 - 虎嗅 英伟达联合六家金融机构建立AI算力融资平台 目标5000亿美元 虎嗅",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-014",
-      "title": "2026算力和大模型企业如何选择展会 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XMzJRbWtDSF9XLVlXN3BnejJ2Um8xbjV5dDFwcjdfc3NoVGdhVXVGYkk1dUZNN2Z2c0V6SlROX3hiMWoxVzBuTGxIaWhkSklvaVBGTlBEWVRIMW8tdmc?oc=5",
-      "source": "中华网",
-      "category": "技术",
-      "published": "2026-08-18",
-      "body_snippet": "2026算力和大模型企业如何选择展会 中华网",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "2026算力和大模型企业如何选择展会 - 中华网 2026算力和大模型企业如何选择展会 中华网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-015",
-      "title": "9月11日廊坊见！2026中国算力大会报名通道正式开启 - 河北广播电视台",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85MTVyTWJlUXJ6S0dKbGpKWTVERnVfQnhjNU9hN1dIQURidGh3MHJweUNoMjB1Y3pDOUE1dldwOERGM0NJaFBoZVNZNUdGWngxOFBWMzhWX180MWZRakE?oc=5",
-      "source": "河北广播电视台",
-      "category": "政策",
-      "published": "2026-08-21",
-      "body_snippet": "9月11日廊坊见！2026中国算力大会报名通道正式开启 河北广播电视台",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "9月11日廊坊见！2026中国算力大会报名通道正式开启 - 河北广播电视台 9月11日廊坊见！2026中国算力大会报名通道正式开启 河北广播电视台",
       "ppio_signal": null,
       "_classified_by": "rule"
     }

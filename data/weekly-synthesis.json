@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-22T02:06:00.722Z",
-  "date": "2026-08-22",
-  "date_label": "2026-08-22",
+  "generated_at": "2026-08-23T02:14:00.610Z",
+  "date": "2026-08-23",
+  "date_label": "2026-08-23",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
     "📜": 0,
-    "⚔️": 1,
-    "💰": 1,
+    "⚔️": 0,
+    "💰": 0,
     "🌏": 0,
-    "🔬": 8
+    "🔬": 6
   },
   "speed_read": {
     "positive": [],
@@ -17,8 +17,8 @@
   },
   "wind_indicators": {
     "policy_heat": 3,
-    "competitor_heat": 3,
-    "capital_heat": 3,
+    "competitor_heat": 2,
+    "capital_heat": 2,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
@@ -56,14 +56,6 @@
       "competition_axis": 0.1,
       "impact_score": 2,
       "axis_reason": "规则估算"
-    },
-    {
-      "id": "5",
-      "title": "英伟达联合六家金融机构建立AI算力融资平",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "规则估算"
     }
   ],
   "ppio_index": {
@@ -71,8 +63,8 @@
     "delta": 0,
     "components": {
       "policy_tailwind": 8,
-      "competitive_pressure": -6,
-      "capital_sentiment": 5,
+      "competitive_pressure": 0,
+      "capital_sentiment": 0,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },
