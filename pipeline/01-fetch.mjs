@@ -1083,7 +1083,7 @@ async function main() {
 
   // Hard-drop gambling/porn SEO spam — spam farms stuff tech keywords (算力/智能芯片)
   // to ride Google News ranking into our searches (e.g. "爱游戏・ayx体育 算力革命", hijacked womenofchina.com)
-  const SPAM_TITLE = /爱游戏|ayx体育|ayx|米博|开云|半岛体育|乐鱼|华体会|必威|betway|manbetx|万博|亚博|ob体育|bob体育|雷竞技|皇冠体育|AG旗舰|AG真人|娱乐城|威尼斯人|澳门.*金沙|时时彩|博彩|赌球|棋牌|老虎机|电子游艺|彩票.*总代|外围下注|裸聊|约炮|援交|黑料不打烊|51吃瓜|吃瓜网|成人在线|色播|涩情|AV女优|少妇|午夜剧场|三级片/i;
+  const SPAM_TITLE = /爱游戏|ayx体育|ayx|米博|开云|半岛体育|乐鱼|华体会|必威|betway|manbetx|万博|亚博|ob体育|bob体育|bob[・·\s]*体育|雷竞技|皇冠体育|AG旗舰|AG真人|娱乐城|威尼斯人|澳门.*金沙|时时彩|博彩|赌球|棋牌|老虎机|电子游艺|彩票.*总代|外围下注|登录入口|体育.*综合登录|womenofchina|裸聊|约炮|援交|黑料不打烊|51吃瓜|吃瓜网|成人在线|色播|涩情|AV女优|少妇|午夜剧场|三级片/i;
   const spamDropped = allItems.filter(i => SPAM_TITLE.test(`${i.title||''} ${i.body_snippet||''}`) || SPAM_TITLE.test(i.source||''));
   if (spamDropped.length) {
     console.log(`  🚫 博彩垃圾过滤: dropped ${spamDropped.length} items (${spamDropped.slice(0,3).map(i=>i.title.slice(0,30)).join(' | ')})`);

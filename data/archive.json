@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-24T07:25:43.649Z",
+  "updated_at": "2026-08-24T08:38:17.466Z",
   "days": [
     {
       "date": "2026-08-24",
-      "mainline": "上海双规划明确算力与数字经济目标，政策利好；但阶跃星辰智能体手机与海外反对数据中心潮构成竞争与风险",
+      "mainline": "上海密集发布“十五五”算力与数字经济规划，地方政策红利提速；美国数据中心建设遭社区反对，但州长批评反对声浪，海外能耗争议升温需关注。",
       "signal_summary": {
         "🏛️": 2,
         "📜": 0,
@@ -13,34 +13,33 @@
         "🔬": 1
       },
       "wind_indicators": {
-        "policy_heat": 4,
-        "competitor_heat": 4,
-        "capital_heat": 1,
-        "overseas_heat": 3,
+        "policy_heat": 3,
+        "competitor_heat": 3,
+        "capital_heat": 2,
+        "overseas_heat": 2,
         "overall_sentiment": "升温",
-        "summary": "政策利好持续释放，但国内竞品动作频繁叠加海外监管风险，整体情绪偏积极但需警惕竞争压力"
+        "summary": "上海两大规划落地，政策红利明确；竞品跨界不断，但融资平静，整体情绪在政策驱动下偏暖，海外能耗争议尚未传导至国内。"
       },
       "ppio_index": {
-        "score": 62,
-        "delta": -8,
+        "score": 67,
+        "delta": 5,
         "components": {
           "policy_tailwind": 30,
-          "competitive_pressure": -25,
-          "capital_sentiment": 5,
-          "regulatory_risk": -10,
-          "overseas_headwind": -10
+          "competitive_pressure": -15,
+          "capital_sentiment": 8,
+          "regulatory_risk": -5,
+          "overseas_headwind": -1
         },
-        "interpretation": "政策利好支撑指数，但竞品密集发力与海外监管风险拖累，指数较昨日小幅回落"
+        "interpretation": "上海算力规划落地推高政策顺风，但跨界竞争者增多拉高竞对压力，整体指数升至67，环境改善。"
       },
       "item_count": {
-        "total": 13,
+        "total": 12,
         "attend": 7,
-        "silent": 6
+        "silent": 5
       },
       "competitor_updates": [
-        "阶跃星辰发布STEPX品牌、Step AOS系统及首款原生智能体手机，与PPIO Sandbox智能体平台形成正面竞争",
-        "三大运营商齐推Token套餐，加速AI算力大众化，可能挤压边缘云差异化空间",
-        "铁路跨界入局算力+脑机接口，显示传统行业新玩家涌入，需关注其技术路线与合作模式"
+        "铁路企业跨界布局算力及脑机接口，可能成为边缘算力新进入者",
+        "阶跃星辰推出STEPX品牌、Step AOS系统及原生智能体手机，向端侧智能体生态延伸"
       ]
     },
     {

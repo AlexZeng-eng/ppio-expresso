@@ -3,9 +3,9 @@
   "week": "2026-W35",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 13,
+  "total_curated": 12,
   "attend_count": 7,
-  "silent_count": 6,
+  "silent_count": 5,
   "items": [
     {
       "id": "manual-sh-zhangjiang-20260819",
@@ -127,29 +127,6 @@
         "c3"
       ],
       "summary_cn": "海外需求“接”进来，中国算力“算”全球 - 上观新闻 海外需求“接”进来，中国算力“算”全球 上观新闻",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-004",
-      "title": "bob・体育综合登录入口：重构智能算力底座的战略支点 - womenofchina.com",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWN2JmaTFLbU04VFFtR29aWE9zbUF2eWJZVmpJMTZ2YmRUbUhPTFFFY3B0R09rOWpiYlotQ2VldkhKNjN6VG9jRlFMWkhzQjBZZmNGSUlpY2lReWVZTVFUc3VQRnI2NE1lY1pOcjR3?oc=5",
-      "source": "womenofchina.com",
-      "category": "监管",
-      "published": "2026-08-23",
-      "body_snippet": "bob・体育综合登录入口：重构智能算力底座的战略支点 womenofchina.com",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "bob・体育综合登录入口：重构智能算力底座的战略支点 - womenofchina.com bob・体育综合登录入口：重构智能算力底座的战略支点 womenof",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
