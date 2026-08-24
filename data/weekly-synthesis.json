@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-23T02:14:00.610Z",
-  "date": "2026-08-23",
-  "date_label": "2026-08-23",
+  "generated_at": "2026-08-24T02:12:00.338Z",
+  "date": "2026-08-24",
+  "date_label": "2026-08-24",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 1,
+    "🏛️": 0,
     "📜": 0,
     "⚔️": 0,
     "💰": 0,
-    "🌏": 0,
-    "🔬": 6
+    "🌏": 1,
+    "🔬": 7
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 3,
+    "policy_heat": 2,
     "competitor_heat": 2,
     "capital_heat": 2,
-    "overseas_heat": 2,
+    "overseas_heat": 3,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
@@ -27,22 +27,14 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "习近平出席2026世界人工智能大会暨人工",
-      "policy_axis": 0.6,
+      "title": "算力脑机接口接连入局 铁路“跨界”新玩法",
+      "policy_axis": 0,
       "competition_axis": 0.1,
-      "impact_score": 4,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     },
     {
       "id": "2",
-      "title": "国务院关于对外投资的规定解读（一）：83",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "3",
       "title": "阶跃星辰连发三张王牌：STEPX品牌+S",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -50,8 +42,24 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "4",
+      "id": "3",
       "title": "美国出现反对建设数据中心潮 - 新浪财经",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "4",
+      "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "5",
+      "title": "美国得州州长阿博特：AI 数据中心遭民众",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -62,11 +70,11 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 8,
+      "policy_tailwind": 0,
       "competitive_pressure": 0,
       "capital_sentiment": 0,
       "regulatory_risk": 0,
-      "overseas_headwind": 0
+      "overseas_headwind": -4
     },
     "interpretation": "规则估算，仅供参考"
   },

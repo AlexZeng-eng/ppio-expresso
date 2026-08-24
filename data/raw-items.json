@@ -1,55 +1,65 @@
 {
-  "generated_at": "2026-08-23T02:14:00.512Z",
+  "generated_at": "2026-08-24T02:12:00.225Z",
   "week": "2026-W35",
   "date_range": {
-    "from": "2026-08-16",
-    "to": "2026-08-23"
+    "from": "2026-08-17",
+    "to": "2026-08-24"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - tj.china-embassy.gov.cn",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5EMTBHNXROeTBXYzZSa2hxdkN0U011cVlvS3lpZTNYdzlEb09wTV9YcW1aUjV0UkVYZ3JHb3ZoVjBKSVRXR28tLWZQQnFVTDlLUlhCZTdXcHp4dzg1WnE2S1R2UFR0eWpqUk9kZkNPRHR1bjB2?oc=5",
-      "source": "tj.china-embassy.gov.cn",
+      "title": "葛培健：从“空间资管”到“算力主权” 定义“十五五”智能体园区新范式｜2026博鳌产业科技大会 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQkV2LVhzTXpLVkpBYVJmV1A5VmNqNl9zeE4xQjdzWF9FNzV1bVZzcXJ3RkM0WEgyTVZJcnRFY1JNcVFQTHR4TGhfN1ozVmx1bUVlb2FqdHVRTzdLbThGT3Z4dTliVnczdW0yMlNWZHBFSnIxcGlUWUlQVXpjNTdzS05mZlhVWFpI?oc=5",
+      "source": "搜狐网",
       "category": "政策",
-      "published": "2026-08-17",
-      "body_snippet": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 tj.china-embassy.gov.cn",
+      "published": "2026-08-23",
+      "body_snippet": "葛培健：从“空间资管”到“算力主权” 定义“十五五”智能体园区新范式｜2026博鳌产业科技大会 搜狐网",
       "_query_boost": 50
     },
     {
       "id": "raw-002",
-      "title": "国产AI算力再突破 中诚华隆发布新一代推理芯片及超节点集群 - 新京报",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mMnE4cE1ZZUFlMkpWNHRjWTI1NzNfbk81VDJWVDdRZGxYUFJYa1gxZkkzYXpGYXhBVXN2VEQ2dnZscDVVUjFrczJ6eEw2a2lMVGhIc1dNWTd0dmItYU9YR2I3TEY?oc=5",
-      "source": "新京报",
-      "category": "政策",
-      "published": "2026-08-22",
-      "body_snippet": "国产AI算力再突破 中诚华隆发布新一代推理芯片及超节点集群 新京报",
-      "_query_boost": 25
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
+      "category": "竞品",
+      "published": "2026-08-23",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "_query_boost": 15
     },
     {
       "id": "raw-003",
-      "title": "下午察：算力狂飙，加剧西部用水紧张？ - 早晨报",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44Wl9BYlVKVEdUNGR5MmppSnhqZG1NNXBLTUNRdG9YX1dvSDNOck9IcDRzanF1aVA2NE1odEVwWTNkN0V1bnBTTUxIblRDTmNPZkhHYUNObzBvblY3eG0xQk81MUI4Ti1p?oc=5",
-      "source": "早晨报",
-      "category": "海外",
-      "published": "2026-08-21",
-      "body_snippet": "下午察：算力狂飙，加剧西部用水紧张？ 早晨报",
-      "_query_boost": 25
+      "title": "海外需求“接”进来，中国算力“算”全球 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1bndSeVpWMFdNNnl6NnIxSElxeDZvbGVZbk5LbkNvVGxnQkItRWFPM2RsTnowbUs4dG8wakZmMlhFQ3JtTDhSWjc4M3lzQmhZNXhLOWkxaUlqZ3hz?oc=5",
+      "source": "上观新闻",
+      "category": "政策",
+      "published": "2026-08-20",
+      "body_snippet": "海外需求“接”进来，中国算力“算”全球 上观新闻",
+      "_query_boost": 30
     },
     {
       "id": "raw-004",
-      "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ - 华人头条",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZlFzTGdVZk1tN3dSQ0RvX0VOSWNEM0VuZm5EZnpScjFBNmJFMWwtVjFKdDI4Q3VRdzk4cTZ1eHV4NjdIamhkZ3luVlhTLXNQNmx1NnZ4aHNKVlJ4cVBZN2NjWjl6aFE5R1U1SVJhN1pWS2hyaUlUbDc5UFBYLWdHZE5jaFNKNGpxYWc?oc=5",
-      "source": "华人头条",
+      "title": "bob・体育综合登录入口：重构智能算力底座的战略支点 - womenofchina.com",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWN2JmaTFLbU04VFFtR29aWE9zbUF2eWJZVmpJMTZ2YmRUbUhPTFFFY3B0R09rOWpiYlotQ2VldkhKNjN6VG9jRlFMWkhzQjBZZmNGSUlpY2lReWVZTVFUc3VQRnI2NE1lY1pOcjR3?oc=5",
+      "source": "womenofchina.com",
       "category": "监管",
-      "published": "2026-08-19",
-      "body_snippet": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ 华人头条",
-      "_query_boost": 25
+      "published": "2026-08-23",
+      "body_snippet": "bob・体育综合登录入口：重构智能算力底座的战略支点 womenofchina.com",
+      "_query_boost": 20
     },
     {
       "id": "raw-005",
+      "title": "算力脑机接口接连入局 铁路“跨界”新玩法探路数智化转型 - cb.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwaFB4bGt5LUpRRDYzblBkOWI2VkpyRWdhcmtZbUNnTkNtaDRKd0pOQUI4eXVpaDZVSW9yN1Z4Y1NIcFRab003SUhuQ3gtNGMxV2lTWm5IYzhJX1N1RnVSaDln?oc=5",
+      "source": "cb.com.cn",
+      "category": "竞品",
+      "published": "2026-08-23",
+      "body_snippet": "算力脑机接口接连入局 铁路“跨界”新玩法探路数智化转型 cb.com.cn",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-006",
       "title": "阶跃星辰连发三张王牌：STEPX品牌+Step AOS系统+首款原生智能体手机亮相 - 中关村在线",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBTTEkxNTN3SjBxekZRd0p5NUxBRkJ5SnFJa0h5VjJPTTBsYnZNbEtRUk5TR0ZZNjZBeFVhUC05VWMxT1QwQkMyY01STVZkVkRsYlZpbFAtRQ?oc=5",
       "source": "中关村在线",
@@ -59,7 +69,7 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-006",
+      "id": "raw-007",
       "title": "美国出现反对建设数据中心潮 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX0tVZU9Vai1aamtqSzdWNGxnMGg2QjJ5Qm4ydHVhcFIxdzRucXdmdVJwb0FqMldTYWx4Q2NGQTZHS1dtNXV2cmxsMF83MVZveEZxWTZVQ0VQaTBTdkp4dGtLTVdUR2JVaEJqRnB1OGR2aVBpY29VS1BfaS1rcjZhU0xfdFN1ZmVGcTJN?oc=5",
       "source": "新浪财经",
@@ -69,7 +79,16 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-007",
+      "id": "raw-008",
+      "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的",
+      "url": "https://www.qbitai.com/2026/08/478191.html",
+      "source": "量子位",
+      "published": "2026-08-23",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-009",
       "title": "《人民日报》理论版｜薛澜 陈颖：以丰富国际公共产品供给引领人工智能全球治理 - 智源社区",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QTFJNZXFELU1lRllxV3c5eGFVTFp1MmFoOHQ4MlRIWC1qeDBCVFNaQzhwVVg2dkU0OHE1MlpDQjhKeEFINzVTMA?oc=5",
       "source": "智源社区",
@@ -79,25 +98,17 @@
       "_query_boost": 50
     },
     {
-      "id": "raw-008",
-      "title": "助推创新链产业链无缝对接 市政协开展重点提案督办",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260822/39d06878575346d18aaa4f379ea516d5.html",
-      "source": "上海市政府-动态",
-      "published": "2026-08-22",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-009",
-      "title": "创新融合生产生活生态空间 更深度联动体育休闲文创 上海林地“含金量”持续提升",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260822/9337b94d2a094976a69961d72eaa02ce.html",
-      "source": "上海市政府-动态",
-      "published": "2026-08-22",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
       "id": "raw-010",
+      "title": "“六张网”建设提速，新型电网何以成为协同枢纽 - 第一财经",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NS3RyVEQwM0wyTWtLbllUdGYtN3k2Qjhkc1J4eFNUTW90V3UyUlozTTRidVhaZGFoQkhLeGRIX0x3VHVIUmVlSHBNNEY3N2pZSEpN?oc=5",
+      "source": "第一财经",
+      "category": "政策",
+      "published": "2026-08-22",
+      "body_snippet": "“六张网”建设提速，新型电网何以成为协同枢纽 第一财经",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-011",
       "title": "拟共建“Token工厂”！山东铁发基金签约硅基流动，后者将冲刺“AI Token工厂第一股” - QQ News",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4Sm5jSU9QZ2x5WHg1Z1l4NEoyVUkyWF9MZmtwRTJJZHhfNHlaQk5PcXloTEVXQXRiNW5KeGRLM2JmM2NiZFpEQmg0VFBzYkhKYUJpakM0NFIzbHhQZXpQUkRn?oc=5",
       "source": "QQ News",
@@ -107,27 +118,35 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-011",
-      "title": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 - 36 Kr",
+      "id": "raw-012",
+      "title": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 - 36Kr",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvVFBRR2hjWGNiNDc1M3ZKNlpJNXljWmtYc21ZMXE0SlpGSXdzYXY0cTRiWDFxRU5Ob0Z5YlUzSnlJaTBwOWhkeGJDMEljZw?oc=5",
-      "source": "36 Kr",
+      "source": "36Kr",
       "category": "竞品",
       "published": "2026-08-18",
-      "body_snippet": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 36 Kr",
+      "body_snippet": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 36Kr",
       "_query_boost": 20
     },
     {
-      "id": "raw-012",
-      "title": "AI算力的新格局 - 投资界",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHVmg5bjdIS0UtUnRaZ0k2RGFGNGc1UmxkbGhORS1WbUZuNlR4RXlfZzdFVkw5WW8xRk5CVDFyd2FvRFBiSUlJUkllSTc0UDZ2T2s2aTVB?oc=5",
-      "source": "投资界",
-      "category": "技术",
-      "published": "2026-08-23",
-      "body_snippet": "AI算力的新格局 投资界",
-      "_query_boost": 0
+      "id": "raw-013",
+      "title": "李乐成出席联合国首届人工智能治理全球对话：愿共同构建全球治理体系",
+      "url": "http://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
+      "source": "工信部-新闻",
+      "published": "2026-08-24",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
-      "id": "raw-013",
+      "id": "raw-014",
+      "title": "美国得州州长阿博特：AI 数据中心遭民众反对实属咎由自取",
+      "url": "https://www.ithome.com/0/993/336.htm",
+      "source": "IT之家",
+      "published": "2026-08-24",
+      "body_snippet": "",
+      "category": "海外"
+    },
+    {
+      "id": "raw-015",
       "title": "内蒙古算力规模全国第一 加速转向词元经济 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Qd2ZsaDN4X3VYdmJ2WDdZcXlfSHEzcW1Nc2RQRV9YaGxaNjFPeC1TZ2dVeWdoaktaWldRQVItTFVYRGpFRE9ZYTNNMkxWMG1Vak1zSA?oc=5",
       "source": "虎嗅",
@@ -135,25 +154,6 @@
       "published": "2026-08-21",
       "body_snippet": "内蒙古算力规模全国第一 加速转向词元经济 虎嗅",
       "_query_boost": 0
-    },
-    {
-      "id": "raw-014",
-      "title": "算力租赁+Token经济，商业化最快的7家公司 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOdXJ2VHlYYVQ5SjdCbUpFY0FxS05aU3ZKeFZob1dSclNOVFhrSHIzM0tYRXVIdDEyOEh6dlY1ME5CRGdaSlZiS3VUbkdLRVk0ZXVCVXVPa2lkU0pRbENmLTNn?oc=5",
-      "source": "手机网易网",
-      "category": "竞品",
-      "published": "2026-08-17",
-      "body_snippet": "算力租赁+Token经济，商业化最快的7家公司 手机网易网",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-015",
-      "title": "李乐成出席联合国首届人工智能治理全球对话：愿共同构建全球治理体系",
-      "url": "http://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
-      "source": "工信部-新闻",
-      "published": "2026-08-23",
-      "body_snippet": "",
-      "category": "技术"
     }
   ]
 }
