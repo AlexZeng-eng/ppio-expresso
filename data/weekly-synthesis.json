@@ -1,84 +1,110 @@
 {
-  "generated_at": "2026-08-24T02:12:00.338Z",
+  "generated_at": "2026-08-24T07:25:43.571Z",
   "date": "2026-08-24",
   "date_label": "2026-08-24",
-  "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+  "mainline": "上海双规划明确算力与数字经济目标，政策利好；但阶跃星辰智能体手机与海外反对数据中心潮构成竞争与风险",
   "signal_summary": {
-    "🏛️": 0,
+    "🏛️": 2,
     "📜": 0,
     "⚔️": 0,
     "💰": 0,
     "🌏": 1,
-    "🔬": 7
+    "🔬": 1
   },
   "speed_read": {
-    "positive": [],
-    "risk": []
+    "positive": [
+      "上海市科委印发张江十五五规划，聚焦算力、大模型、语料数据，为边缘云基建提供政策支撑",
+      "上海市政府印发数字上海十五五规划，数字经济核心产业占比目标超20%，利好算力基础设施需求"
+    ],
+    "risk": [
+      "美国多地出现反对建设数据中心潮，得州州长表态加剧，可能影响全球算力投资情绪及VIE备案审查预期",
+      "阶跃星辰发布STEPX品牌、Step AOS系统及首款原生智能体手机，直接与PPIO Sandbox智能体平台竞争"
+    ]
   },
   "wind_indicators": {
-    "policy_heat": 2,
-    "competitor_heat": 2,
-    "capital_heat": 2,
+    "policy_heat": 4,
+    "competitor_heat": 4,
+    "capital_heat": 1,
     "overseas_heat": 3,
-    "overall_sentiment": "平稳",
-    "summary": "规则估算，AI合成不可用时的占位数据。"
+    "overall_sentiment": "升温",
+    "summary": "政策利好持续释放，但国内竞品动作频繁叠加海外监管风险，整体情绪偏积极但需警惕竞争压力"
   },
-  "competitor_updates": [],
+  "competitor_updates": [
+    "阶跃星辰发布STEPX品牌、Step AOS系统及首款原生智能体手机，与PPIO Sandbox智能体平台形成正面竞争",
+    "三大运营商齐推Token套餐，加速AI算力大众化，可能挤压边缘云差异化空间",
+    "铁路跨界入局算力+脑机接口，显示传统行业新玩家涌入，需关注其技术路线与合作模式"
+  ],
   "item_axes": [
     {
       "id": "1",
-      "title": "算力脑机接口接连入局 铁路“跨界”新玩法",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
+      "title": "上海市科委印发张江十五五规划",
+      "policy_axis": 1,
+      "competition_axis": 0,
+      "impact_score": 4,
+      "axis_reason": "明确算力集群目标，直接利好PPIO基建叙事，无竞争威胁"
     },
     {
       "id": "2",
-      "title": "阶跃星辰连发三张王牌：STEPX品牌+S",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
+      "title": "上海市政府印发数字上海十五五规划",
+      "policy_axis": 1,
+      "competition_axis": 0,
+      "impact_score": 4,
+      "axis_reason": "数字经济核心产业目标提升，扩大算力需求，政策宽松"
     },
     {
       "id": "3",
-      "title": "美国出现反对建设数据中心潮 - 新浪财经",
+      "title": "算力脑机接口接连入局 铁路跨界",
       "policy_axis": 0,
-      "competition_axis": 0.1,
+      "competition_axis": 0.5,
       "impact_score": 2,
-      "axis_reason": "规则估算"
+      "axis_reason": "铁路跨界算力带来新竞争变量，但威胁程度中等，目前信号模糊"
     },
     {
       "id": "4",
-      "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑",
+      "title": "阶跃星辰连发三张王牌",
       "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
+      "competition_axis": 1,
+      "impact_score": 5,
+      "axis_reason": "直接推出智能体手机，与Sandbox高度重叠，竞争威胁极强"
     },
     {
       "id": "5",
-      "title": "美国得州州长阿博特：AI 数据中心遭民众",
+      "title": "美国出现反对建设数据中心潮",
+      "policy_axis": -0.3,
+      "competition_axis": 0,
+      "impact_score": 3,
+      "axis_reason": "海外监管情绪升温，可能引发国内政策收紧预期，但非直接冲击"
+    },
+    {
+      "id": "6",
+      "title": "匿名牛来大模型被扒出智谱血缘",
       "policy_axis": 0,
       "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
+      "impact_score": 1,
+      "axis_reason": "技术社区新闻，与PPIO业务关联度低，竞争影响微弱"
+    },
+    {
+      "id": "7",
+      "title": "美国得州州长阿博特：AI数据中心遭民众反对实属咎由自取",
+      "policy_axis": -0.3,
+      "competition_axis": 0,
+      "impact_score": 3,
+      "axis_reason": "进一步强化海外监管预期，可能影响港股IPO估值逻辑"
     }
   ],
   "ppio_index": {
-    "score": 55,
-    "delta": 0,
+    "score": 62,
+    "delta": -8,
     "components": {
-      "policy_tailwind": 0,
-      "competitive_pressure": 0,
-      "capital_sentiment": 0,
-      "regulatory_risk": 0,
-      "overseas_headwind": -4
+      "policy_tailwind": 30,
+      "competitive_pressure": -25,
+      "capital_sentiment": 5,
+      "regulatory_risk": -10,
+      "overseas_headwind": -10
     },
-    "interpretation": "规则估算，仅供参考"
+    "interpretation": "政策利好支撑指数，但竞品密集发力与海外监管风险拖累，指数较昨日小幅回落"
   },
   "policy_momentum": [],
   "expected_but_absent": [],
-  "_generated_by": "template"
+  "_generated_by": "ai"
 }

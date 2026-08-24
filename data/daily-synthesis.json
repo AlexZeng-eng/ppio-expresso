@@ -1,117 +1,110 @@
 {
-  "generated_at": "2026-08-21T01:47:32.234Z",
-  "date": "2026-08-21",
-  "date_label": "2026-08-21",
-  "mainline": "习主席出席WAIC最高层定调AI基建，上海推算力服务全球；但三大运营商与英伟达入局加剧竞争，PPIO面临政策利好与竞争升温的双重格局。",
+  "generated_at": "2026-08-24T07:25:43.571Z",
+  "date": "2026-08-24",
+  "date_label": "2026-08-24",
+  "mainline": "上海双规划明确算力与数字经济目标，政策利好；但阶跃星辰智能体手机与海外反对数据中心潮构成竞争与风险",
   "signal_summary": {
-    "🏛️": 4,
+    "🏛️": 2,
     "📜": 0,
-    "⚔️": 2,
-    "💰": 1,
-    "🌏": 2,
-    "🔬": 0
+    "⚔️": 0,
+    "💰": 0,
+    "🌏": 1,
+    "🔬": 1
   },
   "speed_read": {
     "positive": [
-      "高层信号：习近平主席出席2026WAIC并发表主旨讲话，明确AI基建国家战略地位，算力基础设施受益确定性增强。",
-      "上海推动'中国算力服务全球'战略，算力境外调用开闸，PPIO边缘云可承接海外需求，打开新市场空间。",
-      "中国放行小批量英伟达H200芯片，字节跳动、腾讯各获1万颗，芯片供给松动利好算力平台整体扩容。"
+      "上海市科委印发张江十五五规划，聚焦算力、大模型、语料数据，为边缘云基建提供政策支撑",
+      "上海市政府印发数字上海十五五规划，数字经济核心产业占比目标超20%，利好算力基础设施需求"
     ],
     "risk": [
-      "三大运营商同步推出AI Token套餐，将大模型调用标准化，直接冲击边缘云算力分销模式，客户可能转向运营商。",
-      "英伟达联合六家金融机构建立5000亿美元AI算力融资平台，降低企业自建GPU门槛，可能削弱对第三方算力平台的依赖。"
+      "美国多地出现反对建设数据中心潮，得州州长表态加剧，可能影响全球算力投资情绪及VIE备案审查预期",
+      "阶跃星辰发布STEPX品牌、Step AOS系统及首款原生智能体手机，直接与PPIO Sandbox智能体平台竞争"
     ]
   },
   "wind_indicators": {
-    "policy_heat": 5,
+    "policy_heat": 4,
     "competitor_heat": 4,
-    "capital_heat": 3,
+    "capital_heat": 1,
     "overseas_heat": 3,
     "overall_sentiment": "升温",
-    "summary": "政策面迎来最高层背书和出口利好，但运营商与英伟达的入局使竞争格局急剧升温，整体情绪偏向积极但需警惕竞争压力。"
+    "summary": "政策利好持续释放，但国内竞品动作频繁叠加海外监管风险，整体情绪偏积极但需警惕竞争压力"
   },
   "competitor_updates": [
-    "三大运营商推出AI Token套餐，标准化计费，直接切入算力服务市场。",
-    "英伟达联合金融机构建立AI算力融资平台，目标5000亿美元，改变算力消费模式。"
+    "阶跃星辰发布STEPX品牌、Step AOS系统及首款原生智能体手机，与PPIO Sandbox智能体平台形成正面竞争",
+    "三大运营商齐推Token套餐，加速AI算力大众化，可能挤压边缘云差异化空间",
+    "铁路跨界入局算力+脑机接口，显示传统行业新玩家涌入，需关注其技术路线与合作模式"
   ],
   "item_axes": [
     {
       "id": "1",
-      "title": "习近平出席2026世界人工智能大会",
-      "policy_axis": 0.9,
+      "title": "上海市科委印发张江十五五规划",
+      "policy_axis": 1,
       "competition_axis": 0,
-      "impact_score": 5,
-      "axis_reason": "最高领导人亲临，政策利好极大，无竞争关联，影响全局。"
+      "impact_score": 4,
+      "axis_reason": "明确算力集群目标，直接利好PPIO基建叙事，无竞争威胁"
     },
     {
       "id": "2",
-      "title": "海外需求“接”进来，中国算力",
-      "policy_axis": 0.8,
-      "competition_axis": 0.1,
+      "title": "上海市政府印发数字上海十五五规划",
+      "policy_axis": 1,
+      "competition_axis": 0,
       "impact_score": 4,
-      "axis_reason": "政策开放算力出口，利好PPIO出海，但可能吸引更多玩家，竞争略有上升。"
+      "axis_reason": "数字经济核心产业目标提升，扩大算力需求，政策宽松"
     },
     {
       "id": "3",
-      "title": "三大运营商齐推Token套餐",
+      "title": "算力脑机接口接连入局 铁路跨界",
       "policy_axis": 0,
-      "competition_axis": 0.8,
-      "impact_score": 4,
-      "axis_reason": "政策中性，运营商直接竞争威胁大，可能挤压边缘云市场。"
+      "competition_axis": 0.5,
+      "impact_score": 2,
+      "axis_reason": "铁路跨界算力带来新竞争变量，但威胁程度中等，目前信号模糊"
     },
     {
       "id": "4",
-      "title": "李乐成出席联合国AI治理对话",
-      "policy_axis": 0.3,
-      "competition_axis": 0,
-      "impact_score": 3,
-      "axis_reason": "中国参与全球治理框架，长期利好合规预期，短期无直接影响。"
+      "title": "阶跃星辰连发三张王牌",
+      "policy_axis": 0,
+      "competition_axis": 1,
+      "impact_score": 5,
+      "axis_reason": "直接推出智能体手机，与Sandbox高度重叠，竞争威胁极强"
     },
     {
       "id": "5",
-      "title": "英伟达联合六家金融机构建立",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 4,
-      "axis_reason": "英伟达金融杠杆降低自建门槛，对第三方算力平台构成替代威胁。"
+      "title": "美国出现反对建设数据中心潮",
+      "policy_axis": -0.3,
+      "competition_axis": 0,
+      "impact_score": 3,
+      "axis_reason": "海外监管情绪升温，可能引发国内政策收紧预期，但非直接冲击"
     },
     {
       "id": "6",
-      "title": "中国放行小批量英伟达H200",
-      "policy_axis": 0.6,
-      "competition_axis": -0.1,
+      "title": "匿名牛来大模型被扒出智谱血缘",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 1,
+      "axis_reason": "技术社区新闻，与PPIO业务关联度低，竞争影响微弱"
+    },
+    {
+      "id": "7",
+      "title": "美国得州州长阿博特：AI数据中心遭民众反对实属咎由自取",
+      "policy_axis": -0.3,
+      "competition_axis": 0,
       "impact_score": 3,
-      "axis_reason": "芯片供给增加，利好所有算力平台，竞争压力略有缓解，但影响有限。"
+      "axis_reason": "进一步强化海外监管预期，可能影响港股IPO估值逻辑"
     }
   ],
   "ppio_index": {
-    "score": 70,
-    "delta": -11,
+    "score": 62,
+    "delta": -8,
     "components": {
-      "policy_tailwind": 40,
-      "competitive_pressure": -22,
-      "capital_sentiment": 12,
-      "regulatory_risk": -8,
-      "overseas_headwind": -6
+      "policy_tailwind": 30,
+      "competitive_pressure": -25,
+      "capital_sentiment": 5,
+      "regulatory_risk": -10,
+      "overseas_headwind": -10
     },
-    "interpretation": "今日指数小幅下降，主因运营商与英伟达的双重竞争压力，但政策利好（习主席讲话、算力出口）仍支撑指数处于高位。"
+    "interpretation": "政策利好支撑指数，但竞品密集发力与海外监管风险拖累，指数较昨日小幅回落"
   },
-  "policy_momentum": [
-    {
-      "thread": "AI算力基建",
-      "last_signal": "2024WAIC习近平讲话",
-      "this_signal": "2026WAIC习近平讲话",
-      "level_delta": "升级",
-      "interpretation": "最高领导人持续背书，算力基建确定性增强，利好PPIO长期叙事。"
-    },
-    {
-      "thread": "算力出口",
-      "last_signal": "未知",
-      "this_signal": "上海推‘算力服务全球’战略",
-      "level_delta": "首现",
-      "interpretation": "算力出口政策开闸，PPIO可借势拓展海外市场。"
-    }
-  ],
+  "policy_momentum": [],
   "expected_but_absent": [],
   "_generated_by": "ai"
 }

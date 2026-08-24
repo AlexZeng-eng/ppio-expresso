@@ -310,6 +310,8 @@ const PPIO_KEYWORDS = {
     /上海市经信委/, /上海市数据局/, /上海市发改委/, /上海市委金融办/, /上海市商务委员会/,
     /浦东新区.*AI/, /浦东新区.*算力/, /浦东.*科经委/, /浦东.*数据局/,
     /张江科学城.*AI/, /张江.*算力/, /张江.*人工智能/,
+    /数字上海/, /数智底座/, /数实融合/, /国际数字之都/,
+    /张江.*高新区/, /张江.*规划/, /张江高新/,
     // 上海AI服务贸易/出海（2026-07-30服务贸易示范区方案漏抓后补）
     /服务贸易.*人工智能/, /人工智能.*服务贸易/, /算力.*境外调用/, /模型.*产品出口/,
     /模速空间/, /人工智能.*创新应用先导区/, /具身智能.*出海/, /大模型.*出口/,
@@ -521,10 +523,15 @@ function scorePPIORelevance(item) {
   }
 
   // Shanghai gov sources: boost if content is AI/computing related
-  const isShanghaigov = /上海市经信委|上海经信委|上海市数据局|上海市发改委|上海市委金融办|上海市商务委员会|上海市政府|浦东新区|张江科学城/.test(item.source || '');
+  const isShanghaigov = /上海市经信委|上海经信委|上海市数据局|上海市发改委|上海市委金融办|上海市商务委员会|上海市科委|上海科委|上海市政府|浦东新区|张江科学城/.test(item.source || '');
   if (isShanghaigov && score > -50) {
     const isAIRelated = /人工智能|算力|大模型|智能体|数字经济|数据要素|AI|科技|创新|产业/.test(text);
     if (isAIRelated) {
+      matched = true;
+      score = Math.max(score, 35);
+    }
+    // 权威规划/方案类文件：即便标题无 AI/算力词（如"数字上海十五五规划"），也按政策高相关 floor 计分
+    if (/规划|方案|实施意见|行动计划|十五五|若干措施|行动方案|若干政策/.test(item.title || '')) {
       matched = true;
       score = Math.max(score, 35);
     }
@@ -540,7 +547,7 @@ function scorePPIORelevance(item) {
     }
     if (/新华社|中国政府网|工信部|发改委|证监会|网信办|广电总局|国家数据局|司法部/.test(item.source || '')) score += 35;
     if (/人民日报|央视|新华网|中国新闻网|科技日报|经济日报/.test(item.source || '')) score += 25;
-    if (/上海市经信委|上海经信委|上海市数据局|上海市发改委|上海市委金融办|上海市商务委员会|上海市政府/.test(item.source || '')) score += 35;
+    if (/上海市经信委|上海经信委|上海市数据局|上海市发改委|上海市委金融办|上海市商务委员会|上海市科委|上海科委|上海市政府/.test(item.source || '')) score += 35;
     if (/浦东新区|张江科学城|张江/.test(item.source || '')) score += 30;
     if (/财新|澎湃|thepaper|南华早报|SCMP|Reuters|Financial Times|FT\.com|联合早报|zaobao/.test(item.source || '')) score += 20;
     if (/21财经|21世纪经济|21jingji|第一财经|经济观察/.test(item.source || '')) score += 15;
@@ -1041,6 +1048,7 @@ async function main() {
     { url: 'https://www.miit.gov.cn/xwfb/index.html', source: '工信部-新闻' },
     { url: 'https://www.shanghai.gov.cn/nw4411/index.html', source: '上海市政府-动态' },
     { url: 'https://www.shanghai.gov.cn/nw12344/index.html', source: '上海市政府-政策文件' },
+    { url: 'https://stcsm.sh.gov.cn/zwgk/index.html', source: '上海市科委' },
     { url: 'http://www.pdnews.cn/category/keji', source: '浦东新区-科技' },
   ];
   const govResults = await Promise.all(govPages.map(g => scrapeGovList(g.url, g.source)));
