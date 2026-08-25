@@ -1,119 +1,70 @@
 {
-  "generated_at": "2026-08-24T08:38:17.404Z",
-  "date": "2026-08-24",
-  "date_label": "2026-08-24",
-  "mainline": "上海密集发布“十五五”算力与数字经济规划，地方政策红利提速；美国数据中心建设遭社区反对，但州长批评反对声浪，海外能耗争议升温需关注。",
+  "generated_at": "2026-08-25T01:51:28.808Z",
+  "date": "2026-08-25",
+  "date_label": "2026-08-25",
+  "mainline": "三大运营商推出Token套餐加速算力大众化，直接冲击边缘云市场；华为携手内蒙古推进绿色算力基建，政策利好对冲竞争压力。",
   "signal_summary": {
-    "🏛️": 2,
-    "📜": 0,
-    "⚔️": 0,
+    "🏛️": 1,
+    "📜": 1,
+    "⚔️": 1,
     "💰": 0,
     "🌏": 1,
     "🔬": 1
   },
   "speed_read": {
     "positive": [
-      "上海“张江十五五”及“数字上海十五五”规划齐发，明确算力、大模型、数字经济核心产业目标，边缘分布式算力节点确定性受益",
-      "地方政策持续加码，算力基础设施建设叙事强化，PPIO作为上海本地边缘云平台有望获更多项目机会"
+      "华为与内蒙古共建绿色算力大会，强化算力基建叙事，利好边缘云分布式算力平台的政策叙事",
+      "海外需求‘接进来’中国算力‘算全球’，表明算力出口和跨境服务空间打开"
     ],
     "risk": [
-      "美国多州出现反数据中心浪潮，可能引发国内对环境能耗、土地审批的监管收紧预期",
-      "铁路等传统行业巨头跨界进入算力与脑机接口，产业边界模糊，可能加速边缘算力市场红海化"
+      "三大运营商同步推出Token套餐，AI算力向大众化消费渗透，直接冲击PPIO在个人及中小企业市场的定位",
+      "NVIDIA Vera Rubin NVL72等新架构发布，技术迭代加速，边缘云自研芯片或面临更大压力"
     ]
   },
   "wind_indicators": {
-    "policy_heat": 3,
-    "competitor_heat": 3,
+    "policy_heat": 4,
+    "competitor_heat": 5,
     "capital_heat": 2,
-    "overseas_heat": 2,
+    "overseas_heat": 3,
     "overall_sentiment": "升温",
-    "summary": "上海两大规划落地，政策红利明确；竞品跨界不断，但融资平静，整体情绪在政策驱动下偏暖，海外能耗争议尚未传导至国内。"
+    "summary": "政策端绿色算力利好明确，但竞争端三大运营商与NVIDIA同时发力，算力市场白热化，整体情绪偏热但风险升高。"
   },
   "competitor_updates": [
-    "铁路企业跨界布局算力及脑机接口，可能成为边缘算力新进入者",
-    "阶跃星辰推出STEPX品牌、Step AOS系统及原生智能体手机，向端侧智能体生态延伸"
+    "三大运营商：推出个人/开发者Token套餐，AI算力标准化大众化，与PPIO Sandbox产品定位重叠度升高",
+    "NVIDIA：发布Vera Rubin NVL72架构，能效比提升30倍，边缘云高密度算力竞争加剧",
+    "华为：内蒙古绿色算力合作，强化政企算力基建，可能成为运营商之外的新竞合方"
   ],
   "item_axes": [
     {
       "id": "1",
-      "title": "上海市科委印发《张江高新",
-      "policy_axis": 0.8,
-      "competition_axis": -0.5,
-      "impact_score": 4,
-      "axis_reason": "算力产业集群扶持直接利好边缘基础设施，政策宽松度高，无明显竞争指向"
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”",
+      "policy_axis": -0.2,
+      "competition_axis": 0.9,
+      "impact_score": 5,
+      "axis_reason": "运营商凭借网络和渠道优势下沉个人市场，直接威胁PPIO的分布式算力分销模式，竞争压力极大；政策面中性偏空（国有资本主导可能挤压民营空间）"
     },
     {
       "id": "2",
-      "title": "上海市政府办公厅印发《上",
-      "policy_axis": 0.7,
-      "competition_axis": -0.4,
+      "title": "华为中国行2026内蒙古新质生产力大会",
+      "policy_axis": 0.8,
+      "competition_axis": -0.1,
       "impact_score": 4,
-      "axis_reason": "数字经济核心产业目标驱动算力需求，整体利好，竞争格局未变"
-    },
-    {
-      "id": "3",
-      "title": "算力脑机接口接连入局 铁",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "传统巨头跨界入局，增加行业竞争压力，但暂无直接政策影响"
-    },
-    {
-      "id": "4",
-      "title": "阶跃星辰连发三张王牌：S",
-      "policy_axis": 0,
-      "competition_axis": 0.6,
-      "impact_score": 3,
-      "axis_reason": "端侧智能体生态扩张，与边缘云存在潜在竞争，但短期冲击有限"
-    },
-    {
-      "id": "5",
-      "title": "美国出现反对建设数据中心",
-      "policy_axis": -0.5,
-      "competition_axis": 0,
-      "impact_score": 3,
-      "axis_reason": "海外反数据中心情绪可能引发国内能耗监管跟进，政策收紧风险上升"
-    },
-    {
-      "id": "6",
-      "title": "匿名牛来大模型被扒出智谱",
-      "policy_axis": 0,
-      "competition_axis": 0.2,
-      "impact_score": 2,
-      "axis_reason": "模型血缘争议影响开源生态，间接影响算力市场，但竞争含义不直接"
-    },
-    {
-      "id": "7",
-      "title": "美国得州州长阿博特：AI ",
-      "policy_axis": 0.2,
-      "competition_axis": 0,
-      "impact_score": 2,
-      "axis_reason": "州长表态弱化反对声浪，短期内海外逆风略减，但长期能耗争议仍存"
+      "axis_reason": "绿色算力政策利好，边缘云基建可借势；华为虽有自研算力但偏重资产，与PPIO轻量化平台互补大于竞争"
     }
   ],
   "ppio_index": {
-    "score": 67,
-    "delta": 5,
+    "score": 62,
+    "delta": -5,
     "components": {
-      "policy_tailwind": 30,
-      "competitive_pressure": -15,
-      "capital_sentiment": 8,
-      "regulatory_risk": -5,
-      "overseas_headwind": -1
+      "policy_tailwind": 40,
+      "competitive_pressure": -25,
+      "capital_sentiment": 10,
+      "regulatory_risk": -8,
+      "overseas_headwind": -5
     },
-    "interpretation": "上海算力规划落地推高政策顺风，但跨界竞争者增多拉高竞对压力，整体指数升至67，环境改善。"
+    "interpretation": "竞争端三大运营商入局个人算力市场冲击显著，但绿色算力政策利好部分对冲，指数小幅回落至62"
   },
-  "policy_momentum": [
-    {
-      "thread": "地方算力产业规划",
-      "last_signal": "国家算力枢纽节点布局",
-      "this_signal": "上海发布张江及数字上海十五五规划",
-      "level_delta": "升级",
-      "interpretation": "地方明确算力集群投资目标，边缘节点建设确定性增强，利好PPIO上海及周边布局"
-    }
-  ],
-  "expected_but_absent": [
-    "人工智能法草案征求意见稿"
-  ],
+  "policy_momentum": [],
+  "expected_but_absent": [],
   "_generated_by": "ai"
 }

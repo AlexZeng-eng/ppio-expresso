@@ -1,91 +1,14 @@
 {
-  "generated_at": "2026-08-24T02:12:00.301Z",
+  "generated_at": "2026-08-25T01:49:57.976Z",
   "week": "2026-W35",
-  "classifier": "rule-based",
+  "classifier": "deepseek-v4-pro",
   "total_raw": 15,
-  "total_curated": 12,
-  "attend_count": 7,
+  "total_curated": 7,
+  "attend_count": 2,
   "silent_count": 5,
   "items": [
     {
-      "id": "manual-sh-zhangjiang-20260819",
-      "title": "上海市科委印发《张江高新技术产业开发区发展\"十五五\"规划》：人工智能产业集群聚焦算力、大模型、语料数据",
-      "url": "https://stcsm.sh.gov.cn/zwgk/ghjh/20260819/d65768a6b59b49c1a4d5c164f453cbb0.html",
-      "source": "上海市科委",
-      "category": "政策",
-      "published": "2026-08-19",
-      "body_snippet": "沪科〔2026〕199号。加快建设世界领先科技园区；到2030年战略性新兴产业工业总产值9639亿→1.3万亿元，优质企业1.45万→1.6万家，全球2000强研发投入企业43→50家；人工智能产业集群聚焦算力、大模型、语料数据、科学智能、应用，以张江核心园、徐汇园、漕河泾园为示范。",
-      "lane": "attend",
-      "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2"
-      ],
-      "summary_cn": "8月19日，上海市科委印发《上海张江高新技术产业开发区发展\"十五五\"规划》（沪科〔2026〕199号），提出加快建设世界领先科技园区，到2030年战略性新兴产业工业总产值从9639亿元增至1.3万亿元，优质企业从1.45万家增至1.6万家，全球2000强研发投入企业从43家增至50家；人工智能产业集群聚焦算力、大模型、语料数据、科学智能、应用等重点领域，以张江核心园、徐汇园、漕河泾园为示范。对PPIO而言，张江是PPIO大本营，规划把算力列为AI产业集群首要领域并强调\"大模型+算力+语料\"全链条，为本地算力企业提供园区政策与资源倾斜；世界领先科技园区目标下的研发投入与优质企业培育，直接强化PPIO作为张江算力平台的区域身份与上市叙事。",
-      "ppio_signal": {
-        "positive": "张江把\"算力+大模型+语料数据\"列为AI产业集群首要领域，PPIO作为张江注册的算力平台直接受益于园区政策与资源倾斜，强化区域身份。",
-        "risk": "园区向头部领军企业集中资源（优质企业/研发投入企业培育），中小算力企业若未进培育名单可能被边缘化，需关注政策兑现与准入门槛。",
-        "beneficiaries": "张江核心园/徐汇园/漕河泾园算力与大模型企业、语料数据服务商、科学智能平台、具备研发投入资质的科技企业。",
-        "pressure_parties": "张江高新区外的算力服务商、研发投入或营收规模未达培育标准的中小AI企业。"
-      },
-      "_classified_by": "manual",
-      "_score": 80
-    },
-    {
-      "id": "manual-sh-digital-shanghai-20260819",
-      "title": "上海市政府办公厅印发《上海市\"数字上海\"建设\"十五五\"规划》：到2030年数字经济核心产业增加值占GDP超20%",
-      "url": "https://www.shanghai.gov.cn/nw12344/20260819/6cf80b0875f1465c94886f0b1a4a4f35.html",
-      "source": "上海市政府-政策文件",
-      "category": "政策",
-      "published": "2026-08-19",
-      "body_snippet": "沪府办发〔2026〕18号。到2030年数字经济核心产业增加值占GDP比重从18%升至20%以上，规上数字经济核心产业营收4.4万亿→5万亿元，公共数据开放80亿→100亿条，高质量数据集1000→5500个，新建智算中心PUE＜1.2；深化跨境存算设施，在临港、虹桥、东方枢纽建设国际数据中心，支持境外数据中心和云服务节点在上海布局。",
-      "lane": "attend",
-      "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c3"
-      ],
-      "summary_cn": "8月19日，上海市政府办公厅印发《上海市\"数字上海\"建设\"十五五\"规划》（沪府办发〔2026〕18号），明确到2030年数字经济核心产业增加值占GDP比重从18%提升至20%以上，规上数字经济核心产业企业营收从4.4万亿元增至5万亿元，公共数据开放规模从80亿条增至100亿条，高质量数据集从1000个增至5500个，新建智算中心PUE低于1.2；并部署深化跨境存算设施，在临港、虹桥、东方枢纽建设国际数据中心，支持境外数据中心和云服务节点在上海布局。对PPIO而言，规划把\"算力扩容、跨境存算、境外数据中心布局上海\"写入市级顶层文件，为边缘云/分布式算力平台承接跨境算力与境外调用打开政策空间；智算中心PUE<1.2与数据要素开放，利好分布式、绿色边缘算力的供给侧叙事，可直接纳入港股招股书政策章节。",
-      "ppio_signal": {
-        "positive": "\"算力扩容+跨境存算+境外数据中心布局上海\"写入数字上海顶层规划，为PPIO边缘云/分布式算力承接跨境调用与境外节点提供市级政策背书。",
-        "risk": "智算中心PUE<1.2的能耗约束将推高传统集中式IDC门槛，倒逼算力供给侧向绿色分布式转型，短期可能抬升合规与能效改造成本。",
-        "beneficiaries": "分布式/边缘算力平台（PPIO模式）、跨境数据与云服务节点运营商、高质量数据集/数据要素服务商、智算中心能效优化厂商。",
-        "pressure_parties": "高PUE的传统集中式数据中心、仅做境内单点算力租赁且无跨境能力的服务商。"
-      },
-      "_classified_by": "manual",
-      "_score": 80
-    },
-    {
-      "id": "raw-001",
-      "title": "葛培健：从“空间资管”到“算力主权” 定义“十五五”智能体园区新范式｜2026博鳌产业科技大会 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQkV2LVhzTXpLVkpBYVJmV1A5VmNqNl9zeE4xQjdzWF9FNzV1bVZzcXJ3RkM0WEgyTVZJcnRFY1JNcVFQTHR4TGhfN1ozVmx1bUVlb2FqdHVRTzdLbThGT3Z4dTliVnczdW0yMlNWZHBFSnIxcGlUWUlQVXpjNTdzS05mZlhVWFpI?oc=5",
-      "source": "搜狐网",
-      "category": "政策",
-      "published": "2026-08-23",
-      "body_snippet": "葛培健：从“空间资管”到“算力主权” 定义“十五五”智能体园区新范式｜2026博鳌产业科技大会 搜狐网",
-      "_query_boost": 50,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "葛培健：从“空间资管”到“算力主权” 定义“十五五”智能体园区新范式｜2026博鳌产业科技大会 - 搜狐网 葛培健：从“空间资管”到“算力主权” 定义“十五五”",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-002",
+      "id": "raw-5",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
@@ -93,22 +16,24 @@
       "published": "2026-08-23",
       "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
       "_query_boost": 15,
-      "lane": "silent",
+      "lane": "attend",
       "signals": [
-        "🔬"
+        "⚔️"
       ],
       "is_deep_read": false,
       "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
+        "c2"
       ],
-      "summary_cn": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "ppio_signal": null,
-      "_classified_by": "rule"
+      "summary_cn": "①中国移动、中国电信、中国联通三大运营商同步推出面向个人及开发者的Token套餐，将AI大模型调用能力按Token计费标准化销售，标志着AI算力从企业级服务向大众化消费市场渗透。三大运营商合计拥有超16亿移动用户和数百万企业客户，其渠道和网络覆盖优势显著，有望快速扩大AI推理用户基数。②对PPIO而言，运营商以低成本Token套餐进入AI推理市场，可能挤压中小算力服务商的定价空间，PPIO面临价格竞争压力；但运营商标准化套餐主要面向通用场景，难以覆盖低延迟、分布式边缘推理需求，PPIO可聚焦边缘分布式算力差异化竞争。港股IPO叙事中需突出边缘节点规模和弹性供给能力，证明在运营商巨头入局下仍具备生存空间。",
+      "ppio_signal": {
+        "positive": "推动AI推理算力需求普及，培养用户付费习惯，利好整体算力市场扩容，边缘推理场景需求有望增长。",
+        "risk": "运营商以庞大用户基础和资金实力切入Token算力市场，可能引发价格战，挤压第三方算力服务商毛利。",
+        "beneficiaries": "芯片/服务器供应商（如英伟达/华为昇腾）、AI应用开发商、运营商云生态合作伙伴。",
+        "pressure_parties": "第三方算力集成商、传统IDC服务商、中小云厂商（如优刻得、七牛云等）。"
+      }
     },
     {
-      "id": "raw-003",
+      "id": "raw-007",
       "title": "海外需求“接”进来，中国算力“算”全球 - 上观新闻",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1bndSeVpWMFdNNnl6NnIxSElxeDZvbGVZbk5LbkNvVGxnQkItRWFPM2RsTnowbUs4dG8wakZmMlhFQ3JtTDhSWjc4M3lzQmhZNXhLOWkxaUlqZ3hz?oc=5",
       "source": "上观新闻",
@@ -131,174 +56,41 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
-      "title": "算力脑机接口接连入局 铁路“跨界”新玩法探路数智化转型 - cb.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwaFB4bGt5LUpRRDYzblBkOWI2VkpyRWdhcmtZbUNnTkNtaDRKd0pOQUI4eXVpaDZVSW9yN1Z4Y1NIcFRab003SUhuQ3gtNGMxV2lTWm5IYzhJX1N1RnVSaDln?oc=5",
-      "source": "cb.com.cn",
-      "category": "竞品",
-      "published": "2026-08-23",
-      "body_snippet": "算力脑机接口接连入局 铁路“跨界”新玩法探路数智化转型 cb.com.cn",
-      "_query_boost": 20,
-      "lane": "attend",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "算力脑机接口接连入局 铁路“跨界”新玩法探路数智化转型 - cb.com.cn 算力脑机接口接连入局 铁路“跨界”新玩法探路数智化转型 cb.com.cn",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-006",
-      "title": "阶跃星辰连发三张王牌：STEPX品牌+Step AOS系统+首款原生智能体手机亮相 - 中关村在线",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBTTEkxNTN3SjBxekZRd0p5NUxBRkJ5SnFJa0h5VjJPTTBsYnZNbEtRUk5TR0ZZNjZBeFVhUC05VWMxT1QwQkMyY01STVZkVkRsYlZpbFAtRQ?oc=5",
-      "source": "中关村在线",
-      "category": "竞品",
-      "published": "2026-08-18",
-      "body_snippet": "阶跃星辰连发三张王牌：STEPX品牌+Step AOS系统+首款原生智能体手机亮相 中关村在线",
-      "_query_boost": 25,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "STEPX品牌+Step AOS系统+首款原生智能体手机亮相 - 中关村在线 阶跃星辰连发三张王牌：STEPX品牌+Step AOS系统+首款原生智能体手机亮相 中关村在线",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-007",
-      "title": "美国出现反对建设数据中心潮 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX0tVZU9Vai1aamtqSzdWNGxnMGg2QjJ5Qm4ydHVhcFIxdzRucXdmdVJwb0FqMldTYWx4Q2NGQTZHS1dtNXV2cmxsMF83MVZveEZxWTZVQ0VQaTBTdkp4dGtLTVdUR2JVaEJqRnB1OGR2aVBpY29VS1BfaS1rcjZhU0xfdFN1ZmVGcTJN?oc=5",
-      "source": "新浪财经",
-      "category": "海外",
-      "published": "2026-08-18",
-      "body_snippet": "美国出现反对建设数据中心潮 新浪财经",
-      "_query_boost": 25,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "美国出现反对建设数据中心潮 - 新浪财经 美国出现反对建设数据中心潮 新浪财经",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-008",
-      "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的",
-      "url": "https://www.qbitai.com/2026/08/478191.html",
-      "source": "量子位",
-      "published": "2026-08-23",
-      "body_snippet": "",
-      "category": "技术",
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的 ",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 - 36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvVFBRR2hjWGNiNDc1M3ZKNlpJNXljWmtYc21ZMXE0SlpGSXdzYXY0cTRiWDFxRU5Ob0Z5YlUzSnlJaTBwOWhkeGJDMEljZw?oc=5",
-      "source": "36Kr",
-      "category": "竞品",
-      "published": "2026-08-18",
-      "body_snippet": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 36Kr",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 - 36Kr 告别“堆卡”：2026，中国算力开启“Token价值产出”大考 36Kr",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-014",
-      "title": "美国得州州长阿博特：AI 数据中心遭民众反对实属咎由自取",
-      "url": "https://www.ithome.com/0/993/336.htm",
-      "source": "IT之家",
+      "id": "raw-009",
+      "title": "数智内蒙 算赢未来｜华为中国行2026·内蒙古新质生产力大会启幕，以绿色算力激活发展新动能 - icloudnews.net",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1oM1NFa0pDaEkydzlzNGFYM3Yxa3psaWRNSEVab1NqOUZVNkhEMDVEdnYzRERBNlBiLVJWTTFXcExsQzhCNWp4M2JDd3VJQ1pQNmc?oc=5",
+      "source": "icloudnews.net",
+      "category": "监管",
       "published": "2026-08-24",
-      "body_snippet": "",
-      "category": "海外",
+      "body_snippet": "数智内蒙 算赢未来｜华为中国行2026·内蒙古新质生产力大会启幕，以绿色算力激活发展新动能 icloudnews.net",
+      "_query_boost": 20,
       "lane": "attend",
       "signals": [
-        "🌏"
+        "🔬"
       ],
-      "is_deep_read": false,
+      "is_deep_read": true,
       "compass_triggered": [
         "c1",
         "c2",
         "c3"
       ],
-      "summary_cn": "AI 数据中心遭民众反对实属咎由自取 ",
+      "summary_cn": "数智内蒙 算赢未来｜华为中国行2026·内蒙古新质生产力大会启幕，以绿色算力激活发展新动能 - icloudnews.net 数智内蒙 算赢未来｜华为中国行20",
       "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
+        "positive": "（待补充）",
+        "risk": "（待补充）",
+        "beneficiaries": "（待补充）",
+        "pressure_parties": "（待补充）"
       },
       "_classified_by": "rule"
     },
     {
-      "id": "raw-015",
-      "title": "内蒙古算力规模全国第一 加速转向词元经济 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Qd2ZsaDN4X3VYdmJ2WDdZcXlfSHEzcW1Nc2RQRV9YaGxaNjFPeC1TZ2dVeWdoaktaWldRQVItTFVYRGpFRE9ZYTNNMkxWMG1Vak1zSA?oc=5",
-      "source": "虎嗅",
+      "id": "raw-010",
+      "title": "运营商半年报解读：动能转换阵痛期，押注算力与AI - C114通信网",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5oUl9XLUlMU3FwRnMtbHJfOFdpQjhhUWVKRmhHRHVveUhfRXU5eS01QmFEUkxKRjR5ekR2NWZ3MFNYa0hpNktUNE1Xb0dVU1k?oc=5",
+      "source": "C114通信网",
       "category": "技术",
-      "published": "2026-08-21",
-      "body_snippet": "内蒙古算力规模全国第一 加速转向词元经济 虎嗅",
+      "published": "2026-08-24",
+      "body_snippet": "运营商半年报解读：动能转换阵痛期，押注算力与AI C114通信网",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
@@ -310,9 +102,60 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "内蒙古算力规模全国第一 加速转向词元经济 - 虎嗅 内蒙古算力规模全国第一 加速转向词元经济 虎嗅",
+      "summary_cn": "运营商半年报解读：动能转换阵痛期，押注算力与AI - C114通信网 运营商半年报解读：动能转换阵痛期，押注算力与AI C114通信网",
       "ppio_signal": null,
       "_classified_by": "rule"
+    },
+    {
+      "id": "raw-3",
+      "title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+      "source": "NVIDIA Blog",
+      "published": "2026-08-24",
+      "body_snippet": "",
+      "category": "技术",
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": " NVIDIA 发布 Vera Rubin NVL72 架构，宣称每瓦性能提升 30 倍，为 AI 代理推理设立新能效标杆。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-4",
+      "title": "NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026",
+      "url": "https://www.servethehome.com/nvidia-vera-rubin-nvl72-rack-at-hot-chips-2026/",
+      "source": "ServeTheHome",
+      "published": "2026-08-25",
+      "body_snippet": "NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026 / ServeTheHome",
+      "category": "技术",
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "Hot Chips 2026 上展示 NVIDIA Vera Rubin NVL72 机架，细节显示高密度互连与液冷方案。",
+      "ppio_signal": null
+    },
+    {
+      "id": "raw-5",
+      "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+      "source": "NVIDIA Blog",
+      "published": "2026-08-24",
+      "body_snippet": "",
+      "category": "技术",
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [],
+      "summary_cn": "NVIDIA 宣布 Groq 3 LPX 全面投产，结合 Vera Rubin 架构优化 AI 代理推理性能。",
+      "ppio_signal": null
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-24T02:12:00.225Z",
+  "generated_at": "2026-08-25T01:43:00.791Z",
   "week": "2026-W35",
   "date_range": {
-    "from": "2026-08-17",
-    "to": "2026-08-24"
+    "from": "2026-08-18",
+    "to": "2026-08-25"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -20,6 +20,33 @@
     },
     {
       "id": "raw-002",
+      "title": "陈石燕副主任参加解读《上海市妇女儿童发展 “十五五”规划》市政府新闻发布会",
+      "url": "https://fgw.sh.gov.cn/fgw_gzdt/20260821/78ffea6a2c4f48518719bccadf1487f3.html",
+      "source": "上海市发改委",
+      "published": "2026-08-21",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-003",
+      "title": "《新型电力系统建设“十五五”规划》发布",
+      "url": "https://fgw.sh.gov.cn/fgw_fzggdt/20260813/f082332c3ccf4744b9ce963533cb01e2.html",
+      "source": "上海市发改委",
+      "published": "2026-08-20",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-004",
+      "title": "上海市人民政府办公厅关于印发《上海市现代物流发展“十五五”规划》的通知",
+      "url": "https://www.shanghai.gov.cn/nw12344/20260818/4579a177ce9d44e5b6405a0677a00650.html",
+      "source": "上海市发改委",
+      "published": "2026-08-19",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-005",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
@@ -29,7 +56,16 @@
       "_query_boost": 15
     },
     {
-      "id": "raw-003",
+      "id": "raw-006",
+      "title": "上海市人民政府办公厅关于印发《上海市“数字上海”建设“十五五”规划》的通知",
+      "url": "https://www.shanghai.gov.cn/nw12344/20260819/6cf80b0875f1465c94886f0b1a4a4f35.html",
+      "source": "上海市政府-政策文件",
+      "published": "2026-08-19",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-007",
       "title": "海外需求“接”进来，中国算力“算”全球 - 上观新闻",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1bndSeVpWMFdNNnl6NnIxSElxeDZvbGVZbk5LbkNvVGxnQkItRWFPM2RsTnowbUs4dG8wakZmMlhFQ3JtTDhSWjc4M3lzQmhZNXhLOWkxaUlqZ3hz?oc=5",
       "source": "上观新闻",
@@ -39,111 +75,79 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-005",
-      "title": "算力脑机接口接连入局 铁路“跨界”新玩法探路数智化转型 - cb.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwaFB4bGt5LUpRRDYzblBkOWI2VkpyRWdhcmtZbUNnTkNtaDRKd0pOQUI4eXVpaDZVSW9yN1Z4Y1NIcFRab003SUhuQ3gtNGMxV2lTWm5IYzhJX1N1RnVSaDln?oc=5",
-      "source": "cb.com.cn",
-      "category": "竞品",
-      "published": "2026-08-23",
-      "body_snippet": "算力脑机接口接连入局 铁路“跨界”新玩法探路数智化转型 cb.com.cn",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-006",
-      "title": "阶跃星辰连发三张王牌：STEPX品牌+Step AOS系统+首款原生智能体手机亮相 - 中关村在线",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBTTEkxNTN3SjBxekZRd0p5NUxBRkJ5SnFJa0h5VjJPTTBsYnZNbEtRUk5TR0ZZNjZBeFVhUC05VWMxT1QwQkMyY01STVZkVkRsYlZpbFAtRQ?oc=5",
-      "source": "中关村在线",
-      "category": "竞品",
-      "published": "2026-08-18",
-      "body_snippet": "阶跃星辰连发三张王牌：STEPX品牌+Step AOS系统+首款原生智能体手机亮相 中关村在线",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-007",
-      "title": "美国出现反对建设数据中心潮 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX0tVZU9Vai1aamtqSzdWNGxnMGg2QjJ5Qm4ydHVhcFIxdzRucXdmdVJwb0FqMldTYWx4Q2NGQTZHS1dtNXV2cmxsMF83MVZveEZxWTZVQ0VQaTBTdkp4dGtLTVdUR2JVaEJqRnB1OGR2aVBpY29VS1BfaS1rcjZhU0xfdFN1ZmVGcTJN?oc=5",
-      "source": "新浪财经",
-      "category": "海外",
-      "published": "2026-08-18",
-      "body_snippet": "美国出现反对建设数据中心潮 新浪财经",
-      "_query_boost": 25
-    },
-    {
       "id": "raw-008",
-      "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的",
-      "url": "https://www.qbitai.com/2026/08/478191.html",
-      "source": "量子位",
-      "published": "2026-08-23",
+      "title": "全面提升“上海服务”辐射力竞争力 龚正专项调研上海市服务业发展“十五五”规划",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260825/88fef8e93c664fb9aac9266c8236c92d.html",
+      "source": "上海市政府-动态",
+      "published": "2026-08-25",
       "body_snippet": "",
-      "category": "技术"
+      "category": "竞品"
     },
     {
       "id": "raw-009",
-      "title": "《人民日报》理论版｜薛澜 陈颖：以丰富国际公共产品供给引领人工智能全球治理 - 智源社区",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QTFJNZXFELU1lRllxV3c5eGFVTFp1MmFoOHQ4MlRIWC1qeDBCVFNaQzhwVVg2dkU0OHE1MlpDQjhKeEFINzVTMA?oc=5",
-      "source": "智源社区",
-      "category": "政策",
-      "published": "2026-08-22",
-      "body_snippet": "《人民日报》理论版｜薛澜 陈颖：以丰富国际公共产品供给引领人工智能全球治理 智源社区",
-      "_query_boost": 50
+      "title": "数智内蒙 算赢未来｜华为中国行2026·内蒙古新质生产力大会启幕，以绿色算力激活发展新动能 - icloudnews.net",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1oM1NFa0pDaEkydzlzNGFYM3Yxa3psaWRNSEVab1NqOUZVNkhEMDVEdnYzRERBNlBiLVJWTTFXcExsQzhCNWp4M2JDd3VJQ1pQNmc?oc=5",
+      "source": "icloudnews.net",
+      "category": "监管",
+      "published": "2026-08-24",
+      "body_snippet": "数智内蒙 算赢未来｜华为中国行2026·内蒙古新质生产力大会启幕，以绿色算力激活发展新动能 icloudnews.net",
+      "_query_boost": 20
     },
     {
       "id": "raw-010",
-      "title": "“六张网”建设提速，新型电网何以成为协同枢纽 - 第一财经",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NS3RyVEQwM0wyTWtLbllUdGYtN3k2Qjhkc1J4eFNUTW90V3UyUlozTTRidVhaZGFoQkhLeGRIX0x3VHVIUmVlSHBNNEY3N2pZSEpN?oc=5",
-      "source": "第一财经",
-      "category": "政策",
-      "published": "2026-08-22",
-      "body_snippet": "“六张网”建设提速，新型电网何以成为协同枢纽 第一财经",
+      "title": "运营商半年报解读：动能转换阵痛期，押注算力与AI - C114通信网",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5oUl9XLUlMU3FwRnMtbHJfOFdpQjhhUWVKRmhHRHVveUhfRXU5eS01QmFEUkxKRjR5ekR2NWZ3MFNYa0hpNktUNE1Xb0dVU1k?oc=5",
+      "source": "C114通信网",
+      "category": "技术",
+      "published": "2026-08-24",
+      "body_snippet": "运营商半年报解读：动能转换阵痛期，押注算力与AI C114通信网",
       "_query_boost": 0
     },
     {
       "id": "raw-011",
-      "title": "拟共建“Token工厂”！山东铁发基金签约硅基流动，后者将冲刺“AI Token工厂第一股” - QQ News",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4Sm5jSU9QZ2x5WHg1Z1l4NEoyVUkyWF9MZmtwRTJJZHhfNHlaQk5PcXloTEVXQXRiNW5KeGRLM2JmM2NiZFpEQmg0VFBzYkhKYUJpakM0NFIzbHhQZXpQUkRn?oc=5",
-      "source": "QQ News",
-      "category": "竞品",
-      "published": "2026-08-19",
-      "body_snippet": "拟共建“Token工厂”！山东铁发基金签约硅基流动，后者将冲刺“AI Token工厂第一股” QQ News",
-      "_query_boost": 20
+      "title": "下午察：算力狂飙，加剧西部用水紧张？ - 早晨报",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44Wl9BYlVKVEdUNGR5MmppSnhqZG1NNXBLTUNRdG9YX1dvSDNOck9IcDRzanF1aVA2NE1odEVwWTNkN0V1bnBTTUxIblRDTmNPZkhHYUNObzBvblY3eG0xQk81MUI4Ti1p?oc=5",
+      "source": "早晨报",
+      "category": "海外",
+      "published": "2026-08-21",
+      "body_snippet": "下午察：算力狂飙，加剧西部用水紧张？ 早晨报",
+      "_query_boost": 25
     },
     {
       "id": "raw-012",
-      "title": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 - 36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvVFBRR2hjWGNiNDc1M3ZKNlpJNXljWmtYc21ZMXE0SlpGSXdzYXY0cTRiWDFxRU5Ob0Z5YlUzSnlJaTBwOWhkeGJDMEljZw?oc=5",
-      "source": "36Kr",
-      "category": "竞品",
-      "published": "2026-08-18",
-      "body_snippet": "告别“堆卡”：2026，中国算力开启“Token价值产出”大考 36Kr",
-      "_query_boost": 20
+      "title": "上海市人民政府关于印发《上海市加快推进新型工业化构建现代化产业体系“十五五”规划》的通知",
+      "url": "https://www.shanghai.gov.cn/nw12344/20260824/0c052ef0042c4a09bcae2adfe2babe62.html",
+      "source": "上海市政府-政策文件",
+      "published": "2026-08-24",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-013",
-      "title": "李乐成出席联合国首届人工智能治理全球对话：愿共同构建全球治理体系",
-      "url": "http://www.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_972712827a8f4a4f95af52c5bbb4ca90.html",
-      "source": "工信部-新闻",
+      "title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+      "source": "NVIDIA Blog",
       "published": "2026-08-24",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-014",
-      "title": "美国得州州长阿博特：AI 数据中心遭民众反对实属咎由自取",
-      "url": "https://www.ithome.com/0/993/336.htm",
-      "source": "IT之家",
-      "published": "2026-08-24",
-      "body_snippet": "",
-      "category": "海外"
+      "title": "NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026",
+      "url": "https://www.servethehome.com/nvidia-vera-rubin-nvl72-rack-at-hot-chips-2026/",
+      "source": "ServeTheHome",
+      "published": "2026-08-25",
+      "body_snippet": "NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026 / ServeTheHome",
+      "category": "技术"
     },
     {
       "id": "raw-015",
-      "title": "内蒙古算力规模全国第一 加速转向词元经济 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Qd2ZsaDN4X3VYdmJ2WDdZcXlfSHEzcW1Nc2RQRV9YaGxaNjFPeC1TZ2dVeWdoaktaWldRQVItTFVYRGpFRE9ZYTNNMkxWMG1Vak1zSA?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-08-21",
-      "body_snippet": "内蒙古算力规模全国第一 加速转向词元经济 虎嗅",
-      "_query_boost": 0
+      "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+      "source": "NVIDIA Blog",
+      "published": "2026-08-24",
+      "body_snippet": "",
+      "category": "技术"
     }
   ]
 }
