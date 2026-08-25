@@ -1,47 +1,43 @@
 {
-  "updated_at": "2026-08-25T01:51:28.893Z",
+  "updated_at": "2026-08-25T02:08:18.030Z",
   "days": [
     {
       "date": "2026-08-25",
-      "mainline": "三大运营商推出Token套餐加速算力大众化，直接冲击边缘云市场；华为携手内蒙古推进绿色算力基建，政策利好对冲竞争压力。",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
       "signal_summary": {
-        "🏛️": 1,
-        "📜": 1,
+        "🏛️": 0,
+        "📜": 0,
         "⚔️": 1,
-        "💰": 0,
-        "🌏": 1,
-        "🔬": 1
+        "💰": 1,
+        "🌏": 0,
+        "🔬": 6
       },
       "wind_indicators": {
-        "policy_heat": 4,
-        "competitor_heat": 5,
-        "capital_heat": 2,
-        "overseas_heat": 3,
-        "overall_sentiment": "升温",
-        "summary": "政策端绿色算力利好明确，但竞争端三大运营商与NVIDIA同时发力，算力市场白热化，整体情绪偏热但风险升高。"
+        "policy_heat": 2,
+        "competitor_heat": 3,
+        "capital_heat": 3,
+        "overseas_heat": 2,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
       },
       "ppio_index": {
-        "score": 62,
-        "delta": -5,
+        "score": 55,
+        "delta": 0,
         "components": {
-          "policy_tailwind": 40,
-          "competitive_pressure": -25,
-          "capital_sentiment": 10,
-          "regulatory_risk": -8,
-          "overseas_headwind": -5
+          "policy_tailwind": 0,
+          "competitive_pressure": -6,
+          "capital_sentiment": 5,
+          "regulatory_risk": 0,
+          "overseas_headwind": 0
         },
-        "interpretation": "竞争端三大运营商入局个人算力市场冲击显著，但绿色算力政策利好部分对冲，指数小幅回落至62"
+        "interpretation": "规则估算，仅供参考"
       },
       "item_count": {
-        "total": 7,
+        "total": 6,
         "attend": 2,
-        "silent": 5
+        "silent": 4
       },
-      "competitor_updates": [
-        "三大运营商：推出个人/开发者Token套餐，AI算力标准化大众化，与PPIO Sandbox产品定位重叠度升高",
-        "NVIDIA：发布Vera Rubin NVL72架构，能效比提升30倍，边缘云高密度算力竞争加剧",
-        "华为：内蒙古绿色算力合作，强化政企算力基建，可能成为运营商之外的新竞合方"
-      ]
+      "competitor_updates": []
     },
     {
       "date": "2026-08-24",

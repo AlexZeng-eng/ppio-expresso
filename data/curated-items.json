@@ -1,96 +1,20 @@
 {
-  "generated_at": "2026-08-25T01:49:57.976Z",
+  "generated_at": "2026-08-25T02:08:17.938Z",
   "week": "2026-W35",
-  "classifier": "deepseek-v4-pro",
+  "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 7,
+  "total_curated": 6,
   "attend_count": 2,
-  "silent_count": 5,
+  "silent_count": 4,
   "items": [
     {
-      "id": "raw-5",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
-      "category": "竞品",
-      "published": "2026-08-23",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "_query_boost": 15,
-      "lane": "attend",
-      "signals": [
-        "⚔️"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c2"
-      ],
-      "summary_cn": "①中国移动、中国电信、中国联通三大运营商同步推出面向个人及开发者的Token套餐，将AI大模型调用能力按Token计费标准化销售，标志着AI算力从企业级服务向大众化消费市场渗透。三大运营商合计拥有超16亿移动用户和数百万企业客户，其渠道和网络覆盖优势显著，有望快速扩大AI推理用户基数。②对PPIO而言，运营商以低成本Token套餐进入AI推理市场，可能挤压中小算力服务商的定价空间，PPIO面临价格竞争压力；但运营商标准化套餐主要面向通用场景，难以覆盖低延迟、分布式边缘推理需求，PPIO可聚焦边缘分布式算力差异化竞争。港股IPO叙事中需突出边缘节点规模和弹性供给能力，证明在运营商巨头入局下仍具备生存空间。",
-      "ppio_signal": {
-        "positive": "推动AI推理算力需求普及，培养用户付费习惯，利好整体算力市场扩容，边缘推理场景需求有望增长。",
-        "risk": "运营商以庞大用户基础和资金实力切入Token算力市场，可能引发价格战，挤压第三方算力服务商毛利。",
-        "beneficiaries": "芯片/服务器供应商（如英伟达/华为昇腾）、AI应用开发商、运营商云生态合作伙伴。",
-        "pressure_parties": "第三方算力集成商、传统IDC服务商、中小云厂商（如优刻得、七牛云等）。"
-      }
-    },
-    {
-      "id": "raw-007",
-      "title": "海外需求“接”进来，中国算力“算”全球 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1bndSeVpWMFdNNnl6NnIxSElxeDZvbGVZbk5LbkNvVGxnQkItRWFPM2RsTnowbUs4dG8wakZmMlhFQ3JtTDhSWjc4M3lzQmhZNXhLOWkxaUlqZ3hz?oc=5",
-      "source": "上观新闻",
-      "category": "政策",
-      "published": "2026-08-20",
-      "body_snippet": "海外需求“接”进来，中国算力“算”全球 上观新闻",
-      "_query_boost": 30,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "海外需求“接”进来，中国算力“算”全球 - 上观新闻 海外需求“接”进来，中国算力“算”全球 上观新闻",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-009",
-      "title": "数智内蒙 算赢未来｜华为中国行2026·内蒙古新质生产力大会启幕，以绿色算力激活发展新动能 - icloudnews.net",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1oM1NFa0pDaEkydzlzNGFYM3Yxa3psaWRNSEVab1NqOUZVNkhEMDVEdnYzRERBNlBiLVJWTTFXcExsQzhCNWp4M2JDd3VJQ1pQNmc?oc=5",
-      "source": "icloudnews.net",
-      "category": "监管",
-      "published": "2026-08-24",
-      "body_snippet": "数智内蒙 算赢未来｜华为中国行2026·内蒙古新质生产力大会启幕，以绿色算力激活发展新动能 icloudnews.net",
-      "_query_boost": 20,
-      "lane": "attend",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "数智内蒙 算赢未来｜华为中国行2026·内蒙古新质生产力大会启幕，以绿色算力激活发展新动能 - icloudnews.net 数智内蒙 算赢未来｜华为中国行20",
-      "ppio_signal": {
-        "positive": "（待补充）",
-        "risk": "（待补充）",
-        "beneficiaries": "（待补充）",
-        "pressure_parties": "（待补充）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-010",
-      "title": "运营商半年报解读：动能转换阵痛期，押注算力与AI - C114通信网",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5oUl9XLUlMU3FwRnMtbHJfOFdpQjhhUWVKRmhHRHVveUhfRXU5eS01QmFEUkxKRjR5ekR2NWZ3MFNYa0hpNktUNE1Xb0dVU1k?oc=5",
-      "source": "C114通信网",
+      "id": "raw-001",
+      "title": "运营商半年报解读：动能转换阵痛期，押注算力与AI - 中文科技资讯",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CZWxDblpnSi1mMEpSRGhHSnlhaXYxLXVNa2ktbV9QMUtFZVZTNDlXWm9YRURvZWxUV3NVeXZrOUNIZ0pYV0lZNzhnTkVEMWM?oc=5",
+      "source": "中文科技资讯",
       "category": "技术",
       "published": "2026-08-24",
-      "body_snippet": "运营商半年报解读：动能转换阵痛期，押注算力与AI C114通信网",
+      "body_snippet": "运营商半年报解读：动能转换阵痛期，押注算力与AI 中文科技资讯",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
@@ -102,60 +26,136 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "运营商半年报解读：动能转换阵痛期，押注算力与AI - C114通信网 运营商半年报解读：动能转换阵痛期，押注算力与AI C114通信网",
+      "summary_cn": "运营商半年报解读：动能转换阵痛期，押注算力与AI - 中文科技资讯 运营商半年报解读：动能转换阵痛期，押注算力与AI 中文科技资讯",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-3",
-      "title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
-      "source": "NVIDIA Blog",
-      "published": "2026-08-24",
-      "body_snippet": "",
+      "id": "raw-002",
+      "title": "独家|高乐股份67亿元算力大单迷雾：哈尔滨子公司注册地址为虚拟，算力业务团队超一半入职不足3个月？ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQkRHb19rYkhzZk51SFFTanc4dmY1Zkc4NVVUa0lZRGQ5SjBtc290RkgwVzBXWmluLVNkLTVOU0FGb2xIb21oXzAxeGRRTTVmb1ZDNWc4TnpUcmxlcmxtT0hqaTZMaUdoZ0VvQmd4eGRlMXlxeldmQ3g1Zi1VT0hJV0VGSkN1al9fOWYxYXZoSlMyUDdELTlhdnF5UWMyeTh0?oc=5",
+      "source": "新浪财经",
       "category": "技术",
+      "published": "2026-08-24",
+      "body_snippet": "独家|高乐股份67亿元算力大单迷雾：哈尔滨子公司注册地址为虚拟，算力业务团队超一半入职不足3个月？ 新浪财经",
+      "_query_boost": 15,
       "lane": "silent",
       "signals": [
         "🔬"
       ],
       "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": " NVIDIA 发布 Vera Rubin NVL72 架构，宣称每瓦性能提升 30 倍，为 AI 代理推理设立新能效标杆。",
-      "ppio_signal": null
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "独家|高乐股份67亿元算力大单迷雾：哈尔滨子公司注册地址为虚拟，算力业务团队超一半入职不足3个月？ - 新浪财经 独家|高乐股份67亿元算力大单迷雾：哈尔滨子公",
+      "ppio_signal": null,
+      "_classified_by": "rule"
     },
     {
-      "id": "raw-4",
-      "title": "NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026",
-      "url": "https://www.servethehome.com/nvidia-vera-rubin-nvl72-rack-at-hot-chips-2026/",
-      "source": "ServeTheHome",
-      "published": "2026-08-25",
-      "body_snippet": "NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026 / ServeTheHome",
-      "category": "技术",
-      "lane": "silent",
+      "id": "raw-003",
+      "title": "2026年，算力成为中国AI产业最紧俏的硬通货。一季度，腾讯向字节跳动紧急采购约 - 财富号",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Rck9oUlI2QWdnZWpmODJfNk5SWElkMVhLYmpIN2lNeEMyZWRqRFFkbE5vb1FJREtRTU0zQUp4d090bnNvRFA0eDNnVFh3MXF4QzRGZ0JNU3dDVkp0OHRETGNmdDlyaVIyZmdF?oc=5",
+      "source": "财富号",
+      "category": "竞品",
+      "published": "2026-08-20",
+      "body_snippet": "2026年，算力成为中国AI产业最紧俏的硬通货。一季度，腾讯向字节跳动紧急采购约 财富号",
+      "_query_boost": 20,
+      "lane": "attend",
       "signals": [
         "🔬"
       ],
       "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "Hot Chips 2026 上展示 NVIDIA Vera Rubin NVL72 机架，细节显示高密度互连与液冷方案。",
-      "ppio_signal": null
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "2026年，算力成为中国AI产业最紧俏的硬通货。一季度，腾讯向字节跳动紧急采购约 - 财富号 2026年，算力成为中国AI产业最紧俏的硬通货。一季度，腾讯向字节跳动紧急采购约 财富号",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
     },
     {
-      "id": "raw-5",
-      "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
-      "source": "NVIDIA Blog",
-      "published": "2026-08-24",
-      "body_snippet": "",
+      "id": "raw-006",
+      "title": "阿里巴巴800亿港元融资全部投入AI基础设施，押注算力军备竞赛 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kVjFZbEdlc2tYNkFOYmVRdnFhUlJKX0JXdXc3aW5nWVd6cWpBV25mdG5KZDBuUmFEV3BTZU4yOXF6VnpkUHlHQmUyVklHVnNic2swQQ?oc=5",
+      "source": "虎嗅",
       "category": "技术",
+      "published": "2026-08-24",
+      "body_snippet": "阿里巴巴800亿港元融资全部投入AI基础设施，押注算力军备竞赛 虎嗅",
+      "_query_boost": 0,
+      "lane": "attend",
+      "signals": [
+        "⚔️",
+        "💰",
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "阿里巴巴800亿港元融资全部投入AI基础设施，押注算力军备竞赛 - 虎嗅 阿里巴巴800亿港元融资全部投入AI基础设施，押注算力军备竞赛 虎嗅",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-007",
+      "title": "大厂AI竞赛从技术周期进入资本周期，资本成本开始决定算力扩张上限 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41Um15MEs3elZ4OFd5eEV3d1VEdkpoakhsOFE4eUVRZElKVzFJUTNCc21TanQ5VDQyNmRGUnNXWXgwcXRlVjlLSzdZRFJzbS1MWEh5dmJVVUl2d0ZfQUxV?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-08-24",
+      "body_snippet": "大厂AI竞赛从技术周期进入资本周期，资本成本开始决定算力扩张上限 虎嗅",
+      "_query_boost": 0,
       "lane": "silent",
       "signals": [
         "🔬"
       ],
       "is_deep_read": false,
-      "compass_triggered": [],
-      "summary_cn": "NVIDIA 宣布 Groq 3 LPX 全面投产，结合 Vera Rubin 架构优化 AI 代理推理性能。",
-      "ppio_signal": null
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "大厂AI竞赛从技术周期进入资本周期，资本成本开始决定算力扩张上限 - 虎嗅 大厂AI竞赛从技术周期进入资本周期，资本成本开始决定算力扩张上限 虎嗅",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-008",
+      "title": "中国AI模型厂商进入前沿竞争：参数规模竞赛转向算力与资本竞赛 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XR05NcUNWbmdOTXUxbzFvTFN5NUJnd1A0YVFPd2d1OVlhV2lidTQxSHNoeERyMDZ3T3o1a2NlLXpZSVFhOFA0RmQ4QW9vR0p0WlE?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-08-23",
+      "body_snippet": "中国AI模型厂商进入前沿竞争：参数规模竞赛转向算力与资本竞赛 虎嗅",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "中国AI模型厂商进入前沿竞争：参数规模竞赛转向算力与资本竞赛 - 虎嗅 中国AI模型厂商进入前沿竞争：参数规模竞赛转向算力与资本竞赛 虎嗅",
+      "ppio_signal": null,
+      "_classified_by": "rule"
     }
   ]
 }
