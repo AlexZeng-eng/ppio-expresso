@@ -1,15 +1,44 @@
 {
-  "generated_at": "2026-08-26T02:14:04.796Z",
+  "generated_at": "2026-08-27T10:30:00.095Z",
   "week": "2026-W35",
   "date_range": {
-    "from": "2026-08-19",
-    "to": "2026-08-26"
+    "from": "2026-08-20",
+    "to": "2026-08-27"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
+      "title": "智谱认领神秘模型“牛来” 测试期国产芯片提供全部推理算力 - Caixin Global",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QWG9rUVhCUjUwSVplQS1jRHptbEljSVhiX3dEb29ZeTNpZUZUZTAwZUhmMjI4cmNZNlRPcFR0YjR0am5ZVnlkcDBSRk0xUm55WnQwUGIyY0dHWXRMVU5qOEM1STM?oc=5",
+      "source": "Caixin Global",
+      "category": "技术",
+      "published": "2026-08-27",
+      "body_snippet": "智谱认领神秘模型“牛来” 测试期国产芯片提供全部推理算力 Caixin Global",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-002",
+      "title": "【图解】上海市人民政府办公厅关于印发《上海市现代物流发展“十五五”规划》的通知",
+      "url": "https://fgw.sh.gov.cn/fgw_zcjd/20260824/0b3f4c08a5d8418db5000f0fbe6a384c.html",
+      "source": "上海市发改委",
+      "published": "2026-08-21",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-003",
+      "title": "事关集成电路、算力、人工智能、航空航天、智能机器人、6G、生物医药、低空经济等产业，工信部发声 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOeVdDdHQxYVp5ZF9VOUJaWDZhRVFfUkFHdVVMdkZiSy14WmpJbi1LaFJoNkJyWkZJeUZhZUxkbU9lcUlKODFqM2ktRlg4UW1pcFVmQUhhaUxPMnl4TldTbkk3UG05dDdKanpEOGlhMDVGRDMyUFE?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-08-26",
+      "body_snippet": "事关集成电路、算力、人工智能、航空航天、智能机器人、6G、生物医药、低空经济等产业，工信部发声 新浪财经",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-004",
       "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ - 华人头条",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZlFzTGdVZk1tN3dSQ0RvX0VOSWNEM0VuZm5EZnpScjFBNmJFMWwtVjFKdDI4Q3VRdzk4cTZ1eHV4NjdIamhkZ3luVlhTLXNQNmx1NnZ4aHNKVlJ4cVBZN2NjWjl6aFE5R1U1SVJhN1pWS2hyaUlUbDc5UFBYLWdHZE5jaFNKNGpxYWc?oc=5",
       "source": "华人头条",
@@ -19,25 +48,44 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-002",
-      "title": "奋力打造人工智能发展和治理创新高地 市委中心组学习会举行",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260826/e51e5d2132244d548f31eff0e321daaf.html",
+      "id": "raw-005",
+      "title": "提升三大先导产业战略引领力 到2030年上海战新产业增加值达2.1万亿元 壮大新兴支柱产业12个细分赛道",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260827/2b03ecd265c741efbdd92dff687bd408.html",
       "source": "上海市政府-动态",
-      "published": "2026-08-26",
+      "published": "2026-08-27",
+      "body_snippet": "",
+      "category": "资本"
+    },
+    {
+      "id": "raw-006",
+      "title": "上海发布规划 到2030年初步建成公园城市 未来十年 再添1000座公园",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260827/f308f9f6756e489c8942f9f6204c17b6.html",
+      "source": "上海市政府-动态",
+      "published": "2026-08-27",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-003",
-      "title": "上海市人民政府办公厅关于印发《上海市公园提质增效实施方案》的通知",
-      "url": "https://www.shanghai.gov.cn/nw12344/20260826/8c6ab687ef4c4ef9bf16405f0b147d80.html",
-      "source": "上海市政府-政策文件",
-      "published": "2026-08-26",
+      "id": "raw-007",
+      "title": "国家关键领域语言科技赋能创新项目百个案例公布 上海12个案例入选 9个来自高校",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260827/c1bb7828b9f340aa9dfc63e7bd9d12dc.html",
+      "source": "上海市政府-动态",
+      "published": "2026-08-27",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-004",
+      "id": "raw-008",
+      "title": "华为投标埃及算力中心项目 据报已引起华盛顿警觉 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sYUlKMVBPYnVnSjAxazgwM0YyUWhUVUZnMmNCLTl6OC0tclhueTJfbkhnQjZkVEdVOEpMSUZYQk55eEpFZmRaTmNhdzRrcDlGZDBUSC1LRmJmbG03M2xYTG9fLXMxTVRkdlE?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-08-26",
+      "body_snippet": "华为投标埃及算力中心项目 据报已引起华盛顿警觉 联合早报",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-009",
       "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMizgpBVV95cUxQQWNja3BuYkpORWhNTUVDVmZkSXhQanFoQ0x3LXZZTHVsWnoyZkxQUURHN1EtdUotZENsdmZock5RQnFmOW1VVXFpOVAxMXU3WkFqeWhGcHFQeDJNbnl0RHppZUVIcU9IbXVLdUVjTlgxT2lPRTNVcTBJWExJbnJVamdtUkFjREhMX05Hc1NhOGMxVmxNbzlSelNKOHBPV2Z5aHozaThuUjJaeXZqU3pEMW9EaWFrNEZrM29GR2RJenh1MFFISU5BMVhuaGg5c2Ytd0piTWs2cEJveS1xS1J6Wk9Pc2t3ZDJPdlZJUi1XbmpyNDdOekxMRnc3bzhQV0JMejZVSkF3R0VlSmQwekVCSnRibGh6amY0WXpvUDY4ZkwxSXdEcXl1LTN2NW9CZFVWM0NzdG05WmNzT3lkazdtSENkMVMtbkRUY1FLTTQ3cmlQSUE0SUI5XzlXR1NQMURYMEtpUFdZNnVaZEh2OS1oQmlmRWlOblFqTXBpRUxhRDl0b3NGZHY0Z09Wbk9hT2lrXzE3dExXWEpaZHJvREhXNkc3UFFRMUhDRTB6NnNiLU1JUmQ1VFNuMnpFZk1EZGtvSjBDOEdBTC1pTTdCSGZmMHdCazRobGJjRDBpWHRCZGJRWWdnODFlOXNZZWdnajZsV1RjV1ZjcmhoNzFqY0FmTXhtSThJZmxGWmFRQ1lsUGI3bnk4UkZVU3ZmbVBRVXh1eU5YWUozajlzT2FBRDkyN1JiMlY0Y1JhdzR2WlZrMW9GV21iX1ZrcFpZanI4MllFWWZpeEpBYWk3WFVDejZwQy0tZjRmODRoYjc1dGR6QVpwcUlfS05XVU9CTGdwUng0eGVYLVRRNzQtellNbTV4QjBoeFhzXzcwdUxCZ0FyX1luam04cmxRZTNOTUdCQmlOdmVXRTY5dGllbXYzZlB2TUtVVnd2QkpuUHpHTmJhNUhTSTk3UU5DVDYxXzUzRzFucFAtR1B2NmJHaldNQ2h6aXFXbjB1aTFqRWNQaUJjVnFlU0ZzQWd1MUdiRHdJRUUwOFFnUVJqX3lnN0JNV0Q3elUtSkpaTHdDVnNjODV4VF9CNnkyMEtoNFJEYnFaZkd4a21oVHJJdGRLSWVGdV9GRUw5Q3F2WVFfYWxsY19IOWM0NUpXYTZoOTFVcXhWVDhUUUZmREFrZmQ3WmFyVnFqWE1sQTg5eWQ1ZE0xNmd0MEFZWjlsaGt4c1N1TndwNGhOeGJ5V3c2WWpqWFZ6RHo3TVdSalFOS0U2TjJhVG1IWlpaQ0ZIQ2JuN0RsdGdpM09HRE82T1BTZ3pTVnFkOTZCYUZMRGF6dGR6bzZhVUhfYVlfSW9WVE8xT2pnVW5fX1N4VGZKbG9zaEdjbUJkXzFBOFdhWDRsZkxkOUxkUUJKbExuUVhNTDFkNktERDF3WVVpbWcwU0pzNVVVbno4R2JGWVRHVlNQQ012b24tTEJieGdZVGV6RUdGbE5IRlNIdWJCeFZ6ZlZrNWNydndodnFIMmJmMmhBckNmOWota1ltZ2ZvVUlOY0RXSWU3UUFiR1VUSmM3ai1pTVRnQVdJT2Z3cG1fRVczOExIS3pNQWI0cnA0QXdyYXlSczVmZnk3elJQQVJsN2duczRtR3FIenVpc2J4YXdJVWkzVzJRNmJLYi1Db3lRYnYyaEJ3TXlMeE82RnpCR1JwQXFyeElxNTNDQ3o4VlJ1OHBPdkRJTnZnZzFsbmMyVGxERmsxdzJzcGQ2NkRrS1htdVZwMS1aR3B6RjdTSlV6LUU4bXZJTWNlcjRRMkVQUjFNMVNfdEF6QQ?oc=5",
       "source": "新浪财经",
@@ -47,17 +95,7 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-005",
-      "title": "【CGS-NDI论策】章俊、杨晓：AI时代算力竞争的新边界——数据中心能源约束与中美系统能力比较 - 手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYWFKVzFTNGhjTmRHbTNPV1NlT0lUZEgwTlZSeDZHM3BYT0t5clRUVVZoQzFqLUxJV3Q2ZEdlV3htQTlrT2ZzZm1rVEJtXzBDSWo0MzZDSU40WkVxYjE1MElsTmVuU09Xd0M3QXR6bVNYU1d0dHJCN3J1Sm1RYWRVbG1xdw?oc=5",
-      "source": "手机新浪网",
-      "category": "政策",
-      "published": "2026-08-25",
-      "body_snippet": "【CGS-NDI论策】章俊、杨晓：AI时代算力竞争的新边界——数据中心能源约束与中美系统能力比较 手机新浪网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-006",
+      "id": "raw-010",
       "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMTJHSzF3b0dBajc4WldyZGloSzQta0hfa1Q1LW5CM2xqdzFzazdwOVptYTRCRE9CTlpxUEFZbXp5MklCbWlkcTE2bFVBM3lzbVI5MGtpNXJ5Q2NDSWdYYmxTOTR2UmJtMXlDRi1NY3hZRlAzVlV4bHhjTDZqOG10Ql9WMXJNRkU?oc=5",
       "source": "新浪财经",
@@ -67,88 +105,47 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-007",
-      "title": "上海市人民政府关于印发《上海市加快国际贸易中心建设“十五五”规划》的通知",
-      "url": "https://www.shanghai.gov.cn/nw12344/20260825/7909324866ab4a89b6a56e7197762bce.html",
-      "source": "上海市政府-政策文件",
-      "published": "2026-08-25",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-008",
-      "title": "上海市人民政府办公厅关于印发《上海市“一江一河”发展“十五五”规划》的通知",
-      "url": "https://www.shanghai.gov.cn/nw12344/20260825/0a4ee3d552ed4ae4b6a6bf6d53fd603b.html",
-      "source": "上海市政府-政策文件",
-      "published": "2026-08-25",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-009",
-      "title": "独家|高乐股份67亿元算力大单迷雾：哈尔滨子公司注册地址为虚拟，算力业务团队超一半入职不足3个月？ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQkRHb19rYkhzZk51SFFTanc4dmY1Zkc4NVVUa0lZRGQ5SjBtc290RkgwVzBXWmluLVNkLTVOU0FGb2xIb21oXzAxeGRRTTVmb1ZDNWc4TnpUcmxlcmxtT0hqaTZMaUdoZ0VvQmd4eGRlMXlxeldmQ3g1Zi1VT0hJV0VGSkN1al9fOWYxYXZoSlMyUDdELTlhdnF5UWMyeTh0?oc=5",
-      "source": "新浪财经",
-      "category": "技术",
-      "published": "2026-08-24",
-      "body_snippet": "独家|高乐股份67亿元算力大单迷雾：哈尔滨子公司注册地址为虚拟，算力业务团队超一半入职不足3个月？ 新浪财经",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-010",
-      "title": "2026年，算力成为中国AI产业最紧俏的硬通货。一季度，腾讯向字节跳动紧急采购约 - 财富号",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Rck9oUlI2QWdnZWpmODJfNk5SWElkMVhLYmpIN2lNeEMyZWRqRFFkbE5vb1FJREtRTU0zQUp4d090bnNvRFA0eDNnVFh3MXF4QzRGZ0JNU3dDVkp0OHRETGNmdDlyaVIyZmdF?oc=5",
-      "source": "财富号",
-      "category": "竞品",
-      "published": "2026-08-20",
-      "body_snippet": "2026年，算力成为中国AI产业最紧俏的硬通货。一季度，腾讯向字节跳动紧急采购约 财富号",
-      "_query_boost": 20
-    },
-    {
       "id": "raw-011",
-      "title": "阿里巴巴800亿港元融资全部投入AI基础设施，押注算力军备竞赛 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kVjFZbEdlc2tYNkFOYmVRdnFhUlJKX0JXdXc3aW5nWVd6cWpBV25mdG5KZDBuUmFEV3BTZU4yOXF6VnpkUHlHQmUyVklHVnNic2swQQ?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-08-24",
-      "body_snippet": "阿里巴巴800亿港元融资全部投入AI基础设施，押注算力军备竞赛 虎嗅",
-      "_query_boost": 0
+      "title": "市政府新闻发布会介绍《上海市“一江一河”发展“十五五”规划》有关情况",
+      "url": "https://www.shanghai.gov.cn/nw12344/20260826/fe383148df68427cb648c675d303f766.html",
+      "source": "上海市政府-政策文件",
+      "published": "2026-08-26",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-012",
-      "title": "大厂AI竞赛从技术周期进入资本周期，资本成本开始决定算力扩张上限 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41Um15MEs3elZ4OFd5eEV3d1VEdkpoakhsOFE4eUVRZElKVzFJUTNCc21TanQ5VDQyNmRGUnNXWXgwcXRlVjlLSzdZRFJzbS1MWEh5dmJVVUl2d0ZfQUxV?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-08-24",
-      "body_snippet": "大厂AI竞赛从技术周期进入资本周期，资本成本开始决定算力扩张上限 虎嗅",
-      "_query_boost": 0
+      "title": "上海市人民政府办公厅关于印发《上海市战略性新兴产业发展“十五五”规划》的通知",
+      "url": "https://www.shanghai.gov.cn/nw12344/20260826/0f32f0c1379a4e949a1ca414b0be25b5.html",
+      "source": "上海市政府-政策文件",
+      "published": "2026-08-26",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-013",
-      "title": "“六张网”建设提速，新型电网何以成为协同枢纽 - 第一财经",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NS3RyVEQwM0wyTWtLbllUdGYtN3k2Qjhkc1J4eFNUTW90V3UyUlozTTRidVhaZGFoQkhLeGRIX0x3VHVIUmVlSHBNNEY3N2pZSEpN?oc=5",
-      "source": "第一财经",
-      "category": "政策",
-      "published": "2026-08-22",
-      "body_snippet": "“六张网”建设提速，新型电网何以成为协同枢纽 第一财经",
-      "_query_boost": 0
+      "title": "上海市人民政府办公厅关于印发《上海市公园提质增效实施方案》的通知",
+      "url": "https://www.shanghai.gov.cn/nw12344/20260826/8c6ab687ef4c4ef9bf16405f0b147d80.html",
+      "source": "上海市政府-政策文件",
+      "published": "2026-08-26",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-014",
-      "title": "上海市人民政府办公厅关于印发《上海市综合交通发展“十五五”规划》的通知",
-      "url": "https://www.shanghai.gov.cn/nw12344/20260821/d037645d361243c28970567ed279c477.html",
-      "source": "上海市政府-政策文件",
-      "published": "2026-08-21",
+      "title": "关于印发《上海市科技研发与创新服务业高质量发展行动方案》的通知",
+      "url": "https://stcsm.sh.gov.cn/zwgk/ghjh/20260826/dee9bf8c2d1641f98d6f89592c8fbdb5.html",
+      "source": "上海市科委",
+      "published": "2026-08-26",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-015",
-      "title": "市政府新闻发布会介绍《中国（上海）自由贸易试验区临港新片区发展“十五五”规划》有关内容",
-      "url": "https://www.shanghai.gov.cn/nw12344/20260821/be4c4af9235045478a53d6f94341363d.html",
-      "source": "上海市政府-政策文件",
-      "published": "2026-08-21",
+      "title": "关于公布2026年度上海市科技创新券服务机构综合评价结果的通知",
+      "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20260826/134a404b67f44aed8ac6d06cb394c17c.html",
+      "source": "上海市科委",
+      "published": "2026-08-26",
       "body_snippet": "",
       "category": "技术"
     }

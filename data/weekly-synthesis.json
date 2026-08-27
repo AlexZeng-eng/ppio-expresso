@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-26T02:14:04.927Z",
-  "date": "2026-08-26",
-  "date_label": "2026-08-26",
+  "generated_at": "2026-08-27T10:30:00.230Z",
+  "date": "2026-08-27",
+  "date_label": "2026-08-27",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 2,
     "📜": 0,
-    "⚔️": 1,
-    "💰": 1,
+    "⚔️": 0,
+    "💰": 0,
     "🌏": 0,
-    "🔬": 7
+    "🔬": 5
   },
   "speed_read": {
     "positive": [],
@@ -17,8 +17,8 @@
   },
   "wind_indicators": {
     "policy_heat": 4,
-    "competitor_heat": 3,
-    "capital_heat": 3,
+    "competitor_heat": 2,
+    "capital_heat": 2,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
@@ -27,7 +27,7 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "国务院关于对外投资的规定解读（一）：83",
+      "title": "事关集成电路、算力、人工智能、航空航天、",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
@@ -35,7 +35,7 @@
     },
     {
       "id": "2",
-      "title": "国务院重磅部署！算力网通信网加速构建，2",
+      "title": "国务院关于对外投资的规定解读（一）：83",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
@@ -43,18 +43,18 @@
     },
     {
       "id": "3",
-      "title": "2026年，算力成为中国AI产业最紧俏的",
+      "title": "提升三大先导产业战略引领力 到2030年",
       "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
+      "competition_axis": 0.1,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     },
     {
       "id": "4",
-      "title": "阿里巴巴800亿港元融资全部投入AI基础",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
+      "title": "国务院重磅部署！算力网通信网加速构建，2",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     }
   ],
@@ -63,8 +63,8 @@
     "delta": 0,
     "components": {
       "policy_tailwind": 16,
-      "competitive_pressure": -6,
-      "capital_sentiment": 5,
+      "competitive_pressure": 0,
+      "capital_sentiment": 0,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },
