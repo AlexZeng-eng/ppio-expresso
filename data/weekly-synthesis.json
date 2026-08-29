@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-28T12:11:22.787Z",
-  "date": "2026-08-28",
-  "date_label": "2026-08-28",
+  "generated_at": "2026-08-29T07:21:44.945Z",
+  "date": "2026-08-29",
+  "date_label": "2026-08-29",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 2,
+    "🏛️": 3,
     "📜": 0,
     "⚔️": 0,
-    "💰": 0,
+    "💰": 1,
     "🌏": 0,
     "🔬": 8
   },
@@ -18,7 +18,7 @@
   "wind_indicators": {
     "policy_heat": 4,
     "competitor_heat": 2,
-    "capital_heat": 2,
+    "capital_heat": 3,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
@@ -27,7 +27,7 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "智谱 GLM-5.3-Flash上线 商",
+      "title": "千问智谱连夜开源，都比DeepSeek便",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -35,6 +35,22 @@
     },
     {
       "id": "2",
+      "title": "智谱 GLM-5.3-Flash上线 商",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "3",
+      "title": "国务院重磅部署！算力网通信网加速构建，2",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "4",
       "title": "事关集成电路、算力、人工智能、航空航天、",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
@@ -42,7 +58,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "3",
+      "id": "5",
       "title": "虹桥国际中央商务区“十五五”将做强内外链",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -50,7 +66,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "4",
+      "id": "6",
       "title": "市政府新闻发布会介绍《虹桥国际中央商务区",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -58,7 +74,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "5",
+      "id": "7",
       "title": "国产算力迎来“牛来”时刻：GLM-5.3",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -70,9 +86,9 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 16,
+      "policy_tailwind": 24,
       "competitive_pressure": 0,
-      "capital_sentiment": 0,
+      "capital_sentiment": 5,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },

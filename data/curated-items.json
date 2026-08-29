@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-28T12:11:22.751Z",
-  "week": "2026-W35",
+  "generated_at": "2026-08-29T07:21:44.907Z",
+  "week": "2026-W36",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 10,
-  "attend_count": 5,
+  "total_curated": 12,
+  "attend_count": 7,
   "silent_count": 5,
   "items": [
     {
       "id": "raw-001",
-      "title": "智谱认领神秘模型“牛来” 测试期国产芯片提供全部推理算力 - Caixin Global",
+      "title": "智谱认领神秘模型“牛来” 测试期国产芯片提供全部推理算力 - 财新",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QWG9rUVhCUjUwSVplQS1jRHptbEljSVhiX3dEb29ZeTNpZUZUZTAwZUhmMjI4cmNZNlRPcFR0YjR0am5ZVnlkcDBSRk0xUm55WnQwUGIyY0dHWXRMVU5qOEM1STM?oc=5",
-      "source": "Caixin Global",
+      "source": "财新",
       "category": "技术",
       "published": "2026-08-27",
-      "body_snippet": "智谱认领神秘模型“牛来” 测试期国产芯片提供全部推理算力 Caixin Global",
+      "body_snippet": "智谱认领神秘模型“牛来” 测试期国产芯片提供全部推理算力 财新",
       "_query_boost": 20,
       "lane": "silent",
       "signals": [
@@ -26,7 +26,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "智谱认领神秘模型“牛来” 测试期国产芯片提供全部推理算力 - Caixin Global 智谱认领神秘模型“牛来” 测试期国产芯片提供全部推理算力 Caixin",
+      "summary_cn": "智谱认领神秘模型“牛来” 测试期国产芯片提供全部推理算力 - 财新 智谱认领神秘模型“牛来” 测试期国产芯片提供全部推理算力 财新",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
@@ -36,7 +36,7 @@
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
       "category": "竞品",
-      "published": "2026-08-26",
+      "published": "2026-08-28",
       "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
       "_query_boost": 15,
       "lane": "silent",
@@ -55,6 +55,34 @@
     },
     {
       "id": "raw-003",
+      "title": "千问智谱连夜开源，都比DeepSeek便宜，国产大模型价格猛卷 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB3Z1ktQnV2Y3liM0txZHRjcGZnS3Y3RzBJbklPSnhBek5yNkxyekJobmt6QzRuNGVPX3ZWTnBfMDBZcVY1NlJUcWhOcWh6NTRJQXdoX3dZcHJDUGQ1eGE4RGREelFZeFJuM3RSSDdzaGtqMVJHRXVZLVFYQTc?oc=5",
+      "source": "新浪财经",
+      "category": "竞品",
+      "published": "2026-08-27",
+      "body_snippet": "千问智谱连夜开源，都比DeepSeek便宜，国产大模型价格猛卷 新浪财经",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "千问智谱连夜开源，都比DeepSeek便宜，国产大模型价格猛卷 - 新浪财经 千问智谱连夜开源，都比DeepSeek便宜，国产大模型价格猛卷 新浪财经",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
       "title": "算启光明・智赋湾区｜超智算光明智算中心正式揭牌，赋能粤港澳打造算力产业新高地 - 极客公园",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1IOUZWZk9qOUIxOWt6VE1NRWJyTnhXWjNDVFBSS1FBSzI5X1RZYU5zMjhFVGRFOVNJQV81bHZLMm5lMkZ6RVFzT21mTGE?oc=5",
       "source": "极客公园",
@@ -77,7 +105,30 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
+      "id": "raw-006",
+      "title": "硅基流动IPO：增速653%的“Token工厂”，为何越卖越亏？ - 潮新闻客户端",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wM1dwNE9ULVFNVlhmbHdkSlZzWURHWGYtTkdzX3BYZHh2aVVSOUJOamQ4NERvMnlXdzIyZGs5YThFX2xBQ0JrWHlUSkd2TVlmSmtIczNtNFA3WThwd2JiN2JOY08zVHUxN1lWOFZpR1RrS1U?oc=5",
+      "source": "潮新闻客户端",
+      "category": "竞品",
+      "published": "2026-08-28",
+      "body_snippet": "硅基流动IPO：增速653%的“Token工厂”，为何越卖越亏？ 潮新闻客户端",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "硅基流动IPO：增速653%的“Token工厂”，为何越卖越亏？ - 潮新闻客户端 硅基流动IPO：增速653%的“Token工厂”，为何越卖越亏？ 潮新闻客户",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-007",
       "title": "智谱 GLM-5.3-Flash上线 商汤大装置提供国产算力支持 - 光明网",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wak1DS0ZVQU5ld0F6SGlNcmtQU1hINDc2WXdvOWNGQXlkdWc5bk13bGd6SnVaelh5a0twcWNFd1RaOVBaRmVlSnV3MVE1RzdXX0s5VmNNQUNMVFpVRHpvQw?oc=5",
       "source": "光明网",
@@ -105,7 +156,59 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
+      "id": "raw-008",
+      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNVW43TUlYUWJSYjZiUUlDQkE0SXQ1ODc3YUVlWnVqYjVWM2Rja2NNcHJBVVdTM2Y5Z0pYX2lpRmRtSzFpV2lLNFNBN2k3YUZEWl9EOVBoUVVDR0dWTEJuc2ZHZWQ4amRMUVFrdnlLb0MwZ3FHalR0bTVxelNCUTZLQVFiT0FjOTltM3Q0RGZPbWxNTlA2aTd0UDM3ejZaZ3Z0MGpjck9jWVViTlVLR0huejZIRFlsSmFlMkdRMGwxTktUNUt2aDZhdHFrTjFVRWJtWlM4UGg0elhIaGZnMzlmQTlsMkt0Mm5XdDN4dlZmV2NERWNGQy1wSGU1WHZwdXRLcmJ2UWo2eTA3dnhFZ0lDc0FKWGItdUc1ZFZNZXd3b3g1NWJnSkFTUUhNOEFRYWNYZWV1QW1DMElyZlE5MkNnU0hCV3RRZ1h3b0p5dzFvcDhZQQ?oc=5",
+      "source": "finance.sina.com.cn",
+      "category": "政策",
+      "published": "2026-08-27",
+      "body_snippet": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 finance.sina.com.cn",
+      "_query_boost": 0,
+      "lane": "attend",
+      "signals": [
+        "🏛️",
+        "🔬"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - finance.sina.com.cn 国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 finance.sina.com.cn",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-009",
+      "title": "算力赋能，生态共筑！2026燃星昇腾日福州站落地升腾资讯，共探AI发展新路径 - doit.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE12ZHJKZTltTVlrWUU4cy1odTgwV04wUkFQME1Pa0xZZzFFak9qTUZzMWhxRjBmVl96X2lieFZtc0pHSEF0bEp0dGpycktjZGYweXBoTzJ1T0FNbnBXRkRjMw?oc=5",
+      "source": "doit.com.cn",
+      "category": "监管",
+      "published": "2026-08-27",
+      "body_snippet": "算力赋能，生态共筑！2026燃星昇腾日福州站落地升腾资讯，共探AI发展新路径 doit.com.cn",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "算力赋能，生态共筑！2026燃星昇腾日福州站落地升腾资讯，共探AI发展新路径 - doit.com.cn 算力赋能，生态共筑！2026燃星昇腾日福州站落地升腾资",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
       "title": "事关集成电路、算力、人工智能、航空航天、智能机器人、6G、生物医药、低空经济等产业，工信部发声 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOeVdDdHQxYVp5ZF9VOUJaWDZhRVFfUkFHdVVMdkZiSy14WmpJbi1LaFJoNkJyWkZJeUZhZUxkbU9lcUlKODFqM2ktRlg4UW1pcFVmQUhhaUxPMnl4TldTbkk3UG05dDdKanpEOGlhMDVGRDMyUFE?oc=5",
       "source": "新浪财经",
@@ -133,7 +236,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
+      "id": "raw-011",
       "title": "虹桥国际中央商务区“十五五”将做强内外链接流量转化 集聚高能级总部 吸引高流量活动",
       "url": "https://www.shanghai.gov.cn/nw4411/20260828/462a1e3615dd4d449762ada8d8312306.html",
       "source": "上海市政府-动态",
@@ -160,53 +263,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-007",
-      "title": "华为投标埃及算力中心项目 据报已引起华盛顿警觉 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sYUlKMVBPYnVnSjAxazgwM0YyUWhUVUZnMmNCLTl6OC0tclhueTJfbkhnQjZkVEdVOEpMSUZYQk55eEpFZmRaTmNhdzRrcDlGZDBUSC1LRmJmbG03M2xYTG9fLXMxTVRkdlE?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-08-26",
-      "body_snippet": "华为投标埃及算力中心项目 据报已引起华盛顿警觉 联合早报",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "华为投标埃及算力中心项目 据报已引起华盛顿警觉 - 联合早报 华为投标埃及算力中心项目 据报已引起华盛顿警觉 联合早报",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-008",
-      "title": "一苇宇航创始人邢若粼：太空算力商业化路径已清晰，正向飞轮形成 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUQVp1MF9sMDlXM1JjRERXaVkxbW8wVmx1eF8xRnZIVW1qMlZRLVVDb3VTU2JPdUJSYWxXdi0xVi1iczlfQTdiOVZsaXk5ak5ab0c5YkFRMjVNRlBfZzFZ?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-08-28",
-      "body_snippet": "一苇宇航创始人邢若粼：太空算力商业化路径已清晰，正向飞轮形成 虎嗅",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "一苇宇航创始人邢若粼：太空算力商业化路径已清晰，正向飞轮形成 - 虎嗅 一苇宇航创始人邢若粼：太空算力商业化路径已清晰，正向飞轮形成 虎嗅",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-011",
+      "id": "raw-012",
       "title": "市政府新闻发布会介绍《虹桥国际中央商务区建设“十五五”规划》有关情况",
       "url": "https://www.shanghai.gov.cn/nw12344/20260827/2ebd10cd12bd4b8cb45c45984d38641e.html",
       "source": "上海市政府-政策文件",
@@ -233,7 +290,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-012",
+      "id": "raw-013",
       "title": "国产算力迎来“牛来”时刻：GLM-5.3-Flash模型开源，最先受益的是谁？ - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByQzZWZ0FSWlRBai1xQmwxSXN1alYxWTFnQjBSeGVrcFVob3hPS202SDRiYXRsYW51QTVwWFh0bW85SzRjUXFPVWxEZTd5OVlVbjd4eGt4NG94bk5ad0c3dDB6YkNqaFpPc1hMTWJnckZFWTk2UW04Rl9QU08?oc=5",
       "source": "新浪财经",
