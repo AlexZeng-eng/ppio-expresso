@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-30T05:47:41.862Z",
+  "generated_at": "2026-08-31T06:05:45.884Z",
   "week": "2026-W36",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 10,
-  "attend_count": 4,
+  "total_curated": 11,
+  "attend_count": 5,
   "silent_count": 6,
   "items": [
     {
@@ -32,40 +32,12 @@
     },
     {
       "id": "raw-002",
-      "title": "习近平和彭丽媛将为出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式的国际贵宾举行欢迎宴会 - 华人头条",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQR3hTYk1TejYzN1J2cUFvN0pzQTdXekxsQklvR3V2OXBTMVU0MGFQSkFIcmNpUVBlZVVXN1FMYS1TVHE5NTI0NGJLaU9FWjhqVGZCRFE3UGJxb1dVMHdxSEhESEJVZDNSRUlTZDdoNmJRWUxzSHZWd0Z6Y05pcVdhbnNTUENPZUhK?oc=5",
-      "source": "华人头条",
-      "category": "政策",
-      "published": "2026-08-27",
-      "body_snippet": "习近平和彭丽媛将为出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式的国际贵宾举行欢迎宴会 华人头条",
-      "_query_boost": 50,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "习近平和彭丽媛将为出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式的国际贵宾举行欢迎宴会 - 华人头条 习近平和彭丽媛将为出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式的国际贵宾举行欢迎宴会 华人头条",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-003",
-      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - 新浪财经",
+      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - finance.sina.com.cn",
       "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxObXdlRGRRbzNHdjRZUGY5aVBudVljSkhaWXJQM3YtTHhsUFAtWGpnVnFtREwyMVpEeEF6Y1RIR0xTNk9qYWt3ejRScWxFcENubFNGcXNTUklMZXhFM1dHMnhUTjVJYlFXWnhzbXJvX0VPakNEcl9iWlk5Q1dRMFZFYy1HN2U2ZDhNdmlOQWt1MDN2WUpxM3oxMGc3d1d4NzBJTkI3RERnRVpJYnltYjNKbGhJTmViWXU3bkE5dWt3MUV4QldZQnBuVjNtSmt3MVkzaXM1WkdIWUpvMGRoaUxrQ1NsZU1PYW1neVVBay0ySUtGbkRneHM5c1FxeS1ybkJSS1NaMXJqVU9zWmNxQzB3eHVmeGVXSGgzT3YwWWUxdmo?oc=5",
-      "source": "新浪财经",
+      "source": "finance.sina.com.cn",
       "category": "政策",
       "published": "2026-08-28",
-      "body_snippet": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 新浪财经",
+      "body_snippet": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 finance.sina.com.cn",
       "_query_boost": 30,
       "lane": "attend",
       "signals": [
@@ -78,7 +50,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - 新浪财经 国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 新浪财经",
+      "summary_cn": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - finance.sina.com.cn 国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 finance.sina.com.cn",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -88,12 +60,12 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
+      "id": "raw-003",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
       "category": "竞品",
-      "published": "2026-08-28",
+      "published": "2026-08-30",
       "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
       "_query_boost": 15,
       "lane": "silent",
@@ -111,7 +83,35 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-007",
+      "id": "raw-006",
+      "title": "【国联民生计算机】GLM5.3-Flash全面激活国产算力 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSWM5Um1jcmRhYjJyMF9WcWhRNFRaekRHZG5EQWtyZnFtbnl1VlRTMkI4SGNTWmY3Z2tSb0ExSmp5ZHdfeGcxT0xKeXh3aHdDLVlnbGpkSXFpUGl2dEtOTXRzeWVJQW14eFhYWVpGNG9lRVpGbHZUQWx2Zkc5THEyNnZvWm1IUTdVeDRnSg?oc=5",
+      "source": "搜狐网",
+      "category": "技术",
+      "published": "2026-08-30",
+      "body_snippet": "【国联民生计算机】GLM5.3-Flash全面激活国产算力 搜狐网",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "【国联民生计算机】GLM5.3-Flash全面激活国产算力 - 搜狐网 【国联民生计算机】GLM5.3-Flash全面激活国产算力 搜狐网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-009",
       "title": "算启光明・智赋湾区｜超智算光明智算中心正式揭牌，赋能粤港澳打造算力产业新高地 - 极客公园",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1IOUZWZk9qOUIxOWt6VE1NRWJyTnhXWjNDVFBSS1FBSzI5X1RZYU5zMjhFVGRFOVNJQV81bHZLMm5lMkZ6RVFzT21mTGE?oc=5",
       "source": "极客公园",
@@ -134,7 +134,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-008",
+      "id": "raw-010",
       "title": "算力赋能，生态共筑！2026燃星昇腾日福州站落地升腾资讯，共探AI发展新路径 - 中国日报网",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtMXUtazhBT1IxNDkzdDgyV1JZa3VqMHlOR2FEV1E4cVljWXRnNGxwWWpodXpKcnRkOUNSVldFak1KT1dnZWlmWUZKMVZLQTlPYUdkN21LX1pPX0FqQTZYSkctSlkxeUZjZGVBTzZ6d1pnV1FRVVNSZ0Zsek4?oc=5",
       "source": "中国日报网",
@@ -157,7 +157,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
+      "id": "raw-011",
       "title": "硅基流动IPO：增速653%的“Token工厂”，为何越卖越亏？ - 潮新闻客户端",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wM1dwNE9ULVFNVlhmbHdkSlZzWURHWGYtTkdzX3BYZHh2aVVSOUJOamQ4NERvMnlXdzIyZGs5YThFX2xBQ0JrWHlUSkd2TVlmSmtIczNtNFA3WThwd2JiN2JOY08zVHUxN1lWOFZpR1RrS1U?oc=5",
       "source": "潮新闻客户端",
@@ -180,7 +180,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-010",
+      "id": "raw-012",
       "title": "智谱 GLM-5.3-Flash上线 商汤大装置提供国产算力支持 - 光明网",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wak1DS0ZVQU5ld0F6SGlNcmtQU1hINDc2WXdvOWNGQXlkdWc5bk13bGd6SnVaelh5a0twcWNFd1RaOVBaRmVlSnV3MVE1RzdXX0s5VmNNQUNMVFpVRHpvQw?oc=5",
       "source": "光明网",
@@ -199,34 +199,6 @@
         "c3"
       ],
       "summary_cn": "智谱 GLM-5.3-Flash上线 商汤大装置提供国产算力支持 - 光明网 智谱 GLM-5.3-Flash上线 商汤大装置提供国产算力支持 光明网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-011",
-      "title": "事关集成电路、算力、人工智能、航空航天、智能机器人、6G、生物医药、低空经济等产业，工信部发声 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOeVdDdHQxYVp5ZF9VOUJaWDZhRVFfUkFHdVVMdkZiSy14WmpJbi1LaFJoNkJyWkZJeUZhZUxkbU9lcUlKODFqM2ktRlg4UW1pcFVmQUhhaUxPMnl4TldTbkk3UG05dDdKanpEOGlhMDVGRDMyUFE?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-08-26",
-      "body_snippet": "事关集成电路、算力、人工智能、航空航天、智能机器人、6G、生物医药、低空经济等产业，工信部发声 新浪财经",
-      "_query_boost": 25,
-      "lane": "attend",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "事关集成电路、算力、人工智能、航空航天、智能机器人、6G、生物医药、低空经济等产业，工信部发声 - 新浪财经 事关集成电路、算力、人工智能、航空航天、智能机器人、6G、生物医药、低空经济等产业，工信部发声 新浪财经",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -256,6 +228,61 @@
       ],
       "summary_cn": "华为投标埃及算力中心项目 据报已引起华盛顿警觉 - 联合早报 华为投标埃及算力中心项目 据报已引起华盛顿警觉 联合早报",
       "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-014",
+      "title": "市政府新闻发布会介绍《虹桥国际中央商务区建设“十五五”规划》有关情况",
+      "url": "https://www.shanghai.gov.cn/nw12344/20260827/2ebd10cd12bd4b8cb45c45984d38641e.html",
+      "source": "上海市政府-政策文件",
+      "published": "2026-08-27",
+      "body_snippet": "",
+      "category": "技术",
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "市政府新闻发布会介绍《虹桥国际中央商务区建设“十五五”规划》有关情况 ",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-015",
+      "title": "国产算力迎来“牛来”时刻：GLM-5.3-Flash模型开源，最先受益的是谁？ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByQzZWZ0FSWlRBai1xQmwxSXN1alYxWTFnQjBSeGVrcFVob3hPS202SDRiYXRsYW51QTVwWFh0bW85SzRjUXFPVWxEZTd5OVlVbjd4eGt4NG94bk5ad0c3dDB6YkNqaFpPc1hMTWJnckZFWTk2UW04Rl9QU08?oc=5",
+      "source": "新浪财经",
+      "category": "技术",
+      "published": "2026-08-27",
+      "body_snippet": "国产算力迎来“牛来”时刻：GLM-5.3-Flash模型开源，最先受益的是谁？ 新浪财经",
+      "_query_boost": 15,
+      "lane": "attend",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "GLM-5.3-Flash模型开源，最先受益的是谁？ - 新浪财经 国产算力迎来“牛来”时刻：GLM-5.3-Flash模型开源，最先受益的是谁？ 新浪财经",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
       "_classified_by": "rule"
     }
   ]
