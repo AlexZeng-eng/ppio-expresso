@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-01T05:38:16.420Z",
-  "date": "2026-09-01",
-  "date_label": "2026-09-01",
+  "generated_at": "2026-09-02T05:03:13.890Z",
+  "date": "2026-09-02",
+  "date_label": "2026-09-02",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
     "📜": 0,
     "⚔️": 0,
-    "💰": 1,
+    "💰": 2,
     "🌏": 0,
-    "🔬": 8
+    "🔬": 10
   },
   "speed_read": {
     "positive": [],
@@ -27,7 +27,7 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "国务院重磅部署！算力网通信网加速构建，2",
+      "title": "国际学院、萨里学院专题学习习近平总书记2",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
@@ -35,6 +35,14 @@
     },
     {
       "id": "2",
+      "title": "国常会重磅部署！加快通信网、算力网建设！",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "3",
       "title": "【国联民生计算机】GLM5.3-Flas",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -48,7 +56,7 @@
     "components": {
       "policy_tailwind": 8,
       "competitive_pressure": 0,
-      "capital_sentiment": 5,
+      "capital_sentiment": 10,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },

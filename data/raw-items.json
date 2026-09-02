@@ -1,55 +1,37 @@
 {
-  "generated_at": "2026-09-01T05:38:16.304Z",
+  "generated_at": "2026-09-02T05:03:13.767Z",
   "week": "2026-W36",
   "date_range": {
-    "from": "2026-08-25",
-    "to": "2026-09-01"
+    "from": "2026-08-26",
+    "to": "2026-09-02"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "上海市人民政府办公厅关于印发《上海市战略性新兴产业发展“十五五”规划》的通知",
-      "url": "https://www.shanghai.gov.cn/nw12344/20260826/0f32f0c1379a4e949a1ca414b0be25b5.html",
-      "source": "上海市发改委",
-      "published": "2026-08-28",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "国际学院、萨里学院专题学习习近平总书记2026世界人工智能大会主旨讲话精神 - 中国农业大学新闻网",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mNzBjMUJWVXdDUDJPTnNTZ0tLYVg1emFxa3F1SEtocnpMUXJYYV9FTW8teTVUZ1ljdFJFdmNJekdzOERVYUJ1b1BIU2RvamFkX2NJMkM0aGlWQzJVVnRYcTNTSDhKRmM3dUtQVkZCakViVkZsaFZz?oc=5",
+      "source": "中国农业大学新闻网",
+      "category": "政策",
+      "published": "2026-09-01",
+      "body_snippet": "国际学院、萨里学院专题学习习近平总书记2026世界人工智能大会主旨讲话精神 中国农业大学新闻网",
+      "_query_boost": 50
     },
     {
       "id": "raw-002",
-      "title": "【图解】上海市人民政府办公厅关于印发《上海市战略性新兴产业发展“十五五”规划》的通知",
-      "url": "https://fgw.sh.gov.cn/fgw_zcjd/20260828/aac48acbcf06460aae471521e501f41c.html",
-      "source": "上海市发改委",
-      "published": "2026-08-28",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-003",
-      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNVW43TUlYUWJSYjZiUUlDQkE0SXQ1ODc3YUVlWnVqYjVWM2Rja2NNcHJBVVdTM2Y5Z0pYX2lpRmRtSzFpV2lLNFNBN2k3YUZEWl9EOVBoUVVDR0dWTEJuc2ZHZWQ4amRMUVFrdnlLb0MwZ3FHalR0bTVxelNCUTZLQVFiT0FjOTltM3Q0RGZPbWxNTlA2aTd0UDM3ejZaZ3Z0MGpjck9jWVViTlVLR0huejZIRFlsSmFlMkdRMGwxTktUNUt2aDZhdHFrTjFVRWJtWlM4UGg0elhIaGZnMzlmQTlsMkt0Mm5XdDN4dlZmV2NERWNGQy1wSGU1WHZwdXRLcmJ2UWo2eTA3dnhFZ0lDc0FKWGItdUc1ZFZNZXd3b3g1NWJnSkFTUUhNOEFRYWNYZWV1QW1DMElyZlE5MkNnU0hCV3RRZ1h3b0p5dzFvcDhZQQ?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-08-27",
-      "body_snippet": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 新浪财经",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-004",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - cls.cn",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
+      "source": "cls.cn",
       "category": "竞品",
       "published": "2026-08-31",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ cls.cn",
       "_query_boost": 15
     },
     {
-      "id": "raw-005",
+      "id": "raw-003",
       "title": "智谱认领神秘模型“牛来” 测试期国产芯片提供全部推理算力 - Caixin Global",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZVXRIVk9qR2Yxd25mN1pDTG1XR3A5STZqMFo3ZWJFcnZISFVZQWhhS1dXOEdERGo1Q0Y0OGpTWDJlV1BrUUlqUUdTdmlCcWVqMWFXdFdSZ1E3UHBZS2d5MVdUYlRIWXM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QWG9rUVhCUjUwSVplQS1jRHptbEljSVhiX3dEb29ZeTNpZUZUZTAwZUhmMjI4cmNZNlRPcFR0YjR0am5ZVnlkcDBSRk0xUm55WnQwUGIyY0dHWXRMVU5qOEM1STM?oc=5",
       "source": "Caixin Global",
       "category": "技术",
       "published": "2026-08-27",
@@ -57,7 +39,16 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-006",
+      "id": "raw-004",
+      "title": "一以贯之推进民心工程办好民生实事 朱忠明调研“十五五”民生领域工作推进情况",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260902/93dfa53d0c1c4b18ae93345c958f4ed8.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-02",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-005",
       "title": "超智算光明智算中心赋能粤港澳打造算力产业新高地 - 中青在线",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5rWHpwOTd0d1lsbngtMlpNQnV1VnJqYzRYNkliYlY4cTdfVkRIOTZVMlVndkJOTks3c1F0MWczcmZtVG9QaG5oUmhVdDhxWV9YM055V3BsNl84UWxzWnRrRnRoUVYwcFI3TTNvUHpzLW15MlVHVUJ5ZQ?oc=5",
       "source": "中青在线",
@@ -67,7 +58,7 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-007",
+      "id": "raw-006",
       "title": "智算中心、词元工厂、超低时延圈……河北算力布局驶入“快车道” - 央广财经",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yZzd4VU94QXhra0lUWHVLbmI3QkJDcWlSWVVBeXhKM1I4Y1dhZ2hsMEZsVllYYlMtV0NlQjI3eEp1cjJaWFFwazVHUTFWSTlIdXBIS3dhSEg2b2c1ODNBZ0VfMHJHOEYzUWVQSHBMVQ?oc=5",
       "source": "央广财经",
@@ -77,17 +68,17 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-008",
-      "title": "【国联民生计算机】GLM5.3-Flash全面激活国产算力 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zcE0tZXowUDRqTUwtY29aOGtaY3dDOFBka0lOREtFWk9nTzFKd0tCZ3JsQVRGblhJQV92UGF0eTRmSU85dW1QUXVKMmdoT2xHZFBlbkpMOTJqQWJtVi1aYTd1RXpzSzV2bU5EMUtuSFJPU21IU1E?oc=5",
+      "id": "raw-007",
+      "title": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMivglBVV95cUxQWmtqXzZUbXVJeU41S011V0diNnhaRi1lTGJfWWFPWFVwUGpLcXcxUVU1NDFKX0JuQkI4clg0ODFKZERtQU5aaGhqUXhLRmJfUWllYU1yNEhXdjgxMTZDV3RNelBzdDc4MkJmck53OXNyOXY0RUlFamN0YXJoUmc1V0xUWVBGMDlLWEFNLVVHN3loTXNNWUlnOXg4TVcxVVFsODRRSDBqVGlnZF9kM0lsOGFPaWk5TGZMcjJYcEgwcGVFY185SlpFOXdsYi12Z2VUN2Vma0RFclJrUk85TFNhTmJEQlg1bkRRLVJTWXZjQnBDc0loa1RZcl9VanhJVVNTM0s4RjE2WU0wbU5IelhtUXgtTk91Y2o2blVhNEZMZU1IYjdjSHYtVDBfOS1KQzQtR2FjMWI4TDYtX2hiazJrRGRZZVJKd3d0aGl3aFpweEFFVHZkc05SLUhpSWFfNWR1SWI2eG01WjlaWHpvYUo3U3ZHbU1scVhheXpnMXAwVnNiWDlqdzFDU2t0cXdHQzczRmdOdFFnSTBfSU5rdS1acjQwOEpseW1xcnVBZlFOSFlzelU4ZWo0aEtfUmYzT0R1MnU3WkRhVWxTcHJ2ekZKb29lZkxLdEY1TlBITWNnOEJhU3hKb2NMYU8zaFQ4ZEl0WnF4RWoweDRuVXVJUGs5dDZRSUpGc3lFRmZHRHI0WDdGZXZkaVZzTzVSeVZRVmJxLUNUNDB3NDNKNzd1Rmc3ZlVvOXl3a2FjaE9hSDl3d0F5ZXVDYjY2U1Q1OTNzTVhRSGg3UGZLaHJUWGlCeWpYcDNzNlpNRmtJRUxUQU1QVVBZeDZ4ZXVOMW1PRGwzb2JOdEZOYl9pWEQ2WThNSW5iVWF6V0NUQ3d3UTE0cWZDUnRfMVB5RWYzMVZnV3Z2MUdmM3Z5X0t1YTVWU2RzWmc0UDA1ZnllWkswSnp1UDRIMUl2SGZwX1RhZ3drTHRjemlnNlVpOUNyUWJwcUdNdzB0N0M4cGZMNklBR1dGOWJockNoUG9SbGF5X0FtS1dVWllpYTFXcmRnT2k1NzVJZ043S3JmaGhOMGd6X0t2aTNQYkJFNFNkUnhnVUIya0ZCVzlYUExlQ3Q4NkFqVzdJY21QT0dwd0pPdF9jblNzbDBJYjMxcmswb0c3aXlYVFFWOGlacjlCVU9SUFB4X1RzVFZWMUxSQktVQ3M0R1FOa1A2aEN2TVBPQkhsTVJXVm0tTGlDc185blI5a053SWpPTVI5RVhOcm9MZmwyRFlheUZHaWxrcXUwSm1TZUYzMHp4MWxTeHR0ZEowZE8wTmlrOEpyUmpOdTVoUkxORER0SjFMRHdNeHBNVDZFNGhEUkxjMms4TDVGTnZwY0pocUFsWXNhWmRrNW1TeWNwRVJHM3ZFajFsVzNDX1UwdDA4TndUZ0Q0M1BKdkgwM3NMLTY1Y1JFc3ZzRmFVc0g3NTFaVXJwelR2cjE2cDQxcU5zWEN6Z3MyckF2eFJKLUM0M1JBLVdpdGdqcW01anM1YmN4bXRfb2dCVlhubEZWaEZabXdxZGlaX3ZDSUR5bHhKaG9zM0gxLXBpeDJrUUNVT21RSUZfaC1hOFRFZUpxLWF0SjI1QQ?oc=5",
       "source": "新浪财经",
-      "category": "竞品",
+      "category": "政策",
       "published": "2026-08-30",
-      "body_snippet": "【国联民生计算机】GLM5.3-Flash全面激活国产算力 新浪财经",
-      "_query_boost": 20
+      "body_snippet": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ 新浪财经",
+      "_query_boost": 25
     },
     {
-      "id": "raw-009",
+      "id": "raw-008",
       "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMTJHSzF3b0dBajc4WldyZGloSzQta0hfa1Q1LW5CM2xqdzFzazdwOVptYTRCRE9CTlpxUEFZbXp5MklCbWlkcTE2bFVBM3lzbVI5MGtpNXJ5Q2NDSWdYYmxTOTR2UmJtMXlDRi1NY3hZRlAzVlV4bHhjTDZqOG10Ql9WMXJNRkU?oc=5",
       "source": "新浪财经",
@@ -95,6 +86,16 @@
       "published": "2026-08-29",
       "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 新浪财经",
       "_query_boost": 25
+    },
+    {
+      "id": "raw-009",
+      "title": "OKX Ventures：AI算力金融化，开源模型正在把算力推向资本市场 - PANews",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rWVE1dWVmTXk4YW1WT0lfc2UtUE5wNzVoYjk4U1h6d1NjRVVlRWswekt0NGV2VjN2MGlCM1BQVW5pYW41ZWJHMHNHVjd4RVlLMWVfOGpBaUU2N0dTY2EzbVVHLVRwREhRamd0SG85UWs1aHpYeWExVFg2d3hoc2s?oc=5",
+      "source": "PANews",
+      "category": "技术",
+      "published": "2026-09-01",
+      "body_snippet": "OKX Ventures：AI算力金融化，开源模型正在把算力推向资本市场 PANews",
+      "_query_boost": 15
     },
     {
       "id": "raw-010",
@@ -107,15 +108,6 @@
     },
     {
       "id": "raw-011",
-      "title": "太空计算产业链在松江“齐活” 航天、半导体、云计算和AI四个行业圈齐聚首届产业发展论坛",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260831/4c1416bd2c934daa85df8d2f84e634da.html",
-      "source": "上海市政府-动态",
-      "published": "2026-08-31",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-012",
       "title": "关于上海市2026年第五批拟入库科技型中小企业名单的公示",
       "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20260831/beaa97bd18ef4a7a8ff45d477d51f240.html",
       "source": "上海市科委",
@@ -124,16 +116,17 @@
       "category": "技术"
     },
     {
-      "id": "raw-013",
-      "title": "长三角低空经济产业供需清单发布 梳理整合沪苏浙皖上下游供需资源 一批跨省域协同项目集中签约",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260830/71781406b9914b14afba36e8e263d651.html",
-      "source": "上海市政府-动态",
+      "id": "raw-012",
+      "title": "【国联民生计算机】GLM5.3-Flash全面激活国产算力 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zcE0tZXowUDRqTUwtY29aOGtaY3dDOFBka0lOREtFWk9nTzFKd0tCZ3JsQVRGblhJQV92UGF0eTRmSU85dW1QUXVKMmdoT2xHZFBlbkpMOTJqQWJtVi1aYTd1RXpzSzV2bU5EMUtuSFJPU21IU1E?oc=5",
+      "source": "新浪财经",
+      "category": "竞品",
       "published": "2026-08-30",
-      "body_snippet": "",
-      "category": "技术"
+      "body_snippet": "【国联民生计算机】GLM5.3-Flash全面激活国产算力 新浪财经",
+      "_query_boost": 20
     },
     {
-      "id": "raw-014",
+      "id": "raw-013",
       "title": "算力赋能，生态共筑！2026燃星昇腾日福州站落地升腾资讯，共探AI发展新路径 - 中国日报网",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtMXUtazhBT1IxNDkzdDgyV1JZa3VqMHlOR2FEV1E4cVljWXRnNGxwWWpodXpKcnRkOUNSVldFak1KT1dnZWlmWUZKMVZLQTlPYUdkN21LX1pPX0FqQTZYSkctSlkxeUZjZGVBTzZ6d1pnV1FRVVNSZ0Zsek4?oc=5",
       "source": "中国日报网",
@@ -143,7 +136,7 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-015",
+      "id": "raw-014",
       "title": "硅基流动IPO：增速653%的“Token工厂”，为何越卖越亏？ - 潮新闻客户端",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wM1dwNE9ULVFNVlhmbHdkSlZzWURHWGYtTkdzX3BYZHh2aVVSOUJOamQ4NERvMnlXdzIyZGs5YThFX2xBQ0JrWHlUSkd2TVlmSmtIczNtNFA3WThwd2JiN2JOY08zVHUxN1lWOFZpR1RrS1U?oc=5",
       "source": "潮新闻客户端",
@@ -151,6 +144,16 @@
       "published": "2026-08-28",
       "body_snippet": "硅基流动IPO：增速653%的“Token工厂”，为何越卖越亏？ 潮新闻客户端",
       "_query_boost": 20
+    },
+    {
+      "id": "raw-015",
+      "title": "硬氪首发 | 异构智算平台完成千万级天使轮融资 瞄准英伟达与国产GPU算力调度赛道 - 36氪",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB0bUU4aEIyTENoZnd4Y1FSLUZQRU1qUFg5SXpWa0tOZFljdkN3dWRDY09aNmNwLTRxbjhzYUttcEptazlXUTlaY3R0cF9MQzc4dmxj?oc=5",
+      "source": "36氪",
+      "category": "技术",
+      "published": "2026-08-31",
+      "body_snippet": "硬氪首发 | 异构智算平台完成千万级天使轮融资 瞄准英伟达与国产GPU算力调度赛道 36氪",
+      "_query_boost": 0
     }
   ]
 }
