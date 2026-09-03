@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-02T05:03:13.890Z",
-  "date": "2026-09-02",
-  "date_label": "2026-09-02",
+  "generated_at": "2026-09-03T05:01:18.345Z",
+  "date": "2026-09-03",
+  "date_label": "2026-09-03",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
     "📜": 0,
-    "⚔️": 0,
+    "⚔️": 1,
     "💰": 2,
     "🌏": 0,
-    "🔬": 10
+    "🔬": 9
   },
   "speed_read": {
     "positive": [],
@@ -17,7 +17,7 @@
   },
   "wind_indicators": {
     "policy_heat": 3,
-    "competitor_heat": 2,
+    "competitor_heat": 3,
     "capital_heat": 3,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
@@ -27,7 +27,7 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "国际学院、萨里学院专题学习习近平总书记2",
+      "title": "国务院重磅部署！算力网通信网加速构建，2",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
@@ -35,10 +35,10 @@
     },
     {
       "id": "2",
-      "title": "国常会重磅部署！加快通信网、算力网建设！",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
+      "title": "月之暗面秘密递表港交所，正式启动IPO，",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 3,
       "axis_reason": "规则估算"
     },
     {
@@ -55,7 +55,7 @@
     "delta": 0,
     "components": {
       "policy_tailwind": 8,
-      "competitive_pressure": 0,
+      "competitive_pressure": -6,
       "capital_sentiment": 10,
       "regulatory_risk": 0,
       "overseas_headwind": 0
