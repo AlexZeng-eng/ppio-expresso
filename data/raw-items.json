@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-05T04:56:35.356Z",
+  "generated_at": "2026-09-06T05:04:37.492Z",
   "week": "2026-W37",
   "date_range": {
-    "from": "2026-08-29",
-    "to": "2026-09-05"
+    "from": "2026-08-30",
+    "to": "2026-09-06"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -30,34 +30,26 @@
     },
     {
       "id": "raw-003",
-      "title": "福建成功入选国家算力互联互通区域节点",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/dfdt/art/2026/art_d244832718d24b2b97b9ca89c4854a66.html",
-      "source": "工信部-新闻",
-      "published": "2026-09-05",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
+      "category": "竞品",
+      "published": "2026-09-02",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "_query_boost": 15
     },
     {
       "id": "raw-004",
-      "title": "贵州获批建设国家算力互联互通区域节点",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/dfdt/art/2026/art_814740ba71f54ac4b174ca50693a752c.html",
-      "source": "工信部-新闻",
+      "title": "国泰海通证券:《应用需求持续释放，AI硬件景气延续-广发创业板算力基础设施ETF投资价值分析》 - 发现报告",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE14eG85Z3cyT01zaDlmZVo4dzRoaU9JaWpVU0Q1a2VFalFtWm1ZNndzY1ZSdU95RkRHd04tRENLSXRTOVc2dnFsblFmRUJjS0Va?oc=5",
+      "source": "发现报告",
+      "category": "竞品",
       "published": "2026-09-05",
-      "body_snippet": "",
-      "category": "技术"
+      "body_snippet": "国泰海通证券:《应用需求持续释放，AI硬件景气延续-广发创业板算力基础设施ETF投资价值分析》 发现报告",
+      "_query_boost": 20
     },
     {
       "id": "raw-005",
-      "title": "AI不再只拼大模型：3000家服务商要把技术变成订单 - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nTHlmS0lNbGtNa1hPM1hzTWVUQU9YWWtMOFU2N2RJc1NFQXhPSHA3V09nM2xPZnBsR1Z0Nm9fT2V4bUZBcnZGNW5mVE85TmUtS3dBUjJ5VWVzajBmUGc?oc=5",
-      "source": "thepaper.cn",
-      "category": "政策",
-      "published": "2026-09-03",
-      "body_snippet": "AI不再只拼大模型：3000家服务商要把技术变成订单 thepaper.cn",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-006",
       "title": "从智能工厂看“六张网”建设（经济聚焦·“六张网”这样建） - 人民日报",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTMjZpT1pUWTJ1a1piNkpWcWdZVVB6a0ExMXdQTWpOXzh2eHZWWngwcUhVNEhUY2JmNUZUTUR1cjkybnhUVlVzNGpIT2ZXa09GTUNrOUR1c3d3bW1LeTJIOEpBYXdFNTlWVkxGVGVHMm5uSERyUnZiQy1kLVRLY2M?oc=5",
       "source": "人民日报",
@@ -67,27 +59,7 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-007",
-      "title": "华泰 | 通信：WAIC——超节点为国内算力大势所趋 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmODBROHZoQ2NrZkJfcVUxXy1xcVJtUXd1Z3dfbDI5OFE3WVFlWDFLUE9vMUVKZ0g2QzVhVk51RlFMeU9KcFZqbDJZWm43SkVKSlgzenFzd1ViSllkaGRDaUFXdDlnMTVqSVVBcktEV0g?oc=5",
-      "source": "新浪网",
-      "category": "政策",
-      "published": "2026-09-03",
-      "body_snippet": "华泰 | 通信：WAIC——超节点为国内算力大势所趋 新浪网",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-008",
-      "title": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMivglBVV95cUxQWmtqXzZUbXVJeU41S011V0diNnhaRi1lTGJfWWFPWFVwUGpLcXcxUVU1NDFKX0JuQkI4clg0ODFKZERtQU5aaGhqUXhLRmJfUWllYU1yNEhXdjgxMTZDV3RNelBzdDc4MkJmck53OXNyOXY0RUlFamN0YXJoUmc1V0xUWVBGMDlLWEFNLVVHN3loTXNNWUlnOXg4TVcxVVFsODRRSDBqVGlnZF9kM0lsOGFPaWk5TGZMcjJYcEgwcGVFY185SlpFOXdsYi12Z2VUN2Vma0RFclJrUk85TFNhTmJEQlg1bkRRLVJTWXZjQnBDc0loa1RZcl9VanhJVVNTM0s4RjE2WU0wbU5IelhtUXgtTk91Y2o2blVhNEZMZU1IYjdjSHYtVDBfOS1KQzQtR2FjMWI4TDYtX2hiazJrRGRZZVJKd3d0aGl3aFpweEFFVHZkc05SLUhpSWFfNWR1SWI2eG01WjlaWHpvYUo3U3ZHbU1scVhheXpnMXAwVnNiWDlqdzFDU2t0cXdHQzczRmdOdFFnSTBfSU5rdS1acjQwOEpseW1xcnVBZlFOSFlzelU4ZWo0aEtfUmYzT0R1MnU3WkRhVWxTcHJ2ekZKb29lZkxLdEY1TlBITWNnOEJhU3hKb2NMYU8zaFQ4ZEl0WnF4RWoweDRuVXVJUGs5dDZRSUpGc3lFRmZHRHI0WDdGZXZkaVZzTzVSeVZRVmJxLUNUNDB3NDNKNzd1Rmc3ZlVvOXl3a2FjaE9hSDl3d0F5ZXVDYjY2U1Q1OTNzTVhRSGg3UGZLaHJUWGlCeWpYcDNzNlpNRmtJRUxUQU1QVVBZeDZ4ZXVOMW1PRGwzb2JOdEZOYl9pWEQ2WThNSW5iVWF6V0NUQ3d3UTE0cWZDUnRfMVB5RWYzMVZnV3Z2MUdmM3Z5X0t1YTVWU2RzWmc0UDA1ZnllWkswSnp1UDRIMUl2SGZwX1RhZ3drTHRjemlnNlVpOUNyUWJwcUdNdzB0N0M4cGZMNklBR1dGOWJockNoUG9SbGF5X0FtS1dVWllpYTFXcmRnT2k1NzVJZ043S3JmaGhOMGd6X0t2aTNQYkJFNFNkUnhnVUIya0ZCVzlYUExlQ3Q4NkFqVzdJY21QT0dwd0pPdF9jblNzbDBJYjMxcmswb0c3aXlYVFFWOGlacjlCVU9SUFB4X1RzVFZWMUxSQktVQ3M0R1FOa1A2aEN2TVBPQkhsTVJXVm0tTGlDc185blI5a053SWpPTVI5RVhOcm9MZmwyRFlheUZHaWxrcXUwSm1TZUYzMHp4MWxTeHR0ZEowZE8wTmlrOEpyUmpOdTVoUkxORER0SjFMRHdNeHBNVDZFNGhEUkxjMms4TDVGTnZwY0pocUFsWXNhWmRrNW1TeWNwRVJHM3ZFajFsVzNDX1UwdDA4TndUZ0Q0M1BKdkgwM3NMLTY1Y1JFc3ZzRmFVc0g3NTFaVXJwelR2cjE2cDQxcU5zWEN6Z3MyckF2eFJKLUM0M1JBLVdpdGdqcW01anM1YmN4bXRfb2dCVlhubEZWaEZabXdxZGlaX3ZDSUR5bHhKaG9zM0gxLXBpeDJrUUNVT21RSUZfaC1hOFRFZUpxLWF0SjI1QQ?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-08-30",
-      "body_snippet": "国常会重磅部署！加快通信网、算力网建设！大数据ETF华宝（516700）逆市拉升1.4%，单日吸金2618万元！ 新浪财经",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-009",
+      "id": "raw-006",
       "title": "Anthropic据报与英伟达支持的云服务商签算力协议 价值446亿元 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9YajhuUWhDT3YtdlBYeXNKNUs3THh5MmExSzFCbHlQQk02RGZRTmhvbWFJZ0hMczdIa05TUDZ5TVpYOWh4dklZdm04cFdlVXZNc2l6WWJaXzZCcUJ1ZlA5ZEdueUVrak9WZ096S2dn?oc=5",
       "source": "联合早报",
@@ -97,9 +69,38 @@
       "_query_boost": 0
     },
     {
+      "id": "raw-007",
+      "title": "上海聚焦民生重点领域“一业一策”制定培养方案 练习无数遍的专业技能 让从业者有信心“被托付”",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260906/927b9184e9634bc3979f79204fc35960.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-06",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-008",
+      "title": "告别算力堆积 运营商构筑智能驱动的AI基座 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tS3pOVnRsQnNrRmNLa19ya0FDRWRmblhNUENPVHh1MnUwN19jaTJ1MXdoek1mRHlzQ1pyODEybWowT0RVdVZXSVlReHo1dlB0VEJwSTI1WElTMmpfYmpoakVpRXo0dnhTUzdRYmRRMG4zdGVjVlY5MGYxVjVIa0k?oc=5",
+      "source": "新浪网",
+      "category": "政策",
+      "published": "2026-09-04",
+      "body_snippet": "告别算力堆积 运营商构筑智能驱动的AI基座 新浪网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-009",
+      "title": "大厂集体为AI找钱 传字节跳动将获2000亿贷款 - 香港01",
+      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOamtRRUxaUTNQbWVRd3p0WDY4d3V5WnhpaDIxTVpuNWlETEY4RTQ3Y2hfVUgzcW5vaDBnTjdYc0s1ZDhsWE9UZHgtWDJESldXcHVZSHRIcENtd2c3VXBIRFpFVUpkMlVBZzJDdHVuczNkdWJkRl9iRG5oelRpa3BPYTlUajg4VGd2MXFPWWlERkVvZkk1NElSQW5CcVAxZDlxUTJWTlYyNFdJVklZUFlxRHRTNEk1NzVCNVRxdG93SktYaURHYzNZTFlkSFN0UDJPZFltTHlzdW5fME5JWFBwcFNvUkRoaW9PSXpQeTdvOXdDWENES3d6akFKQ3l2ZUVGYmRodEI1T3AzaUxFN2VXSVJpallZZGh1dHJYT1dCSUhEZkhFNjlUZHRLUU4yUXNvdkhoOUFTcW5yYjlwVzRfRktpSlR1aXhtWWtRNlFGdw?oc=5",
+      "source": "香港01",
+      "category": "竞品",
+      "published": "2026-09-04",
+      "body_snippet": "大厂集体为AI找钱 传字节跳动将获2000亿贷款 香港01",
+      "_query_boost": 20
+    },
+    {
       "id": "raw-010",
-      "title": "打开未来五年上海城市空间 《上海市国土空间近期实施规划（2026—2030年）》发布",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260905/299daf8d01b345a8964cb7862c2a4e96.html",
+      "title": "亚运会中国体育代表团成立 上海80名运动员入选创新高",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260905/66b43fe8f60b4a269d50d03abd9ce561.html",
       "source": "上海市政府-动态",
       "published": "2026-09-05",
       "body_snippet": "",
@@ -107,15 +108,6 @@
     },
     {
       "id": "raw-011",
-      "title": "浦江创新论坛11日起举办 将发布一系列服务国家战略相关举措成果",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260905/576ef90537f14878ba5ce4dd3d40f32b.html",
-      "source": "上海市政府-动态",
-      "published": "2026-09-05",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-012",
       "title": "长宁持续优化OPC共享工位登记模式 打通孵化器与登记机关间数据通道 “一条码”注册 一个工位连接产业生态",
       "url": "https://www.shanghai.gov.cn/nw4411/20260905/28ada6bb36cb427faafd71257c1c6283.html",
       "source": "上海市政府-动态",
@@ -124,9 +116,18 @@
       "category": "技术"
     },
     {
+      "id": "raw-012",
+      "title": "浦江创新论坛11日起举办 将发布一系列服务国家战略相关举措成果",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260905/576ef90537f14878ba5ce4dd3d40f32b.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-05",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
       "id": "raw-013",
-      "title": "亚运会中国体育代表团成立 上海80名运动员入选创新高",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260905/66b43fe8f60b4a269d50d03abd9ce561.html",
+      "title": "打开未来五年上海城市空间 《上海市国土空间近期实施规划（2026—2030年）》发布",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260905/299daf8d01b345a8964cb7862c2a4e96.html",
       "source": "上海市政府-动态",
       "published": "2026-09-05",
       "body_snippet": "",
@@ -143,13 +144,13 @@
     },
     {
       "id": "raw-015",
-      "title": "告别算力堆积 运营商构筑智能驱动的AI基座 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tS3pOVnRsQnNrRmNLa19ya0FDRWRmblhNUENPVHh1MnUwN19jaTJ1MXdoek1mRHlzQ1pyODEybWowT0RVdVZXSVlReHo1dlB0VEJwSTI1WElTMmpfYmpoakVpRXo0dnhTUzdRYmRRMG4zdGVjVlY5MGYxVjVIa0k?oc=5",
-      "source": "新浪网",
-      "category": "政策",
-      "published": "2026-09-04",
-      "body_snippet": "告别算力堆积 运营商构筑智能驱动的AI基座 新浪网",
-      "_query_boost": 0
+      "title": "昨夜今晨：拼博体育官方网芯片量产提速 AI算力基础设施加速落地 - ttplus.cn",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9GWFNJbnNaQ1dDZDlzV1lpeHZVeGR2eW5VenJGNTVPbHNGUDVLVEdPcW9iR1NDUkdlV0JVMVJoWmJ4Wm9LZ2h3cjNR?oc=5",
+      "source": "ttplus.cn",
+      "category": "竞品",
+      "published": "2026-09-05",
+      "body_snippet": "昨夜今晨：拼博体育官方网芯片量产提速 AI算力基础设施加速落地 ttplus.cn",
+      "_query_boost": 15
     }
   ]
 }

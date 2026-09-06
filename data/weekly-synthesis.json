@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-05T04:56:35.482Z",
-  "date": "2026-09-05",
-  "date_label": "2026-09-05",
+  "generated_at": "2026-09-06T05:04:37.621Z",
+  "date": "2026-09-06",
+  "date_label": "2026-09-06",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 1,
+    "🏛️": 0,
     "📜": 0,
     "⚔️": 0,
     "💰": 0,
     "🌏": 0,
-    "🔬": 6
+    "🔬": 5
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 3,
+    "policy_heat": 2,
     "competitor_heat": 2,
     "capital_heat": 2,
     "overseas_heat": 2,
@@ -40,29 +40,13 @@
       "competition_axis": 0.1,
       "impact_score": 4,
       "axis_reason": "规则估算"
-    },
-    {
-      "id": "3",
-      "title": "华泰 | 通信：WAIC——超节点为国内",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "4",
-      "title": "国常会重磅部署！加快通信网、算力网建设！",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
     }
   ],
   "ppio_index": {
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 8,
+      "policy_tailwind": 0,
       "competitive_pressure": 0,
       "capital_sentiment": 0,
       "regulatory_risk": 0,
