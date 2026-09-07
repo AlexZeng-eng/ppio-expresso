@@ -1,42 +1,14 @@
 {
-  "generated_at": "2026-09-06T05:04:37.584Z",
+  "generated_at": "2026-09-07T05:12:22.224Z",
   "week": "2026-W37",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 7,
+  "total_curated": 8,
   "attend_count": 2,
-  "silent_count": 5,
+  "silent_count": 6,
   "items": [
     {
       "id": "raw-001",
-      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - 人民日报",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DcHE3VXdJLWtLRy1GWE50NFZVM2lVb3k0MHRMa1VzTG1UakJBUTlFTjNxQk5ySDVYeTFwSzQwb1Z2U1d2cDEya3p5a3N6YjZjSGhSMzIyRi1KRzNzQUxteTA5NGx3bUJHbS1RcVdpNlVNLXVub2R2cVcwbHVsSFk?oc=5",
-      "source": "人民日报",
-      "category": "政策",
-      "published": "2026-08-31",
-      "body_snippet": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 人民日报",
-      "_query_boost": 50,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - 人民日报 习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 人民日报",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-002",
       "title": "国际学院、萨里学院专题学习习近平总书记2026世界人工智能大会主旨讲话精神 - 中国农业大学新闻网",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mNzBjMUJWVXdDUDJPTnNTZ0tLYVg1emFxa3F1SEtocnpMUXJYYV9FTW8teTVUZ1ljdFJFdmNJekdzOERVYUJ1b1BIU2RvamFkX2NJMkM0aGlWQzJVVnRYcTNTSDhKRmM3dUtQVkZCakViVkZsaFZz?oc=5",
       "source": "中国农业大学新闻网",
@@ -64,7 +36,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-003",
+      "id": "raw-002",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
@@ -87,7 +59,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
+      "id": "raw-003",
       "title": "国泰海通证券:《应用需求持续释放，AI硬件景气延续-广发创业板算力基础设施ETF投资价值分析》 - 发现报告",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE14eG85Z3cyT01zaDlmZVo4dzRoaU9JaWpVU0Q1a2VFalFtWm1ZNndzY1ZSdU95RkRHd04tRENLSXRTOVc2dnFsblFmRUJjS0Va?oc=5",
       "source": "发现报告",
@@ -110,7 +82,30 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
+      "id": "raw-004",
+      "title": "中国银行推出“算力词元贷” 算力词元结算情况纳入授信参考 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mbHQzc1pLTlpxU3F2T3B0SVdOTVZBQVNyV0hXVUlkcHQ1YV9pbDkxSVFxVzFfczUzaXN5UWl2QTQ3VDZscWdPYWxtR29jblpoYzdrOUpOMGhkbHhxVlNfa0RPUnFKNGNSaEpRclln?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-09-04",
+      "body_snippet": "中国银行推出“算力词元贷” 算力词元结算情况纳入授信参考 新浪财经",
+      "_query_boost": 30,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "中国银行推出“算力词元贷” 算力词元结算情况纳入授信参考 - 新浪财经 中国银行推出“算力词元贷” 算力词元结算情况纳入授信参考 新浪财经",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
       "title": "Anthropic据报与英伟达支持的云服务商签算力协议 价值446亿元 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9YajhuUWhDT3YtdlBYeXNKNUs3THh5MmExSzFCbHlQQk02RGZRTmhvbWFJZ0hMczdIa05TUDZ5TVpYOWh4dklZdm04cFdlVXZNc2l6WWJaXzZCcUJ1ZlA5ZEdueUVrak9WZ096S2dn?oc=5",
       "source": "联合早报",
@@ -133,36 +128,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-008",
-      "title": "告别算力堆积 运营商构筑智能驱动的AI基座 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tS3pOVnRsQnNrRmNLa19ya0FDRWRmblhNUENPVHh1MnUwN19jaTJ1MXdoek1mRHlzQ1pyODEybWowT0RVdVZXSVlReHo1dlB0VEJwSTI1WElTMmpfYmpoakVpRXo0dnhTUzdRYmRRMG4zdGVjVlY5MGYxVjVIa0k?oc=5",
-      "source": "新浪网",
-      "category": "政策",
-      "published": "2026-09-04",
-      "body_snippet": "告别算力堆积 运营商构筑智能驱动的AI基座 新浪网",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "告别算力堆积 运营商构筑智能驱动的AI基座 - 新浪网 告别算力堆积 运营商构筑智能驱动的AI基座 新浪网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-015",
-      "title": "昨夜今晨：拼博体育官方网芯片量产提速 AI算力基础设施加速落地 - ttplus.cn",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9GWFNJbnNaQ1dDZDlzV1lpeHZVeGR2eW5VenJGNTVPbHNGUDVLVEdPcW9iR1NDUkdlV0JVMVJoWmJ4Wm9LZ2h3cjNR?oc=5",
-      "source": "ttplus.cn",
-      "category": "竞品",
-      "published": "2026-09-05",
-      "body_snippet": "昨夜今晨：拼博体育官方网芯片量产提速 AI算力基础设施加速落地 ttplus.cn",
+      "id": "raw-007",
+      "title": "英伟达GPU租赁价格上调，海内外算力供需缺口持续扩大，科创100ETF博时(588030)跟踪指数涨超2% - 界面新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBpczdEbkpkczBFTmRzaEJJYmxkeVlXNk5EX2NobEVON3phd0NBQVdIdVU5dkcyODFUY3YxbzI0Z0FGQ0V2enQyN28xX2otcEZqTkxlUnNGVFU?oc=5",
+      "source": "界面新闻",
+      "category": "技术",
+      "published": "2026-09-07",
+      "body_snippet": "英伟达GPU租赁价格上调，海内外算力供需缺口持续扩大，科创100ETF博时(588030)跟踪指数涨超2% 界面新闻",
       "_query_boost": 15,
       "lane": "silent",
       "signals": [
@@ -174,8 +146,60 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "昨夜今晨：拼博体育官方网芯片量产提速 AI算力基础设施加速落地 - ttplus.cn 昨夜今晨：拼博体育官方网芯片量产提速 AI算力基础设施加速落地 ttpl",
+      "summary_cn": "英伟达GPU租赁价格上调，海内外算力供需缺口持续扩大，科创100ETF博时(588030)跟踪指数涨超2% - 界面新闻 英伟达GPU租赁价格上调，海内外算力供",
       "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
+      "title": "东吴证券:《电子行业深度报告：创业板算力ETF广发（158049）：AI算力景气深化，PCB与算力租赁共振》 - 发现报告",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA0U3ZBUG9CUGdzNmQ0MGdaVGtqeUxjUkR3b29VSVhqVHJxRlFGQlR0cU9aREp2RXEzcmdscWJrVmhWM1JYVWI1N1oteHRMOHRI?oc=5",
+      "source": "发现报告",
+      "category": "技术",
+      "published": "2026-09-06",
+      "body_snippet": "东吴证券:《电子行业深度报告：创业板算力ETF广发（158049）：AI算力景气深化，PCB与算力租赁共振》 发现报告",
+      "_query_boost": 15,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "东吴证券:《电子行业深度报告：创业板算力ETF广发（158049）：AI算力景气深化，PCB与算力租赁共振》 - 发现报告 东吴证券:《电子行业深度报告：创业板",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-015",
+      "title": "月之暗面以500亿美元估值洽谈Pre-IPO融资，Kimi K3引爆全球AI圈后加速港股上市 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xR1hmTVVMWklfOTliWGp4alhhc1FrNEs2cnVqZWlaSWlfQ0llbGN1X1dqVkt2ZFlCM2pTQmhRc3Zlb1prSnlJMzJEMTk5bTBJQjc5Z1RCTkMwSWNKSUFBTFUtOTk0RFBOZTg1VG5CcUpoZw?oc=5",
+      "source": "新浪网",
+      "category": "资本",
+      "published": "2026-09-03",
+      "body_snippet": "月之暗面以500亿美元估值洽谈Pre-IPO融资，Kimi K3引爆全球AI圈后加速港股上市 新浪网",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "⚔️",
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "月之暗面以500亿美元估值洽谈Pre-IPO融资，Kimi K3引爆全球AI圈后加速港股上市 - 新浪网 月之暗面以500亿美元估值洽谈Pre-IPO融资，Kimi K3引爆全球AI圈后加速港股上市 新浪网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
       "_classified_by": "rule"
     }
   ]
