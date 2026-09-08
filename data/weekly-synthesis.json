@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-07T05:12:22.296Z",
-  "date": "2026-09-07",
-  "date_label": "2026-09-07",
+  "generated_at": "2026-09-08T05:11:51.083Z",
+  "date": "2026-09-08",
+  "date_label": "2026-09-08",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 0,
+    "🏛️": 2,
     "📜": 0,
-    "⚔️": 1,
-    "💰": 1,
+    "⚔️": 2,
+    "💰": 2,
     "🌏": 0,
-    "🔬": 6
+    "🔬": 8
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 2,
-    "competitor_heat": 3,
+    "policy_heat": 4,
+    "competitor_heat": 4,
     "capital_heat": 3,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
@@ -27,7 +27,7 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "国际学院、萨里学院专题学习习近平总书记2",
+      "title": "国务院重磅部署！算力网通信网加速构建，2",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
@@ -35,7 +35,23 @@
     },
     {
       "id": "2",
+      "title": "上海市人民政府办公厅关于印发《上海市进一",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "3",
       "title": "月之暗面以500亿美元估值洽谈Pre-I",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 3,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "4",
+      "title": "月之暗面秘密递表港交所，正式启动IPO，",
       "policy_axis": 0,
       "competition_axis": 0.7,
       "impact_score": 3,
@@ -46,9 +62,9 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 0,
-      "competitive_pressure": -6,
-      "capital_sentiment": 5,
+      "policy_tailwind": 16,
+      "competitive_pressure": -12,
+      "capital_sentiment": 10,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },
