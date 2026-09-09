@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-08T05:11:51.040Z",
+  "generated_at": "2026-09-09T05:11:47.631Z",
   "week": "2026-W37",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 11,
+  "total_curated": 13,
   "attend_count": 4,
-  "silent_count": 7,
+  "silent_count": 9,
   "items": [
     {
       "id": "raw-001",
-      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - 新浪财经",
+      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - 新浪网",
       "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQcWVpVnBmeHhxWlhvVXgxWDQ3b0NjLTVXMHFMY0hJV0d3QWVEamljRjAzQTJGWk5IQkE5c0lCeHlrNy1sSEVGOFV5TGZIWDVpZ0NIVG9DdFhKMlFiWGRmTkdONzhGSV95NU43cUJ5ZmQ1T25aaU1iY2puNEljVEdjVUMtdzB5Q2VUSDViaEZyRFR5dnZFX1JKWkJzZURDcUhDWnNaOFNnOFJ6d0tHUV9SZmFGMUUtWHlCSk9veW5hc2QzQUFSdDdDbVhQOU9STjk5MHlPdmZFYTI3bnBCZHRuVExnSTdaem5Jd0JaZGVEd2dqbVp5T1NKRU5saXk0MERuTS1vSUE4a2thall5dUZ4dWZ0eHIzMHl5ZDUyc1BXdlN4bEpYVlVZYktpcWNVMnVFZDlsc3FGbWV6ZTZUUVRna25n?oc=5",
-      "source": "新浪财经",
+      "source": "新浪网",
       "category": "政策",
       "published": "2026-09-07",
-      "body_snippet": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 新浪财经",
+      "body_snippet": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 新浪网",
       "_query_boost": 30,
       "lane": "attend",
       "signals": [
@@ -27,7 +27,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - 新浪财经 国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 新浪财经",
+      "summary_cn": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - 新浪网 国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 新浪网",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -42,7 +42,7 @@
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
       "category": "竞品",
-      "published": "2026-09-02",
+      "published": "2026-09-09",
       "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
       "_query_boost": 15,
       "lane": "silent",
@@ -60,14 +60,41 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-003",
-      "title": "国泰海通证券:《应用需求持续释放，AI硬件景气延续-广发创业板算力基础设施ETF投资价值分析》 - 发现报告",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE14eG85Z3cyT01zaDlmZVo4dzRoaU9JaWpVU0Q1a2VFalFtWm1ZNndzY1ZSdU95RkRHd04tRENLSXRTOVc2dnFsblFmRUJjS0Va?oc=5",
-      "source": "发现报告",
-      "category": "竞品",
+      "id": "raw-004",
+      "title": "市公安局自主研发的“国家反诈AI”上线 拆解诈骗手法、提供防范对策 “803反诈”上海方案走向全国",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260909/d20d519c890d46698157793846200dd2.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-09",
+      "body_snippet": "",
+      "category": "技术",
+      "lane": "attend",
+      "signals": [
+        "📜"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "市公安局自主研发的“国家反诈AI”上线 拆解诈骗手法、提供防范对策 “803反诈”上海方案走向全国 ",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
+      "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMTJHSzF3b0dBajc4WldyZGloSzQta0hfa1Q1LW5CM2xqdzFzazdwOVptYTRCRE9CTlpxUEFZbXp5MklCbWlkcTE2bFVBM3lzbVI5MGtpNXJ5Q2NDSWdYYmxTOTR2UmJtMXlDRi1NY3hZRlAzVlV4bHhjTDZqOG10Ql9WMXJNRkU?oc=5",
+      "source": "新浪网",
+      "category": "政策",
       "published": "2026-09-05",
-      "body_snippet": "国泰海通证券:《应用需求持续释放，AI硬件景气延续-广发创业板算力基础设施ETF投资价值分析》 发现报告",
-      "_query_boost": 20,
+      "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 新浪网",
+      "_query_boost": 25,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -78,12 +105,58 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "国泰海通证券:《应用需求持续释放，AI硬件景气延续-广发创业板算力基础设施ETF投资价值分析》 - 发现报告 国泰海通证券:《应用需求持续释放，AI硬件景气延续",
+      "summary_cn": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪网 燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 ",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
+      "id": "raw-006",
+      "title": "开源筑基构生态，GPUStack托举国产算力 - doit.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8wSFdEbXpSdTdRRnRKYkFZN2lERC11S0FDY3U0bUtsRTJFZ25xUnd3d0kycnN6SDNWVmdOc2UwaUFVZl9wUHZ5cTBRVVVzWHVYUTNDOTZaSFhfZUNRTGxRekxxdFE?oc=5",
+      "source": "doit.com.cn",
+      "category": "竞品",
+      "published": "2026-09-08",
+      "body_snippet": "开源筑基构生态，GPUStack托举国产算力 doit.com.cn",
+      "_query_boost": 15,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "开源筑基构生态，GPUStack托举国产算力 - doit.com.cn 开源筑基构生态，GPUStack托举国产算力 doit.com.cn",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-007",
+      "title": "3d彩票平台app下载2026年Q1营收同比增45% 自研算力芯片‘沃洛’出货超百万片 - 体坛",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5sbWJVU2FSVXFYcXVtWGg3X3BQV3AxX2IyYnY2TjhNdC1XWnRBU1hYMkQxSTdfQm5TU2hzY3c2S3U0cndKNld3MWV3?oc=5",
+      "source": "体坛",
+      "category": "技术",
+      "published": "2026-09-08",
+      "body_snippet": "3d彩票平台app下载2026年Q1营收同比增45% 自研算力芯片‘沃洛’出货超百万片 体坛",
+      "_query_boost": 15,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "3d彩票平台app下载2026年Q1营收同比增45% 自研算力芯片‘沃洛’出货超百万片 - 体坛 3d彩票平台app下载2026年Q1营收同比增45% 自研算力",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-008",
       "title": "算力涨价潮影响与应对 一场席卷产业链的供需博弈 - chinanews.com.cn",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53NkthWjBzdXF0c0NCcXFUZ2x4Q3d1WUowbGpVVXh5Y0prMExsWEJjZWVXaHFNNTMyNnA2T3lxQVYtcGhLNFVhNmpFTEJ6ODNMSGl3R0JCSkRmdTVhQjV1TC12bGtKenBJ?oc=5",
       "source": "chinanews.com.cn",
@@ -106,29 +179,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
-      "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
-      "url": "https://www.qbitai.com/2026/09/485784.html",
-      "source": "量子位",
-      "published": "2026-09-08",
-      "body_snippet": "",
-      "category": "技术",
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座 ",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-007",
+      "id": "raw-009",
       "title": "上海市人民政府办公厅关于印发《上海市进一步推进质量强市建设三年行动计划》的通知",
       "url": "https://www.shanghai.gov.cn/nw12344/20260907/ceeb20cafc704f44892a90ec5d0d9a8b.html",
       "source": "上海市政府-政策文件",
@@ -155,7 +206,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-008",
+      "id": "raw-010",
       "title": "英伟达GPU租赁价格上调，海内外算力供需缺口持续扩大，科创100ETF博时(588030)跟踪指数涨超2% - 界面新闻",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBpczdEbkpkczBFTmRzaEJJYmxkeVlXNk5EX2NobEVON3phd0NBQVdIdVU5dkcyODFUY3YxbzI0Z0FGQ0V2enQyN28xX2otcEZqTkxlUnNGVFU?oc=5",
       "source": "界面新闻",
@@ -178,59 +229,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-010",
-      "title": "东吴证券:《电子行业深度报告：创业板算力ETF广发（158049）：AI算力景气深化，PCB与算力租赁共振》 - 发现报告",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA0U3ZBUG9CUGdzNmQ0MGdaVGtqeUxjUkR3b29VSVhqVHJxRlFGQlR0cU9aREp2RXEzcmdscWJrVmhWM1JYVWI1N1oteHRMOHRI?oc=5",
-      "source": "发现报告",
-      "category": "技术",
-      "published": "2026-09-06",
-      "body_snippet": "东吴证券:《电子行业深度报告：创业板算力ETF广发（158049）：AI算力景气深化，PCB与算力租赁共振》 发现报告",
-      "_query_boost": 15,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "东吴证券:《电子行业深度报告：创业板算力ETF广发（158049）：AI算力景气深化，PCB与算力租赁共振》 - 发现报告 东吴证券:《电子行业深度报告：创业板",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
       "id": "raw-012",
-      "title": "月之暗面以500亿美元估值洽谈Pre-IPO融资，Kimi K3引爆全球AI圈后加速港股上市 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xR1hmTVVMWklfOTliWGp4alhhc1FrNEs2cnVqZWlaSWlfQ0llbGN1X1dqVkt2ZFlCM2pTQmhRc3Zlb1prSnlJMzJEMTk5bTBJQjc5Z1RCTkMwSWNKSUFBTFUtOTk0RFBOZTg1VG5CcUpoZw?oc=5",
-      "source": "新浪网",
-      "category": "资本",
-      "published": "2026-09-03",
-      "body_snippet": "月之暗面以500亿美元估值洽谈Pre-IPO融资，Kimi K3引爆全球AI圈后加速港股上市 新浪网",
-      "_query_boost": 20,
-      "lane": "attend",
-      "signals": [
-        "⚔️",
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "月之暗面以500亿美元估值洽谈Pre-IPO融资，Kimi K3引爆全球AI圈后加速港股上市 - 新浪网 月之暗面以500亿美元估值洽谈Pre-IPO融资，Kimi K3引爆全球AI圈后加速港股上市 新浪网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-013",
       "title": "月之暗面秘密递表港交所，正式启动IPO，500亿美元估值推进Pre-IPO融资 - 风闻",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHTmJLV2VEbmFiYW5PSzYwRnVBZTFkS3dTREh4WXBTYk9zajFtVHZKUVJVZHZlM1FROGs5c3FGVmJOOWtVQnpXbUlhLURxejlJQV9CTWxvcnhmZjNxbUI2dmw3cUV3ZThwcUlNaDZ3?oc=5",
       "source": "风闻",
@@ -259,13 +258,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-014",
-      "title": "下午察：当AI模型算力被摆上电商货架 - 联合早报",
+      "id": "raw-013",
+      "title": "下午察：当AI模型算力被摆上电商货架 - zaobao.com.sg",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UMjg4dmZDSjNyOHJXX0xzUHlfV0NuUEllakxEbHZ0cWR3TVJHc3FqODhyZ19WVTU4eFRkMzhYNEt5WVV2Wl9fN3FmNGRraWEyVG40VHM0VU50dXNyN0NpeVdvS0tjdUFqVGc?oc=5",
-      "source": "联合早报",
+      "source": "zaobao.com.sg",
       "category": "海外",
       "published": "2026-09-03",
-      "body_snippet": "下午察：当AI模型算力被摆上电商货架 联合早报",
+      "body_snippet": "下午察：当AI模型算力被摆上电商货架 zaobao.com.sg",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
@@ -277,7 +276,52 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "下午察：当AI模型算力被摆上电商货架 - 联合早报 下午察：当AI模型算力被摆上电商货架 联合早报",
+      "summary_cn": "下午察：当AI模型算力被摆上电商货架 - zaobao.com.sg 下午察：当AI模型算力被摆上电商货架 zaobao.com.sg",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-014",
+      "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
+      "url": "https://www.qbitai.com/2026/09/485784.html",
+      "source": "量子位",
+      "published": "2026-09-08",
+      "body_snippet": "",
+      "category": "技术",
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座 ",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-015",
+      "title": "中国算力中心一半空置一半爆火：地方建设与AI企业需求错位 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZTk9Cank4N090WG9GR3pNOTlYMUVSN2VUVGZfVzFVV3RsYW50bmZEZHVpSkVDQ0tBUEs1RFVTQm50VVRnN2tuNjdpLXBYVjRIRjY3S2tjSjBSNU5xeVpv?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-09-08",
+      "body_snippet": "中国算力中心一半空置一半爆火：地方建设与AI企业需求错位 虎嗅网",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "中国算力中心一半空置一半爆火：地方建设与AI企业需求错位 - 虎嗅网 中国算力中心一半空置一半爆火：地方建设与AI企业需求错位 虎嗅网",
       "ppio_signal": null,
       "_classified_by": "rule"
     }
