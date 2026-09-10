@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-09T05:11:47.541Z",
+  "generated_at": "2026-09-10T05:14:04.234Z",
   "week": "2026-W37",
   "date_range": {
-    "from": "2026-09-02",
-    "to": "2026-09-09"
+    "from": "2026-09-03",
+    "to": "2026-09-10"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQcWVpVnBmeHhxWlhvVXgxWDQ3b0NjLTVXMHFMY0hJV0d3QWVEamljRjAzQTJGWk5IQkE5c0lCeHlrNy1sSEVGOFV5TGZIWDVpZ0NIVG9DdFhKMlFiWGRmTkdONzhGSV95NU43cUJ5ZmQ1T25aaU1iY2puNEljVEdjVUMtdzB5Q2VUSDViaEZyRFR5dnZFX1JKWkJzZURDcUhDWnNaOFNnOFJ6d0tHUV9SZmFGMUUtWHlCSk9veW5hc2QzQUFSdDdDbVhQOU9STjk5MHlPdmZFYTI3bnBCZHRuVExnSTdaem5Jd0JaZGVEd2dqbVp5T1NKRU5saXk0MERuTS1vSUE4a2thall5dUZ4dWZ0eHIzMHl5ZDUyc1BXdlN4bEpYVlVZYktpcWNVMnVFZDlsc3FGbWV6ZTZUUVRna25n?oc=5",
-      "source": "新浪网",
+      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxPa011Q0hldVZRdzZ2TnlJb19xSjNhVUFHeEY1enZNSDJiVUxtYVpwN3JsemN2U2xWbDc1RnVpY2dVbEk4SE41Q2RidUhFVENzbkk5UjVobXctOTh6NUVEZEpPaUtUVXl6SUpYV2VObUFFSkM2VTRycmUtOWNhM2x5MnIzVGJaWTZ2Y2o4WXZINWhpQzZPYlB6VFR0REJTSks3VmtOOVRVbVkta1FoYzU0SDlFMndUNzNQRmc0cDJGeU40bDlXWDJRQ1BNVmJnWERUT3JQTFhUSDJMRTZjMEJ4WXJLTElNeUpTb2pmMU80bU4wVlhuOGVlOEdFbnZWR2xxTmJLY3BScXNrUkU5RUpvd21KcF9FdjVtZXJ1VFZWcjBHTjF0MDd4b0U0aEpoRnQ1VWhBRlNEak9Ddmcxc3h2bHN6NUI4THhvUGFpWEpHODRHNlNSUGVUek9nc3FsZW9GLTN5NDRsY3g?oc=5",
+      "source": "新浪财经",
       "category": "政策",
       "published": "2026-09-07",
-      "body_snippet": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 新浪网",
+      "body_snippet": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 新浪财经",
       "_query_boost": 30
     },
     {
@@ -30,6 +30,104 @@
     },
     {
       "id": "raw-003",
+      "title": "中国算力“西进”，北部、西北部有望成为最大数据中心区域市场 - 潮起网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5UcG1tZk5RLThpaTNfeDFFVUVCWEJkQ2dYTG96MFlRRU5UMHBaaXpFUHFZNy1jeF9NOEhsam15VEFEbk44dUU1QkMwY0x5WTNNM0RaQXhvcnZuOWdYTkFGbU13NA?oc=5",
+      "source": "潮起网",
+      "category": "政策",
+      "published": "2026-09-10",
+      "body_snippet": "中国算力“西进”，北部、西北部有望成为最大数据中心区域市场 潮起网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-004",
+      "title": "打造10万卡国产算力集群 推出JoyAI世界模型，京东发布物理AI建设最新成果 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4ySS02WHBSX1pjSS0yUEhSOXdzRVo0b3Q1NXpMTi04R21JVDh6U2o0bVRieDlING9rcFl3WWg0SEJVV1lTUXFZcHVjcHBheUpaYjlUeEduM1JDMDVNXzJpMHM5SFozbk5vM0YyRHk5UFdXWkNsMXc?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-09-09",
+      "body_snippet": "打造10万卡国产算力集群 推出JoyAI世界模型，京东发布物理AI建设最新成果 新浪财经",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-005",
+      "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rTXg0dFl2RUtFbkFoc3E0YXE5SmZnaGR0MGNIS3JRTVVjaU04Y21BWUN6Nk5KNU5iQ0pLV1JyN1M5RmNUcUtFM0J3MlptYklRS0JIMWVTUkh5anVtbzlFbHhULWhqbXMzclVmdHpHaVNCQQ?oc=5",
+      "source": "新浪网",
+      "category": "政策",
+      "published": "2026-09-08",
+      "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 新浪网",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-006",
+      "title": "中国银行推出“算力词元贷” 算力词元结算情况纳入授信参考 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mbHQzc1pLTlpxU3F2T3B0SVdOTVZBQVNyV0hXVUlkcHQ1YV9pbDkxSVFxVzFfczUzaXN5UWl2QTQ3VDZscWdPYWxtR29jblpoYzdrOUpOMGhkbHhxVlNfa0RPUnFKNGNSaEpRclln?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-09-04",
+      "body_snippet": "中国银行推出“算力词元贷” 算力词元结算情况纳入授信参考 新浪财经",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-007",
+      "title": "智慧安防技术赛项 比拼8项核心技能 本届世赛首次设立 反映产业发展趋势",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260910/f1e5d2d2ccc14739a1ab2b73b36cef9f.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-10",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-008",
+      "title": "拥有业态完整的金融中心和产业领先的AI高地 上海金融科技影响力辐射长三角、全国乃至世界 外滩大会描摹“AI新经济”全景图",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260910/982776fdd6f34e1b9b9861ecc8733203.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-10",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-009",
+      "title": "阶跃星辰 Archives - thebambooworks.com",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5NVlZ6d2lYcHZ4MklzZWpIeGdfaW9SVGdENHlWd01rNlVzTi11bXpma1JycjdyT0JrbHdrMFZZZWZLMm9XRnhZSXk5T05BWUk5RFYwMlhuZXZlZ0lkdE9WMElYZDdoaGNSTVNiVlR1c3JIeEVfdkxycGVtNA?oc=5",
+      "source": "thebambooworks.com",
+      "category": "资本",
+      "published": "2026-09-09",
+      "body_snippet": "阶跃星辰 Archives thebambooworks.com",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-010",
+      "title": "美出口管制下英伟达芯片在中国黑市价格翻倍 - 朝鮮日報中文版",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT0hXNWJxbW90RTFrMnEyelZXTV9fenAtMG9nbEl6WnNGWlNCNmZwaUNfeDBtY243RU45blhGQzA3a1g4VGlmVzdzNFBTR2x6M25XbjhkWXBSOEktT1lJc2pWRzBjdXU0ZjNoSFFHLUxhQUVCMUZRUWtydVpaU25vNVFkcl8wUnVZYVMxYWNyZUYwUU1DTjJZUVpNakJtc00x?oc=5",
+      "source": "朝鮮日報中文版",
+      "category": "海外",
+      "published": "2026-09-09",
+      "body_snippet": "美出口管制下英伟达芯片在中国黑市价格翻倍 朝鮮日報中文版",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-011",
+      "title": "美指中企蒸馏AI模型 中国商务部：动用国家力量维护科技霸权算力垄断 - zaobao.com.sg",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16WGZPa3l3c3JXWmNCSDNISVZObldoOHJmbzdKc0M1QXBNd2N0OG9Ybjk3MFdTQml1YVUxdHNoWUduM2pkQ25kUS1iT2ljcjhJTjJsVHRuNUp1dGlVNzItcV9mODhJM0RqQ2c?oc=5",
+      "source": "zaobao.com.sg",
+      "category": "海外",
+      "published": "2026-09-09",
+      "body_snippet": "美指中企蒸馏AI模型 中国商务部：动用国家力量维护科技霸权算力垄断 zaobao.com.sg",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-012",
+      "title": "从智能工厂看“六张网”建设（经济聚焦·“六张网”这样建） - 人民日报",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbWJwWGpFX0NaRUNLeE14aFlIRENkWUd3SnAxSExVYkptVHV1OVNOTXdJRFlKWWxwMTlIX1hkVkQxcm9FN3JFcGRfSmdrbjRZWEVBTzhsZ1c0aWhpSUdFeEFRa3NpREVzd1d6N0pVRFVFQ0hGN08xbS1MUFF1dFdiSw?oc=5",
+      "source": "人民日报",
+      "category": "政策",
+      "published": "2026-09-04",
+      "body_snippet": "从智能工厂看“六张网”建设（经济聚焦·“六张网”这样建） 人民日报",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-013",
       "title": "耀雪冰雪世界4项雪道获国际认证 “冷资源”成“热经济” 冰雪产业迈向新高度",
       "url": "https://www.shanghai.gov.cn/nw4411/20260909/96491198e3e648b9bd1aef2bcbfc82aa.html",
       "source": "上海市政府-动态",
@@ -38,7 +136,7 @@
       "category": "技术"
     },
     {
-      "id": "raw-004",
+      "id": "raw-014",
       "title": "市公安局自主研发的“国家反诈AI”上线 拆解诈骗手法、提供防范对策 “803反诈”上海方案走向全国",
       "url": "https://www.shanghai.gov.cn/nw4411/20260909/d20d519c890d46698157793846200dd2.html",
       "source": "上海市政府-动态",
@@ -47,112 +145,13 @@
       "category": "技术"
     },
     {
-      "id": "raw-005",
-      "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMTJHSzF3b0dBajc4WldyZGloSzQta0hfa1Q1LW5CM2xqdzFzazdwOVptYTRCRE9CTlpxUEFZbXp5MklCbWlkcTE2bFVBM3lzbVI5MGtpNXJ5Q2NDSWdYYmxTOTR2UmJtMXlDRi1NY3hZRlAzVlV4bHhjTDZqOG10Ql9WMXJNRkU?oc=5",
-      "source": "新浪网",
-      "category": "政策",
-      "published": "2026-09-05",
-      "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 新浪网",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-006",
-      "title": "开源筑基构生态，GPUStack托举国产算力 - doit.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8wSFdEbXpSdTdRRnRKYkFZN2lERC11S0FDY3U0bUtsRTJFZ25xUnd3d0kycnN6SDNWVmdOc2UwaUFVZl9wUHZ5cTBRVVVzWHVYUTNDOTZaSFhfZUNRTGxRekxxdFE?oc=5",
-      "source": "doit.com.cn",
-      "category": "竞品",
-      "published": "2026-09-08",
-      "body_snippet": "开源筑基构生态，GPUStack托举国产算力 doit.com.cn",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-007",
-      "title": "3d彩票平台app下载2026年Q1营收同比增45% 自研算力芯片‘沃洛’出货超百万片 - 体坛",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5sbWJVU2FSVXFYcXVtWGg3X3BQV3AxX2IyYnY2TjhNdC1XWnRBU1hYMkQxSTdfQm5TU2hzY3c2S3U0cndKNld3MWV3?oc=5",
-      "source": "体坛",
-      "category": "技术",
-      "published": "2026-09-08",
-      "body_snippet": "3d彩票平台app下载2026年Q1营收同比增45% 自研算力芯片‘沃洛’出货超百万片 体坛",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-008",
-      "title": "算力涨价潮影响与应对 一场席卷产业链的供需博弈 - chinanews.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53NkthWjBzdXF0c0NCcXFUZ2x4Q3d1WUowbGpVVXh5Y0prMExsWEJjZWVXaHFNNTMyNnA2T3lxQVYtcGhLNFVhNmpFTEJ6ODNMSGl3R0JCSkRmdTVhQjV1TC12bGtKenBJ?oc=5",
-      "source": "chinanews.com.cn",
-      "category": "技术",
-      "published": "2026-09-08",
-      "body_snippet": "算力涨价潮影响与应对 一场席卷产业链的供需博弈 chinanews.com.cn",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-009",
-      "title": "上海市人民政府办公厅关于印发《上海市进一步推进质量强市建设三年行动计划》的通知",
-      "url": "https://www.shanghai.gov.cn/nw12344/20260907/ceeb20cafc704f44892a90ec5d0d9a8b.html",
-      "source": "上海市政府-政策文件",
-      "published": "2026-09-07",
-      "body_snippet": "",
-      "category": "政策"
-    },
-    {
-      "id": "raw-010",
-      "title": "英伟达GPU租赁价格上调，海内外算力供需缺口持续扩大，科创100ETF博时(588030)跟踪指数涨超2% - 界面新闻",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBpczdEbkpkczBFTmRzaEJJYmxkeVlXNk5EX2NobEVON3phd0NBQVdIdVU5dkcyODFUY3YxbzI0Z0FGQ0V2enQyN28xX2otcEZqTkxlUnNGVFU?oc=5",
-      "source": "界面新闻",
-      "category": "技术",
-      "published": "2026-09-07",
-      "body_snippet": "英伟达GPU租赁价格上调，海内外算力供需缺口持续扩大，科创100ETF博时(588030)跟踪指数涨超2% 界面新闻",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-011",
-      "title": "大厂集体为AI找钱 传字节跳动将获2000亿贷款 - global.hk01.com",
-      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOamtRRUxaUTNQbWVRd3p0WDY4d3V5WnhpaDIxTVpuNWlETEY4RTQ3Y2hfVUgzcW5vaDBnTjdYc0s1ZDhsWE9UZHgtWDJESldXcHVZSHRIcENtd2c3VXBIRFpFVUpkMlVBZzJDdHVuczNkdWJkRl9iRG5oelRpa3BPYTlUajg4VGd2MXFPWWlERkVvZkk1NElSQW5CcVAxZDlxUTJWTlYyNFdJVklZUFlxRHRTNEk1NzVCNVRxdG93SktYaURHYzNZTFlkSFN0UDJPZFltTHlzdW5fME5JWFBwcFNvUkRoaW9PSXpQeTdvOXdDWENES3d6akFKQ3l2ZUVGYmRodEI1T3AzaUxFN2VXSVJpallZZGh1dHJYT1dCSUhEZkhFNjlUZHRLUU4yUXNvdkhoOUFTcW5yYjlwVzRfRktpSlR1aXhtWWtRNlFGdw?oc=5",
-      "source": "global.hk01.com",
-      "category": "竞品",
-      "published": "2026-09-04",
-      "body_snippet": "大厂集体为AI找钱 传字节跳动将获2000亿贷款 global.hk01.com",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-012",
-      "title": "月之暗面秘密递表港交所，正式启动IPO，500亿美元估值推进Pre-IPO融资 - 风闻",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHTmJLV2VEbmFiYW5PSzYwRnVBZTFkS3dTREh4WXBTYk9zajFtVHZKUVJVZHZlM1FROGs5c3FGVmJOOWtVQnpXbUlhLURxejlJQV9CTWxvcnhmZjNxbUI2dmw3cUV3ZThwcUlNaDZ3?oc=5",
-      "source": "风闻",
-      "category": "资本",
-      "published": "2026-09-03",
-      "body_snippet": "月之暗面秘密递表港交所，正式启动IPO，500亿美元估值推进Pre-IPO融资 风闻",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-013",
-      "title": "下午察：当AI模型算力被摆上电商货架 - zaobao.com.sg",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UMjg4dmZDSjNyOHJXX0xzUHlfV0NuUEllakxEbHZ0cWR3TVJHc3FqODhyZ19WVTU4eFRkMzhYNEt5WVV2Wl9fN3FmNGRraWEyVG40VHM0VU50dXNyN0NpeVdvS0tjdUFqVGc?oc=5",
-      "source": "zaobao.com.sg",
-      "category": "海外",
-      "published": "2026-09-03",
-      "body_snippet": "下午察：当AI模型算力被摆上电商货架 zaobao.com.sg",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-014",
-      "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
-      "url": "https://www.qbitai.com/2026/09/485784.html",
-      "source": "量子位",
-      "published": "2026-09-08",
+      "id": "raw-015",
+      "title": "关于《关于进一步加强高质量概念验证平台建设的行动方案（征求意见稿）》《上海市概念验证平台建设与服...",
+      "url": "https://stcsm.sh.gov.cn/zwgk/yjzjzx/yjzjzx/20260909/64599ccff99e47ca983d78a244f91b36.html",
+      "source": "上海市科委",
+      "published": "2026-09-09",
       "body_snippet": "",
       "category": "技术"
-    },
-    {
-      "id": "raw-015",
-      "title": "中国算力中心一半空置一半爆火：地方建设与AI企业需求错位 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZTk9Cank4N090WG9GR3pNOTlYMUVSN2VUVGZfVzFVV3RsYW50bmZEZHVpSkVDQ0tBUEs1RFVTQm50VVRnN2tuNjdpLXBYVjRIRjY3S2tjSjBSNU5xeVpv?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-09-08",
-      "body_snippet": "中国算力中心一半空置一半爆火：地方建设与AI企业需求错位 虎嗅网",
-      "_query_boost": 0
     }
   ]
 }

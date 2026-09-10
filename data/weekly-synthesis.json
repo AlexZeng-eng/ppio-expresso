@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-09T05:11:47.676Z",
-  "date": "2026-09-09",
-  "date_label": "2026-09-09",
+  "generated_at": "2026-09-10T05:14:04.365Z",
+  "date": "2026-09-10",
+  "date_label": "2026-09-10",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 2,
+    "🏛️": 1,
     "📜": 1,
-    "⚔️": 1,
-    "💰": 1,
-    "🌏": 0,
-    "🔬": 10
+    "⚔️": 0,
+    "💰": 0,
+    "🌏": 1,
+    "🔬": 7
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 4,
-    "competitor_heat": 3,
-    "capital_heat": 3,
-    "overseas_heat": 2,
+    "policy_heat": 3,
+    "competitor_heat": 2,
+    "capital_heat": 2,
+    "overseas_heat": 3,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
@@ -35,7 +35,7 @@
     },
     {
       "id": "2",
-      "title": "市公安局自主研发的“国家反诈AI”上线 ",
+      "title": "阶跃星辰 Archives - theb",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -43,18 +43,10 @@
     },
     {
       "id": "3",
-      "title": "上海市人民政府办公厅关于印发《上海市进一",
+      "title": "市公安局自主研发的“国家反诈AI”上线 ",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "4",
-      "title": "月之暗面秘密递表港交所，正式启动IPO，",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
       "axis_reason": "规则估算"
     }
   ],
@@ -62,11 +54,11 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 16,
-      "competitive_pressure": -6,
-      "capital_sentiment": 5,
+      "policy_tailwind": 8,
+      "competitive_pressure": 0,
+      "capital_sentiment": 0,
       "regulatory_risk": -5,
-      "overseas_headwind": 0
+      "overseas_headwind": -4
     },
     "interpretation": "规则估算，仅供参考"
   },
