@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-10T05:14:04.365Z",
-  "date": "2026-09-10",
-  "date_label": "2026-09-10",
+  "generated_at": "2026-09-11T05:13:02.964Z",
+  "date": "2026-09-11",
+  "date_label": "2026-09-11",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
-    "📜": 1,
+    "📜": 0,
     "⚔️": 0,
     "💰": 0,
     "🌏": 1,
@@ -35,15 +35,7 @@
     },
     {
       "id": "2",
-      "title": "阶跃星辰 Archives - theb",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "3",
-      "title": "市公安局自主研发的“国家反诈AI”上线 ",
+      "title": "2026世界人工智能大会即将开幕,具身智",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -57,7 +49,7 @@
       "policy_tailwind": 8,
       "competitive_pressure": 0,
       "capital_sentiment": 0,
-      "regulatory_risk": -5,
+      "regulatory_risk": 0,
       "overseas_headwind": -4
     },
     "interpretation": "规则估算，仅供参考"

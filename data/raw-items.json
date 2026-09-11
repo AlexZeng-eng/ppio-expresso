@@ -1,25 +1,34 @@
 {
-  "generated_at": "2026-09-10T05:14:04.234Z",
+  "generated_at": "2026-09-11T05:13:02.880Z",
   "week": "2026-W37",
   "date_range": {
-    "from": "2026-09-03",
-    "to": "2026-09-10"
+    "from": "2026-09-04",
+    "to": "2026-09-11"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - 新浪财经",
+      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - finance.sina.cn",
       "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxPa011Q0hldVZRdzZ2TnlJb19xSjNhVUFHeEY1enZNSDJiVUxtYVpwN3JsemN2U2xWbDc1RnVpY2dVbEk4SE41Q2RidUhFVENzbkk5UjVobXctOTh6NUVEZEpPaUtUVXl6SUpYV2VObUFFSkM2VTRycmUtOWNhM2x5MnIzVGJaWTZ2Y2o4WXZINWhpQzZPYlB6VFR0REJTSks3VmtOOVRVbVkta1FoYzU0SDlFMndUNzNQRmc0cDJGeU40bDlXWDJRQ1BNVmJnWERUT3JQTFhUSDJMRTZjMEJ4WXJLTElNeUpTb2pmMU80bU4wVlhuOGVlOEdFbnZWR2xxTmJLY3BScXNrUkU5RUpvd21KcF9FdjVtZXJ1VFZWcjBHTjF0MDd4b0U0aEpoRnQ1VWhBRlNEak9Ddmcxc3h2bHN6NUI4THhvUGFpWEpHODRHNlNSUGVUek9nc3FsZW9GLTN5NDRsY3g?oc=5",
-      "source": "新浪财经",
+      "source": "finance.sina.cn",
       "category": "政策",
       "published": "2026-09-07",
-      "body_snippet": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 新浪财经",
+      "body_snippet": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 finance.sina.cn",
       "_query_boost": 30
     },
     {
       "id": "raw-002",
+      "title": "陕西成功入选国家算力互联互通区域节点名单",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/dfdt/art/2026/art_3ebbb28e23204dd6965616913c6f7f6f.html",
+      "source": "工信部-新闻",
+      "published": "2026-09-11",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-003",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
@@ -29,7 +38,73 @@
       "_query_boost": 15
     },
     {
-      "id": "raw-003",
+      "id": "raw-004",
+      "title": "成都市举办第二期“六张网”规划建设政策解读与项目储备培训会 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5uc1I3OGhFc3NMRnBsT1dFaUpXVVlLX1habllWaFFhX0gxdWt0NkctMzNuTnE2WXNZd2V5cnAzUkQyOWt6bDNKb3gyRGdVYl9pVFQxVVVWTGxseWdDcXNQXzNWQ21yMEgwLXVYaUg4Rl9PbXdzaHc?oc=5",
+      "source": "新华网",
+      "category": "政策",
+      "published": "2026-09-11",
+      "body_snippet": "成都市举办第二期“六张网”规划建设政策解读与项目储备培训会 新华网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-005",
+      "title": "消息称微软计划未来 6 年将数据中心容量提升至 38GW，达当前 3 倍有余",
+      "url": "https://www.ithome.com/1/001/109.htm",
+      "source": "IT之家",
+      "published": "2026-09-11",
+      "body_snippet": "消息称微软 XGPU“每月 15 小时云游戏限制”新规为精心设计，系业务“盈亏平衡点” / GitHub 通报 8 月 17 日大规模宕机事件原因：基础设施容量未能跟上平台使用量的快速增长 / 全年 1900 亿美元资本支出预算仍不够：消息称微软面临整体算力吃紧",
+      "category": "技术"
+    },
+    {
+      "id": "raw-006",
+      "title": "2026世界人工智能大会即将开幕,具身智能成为最大看点 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VMllBNjlYVDJ3WUZMTXVDS092bVBvYTd6UTdwMzFnUjBFVXNrOGdoeFNVUlBsQkRMRGZ2X3dIYjRGV3MtZE1BQ0IzOW1ELWRoTjlVWFpFSFhPTFUzYXNyQ2ZOYXpzU0syQmFTNmZpMjY?oc=5",
+      "source": "新浪网",
+      "category": "政策",
+      "published": "2026-09-10",
+      "body_snippet": "2026世界人工智能大会即将开幕,具身智能成为最大看点 新浪网",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-007",
+      "title": "构建公正合理的全球人工智能治理体系丨新思想自习室 - 四川新闻",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zX01JZ3g3eDBFV0JjOWJRSGM0UmJuTDdORVB3WFBlNkg0QTZ6anVPeDdVUDBnbVhfaFdmTXNOWnZBa1hORHFVclpJUGUyZDRVZTMzdWZVVlpkUFlFd2tUSlZIaw?oc=5",
+      "source": "四川新闻",
+      "category": "政策",
+      "published": "2026-09-11",
+      "body_snippet": "构建公正合理的全球人工智能治理体系丨新思想自习室 四川新闻",
+      "_query_boost": 50
+    },
+    {
+      "id": "raw-008",
+      "title": "牢牢把握前沿科技发展机遇 持续推动技术突破和场景应用创新 朱忠明考察外滩大会展览",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260911/187224d6587b44a1a4eccf79ebca6483.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-11",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-009",
+      "title": "打造主流媒体系统性变革党报样本 解放日报发行工作座谈会举行 上观“智能体服务生态圈”启动",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260911/999f17ba8742444a94e126b87074a3b9.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-11",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-010",
+      "title": "布局生态环境保护全面系统性升级 多项新指标增强公众“体验感” 美丽上海：“十五五”首次做规划",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260911/bd7d7f100d5948679e6ebc64ff9125aa.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-11",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-011",
       "title": "中国算力“西进”，北部、西北部有望成为最大数据中心区域市场 - 潮起网",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5UcG1tZk5RLThpaTNfeDFFVUVCWEJkQ2dYTG96MFlRRU5UMHBaaXpFUHFZNy1jeF9NOEhsam15VEFEbk44dUU1QkMwY0x5WTNNM0RaQXhvcnZuOWdYTkFGbU13NA?oc=5",
       "source": "潮起网",
@@ -39,65 +114,7 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-004",
-      "title": "打造10万卡国产算力集群 推出JoyAI世界模型，京东发布物理AI建设最新成果 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4ySS02WHBSX1pjSS0yUEhSOXdzRVo0b3Q1NXpMTi04R21JVDh6U2o0bVRieDlING9rcFl3WWg0SEJVV1lTUXFZcHVjcHBheUpaYjlUeEduM1JDMDVNXzJpMHM5SFozbk5vM0YyRHk5UFdXWkNsMXc?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-09-09",
-      "body_snippet": "打造10万卡国产算力集群 推出JoyAI世界模型，京东发布物理AI建设最新成果 新浪财经",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-005",
-      "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rTXg0dFl2RUtFbkFoc3E0YXE5SmZnaGR0MGNIS3JRTVVjaU04Y21BWUN6Nk5KNU5iQ0pLV1JyN1M5RmNUcUtFM0J3MlptYklRS0JIMWVTUkh5anVtbzlFbHhULWhqbXMzclVmdHpHaVNCQQ?oc=5",
-      "source": "新浪网",
-      "category": "政策",
-      "published": "2026-09-08",
-      "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 新浪网",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-006",
-      "title": "中国银行推出“算力词元贷” 算力词元结算情况纳入授信参考 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mbHQzc1pLTlpxU3F2T3B0SVdOTVZBQVNyV0hXVUlkcHQ1YV9pbDkxSVFxVzFfczUzaXN5UWl2QTQ3VDZscWdPYWxtR29jblpoYzdrOUpOMGhkbHhxVlNfa0RPUnFKNGNSaEpRclln?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-09-04",
-      "body_snippet": "中国银行推出“算力词元贷” 算力词元结算情况纳入授信参考 新浪财经",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-007",
-      "title": "智慧安防技术赛项 比拼8项核心技能 本届世赛首次设立 反映产业发展趋势",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260910/f1e5d2d2ccc14739a1ab2b73b36cef9f.html",
-      "source": "上海市政府-动态",
-      "published": "2026-09-10",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-008",
-      "title": "拥有业态完整的金融中心和产业领先的AI高地 上海金融科技影响力辐射长三角、全国乃至世界 外滩大会描摹“AI新经济”全景图",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260910/982776fdd6f34e1b9b9861ecc8733203.html",
-      "source": "上海市政府-动态",
-      "published": "2026-09-10",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-009",
-      "title": "阶跃星辰 Archives - thebambooworks.com",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5NVlZ6d2lYcHZ4MklzZWpIeGdfaW9SVGdENHlWd01rNlVzTi11bXpma1JycjdyT0JrbHdrMFZZZWZLMm9XRnhZSXk5T05BWUk5RFYwMlhuZXZlZ0lkdE9WMElYZDdoaGNSTVNiVlR1c3JIeEVfdkxycGVtNA?oc=5",
-      "source": "thebambooworks.com",
-      "category": "资本",
-      "published": "2026-09-09",
-      "body_snippet": "阶跃星辰 Archives thebambooworks.com",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-010",
+      "id": "raw-012",
       "title": "美出口管制下英伟达芯片在中国黑市价格翻倍 - 朝鮮日報中文版",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT0hXNWJxbW90RTFrMnEyelZXTV9fenAtMG9nbEl6WnNGWlNCNmZwaUNfeDBtY243RU45blhGQzA3a1g4VGlmVzdzNFBTR2x6M25XbjhkWXBSOEktT1lJc2pWRzBjdXU0ZjNoSFFHLUxhQUVCMUZRUWtydVpaU25vNVFkcl8wUnVZYVMxYWNyZUYwUU1DTjJZUVpNakJtc00x?oc=5",
       "source": "朝鮮日報中文版",
@@ -107,49 +124,31 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-011",
-      "title": "美指中企蒸馏AI模型 中国商务部：动用国家力量维护科技霸权算力垄断 - zaobao.com.sg",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16WGZPa3l3c3JXWmNCSDNISVZObldoOHJmbzdKc0M1QXBNd2N0OG9Ybjk3MFdTQml1YVUxdHNoWUduM2pkQ25kUS1iT2ljcjhJTjJsVHRuNUp1dGlVNzItcV9mODhJM0RqQ2c?oc=5",
-      "source": "zaobao.com.sg",
-      "category": "海外",
-      "published": "2026-09-09",
-      "body_snippet": "美指中企蒸馏AI模型 中国商务部：动用国家力量维护科技霸权算力垄断 zaobao.com.sg",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-012",
-      "title": "从智能工厂看“六张网”建设（经济聚焦·“六张网”这样建） - 人民日报",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbWJwWGpFX0NaRUNLeE14aFlIRENkWUd3SnAxSExVYkptVHV1OVNOTXdJRFlKWWxwMTlIX1hkVkQxcm9FN3JFcGRfSmdrbjRZWEVBTzhsZ1c0aWhpSUdFeEFRa3NpREVzd1d6N0pVRFVFQ0hGN08xbS1MUFF1dFdiSw?oc=5",
-      "source": "人民日报",
-      "category": "政策",
-      "published": "2026-09-04",
-      "body_snippet": "从智能工厂看“六张网”建设（经济聚焦·“六张网”这样建） 人民日报",
-      "_query_boost": 0
-    },
-    {
       "id": "raw-013",
-      "title": "耀雪冰雪世界4项雪道获国际认证 “冷资源”成“热经济” 冰雪产业迈向新高度",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260909/96491198e3e648b9bd1aef2bcbfc82aa.html",
-      "source": "上海市政府-动态",
-      "published": "2026-09-09",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - finance.sina.cn",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMTJHSzF3b0dBajc4WldyZGloSzQta0hfa1Q1LW5CM2xqdzFzazdwOVptYTRCRE9CTlpxUEFZbXp5MklCbWlkcTE2bFVBM3lzbVI5MGtpNXJ5Q2NDSWdYYmxTOTR2UmJtMXlDRi1NY3hZRlAzVlV4bHhjTDZqOG10Ql9WMXJNRkU?oc=5",
+      "source": "finance.sina.cn",
+      "category": "政策",
+      "published": "2026-09-05",
+      "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 finance.sina.cn",
+      "_query_boost": 25
     },
     {
       "id": "raw-014",
-      "title": "市公安局自主研发的“国家反诈AI”上线 拆解诈骗手法、提供防范对策 “803反诈”上海方案走向全国",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260909/d20d519c890d46698157793846200dd2.html",
-      "source": "上海市政府-动态",
-      "published": "2026-09-09",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "乌兰察布算力产业崛起：5000亿元投资背后的能源与机制优势 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE13UWRTd0U3bUN6ZnR5Y1RxYjEwWENjSllON3hsajVrV0EtN2ExRmlSMGxWaUhWLV9LZVFCbUY2aS1zNFJuU1VhZVNDY3VXQTlKNVEyMl82ZzZjWXNrckJn?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-09-10",
+      "body_snippet": "乌兰察布算力产业崛起：5000亿元投资背后的能源与机制优势 虎嗅网",
+      "_query_boost": 0
     },
     {
       "id": "raw-015",
-      "title": "关于《关于进一步加强高质量概念验证平台建设的行动方案（征求意见稿）》《上海市概念验证平台建设与服...",
-      "url": "https://stcsm.sh.gov.cn/zwgk/yjzjzx/yjzjzx/20260909/64599ccff99e47ca983d78a244f91b36.html",
-      "source": "上海市科委",
-      "published": "2026-09-09",
+      "title": "智慧安防技术赛项 比拼8项核心技能 本届世赛首次设立 反映产业发展趋势",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260910/f1e5d2d2ccc14739a1ab2b73b36cef9f.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-10",
       "body_snippet": "",
       "category": "技术"
     }
