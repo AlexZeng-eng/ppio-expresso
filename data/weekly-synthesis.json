@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-11T05:13:02.964Z",
-  "date": "2026-09-11",
-  "date_label": "2026-09-11",
+  "generated_at": "2026-09-12T05:00:18.269Z",
+  "date": "2026-09-12",
+  "date_label": "2026-09-12",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
     "📜": 0,
     "⚔️": 0,
     "💰": 0,
-    "🌏": 1,
-    "🔬": 7
+    "🌏": 0,
+    "🔬": 9
   },
   "speed_read": {
     "positive": [],
@@ -19,7 +19,7 @@
     "policy_heat": 3,
     "competitor_heat": 2,
     "capital_heat": 2,
-    "overseas_heat": 3,
+    "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
@@ -50,7 +50,7 @@
       "competitive_pressure": 0,
       "capital_sentiment": 0,
       "regulatory_risk": 0,
-      "overseas_headwind": -4
+      "overseas_headwind": 0
     },
     "interpretation": "规则估算，仅供参考"
   },

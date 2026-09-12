@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-11T05:13:02.935Z",
-  "week": "2026-W37",
+  "generated_at": "2026-09-12T05:00:18.166Z",
+  "week": "2026-W38",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 9,
+  "total_curated": 10,
   "attend_count": 2,
-  "silent_count": 7,
+  "silent_count": 8,
   "items": [
     {
       "id": "raw-001",
-      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - finance.sina.cn",
-      "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxPa011Q0hldVZRdzZ2TnlJb19xSjNhVUFHeEY1enZNSDJiVUxtYVpwN3JsemN2U2xWbDc1RnVpY2dVbEk4SE41Q2RidUhFVENzbkk5UjVobXctOTh6NUVEZEpPaUtUVXl6SUpYV2VObUFFSkM2VTRycmUtOWNhM2x5MnIzVGJaWTZ2Y2o4WXZINWhpQzZPYlB6VFR0REJTSks3VmtOOVRVbVkta1FoYzU0SDlFMndUNzNQRmc0cDJGeU40bDlXWDJRQ1BNVmJnWERUT3JQTFhUSDJMRTZjMEJ4WXJLTElNeUpTb2pmMU80bU4wVlhuOGVlOEdFbnZWR2xxTmJLY3BScXNrUkU5RUpvd21KcF9FdjVtZXJ1VFZWcjBHTjF0MDd4b0U0aEpoRnQ1VWhBRlNEak9Ddmcxc3h2bHN6NUI4THhvUGFpWEpHODRHNlNSUGVUek9nc3FsZW9GLTN5NDRsY3g?oc=5",
-      "source": "finance.sina.cn",
+      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi2AVBVV95cUxOQjFsMGhSV2ZUX2dabGpSUHNhcXNQdGRCeXBzYWFPYkRfQ1lOSDB6S2VmQjQ5dGlyVkdIX0FYY2FrU2RUYWpfdGI1bHNpc1FtM2dLWkVRbFZHOVpKaDFTZTVDaGJwX3JCSzlaMkJtcGduc3FZYThrcHhTaEI5dmt6eG9vUlR2c3VMZmVoeTQxcDlZOHh4WmhxOVFvRGVkX2FEUXFVVzJZQUdDdml6ZzNSc29oRjJzRV9MaWNrRlEwQkJGUmxwQWpXMUdKdEo0aDJoVW9yeXdSSldHWXgwY3FkRzRUOF82cjAwNlZvbnpCYWdra2NFRkhJeDdjbVpiM18xb1JLbVhza2l3Q1NhTUhLTnFvellSM0ZxODc3djEyTXdoWDhOVFIyakpIUVE1d0cyMThGVk1jN1ozS1pNU3JzNVc2eDJUTzIxc2phQmpMYjk2MWhicUt0OG9peU1mNFI5aERXQkdKSG9wd2hLd0NyMEJKclVsV0JfaURfR1pDaTVxbWlpa2NKVV85Z1VqNWxNUjBsNXpydHRaNXdmVmc4Z3hSR2IxbEZteFdrcGhwUmdrQkFnRTAxbElTT0s0Wi04bzRFd216OWlsV05qR25GLWFGNWtXMUpPdmM3dVBXVXp0RlE5RWxzQlh6cjVwamVnaVBYMklaelVpaktHYVhNTkxhZmRwMllvRHJUbXJZWGx5ZEJ5bGxLa09lMGVFUVF1aHFKU2pmLVJJTC1yRlp6LTRiVl9iOXlSbzUzNHJnYXpwSzhScjdRMXc0LWZhNXRZQVVlNzREb0ZhNTFYcmVWblJLakxpaWtpa29LLVBKY1kxaWp0Q3JTQ1BYakJOTnBEZDNQOHB1RFU5OW9CZzkwdFJ5OUwybjM2bXVjeUtuQV9pVHRWOHQ3WXk1cFR5a19tRVc5UV85TXl6ZXlLWjQxUEREa2JXcDFEbm03NlFRbEplQmRTSUFrbQ?oc=5",
+      "source": "新浪财经",
       "category": "政策",
       "published": "2026-09-07",
-      "body_snippet": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 finance.sina.cn",
+      "body_snippet": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 新浪财经",
       "_query_boost": 30,
       "lane": "attend",
       "signals": [
@@ -27,7 +27,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - finance.sina.cn 国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 finance.sina.cn",
+      "summary_cn": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - 新浪财经 国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 新浪财经",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -37,13 +37,14 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-002",
-      "title": "陕西成功入选国家算力互联互通区域节点名单",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/dfdt/art/2026/art_3ebbb28e23204dd6965616913c6f7f6f.html",
-      "source": "工信部-新闻",
-      "published": "2026-09-11",
-      "body_snippet": "",
-      "category": "技术",
+      "id": "raw-003",
+      "title": "全国产算力筑基，开·云平台以自主可控撑起大模型“中国脊梁” - 体坛加",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBhQTlBQ2hhU3VZczgxWkxVOXlTS0F6NFEtM3FpTl90eF9HSWNIRTVVdmp1VUM0QjZ1Z0EwLXBJQmgyQXZHaUxSRlBlell1R0t0?oc=5",
+      "source": "体坛加",
+      "category": "政策",
+      "published": "2026-09-10",
+      "body_snippet": "全国产算力筑基，开·云平台以自主可控撑起大模型“中国脊梁” 体坛加",
+      "_query_boost": 25,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -54,12 +55,35 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "陕西成功入选国家算力互联互通区域节点名单 ",
+      "summary_cn": "全国产算力筑基，开·云平台以自主可控撑起大模型“中国脊梁” - 体坛加 全国产算力筑基，开·云平台以自主可控撑起大模型“中国脊梁” 体坛加",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-003",
+      "id": "raw-004",
+      "title": "让水风光带来澎湃绿色算力 探寻算电协同四川实践 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YYWVFYUp2Q0FoYUFNR29uUlp1Q2tDaVRBSG9XaWViQ1dRcG5TYzBZemFSOEVDY0s5ZWxTczdwZElodEl1ZUhoNUJJdkdiNklkOXJVTnZSU2FHZ1BsaGs1LVIzSGktWHlVU2l3R2xB?oc=5",
+      "source": "中华网",
+      "category": "政策",
+      "published": "2026-09-12",
+      "body_snippet": "让水风光带来澎湃绿色算力 探寻算电协同四川实践 中华网",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "让水风光带来澎湃绿色算力 探寻算电协同四川实践 - 中华网 让水风光带来澎湃绿色算力 探寻算电协同四川实践 中华网",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
@@ -82,13 +106,14 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
-      "title": "消息称微软计划未来 6 年将数据中心容量提升至 38GW，达当前 3 倍有余",
-      "url": "https://www.ithome.com/1/001/109.htm",
-      "source": "IT之家",
-      "published": "2026-09-11",
-      "body_snippet": "消息称微软 XGPU“每月 15 小时云游戏限制”新规为精心设计，系业务“盈亏平衡点” / GitHub 通报 8 月 17 日大规模宕机事件原因：基础设施容量未能跟上平台使用量的快速增长 / 全年 1900 亿美元资本支出预算仍不够：消息称微软面临整体算力吃紧",
-      "category": "技术",
+      "id": "raw-006",
+      "title": "聚焦算力等四大赛道 中国联通集中发布九大创新成果 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1HZkNNbGNOUjFzRE1MUUVVMHY0eEJ1bF9NbnhFb0xqMVZWa3pLVWFXMzExUE9aZVF0b3RWT1VmZlEyOFRzbmlQSlphRGF4Snp0QnVocTN1REl5VDMtWGQxbkJwQXAxR3JKNVd6MzRpT0lpeDZ6bmcxMg?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-09-12",
+      "body_snippet": "聚焦算力等四大赛道 中国联通集中发布九大创新成果 新浪财经",
+      "_query_boost": 20,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -99,12 +124,58 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "消息称微软计划未来 6 年将数据中心容量提升至 38GW，达当前 3 倍有余 消息称微软 XGPU“每月 15 小时云游戏限制”新规为精心设计，系业务“盈亏平衡",
+      "summary_cn": "聚焦算力等四大赛道 中国联通集中发布九大创新成果 - 新浪财经 聚焦算力等四大赛道 中国联通集中发布九大创新成果 新浪财经",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
+      "id": "raw-007",
+      "title": "“向智同行 连接算力新生态”——2026中国联通合作伙伴大会在沪举办 - 上海市经济和信息化委员会",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOX19PZHZQUS1hNDh3MVJ3RVByUUVmQV9QTjEyeTNaalJield0aVowVDl1TjRyMWp2NmpnZnN4UHVYbHF3UjROa0FoUDRQakE3bU1sTE1oQWl4eFBPSDZQMXh2WHl0QWFSS09TXzdHWDR6MG5FTGcxeS1jLUd6ZU1KbXcyMlp5azA?oc=5",
+      "source": "上海市经济和信息化委员会",
+      "category": "政策",
+      "published": "2026-09-11",
+      "body_snippet": "“向智同行 连接算力新生态”——2026中国联通合作伙伴大会在沪举办 上海市经济和信息化委员会",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "“向智同行 连接算力新生态”——2026中国联通合作伙伴大会在沪举办 - 上海市经济和信息化委员会 “向智同行 连接算力新生态”——2026中国联通合作伙伴大会",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-008",
+      "title": "守正筑基，繁荣算力和人工智能新生态丨2026中国联通合作伙伴大会 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGeEVDV0h6TjNmQmlJZkwxRE5TZW40UG1XS2JZbDljWkRWTkRDUE5Ed25aUzFjQnV4ZmVQS3M3cmFTUDdSbV9iVmJmQ0FOanNDcTZDakRYazAwV3dITWVDQkhWUjlJMnB1MnhVZ3hpcFc1TTN4RGczeGd5bk42T00?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-09-11",
+      "body_snippet": "守正筑基，繁荣算力和人工智能新生态丨2026中国联通合作伙伴大会 新浪财经",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "守正筑基，繁荣算力和人工智能新生态丨2026中国联通合作伙伴大会 - 新浪财经 守正筑基，繁荣算力和人工智能新生态丨2026中国联通合作伙伴大会 新浪财经",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
       "title": "2026世界人工智能大会即将开幕,具身智能成为最大看点 - 新浪网",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VMllBNjlYVDJ3WUZMTXVDS092bVBvYTd6UTdwMzFnUjBFVXNrOGdoeFNVUlBsQkRMRGZ2X3dIYjRGV3MtZE1BQ0IzOW1ELWRoTjlVWFpFSFhPTFUzYXNyQ2ZOYXpzU0syQmFTNmZpMjY?oc=5",
       "source": "新浪网",
@@ -132,7 +203,30 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-011",
+      "id": "raw-014",
+      "title": "加速迈向世界级科技创新策源地！长三角AI4S算力集群启用，静安区科学智能生态社区同步揭牌 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE05WEJDRHFBZ1N0WlZBTWVCcEU0cU1LdnhaVzdBLUVQZ0dySC1QbG10NTBDbXl5UXJQYTMzTFJ4NlNmSlNuV0ZCZXFIdVBfQnVZTHlsUHNLa0o?oc=5",
+      "source": "上观新闻",
+      "category": "政策",
+      "published": "2026-09-11",
+      "body_snippet": "加速迈向世界级科技创新策源地！长三角AI4S算力集群启用，静安区科学智能生态社区同步揭牌 上观新闻",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "加速迈向世界级科技创新策源地！长三角AI4S算力集群启用，静安区科学智能生态社区同步揭牌 - 上观新闻 加速迈向世界级科技创新策源地！长三角AI4S算力集群启用",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-015",
       "title": "中国算力“西进”，北部、西北部有望成为最大数据中心区域市场 - 潮起网",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5UcG1tZk5RLThpaTNfeDFFVUVCWEJkQ2dYTG96MFlRRU5UMHBaaXpFUHFZNy1jeF9NOEhsam15VEFEbk44dUU1QkMwY0x5WTNNM0RaQXhvcnZuOWdYTkFGbU13NA?oc=5",
       "source": "潮起网",
@@ -151,75 +245,6 @@
         "c3"
       ],
       "summary_cn": "中国算力“西进”，北部、西北部有望成为最大数据中心区域市场 - 潮起网 中国算力“西进”，北部、西北部有望成为最大数据中心区域市场 潮起网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "美出口管制下英伟达芯片在中国黑市价格翻倍 - 朝鮮日報中文版",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT0hXNWJxbW90RTFrMnEyelZXTV9fenAtMG9nbEl6WnNGWlNCNmZwaUNfeDBtY243RU45blhGQzA3a1g4VGlmVzdzNFBTR2x6M25XbjhkWXBSOEktT1lJc2pWRzBjdXU0ZjNoSFFHLUxhQUVCMUZRUWtydVpaU25vNVFkcl8wUnVZYVMxYWNyZUYwUU1DTjJZUVpNakJtc00x?oc=5",
-      "source": "朝鮮日報中文版",
-      "category": "海外",
-      "published": "2026-09-09",
-      "body_snippet": "美出口管制下英伟达芯片在中国黑市价格翻倍 朝鮮日報中文版",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🌏"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "美出口管制下英伟达芯片在中国黑市价格翻倍 - 朝鮮日報中文版 美出口管制下英伟达芯片在中国黑市价格翻倍 朝鮮日報中文版",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-013",
-      "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - finance.sina.cn",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMTJHSzF3b0dBajc4WldyZGloSzQta0hfa1Q1LW5CM2xqdzFzazdwOVptYTRCRE9CTlpxUEFZbXp5MklCbWlkcTE2bFVBM3lzbVI5MGtpNXJ5Q2NDSWdYYmxTOTR2UmJtMXlDRi1NY3hZRlAzVlV4bHhjTDZqOG10Ql9WMXJNRkU?oc=5",
-      "source": "finance.sina.cn",
-      "category": "政策",
-      "published": "2026-09-05",
-      "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 finance.sina.cn",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - finance.sina.cn 燧原科技携手合作伙伴发布三大成果，国产算力进入“更",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-014",
-      "title": "乌兰察布算力产业崛起：5000亿元投资背后的能源与机制优势 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE13UWRTd0U3bUN6ZnR5Y1RxYjEwWENjSllON3hsajVrV0EtN2ExRmlSMGxWaUhWLV9LZVFCbUY2aS1zNFJuU1VhZVNDY3VXQTlKNVEyMl82ZzZjWXNrckJn?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-09-10",
-      "body_snippet": "乌兰察布算力产业崛起：5000亿元投资背后的能源与机制优势 虎嗅网",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "乌兰察布算力产业崛起：5000亿元投资背后的能源与机制优势 - 虎嗅网 乌兰察布算力产业崛起：5000亿元投资背后的能源与机制优势 虎嗅网",
       "ppio_signal": null,
       "_classified_by": "rule"
     }
