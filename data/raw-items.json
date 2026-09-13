@@ -1,55 +1,73 @@
 {
-  "generated_at": "2026-09-12T05:00:18.078Z",
+  "generated_at": "2026-09-13T05:21:46.375Z",
   "week": "2026-W38",
   "date_range": {
-    "from": "2026-09-05",
-    "to": "2026-09-12"
+    "from": "2026-09-06",
+    "to": "2026-09-13"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - 新浪财经",
+      "title": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 - finance.sina.cn",
       "url": "https://news.google.com/rss/articles/CBMi2AVBVV95cUxOQjFsMGhSV2ZUX2dabGpSUHNhcXNQdGRCeXBzYWFPYkRfQ1lOSDB6S2VmQjQ5dGlyVkdIX0FYY2FrU2RUYWpfdGI1bHNpc1FtM2dLWkVRbFZHOVpKaDFTZTVDaGJwX3JCSzlaMkJtcGduc3FZYThrcHhTaEI5dmt6eG9vUlR2c3VMZmVoeTQxcDlZOHh4WmhxOVFvRGVkX2FEUXFVVzJZQUdDdml6ZzNSc29oRjJzRV9MaWNrRlEwQkJGUmxwQWpXMUdKdEo0aDJoVW9yeXdSSldHWXgwY3FkRzRUOF82cjAwNlZvbnpCYWdra2NFRkhJeDdjbVpiM18xb1JLbVhza2l3Q1NhTUhLTnFvellSM0ZxODc3djEyTXdoWDhOVFIyakpIUVE1d0cyMThGVk1jN1ozS1pNU3JzNVc2eDJUTzIxc2phQmpMYjk2MWhicUt0OG9peU1mNFI5aERXQkdKSG9wd2hLd0NyMEJKclVsV0JfaURfR1pDaTVxbWlpa2NKVV85Z1VqNWxNUjBsNXpydHRaNXdmVmc4Z3hSR2IxbEZteFdrcGhwUmdrQkFnRTAxbElTT0s0Wi04bzRFd216OWlsV05qR25GLWFGNWtXMUpPdmM3dVBXVXp0RlE5RWxzQlh6cjVwamVnaVBYMklaelVpaktHYVhNTkxhZmRwMllvRHJUbXJZWGx5ZEJ5bGxLa09lMGVFUVF1aHFKU2pmLVJJTC1yRlp6LTRiVl9iOXlSbzUzNHJnYXpwSzhScjdRMXc0LWZhNXRZQVVlNzREb0ZhNTFYcmVWblJLakxpaWtpa29LLVBKY1kxaWp0Q3JTQ1BYakJOTnBEZDNQOHB1RFU5OW9CZzkwdFJ5OUwybjM2bXVjeUtuQV9pVHRWOHQ3WXk1cFR5a19tRVc5UV85TXl6ZXlLWjQxUEREa2JXcDFEbm03NlFRbEplQmRTSUFrbQ?oc=5",
-      "source": "新浪财经",
+      "source": "finance.sina.cn",
       "category": "政策",
       "published": "2026-09-07",
-      "body_snippet": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 新浪财经",
+      "body_snippet": "国务院重磅部署！算力网通信网加速构建，2030年数字经济核心产业占比目标曝光 finance.sina.cn",
       "_query_boost": 30
     },
     {
       "id": "raw-002",
-      "title": "天工人巧物华新——习近平总书记指引网信领域新质生产力发展述评 - 习近平系列重要讲话数据库",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0wZkw3bkMtUFVoV1h0cjFMWGRIMk5oNURNX0Y1b2JCVmlab3lyT1gtQ3NFXzV5RF9HWUlQMXcySWRnWVRCN0w0M0VxaElEMHRG?oc=5",
-      "source": "习近平系列重要讲话数据库",
-      "category": "政策",
-      "published": "2026-09-07",
-      "body_snippet": "天工人巧物华新——习近平总书记指引网信领域新质生产力发展述评 习近平系列重要讲话数据库",
-      "_query_boost": 40
+      "title": "陕西成功入选国家算力互联互通区域节点名单",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/dfdt/art/2026/art_3ebbb28e23204dd6965616913c6f7f6f.html",
+      "source": "工信部-新闻",
+      "published": "2026-09-13",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-003",
-      "title": "全国产算力筑基，开·云平台以自主可控撑起大模型“中国脊梁” - 体坛加",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBhQTlBQ2hhU3VZczgxWkxVOXlTS0F6NFEtM3FpTl90eF9HSWNIRTVVdmp1VUM0QjZ1Z0EwLXBJQmgyQXZHaUxSRlBlell1R0t0?oc=5",
-      "source": "体坛加",
-      "category": "政策",
-      "published": "2026-09-10",
-      "body_snippet": "全国产算力筑基，开·云平台以自主可控撑起大模型“中国脊梁” 体坛加",
-      "_query_boost": 25
+      "title": "长三角AI4S算力集群在沪启用",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260913/cf55aaa7da3b478cb0af1a944188b1b0.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-13",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-004",
-      "title": "让水风光带来澎湃绿色算力 探寻算电协同四川实践 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YYWVFYUp2Q0FoYUFNR29uUlp1Q2tDaVRBSG9XaWViQ1dRcG5TYzBZemFSOEVDY0s5ZWxTczdwZElodEl1ZUhoNUJJdkdiNklkOXJVTnZSU2FHZ1BsaGs1LVIzSGktWHlVU2l3R2xB?oc=5",
-      "source": "中华网",
+      "title": "2026中国算力大会｜中国电信总经理刘桂清：算网协同筑新基智惠赋能启新程-AI云资讯 - icloudnews.net",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tdGp3Mm56M3FUWWxwWWlRclRsV01FdW9sVkdfQ18wUWNWLW5FbUFxSkI1MEVYTkI1djlLZ003clg1azJVSWZoUGg4elFyS0JEeGc?oc=5",
+      "source": "icloudnews.net",
       "category": "政策",
-      "published": "2026-09-12",
-      "body_snippet": "让水风光带来澎湃绿色算力 探寻算电协同四川实践 中华网",
+      "published": "2026-09-13",
+      "body_snippet": "2026中国算力大会｜中国电信总经理刘桂清：算网协同筑新基智惠赋能启新程-AI云资讯 icloudnews.net",
       "_query_boost": 25
     },
     {
       "id": "raw-005",
+      "title": "中国移动参加2026中国算力大会 - cctime.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBZQy14Mk15M0k0eU14SWU4SU1fT0x4SmtLeGlfQ0c0OGtMc1Z5R29rUFJfYzAxSGZLWmtucWxkOGRMQlh3WkY3bmg5a1lMekxfbDNHMTRyRGo2S1Mz?oc=5",
+      "source": "cctime.com",
+      "category": "政策",
+      "published": "2026-09-12",
+      "body_snippet": "中国移动参加2026中国算力大会 cctime.com",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-006",
+      "title": "全国一张网，新一轮城市算力“卡位战”打响 - 每日经济新闻",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KSnE0bG9HX0VrbEM5cmZlWVBKSHRldzJEWHBZNi1pNkZ6bTN0alhlUk1LYm1VUklpRzg4NjVRUlBhRnJYTlRmOFNRSkFtSXR0ajI0UVFXeHFLWVg1aE4wVzlPYno2dw?oc=5",
+      "source": "每日经济新闻",
+      "category": "政策",
+      "published": "2026-09-12",
+      "body_snippet": "全国一张网，新一轮城市算力“卡位战”打响 每日经济新闻",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-007",
       "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
       "source": "财联社",
@@ -59,17 +77,37 @@
       "_query_boost": 15
     },
     {
-      "id": "raw-006",
-      "title": "聚焦算力等四大赛道 中国联通集中发布九大创新成果 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1HZkNNbGNOUjFzRE1MUUVVMHY0eEJ1bF9NbnhFb0xqMVZWa3pLVWFXMzExUE9aZVF0b3RWT1VmZlEyOFRzbmlQSlphRGF4Snp0QnVocTN1REl5VDMtWGQxbkJwQXAxR3JKNVd6MzRpT0lpeDZ6bmcxMg?oc=5",
-      "source": "新浪财经",
+      "id": "raw-008",
+      "title": "全国产算力筑基，开·云平台以自主可控撑起大模型“中国脊梁” - 体坛加",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBhQTlBQ2hhU3VZczgxWkxVOXlTS0F6NFEtM3FpTl90eF9HSWNIRTVVdmp1VUM0QjZ1Z0EwLXBJQmgyQXZHaUxSRlBlell1R0t0?oc=5",
+      "source": "体坛加",
       "category": "政策",
-      "published": "2026-09-12",
-      "body_snippet": "聚焦算力等四大赛道 中国联通集中发布九大创新成果 新浪财经",
-      "_query_boost": 20
+      "published": "2026-09-10",
+      "body_snippet": "全国产算力筑基，开·云平台以自主可控撑起大模型“中国脊梁” 体坛加",
+      "_query_boost": 25
     },
     {
-      "id": "raw-007",
+      "id": "raw-009",
+      "title": "让水风光带来澎湃绿色算力 探寻算电协同四川实践 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YYWVFYUp2Q0FoYUFNR29uUlp1Q2tDaVRBSG9XaWViQ1dRcG5TYzBZemFSOEVDY0s5ZWxTczdwZElodEl1ZUhoNUJJdkdiNklkOXJVTnZSU2FHZ1BsaGs1LVIzSGktWHlVU2l3R2xB?oc=5",
+      "source": "中华网",
+      "category": "政策",
+      "published": "2026-09-12",
+      "body_snippet": "让水风光带来澎湃绿色算力 探寻算电协同四川实践 中华网",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-010",
+      "title": "全国一张网，新一轮城市算力“卡位战”打响 - mrjjxw.com",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HVHhQVkNvd1ZfUUtvSlJMcVhac2FzQXR0NTAtZHEtOEhWQ0J5cW1wSTBodWtpVDVKTzdjbWdRU3QxNWdYeERzQTNIaVNwU2RrTF9PTjR5YTB1VmMzcmI2b1UtZzhMZw?oc=5",
+      "source": "mrjjxw.com",
+      "category": "政策",
+      "published": "2026-09-12",
+      "body_snippet": "全国一张网，新一轮城市算力“卡位战”打响 mrjjxw.com",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-011",
       "title": "“向智同行 连接算力新生态”——2026中国联通合作伙伴大会在沪举办 - 上海市经济和信息化委员会",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOX19PZHZQUS1hNDh3MVJ3RVByUUVmQV9QTjEyeTNaalJield0aVowVDl1TjRyMWp2NmpnZnN4UHVYbHF3UjROa0FoUDRQakE3bU1sTE1oQWl4eFBPSDZQMXh2WHl0QWFSS09TXzdHWDR6MG5FTGcxeS1jLUd6ZU1KbXcyMlp5azA?oc=5",
       "source": "上海市经济和信息化委员会",
@@ -79,17 +117,17 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-008",
-      "title": "守正筑基，繁荣算力和人工智能新生态丨2026中国联通合作伙伴大会 - 新浪财经",
+      "id": "raw-012",
+      "title": "守正筑基，繁荣算力和人工智能新生态丨2026中国联通合作伙伴大会 - finance.sina.com.cn",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGeEVDV0h6TjNmQmlJZkwxRE5TZW40UG1XS2JZbDljWkRWTkRDUE5Ed25aUzFjQnV4ZmVQS3M3cmFTUDdSbV9iVmJmQ0FOanNDcTZDakRYazAwV3dITWVDQkhWUjlJMnB1MnhVZ3hpcFc1TTN4RGczeGd5bk42T00?oc=5",
-      "source": "新浪财经",
+      "source": "finance.sina.com.cn",
       "category": "政策",
       "published": "2026-09-11",
-      "body_snippet": "守正筑基，繁荣算力和人工智能新生态丨2026中国联通合作伙伴大会 新浪财经",
+      "body_snippet": "守正筑基，繁荣算力和人工智能新生态丨2026中国联通合作伙伴大会 finance.sina.com.cn",
       "_query_boost": 25
     },
     {
-      "id": "raw-009",
+      "id": "raw-013",
       "title": "聚力“六张网”建设，五矿二十三冶激活 高质量发展新动能 - 新华网",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMUV0Z2NxcFQwV0xocTRydGo0bW82SXNQYUFKanJjemRrcGd3UjBLdjVuRGJkY1piZ3Z0cFJZQlQ1b2N5dkJfam14di02ZmJIRkZienE4dS1tWHdHLXBFSUZtZjFzcl9KU0l5N1YwdUVRWlNnSmw5RXk5MnZrOHRIbg?oc=5",
       "source": "新华网",
@@ -99,61 +137,22 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-010",
-      "title": "2026世界人工智能大会即将开幕,具身智能成为最大看点 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VMllBNjlYVDJ3WUZMTXVDS092bVBvYTd6UTdwMzFnUjBFVXNrOGdoeFNVUlBsQkRMRGZ2X3dIYjRGV3MtZE1BQ0IzOW1ELWRoTjlVWFpFSFhPTFUzYXNyQ2ZOYXpzU0syQmFTNmZpMjY?oc=5",
-      "source": "新浪网",
-      "category": "政策",
-      "published": "2026-09-10",
-      "body_snippet": "2026世界人工智能大会即将开幕,具身智能成为最大看点 新浪网",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-011",
-      "title": "加快向全球顶尖的人工智能学院进发！陈吉宁调研上海创智学院",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260912/4ca01ba1e8aa412faf1a9d374e84ffe7.html",
-      "source": "上海市政府-动态",
-      "published": "2026-09-12",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-012",
-      "title": "上海综合科创水平保持全国第一 沪苏浙皖区域整体创新实力不断壮大",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260912/45a49d0861494af99e0c6084d61d6a74.html",
-      "source": "上海市政府-动态",
-      "published": "2026-09-12",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-013",
-      "title": "“一带一路”高峰论坛在港举行 沪企参会规模进一步扩大 产业与市场加速对接",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260912/dee7cc0e52ea4cb3baabba53519209fe.html",
-      "source": "上海市政府-动态",
-      "published": "2026-09-12",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
       "id": "raw-014",
-      "title": "加速迈向世界级科技创新策源地！长三角AI4S算力集群启用，静安区科学智能生态社区同步揭牌 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE05WEJDRHFBZ1N0WlZBTWVCcEU0cU1LdnhaVzdBLUVQZ0dySC1QbG10NTBDbXl5UXJQYTMzTFJ4NlNmSlNuV0ZCZXFIdVBfQnVZTHlsUHNLa0o?oc=5",
-      "source": "上观新闻",
-      "category": "政策",
-      "published": "2026-09-11",
-      "body_snippet": "加速迈向世界级科技创新策源地！长三角AI4S算力集群启用，静安区科学智能生态社区同步揭牌 上观新闻",
-      "_query_boost": 20
+      "title": "深化开放合作推动构建全球科技共同体 2026浦江创新论坛开幕",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260913/a830551c339c4e90bef27203ccbd8f39.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-13",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-015",
-      "title": "中国算力“西进”，北部、西北部有望成为最大数据中心区域市场 - 潮起网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5UcG1tZk5RLThpaTNfeDFFVUVCWEJkQ2dYTG96MFlRRU5UMHBaaXpFUHFZNy1jeF9NOEhsam15VEFEbk44dUU1QkMwY0x5WTNNM0RaQXhvcnZuOWdYTkFGbU13NA?oc=5",
-      "source": "潮起网",
-      "category": "政策",
-      "published": "2026-09-10",
-      "body_snippet": "中国算力“西进”，北部、西北部有望成为最大数据中心区域市场 潮起网",
-      "_query_boost": 0
+      "title": "共促科技进步与产业创新 朱忠明会见南非科学、技术与创新部部长布莱德·恩齐曼迪一行",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260913/efcaf7146fef45749a329c8249736346.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-13",
+      "body_snippet": "",
+      "category": "技术"
     }
   ]
 }
