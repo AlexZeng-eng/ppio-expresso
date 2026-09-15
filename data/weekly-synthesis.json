@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T05:25:54.262Z",
-  "date": "2026-09-14",
-  "date_label": "2026-09-14",
+  "generated_at": "2026-09-15T05:18:19.231Z",
+  "date": "2026-09-15",
+  "date_label": "2026-09-15",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
@@ -9,7 +9,7 @@
     "⚔️": 0,
     "💰": 0,
     "🌏": 0,
-    "🔬": 14
+    "🔬": 13
   },
   "speed_read": {
     "positive": [],
@@ -31,6 +31,14 @@
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "2",
+      "title": "2026世界人工智能大会即将开幕,具身智",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     }
   ],
