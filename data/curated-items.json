@@ -1,39 +1,16 @@
 {
-  "generated_at": "2026-09-15T05:18:19.193Z",
+  "generated_at": "2026-09-16T05:13:09.710Z",
   "week": "2026-W38",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 14,
-  "attend_count": 2,
-  "silent_count": 12,
+  "total_curated": 10,
+  "attend_count": 3,
+  "silent_count": 7,
   "items": [
     {
-      "id": "raw-001",
-      "title": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZXNSbHktTVdPQl92VFhsTmxETHZ5NGxsMDFWTjRWY3FwQUVWTWpPYzAzaUtyM0R5TFFrS0hEblh3Ny1IZ2JNSTA5T3lRZ01Bd1NWNGxLaDFvNnVvOUU0MVhPNS1jM1NoclExeVhObG1icVpwWHpLMDlLNXZFcklwY2Nod25HZkxMZDVwUUxRd29aSHp1R0R6RkVoOGVGWEdiN0w2UV9Nbw?oc=5",
-      "source": "新浪网",
-      "category": "海外",
-      "published": "2026-09-13",
-      "body_snippet": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 新浪网",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 - 新浪网 不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 ",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-002",
+      "id": "raw-003",
       "title": "牛市早报｜国常会：进一步完善算力基础设施，国新办下午举行国务院政策例行吹风会 - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrTTBsaWJzd05vVTV4ZUhwaEhMeko2SUU0V3JpYTRENkczdW5nblYtbWFuZmU0c1dUZ0pSc3ltTEpSZGxINlZneWVXNGxPZ2tlLVRJUDBmOU91RXpVVWRPdg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByVXRzYTlsVkI3MVgyOUJNcFBWb0s5bEtxTWMtNHBLeEZiNnJ2bkRJR1FkcHpNMGlXYWpUUVBZLWxFVjFZdDJKLXEtV0RCOGh4b2xyekF2YTBvNHp4aXc?oc=5",
       "source": "thepaper.cn",
       "category": "政策",
       "published": "2026-09-14",
@@ -60,13 +37,43 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-003",
-      "title": "一张算力网如何炼成：透视 - Sohu",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX3M1ck1DRUlvNVFsNDZNNjhGd2tTdU82TGFjNV83ak1IeU41MXd6S0swODhGeXRUM0pURXVXc3BOVnZGT2JkY1VRMTY5RlgzU2dOclpKV0J5V2xBbmtacWtJSFJOTFB6VWFmcWhlNFp1RFdWRmJSLVlTTHVqczRaM3hJME90Wnpu?oc=5",
-      "source": "Sohu",
-      "category": "政策",
-      "published": "2026-09-15",
-      "body_snippet": "一张算力网如何炼成：透视 Sohu",
+      "id": "raw-004",
+      "title": "智谱获50亿美元融资，重点投入完全自训练和算力基础设施 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZMlo3UUZrZ1BnWWZoVmVLRDFZMjlLbUwxZmJQSXJ0S19CT28zaHVZdWFhcFB2Z2tMNW9zaWNZSktMSGVxM1hFZkpicjJVTXNKa2c?oc=5",
+      "source": "虎嗅网",
+      "category": "竞品",
+      "published": "2026-09-14",
+      "body_snippet": "智谱获50亿美元融资，重点投入完全自训练和算力基础设施 虎嗅网",
+      "_query_boost": 30,
+      "lane": "attend",
+      "signals": [
+        "⚔️",
+        "💰",
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "智谱获50亿美元融资，重点投入完全自训练和算力基础设施 - 虎嗅网 智谱获50亿美元融资，重点投入完全自训练和算力基础设施 虎嗅网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
+      "title": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZXNSbHktTVdPQl92VFhsTmxETHZ5NGxsMDFWTjRWY3FwQUVWTWpPYzAzaUtyM0R5TFFrS0hEblh3Ny1IZ2JNSTA5T3lRZ01Bd1NWNGxLaDFvNnVvOUU0MVhPNS1jM1NoclExeVhObG1icVpwWHpLMDlLNXZFcklwY2Nod25HZkxMZDVwUUxRd29aSHp1R0R6RkVoOGVGWEdiN0w2UV9Nbw?oc=5",
+      "source": "新浪财经",
+      "category": "海外",
+      "published": "2026-09-13",
+      "body_snippet": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 新浪财经",
       "_query_boost": 25,
       "lane": "silent",
       "signals": [
@@ -78,18 +85,41 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "一张算力网如何炼成：透视 - Sohu 一张算力网如何炼成：透视 Sohu",
+      "summary_cn": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 - 新浪财经 不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
-      "title": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObWpWWjgtUnB3VDlfTDZsVnl6RFM2UnNhRDRuRXdvcWctalhoODNwd2x2T3ZadUd1alNLWXlmNEJwczlFRzF2aUhPTmVVdU9ULWVnZ3U5Zzl0M0k0THZGSnpLbm0wRWgwa19OM2NBRWZ1Tm1UZDR5MDBHdFZYdHlQb2xDMURORURzYVRLLTBIcHZPZHUwcWJCWWVQWlg3Uk5HMnItZjZKMA?oc=5",
-      "source": "新浪网",
+      "id": "raw-006",
+      "title": "阴和俊：推进人工智能赋能科研创新，完善算力、数据等基础设施，拓展科学研究智能化应用场景 - cls.cn",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1HYnp4akRiMXlpeFdYRWdMcHhZLTNvMWxkSWNkZEM1UmNKallTYVNTNkpuRmQtODBjQUowMmJjdDI5MGktWFE?oc=5",
+      "source": "cls.cn",
       "category": "政策",
-      "published": "2026-09-13",
-      "body_snippet": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 新浪网",
+      "published": "2026-09-16",
+      "body_snippet": "阴和俊：推进人工智能赋能科研创新，完善算力、数据等基础设施，拓展科学研究智能化应用场景 cls.cn",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "阴和俊：推进人工智能赋能科研创新，完善算力、数据等基础设施，拓展科学研究智能化应用场景 - cls.cn 阴和俊：推进人工智能赋能科研创新，完善算力、数据等基础",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-007",
+      "title": "未来产业 | 全国算力网建设迎重大进展，太空算力从概念走向落地 - Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPd3BSNDg3VVljZVZwcGV5dFR0UUF6QjdrMDl4WklBMTNDd2hsaUdnV00zMHFVWGdhcUM1a296UHNOSVJtdFJUbldNVFBhNDJBRVVrd0FkaFFZbVlOLWtvMEktT2lMSHdaVVBrMmdDQklseUYwRjJUQW1NSHBCSjhzS20xNXpQSVJF?oc=5",
+      "source": "Sohu",
+      "category": "政策",
+      "published": "2026-09-14",
+      "body_snippet": "未来产业 | 全国算力网建设迎重大进展，太空算力从概念走向落地 Sohu",
       "_query_boost": 30,
       "lane": "silent",
       "signals": [
@@ -101,81 +131,81 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - 新浪网 信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-005",
-      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
-      "source": "财联社",
-      "category": "竞品",
-      "published": "2026-09-09",
-      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "_query_boost": 15,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-006",
-      "title": "聚焦2026中国算力大会｜河北省“人工智能+制造”100个典型案例发布 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCbloyMGRPWGNuTGZqUjcwM3MxOGNkanIxYkp5RW9fOGRNV2lRZDJuQ0Y4RmVHMGVqelUwLUtPN3QzaWdVZ2FfdXl0bnJZUXE2VTBTbWR0bzU2Q1ozTE1WSFBSSVp3cW1Qc0g0N0ppN1NQVTB2XzFsUzJuMERWdw?oc=5",
-      "source": "新浪网",
-      "category": "政策",
-      "published": "2026-09-14",
-      "body_snippet": "聚焦2026中国算力大会｜河北省“人工智能+制造”100个典型案例发布 新浪网",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "聚焦2026中国算力大会｜河北省“人工智能+制造”100个典型案例发布 - 新浪网 聚焦2026中国算力大会｜河北省“人工智能+制造”100个典型案例发布 新浪",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-007",
-      "title": "数字湖北建设“十五五”规划：到2030年数据产业规模达4000亿元，建成全国数智经济发展高地，建成全国算网综合枢纽，算力规模超过10万PFlops，建成国家数据要素综合试验区– 智慧城市行业分析 - 智慧城市行业分析",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBBdnhHY1BxLXpXMlBPa1lmLVAxYjZ0MDVHMUhPeklRa3FNaDlXN09zVHItNDVoQ1pVRG5WOGZNTVNmekYxYkRaZDJiNEk2c0NCYi1LRThCQzA1RGZPNTd1blpUM0FlbnhPdkx5LVIzbHo3aDA3c2xacjBB?oc=5",
-      "source": "智慧城市行业分析",
-      "category": "政策",
-      "published": "2026-09-13",
-      "body_snippet": "数字湖北建设“十五五”规划：到2030年数据产业规模达4000亿元，建成全国数智经济发展高地，建成全国算网综合枢纽，算力规模超过10万PFlops，建成国家数据要素综合试验区– 智慧城市行业分析 智慧城市行业分析",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "数字湖北建设“十五五”规划：到2030年数据产业规模达4000亿元，建成全国数智经济发展高地，建成全国算网综合枢纽，算力规模超过10万PFlops，建成国家数据",
+      "summary_cn": "未来产业 | 全国算力网建设迎重大进展，太空算力从概念走向落地 - Sohu 未来产业 | 全国算力网建设迎重大进展，太空算力从概念走向落地 Sohu",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-008",
+      "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMTJHSzF3b0dBajc4WldyZGloSzQta0hfa1Q1LW5CM2xqdzFzazdwOVptYTRCRE9CTlpxUEFZbXp5MklCbWlkcTE2bFVBM3lzbVI5MGtpNXJ5Q2NDSWdYYmxTOTR2UmJtMXlDRi1NY3hZRlAzVlV4bHhjTDZqOG10Ql9WMXJNRkU?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-09-14",
+      "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 新浪财经",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪财经 燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-009",
+      "title": "聚焦2026中国算力大会｜河北省“人工智能+制造”100个典型案例发布 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCbloyMGRPWGNuTGZqUjcwM3MxOGNkanIxYkp5RW9fOGRNV2lRZDJuQ0Y4RmVHMGVqelUwLUtPN3QzaWdVZ2FfdXl0bnJZUXE2VTBTbWR0bzU2Q1ozTE1WSFBSSVp3cW1Qc0g0N0ppN1NQVTB2XzFsUzJuMERWdw?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-09-14",
+      "body_snippet": "聚焦2026中国算力大会｜河北省“人工智能+制造”100个典型案例发布 新浪财经",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "聚焦2026中国算力大会｜河北省“人工智能+制造”100个典型案例发布 - 新浪财经 聚焦2026中国算力大会｜河北省“人工智能+制造”100个典型案例发布 新",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-011",
+      "title": "中国移动参加2026中国算力大会 - news.cn",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE56MXpmUlJ0amowTkV2MUdtVTRzNG5ybU00ZXpQTWxZS1NqYmt2RGsyQUx5U3F0VmJzbElkTDUtSTRFRnp6YlZxc1NGU1AzMUJVWVhZdHdRYnBRR1BTY2EtaVpURjc1czN1WVU1dWtLd3BQMVVuZlBzekpPUG8?oc=5",
+      "source": "news.cn",
+      "category": "政策",
+      "published": "2026-09-12",
+      "body_snippet": "中国移动参加2026中国算力大会 news.cn",
+      "_query_boost": 30,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "中国移动参加2026中国算力大会 - news.cn 中国移动参加2026中国算力大会 news.cn",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-012",
       "title": "全国一张网，新一轮城市算力“卡位战”打响 - 每日经济新闻",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KSnE0bG9HX0VrbEM5cmZlWVBKSHRldzJEWHBZNi1pNkZ6bTN0alhlUk1LYm1VUklpRzg4NjVRUlBhRnJYTlRmOFNRSkFtSXR0ajI0UVFXeHFLWVg1aE4wVzlPYno2dw?oc=5",
       "source": "每日经济新闻",
@@ -198,129 +228,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
-      "title": "国信证券:《AI算力扩容提速硬件产业链多点开花创业板算力基础设施指数投资价值分析｜投资分析》 - 发现报告",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE93T0RCT3lwM1FVNFJaaDNQSU5qUFJFcHBEQkcxV0FDeXdoaGNCRGtqcy0waHd4RVhfeGxRcEFvWC1Ld0FzZmxTejVhNWRfT08y?oc=5",
-      "source": "发现报告",
-      "category": "技术",
-      "published": "2026-09-13",
-      "body_snippet": "国信证券:《AI算力扩容提速硬件产业链多点开花创业板算力基础设施指数投资价值分析｜投资分析》 发现报告",
-      "_query_boost": 15,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "国信证券:《AI算力扩容提速硬件产业链多点开花创业板算力基础设施指数投资价值分析｜投资分析》 - 发现报告 国信证券:《AI算力扩容提速硬件产业链多点开花创业板",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-011",
-      "title": "加速迈向世界级科技创新策源地！长三角AI4S算力集群启用，静安区科学智能生态社区同步揭牌 - 上海市人民政府",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPc0NwWElVanhrdlNNVHhkeXJWbmMtYjJROUo3YU9kNEhGQk5fWHgtcjhVNnV5OFF2TnZIUU1POTVybEVuMVhmWlBMUTlITnFWRHl0QUVKVlNDUnFuaWFXZDVKVGYyZXdWQjFyOTZCZVdIRGlMa3dFcGRES2k5ZkhzbWNyMlhXa1BIUGc?oc=5",
-      "source": "上海市人民政府",
-      "category": "政策",
-      "published": "2026-09-14",
-      "body_snippet": "加速迈向世界级科技创新策源地！长三角AI4S算力集群启用，静安区科学智能生态社区同步揭牌 上海市人民政府",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "加速迈向世界级科技创新策源地！长三角AI4S算力集群启用，静安区科学智能生态社区同步揭牌 - 上海市人民政府 加速迈向世界级科技创新策源地！长三角AI4S算力集",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "行业观察｜揭秘美团“龙猫”：国产算力秘密训练三年，走进真实开发者世界 - k.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BcTNwcFVOY3JQbzRMS24xTmc4bkpNUXB6SFk2aTY1MGxtR3J1SEFTSnY4MlJzUGhSSGR6LUh4bFh1WVFucFp5TG1WZ0VFcUFSei1SMC12UTViQW5qVmNRblBoS3pCanlZd2VEQ3hkYmk?oc=5",
-      "source": "k.sina.com.cn",
-      "category": "竞品",
-      "published": "2026-09-14",
-      "body_snippet": "行业观察｜揭秘美团“龙猫”：国产算力秘密训练三年，走进真实开发者世界 k.sina.com.cn",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "行业观察｜揭秘美团“龙猫”：国产算力秘密训练三年，走进真实开发者世界 - k.sina.com.cn 行业观察｜揭秘美团“龙猫”：国产算力秘密训练三年，走进真实",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-013",
-      "title": "全国一张网，新一轮城市算力“卡位战”打响 - mrjjxw.com",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HVHhQVkNvd1ZfUUtvSlJMcVhac2FzQXR0NTAtZHEtOEhWQ0J5cW1wSTBodWtpVDVKTzdjbWdRU3QxNWdYeERzQTNIaVNwU2RrTF9PTjR5YTB1VmMzcmI2b1UtZzhMZw?oc=5",
-      "source": "mrjjxw.com",
-      "category": "政策",
-      "published": "2026-09-12",
-      "body_snippet": "全国一张网，新一轮城市算力“卡位战”打响 mrjjxw.com",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "全国一张网，新一轮城市算力“卡位战”打响 - mrjjxw.com 全国一张网，新一轮城市算力“卡位战”打响 mrjjxw.com",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-014",
-      "title": "“向智同行 连接算力新生态”——2026中国联通合作伙伴大会在沪举办 - 上海市经济和信息化委员会",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOX19PZHZQUS1hNDh3MVJ3RVByUUVmQV9QTjEyeTNaalJield0aVowVDl1TjRyMWp2NmpnZnN4UHVYbHF3UjROa0FoUDRQakE3bU1sTE1oQWl4eFBPSDZQMXh2WHl0QWFSS09TXzdHWDR6MG5FTGcxeS1jLUd6ZU1KbXcyMlp5azA?oc=5",
-      "source": "上海市经济和信息化委员会",
-      "category": "政策",
-      "published": "2026-09-11",
-      "body_snippet": "“向智同行 连接算力新生态”——2026中国联通合作伙伴大会在沪举办 上海市经济和信息化委员会",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "“向智同行 连接算力新生态”——2026中国联通合作伙伴大会在沪举办 - 上海市经济和信息化委员会 “向智同行 连接算力新生态”——2026中国联通合作伙伴大会",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
       "id": "raw-015",
-      "title": "2026世界人工智能大会即将开幕,具身智能成为最大看点 - k.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VMllBNjlYVDJ3WUZMTXVDS092bVBvYTd6UTdwMzFnUjBFVXNrOGdoeFNVUlBsQkRMRGZ2X3dIYjRGV3MtZE1BQ0IzOW1ELWRoTjlVWFpFSFhPTFUzYXNyQ2ZOYXpzU0syQmFTNmZpMjY?oc=5",
-      "source": "k.sina.com.cn",
-      "category": "政策",
-      "published": "2026-09-10",
-      "body_snippet": "2026世界人工智能大会即将开幕,具身智能成为最大看点 k.sina.com.cn",
-      "_query_boost": 25,
+      "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
+      "source": "NVIDIA Blog",
+      "published": "2026-09-15",
+      "body_snippet": "",
+      "category": "技术",
       "lane": "attend",
       "signals": [
         "—"
@@ -331,7 +245,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "2026世界人工智能大会即将开幕,具身智能成为最大看点 - k.sina.com.cn 2026世界人工智能大会即将开幕,具身智能成为最大看点 k.sina.com.cn",
+      "summary_cn": " NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories ",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",

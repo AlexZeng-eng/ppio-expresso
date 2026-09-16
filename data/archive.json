@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-09-15T05:18:19.276Z",
+  "updated_at": "2026-09-16T05:13:09.776Z",
   "days": [
+    {
+      "date": "2026-09-16",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "signal_summary": {
+        "🏛️": 1,
+        "📜": 0,
+        "⚔️": 1,
+        "💰": 1,
+        "🌏": 0,
+        "🔬": 9
+      },
+      "wind_indicators": {
+        "policy_heat": 3,
+        "competitor_heat": 3,
+        "capital_heat": 3,
+        "overseas_heat": 2,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
+      },
+      "ppio_index": {
+        "score": 55,
+        "delta": 0,
+        "components": {
+          "policy_tailwind": 8,
+          "competitive_pressure": -6,
+          "capital_sentiment": 5,
+          "regulatory_risk": 0,
+          "overseas_headwind": 0
+        },
+        "interpretation": "规则估算，仅供参考"
+      },
+      "item_count": {
+        "total": 10,
+        "attend": 3,
+        "silent": 7
+      },
+      "competitor_updates": []
+    },
     {
       "date": "2026-09-15",
       "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
@@ -3457,44 +3495,6 @@
         "total": 14,
         "attend": 4,
         "silent": 10
-      },
-      "competitor_updates": []
-    },
-    {
-      "date": "2026-06-02",
-      "mainline": "本周算力网国家战略+智能体产业化双政策落地，为PPIO提供IPO叙事支撑；无问芯穹融资与AI立法加速构成竞争与合规双重压力。",
-      "signal_summary": {
-        "🏛️": 4,
-        "📜": 4,
-        "⚔️": 4,
-        "💰": 0,
-        "🌏": 2,
-        "🔬": 5
-      },
-      "wind_indicators": {
-        "policy_heat": 3,
-        "competitor_heat": 2,
-        "capital_heat": 2,
-        "overseas_heat": 2,
-        "overall_sentiment": "平稳",
-        "summary": "政策面保持活跃，竞品与资本动态平稳，海外监管持续关注中。"
-      },
-      "ppio_index": {
-        "score": 58,
-        "delta": 0,
-        "components": {
-          "policy_tailwind": 25,
-          "competitive_pressure": -15,
-          "capital_sentiment": 10,
-          "regulatory_risk": -8,
-          "overseas_headwind": -5
-        },
-        "interpretation": "政策利好与竞争压力并存，整体环境中性偏正"
-      },
-      "item_count": {
-        "total": 16,
-        "attend": 4,
-        "silent": 12
       },
       "competitor_updates": []
     }
