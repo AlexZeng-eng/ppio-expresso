@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-16T05:13:09.741Z",
-  "date": "2026-09-16",
-  "date_label": "2026-09-16",
+  "generated_at": "2026-09-17T05:19:47.770Z",
+  "date": "2026-09-17",
+  "date_label": "2026-09-17",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
     "📜": 0,
-    "⚔️": 1,
-    "💰": 1,
+    "⚔️": 0,
+    "💰": 0,
     "🌏": 0,
-    "🔬": 9
+    "🔬": 7
   },
   "speed_read": {
     "positive": [],
@@ -17,8 +17,8 @@
   },
   "wind_indicators": {
     "policy_heat": 3,
-    "competitor_heat": 3,
-    "capital_heat": 3,
+    "competitor_heat": 2,
+    "capital_heat": 2,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
@@ -27,18 +27,18 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "牛市早报｜国常会：进一步完善算力基础设施",
-      "policy_axis": 0.6,
+      "title": "原飞书产品副总裁施凯文加入阶跃星辰担任合",
+      "policy_axis": 0,
       "competition_axis": 0.1,
-      "impact_score": 4,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     },
     {
       "id": "2",
-      "title": "智谱获50亿美元融资，重点投入完全自训练",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
+      "title": "牛市早报｜国常会：进一步完善算力基础设施",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
@@ -55,8 +55,8 @@
     "delta": 0,
     "components": {
       "policy_tailwind": 8,
-      "competitive_pressure": -6,
-      "capital_sentiment": 5,
+      "competitive_pressure": 0,
+      "capital_sentiment": 0,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },

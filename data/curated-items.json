@@ -1,14 +1,65 @@
 {
-  "generated_at": "2026-09-16T05:13:09.710Z",
+  "generated_at": "2026-09-17T05:19:47.731Z",
   "week": "2026-W38",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 10,
+  "total_curated": 9,
   "attend_count": 3,
-  "silent_count": 7,
+  "silent_count": 6,
   "items": [
     {
-      "id": "raw-003",
+      "id": "raw-004",
+      "title": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 - finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMi4ARBVV95cUxOWWlNUlZBaTl1ZGZwUEJTSHRWMWc4VlpvckRlZ3QzQXZiUHNBelhqMUVtMnhpM013LW9jYU9xeVZXTFU1QkVQeHBoLTZacFdmWkpkQk9iQU5xaDdBc2ltRHFoRFFmYnR0QkhFU1JaQURwQ0x1T3JPdEdJTWpaeHNEekx5VFJCOU44TC0yNzJKM3VNQy1lTGpZMWRYVXpXX1hBbGoyZU5QcHNocUpkaVc3QVVxSVo2WldCQlh0bVFDN1Z2VzZReGhvYWd2Y0VRUkd5SThhWC1BYXJpb3NHcmdsSEZVYjZOZm5HTFN4YlZTTjVYc2pzVzlpWG5RTjctQ1FEcGh1Y1g3ZXcyNlBDaVdCV0Nma1pZNWpLc2JHaFprdGtxVHh6R1NhVWZsdUNla3BVMkc0TTlTYkFxMDh0OXNQQllJVnNFY1o5SGdUWml4eUhNcTZ0OXpHT3B5RWRHNS1Rb1h5dFl2Mm9HVjJydU1nalFONlFkWGpkcXh0a2hXcm84LXY2V3pqdTBTS2N0YkJxRDRtcmN3RnBrZ3BQbVp5X1lfMHNvdXJJR2xxN1ZZMm41Ym9HbVo2WGJNa3A1UnpkR292dnJFdlUyYXpRdUJQSmJTR2RNa0FPU1dfSFQtQlpVTXQ1ZTRBZE9ueFVjNGFqQ3JoNUJuSGJSVzU1Zktac3VPOHlxVktzdWVZLWV1OXhIN1BRNkFzelJ0Zi14cEVSLVVtU3BITFVzREFxWjZFRHBqbEJEZjF1cGJHNFF5cldlemp0OGpFWHlHRWpEdWNyVlU0aEtBYURJY0Q4TWxvTg?oc=5",
+      "source": "finance.sina.com.cn",
+      "category": "海外",
+      "published": "2026-09-13",
+      "body_snippet": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 finance.sina.com.cn",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 - finance.sina.com.cn 不足5%！欧洲AI算力全球占比悬殊，德拉吉",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
+      "title": "原飞书产品副总裁施凯文加入阶跃星辰担任合伙人负责Agent OS - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zZU1kYUZsWF9CcjJndy11WDhRU0hwaWxvSmpkdDl1am4xMGFZX1UxNF90S1hNYk01U0ZuWkZTak8yNkQxUHZMWmxwYUFZeTZ6cGUzMHJaLVpTdGJ0YlJv?oc=5",
+      "source": "虎嗅网",
+      "category": "竞品",
+      "published": "2026-09-15",
+      "body_snippet": "原飞书产品副总裁施凯文加入阶跃星辰担任合伙人负责Agent OS 虎嗅网",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "原飞书产品副总裁施凯文加入阶跃星辰担任合伙人负责Agent OS - 虎嗅网 原飞书产品副总裁施凯文加入阶跃星辰担任合伙人负责Agent OS 虎嗅网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-006",
       "title": "牛市早报｜国常会：进一步完善算力基础设施，国新办下午举行国务院政策例行吹风会 - thepaper.cn",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByVXRzYTlsVkI3MVgyOUJNcFBWb0s5bEtxTWMtNHBLeEZiNnJ2bkRJR1FkcHpNMGlXYWpUUVBZLWxFVjFZdDJKLXEtV0RCOGh4b2xyekF2YTBvNHp4aXc?oc=5",
       "source": "thepaper.cn",
@@ -37,89 +88,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
-      "title": "智谱获50亿美元融资，重点投入完全自训练和算力基础设施 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZMlo3UUZrZ1BnWWZoVmVLRDFZMjlLbUwxZmJQSXJ0S19CT28zaHVZdWFhcFB2Z2tMNW9zaWNZSktMSGVxM1hFZkpicjJVTXNKa2c?oc=5",
-      "source": "虎嗅网",
-      "category": "竞品",
-      "published": "2026-09-14",
-      "body_snippet": "智谱获50亿美元融资，重点投入完全自训练和算力基础设施 虎嗅网",
-      "_query_boost": 30,
-      "lane": "attend",
-      "signals": [
-        "⚔️",
-        "💰",
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "智谱获50亿美元融资，重点投入完全自训练和算力基础设施 - 虎嗅网 智谱获50亿美元融资，重点投入完全自训练和算力基础设施 虎嗅网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-005",
-      "title": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZXNSbHktTVdPQl92VFhsTmxETHZ5NGxsMDFWTjRWY3FwQUVWTWpPYzAzaUtyM0R5TFFrS0hEblh3Ny1IZ2JNSTA5T3lRZ01Bd1NWNGxLaDFvNnVvOUU0MVhPNS1jM1NoclExeVhObG1icVpwWHpLMDlLNXZFcklwY2Nod25HZkxMZDVwUUxRd29aSHp1R0R6RkVoOGVGWEdiN0w2UV9Nbw?oc=5",
-      "source": "新浪财经",
-      "category": "海外",
-      "published": "2026-09-13",
-      "body_snippet": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 新浪财经",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 - 新浪财经 不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-006",
-      "title": "阴和俊：推进人工智能赋能科研创新，完善算力、数据等基础设施，拓展科学研究智能化应用场景 - cls.cn",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1HYnp4akRiMXlpeFdYRWdMcHhZLTNvMWxkSWNkZEM1UmNKallTYVNTNkpuRmQtODBjQUowMmJjdDI5MGktWFE?oc=5",
-      "source": "cls.cn",
-      "category": "政策",
-      "published": "2026-09-16",
-      "body_snippet": "阴和俊：推进人工智能赋能科研创新，完善算力、数据等基础设施，拓展科学研究智能化应用场景 cls.cn",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "阴和俊：推进人工智能赋能科研创新，完善算力、数据等基础设施，拓展科学研究智能化应用场景 - cls.cn 阴和俊：推进人工智能赋能科研创新，完善算力、数据等基础",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
       "id": "raw-007",
-      "title": "未来产业 | 全国算力网建设迎重大进展，太空算力从概念走向落地 - Sohu",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPd3BSNDg3VVljZVZwcGV5dFR0UUF6QjdrMDl4WklBMTNDd2hsaUdnV00zMHFVWGdhcUM1a296UHNOSVJtdFJUbldNVFBhNDJBRVVrd0FkaFFZbVlOLWtvMEktT2lMSHdaVVBrMmdDQklseUYwRjJUQW1NSHBCSjhzS20xNXpQSVJF?oc=5",
-      "source": "Sohu",
-      "category": "政策",
-      "published": "2026-09-14",
-      "body_snippet": "未来产业 | 全国算力网建设迎重大进展，太空算力从概念走向落地 Sohu",
+      "title": "智谱高管：算力瓶颈缓解，ARR指引上调至30亿美元 - finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BNDZrZmpReXFLUEhGVzhUVGpaTmlxcTR5bmM1QUtnOF9naGtEczh0SnN6T3E1VnFVcFRBaTN0cF9zdE85Rng3OUl2TFBfMEgxZThTMUZ0SURuM1dHRWF0aE9SN2lSd0VkU2RDS21Ua1ZoNVU3YkxQUA?oc=5",
+      "source": "finance.sina.com.cn",
+      "category": "竞品",
+      "published": "2026-09-16",
+      "body_snippet": "智谱高管：算力瓶颈缓解，ARR指引上调至30亿美元 finance.sina.com.cn",
       "_query_boost": 30,
       "lane": "silent",
       "signals": [
@@ -131,41 +106,18 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "未来产业 | 全国算力网建设迎重大进展，太空算力从概念走向落地 - Sohu 未来产业 | 全国算力网建设迎重大进展，太空算力从概念走向落地 Sohu",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-008",
-      "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMTJHSzF3b0dBajc4WldyZGloSzQta0hfa1Q1LW5CM2xqdzFzazdwOVptYTRCRE9CTlpxUEFZbXp5MklCbWlkcTE2bFVBM3lzbVI5MGtpNXJ5Q2NDSWdYYmxTOTR2UmJtMXlDRi1NY3hZRlAzVlV4bHhjTDZqOG10Ql9WMXJNRkU?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-09-14",
-      "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 新浪财经",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪财经 燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段",
+      "summary_cn": "智谱高管：算力瓶颈缓解，ARR指引上调至30亿美元 - finance.sina.com.cn 智谱高管：算力瓶颈缓解，ARR指引上调至30亿美元 financ",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-009",
-      "title": "聚焦2026中国算力大会｜河北省“人工智能+制造”100个典型案例发布 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCbloyMGRPWGNuTGZqUjcwM3MxOGNkanIxYkp5RW9fOGRNV2lRZDJuQ0Y4RmVHMGVqelUwLUtPN3QzaWdVZ2FfdXl0bnJZUXE2VTBTbWR0bzU2Q1ozTE1WSFBSSVp3cW1Qc0g0N0ppN1NQVTB2XzFsUzJuMERWdw?oc=5",
-      "source": "新浪财经",
+      "title": "国家启动多宝体育官方计划，打造新一代AI算力与数据融合基础设施 - 体坛加",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05Y0JIZ2wxY3JjWWtmOWlXRFhKckM5emlHcmYzQ3RZRmtyb0hVRmhQMVJaMUtZbmJRVG1QNDhSZk9RMXo4T0duU242bFNHRW0xQ2JaajQ1X2hvX1UzZW1qMQ?oc=5",
+      "source": "体坛加",
       "category": "政策",
-      "published": "2026-09-14",
-      "body_snippet": "聚焦2026中国算力大会｜河北省“人工智能+制造”100个典型案例发布 新浪财经",
+      "published": "2026-09-16",
+      "body_snippet": "国家启动多宝体育官方计划，打造新一代AI算力与数据融合基础设施 体坛加",
       "_query_boost": 25,
       "lane": "silent",
       "signals": [
@@ -177,12 +129,58 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "聚焦2026中国算力大会｜河北省“人工智能+制造”100个典型案例发布 - 新浪财经 聚焦2026中国算力大会｜河北省“人工智能+制造”100个典型案例发布 新",
+      "summary_cn": "国家启动多宝体育官方计划，打造新一代AI算力与数据融合基础设施 - 体坛加 国家启动多宝体育官方计划，打造新一代AI算力与数据融合基础设施 体坛加",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
+      "title": "一张算力网如何炼成：透视 - Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX3M1ck1DRUlvNVFsNDZNNjhGd2tTdU82TGFjNV83ak1IeU41MXd6S0swODhGeXRUM0pURXVXc3BOVnZGT2JkY1VRMTY5RlgzU2dOclpKV0J5V2xBbmtacWtJSFJOTFB6VWFmcWhlNFp1RFdWRmJSLVlTTHVqczRaM3hJME90Wnpu?oc=5",
+      "source": "Sohu",
+      "category": "政策",
+      "published": "2026-09-15",
+      "body_snippet": "一张算力网如何炼成：透视 Sohu",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "一张算力网如何炼成：透视 - Sohu 一张算力网如何炼成：透视 Sohu",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-011",
+      "title": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObWpWWjgtUnB3VDlfTDZsVnl6RFM2UnNhRDRuRXdvcWctalhoODNwd2x2T3ZadUd1alNLWXlmNEJwczlFRzF2aUhPTmVVdU9ULWVnZ3U5Zzl0M0k0THZGSnpLbm0wRWgwa19OM2NBRWZ1Tm1UZDR5MDBHdFZYdHlQb2xDMURORURzYVRLLTBIcHZPZHUwcWJCWWVQWlg3Uk5HMnItZjZKMA?oc=5",
+      "source": "finance.sina.com.cn",
+      "category": "政策",
+      "published": "2026-09-13",
+      "body_snippet": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 finance.sina.com.cn",
+      "_query_boost": 30,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - finance.sina.com.cn 信息通信行业未来五年路线图",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-012",
       "title": "中国移动参加2026中国算力大会 - news.cn",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE56MXpmUlJ0amowTkV2MUdtVTRzNG5ybU00ZXpQTWxZS1NqYmt2RGsyQUx5U3F0VmJzbElkTDUtSTRFRnp6YlZxc1NGU1AzMUJVWVhZdHdRYnBRR1BTY2EtaVpURjc1czN1WVU1dWtLd3BQMVVuZlBzekpPUG8?oc=5",
       "source": "news.cn",
@@ -201,29 +199,6 @@
         "c3"
       ],
       "summary_cn": "中国移动参加2026中国算力大会 - news.cn 中国移动参加2026中国算力大会 news.cn",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "全国一张网，新一轮城市算力“卡位战”打响 - 每日经济新闻",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KSnE0bG9HX0VrbEM5cmZlWVBKSHRldzJEWHBZNi1pNkZ6bTN0alhlUk1LYm1VUklpRzg4NjVRUlBhRnJYTlRmOFNRSkFtSXR0ajI0UVFXeHFLWVg1aE4wVzlPYno2dw?oc=5",
-      "source": "每日经济新闻",
-      "category": "政策",
-      "published": "2026-09-12",
-      "body_snippet": "全国一张网，新一轮城市算力“卡位战”打响 每日经济新闻",
-      "_query_boost": 30,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "全国一张网，新一轮城市算力“卡位战”打响 - 每日经济新闻 全国一张网，新一轮城市算力“卡位战”打响 每日经济新闻",
       "ppio_signal": null,
       "_classified_by": "rule"
     },

@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-09-16T05:13:09.776Z",
+  "updated_at": "2026-09-17T05:19:47.814Z",
   "days": [
+    {
+      "date": "2026-09-17",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "signal_summary": {
+        "🏛️": 1,
+        "📜": 0,
+        "⚔️": 0,
+        "💰": 0,
+        "🌏": 0,
+        "🔬": 7
+      },
+      "wind_indicators": {
+        "policy_heat": 3,
+        "competitor_heat": 2,
+        "capital_heat": 2,
+        "overseas_heat": 2,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
+      },
+      "ppio_index": {
+        "score": 55,
+        "delta": 0,
+        "components": {
+          "policy_tailwind": 8,
+          "competitive_pressure": 0,
+          "capital_sentiment": 0,
+          "regulatory_risk": 0,
+          "overseas_headwind": 0
+        },
+        "interpretation": "规则估算，仅供参考"
+      },
+      "item_count": {
+        "total": 9,
+        "attend": 3,
+        "silent": 6
+      },
+      "competitor_updates": []
+    },
     {
       "date": "2026-09-16",
       "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
@@ -3457,44 +3495,6 @@
         "total": 13,
         "attend": 7,
         "silent": 6
-      },
-      "competitor_updates": []
-    },
-    {
-      "date": "2026-06-03",
-      "mainline": "高层打出政策“组合拳”：习近平要求超常规攻关、上海发放算力券，但境外投资新规与CDN对手杀入边缘推理，令IPO窗口与竞争格局陡生变数。",
-      "signal_summary": {
-        "🏛️": 4,
-        "📜": 3,
-        "⚔️": 2,
-        "💰": 0,
-        "🌏": 1,
-        "🔬": 0
-      },
-      "wind_indicators": {
-        "policy_heat": 5,
-        "competitor_heat": 3,
-        "capital_heat": 2,
-        "overseas_heat": 2,
-        "overall_sentiment": "升温",
-        "summary": "本周政策暖风强劲，但边缘推理赛道的竞对行动与境外投资合规收紧形成对冲，整体风向仍偏积极但变数加大。"
-      },
-      "ppio_index": {
-        "score": 62,
-        "delta": 0,
-        "components": {
-          "policy_tailwind": 30,
-          "competitive_pressure": -15,
-          "capital_sentiment": 10,
-          "regulatory_risk": -8,
-          "overseas_headwind": -5
-        },
-        "interpretation": "政策强力支撑但边缘推理争夺升温，综合指数稳中微升。"
-      },
-      "item_count": {
-        "total": 14,
-        "attend": 4,
-        "silent": 10
       },
       "competitor_updates": []
     }
