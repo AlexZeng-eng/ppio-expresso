@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-17T05:19:47.770Z",
-  "date": "2026-09-17",
-  "date_label": "2026-09-17",
+  "generated_at": "2026-09-18T05:09:45.966Z",
+  "date": "2026-09-18",
+  "date_label": "2026-09-18",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 1,
+    "🏛️": 2,
     "📜": 0,
     "⚔️": 0,
     "💰": 0,
     "🌏": 0,
-    "🔬": 7
+    "🔬": 8
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 3,
+    "policy_heat": 4,
     "competitor_heat": 2,
     "capital_heat": 2,
     "overseas_heat": 2,
@@ -27,14 +27,6 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "原飞书产品副总裁施凯文加入阶跃星辰担任合",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "2",
       "title": "牛市早报｜国常会：进一步完善算力基础设施",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
@@ -42,7 +34,23 @@
       "axis_reason": "规则估算"
     },
     {
+      "id": "2",
+      "title": "原飞书产品副总裁施凯文加入阶跃星辰担任合",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
       "id": "3",
+      "title": "财经早知道｜国常会最新部署，事关算力网建",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "4",
       "title": "AI Infra Summit: NVI",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -54,7 +62,7 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 8,
+      "policy_tailwind": 16,
       "competitive_pressure": 0,
       "capital_sentiment": 0,
       "regulatory_risk": 0,

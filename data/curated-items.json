@@ -1,20 +1,43 @@
 {
-  "generated_at": "2026-09-17T05:19:47.731Z",
+  "generated_at": "2026-09-18T05:09:45.933Z",
   "week": "2026-W38",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 9,
-  "attend_count": 3,
+  "total_curated": 10,
+  "attend_count": 4,
   "silent_count": 6,
   "items": [
     {
-      "id": "raw-004",
-      "title": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 - finance.sina.com.cn",
+      "id": "raw-003",
+      "title": "中国移动参加2026中国算力大会 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE56MXpmUlJ0amowTkV2MUdtVTRzNG5ybU00ZXpQTWxZS1NqYmt2RGsyQUx5U3F0VmJzbElkTDUtSTRFRnp6YlZxc1NGU1AzMUJVWVhZdHdRYnBRR1BTY2EtaVpURjc1czN1WVU1dWtLd3BQMVVuZlBzekpPUG8?oc=5",
+      "source": "新华网",
+      "category": "政策",
+      "published": "2026-09-12",
+      "body_snippet": "中国移动参加2026中国算力大会 新华网",
+      "_query_boost": 30,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "中国移动参加2026中国算力大会 - 新华网 中国移动参加2026中国算力大会 新华网",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
+      "title": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 - 新浪财经_金融信息服务商",
       "url": "https://news.google.com/rss/articles/CBMi4ARBVV95cUxOWWlNUlZBaTl1ZGZwUEJTSHRWMWc4VlpvckRlZ3QzQXZiUHNBelhqMUVtMnhpM013LW9jYU9xeVZXTFU1QkVQeHBoLTZacFdmWkpkQk9iQU5xaDdBc2ltRHFoRFFmYnR0QkhFU1JaQURwQ0x1T3JPdEdJTWpaeHNEekx5VFJCOU44TC0yNzJKM3VNQy1lTGpZMWRYVXpXX1hBbGoyZU5QcHNocUpkaVc3QVVxSVo2WldCQlh0bVFDN1Z2VzZReGhvYWd2Y0VRUkd5SThhWC1BYXJpb3NHcmdsSEZVYjZOZm5HTFN4YlZTTjVYc2pzVzlpWG5RTjctQ1FEcGh1Y1g3ZXcyNlBDaVdCV0Nma1pZNWpLc2JHaFprdGtxVHh6R1NhVWZsdUNla3BVMkc0TTlTYkFxMDh0OXNQQllJVnNFY1o5SGdUWml4eUhNcTZ0OXpHT3B5RWRHNS1Rb1h5dFl2Mm9HVjJydU1nalFONlFkWGpkcXh0a2hXcm84LXY2V3pqdTBTS2N0YkJxRDRtcmN3RnBrZ3BQbVp5X1lfMHNvdXJJR2xxN1ZZMm41Ym9HbVo2WGJNa3A1UnpkR292dnJFdlUyYXpRdUJQSmJTR2RNa0FPU1dfSFQtQlpVTXQ1ZTRBZE9ueFVjNGFqQ3JoNUJuSGJSVzU1Zktac3VPOHlxVktzdWVZLWV1OXhIN1BRNkFzelJ0Zi14cEVSLVVtU3BITFVzREFxWjZFRHBqbEJEZjF1cGJHNFF5cldlemp0OGpFWHlHRWpEdWNyVlU0aEtBYURJY0Q4TWxvTg?oc=5",
-      "source": "finance.sina.com.cn",
+      "source": "新浪财经_金融信息服务商",
       "category": "海外",
       "published": "2026-09-13",
-      "body_snippet": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 finance.sina.com.cn",
+      "body_snippet": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 新浪财经_金融信息服务商",
       "_query_boost": 25,
       "lane": "silent",
       "signals": [
@@ -26,22 +49,22 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 - finance.sina.com.cn 不足5%！欧洲AI算力全球占比悬殊，德拉吉",
+      "summary_cn": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 - 新浪财经_金融信息服务商 不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
-      "title": "原飞书产品副总裁施凯文加入阶跃星辰担任合伙人负责Agent OS - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zZU1kYUZsWF9CcjJndy11WDhRU0hwaWxvSmpkdDl1am4xMGFZX1UxNF90S1hNYk01U0ZuWkZTak8yNkQxUHZMWmxwYUFZeTZ6cGUzMHJaLVpTdGJ0YlJv?oc=5",
-      "source": "虎嗅网",
+      "id": "raw-006",
+      "title": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZMGpPUGFlQVltd2tTZGRCWnNhQndzU1JqNmpuejFaMUNRODBhbTh4OHM0Q0wzZHRlMVNTM1R1WEhCTlo1VzJLbQ?oc=5",
+      "source": "财联社",
       "category": "竞品",
-      "published": "2026-09-15",
-      "body_snippet": "原飞书产品副总裁施凯文加入阶跃星辰担任合伙人负责Agent OS 虎嗅网",
-      "_query_boost": 25,
-      "lane": "attend",
+      "published": "2026-09-17",
+      "body_snippet": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "_query_boost": 15,
+      "lane": "silent",
       "signals": [
-        "—"
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -49,17 +72,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "原飞书产品副总裁施凯文加入阶跃星辰担任合伙人负责Agent OS - 虎嗅网 原飞书产品副总裁施凯文加入阶跃星辰担任合伙人负责Agent OS 虎嗅网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
+      "summary_cn": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ - 财联社 三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
+      "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
+      "id": "raw-007",
       "title": "牛市早报｜国常会：进一步完善算力基础设施，国新办下午举行国务院政策例行吹风会 - thepaper.cn",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByVXRzYTlsVkI3MVgyOUJNcFBWb0s5bEtxTWMtNHBLeEZiNnJ2bkRJR1FkcHpNMGlXYWpUUVBZLWxFVjFZdDJKLXEtV0RCOGh4b2xyekF2YTBvNHp4aXc?oc=5",
       "source": "thepaper.cn",
@@ -88,13 +106,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-007",
-      "title": "智谱高管：算力瓶颈缓解，ARR指引上调至30亿美元 - finance.sina.com.cn",
+      "id": "raw-008",
+      "title": "智谱高管：算力瓶颈缓解，ARR指引上调至30亿美元 - 新浪财经_金融信息服务商",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BNDZrZmpReXFLUEhGVzhUVGpaTmlxcTR5bmM1QUtnOF9naGtEczh0SnN6T3E1VnFVcFRBaTN0cF9zdE85Rng3OUl2TFBfMEgxZThTMUZ0SURuM1dHRWF0aE9SN2lSd0VkU2RDS21Ua1ZoNVU3YkxQUA?oc=5",
-      "source": "finance.sina.com.cn",
+      "source": "新浪财经_金融信息服务商",
       "category": "竞品",
       "published": "2026-09-16",
-      "body_snippet": "智谱高管：算力瓶颈缓解，ARR指引上调至30亿美元 finance.sina.com.cn",
+      "body_snippet": "智谱高管：算力瓶颈缓解，ARR指引上调至30亿美元 新浪财经_金融信息服务商",
       "_query_boost": 30,
       "lane": "silent",
       "signals": [
@@ -106,12 +124,40 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "智谱高管：算力瓶颈缓解，ARR指引上调至30亿美元 - finance.sina.com.cn 智谱高管：算力瓶颈缓解，ARR指引上调至30亿美元 financ",
+      "summary_cn": "智谱高管：算力瓶颈缓解，ARR指引上调至30亿美元 - 新浪财经_金融信息服务商 智谱高管：算力瓶颈缓解，ARR指引上调至30亿美元 新浪财经_金融信息服务商",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-009",
+      "title": "原飞书产品副总裁施凯文加入阶跃星辰担任合伙人负责Agent OS - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zZU1kYUZsWF9CcjJndy11WDhRU0hwaWxvSmpkdDl1am4xMGFZX1UxNF90S1hNYk01U0ZuWkZTak8yNkQxUHZMWmxwYUFZeTZ6cGUzMHJaLVpTdGJ0YlJv?oc=5",
+      "source": "虎嗅网",
+      "category": "竞品",
+      "published": "2026-09-15",
+      "body_snippet": "原飞书产品副总裁施凯文加入阶跃星辰担任合伙人负责Agent OS 虎嗅网",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "原飞书产品副总裁施凯文加入阶跃星辰担任合伙人负责Agent OS - 虎嗅网 原飞书产品副总裁施凯文加入阶跃星辰担任合伙人负责Agent OS 虎嗅网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
       "title": "国家启动多宝体育官方计划，打造新一代AI算力与数据融合基础设施 - 体坛加",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05Y0JIZ2wxY3JjWWtmOWlXRFhKckM5emlHcmYzQ3RZRmtyb0hVRmhQMVJaMUtZbmJRVG1QNDhSZk9RMXo4T0duU242bFNHRW0xQ2JaajQ1X2hvX1UzZW1qMQ?oc=5",
       "source": "体坛加",
@@ -134,36 +180,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-010",
-      "title": "一张算力网如何炼成：透视 - Sohu",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX3M1ck1DRUlvNVFsNDZNNjhGd2tTdU82TGFjNV83ak1IeU41MXd6S0swODhGeXRUM0pURXVXc3BOVnZGT2JkY1VRMTY5RlgzU2dOclpKV0J5V2xBbmtacWtJSFJOTFB6VWFmcWhlNFp1RFdWRmJSLVlTTHVqczRaM3hJME90Wnpu?oc=5",
-      "source": "Sohu",
-      "category": "政策",
-      "published": "2026-09-15",
-      "body_snippet": "一张算力网如何炼成：透视 Sohu",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "一张算力网如何炼成：透视 - Sohu 一张算力网如何炼成：透视 Sohu",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
       "id": "raw-011",
-      "title": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObWpWWjgtUnB3VDlfTDZsVnl6RFM2UnNhRDRuRXdvcWctalhoODNwd2x2T3ZadUd1alNLWXlmNEJwczlFRzF2aUhPTmVVdU9ULWVnZ3U5Zzl0M0k0THZGSnpLbm0wRWgwa19OM2NBRWZ1Tm1UZDR5MDBHdFZYdHlQb2xDMURORURzYVRLLTBIcHZPZHUwcWJCWWVQWlg3Uk5HMnItZjZKMA?oc=5",
-      "source": "finance.sina.com.cn",
+      "title": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - 新浪财经_金融信息服务商",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1hKNUQ4dkdEd1AzMTJ0X1ZBbTZ5cFk5WS1OaDFlT2dYUWQ2dnA0ZmdGMFdIVEJlTVFLTWdIdE82dDRGZG5tV1JVbGpTYXZ6TlBZd3l3dGV4QW9KV2MyNUFWSlpqTFNVS3I5ZVpkVTdvbjI4bzJXbkdLRnkySVhjd2pLNEFUZTZfUS1fWnJSX0I0Zw?oc=5",
+      "source": "新浪财经_金融信息服务商",
       "category": "政策",
-      "published": "2026-09-13",
-      "body_snippet": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 finance.sina.com.cn",
+      "published": "2026-09-14",
+      "body_snippet": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 新浪财经_金融信息服务商",
       "_query_boost": 30,
       "lane": "silent",
       "signals": [
@@ -175,31 +198,37 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - finance.sina.com.cn 信息通信行业未来五年路线图",
+      "summary_cn": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - 新浪财经_金融信息服务商 信息通信行业未来五年路线图公布：算力建设",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-012",
-      "title": "中国移动参加2026中国算力大会 - news.cn",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE56MXpmUlJ0amowTkV2MUdtVTRzNG5ybU00ZXpQTWxZS1NqYmt2RGsyQUx5U3F0VmJzbElkTDUtSTRFRnp6YlZxc1NGU1AzMUJVWVhZdHdRYnBRR1BTY2EtaVpURjc1czN1WVU1dWtLd3BQMVVuZlBzekpPUG8?oc=5",
-      "source": "news.cn",
+      "title": "财经早知道｜国常会最新部署，事关算力网建设 - 财新",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBGMnZOTExFWHppVHc3SEdSUndIMGVrNTE4anAyTUt5ZTFnckE2UFdTVmFjOUY5NWN4cFBzcnlkYk1RZUF0SVd5OE8xNklMNGdmN2FXVGc5VUo2X29QS2JHbDdR?oc=5",
+      "source": "财新",
       "category": "政策",
-      "published": "2026-09-12",
-      "body_snippet": "中国移动参加2026中国算力大会 news.cn",
-      "_query_boost": 30,
-      "lane": "silent",
+      "published": "2026-09-13",
+      "body_snippet": "财经早知道｜国常会最新部署，事关算力网建设 财新",
+      "_query_boost": 25,
+      "lane": "attend",
       "signals": [
+        "🏛️",
         "🔬"
       ],
-      "is_deep_read": false,
+      "is_deep_read": true,
       "compass_triggered": [
         "c1",
         "c2",
         "c3"
       ],
-      "summary_cn": "中国移动参加2026中国算力大会 - news.cn 中国移动参加2026中国算力大会 news.cn",
-      "ppio_signal": null,
+      "summary_cn": "财经早知道｜国常会最新部署，事关算力网建设 - 财新 财经早知道｜国常会最新部署，事关算力网建设 财新",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
       "_classified_by": "rule"
     },
     {

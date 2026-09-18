@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-09-17T05:19:47.814Z",
+  "updated_at": "2026-09-18T05:09:46.008Z",
   "days": [
+    {
+      "date": "2026-09-18",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "signal_summary": {
+        "🏛️": 2,
+        "📜": 0,
+        "⚔️": 0,
+        "💰": 0,
+        "🌏": 0,
+        "🔬": 8
+      },
+      "wind_indicators": {
+        "policy_heat": 4,
+        "competitor_heat": 2,
+        "capital_heat": 2,
+        "overseas_heat": 2,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
+      },
+      "ppio_index": {
+        "score": 55,
+        "delta": 0,
+        "components": {
+          "policy_tailwind": 16,
+          "competitive_pressure": 0,
+          "capital_sentiment": 0,
+          "regulatory_risk": 0,
+          "overseas_headwind": 0
+        },
+        "interpretation": "规则估算，仅供参考"
+      },
+      "item_count": {
+        "total": 10,
+        "attend": 4,
+        "silent": 6
+      },
+      "competitor_updates": []
+    },
     {
       "date": "2026-09-17",
       "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
@@ -3456,44 +3494,6 @@
       "item_count": {
         "total": 9,
         "attend": 3,
-        "silent": 6
-      },
-      "competitor_updates": []
-    },
-    {
-      "date": "2026-06-04",
-      "mainline": "本周主线：高层密集强调AI算力基建与自主可控，边缘推理赛道获政策背书但运营商和CDN厂低价杀入，PPIO需加速差异化卡位。",
-      "signal_summary": {
-        "🏛️": 4,
-        "📜": 2,
-        "⚔️": 2,
-        "💰": 0,
-        "🌏": 0,
-        "🔬": 0
-      },
-      "wind_indicators": {
-        "policy_heat": 5,
-        "competitor_heat": 4,
-        "capital_heat": 2,
-        "overseas_heat": 2,
-        "overall_sentiment": "升温",
-        "summary": "政策窗口大开但竞争急速升温，边缘算力赛道从蓝海加速转入混战期。"
-      },
-      "ppio_index": {
-        "score": 66,
-        "delta": 5,
-        "components": {
-          "policy_tailwind": 35,
-          "competitive_pressure": -18,
-          "capital_sentiment": 12,
-          "regulatory_risk": -8,
-          "overseas_headwind": -5
-        },
-        "interpretation": "政策强驱动推高行业预期，但赛道竞争白热化，需加速产品差异化与生态卡位。"
-      },
-      "item_count": {
-        "total": 13,
-        "attend": 7,
         "silent": 6
       },
       "competitor_updates": []
