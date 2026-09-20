@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-19T05:01:09.995Z",
-  "date": "2026-09-19",
-  "date_label": "2026-09-19",
+  "generated_at": "2026-09-20T05:23:24.107Z",
+  "date": "2026-09-20",
+  "date_label": "2026-09-20",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
     "📜": 0,
     "⚔️": 0,
-    "💰": 1,
+    "💰": 0,
     "🌏": 0,
-    "🔬": 6
+    "🔬": 7
   },
   "speed_read": {
     "positive": [],
@@ -18,7 +18,7 @@
   "wind_indicators": {
     "policy_heat": 3,
     "competitor_heat": 2,
-    "capital_heat": 3,
+    "capital_heat": 2,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
@@ -27,14 +27,6 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "智谱发布 GLM-5.3-FlashX:",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "2",
       "title": "牛市早报｜国常会：进一步完善算力基础设施",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
@@ -42,15 +34,15 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "3",
-      "title": "原飞书产品副总裁施凯文加入阶跃星辰担任合",
+      "id": "2",
+      "title": "智谱发布 GLM-5.3-FlashX:",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
       "axis_reason": "规则估算"
     },
     {
-      "id": "4",
+      "id": "3",
       "title": "AI Infra Summit: NVI",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -64,7 +56,7 @@
     "components": {
       "policy_tailwind": 8,
       "competitive_pressure": 0,
-      "capital_sentiment": 5,
+      "capital_sentiment": 0,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-19T05:01:09.890Z",
+  "generated_at": "2026-09-20T05:23:23.995Z",
   "week": "2026-W39",
   "date_range": {
-    "from": "2026-09-12",
-    "to": "2026-09-19"
+    "from": "2026-09-13",
+    "to": "2026-09-20"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -30,26 +30,6 @@
     },
     {
       "id": "raw-003",
-      "title": "智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 - news.aibase.com",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15UHZRX01DaTk4a0o3WVBKMTQ3dEZFOGdpWVV5eFptd3RmZ0Zzb244SHloVEEydUF2VFVXLWhCMEhFTlgwQmhjZ2NWWUhJQQ?oc=5",
-      "source": "news.aibase.com",
-      "category": "竞品",
-      "published": "2026-09-18",
-      "body_snippet": "智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 news.aibase.com",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-004",
-      "title": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZXNSbHktTVdPQl92VFhsTmxETHZ5NGxsMDFWTjRWY3FwQUVWTWpPYzAzaUtyM0R5TFFrS0hEblh3Ny1IZ2JNSTA5T3lRZ01Bd1NWNGxLaDFvNnVvOUU0MVhPNS1jM1NoclExeVhObG1icVpwWHpLMDlLNXZFcklwY2Nod25HZkxMZDVwUUxRd29aSHp1R0R6RkVoOGVGWEdiN0w2UV9Nbw?oc=5",
-      "source": "新浪财经",
-      "category": "海外",
-      "published": "2026-09-13",
-      "body_snippet": "不足5%！欧洲AI算力全球占比悬殊，德拉吉呼吁欧洲大规模建设AI数据中心 新浪财经",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-005",
       "title": "牛市早报｜国常会：进一步完善算力基础设施，国新办下午举行国务院政策例行吹风会 - thepaper.cn",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByVXRzYTlsVkI3MVgyOUJNcFBWb0s5bEtxTWMtNHBLeEZiNnJ2bkRJR1FkcHpNMGlXYWpUUVBZLWxFVjFZdDJKLXEtV0RCOGh4b2xyekF2YTBvNHp4aXc?oc=5",
       "source": "thepaper.cn",
@@ -59,71 +39,91 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-006",
-      "title": "Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CVHFnTzVhOHZUM0JmZGV1dl90SkwyUWhvNWNVY24zRnI1QTl1OUY0dkpJYVBuX2VhU3dYLXNKZFQ4R29aQWVGZUVNTFpKcC03Vm9PWGJwV3RLdndySGJF?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
+      "id": "raw-004",
+      "title": "智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15UHZRX01DaTk4a0o3WVBKMTQ3dEZFOGdpWVV5eFptd3RmZ0Zzb244SHloVEEydUF2VFVXLWhCMEhFTlgwQmhjZ2NWWUhJQQ?oc=5",
+      "source": "AIBase",
+      "category": "竞品",
       "published": "2026-09-18",
-      "body_snippet": "Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 虎嗅网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-007",
-      "title": "原飞书产品副总裁施凯文加入阶跃星辰担任合伙人负责Agent OS - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zZU1kYUZsWF9CcjJndy11WDhRU0hwaWxvSmpkdDl1am4xMGFZX1UxNF90S1hNYk01U0ZuWkZTak8yNkQxUHZMWmxwYUFZeTZ6cGUzMHJaLVpTdGJ0YlJv?oc=5",
-      "source": "虎嗅网",
-      "category": "竞品",
-      "published": "2026-09-15",
-      "body_snippet": "原飞书产品副总裁施凯文加入阶跃星辰担任合伙人负责Agent OS 虎嗅网",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-008",
-      "title": "多地抢滩“词元经济”：算力硬件率先兑现，运营商重估为AI公共事业 - Sohu",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNXhmaHVZR1ZOcXRUMVFEeE9SeXQxdGxZeHgxVHVjM1hpRXR6bWZLOEtnVmJWbmVlVV9xdGZzZ0lYWGVYU1dKOTVfcmd0bVNhd2RPcjloTXZOZEcxcFhRTlpBQ2taYkdBT1ZKdDZnbktQWFh0SUxBRkV0MUxYdjAzd212UnFPOGFvcUhuLQ?oc=5",
-      "source": "Sohu",
-      "category": "竞品",
-      "published": "2026-09-13",
-      "body_snippet": "多地抢滩“词元经济”：算力硬件率先兑现，运营商重估为AI公共事业 Sohu",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-009",
-      "title": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1hKNUQ4dkdEd1AzMTJ0X1ZBbTZ5cFk5WS1OaDFlT2dYUWQ2dnA0ZmdGMFdIVEJlTVFLTWdIdE82dDRGZG5tV1JVbGpTYXZ6TlBZd3l3dGV4QW9KV2MyNUFWSlpqTFNVS3I5ZVpkVTdvbjI4bzJXbkdLRnkySVhjd2pLNEFUZTZfUS1fWnJSX0I0Zw?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-09-14",
-      "body_snippet": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 新浪财经",
+      "body_snippet": "智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 AIBase",
       "_query_boost": 30
     },
     {
-      "id": "raw-010",
-      "title": "上海生物医药产业多项指标全国领跑 今年以来 产业融资数量和金额均居全国之首 成为生物医药资本集聚核心高地",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260919/c105ac03a47a4e9db92a8987920d4b80.html",
+      "id": "raw-005",
+      "title": "Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CVHFnTzVhOHZUM0JmZGV1dl90SkwyUWhvNWNVY24zRnI1QTl1OUY0dkpJYVBuX2VhU3dYLXNKZFQ4R29aQWVGZUVNTFpKcC03Vm9PWGJwV3RLdndySGJF?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-09-18",
+      "body_snippet": "Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 虎嗅",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-006",
+      "title": "推动习近平党建思想入脑入心 上海市委党校搭建课程矩阵 党的创新理论浸润思想落于实践",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260920/0b7260456cb14e85ac9ac01996985625.html",
       "source": "上海市政府-动态",
-      "published": "2026-09-19",
+      "published": "2026-09-20",
       "body_snippet": "",
-      "category": "资本"
+      "category": "技术"
+    },
+    {
+      "id": "raw-007",
+      "title": "人形机器人格斗赛火热开战 宝山机器人及智能制造产业集聚度持续提升",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260920/8d5e38352fa3446d991d59c81c0c02bc.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-20",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-008",
+      "title": "在华东师大 古籍特藏走出文库现身学术训练与创新研究现场 “万卷英华”典籍育人",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260920/6cb118dcfc8246e38dcd6f9d91e2238b.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-20",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-009",
+      "title": "“算力赋能，产业拓界” 2026 安富利智慧科技生态圈论坛在深圳启幕 - OFweek",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRktNc3BqMkJqN2JIaGRUN1JQWTJFRC11dlVMWDY5bkc4aEpwUDFQOFdpZFRUX3NsaXc3X3ViMm1OVnRVRUlVNjlWTWlZeUZackJmT0xUeGJrZUxVS1RJdzZ5RjVuMVREanJ6NlN3?oc=5",
+      "source": "OFweek",
+      "category": "监管",
+      "published": "2026-09-18",
+      "body_snippet": "“算力赋能，产业拓界” 2026 安富利智慧科技生态圈论坛在深圳启幕 OFweek",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-010",
+      "title": "最高降价99%背后：小米首次公开模型推理优化技术报告 - 品玩",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wa2VsajVHN1FfWXlOWGlsdzBsTno2RVNVZkpEQUJsOFUzTGlFX0QwVndtWVRvbzdJM2ctV0lZeHBBdFdOLWpCZw?oc=5",
+      "source": "品玩",
+      "category": "技术",
+      "published": "2026-09-18",
+      "body_snippet": "最高降价99%背后：小米首次公开模型推理优化技术报告 品玩",
+      "_query_boost": 0
     },
     {
       "id": "raw-011",
-      "title": "浦东发布生物医药产业新政 培育脑机接口未来产业先导区 加速首发首用",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260919/8bdfd359177f438a8f4f052a44edefd1.html",
-      "source": "上海市政府-动态",
-      "published": "2026-09-19",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "【理响中国·领航未来】算力筑基：抢占智能时代制高点 - 京报网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0VDdNSUdSV0NvX0ppZVEzT1VhVGkzNVlsMG9HQ29YRG5SSTJFcVBqcTdRajBnN3ZFRFJCMy1HdUlVWk1oX0ltdllKZ3lJWEczNmhjUEYwR0NOcEVBWU9jX29CQlc2ai04TVlJU3BIelZoZw?oc=5",
+      "source": "京报网",
+      "category": "政策",
+      "published": "2026-09-16",
+      "body_snippet": "【理响中国·领航未来】算力筑基：抢占智能时代制高点 京报网",
+      "_query_boost": 25
     },
     {
       "id": "raw-012",
-      "title": "糖果巨头海外订单“改签”到沪 食品产业三年行动方案押注高附加值细分赛道 “精致食味”丰富上海制造“层次”",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260919/6c9896e39f5d402c80c30f9fc0d7a9c6.html",
-      "source": "上海市政府-动态",
-      "published": "2026-09-19",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "国家启动多宝体育官方计划，打造新一代AI算力与数据融合基础设施 - 体坛",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05Y0JIZ2wxY3JjWWtmOWlXRFhKckM5emlHcmYzQ3RZRmtyb0hVRmhQMVJaMUtZbmJRVG1QNDhSZk9RMXo4T0duU242bFNHRW0xQ2JaajQ1X2hvX1UzZW1qMQ?oc=5",
+      "source": "体坛",
+      "category": "政策",
+      "published": "2026-09-16",
+      "body_snippet": "国家启动多宝体育官方计划，打造新一代AI算力与数据融合基础设施 体坛",
+      "_query_boost": 25
     },
     {
       "id": "raw-013",
