@@ -1,33 +1,54 @@
 {
-  "generated_at": "2026-09-20T05:23:24.072Z",
+  "generated_at": "2026-09-21T05:27:39.980Z",
   "week": "2026-W39",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 8,
-  "attend_count": 3,
+  "total_curated": 10,
+  "attend_count": 5,
   "silent_count": 5,
   "items": [
     {
       "id": "raw-003",
-      "title": "牛市早报｜国常会：进一步完善算力基础设施，国新办下午举行国务院政策例行吹风会 - thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByVXRzYTlsVkI3MVgyOUJNcFBWb0s5bEtxTWMtNHBLeEZiNnJ2bkRJR1FkcHpNMGlXYWpUUVBZLWxFVjFZdDJKLXEtV0RCOGh4b2xyekF2YTBvNHp4aXc?oc=5",
-      "source": "thepaper.cn",
-      "category": "政策",
-      "published": "2026-09-14",
-      "body_snippet": "牛市早报｜国常会：进一步完善算力基础设施，国新办下午举行国务院政策例行吹风会 thepaper.cn",
-      "_query_boost": 0,
-      "lane": "attend",
+      "title": "工业和信息化部等五部门组织开展2026年度国家绿色算力设施推荐工作",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_cbd9a41d5f834b9a928205c30766f028.html",
+      "source": "工信部-新闻",
+      "published": "2026-09-21",
+      "body_snippet": "",
+      "category": "技术",
+      "lane": "silent",
       "signals": [
-        "🏛️",
         "🔬"
       ],
-      "is_deep_read": true,
+      "is_deep_read": false,
       "compass_triggered": [
         "c1",
         "c2",
         "c3"
       ],
-      "summary_cn": "进一步完善算力基础设施，国新办下午举行国务院政策例行吹风会 - thepaper.cn 牛市早报｜国常会：进一步完善算力基础设施，国新办下午举行国务院政策例行吹风会 thepaper.cn",
+      "summary_cn": "工业和信息化部等五部门组织开展2026年度国家绿色算力设施推荐工作 ",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
+      "title": "通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 - news.aibase.com",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zZHJyOFRTN1gyY1FqZDFTTDkzREMxVG95UnExTmxJd0dxM1B3UncyalFPWGtHQktNZEJUWXJGYXdYUnZ6WmFmcVFFRks4UQ?oc=5",
+      "source": "news.aibase.com",
+      "category": "技术",
+      "published": "2026-09-21",
+      "body_snippet": "通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 news.aibase.com",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "7B 参数实现文生图与图像编辑一体化 - news.aibase.com 通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 news.aibase.com",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -37,13 +58,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
-      "title": "智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 - AIBase",
+      "id": "raw-006",
+      "title": "智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 - news.aibase.com",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15UHZRX01DaTk4a0o3WVBKMTQ3dEZFOGdpWVV5eFptd3RmZ0Zzb244SHloVEEydUF2VFVXLWhCMEhFTlgwQmhjZ2NWWUhJQQ?oc=5",
-      "source": "AIBase",
+      "source": "news.aibase.com",
       "category": "竞品",
       "published": "2026-09-18",
-      "body_snippet": "智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 AIBase",
+      "body_snippet": "智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 news.aibase.com",
       "_query_boost": 30,
       "lane": "attend",
       "signals": [
@@ -55,7 +76,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "速度飙至200tokens/s，国产算力再提速 - AIBase 智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 AIBase",
+      "summary_cn": "速度飙至200tokens/s，国产算力再提速 - news.aibase.com 智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 news.aibase.com",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -65,17 +86,18 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
-      "title": "Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CVHFnTzVhOHZUM0JmZGV1dl90SkwyUWhvNWNVY24zRnI1QTl1OUY0dkpJYVBuX2VhU3dYLXNKZFQ4R29aQWVGZUVNTFpKcC03Vm9PWGJwV3RLdndySGJF?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-09-18",
-      "body_snippet": "Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 虎嗅",
+      "id": "raw-008",
+      "title": "模型服务商硅基流动完成近9亿元新融资 年内累计融资近29亿元 - 财新",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvVGZUZWZxRXF6cHBaM3YtMElMbzBjazVQNVo4ZHcwZzd2VUU5WVBMVEU0bjJyZXlUOWJMcm5ib19RTG84QkRPS3M0d2Y5OEJGVkd5cEpKaUdndDgw?oc=5",
+      "source": "财新",
+      "category": "竞品",
+      "published": "2026-09-20",
+      "body_snippet": "模型服务商硅基流动完成近9亿元新融资 年内累计融资近29亿元 财新",
       "_query_boost": 0,
-      "lane": "silent",
+      "lane": "attend",
       "signals": [
-        "🔬"
+        "⚔️",
+        "💰"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -83,58 +105,17 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 - 虎嗅 Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 虎",
-      "ppio_signal": null,
+      "summary_cn": "模型服务商硅基流动完成近9亿元新融资 年内累计融资近29亿元 - 财新 模型服务商硅基流动完成近9亿元新融资 年内累计融资近29亿元 财新",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
       "_classified_by": "rule"
     },
     {
       "id": "raw-009",
-      "title": "“算力赋能，产业拓界” 2026 安富利智慧科技生态圈论坛在深圳启幕 - OFweek",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zRktNc3BqMkJqN2JIaGRUN1JQWTJFRC11dlVMWDY5bkc4aEpwUDFQOFdpZFRUX3NsaXc3X3ViMm1OVnRVRUlVNjlWTWlZeUZackJmT0xUeGJrZUxVS1RJdzZ5RjVuMVREanJ6NlN3?oc=5",
-      "source": "OFweek",
-      "category": "监管",
-      "published": "2026-09-18",
-      "body_snippet": "“算力赋能，产业拓界” 2026 安富利智慧科技生态圈论坛在深圳启幕 OFweek",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "“算力赋能，产业拓界” 2026 安富利智慧科技生态圈论坛在深圳启幕 - OFweek “算力赋能，产业拓界” 2026 安富利智慧科技生态圈论坛在深圳启幕 O",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-010",
-      "title": "最高降价99%背后：小米首次公开模型推理优化技术报告 - 品玩",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wa2VsajVHN1FfWXlOWGlsdzBsTno2RVNVZkpEQUJsOFUzTGlFX0QwVndtWVRvbzdJM2ctV0lZeHBBdFdOLWpCZw?oc=5",
-      "source": "品玩",
-      "category": "技术",
-      "published": "2026-09-18",
-      "body_snippet": "最高降价99%背后：小米首次公开模型推理优化技术报告 品玩",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "最高降价99%背后：小米首次公开模型推理优化技术报告 - 品玩 最高降价99%背后：小米首次公开模型推理优化技术报告 品玩",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-011",
       "title": "【理响中国·领航未来】算力筑基：抢占智能时代制高点 - 京报网",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0VDdNSUdSV0NvX0ppZVEzT1VhVGkzNVlsMG9HQ29YRG5SSTJFcVBqcTdRajBnN3ZFRFJCMy1HdUlVWk1oX0ltdllKZ3lJWEczNmhjUEYwR0NOcEVBWU9jX29CQlc2ai04TVlJU3BIelZoZw?oc=5",
       "source": "京报网",
@@ -157,13 +138,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-012",
-      "title": "国家启动多宝体育官方计划，打造新一代AI算力与数据融合基础设施 - 体坛",
+      "id": "raw-010",
+      "title": "国家启动多宝体育官方计划，打造新一代AI算力与数据融合基础设施 - 体坛加",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05Y0JIZ2wxY3JjWWtmOWlXRFhKckM5emlHcmYzQ3RZRmtyb0hVRmhQMVJaMUtZbmJRVG1QNDhSZk9RMXo4T0duU242bFNHRW0xQ2JaajQ1X2hvX1UzZW1qMQ?oc=5",
-      "source": "体坛",
+      "source": "体坛加",
       "category": "政策",
       "published": "2026-09-16",
-      "body_snippet": "国家启动多宝体育官方计划，打造新一代AI算力与数据融合基础设施 体坛",
+      "body_snippet": "国家启动多宝体育官方计划，打造新一代AI算力与数据融合基础设施 体坛加",
       "_query_boost": 25,
       "lane": "silent",
       "signals": [
@@ -175,7 +156,80 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "国家启动多宝体育官方计划，打造新一代AI算力与数据融合基础设施 - 体坛 国家启动多宝体育官方计划，打造新一代AI算力与数据融合基础设施 体坛",
+      "summary_cn": "国家启动多宝体育官方计划，打造新一代AI算力与数据融合基础设施 - 体坛加 国家启动多宝体育官方计划，打造新一代AI算力与数据融合基础设施 体坛加",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-011",
+      "title": "万斯把数据中心抗议归因于缺电：美国电力要便宜到「不用计量」 - BlockBeats",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05R1o2eXhGV1ZFemlHeXZkWm5rV0V2OHhuMHVPZUo0NndrbThTY3Q4Nkw0R1BfeDg0ZWNLYlM0WFd2R19fVmVuNEt0WjZPeEQ2UHA4QUxn?oc=5",
+      "source": "BlockBeats",
+      "category": "海外",
+      "published": "2026-09-16",
+      "body_snippet": "万斯把数据中心抗议归因于缺电：美国电力要便宜到「不用计量」 BlockBeats",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "美国电力要便宜到「不用计量」 - BlockBeats 万斯把数据中心抗议归因于缺电：美国电力要便宜到「不用计量」 BlockBeats",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-012",
+      "title": "一张算力网如何炼成：透视 - QQ News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Md3dDRkU5ejdMTVdHUEZXQ2VBbnYzUHVzNkRJUGVoVXRDRXllM2ctZEJueUJkandad2x2bHFmMmw4RmJMRU9PRlEzMnZVUl9CYXFibmdB?oc=5",
+      "source": "QQ News",
+      "category": "政策",
+      "published": "2026-09-15",
+      "body_snippet": "一张算力网如何炼成：透视 QQ News",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "一张算力网如何炼成：透视 - QQ News 一张算力网如何炼成：透视 QQ News",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-013",
+      "title": "IDC评估中国AI算力管理平台：范式综合评分位列第一，四项关键维度获满分",
+      "url": "https://www.qbitai.com/2026/09/493109.html",
+      "source": "量子位",
+      "published": "2026-09-21",
+      "body_snippet": "",
+      "category": "技术",
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "IDC评估中国AI算力管理平台：范式综合评分位列第一，四项关键维度获满分 ",
       "ppio_signal": null,
       "_classified_by": "rule"
     },

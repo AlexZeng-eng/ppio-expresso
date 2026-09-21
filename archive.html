@@ -31,7 +31,7 @@
 </header>
 <main style="max-width:960px;margin:0 auto;padding:1.4rem 1.4rem 4rem">
   <h1 style="font-family:var(--mono);font-size:0.9rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink);margin:0 0 0.2rem">日报存档</h1>
-  <p style="font-family:var(--sans);font-size:0.82rem;color:var(--ink-mute);margin:0 0 1.4rem">共 90 天 · 最近更新 2026-09-20</p>
+  <p style="font-family:var(--sans);font-size:0.82rem;color:var(--ink-mute);margin:0 0 1.4rem">共 90 天 · 最近更新 2026-09-21</p>
 
   <!-- 30天趋势图 -->
   
@@ -63,6 +63,14 @@
       <th>日期</th><th>当日主线</th><th>信号</th><th>深度/总计</th><th>指数</th><th>风向</th>
     </tr></thead>
     <tbody><tr>
+      <td><a href="reports/2026-09-21.html">2026-09-21</a></td>
+      <td class="archive-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td>⚔️×1 💰×1 🔬×6</td>
+      <td>5 / 10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600">平稳</span></td>
+    </tr>
+<tr>
       <td><a href="reports/2026-09-20.html">2026-09-20</a></td>
       <td class="archive-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
       <td>🏛️×1 🔬×7</td>
@@ -773,14 +781,6 @@
       <td>5 / 10</td>
       <td>66<span style="color:#FFD500">-2</span></td>
       <td><span style="color:#0a0a0a;font-weight:600">升温</span></td>
-    </tr>
-<tr>
-      <td><a href="reports/2026-06-09.html">2026-06-09</a></td>
-      <td class="archive-mainline">顶层设计明确算力与AI战略布局，但中欧贸易战叠加AI备案向垂直行业延伸，为IPO带来合规与地缘双重变数。</td>
-      <td>🏛️×1 📜×2</td>
-      <td>3 / 4</td>
-      <td>68<span style="color:#0a0a0a">+2</span></td>
-      <td><span style="color:#0a0a0a;font-weight:600">升温</span></td>
     </tr></tbody>
   </table>
 </main>
@@ -788,11 +788,11 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script>
 (function() {
-  const dates = ["08-21","08-22","08-23","08-24","08-25","08-26","08-27","08-28","08-29","08-30","08-31","09-01","09-02","09-03","09-05","09-06","09-07","09-08","09-09","09-10","09-11","09-12","09-13","09-14","09-15","09-16","09-17","09-18","09-19","09-20"];
-  const attend = [6,5,4,7,2,4,4,5,7,4,5,2,3,3,4,2,2,4,4,3,2,2,1,1,2,3,3,4,4,3];
-  const index = [55,55,55,67,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55];
-  const policy = [4,3,3,3,2,4,4,4,4,3,4,3,3,3,3,2,2,4,4,3,3,3,3,3,3,3,3,4,3,3];
-  const compete = [3,3,2,3,3,3,2,2,2,2,2,2,2,3,2,2,3,4,3,2,2,2,2,2,2,3,2,2,2,2];
+  const dates = ["08-22","08-23","08-24","08-25","08-26","08-27","08-28","08-29","08-30","08-31","09-01","09-02","09-03","09-05","09-06","09-07","09-08","09-09","09-10","09-11","09-12","09-13","09-14","09-15","09-16","09-17","09-18","09-19","09-20","09-21"];
+  const attend = [5,4,7,2,4,4,5,7,4,5,2,3,3,4,2,2,4,4,3,2,2,1,1,2,3,3,4,4,3,5];
+  const index = [55,55,67,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55];
+  const policy = [3,3,3,2,4,4,4,4,3,4,3,3,3,3,2,2,4,4,3,3,3,3,3,3,3,3,4,3,3,2];
+  const compete = [3,2,3,3,3,2,2,2,2,2,2,2,3,2,2,3,4,3,2,2,2,2,2,2,3,2,2,2,2,3];
 
   const baseOpts = (label, color) => ({
     responsive: true, maintainAspectRatio: false,
