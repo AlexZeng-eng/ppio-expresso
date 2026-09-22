@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T05:27:40.014Z",
-  "date": "2026-09-21",
-  "date_label": "2026-09-21",
+  "generated_at": "2026-09-22T05:22:01.447Z",
+  "date": "2026-09-22",
+  "date_label": "2026-09-22",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
@@ -9,7 +9,7 @@
     "⚔️": 1,
     "💰": 1,
     "🌏": 0,
-    "🔬": 6
+    "🔬": 7
   },
   "speed_read": {
     "positive": [],
@@ -27,7 +27,7 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "通义千问开源 Qwen-Image-2.",
+      "title": "数据中心遭遇反对潮：全美二季度45个项目",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -43,6 +43,14 @@
     },
     {
       "id": "3",
+      "title": "通义千问开源 Qwen-Image-2.",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "4",
       "title": "模型服务商硅基流动完成近9亿元新融资 年",
       "policy_axis": 0,
       "competition_axis": 0.7,
@@ -50,16 +58,8 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "4",
-      "title": "万斯把数据中心抗议归因于缺电：美国电力要",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
       "id": "5",
-      "title": "AI Infra Summit: NVI",
+      "title": "万斯把数据中心抗议归因于缺电：美国电力要",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
