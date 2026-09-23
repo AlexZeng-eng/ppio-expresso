@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-22T05:22:01.447Z",
-  "date": "2026-09-22",
-  "date_label": "2026-09-22",
+  "generated_at": "2026-09-23T05:09:16.808Z",
+  "date": "2026-09-23",
+  "date_label": "2026-09-23",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
     "📜": 0,
-    "⚔️": 1,
-    "💰": 1,
+    "⚔️": 0,
+    "💰": 0,
     "🌏": 0,
-    "🔬": 7
+    "🔬": 8
   },
   "speed_read": {
     "positive": [],
@@ -17,8 +17,8 @@
   },
   "wind_indicators": {
     "policy_heat": 2,
-    "competitor_heat": 3,
-    "capital_heat": 3,
+    "competitor_heat": 2,
+    "capital_heat": 2,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
@@ -27,14 +27,6 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "数据中心遭遇反对潮：全美二季度45个项目",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "2",
       "title": "智谱发布 GLM-5.3-FlashX:",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -42,24 +34,8 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "3",
+      "id": "2",
       "title": "通义千问开源 Qwen-Image-2.",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "4",
-      "title": "模型服务商硅基流动完成近9亿元新融资 年",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "5",
-      "title": "万斯把数据中心抗议归因于缺电：美国电力要",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -71,8 +47,8 @@
     "delta": 0,
     "components": {
       "policy_tailwind": 0,
-      "competitive_pressure": -6,
-      "capital_sentiment": 5,
+      "competitive_pressure": 0,
+      "capital_sentiment": 0,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },

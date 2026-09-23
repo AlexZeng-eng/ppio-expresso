@@ -1,21 +1,20 @@
 {
-  "generated_at": "2026-09-22T05:22:01.410Z",
+  "generated_at": "2026-09-23T05:09:16.772Z",
   "week": "2026-W39",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 11,
-  "attend_count": 5,
-  "silent_count": 6,
+  "total_curated": 9,
+  "attend_count": 2,
+  "silent_count": 7,
   "items": [
     {
-      "id": "raw-003",
-      "title": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 - 潮起网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1wUjZJVkwyVUFETlJ1MkFhamJuaDZmcEtvNktYZDBKNzhZUFgwNGI1TVlKdUl4dTFXUFdsc0F3TTJWN3ZYdXM2eE1NN2tySXVvNzA1UVR3SEVnTHNuWU9BQUVhdw?oc=5",
-      "source": "潮起网",
-      "category": "政策",
-      "published": "2026-09-22",
-      "body_snippet": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 潮起网",
-      "_query_boost": 0,
+      "id": "raw-002",
+      "title": "工业和信息化部等五部门组织开展2026年度国家绿色算力设施推荐工作",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_cbd9a41d5f834b9a928205c30766f028.html",
+      "source": "工信部-新闻",
+      "published": "2026-09-23",
+      "body_snippet": "",
+      "category": "技术",
       "lane": "silent",
       "signals": [
         "🔬"
@@ -26,69 +25,18 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 - 潮起网 万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 潮起网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-004",
-      "title": "《2026年中国人工智能计算力发展评估报告》发布，智能体重塑算力基础设施，智能算力规模预计增长87.9% - 能源界",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rOUJ6MFhJRjkyNXFzTzRHbkJvSlh4NXNtVmVNMlFiNVFaeWFVTEdoMDFSQmZmVUxUUkRXSG5HYXdSTTlkeHBJS1ZPWmlhbGlzUTJBUFF0V1hmdEU?oc=5",
-      "source": "能源界",
-      "category": "政策",
-      "published": "2026-09-21",
-      "body_snippet": "《2026年中国人工智能计算力发展评估报告》发布，智能体重塑算力基础设施，智能算力规模预计增长87.9% 能源界",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "《2026年中国人工智能计算力发展评估报告》发布，智能体重塑算力基础设施，智能算力规模预计增长87.9% - 能源界 《2026年中国人工智能计算力发展评估报告",
+      "summary_cn": "工业和信息化部等五部门组织开展2026年度国家绿色算力设施推荐工作 ",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-005",
-      "title": "数据中心遭遇反对潮：全美二季度45个项目受阻 规模达680亿美元 - cls.cn",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE16TXN2V2tXVWFMa0RCUkJrc2VOaXZGMTliWUhCWWJ4OFNkVFhsdWFFWU1TNFNkd2d6cnh2RHhSX0RiYTRoWnc?oc=5",
-      "source": "cls.cn",
-      "category": "海外",
-      "published": "2026-09-20",
-      "body_snippet": "数据中心遭遇反对潮：全美二季度45个项目受阻 规模达680亿美元 cls.cn",
-      "_query_boost": 25,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "全美二季度45个项目受阻 规模达680亿美元 - cls.cn 数据中心遭遇反对潮：全美二季度45个项目受阻 规模达680亿美元 cls.cn",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-006",
-      "title": "智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 - AIBase",
+      "title": "智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 - news.aibase.com",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15UHZRX01DaTk4a0o3WVBKMTQ3dEZFOGdpWVV5eFptd3RmZ0Zzb244SHloVEEydUF2VFVXLWhCMEhFTlgwQmhjZ2NWWUhJQQ?oc=5",
-      "source": "AIBase",
+      "source": "news.aibase.com",
       "category": "竞品",
       "published": "2026-09-18",
-      "body_snippet": "智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 AIBase",
+      "body_snippet": "智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 news.aibase.com",
       "_query_boost": 30,
       "lane": "attend",
       "signals": [
@@ -100,7 +48,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "速度飙至200tokens/s，国产算力再提速 - AIBase 智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 AIBase",
+      "summary_cn": "速度飙至200tokens/s，国产算力再提速 - news.aibase.com 智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 news.aibase.com",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -110,13 +58,36 @@
       "_classified_by": "rule"
     },
     {
+      "id": "raw-006",
+      "title": "阿里云栖大会亮出最激进AI蓝图： 5 万亿至10 万亿参数模型在途，自研真武V900 芯片算力翻三倍 - news.aibase.com",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwWWhjT2hBbkZwWWZVOEZVbERxUjcxRGhOZmwxUVhXdXlCZE5HUm9uN1QzNjVrVmY0MF94cXZkNWd4c01QeUF6dm5MU3ZFQQ?oc=5",
+      "source": "news.aibase.com",
+      "category": "技术",
+      "published": "2026-09-22",
+      "body_snippet": "阿里云栖大会亮出最激进AI蓝图： 5 万亿至10 万亿参数模型在途，自研真武V900 芯片算力翻三倍 news.aibase.com",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "阿里云栖大会亮出最激进AI蓝图： 5 万亿至10 万亿参数模型在途，自研真武V900 芯片算力翻三倍 - news.aibase.com 阿里云栖大会亮出最激进",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
       "id": "raw-007",
-      "title": "通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 - AIBase",
+      "title": "通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 - news.aibase.com",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zZHJyOFRTN1gyY1FqZDFTTDkzREMxVG95UnExTmxJd0dxM1B3UncyalFPWGtHQktNZEJUWXJGYXdYUnZ6WmFmcVFFRks4UQ?oc=5",
-      "source": "AIBase",
+      "source": "news.aibase.com",
       "category": "技术",
       "published": "2026-09-21",
-      "body_snippet": "通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 AIBase",
+      "body_snippet": "通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 news.aibase.com",
       "_query_boost": 20,
       "lane": "attend",
       "signals": [
@@ -128,7 +99,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "7B 参数实现文生图与图像编辑一体化 - AIBase 通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 AIBase",
+      "summary_cn": "7B 参数实现文生图与图像编辑一体化 - news.aibase.com 通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 news.aibase.com",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -139,6 +110,98 @@
     },
     {
       "id": "raw-008",
+      "title": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWFE4NFA4WlBWUDF3SUtRZnBFRTlFSzlfYTY0SEdQSldIMERWSV9TYVFhN256SGVmV09XVnNwQ2c5QkRENndwNmhwTjFQd0xfUTczdUFUeno1c2ZOdjh4cGVEZGxuaUhTR0VHLXNJVjQyaC1mOEJTY3JZcnBaZm0zTE9RdWRwa05zSG1hcg?oc=5",
+      "source": "搜狐网",
+      "category": "政策",
+      "published": "2026-09-23",
+      "body_snippet": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 搜狐网",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 - 搜狐网 万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 搜狐网",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-009",
+      "title": "2026北京互联网大会 | 算力筑基 智启新程，AI算力创新与基础设施论坛成功举办 - 通信世界网",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mUlJDalpJU1BxNl9zYWhGdThxdExwUEkxRWlaTlNSS19YdGd2ZlFGdTdObloxZTNVcHBOUldEdl9kQkJna2xsWXZWaHc4bXJoNWc?oc=5",
+      "source": "通信世界网",
+      "category": "政策",
+      "published": "2026-09-22",
+      "body_snippet": "2026北京互联网大会 | 算力筑基 智启新程，AI算力创新与基础设施论坛成功举办 通信世界网",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "2026北京互联网大会 | 算力筑基 智启新程，AI算力创新与基础设施论坛成功举办 - 通信世界网 2026北京互联网大会 | 算力筑基 智启新程，AI算力创新",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
+      "title": "《2026年中国人工智能计算力发展评估报告》发布，智能体重塑算力基础设施，智能算力规模预计增长87.9% - nengyuanjie.net",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rOUJ6MFhJRjkyNXFzTzRHbkJvSlh4NXNtVmVNMlFiNVFaeWFVTEdoMDFSQmZmVUxUUkRXSG5HYXdSTTlkeHBJS1ZPWmlhbGlzUTJBUFF0V1hmdEU?oc=5",
+      "source": "nengyuanjie.net",
+      "category": "政策",
+      "published": "2026-09-21",
+      "body_snippet": "《2026年中国人工智能计算力发展评估报告》发布，智能体重塑算力基础设施，智能算力规模预计增长87.9% nengyuanjie.net",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "《2026年中国人工智能计算力发展评估报告》发布，智能体重塑算力基础设施，智能算力规模预计增长87.9% - nengyuanjie.net 《2026年中国人",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-011",
+      "title": "Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CVHFnTzVhOHZUM0JmZGV1dl90SkwyUWhvNWNVY24zRnI1QTl1OUY0dkpJYVBuX2VhU3dYLXNKZFQ4R29aQWVGZUVNTFpKcC03Vm9PWGJwV3RLdndySGJF?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-09-18",
+      "body_snippet": "Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 虎嗅网",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 - 虎嗅网 Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 ",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-015",
       "title": "从“单芯追赶”到“系统突围”：国产AI算力芯片选型指南 - 驱动之家",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9xNExBSWFfeGFoYUtSQnJ2WG52X0FUNFpSZmF5MjlYa3IzMm1CdzVsOUhacF81eVNfV2hveko5V29TbTAyVU85QS1VdV9qejFvT2ViaF8zWEQ?oc=5",
       "source": "驱动之家",
@@ -157,131 +220,6 @@
         "c3"
       ],
       "summary_cn": "从“单芯追赶”到“系统突围”：国产AI算力芯片选型指南 - 驱动之家 从“单芯追赶”到“系统突围”：国产AI算力芯片选型指南 驱动之家",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-009",
-      "title": "京杭深位列中国AI算力城市排名前三 - zaobao.com.sg",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOa1V4LXRLZmNfTnlWS0RxVm8wRGVhSlpiU0JRSTRyR2JVdTN2OWFfTmc5TEZhaFBpNXhNTk16bTFSVk1oNkJ0aXVwVlYwTzloNnZGNTE0SkhxWGpHbTdMNXl5dnJQbXNvQ01oMVVHVEFfZVg1VjV1Xy1XVDNmVWZZNHZyTE03dw?oc=5",
-      "source": "zaobao.com.sg",
-      "category": "海外",
-      "published": "2026-09-21",
-      "body_snippet": "京杭深位列中国AI算力城市排名前三 zaobao.com.sg",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "京杭深位列中国AI算力城市排名前三 - zaobao.com.sg 京杭深位列中国AI算力城市排名前三 zaobao.com.sg",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-010",
-      "title": "模型服务商硅基流动完成近9亿元新融资 年内累计融资近29亿元 - 财新",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvVGZUZWZxRXF6cHBaM3YtMElMbzBjazVQNVo4ZHcwZzd2VUU5WVBMVEU0bjJyZXlUOWJMcm5ib19RTG84QkRPS3M0d2Y5OEJGVkd5cEpKaUdndDgw?oc=5",
-      "source": "财新",
-      "category": "竞品",
-      "published": "2026-09-20",
-      "body_snippet": "模型服务商硅基流动完成近9亿元新融资 年内累计融资近29亿元 财新",
-      "_query_boost": 0,
-      "lane": "attend",
-      "signals": [
-        "⚔️",
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "模型服务商硅基流动完成近9亿元新融资 年内累计融资近29亿元 - 财新 模型服务商硅基流动完成近9亿元新融资 年内累计融资近29亿元 财新",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-011",
-      "title": "【理响中国·领航未来】算力筑基：抢占智能时代制高点 - 京报网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0VDdNSUdSV0NvX0ppZVEzT1VhVGkzNVlsMG9HQ29YRG5SSTJFcVBqcTdRajBnN3ZFRFJCMy1HdUlVWk1oX0ltdllKZ3lJWEczNmhjUEYwR0NOcEVBWU9jX29CQlc2ai04TVlJU3BIelZoZw?oc=5",
-      "source": "京报网",
-      "category": "政策",
-      "published": "2026-09-16",
-      "body_snippet": "【理响中国·领航未来】算力筑基：抢占智能时代制高点 京报网",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "【理响中国·领航未来】算力筑基：抢占智能时代制高点 - 京报网 【理响中国·领航未来】算力筑基：抢占智能时代制高点 京报网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "万斯把数据中心抗议归因于缺电：美国电力要便宜到「不用计量」 - BlockBeats",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05R1o2eXhGV1ZFemlHeXZkWm5rV0V2OHhuMHVPZUo0NndrbThTY3Q4Nkw0R1BfeDg0ZWNLYlM0WFd2R19fVmVuNEt0WjZPeEQ2UHA4QUxn?oc=5",
-      "source": "BlockBeats",
-      "category": "海外",
-      "published": "2026-09-16",
-      "body_snippet": "万斯把数据中心抗议归因于缺电：美国电力要便宜到「不用计量」 BlockBeats",
-      "_query_boost": 25,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "美国电力要便宜到「不用计量」 - BlockBeats 万斯把数据中心抗议归因于缺电：美国电力要便宜到「不用计量」 BlockBeats",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-013",
-      "title": "AI算力之争不靠堆卡！浪潮信息捅破智算「能力天花板」，还瓦解了「产能焦虑」",
-      "url": "https://www.qbitai.com/2026/09/493363.html",
-      "source": "量子位",
-      "published": "2026-09-22",
-      "body_snippet": "",
-      "category": "技术",
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "AI算力之争不靠堆卡！浪潮信息捅破智算「能力天花板」，还瓦解了「产能焦虑」 ",
       "ppio_signal": null,
       "_classified_by": "rule"
     }
