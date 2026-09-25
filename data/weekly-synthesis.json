@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T05:21:00.701Z",
-  "date": "2026-09-24",
-  "date_label": "2026-09-24",
+  "generated_at": "2026-09-25T05:22:30.147Z",
+  "date": "2026-09-25",
+  "date_label": "2026-09-25",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
@@ -9,7 +9,7 @@
     "⚔️": 0,
     "💰": 1,
     "🌏": 0,
-    "🔬": 8
+    "🔬": 7
   },
   "speed_read": {
     "positive": [],
@@ -35,7 +35,7 @@
     },
     {
       "id": "2",
-      "title": "智谱发布 GLM-5.3-FlashX:",
+      "title": "通义千问开源 Qwen-Image-2.",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,

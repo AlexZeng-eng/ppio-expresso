@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T05:21:00.664Z",
+  "generated_at": "2026-09-25T05:22:30.110Z",
   "week": "2026-W39",
   "classifier": "rule-based",
   "total_raw": 15,
@@ -8,11 +8,11 @@
   "silent_count": 7,
   "items": [
     {
-      "id": "raw-002",
+      "id": "raw-001",
       "title": "工业和信息化部等五部门组织开展2026年度国家绿色算力设施推荐工作",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_cbd9a41d5f834b9a928205c30766f028.html",
       "source": "工信部-新闻",
-      "published": "2026-09-24",
+      "published": "2026-09-25",
       "body_snippet": "",
       "category": "技术",
       "lane": "silent",
@@ -30,7 +30,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
+      "id": "raw-003",
       "title": "融资租赁政策第三次扩围 将推动更多首创项目落地 科创算力 高端装备 在临港都能租出去",
       "url": "https://www.shanghai.gov.cn/nw4411/20260924/27c309bf89c7437ea9e8478a7ac19f23.html",
       "source": "上海市政府-动态",
@@ -55,7 +55,7 @@
     {
       "id": "raw-006",
       "title": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeFpiWHlndHFfNlU1cHpQaVFwX2hMejh1ZDE5MVAwa2tRVTVWUkFTcVJMV0xtcmhQTzU1bEREdXQxWFozeHgzYUxQZUREM0RBXzdRZzNudVh6d2NVV2xYZlBmaFFiVHRMMWRaR0xDMUg0aUJmZjlNeUEweXlySU9FWXVIZS1VZ1E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRVdBZHNSd050OF9zajlDaW9CeGtwLW1zQ0d3NUd5U2RXSUdSZHBaVEhmSXZtMzQwa24wTmZHTDZHMnctNHlfdjhkakN1blpOZ2lzSVE4WUxkcENCT3lVNFhhV2k5Rnc2YU5TaXRBNFJfTGRKV3cySUFQN3pXdnl6amRXTGV1dGFDOTNfVC1BZ3p2LTdNNnBHbUtpSjBVMmJFOGVPeEp0M3d1M3dpWURXbE1LTmdubmlRLVNfOU50MmJRZ0NZRFhiNVB4NzB5ejRKMWlqQUtUY21FNnhyZ0lN?oc=5",
       "source": "新浪财经",
       "category": "海外",
       "published": "2026-09-23",
@@ -82,40 +82,12 @@
     },
     {
       "id": "raw-007",
-      "title": "智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15UHZRX01DaTk4a0o3WVBKMTQ3dEZFOGdpWVV5eFptd3RmZ0Zzb244SHloVEEydUF2VFVXLWhCMEhFTlgwQmhjZ2NWWUhJQQ?oc=5",
-      "source": "AIBase",
-      "category": "竞品",
-      "published": "2026-09-18",
-      "body_snippet": "智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 AIBase",
-      "_query_boost": 30,
-      "lane": "attend",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "速度飙至200tokens/s，国产算力再提速 - AIBase 智谱发布 GLM-5.3-FlashX:速度飙至200tokens/s，国产算力再提速 AIBase",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-008",
-      "title": "Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CVHFnTzVhOHZUM0JmZGV1dl90SkwyUWhvNWNVY24zRnI1QTl1OUY0dkpJYVBuX2VhU3dYLXNKZFQ4R29aQWVGZUVNTFpKcC03Vm9PWGJwV3RLdndySGJF?oc=5",
-      "source": "虎嗅网",
+      "title": "阿里云栖大会亮出最激进AI蓝图： 5 万亿至10 万亿参数模型在途，自研真武V900 芯片算力翻三倍 - news.aibase.com",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwWWhjT2hBbkZwWWZVOEZVbERxUjcxRGhOZmwxUVhXdXlCZE5HUm9uN1QzNjVrVmY0MF94cXZkNWd4c01QeUF6dm5MU3ZFQQ?oc=5",
+      "source": "news.aibase.com",
       "category": "技术",
-      "published": "2026-09-18",
-      "body_snippet": "Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 虎嗅网",
+      "published": "2026-09-22",
+      "body_snippet": "阿里云栖大会亮出最激进AI蓝图： 5 万亿至10 万亿参数模型在途，自研真武V900 芯片算力翻三倍 news.aibase.com",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
@@ -127,12 +99,40 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 - 虎嗅网 Anthropic与OpenAI转向小规模AI数据中心交易以快速获取算力 ",
+      "summary_cn": "阿里云栖大会亮出最激进AI蓝图： 5 万亿至10 万亿参数模型在途，自研真武V900 芯片算力翻三倍 - news.aibase.com 阿里云栖大会亮出最激进",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
+      "id": "raw-008",
+      "title": "通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 - news.aibase.com",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zZHJyOFRTN1gyY1FqZDFTTDkzREMxVG95UnExTmxJd0dxM1B3UncyalFPWGtHQktNZEJUWXJGYXdYUnZ6WmFmcVFFRks4UQ?oc=5",
+      "source": "news.aibase.com",
+      "category": "技术",
+      "published": "2026-09-21",
+      "body_snippet": "通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 news.aibase.com",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "7B 参数实现文生图与图像编辑一体化 - news.aibase.com 通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 news.aibase.com",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
       "title": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 - OFweek",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WM09jdmJRUlZWamhHMHFmdG1sQTlxSU1zdjhkQ2xyRkFsTEs4YWpXODZpOW1ublNZZ2RUYmlQdkFkZHZVZUFiV3UyNVhGN2VwMjNoRHZLbHJ6dlgySTNSTGVMQmlXUVowcFZnY3VDMkY?oc=5",
       "source": "OFweek",
@@ -155,14 +155,14 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-012",
-      "title": "阿里云栖大会亮出最激进AI蓝图： 5 万亿至10 万亿参数模型在途，自研真武V900 芯片算力翻三倍 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwWWhjT2hBbkZwWWZVOEZVbERxUjcxRGhOZmwxUVhXdXlCZE5HUm9uN1QzNjVrVmY0MF94cXZkNWd4c01QeUF6dm5MU3ZFQQ?oc=5",
-      "source": "AIBase",
-      "category": "技术",
+      "id": "raw-011",
+      "title": "2026北京互联网大会 | 算力筑基 智启新程，AI算力创新与基础设施论坛成功举办 - 通信世界网",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mUlJDalpJU1BxNl9zYWhGdThxdExwUEkxRWlaTlNSS19YdGd2ZlFGdTdObloxZTNVcHBOUldEdl9kQkJna2xsWXZWaHc4bXJoNWc?oc=5",
+      "source": "通信世界网",
+      "category": "政策",
       "published": "2026-09-22",
-      "body_snippet": "阿里云栖大会亮出最激进AI蓝图： 5 万亿至10 万亿参数模型在途，自研真武V900 芯片算力翻三倍 AIBase",
-      "_query_boost": 0,
+      "body_snippet": "2026北京互联网大会 | 算力筑基 智启新程，AI算力创新与基础设施论坛成功举办 通信世界网",
+      "_query_boost": 25,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -173,12 +173,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "阿里云栖大会亮出最激进AI蓝图： 5 万亿至10 万亿参数模型在途，自研真武V900 芯片算力翻三倍 - AIBase 阿里云栖大会亮出最激进AI蓝图： 5 万",
+      "summary_cn": "2026北京互联网大会 | 算力筑基 智启新程，AI算力创新与基础设施论坛成功举办 - 通信世界网 2026北京互联网大会 | 算力筑基 智启新程，AI算力创新",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-013",
+      "id": "raw-012",
       "title": "《2026年中国人工智能计算力发展评估报告》发布，智能体重塑算力基础设施，智能算力规模预计增长87.9% - 能源界",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rOUJ6MFhJRjkyNXFzTzRHbkJvSlh4NXNtVmVNMlFiNVFaeWFVTEdoMDFSQmZmVUxUUkRXSG5HYXdSTTlkeHBJS1ZPWmlhbGlzUTJBUFF0V1hmdEU?oc=5",
       "source": "能源界",
@@ -201,7 +201,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-014",
+      "id": "raw-013",
       "title": "数据中心遭遇反对潮：全美二季度45个项目受阻 规模达680亿美元 - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE16TXN2V2tXVWFMa0RCUkJrc2VOaXZGMTliWUhCWWJ4OFNkVFhsdWFFWU1TNFNkd2d6cnh2RHhSX0RiYTRoWnc?oc=5",
       "source": "财联社",
@@ -229,13 +229,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-015",
-      "title": "广东移动打出“组合拳”：“网络+算力+智能”激发产业新动能 - 21jingji.com",
+      "id": "raw-014",
+      "title": "广东移动打出“组合拳”：“网络+算力+智能”激发产业新动能 - 21财经",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHVWbWJIX3FocDZQMFEtazRTZjA4Z3M0TEpFY3JMMXZtaXp3ZHdhVmRnZ2xIU0QwQnZFeEZfRVpUb2dsc3FhMG9aMU9WWko2VnppaFBqX3Q5dWtEMlJ6bllaZ0tUd3ItV2k4LW81TUZ6a1VyLTY2blZBd3JCSUlwbXZSVEFIcmgxT2s4REkwWDVXbHVP?oc=5",
-      "source": "21jingji.com",
+      "source": "21财经",
       "category": "政策",
       "published": "2026-09-21",
-      "body_snippet": "广东移动打出“组合拳”：“网络+算力+智能”激发产业新动能 21jingji.com",
+      "body_snippet": "广东移动打出“组合拳”：“网络+算力+智能”激发产业新动能 21财经",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
@@ -247,7 +247,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "广东移动打出“组合拳”：“网络+算力+智能”激发产业新动能 - 21jingji.com 广东移动打出“组合拳”：“网络+算力+智能”激发产业新动能 21jin",
+      "summary_cn": "广东移动打出“组合拳”：“网络+算力+智能”激发产业新动能 - 21财经 广东移动打出“组合拳”：“网络+算力+智能”激发产业新动能 21财经",
       "ppio_signal": null,
       "_classified_by": "rule"
     }
