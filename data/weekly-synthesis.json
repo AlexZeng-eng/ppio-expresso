@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-25T05:22:30.147Z",
-  "date": "2026-09-25",
-  "date_label": "2026-09-25",
+  "generated_at": "2026-09-26T05:26:17.534Z",
+  "date": "2026-09-26",
+  "date_label": "2026-09-26",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
     "📜": 0,
     "⚔️": 0,
-    "💰": 1,
-    "🌏": 0,
-    "🔬": 7
+    "💰": 2,
+    "🌏": 1,
+    "🔬": 6
   },
   "speed_read": {
     "positive": [],
@@ -19,7 +19,7 @@
     "policy_heat": 2,
     "competitor_heat": 2,
     "capital_heat": 3,
-    "overseas_heat": 2,
+    "overseas_heat": 3,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
@@ -27,15 +27,15 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "德州或将转向蓝营，关键看民主党能否借力民",
-      "policy_axis": 0,
+      "title": "习近平论确保人工智能安全、可靠、可控 -",
+      "policy_axis": 0.6,
       "competition_axis": 0.1,
-      "impact_score": 2,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
       "id": "2",
-      "title": "通义千问开源 Qwen-Image-2.",
+      "title": "德州或将转向蓝营，关键看民主党能否借力民",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -56,9 +56,9 @@
     "components": {
       "policy_tailwind": 0,
       "competitive_pressure": 0,
-      "capital_sentiment": 5,
+      "capital_sentiment": 10,
       "regulatory_risk": 0,
-      "overseas_headwind": 0
+      "overseas_headwind": -4
     },
     "interpretation": "规则估算，仅供参考"
   },
