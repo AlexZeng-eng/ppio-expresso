@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-26T05:26:17.534Z",
-  "date": "2026-09-26",
-  "date_label": "2026-09-26",
+  "generated_at": "2026-09-27T05:42:51.630Z",
+  "date": "2026-09-27",
+  "date_label": "2026-09-27",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
     "📜": 0,
     "⚔️": 0,
-    "💰": 2,
+    "💰": 0,
     "🌏": 1,
-    "🔬": 6
+    "🔬": 8
   },
   "speed_read": {
     "positive": [],
@@ -18,7 +18,7 @@
   "wind_indicators": {
     "policy_heat": 2,
     "competitor_heat": 2,
-    "capital_heat": 3,
+    "capital_heat": 2,
     "overseas_heat": 3,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
@@ -27,14 +27,6 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "习近平论确保人工智能安全、可靠、可控 -",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "2",
       "title": "德州或将转向蓝营，关键看民主党能否借力民",
       "policy_axis": 0,
       "competition_axis": 0.1,
@@ -42,8 +34,8 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "3",
-      "title": "数据中心遭遇反对潮：全美二季度45个项目",
+      "id": "2",
+      "title": "通义千问开源 Qwen-Image-2.",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -56,7 +48,7 @@
     "components": {
       "policy_tailwind": 0,
       "competitive_pressure": 0,
-      "capital_sentiment": 10,
+      "capital_sentiment": 0,
       "regulatory_risk": 0,
       "overseas_headwind": -4
     },

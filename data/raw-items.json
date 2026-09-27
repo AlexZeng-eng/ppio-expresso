@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-26T05:26:17.425Z",
+  "generated_at": "2026-09-27T05:42:51.520Z",
   "week": "2026-W40",
   "date_range": {
-    "from": "2026-09-19",
-    "to": "2026-09-26"
+    "from": "2026-09-20",
+    "to": "2026-09-27"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -28,75 +28,34 @@
     },
     {
       "id": "raw-003",
-      "title": "习近平论确保人工智能安全、可靠、可控 - taizhou.gov.cn",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObDAwTTBTZ0d2emNKRmJYWFAxOUV6N01DOFJDakd0VTNjWnVhbzhlVE9EZVdxU2VBS1BqVUtuOHl2OXJibmVHMExsX0h5S0lsOVcxQWFwSUlGTThyOVdiSXFrdzJYUGFZZ0UwazJhcUlfbTlQUExhckx6VVJTNDI2QUp3dF9mQWlDUUNvODhkN3RzMGE1YS05VE0tYUN0eDQ3czlKTg?oc=5",
-      "source": "taizhou.gov.cn",
-      "category": "政策",
-      "published": "2026-09-20",
-      "body_snippet": "习近平论确保人工智能安全、可靠、可控 taizhou.gov.cn",
-      "_query_boost": 50
+      "title": "工业和信息化部等五部门组织开展2026年度国家绿色算力设施推荐工作",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_cbd9a41d5f834b9a928205c30766f028.html",
+      "source": "工信部-新闻",
+      "published": "2026-09-27",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-004",
-      "title": "融资租赁政策第三次扩围 将推动更多首创项目落地 科创算力 高端装备 在临港都能租出去",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260924/27c309bf89c7437ea9e8478a7ac19f23.html",
-      "source": "上海市政府-动态",
-      "published": "2026-09-24",
+      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
+      "source": "工信部-新闻",
+      "published": "2026-09-27",
       "body_snippet": "",
-      "category": "政策"
+      "category": "技术"
     },
     {
       "id": "raw-005",
-      "title": "以光电技术赋能AI算力：亨通何以闪耀2026 PT展？ - 光通信Pro",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzQ0otcUtObWkxUGhEMlN4LW93UzhHU3V1T3BxX1VUcHotZ2s5c3hveDJtaUFtQUlEenZobHg5WmFEWTkzR2U3cUNRNzRtN3Juc1hQWg?oc=5",
-      "source": "光通信Pro",
-      "category": "政策",
-      "published": "2026-09-24",
-      "body_snippet": "以光电技术赋能AI算力：亨通何以闪耀2026 PT展？ 光通信Pro",
-      "_query_boost": 30
+      "title": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 - finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQ0ZQaVhNdnpYOEhCUWI2VXdhSnFYYW5rSTlhaU1sMWdfX1p5Y3g5cUFTUUpjanRBOEliMmxycWV4WXBwcjI1T2J4R0V1WjVYaldUS1BZaktxX2RGOFZudGYzVWZUZ1Q3SDdZM2JwVzU0VldjcnRobjBVYUhTYmpqTXp6ZHA1V3M5WW05Y0kzMnRMaEZEVkJvSE5JTlNHT1RfVVFNZ2tDU3pvNWNVSjhUNUNnQTJHYV9WVzdiNEd5Tjd1dFo0c3gzMlZsZUtiUUJWSnF3VFYzTVFmSnNFUFI0?oc=5",
+      "source": "finance.sina.com.cn",
+      "category": "海外",
+      "published": "2026-09-23",
+      "body_snippet": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 finance.sina.com.cn",
+      "_query_boost": 25
     },
     {
       "id": "raw-006",
-      "title": "国家级基金、央地国资入股，硅基流动递表港交所后又融两轮 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOGxIS192ZXlOWTVUMWI1b1JmZkhOMWc0dlAxYmhXQTZ3NTBYMFlYUmtTSGdWYXpzOWJ6dkxRbkNmNEk3U2MtQlZ6YTAwUTU2a1NiN01DQjNGVEVKRVYtTUJWNVpVOEdqLUJsc0Vuc2pMZXZGUm5GVlpjeS1JVlUyNzBVQ3FyRXRJSjdKLS1sVQ?oc=5",
-      "source": "21财经",
-      "category": "竞品",
-      "published": "2026-09-21",
-      "body_snippet": "国家级基金、央地国资入股，硅基流动递表港交所后又融两轮 21财经",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-007",
-      "title": "中美芯片博弈升级：美国AI公司CEO提议限制先进AI芯片出口，中国大模型加速国产算力替代 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XZ0syZHhjbTQxR0h2NnlfU3REUGtCMlc2MjF0WFFtZWRaUU82bWdudEFHTUF0Q1B0bFo3YjNiZ3NhMFRKTGxrcnIzSnRWYXFLRFJJeA?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-09-26",
-      "body_snippet": "中美芯片博弈升级：美国AI公司CEO提议限制先进AI芯片出口，中国大模型加速国产算力替代 虎嗅网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-008",
-      "title": "中国移动副总经理张冬：强网兴算筑牢数智底座 智汇生态共创美好未来 - 飞象网",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYTVJOOWJPT0Q4YTVmQ1ZhcTJfNDdCODhzb3VySW5JbWxWUFR4N09uYV8ySEE3R3dVTnI0Y1ljZW9Wc3c1WWNiSnA1aw?oc=5",
-      "source": "飞象网",
-      "category": "政策",
-      "published": "2026-09-23",
-      "body_snippet": "中国移动副总经理张冬：强网兴算筑牢数智底座 智汇生态共创美好未来 飞象网",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-009",
-      "title": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRVdBZHNSd050OF9zajlDaW9CeGtwLW1zQ0d3NUd5U2RXSUdSZHBaVEhmSXZtMzQwa24wTmZHTDZHMnctNHlfdjhkakN1blpOZ2lzSVE4WUxkcENCT3lVNFhhV2k5Rnc2YU5TaXRBNFJfTGRKV3cySUFQN3pXdnl6amRXTGV1dGFDOTNfVC1BZ3p2LTdNNnBHbUtpSjBVMmJFOGVPeEp0M3d1M3dpWURXbE1LTmdubmlRLVNfOU50MmJRZ0NZRFhiNVB4NzB5ejRKMWlqQUtUY21FNnhyZ0lN?oc=5",
-      "source": "新浪财经",
-      "category": "海外",
-      "published": "2026-09-23",
-      "body_snippet": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 新浪财经",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-010",
       "title": "2026北京互联网大会 | 算力筑基 智启新程，AI算力创新与基础设施论坛成功举办 - 通信世界网",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mUlJDalpJU1BxNl9zYWhGdThxdExwUEkxRWlaTlNSS19YdGd2ZlFGdTdObloxZTNVcHBOUldEdl9kQkJna2xsWXZWaHc4bXJoNWc?oc=5",
       "source": "通信世界网",
@@ -106,7 +65,7 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-011",
+      "id": "raw-007",
       "title": "《2026年中国人工智能计算力发展评估报告》发布，智能体重塑算力基础设施，智能算力规模预计增长87.9% - 能源界",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rOUJ6MFhJRjkyNXFzTzRHbkJvSlh4NXNtVmVNMlFiNVFaeWFVTEdoMDFSQmZmVUxUUkRXSG5HYXdSTTlkeHBJS1ZPWmlhbGlzUTJBUFF0V1hmdEU?oc=5",
       "source": "能源界",
@@ -116,27 +75,17 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-012",
-      "title": "数据中心遭遇反对潮：全美二季度45个项目受阻 规模达680亿美元 - cls.cn",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE16TXN2V2tXVWFMa0RCUkJrc2VOaXZGMTliWUhCWWJ4OFNkVFhsdWFFWU1TNFNkd2d6cnh2RHhSX0RiYTRoWnc?oc=5",
-      "source": "cls.cn",
-      "category": "海外",
-      "published": "2026-09-20",
-      "body_snippet": "数据中心遭遇反对潮：全美二季度45个项目受阻 规模达680亿美元 cls.cn",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-013",
-      "title": "广东移动打出“组合拳”：“网络+算力+智能”激发产业新动能 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHVWbWJIX3FocDZQMFEtazRTZjA4Z3M0TEpFY3JMMXZtaXp3ZHdhVmRnZ2xIU0QwQnZFeEZfRVpUb2dsc3FhMG9aMU9WWko2VnppaFBqX3Q5dWtEMlJ6bllaZ0tUd3ItV2k4LW81TUZ6a1VyLTY2blZBd3JCSUlwbXZSVEFIcmgxT2s4REkwWDVXbHVP?oc=5",
-      "source": "21财经",
-      "category": "政策",
-      "published": "2026-09-21",
-      "body_snippet": "广东移动打出“组合拳”：“网络+算力+智能”激发产业新动能 21财经",
+      "id": "raw-008",
+      "title": "中美芯片博弈升级：美国AI公司CEO提议限制先进AI芯片出口，中国大模型加速国产算力替代 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GdVppbS1ISkFhZ2w3VHZCLTRtTnl1eTI1TGNpQlRlV3VLUHVVTVhyclBqNHg0enl4LXBVSzlhaHlHYjBfdVNLUmwyMWprc3Q4S0R3dHZzQ01YZTZ4S2JN?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-09-26",
+      "body_snippet": "中美芯片博弈升级：美国AI公司CEO提议限制先进AI芯片出口，中国大模型加速国产算力替代 虎嗅网",
       "_query_boost": 0
     },
     {
-      "id": "raw-014",
+      "id": "raw-009",
       "title": "三方合作建设世界技能创新中心 世界技能大会上海技能发展主题平行会举行",
       "url": "https://www.shanghai.gov.cn/nw4411/20260925/d9e6cf547181445e8ba8c901f9c702b2.html",
       "source": "上海市政府-动态",
@@ -145,13 +94,64 @@
       "category": "技术"
     },
     {
+      "id": "raw-010",
+      "title": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWUQxVUNiN0ZiRXJFSnBweHV5U3lJelJGNVlKNGppNU16ZWFndEVUNGUxUjB3ZnFoUExrMWFkUlpZaEpydm0tMDdxNXUxMDAteE5ZUExuemhUeHhkSncwYzQteUZ3VXFsUFNuNUNWVjU4amYxaE9XbXRmclRZeE1VMHEzQzgxUnBz?oc=5",
+      "source": "搜狐网",
+      "category": "技术",
+      "published": "2026-09-23",
+      "body_snippet": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 搜狐网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-011",
+      "title": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 - 至顶网",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4UWdBRmdpVnllemNmUkk2ZVZVbHJNZ2JvaXo4NEtNTnBVTS0xckR0QTVPbWoweFQtemd3cmxxMTE5VFo4aDV2SjRHX2xKQWhOZm9rTmVfaTBWSDA4M2JLZUtFcktiVTRCb3c?oc=5",
+      "source": "至顶网",
+      "category": "技术",
+      "published": "2026-09-22",
+      "body_snippet": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 至顶网",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-012",
+      "title": "多维赋能 算力、词元“资产”价值渐显 - 经济参考报",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSU9pbWhzVVNBNE82a3h4WHVjSXl5elJmQkpXODVueVd5bVd5QVVhaEtVRzhNUTBfZGVBMk1jeHNHR2U1bXoyLWxnVGU1UXJHdS1oRnNsQ09FWDRKNDRqdnJncW53bU1VSEpQYVpUTFhtOEpyTHNOTWNRRjJIUzlvSw?oc=5",
+      "source": "经济参考报",
+      "category": "政策",
+      "published": "2026-09-21",
+      "body_snippet": "多维赋能 算力、词元“资产”价值渐显 经济参考报",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-013",
+      "title": "通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zZHJyOFRTN1gyY1FqZDFTTDkzREMxVG95UnExTmxJd0dxM1B3UncyalFPWGtHQktNZEJUWXJGYXdYUnZ6WmFmcVFFRks4UQ?oc=5",
+      "source": "AIBase",
+      "category": "技术",
+      "published": "2026-09-21",
+      "body_snippet": "通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 AIBase",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-014",
+      "title": "从“单芯追赶”到“系统突围”：国产AI算力芯片选型指南 - 驱动之家",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9xNExBSWFfeGFoYUtSQnJ2WG52X0FUNFpSZmF5MjlYa3IzMm1CdzVsOUhacF81eVNfV2hveko5V29TbTAyVU85QS1VdV9qejFvT2ViaF8zWEQ?oc=5",
+      "source": "驱动之家",
+      "category": "技术",
+      "published": "2026-09-21",
+      "body_snippet": "从“单芯追赶”到“系统突围”：国产AI算力芯片选型指南 驱动之家",
+      "_query_boost": 20
+    },
+    {
       "id": "raw-015",
-      "title": "Anthropic&#8217;s founders seek voting control ahead of IPO",
-      "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
-      "source": "TechCrunch",
-      "published": "2026-09-25",
-      "body_snippet": "",
-      "category": "资本"
+      "title": "京杭深位列中国AI算力城市排名前三 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9UaGExMFBpRWZicWpiRE5hUUwyYkE1V0dtT3pvcXRNSlpMOGViRm9TbEJ3RnMxTzJTckctQTRRdjA4SkZZTmlmQ0JlNFM4ZlZiUHJCRHF0SlZqeThmb1NZVzBkOUQxeWk2N1E?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-09-21",
+      "body_snippet": "京杭深位列中国AI算力城市排名前三 联合早报",
+      "_query_boost": 0
     }
   ]
 }
