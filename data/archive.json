@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-09-27T05:42:51.674Z",
+  "updated_at": "2026-09-28T05:50:00.884Z",
   "days": [
+    {
+      "date": "2026-09-28",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "signal_summary": {
+        "🏛️": 0,
+        "📜": 0,
+        "⚔️": 0,
+        "💰": 0,
+        "🌏": 1,
+        "🔬": 5
+      },
+      "wind_indicators": {
+        "policy_heat": 2,
+        "competitor_heat": 2,
+        "capital_heat": 2,
+        "overseas_heat": 3,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
+      },
+      "ppio_index": {
+        "score": 55,
+        "delta": 0,
+        "components": {
+          "policy_tailwind": 0,
+          "competitive_pressure": 0,
+          "capital_sentiment": 0,
+          "regulatory_risk": 0,
+          "overseas_headwind": -4
+        },
+        "interpretation": "规则估算，仅供参考"
+      },
+      "item_count": {
+        "total": 7,
+        "attend": 2,
+        "silent": 5
+      },
+      "competitor_updates": []
+    },
     {
       "date": "2026-09-27",
       "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
@@ -3452,44 +3490,6 @@
         "三大运营商：相继推出面向终端用户的Token套餐，将AI算力以标准化商品售卖给大众市场，加速推理型边缘节点大规模部署。",
         "金山云：AI算力产品价格上调15%-50%，称全球AI算力需求攀升导致成本上涨，反映云市场算力资源紧缺持续加剧。"
       ]
-    },
-    {
-      "date": "2026-06-16",
-      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
-      "signal_summary": {
-        "🏛️": 4,
-        "📜": 0,
-        "⚔️": 2,
-        "💰": 0,
-        "🌏": 0,
-        "🔬": 7
-      },
-      "wind_indicators": {
-        "policy_heat": 4,
-        "competitor_heat": 4,
-        "capital_heat": 2,
-        "overseas_heat": 2,
-        "overall_sentiment": "平稳",
-        "summary": "规则估算，AI合成不可用时的占位数据。"
-      },
-      "ppio_index": {
-        "score": 55,
-        "delta": 0,
-        "components": {
-          "policy_tailwind": 32,
-          "competitive_pressure": -12,
-          "capital_sentiment": 0,
-          "regulatory_risk": 0,
-          "overseas_headwind": 0
-        },
-        "interpretation": "规则估算，仅供参考"
-      },
-      "item_count": {
-        "total": 14,
-        "attend": 7,
-        "silent": 7
-      },
-      "competitor_updates": []
     }
   ]
 }

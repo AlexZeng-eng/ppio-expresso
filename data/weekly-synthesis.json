@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T05:42:51.630Z",
-  "date": "2026-09-27",
-  "date_label": "2026-09-27",
+  "generated_at": "2026-09-28T05:50:00.837Z",
+  "date": "2026-09-28",
+  "date_label": "2026-09-28",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
@@ -9,7 +9,7 @@
     "⚔️": 0,
     "💰": 0,
     "🌏": 1,
-    "🔬": 8
+    "🔬": 5
   },
   "speed_read": {
     "positive": [],
@@ -35,7 +35,7 @@
     },
     {
       "id": "2",
-      "title": "通义千问开源 Qwen-Image-2.",
+      "title": "智谱 ZCode 宣布已删除涉事云端数据",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
