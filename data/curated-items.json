@@ -1,20 +1,42 @@
 {
-  "generated_at": "2026-09-28T05:50:00.798Z",
+  "generated_at": "2026-09-29T06:10:38.422Z",
   "week": "2026-W40",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 7,
+  "total_curated": 5,
   "attend_count": 2,
-  "silent_count": 5,
+  "silent_count": 3,
   "items": [
     {
-      "id": "raw-003",
-      "title": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 - 新浪财经",
+      "id": "raw-001",
+      "title": "工业和信息化部等五部门组织开展2026年度国家绿色算力设施推荐工作",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_cbd9a41d5f834b9a928205c30766f028.html",
+      "source": "工信部-新闻",
+      "published": "2026-09-29",
+      "body_snippet": "",
+      "category": "技术",
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "工业和信息化部等五部门组织开展2026年度国家绿色算力设施推荐工作 ",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-008",
+      "title": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 - finance.sina.com.cn",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZFFyam01UGRkRnNFai0wMVRudUdVSWNUaUNJLTM2RnpvUFdpTllUbG5VWDdNT1J2UUVKSHE4Ym90ZnVXMWhyZ0liNkhQNGhmT3c2QkFhRzlJWU04Vll1Skx2QWh3R0pmMmVXeWZ6bFIxaHhWNDQ4YnlNUFRHVi1BRzhoNmJYZWpwakowWVFKdjBiM2RuS0JjTGZfUF8xM21ZMXVMMWZSbTJwZEVUeFVCdHFwUjVoakVTcTlWZ2ZnSlFndDVqRHVpMnpGRUNZY2tlWmRycFdDd1Y0WmU2?oc=5",
-      "source": "新浪财经",
+      "source": "finance.sina.com.cn",
       "category": "海外",
       "published": "2026-09-23",
-      "body_snippet": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 新浪财经",
+      "body_snippet": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 finance.sina.com.cn",
       "_query_boost": 25,
       "lane": "attend",
       "signals": [
@@ -26,7 +48,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 - 新浪财经 德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 新浪财经",
+      "summary_cn": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 - finance.sina.com.cn 德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 finance.sina.com.cn",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -36,14 +58,14 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
-      "title": "2026北京互联网大会 | 算力筑基 智启新程，AI算力创新与基础设施论坛成功举办 - 通信世界网",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mUlJDalpJU1BxNl9zYWhGdThxdExwUEkxRWlaTlNSS19YdGd2ZlFGdTdObloxZTNVcHBOUldEdl9kQkJna2xsWXZWaHc4bXJoNWc?oc=5",
-      "source": "通信世界网",
-      "category": "政策",
-      "published": "2026-09-22",
-      "body_snippet": "2026北京互联网大会 | 算力筑基 智启新程，AI算力创新与基础设施论坛成功举办 通信世界网",
-      "_query_boost": 25,
+      "id": "raw-009",
+      "title": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWUQxVUNiN0ZiRXJFSnBweHV5U3lJelJGNVlKNGppNU16ZWFndEVUNGUxUjB3ZnFoUExrMWFkUlpZaEpydm0tMDdxNXUxMDAteE5ZUExuemhUeHhkSncwYzQteUZ3VXFsUFNuNUNWVjU4amYxaE9XbXRmclRZeE1VMHEzQzgxUnBz?oc=5",
+      "source": "搜狐网",
+      "category": "技术",
+      "published": "2026-09-23",
+      "body_snippet": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 搜狐网",
+      "_query_boost": 0,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -54,14 +76,14 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "2026北京互联网大会 | 算力筑基 智启新程，AI算力创新与基础设施论坛成功举办 - 通信世界网 2026北京互联网大会 | 算力筑基 智启新程，AI算力创新",
+      "summary_cn": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 - 搜狐网 万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 搜狐网",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
+      "id": "raw-010",
       "title": "中美芯片博弈升级：美国AI公司CEO提议限制先进AI芯片出口，中国大模型加速国产算力替代 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GdVppbS1ISkFhZ2w3VHZCLTRtTnl1eTI1TGNpQlRlV3VLUHVVTVhyclBqNHg0enl4LXBVSzlhaHlHYjBfdVNLUmwyMWprc3Q4S0R3dHZzQ01YZTZ4S2JN?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82N0JYV0NEZmRvcDhORkJ6clhWcVNSbjU5V2tWVVhzdHNuZHd2V3p3SEN4cFFyTmpUMG45SHl2WG1YcGplQVRoQi02YXJ5N1Frb3c?oc=5",
       "source": "虎嗅网",
       "category": "技术",
       "published": "2026-09-26",
@@ -83,39 +105,18 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
-      "title": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 - OFweek",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MbUx3dFpMa00zdjJpaklfMk1WdlZYOFNkei1TTXBVVFloNlB1ek01VkhCVk4xRVBzbVFSdkNuMjN1a0xtWGZpb1V5UmVOMVlLMTRYSzQtWWpOQjVGLVd3U2RKNnNZQ19WR0FvU2dB?oc=5",
-      "source": "OFweek",
-      "category": "政策",
-      "published": "2026-09-23",
-      "body_snippet": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 OFweek",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 - OFweek 万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 OFweek",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-008",
-      "title": "AI算力中心带动储能需求爆发：机柜级BBU与园区级储能成关键，中国企业订单激增 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4zZURlMjVlSmYtUjAzZFRrOV84cnZRaGxISUgyQmdlOGZHVWpsdGdaeXR3blFZdDZjdHJweG1fcXd3S1BLcVpZTzI2VDlUVUlaM280T2pCR3dnZTB5WFhF?oc=5",
+      "id": "raw-011",
+      "title": "智谱年内再融资50亿美元，算力短缺与商业化挑战并存 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9wRmc1WE5TdTM1OEo1NlZYZm5JWkdDOVZLRHVCVWJFM2hyaFJFb2k4b3l4ME5uU3ZDVkdlWFpKZVBxY1dNZkZnUjF0d3ozSGpQcEtORjY4WW5yOXNYT1FN?oc=5",
       "source": "虎嗅网",
       "category": "技术",
-      "published": "2026-09-26",
-      "body_snippet": "AI算力中心带动储能需求爆发：机柜级BBU与园区级储能成关键，中国企业订单激增 虎嗅网",
+      "published": "2026-09-28",
+      "body_snippet": "智谱年内再融资50亿美元，算力短缺与商业化挑战并存 虎嗅网",
       "_query_boost": 0,
-      "lane": "silent",
+      "lane": "attend",
       "signals": [
+        "⚔️",
+        "💰",
         "🔬"
       ],
       "is_deep_read": false,
@@ -124,58 +125,13 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "AI算力中心带动储能需求爆发：机柜级BBU与园区级储能成关键，中国企业订单激增 - 虎嗅网 AI算力中心带动储能需求爆发：机柜级BBU与园区级储能成关键，中国企",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-014",
-      "title": "智谱 ZCode 宣布已删除涉事云端数据，赠送用户多张重置卡和 1 亿 Token",
-      "url": "https://www.ithome.com/1/007/727.htm",
-      "source": "IT之家",
-      "published": "2026-09-28",
-      "body_snippet": "智谱 ZCode 官宣开源 / 并发布回应称已第一时间完成自查",
-      "category": "技术",
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "智谱 ZCode 宣布已删除涉事云端数据，赠送用户多张重置卡和 1 亿 Token 智谱 ZCode 官宣开源 / 并发布回应称已第一时间完成自查",
+      "summary_cn": "智谱年内再融资50亿美元，算力短缺与商业化挑战并存 - 虎嗅网 智谱年内再融资50亿美元，算力短缺与商业化挑战并存 虎嗅网",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
         "beneficiaries": "（待 AI 填写）",
         "pressure_parties": "（待 AI 填写）"
       },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-015",
-      "title": "如何把算力送到企业“手边”？ - jxcn.cn",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tQnFmQTBZa09SQzVGNUFxMEVqQ1BxUEsxTExBdlBDT0tTYlBfUDFHX2JMS21pRG5UWFUxcC04S1JSUWVxSVRlSHNqUndEQ1hURUV0UlV1OHdHRFd3YjlHanRQRQ?oc=5",
-      "source": "jxcn.cn",
-      "category": "政策",
-      "published": "2026-09-28",
-      "body_snippet": "如何把算力送到企业“手边”？ jxcn.cn",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "如何把算力送到企业“手边”？ - jxcn.cn 如何把算力送到企业“手边”？ jxcn.cn",
-      "ppio_signal": null,
       "_classified_by": "rule"
     }
   ]

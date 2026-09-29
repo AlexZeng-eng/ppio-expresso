@@ -1,24 +1,70 @@
 {
-  "generated_at": "2026-09-28T05:50:00.718Z",
+  "generated_at": "2026-09-29T06:10:38.329Z",
   "week": "2026-W40",
   "date_range": {
-    "from": "2026-09-21",
-    "to": "2026-09-28"
+    "from": "2026-09-22",
+    "to": "2026-09-29"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "以设计破局 以技术赋能 以制造落地 2026世界设计之都大会今开幕 上海正以创新设计锻造产业核心竞争力",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260928/f3f46ba662f04e10895bef9c0d84f3e4.html",
-      "source": "上海市政府-动态",
-      "published": "2026-09-28",
+      "title": "工业和信息化部等五部门组织开展2026年度国家绿色算力设施推荐工作",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_cbd9a41d5f834b9a928205c30766f028.html",
+      "source": "工信部-新闻",
+      "published": "2026-09-29",
       "body_snippet": "",
-      "category": "竞品"
+      "category": "技术"
     },
     {
       "id": "raw-002",
+      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
+      "source": "工信部-新闻",
+      "published": "2026-09-29",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-003",
+      "title": "上海市进一步深化国资国企改革工作会议举行 在服务国家战略、推动产业升级、实现创新突破上展现新作为",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260929/24c9379a11024b93a6fcf0a2a7e4303a.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-29",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-004",
+      "title": "连接全球科技生态 开展2000余场定向商务配对 虹桥国际科技周11月首秀",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260929/26ad9b588c34485fb131bf0cb193d950.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-29",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-005",
+      "title": "“上海成就台商，台商看好上海” 首届“两岸创新发展周”将集中发布两岸融合发展成果",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260929/e71d0b9bc90b4da6bdfdde2dc929643f.html",
+      "source": "上海市政府-动态",
+      "published": "2026-09-29",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-006",
+      "title": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 - 电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBPM0xod29UdVRjWFdZUWpfSTVlTjJnRzVHel93ZGk4cnMxcG1mWkNNZERzUHdiN29Cblh2b3g0dlNNbUFySTVwaWJSZm9vMUVYYzU4?oc=5",
+      "source": "电子工程专辑",
+      "category": "技术",
+      "published": "2026-09-28",
+      "body_snippet": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 电子工程专辑",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-007",
       "title": "中国移动副总经理张冬：强网兴算筑牢数智底座 智汇生态共创美好未来 - 飞象网",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wbzFJX1k2Q2ZXYWdCU1BVVU1ZcXprZ2FtcElEUlkzbVA5WlpxdnduQ183NWp0REdJMXcwSklPN3ZOOVhoc3VxZjBwVU5OS1huOUJPSzYwRnhfTWJN?oc=5",
       "source": "飞象网",
@@ -28,29 +74,29 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-003",
-      "title": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 - 新浪财经",
+      "id": "raw-008",
+      "title": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 - finance.sina.com.cn",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZFFyam01UGRkRnNFai0wMVRudUdVSWNUaUNJLTM2RnpvUFdpTllUbG5VWDdNT1J2UUVKSHE4Ym90ZnVXMWhyZ0liNkhQNGhmT3c2QkFhRzlJWU04Vll1Skx2QWh3R0pmMmVXeWZ6bFIxaHhWNDQ4YnlNUFRHVi1BRzhoNmJYZWpwakowWVFKdjBiM2RuS0JjTGZfUF8xM21ZMXVMMWZSbTJwZEVUeFVCdHFwUjVoakVTcTlWZ2ZnSlFndDVqRHVpMnpGRUNZY2tlWmRycFdDd1Y0WmU2?oc=5",
-      "source": "新浪财经",
+      "source": "finance.sina.com.cn",
       "category": "海外",
       "published": "2026-09-23",
-      "body_snippet": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 新浪财经",
+      "body_snippet": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 finance.sina.com.cn",
       "_query_boost": 25
     },
     {
-      "id": "raw-004",
-      "title": "2026北京互联网大会 | 算力筑基 智启新程，AI算力创新与基础设施论坛成功举办 - 通信世界网",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mUlJDalpJU1BxNl9zYWhGdThxdExwUEkxRWlaTlNSS19YdGd2ZlFGdTdObloxZTNVcHBOUldEdl9kQkJna2xsWXZWaHc4bXJoNWc?oc=5",
-      "source": "通信世界网",
-      "category": "政策",
-      "published": "2026-09-22",
-      "body_snippet": "2026北京互联网大会 | 算力筑基 智启新程，AI算力创新与基础设施论坛成功举办 通信世界网",
-      "_query_boost": 25
+      "id": "raw-009",
+      "title": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWUQxVUNiN0ZiRXJFSnBweHV5U3lJelJGNVlKNGppNU16ZWFndEVUNGUxUjB3ZnFoUExrMWFkUlpZaEpydm0tMDdxNXUxMDAteE5ZUExuemhUeHhkSncwYzQteUZ3VXFsUFNuNUNWVjU4amYxaE9XbXRmclRZeE1VMHEzQzgxUnBz?oc=5",
+      "source": "搜狐网",
+      "category": "技术",
+      "published": "2026-09-23",
+      "body_snippet": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 搜狐网",
+      "_query_boost": 0
     },
     {
-      "id": "raw-005",
+      "id": "raw-010",
       "title": "中美芯片博弈升级：美国AI公司CEO提议限制先进AI芯片出口，中国大模型加速国产算力替代 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GdVppbS1ISkFhZ2w3VHZCLTRtTnl1eTI1TGNpQlRlV3VLUHVVTVhyclBqNHg0enl4LXBVSzlhaHlHYjBfdVNLUmwyMWprc3Q4S0R3dHZzQ01YZTZ4S2JN?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82N0JYV0NEZmRvcDhORkJ6clhWcVNSbjU5V2tWVVhzdHNuZHd2V3p3SEN4cFFyTmpUMG45SHl2WG1YcGplQVRoQi02YXJ5N1Frb3c?oc=5",
       "source": "虎嗅网",
       "category": "技术",
       "published": "2026-09-26",
@@ -58,37 +104,17 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-006",
-      "title": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 - OFweek",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MbUx3dFpMa00zdjJpaklfMk1WdlZYOFNkei1TTXBVVFloNlB1ek01VkhCVk4xRVBzbVFSdkNuMjN1a0xtWGZpb1V5UmVOMVlLMTRYSzQtWWpOQjVGLVd3U2RKNnNZQ19WR0FvU2dB?oc=5",
-      "source": "OFweek",
-      "category": "政策",
-      "published": "2026-09-23",
-      "body_snippet": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 OFweek",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-007",
-      "title": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 - gsi24.com",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE00U1BPSEtZd3YxOU9xQnFrcEctYktEUjdyT2VFMktaZFo4dG5QMk85SmRkLVdXd0VUODFKLW56bmp2N1prOVRiMw?oc=5",
-      "source": "gsi24.com",
-      "category": "技术",
-      "published": "2026-09-22",
-      "body_snippet": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 gsi24.com",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-008",
-      "title": "AI算力中心带动储能需求爆发：机柜级BBU与园区级储能成关键，中国企业订单激增 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4zZURlMjVlSmYtUjAzZFRrOV84cnZRaGxISUgyQmdlOGZHVWpsdGdaeXR3blFZdDZjdHJweG1fcXd3S1BLcVpZTzI2VDlUVUlaM280T2pCR3dnZTB5WFhF?oc=5",
+      "id": "raw-011",
+      "title": "智谱年内再融资50亿美元，算力短缺与商业化挑战并存 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9wRmc1WE5TdTM1OEo1NlZYZm5JWkdDOVZLRHVCVWJFM2hyaFJFb2k4b3l4ME5uU3ZDVkdlWFpKZVBxY1dNZkZnUjF0d3ozSGpQcEtORjY4WW5yOXNYT1FN?oc=5",
       "source": "虎嗅网",
       "category": "技术",
-      "published": "2026-09-26",
-      "body_snippet": "AI算力中心带动储能需求爆发：机柜级BBU与园区级储能成关键，中国企业订单激增 虎嗅网",
+      "published": "2026-09-28",
+      "body_snippet": "智谱年内再融资50亿美元，算力短缺与商业化挑战并存 虎嗅网",
       "_query_boost": 0
     },
     {
-      "id": "raw-009",
+      "id": "raw-012",
       "title": "央行三季度例会首提“六张网”建设 结构性工具支持方向再扩围 - 21财经",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN1BvcjRlclNQUTEySi1FdUNzX09VTkt2bHJGakVVTUdCazEyNnNKUzlXVEp6QjUydW5EbXJ1YlRnT01OZ3U5SnNLQ0J1eXJUZ2MtVm90eHNxR21CYmFObkM2bm1OV25NdFlhSFlaTDVJYnBUaXFLWUtEQW5ncllZbVZaYmxvQlhncU1yMTNES0pLNklL?oc=5",
       "source": "21财经",
@@ -98,7 +124,7 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-010",
+      "id": "raw-013",
       "title": "关于下达2026年度第一批科技金融保费补贴经费的通知",
       "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20260924/47c0b4118e0540bfab43d7e9af025b14.html",
       "source": "上海市科委",
@@ -107,7 +133,7 @@
       "category": "技术"
     },
     {
-      "id": "raw-011",
+      "id": "raw-014",
       "title": "关于上海市2026年第六批拟入库科技型中小企业名单的公示",
       "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20260924/76934379206c4e5dbfac5fff53d0b257.html",
       "source": "上海市科委",
@@ -116,41 +142,13 @@
       "category": "技术"
     },
     {
-      "id": "raw-012",
+      "id": "raw-015",
       "title": "上海市科学技术委员会关于发布2026年度关键技术研发计划“医学创新研究”项目申报指南的通知",
       "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20260923/c261625bac1c4a67a05b5dfc2a3b1b3d.html",
       "source": "上海市科委",
       "published": "2026-09-23",
       "body_snippet": "",
       "category": "技术"
-    },
-    {
-      "id": "raw-013",
-      "title": "上海市科学技术委员会关于发布2026年度科技产业高质量发展计划“创新药械产品应用示范”项目申报指南的...",
-      "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20260923/a2b0a099ec4a4ddca3613b46011a74d4.html",
-      "source": "上海市科委",
-      "published": "2026-09-23",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-014",
-      "title": "智谱 ZCode 宣布已删除涉事云端数据，赠送用户多张重置卡和 1 亿 Token",
-      "url": "https://www.ithome.com/1/007/727.htm",
-      "source": "IT之家",
-      "published": "2026-09-28",
-      "body_snippet": "智谱 ZCode 官宣开源 / 并发布回应称已第一时间完成自查",
-      "category": "技术"
-    },
-    {
-      "id": "raw-015",
-      "title": "如何把算力送到企业“手边”？ - jxcn.cn",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tQnFmQTBZa09SQzVGNUFxMEVqQ1BxUEsxTExBdlBDT0tTYlBfUDFHX2JMS21pRG5UWFUxcC04S1JSUWVxSVRlSHNqUndEQ1hURUV0UlV1OHdHRFd3YjlHanRQRQ?oc=5",
-      "source": "jxcn.cn",
-      "category": "政策",
-      "published": "2026-09-28",
-      "body_snippet": "如何把算力送到企业“手边”？ jxcn.cn",
-      "_query_boost": 0
     }
   ]
 }

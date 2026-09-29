@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-28T05:50:00.837Z",
-  "date": "2026-09-28",
-  "date_label": "2026-09-28",
+  "generated_at": "2026-09-29T06:10:38.459Z",
+  "date": "2026-09-29",
+  "date_label": "2026-09-29",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
     "📜": 0,
-    "⚔️": 0,
-    "💰": 0,
+    "⚔️": 1,
+    "💰": 1,
     "🌏": 1,
-    "🔬": 5
+    "🔬": 4
   },
   "speed_read": {
     "positive": [],
@@ -17,8 +17,8 @@
   },
   "wind_indicators": {
     "policy_heat": 2,
-    "competitor_heat": 2,
-    "capital_heat": 2,
+    "competitor_heat": 3,
+    "capital_heat": 3,
     "overseas_heat": 3,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
@@ -35,10 +35,10 @@
     },
     {
       "id": "2",
-      "title": "智谱 ZCode 宣布已删除涉事云端数据",
+      "title": "智谱年内再融资50亿美元，算力短缺与商业",
       "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
+      "competition_axis": 0.7,
+      "impact_score": 3,
       "axis_reason": "规则估算"
     }
   ],
@@ -47,8 +47,8 @@
     "delta": 0,
     "components": {
       "policy_tailwind": 0,
-      "competitive_pressure": 0,
-      "capital_sentiment": 0,
+      "competitive_pressure": -6,
+      "capital_sentiment": 5,
       "regulatory_risk": 0,
       "overseas_headwind": -4
     },
