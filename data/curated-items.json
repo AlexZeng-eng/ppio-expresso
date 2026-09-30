@@ -1,22 +1,24 @@
 {
-  "generated_at": "2026-09-29T06:10:38.422Z",
+  "generated_at": "2026-09-30T05:57:34.220Z",
   "week": "2026-W40",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 5,
-  "attend_count": 2,
-  "silent_count": 3,
+  "total_curated": 8,
+  "attend_count": 4,
+  "silent_count": 4,
   "items": [
     {
-      "id": "raw-001",
-      "title": "工业和信息化部等五部门组织开展2026年度国家绿色算力设施推荐工作",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_cbd9a41d5f834b9a928205c30766f028.html",
-      "source": "工信部-新闻",
+      "id": "raw-005",
+      "title": "聚力轻量化算力创新 护航 Token 合规出海｜抖加流量亮相 2026 算力网发展大会 - CSDN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5rQmxLRGJ5SFpKSktnaGpDNkl3aURTbmo5bjNwam1zZ3FUUHZSMGQzNTk2a09wWDVnRWdPVXhZc21CcVV3blo2a1pRSFdPaWdaMzFqUTFWTmUzSHJVZGc?oc=5",
+      "source": "CSDN",
+      "category": "竞品",
       "published": "2026-09-29",
-      "body_snippet": "",
-      "category": "技术",
-      "lane": "silent",
+      "body_snippet": "聚力轻量化算力创新 护航 Token 合规出海｜抖加流量亮相 2026 算力网发展大会 CSDN",
+      "_query_boost": 15,
+      "lane": "attend",
       "signals": [
+        "📜",
         "🔬"
       ],
       "is_deep_read": false,
@@ -25,30 +27,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "工业和信息化部等五部门组织开展2026年度国家绿色算力设施推荐工作 ",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-008",
-      "title": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 - finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZFFyam01UGRkRnNFai0wMVRudUdVSWNUaUNJLTM2RnpvUFdpTllUbG5VWDdNT1J2UUVKSHE4Ym90ZnVXMWhyZ0liNkhQNGhmT3c2QkFhRzlJWU04Vll1Skx2QWh3R0pmMmVXeWZ6bFIxaHhWNDQ4YnlNUFRHVi1BRzhoNmJYZWpwakowWVFKdjBiM2RuS0JjTGZfUF8xM21ZMXVMMWZSbTJwZEVUeFVCdHFwUjVoakVTcTlWZ2ZnSlFndDVqRHVpMnpGRUNZY2tlWmRycFdDd1Y0WmU2?oc=5",
-      "source": "finance.sina.com.cn",
-      "category": "海外",
-      "published": "2026-09-23",
-      "body_snippet": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 finance.sina.com.cn",
-      "_query_boost": 25,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 - finance.sina.com.cn 德州或将转向蓝营，关键看民主党能否借力民众对数据中心的反对浪潮 finance.sina.com.cn",
+      "summary_cn": "聚力轻量化算力创新 护航 Token 合规出海｜抖加流量亮相 2026 算力网发展大会 - CSDN 聚力轻量化算力创新 护航 Token 合规出海｜抖加流量亮相 2026 算力网发展大会 CSDN",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -58,14 +37,37 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
-      "title": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWUQxVUNiN0ZiRXJFSnBweHV5U3lJelJGNVlKNGppNU16ZWFndEVUNGUxUjB3ZnFoUExrMWFkUlpZaEpydm0tMDdxNXUxMDAteE5ZUExuemhUeHhkSncwYzQteUZ3VXFsUFNuNUNWVjU4amYxaE9XbXRmclRZeE1VMHEzQzgxUnBz?oc=5",
-      "source": "搜狐网",
+      "id": "raw-006",
+      "title": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 - 电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDU0pPaUZaekpYbzIwR3pZdHp5cEd5YTFoOHNwWjlqc0MxYWE3aFdQX3RoQ3RjeGZaeGNGdjhIWUpSUjN6NUlYRmpIUmxzakNnTGNlLWhVV3RTc3c2?oc=5",
+      "source": "电子工程专辑",
       "category": "技术",
-      "published": "2026-09-23",
-      "body_snippet": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 搜狐网",
-      "_query_boost": 0,
+      "published": "2026-09-28",
+      "body_snippet": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 电子工程专辑",
+      "_query_boost": 15,
+      "lane": "silent",
+      "signals": [
+        "🌏"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 - 电子工程专辑 传闻称中国考虑允许字节跳动、阿里巴巴采购英",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-007",
+      "title": "算力危机下的国产破局：beat365app网址下载入口发布全栈AI加速方案，2026年护航智能经济底座 - 体坛加",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5iOXlWSzNiM0hBNVNCTmpNMER1NVVNUVFKUTNoQkJNUWowMGR2WGZGSTVJQnBGWnlCcTMzTjMxdklZcXMxdlU0bTZ5SmEzQQ?oc=5",
+      "source": "体坛加",
+      "category": "技术",
+      "published": "2026-09-28",
+      "body_snippet": "算力危机下的国产破局：beat365app网址下载入口发布全栈AI加速方案，2026年护航智能经济底座 体坛加",
+      "_query_boost": 15,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -76,12 +78,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 - 搜狐网 万亿算力网基建启幕，三大运营商携手云豹智能攻坚算网核心底座 搜狐网",
+      "summary_cn": "算力危机下的国产破局：beat365app网址下载入口发布全栈AI加速方案，2026年护航智能经济底座 - 体坛加 算力危机下的国产破局：beat365app网",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-010",
+      "id": "raw-008",
       "title": "中美芯片博弈升级：美国AI公司CEO提议限制先进AI芯片出口，中国大模型加速国产算力替代 - 虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82N0JYV0NEZmRvcDhORkJ6clhWcVNSbjU5V2tWVVhzdHNuZHd2V3p3SEN4cFFyTmpUMG45SHl2WG1YcGplQVRoQi02YXJ5N1Frb3c?oc=5",
       "source": "虎嗅网",
@@ -105,7 +107,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-011",
+      "id": "raw-009",
       "title": "智谱年内再融资50亿美元，算力短缺与商业化挑战并存 - 虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9wRmc1WE5TdTM1OEo1NlZYZm5JWkdDOVZLRHVCVWJFM2hyaFJFb2k4b3l4ME5uU3ZDVkdlWFpKZVBxY1dNZkZnUjF0d3ozSGpQcEtORjY4WW5yOXNYT1FN?oc=5",
       "source": "虎嗅网",
@@ -126,6 +128,84 @@
         "c3"
       ],
       "summary_cn": "智谱年内再融资50亿美元，算力短缺与商业化挑战并存 - 虎嗅网 智谱年内再融资50亿美元，算力短缺与商业化挑战并存 虎嗅网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-013",
+      "title": "端侧推理引擎开源提速10.7倍 机器人本体本地跑大模型终于不卡顿 - eu.36kr.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JVUEzcW12Rzdjd3JwZG9GbTc4Vk1laGVBQ1hBYjNqUDhPaVh2VG5rVzRkZ3p3R2RxQzg1YjR3VmpBazNmaEM3N0lwcy1Fa0YxeWJJ?oc=5",
+      "source": "eu.36kr.com",
+      "category": "竞品",
+      "published": "2026-09-28",
+      "body_snippet": "端侧推理引擎开源提速10.7倍 机器人本体本地跑大模型终于不卡顿 eu.36kr.com",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "端侧推理引擎开源提速10.7倍 机器人本体本地跑大模型终于不卡顿 - eu.36kr.com 端侧推理引擎开源提速10.7倍 机器人本体本地跑大模型终于不卡顿 eu.36kr.com",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-014",
+      "title": "暗网疯抢 AI 算力：顶配账号打三折卖，黑客白嫖大模型搞攻击 - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9YWVdhTW1XMmhSSEtFQzBSMi11Qk1rNE9WZnFCczFvTWw0Tjl0bXlXdExUOElTMnNxUVpiOTVKNkxXQ18zSzQtUl84WGUtUQ?oc=5",
+      "source": "AIBase",
+      "category": "技术",
+      "published": "2026-09-28",
+      "body_snippet": "暗网疯抢 AI 算力：顶配账号打三折卖，黑客白嫖大模型搞攻击 AIBase",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "暗网疯抢 AI 算力：顶配账号打三折卖，黑客白嫖大模型搞攻击 - AIBase 暗网疯抢 AI 算力：顶配账号打三折卖，黑客白嫖大模型搞攻击 AIBase",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-015",
+      "title": "DeepSeek 开源面向华为昇腾算力平台的基础设施组件，与英伟达平台一一对应",
+      "url": "https://www.ithome.com/1/008/604.htm",
+      "source": "IT之家",
+      "published": "2026-09-30",
+      "body_snippet": "",
+      "category": "技术",
+      "lane": "attend",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "DeepSeek 开源面向华为昇腾算力平台的基础设施组件，与英伟达平台一一对应 ",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
