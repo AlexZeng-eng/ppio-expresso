@@ -1,24 +1,15 @@
 {
-  "generated_at": "2026-10-01T06:33:23.387Z",
+  "generated_at": "2026-10-02T06:09:32.165Z",
   "week": "2026-W40",
   "date_range": {
-    "from": "2026-09-24",
-    "to": "2026-10-01"
+    "from": "2026-09-25",
+    "to": "2026-10-02"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
-      "source": "工信部-新闻",
-      "published": "2026-10-01",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-002",
       "title": "全球首个昇腾950超节点落户青浦同日 上海启动“安芯”工程 “又稳又密”电力 支撑超强算力",
       "url": "https://www.shanghai.gov.cn/nw4411/20261001/bebfc6af5c4046f78b84b42e618cccc0.html",
       "source": "上海市政府-动态",
@@ -27,14 +18,23 @@
       "category": "技术"
     },
     {
+      "id": "raw-002",
+      "title": "假期首日铁路发客量创新高",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261002/cd9c4cd44cad4860a41afee731e32191.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-02",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
       "id": "raw-003",
-      "title": "2026PT展观察｜算力建设告别规模竞赛 转向效能与协同的综合比拼 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVXdydHRKampqcE5HV2g3LTlTNnFtZjZ5SzAzZnR4dTZzY2F1ODVMdTc0elVRa0ZHcHJjbVVJUlY3X184WmQ5cWM1bm93SnhSV3NNTnQwa2RmYlcwY2xEM0cyQjNBNHluNWxhVjl4WUpNRjE0SHdhN2dFZGtfbzFkNmw5SDVjc0VD?oc=5",
-      "source": "搜狐网",
+      "title": "成都市举办“六张网”项目融资专题培训会 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPMGpqR0hBbmxHMFJqMl9BRURvbHlIT1c3Q2dmLXNnWGRxc2FTNFpxaHdRQXlRbGwxLTZEaTBKVnlNWnplQ2RZMm92NXhkbmJlOVlDeFVTN2Nra3pNT0RiLVcwbF9oa08xcjZuYmFRWXZyTTVPNkE?oc=5",
+      "source": "新华网",
       "category": "政策",
-      "published": "2026-09-25",
-      "body_snippet": "2026PT展观察｜算力建设告别规模竞赛 转向效能与协同的综合比拼 搜狐网",
-      "_query_boost": 30
+      "published": "2026-09-29",
+      "body_snippet": "成都市举办“六张网”项目融资专题培训会 新华网",
+      "_query_boost": 0
     },
     {
       "id": "raw-004",
@@ -56,26 +56,6 @@
     },
     {
       "id": "raw-006",
-      "title": "科创丨硅基流动的“Token工厂”搬上港交所，MaaS跑通，营收暴涨653% - 电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9vSnJiTC1zQk5ZaG9rVWhjTGJNdU4xVFJMdnE1RG03OXlGamoycXdhNDhXRGRBcFF2eFdHdzAtOUNtc1U3d1ZwSmM4NExYenFuNEFZ?oc=5",
-      "source": "电子工程专辑",
-      "category": "竞品",
-      "published": "2026-09-29",
-      "body_snippet": "科创丨硅基流动的“Token工厂”搬上港交所，MaaS跑通，营收暴涨653% 电子工程专辑",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-007",
-      "title": "以新型电网建设促进“六张网”协同发展 - 人民日报",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tMEZrbGlpXy11dTNEMVI0NDYweWliOGRIZGQzRmdWaVJFcTdxZlpFV1FianduUEZ3aEFnN2RGT0s0eFRwYm1XWGF0OS1nUnpIYTBIakxRZ05wMklCdFg2dWV2S0pOdWpuYmtxSjNMckh5S3ltMTZHbXpvR0Ixa0E?oc=5",
-      "source": "人民日报",
-      "category": "政策",
-      "published": "2026-09-28",
-      "body_snippet": "以新型电网建设促进“六张网”协同发展 人民日报",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-008",
       "title": "关于上海市2026年度科技产业高质量发展计划“养老科技支撑”项目立项的通知",
       "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/bsgsgg/kjjhxmjggb/20260930/372dff196f8a4a3c9fdb1bc700cff1b8.html",
       "source": "上海市科委",
@@ -84,7 +64,7 @@
       "category": "技术"
     },
     {
-      "id": "raw-009",
+      "id": "raw-007",
       "title": "关于印发《上海市科技计划项目监督管理办法（试行）》的通知",
       "url": "https://stcsm.sh.gov.cn/zwgk/kjzc/zcwj/kwzcxwj/20260930/52b8e1be81954c44884a9f1704d57862.html",
       "source": "上海市科委",
@@ -93,13 +73,33 @@
       "category": "技术"
     },
     {
-      "id": "raw-010",
+      "id": "raw-008",
       "title": "关于上海市2026年第七批拟入库科技型中小企业名单的公示",
       "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20260930/cb5a09ff6c4d4cc486374325b0a64d79.html",
       "source": "上海市科委",
       "published": "2026-09-30",
       "body_snippet": "",
       "category": "技术"
+    },
+    {
+      "id": "raw-009",
+      "title": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 - 电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBPM0xod29UdVRjWFdZUWpfSTVlTjJnRzVHel93ZGk4cnMxcG1mWkNNZERzUHdiN29Cblh2b3g0dlNNbUFySTVwaWJSZm9vMUVYYzU4?oc=5",
+      "source": "电子工程专辑",
+      "category": "技术",
+      "published": "2026-09-28",
+      "body_snippet": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 电子工程专辑",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-010",
+      "title": "中美芯片博弈升级：美国AI公司CEO提议限制先进AI芯片出口，中国大模型加速国产算力替代 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82N0JYV0NEZmRvcDhORkJ6clhWcVNSbjU5V2tWVVhzdHNuZHd2V3p3SEN4cFFyTmpUMG45SHl2WG1YcGplQVRoQi02YXJ5N1Frb3c?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-09-26",
+      "body_snippet": "中美芯片博弈升级：美国AI公司CEO提议限制先进AI芯片出口，中国大模型加速国产算力替代 虎嗅网",
+      "_query_boost": 0
     },
     {
       "id": "raw-011",
@@ -113,26 +113,6 @@
     },
     {
       "id": "raw-012",
-      "title": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 - 电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBPM0xod29UdVRjWFdZUWpfSTVlTjJnRzVHel93ZGk4cnMxcG1mWkNNZERzUHdiN29Cblh2b3g0dlNNbUFySTVwaWJSZm9vMUVYYzU4?oc=5",
-      "source": "电子工程专辑",
-      "category": "技术",
-      "published": "2026-09-28",
-      "body_snippet": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 电子工程专辑",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-013",
-      "title": "中美芯片博弈升级：美国AI公司CEO提议限制先进AI芯片出口，中国大模型加速国产算力替代 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82N0JYV0NEZmRvcDhORkJ6clhWcVNSbjU5V2tWVVhzdHNuZHd2V3p3SEN4cFFyTmpUMG45SHl2WG1YcGplQVRoQi02YXJ5N1Frb3c?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-09-26",
-      "body_snippet": "中美芯片博弈升级：美国AI公司CEO提议限制先进AI芯片出口，中国大模型加速国产算力替代 虎嗅网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-014",
       "title": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 - 电子工程专辑",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDU0pPaUZaekpYbzIwR3pZdHp5cEd5YTFoOHNwWjlqc0MxYWE3aFdQX3RoQ3RjeGZaeGNGdjhIWUpSUjN6NUlYRmpIUmxzakNnTGNlLWhVV3RTc3c2?oc=5",
       "source": "电子工程专辑",
@@ -140,6 +120,26 @@
       "published": "2026-09-28",
       "body_snippet": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 电子工程专辑",
       "_query_boost": 15
+    },
+    {
+      "id": "raw-013",
+      "title": "算力危机下的国产破局：beat365app网址下载入口发布全栈AI加速方案，2026年护航智能经济底座 - 体坛",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5iOXlWSzNiM0hBNVNCTmpNMER1NVVNUVFKUTNoQkJNUWowMGR2WGZGSTVJQnBGWnlCcTMzTjMxdklZcXMxdlU0bTZ5SmEzQQ?oc=5",
+      "source": "体坛",
+      "category": "技术",
+      "published": "2026-09-28",
+      "body_snippet": "算力危机下的国产破局：beat365app网址下载入口发布全栈AI加速方案，2026年护航智能经济底座 体坛",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-014",
+      "title": "亏损超80亿、算力承诺546亿:Anthropic招股书揭开大模型顶流的真实账本 - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9hMWRuSkJYZUZhSnd3UmRJUmI2N0hqRWtMTlpyYi01MFF0ZDlDc2YxN1M2SS00VVRheVJXUXZCQjBuZy03bm9GWEdzc3BPUQ?oc=5",
+      "source": "AIBase",
+      "category": "技术",
+      "published": "2026-09-30",
+      "body_snippet": "亏损超80亿、算力承诺546亿:Anthropic招股书揭开大模型顶流的真实账本 AIBase",
+      "_query_boost": 0
     },
     {
       "id": "raw-015",
