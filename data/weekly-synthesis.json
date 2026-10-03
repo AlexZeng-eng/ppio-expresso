@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-02T06:09:32.294Z",
-  "date": "2026-10-02",
-  "date_label": "2026-10-02",
+  "generated_at": "2026-10-03T05:43:59.493Z",
+  "date": "2026-10-03",
+  "date_label": "2026-10-03",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
     "📜": 1,
     "⚔️": 0,
     "💰": 1,
-    "🌏": 2,
-    "🔬": 5
+    "🌏": 1,
+    "🔬": 4
   },
   "speed_read": {
     "positive": [],
@@ -42,7 +42,7 @@
       "competitive_pressure": 0,
       "capital_sentiment": 5,
       "regulatory_risk": -5,
-      "overseas_headwind": -8
+      "overseas_headwind": -4
     },
     "interpretation": "规则估算，仅供参考"
   },

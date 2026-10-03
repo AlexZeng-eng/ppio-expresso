@@ -1,20 +1,21 @@
 {
-  "generated_at": "2026-10-02T06:09:32.259Z",
-  "week": "2026-W40",
+  "generated_at": "2026-10-03T05:43:59.457Z",
+  "week": "2026-W41",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 7,
+  "total_curated": 6,
   "attend_count": 1,
-  "silent_count": 6,
+  "silent_count": 5,
   "items": [
     {
-      "id": "raw-001",
-      "title": "全球首个昇腾950超节点落户青浦同日 上海启动“安芯”工程 “又稳又密”电力 支撑超强算力",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261001/bebfc6af5c4046f78b84b42e618cccc0.html",
-      "source": "上海市政府-动态",
+      "id": "raw-002",
+      "title": "全国一体化算力统筹迈出新步伐 - 新浪新闻_手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1WRGxQbWVRZ1ZHamZRQzZPdEVIa2k5TzZVYm5HMnF1UV8ySkNIN3l2MzVCZUx4NmtoNU1uZlBJNm1kbzU3Zm5taGgxQnNneDBEWmdMZkZ6MlNQUkVzeHI1blBnZjNiejh3c3BPOHpRQ3NOMThFYWc?oc=5",
+      "source": "新浪新闻_手机新浪网",
+      "category": "政策",
       "published": "2026-10-01",
-      "body_snippet": "",
-      "category": "技术",
+      "body_snippet": "全国一体化算力统筹迈出新步伐 新浪新闻_手机新浪网",
+      "_query_boost": 25,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -25,12 +26,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "全球首个昇腾950超节点落户青浦同日 上海启动“安芯”工程 “又稳又密”电力 支撑超强算力 ",
+      "summary_cn": "全国一体化算力统筹迈出新步伐 - 新浪新闻_手机新浪网 全国一体化算力统筹迈出新步伐 新浪新闻_手机新浪网",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-003",
+      "id": "raw-004",
       "title": "成都市举办“六张网”项目融资专题培训会 - 新华网",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPMGpqR0hBbmxHMFJqMl9BRURvbHlIT1c3Q2dmLXNnWGRxc2FTNFpxaHdRQXlRbGwxLTZEaTBKVnlNWnplQ2RZMm92NXhkbmJlOVlDeFVTN2Nra3pNT0RiLVcwbF9oa08xcjZuYmFRWXZyTTVPNkE?oc=5",
       "source": "新华网",
@@ -53,17 +54,16 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-010",
-      "title": "中美芯片博弈升级：美国AI公司CEO提议限制先进AI芯片出口，中国大模型加速国产算力替代 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82N0JYV0NEZmRvcDhORkJ6clhWcVNSbjU5V2tWVVhzdHNuZHd2V3p3SEN4cFFyTmpUMG45SHl2WG1YcGplQVRoQi02YXJ5N1Frb3c?oc=5",
+      "id": "raw-009",
+      "title": "华为昇腾与DeepSeek深化协作，中国AI公司海外采购算力加速 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1reEM2N055dk5DeE9tS3hBM3lnSzY0VmhqWlpveXBfVVZoTjh5cUE1bmJBSzlDZ2luWDEzX3lsdHRpc3F6LVNTWXVQaFRlaVRZc194Rg?oc=5",
       "source": "虎嗅网",
       "category": "技术",
-      "published": "2026-09-26",
-      "body_snippet": "中美芯片博弈升级：美国AI公司CEO提议限制先进AI芯片出口，中国大模型加速国产算力替代 虎嗅网",
+      "published": "2026-10-02",
+      "body_snippet": "华为昇腾与DeepSeek深化协作，中国AI公司海外采购算力加速 虎嗅网",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
-        "🌏",
         "🔬"
       ],
       "is_deep_read": false,
@@ -72,12 +72,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "中美芯片博弈升级：美国AI公司CEO提议限制先进AI芯片出口，中国大模型加速国产算力替代 - 虎嗅网 中美芯片博弈升级：美国AI公司CEO提议限制先进AI芯片出",
+      "summary_cn": "华为昇腾与DeepSeek深化协作，中国AI公司海外采购算力加速 - 虎嗅网 华为昇腾与DeepSeek深化协作，中国AI公司海外采购算力加速 虎嗅网",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-011",
+      "id": "raw-013",
       "title": "聚力轻量化算力创新 护航 Token 合规出海｜抖加流量亮相 2026 算力网发展大会 - CSDN",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5rQmxLRGJ5SFpKSktnaGpDNkl3aURTbmo5bjNwam1zZ3FUUHZSMGQzNTk2a09wWDVnRWdPVXhZc21CcVV3blo2a1pRSFdPaWdaMzFqUTFWTmUzSHJVZGc?oc=5",
       "source": "CSDN",
@@ -106,13 +106,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-012",
-      "title": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 - 电子工程专辑",
+      "id": "raw-014",
+      "title": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 - eet-china.com",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDU0pPaUZaekpYbzIwR3pZdHp5cEd5YTFoOHNwWjlqc0MxYWE3aFdQX3RoQ3RjeGZaeGNGdjhIWUpSUjN6NUlYRmpIUmxzakNnTGNlLWhVV3RTc3c2?oc=5",
-      "source": "电子工程专辑",
+      "source": "eet-china.com",
       "category": "技术",
       "published": "2026-09-28",
-      "body_snippet": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 电子工程专辑",
+      "body_snippet": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 eet-china.com",
       "_query_boost": 15,
       "lane": "silent",
       "signals": [
@@ -124,12 +124,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 - 电子工程专辑 传闻称中国考虑允许字节跳动、阿里巴巴采购英",
+      "summary_cn": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 - eet-china.com 传闻称中国考虑允许字节跳动、",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-013",
+      "id": "raw-015",
       "title": "算力危机下的国产破局：beat365app网址下载入口发布全栈AI加速方案，2026年护航智能经济底座 - 体坛",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5iOXlWSzNiM0hBNVNCTmpNMER1NVVNUVFKUTNoQkJNUWowMGR2WGZGSTVJQnBGWnlCcTMzTjMxdklZcXMxdlU0bTZ5SmEzQQ?oc=5",
       "source": "体坛",
@@ -148,29 +148,6 @@
         "c3"
       ],
       "summary_cn": "算力危机下的国产破局：beat365app网址下载入口发布全栈AI加速方案，2026年护航智能经济底座 - 体坛 算力危机下的国产破局：beat365app网址",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-014",
-      "title": "亏损超80亿、算力承诺546亿:Anthropic招股书揭开大模型顶流的真实账本 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9hMWRuSkJYZUZhSnd3UmRJUmI2N0hqRWtMTlpyYi01MFF0ZDlDc2YxN1M2SS00VVRheVJXUXZCQjBuZy03bm9GWEdzc3BPUQ?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-09-30",
-      "body_snippet": "亏损超80亿、算力承诺546亿:Anthropic招股书揭开大模型顶流的真实账本 AIBase",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "亏损超80亿、算力承诺546亿:Anthropic招股书揭开大模型顶流的真实账本 - AIBase 亏损超80亿、算力承诺546亿:Anthropic招股书揭开",
       "ppio_signal": null,
       "_classified_by": "rule"
     }
