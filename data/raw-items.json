@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-03T05:43:59.371Z",
+  "generated_at": "2026-10-04T06:19:14.209Z",
   "week": "2026-W41",
   "date_range": {
-    "from": "2026-09-26",
-    "to": "2026-10-03"
+    "from": "2026-09-27",
+    "to": "2026-10-04"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -13,22 +13,12 @@
       "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
       "source": "工信部-新闻",
-      "published": "2026-10-03",
+      "published": "2026-10-04",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-002",
-      "title": "全国一体化算力统筹迈出新步伐 - 新浪新闻_手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1WRGxQbWVRZ1ZHamZRQzZPdEVIa2k5TzZVYm5HMnF1UV8ySkNIN3l2MzVCZUx4NmtoNU1uZlBJNm1kbzU3Zm5taGgxQnNneDBEWmdMZkZ6MlNQUkVzeHI1blBnZjNiejh3c3BPOHpRQ3NOMThFYWc?oc=5",
-      "source": "新浪新闻_手机新浪网",
-      "category": "政策",
-      "published": "2026-10-01",
-      "body_snippet": "全国一体化算力统筹迈出新步伐 新浪新闻_手机新浪网",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-003",
       "title": "彭博：中国国资助中企采购受管制英伟达晶片 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGbmhqMGZncENHUURaS1VnZkg5b1lidEZKQXV2cEg4OVhMWG8wTmxvY2UzUXNiQXVWVFBnbHRTcTdvSUlhWmZsZEhmSTlPdS1wTFd6bjBYWG45LXVXQ3NINVhJQzVrMWtEWmc?oc=5",
       "source": "联合早报",
@@ -38,13 +28,23 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-004",
-      "title": "成都市举办“六张网”项目融资专题培训会 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPMGpqR0hBbmxHMFJqMl9BRURvbHlIT1c3Q2dmLXNnWGRxc2FTNFpxaHdRQXlRbGwxLTZEaTBKVnlNWnplQ2RZMm92NXhkbmJlOVlDeFVTN2Nra3pNT0RiLVcwbF9oa08xcjZuYmFRWXZyTTVPNkE?oc=5",
-      "source": "新华网",
+      "id": "raw-003",
+      "title": "以新型电网建设促进“六张网”协同发展 - 人民日报",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tMEZrbGlpXy11dTNEMVI0NDYweWliOGRIZGQzRmdWaVJFcTdxZlpFV1FianduUEZ3aEFnN2RGT0s0eFRwYm1XWGF0OS1nUnpIYTBIakxRZ05wMklCdFg2dWV2S0pOdWpuYmtxSjNMckh5S3ltMTZHbXpvR0Ixa0E?oc=5",
+      "source": "人民日报",
       "category": "政策",
-      "published": "2026-09-29",
-      "body_snippet": "成都市举办“六张网”项目融资专题培训会 新华网",
+      "published": "2026-09-28",
+      "body_snippet": "以新型电网建设促进“六张网”协同发展 人民日报",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-004",
+      "title": "Token经济重塑算力产业：爆发增长与潜藏风险 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5laVZsZy1ZTy11YnZOemEyS001cUtPbkREQ0JSLWVwOS1qVVE0cEJZcS1aQWRhUjM2WGU3NzBxbzU3YWJDMjczRG9hbFRDQ3dRV0xPeFd5ekdSRkE0dEdZ?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-04",
+      "body_snippet": "Token经济重塑算力产业：爆发增长与潜藏风险 虎嗅网",
       "_query_boost": 0
     },
     {
@@ -68,25 +68,16 @@
     },
     {
       "id": "raw-007",
-      "title": "首届“两岸创新发展周”在上海举行",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261001/9ecc1d68a7fb47abb581f37fb0103f10.html",
-      "source": "上海市政府-动态",
-      "published": "2026-10-01",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-008",
-      "title": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 - eet-china.com",
+      "title": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 - 电子工程专辑",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBPM0xod29UdVRjWFdZUWpfSTVlTjJnRzVHel93ZGk4cnMxcG1mWkNNZERzUHdiN29Cblh2b3g0dlNNbUFySTVwaWJSZm9vMUVYYzU4?oc=5",
-      "source": "eet-china.com",
+      "source": "电子工程专辑",
       "category": "技术",
       "published": "2026-09-28",
-      "body_snippet": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 eet-china.com",
+      "body_snippet": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 电子工程专辑",
       "_query_boost": 20
     },
     {
-      "id": "raw-009",
+      "id": "raw-008",
       "title": "华为昇腾与DeepSeek深化协作，中国AI公司海外采购算力加速 - 虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1reEM2N055dk5DeE9tS3hBM3lnSzY0VmhqWlpveXBfVVZoTjh5cUE1bmJBSzlDZ2luWDEzX3lsdHRpc3F6LVNTWXVQaFRlaVRZc194Rg?oc=5",
       "source": "虎嗅网",
@@ -96,7 +87,7 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-010",
+      "id": "raw-009",
       "title": "关于上海市2026年度科技产业高质量发展计划“养老科技支撑”项目立项的通知",
       "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/bsgsgg/kjjhxmjggb/20260930/372dff196f8a4a3c9fdb1bc700cff1b8.html",
       "source": "上海市科委",
@@ -105,7 +96,7 @@
       "category": "技术"
     },
     {
-      "id": "raw-011",
+      "id": "raw-010",
       "title": "关于印发《上海市科技计划项目监督管理办法（试行）》的通知",
       "url": "https://stcsm.sh.gov.cn/zwgk/kjzc/zcwj/kwzcxwj/20260930/52b8e1be81954c44884a9f1704d57862.html",
       "source": "上海市科委",
@@ -114,7 +105,7 @@
       "category": "技术"
     },
     {
-      "id": "raw-012",
+      "id": "raw-011",
       "title": "关于上海市2026年第七批拟入库科技型中小企业名单的公示",
       "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20260930/cb5a09ff6c4d4cc486374325b0a64d79.html",
       "source": "上海市科委",
@@ -123,7 +114,7 @@
       "category": "技术"
     },
     {
-      "id": "raw-013",
+      "id": "raw-012",
       "title": "聚力轻量化算力创新 护航 Token 合规出海｜抖加流量亮相 2026 算力网发展大会 - CSDN",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5rQmxLRGJ5SFpKSktnaGpDNkl3aURTbmo5bjNwam1zZ3FUUHZSMGQzNTk2a09wWDVnRWdPVXhZc21CcVV3blo2a1pRSFdPaWdaMzFqUTFWTmUzSHJVZGc?oc=5",
       "source": "CSDN",
@@ -133,24 +124,34 @@
       "_query_boost": 15
     },
     {
-      "id": "raw-014",
-      "title": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 - eet-china.com",
+      "id": "raw-013",
+      "title": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 - 电子工程专辑",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDU0pPaUZaekpYbzIwR3pZdHp5cEd5YTFoOHNwWjlqc0MxYWE3aFdQX3RoQ3RjeGZaeGNGdjhIWUpSUjN6NUlYRmpIUmxzakNnTGNlLWhVV3RTc3c2?oc=5",
-      "source": "eet-china.com",
+      "source": "电子工程专辑",
       "category": "技术",
       "published": "2026-09-28",
-      "body_snippet": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 eet-china.com",
+      "body_snippet": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 电子工程专辑",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-014",
+      "title": "算力危机下的国产破局：beat365app网址下载入口发布全栈AI加速方案，2026年护航智能经济底座 - 体坛加",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5iOXlWSzNiM0hBNVNCTmpNMER1NVVNUVFKUTNoQkJNUWowMGR2WGZGSTVJQnBGWnlCcTMzTjMxdklZcXMxdlU0bTZ5SmEzQQ?oc=5",
+      "source": "体坛加",
+      "category": "技术",
+      "published": "2026-09-28",
+      "body_snippet": "算力危机下的国产破局：beat365app网址下载入口发布全栈AI加速方案，2026年护航智能经济底座 体坛加",
       "_query_boost": 15
     },
     {
       "id": "raw-015",
-      "title": "算力危机下的国产破局：beat365app网址下载入口发布全栈AI加速方案，2026年护航智能经济底座 - 体坛",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5iOXlWSzNiM0hBNVNCTmpNMER1NVVNUVFKUTNoQkJNUWowMGR2WGZGSTVJQnBGWnlCcTMzTjMxdklZcXMxdlU0bTZ5SmEzQQ?oc=5",
-      "source": "体坛",
-      "category": "技术",
+      "title": "US-China strategic stalemate; Premier Li signals Q4 economic support; More Nvidia chips for China?; PRC-Philippine tensions - Sinocism | Bill Bishop",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16Q3BOaE9tQjBvVWo3OFJuYk9iYjZUVHpyZTBQRWlqZWZzZTkwSXhyR2dfMFVQYlVyM2p0eUYzTGVob2d3V2VTZmhDUmcwTzR5X3kxVHpRek1VNHFoMGJadGluSVN5NFhPdUdj?oc=5",
+      "source": "Sinocism | Bill Bishop",
+      "category": "海外",
       "published": "2026-09-28",
-      "body_snippet": "算力危机下的国产破局：beat365app网址下载入口发布全栈AI加速方案，2026年护航智能经济底座 体坛",
-      "_query_boost": 15
+      "body_snippet": "US-China strategic stalemate; Premier Li signals Q4 economic support; More Nvidia chips for China?; PRC-Philippine tensions Sinocism | Bill Bishop",
+      "_query_boost": 0
     }
   ]
 }
