@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-04T06:19:14.209Z",
+  "generated_at": "2026-10-05T06:12:17.609Z",
   "week": "2026-W41",
   "date_range": {
-    "from": "2026-09-27",
-    "to": "2026-10-04"
+    "from": "2026-09-28",
+    "to": "2026-10-05"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -13,7 +13,7 @@
       "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
       "source": "工信部-新闻",
-      "published": "2026-10-04",
+      "published": "2026-10-05",
       "body_snippet": "",
       "category": "技术"
     },
@@ -29,13 +29,12 @@
     },
     {
       "id": "raw-003",
-      "title": "以新型电网建设促进“六张网”协同发展 - 人民日报",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tMEZrbGlpXy11dTNEMVI0NDYweWliOGRIZGQzRmdWaVJFcTdxZlpFV1FianduUEZ3aEFnN2RGT0s0eFRwYm1XWGF0OS1nUnpIYTBIakxRZ05wMklCdFg2dWV2S0pOdWpuYmtxSjNMckh5S3ltMTZHbXpvR0Ixa0E?oc=5",
-      "source": "人民日报",
-      "category": "政策",
-      "published": "2026-09-28",
-      "body_snippet": "以新型电网建设促进“六张网”协同发展 人民日报",
-      "_query_boost": 0
+      "title": "AI算力硬合作，马斯克还是更相信中国制造",
+      "url": "https://www.qbitai.com/2026/10/501605.html",
+      "source": "量子位",
+      "published": "2026-10-04",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-004",
@@ -49,15 +48,6 @@
     },
     {
       "id": "raw-005",
-      "title": "假期首日铁路发客量创新高",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261002/cd9c4cd44cad4860a41afee731e32191.html",
-      "source": "上海市政府-动态",
-      "published": "2026-10-02",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-006",
       "title": "CoreWeave Puts NVIDIA Vera Rubin NVL72 Into Production: Cognition Reports 4.8x Over GB200, Vera CPU Racks a... - StorageReview.com",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX1FnR1A5VUtQRTFxWjFnUjRXTmxucDYtZUNSc2JJaGgxdWRRVTI1UXV6ZWlSeVlBbl9pcTJnX3pGN0g5VVpIM2tXcmFTaUNHZUZPRlZycllXX3FKN2Fzb2JyTDlWQmRzUjZ6X1RJenBiSmhMaFB5M2hLdE1iTkFzTDlNV3RwNHhhbzlzWDVYZDNMajh0U1RqSGJjOHYtbzhYd1QxOEtKT3d4NDQy0gGyAUFVX3lxTFBPT2h0ZnFtZFpiT3RyTm1oZzlDbXJ6YUNaRDM1WHBDYWlUaG5fZ0luTDlNSnVQY0tfMU9Ub0JKQzFTTDFvUFBsd2s4bDRTS2JhanhSN3lrX2lreHJlOUFSZWFqaGZLeDBBYlZWU3hYbmk0bmNfQ25QX1JUWlNMUVhPWFg1SmZvRnhDSEtMSk5xZGtHNTYwMFNzODVCaEh6SS04X3RNZ2hpeXdVNW9QSkdhRXc?oc=5",
       "source": "StorageReview.com",
@@ -67,17 +57,36 @@
       "_query_boost": 15
     },
     {
+      "id": "raw-006",
+      "title": "聚力轻量化算力创新 护航 Token 合规出海｜抖加流量亮相 2026 算力网发展大会 - csdn.net",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5rQmxLRGJ5SFpKSktnaGpDNkl3aURTbmo5bjNwam1zZ3FUUHZSMGQzNTk2a09wWDVnRWdPVXhZc21CcVV3blo2a1pRSFdPaWdaMzFqUTFWTmUzSHJVZGc?oc=5",
+      "source": "csdn.net",
+      "category": "竞品",
+      "published": "2026-09-29",
+      "body_snippet": "聚力轻量化算力创新 护航 Token 合规出海｜抖加流量亮相 2026 算力网发展大会 csdn.net",
+      "_query_boost": 15
+    },
+    {
       "id": "raw-007",
-      "title": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 - 电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBPM0xod29UdVRjWFdZUWpfSTVlTjJnRzVHel93ZGk4cnMxcG1mWkNNZERzUHdiN29Cblh2b3g0dlNNbUFySTVwaWJSZm9vMUVYYzU4?oc=5",
-      "source": "电子工程专辑",
-      "category": "技术",
-      "published": "2026-09-28",
-      "body_snippet": "极海微电子两款打印主控SoC芯片通过国家安全可靠测评 电子工程专辑",
-      "_query_boost": 20
+      "title": "消息称 Reflection 等多家西方企业本月将推出开放权重 AI 模型",
+      "url": "https://www.ithome.com/1/009/765.htm",
+      "source": "IT之家",
+      "published": "2026-10-05",
+      "body_snippet": "合约最高价值 63 亿美元，SpaceX 与开源 AI 初创企业 Reflection 签署算力合作协议",
+      "category": "技术"
     },
     {
       "id": "raw-008",
+      "title": "上半年AI热钱涌动，国资基金抢滩人工智能｜2026张江AI小镇生态日现场侧记 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5rTE5hdFRhVEI1V3RPSkVHQ2MwTl91WUNWQV9RMUJ5YmE2S0R3bEFJc3g2c18wakVuU1ZHWjNFSUczaVFiMWo2dQ?oc=5",
+      "source": "财联社",
+      "category": "政策",
+      "published": "2026-10-05",
+      "body_snippet": "上半年AI热钱涌动，国资基金抢滩人工智能｜2026张江AI小镇生态日现场侧记 财联社",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-009",
       "title": "华为昇腾与DeepSeek深化协作，中国AI公司海外采购算力加速 - 虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1reEM2N055dk5DeE9tS3hBM3lnSzY0VmhqWlpveXBfVVZoTjh5cUE1bmJBSzlDZ2luWDEzX3lsdHRpc3F6LVNTWXVQaFRlaVRZc194Rg?oc=5",
       "source": "虎嗅网",
@@ -87,70 +96,63 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-009",
-      "title": "关于上海市2026年度科技产业高质量发展计划“养老科技支撑”项目立项的通知",
-      "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/bsgsgg/kjjhxmjggb/20260930/372dff196f8a4a3c9fdb1bc700cff1b8.html",
-      "source": "上海市科委",
-      "published": "2026-09-30",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
       "id": "raw-010",
-      "title": "关于印发《上海市科技计划项目监督管理办法（试行）》的通知",
-      "url": "https://stcsm.sh.gov.cn/zwgk/kjzc/zcwj/kwzcxwj/20260930/52b8e1be81954c44884a9f1704d57862.html",
-      "source": "上海市科委",
-      "published": "2026-09-30",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "腾讯70亿美元采购甲骨文算力服务引发远程算力出口管制争议 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KY1ZCcEpQNmdqaG5DRkxQOVVWUnhQVXJfWF9hcm5MeXk4SXdCQndNcnNQQWNfUXd1VGtOdnZRb25fVmRDS3o3c1NURXFMenI3Qm16UHFwUU5QMFhaUDZF?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-01",
+      "body_snippet": "腾讯70亿美元采购甲骨文算力服务引发远程算力出口管制争议 虎嗅网",
+      "_query_boost": 0
     },
     {
       "id": "raw-011",
-      "title": "关于上海市2026年第七批拟入库科技型中小企业名单的公示",
-      "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20260930/cb5a09ff6c4d4cc486374325b0a64d79.html",
-      "source": "上海市科委",
-      "published": "2026-09-30",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "内蒙古乌兰察布崛起为AI算力重镇，高盛报告披露12.5GW容量承诺 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1OSUFlZDlPVEI5ZlM1SG5Ub09oUnFnb1dWbEdtTUNLd1YwZjd4cGhsTHIxc3ZDUG13bEZqODNnX2otNE85ZjhGTHhPR19aSnVvWXhiUQ?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-01",
+      "body_snippet": "内蒙古乌兰察布崛起为AI算力重镇，高盛报告披露12.5GW容量承诺 虎嗅网",
+      "_query_boost": 0
     },
     {
       "id": "raw-012",
-      "title": "聚力轻量化算力创新 护航 Token 合规出海｜抖加流量亮相 2026 算力网发展大会 - CSDN",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5rQmxLRGJ5SFpKSktnaGpDNkl3aURTbmo5bjNwam1zZ3FUUHZSMGQzNTk2a09wWDVnRWdPVXhZc21CcVV3blo2a1pRSFdPaWdaMzFqUTFWTmUzSHJVZGc?oc=5",
-      "source": "CSDN",
-      "category": "竞品",
-      "published": "2026-09-29",
-      "body_snippet": "聚力轻量化算力创新 护航 Token 合规出海｜抖加流量亮相 2026 算力网发展大会 CSDN",
-      "_query_boost": 15
+      "title": "英伟达：接到中国订单…重启H200生产 - 朝鮮日報中文版",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOHRfbWtRSzhWSG9BbXFMSHU5b0x6MDhGNDVrdG1IS1hSU3I2YkFvQmt1RG00VDNYTkstblFvVENyTWdGMG1Da3ZBYjBGSXJSUm0ydUwtalZCeWZlQ0RscVhvc2RybjVnTm1wLTA3UWE1VFhfMk5zSWQzMEVKeDJyT2NQRHlROGZVbkhUUHlpdWd4bmlPeTZMZ0xDTjFmblRn?oc=5",
+      "source": "朝鮮日報中文版",
+      "category": "海外",
+      "published": "2026-10-04",
+      "body_snippet": "英伟达：接到中国订单…重启H200生产 朝鮮日報中文版",
+      "_query_boost": 0
     },
     {
       "id": "raw-013",
-      "title": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 - 电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDU0pPaUZaekpYbzIwR3pZdHp5cEd5YTFoOHNwWjlqc0MxYWE3aFdQX3RoQ3RjeGZaeGNGdjhIWUpSUjN6NUlYRmpIUmxzakNnTGNlLWhVV3RTc3c2?oc=5",
-      "source": "电子工程专辑",
+      "title": "中原证券：国产芯片发布计划大幅提前 算力投入呈现加速趋势 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE53WTI3ODBKNHBiNTRSaXkwbUVGcWhXRDNMOXBVbjJHdTBKTmtzZ2dYU2ZDQ0Rka29jOGlwdXhFMDZNSVpaOHpxeDFrcVQtWlhBT3Z4WGZvLW5uN1pHQTdoMg?oc=5",
+      "source": "东方财富",
       "category": "技术",
-      "published": "2026-09-28",
-      "body_snippet": "传闻称中国考虑允许字节跳动、阿里巴巴采购英伟达RTX PRO 5500，英伟达回应仍受出口管制约束 电子工程专辑",
-      "_query_boost": 15
+      "published": "2026-10-03",
+      "body_snippet": "中原证券：国产芯片发布计划大幅提前 算力投入呈现加速趋势 东方财富",
+      "_query_boost": 20
     },
     {
       "id": "raw-014",
-      "title": "算力危机下的国产破局：beat365app网址下载入口发布全栈AI加速方案，2026年护航智能经济底座 - 体坛加",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5iOXlWSzNiM0hBNVNCTmpNMER1NVVNUVFKUTNoQkJNUWowMGR2WGZGSTVJQnBGWnlCcTMzTjMxdklZcXMxdlU0bTZ5SmEzQQ?oc=5",
-      "source": "体坛加",
-      "category": "技术",
-      "published": "2026-09-28",
-      "body_snippet": "算力危机下的国产破局：beat365app网址下载入口发布全栈AI加速方案，2026年护航智能经济底座 体坛加",
-      "_query_boost": 15
+      "title": "工信部部长李乐成《求是》杂志撰文：以制造业为基础发展壮大实体经济 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiigVBVV95cUxPUXk0eE55R3p3WDh3V0NMV1Nub3pBV2M2OWM4SXl4eDZMSTJpSWF6emRnME1WWlpUWlpYaDdETzVCOUNoY2JGUVcwWWNtOG1ONFhaN1pZT244WENESHRCZGI1VFhOQkxCRi1hYlAxS3ZmcmJsT1JsNjVzN00xXzltUDR1M3FMaktTMW5VeC13RUo4NDVnN0tKOFhZYXREaTVHSlNzMXJET1lxdzJ1MjBMUmVDMW8xY08tRThaUlF0ZjRNQ29FQzFFVmJJMVVUc1VCLVJxbDFuTjdfRzdrWi1LV0tfanNaUE5ncmxjc0U1bEVrQURHMTlQeE1NTGpfb0R0NEh2LUNiQmxaWFpBLTBHSEpGUEZWNlVIb0FfeDk5R1lxSmgtLXFxT0JHN3dtY2s2TGZSaEh2R1RaVlFTSkNiRXpQejBKOEJjbF9lb0lHYkR1NUZ4aGZPRlRzWUdvUGZmRWlLMUh5TlFodlpvRWVxTmdUQU1uY3Mxa3ZYR2xxUzJNLVVKdjFKRXlzZklVZkIyQlQ0Y1dVN1NmTHIxREZmXzRya2xZdEx1ejdTQ25JM29KaXpzc0NiVnhZMllPX1F3WFpHNF9DMkprS0V1a3JDUHpnTW1id2tia0xNc24teDdyOU5KTm1ydWt5RV84WTdEeF9wRzFQc2hYcDQ0MzlwSm1rNTJFU3ZvaGVfdzBEcW5icy1oeEZtdG5XN0hrTjc2YXdWemZzNWdMbVFlbXFSMjZwUm5SNklMX1NvLVZxVVBrY3RiV0k5LTB5dEt0ZHh3Q1h2bEU3ZUxKUWVndU9MclNqekFCRmxJYzdhRmdSZFNNTkh1Mmp4TU5UODl1R2poSXhMaG5jMWFxUQ?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-10-03",
+      "body_snippet": "工信部部长李乐成《求是》杂志撰文：以制造业为基础发展壮大实体经济 新浪财经",
+      "_query_boost": 30
     },
     {
       "id": "raw-015",
-      "title": "US-China strategic stalemate; Premier Li signals Q4 economic support; More Nvidia chips for China?; PRC-Philippine tensions - Sinocism | Bill Bishop",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16Q3BOaE9tQjBvVWo3OFJuYk9iYjZUVHpyZTBQRWlqZWZzZTkwSXhyR2dfMFVQYlVyM2p0eUYzTGVob2d3V2VTZmhDUmcwTzR5X3kxVHpRek1VNHFoMGJadGluSVN5NFhPdUdj?oc=5",
-      "source": "Sinocism | Bill Bishop",
-      "category": "海外",
-      "published": "2026-09-28",
-      "body_snippet": "US-China strategic stalemate; Premier Li signals Q4 economic support; More Nvidia chips for China?; PRC-Philippine tensions Sinocism | Bill Bishop",
+      "title": "Anthropic IPO 文件曝光：向 SpaceX 豪掷 845 亿美元锁定 AI 算力 - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE01bkhxeWNxUnotSkYzTWVPX1NCWDBTbEdnMjhZN25pMEl0TUc3Y3hjY3M0RzV1SVJkYWctaWxLdF9fOVBpLWRURkNQQk5hUQ?oc=5",
+      "source": "AIBase",
+      "category": "技术",
+      "published": "2026-09-30",
+      "body_snippet": "Anthropic IPO 文件曝光：向 SpaceX 豪掷 845 亿美元锁定 AI 算力 AIBase",
       "_query_boost": 0
     }
   ]
