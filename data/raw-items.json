@@ -1,15 +1,44 @@
 {
-  "generated_at": "2026-10-06T06:51:25.976Z",
+  "generated_at": "2026-10-07T06:26:11.150Z",
   "week": "2026-W41",
   "date_range": {
-    "from": "2026-09-29",
-    "to": "2026-10-06"
+    "from": "2026-09-30",
+    "to": "2026-10-07"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
+      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
+      "source": "工信部-新闻",
+      "published": "2026-10-07",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-002",
+      "title": "月之暗面完成IPO前融资估值500亿美元拟明年第一季度香港上市- AI 人工智能 - cnBeta.COM",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jekZPODlQejlKVmJTbFhyemdFdWdoUFhqVXpERXRnS3I1MnRwa0lTd3dRMl9WTEUwWTNjWm43aXJMcWVQLU13UXRaN2NNSnZoT0tvMkhzNDU2SzJIODNUOQ?oc=5",
+      "source": "cnBeta.COM",
+      "category": "资本",
+      "published": "2026-10-06",
+      "body_snippet": "月之暗面完成IPO前融资估值500亿美元拟明年第一季度香港上市- AI 人工智能 cnBeta.COM",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-003",
+      "title": "连续第四年发布，AI十大展望来了，包括可交互世界建模、灵巧手、AI算力等 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMimwVBVV95cUxQRTM3TUF0anppdFJWamtaNFFZaVFvMFlBTlNVNkVlOWlCT3hxTWpJdVh4cV9taldnb3JaNXh4d1ptM250eGVKMlk4Y01keXJyLUNkZlBScFAtU2xVV3BJSHZETmJheFh3VmxfZTlKWGM1VDNYMGNpUjByVGtVNXFUQjdJUTJqSzE4Y09waVZSb3B3cFAxQmhVS3FJSFZCMFdldERnLW5ja2l3VHhlakNvSkhQVmdfaG44bllrVVFRMlJzOUZXN1hTVE9Hel83czZjejg1QmhuanZHNDhJdzc4SDRuQm53UnltNXdKd0ZHcjdQZ1NjekNXRVFQQ2MtYnhwcHZsMVN5V1dLQjFNdHc2Z25iN1NDeVU5dVA0UElnbGN6RUI5dTZPY1hMNjE5UFZUc1FjR0tjMXNMallfWF9FSnVMMDFVcHc2cGxBSmhENWNUYlVCSmdjT1lKc01iWW1iUnlUSGF0bDBsODN0X0ZoWjBqVWdIaHBUTDJCR3gxcll5dUMwOGVtMkxzc0RVN0R2ZEtxZnU4SXFzYjdZRjRBVFN1c0RfQndiNlJBYWh3M2RVMkVrRmd6S2hjMm1ud3pqOUxpcFdrcnFaSDl6Zm1IbWJ1NXRtbzkwaU9tTEkzd01WTzNGN0lVWHdHOUxUODllUU5wSzNTeXduSkl1ampTbDlyWmNrckdncjRoeVFzZGdta2dodG13WlY1QzlNNVdqeGU1cUxtZ2xrNkptcmdaVEFrQkhJc3F1djBWSlhMdmlMWkg1R0V2eTZjek9oMEZiRFZscHgyRzdPcm9fUWVHLUZiLWx5RzRoMFhDd2dybUpDRnJlbjljUDVUSjVTYWdWbnRJZGk4ZGxndExiMTZfZUNiNmFNUFdmb1dN?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-10-05",
+      "body_snippet": "连续第四年发布，AI十大展望来了，包括可交互世界建模、灵巧手、AI算力等 新浪财经",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-004",
       "title": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMigwVBVV95cUxQUldPRWlsQ3ZrelJuT0lLOTBQTVowU1JNQXhHbWUxRXROVVZBYWJYV3B2ZDROWE1Bam54N214TXBXOEtIdEx2Rno3aGFhaEx5V0picjlxSk1Ga1BCTlg1U0NBSF9jX015a19sUVZCVW5LRFdJb203cjFSOHBVY09XVFdOc1hqelZ6a0hxRlVVQjBCLWgzdTRTZXNaYnF2V2hqejFYR21iTFdMajNEZHpFNVh2djFhamlmQ1RHTGoxelpoRERMcm9hLXFYOUdXTEtIUjBLVE14Z3lmQXBkNFdJNVFfNmhlX3FJaU1acG5haE5kTnQzV01RckdpeEREMk56WU9oNUJGVVVra0NMNHVMelNPREstQ2ZRVk1ELTB3ZWNRSlk3akpaV1JmM0cxdXZ0TnFuTGJ4V2htb2pJYUFnMTJvcjBTY0tCWG1oUkhOZ1pzZ1NYVTRYRy1vX3VvV2dRckVTNWpxMy0wTG4zdXIxZGh2c0FzRU80bXhoN29LRXpfLWVid1d0T2FkenlxX2l5S0c2RWlQSENzTkp5bUVWaS1TTlBfWHR6RDh2S1V0NzJDU1l2UERyRUl4VUllbDFSdVVyajZtMXFOblNSd3k5TkZLTE1lYkFSTFJzbWRzTEJIVlVkazFQUnJBUDB4MTYwWkNsN1RsOGV6cHdjSDBhVXA1LTR3cXRMbThjNF9jbnk1UElneU81WTFSa3UydkdmSDVsVnFNZTlVVWpOc2pvWkFSakg1TlF6SDBpcWJyWG1Ma1lwNFJHTFU5d3Y0SnFYRmdQbmNaR1VYMWI2RUFidDNwVnJLR09Mb2RxQzB5ZGdsaHE2R29JcFhOUjI4c2RGeFhV?oc=5",
       "source": "新浪财经",
@@ -19,37 +48,26 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-002",
-      "title": "月之暗面完成IPO前最后一轮融资 估值约500亿美元 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBSWVNoVENGUXctT2dVcG5aLTZrNWVydzloWFFrZWZpVkpydGZRci1lbUphMk95RUR6UnIwdF9FQk5GTnA2bGNQVlVZOWEySnVPWERpcTNtRWluYzgxNUZYQkRR?oc=5",
-      "source": "观点网",
-      "category": "资本",
-      "published": "2026-10-06",
-      "body_snippet": "月之暗面完成IPO前最后一轮融资 估值约500亿美元 观点网",
-      "_query_boost": 20
+      "id": "raw-005",
+      "title": "“十大非遗创新案例”在上海揭晓",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261007/4be2ff27138c4142a8456ba6c229770d.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-07",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
-      "id": "raw-003",
-      "title": "中国超级新基建！“六张网”正悄然改变你我生活 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQd01xTGpZaXBXY1JNdENpR3hFeV83UjlkSVFyOGdjcU5uc2NKTktuZ1NTblhmSjVLcGVWZTJqRFBZZnBITU92Uy1VaU9YMDZfb19rR3Q2eW9QLW4wa1Q1UkwyYkRoUDZYUEszZDdoTXppOHhIeE9hU2F2c1ljdm42eWJxRFRyWWNrajVaMFdOdw?oc=5",
-      "source": "21财经",
-      "category": "政策",
-      "published": "2026-10-04",
-      "body_snippet": "中国超级新基建！“六张网”正悄然改变你我生活 21财经",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-004",
-      "title": "无问芯穹秘密递表港交所：已融资43亿，腾讯、百度、智谱等押注 - 观察者网",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UWkNBYWx6Zk5XZ1E3YUJmWGlpLU8zcE5NNEw1MVJ6UTh6elR5LXRhdDNoLUN6NU9DN3dvT2plQU55d1ptRGhkRmVVWXFaZnNiMHh2RW1tWHFIdGdKdEdkMEZ1d3g?oc=5",
-      "source": "观察者网",
-      "category": "竞品",
-      "published": "2026-10-04",
-      "body_snippet": "无问芯穹秘密递表港交所：已融资43亿，腾讯、百度、智谱等押注 观察者网",
+      "id": "raw-006",
+      "title": "国金证券:《计算机行业研究：算力的高结构方向》 - 发现报告",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBiMm9hcmRtQVlhQlRSdmR3NzNTeG5IbFVhZHRqNENDcnJTREhHdF9FU29veW5GQk5ic0dXekF0VldPZHdkOUYta0cyZkg0NE93?oc=5",
+      "source": "发现报告",
+      "category": "技术",
+      "published": "2026-10-07",
+      "body_snippet": "国金证券:《计算机行业研究：算力的高结构方向》 发现报告",
       "_query_boost": 15
     },
     {
-      "id": "raw-005",
+      "id": "raw-007",
       "title": "彭博：中国国资助中企采购受管制英伟达晶片 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGbmhqMGZncENHUURaS1VnZkg5b1lidEZKQXV2cEg4OVhMWG8wTmxvY2UzUXNiQXVWVFBnbHRTcTdvSUlhWmZsZEhmSTlPdS1wTFd6bjBYWG45LXVXQ3NINVhJQzVrMWtEWmc?oc=5",
       "source": "联合早报",
@@ -59,26 +77,47 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-006",
-      "title": "AI算力硬合作，马斯克还是更相信中国制造",
-      "url": "https://www.qbitai.com/2026/10/501605.html",
-      "source": "量子位",
-      "published": "2026-10-04",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-007",
-      "title": "Token经济重塑算力产业：爆发增长与潜藏风险 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5laVZsZy1ZTy11YnZOemEyS001cUtPbkREQ0JSLWVwOS1qVVE0cEJZcS1aQWRhUjM2WGU3NzBxbzU3YWJDMjczRG9hbFRDQ3dRV0xPeFd5ekdSRkE0dEdZ?oc=5",
+      "id": "raw-008",
+      "title": "华为发布Peerium计算架构与灵衢总线，昇腾芯片中国市场占有率超英伟达 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GWkVmYnpZX29oWHNwZEl0WVJsc3pyRGZka1hzZWc0N0MtcTltUmZmV2trZjl5dWs4clE1amlweksyWGtKSHNWT0xaaUNSc3JMdi1FbVJmcEZ6UFhEbVJR?oc=5",
       "source": "虎嗅网",
       "category": "技术",
-      "published": "2026-10-04",
-      "body_snippet": "Token经济重塑算力产业：爆发增长与潜藏风险 虎嗅网",
+      "published": "2026-10-06",
+      "body_snippet": "华为发布Peerium计算架构与灵衢总线，昇腾芯片中国市场占有率超英伟达 虎嗅网",
       "_query_boost": 0
     },
     {
-      "id": "raw-008",
+      "id": "raw-009",
+      "title": "马斯克进入子午线计划 黄仁勋掌控AI算力入口 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DUWMyaWFCeGhZS01Fb0dzUjNQVXRDV1hLbmJibXBqeEk5ZUpmS3JfZ3VJbzRIMFlGaXEyaXFTNHMxUDdsRGZzRFFxeDF4M3pHOXNRLWpuUlRfYTVINDJj?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-06",
+      "body_snippet": "马斯克进入子午线计划 黄仁勋掌控AI算力入口 虎嗅网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-010",
+      "title": "中国超级新基建！“六张网”正悄然改变你我生活 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQd01xTGpZaXBXY1JNdENpR3hFeV83UjlkSVFyOGdjcU5uc2NKTktuZ1NTblhmSjVLcGVWZTJqRFBZZnBITU92Uy1VaU9YMDZfb19rR3Q2eW9QLW4wa1Q1UkwyYkRoUDZYUEszZDdoTXppOHhIeE9hU2F2c1ljdm42eWJxRFRyWWNrajVaMFdOdw?oc=5",
+      "source": "21财经",
+      "category": "政策",
+      "published": "2026-10-04",
+      "body_snippet": "中国超级新基建！“六张网”正悄然改变你我生活 21财经",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-011",
+      "title": "无问芯穹秘密递表港交所：已融资43亿，腾讯、百度、智谱等押注 - 观察者网",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UWkNBYWx6Zk5XZ1E3YUJmWGlpLU8zcE5NNEw1MVJ6UTh6elR5LXRhdDNoLUN6NU9DN3dvT2plQU55d1ptRGhkRmVVWXFaZnNiMHh2RW1tWHFIdGdKdEdkMEZ1d3g?oc=5",
+      "source": "观察者网",
+      "category": "竞品",
+      "published": "2026-10-04",
+      "body_snippet": "无问芯穹秘密递表港交所：已融资43亿，腾讯、百度、智谱等押注 观察者网",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-012",
       "title": "CoreWeave Puts NVIDIA Vera Rubin NVL72 Into Production: Cognition Reports 4.8x Over GB200, Vera CPU Racks a... - StorageReview.com",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX1FnR1A5VUtQRTFxWjFnUjRXTmxucDYtZUNSc2JJaGgxdWRRVTI1UXV6ZWlSeVlBbl9pcTJnX3pGN0g5VVpIM2tXcmFTaUNHZUZPRlZycllXX3FKN2Fzb2JyTDlWQmRzUjZ6X1RJenBiSmhMaFB5M2hLdE1iTkFzTDlNV3RwNHhhbzlzWDVYZDNMajh0U1RqSGJjOHYtbzhYd1QxOEtKT3d4NDQy0gGyAUFVX3lxTFBPT2h0ZnFtZFpiT3RyTm1oZzlDbXJ6YUNaRDM1WHBDYWlUaG5fZ0luTDlNSnVQY0tfMU9Ub0JKQzFTTDFvUFBsd2s4bDRTS2JhanhSN3lrX2lreHJlOUFSZWFqaGZLeDBBYlZWU3hYbmk0bmNfQ25QX1JUWlNMUVhPWFg1SmZvRnhDSEtMSk5xZGtHNTYwMFNzODVCaEh6SS04X3RNZ2hpeXdVNW9QSkdhRXc?oc=5",
       "source": "StorageReview.com",
@@ -88,69 +127,32 @@
       "_query_boost": 15
     },
     {
-      "id": "raw-009",
-      "title": "关于上海市2026年度科技产业高质量发展计划“养老科技支撑”项目立项的通知",
-      "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/bsgsgg/kjjhxmjggb/20260930/372dff196f8a4a3c9fdb1bc700cff1b8.html",
-      "source": "上海市科委",
-      "published": "2026-09-30",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-010",
-      "title": "关于印发《上海市科技计划项目监督管理办法（试行）》的通知",
-      "url": "https://stcsm.sh.gov.cn/zwgk/kjzc/zcwj/kwzcxwj/20260930/52b8e1be81954c44884a9f1704d57862.html",
-      "source": "上海市科委",
-      "published": "2026-09-30",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-011",
-      "title": "关于上海市2026年第七批拟入库科技型中小企业名单的公示",
-      "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20260930/cb5a09ff6c4d4cc486374325b0a64d79.html",
-      "source": "上海市科委",
-      "published": "2026-09-30",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-012",
-      "title": "我国应用下一代通信关键技术空心光纤，AI 算力时代给光信号造出“磁悬浮”高速轨道",
-      "url": "https://www.ithome.com/1/009/941.htm",
-      "source": "IT之家",
-      "published": "2026-10-06",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
       "id": "raw-013",
-      "title": "华为昇腾与DeepSeek深化协作，中国AI公司海外采购算力加速 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1reEM2N055dk5DeE9tS3hBM3lnSzY0VmhqWlpveXBfVVZoTjh5cUE1bmJBSzlDZ2luWDEzX3lsdHRpc3F6LVNTWXVQaFRlaVRZc194Rg?oc=5",
-      "source": "虎嗅网",
+      "title": "从智能驾驶到具身智能：28圈官网版下载2.0以“算力心脏”开启国产AI新篇章 - DoNews",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8zbm9kSlVRbndsUmEzLVYwOG82SFFsdDNuZHo0VS11UW9ybGd5bVkyRFFOS2JqNTcwb3NES2pmaFRmZUJWSkxCdXBDRUlFSDlsNGc1dmVGaThweGY2b3ZKa0JEZWwyTEFEdVJ3emg2R0xuSlBhQzg0VQ?oc=5",
+      "source": "DoNews",
       "category": "技术",
-      "published": "2026-10-02",
-      "body_snippet": "华为昇腾与DeepSeek深化协作，中国AI公司海外采购算力加速 虎嗅网",
-      "_query_boost": 0
+      "published": "2026-10-01",
+      "body_snippet": "从智能驾驶到具身智能：28圈官网版下载2.0以“算力心脏”开启国产AI新篇章 DoNews",
+      "_query_boost": 15
     },
     {
       "id": "raw-014",
-      "title": "腾讯70亿美元采购甲骨文算力服务引发远程算力出口管制争议 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KY1ZCcEpQNmdqaG5DRkxQOVVWUnhQVXJfWF9hcm5MeXk4SXdCQndNcnNQQWNfUXd1VGtOdnZRb25fVmRDS3o3c1NURXFMenI3Qm16UHFwUU5QMFhaUDZF?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-01",
-      "body_snippet": "腾讯70亿美元采购甲骨文算力服务引发远程算力出口管制争议 虎嗅网",
-      "_query_boost": 0
+      "title": "宏景科技声明：所有算力设备均通过合规商业渠道采购",
+      "url": "https://www.ithome.com/1/010/191.htm",
+      "source": "IT之家",
+      "published": "2026-10-07",
+      "body_snippet": "",
+      "category": "监管"
     },
     {
       "id": "raw-015",
-      "title": "内蒙古乌兰察布崛起为AI算力重镇，高盛报告披露12.5GW容量承诺 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1OSUFlZDlPVEI5ZlM1SG5Ub09oUnFnb1dWbEdtTUNLd1YwZjd4cGhsTHIxc3ZDUG13bEZqODNnX2otNE85ZjhGTHhPR19aSnVvWXhiUQ?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-01",
-      "body_snippet": "内蒙古乌兰察布崛起为AI算力重镇，高盛报告披露12.5GW容量承诺 虎嗅网",
+      "title": "英伟达：接到中国订单…重启H200生产 - 朝鮮日報中文版",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOHRfbWtRSzhWSG9BbXFMSHU5b0x6MDhGNDVrdG1IS1hSU3I2YkFvQmt1RG00VDNYTkstblFvVENyTWdGMG1Da3ZBYjBGSXJSUm0ydUwtalZCeWZlQ0RscVhvc2RybjVnTm1wLTA3UWE1VFhfMk5zSWQzMEVKeDJyT2NQRHlROGZVbkhUUHlpdWd4bmlPeTZMZ0xDTjFmblRn?oc=5",
+      "source": "朝鮮日報中文版",
+      "category": "海外",
+      "published": "2026-10-07",
+      "body_snippet": "英伟达：接到中国订单…重启H200生产 朝鮮日報中文版",
       "_query_boost": 0
     }
   ]
