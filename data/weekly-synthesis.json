@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-07T06:26:11.250Z",
-  "date": "2026-10-07",
-  "date_label": "2026-10-07",
+  "generated_at": "2026-10-08T06:38:27.032Z",
+  "date": "2026-10-08",
+  "date_label": "2026-10-08",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 0,
+    "🏛️": 1,
     "📜": 1,
     "⚔️": 2,
     "💰": 2,
     "🌏": 0,
-    "🔬": 6
+    "🔬": 7
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 2,
+    "policy_heat": 3,
     "competitor_heat": 4,
     "capital_heat": 3,
     "overseas_heat": 2,
@@ -35,18 +35,26 @@
     },
     {
       "id": "2",
-      "title": "无问芯穹秘密递表港交所：已融资43亿，腾",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
+      "title": "国务院关于对外投资的规定解读（一）：83",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
       "id": "3",
-      "title": "宏景科技声明：所有算力设备均通过合规商业",
+      "title": "阶跃终端首款大模型原生智能体手机 STE",
       "policy_axis": -0.5,
       "competition_axis": 0.1,
       "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "4",
+      "title": "无问芯穹秘密递表港交所：已融资43亿，腾",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 3,
       "axis_reason": "规则估算"
     }
   ],
@@ -54,7 +62,7 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 0,
+      "policy_tailwind": 8,
       "competitive_pressure": -12,
       "capital_sentiment": 10,
       "regulatory_risk": -5,

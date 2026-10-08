@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-10-07T06:26:11.277Z",
+  "updated_at": "2026-10-08T06:38:27.066Z",
   "days": [
+    {
+      "date": "2026-10-08",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "signal_summary": {
+        "🏛️": 1,
+        "📜": 1,
+        "⚔️": 2,
+        "💰": 2,
+        "🌏": 0,
+        "🔬": 7
+      },
+      "wind_indicators": {
+        "policy_heat": 3,
+        "competitor_heat": 4,
+        "capital_heat": 3,
+        "overseas_heat": 2,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
+      },
+      "ppio_index": {
+        "score": 55,
+        "delta": 0,
+        "components": {
+          "policy_tailwind": 8,
+          "competitive_pressure": -12,
+          "capital_sentiment": 10,
+          "regulatory_risk": -5,
+          "overseas_headwind": 0
+        },
+        "interpretation": "规则估算，仅供参考"
+      },
+      "item_count": {
+        "total": 11,
+        "attend": 4,
+        "silent": 7
+      },
+      "competitor_updates": []
+    },
     {
       "date": "2026-10-07",
       "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
@@ -3431,46 +3469,6 @@
       },
       "competitor_updates": [
         "硅基流动：冲击港股IPO，定位“AI Token工厂”，市占率约1.5%，阿里、美团等入股，核心MaaS推理服务与PPIO边缘推理存在直接竞争。"
-      ]
-    },
-    {
-      "date": "2026-07-02",
-      "mainline": "硅基流动冲刺港交所加剧边缘云竞争，国务院对外投资规定增加VIE备案不确定性，张江算力券利好需求",
-      "signal_summary": {
-        "🏛️": 2,
-        "📜": 1,
-        "⚔️": 2,
-        "💰": 0,
-        "🌏": 0,
-        "🔬": 0
-      },
-      "wind_indicators": {
-        "policy_heat": 3,
-        "competitor_heat": 4,
-        "capital_heat": 3,
-        "overseas_heat": 2,
-        "overall_sentiment": "升温",
-        "summary": "地方算力补贴与行业融资热度支撑基本面，但竞品上市与监管新规带来双重压力"
-      },
-      "ppio_index": {
-        "score": 62,
-        "delta": 2,
-        "components": {
-          "policy_tailwind": 35,
-          "competitive_pressure": -22,
-          "capital_sentiment": 15,
-          "regulatory_risk": -13,
-          "overseas_headwind": -10
-        },
-        "interpretation": "政策支撑与资本热度抵消部分竞品压力及监管风险，指数小幅回升2点"
-      },
-      "item_count": {
-        "total": 15,
-        "attend": 4,
-        "silent": 11
-      },
-      "competitor_updates": [
-        "硅基流动：已向港交所递交招股书，2025年营收增长7倍，定位Token工厂，专注模型部署与推理服务，上市后可能加大边缘云投入"
       ]
     }
   ]

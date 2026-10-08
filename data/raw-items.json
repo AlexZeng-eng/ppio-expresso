@@ -1,24 +1,15 @@
 {
-  "generated_at": "2026-10-07T06:26:11.150Z",
+  "generated_at": "2026-10-08T06:38:26.926Z",
   "week": "2026-W41",
   "date_range": {
-    "from": "2026-09-30",
-    "to": "2026-10-07"
+    "from": "2026-10-01",
+    "to": "2026-10-08"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
-      "source": "工信部-新闻",
-      "published": "2026-10-07",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-002",
       "title": "月之暗面完成IPO前融资估值500亿美元拟明年第一季度香港上市- AI 人工智能 - cnBeta.COM",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jekZPODlQejlKVmJTbFhyemdFdWdoUFhqVXpERXRnS3I1MnRwa0lTd3dRMl9WTEUwWTNjWm43aXJMcWVQLU13UXRaN2NNSnZoT0tvMkhzNDU2SzJIODNUOQ?oc=5",
       "source": "cnBeta.COM",
@@ -28,17 +19,37 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-003",
-      "title": "连续第四年发布，AI十大展望来了，包括可交互世界建模、灵巧手、AI算力等 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMimwVBVV95cUxQRTM3TUF0anppdFJWamtaNFFZaVFvMFlBTlNVNkVlOWlCT3hxTWpJdVh4cV9taldnb3JaNXh4d1ptM250eGVKMlk4Y01keXJyLUNkZlBScFAtU2xVV3BJSHZETmJheFh3VmxfZTlKWGM1VDNYMGNpUjByVGtVNXFUQjdJUTJqSzE4Y09waVZSb3B3cFAxQmhVS3FJSFZCMFdldERnLW5ja2l3VHhlakNvSkhQVmdfaG44bllrVVFRMlJzOUZXN1hTVE9Hel83czZjejg1QmhuanZHNDhJdzc4SDRuQm53UnltNXdKd0ZHcjdQZ1NjekNXRVFQQ2MtYnhwcHZsMVN5V1dLQjFNdHc2Z25iN1NDeVU5dVA0UElnbGN6RUI5dTZPY1hMNjE5UFZUc1FjR0tjMXNMallfWF9FSnVMMDFVcHc2cGxBSmhENWNUYlVCSmdjT1lKc01iWW1iUnlUSGF0bDBsODN0X0ZoWjBqVWdIaHBUTDJCR3gxcll5dUMwOGVtMkxzc0RVN0R2ZEtxZnU4SXFzYjdZRjRBVFN1c0RfQndiNlJBYWh3M2RVMkVrRmd6S2hjMm1ud3pqOUxpcFdrcnFaSDl6Zm1IbWJ1NXRtbzkwaU9tTEkzd01WTzNGN0lVWHdHOUxUODllUU5wSzNTeXduSkl1ampTbDlyWmNrckdncjRoeVFzZGdta2dodG13WlY1QzlNNVdqeGU1cUxtZ2xrNkptcmdaVEFrQkhJc3F1djBWSlhMdmlMWkg1R0V2eTZjek9oMEZiRFZscHgyRzdPcm9fUWVHLUZiLWx5RzRoMFhDd2dybUpDRnJlbjljUDVUSjVTYWdWbnRJZGk4ZGxndExiMTZfZUNiNmFNUFdmb1dN?oc=5",
-      "source": "新浪财经",
+      "id": "raw-002",
+      "title": "南通开发区人工智能产业再添新名片，武汉大学具身智能求是中试基地揭牌 - 新华网江苏频道",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81WDhYYWtPYWpQQk1JTHB4OUg1T1dzekdRakVmazFTdmxxMHRhYlNYWDBvWmRIZ0VLUDhXUjFtaVAwVFczSXRudko5NGNOcFd6UGw1bVpwMFdURllfMkZkNEtwYVRpbGVDa0FWbVduTFBPU041?oc=5",
+      "source": "新华网江苏频道",
       "category": "政策",
-      "published": "2026-10-05",
-      "body_snippet": "连续第四年发布，AI十大展望来了，包括可交互世界建模、灵巧手、AI算力等 新浪财经",
+      "published": "2026-10-07",
+      "body_snippet": "南通开发区人工智能产业再添新名片，武汉大学具身智能求是中试基地揭牌 新华网江苏频道",
       "_query_boost": 25
     },
     {
+      "id": "raw-003",
+      "title": "六网编织向新行 | 一批新型电网重大工程加紧建设 锻造“六张网”硬核底座 - 央视网",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5KbVRvQ3Bma0N3YmJUb1dkUm9tYmdDNHN3clFyN2R0b1BGVlJybFZscGVCVXdNTTFhWDg3UTAydFVyWGNnVDJoZ0xWNUNSc1lsYWJ3bXpQcXh5YTVZTm5NZEEzTG1uWkpGWkI3RFNyQ2l5Tm50aTZfMQ?oc=5",
+      "source": "央视网",
+      "category": "政策",
+      "published": "2026-10-07",
+      "body_snippet": "六网编织向新行 | 一批新型电网重大工程加紧建设 锻造“六张网”硬核底座 央视网",
+      "_query_boost": 0
+    },
+    {
       "id": "raw-004",
+      "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ - 华人头条",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZlFzTGdVZk1tN3dSQ0RvX0VOSWNEM0VuZm5EZnpScjFBNmJFMWwtVjFKdDI4Q3VRdzk4cTZ1eHV4NjdIamhkZ3luVlhTLXNQNmx1NnZ4aHNKVlJ4cVBZN2NjWjl6aFE5R1U1SVJhN1pWS2hyaUlUbDc5UFBYLWdHZE5jaFNKNGpxYWc?oc=5",
+      "source": "华人头条",
+      "category": "监管",
+      "published": "2026-10-06",
+      "body_snippet": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ 华人头条",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-005",
       "title": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMigwVBVV95cUxQUldPRWlsQ3ZrelJuT0lLOTBQTVowU1JNQXhHbWUxRXROVVZBYWJYV3B2ZDROWE1Bam54N214TXBXOEtIdEx2Rno3aGFhaEx5V0picjlxSk1Ga1BCTlg1U0NBSF9jX015a19sUVZCVW5LRFdJb203cjFSOHBVY09XVFdOc1hqelZ6a0hxRlVVQjBCLWgzdTRTZXNaYnF2V2hqejFYR21iTFdMajNEZHpFNVh2djFhamlmQ1RHTGoxelpoRERMcm9hLXFYOUdXTEtIUjBLVE14Z3lmQXBkNFdJNVFfNmhlX3FJaU1acG5haE5kTnQzV01RckdpeEREMk56WU9oNUJGVVVra0NMNHVMelNPREstQ2ZRVk1ELTB3ZWNRSlk3akpaV1JmM0cxdXZ0TnFuTGJ4V2htb2pJYUFnMTJvcjBTY0tCWG1oUkhOZ1pzZ1NYVTRYRy1vX3VvV2dRckVTNWpxMy0wTG4zdXIxZGh2c0FzRU80bXhoN29LRXpfLWVid1d0T2FkenlxX2l5S0c2RWlQSENzTkp5bUVWaS1TTlBfWHR6RDh2S1V0NzJDU1l2UERyRUl4VUllbDFSdVVyajZtMXFOblNSd3k5TkZLTE1lYkFSTFJzbWRzTEJIVlVkazFQUnJBUDB4MTYwWkNsN1RsOGV6cHdjSDBhVXA1LTR3cXRMbThjNF9jbnk1UElneU81WTFSa3UydkdmSDVsVnFNZTlVVWpOc2pvWkFSakg1TlF6SDBpcWJyWG1Ma1lwNFJHTFU5d3Y0SnFYRmdQbmNaR1VYMWI2RUFidDNwVnJLR09Mb2RxQzB5ZGdsaHE2R29JcFhOUjI4c2RGeFhV?oc=5",
       "source": "新浪财经",
@@ -48,7 +59,27 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-005",
+      "id": "raw-006",
+      "title": "连续第四年发布，AI十大展望来了，包括可交互世界建模、灵巧手、AI算力等 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMimwVBVV95cUxQRTM3TUF0anppdFJWamtaNFFZaVFvMFlBTlNVNkVlOWlCT3hxTWpJdVh4cV9taldnb3JaNXh4d1ptM250eGVKMlk4Y01keXJyLUNkZlBScFAtU2xVV3BJSHZETmJheFh3VmxfZTlKWGM1VDNYMGNpUjByVGtVNXFUQjdJUTJqSzE4Y09waVZSb3B3cFAxQmhVS3FJSFZCMFdldERnLW5ja2l3VHhlakNvSkhQVmdfaG44bllrVVFRMlJzOUZXN1hTVE9Hel83czZjejg1QmhuanZHNDhJdzc4SDRuQm53UnltNXdKd0ZHcjdQZ1NjekNXRVFQQ2MtYnhwcHZsMVN5V1dLQjFNdHc2Z25iN1NDeVU5dVA0UElnbGN6RUI5dTZPY1hMNjE5UFZUc1FjR0tjMXNMallfWF9FSnVMMDFVcHc2cGxBSmhENWNUYlVCSmdjT1lKc01iWW1iUnlUSGF0bDBsODN0X0ZoWjBqVWdIaHBUTDJCR3gxcll5dUMwOGVtMkxzc0RVN0R2ZEtxZnU4SXFzYjdZRjRBVFN1c0RfQndiNlJBYWh3M2RVMkVrRmd6S2hjMm1ud3pqOUxpcFdrcnFaSDl6Zm1IbWJ1NXRtbzkwaU9tTEkzd01WTzNGN0lVWHdHOUxUODllUU5wSzNTeXduSkl1ampTbDlyWmNrckdncjRoeVFzZGdta2dodG13WlY1QzlNNVdqeGU1cUxtZ2xrNkptcmdaVEFrQkhJc3F1djBWSlhMdmlMWkg1R0V2eTZjek9oMEZiRFZscHgyRzdPcm9fUWVHLUZiLWx5RzRoMFhDd2dybUpDRnJlbjljUDVUSjVTYWdWbnRJZGk4ZGxndExiMTZfZUNiNmFNUFdmb1dN?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-10-05",
+      "body_snippet": "连续第四年发布，AI十大展望来了，包括可交互世界建模、灵巧手、AI算力等 新浪财经",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-007",
+      "title": "AI算力重心从训练转向推理 Token消耗五年或增370倍 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtX3U1VWtNNnNQNnhQbWluNWtxSnJWWG1HSTZidTlkamNEdzdEdjBCWF9qRG9tQm80c1Y5RzBCTEdKN1JFem9EakU2eTV6NEgzYmR5NjRPTlBtcEdyLUFJ?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-08",
+      "body_snippet": "AI算力重心从训练转向推理 Token消耗五年或增370倍 虎嗅网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-008",
       "title": "“十大非遗创新案例”在上海揭晓",
       "url": "https://www.shanghai.gov.cn/nw4411/20261007/4be2ff27138c4142a8456ba6c229770d.html",
       "source": "上海市政府-动态",
@@ -57,7 +88,7 @@
       "category": "技术"
     },
     {
-      "id": "raw-006",
+      "id": "raw-009",
       "title": "国金证券:《计算机行业研究：算力的高结构方向》 - 发现报告",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBiMm9hcmRtQVlhQlRSdmR3NzNTeG5IbFVhZHRqNENDcnJTREhHdF9FU29veW5GQk5ic0dXekF0VldPZHdkOUYta0cyZkg0NE93?oc=5",
       "source": "发现报告",
@@ -67,44 +98,13 @@
       "_query_boost": 15
     },
     {
-      "id": "raw-007",
-      "title": "彭博：中国国资助中企采购受管制英伟达晶片 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGbmhqMGZncENHUURaS1VnZkg5b1lidEZKQXV2cEg4OVhMWG8wTmxvY2UzUXNiQXVWVFBnbHRTcTdvSUlhWmZsZEhmSTlPdS1wTFd6bjBYWG45LXVXQ3NINVhJQzVrMWtEWmc?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-10-02",
-      "body_snippet": "彭博：中国国资助中企采购受管制英伟达晶片 联合早报",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-008",
-      "title": "华为发布Peerium计算架构与灵衢总线，昇腾芯片中国市场占有率超英伟达 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GWkVmYnpZX29oWHNwZEl0WVJsc3pyRGZka1hzZWc0N0MtcTltUmZmV2trZjl5dWs4clE1amlweksyWGtKSHNWT0xaaUNSc3JMdi1FbVJmcEZ6UFhEbVJR?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-06",
-      "body_snippet": "华为发布Peerium计算架构与灵衢总线，昇腾芯片中国市场占有率超英伟达 虎嗅网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-009",
-      "title": "马斯克进入子午线计划 黄仁勋掌控AI算力入口 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DUWMyaWFCeGhZS01Fb0dzUjNQVXRDV1hLbmJibXBqeEk5ZUpmS3JfZ3VJbzRIMFlGaXEyaXFTNHMxUDdsRGZzRFFxeDF4M3pHOXNRLWpuUlRfYTVINDJj?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-06",
-      "body_snippet": "马斯克进入子午线计划 黄仁勋掌控AI算力入口 虎嗅网",
-      "_query_boost": 0
-    },
-    {
       "id": "raw-010",
-      "title": "中国超级新基建！“六张网”正悄然改变你我生活 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQd01xTGpZaXBXY1JNdENpR3hFeV83UjlkSVFyOGdjcU5uc2NKTktuZ1NTblhmSjVLcGVWZTJqRFBZZnBITU92Uy1VaU9YMDZfb19rR3Q2eW9QLW4wa1Q1UkwyYkRoUDZYUEszZDdoTXppOHhIeE9hU2F2c1ljdm42eWJxRFRyWWNrajVaMFdOdw?oc=5",
-      "source": "21财经",
-      "category": "政策",
-      "published": "2026-10-04",
-      "body_snippet": "中国超级新基建！“六张网”正悄然改变你我生活 21财经",
-      "_query_boost": 0
+      "title": "阶跃终端首款大模型原生智能体手机 STEPX Neo 发布定档：10 月 13 日见",
+      "url": "https://www.ithome.com/1/010/416.htm",
+      "source": "IT之家",
+      "published": "2026-10-08",
+      "body_snippet": "通过网信部门备案",
+      "category": "监管"
     },
     {
       "id": "raw-011",
@@ -128,31 +128,32 @@
     },
     {
       "id": "raw-013",
-      "title": "从智能驾驶到具身智能：28圈官网版下载2.0以“算力心脏”开启国产AI新篇章 - DoNews",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8zbm9kSlVRbndsUmEzLVYwOG82SFFsdDNuZHo0VS11UW9ybGd5bVkyRFFOS2JqNTcwb3NES2pmaFRmZUJWSkxCdXBDRUlFSDlsNGc1dmVGaThweGY2b3ZKa0JEZWwyTEFEdVJ3emg2R0xuSlBhQzg0VQ?oc=5",
-      "source": "DoNews",
+      "title": "智能体加速落地，算力产业如何破局？|直击AICC2026 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4yRG93MnFrcGVPeWFwZXZPdDZncTRQZFB5RTlUamdmTFJQLURMOFphN240RVVkWUR2S0p6T01mVHNDUUh5X0JaQQ?oc=5",
+      "source": "财联社",
       "category": "技术",
-      "published": "2026-10-01",
-      "body_snippet": "从智能驾驶到具身智能：28圈官网版下载2.0以“算力心脏”开启国产AI新篇章 DoNews",
-      "_query_boost": 15
+      "published": "2026-10-08",
+      "body_snippet": "智能体加速落地，算力产业如何破局？|直击AICC2026 财联社",
+      "_query_boost": 0
     },
     {
       "id": "raw-014",
-      "title": "宏景科技声明：所有算力设备均通过合规商业渠道采购",
-      "url": "https://www.ithome.com/1/010/191.htm",
-      "source": "IT之家",
-      "published": "2026-10-07",
-      "body_snippet": "",
-      "category": "监管"
+      "title": "Token经济重塑算力产业：爆发增长与潜藏风险 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBJZjdKdmxYSEZrMmdnTkYyMDJrY25xNURpa0t6b3hTbnk1MnNaQTBZU2NVUG0tYVBub3hGOG4tWGJvTjRxTDRtdVdSR1htR0kwNmc?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-04",
+      "body_snippet": "Token经济重塑算力产业：爆发增长与潜藏风险 虎嗅网",
+      "_query_boost": 0
     },
     {
       "id": "raw-015",
-      "title": "英伟达：接到中国订单…重启H200生产 - 朝鮮日報中文版",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOHRfbWtRSzhWSG9BbXFMSHU5b0x6MDhGNDVrdG1IS1hSU3I2YkFvQmt1RG00VDNYTkstblFvVENyTWdGMG1Da3ZBYjBGSXJSUm0ydUwtalZCeWZlQ0RscVhvc2RybjVnTm1wLTA3UWE1VFhfMk5zSWQzMEVKeDJyT2NQRHlROGZVbkhUUHlpdWd4bmlPeTZMZ0xDTjFmblRn?oc=5",
-      "source": "朝鮮日報中文版",
-      "category": "海外",
-      "published": "2026-10-07",
-      "body_snippet": "英伟达：接到中国订单…重启H200生产 朝鮮日報中文版",
+      "title": "华为昇腾与DeepSeek深化协作，中国AI公司海外采购算力加速 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1reEM2N055dk5DeE9tS3hBM3lnSzY0VmhqWlpveXBfVVZoTjh5cUE1bmJBSzlDZ2luWDEzX3lsdHRpc3F6LVNTWXVQaFRlaVRZc194Rg?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-02",
+      "body_snippet": "华为昇腾与DeepSeek深化协作，中国AI公司海外采购算力加速 虎嗅网",
       "_query_boost": 0
     }
   ]
