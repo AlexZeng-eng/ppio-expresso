@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-10-08T06:38:27.066Z",
+  "updated_at": "2026-10-09T06:40:50.356Z",
   "days": [
+    {
+      "date": "2026-10-09",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "signal_summary": {
+        "🏛️": 1,
+        "📜": 0,
+        "⚔️": 2,
+        "💰": 2,
+        "🌏": 0,
+        "🔬": 7
+      },
+      "wind_indicators": {
+        "policy_heat": 3,
+        "competitor_heat": 4,
+        "capital_heat": 3,
+        "overseas_heat": 2,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
+      },
+      "ppio_index": {
+        "score": 55,
+        "delta": 0,
+        "components": {
+          "policy_tailwind": 8,
+          "competitive_pressure": -12,
+          "capital_sentiment": 10,
+          "regulatory_risk": 0,
+          "overseas_headwind": 0
+        },
+        "interpretation": "规则估算，仅供参考"
+      },
+      "item_count": {
+        "total": 10,
+        "attend": 3,
+        "silent": 7
+      },
+      "competitor_updates": []
+    },
     {
       "date": "2026-10-08",
       "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
@@ -3429,46 +3467,6 @@
         "北京数据集团：发布“京算Token工厂”，打造区域统一的算力调度与Token化交易平台，国资主导，具备资源整合能力",
         "润建股份：旗下五象云谷从出租物理算力转向经营Token，标志性算力金融化转型，可能成为区域性Token供应商",
         "三大运营商：联合推出基于Token的AI算力套餐，利用网络和渠道优势推动算力大众化，边缘侧与PPIO存在潜在竞争"
-      ]
-    },
-    {
-      "date": "2026-07-03",
-      "mainline": "竞品硅基流动冲击“AI Token工厂”港股IPO，边缘算力赛道单笔最大融资点燃风口，推理服务竞争加剧。",
-      "signal_summary": {
-        "🏛️": 0,
-        "📜": 0,
-        "⚔️": 1,
-        "💰": 2,
-        "🌏": 3,
-        "🔬": 6
-      },
-      "wind_indicators": {
-        "policy_heat": 1,
-        "competitor_heat": 4,
-        "capital_heat": 5,
-        "overseas_heat": 3,
-        "overall_sentiment": "活跃",
-        "summary": "边缘算力风口火力全开，资本热浪与竞品IPO交织，行业竞争烈度显著提升，但整体环境仍有利于算力基建讲故事。"
-      },
-      "ppio_index": {
-        "score": 67,
-        "delta": 5,
-        "components": {
-          "policy_tailwind": 38,
-          "competitive_pressure": -25,
-          "capital_sentiment": 22,
-          "regulatory_risk": -12,
-          "overseas_headwind": -6
-        },
-        "interpretation": "边缘算力风口与资本热浪推高指数，但竞品IPO导致竞争压力分项负贡献扩大，整体仍站在政策与市场双顺风位置。"
-      },
-      "item_count": {
-        "total": 12,
-        "attend": 1,
-        "silent": 11
-      },
-      "competitor_updates": [
-        "硅基流动：冲击港股IPO，定位“AI Token工厂”，市占率约1.5%，阿里、美团等入股，核心MaaS推理服务与PPIO边缘推理存在直接竞争。"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-08T06:38:27.032Z",
-  "date": "2026-10-08",
-  "date_label": "2026-10-08",
+  "generated_at": "2026-10-09T06:40:50.313Z",
+  "date": "2026-10-09",
+  "date_label": "2026-10-09",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
-    "📜": 1,
+    "📜": 0,
     "⚔️": 2,
     "💰": 2,
     "🌏": 0,
@@ -35,26 +35,18 @@
     },
     {
       "id": "2",
-      "title": "国务院关于对外投资的规定解读（一）：83",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
+      "title": "知情人士称DeepSeek新一轮融资超8",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 3,
       "axis_reason": "规则估算"
     },
     {
       "id": "3",
-      "title": "阶跃终端首款大模型原生智能体手机 STE",
-      "policy_axis": -0.5,
+      "title": "国务院关于对外投资的规定解读（一）：83",
+      "policy_axis": 0.6,
       "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "4",
-      "title": "无问芯穹秘密递表港交所：已融资43亿，腾",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     }
   ],
@@ -65,7 +57,7 @@
       "policy_tailwind": 8,
       "competitive_pressure": -12,
       "capital_sentiment": 10,
-      "regulatory_risk": -5,
+      "regulatory_risk": 0,
       "overseas_headwind": 0
     },
     "interpretation": "规则估算，仅供参考"
