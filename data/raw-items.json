@@ -1,50 +1,50 @@
 {
-  "generated_at": "2026-10-09T06:40:50.199Z",
-  "week": "2026-W41",
+  "generated_at": "2026-10-10T06:30:56.024Z",
+  "week": "2026-W42",
   "date_range": {
-    "from": "2026-10-02",
-    "to": "2026-10-09"
+    "from": "2026-10-03",
+    "to": "2026-10-10"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
+      "title": "习近平经济思想引领中国加快发展新质生产力_大陆_国内新闻_新闻 - 齐鲁网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yRFhvY0J4OFpNWTZ4N2U0TzdMOHNFekUzSWU0aHA1akZGc3JOaW9kUV8zMkVla3RZVno1U0FFN3VaZEMzX3JYeWxvWHNNVUdiNGYzTHZmLXdKRFZUeDdtSmdWZGRiZEFF?oc=5",
+      "source": "齐鲁网",
+      "category": "政策",
+      "published": "2026-10-10",
+      "body_snippet": "习近平经济思想引领中国加快发展新质生产力_大陆_国内新闻_新闻 齐鲁网",
+      "_query_boost": 40
+    },
+    {
+      "id": "raw-002",
       "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
       "source": "工信部-新闻",
-      "published": "2026-10-09",
+      "published": "2026-10-10",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-002",
-      "title": "月之暗面完成IPO前融资估值500亿美元拟明年第一季度香港上市- AI 人工智能 - cnBeta.COM",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jekZPODlQejlKVmJTbFhyemdFdWdoUFhqVXpERXRnS3I1MnRwa0lTd3dRMl9WTEUwWTNjWm43aXJMcWVQLU13UXRaN2NNSnZoT0tvMkhzNDU2SzJIODNUOQ?oc=5",
-      "source": "cnBeta.COM",
-      "category": "资本",
-      "published": "2026-10-06",
-      "body_snippet": "月之暗面完成IPO前融资估值500亿美元拟明年第一季度香港上市- AI 人工智能 cnBeta.COM",
-      "_query_boost": 20
+      "id": "raw-003",
+      "title": "习近平经济思想引领中国加快发展新质生产力 - 华商网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wbzd1NjlQWUhmWnlrbHJMSzVqbkh0Y3hhYy13dFJaV3lEcElhMnVtRkJGeXJEREdpUEVaWHByYm9KT2NsNllmTkZSVHM2cmtFa0ROMFFKLXNxbFRhdHc?oc=5",
+      "source": "华商网",
+      "category": "政策",
+      "published": "2026-10-10",
+      "body_snippet": "习近平经济思想引领中国加快发展新质生产力 华商网",
+      "_query_boost": 35
     },
     {
-      "id": "raw-003",
+      "id": "raw-004",
       "title": "阿里巴巴蔡崇信呼吁欧洲拥抱开源AI：自建算力基础设施是实现AI主权的唯一路径 - 电子工程专辑",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90QUpNbG5OR3hHZm4wNG83Tkk0SzVQX3ZoS01nc0lUNWhuYzd0SWI2TS1Qa2xpV0NfQUk1ZTkyQ3NCRzNqLUpDLWF5TkV2aXFSZ0k3b2JLUm92ZFZY?oc=5",
       "source": "电子工程专辑",
       "category": "海外",
       "published": "2026-10-09",
       "body_snippet": "阿里巴巴蔡崇信呼吁欧洲拥抱开源AI：自建算力基础设施是实现AI主权的唯一路径 电子工程专辑",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-004",
-      "title": "南通开发区人工智能产业再添新名片，武汉大学具身智能求是中试基地揭牌 - 新华网江苏频道",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81WDhYYWtPYWpQQk1JTHB4OUg1T1dzekdRakVmazFTdmxxMHRhYlNYWDBvWmRIZ0VLUDhXUjFtaVAwVFczSXRudko5NGNOcFd6UGw1bVpwMFdURllfMkZkNEtwYVRpbGVDa0FWbVduTFBPU041?oc=5",
-      "source": "新华网江苏频道",
-      "category": "政策",
-      "published": "2026-10-07",
-      "body_snippet": "南通开发区人工智能产业再添新名片，武汉大学具身智能求是中试基地揭牌 新华网江苏频道",
       "_query_boost": 25
     },
     {
@@ -59,24 +59,44 @@
     },
     {
       "id": "raw-006",
-      "title": "持续用力护航“十五五”规划落实 十二届市委第九轮巡视工作动员部署会召开",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261009/57fda4c56cee4ed88f5c3f0a6d3e30cd.html",
+      "title": "南通开发区人工智能产业再添新名片，武汉大学具身智能求是中试基地揭牌 - 新华网江苏频道",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81WDhYYWtPYWpQQk1JTHB4OUg1T1dzekdRakVmazFTdmxxMHRhYlNYWDBvWmRIZ0VLUDhXUjFtaVAwVFczSXRudko5NGNOcFd6UGw1bVpwMFdURllfMkZkNEtwYVRpbGVDa0FWbVduTFBPU041?oc=5",
+      "source": "新华网江苏频道",
+      "category": "政策",
+      "published": "2026-10-07",
+      "body_snippet": "南通开发区人工智能产业再添新名片，武汉大学具身智能求是中试基地揭牌 新华网江苏频道",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-007",
+      "title": "上海市文旅大数据创新实验室揭幕 打造一批标杆示范场景",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261010/f29001190c754bd2a1617adfe2f36a01.html",
       "source": "上海市政府-动态",
-      "published": "2026-10-09",
+      "published": "2026-10-10",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-007",
-      "title": "松江“乡”遇云间品牌政策推动 创业者扎根长溇村成“新村客” 稻田边“长”出一片创意产业",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261009/91fa624bdf4c4df1a790265cf519ee16.html",
-      "source": "上海市政府-动态",
-      "published": "2026-10-09",
+      "id": "raw-008",
+      "title": "上海市科学技术委员会关于发布2026年度“6G科技创新与未来产业培育战略前沿专项”公开征集项目申报指南...",
+      "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20261010/f8db554de59b4f4789a92cdc44f72f9f.html",
+      "source": "上海市科委",
+      "published": "2026-10-10",
       "body_snippet": "",
-      "category": "政策"
+      "category": "技术"
     },
     {
-      "id": "raw-008",
+      "id": "raw-009",
+      "title": "月之暗面据悉完成IPO前融资，最新估值约500亿美元 - 泰伯网",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkbHktbXJSWTJINC12WnN5MDdUVWY1MzJ6bkJPX2d4a0M5S0xWSEF2MjJrRklMbURiaVhIYndZR19YS0lwMzJINEZUeFllZmphT1pj?oc=5",
+      "source": "泰伯网",
+      "category": "资本",
+      "published": "2026-10-08",
+      "body_snippet": "月之暗面据悉完成IPO前融资，最新估值约500亿美元 泰伯网",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-010",
       "title": "知情人士称DeepSeek新一轮融资超800亿元 月之暗面估值约500亿美元 - 茉莉花新闻网",
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1NeTVCNVl1T2VfYlVYY3RoOUpDSy0xZktkNkVKNllSSnFiZjRHelNwTlUxQ3IwV0IwZkdyMkJ6bFlxbTYxWVE?oc=5",
       "source": "茉莉花新闻网",
@@ -84,26 +104,6 @@
       "published": "2026-10-08",
       "body_snippet": "知情人士称DeepSeek新一轮融资超800亿元 月之暗面估值约500亿美元 茉莉花新闻网",
       "_query_boost": 20
-    },
-    {
-      "id": "raw-009",
-      "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMTJHSzF3b0dBajc4WldyZGloSzQta0hfa1Q1LW5CM2xqdzFzazdwOVptYTRCRE9CTlpxUEFZbXp5MklCbWlkcTE2bFVBM3lzbVI5MGtpNXJ5Q2NDSWdYYmxTOTR2UmJtMXlDRi1NY3hZRlAzVlV4bHhjTDZqOG10Ql9WMXJNRkU?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-10-06",
-      "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 新浪财经",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-010",
-      "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ - 华人头条",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZlFzTGdVZk1tN3dSQ0RvX0VOSWNEM0VuZm5EZnpScjFBNmJFMWwtVjFKdDI4Q3VRdzk4cTZ1eHV4NjdIamhkZ3luVlhTLXNQNmx1NnZ4aHNKVlJ4cVBZN2NjWjl6aFE5R1U1SVJhN1pWS2hyaUlUbDc5UFBYLWdHZE5jaFNKNGpxYWc?oc=5",
-      "source": "华人头条",
-      "category": "监管",
-      "published": "2026-10-06",
-      "body_snippet": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ 华人头条",
-      "_query_boost": 25
     },
     {
       "id": "raw-011",
@@ -117,42 +117,40 @@
     },
     {
       "id": "raw-012",
-      "title": "国金证券:《计算机行业研究：算力的高结构方向》 - 发现报告",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBiMm9hcmRtQVlhQlRSdmR3NzNTeG5IbFVhZHRqNENDcnJTREhHdF9FU29veW5GQk5ic0dXekF0VldPZHdkOUYta0cyZkg0NE93?oc=5",
-      "source": "发现报告",
-      "category": "技术",
-      "published": "2026-10-07",
-      "body_snippet": "国金证券:《计算机行业研究：算力的高结构方向》 发现报告",
-      "_query_boost": 15
+      "title": "松江“乡”遇云间品牌政策推动 创业者扎根长溇村成“新村客” 稻田边“长”出一片创意产业",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261009/91fa624bdf4c4df1a790265cf519ee16.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-09",
+      "body_snippet": "",
+      "category": "政策"
     },
     {
       "id": "raw-013",
+      "title": "持续用力护航“十五五”规划落实 十二届市委第九轮巡视工作动员部署会召开",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261009/57fda4c56cee4ed88f5c3f0a6d3e30cd.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-09",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-014",
+      "title": "顺网科技华勇回归后押注边缘算力，2026年云业务3.2亿元目标待验证 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QUUgxbFhwTkdCX3ZQOXhNa0pKbzhKYUVCTUwzSWtYaGxyYTEtNjNXSXVDeUVnQldWb2MtTW5FZGRlYTJON1BkMUptTEU1VWxVVE5NNHM3bVFHX3Q5bU04?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-09",
+      "body_snippet": "顺网科技华勇回归后押注边缘算力，2026年云业务3.2亿元目标待验证 虎嗅网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-015",
       "title": "AI算力重心从训练转向推理 Token消耗五年或增370倍 - 虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtX3U1VWtNNnNQNnhQbWluNWtxSnJWWG1HSTZidTlkamNEdzdEdjBCWF9qRG9tQm80c1Y5RzBCTEdKN1JFem9EakU2eTV6NEgzYmR5NjRPTlBtcEdyLUFJ?oc=5",
       "source": "虎嗅网",
       "category": "技术",
       "published": "2026-10-08",
       "body_snippet": "AI算力重心从训练转向推理 Token消耗五年或增370倍 虎嗅网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-014",
-      "title": "虎嗅发布‘30岁以下AI领军人物’榜单回顾：具身智能、算力、端侧AI成三大赛道 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyWWtIZTJRYXBVMk5hdDJ2bzVCbmVwQ0JiVzBvUkdRYzJKc2dheWJwcmZoaGxTUWhUWWJ6MU1kYzRyenhRVVROeFdlS0VoQnBhaHdzVjBuRlhPSEIzODFv?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-08",
-      "body_snippet": "虎嗅发布‘30岁以下AI领军人物’榜单回顾：具身智能、算力、端侧AI成三大赛道 虎嗅网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-015",
-      "title": "财联社调查：A股算力服务合同多数爽约 履约风险暴露 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uaVNoQ3RuQUVQVnJqMzNWMnU5dGtteHNLZjVRelYzWmxwaTVDVUFhcHFoWEphUWV3aXRUSkxSMEpPLWtvalQzUEpjbG1jTkY3UjlwOA?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-08",
-      "body_snippet": "财联社调查：A股算力服务合同多数爽约 履约风险暴露 虎嗅网",
       "_query_boost": 0
     }
   ]

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-09T06:40:50.313Z",
-  "date": "2026-10-09",
-  "date_label": "2026-10-09",
+  "generated_at": "2026-10-10T06:30:56.112Z",
+  "date": "2026-10-10",
+  "date_label": "2026-10-10",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 1,
+    "🏛️": 0,
     "📜": 0,
     "⚔️": 2,
     "💰": 2,
     "🌏": 0,
-    "🔬": 7
+    "🔬": 4
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 3,
+    "policy_heat": 2,
     "competitor_heat": 4,
     "capital_heat": 3,
     "overseas_heat": 2,
@@ -27,7 +27,7 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "月之暗面完成IPO前融资估值500亿美元",
+      "title": "月之暗面据悉完成IPO前融资，最新估值约",
       "policy_axis": 0,
       "competition_axis": 0.7,
       "impact_score": 3,
@@ -40,21 +40,13 @@
       "competition_axis": 0.7,
       "impact_score": 3,
       "axis_reason": "规则估算"
-    },
-    {
-      "id": "3",
-      "title": "国务院关于对外投资的规定解读（一）：83",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
     }
   ],
   "ppio_index": {
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 8,
+      "policy_tailwind": 0,
       "competitive_pressure": -12,
       "capital_sentiment": 10,
       "regulatory_risk": 0,

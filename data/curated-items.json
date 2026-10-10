@@ -1,43 +1,14 @@
 {
-  "generated_at": "2026-10-09T06:40:50.275Z",
-  "week": "2026-W41",
+  "generated_at": "2026-10-10T06:30:56.083Z",
+  "week": "2026-W42",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 10,
-  "attend_count": 3,
-  "silent_count": 7,
+  "total_curated": 6,
+  "attend_count": 2,
+  "silent_count": 4,
   "items": [
     {
-      "id": "raw-002",
-      "title": "月之暗面完成IPO前融资估值500亿美元拟明年第一季度香港上市- AI 人工智能 - cnBeta.COM",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jekZPODlQejlKVmJTbFhyemdFdWdoUFhqVXpERXRnS3I1MnRwa0lTd3dRMl9WTEUwWTNjWm43aXJMcWVQLU13UXRaN2NNSnZoT0tvMkhzNDU2SzJIODNUOQ?oc=5",
-      "source": "cnBeta.COM",
-      "category": "资本",
-      "published": "2026-10-06",
-      "body_snippet": "月之暗面完成IPO前融资估值500亿美元拟明年第一季度香港上市- AI 人工智能 cnBeta.COM",
-      "_query_boost": 20,
-      "lane": "attend",
-      "signals": [
-        "⚔️",
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "月之暗面完成IPO前融资估值500亿美元拟明年第一季度香港上市- AI 人工智能 - cnBeta.COM 月之暗面完成IPO前融资估值500亿美元拟明年第一季度香港上市- AI 人工智能 cnBeta.COM",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-003",
+      "id": "raw-004",
       "title": "阿里巴巴蔡崇信呼吁欧洲拥抱开源AI：自建算力基础设施是实现AI主权的唯一路径 - 电子工程专辑",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90QUpNbG5OR3hHZm4wNG83Tkk0SzVQX3ZoS01nc0lUNWhuYzd0SWI2TS1Qa2xpV0NfQUk1ZTkyQ3NCRzNqLUpDLWF5TkV2aXFSZ0k3b2JLUm92ZFZY?oc=5",
       "source": "电子工程专辑",
@@ -60,7 +31,36 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-008",
+      "id": "raw-009",
+      "title": "月之暗面据悉完成IPO前融资，最新估值约500亿美元 - 泰伯网",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkbHktbXJSWTJINC12WnN5MDdUVWY1MzJ6bkJPX2d4a0M5S0xWSEF2MjJrRklMbURiaVhIYndZR19YS0lwMzJINEZUeFllZmphT1pj?oc=5",
+      "source": "泰伯网",
+      "category": "资本",
+      "published": "2026-10-08",
+      "body_snippet": "月之暗面据悉完成IPO前融资，最新估值约500亿美元 泰伯网",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "⚔️",
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "月之暗面据悉完成IPO前融资，最新估值约500亿美元 - 泰伯网 月之暗面据悉完成IPO前融资，最新估值约500亿美元 泰伯网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
       "title": "知情人士称DeepSeek新一轮融资超800亿元 月之暗面估值约500亿美元 - 茉莉花新闻网",
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1NeTVCNVl1T2VfYlVYY3RoOUpDSy0xZktkNkVKNllSSnFiZjRHelNwTlUxQ3IwV0IwZkdyMkJ6bFlxbTYxWVE?oc=5",
       "source": "茉莉花新闻网",
@@ -80,57 +80,6 @@
         "c3"
       ],
       "summary_cn": "知情人士称DeepSeek新一轮融资超800亿元 月之暗面估值约500亿美元 - 茉莉花新闻网 知情人士称DeepSeek新一轮融资超800亿元 月之暗面估值约500亿美元 茉莉花新闻网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-009",
-      "title": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMTJHSzF3b0dBajc4WldyZGloSzQta0hfa1Q1LW5CM2xqdzFzazdwOVptYTRCRE9CTlpxUEFZbXp5MklCbWlkcTE2bFVBM3lzbVI5MGtpNXJ5Q2NDSWdYYmxTOTR2UmJtMXlDRi1NY3hZRlAzVlV4bHhjTDZqOG10Ql9WMXJNRkU?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-10-06",
-      "body_snippet": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 新浪财经",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段 - 新浪财经 燧原科技携手合作伙伴发布三大成果，国产算力进入“更快、更高、更强”新阶段",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-010",
-      "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ - 华人头条",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZlFzTGdVZk1tN3dSQ0RvX0VOSWNEM0VuZm5EZnpScjFBNmJFMWwtVjFKdDI4Q3VRdzk4cTZ1eHV4NjdIamhkZ3luVlhTLXNQNmx1NnZ4aHNKVlJ4cVBZN2NjWjl6aFE5R1U1SVJhN1pWS2hyaUlUbDc5UFBYLWdHZE5jaFNKNGpxYWc?oc=5",
-      "source": "华人头条",
-      "category": "监管",
-      "published": "2026-10-06",
-      "body_snippet": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ 华人头条",
-      "_query_boost": 25,
-      "lane": "attend",
-      "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "837号令来了，出海为何需重新审视？ - 华人头条 国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ 华人头条",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -163,14 +112,14 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-012",
-      "title": "国金证券:《计算机行业研究：算力的高结构方向》 - 发现报告",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBiMm9hcmRtQVlhQlRSdmR3NzNTeG5IbFVhZHRqNENDcnJTREhHdF9FU29veW5GQk5ic0dXekF0VldPZHdkOUYta0cyZkg0NE93?oc=5",
-      "source": "发现报告",
+      "id": "raw-014",
+      "title": "顺网科技华勇回归后押注边缘算力，2026年云业务3.2亿元目标待验证 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QUUgxbFhwTkdCX3ZQOXhNa0pKbzhKYUVCTUwzSWtYaGxyYTEtNjNXSXVDeUVnQldWb2MtTW5FZGRlYTJON1BkMUptTEU1VWxVVE5NNHM3bVFHX3Q5bU04?oc=5",
+      "source": "虎嗅网",
       "category": "技术",
-      "published": "2026-10-07",
-      "body_snippet": "国金证券:《计算机行业研究：算力的高结构方向》 发现报告",
-      "_query_boost": 15,
+      "published": "2026-10-09",
+      "body_snippet": "顺网科技华勇回归后押注边缘算力，2026年云业务3.2亿元目标待验证 虎嗅网",
+      "_query_boost": 0,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -181,12 +130,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "国金证券:《计算机行业研究：算力的高结构方向》 - 发现报告 国金证券:《计算机行业研究：算力的高结构方向》 发现报告",
+      "summary_cn": "顺网科技华勇回归后押注边缘算力，2026年云业务3.2亿元目标待验证 - 虎嗅网 顺网科技华勇回归后押注边缘算力，2026年云业务3.2亿元目标待验证 虎嗅网",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-013",
+      "id": "raw-015",
       "title": "AI算力重心从训练转向推理 Token消耗五年或增370倍 - 虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtX3U1VWtNNnNQNnhQbWluNWtxSnJWWG1HSTZidTlkamNEdzdEdjBCWF9qRG9tQm80c1Y5RzBCTEdKN1JFem9EakU2eTV6NEgzYmR5NjRPTlBtcEdyLUFJ?oc=5",
       "source": "虎嗅网",
@@ -205,52 +154,6 @@
         "c3"
       ],
       "summary_cn": "AI算力重心从训练转向推理 Token消耗五年或增370倍 - 虎嗅网 AI算力重心从训练转向推理 Token消耗五年或增370倍 虎嗅网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-014",
-      "title": "虎嗅发布‘30岁以下AI领军人物’榜单回顾：具身智能、算力、端侧AI成三大赛道 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyWWtIZTJRYXBVMk5hdDJ2bzVCbmVwQ0JiVzBvUkdRYzJKc2dheWJwcmZoaGxTUWhUWWJ6MU1kYzRyenhRVVROeFdlS0VoQnBhaHdzVjBuRlhPSEIzODFv?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-08",
-      "body_snippet": "虎嗅发布‘30岁以下AI领军人物’榜单回顾：具身智能、算力、端侧AI成三大赛道 虎嗅网",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "虎嗅发布‘30岁以下AI领军人物’榜单回顾：具身智能、算力、端侧AI成三大赛道 - 虎嗅网 虎嗅发布‘30岁以下AI领军人物’榜单回顾：具身智能、算力、端侧AI",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-015",
-      "title": "财联社调查：A股算力服务合同多数爽约 履约风险暴露 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uaVNoQ3RuQUVQVnJqMzNWMnU5dGtteHNLZjVRelYzWmxwaTVDVUFhcHFoWEphUWV3aXRUSkxSMEpPLWtvalQzUEpjbG1jTkY3UjlwOA?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-08",
-      "body_snippet": "财联社调查：A股算力服务合同多数爽约 履约风险暴露 虎嗅网",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "财联社调查：A股算力服务合同多数爽约 履约风险暴露 - 虎嗅网 财联社调查：A股算力服务合同多数爽约 履约风险暴露 虎嗅网",
       "ppio_signal": null,
       "_classified_by": "rule"
     }
