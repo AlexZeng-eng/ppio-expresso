@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-10T06:30:56.112Z",
-  "date": "2026-10-10",
-  "date_label": "2026-10-10",
+  "generated_at": "2026-10-11T06:25:16.039Z",
+  "date": "2026-10-11",
+  "date_label": "2026-10-11",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 0,
+    "🏛️": 2,
     "📜": 0,
-    "⚔️": 2,
-    "💰": 2,
+    "⚔️": 1,
+    "💰": 1,
     "🌏": 0,
-    "🔬": 4
+    "🔬": 3
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 2,
-    "competitor_heat": 4,
+    "policy_heat": 4,
+    "competitor_heat": 3,
     "capital_heat": 3,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
@@ -27,18 +27,34 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "月之暗面据悉完成IPO前融资，最新估值约",
+      "title": "中共中央、国务院：建设国家区块链网络、全",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "2",
+      "title": "市政厅爆发冲突！美中期选举遭遇“反数据中",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "3",
+      "title": "【数智周报】特朗普政府要求AI公司在发生",
       "policy_axis": 0,
       "competition_axis": 0.7,
       "impact_score": 3,
       "axis_reason": "规则估算"
     },
     {
-      "id": "2",
-      "title": "知情人士称DeepSeek新一轮融资超8",
+      "id": "4",
+      "title": "中共上海市委办公厅 上海市人民政府办公厅",
       "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
+      "competition_axis": 0.1,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     }
   ],
@@ -46,9 +62,9 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 0,
-      "competitive_pressure": -12,
-      "capital_sentiment": 10,
+      "policy_tailwind": 16,
+      "competitive_pressure": -6,
+      "capital_sentiment": 5,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },

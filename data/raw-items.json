@@ -1,15 +1,24 @@
 {
-  "generated_at": "2026-10-10T06:30:56.024Z",
+  "generated_at": "2026-10-11T06:25:15.918Z",
   "week": "2026-W42",
   "date_range": {
-    "from": "2026-10-03",
-    "to": "2026-10-10"
+    "from": "2026-10-04",
+    "to": "2026-10-11"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
+      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
+      "source": "工信部-新闻",
+      "published": "2026-10-11",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-002",
       "title": "习近平经济思想引领中国加快发展新质生产力_大陆_国内新闻_新闻 - 齐鲁网",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yRFhvY0J4OFpNWTZ4N2U0TzdMOHNFekUzSWU0aHA1akZGc3JOaW9kUV8zMkVla3RZVno1U0FFN3VaZEMzX3JYeWxvWHNNVUdiNGYzTHZmLXdKRFZUeDdtSmdWZGRiZEFF?oc=5",
       "source": "齐鲁网",
@@ -19,46 +28,47 @@
       "_query_boost": 40
     },
     {
-      "id": "raw-002",
-      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
-      "source": "工信部-新闻",
-      "published": "2026-10-10",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
       "id": "raw-003",
-      "title": "习近平经济思想引领中国加快发展新质生产力 - 华商网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wbzd1NjlQWUhmWnlrbHJMSzVqbkh0Y3hhYy13dFJaV3lEcElhMnVtRkJGeXJEREdpUEVaWHByYm9KT2NsNllmTkZSVHM2cmtFa0ROMFFKLXNxbFRhdHc?oc=5",
-      "source": "华商网",
-      "category": "政策",
-      "published": "2026-10-10",
-      "body_snippet": "习近平经济思想引领中国加快发展新质生产力 华商网",
-      "_query_boost": 35
+      "title": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLTFF6a3YxdndFRHJMQW1OUHF2T28xYUFYMTR6eDhwVVhIR0tmVWZ2MTBUeTM0LXhIb3U0d2hjR1NYbWZLSE1neVZBR2NRYzF1RW1VejBlQVlNX3pZNksw?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-11",
+      "body_snippet": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 虎嗅网",
+      "_query_boost": 0
     },
     {
       "id": "raw-004",
-      "title": "阿里巴巴蔡崇信呼吁欧洲拥抱开源AI：自建算力基础设施是实现AI主权的唯一路径 - 电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90QUpNbG5OR3hHZm4wNG83Tkk0SzVQX3ZoS01nc0lUNWhuYzd0SWI2TS1Qa2xpV0NfQUk1ZTkyQ3NCRzNqLUpDLWF5TkV2aXFSZ0k3b2JLUm92ZFZY?oc=5",
-      "source": "电子工程专辑",
-      "category": "海外",
-      "published": "2026-10-09",
-      "body_snippet": "阿里巴巴蔡崇信呼吁欧洲拥抱开源AI：自建算力基础设施是实现AI主权的唯一路径 电子工程专辑",
-      "_query_boost": 25
+      "title": "习近平经济思想引领中国加快发展新质生产力 - 中青在线",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95cEd1Rk1JdkpzX1NhMjF2Zm5HLXJIX1lIU3BqZlhQeGpZM0RzMXliZXBMbFFWSEhQekFZUnlDVjQ0NUw5T2ZQdFU1bVV1UVVqcDJ6X2FVSGVVMHBLV2trLVJBdXRMZnNyY0FfZ1I1ejVvWVRXM2x3a0d5M20?oc=5",
+      "source": "中青在线",
+      "category": "政策",
+      "published": "2026-10-10",
+      "body_snippet": "习近平经济思想引领中国加快发展新质生产力 中青在线",
+      "_query_boost": 35
     },
     {
       "id": "raw-005",
-      "title": "央企发力建设“六张网” - 人民日报",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcXE1bml5VUhiTWpWSDhTaUZFNnlseDRZVHNpMHRwQUVWSFFYTXRJRjBibVI3QTV5RzZkYmlSdzVIdlZmRkdPWjZnRUh6VDM4bVBCdmFDdXRJYVZHZlhnRFZJaThiR3V1emN0R2lHeFk0OFh1MWpHczA4M0tVVUtQcEVvYw?oc=5",
-      "source": "人民日报",
+      "title": "中共中央、国务院：建设国家区块链网络、全国一体化算力网 - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Uc2lYSHRxYUxaajNfTlVpa09tNVVUZmFaQWpDeFdhczkxN3Nwd24weFRTc1hZOE9RY096SjNRV000aFE4a3NKTkVqRTFpUVp3WHdkNmhjTDVBQk5RbFFwOHVFS3VhUQ?oc=5",
+      "source": "TradingView",
       "category": "政策",
-      "published": "2026-10-08",
-      "body_snippet": "央企发力建设“六张网” 人民日报",
+      "published": "2026-10-10",
+      "body_snippet": "中共中央、国务院：建设国家区块链网络、全国一体化算力网 TradingView",
       "_query_boost": 0
     },
     {
       "id": "raw-006",
+      "title": "市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 - 新浪新闻",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NT19XampWWGwtb2tqSVk3MFl4dzB1YWlSOGN0X1pQODAwYjVMTkl2VnpSWVQ0TzZiZnlxemRrc2h3VV8xTFMzM0loUWRuUm9VSVdhT2ZGNjhqeGRZZ0tUTlF3SjZ4TkJoY2UwdXYwWGI?oc=5",
+      "source": "新浪新闻",
+      "category": "海外",
+      "published": "2026-10-10",
+      "body_snippet": "市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 新浪新闻",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-007",
       "title": "南通开发区人工智能产业再添新名片，武汉大学具身智能求是中试基地揭牌 - 新华网江苏频道",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81WDhYYWtPYWpQQk1JTHB4OUg1T1dzekdRakVmazFTdmxxMHRhYlNYWDBvWmRIZ0VLUDhXUjFtaVAwVFczSXRudko5NGNOcFd6UGw1bVpwMFdURllfMkZkNEtwYVRpbGVDa0FWbVduTFBPU041?oc=5",
       "source": "新华网江苏频道",
@@ -68,7 +78,55 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-007",
+      "id": "raw-008",
+      "title": "市长客人参访复兴岛 “中国速度”在交流中反复出现 上海创新活力正转化为产业竞争力",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261011/211bfed7e7d74cc398a50e8388151f60.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-11",
+      "body_snippet": "",
+      "category": "竞品"
+    },
+    {
+      "id": "raw-009",
+      "title": "上海正成为跨国公司新产品的起点、新模式的源头、新任务的提出者 创新“源代码”逆向输出服务全球",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261011/d6a42bd84dac44f9811e8aeca1976199.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-11",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-010",
+      "title": "“铁公基”做了几十年，银行开抢“六张网” - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZGtTVGxVcVlRSFpoZ2dlM0VmcmFXSXY1bnhhZ05EMWJmMG9GdnZlRzZFWDBPaUVaS1lnTDJoMExKU3Vpdzh0WUFSZkp2ZmIwR3FGejJPUDF3UXdPV3RxZnJETEIxbE9Ob3d6MVNRR2VGZnFfUjdjUTZoZzRSbExSOEU1WWNSOVVLLXVWcDVrSFBkR09q?oc=5",
+      "source": "21财经",
+      "category": "政策",
+      "published": "2026-10-11",
+      "body_snippet": "“铁公基”做了几十年，银行开抢“六张网” 21财经",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-011",
+      "title": "深耕算力新时代：2026年国内靠谱AI算力厂商全景盘点_行业新闻 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TUnRKdm1SdnI5dUhjUzlrMnB3eU5idEYtTy14Tmx0czVINjI0ZllOREV0WVZDMi01Njc0NUtKQlpJWEs3dTdTLWJZVUFZRHJJbnlRRkJqQ2ZJOERfX1k2cklrRWs?oc=5",
+      "source": "证券之星",
+      "category": "监管",
+      "published": "2026-10-10",
+      "body_snippet": "深耕算力新时代：2026年国内靠谱AI算力厂商全景盘点_行业新闻 证券之星",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-012",
+      "title": "【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元 - 潮起网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5rVFB3QWRxLWtveGV4aE0zbVdaYUlva2VFOGJ3bV9CMGU0SEVhUVkteWd1REx0bENNMlRuVWVWQjRDTmhRRVBBQkxmMkZEMExvNEZ3NEdjQWMzbnRwYUJKZm9wcw?oc=5",
+      "source": "潮起网",
+      "category": "资本",
+      "published": "2026-10-10",
+      "body_snippet": "【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元 潮起网",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-013",
       "title": "上海市文旅大数据创新实验室揭幕 打造一批标杆示范场景",
       "url": "https://www.shanghai.gov.cn/nw4411/20261010/f29001190c754bd2a1617adfe2f36a01.html",
       "source": "上海市政府-动态",
@@ -77,81 +135,22 @@
       "category": "技术"
     },
     {
-      "id": "raw-008",
+      "id": "raw-014",
+      "title": "中共上海市委办公厅 上海市人民政府办公厅印发《上海市生活垃圾分类提质增效三年行动计划（2026—2028年）》的通知",
+      "url": "https://www.shanghai.gov.cn/nw44142/20261010/c21b4c4ebaae4d368ac9fc48e17c11b4.html",
+      "source": "上海市政府-政策文件",
+      "published": "2026-10-10",
+      "body_snippet": "",
+      "category": "政策"
+    },
+    {
+      "id": "raw-015",
       "title": "上海市科学技术委员会关于发布2026年度“6G科技创新与未来产业培育战略前沿专项”公开征集项目申报指南...",
       "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20261010/f8db554de59b4f4789a92cdc44f72f9f.html",
       "source": "上海市科委",
       "published": "2026-10-10",
       "body_snippet": "",
       "category": "技术"
-    },
-    {
-      "id": "raw-009",
-      "title": "月之暗面据悉完成IPO前融资，最新估值约500亿美元 - 泰伯网",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkbHktbXJSWTJINC12WnN5MDdUVWY1MzJ6bkJPX2d4a0M5S0xWSEF2MjJrRklMbURiaVhIYndZR19YS0lwMzJINEZUeFllZmphT1pj?oc=5",
-      "source": "泰伯网",
-      "category": "资本",
-      "published": "2026-10-08",
-      "body_snippet": "月之暗面据悉完成IPO前融资，最新估值约500亿美元 泰伯网",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-010",
-      "title": "知情人士称DeepSeek新一轮融资超800亿元 月之暗面估值约500亿美元 - 茉莉花新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1NeTVCNVl1T2VfYlVYY3RoOUpDSy0xZktkNkVKNllSSnFiZjRHelNwTlUxQ3IwV0IwZkdyMkJ6bFlxbTYxWVE?oc=5",
-      "source": "茉莉花新闻网",
-      "category": "资本",
-      "published": "2026-10-08",
-      "body_snippet": "知情人士称DeepSeek新一轮融资超800亿元 月之暗面估值约500亿美元 茉莉花新闻网",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-011",
-      "title": "连续第四年发布，AI十大展望来了，包括可交互世界建模、灵巧手、AI算力等 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMimwVBVV95cUxQRTM3TUF0anppdFJWamtaNFFZaVFvMFlBTlNVNkVlOWlCT3hxTWpJdVh4cV9taldnb3JaNXh4d1ptM250eGVKMlk4Y01keXJyLUNkZlBScFAtU2xVV3BJSHZETmJheFh3VmxfZTlKWGM1VDNYMGNpUjByVGtVNXFUQjdJUTJqSzE4Y09waVZSb3B3cFAxQmhVS3FJSFZCMFdldERnLW5ja2l3VHhlakNvSkhQVmdfaG44bllrVVFRMlJzOUZXN1hTVE9Hel83czZjejg1QmhuanZHNDhJdzc4SDRuQm53UnltNXdKd0ZHcjdQZ1NjekNXRVFQQ2MtYnhwcHZsMVN5V1dLQjFNdHc2Z25iN1NDeVU5dVA0UElnbGN6RUI5dTZPY1hMNjE5UFZUc1FjR0tjMXNMallfWF9FSnVMMDFVcHc2cGxBSmhENWNUYlVCSmdjT1lKc01iWW1iUnlUSGF0bDBsODN0X0ZoWjBqVWdIaHBUTDJCR3gxcll5dUMwOGVtMkxzc0RVN0R2ZEtxZnU4SXFzYjdZRjRBVFN1c0RfQndiNlJBYWh3M2RVMkVrRmd6S2hjMm1ud3pqOUxpcFdrcnFaSDl6Zm1IbWJ1NXRtbzkwaU9tTEkzd01WTzNGN0lVWHdHOUxUODllUU5wSzNTeXduSkl1ampTbDlyWmNrckdncjRoeVFzZGdta2dodG13WlY1QzlNNVdqeGU1cUxtZ2xrNkptcmdaVEFrQkhJc3F1djBWSlhMdmlMWkg1R0V2eTZjek9oMEZiRFZscHgyRzdPcm9fUWVHLUZiLWx5RzRoMFhDd2dybUpDRnJlbjljUDVUSjVTYWdWbnRJZGk4ZGxndExiMTZfZUNiNmFNUFdmb1dN?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-10-05",
-      "body_snippet": "连续第四年发布，AI十大展望来了，包括可交互世界建模、灵巧手、AI算力等 新浪财经",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-012",
-      "title": "松江“乡”遇云间品牌政策推动 创业者扎根长溇村成“新村客” 稻田边“长”出一片创意产业",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261009/91fa624bdf4c4df1a790265cf519ee16.html",
-      "source": "上海市政府-动态",
-      "published": "2026-10-09",
-      "body_snippet": "",
-      "category": "政策"
-    },
-    {
-      "id": "raw-013",
-      "title": "持续用力护航“十五五”规划落实 十二届市委第九轮巡视工作动员部署会召开",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261009/57fda4c56cee4ed88f5c3f0a6d3e30cd.html",
-      "source": "上海市政府-动态",
-      "published": "2026-10-09",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-014",
-      "title": "顺网科技华勇回归后押注边缘算力，2026年云业务3.2亿元目标待验证 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QUUgxbFhwTkdCX3ZQOXhNa0pKbzhKYUVCTUwzSWtYaGxyYTEtNjNXSXVDeUVnQldWb2MtTW5FZGRlYTJON1BkMUptTEU1VWxVVE5NNHM3bVFHX3Q5bU04?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-09",
-      "body_snippet": "顺网科技华勇回归后押注边缘算力，2026年云业务3.2亿元目标待验证 虎嗅网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-015",
-      "title": "AI算力重心从训练转向推理 Token消耗五年或增370倍 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtX3U1VWtNNnNQNnhQbWluNWtxSnJWWG1HSTZidTlkamNEdzdEdjBCWF9qRG9tQm80c1Y5RzBCTEdKN1JFem9EakU2eTV6NEgzYmR5NjRPTlBtcEdyLUFJ?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-08",
-      "body_snippet": "AI算力重心从训练转向推理 Token消耗五年或增370倍 虎嗅网",
-      "_query_boost": 0
     }
   ]
 }

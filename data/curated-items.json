@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-10T06:30:56.083Z",
+  "generated_at": "2026-10-11T06:25:16.004Z",
   "week": "2026-W42",
   "classifier": "rule-based",
   "total_raw": 15,
   "total_curated": 6,
-  "attend_count": 2,
-  "silent_count": 4,
+  "attend_count": 4,
+  "silent_count": 2,
   "items": [
     {
-      "id": "raw-004",
-      "title": "阿里巴巴蔡崇信呼吁欧洲拥抱开源AI：自建算力基础设施是实现AI主权的唯一路径 - 电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90QUpNbG5OR3hHZm4wNG83Tkk0SzVQX3ZoS01nc0lUNWhuYzd0SWI2TS1Qa2xpV0NfQUk1ZTkyQ3NCRzNqLUpDLWF5TkV2aXFSZ0k3b2JLUm92ZFZY?oc=5",
-      "source": "电子工程专辑",
-      "category": "海外",
-      "published": "2026-10-09",
-      "body_snippet": "阿里巴巴蔡崇信呼吁欧洲拥抱开源AI：自建算力基础设施是实现AI主权的唯一路径 电子工程专辑",
-      "_query_boost": 25,
+      "id": "raw-003",
+      "title": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLTFF6a3YxdndFRHJMQW1OUHF2T28xYUFYMTR6eDhwVVhIR0tmVWZ2MTBUeTM0LXhIb3U0d2hjR1NYbWZLSE1neVZBR2NRYzF1RW1VejBlQVlNX3pZNksw?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-11",
+      "body_snippet": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 虎嗅网",
+      "_query_boost": 0,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -26,31 +26,31 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "阿里巴巴蔡崇信呼吁欧洲拥抱开源AI：自建算力基础设施是实现AI主权的唯一路径 - 电子工程专辑 阿里巴巴蔡崇信呼吁欧洲拥抱开源AI：自建算力基础设施是实现AI主",
+      "summary_cn": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 - 虎嗅网 中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 ",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
-      "title": "月之暗面据悉完成IPO前融资，最新估值约500亿美元 - 泰伯网",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkbHktbXJSWTJINC12WnN5MDdUVWY1MzJ6bkJPX2d4a0M5S0xWSEF2MjJrRklMbURiaVhIYndZR19YS0lwMzJINEZUeFllZmphT1pj?oc=5",
-      "source": "泰伯网",
-      "category": "资本",
-      "published": "2026-10-08",
-      "body_snippet": "月之暗面据悉完成IPO前融资，最新估值约500亿美元 泰伯网",
-      "_query_boost": 20,
+      "id": "raw-005",
+      "title": "中共中央、国务院：建设国家区块链网络、全国一体化算力网 - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Uc2lYSHRxYUxaajNfTlVpa09tNVVUZmFaQWpDeFdhczkxN3Nwd24weFRTc1hZOE9RY096SjNRV000aFE4a3NKTkVqRTFpUVp3WHdkNmhjTDVBQk5RbFFwOHVFS3VhUQ?oc=5",
+      "source": "TradingView",
+      "category": "政策",
+      "published": "2026-10-10",
+      "body_snippet": "中共中央、国务院：建设国家区块链网络、全国一体化算力网 TradingView",
+      "_query_boost": 0,
       "lane": "attend",
       "signals": [
-        "⚔️",
-        "💰"
+        "🏛️",
+        "🔬"
       ],
-      "is_deep_read": false,
+      "is_deep_read": true,
       "compass_triggered": [
         "c1",
         "c2",
         "c3"
       ],
-      "summary_cn": "月之暗面据悉完成IPO前融资，最新估值约500亿美元 - 泰伯网 月之暗面据悉完成IPO前融资，最新估值约500亿美元 泰伯网",
+      "summary_cn": "建设国家区块链网络、全国一体化算力网 - TradingView 中共中央、国务院：建设国家区块链网络、全国一体化算力网 TradingView",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -60,18 +60,17 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-010",
-      "title": "知情人士称DeepSeek新一轮融资超800亿元 月之暗面估值约500亿美元 - 茉莉花新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1NeTVCNVl1T2VfYlVYY3RoOUpDSy0xZktkNkVKNllSSnFiZjRHelNwTlUxQ3IwV0IwZkdyMkJ6bFlxbTYxWVE?oc=5",
-      "source": "茉莉花新闻网",
-      "category": "资本",
-      "published": "2026-10-08",
-      "body_snippet": "知情人士称DeepSeek新一轮融资超800亿元 月之暗面估值约500亿美元 茉莉花新闻网",
-      "_query_boost": 20,
+      "id": "raw-006",
+      "title": "市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 - 新浪新闻",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NT19XampWWGwtb2tqSVk3MFl4dzB1YWlSOGN0X1pQODAwYjVMTkl2VnpSWVQ0TzZiZnlxemRrc2h3VV8xTFMzM0loUWRuUm9VSVdhT2ZGNjhqeGRZZ0tUTlF3SjZ4TkJoY2UwdXYwWGI?oc=5",
+      "source": "新浪新闻",
+      "category": "海外",
+      "published": "2026-10-10",
+      "body_snippet": "市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 新浪新闻",
+      "_query_boost": 25,
       "lane": "attend",
       "signals": [
-        "⚔️",
-        "💰"
+        "—"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -79,7 +78,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "知情人士称DeepSeek新一轮融资超800亿元 月之暗面估值约500亿美元 - 茉莉花新闻网 知情人士称DeepSeek新一轮融资超800亿元 月之暗面估值约500亿美元 茉莉花新闻网",
+      "summary_cn": "民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 - 新浪新闻 市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 新浪新闻",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -90,13 +89,13 @@
     },
     {
       "id": "raw-011",
-      "title": "连续第四年发布，AI十大展望来了，包括可交互世界建模、灵巧手、AI算力等 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMimwVBVV95cUxQRTM3TUF0anppdFJWamtaNFFZaVFvMFlBTlNVNkVlOWlCT3hxTWpJdVh4cV9taldnb3JaNXh4d1ptM250eGVKMlk4Y01keXJyLUNkZlBScFAtU2xVV3BJSHZETmJheFh3VmxfZTlKWGM1VDNYMGNpUjByVGtVNXFUQjdJUTJqSzE4Y09waVZSb3B3cFAxQmhVS3FJSFZCMFdldERnLW5ja2l3VHhlakNvSkhQVmdfaG44bllrVVFRMlJzOUZXN1hTVE9Hel83czZjejg1QmhuanZHNDhJdzc4SDRuQm53UnltNXdKd0ZHcjdQZ1NjekNXRVFQQ2MtYnhwcHZsMVN5V1dLQjFNdHc2Z25iN1NDeVU5dVA0UElnbGN6RUI5dTZPY1hMNjE5UFZUc1FjR0tjMXNMallfWF9FSnVMMDFVcHc2cGxBSmhENWNUYlVCSmdjT1lKc01iWW1iUnlUSGF0bDBsODN0X0ZoWjBqVWdIaHBUTDJCR3gxcll5dUMwOGVtMkxzc0RVN0R2ZEtxZnU4SXFzYjdZRjRBVFN1c0RfQndiNlJBYWh3M2RVMkVrRmd6S2hjMm1ud3pqOUxpcFdrcnFaSDl6Zm1IbWJ1NXRtbzkwaU9tTEkzd01WTzNGN0lVWHdHOUxUODllUU5wSzNTeXduSkl1ampTbDlyWmNrckdncjRoeVFzZGdta2dodG13WlY1QzlNNVdqeGU1cUxtZ2xrNkptcmdaVEFrQkhJc3F1djBWSlhMdmlMWkg1R0V2eTZjek9oMEZiRFZscHgyRzdPcm9fUWVHLUZiLWx5RzRoMFhDd2dybUpDRnJlbjljUDVUSjVTYWdWbnRJZGk4ZGxndExiMTZfZUNiNmFNUFdmb1dN?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-10-05",
-      "body_snippet": "连续第四年发布，AI十大展望来了，包括可交互世界建模、灵巧手、AI算力等 新浪财经",
-      "_query_boost": 25,
+      "title": "深耕算力新时代：2026年国内靠谱AI算力厂商全景盘点_行业新闻 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TUnRKdm1SdnI5dUhjUzlrMnB3eU5idEYtTy14Tmx0czVINjI0ZllOREV0WVZDMi01Njc0NUtKQlpJWEs3dTdTLWJZVUFZRHJJbnlRRkJqQ2ZJOERfX1k2cklrRWs?oc=5",
+      "source": "证券之星",
+      "category": "监管",
+      "published": "2026-10-10",
+      "body_snippet": "深耕算力新时代：2026年国内靠谱AI算力厂商全景盘点_行业新闻 证券之星",
+      "_query_boost": 20,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -107,22 +106,50 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "连续第四年发布，AI十大展望来了，包括可交互世界建模、灵巧手、AI算力等 - 新浪财经 连续第四年发布，AI十大展望来了，包括可交互世界建模、灵巧手、AI算力等",
+      "summary_cn": "深耕算力新时代：2026年国内靠谱AI算力厂商全景盘点_行业新闻 - 证券之星 深耕算力新时代：2026年国内靠谱AI算力厂商全景盘点_行业新闻 证券之星",
       "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-012",
+      "title": "【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元 - 潮起网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5rVFB3QWRxLWtveGV4aE0zbVdaYUlva2VFOGJ3bV9CMGU0SEVhUVkteWd1REx0bENNMlRuVWVWQjRDTmhRRVBBQkxmMkZEMExvNEZ3NEdjQWMzbnRwYUJKZm9wcw?oc=5",
+      "source": "潮起网",
+      "category": "资本",
+      "published": "2026-10-10",
+      "body_snippet": "【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元 潮起网",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "⚔️",
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元 - 潮起网 【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元 潮起网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
       "_classified_by": "rule"
     },
     {
       "id": "raw-014",
-      "title": "顺网科技华勇回归后押注边缘算力，2026年云业务3.2亿元目标待验证 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QUUgxbFhwTkdCX3ZQOXhNa0pKbzhKYUVCTUwzSWtYaGxyYTEtNjNXSXVDeUVnQldWb2MtTW5FZGRlYTJON1BkMUptTEU1VWxVVE5NNHM3bVFHX3Q5bU04?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-09",
-      "body_snippet": "顺网科技华勇回归后押注边缘算力，2026年云业务3.2亿元目标待验证 虎嗅网",
-      "_query_boost": 0,
-      "lane": "silent",
+      "title": "中共上海市委办公厅 上海市人民政府办公厅印发《上海市生活垃圾分类提质增效三年行动计划（2026—2028年）》的通知",
+      "url": "https://www.shanghai.gov.cn/nw44142/20261010/c21b4c4ebaae4d368ac9fc48e17c11b4.html",
+      "source": "上海市政府-政策文件",
+      "published": "2026-10-10",
+      "body_snippet": "",
+      "category": "政策",
+      "lane": "attend",
       "signals": [
-        "🔬"
+        "🏛️"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -130,31 +157,13 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "顺网科技华勇回归后押注边缘算力，2026年云业务3.2亿元目标待验证 - 虎嗅网 顺网科技华勇回归后押注边缘算力，2026年云业务3.2亿元目标待验证 虎嗅网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-015",
-      "title": "AI算力重心从训练转向推理 Token消耗五年或增370倍 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtX3U1VWtNNnNQNnhQbWluNWtxSnJWWG1HSTZidTlkamNEdzdEdjBCWF9qRG9tQm80c1Y5RzBCTEdKN1JFem9EakU2eTV6NEgzYmR5NjRPTlBtcEdyLUFJ?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-08",
-      "body_snippet": "AI算力重心从训练转向推理 Token消耗五年或增370倍 虎嗅网",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "AI算力重心从训练转向推理 Token消耗五年或增370倍 - 虎嗅网 AI算力重心从训练转向推理 Token消耗五年或增370倍 虎嗅网",
-      "ppio_signal": null,
+      "summary_cn": "中共上海市委办公厅 上海市人民政府办公厅印发《上海市生活垃圾分类提质增效三年行动计划（2026—2028年）》的通知 ",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
       "_classified_by": "rule"
     }
   ]
