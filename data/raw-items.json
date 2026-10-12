@@ -1,44 +1,34 @@
 {
-  "generated_at": "2026-10-11T06:25:15.918Z",
+  "generated_at": "2026-10-12T06:30:28.513Z",
   "week": "2026-W42",
   "date_range": {
-    "from": "2026-10-04",
-    "to": "2026-10-11"
+    "from": "2026-10-05",
+    "to": "2026-10-12"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
+      "title": "习近平经济思想引领中国加快发展新质生产力 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xcFBXSU56VmJKTElIa1NJQ3Jjb183VlNjeE91VllPZUVSNkhCNmVrVlJUdnA1WHA5LVhhRlkzNU0wb05DS2JkaEo4b19lNWRxLU1MUmtpamsxbDJuNlVtdlFPSlhwa3hz?oc=5",
+      "source": "中国新闻网",
+      "category": "政策",
+      "published": "2026-10-10",
+      "body_snippet": "习近平经济思想引领中国加快发展新质生产力 中国新闻网",
+      "_query_boost": 40
+    },
+    {
+      "id": "raw-002",
       "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
       "source": "工信部-新闻",
-      "published": "2026-10-11",
+      "published": "2026-10-12",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-002",
-      "title": "习近平经济思想引领中国加快发展新质生产力_大陆_国内新闻_新闻 - 齐鲁网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yRFhvY0J4OFpNWTZ4N2U0TzdMOHNFekUzSWU0aHA1akZGc3JOaW9kUV8zMkVla3RZVno1U0FFN3VaZEMzX3JYeWxvWHNNVUdiNGYzTHZmLXdKRFZUeDdtSmdWZGRiZEFF?oc=5",
-      "source": "齐鲁网",
-      "category": "政策",
-      "published": "2026-10-10",
-      "body_snippet": "习近平经济思想引领中国加快发展新质生产力_大陆_国内新闻_新闻 齐鲁网",
-      "_query_boost": 40
-    },
-    {
       "id": "raw-003",
-      "title": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLTFF6a3YxdndFRHJMQW1OUHF2T28xYUFYMTR6eDhwVVhIR0tmVWZ2MTBUeTM0LXhIb3U0d2hjR1NYbWZLSE1neVZBR2NRYzF1RW1VejBlQVlNX3pZNksw?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-11",
-      "body_snippet": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 虎嗅网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-004",
       "title": "习近平经济思想引领中国加快发展新质生产力 - 中青在线",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95cEd1Rk1JdkpzX1NhMjF2Zm5HLXJIX1lIU3BqZlhQeGpZM0RzMXliZXBMbFFWSEhQekFZUnlDVjQ0NUw5T2ZQdFU1bVV1UVVqcDJ6X2FVSGVVMHBLV2trLVJBdXRMZnNyY0FfZ1I1ejVvWVRXM2x3a0d5M20?oc=5",
       "source": "中青在线",
@@ -46,6 +36,16 @@
       "published": "2026-10-10",
       "body_snippet": "习近平经济思想引领中国加快发展新质生产力 中青在线",
       "_query_boost": 35
+    },
+    {
+      "id": "raw-004",
+      "title": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLTFF6a3YxdndFRHJMQW1OUHF2T28xYUFYMTR6eDhwVVhIR0tmVWZ2MTBUeTM0LXhIb3U0d2hjR1NYbWZLSE1neVZBR2NRYzF1RW1VejBlQVlNX3pZNksw?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-11",
+      "body_snippet": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 虎嗅网",
+      "_query_boost": 0
     },
     {
       "id": "raw-005",
@@ -79,6 +79,35 @@
     },
     {
       "id": "raw-008",
+      "title": "保持开放 不断学习 不惧改变 全球顶级企业家齐聚上海 为促进上海服务业创新发展交流献策",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261012/d0813476cfc647d7867a2d80280ca294.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-12",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-009",
+      "title": "【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元 - 潮起网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5rVFB3QWRxLWtveGV4aE0zbVdaYUlva2VFOGJ3bV9CMGU0SEVhUVkteWd1REx0bENNMlRuVWVWQjRDTmhRRVBBQkxmMkZEMExvNEZ3NEdjQWMzbnRwYUJKZm9wcw?oc=5",
+      "source": "潮起网",
+      "category": "资本",
+      "published": "2026-10-10",
+      "body_snippet": "【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元 潮起网",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-010",
+      "title": "液冷行业订单排至2027年：高密度AI算力推动散热从配套变为底层基础设施 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JNjRMVWNiUFd0NERpT3U3LVhIeDNJTWo3TlY0VzBkeUtOOFlXWHI4N3JISVh0STUxemJxX3JSRDVxTklJQlBKc3dhVU94a3V3MGxQZXdXLTA1c1JqTC1z?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-12",
+      "body_snippet": "液冷行业订单排至2027年：高密度AI算力推动散热从配套变为底层基础设施 虎嗅网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-011",
       "title": "市长客人参访复兴岛 “中国速度”在交流中反复出现 上海创新活力正转化为产业竞争力",
       "url": "https://www.shanghai.gov.cn/nw4411/20261011/211bfed7e7d74cc398a50e8388151f60.html",
       "source": "上海市政府-动态",
@@ -87,43 +116,13 @@
       "category": "竞品"
     },
     {
-      "id": "raw-009",
+      "id": "raw-012",
       "title": "上海正成为跨国公司新产品的起点、新模式的源头、新任务的提出者 创新“源代码”逆向输出服务全球",
       "url": "https://www.shanghai.gov.cn/nw4411/20261011/d6a42bd84dac44f9811e8aeca1976199.html",
       "source": "上海市政府-动态",
       "published": "2026-10-11",
       "body_snippet": "",
       "category": "技术"
-    },
-    {
-      "id": "raw-010",
-      "title": "“铁公基”做了几十年，银行开抢“六张网” - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZGtTVGxVcVlRSFpoZ2dlM0VmcmFXSXY1bnhhZ05EMWJmMG9GdnZlRzZFWDBPaUVaS1lnTDJoMExKU3Vpdzh0WUFSZkp2ZmIwR3FGejJPUDF3UXdPV3RxZnJETEIxbE9Ob3d6MVNRR2VGZnFfUjdjUTZoZzRSbExSOEU1WWNSOVVLLXVWcDVrSFBkR09q?oc=5",
-      "source": "21财经",
-      "category": "政策",
-      "published": "2026-10-11",
-      "body_snippet": "“铁公基”做了几十年，银行开抢“六张网” 21财经",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-011",
-      "title": "深耕算力新时代：2026年国内靠谱AI算力厂商全景盘点_行业新闻 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TUnRKdm1SdnI5dUhjUzlrMnB3eU5idEYtTy14Tmx0czVINjI0ZllOREV0WVZDMi01Njc0NUtKQlpJWEs3dTdTLWJZVUFZRHJJbnlRRkJqQ2ZJOERfX1k2cklrRWs?oc=5",
-      "source": "证券之星",
-      "category": "监管",
-      "published": "2026-10-10",
-      "body_snippet": "深耕算力新时代：2026年国内靠谱AI算力厂商全景盘点_行业新闻 证券之星",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-012",
-      "title": "【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元 - 潮起网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5rVFB3QWRxLWtveGV4aE0zbVdaYUlva2VFOGJ3bV9CMGU0SEVhUVkteWd1REx0bENNMlRuVWVWQjRDTmhRRVBBQkxmMkZEMExvNEZ3NEdjQWMzbnRwYUJKZm9wcw?oc=5",
-      "source": "潮起网",
-      "category": "资本",
-      "published": "2026-10-10",
-      "body_snippet": "【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元 潮起网",
-      "_query_boost": 20
     },
     {
       "id": "raw-013",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T06:25:16.004Z",
+  "generated_at": "2026-10-12T06:30:28.604Z",
   "week": "2026-W42",
   "classifier": "rule-based",
   "total_raw": 15,
@@ -8,7 +8,7 @@
   "silent_count": 2,
   "items": [
     {
-      "id": "raw-003",
+      "id": "raw-004",
       "title": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 - 虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLTFF6a3YxdndFRHJMQW1OUHF2T28xYUFYMTR6eDhwVVhIR0tmVWZ2MTBUeTM0LXhIb3U0d2hjR1NYbWZLSE1neVZBR2NRYzF1RW1VejBlQVlNX3pZNksw?oc=5",
       "source": "虎嗅网",
@@ -88,30 +88,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-011",
-      "title": "深耕算力新时代：2026年国内靠谱AI算力厂商全景盘点_行业新闻 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TUnRKdm1SdnI5dUhjUzlrMnB3eU5idEYtTy14Tmx0czVINjI0ZllOREV0WVZDMi01Njc0NUtKQlpJWEs3dTdTLWJZVUFZRHJJbnlRRkJqQ2ZJOERfX1k2cklrRWs?oc=5",
-      "source": "证券之星",
-      "category": "监管",
-      "published": "2026-10-10",
-      "body_snippet": "深耕算力新时代：2026年国内靠谱AI算力厂商全景盘点_行业新闻 证券之星",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "深耕算力新时代：2026年国内靠谱AI算力厂商全景盘点_行业新闻 - 证券之星 深耕算力新时代：2026年国内靠谱AI算力厂商全景盘点_行业新闻 证券之星",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
+      "id": "raw-009",
       "title": "【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元 - 潮起网",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5rVFB3QWRxLWtveGV4aE0zbVdaYUlva2VFOGJ3bV9CMGU0SEVhUVkteWd1REx0bENNMlRuVWVWQjRDTmhRRVBBQkxmMkZEMExvNEZ3NEdjQWMzbnRwYUJKZm9wcw?oc=5",
       "source": "潮起网",
@@ -137,6 +114,29 @@
         "beneficiaries": "（待 AI 填写）",
         "pressure_parties": "（待 AI 填写）"
       },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
+      "title": "液冷行业订单排至2027年：高密度AI算力推动散热从配套变为底层基础设施 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JNjRMVWNiUFd0NERpT3U3LVhIeDNJTWo3TlY0VzBkeUtOOFlXWHI4N3JISVh0STUxemJxX3JSRDVxTklJQlBKc3dhVU94a3V3MGxQZXdXLTA1c1JqTC1z?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-12",
+      "body_snippet": "液冷行业订单排至2027年：高密度AI算力推动散热从配套变为底层基础设施 虎嗅网",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "液冷行业订单排至2027年：高密度AI算力推动散热从配套变为底层基础设施 - 虎嗅网 液冷行业订单排至2027年：高密度AI算力推动散热从配套变为底层基础设施 ",
+      "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
