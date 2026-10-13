@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-12T06:30:28.604Z",
+  "generated_at": "2026-10-13T07:11:34.448Z",
   "week": "2026-W42",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 6,
-  "attend_count": 4,
+  "total_curated": 4,
+  "attend_count": 2,
   "silent_count": 2,
   "items": [
     {
@@ -31,7 +31,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
+      "id": "raw-007",
       "title": "中共中央、国务院：建设国家区块链网络、全国一体化算力网 - TradingView",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Uc2lYSHRxYUxaajNfTlVpa09tNVVUZmFaQWpDeFdhczkxN3Nwd24weFRTc1hZOE9RY096SjNRV000aFE4a3NKTkVqRTFpUVp3WHdkNmhjTDVBQk5RbFFwOHVFS3VhUQ?oc=5",
       "source": "TradingView",
@@ -60,7 +60,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
+      "id": "raw-012",
       "title": "市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 - 新浪新闻",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NT19XampWWGwtb2tqSVk3MFl4dzB1YWlSOGN0X1pQODAwYjVMTkl2VnpSWVQ0TzZiZnlxemRrc2h3VV8xTFMzM0loUWRuUm9VSVdhT2ZGNjhqeGRZZ0tUTlF3SjZ4TkJoY2UwdXYwWGI?oc=5",
       "source": "新浪新闻",
@@ -88,43 +88,14 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
-      "title": "【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元 - 潮起网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5rVFB3QWRxLWtveGV4aE0zbVdaYUlva2VFOGJ3bV9CMGU0SEVhUVkteWd1REx0bENNMlRuVWVWQjRDTmhRRVBBQkxmMkZEMExvNEZ3NEdjQWMzbnRwYUJKZm9wcw?oc=5",
-      "source": "潮起网",
-      "category": "资本",
-      "published": "2026-10-10",
-      "body_snippet": "【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元 潮起网",
-      "_query_boost": 20,
-      "lane": "attend",
-      "signals": [
-        "⚔️",
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元 - 潮起网 【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元 潮起网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-010",
-      "title": "液冷行业订单排至2027年：高密度AI算力推动散热从配套变为底层基础设施 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JNjRMVWNiUFd0NERpT3U3LVhIeDNJTWo3TlY0VzBkeUtOOFlXWHI4N3JISVh0STUxemJxX3JSRDVxTklJQlBKc3dhVU94a3V3MGxQZXdXLTA1c1JqTC1z?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
+      "id": "raw-014",
+      "title": "从“算力工厂”到“词元工厂”，智算基础设施迎来范式重构|川观智库快讯 - 川观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE05Y3IzakpJN244RGI3WjlRWG1MdTIwbVJoUmYybDhRbTdZaVBuanc1ZkNHY3hBVkdFZkhRLXpiajRtVU10MktzNjhxWEZnZw?oc=5",
+      "source": "川观新闻",
+      "category": "竞品",
       "published": "2026-10-12",
-      "body_snippet": "液冷行业订单排至2027年：高密度AI算力推动散热从配套变为底层基础设施 虎嗅网",
-      "_query_boost": 0,
+      "body_snippet": "从“算力工厂”到“词元工厂”，智算基础设施迎来范式重构|川观智库快讯 川观新闻",
+      "_query_boost": 15,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -135,35 +106,8 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "液冷行业订单排至2027年：高密度AI算力推动散热从配套变为底层基础设施 - 虎嗅网 液冷行业订单排至2027年：高密度AI算力推动散热从配套变为底层基础设施 ",
+      "summary_cn": "从“算力工厂”到“词元工厂”，智算基础设施迎来范式重构|川观智库快讯 - 川观新闻 从“算力工厂”到“词元工厂”，智算基础设施迎来范式重构|川观智库快讯 川观新",
       "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-014",
-      "title": "中共上海市委办公厅 上海市人民政府办公厅印发《上海市生活垃圾分类提质增效三年行动计划（2026—2028年）》的通知",
-      "url": "https://www.shanghai.gov.cn/nw44142/20261010/c21b4c4ebaae4d368ac9fc48e17c11b4.html",
-      "source": "上海市政府-政策文件",
-      "published": "2026-10-10",
-      "body_snippet": "",
-      "category": "政策",
-      "lane": "attend",
-      "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "中共上海市委办公厅 上海市人民政府办公厅印发《上海市生活垃圾分类提质增效三年行动计划（2026—2028年）》的通知 ",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
       "_classified_by": "rule"
     }
   ]

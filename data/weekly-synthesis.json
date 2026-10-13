@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-12T06:30:28.774Z",
-  "date": "2026-10-12",
-  "date_label": "2026-10-12",
+  "generated_at": "2026-10-13T07:11:34.485Z",
+  "date": "2026-10-13",
+  "date_label": "2026-10-13",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 2,
+    "🏛️": 1,
     "📜": 0,
-    "⚔️": 1,
-    "💰": 1,
+    "⚔️": 0,
+    "💰": 0,
     "🌏": 0,
     "🔬": 3
   },
@@ -16,9 +16,9 @@
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 4,
-    "competitor_heat": 3,
-    "capital_heat": 3,
+    "policy_heat": 3,
+    "competitor_heat": 2,
+    "capital_heat": 2,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
@@ -40,31 +40,15 @@
       "competition_axis": 0.1,
       "impact_score": 2,
       "axis_reason": "规则估算"
-    },
-    {
-      "id": "3",
-      "title": "【数智周报】特朗普政府要求AI公司在发生",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "4",
-      "title": "中共上海市委办公厅 上海市人民政府办公厅",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
     }
   ],
   "ppio_index": {
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 16,
-      "competitive_pressure": -6,
-      "capital_sentiment": 5,
+      "policy_tailwind": 8,
+      "competitive_pressure": 0,
+      "capital_sentiment": 0,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },

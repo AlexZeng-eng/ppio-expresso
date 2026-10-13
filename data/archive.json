@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-10-12T06:30:29.083Z",
+  "updated_at": "2026-10-13T07:11:34.528Z",
   "days": [
+    {
+      "date": "2026-10-13",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "signal_summary": {
+        "🏛️": 1,
+        "📜": 0,
+        "⚔️": 0,
+        "💰": 0,
+        "🌏": 0,
+        "🔬": 3
+      },
+      "wind_indicators": {
+        "policy_heat": 3,
+        "competitor_heat": 2,
+        "capital_heat": 2,
+        "overseas_heat": 2,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
+      },
+      "ppio_index": {
+        "score": 55,
+        "delta": 0,
+        "components": {
+          "policy_tailwind": 8,
+          "competitive_pressure": 0,
+          "capital_sentiment": 0,
+          "regulatory_risk": 0,
+          "overseas_headwind": 0
+        },
+        "interpretation": "规则估算，仅供参考"
+      },
+      "item_count": {
+        "total": 4,
+        "attend": 2,
+        "silent": 2
+      },
+      "competitor_updates": []
+    },
     {
       "date": "2026-10-12",
       "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
@@ -3412,50 +3450,6 @@
         "北京数据集团发布‘京算Token工厂’，基于国资背景卡位Token经济入口。",
         "润建股份五象云谷从算力租赁转型Token经营模式，提供按Token计费推理服务。",
         "海兰信提出解决东部低时延算力缺口方案（感知新闻，需关注）。"
-      ]
-    },
-    {
-      "date": "2026-07-09",
-      "mainline": "Token经济引爆算力服务化赛道，三大运营商与国资平台入局，竞争加剧；高层持续定调科技强国利好基建叙事。",
-      "signal_summary": {
-        "🏛️": 4,
-        "📜": 1,
-        "⚔️": 5,
-        "💰": 1,
-        "🌏": 1,
-        "🔬": 0
-      },
-      "wind_indicators": {
-        "policy_heat": 4,
-        "competitor_heat": 5,
-        "capital_heat": 4,
-        "overseas_heat": 3,
-        "overall_sentiment": "升温",
-        "summary": "政策端持续利好算力基建，但竞争态势急剧升温，Token经济赛道涌入多个重量级玩家。"
-      },
-      "ppio_index": {
-        "score": 62,
-        "delta": -2,
-        "components": {
-          "policy_tailwind": 35,
-          "competitive_pressure": -22,
-          "capital_sentiment": 10,
-          "regulatory_risk": -6,
-          "overseas_headwind": -5
-        },
-        "interpretation": "政策利好托底，但竞争压力骤升导致指数小幅下调。"
-      },
-      "item_count": {
-        "total": 14,
-        "attend": 10,
-        "silent": 4
-      },
-      "competitor_updates": [
-        "硅基流动：完成新一轮超20亿元融资，定位全球Token供应平台，AI Infra竞争加剧。",
-        "北京数据集团：发布“京算Token工厂”，国资背景入局推理服务市场。",
-        "润建股份（五象云谷）：从出租算力转向经营Token，争夺AI推理入口。",
-        "三大运营商：联合推出Token套餐，算力标准化商品化，直接对标边缘算力平台。",
-        "美团：开源大模型LongCat-2.0并适配国产芯片，降低企业部署门槛，可能改变推理生态。"
       ]
     }
   ]
