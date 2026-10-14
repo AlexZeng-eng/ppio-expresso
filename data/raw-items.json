@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-13T07:11:34.358Z",
+  "generated_at": "2026-10-14T05:21:22.993Z",
   "week": "2026-W42",
   "date_range": {
-    "from": "2026-10-06",
-    "to": "2026-10-13"
+    "from": "2026-10-07",
+    "to": "2026-10-14"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -20,15 +20,35 @@
     },
     {
       "id": "raw-002",
+      "title": "阶跃星辰智能体手机推出 和其他智能体手机有何不同？ - 财新",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9rTjJOc3RuOXFDeURRWl9MdzZjekJtakpYVnEzdGIwbWhMWGRwZlpjemI0QTg5N0R4alpUbHh1MHpOa3dRZEkzQjd1Z0Q3bl90cHlXeTVpeXg2YnpCalNwM2o2bXU?oc=5",
+      "source": "财新",
+      "category": "竞品",
+      "published": "2026-10-13",
+      "body_snippet": "阶跃星辰智能体手机推出 和其他智能体手机有何不同？ 财新",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-003",
       "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
       "source": "工信部-新闻",
-      "published": "2026-10-13",
+      "published": "2026-10-14",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-003",
+      "id": "raw-004",
+      "title": "阶跃终端首款AI手机发布：定价3999元，已开启预售 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTXJYQVRQTGZRQmo5T2RtN1Aza2o3WTBETHFkZm9aQzRCZWd3MWh0UmFycGtXSEtaeVplRVY2WWNvYXhwMkx5TXVsQXo3c3g5MmxtNDBMR2VqeW82R0t4ZDhvbDBiVVlUM211c0pONW5MOFBjWV9Lc3dyVXdFZFBvNk5KV3lPdERod0swcnVqaw?oc=5",
+      "source": "21财经",
+      "category": "竞品",
+      "published": "2026-10-13",
+      "body_snippet": "阶跃终端首款AI手机发布：定价3999元，已开启预售 21财经",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-005",
       "title": "习近平经济思想引领中国加快发展新质生产力_大陆_国内新闻_新闻 - 齐鲁网",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yRFhvY0J4OFpNWTZ4N2U0TzdMOHNFekUzSWU0aHA1akZGc3JOaW9kUV8zMkVla3RZVno1U0FFN3VaZEMzX3JYeWxvWHNNVUdiNGYzTHZmLXdKRFZUeDdtSmdWZGRiZEFF?oc=5",
       "source": "齐鲁网",
@@ -38,17 +58,7 @@
       "_query_boost": 40
     },
     {
-      "id": "raw-004",
-      "title": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLTFF6a3YxdndFRHJMQW1OUHF2T28xYUFYMTR6eDhwVVhIR0tmVWZ2MTBUeTM0LXhIb3U0d2hjR1NYbWZLSE1neVZBR2NRYzF1RW1VejBlQVlNX3pZNksw?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-11",
-      "body_snippet": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 虎嗅网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-005",
+      "id": "raw-006",
       "title": "习近平经济思想引领中国加快发展新质生产力 - 昆明信息港",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5UT1p6OG5UUVNtZmk3U3dlSGlWR3dBemp0ZVJ6amlWUUJVZlhMb2tETVg2VmFmcmlpcDZmQmFJVTRpeU5fVUc3RUNxWjlfWWN5U2RPSnBwc3NGYndBb1lkb2Ntcw?oc=5",
       "source": "昆明信息港",
@@ -58,17 +68,17 @@
       "_query_boost": 35
     },
     {
-      "id": "raw-006",
-      "title": "南通开发区人工智能产业再添新名片，武汉大学具身智能求是中试基地揭牌 - 新华网江苏频道",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81WDhYYWtPYWpQQk1JTHB4OUg1T1dzekdRakVmazFTdmxxMHRhYlNYWDBvWmRIZ0VLUDhXUjFtaVAwVFczSXRudko5NGNOcFd6UGw1bVpwMFdURllfMkZkNEtwYVRpbGVDa0FWbVduTFBPU041?oc=5",
-      "source": "新华网江苏频道",
-      "category": "政策",
-      "published": "2026-10-07",
-      "body_snippet": "南通开发区人工智能产业再添新名片，武汉大学具身智能求是中试基地揭牌 新华网江苏频道",
-      "_query_boost": 25
+      "id": "raw-007",
+      "title": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBydnM1WnJxMHV6ekg5bXRXS2pNSnJBeW9EWnB1Q1U4WEFyUDNHRzN1YlRJdjhwOVFzZTdicFpBTE1xd0Z3aktnQ1lnemo2NV8xUmFNOQ?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-11",
+      "body_snippet": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 虎嗅网",
+      "_query_boost": 0
     },
     {
-      "id": "raw-007",
+      "id": "raw-008",
       "title": "中共中央、国务院：建设国家区块链网络、全国一体化算力网 - TradingView",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Uc2lYSHRxYUxaajNfTlVpa09tNVVUZmFaQWpDeFdhczkxN3Nwd24weFRTc1hZOE9RY096SjNRV000aFE4a3NKTkVqRTFpUVp3WHdkNmhjTDVBQk5RbFFwOHVFS3VhUQ?oc=5",
       "source": "TradingView",
@@ -78,16 +88,37 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-008",
-      "title": "工博会11个大奖 上海拿下9个 体现深耕先进制造硬核功底 也是重大任务牵引及全产业链协同攻关的结果",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261013/57c0b3c584c941b6989383286f1ad30b.html",
-      "source": "上海市政府-动态",
+      "id": "raw-009",
+      "title": "智谱发布GLM-Legal 模型：基于轻量级底座、基准测试追平闭源- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE94aGJ0bGo1Uy1WOUZZTHlPemFaNGZBODR4MnNnVmhRMEt2bk84S2VhQlkxZmJXSkItb1RYNklpLVBLdDB5S196RV9kMA?oc=5",
+      "source": "OSCHINA",
+      "category": "技术",
       "published": "2026-10-13",
-      "body_snippet": "",
-      "category": "技术"
+      "body_snippet": "智谱发布GLM-Legal 模型：基于轻量级底座、基准测试追平闭源- OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA",
+      "_query_boost": 20
     },
     {
-      "id": "raw-009",
+      "id": "raw-010",
+      "title": "NTT为Anthropic建日本首座专用数据中心，算力主权之战把Claude留在本地 - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE05WWdqa1QwR3I4ZVpfbURrMVdWMEhrdGlubnduNV96NjF1emgxR3NBajgxdUJfYkI3RXFQUG92SURVZDdMV0JIR2NMT1hoZw?oc=5",
+      "source": "AIBase",
+      "category": "技术",
+      "published": "2026-10-13",
+      "body_snippet": "NTT为Anthropic建日本首座专用数据中心，算力主权之战把Claude留在本地 AIBase",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-011",
+      "title": "市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 - 新浪新闻_手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaHphREVzZ1dkcU5qUEJKd29pY2hFczQwcktoTFB5ckdzbTBzMUhjNWYzT3ZNemQ2QUVyNVZzTW16OFZpMlpmUUNyTFdTZ0RyTFRuWHVtbkJHSTBOYlp4cUdGTzJzYUZHZXBPSWU3d2NOUl9ZQWxFTm9FQTZLYXpSN0tEY0RFZVROMHJDMVdoNkFvMGdKdndtWVNaaV92eFgzRXhTUzluRG5Cd2w1NmdOVDNzeU5NUEpnaGFrUzAyVFRNdUthcTg0c1R3dlpGa3BIXzNv?oc=5",
+      "source": "新浪新闻_手机新浪网",
+      "category": "海外",
+      "published": "2026-10-10",
+      "body_snippet": "市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 新浪新闻_手机新浪网",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-012",
       "title": "上海将实施四大工程 推动人工智能与制造业深度融合 到2028年 8000台人形机器人进工厂",
       "url": "https://www.shanghai.gov.cn/nw4411/20261013/361be69ddd6843c9933e1800d43ab20c.html",
       "source": "上海市政府-动态",
@@ -96,51 +127,22 @@
       "category": "技术"
     },
     {
-      "id": "raw-010",
-      "title": "在全球11个国家的15座入围城市中 与比利时沙勒罗瓦、英国利物浦同登榜单 首届“创新城市”奖 上海脱颖而出",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261013/d2984bd479b84df8a71039432cc5e132.html",
+      "id": "raw-013",
+      "title": "工博会11个大奖 上海拿下9个 体现深耕先进制造硬核功底 也是重大任务牵引及全产业链协同攻关的结果",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261013/57c0b3c584c941b6989383286f1ad30b.html",
       "source": "上海市政府-动态",
       "published": "2026-10-13",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-011",
+      "id": "raw-014",
       "title": "新纪录 单月超513万标箱 上海港9月集装箱吞吐量再创新高",
       "url": "https://www.shanghai.gov.cn/nw4411/20261013/6477cb9c0e5a44e498e62717c9460368.html",
       "source": "上海市政府-动态",
       "published": "2026-10-13",
       "body_snippet": "",
       "category": "技术"
-    },
-    {
-      "id": "raw-012",
-      "title": "市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 - 新浪新闻",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NT19XampWWGwtb2tqSVk3MFl4dzB1YWlSOGN0X1pQODAwYjVMTkl2VnpSWVQ0TzZiZnlxemRrc2h3VV8xTFMzM0loUWRuUm9VSVdhT2ZGNjhqeGRZZ0tUTlF3SjZ4TkJoY2UwdXYwWGI?oc=5",
-      "source": "新浪新闻",
-      "category": "海外",
-      "published": "2026-10-10",
-      "body_snippet": "市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 新浪新闻",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-013",
-      "title": "保持开放 不断学习 不惧改变 全球顶级企业家齐聚上海 为促进上海服务业创新发展交流献策",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261012/d0813476cfc647d7867a2d80280ca294.html",
-      "source": "上海市政府-动态",
-      "published": "2026-10-12",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-014",
-      "title": "从“算力工厂”到“词元工厂”，智算基础设施迎来范式重构|川观智库快讯 - 川观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE05Y3IzakpJN244RGI3WjlRWG1MdTIwbVJoUmYybDhRbTdZaVBuanc1ZkNHY3hBVkdFZkhRLXpiajRtVU10MktzNjhxWEZnZw?oc=5",
-      "source": "川观新闻",
-      "category": "竞品",
-      "published": "2026-10-12",
-      "body_snippet": "从“算力工厂”到“词元工厂”，智算基础设施迎来范式重构|川观智库快讯 川观新闻",
-      "_query_boost": 15
     },
     {
       "id": "raw-015",
