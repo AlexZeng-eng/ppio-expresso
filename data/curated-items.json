@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-14T05:21:23.067Z",
+  "generated_at": "2026-10-15T05:09:07.480Z",
   "week": "2026-W42",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 6,
-  "attend_count": 4,
-  "silent_count": 2,
+  "total_curated": 8,
+  "attend_count": 5,
+  "silent_count": 3,
   "items": [
     {
-      "id": "raw-002",
+      "id": "raw-001",
       "title": "阶跃星辰智能体手机推出 和其他智能体手机有何不同？ - 财新",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9rTjJOc3RuOXFDeURRWl9MdzZjekJtakpYVnEzdGIwbWhMWGRwZlpjemI0QTg5N0R4alpUbHh1MHpOa3dRZEkzQjd1Z0Q3bl90cHlXeTVpeXg2YnpCalNwM2o2bXU?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FUTI5VnlRVkFuQzBQXzNVTzc0cnJKNFE2dkZzbHdZYkQxN0dWNU0tdm14LTRMTWNSOVFlNURWdGFLazRCZUo4RWlrZnBJTXpkWnp2SllWNzBmM0RzRk1BTVlseFowemc?oc=5",
       "source": "财新",
       "category": "竞品",
       "published": "2026-10-13",
@@ -89,8 +89,32 @@
     },
     {
       "id": "raw-009",
+      "title": "被黄仁勋看中，曾辍学挖矿的他，拿下3000亿AI算力大单，把公司估值做到2300亿 - 智东西",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5kc0c1dk9IeUFJT2VMMzlIcC1UeHBzU3YzY29JUm9yY3Y2V01oSGdTMGdSN292LWtxLUYwZWVSbWpDT29WSnZRZQ?oc=5",
+      "source": "智东西",
+      "category": "海外",
+      "published": "2026-10-14",
+      "body_snippet": "被黄仁勋看中，曾辍学挖矿的他，拿下3000亿AI算力大单，把公司估值做到2300亿 智东西",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "💰",
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "被黄仁勋看中，曾辍学挖矿的他，拿下3000亿AI算力大单，把公司估值做到2300亿 - 智东西 被黄仁勋看中，曾辍学挖矿的他，拿下3000亿AI算力大单，把公司",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
       "title": "智谱发布GLM-Legal 模型：基于轻量级底座、基准测试追平闭源- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE94aGJ0bGo1Uy1WOUZZTHlPemFaNGZBODR4MnNnVmhRMEt2bk84S2VhQlkxZmJXSkItb1RYNklpLVBLdDB5S196RV9kMA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1sTEZDQ3drQ1RuQzdDQ19xeWZUTTFacXRteTlwQktMdzdaQkN4ZnpPOGhvR2p5NXBFVVgwQXE0X2VoZE5hMXJqd2xONVF6QlhhYnlkSTNaNjZVcjVKRm9z?oc=5",
       "source": "OSCHINA",
       "category": "技术",
       "published": "2026-10-13",
@@ -116,7 +140,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-010",
+      "id": "raw-011",
       "title": "NTT为Anthropic建日本首座专用数据中心，算力主权之战把Claude留在本地 - AIBase",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE05WWdqa1QwR3I4ZVpfbURrMVdWMEhrdGlubnduNV96NjF1emgxR3NBajgxdUJfYkI3RXFQUG92SURVZDdMV0JIR2NMT1hoZw?oc=5",
       "source": "AIBase",
@@ -139,7 +163,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-011",
+      "id": "raw-012",
       "title": "市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 - 新浪新闻_手机新浪网",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaHphREVzZ1dkcU5qUEJKd29pY2hFczQwcktoTFB5ckdzbTBzMUhjNWYzT3ZNemQ2QUVyNVZzTW16OFZpMlpmUUNyTFdTZ0RyTFRuWHVtbkJHSTBOYlp4cUdGTzJzYUZHZXBPSWU3d2NOUl9ZQWxFTm9FQTZLYXpSN0tEY0RFZVROMHJDMVdoNkFvMGdKdndtWVNaaV92eFgzRXhTUzluRG5Cd2w1NmdOVDNzeU5NUEpnaGFrUzAyVFRNdUthcTg0c1R3dlpGa3BIXzNv?oc=5",
       "source": "新浪新闻_手机新浪网",
@@ -158,6 +182,33 @@
         "c3"
       ],
       "summary_cn": "民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 - 新浪新闻_手机新浪网 市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 新浪新闻_手机新浪网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-013",
+      "title": "关于上海市2026年度中央引导地方科技发展资金拟立项项目的公示",
+      "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261014/883295d122ba482fa76677c8372719fd.html",
+      "source": "上海市科委",
+      "published": "2026-10-14",
+      "body_snippet": "",
+      "category": "技术",
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "关于上海市2026年度中央引导地方科技发展资金拟立项项目的公示 ",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
