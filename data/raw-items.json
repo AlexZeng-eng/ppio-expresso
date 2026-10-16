@@ -1,25 +1,15 @@
 {
-  "generated_at": "2026-10-15T05:09:07.406Z",
+  "generated_at": "2026-10-16T04:59:04.800Z",
   "week": "2026-W42",
   "date_range": {
-    "from": "2026-10-08",
-    "to": "2026-10-15"
+    "from": "2026-10-09",
+    "to": "2026-10-16"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "阶跃星辰智能体手机推出 和其他智能体手机有何不同？ - 财新",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FUTI5VnlRVkFuQzBQXzNVTzc0cnJKNFE2dkZzbHdZYkQxN0dWNU0tdm14LTRMTWNSOVFlNURWdGFLazRCZUo4RWlrZnBJTXpkWnp2SllWNzBmM0RzRk1BTVlseFowemc?oc=5",
-      "source": "财新",
-      "category": "竞品",
-      "published": "2026-10-13",
-      "body_snippet": "阶跃星辰智能体手机推出 和其他智能体手机有何不同？ 财新",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-002",
       "title": "牢记嘱托｜习近平总书记这样指引科技开放合作 - 中国科学技术协会",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQR1d2bWJEaXFqd0RSN05kSDJXd280dy1DVG5HSlBPNmNMdF9kOTctaWVoSDNKd2xuaEtpQW1lMXpLNEVvSDVRSS1CX2d6Ui02bnZiOF9LVmRDMnNsRFdMSWtrTVEwSlJxeVEyRDJFUFJIQXdRMjl2enp6ajU3X0xrcngtVS1TMDkyYnc?oc=5",
       "source": "中国科学技术协会",
@@ -29,13 +19,23 @@
       "_query_boost": 50
     },
     {
-      "id": "raw-003",
+      "id": "raw-002",
       "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
       "source": "工信部-新闻",
-      "published": "2026-10-15",
+      "published": "2026-10-16",
       "body_snippet": "",
       "category": "技术"
+    },
+    {
+      "id": "raw-003",
+      "title": "阶跃星辰智能体手机推出 和其他智能体手机有何不同？ - 财新",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FUTI5VnlRVkFuQzBQXzNVTzc0cnJKNFE2dkZzbHdZYkQxN0dWNU0tdm14LTRMTWNSOVFlNURWdGFLazRCZUo4RWlrZnBJTXpkWnp2SllWNzBmM0RzRk1BTVlseFowemc?oc=5",
+      "source": "财新",
+      "category": "竞品",
+      "published": "2026-10-13",
+      "body_snippet": "阶跃星辰智能体手机推出 和其他智能体手机有何不同？ 财新",
+      "_query_boost": 25
     },
     {
       "id": "raw-004",
@@ -49,12 +49,12 @@
     },
     {
       "id": "raw-005",
-      "title": "习近平经济思想引领中国加快发展新质生产力_大陆_国内新闻_新闻 - 齐鲁网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yRFhvY0J4OFpNWTZ4N2U0TzdMOHNFekUzSWU0aHA1akZGc3JOaW9kUV8zMkVla3RZVno1U0FFN3VaZEMzX3JYeWxvWHNNVUdiNGYzTHZmLXdKRFZUeDdtSmdWZGRiZEFF?oc=5",
-      "source": "齐鲁网",
+      "title": "习近平经济思想引领中国加快发展新质生产力 - 抚州新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE92M3c1NmQ5ak81M0xVWFZidWJkbzI4Ri1LSmcwZENBNkdmVHVqY2hrQWZMX0VXNHJfZl9LWUxnRURKaW1EcHdhZ2NUcXhTZnRpdVdMSGNQaHRWUQ?oc=5",
+      "source": "抚州新闻网",
       "category": "政策",
       "published": "2026-10-10",
-      "body_snippet": "习近平经济思想引领中国加快发展新质生产力_大陆_国内新闻_新闻 齐鲁网",
+      "body_snippet": "习近平经济思想引领中国加快发展新质生产力 抚州新闻网",
       "_query_boost": 40
     },
     {
@@ -69,6 +69,26 @@
     },
     {
       "id": "raw-007",
+      "title": "阶跃发布3999元大模型智能体手机：这会是下一代手机的答案吗？ - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIR25nZjRyU1JPVTRKcnRvdF9YMGRHUUhCOVd4Ul9mOENwY2QyYU42MlZzRFpFaS1ncVM2TjViNS1vZGdfVDRCcFZZMml3Q2xJVjNpQmotNGpWNlZfcGNqbw?oc=5",
+      "source": "搜狐网",
+      "category": "竞品",
+      "published": "2026-10-13",
+      "body_snippet": "阶跃发布3999元大模型智能体手机：这会是下一代手机的答案吗？ 搜狐网",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-008",
+      "title": "月之暗面新一轮融资估值靠谱吗？ - 搜狐",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSzZJWEdzdC0wNkdfdHBuMHNtbk55U2lwMkJyTVpqaVB2SUNkb3BkUVpEUjRrTlVKaUxaOThHQy1QQ0szZ2JDREJFMWFnUk1wbTYtc1FFRXZHcHY2RnV2QWtSbi0yc0VVckQ5ZWdpTTdMem9JVXdWOXVBekhiZFEtNEQ2LVhtR2kyS2l6SQ?oc=5",
+      "source": "搜狐",
+      "category": "资本",
+      "published": "2026-10-16",
+      "body_snippet": "月之暗面新一轮融资估值靠谱吗？ 搜狐",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-009",
       "title": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 - 虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBydnM1WnJxMHV6ekg5bXRXS2pNSnJBeW9EWnB1Q1U4WEFyUDNHRzN1YlRJdjhwOVFzZTdicFpBTE1xd0Z3aktnQ1lnemo2NV8xUmFNOQ?oc=5",
       "source": "虎嗅网",
@@ -78,7 +98,7 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-008",
+      "id": "raw-010",
       "title": "中共中央、国务院：建设国家区块链网络、全国一体化算力网 - TradingView",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Uc2lYSHRxYUxaajNfTlVpa09tNVVUZmFaQWpDeFdhczkxN3Nwd24weFRTc1hZOE9RY096SjNRV000aFE4a3NKTkVqRTFpUVp3WHdkNmhjTDVBQk5RbFFwOHVFS3VhUQ?oc=5",
       "source": "TradingView",
@@ -88,7 +108,16 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-009",
+      "id": "raw-011",
+      "title": "欢迎加大研发创新和业务布局力度 陈吉宁会见新加坡丰益国际集团董事局主席郭孔丰一行",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261016/6fd7ac4c9b654d88b7bb8dbb6af51feb.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-16",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-012",
       "title": "被黄仁勋看中，曾辍学挖矿的他，拿下3000亿AI算力大单，把公司估值做到2300亿 - 智东西",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5kc0c1dk9IeUFJT2VMMzlIcC1UeHBzU3YzY29JUm9yY3Y2V01oSGdTMGdSN292LWtxLUYwZWVSbWpDT29WSnZRZQ?oc=5",
       "source": "智东西",
@@ -98,27 +127,7 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-010",
-      "title": "智谱发布GLM-Legal 模型：基于轻量级底座、基准测试追平闭源- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1sTEZDQ3drQ1RuQzdDQ19xeWZUTTFacXRteTlwQktMdzdaQkN4ZnpPOGhvR2p5NXBFVVgwQXE0X2VoZE5hMXJqd2xONVF6QlhhYnlkSTNaNjZVcjVKRm9z?oc=5",
-      "source": "OSCHINA",
-      "category": "技术",
-      "published": "2026-10-13",
-      "body_snippet": "智谱发布GLM-Legal 模型：基于轻量级底座、基准测试追平闭源- OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-011",
-      "title": "NTT为Anthropic建日本首座专用数据中心，算力主权之战把Claude留在本地 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE05WWdqa1QwR3I4ZVpfbURrMVdWMEhrdGlubnduNV96NjF1emgxR3NBajgxdUJfYkI3RXFQUG92SURVZDdMV0JIR2NMT1hoZw?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-10-13",
-      "body_snippet": "NTT为Anthropic建日本首座专用数据中心，算力主权之战把Claude留在本地 AIBase",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-012",
+      "id": "raw-013",
       "title": "市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 - 新浪新闻_手机新浪网",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaHphREVzZ1dkcU5qUEJKd29pY2hFczQwcktoTFB5ckdzbTBzMUhjNWYzT3ZNemQ2QUVyNVZzTW16OFZpMlpmUUNyTFdTZ0RyTFRuWHVtbkJHSTBOYlp4cUdGTzJzYUZHZXBPSWU3d2NOUl9ZQWxFTm9FQTZLYXpSN0tEY0RFZVROMHJDMVdoNkFvMGdKdndtWVNaaV92eFgzRXhTUzluRG5Cd2w1NmdOVDNzeU5NUEpnaGFrUzAyVFRNdUthcTg0c1R3dlpGa3BIXzNv?oc=5",
       "source": "新浪新闻_手机新浪网",
@@ -128,22 +137,13 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-013",
-      "title": "关于上海市2026年度中央引导地方科技发展资金拟立项项目的公示",
-      "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261014/883295d122ba482fa76677c8372719fd.html",
-      "source": "上海市科委",
-      "published": "2026-10-14",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
       "id": "raw-014",
-      "title": "上海市人民政府办公厅关于印发《上海市节能降碳和循环经济发展“十五五”规划》的通知",
-      "url": "https://www.shanghai.gov.cn/nw12344/20261013/9818972b5d6c4a50b7e08896ec412e02.html",
-      "source": "上海市政府-政策文件",
-      "published": "2026-10-13",
+      "title": "SK Hynix bargains for chip equipment exports to its China facility in return for building a factory in US",
+      "url": "https://techcrunch.com/2026/10/15/sk-hynix-bargains-for-chip-equipment-exports-to-its-china-facility-in-return-for-building-a-factory-in-us/",
+      "source": "TechCrunch",
+      "published": "2026-10-15",
       "body_snippet": "",
-      "category": "技术"
+      "category": "海外"
     },
     {
       "id": "raw-015",

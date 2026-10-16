@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-15T05:09:07.515Z",
-  "date": "2026-10-15",
-  "date_label": "2026-10-15",
+  "generated_at": "2026-10-16T04:59:04.934Z",
+  "date": "2026-10-16",
+  "date_label": "2026-10-16",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 2,
+    "🏛️": 1,
     "📜": 0,
     "⚔️": 0,
-    "💰": 1,
+    "💰": 2,
     "🌏": 0,
-    "🔬": 4
+    "🔬": 3
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 4,
+    "policy_heat": 3,
     "competitor_heat": 2,
     "capital_heat": 3,
     "overseas_heat": 2,
@@ -43,23 +43,7 @@
     },
     {
       "id": "3",
-      "title": "智谱发布GLM-Legal 模型：基于轻",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "4",
       "title": "市政厅爆发冲突！美中期选举遭遇“反数据中",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "5",
-      "title": "关于上海市2026年度中央引导地方科技发",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -70,9 +54,9 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 16,
+      "policy_tailwind": 8,
       "competitive_pressure": 0,
-      "capital_sentiment": 5,
+      "capital_sentiment": 10,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },

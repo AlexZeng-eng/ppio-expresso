@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-10-15T05:09:07.555Z",
+  "updated_at": "2026-10-16T04:59:04.979Z",
   "days": [
+    {
+      "date": "2026-10-16",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "signal_summary": {
+        "🏛️": 1,
+        "📜": 0,
+        "⚔️": 0,
+        "💰": 2,
+        "🌏": 0,
+        "🔬": 3
+      },
+      "wind_indicators": {
+        "policy_heat": 3,
+        "competitor_heat": 2,
+        "capital_heat": 3,
+        "overseas_heat": 2,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
+      },
+      "ppio_index": {
+        "score": 55,
+        "delta": 0,
+        "components": {
+          "policy_tailwind": 8,
+          "competitive_pressure": 0,
+          "capital_sentiment": 10,
+          "regulatory_risk": 0,
+          "overseas_headwind": 0
+        },
+        "interpretation": "规则估算，仅供参考"
+      },
+      "item_count": {
+        "total": 6,
+        "attend": 3,
+        "silent": 3
+      },
+      "competitor_updates": []
+    },
     {
       "date": "2026-10-15",
       "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
@@ -3401,47 +3439,6 @@
       "competitor_updates": [
         "硅基流动增聘华兴证券为香港整体协调人，加速冲刺‘AI Token工厂第一股’",
         "某AI算力‘黑马’启动IPO进程，或为边缘云/分布式算力平台，直接争夺赛道注意力"
-      ]
-    },
-    {
-      "date": "2026-07-14",
-      "mainline": "国常会与习近平双重最高层信号明确算力基建战略地位，运营商推出Token套餐加剧算力服务化竞争",
-      "signal_summary": {
-        "🏛️": 3,
-        "📜": 2,
-        "⚔️": 2,
-        "💰": 0,
-        "🌏": 2,
-        "🔬": 1
-      },
-      "wind_indicators": {
-        "policy_heat": 5,
-        "competitor_heat": 4,
-        "capital_heat": 2,
-        "overseas_heat": 3,
-        "overall_sentiment": "升温",
-        "summary": "政策面迎来最高层双重强信号，为IPO估值提供确定性支撑；但竞品攻势与监管隐忧同步抬头，整体情绪积极但需警惕短期波动"
-      },
-      "ppio_index": {
-        "score": 75,
-        "delta": 5,
-        "components": {
-          "policy_tailwind": 85,
-          "competitive_pressure": -15,
-          "capital_sentiment": 12,
-          "regulatory_risk": -5,
-          "overseas_headwind": -2
-        },
-        "interpretation": "政策双高峰强推算力基建叙事，指数上行5点；竞品压力与监管隐忧权重较低，整体利好格局未变"
-      },
-      "item_count": {
-        "total": 13,
-        "attend": 8,
-        "silent": 5
-      },
-      "competitor_updates": [
-        "三大运营商：推出AI Token套餐，算力服务化加速，边缘云市场面临运营商渠道挤压",
-        "智谱：启动'摸高计划'，模型能力跃升可能带动推理需求，但若自建算力则成为直接对手"
       ]
     }
   ]
