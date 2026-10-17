@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-10-16T04:59:04.800Z",
-  "week": "2026-W42",
+  "generated_at": "2026-10-17T04:58:36.758Z",
+  "week": "2026-W43",
   "date_range": {
-    "from": "2026-10-09",
-    "to": "2026-10-16"
+    "from": "2026-10-10",
+    "to": "2026-10-17"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
+      "title": "（近观中国）考察乌兰察布，习近平关注算力背后的考量 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zRElDVkhXM18xYnFhUWtyQ0tOaUhETUpkNDJHLXVDNFFwWVVNX2NkSEN1Nkw3QXVDSGRfeG5ZV2lOeU9vNzNlbkV4V3Y2MTJqa0VuaFRuWmVoZFRFMFRvNmJYa0s5WjJ5?oc=5",
+      "source": "中国新闻网",
+      "category": "政策",
+      "published": "2026-10-17",
+      "body_snippet": "（近观中国）考察乌兰察布，习近平关注算力背后的考量 中国新闻网",
+      "_query_boost": 45
+    },
+    {
+      "id": "raw-002",
+      "title": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 - 中国网新闻中心",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NVVgzMHdoY1ZvN0M1OUpYMkN1YTZGeVB6R09IbWpBOGp3d1hma2ZSNGlSZTFLcDJKbWhwQzcwckZoVVlaUkc4M0wtaTZwNHA1WmQ0dHdfOVVRVFdNWnV6dFJJVWxqdERXRE1N?oc=5",
+      "source": "中国网新闻中心",
+      "category": "政策",
+      "published": "2026-10-16",
+      "body_snippet": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 中国网新闻中心",
+      "_query_boost": 45
+    },
+    {
+      "id": "raw-003",
+      "title": "习近平考察中国AI算力重镇乌兰察布：搞好算力中心建设 - 早晨报",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pMUFUQzlzd21ybGhaYU9QVVoxVXJUOGNYZm1pVWFmN1dRb2tkTkRPUnFuT2pTTnlrVk03VndoU3pTaFZvanlSdDF5TWFkejFJSkV6OFZyMDUzZF9yam5SemQ3cGREQzgw?oc=5",
+      "source": "早晨报",
+      "category": "政策",
+      "published": "2026-10-16",
+      "body_snippet": "习近平考察中国AI算力重镇乌兰察布：搞好算力中心建设 早晨报",
+      "_query_boost": 45
+    },
+    {
+      "id": "raw-004",
       "title": "牢记嘱托｜习近平总书记这样指引科技开放合作 - 中国科学技术协会",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQR1d2bWJEaXFqd0RSN05kSDJXd280dy1DVG5HSlBPNmNMdF9kOTctaWVoSDNKd2xuaEtpQW1lMXpLNEVvSDVRSS1CX2d6Ui02bnZiOF9LVmRDMnNsRFdMSWtrTVEwSlJxeVEyRDJFUFJIQXdRMjl2enp6ajU3X0xrcngtVS1TMDkyYnc?oc=5",
       "source": "中国科学技术协会",
@@ -19,16 +49,16 @@
       "_query_boost": 50
     },
     {
-      "id": "raw-002",
+      "id": "raw-005",
       "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
       "source": "工信部-新闻",
-      "published": "2026-10-16",
+      "published": "2026-10-17",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-003",
+      "id": "raw-006",
       "title": "阶跃星辰智能体手机推出 和其他智能体手机有何不同？ - 财新",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FUTI5VnlRVkFuQzBQXzNVTzc0cnJKNFE2dkZzbHdZYkQxN0dWNU0tdm14LTRMTWNSOVFlNURWdGFLazRCZUo4RWlrZnBJTXpkWnp2SllWNzBmM0RzRk1BTVlseFowemc?oc=5",
       "source": "财新",
@@ -38,57 +68,47 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-004",
-      "title": "阶跃终端首款AI手机发布：定价3999元，已开启预售 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTXJYQVRQTGZRQmo5T2RtN1Aza2o3WTBETHFkZm9aQzRCZWd3MWh0UmFycGtXSEtaeVplRVY2WWNvYXhwMkx5TXVsQXo3c3g5MmxtNDBMR2VqeW82R0t4ZDhvbDBiVVlUM211c0pONW5MOFBjWV9Lc3dyVXdFZFBvNk5KV3lPdERod0swcnVqaw?oc=5",
-      "source": "21财经",
-      "category": "竞品",
-      "published": "2026-10-13",
-      "body_snippet": "阶跃终端首款AI手机发布：定价3999元，已开启预售 21财经",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-005",
-      "title": "习近平经济思想引领中国加快发展新质生产力 - 抚州新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE92M3c1NmQ5ak81M0xVWFZidWJkbzI4Ri1LSmcwZENBNkdmVHVqY2hrQWZMX0VXNHJfZl9LWUxnRURKaW1EcHdhZ2NUcXhTZnRpdVdMSGNQaHRWUQ?oc=5",
-      "source": "抚州新闻网",
-      "category": "政策",
-      "published": "2026-10-10",
-      "body_snippet": "习近平经济思想引领中国加快发展新质生产力 抚州新闻网",
-      "_query_boost": 40
-    },
-    {
-      "id": "raw-006",
-      "title": "习近平经济思想引领中国加快发展新质生产力 - 中国旅游新闻网",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc3JQbjd4bW1WSktiaDFGdWl6dncxMUw5RnRDLUtCMXBwQXlCeUR1UFMtREcwQk0zTjFzSnNST0RxRjFJdUVRVFNObmdYaGpsSG1nUjdSNDdrdms3a1JHMV9JcUx5enVKaWFDX0U3U0lYOS1qOHE5ZGdFYXRKMEl5Ng?oc=5",
-      "source": "中国旅游新闻网",
-      "category": "政策",
-      "published": "2026-10-10",
-      "body_snippet": "习近平经济思想引领中国加快发展新质生产力 中国旅游新闻网",
-      "_query_boost": 35
-    },
-    {
       "id": "raw-007",
-      "title": "阶跃发布3999元大模型智能体手机：这会是下一代手机的答案吗？ - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIR25nZjRyU1JPVTRKcnRvdF9YMGRHUUhCOVd4Ul9mOENwY2QyYU42MlZzRFpFaS1ncVM2TjViNS1vZGdfVDRCcFZZMml3Q2xJVjNpQmotNGpWNlZfcGNqbw?oc=5",
-      "source": "搜狐网",
-      "category": "竞品",
-      "published": "2026-10-13",
-      "body_snippet": "阶跃发布3999元大模型智能体手机：这会是下一代手机的答案吗？ 搜狐网",
-      "_query_boost": 25
+      "title": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMi-ARBVV95cUxNakJ2QWl3Y2ttVHAzeVVxbVEzejN2UFpTeUlXQmRwbEZkMlRUdjJHdTVENWZTcWRrWXJKVmVyM2JqZjBUelVMTkdmaGVCQjB6X0JZd2V3cDZIYWlaVGZUeEh3ajRzdVNrV1VPeUxneUVxSmVObHl2Vk5GcVIzTF9zNi1KenVPbW5HZFFEWmtYLVdLQjFEajBGdlRITmRrRW1lTl85VDRpS3pNenJleGxnZk52Y1RnWlE0dzJ5ZVgyZGFvVXFURlAwWFdUYjRDb3dwTC1lcC1hMjhsVkRpRm5vMGdlR1I3Z2xuLWlGTktEbEZjT1hyVF95T3hyLVFTVkVoeGROa3lXZFpyTmFkNHkxN2RSa21QWHViQWVrdHJPcFNRaDJGSk9TTXVnQXhOc19CVm1ia01NODVqQmhhZlV5OEJ1cmd3am54RG1LYTF3QThfeHU2VF95aTBJQ2djckItRm83d25iQ2FFUzhzQnJaYWVZT1dDLWFuWGlmRzVEX2FBZ1FEWVVpbHRzUDZuRldZYmF2cERQOFNIQWtkMDlNOWY1Z1E4R2dwRWZKYmo0SllFODlyWFlWTzhJbUJPTDh0QXZCYVBiVER3X01yc3g2OHY0UWhaMExXM0owcDJ6XzlMSEZrLWdETGVyVGlLQ084cGVSMzRKWWxyQkF4MEhVdkVlUVZNYVpVaHg1NllxSGpIZFh1cS1aNTBJblNQem1aX2xiQk1VRnFWckRfNU5jMnlsUVE0Wk9UYXcwemNpLWd5eEZoZHBteWpOZ2ZORzU3T28xTDlnc1pQWmNWSUdGZnNiTlRqNURuSm9vWG4wcmR5MFNMOUt5Zg?oc=5",
+      "source": "finance.sina.com.cn",
+      "category": "政策",
+      "published": "2026-10-17",
+      "body_snippet": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 finance.sina.com.cn",
+      "_query_boost": 30
     },
     {
       "id": "raw-008",
-      "title": "月之暗面新一轮融资估值靠谱吗？ - 搜狐",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSzZJWEdzdC0wNkdfdHBuMHNtbk55U2lwMkJyTVpqaVB2SUNkb3BkUVpEUjRrTlVKaUxaOThHQy1QQ0szZ2JDREJFMWFnUk1wbTYtc1FFRXZHcHY2RnV2QWtSbi0yc0VVckQ5ZWdpTTdMem9JVXdWOXVBekhiZFEtNEQ2LVhtR2kyS2l6SQ?oc=5",
-      "source": "搜狐",
-      "category": "资本",
-      "published": "2026-10-16",
-      "body_snippet": "月之暗面新一轮融资估值靠谱吗？ 搜狐",
-      "_query_boost": 20
+      "title": "从两份“十五五”规划到一张算力网：未来五年通信产业的投资与技术主线已清晰 - QQ News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52bWtHbHppT2hzVlhCMXhzNHFZaUJKZ0NVNV9TLVgzY0ZoWDduVlFmSXdyYWd0TEtiS3RSX1VPb2NyakRpTnNqQ3p3MWRtTUZ2aks2eExn?oc=5",
+      "source": "QQ News",
+      "category": "政策",
+      "published": "2026-10-12",
+      "body_snippet": "从两份“十五五”规划到一张算力网：未来五年通信产业的投资与技术主线已清晰 QQ News",
+      "_query_boost": 30
     },
     {
       "id": "raw-009",
+      "title": "中国银行湖北省分行服务国家重大决策部署 打造金融支持“六张网”湖北样板 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rTXdUZEY2MXMyTUxJdUVnMS02eWo4OThWYXk5dHFCRVJFVFdjSFMxVHJoa2dwWWpUaVp5ZzVBSVdzTDAtN25jS2VWaFEwRVY4RElvMW5aQXYzczJQTGRLTzhKb1Z2NnA3alpxcExJYnpkWTlo?oc=5",
+      "source": "新华网",
+      "category": "政策",
+      "published": "2026-10-16",
+      "body_snippet": "中国银行湖北省分行服务国家重大决策部署 打造金融支持“六张网”湖北样板 新华网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-010",
+      "title": "国常会：不断深化拓展“人工智能+”行动 - 36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJb3c0Ql8xUWg4LWJEblVvUW5QanZ0VWVRTnFsblQ0OXRyOHJKTXNnNEpqN3pLREUwYlp0OUNKQ2V1eUVQdmpFc2piNGdtQ3RlUkF4ZmRZdVB5M2c?oc=5",
+      "source": "36Kr",
+      "category": "政策",
+      "published": "2026-10-15",
+      "body_snippet": "国常会：不断深化拓展“人工智能+”行动 36Kr",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-011",
       "title": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 - 虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBydnM1WnJxMHV6ekg5bXRXS2pNSnJBeW9EWnB1Q1U4WEFyUDNHRzN1YlRJdjhwOVFzZTdicFpBTE1xd0Z3aktnQ1lnemo2NV8xUmFNOQ?oc=5",
       "source": "虎嗅网",
@@ -98,52 +118,32 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-010",
-      "title": "中共中央、国务院：建设国家区块链网络、全国一体化算力网 - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Uc2lYSHRxYUxaajNfTlVpa09tNVVUZmFaQWpDeFdhczkxN3Nwd24weFRTc1hZOE9RY096SjNRV000aFE4a3NKTkVqRTFpUVp3WHdkNmhjTDVBQk5RbFFwOHVFS3VhUQ?oc=5",
-      "source": "TradingView",
-      "category": "政策",
-      "published": "2026-10-10",
-      "body_snippet": "中共中央、国务院：建设国家区块链网络、全国一体化算力网 TradingView",
+      "id": "raw-012",
+      "title": "东数西算推动西部算力崛起：乌兰察布签约算力总投资超5000亿元 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93QTJKcWoyekEtXzlYVjhqWFdHZUN2Q28yVzItNDhUZVdDX0dvZFZob012TndtMW5hcVlUMkUtQUNuQmNHM1dPZlEyUzdndVFocURUTw?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-17",
+      "body_snippet": "东数西算推动西部算力崛起：乌兰察布签约算力总投资超5000亿元 虎嗅网",
       "_query_boost": 0
     },
     {
-      "id": "raw-011",
-      "title": "欢迎加大研发创新和业务布局力度 陈吉宁会见新加坡丰益国际集团董事局主席郭孔丰一行",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261016/6fd7ac4c9b654d88b7bb8dbb6af51feb.html",
+      "id": "raw-013",
+      "title": "鼓足干劲、砥砺韧劲、增强拼劲 确保“十五五”开局之年各项任务圆满完成 市政府四季度工作会议召开",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261017/21ddba2b1ed34b4a84b121dc16842809.html",
       "source": "上海市政府-动态",
-      "published": "2026-10-16",
+      "published": "2026-10-17",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-012",
-      "title": "被黄仁勋看中，曾辍学挖矿的他，拿下3000亿AI算力大单，把公司估值做到2300亿 - 智东西",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5kc0c1dk9IeUFJT2VMMzlIcC1UeHBzU3YzY29JUm9yY3Y2V01oSGdTMGdSN292LWtxLUYwZWVSbWpDT29WSnZRZQ?oc=5",
-      "source": "智东西",
-      "category": "海外",
-      "published": "2026-10-14",
-      "body_snippet": "被黄仁勋看中，曾辍学挖矿的他，拿下3000亿AI算力大单，把公司估值做到2300亿 智东西",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-013",
-      "title": "市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 - 新浪新闻_手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaHphREVzZ1dkcU5qUEJKd29pY2hFczQwcktoTFB5ckdzbTBzMUhjNWYzT3ZNemQ2QUVyNVZzTW16OFZpMlpmUUNyTFdTZ0RyTFRuWHVtbkJHSTBOYlp4cUdGTzJzYUZHZXBPSWU3d2NOUl9ZQWxFTm9FQTZLYXpSN0tEY0RFZVROMHJDMVdoNkFvMGdKdndtWVNaaV92eFgzRXhTUzluRG5Cd2w1NmdOVDNzeU5NUEpnaGFrUzAyVFRNdUthcTg0c1R3dlpGa3BIXzNv?oc=5",
-      "source": "新浪新闻_手机新浪网",
-      "category": "海外",
-      "published": "2026-10-10",
-      "body_snippet": "市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 新浪新闻_手机新浪网",
-      "_query_boost": 25
-    },
-    {
       "id": "raw-014",
-      "title": "SK Hynix bargains for chip equipment exports to its China facility in return for building a factory in US",
-      "url": "https://techcrunch.com/2026/10/15/sk-hynix-bargains-for-chip-equipment-exports-to-its-china-facility-in-return-for-building-a-factory-in-us/",
-      "source": "TechCrunch",
-      "published": "2026-10-15",
+      "title": "本届进博会首发首展首秀创新高 4142家企业参展为历届之最 将加强供需精准对接 促更多订单现场成交",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261017/eb7f325883324d46a8929b20d51ef2c3.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-17",
       "body_snippet": "",
-      "category": "海外"
+      "category": "技术"
     },
     {
       "id": "raw-015",

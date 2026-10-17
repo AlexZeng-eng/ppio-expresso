@@ -1,14 +1,93 @@
 {
-  "generated_at": "2026-10-16T04:59:04.896Z",
-  "week": "2026-W42",
+  "generated_at": "2026-10-17T04:58:36.816Z",
+  "week": "2026-W43",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 6,
-  "attend_count": 3,
-  "silent_count": 3,
+  "total_curated": 9,
+  "attend_count": 4,
+  "silent_count": 5,
   "items": [
     {
+      "id": "raw-001",
+      "title": "（近观中国）考察乌兰察布，习近平关注算力背后的考量 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zRElDVkhXM18xYnFhUWtyQ0tOaUhETUpkNDJHLXVDNFFwWVVNX2NkSEN1Nkw3QXVDSGRfeG5ZV2lOeU9vNzNlbkV4V3Y2MTJqa0VuaFRuWmVoZFRFMFRvNmJYa0s5WjJ5?oc=5",
+      "source": "中国新闻网",
+      "category": "政策",
+      "published": "2026-10-17",
+      "body_snippet": "（近观中国）考察乌兰察布，习近平关注算力背后的考量 中国新闻网",
+      "_query_boost": 45,
+      "lane": "attend",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "（近观中国）考察乌兰察布，习近平关注算力背后的考量 - 中国新闻网 （近观中国）考察乌兰察布，习近平关注算力背后的考量 中国新闻网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-002",
+      "title": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 - 中国网新闻中心",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NVVgzMHdoY1ZvN0M1OUpYMkN1YTZGeVB6R09IbWpBOGp3d1hma2ZSNGlSZTFLcDJKbWhwQzcwckZoVVlaUkc4M0wtaTZwNHA1WmQ0dHdfOVVRVFdNWnV6dFJJVWxqdERXRE1N?oc=5",
+      "source": "中国网新闻中心",
+      "category": "政策",
+      "published": "2026-10-16",
+      "body_snippet": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 中国网新闻中心",
+      "_query_boost": 45,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 - 中国网新闻中心 第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 中国网新闻中心",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
       "id": "raw-003",
+      "title": "习近平考察中国AI算力重镇乌兰察布：搞好算力中心建设 - 早晨报",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pMUFUQzlzd21ybGhaYU9QVVoxVXJUOGNYZm1pVWFmN1dRb2tkTkRPUnFuT2pTTnlrVk03VndoU3pTaFZvanlSdDF5TWFkejFJSkV6OFZyMDUzZF9yam5SemQ3cGREQzgw?oc=5",
+      "source": "早晨报",
+      "category": "政策",
+      "published": "2026-10-16",
+      "body_snippet": "习近平考察中国AI算力重镇乌兰察布：搞好算力中心建设 早晨报",
+      "_query_boost": 45,
+      "lane": "attend",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "搞好算力中心建设 - 早晨报 习近平考察中国AI算力重镇乌兰察布：搞好算力中心建设 早晨报",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-006",
       "title": "阶跃星辰智能体手机推出 和其他智能体手机有何不同？ - 财新",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FUTI5VnlRVkFuQzBQXzNVTzc0cnJKNFE2dkZzbHdZYkQxN0dWNU0tdm14LTRMTWNSOVFlNURWdGFLazRCZUo4RWlrZnBJTXpkWnp2SllWNzBmM0RzRk1BTVlseFowemc?oc=5",
       "source": "财新",
@@ -36,17 +115,17 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-008",
-      "title": "月之暗面新一轮融资估值靠谱吗？ - 搜狐",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSzZJWEdzdC0wNkdfdHBuMHNtbk55U2lwMkJyTVpqaVB2SUNkb3BkUVpEUjRrTlVKaUxaOThHQy1QQ0szZ2JDREJFMWFnUk1wbTYtc1FFRXZHcHY2RnV2QWtSbi0yc0VVckQ5ZWdpTTdMem9JVXdWOXVBekhiZFEtNEQ2LVhtR2kyS2l6SQ?oc=5",
-      "source": "搜狐",
-      "category": "资本",
-      "published": "2026-10-16",
-      "body_snippet": "月之暗面新一轮融资估值靠谱吗？ 搜狐",
-      "_query_boost": 20,
+      "id": "raw-007",
+      "title": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMi-ARBVV95cUxNakJ2QWl3Y2ttVHAzeVVxbVEzejN2UFpTeUlXQmRwbEZkMlRUdjJHdTVENWZTcWRrWXJKVmVyM2JqZjBUelVMTkdmaGVCQjB6X0JZd2V3cDZIYWlaVGZUeEh3ajRzdVNrV1VPeUxneUVxSmVObHl2Vk5GcVIzTF9zNi1KenVPbW5HZFFEWmtYLVdLQjFEajBGdlRITmRrRW1lTl85VDRpS3pNenJleGxnZk52Y1RnWlE0dzJ5ZVgyZGFvVXFURlAwWFdUYjRDb3dwTC1lcC1hMjhsVkRpRm5vMGdlR1I3Z2xuLWlGTktEbEZjT1hyVF95T3hyLVFTVkVoeGROa3lXZFpyTmFkNHkxN2RSa21QWHViQWVrdHJPcFNRaDJGSk9TTXVnQXhOc19CVm1ia01NODVqQmhhZlV5OEJ1cmd3am54RG1LYTF3QThfeHU2VF95aTBJQ2djckItRm83d25iQ2FFUzhzQnJaYWVZT1dDLWFuWGlmRzVEX2FBZ1FEWVVpbHRzUDZuRldZYmF2cERQOFNIQWtkMDlNOWY1Z1E4R2dwRWZKYmo0SllFODlyWFlWTzhJbUJPTDh0QXZCYVBiVER3X01yc3g2OHY0UWhaMExXM0owcDJ6XzlMSEZrLWdETGVyVGlLQ084cGVSMzRKWWxyQkF4MEhVdkVlUVZNYVpVaHg1NllxSGpIZFh1cS1aNTBJblNQem1aX2xiQk1VRnFWckRfNU5jMnlsUVE0Wk9UYXcwemNpLWd5eEZoZHBteWpOZ2ZORzU3T28xTDlnc1pQWmNWSUdGZnNiTlRqNURuSm9vWG4wcmR5MFNMOUt5Zg?oc=5",
+      "source": "finance.sina.com.cn",
+      "category": "政策",
+      "published": "2026-10-17",
+      "body_snippet": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 finance.sina.com.cn",
+      "_query_boost": 30,
       "lane": "silent",
       "signals": [
-        "💰"
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -54,12 +133,63 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "月之暗面新一轮融资估值靠谱吗？ - 搜狐 月之暗面新一轮融资估值靠谱吗？ 搜狐",
+      "summary_cn": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - finance.sina.com.cn 信息通信行业未来五年路线图",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
+      "id": "raw-008",
+      "title": "从两份“十五五”规划到一张算力网：未来五年通信产业的投资与技术主线已清晰 - QQ News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52bWtHbHppT2hzVlhCMXhzNHFZaUJKZ0NVNV9TLVgzY0ZoWDduVlFmSXdyYWd0TEtiS3RSX1VPb2NyakRpTnNqQ3p3MWRtTUZ2aks2eExn?oc=5",
+      "source": "QQ News",
+      "category": "政策",
+      "published": "2026-10-12",
+      "body_snippet": "从两份“十五五”规划到一张算力网：未来五年通信产业的投资与技术主线已清晰 QQ News",
+      "_query_boost": 30,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "从两份“十五五”规划到一张算力网：未来五年通信产业的投资与技术主线已清晰 - QQ News 从两份“十五五”规划到一张算力网：未来五年通信产业的投资与技术主线",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
+      "title": "国常会：不断深化拓展“人工智能+”行动 - 36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJb3c0Ql8xUWg4LWJEblVvUW5QanZ0VWVRTnFsblQ0OXRyOHJKTXNnNEpqN3pLREUwYlp0OUNKQ2V1eUVQdmpFc2piNGdtQ3RlUkF4ZmRZdVB5M2c?oc=5",
+      "source": "36Kr",
+      "category": "政策",
+      "published": "2026-10-15",
+      "body_snippet": "国常会：不断深化拓展“人工智能+”行动 36Kr",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "🏛️"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "不断深化拓展“人工智能+”行动 - 36Kr 国常会：不断深化拓展“人工智能+”行动 36Kr",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-011",
       "title": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 - 虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBydnM1WnJxMHV6ekg5bXRXS2pNSnJBeW9EWnB1Q1U4WEFyUDNHRzN1YlRJdjhwOVFzZTdicFpBTE1xd0Z3aktnQ1lnemo2NV8xUmFNOQ?oc=5",
       "source": "虎嗅网",
@@ -82,46 +212,16 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-010",
-      "title": "中共中央、国务院：建设国家区块链网络、全国一体化算力网 - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Uc2lYSHRxYUxaajNfTlVpa09tNVVUZmFaQWpDeFdhczkxN3Nwd24weFRTc1hZOE9RY096SjNRV000aFE4a3NKTkVqRTFpUVp3WHdkNmhjTDVBQk5RbFFwOHVFS3VhUQ?oc=5",
-      "source": "TradingView",
-      "category": "政策",
-      "published": "2026-10-10",
-      "body_snippet": "中共中央、国务院：建设国家区块链网络、全国一体化算力网 TradingView",
-      "_query_boost": 0,
-      "lane": "attend",
-      "signals": [
-        "🏛️",
-        "🔬"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "建设国家区块链网络、全国一体化算力网 - TradingView 中共中央、国务院：建设国家区块链网络、全国一体化算力网 TradingView",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
       "id": "raw-012",
-      "title": "被黄仁勋看中，曾辍学挖矿的他，拿下3000亿AI算力大单，把公司估值做到2300亿 - 智东西",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5kc0c1dk9IeUFJT2VMMzlIcC1UeHBzU3YzY29JUm9yY3Y2V01oSGdTMGdSN292LWtxLUYwZWVSbWpDT29WSnZRZQ?oc=5",
-      "source": "智东西",
-      "category": "海外",
-      "published": "2026-10-14",
-      "body_snippet": "被黄仁勋看中，曾辍学挖矿的他，拿下3000亿AI算力大单，把公司估值做到2300亿 智东西",
-      "_query_boost": 20,
+      "title": "东数西算推动西部算力崛起：乌兰察布签约算力总投资超5000亿元 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93QTJKcWoyekEtXzlYVjhqWFdHZUN2Q28yVzItNDhUZVdDX0dvZFZob012TndtMW5hcVlUMkUtQUNuQmNHM1dPZlEyUzdndVFocURUTw?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-17",
+      "body_snippet": "东数西算推动西部算力崛起：乌兰察布签约算力总投资超5000亿元 虎嗅网",
+      "_query_boost": 0,
       "lane": "silent",
       "signals": [
-        "💰",
         "🔬"
       ],
       "is_deep_read": false,
@@ -130,36 +230,8 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "被黄仁勋看中，曾辍学挖矿的他，拿下3000亿AI算力大单，把公司估值做到2300亿 - 智东西 被黄仁勋看中，曾辍学挖矿的他，拿下3000亿AI算力大单，把公司",
+      "summary_cn": "东数西算推动西部算力崛起：乌兰察布签约算力总投资超5000亿元 - 虎嗅网 东数西算推动西部算力崛起：乌兰察布签约算力总投资超5000亿元 虎嗅网",
       "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-013",
-      "title": "市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 - 新浪新闻_手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaHphREVzZ1dkcU5qUEJKd29pY2hFczQwcktoTFB5ckdzbTBzMUhjNWYzT3ZNemQ2QUVyNVZzTW16OFZpMlpmUUNyTFdTZ0RyTFRuWHVtbkJHSTBOYlp4cUdGTzJzYUZHZXBPSWU3d2NOUl9ZQWxFTm9FQTZLYXpSN0tEY0RFZVROMHJDMVdoNkFvMGdKdndtWVNaaV92eFgzRXhTUzluRG5Cd2w1NmdOVDNzeU5NUEpnaGFrUzAyVFRNdUthcTg0c1R3dlpGa3BIXzNv?oc=5",
-      "source": "新浪新闻_手机新浪网",
-      "category": "海外",
-      "published": "2026-10-10",
-      "body_snippet": "市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 新浪新闻_手机新浪网",
-      "_query_boost": 25,
-      "lane": "attend",
-      "signals": [
-        "—"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 - 新浪新闻_手机新浪网 市政厅爆发冲突！美中期选举遭遇“反数据中心”浪潮：民众抗议四起，三座城市同日暂停建设，特朗普在重要摇摆州辩护竟遭无视 新浪新闻_手机新浪网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
       "_classified_by": "rule"
     }
   ]

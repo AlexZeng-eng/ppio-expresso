@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-16T04:59:04.934Z",
-  "date": "2026-10-16",
-  "date_label": "2026-10-16",
+  "generated_at": "2026-10-17T04:58:36.845Z",
+  "date": "2026-10-17",
+  "date_label": "2026-10-17",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
     "📜": 0,
     "⚔️": 0,
-    "💰": 2,
+    "💰": 0,
     "🌏": 0,
-    "🔬": 3
+    "🔬": 7
   },
   "speed_read": {
     "positive": [],
@@ -18,7 +18,7 @@
   "wind_indicators": {
     "policy_heat": 3,
     "competitor_heat": 2,
-    "capital_heat": 3,
+    "capital_heat": 2,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
@@ -27,15 +27,15 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "阶跃星辰智能体手机推出 和其他智能体手机",
-      "policy_axis": 0,
+      "title": "（近观中国）考察乌兰察布，习近平关注算力",
+      "policy_axis": 0.6,
       "competition_axis": 0.1,
-      "impact_score": 2,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
       "id": "2",
-      "title": "中共中央、国务院：建设国家区块链网络、全",
+      "title": "习近平考察中国AI算力重镇乌兰察布：搞好",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
@@ -43,10 +43,18 @@
     },
     {
       "id": "3",
-      "title": "市政厅爆发冲突！美中期选举遭遇“反数据中",
+      "title": "阶跃星辰智能体手机推出 和其他智能体手机",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "4",
+      "title": "国常会：不断深化拓展“人工智能+”行动 ",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     }
   ],
@@ -56,7 +64,7 @@
     "components": {
       "policy_tailwind": 8,
       "competitive_pressure": 0,
-      "capital_sentiment": 10,
+      "capital_sentiment": 0,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },
