@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-10-17T04:58:36.879Z",
+  "updated_at": "2026-10-18T05:07:12.945Z",
   "days": [
+    {
+      "date": "2026-10-18",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "signal_summary": {
+        "🏛️": 1,
+        "📜": 0,
+        "⚔️": 0,
+        "💰": 1,
+        "🌏": 0,
+        "🔬": 8
+      },
+      "wind_indicators": {
+        "policy_heat": 3,
+        "competitor_heat": 2,
+        "capital_heat": 3,
+        "overseas_heat": 2,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
+      },
+      "ppio_index": {
+        "score": 55,
+        "delta": 0,
+        "components": {
+          "policy_tailwind": 8,
+          "competitive_pressure": 0,
+          "capital_sentiment": 5,
+          "regulatory_risk": 0,
+          "overseas_headwind": 0
+        },
+        "interpretation": "规则估算，仅供参考"
+      },
+      "item_count": {
+        "total": 11,
+        "attend": 4,
+        "silent": 7
+      },
+      "competitor_updates": []
+    },
     {
       "date": "2026-10-17",
       "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
@@ -3395,47 +3433,6 @@
         "硅基流动冲刺港股IPO，估值77亿元，但毛利长期为负，2025年调整净亏损率仍超30%。",
         "华为首展昇腾CloudMatrix 8.0集群，算力达H100同级别6.7倍，已实现千卡液冷部署。",
         "国产算力链CPU紧俏、GPU爆发，2026上半年国产AI芯片出货量同比增超150%。"
-      ]
-    },
-    {
-      "date": "2026-07-17",
-      "mainline": "习近平将出席世界人工智能大会释放最强音，国常会定调适度超前布局数字基建，政策红利加码；但运营商集体推Token套餐、硅基流动负毛利冲刺港股，竞争与估值压力同增。",
-      "signal_summary": {
-        "🏛️": 6,
-        "📜": 2,
-        "⚔️": 2,
-        "💰": 1,
-        "🌏": 0,
-        "🔬": 0
-      },
-      "wind_indicators": {
-        "policy_heat": 5,
-        "competitor_heat": 4,
-        "capital_heat": 3,
-        "overseas_heat": 1,
-        "overall_sentiment": "升温",
-        "summary": "最高层密集为AI和数字基建定调，政策热度年度最高；但竞品迅速抢占大众算力市场，叠加上市合规新规，风险面不可忽视。"
-      },
-      "ppio_index": {
-        "score": 64,
-        "delta": -1,
-        "components": {
-          "policy_tailwind": 42,
-          "competitive_pressure": -25,
-          "capital_sentiment": 15,
-          "regulatory_risk": -10,
-          "overseas_headwind": -8
-        },
-        "interpretation": "最强政策红利对冲竞品施压与上市合规新规，指数微降但仍偏暖，结构性博弈加剧"
-      },
-      "item_count": {
-        "total": 12,
-        "attend": 9,
-        "silent": 3
-      },
-      "competitor_updates": [
-        "[竞品] 硅基流动：冲刺港股，估值77亿元，但负毛利状态持续，日处理千亿Token，被称为‘Token工厂第一股’",
-        "[竞品] 三大运营商：同步推出Token计费AI算力套餐，推动算力‘大众化’，直接在推理服务层与PPIO形成价格竞争"
       ]
     }
   ]

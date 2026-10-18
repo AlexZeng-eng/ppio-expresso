@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-17T04:58:36.816Z",
+  "generated_at": "2026-10-18T05:07:12.870Z",
   "week": "2026-W43",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 9,
+  "total_curated": 11,
   "attend_count": 4,
-  "silent_count": 5,
+  "silent_count": 7,
   "items": [
     {
       "id": "raw-001",
@@ -37,12 +37,35 @@
     },
     {
       "id": "raw-002",
-      "title": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 - 中国网新闻中心",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NVVgzMHdoY1ZvN0M1OUpYMkN1YTZGeVB6R09IbWpBOGp3d1hma2ZSNGlSZTFLcDJKbWhwQzcwckZoVVlaUkc4M0wtaTZwNHA1WmQ0dHdfOVVRVFdNWnV6dFJJVWxqdERXRE1N?oc=5",
-      "source": "中国网新闻中心",
+      "title": "时政微观察丨内蒙古之行，总书记考察算力产业有何深意？ - 央视网",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE14dzIwejFhNExVR05qUkI4LXVqQnN2MXF1Yl9PVS14anpycThUVXYwR1NTeUtMSXEwd2FGNDV4Z2FGX05KdGJhX1lWX3VmTjhHNGFDYWFkc1I5OUNwUlNZTllWWjFZeUoyejItd1NjOTBaZDJxV3p4eQ?oc=5",
+      "source": "央视网",
       "category": "政策",
-      "published": "2026-10-16",
-      "body_snippet": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 中国网新闻中心",
+      "published": "2026-10-17",
+      "body_snippet": "时政微观察丨内蒙古之行，总书记考察算力产业有何深意？ 央视网",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "时政微观察丨内蒙古之行，总书记考察算力产业有何深意？ - 央视网 时政微观察丨内蒙古之行，总书记考察算力产业有何深意？ 央视网",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-003",
+      "title": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 - 新浪新闻",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOelJzOTdVb2NPNVZXVE0xMHotR3hHaUtXZnREMGpQQ0tYVVdFTklxU1R2TlJ3eEdQb1Y5Vl9kdFJmNThNZS1aOHVzaGRhTzBwUmtiM0tMamNXMEY0M0JiYjNpVkdVd255dDVES0JLX2syWVhvZWNDbA?oc=5",
+      "source": "新浪新闻",
+      "category": "政策",
+      "published": "2026-10-17",
+      "body_snippet": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 新浪新闻",
       "_query_boost": 45,
       "lane": "silent",
       "signals": [
@@ -54,12 +77,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 - 中国网新闻中心 第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 中国网新闻中心",
+      "summary_cn": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 - 新浪新闻 第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 新浪新闻",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-003",
+      "id": "raw-004",
       "title": "习近平考察中国AI算力重镇乌兰察布：搞好算力中心建设 - 早晨报",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pMUFUQzlzd21ybGhaYU9QVVoxVXJUOGNYZm1pVWFmN1dRb2tkTkRPUnFuT2pTTnlrVk03VndoU3pTaFZvanlSdDF5TWFkejFJSkV6OFZyMDUzZF9yam5SemQ3cGREQzgw?oc=5",
       "source": "早晨报",
@@ -87,9 +110,9 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
+      "id": "raw-007",
       "title": "阶跃星辰智能体手机推出 和其他智能体手机有何不同？ - 财新",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FUTI5VnlRVkFuQzBQXzNVTzc0cnJKNFE2dkZzbHdZYkQxN0dWNU0tdm14LTRMTWNSOVFlNURWdGFLazRCZUo4RWlrZnBJTXpkWnp2SllWNzBmM0RzRk1BTVlseFowemc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9rTjJOc3RuOXFDeURRWl9MdzZjekJtakpYVnEzdGIwbWhMWGRwZlpjemI0QTg5N0R4alpUbHh1MHpOa3dRZEkzQjd1Z0Q3bl90cHlXeTVpeXg2YnpCalNwM2o2bXU?oc=5",
       "source": "财新",
       "category": "竞品",
       "published": "2026-10-13",
@@ -115,7 +138,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-007",
+      "id": "raw-008",
       "title": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - finance.sina.com.cn",
       "url": "https://news.google.com/rss/articles/CBMi-ARBVV95cUxNakJ2QWl3Y2ttVHAzeVVxbVEzejN2UFpTeUlXQmRwbEZkMlRUdjJHdTVENWZTcWRrWXJKVmVyM2JqZjBUelVMTkdmaGVCQjB6X0JZd2V3cDZIYWlaVGZUeEh3ajRzdVNrV1VPeUxneUVxSmVObHl2Vk5GcVIzTF9zNi1KenVPbW5HZFFEWmtYLVdLQjFEajBGdlRITmRrRW1lTl85VDRpS3pNenJleGxnZk52Y1RnWlE0dzJ5ZVgyZGFvVXFURlAwWFdUYjRDb3dwTC1lcC1hMjhsVkRpRm5vMGdlR1I3Z2xuLWlGTktEbEZjT1hyVF95T3hyLVFTVkVoeGROa3lXZFpyTmFkNHkxN2RSa21QWHViQWVrdHJPcFNRaDJGSk9TTXVnQXhOc19CVm1ia01NODVqQmhhZlV5OEJ1cmd3am54RG1LYTF3QThfeHU2VF95aTBJQ2djckItRm83d25iQ2FFUzhzQnJaYWVZT1dDLWFuWGlmRzVEX2FBZ1FEWVVpbHRzUDZuRldZYmF2cERQOFNIQWtkMDlNOWY1Z1E4R2dwRWZKYmo0SllFODlyWFlWTzhJbUJPTDh0QXZCYVBiVER3X01yc3g2OHY0UWhaMExXM0owcDJ6XzlMSEZrLWdETGVyVGlLQ084cGVSMzRKWWxyQkF4MEhVdkVlUVZNYVpVaHg1NllxSGpIZFh1cS1aNTBJblNQem1aX2xiQk1VRnFWckRfNU5jMnlsUVE0Wk9UYXcwemNpLWd5eEZoZHBteWpOZ2ZORzU3T28xTDlnc1pQWmNWSUdGZnNiTlRqNURuSm9vWG4wcmR5MFNMOUt5Zg?oc=5",
       "source": "finance.sina.com.cn",
@@ -138,14 +161,14 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-008",
+      "id": "raw-009",
       "title": "从两份“十五五”规划到一张算力网：未来五年通信产业的投资与技术主线已清晰 - QQ News",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52bWtHbHppT2hzVlhCMXhzNHFZaUJKZ0NVNV9TLVgzY0ZoWDduVlFmSXdyYWd0TEtiS3RSX1VPb2NyakRpTnNqQ3p3MWRtTUZ2aks2eExn?oc=5",
       "source": "QQ News",
       "category": "政策",
       "published": "2026-10-12",
       "body_snippet": "从两份“十五五”规划到一张算力网：未来五年通信产业的投资与技术主线已清晰 QQ News",
-      "_query_boost": 30,
+      "_query_boost": 25,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -162,6 +185,75 @@
     },
     {
       "id": "raw-010",
+      "title": "新闻多一点 | 读懂算力 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1IMWJ4LTZDeXhtWTVjdFY2b1hnYk5aQWlLWFZtUER0VUdSSm5qQlkyUjdKQ0pvd2Q0bXVBcEhEZFlhZUVWeUZndnd5ZEtUZWsxcDhCQWRGNl9ScTNwbGxMTlVaUzBBMjc2S2lZdlJlalZOWWFqV2J3?oc=5",
+      "source": "新华网",
+      "category": "政策",
+      "published": "2026-10-17",
+      "body_snippet": "新闻多一点 | 读懂算力 新华网",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "新闻多一点 | 读懂算力 - 新华网 新闻多一点 | 读懂算力 新华网",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-011",
+      "title": "联播+｜考察绿色算力 总书记强调两个“协同” - 央视网",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTVGFsSnVmUi0wRm9ZZDRJLXEzRGZ6RjVYbGlGdmV1N04xVmh4cC16M201X1hEUUphckxlNzB5RTFvODVRQ010MFNGWDZVVXA2cFEtZEdOdm00RzZlMkM1VXpTenJBdjBjdm4wcUJzTVA3SG1PMlIzMg?oc=5",
+      "source": "央视网",
+      "category": "政策",
+      "published": "2026-10-17",
+      "body_snippet": "联播+｜考察绿色算力 总书记强调两个“协同” 央视网",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "联播+｜考察绿色算力 总书记强调两个“协同” - 央视网 联播+｜考察绿色算力 总书记强调两个“协同” 央视网",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-013",
+      "title": "月之暗面新一轮融资估值靠谱吗？ - 搜狐",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSzZJWEdzdC0wNkdfdHBuMHNtbk55U2lwMkJyTVpqaVB2SUNkb3BkUVpEUjRrTlVKaUxaOThHQy1QQ0szZ2JDREJFMWFnUk1wbTYtc1FFRXZHcHY2RnV2QWtSbi0yc0VVckQ5ZWdpTTdMem9JVXdWOXVBekhiZFEtNEQ2LVhtR2kyS2l6SQ?oc=5",
+      "source": "搜狐",
+      "category": "资本",
+      "published": "2026-10-16",
+      "body_snippet": "月之暗面新一轮融资估值靠谱吗？ 搜狐",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "月之暗面新一轮融资估值靠谱吗？ - 搜狐 月之暗面新一轮融资估值靠谱吗？ 搜狐",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-014",
       "title": "国常会：不断深化拓展“人工智能+”行动 - 36Kr",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJb3c0Ql8xUWg4LWJEblVvUW5QanZ0VWVRTnFsblQ0OXRyOHJKTXNnNEpqN3pLREUwYlp0OUNKQ2V1eUVQdmpFc2piNGdtQ3RlUkF4ZmRZdVB5M2c?oc=5",
       "source": "36Kr",
@@ -186,52 +278,6 @@
         "beneficiaries": "（待 AI 填写）",
         "pressure_parties": "（待 AI 填写）"
       },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-011",
-      "title": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBydnM1WnJxMHV6ekg5bXRXS2pNSnJBeW9EWnB1Q1U4WEFyUDNHRzN1YlRJdjhwOVFzZTdicFpBTE1xd0Z3aktnQ1lnemo2NV8xUmFNOQ?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-11",
-      "body_snippet": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 虎嗅网",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 - 虎嗅网 中国AI竞争从争夺算力转向经营算力：数据中心扩张、模型降价与阿里资本开支 ",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "东数西算推动西部算力崛起：乌兰察布签约算力总投资超5000亿元 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93QTJKcWoyekEtXzlYVjhqWFdHZUN2Q28yVzItNDhUZVdDX0dvZFZob012TndtMW5hcVlUMkUtQUNuQmNHM1dPZlEyUzdndVFocURUTw?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-17",
-      "body_snippet": "东数西算推动西部算力崛起：乌兰察布签约算力总投资超5000亿元 虎嗅网",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "东数西算推动西部算力崛起：乌兰察布签约算力总投资超5000亿元 - 虎嗅网 东数西算推动西部算力崛起：乌兰察布签约算力总投资超5000亿元 虎嗅网",
-      "ppio_signal": null,
       "_classified_by": "rule"
     }
   ]
