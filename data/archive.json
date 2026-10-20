@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-10-19T05:17:11.826Z",
+  "updated_at": "2026-10-20T05:14:56.469Z",
   "days": [
+    {
+      "date": "2026-10-20",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "signal_summary": {
+        "🏛️": 1,
+        "📜": 0,
+        "⚔️": 0,
+        "💰": 0,
+        "🌏": 0,
+        "🔬": 8
+      },
+      "wind_indicators": {
+        "policy_heat": 3,
+        "competitor_heat": 2,
+        "capital_heat": 2,
+        "overseas_heat": 2,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
+      },
+      "ppio_index": {
+        "score": 55,
+        "delta": 0,
+        "components": {
+          "policy_tailwind": 8,
+          "competitive_pressure": 0,
+          "capital_sentiment": 0,
+          "regulatory_risk": 0,
+          "overseas_headwind": 0
+        },
+        "interpretation": "规则估算，仅供参考"
+      },
+      "item_count": {
+        "total": 10,
+        "attend": 5,
+        "silent": 5
+      },
+      "competitor_updates": []
+    },
     {
       "date": "2026-10-19",
       "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
@@ -3390,46 +3428,6 @@
         "silent": 4
       },
       "competitor_updates": []
-    },
-    {
-      "date": "2026-07-21",
-      "mainline": "习近平出席世界AI大会并提算力开放共享，工信部明确支持边缘算力，政策风向全面利好PPIO基建叙事。",
-      "signal_summary": {
-        "🏛️": 11,
-        "📜": 0,
-        "⚔️": 0,
-        "💰": 1,
-        "🌏": 4,
-        "🔬": 0
-      },
-      "wind_indicators": {
-        "policy_heat": 5,
-        "competitor_heat": 2,
-        "capital_heat": 4,
-        "overseas_heat": 3,
-        "overall_sentiment": "升温",
-        "summary": "AI大会最高层定调叠加工信部专项政策，边缘算力成为明确受益方向，整体情绪显著回暖。"
-      },
-      "ppio_index": {
-        "score": 70,
-        "delta": 8,
-        "components": {
-          "policy_tailwind": 45,
-          "competitive_pressure": -15,
-          "capital_sentiment": 20,
-          "regulatory_risk": -12,
-          "overseas_headwind": -8
-        },
-        "interpretation": "高层定调+工信部专项政策推动指数大幅回升，边缘算力成为政策明确受益方向。"
-      },
-      "item_count": {
-        "total": 13,
-        "attend": 12,
-        "silent": 1
-      },
-      "competitor_updates": [
-        "今日无直接竞品新闻，但需关注无问芯穹等AI Infra企业动态"
-      ]
     }
   ]
 }

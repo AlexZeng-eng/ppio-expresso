@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-19T05:17:11.661Z",
+  "generated_at": "2026-10-20T05:14:56.352Z",
   "week": "2026-W43",
   "date_range": {
-    "from": "2026-10-12",
-    "to": "2026-10-19"
+    "from": "2026-10-13",
+    "to": "2026-10-20"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -20,22 +20,23 @@
     },
     {
       "id": "raw-002",
-      "title": "“六张网”布局里的中国之治（一见） - finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMmw5ZjhQekRiNHhmZmUwYlF3b0VrTFJaSGliamJOejhMS3NiNWppYUp2M0lyZFUyWl9VVHhnYW5yT3FCaVhwTWNhVXVnTVhwMm0yc0k5TEJKVDJYWm9jUEowUmw0bEVtTFRCVE11Y3ZNVDNQeGo3UzV5THBlcHNJSWVDSk9QSzh6WERn?oc=5",
-      "source": "finance.sina.com.cn",
-      "category": "政策",
+      "title": "字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 - 搜狐",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcVpyQ21NenJKM3BKVUszZW84NWtfdEdxT3dReTdQaE41MG9NQjhNTF84RV9hQnR2SXBHWnNmMDNGRnZOWDdJOVBvYVM4dDRLN19yNHZVaWZBbGZ0OHA0LWRPZ1pHNncxc25LQjhkek1QdHgzXzFobVBodlRmMXFpeDlzLXJ0VWtL?oc=5",
+      "source": "搜狐",
+      "category": "竞品",
       "published": "2026-10-19",
-      "body_snippet": "“六张网”布局里的中国之治（一见） finance.sina.com.cn",
-      "_query_boost": 45
+      "body_snippet": "字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 搜狐",
+      "_query_boost": 15
     },
     {
       "id": "raw-003",
-      "title": "豆包刘星回应“国内超一半算力在造爽剧”：字节总算力中，只有约 10% 用于视频生成模型的训练和推理",
-      "url": "https://www.ithome.com/1/014/729.htm",
-      "source": "IT之家",
+      "title": "“六张网”布局里的中国之治（一见） - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVjI5bWFVOWdFNXNteGp6RVc2R1pzeWFQQlQ3WXBWZ3BNLWZ2RVdLc2t3U2xnazNHTXQ1YzhHYlczemNxd0xzZzdGSVRMcW16c1NoLUJGazdhLXJkb1RaZHlJRWJTOTZTU2pPX0RHMGthTmUzSG5HRkJDQ09KZDczZXlTTQ?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
       "published": "2026-10-19",
-      "body_snippet": "AI 短剧爆火：制作成本仅为真人剧 1/10，平均每 36 秒诞生 1 部 / 广电总局：全国微短剧用户已超 8 亿，2025 年市场规模突破千亿元",
-      "category": "资本"
+      "body_snippet": "“六张网”布局里的中国之治（一见） 新浪财经",
+      "_query_boost": 45
     },
     {
       "id": "raw-004",
@@ -52,12 +53,22 @@
       "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
       "source": "工信部-新闻",
-      "published": "2026-10-19",
+      "published": "2026-10-20",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-006",
+      "title": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 - 新浪新闻_手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOelJzOTdVb2NPNVZXVE0xMHotR3hHaUtXZnREMGpQQ0tYVVdFTklxU1R2TlJ3eEdQb1Y5Vl9kdFJmNThNZS1aOHVzaGRhTzBwUmtiM0tMamNXMEY0M0JiYjNpVkdVd255dDVES0JLX2syWVhvZWNDbA?oc=5",
+      "source": "新浪新闻_手机新浪网",
+      "category": "政策",
+      "published": "2026-10-17",
+      "body_snippet": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 新浪新闻_手机新浪网",
+      "_query_boost": 45
+    },
+    {
+      "id": "raw-007",
       "title": "习近平考察中国AI算力重镇乌兰察布：搞好算力中心建设 - 早晨报",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pMUFUQzlzd21ybGhaYU9QVVoxVXJUOGNYZm1pVWFmN1dRb2tkTkRPUnFuT2pTTnlrVk03VndoU3pTaFZvanlSdDF5TWFkejFJSkV6OFZyMDUzZF9yam5SemQ3cGREQzgw?oc=5",
       "source": "早晨报",
@@ -67,17 +78,27 @@
       "_query_boost": 45
     },
     {
-      "id": "raw-007",
-      "title": "阶跃星辰智能体手机推出 和其他智能体手机有何不同？ - 财新",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FUTI5VnlRVkFuQzBQXzNVTzc0cnJKNFE2dkZzbHdZYkQxN0dWNU0tdm14LTRMTWNSOVFlNURWdGFLazRCZUo4RWlrZnBJTXpkWnp2SllWNzBmM0RzRk1BTVlseFowemc?oc=5",
-      "source": "财新",
-      "category": "竞品",
-      "published": "2026-10-13",
-      "body_snippet": "阶跃星辰智能体手机推出 和其他智能体手机有何不同？ 财新",
+      "id": "raw-008",
+      "title": "国常会年内再谈人工智能，两次部署有何不同？ - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMVFtSDZYN25SRFlTclJ5ekhxbGpTQVVkTmJnODN0bEQ3c0JvdVFtb3NTMXZPM2R1Z3RadjJ1ejExME51Z3MwdVJSeW9yT0ppR05GLUFqRHMwOEtacW5XTHJ4NmREaXNXMU5xTlozcTJxNTJSUUlNbGFmbUJGbVFacmRNSDNWTnlPdmV5NnZ0WQ?oc=5",
+      "source": "21财经",
+      "category": "政策",
+      "published": "2026-10-17",
+      "body_snippet": "国常会年内再谈人工智能，两次部署有何不同？ 21财经",
       "_query_boost": 25
     },
     {
-      "id": "raw-008",
+      "id": "raw-009",
+      "title": "三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万P - 成都市委统战部",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVEhKNVpqcXZsTkJBMHd6dzVzSzJNMmVRU0lfOHdYUEpxOVdQZjNLWGNrT3ZaWjVJZVRUNWRfQzB3MkwyekRIVWNiU0hpcXZKLXF5clE5Y2o2Sl81VGhicEFtSXF0bGc3aThmbFNRckdWbUVWVWJ5cGJKRlZ1OVNtSU93VHpwVjJPSEdBbnA5N2FSV1ZHalRsaktqVk1MZzNkU0VN?oc=5",
+      "source": "成都市委统战部",
+      "category": "政策",
+      "published": "2026-10-19",
+      "body_snippet": "三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万P 成都市委统战部",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-010",
       "title": "習考察內蒙算力中心 強調「東數西算」是重要部署 - 世界新聞網",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13WnFBVjZBbkE0R3A3a1J1NTQ2TElQcVVKRnMtN1BISUhfU0Y5N2pPS01rTjJEbzZvbEl2dGRqX3BxX0w3MEw4cE5tRWZlZFM2N2IzU05lRTdUMXlTaGtMQmQ4bWNIeF8xc2fSAWdBVV95cUxPZTVLN21lQm5MZGx2NXZDTm5pNXdPbjRTa1hiM0JOd1o1aExtV0k1dlUzTjNlOVFCUVJrTXNka1Z1NExodkwzZi1lZnA3UU1jc1RKWHQycko1VEFrWlFUVjBtTm14ckVF?oc=5",
       "source": "世界新聞網",
@@ -87,7 +108,17 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-009",
+      "id": "raw-011",
+      "title": "上海大模型企业阶跃星辰发布首款智能体手机 - 人民网-上海频道",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TTTdad2NpdHpFdGU3YTZ4bFlRRXNhYzlWYjJtbXJXWkR5ZFZ1SS1LX3E3ZmZoSkFZRFl2UmNWSmJFQnRPVkxkQzg3NWloVmdiWGp3Q0JMQVhJbkVZMU5RSEJnZDNUNlNUNFE?oc=5",
+      "source": "人民网-上海频道",
+      "category": "竞品",
+      "published": "2026-10-15",
+      "body_snippet": "上海大模型企业阶跃星辰发布首款智能体手机 人民网-上海频道",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-012",
       "title": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - finance.sina.com.cn",
       "url": "https://news.google.com/rss/articles/CBMi-ARBVV95cUxNakJ2QWl3Y2ttVHAzeVVxbVEzejN2UFpTeUlXQmRwbEZkMlRUdjJHdTVENWZTcWRrWXJKVmVyM2JqZjBUelVMTkdmaGVCQjB6X0JZd2V3cDZIYWlaVGZUeEh3ajRzdVNrV1VPeUxneUVxSmVObHl2Vk5GcVIzTF9zNi1KenVPbW5HZFFEWmtYLVdLQjFEajBGdlRITmRrRW1lTl85VDRpS3pNenJleGxnZk52Y1RnWlE0dzJ5ZVgyZGFvVXFURlAwWFdUYjRDb3dwTC1lcC1hMjhsVkRpRm5vMGdlR1I3Z2xuLWlGTktEbEZjT1hyVF95T3hyLVFTVkVoeGROa3lXZFpyTmFkNHkxN2RSa21QWHViQWVrdHJPcFNRaDJGSk9TTXVnQXhOc19CVm1ia01NODVqQmhhZlV5OEJ1cmd3am54RG1LYTF3QThfeHU2VF95aTBJQ2djckItRm83d25iQ2FFUzhzQnJaYWVZT1dDLWFuWGlmRzVEX2FBZ1FEWVVpbHRzUDZuRldZYmF2cERQOFNIQWtkMDlNOWY1Z1E4R2dwRWZKYmo0SllFODlyWFlWTzhJbUJPTDh0QXZCYVBiVER3X01yc3g2OHY0UWhaMExXM0owcDJ6XzlMSEZrLWdETGVyVGlLQ084cGVSMzRKWWxyQkF4MEhVdkVlUVZNYVpVaHg1NllxSGpIZFh1cS1aNTBJblNQem1aX2xiQk1VRnFWckRfNU5jMnlsUVE0Wk9UYXcwemNpLWd5eEZoZHBteWpOZ2ZORzU3T28xTDlnc1pQWmNWSUdGZnNiTlRqNURuSm9vWG4wcmR5MFNMOUt5Zg?oc=5",
       "source": "finance.sina.com.cn",
@@ -97,61 +128,31 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-010",
-      "title": "阶跃发布3999元大模型智能体手机：这会是下一代手机的答案吗？ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxPNjNqd2RCSHZpc3lvX0kwOVJHS3pvME9TQng5VW56bjFGYVY2a0d6TGp0ZmpBWTNDUkZCUVBhc3lTeFVMOGk5b2ZjdGhwWXJXcUpnN2FCMkpBT2gzUHpGQW5YZ0tQVHI3WlFOMWc3QzVsVzNIOGJnNlhVWWNUbEFid0JMaDd5ZGJkR2ZJbHl5RjNYeGhtdmRuNVlXMHBlcHg2M1NGdnZiQ2kyaVhOVWdEYWRBM3JocjllX1B1dHdWa2lBNXFuM3lOY3NiVmFFbXk3TUlFdTZxZzFySzlRQXFhbXd2dHlmS3R4cmZtREJRWHVSMnBoSlpSNFB2UlBNOVNGSFNQbHFpOXMzTFQ4ZXJMaXJBQUVrUnFwTkJ4eGhBRVRmV3Z6WmFSVnhCb05zN2ZIX3RabTBUSmRHYTMwR3NLeUZhOXFTbEFPWTRSYXR4Y0VDZkk1bXdfc3h0WmpUblhNZ05fdkFicw?oc=5",
-      "source": "新浪财经",
-      "category": "竞品",
-      "published": "2026-10-13",
-      "body_snippet": "阶跃发布3999元大模型智能体手机：这会是下一代手机的答案吗？ 新浪财经",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-011",
-      "title": "上海劳力士大师赛落幕 总营收破5亿元创新高 这场秋日之约 网球氛围铺满申城",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261019/3e5ca904ff09444aaa79df3dd8afe9d1.html",
-      "source": "上海市政府-动态",
-      "published": "2026-10-19",
-      "body_snippet": "",
-      "category": "资本"
-    },
-    {
-      "id": "raw-012",
-      "title": "上海老年医学中心探索智慧养老新模式 综合评估智能体上线",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261019/c71e48439dda493f9bed5789d00ccc94.html",
-      "source": "上海市政府-动态",
-      "published": "2026-10-19",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
       "id": "raw-013",
-      "title": "抖音、美团、B站新工区即将投用 数字经济总部集聚区加速成型 产业脉搏“跳动” 杨浦滨江更“热”",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261019/878fa51a66414b5b8fb0da67e9c4e681.html",
+      "title": "一台台上海出品新作力作赓续文脉守正创新 催生有筋骨有温度有力量精品",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261020/726c758d60e24bc7a7cb549af84a0c5a.html",
       "source": "上海市政府-动态",
-      "published": "2026-10-19",
+      "published": "2026-10-20",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-014",
-      "title": "国常会：不断深化拓展“人工智能+”行动 - 36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJb3c0Ql8xUWg4LWJEblVvUW5QanZ0VWVRTnFsblQ0OXRyOHJKTXNnNEpqN3pLREUwYlp0OUNKQ2V1eUVQdmpFc2piNGdtQ3RlUkF4ZmRZdVB5M2c?oc=5",
-      "source": "36Kr",
-      "category": "政策",
-      "published": "2026-10-15",
-      "body_snippet": "国常会：不断深化拓展“人工智能+”行动 36Kr",
-      "_query_boost": 25
+      "title": "营商环境再提升 目光投向基层 上海筹备新版营商环境行动方案 召开多场座谈会 不少街镇放下材料“开麦”建言",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261020/f7401907c6c240828f0419e50efefb7d.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-20",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-015",
-      "title": "东数西算推动西部算力崛起：乌兰察布签约算力总投资超5000亿元 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lN1Z2dmo3UTVjajZlZVpqMHRyU040NFJCTllpWk9mbjVRLUN0TUpjeFdGaDBtZENnSzRXUDBpMDQ4Vnppc2JrVmh1YmFpZWYtb1E?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-10-17",
-      "body_snippet": "东数西算推动西部算力崛起：乌兰察布签约算力总投资超5000亿元 虎嗅网",
-      "_query_boost": 0
+      "title": "在真场景真项目中长出真本领 上海电机学院把研究生“研创工位”搬进产业园 首批300个开放申请",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261020/4f03c503c33049fb8628eb7ce85f2ab8.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-20",
+      "body_snippet": "",
+      "category": "技术"
     }
   ]
 }

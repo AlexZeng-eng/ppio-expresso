@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19T05:17:11.784Z",
-  "date": "2026-10-19",
-  "date_label": "2026-10-19",
+  "generated_at": "2026-10-20T05:14:56.438Z",
+  "date": "2026-10-20",
+  "date_label": "2026-10-20",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
@@ -9,7 +9,7 @@
     "⚔️": 0,
     "💰": 0,
     "🌏": 0,
-    "🔬": 7
+    "🔬": 8
   },
   "speed_read": {
     "positive": [],
@@ -35,7 +35,7 @@
     },
     {
       "id": "2",
-      "title": "豆包刘星回应“国内超一半算力在造爽剧”：",
+      "title": "字节跳动洽购联发科定制芯片 ASIC竞逐",
       "policy_axis": 0,
       "competition_axis": 0.7,
       "impact_score": 3,
@@ -51,18 +51,18 @@
     },
     {
       "id": "4",
-      "title": "阶跃星辰智能体手机推出 和其他智能体手机",
-      "policy_axis": 0,
+      "title": "国常会年内再谈人工智能，两次部署有何不同",
+      "policy_axis": 0.6,
       "competition_axis": 0.1,
-      "impact_score": 2,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
       "id": "5",
-      "title": "国常会：不断深化拓展“人工智能+”行动 ",
-      "policy_axis": 0.6,
+      "title": "上海大模型企业阶跃星辰发布首款智能体手机",
+      "policy_axis": 0,
       "competition_axis": 0.1,
-      "impact_score": 4,
+      "impact_score": 2,
       "axis_reason": "规则估算"
     }
   ],
