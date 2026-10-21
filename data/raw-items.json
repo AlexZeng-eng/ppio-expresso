@@ -1,25 +1,15 @@
 {
-  "generated_at": "2026-10-20T05:14:56.352Z",
+  "generated_at": "2026-10-21T05:17:13.121Z",
   "week": "2026-W43",
   "date_range": {
-    "from": "2026-10-13",
-    "to": "2026-10-20"
+    "from": "2026-10-14",
+    "to": "2026-10-21"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "（近观中国）考察乌兰察布，习近平关注算力背后的考量 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zRElDVkhXM18xYnFhUWtyQ0tOaUhETUpkNDJHLXVDNFFwWVVNX2NkSEN1Nkw3QXVDSGRfeG5ZV2lOeU9vNzNlbkV4V3Y2MTJqa0VuaFRuWmVoZFRFMFRvNmJYa0s5WjJ5?oc=5",
-      "source": "中国新闻网",
-      "category": "政策",
-      "published": "2026-10-17",
-      "body_snippet": "（近观中国）考察乌兰察布，习近平关注算力背后的考量 中国新闻网",
-      "_query_boost": 45
-    },
-    {
-      "id": "raw-002",
       "title": "字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 - 搜狐",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcVpyQ21NenJKM3BKVUszZW84NWtfdEdxT3dReTdQaE41MG9NQjhNTF84RV9hQnR2SXBHWnNmMDNGRnZOWDdJOVBvYVM4dDRLN19yNHZVaWZBbGZ0OHA0LWRPZ1pHNncxc25LQjhkek1QdHgzXzFobVBodlRmMXFpeDlzLXJ0VWtL?oc=5",
       "source": "搜狐",
@@ -29,17 +19,36 @@
       "_query_boost": 15
     },
     {
+      "id": "raw-002",
+      "title": "丁薛祥在河北雄安新区出席国家数据集团有限公司成立大会并调研 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9kSlBwWlhKQXRwNVZ0dEU3a0hUNHJud3NxUFQ1Q2xVMndYc0ktbkNFNGlIdXB3Q1pZSFVJMmdjSTg1clNHbEl5UEF2M3VGTkV6YlhfV3Qxc1dDeGI4enVPd0ZuZTM?oc=5",
+      "source": "新京报",
+      "category": "政策",
+      "published": "2026-10-20",
+      "body_snippet": "丁薛祥在河北雄安新区出席国家数据集团有限公司成立大会并调研 新京报",
+      "_query_boost": 45
+    },
+    {
       "id": "raw-003",
-      "title": "“六张网”布局里的中国之治（一见） - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVjI5bWFVOWdFNXNteGp6RVc2R1pzeWFQQlQ3WXBWZ3BNLWZ2RVdLc2t3U2xnazNHTXQ1YzhHYlczemNxd0xzZzdGSVRMcW16c1NoLUJGazdhLXJkb1RaZHlJRWJTOTZTU2pPX0RHMGthTmUzSG5HRkJDQ09KZDczZXlTTQ?oc=5",
-      "source": "新浪财经",
+      "title": "“六张网”布局里的中国之治（一见） - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMmw5ZjhQekRiNHhmZmUwYlF3b0VrTFJaSGliamJOejhMS3NiNWppYUp2M0lyZFUyWl9VVHhnYW5yT3FCaVhwTWNhVXVnTVhwMm0yc0k5TEJKVDJYWm9jUEowUmw0bEVtTFRCVE11Y3ZNVDNQeGo3UzV5THBlcHNJSWVDSk9QSzh6WERn?oc=5",
+      "source": "新浪网",
       "category": "政策",
       "published": "2026-10-19",
-      "body_snippet": "“六张网”布局里的中国之治（一见） 新浪财经",
+      "body_snippet": "“六张网”布局里的中国之治（一见） 新浪网",
       "_query_boost": 45
     },
     {
       "id": "raw-004",
+      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
+      "source": "工信部-新闻",
+      "published": "2026-10-21",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-005",
       "title": "时政微观察丨内蒙古之行，总书记考察算力产业有何深意？_大陆_国内新闻_新闻 - 齐鲁网",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ISVBkUlRtQVNHS0gxTmw5TFhDUDc4ZE02b0dPUzBmeGFpaTM1Zk8zUUx3c0RXVU82eXB1cGdQMG1sQkViQ2ZXazN5aXlZX3Q1emdqVWw0MFh2Qk9pTF9OUEtMeTdwNC1Y?oc=5",
       "source": "齐鲁网",
@@ -49,22 +58,13 @@
       "_query_boost": 45
     },
     {
-      "id": "raw-005",
-      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
-      "source": "工信部-新闻",
-      "published": "2026-10-20",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
       "id": "raw-006",
-      "title": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 - 新浪新闻_手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOelJzOTdVb2NPNVZXVE0xMHotR3hHaUtXZnREMGpQQ0tYVVdFTklxU1R2TlJ3eEdQb1Y5Vl9kdFJmNThNZS1aOHVzaGRhTzBwUmtiM0tMamNXMEY0M0JiYjNpVkdVd255dDVES0JLX2syWVhvZWNDbA?oc=5",
-      "source": "新浪新闻_手机新浪网",
+      "title": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 - 光明网",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHY3RGczVfMEZOWG9RVll4X005cm53YnFPQXdNRmtBYm4wT0h1N1hZT2UyaW5qT0VLSWJZamVHdGtjdVlrZEdCOEcyT0VVMS04ZWsta3VwOXpIMTVHZXdXMFJLWnd5QQ?oc=5",
+      "source": "光明网",
       "category": "政策",
-      "published": "2026-10-17",
-      "body_snippet": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 新浪新闻_手机新浪网",
+      "published": "2026-10-16",
+      "body_snippet": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 光明网",
       "_query_boost": 45
     },
     {
@@ -89,22 +89,22 @@
     },
     {
       "id": "raw-009",
+      "title": "工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQaUpEeC0tY0JqR1F0QXNILXQ3Wm4zaXh1SmNnXzlOU1BhZnp2QTM2Sy1kUDFxd1RiNjQtMUZaMTRObzJjeE9HMGJUUTBYakRVOW9TcEs1Y3lTVzdCaG84Z2R3?oc=5",
+      "source": "新京报",
+      "category": "政策",
+      "published": "2026-10-20",
+      "body_snippet": "工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% 新京报",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-010",
       "title": "三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万P - 成都市委统战部",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVEhKNVpqcXZsTkJBMHd6dzVzSzJNMmVRU0lfOHdYUEpxOVdQZjNLWGNrT3ZaWjVJZVRUNWRfQzB3MkwyekRIVWNiU0hpcXZKLXF5clE5Y2o2Sl81VGhicEFtSXF0bGc3aThmbFNRckdWbUVWVWJ5cGJKRlZ1OVNtSU93VHpwVjJPSEdBbnA5N2FSV1ZHalRsaktqVk1MZzNkU0VN?oc=5",
       "source": "成都市委统战部",
       "category": "政策",
       "published": "2026-10-19",
       "body_snippet": "三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万P 成都市委统战部",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-010",
-      "title": "習考察內蒙算力中心 強調「東數西算」是重要部署 - 世界新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13WnFBVjZBbkE0R3A3a1J1NTQ2TElQcVVKRnMtN1BISUhfU0Y5N2pPS01rTjJEbzZvbEl2dGRqX3BxX0w3MEw4cE5tRWZlZFM2N2IzU05lRTdUMXlTaGtMQmQ4bWNIeF8xc2fSAWdBVV95cUxPZTVLN21lQm5MZGx2NXZDTm5pNXdPbjRTa1hiM0JOd1o1aExtV0k1dlUzTjNlOVFCUVJrTXNka1Z1NExodkwzZi1lZnA3UU1jc1RKWHQycko1VEFrWlFUVjBtTm14ckVF?oc=5",
-      "source": "世界新聞網",
-      "category": "政策",
-      "published": "2026-10-18",
-      "body_snippet": "習考察內蒙算力中心 強調「東數西算」是重要部署 世界新聞網",
       "_query_boost": 30
     },
     {
@@ -119,6 +119,15 @@
     },
     {
       "id": "raw-012",
+      "title": "消息称亚马逊 AWS 面临数据中心供电瓶颈，AI 算力机架无法按时启用",
+      "url": "https://www.ithome.com/1/015/702.htm",
+      "source": "IT之家",
+      "published": "2026-10-21",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-013",
       "title": "信息通信行业未来五年路线图公布：算力建设从“扩规模”转向“优结构”，液冷行业迎来重磅利好 - finance.sina.com.cn",
       "url": "https://news.google.com/rss/articles/CBMi-ARBVV95cUxNakJ2QWl3Y2ttVHAzeVVxbVEzejN2UFpTeUlXQmRwbEZkMlRUdjJHdTVENWZTcWRrWXJKVmVyM2JqZjBUelVMTkdmaGVCQjB6X0JZd2V3cDZIYWlaVGZUeEh3ajRzdVNrV1VPeUxneUVxSmVObHl2Vk5GcVIzTF9zNi1KenVPbW5HZFFEWmtYLVdLQjFEajBGdlRITmRrRW1lTl85VDRpS3pNenJleGxnZk52Y1RnWlE0dzJ5ZVgyZGFvVXFURlAwWFdUYjRDb3dwTC1lcC1hMjhsVkRpRm5vMGdlR1I3Z2xuLWlGTktEbEZjT1hyVF95T3hyLVFTVkVoeGROa3lXZFpyTmFkNHkxN2RSa21QWHViQWVrdHJPcFNRaDJGSk9TTXVnQXhOc19CVm1ia01NODVqQmhhZlV5OEJ1cmd3am54RG1LYTF3QThfeHU2VF95aTBJQ2djckItRm83d25iQ2FFUzhzQnJaYWVZT1dDLWFuWGlmRzVEX2FBZ1FEWVVpbHRzUDZuRldZYmF2cERQOFNIQWtkMDlNOWY1Z1E4R2dwRWZKYmo0SllFODlyWFlWTzhJbUJPTDh0QXZCYVBiVER3X01yc3g2OHY0UWhaMExXM0owcDJ6XzlMSEZrLWdETGVyVGlLQ084cGVSMzRKWWxyQkF4MEhVdkVlUVZNYVpVaHg1NllxSGpIZFh1cS1aNTBJblNQem1aX2xiQk1VRnFWckRfNU5jMnlsUVE0Wk9UYXcwemNpLWd5eEZoZHBteWpOZ2ZORzU3T28xTDlnc1pQWmNWSUdGZnNiTlRqNURuSm9vWG4wcmR5MFNMOUt5Zg?oc=5",
       "source": "finance.sina.com.cn",
@@ -128,31 +137,24 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-013",
-      "title": "一台台上海出品新作力作赓续文脉守正创新 催生有筋骨有温度有力量精品",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261020/726c758d60e24bc7a7cb549af84a0c5a.html",
-      "source": "上海市政府-动态",
-      "published": "2026-10-20",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
       "id": "raw-014",
-      "title": "营商环境再提升 目光投向基层 上海筹备新版营商环境行动方案 召开多场座谈会 不少街镇放下材料“开麦”建言",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261020/f7401907c6c240828f0419e50efefb7d.html",
-      "source": "上海市政府-动态",
-      "published": "2026-10-20",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "开源大模型替代性增强，企业私有化部署与主权AI需求催生新服务市场 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBxQTItZEM0WDZVSjZKMlhyZ3NwczZXRkFfQVhETC1uOVBiM1VMaEZNdDhZVGsyYjZaTkFPZm40Mkc2LTZwdTI1cGRGODJuYlFqN3BQTzZvcy1rM2dtTmRZ?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-21",
+      "body_snippet": "开源大模型替代性增强，企业私有化部署与主权AI需求催生新服务市场 虎嗅网",
+      "_query_boost": 0
     },
     {
       "id": "raw-015",
-      "title": "在真场景真项目中长出真本领 上海电机学院把研究生“研创工位”搬进产业园 首批300个开放申请",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261020/4f03c503c33049fb8628eb7ce85f2ab8.html",
-      "source": "上海市政府-动态",
+      "title": "Anthropic据悉和Nscale洽谈购买450亿美元云算力 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE90SkRaYmdEdUNvMzN5U1NDSEdNamJ3SWpoZWxRV2FhQU5GdTBHOTJoRjBnNy1QOUpUejk1R1ZuT2dWTWxtbzl4WnJaUHlieWotZy1FR0FrYU9ZWmtaa1NaOHIyR2lmYWtYcHZDNHFB?oc=5",
+      "source": "联合早报",
+      "category": "海外",
       "published": "2026-10-20",
-      "body_snippet": "",
-      "category": "技术"
+      "body_snippet": "Anthropic据悉和Nscale洽谈购买450亿美元云算力 联合早报",
+      "_query_boost": 0
     }
   ]
 }
