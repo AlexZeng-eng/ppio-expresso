@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-21T05:17:13.220Z",
-  "date": "2026-10-21",
-  "date_label": "2026-10-21",
+  "generated_at": "2026-10-22T05:20:33.788Z",
+  "date": "2026-10-22",
+  "date_label": "2026-10-22",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 1,
-    "📜": 1,
+    "🏛️": 0,
+    "📜": 0,
     "⚔️": 0,
     "💰": 0,
     "🌏": 0,
@@ -16,7 +16,7 @@
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 3,
+    "policy_heat": 2,
     "competitor_heat": 2,
     "capital_heat": 2,
     "overseas_heat": 2,
@@ -27,15 +27,15 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "字节跳动洽购联发科定制芯片 ASIC竞逐",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
+      "title": "（近观中国）考察乌兰察布，习近平关注算力",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
       "id": "2",
-      "title": "习近平考察中国AI算力重镇乌兰察布：搞好",
+      "title": "习近平出席2026世界人工智能大会暨人工",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
@@ -43,7 +43,7 @@
     },
     {
       "id": "3",
-      "title": "国常会年内再谈人工智能，两次部署有何不同",
+      "title": "习近平考察中国AI算力重镇乌兰察布：搞好",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
       "impact_score": 4,
@@ -56,40 +56,16 @@
       "competition_axis": 0.1,
       "impact_score": 4,
       "axis_reason": "规则估算"
-    },
-    {
-      "id": "5",
-      "title": "上海大模型企业阶跃星辰发布首款智能体手机",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "6",
-      "title": "消息称亚马逊 AWS 面临数据中心供电瓶",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "7",
-      "title": "开源大模型替代性增强，企业私有化部署与主",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
     }
   ],
   "ppio_index": {
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 8,
+      "policy_tailwind": 0,
       "competitive_pressure": 0,
       "capital_sentiment": 0,
-      "regulatory_risk": -5,
+      "regulatory_risk": 0,
       "overseas_headwind": 0
     },
     "interpretation": "规则估算，仅供参考"
