@@ -1,0 +1,1856 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PPIO 产业政策信息流 — 2026-W43</title>
+<link rel="stylesheet" href="reader.css">
+<style>
+  /* ============ Swiss 基座覆盖（覆盖 course.css 的 :root）============
+     瑞士国际主义 + 柠檬黄 #FFD500 单色锚点。
+     --serif 别名到 --sans：一处封死，所有引用 --serif 的组件自动无衬线。 */
+  :root{
+    --paper:#fafaf8; --paper-rgb:250,250,248;
+    --ink:#0a0a0a; --ink-soft:#525252; --ink-mute:#737373;
+    --grey-1:#f0f0ee; --grey-2:#d4d4d2; --grey-3:#737373;
+    --rule:#e0e0e0; --rule-soft:#ececec;
+    --bg:#fafaf8; --bg-soft:#f0f0ee; --bg-code:#f0f0ee;
+    --accent:#FFD500; --accent-rgb:255,213,0; --accent-on:#0a0a0a;
+    --link:#0a0a0a;
+    --sans:"Inter","Helvetica Neue","PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei UI",sans-serif;
+    --serif:var(--sans);
+    --mono:"JetBrains Mono","SF Mono","IBM Plex Mono",Menlo,monospace;
+  }
+  body.feed-page,body.archive-page,body.article-page{
+    font-family:var(--sans); background:var(--paper); color:var(--ink);
+    font-feature-settings:"ss01","cv11";
+    -webkit-font-smoothing:antialiased;
+  }
+  /* 全局直角 + 去阴影（瑞士风硬规则，!important 压过内联与 reader.css）*/
+  .feed-page *,.archive-page *,.article-page *{border-radius:0!important; box-shadow:none!important}
+  .feed-page .feed-card:hover{box-shadow:none!important}
+
+  .ppio-signal {
+    margin-top: 0.45rem;
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    line-height: 1.55;
+    color: var(--ink-soft);
+    background: var(--bg-soft);
+    border-left: 3px solid var(--rule);
+    padding: 0.45rem 0.7rem;
+    border-radius: 0 3px 3px 0;
+  }
+  .ppio-signal summary {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--ink-mute);
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  .ppio-signal summary:hover { color: var(--ink-soft); }
+  .ppio-signal p { margin: 0.25rem 0 0; }
+
+  .ppio-speed-read {
+    margin-top: 4rem;
+    padding-top: 1.6rem;
+    border-top: 2px solid var(--ink);
+  }
+  .speed-read-title {
+    font-family: var(--mono);
+    font-size: 0.95rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin: 0 0 1rem;
+    font-weight: 600;
+  }
+  .speed-read-mainline {
+    font-family: var(--sans);
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin: 0 0 1.4rem;
+    padding: 1rem 1.2rem;
+    background: var(--grey-1);
+    border-left: 3px solid var(--accent);
+  }
+  .speed-read-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+  }
+  @media (max-width: 640px) {
+    .speed-read-grid { grid-template-columns: 1fr; }
+  }
+  .speed-card {
+    padding: 0.8rem 0.9rem;
+    border-radius: 3px;
+    font-family: var(--sans);
+    font-size: 0.84rem;
+    line-height: 1.55;
+  }
+  .speed-card h4 {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 0 0 0.5rem;
+  }
+  .speed-card ul { margin: 0; padding-left: 1.1rem; }
+  .speed-card li { margin-bottom: 0.28rem; color: var(--ink-soft); }
+  .speed-card li:last-child { margin-bottom: 0; }
+  .signal-positive { background: var(--grey-1); border: 1px solid var(--rule); }
+  .signal-positive h4 { color: var(--ink); }
+  .signal-risk { background: var(--accent); border: 1px solid var(--accent); color: var(--accent-on); }
+  .signal-risk h4 { color: var(--accent-on); }
+  .speed-card ul li.muted { color: var(--ink-mute); font-style: italic; list-style: none; }
+  .signal-watch { background: var(--grey-1); border: 1px solid var(--rule); }
+  .signal-watch h4 { color: var(--ink); }
+  .signal-action { background: var(--grey-1); border: 1px solid var(--rule); }
+  .signal-action h4 { color: var(--ink); }
+
+  /* ── Policy Momentum ── */
+  .momentum-section {
+    margin-top: 4rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--rule);
+  }
+  .momentum-row {
+    padding: 0.9rem 1rem;
+    margin-bottom: 0.6rem;
+    background: var(--grey-1);
+    border: 1px solid var(--rule);
+  }
+  .momentum-thread {
+    font-family: var(--mono);
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--ink);
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+  }
+  .momentum-arrow {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    margin-bottom: 0.4rem;
+  }
+  .momentum-from { color: var(--ink-mute); }
+  .momentum-chevron { color: var(--ink-mute); }
+  .momentum-to { color: var(--ink); font-weight: 600; }
+  .momentum-badge {
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 0.12rem 0.5rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .momentum-interp {
+    font-family: var(--sans);
+    font-size: 0.86rem;
+    color: var(--ink-soft);
+    line-height: 1.55;
+  }
+  .momentum-absent {
+    margin-top: 0.8rem;
+    padding: 0.6rem 0.9rem;
+    background: var(--grey-1);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--ink);
+    font-family: var(--sans);
+    font-size: 0.84rem;
+    color: var(--ink-soft);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.5rem;
+    align-items: baseline;
+  }
+  .momentum-absent-label {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--ink);
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+  .momentum-absent-item {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 0.12rem 0.45rem;
+    font-size: 0.78rem;
+    font-weight: 500;
+  }
+  .word-cloud-section {
+    margin-top: 4rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--rule);
+  }
+  .word-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.8rem;
+    align-items: baseline;
+    padding: 0.8rem 0;
+    line-height: 1.8;
+  }
+  .wc-word {
+    font-family: var(--sans);
+    color: var(--ink);
+    cursor: default;
+    transition: opacity 0.15s, background 0.15s, color 0.15s;
+    white-space: nowrap;
+    padding: 0 0.2rem;
+  }
+  .wc-word:hover { opacity: 1 !important; background: var(--accent); color: var(--accent-on); }
+
+  /* ── Wind indicators ── */
+  .wind-section {
+    margin-top: 4rem;
+    padding: 1.2rem 1.3rem;
+    background: var(--grey-1);
+    border: 1px solid var(--rule);
+  }
+  .wind-header { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 0.5rem; }
+  .wind-header .speed-read-title { margin: 0; }
+  .wind-sentiment {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.15rem 0.55rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .wind-summary {
+    font-family: var(--sans);
+    font-size: 0.88rem;
+    color: var(--ink-soft);
+    margin: 0 0 1rem;
+    line-height: 1.55;
+  }
+  .wind-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6rem;
+  }
+  @media (max-width: 640px) { .wind-grid { grid-template-columns: repeat(2, 1fr); } }
+  .wind-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    padding: 0.6rem 0.75rem;
+  }
+  .wind-label { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-mute); letter-spacing: 0.06em; text-transform: uppercase; }
+  .wind-bar { display: flex; gap: 3px; align-items: center; }
+  .heat-dot { width: 8px; height: 8px; }
+  .heat-on { background: var(--ink); }
+  .heat-off { background: var(--grey-2); }
+
+  /* ── Feed cards ── */
+  .feed-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 1.4rem; }
+  .feed-card {
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    padding: 1.1rem 1.3rem 1rem;
+    transition: border-color 0.15s;
+    border-left: 3px solid transparent;
+  }
+  .feed-card:hover { border-color: var(--ink); border-left-color: var(--accent); }
+  .feed-card.is-tab-hidden { display: none; }
+  .card-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.45rem;
+    margin-bottom: 0.55rem;
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--ink-mute);
+  }
+  .card-source { font-weight: 600; color: var(--ink); letter-spacing: 0.02em; }
+  .card-sep { color: var(--rule); }
+  .card-date { color: var(--ink-mute); }
+  .card-cat {
+    padding: 0.12rem 0.5rem;
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: var(--ink);
+    background: var(--grey-1);
+    border: 1px solid var(--rule);
+    letter-spacing: 0.02em;
+  }
+  .card-badge--en {
+    padding: 0.12rem 0.45rem;
+    font-size: 0.68rem;
+    font-weight: 700;
+    background: var(--ink);
+    color: var(--paper);
+    letter-spacing: 0.04em;
+  }
+  .card-rank { margin-left: auto; color: var(--ink-mute); font-size: 0.68rem; font-family: var(--mono); }
+  .card-title {
+    font-family: var(--sans);
+    font-size: 1.3rem;
+    font-weight: 200;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.6rem;
+    color: var(--ink);
+  }
+  .card-title a { color: inherit; text-decoration: none; }
+  .card-title a:hover { background: var(--accent); color: var(--accent-on); }
+  .card-excerpt {
+    font-family: var(--sans);
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: var(--ink-soft);
+    margin: 0;
+    font-weight: 300;
+  }
+
+  /* ── Analysis sub-tabs ── */
+  .analysis-tabs {
+    display: flex;
+    gap: 0;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 1.6rem;
+  }
+  .atab {
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    padding: 0.55rem 1.1rem;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    background: none;
+    color: var(--ink-mute);
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+    text-transform: uppercase;
+  }
+  .atab:hover { color: var(--ink); }
+  .atab.is-active { color: var(--ink); border-bottom-color: var(--ink); }
+
+  /* ── History table ── */
+  .hist-table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.84rem; }
+  .hist-table th { font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-mute); border-bottom: 2px solid var(--ink); padding: 0.45rem 0.55rem; text-align: left; }
+  .hist-table td { padding: 0.5rem 0.55rem; border-bottom: 1px solid var(--rule); vertical-align: top; color: var(--ink-soft); }
+  .hist-table tr:hover td { background: var(--grey-1); }
+  .hist-table a { color: var(--ink); font-weight: 600; text-decoration: none; }
+  .hist-table a:hover { background: var(--accent); color: var(--accent-on); }
+  .hist-mainline { max-width: 320px; line-height: 1.4; font-size: 0.8rem; }
+
+  /* ── Trend grid ── */
+  .trend-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 0.5rem; }
+  @media (max-width: 600px) { .trend-grid { grid-template-columns: 1fr; } }
+  .trend-card { background: var(--grey-1); border: 1px solid var(--rule); padding: 0.9rem 1rem; }
+  .trend-card-title { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-mute); letter-spacing: 0.06em; text-transform: uppercase; margin: 0 0 0.6rem; }
+  .view-tabs {
+    display: flex;
+    gap: 0;
+    border-bottom: 2px solid var(--ink);
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  .view-tab {
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    padding: 0.6rem 1.3rem;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    background: none;
+    color: var(--ink-mute);
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+    text-transform: uppercase;
+  }
+  .view-tab:hover { color: var(--ink); }
+  .view-tab.is-active { color: var(--ink); border-bottom-color: var(--ink); }
+
+  /* ── Analysis panel ── */
+  .analysis-panel { max-width: 860px; margin: 0 auto; padding: 1.5rem; }
+  .analysis-summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 2.4rem;
+  }
+  @media (max-width: 560px) { .analysis-summary { grid-template-columns: 1fr; } }
+  .ppio-index-card {
+    background: var(--grey-1);
+    border: 1px solid var(--rule);
+    padding: 1.3rem 1.5rem;
+  }
+  .ppio-index-label {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 0.5rem;
+  }
+  .ppio-index-score {
+    font-family: var(--sans);
+    font-size: min(8vw, 5rem);
+    font-weight: 200;
+    color: var(--ink);
+    line-height: 1;
+    letter-spacing: -0.04em;
+    margin-bottom: 0.4rem;
+  }
+  .ppio-index-delta {
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin-left: 0.5rem;
+  }
+  .ppio-index-interp {
+    font-family: var(--sans);
+    font-size: 0.86rem;
+    color: var(--ink-soft);
+    line-height: 1.55;
+    font-weight: 300;
+  }
+  .analysis-section {
+    margin-bottom: 2.8rem;
+    padding-bottom: 2.2rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .analysis-section:last-child { border-bottom: none; }
+  .analysis-title {
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin: 0 0 0.35rem;
+  }
+  .analysis-desc {
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    color: var(--ink-mute);
+    margin: 0 0 1.2rem;
+    font-weight: 300;
+  }
+  .chart-wrap { position: relative; }
+  .chart-wrap--quadrant { max-width: 540px; margin: 0 auto; }
+  .chart-wrap--bar { max-width: 560px; }
+  .chart-wrap--donut { max-width: 380px; margin: 0 auto; }
+  .quadrant-bg {
+    position: absolute;
+    inset: 32px 8px 32px 48px;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .quadrant-bg .ql {
+    position: absolute;
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.5rem;
+    opacity: 0.85;
+  }
+  .ql-tl { top: 4px; left: 4px; background: var(--ink); color: var(--paper); }
+  .ql-tr { top: 4px; right: 4px; background: var(--grey-2); color: var(--ink); }
+  .ql-bl { bottom: 4px; left: 4px; background: var(--accent); color: var(--accent-on); }
+  .ql-br { bottom: 4px; right: 4px; background: var(--grey-1); color: var(--ink); border: 1px solid var(--rule); }
+  .chart-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.9rem;
+    margin-top: 0.9rem;
+    font-family: var(--sans);
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+  }
+  .legend-item { display: flex; align-items: center; gap: 0.35rem; }
+  .legend-dot { width: 10px; height: 10px; flex-shrink: 0; }
+</style>
+</head>
+<body class="feed-page">
+<header class="page-header">
+  <span class="brand">PPIO 产业政策信息流</span>
+  <span class="header-meta">
+    最后更新: <time datetime="2026-W43">2026-W43</time>
+  </span>
+  <nav class="header-nav" aria-label="导航">
+    <a href="manage.html">管理</a>
+    <a href="archive.html">日报存档 →</a>
+  </nav>
+</header>
+
+<!-- 顶层视图切换：今日 / 分析 -->
+<nav class="view-tabs" role="tablist" aria-label="视图切换">
+  <button class="view-tab is-active" data-view="feed" role="tab" aria-selected="true">今日</button>
+  <button class="view-tab" data-view="analysis" role="tab" aria-selected="false">分析</button>
+</nav>
+
+<!-- 今日视图 -->
+<div id="view-feed" class="view-panel">
+<nav class="feed-tabs" role="tablist">
+          <button class="tab is-active" data-tab="all" role="tab" aria-selected="true">
+            全部 <span class="tab-count">10</span>
+          </button>
+          <button class="tab" data-tab="政策" role="tab" aria-selected="false">
+      政策 <span class="tab-count">9</span>
+    </button>
+          <button class="tab" data-tab="竞品" role="tab" aria-selected="false">
+      竞品 <span class="tab-count">1</span>
+    </button>
+          <button class="tab" data-tab="监管" role="tab" aria-selected="false">
+      监管 <span class="tab-count">0</span>
+    </button>
+          <button class="tab" data-tab="资本" role="tab" aria-selected="false">
+      资本 <span class="tab-count">0</span>
+    </button>
+          <button class="tab" data-tab="海外" role="tab" aria-selected="false">
+      海外 <span class="tab-count">0</span>
+    </button>
+          <button class="tab" data-tab="技术" role="tab" aria-selected="false">
+      技术 <span class="tab-count">0</span>
+    </button>
+          <button class="tab" data-tab="治理" role="tab" aria-selected="false">
+      治理 <span class="tab-count">0</span>
+    </button>
+        </nav>
+<main class="feed">
+  <section class="feed-section">
+    <h2 class="date-section" title="2026-W43">2026-W43</h2>
+    <ol class="feed-list">
+      <li class="feed-card" data-deep="false" data-tags="政策">
+        <div class="card-header">
+          <span class="card-source">中国新闻网</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-10-17</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat">政策</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#1</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zRElDVkhXM18xYnFhUWtyQ0tOaUhETUpkNDJHLXVDNFFwWVVNX2NkSEN1Nkw3QXVDSGRfeG5ZV2lOeU9vNzNlbkV4V3Y2MTJqa0VuaFRuWmVoZFRFMFRvNmJYa0s5WjJ5?oc=5" target="_blank" rel="noopener">（近观中国）考察乌兰察布，习近平关注算力背后的考量 - 中国新闻网</a>
+        </h2>
+        <p class="card-excerpt">（近观中国）考察乌兰察布，习近平关注算力背后的考量 - 中国新闻网 （近观中国）考察乌兰察布，习近平关注算力背后的考量 中国新闻网</p>
+        
+      </li>
+      <li class="feed-card" data-deep="true" data-tags="政策">
+        <div class="card-header">
+          <span class="card-source">content.foshanplus.com</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-10-20</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat">政策</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="" aria-label="">—</span></span>
+          <span class="card-rank">#2</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFAzY0lWR2thU2tIVlpDckx2UnVaZk01VUVQX1FpR3VMNGJVUDVYdjQxUFlKdkZDa2lNQnRDd0h0WE9UNk01ODlDV0VEZWRQUFZ3UXl5YmRXX0psZUdrMzhSd2xXVjBjeVFHSkVJajlxYzVuTDgyaC1v?oc=5" target="_blank" rel="noopener">习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - content.foshanplus.com</a>
+        </h2>
+        <p class="card-excerpt">习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - content.foshanplus.com 习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 content.foshanplus.com</p>
+        
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="竞品">
+        <div class="card-header">
+          <span class="card-source">搜狐</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-10-19</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat">竞品</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#3</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcVpyQ21NenJKM3BKVUszZW84NWtfdEdxT3dReTdQaE41MG9NQjhNTF84RV9hQnR2SXBHWnNmMDNGRnZOWDdJOVBvYVM4dDRLN19yNHZVaWZBbGZ0OHA0LWRPZ1pHNncxc25LQjhkek1QdHgzXzFobVBodlRmMXFpeDlzLXJ0VWtL?oc=5" target="_blank" rel="noopener">字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 - 搜狐</a>
+        </h2>
+        <p class="card-excerpt">字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 - 搜狐 字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 搜狐</p>
+        
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="政策">
+        <div class="card-header">
+          <span class="card-source">第一财经</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-10-21</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat">政策</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#4</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWjQwNzN2WmJfd3hSamlXalFLMC1oaU1sZHdnTVo0cEdoWmxwOHpLdVpXWEhjZHlDaFFOZVUtQnF0cUVBMHV1cmo3YUJlMG9FWHlZ?oc=5" target="_blank" rel="noopener">WAIC观察｜模型越大算力越紧，国产AI集体死磕“利用率” - 第一财经</a>
+        </h2>
+        <p class="card-excerpt">WAIC观察｜模型越大算力越紧，国产AI集体死磕“利用率” - 第一财经 WAIC观察｜模型越大算力越紧，国产AI集体死磕“利用率” 第一财经</p>
+        
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="政策">
+        <div class="card-header">
+          <span class="card-source">新京报</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-10-20</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat">政策</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#5</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQaUpEeC0tY0JqR1F0QXNILXQ3Wm4zaXh1SmNnXzlOU1BhZnp2QTM2Sy1kUDFxd1RiNjQtMUZaMTRObzJjeE9HMGJUUTBYakRVOW9TcEs1Y3lTVzdCaG84Z2R3?oc=5" target="_blank" rel="noopener">工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% - 新京报</a>
+        </h2>
+        <p class="card-excerpt">到2028年城域算力1毫秒时延圈覆盖率不低于75% - 新京报 工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% 新京报</p>
+        
+      </li>
+    </ol>
+  </section>
+
+  
+  <section class="feed-section">
+    <h2 class="date-section" title="简报">简报 (lane:silent)</h2>
+    <ol class="feed-list">
+      <li class="feed-card" data-deep="false" data-tags="政策">
+        <div class="card-header">
+          <span class="card-source">齐鲁网</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-10-18</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat">政策</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#6</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ISVBkUlRtQVNHS0gxTmw5TFhDUDc4ZE02b0dPUzBmeGFpaTM1Zk8zUUx3c0RXVU82eXB1cGdQMG1sQkViQ2ZXazN5aXlZX3Q1emdqVWw0MFh2Qk9pTF9OUEtMeTdwNC1Y?oc=5" target="_blank" rel="noopener">时政微观察丨内蒙古之行，总书记考察算力产业有何深意？_大陆_国内新闻_新闻 - 齐鲁网</a>
+        </h2>
+        <p class="card-excerpt">时政微观察丨内蒙古之行，总书记考察算力产业有何深意？_大陆_国内新闻_新闻 - 齐鲁网 时政微观察丨内蒙古之行，总书记考察算力产业有何深意？_大陆_国内新闻_新</p>
+        
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="政策">
+        <div class="card-header">
+          <span class="card-source">新浪新闻_手机新浪网</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-10-17</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat">政策</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#7</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTFBOelJzOTdVb2NPNVZXVE0xMHotR3hHaUtXZnREMGpQQ0tYVVdFTklxU1R2TlJ3eEdQb1Y5Vl9kdFJmNThNZS1aOHVzaGRhTzBwUmtiM0tMamNXMEY0M0JiYjNpVkdVd255dDVES0JLX2syWVhvZWNDbA?oc=5" target="_blank" rel="noopener">第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 - 新浪新闻_手机新浪网</a>
+        </h2>
+        <p class="card-excerpt">第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 - 新浪新闻_手机新浪网 第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 新浪新闻_</p>
+        
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="政策">
+        <div class="card-header">
+          <span class="card-source">人工智能</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-10-21</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat">政策</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#8</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4Uk5iTlRXMXZuVlBZWTB2WUY1WEVzQ2pjemtiY1YyZW5EUHRXWXc5ZUpmRk0tZGlWdUVXcGtab1k0WVZHNGJsZE96YXNrNWdnOFE?oc=5" target="_blank" rel="noopener">万兆入楼 算力下沉 新一代通信网焕新“未来社区” - 人工智能</a>
+        </h2>
+        <p class="card-excerpt">万兆入楼 算力下沉 新一代通信网焕新“未来社区” - 人工智能 万兆入楼 算力下沉 新一代通信网焕新“未来社区” 人工智能</p>
+        
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="政策">
+        <div class="card-header">
+          <span class="card-source">成都市委统战部</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-10-19</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat">政策</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#9</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxPVEhKNVpqcXZsTkJBMHd6dzVzSzJNMmVRU0lfOHdYUEpxOVdQZjNLWGNrT3ZaWjVJZVRUNWRfQzB3MkwyekRIVWNiU0hpcXZKLXF5clE5Y2o2Sl81VGhicEFtSXF0bGc3aThmbFNRckdWbUVWVWJ5cGJKRlZ1OVNtSU93VHpwVjJPSEdBbnA5N2FSV1ZHalRsaktqVk1MZzNkU0VN?oc=5" target="_blank" rel="noopener">三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万P - 成都市委统战部</a>
+        </h2>
+        <p class="card-excerpt">三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万P - 成都市委统战部 三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万</p>
+        
+      </li>
+      <li class="feed-card" data-deep="false" data-tags="政策">
+        <div class="card-header">
+          <span class="card-source">世界新聞網</span>
+          <span class="card-sep">·</span>
+          <time class="card-date">2026-10-17</time>
+          <span class="card-sep">·</span>
+          <span class="card-cat">政策</span>
+          
+          <span class="signal-chips"><span class="signal-chip" data-tip="模型能力跃迁、基础设施突破" aria-label="模型能力跃迁、基础设施突破">🔬</span></span>
+          <span class="card-rank">#10</span>
+        </div>
+        <h2 class="card-title">
+          <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQUzdUQXVrNGdRRjNLQmpJSUlBeWNVZWVPSUpCaWlFVmR1MXNMRnc3Mk5mRG1mZXB4Y2ZiamJ4eHE4VlA2aU1LWW1UY2tXLTQ2aWxuemsxT2ZQUmJPRlVhWmdDSGUwVU1wZkpxcG00WUJwUzR0Rk5ucDFiS0E2VmFvcElzNl9mVHQzMWfSAWdBVV95cUxOX3d4SElzQzNiX0c0WHBPMWFoc1ZqNEczTjFBOFdNbU4zWlRkcjBOT2wxX3lKMTdoNWMwSUlwR2RIWlpqWlA1bzZ2UmJXSm5JYTZnLS0tSTlBdDVfaG02RGtHZjVSMUNN?oc=5" target="_blank" rel="noopener">習近平赴內蒙古考察 要求搞好「算力中心」建設 - 世界新聞網</a>
+        </h2>
+        <p class="card-excerpt">習近平赴內蒙古考察 要求搞好「算力中心」建設 - 世界新聞網 習近平赴內蒙古考察 要求搞好「算力中心」建設 世界新聞網</p>
+        
+      </li>
+    </ol>
+  </section>
+
+  <section class="wind-section">
+  <div class="wind-header">
+    <h2 class="speed-read-title">本周风向</h2>
+    <span class="wind-sentiment" style="background:#d4d4d2;color:#0a0a0a">平稳</span>
+  </div>
+  <p class="wind-summary">规则估算，AI合成不可用时的占位数据。</p>
+  <div class="wind-grid">
+    <div class="wind-item">
+      <span class="wind-label">政策热度</span>
+      <span class="wind-bar"><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span></span>
+    </div>
+    <div class="wind-item">
+      <span class="wind-label">竞品动态</span>
+      <span class="wind-bar"><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span></span>
+    </div>
+    <div class="wind-item">
+      <span class="wind-label">资本活跃</span>
+      <span class="wind-bar"><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span></span>
+    </div>
+    <div class="wind-item">
+      <span class="wind-label">海外监管</span>
+      <span class="wind-bar"><span class="heat-dot heat-on"></span><span class="heat-dot heat-on"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span><span class="heat-dot heat-off"></span></span>
+    </div>
+  </div>
+</section>
+  <section class="ppio-speed-read">
+    <h2 class="speed-read-title">PPIO 信号速读</h2>
+    <p class="speed-read-mainline"><strong>今日主线：</strong>今日政策与竞争信号持续跟踪中，详情见各条目分析。</p>
+    <div class="speed-read-grid">
+      <div class="speed-card signal-positive">
+        <h4>🟢 利好信号</h4>
+        <ul><li class="muted">今日无重大利好信号</li></ul>
+      </div>
+      <div class="speed-card signal-risk">
+        <h4>🔴 风险信号</h4>
+        <ul><li class="muted">今日无重大风险信号</li></ul>
+      </div>
+    </div>
+  </section>
+  
+  <section class="word-cloud-section">
+  <h2 class="speed-read-title">本周高频词</h2>
+  <div class="word-cloud">
+    <span class="wc-word" style="font-size:2.00rem;opacity:1.00" title="近观中国: 3次">近观中国</span>
+    <span class="wc-word" style="font-size:2.00rem;opacity:1.00" title="考察乌兰察布: 3次">考察乌兰察布</span>
+    <span class="wc-word" style="font-size:2.00rem;opacity:1.00" title="中国新闻网: 3次">中国新闻网</span>
+    <span class="wc-word" style="font-size:2.00rem;opacity:1.00" title="搜狐: 3次">搜狐</span>
+    <span class="wc-word" style="font-size:2.00rem;opacity:1.00" title="第一财经: 3次">第一财经</span>
+    <span class="wc-word" style="font-size:2.00rem;opacity:1.00" title="万兆入楼: 3次">万兆入楼</span>
+    <span class="wc-word" style="font-size:2.00rem;opacity:1.00" title="算力下沉: 3次">算力下沉</span>
+    <span class="wc-word" style="font-size:2.00rem;opacity:1.00" title="新京报: 3次">新京报</span>
+    <span class="wc-word" style="font-size:2.00rem;opacity:1.00" title="三力协同: 3次">三力协同</span>
+    <span class="wc-word" style="font-size:2.00rem;opacity:1.00" title="世界新聞網: 3次">世界新聞網</span>
+    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="人工智能: 2次">人工智能</span>
+    <span class="wc-word" style="font-size:0.75rem;opacity:0.50" title="齐鲁网: 2次">齐鲁网</span>
+  </div>
+</section>
+
+  <div class="feed-end">
+    <a href="archive.html">浏览往期日报 →</a>
+  </div>
+</main>
+</div>
+
+<!-- 分析视图 -->
+<div id="view-analysis" class="view-panel" style="display:none">
+  <main class="feed analysis-panel">
+
+  <!-- 分析子 tab -->
+  <nav class="analysis-tabs" role="tablist">
+    <button class="atab is-active" data-atab="today" role="tab">今日分析</button>
+    <button class="atab" data-atab="trend" role="tab">30天趋势</button>
+    <button class="atab" data-atab="history" role="tab">历史存档</button>
+  </nav>
+
+  <!-- 今日分析 -->
+  <div class="atab-panel" id="atab-today">
+    <div class="analysis-summary">
+      <div class="ppio-index-card">
+        <div class="ppio-index-label">PPIO 战略环境指数</div>
+        <div class="ppio-index-score">55<span class="ppio-index-delta" style="color:#737373">0</span></div>
+        <div class="ppio-index-interp">规则估算，仅供参考</div>
+      </div>
+      <div class="ppio-index-card">
+        <div class="ppio-index-label">今日整体风向</div>
+        <div class="ppio-index-score" style="color:#737373">平稳</div>
+        <div class="ppio-index-interp">规则估算，AI合成不可用时的占位数据。</div>
+      </div>
+    </div>
+    <section class="analysis-section">
+      <h2 class="analysis-title">机会-威胁象限图</h2>
+      <p class="analysis-desc">点大小 = 重要程度 · 颜色 = 新闻类别 · 悬停查看详情</p>
+      <div class="chart-wrap chart-wrap--quadrant">
+        <div class="quadrant-bg">
+          <span class="ql ql-tl">⚠ 险境</span>
+          <span class="ql ql-tr">🔴 红海</span>
+          <span class="ql ql-bl">🌱 机遇</span>
+          <span class="ql ql-br">🟢 蓝海</span>
+        </div>
+        <canvas id="chart-quadrant"></canvas>
+      </div>
+      <div class="chart-legend" id="quadrant-legend"></div>
+    </section>
+    <section class="analysis-section">
+      <h2 class="analysis-title">PPIO 指数成分分解</h2>
+      <p class="analysis-desc">各因子对今日综合指数的贡献（绿=正向，红=负向）</p>
+      <div class="chart-wrap chart-wrap--bar"><canvas id="chart-index"></canvas></div>
+    </section>
+    <section class="analysis-section">
+      <h2 class="analysis-title">今日 Attend 信号分布</h2>
+      <p class="analysis-desc">深度处理条目按类别分布</p>
+      <div class="chart-wrap chart-wrap--donut"><canvas id="chart-signals"></canvas></div>
+    </section>
+  </div>
+
+  <!-- 30天趋势 -->
+  <div class="atab-panel" id="atab-trend" style="display:none">
+    
+    <div class="trend-grid">
+      <div class="trend-card">
+        <p class="trend-card-title">PPIO 战略环境指数</p>
+        <div style="height:160px"><canvas id="chart-trend-index"></canvas></div>
+      </div>
+      <div class="trend-card">
+        <p class="trend-card-title">每日 Attend 条数</p>
+        <div style="height:160px"><canvas id="chart-trend-attend"></canvas></div>
+      </div>
+      <div class="trend-card">
+        <p class="trend-card-title">政策热度</p>
+        <div style="height:160px"><canvas id="chart-trend-policy"></canvas></div>
+      </div>
+      <div class="trend-card">
+        <p class="trend-card-title">竞争热度</p>
+        <div style="height:160px"><canvas id="chart-trend-compete"></canvas></div>
+      </div>
+    </div>
+    <script id="trend-data" type="application/json">{"dates":["09-24","09-25","09-26","09-27","09-28","09-29","09-30","10-01","10-02","10-03","10-04","10-05","10-06","10-07","10-08","10-09","10-10","10-11","10-12","10-13","10-14","10-15","10-16","10-17","10-18","10-19","10-20","10-21","10-22","10-23"],"attend":[3,3,3,2,2,2,4,1,1,1,1,1,2,3,4,3,2,4,4,2,4,5,3,4,4,5,5,7,4,5],"index":[55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55],"policy":[2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,2,4,4,3,3,4,3,3,3,3,3,3,2,2],"compete":[2,2,2,2,2,3,3,2,2,2,2,2,4,4,4,4,4,3,3,2,2,2,2,2,2,2,2,2,2,2]}</script>
+  </div>
+
+  <!-- 历史存档 -->
+  <div class="atab-panel" id="atab-history" style="display:none">
+    <p style="font-family:var(--sans);font-size:0.82rem;color:var(--ink-mute);margin:0 0 1rem">共 90 天记录</p>
+    <div style="overflow-x:auto">
+      <table class="hist-table">
+        <thead><tr>
+          <th>日期</th><th>当日主线</th><th>信号</th><th>深度/总</th><th>指数</th><th>风向</th>
+        </tr></thead>
+        <tbody><tr>
+      <td><a href="reports/2026-10-23.html" target="_blank">2026-10-23</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🔬×9</td>
+      <td>5/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-22.html" target="_blank">2026-10-22</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🔬×9</td>
+      <td>4/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-21.html" target="_blank">2026-10-21</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 📜×1 🔬×9</td>
+      <td>7/12</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-20.html" target="_blank">2026-10-20</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 🔬×8</td>
+      <td>5/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-19.html" target="_blank">2026-10-19</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 🔬×7</td>
+      <td>5/9</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-18.html" target="_blank">2026-10-18</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 💰×1 🔬×8</td>
+      <td>4/11</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-17.html" target="_blank">2026-10-17</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 🔬×7</td>
+      <td>4/9</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-16.html" target="_blank">2026-10-16</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 💰×2 🔬×3</td>
+      <td>3/6</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-15.html" target="_blank">2026-10-15</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×2 💰×1 🔬×4</td>
+      <td>5/8</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-14.html" target="_blank">2026-10-14</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 🔬×3</td>
+      <td>4/6</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-13.html" target="_blank">2026-10-13</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 🔬×3</td>
+      <td>2/4</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-12.html" target="_blank">2026-10-12</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×2 ⚔️×1 💰×1 🔬×3</td>
+      <td>4/6</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-11.html" target="_blank">2026-10-11</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×2 ⚔️×1 💰×1 🔬×3</td>
+      <td>4/6</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-10.html" target="_blank">2026-10-10</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×2 💰×2 🔬×4</td>
+      <td>2/6</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-09.html" target="_blank">2026-10-09</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 ⚔️×2 💰×2 🔬×7</td>
+      <td>3/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-08.html" target="_blank">2026-10-08</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 📜×1 ⚔️×2 💰×2 🔬×7</td>
+      <td>4/11</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-07.html" target="_blank">2026-10-07</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">📜×1 ⚔️×2 💰×2 🔬×6</td>
+      <td>3/8</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-06.html" target="_blank">2026-10-06</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×2 💰×2 🌏×1 🔬×7</td>
+      <td>2/9</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-05.html" target="_blank">2026-10-05</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">📜×1 💰×1 🌏×1 🔬×9</td>
+      <td>1/9</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-04.html" target="_blank">2026-10-04</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">📜×1 🌏×1 🔬×4</td>
+      <td>1/5</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-03.html" target="_blank">2026-10-03</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">📜×1 💰×1 🌏×1 🔬×4</td>
+      <td>1/6</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-02.html" target="_blank">2026-10-02</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">📜×1 💰×1 🌏×2 🔬×5</td>
+      <td>1/7</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-10-01.html" target="_blank">2026-10-01</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">📜×1 🌏×2 🔬×4</td>
+      <td>1/5</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-30.html" target="_blank">2026-09-30</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">📜×1 ⚔️×1 💰×1 🌏×2 🔬×7</td>
+      <td>4/8</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-29.html" target="_blank">2026-09-29</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×1 💰×1 🌏×1 🔬×4</td>
+      <td>2/5</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-28.html" target="_blank">2026-09-28</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🌏×1 🔬×5</td>
+      <td>2/7</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-27.html" target="_blank">2026-09-27</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🌏×1 🔬×8</td>
+      <td>2/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-26.html" target="_blank">2026-09-26</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">💰×2 🌏×1 🔬×6</td>
+      <td>3/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-25.html" target="_blank">2026-09-25</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">💰×1 🔬×7</td>
+      <td>3/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-24.html" target="_blank">2026-09-24</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">💰×1 🔬×8</td>
+      <td>3/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-23.html" target="_blank">2026-09-23</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🔬×8</td>
+      <td>2/9</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-22.html" target="_blank">2026-09-22</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×1 💰×1 🔬×7</td>
+      <td>5/11</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-21.html" target="_blank">2026-09-21</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×1 💰×1 🔬×6</td>
+      <td>5/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-20.html" target="_blank">2026-09-20</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 🔬×7</td>
+      <td>3/8</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-19.html" target="_blank">2026-09-19</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 💰×1 🔬×6</td>
+      <td>4/9</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-18.html" target="_blank">2026-09-18</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×2 🔬×8</td>
+      <td>4/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-17.html" target="_blank">2026-09-17</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 🔬×7</td>
+      <td>3/9</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-16.html" target="_blank">2026-09-16</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 ⚔️×1 💰×1 🔬×9</td>
+      <td>3/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-15.html" target="_blank">2026-09-15</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 🔬×13</td>
+      <td>2/14</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-14.html" target="_blank">2026-09-14</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 🔬×14</td>
+      <td>1/14</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-13.html" target="_blank">2026-09-13</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 🔬×12</td>
+      <td>1/12</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-12.html" target="_blank">2026-09-12</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 🔬×9</td>
+      <td>2/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-11.html" target="_blank">2026-09-11</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 🌏×1 🔬×7</td>
+      <td>2/9</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-10.html" target="_blank">2026-09-10</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 📜×1 🌏×1 🔬×7</td>
+      <td>3/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-09.html" target="_blank">2026-09-09</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×2 📜×1 ⚔️×1 💰×1 🔬×10</td>
+      <td>4/13</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-08.html" target="_blank">2026-09-08</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×2 ⚔️×2 💰×2 🔬×8</td>
+      <td>4/11</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-07.html" target="_blank">2026-09-07</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×1 💰×1 🔬×6</td>
+      <td>2/8</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-06.html" target="_blank">2026-09-06</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🔬×5</td>
+      <td>2/7</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-05.html" target="_blank">2026-09-05</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 🔬×6</td>
+      <td>4/8</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-03.html" target="_blank">2026-09-03</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 ⚔️×1 💰×2 🔬×9</td>
+      <td>3/11</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-02.html" target="_blank">2026-09-02</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 💰×2 🔬×10</td>
+      <td>3/12</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-09-01.html" target="_blank">2026-09-01</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 💰×1 🔬×8</td>
+      <td>2/9</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-31.html" target="_blank">2026-08-31</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×2 💰×1 🔬×9</td>
+      <td>5/11</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-30.html" target="_blank">2026-08-30</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 💰×1 🔬×8</td>
+      <td>4/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-29.html" target="_blank">2026-08-29</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×3 💰×1 🔬×8</td>
+      <td>7/12</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-28.html" target="_blank">2026-08-28</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×2 🔬×8</td>
+      <td>5/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-27.html" target="_blank">2026-08-27</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×2 🔬×5</td>
+      <td>4/7</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-26.html" target="_blank">2026-08-26</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×2 ⚔️×1 💰×1 🔬×7</td>
+      <td>4/8</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-25.html" target="_blank">2026-08-25</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×1 💰×1 🔬×6</td>
+      <td>2/6</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-24.html" target="_blank">2026-08-24</a></td>
+      <td class="hist-mainline">上海密集发布“十五五”算力与数字经济规划，地方政策红利提速；美国数据中心建设遭社区反对，但州长批评反对声浪，海外能耗争议升温需关注。</td>
+      <td style="white-space:nowrap">🏛️×2 🌏×1 🔬×1</td>
+      <td>7/12</td>
+      <td>67<span style="color:#0a0a0a;font-size:0.75rem">+5</span></td>
+      <td><span style="color:#0a0a0a;font-weight:600;font-size:0.78rem">升温</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-23.html" target="_blank">2026-08-23</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 🔬×6</td>
+      <td>4/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-22.html" target="_blank">2026-08-22</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 ⚔️×1 💰×1 🔬×8</td>
+      <td>5/12</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-21.html" target="_blank">2026-08-21</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×2 ⚔️×1 💰×2 🌏×2 🔬×5</td>
+      <td>6/12</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-20.html" target="_blank">2026-08-20</a></td>
+      <td class="hist-mainline">算力基建获4万亿投资潮与地方规划加持，政策面持续升温；但运营商集体推出Token套餐，叠加企业大单直接采购算力，边缘云市场面临大厂挤压风险。</td>
+      <td style="white-space:nowrap">📜×4 ⚔️×4 💰×3 🌏×2 🔬×3</td>
+      <td>3/9</td>
+      <td>81<span style="color:#FFD500;font-size:0.75rem">-5</span></td>
+      <td><span style="color:#0a0a0a;font-weight:600;font-size:0.78rem">升温</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-19.html" target="_blank">2026-08-19</a></td>
+      <td class="hist-mainline">习近平出席WAIC并发表主旨讲话，定调AI发展与治理，上海同步推出算力和模型出口创新方案，政策面利好集中释放，但美国反数据中心浪潮与芯片言论带来海外阻力</td>
+      <td style="white-space:nowrap">🏛️×4 📜×2 ⚔️×2 💰×2 🌏×2 🔬×3</td>
+      <td>7/12</td>
+      <td>76<span style="color:#0a0a0a;font-size:0.75rem">+4</span></td>
+      <td><span style="color:#0a0a0a;font-weight:600;font-size:0.78rem">升温</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-18.html" target="_blank">2026-08-18</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×1 🔬×7</td>
+      <td>6/13</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-17.html" target="_blank">2026-08-17</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×1 🔬×8</td>
+      <td>6/14</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-16.html" target="_blank">2026-08-16</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">📜×1 ⚔️×1 🔬×9</td>
+      <td>6/14</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-15.html" target="_blank">2026-08-15</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×1 💰×1 🔬×8</td>
+      <td>5/13</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-14.html" target="_blank">2026-08-14</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🔬×8</td>
+      <td>5/12</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-13.html" target="_blank">2026-08-13</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🔬×9</td>
+      <td>5/13</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-12.html" target="_blank">2026-08-12</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×1 💰×1 🔬×8</td>
+      <td>6/13</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-11.html" target="_blank">2026-08-11</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×2 💰×1 🔬×7</td>
+      <td>8/12</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-10.html" target="_blank">2026-08-10</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×2 💰×1 🔬×6</td>
+      <td>8/11</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-09.html" target="_blank">2026-08-09</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×2 💰×1 🔬×6</td>
+      <td>6/9</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-08.html" target="_blank">2026-08-08</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×1 💰×1 🔬×6</td>
+      <td>5/10</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-07.html" target="_blank">2026-08-07</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×1 💰×1 🔬×5</td>
+      <td>4/9</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-06.html" target="_blank">2026-08-06</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 ⚔️×1 💰×1 🔬×7</td>
+      <td>5/11</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-05.html" target="_blank">2026-08-05</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 ⚔️×1 💰×1 🔬×9</td>
+      <td>4/12</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-04.html" target="_blank">2026-08-04</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 ⚔️×1 💰×1 🔬×8</td>
+      <td>5/12</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-03.html" target="_blank">2026-08-03</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 ⚔️×1 💰×1 🌏×1 🔬×8</td>
+      <td>6/13</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-02.html" target="_blank">2026-08-02</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 ⚔️×1 💰×1 🌏×1 🔬×8</td>
+      <td>6/12</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-08-01.html" target="_blank">2026-08-01</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 ⚔️×1 💰×1 🔬×8</td>
+      <td>6/12</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-07-31.html" target="_blank">2026-07-31</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 ⚔️×2 💰×2 🔬×6</td>
+      <td>6/11</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-07-30.html" target="_blank">2026-07-30</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">⚔️×2 💰×2 🔬×6</td>
+      <td>7/12</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-07-29.html" target="_blank">2026-07-29</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 ⚔️×2 💰×2 🌏×1 🔬×5</td>
+      <td>9/13</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-07-28.html" target="_blank">2026-07-28</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🏛️×1 🔬×9</td>
+      <td>8/14</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-07-27.html" target="_blank">2026-07-27</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🔬×8</td>
+      <td>8/12</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-07-26.html" target="_blank">2026-07-26</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🔬×6</td>
+      <td>9/13</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr>
+<tr>
+      <td><a href="reports/2026-07-25.html" target="_blank">2026-07-25</a></td>
+      <td class="hist-mainline">今日政策与竞争信号持续跟踪中，详情见各条目分析。</td>
+      <td style="white-space:nowrap">🔬×5</td>
+      <td>9/13</td>
+      <td>55</td>
+      <td><span style="color:#737373;font-weight:600;font-size:0.78rem">平稳</span></td>
+    </tr></tbody>
+      </table></div>
+  </div>
+</main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+  // ── View tabs (本周 / 分析) ──
+  (function() {
+    const viewTabs = document.querySelectorAll('.view-tab');
+    const viewPanels = document.querySelectorAll('.view-panel');
+    viewTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        viewTabs.forEach(t => { t.classList.remove('is-active'); t.setAttribute('aria-selected','false'); });
+        tab.classList.add('is-active'); tab.setAttribute('aria-selected','true');
+        const v = tab.dataset.view;
+        viewPanels.forEach(p => { p.style.display = p.id === 'view-' + v ? '' : 'none'; });
+        if (v === 'analysis') { initAnalysisTab('today'); }
+      });
+    });
+  })();
+
+  // ── Analysis sub-tabs ──
+  (function() {
+    const atabs = document.querySelectorAll('.atab');
+    atabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        atabs.forEach(t => t.classList.remove('is-active'));
+        tab.classList.add('is-active');
+        const id = tab.dataset.atab;
+        document.querySelectorAll('.atab-panel').forEach(p => {
+          p.style.display = p.id === 'atab-' + id ? '' : 'none';
+        });
+        initAnalysisTab(id);
+      });
+    });
+  })();
+
+  // ── Feed category tabs ──
+  (function() {
+    const tabs = document.querySelectorAll('.feed-tabs .tab');
+    const rows = document.querySelectorAll('.feed-card');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => { t.classList.remove('is-active'); t.setAttribute('aria-selected', 'false'); });
+        tab.classList.add('is-active');
+        tab.setAttribute('aria-selected', 'true');
+        const tag = tab.dataset.tab;
+        rows.forEach(row => {
+          if (tag === 'all') row.classList.remove('is-tab-hidden');
+          else row.classList.toggle('is-tab-hidden', !(row.dataset.tags || '').split(/\s+/).includes(tag));
+        });
+      });
+    });
+  })();
+
+  // ── Analysis charts ──
+  const chartsInited = {};
+  function initAnalysisTab(tab) {
+    if (chartsInited[tab]) return;
+    chartsInited[tab] = true;
+
+    const SYNTHESIS = {"generated_at":"2026-10-23T05:19:12.687Z","date":"2026-10-23","date_label":"2026-10-23","mainline":"今日政策与竞争信号持续跟踪中，详情见各条目分析。","signal_summary":{"🏛️":0,"📜":0,"⚔️":0,"💰":0,"🌏":0,"🔬":9},"speed_read":{"positive":[],"risk":[]},"wind_indicators":{"policy_heat":2,"competitor_heat":2,"capital_heat":2,"overseas_heat":2,"overall_sentiment":"平稳","summary":"规则估算，AI合成不可用时的占位数据。"},"competitor_updates":[],"item_axes":[{"id":"1","title":"（近观中国）考察乌兰察布，习近平关注算力","policy_axis":0.6,"competition_axis":0.1,"impact_score":4,"axis_reason":"规则估算"},{"id":"2","title":"习近平出席2026世界人工智能大会暨人工","policy_axis":0.6,"competition_axis":0.1,"impact_score":4,"axis_reason":"规则估算"},{"id":"3","title":"字节跳动洽购联发科定制芯片 ASIC竞逐","policy_axis":0,"competition_axis":0.7,"impact_score":3,"axis_reason":"规则估算"},{"id":"4","title":"WAIC观察｜模型越大算力越紧，国产AI","policy_axis":0,"competition_axis":0.1,"impact_score":2,"axis_reason":"规则估算"},{"id":"5","title":"工信部：到2028年城域算力1毫秒时延圈","policy_axis":0.6,"competition_axis":0.1,"impact_score":4,"axis_reason":"规则估算"}],"ppio_index":{"score":55,"delta":0,"components":{"policy_tailwind":0,"competitive_pressure":0,"capital_sentiment":0,"regulatory_risk":0,"overseas_headwind":0},"interpretation":"规则估算，仅供参考"},"policy_momentum":[],"expected_but_absent":[],"_generated_by":"template"};
+    const ITEMS = [{"id":"raw-001","title":"（近观中国）考察乌兰察布，习近平关注算力背后的考量 - 中国新闻网","url":"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zRElDVkhXM18xYnFhUWtyQ0tOaUhETUpkNDJHLXVDNFFwWVVNX2NkSEN1Nkw3QXVDSGRfeG5ZV2lOeU9vNzNlbkV4V3Y2MTJqa0VuaFRuWmVoZFRFMFRvNmJYa0s5WjJ5?oc=5","source":"中国新闻网","category":"政策","published":"2026-10-17","body_snippet":"（近观中国）考察乌兰察布，习近平关注算力背后的考量 中国新闻网","_query_boost":45,"lane":"attend","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"（近观中国）考察乌兰察布，习近平关注算力背后的考量 - 中国新闻网 （近观中国）考察乌兰察布，习近平关注算力背后的考量 中国新闻网","ppio_signal":{"positive":"（待 AI 填写）","risk":"（待 AI 填写）","beneficiaries":"（待 AI 填写）","pressure_parties":"（待 AI 填写）"},"_classified_by":"rule"},{"id":"raw-002","title":"习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - content.foshanplus.com","url":"https://news.google.com/rss/articles/CBMid0FVX3lxTFAzY0lWR2thU2tIVlpDckx2UnVaZk01VUVQX1FpR3VMNGJVUDVYdjQxUFlKdkZDa2lNQnRDd0h0WE9UNk01ODlDV0VEZWRQUFZ3UXl5YmRXX0psZUdrMzhSd2xXVjBjeVFHSkVJajlxYzVuTDgyaC1v?oc=5","source":"content.foshanplus.com","category":"政策","published":"2026-10-20","body_snippet":"习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 content.foshanplus.com","_query_boost":50,"lane":"attend","signals":["—"],"is_deep_read":true,"compass_triggered":["c1","c2","c3"],"summary_cn":"习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - content.foshanplus.com 习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 content.foshanplus.com","ppio_signal":{"positive":"（待 AI 填写）","risk":"（待 AI 填写）","beneficiaries":"（待 AI 填写）","pressure_parties":"（待 AI 填写）"},"_classified_by":"rule"},{"id":"raw-003","title":"字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 - 搜狐","url":"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcVpyQ21NenJKM3BKVUszZW84NWtfdEdxT3dReTdQaE41MG9NQjhNTF84RV9hQnR2SXBHWnNmMDNGRnZOWDdJOVBvYVM4dDRLN19yNHZVaWZBbGZ0OHA0LWRPZ1pHNncxc25LQjhkek1QdHgzXzFobVBodlRmMXFpeDlzLXJ0VWtL?oc=5","source":"搜狐","category":"竞品","published":"2026-10-19","body_snippet":"字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 搜狐","_query_boost":15,"lane":"attend","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 - 搜狐 字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 搜狐","ppio_signal":{"positive":"（待 AI 填写）","risk":"（待 AI 填写）","beneficiaries":"（待 AI 填写）","pressure_parties":"（待 AI 填写）"},"_classified_by":"rule"},{"id":"raw-006","title":"WAIC观察｜模型越大算力越紧，国产AI集体死磕“利用率” - 第一财经","url":"https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWjQwNzN2WmJfd3hSamlXalFLMC1oaU1sZHdnTVo0cEdoWmxwOHpLdVpXWEhjZHlDaFFOZVUtQnF0cUVBMHV1cmo3YUJlMG9FWHlZ?oc=5","source":"第一财经","category":"政策","published":"2026-10-21","body_snippet":"WAIC观察｜模型越大算力越紧，国产AI集体死磕“利用率” 第一财经","_query_boost":25,"lane":"attend","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"WAIC观察｜模型越大算力越紧，国产AI集体死磕“利用率” - 第一财经 WAIC观察｜模型越大算力越紧，国产AI集体死磕“利用率” 第一财经","ppio_signal":{"positive":"（待 AI 填写）","risk":"（待 AI 填写）","beneficiaries":"（待 AI 填写）","pressure_parties":"（待 AI 填写）"},"_classified_by":"rule"},{"id":"raw-009","title":"时政微观察丨内蒙古之行，总书记考察算力产业有何深意？_大陆_国内新闻_新闻 - 齐鲁网","url":"https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ISVBkUlRtQVNHS0gxTmw5TFhDUDc4ZE02b0dPUzBmeGFpaTM1Zk8zUUx3c0RXVU82eXB1cGdQMG1sQkViQ2ZXazN5aXlZX3Q1emdqVWw0MFh2Qk9pTF9OUEtMeTdwNC1Y?oc=5","source":"齐鲁网","category":"政策","published":"2026-10-18","body_snippet":"时政微观察丨内蒙古之行，总书记考察算力产业有何深意？_大陆_国内新闻_新闻 齐鲁网","_query_boost":45,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"时政微观察丨内蒙古之行，总书记考察算力产业有何深意？_大陆_国内新闻_新闻 - 齐鲁网 时政微观察丨内蒙古之行，总书记考察算力产业有何深意？_大陆_国内新闻_新","ppio_signal":null,"_classified_by":"rule"},{"id":"raw-010","title":"第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 - 新浪新闻_手机新浪网","url":"https://news.google.com/rss/articles/CBMieEFVX3lxTFBOelJzOTdVb2NPNVZXVE0xMHotR3hHaUtXZnREMGpQQ0tYVVdFTklxU1R2TlJ3eEdQb1Y5Vl9kdFJmNThNZS1aOHVzaGRhTzBwUmtiM0tMamNXMEY0M0JiYjNpVkdVd255dDVES0JLX2syWVhvZWNDbA?oc=5","source":"新浪新闻_手机新浪网","category":"政策","published":"2026-10-17","body_snippet":"第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 新浪新闻_手机新浪网","_query_boost":45,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 - 新浪新闻_手机新浪网 第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 新浪新闻_","ppio_signal":null,"_classified_by":"rule"},{"id":"raw-011","title":"万兆入楼 算力下沉 新一代通信网焕新“未来社区” - 人工智能","url":"https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4Uk5iTlRXMXZuVlBZWTB2WUY1WEVzQ2pjemtiY1YyZW5EUHRXWXc5ZUpmRk0tZGlWdUVXcGtab1k0WVZHNGJsZE96YXNrNWdnOFE?oc=5","source":"人工智能","category":"政策","published":"2026-10-21","body_snippet":"万兆入楼 算力下沉 新一代通信网焕新“未来社区” 人工智能","_query_boost":25,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"万兆入楼 算力下沉 新一代通信网焕新“未来社区” - 人工智能 万兆入楼 算力下沉 新一代通信网焕新“未来社区” 人工智能","ppio_signal":null,"_classified_by":"rule"},{"id":"raw-012","title":"工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% - 新京报","url":"https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQaUpEeC0tY0JqR1F0QXNILXQ3Wm4zaXh1SmNnXzlOU1BhZnp2QTM2Sy1kUDFxd1RiNjQtMUZaMTRObzJjeE9HMGJUUTBYakRVOW9TcEs1Y3lTVzdCaG84Z2R3?oc=5","source":"新京报","category":"政策","published":"2026-10-20","body_snippet":"工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% 新京报","_query_boost":30,"lane":"attend","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"到2028年城域算力1毫秒时延圈覆盖率不低于75% - 新京报 工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% 新京报","ppio_signal":{"positive":"（待 AI 填写）","risk":"（待 AI 填写）","beneficiaries":"（待 AI 填写）","pressure_parties":"（待 AI 填写）"},"_classified_by":"rule"},{"id":"raw-013","title":"三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万P - 成都市委统战部","url":"https://news.google.com/rss/articles/CBMiowFBVV95cUxPVEhKNVpqcXZsTkJBMHd6dzVzSzJNMmVRU0lfOHdYUEpxOVdQZjNLWGNrT3ZaWjVJZVRUNWRfQzB3MkwyekRIVWNiU0hpcXZKLXF5clE5Y2o2Sl81VGhicEFtSXF0bGc3aThmbFNRckdWbUVWVWJ5cGJKRlZ1OVNtSU93VHpwVjJPSEdBbnA5N2FSV1ZHalRsaktqVk1MZzNkU0VN?oc=5","source":"成都市委统战部","category":"政策","published":"2026-10-19","body_snippet":"三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万P 成都市委统战部","_query_boost":30,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万P - 成都市委统战部 三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万","ppio_signal":null,"_classified_by":"rule"},{"id":"raw-014","title":"習近平赴內蒙古考察 要求搞好「算力中心」建設 - 世界新聞網","url":"https://news.google.com/rss/articles/CBMiigFBVV95cUxQUzdUQXVrNGdRRjNLQmpJSUlBeWNVZWVPSUpCaWlFVmR1MXNMRnc3Mk5mRG1mZXB4Y2ZiamJ4eHE4VlA2aU1LWW1UY2tXLTQ2aWxuemsxT2ZQUmJPRlVhWmdDSGUwVU1wZkpxcG00WUJwUzR0Rk5ucDFiS0E2VmFvcElzNl9mVHQzMWfSAWdBVV95cUxOX3d4SElzQzNiX0c0WHBPMWFoc1ZqNEczTjFBOFdNbU4zWlRkcjBOT2wxX3lKMTdoNWMwSUlwR2RIWlpqWlA1bzZ2UmJXSm5JYTZnLS0tSTlBdDVfaG02RGtHZjVSMUNN?oc=5","source":"世界新聞網","category":"政策","published":"2026-10-17","body_snippet":"習近平赴內蒙古考察 要求搞好「算力中心」建設 世界新聞網","_query_boost":30,"lane":"silent","signals":["🔬"],"is_deep_read":false,"compass_triggered":["c1","c2","c3"],"summary_cn":"習近平赴內蒙古考察 要求搞好「算力中心」建設 - 世界新聞網 習近平赴內蒙古考察 要求搞好「算力中心」建設 世界新聞網","ppio_signal":null,"_classified_by":"rule"}];
+
+    if (tab === 'today') {
+      initCharts(SYNTHESIS, ITEMS);
+    } else if (tab === 'trend') {
+      initTrendCharts();
+    }
+  }
+
+  function initTrendCharts() {
+    const el = document.getElementById('trend-data');
+    if (!el) return;
+    const d = JSON.parse(el.textContent);
+    const baseOpts = () => ({
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { display: false }, ticks: { font: { size: 10 }, maxTicksLimit: 8 } },
+        y: { grid: { color: '#ececec' }, ticks: { font: { size: 11 } } }
+      }
+    });
+    if (document.getElementById('chart-trend-index')) {
+      new Chart(document.getElementById('chart-trend-index'), {
+        type: 'line',
+        data: { labels: d.dates, datasets: [{ data: d.index, borderColor: '#0a0a0a', backgroundColor: '#0a0a0a22', fill: true, tension: 0.3, pointRadius: 3 }] },
+        options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:100,grid:{color:'#ececec'},ticks:{font:{size:11}}} } }
+      });
+    }
+    if (document.getElementById('chart-trend-attend')) {
+      new Chart(document.getElementById('chart-trend-attend'), {
+        type: 'bar',
+        data: { labels: d.dates, datasets: [{ data: d.attend, backgroundColor: '#d4d4d2', borderRadius: 0 }] },
+        options: baseOpts()
+      });
+    }
+    if (document.getElementById('chart-trend-policy')) {
+      new Chart(document.getElementById('chart-trend-policy'), {
+        type: 'line',
+        data: { labels: d.dates, datasets: [{ data: d.policy, borderColor: '#737373', backgroundColor: '#73737322', fill: true, tension: 0.3, pointRadius: 3 }] },
+        options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#ececec'},ticks:{font:{size:11},stepSize:1}} } }
+      });
+    }
+    if (document.getElementById('chart-trend-compete')) {
+      new Chart(document.getElementById('chart-trend-compete'), {
+        type: 'line',
+        data: { labels: d.dates, datasets: [{ data: d.compete, borderColor: '#FFD500', backgroundColor: '#FFD50022', fill: true, tension: 0.3, pointRadius: 3 }] },
+        options: { ...baseOpts(), scales: { x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}}, y:{min:0,max:6,grid:{color:'#ececec'},ticks:{font:{size:11},stepSize:1}} } }
+      });
+    }
+  }
+
+  function initCharts(SYNTHESIS, ITEMS) {
+
+    // 1. 象限图 — 机会-威胁矩阵
+    (function() {
+      const axes = (SYNTHESIS.item_axes || []);
+      const catColor = {
+        '政策':'#0a0a0a','竞品':'#404040','监管':'#525252',
+        '资本':'#737373','海外':'#a3a3a3','技术':'#d4d4d2','治理':'#e0e0e0'
+      };
+      const datasets = axes.map(a => {
+        const item = ITEMS.find(i => i.id && (i.id.endsWith('-' + a.id) || i.id === a.id)) || {};
+        const cat = item.category || '技术';
+        return {
+          label: (a.title || '').slice(0, 20),
+          data: [{ x: a.policy_axis || 0, y: a.competition_axis || 0 }],
+          backgroundColor: (catColor[cat] || '#6b7280') + 'cc',
+          borderColor: catColor[cat] || '#6b7280',
+          pointRadius: Math.max(6, (a.impact_score || 3) * 4),
+          pointHoverRadius: Math.max(8, (a.impact_score || 3) * 4 + 2),
+        };
+      });
+      new Chart(document.getElementById('chart-quadrant'), {
+        type: 'scatter',
+        data: { datasets },
+        options: {
+          responsive: true, maintainAspectRatio: true,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: ctx => {
+                  const a = axes[ctx.datasetIndex];
+                  return [
+                    (a.title || '').slice(0, 35),
+                    a.axis_reason || ''
+                  ];
+                }
+              }
+            }
+          },
+          scales: {
+            x: {
+              min: -1.2, max: 1.2,
+              border: { display: false },
+              grid: {
+                color: ctx => ctx.tick.value === 0 ? '#0a0a0a' : '#ececec',
+                lineWidth: ctx => ctx.tick.value === 0 ? 2.5 : 1,
+              },
+              ticks: {
+                stepSize: 0.5,
+                font: { size: 10 },
+                color: ctx => ctx.tick.value === 0 ? '#0a0a0a' : '#737373',
+                callback: v => {
+                  if (v === -1) return '← 收紧';
+                  if (v === 1) return '宽松 →';
+                  if (v === 0) return '中性';
+                  return '';
+                }
+              },
+              title: {
+                display: true,
+                text: '政策/监管环境',
+                font: { size: 11, weight: '600' },
+                color: '#737373'
+              }
+            },
+            y: {
+              min: -1.2, max: 1.2,
+              border: { display: false },
+              grid: {
+                color: ctx => ctx.tick.value === 0 ? '#0a0a0a' : '#ececec',
+                lineWidth: ctx => ctx.tick.value === 0 ? 2.5 : 1,
+              },
+              ticks: {
+                stepSize: 0.5,
+                font: { size: 10 },
+                color: ctx => ctx.tick.value === 0 ? '#0a0a0a' : '#737373',
+                callback: v => {
+                  if (v === -1) return '低竞争';
+                  if (v === 1) return '高竞争';
+                  if (v === 0) return '中性';
+                  return '';
+                }
+              },
+              title: {
+                display: true,
+                text: '竞争烈度',
+                font: { size: 11, weight: '600' },
+                color: '#737373'
+              }
+            }
+          }
+        }
+      });
+
+      // Build legend below chart
+      const legend = document.getElementById('quadrant-legend');
+      if (legend) {
+        legend.innerHTML = axes.map(a => {
+          const item = ITEMS.find(i => i.id && (i.id.endsWith('-' + a.id) || i.id === a.id)) || {};
+          const cat = item.category || '技术';
+          const color = catColor[cat] || '#6b7280';
+          return '<span class="legend-item">'
+            + '<span class="legend-dot" style="background:' + color + '"></span>'
+            + (a.title || '').slice(0, 24)
+            + '</span>';
+        }).join('');
+      }
+    })();
+
+    // 2. PPIO指数 — 成分柱状图
+    (function() {
+      const idx = SYNTHESIS.ppio_index || {};
+      const comp = idx.components || {};
+      const labels = ['政策顺风', '竞争压力', '资本情绪', '监管风险', '海外逆风'];
+      const keys = ['policy_tailwind','competitive_pressure','capital_sentiment','regulatory_risk','overseas_headwind'];
+      const values = keys.map(k => comp[k] || 0);
+      const colors = values.map(v => v >= 0 ? '#0a0a0acc' : '#FFD500cc');
+      new Chart(document.getElementById('chart-index'), {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [{ label: 'PPIO指数成分', data: values, backgroundColor: colors, borderRadius: 0 }]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: true,
+          plugins: { legend: { display: false } },
+          scales: {
+            y: { grid: { color: '#ececec' }, ticks: { stepSize: 10 } },
+            x: { grid: { display: false } }
+          }
+        }
+      });
+    })();
+
+    // 3. 信号分布 — 类别条数
+    (function() {
+      const cats = ['政策','竞品','监管','资本','海外','技术','治理'];
+      const catColor = {
+        '政策':'#0a0a0a','竞品':'#404040','监管':'#525252',
+        '资本':'#737373','海外':'#a3a3a3','技术':'#d4d4d2','治理':'#e0e0e0'
+      };
+      const counts = cats.map(c => ITEMS.filter(i => i.category === c && i.lane === 'attend').length);
+      new Chart(document.getElementById('chart-signals'), {
+        type: 'doughnut',
+        data: {
+          labels: cats,
+          datasets: [{ data: counts, backgroundColor: cats.map(c => catColor[c] + 'cc'), borderWidth: 1 }]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: true,
+          plugins: { legend: { position: 'right', labels: { font: { size: 11 } } } }
+        }
+      });
+    })();
+  }
+</script>
+</body>
+</html>
