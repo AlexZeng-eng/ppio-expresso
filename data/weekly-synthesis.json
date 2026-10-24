@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-23T05:19:12.687Z",
-  "date": "2026-10-23",
-  "date_label": "2026-10-23",
+  "generated_at": "2026-10-24T05:00:56.970Z",
+  "date": "2026-10-24",
+  "date_label": "2026-10-24",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 0,
+    "🏛️": 1,
     "📜": 0,
     "⚔️": 0,
-    "💰": 0,
+    "💰": 2,
     "🌏": 0,
-    "🔬": 9
+    "🔬": 4
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 2,
+    "policy_heat": 3,
     "competitor_heat": 2,
-    "capital_heat": 2,
+    "capital_heat": 3,
     "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
@@ -27,14 +27,6 @@
   "item_axes": [
     {
       "id": "1",
-      "title": "（近观中国）考察乌兰察布，习近平关注算力",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "2",
       "title": "习近平出席2026世界人工智能大会暨人工",
       "policy_axis": 0.6,
       "competition_axis": 0.1,
@@ -42,7 +34,7 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "3",
+      "id": "2",
       "title": "字节跳动洽购联发科定制芯片 ASIC竞逐",
       "policy_axis": 0,
       "competition_axis": 0.7,
@@ -50,11 +42,19 @@
       "axis_reason": "规则估算"
     },
     {
-      "id": "4",
-      "title": "WAIC观察｜模型越大算力越紧，国产AI",
+      "id": "3",
+      "title": "AI公司警告英国：一年内若不安抚民意，数",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "4",
+      "title": "国务院关于对外投资的规定解读（一）：83",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
       "axis_reason": "规则估算"
     },
     {
@@ -70,9 +70,9 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 0,
+      "policy_tailwind": 8,
       "competitive_pressure": 0,
-      "capital_sentiment": 0,
+      "capital_sentiment": 10,
       "regulatory_risk": 0,
       "overseas_headwind": 0
     },

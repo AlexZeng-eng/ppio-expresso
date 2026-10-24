@@ -1,25 +1,15 @@
 {
-  "generated_at": "2026-10-23T05:19:12.485Z",
-  "week": "2026-W43",
+  "generated_at": "2026-10-24T05:00:56.879Z",
+  "week": "2026-W44",
   "date_range": {
-    "from": "2026-10-16",
-    "to": "2026-10-23"
+    "from": "2026-10-17",
+    "to": "2026-10-24"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "（近观中国）考察乌兰察布，习近平关注算力背后的考量 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zRElDVkhXM18xYnFhUWtyQ0tOaUhETUpkNDJHLXVDNFFwWVVNX2NkSEN1Nkw3QXVDSGRfeG5ZV2lOeU9vNzNlbkV4V3Y2MTJqa0VuaFRuWmVoZFRFMFRvNmJYa0s5WjJ5?oc=5",
-      "source": "中国新闻网",
-      "category": "政策",
-      "published": "2026-10-17",
-      "body_snippet": "（近观中国）考察乌兰察布，习近平关注算力背后的考量 中国新闻网",
-      "_query_boost": 45
-    },
-    {
-      "id": "raw-002",
       "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - content.foshanplus.com",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAzY0lWR2thU2tIVlpDckx2UnVaZk01VUVQX1FpR3VMNGJVUDVYdjQxUFlKdkZDa2lNQnRDd0h0WE9UNk01ODlDV0VEZWRQUFZ3UXl5YmRXX0psZUdrMzhSd2xXVjBjeVFHSkVJajlxYzVuTDgyaC1v?oc=5",
       "source": "content.foshanplus.com",
@@ -29,7 +19,7 @@
       "_query_boost": 50
     },
     {
-      "id": "raw-003",
+      "id": "raw-002",
       "title": "字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 - 搜狐",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcVpyQ21NenJKM3BKVUszZW84NWtfdEdxT3dReTdQaE41MG9NQjhNTF84RV9hQnR2SXBHWnNmMDNGRnZOWDdJOVBvYVM4dDRLN19yNHZVaWZBbGZ0OHA0LWRPZ1pHNncxc25LQjhkek1QdHgzXzFobVBodlRmMXFpeDlzLXJ0VWtL?oc=5",
       "source": "搜狐",
@@ -39,35 +29,26 @@
       "_query_boost": 15
     },
     {
+      "id": "raw-003",
+      "title": "AI公司警告英国：一年内若不安抚民意，数据中心建设或面临抗议危机-智算中心 - 至顶网",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lZHRucFEwTVR4YU9weVYyb0g5S0M1UWFmekladnNlQmRMUlFITXZfUGpYcElyTDdnQ2k3eEZWRnRSdXBQd2R6V3BHdGdLcjA4bUdkUmxTSF9uUzBlWWdwbw?oc=5",
+      "source": "至顶网",
+      "category": "海外",
+      "published": "2026-10-23",
+      "body_snippet": "AI公司警告英国：一年内若不安抚民意，数据中心建设或面临抗议危机-智算中心 至顶网",
+      "_query_boost": 25
+    },
+    {
       "id": "raw-004",
-      "title": "关于公布《上海市“十五五”燃机项目专家优选评议实施方案》的通知",
-      "url": "https://fgw.sh.gov.cn/fgw_ny/20261020/c7e79a6dbfa64af6a3f76ccd1f2cdd3b.html",
-      "source": "上海市发改委",
-      "published": "2026-10-20",
+      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
+      "source": "工信部-新闻",
+      "published": "2026-10-24",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-005",
-      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
-      "source": "工信部-新闻",
-      "published": "2026-10-23",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-006",
-      "title": "WAIC观察｜模型越大算力越紧，国产AI集体死磕“利用率” - 第一财经",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWjQwNzN2WmJfd3hSamlXalFLMC1oaU1sZHdnTVo0cEdoWmxwOHpLdVpXWEhjZHlDaFFOZVUtQnF0cUVBMHV1cmo3YUJlMG9FWHlZ?oc=5",
-      "source": "第一财经",
-      "category": "政策",
-      "published": "2026-10-21",
-      "body_snippet": "WAIC观察｜模型越大算力越紧，国产AI集体死磕“利用率” 第一财经",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-007",
       "title": "丁薛祥在河北雄安新区出席国家数据集团有限公司成立大会并调研 - 新京报",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9kSlBwWlhKQXRwNVZ0dEU3a0hUNHJud3NxUFQ1Q2xVMndYc0ktbkNFNGlIdXB3Q1pZSFVJMmdjSTg1clNHbEl5UEF2M3VGTkV6YlhfV3Qxc1dDeGI4enVPd0ZuZTM?oc=5",
       "source": "新京报",
@@ -77,7 +58,7 @@
       "_query_boost": 45
     },
     {
-      "id": "raw-008",
+      "id": "raw-006",
       "title": "“六张网”布局里的中国之治（一见） - finance.sina.com.cn",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMmw5ZjhQekRiNHhmZmUwYlF3b0VrTFJaSGliamJOejhMS3NiNWppYUp2M0lyZFUyWl9VVHhnYW5yT3FCaVhwTWNhVXVnTVhwMm0yc0k5TEJKVDJYWm9jUEowUmw0bEVtTFRCVE11Y3ZNVDNQeGo3UzV5THBlcHNJSWVDSk9QSzh6WERn?oc=5",
       "source": "finance.sina.com.cn",
@@ -87,37 +68,27 @@
       "_query_boost": 45
     },
     {
-      "id": "raw-009",
-      "title": "时政微观察丨内蒙古之行，总书记考察算力产业有何深意？_大陆_国内新闻_新闻 - 齐鲁网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ISVBkUlRtQVNHS0gxTmw5TFhDUDc4ZE02b0dPUzBmeGFpaTM1Zk8zUUx3c0RXVU82eXB1cGdQMG1sQkViQ2ZXazN5aXlZX3Q1emdqVWw0MFh2Qk9pTF9OUEtMeTdwNC1Y?oc=5",
-      "source": "齐鲁网",
+      "id": "raw-007",
+      "title": "发展中国的“算力高铁” - 川观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9HMm5YWGJ6Y1JLdlB1aUtGUlRpMkh3RjBPRmlGd3VNX2JjSnJETjRNUExwWWtabC1HbHladHlPb0l4X3hveDJpM1NETjk0Zw?oc=5",
+      "source": "川观新闻",
       "category": "政策",
-      "published": "2026-10-18",
-      "body_snippet": "时政微观察丨内蒙古之行，总书记考察算力产业有何深意？_大陆_国内新闻_新闻 齐鲁网",
-      "_query_boost": 45
+      "published": "2026-10-23",
+      "body_snippet": "发展中国的“算力高铁” 川观新闻",
+      "_query_boost": 30
     },
     {
-      "id": "raw-010",
-      "title": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 - 新浪新闻_手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOelJzOTdVb2NPNVZXVE0xMHotR3hHaUtXZnREMGpQQ0tYVVdFTklxU1R2TlJ3eEdQb1Y5Vl9kdFJmNThNZS1aOHVzaGRhTzBwUmtiM0tMamNXMEY0M0JiYjNpVkdVd255dDVES0JLX2syWVhvZWNDbA?oc=5",
-      "source": "新浪新闻_手机新浪网",
-      "category": "政策",
-      "published": "2026-10-17",
-      "body_snippet": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力 新浪新闻_手机新浪网",
-      "_query_boost": 45
-    },
-    {
-      "id": "raw-011",
-      "title": "万兆入楼 算力下沉 新一代通信网焕新“未来社区” - 人工智能",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4Uk5iTlRXMXZuVlBZWTB2WUY1WEVzQ2pjemtiY1YyZW5EUHRXWXc5ZUpmRk0tZGlWdUVXcGtab1k0WVZHNGJsZE96YXNrNWdnOFE?oc=5",
-      "source": "人工智能",
-      "category": "政策",
-      "published": "2026-10-21",
-      "body_snippet": "万兆入楼 算力下沉 新一代通信网焕新“未来社区” 人工智能",
+      "id": "raw-008",
+      "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ - 华人头条",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZlFzTGdVZk1tN3dSQ0RvX0VOSWNEM0VuZm5EZnpScjFBNmJFMWwtVjFKdDI4Q3VRdzk4cTZ1eHV4NjdIamhkZ3luVlhTLXNQNmx1NnZ4aHNKVlJ4cVBZN2NjWjl6aFE5R1U1SVJhN1pWS2hyaUlUbDc5UFBYLWdHZE5jaFNKNGpxYWc?oc=5",
+      "source": "华人头条",
+      "category": "监管",
+      "published": "2026-10-22",
+      "body_snippet": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ 华人头条",
       "_query_boost": 25
     },
     {
-      "id": "raw-012",
+      "id": "raw-009",
       "title": "工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% - 新京报",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQaUpEeC0tY0JqR1F0QXNILXQ3Wm4zaXh1SmNnXzlOU1BhZnp2QTM2Sy1kUDFxd1RiNjQtMUZaMTRObzJjeE9HMGJUUTBYakRVOW9TcEs1Y3lTVzdCaG84Z2R3?oc=5",
       "source": "新京报",
@@ -127,7 +98,7 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-013",
+      "id": "raw-010",
       "title": "三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万P - 成都市委统战部",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVEhKNVpqcXZsTkJBMHd6dzVzSzJNMmVRU0lfOHdYUEpxOVdQZjNLWGNrT3ZaWjVJZVRUNWRfQzB3MkwyekRIVWNiU0hpcXZKLXF5clE5Y2o2Sl81VGhicEFtSXF0bGc3aThmbFNRckdWbUVWVWJ5cGJKRlZ1OVNtSU93VHpwVjJPSEdBbnA5N2FSV1ZHalRsaktqVk1MZzNkU0VN?oc=5",
       "source": "成都市委统战部",
@@ -137,14 +108,41 @@
       "_query_boost": 30
     },
     {
+      "id": "raw-011",
+      "title": "“跳”进百姓晨昏 “跃”动产业文化 2026年上海国际跳绳精英赛在宝山启幕",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261024/63bbc2622f3f44f6b9ac8d79df8d57ca.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-24",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-012",
+      "title": "咖啡行业标准在沪发布 构建全产业链价值评价与流通标准体系 沪滇全链路合作 “云咖”有了“身份证”",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261024/c87f497aa0ae420a837826fc545f877a.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-24",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-013",
+      "title": "硅基流动拟赴港上市“Token工厂”是门好生意吗？ - finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0blp3eTNuRThKLV9YM2RsRW5YSGV2U05aLXlOd0s2WWRncGU2VGdOMWVpUTh5djZoWGY3Y094U05fRTduQzRBYUtCbi1RaVRWUHZHX0Q1SDlUNndNVGdQaHhtZzA5emNBbl9lSzRBMkxmcUdXYjYyXw?oc=5",
+      "source": "finance.sina.com.cn",
+      "category": "竞品",
+      "published": "2026-10-22",
+      "body_snippet": "硅基流动拟赴港上市“Token工厂”是门好生意吗？ finance.sina.com.cn",
+      "_query_boost": 20
+    },
+    {
       "id": "raw-014",
-      "title": "習近平赴內蒙古考察 要求搞好「算力中心」建設 - 世界新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUzdUQXVrNGdRRjNLQmpJSUlBeWNVZWVPSUpCaWlFVmR1MXNMRnc3Mk5mRG1mZXB4Y2ZiamJ4eHE4VlA2aU1LWW1UY2tXLTQ2aWxuemsxT2ZQUmJPRlVhWmdDSGUwVU1wZkpxcG00WUJwUzR0Rk5ucDFiS0E2VmFvcElzNl9mVHQzMWfSAWdBVV95cUxOX3d4SElzQzNiX0c0WHBPMWFoc1ZqNEczTjFBOFdNbU4zWlRkcjBOT2wxX3lKMTdoNWMwSUlwR2RIWlpqWlA1bzZ2UmJXSm5JYTZnLS0tSTlBdDVfaG02RGtHZjVSMUNN?oc=5",
-      "source": "世界新聞網",
-      "category": "政策",
-      "published": "2026-10-17",
-      "body_snippet": "習近平赴內蒙古考察 要求搞好「算力中心」建設 世界新聞網",
-      "_query_boost": 30
+      "title": "What some of Anthropic’s backers are worth before its IPO",
+      "url": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
+      "source": "TechCrunch",
+      "published": "2026-10-23",
+      "body_snippet": "",
+      "category": "资本"
     },
     {
       "id": "raw-015",
