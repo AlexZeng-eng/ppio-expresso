@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T05:00:56.970Z",
-  "date": "2026-10-24",
-  "date_label": "2026-10-24",
+  "generated_at": "2026-10-25T05:15:46.979Z",
+  "date": "2026-10-25",
+  "date_label": "2026-10-25",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 1,
     "📜": 0,
     "⚔️": 0,
-    "💰": 2,
-    "🌏": 0,
+    "💰": 1,
+    "🌏": 1,
     "🔬": 4
   },
   "speed_read": {
@@ -19,7 +19,7 @@
     "policy_heat": 3,
     "competitor_heat": 2,
     "capital_heat": 3,
-    "overseas_heat": 2,
+    "overseas_heat": 3,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
@@ -56,14 +56,6 @@
       "competition_axis": 0.1,
       "impact_score": 4,
       "axis_reason": "规则估算"
-    },
-    {
-      "id": "5",
-      "title": "工信部：到2028年城域算力1毫秒时延圈",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
     }
   ],
   "ppio_index": {
@@ -72,9 +64,9 @@
     "components": {
       "policy_tailwind": 8,
       "competitive_pressure": 0,
-      "capital_sentiment": 10,
+      "capital_sentiment": 5,
       "regulatory_risk": 0,
-      "overseas_headwind": 0
+      "overseas_headwind": -4
     },
     "interpretation": "规则估算，仅供参考"
   },

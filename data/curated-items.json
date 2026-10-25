@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-24T05:00:56.944Z",
+  "generated_at": "2026-10-25T05:15:46.943Z",
   "week": "2026-W44",
   "classifier": "rule-based",
   "total_raw": 15,
   "total_curated": 9,
-  "attend_count": 5,
-  "silent_count": 4,
+  "attend_count": 4,
+  "silent_count": 5,
   "items": [
     {
       "id": "raw-001",
@@ -93,13 +93,13 @@
     },
     {
       "id": "raw-007",
-      "title": "发展中国的“算力高铁” - 川观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9HMm5YWGJ6Y1JLdlB1aUtGUlRpMkh3RjBPRmlGd3VNX2JjSnJETjRNUExwWWtabC1HbHladHlPb0l4X3hveDJpM1NETjk0Zw?oc=5",
-      "source": "川观新闻",
-      "category": "政策",
+      "title": "从“算力”到“Token 生产力”，硅基流动助力央国企大模型规模化落地 - 雷峰网",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9EUEhVQ0VqOXJIVTVTTWVuUk1lVC1md3lXOVNJSlpMdWtWZW5paXZTZXhJRlQtS3pKeGxQY2YxUmpSRXd1RWxYdjJ3Qk43UlVsb3RuRVVBUFdtX3VOQzcxQndHX1pIMlQwaEQxWDc3Y2hwRnpMTEUw?oc=5",
+      "source": "雷峰网",
+      "category": "竞品",
       "published": "2026-10-23",
-      "body_snippet": "发展中国的“算力高铁” 川观新闻",
-      "_query_boost": 30,
+      "body_snippet": "从“算力”到“Token 生产力”，硅基流动助力央国企大模型规模化落地 雷峰网",
+      "_query_boost": 20,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -110,12 +110,35 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "发展中国的“算力高铁” - 川观新闻 发展中国的“算力高铁” 川观新闻",
+      "summary_cn": "从“算力”到“Token 生产力”，硅基流动助力央国企大模型规模化落地 - 雷峰网 从“算力”到“Token 生产力”，硅基流动助力央国企大模型规模化落地 雷峰",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-008",
+      "id": "raw-009",
+      "title": "美出口管制下英伟达芯片在中国黑市价格翻倍 - 朝鮮日報中文版",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVHRlWVExVklCb3NDN1RNc0d1SlNmdUxqOUJvX1R1bDRfYmVqc0JTV3Z5SU1FLUJyOEl5RjljZURFMmsyS0J6SE1MTkRkYUdOZ3pXUENHVjQ2Z2Vtei1rbzM2Wm9wdVMxME5BT1hEXzBaWjl2Yjgxd3JqWDVBVEQ0Ul9IM0ZMRkM1YXM4WHk2dVgtQQ?oc=5",
+      "source": "朝鮮日報中文版",
+      "category": "海外",
+      "published": "2026-10-24",
+      "body_snippet": "美出口管制下英伟达芯片在中国黑市价格翻倍 朝鮮日報中文版",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🌏"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "美出口管制下英伟达芯片在中国黑市价格翻倍 - 朝鮮日報中文版 美出口管制下英伟达芯片在中国黑市价格翻倍 朝鮮日報中文版",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
       "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ - 华人头条",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZlFzTGdVZk1tN3dSQ0RvX0VOSWNEM0VuZm5EZnpScjFBNmJFMWwtVjFKdDI4Q3VRdzk4cTZ1eHV4NjdIamhkZ3luVlhTLXNQNmx1NnZ4aHNKVlJ4cVBZN2NjWjl6aFE5R1U1SVJhN1pWS2hyaUlUbDc5UFBYLWdHZE5jaFNKNGpxYWc?oc=5",
       "source": "华人头条",
@@ -143,42 +166,14 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
-      "title": "工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% - 新京报",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQaUpEeC0tY0JqR1F0QXNILXQ3Wm4zaXh1SmNnXzlOU1BhZnp2QTM2Sy1kUDFxd1RiNjQtMUZaMTRObzJjeE9HMGJUUTBYakRVOW9TcEs1Y3lTVzdCaG84Z2R3?oc=5",
-      "source": "新京报",
+      "id": "raw-011",
+      "title": "万兆入楼 算力下沉 新一代通信网焕新“未来社区” - icloudnews.net",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4Uk5iTlRXMXZuVlBZWTB2WUY1WEVzQ2pjemtiY1YyZW5EUHRXWXc5ZUpmRk0tZGlWdUVXcGtab1k0WVZHNGJsZE96YXNrNWdnOFE?oc=5",
+      "source": "icloudnews.net",
       "category": "政策",
-      "published": "2026-10-20",
-      "body_snippet": "工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% 新京报",
-      "_query_boost": 30,
-      "lane": "attend",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "到2028年城域算力1毫秒时延圈覆盖率不低于75% - 新京报 工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% 新京报",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-010",
-      "title": "三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万P - 成都市委统战部",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVEhKNVpqcXZsTkJBMHd6dzVzSzJNMmVRU0lfOHdYUEpxOVdQZjNLWGNrT3ZaWjVJZVRUNWRfQzB3MkwyekRIVWNiU0hpcXZKLXF5clE5Y2o2Sl81VGhicEFtSXF0bGc3aThmbFNRckdWbUVWVWJ5cGJKRlZ1OVNtSU93VHpwVjJPSEdBbnA5N2FSV1ZHalRsaktqVk1MZzNkU0VN?oc=5",
-      "source": "成都市委统战部",
-      "category": "政策",
-      "published": "2026-10-19",
-      "body_snippet": "三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万P 成都市委统战部",
-      "_query_boost": 30,
+      "published": "2026-10-21",
+      "body_snippet": "万兆入楼 算力下沉 新一代通信网焕新“未来社区” icloudnews.net",
+      "_query_boost": 25,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -189,35 +184,35 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万P - 成都市委统战部 三力协同 织密成都算力网 已建成算力中心41个 投运算力总规模约3万",
+      "summary_cn": "万兆入楼 算力下沉 新一代通信网焕新“未来社区” - icloudnews.net 万兆入楼 算力下沉 新一代通信网焕新“未来社区” icloudnews.ne",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-012",
+      "title": "时政微观察丨内蒙古之行，总书记考察算力产业有何深意？ - 新浪新闻_手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1neVVWb09uV3hiQ2NyQjhVSDFFSTdPYm5yNkxOSkVKeUpzSl9lWkp1V0phSWNVX3piUTlPeGxZWTJ2SXp4TG1JV3VjVGotcVo5WHRuMGoyUk1menM2aDhNZDVGd2RiQ0ctUWtCcks1ZHBtX3RCMV9tWg?oc=5",
+      "source": "新浪新闻_手机新浪网",
+      "category": "政策",
+      "published": "2026-10-19",
+      "body_snippet": "时政微观察丨内蒙古之行，总书记考察算力产业有何深意？ 新浪新闻_手机新浪网",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "时政微观察丨内蒙古之行，总书记考察算力产业有何深意？ - 新浪新闻_手机新浪网 时政微观察丨内蒙古之行，总书记考察算力产业有何深意？ 新浪新闻_手机新浪网",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-013",
-      "title": "硅基流动拟赴港上市“Token工厂”是门好生意吗？ - finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0blp3eTNuRThKLV9YM2RsRW5YSGV2U05aLXlOd0s2WWRncGU2VGdOMWVpUTh5djZoWGY3Y094U05fRTduQzRBYUtCbi1RaVRWUHZHX0Q1SDlUNndNVGdQaHhtZzA5emNBbl9lSzRBMkxmcUdXYjYyXw?oc=5",
-      "source": "finance.sina.com.cn",
-      "category": "竞品",
-      "published": "2026-10-22",
-      "body_snippet": "硅基流动拟赴港上市“Token工厂”是门好生意吗？ finance.sina.com.cn",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "硅基流动拟赴港上市“Token工厂”是门好生意吗？ - finance.sina.com.cn 硅基流动拟赴港上市“Token工厂”是门好生意吗？ financ",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-014",
       "title": "What some of Anthropic’s backers are worth before its IPO",
       "url": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
       "source": "TechCrunch",
