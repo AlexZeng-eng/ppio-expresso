@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-25T05:15:46.853Z",
+  "generated_at": "2026-10-26T05:16:00.846Z",
   "week": "2026-W44",
   "date_range": {
-    "from": "2026-10-18",
-    "to": "2026-10-25"
+    "from": "2026-10-19",
+    "to": "2026-10-26"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -20,13 +20,12 @@
     },
     {
       "id": "raw-002",
-      "title": "字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 - 搜狐",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcVpyQ21NenJKM3BKVUszZW84NWtfdEdxT3dReTdQaE41MG9NQjhNTF84RV9hQnR2SXBHWnNmMDNGRnZOWDdJOVBvYVM4dDRLN19yNHZVaWZBbGZ0OHA0LWRPZ1pHNncxc25LQjhkek1QdHgzXzFobVBodlRmMXFpeDlzLXJ0VWtL?oc=5",
-      "source": "搜狐",
-      "category": "竞品",
-      "published": "2026-10-19",
-      "body_snippet": "字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 搜狐",
-      "_query_boost": 15
+      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
+      "source": "工信部-新闻",
+      "published": "2026-10-26",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-003",
@@ -40,35 +39,26 @@
     },
     {
       "id": "raw-004",
-      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
-      "source": "工信部-新闻",
-      "published": "2026-10-25",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNDJuTHdHWTYxMHBkN1k2Y3hveXlyTlBmekZYRGg3NWdyMkwxLVpxbHMybXJDNHMtLTVKd3ZBSUQ1MlBzeXdqLWZCUThaTjhTVUQ3RlJlQlljbVFMbHNVYWFPYl9McGpJZzMtU3dfeUNZeHBXQzBKa1VUdFRjclRabEs0Y2VVUmpucTlDYU4zRQ?oc=5",
+      "source": "手机新浪网",
+      "category": "政策",
+      "published": "2026-10-26",
+      "body_snippet": "2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 手机新浪网",
+      "_query_boost": 25
     },
     {
       "id": "raw-005",
-      "title": "丁薛祥在河北雄安新区出席国家数据集团有限公司成立大会并调研 - 新京报",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9kSlBwWlhKQXRwNVZ0dEU3a0hUNHJud3NxUFQ1Q2xVMndYc0ktbkNFNGlIdXB3Q1pZSFVJMmdjSTg1clNHbEl5UEF2M3VGTkV6YlhfV3Qxc1dDeGI4enVPd0ZuZTM?oc=5",
+      "title": "工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQaUpEeC0tY0JqR1F0QXNILXQ3Wm4zaXh1SmNnXzlOU1BhZnp2QTM2Sy1kUDFxd1RiNjQtMUZaMTRObzJjeE9HMGJUUTBYakRVOW9TcEs1Y3lTVzdCaG84Z2R3?oc=5",
       "source": "新京报",
       "category": "政策",
       "published": "2026-10-20",
-      "body_snippet": "丁薛祥在河北雄安新区出席国家数据集团有限公司成立大会并调研 新京报",
-      "_query_boost": 45
+      "body_snippet": "工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% 新京报",
+      "_query_boost": 30
     },
     {
       "id": "raw-006",
-      "title": "“六张网”布局里的中国之治（一见） - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMmw5ZjhQekRiNHhmZmUwYlF3b0VrTFJaSGliamJOejhMS3NiNWppYUp2M0lyZFUyWl9VVHhnYW5yT3FCaVhwTWNhVXVnTVhwMm0yc0k5TEJKVDJYWm9jUEowUmw0bEVtTFRCVE11Y3ZNVDNQeGo3UzV5THBlcHNJSWVDSk9QSzh6WERn?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-10-19",
-      "body_snippet": "“六张网”布局里的中国之治（一见） 新浪财经",
-      "_query_boost": 45
-    },
-    {
-      "id": "raw-007",
       "title": "从“算力”到“Token 生产力”，硅基流动助力央国企大模型规模化落地 - 雷峰网",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9EUEhVQ0VqOXJIVTVTTWVuUk1lVC1md3lXOVNJSlpMdWtWZW5paXZTZXhJRlQtS3pKeGxQY2YxUmpSRXd1RWxYdjJ3Qk43UlVsb3RuRVVBUFdtX3VOQzcxQndHX1pIMlQwaEQxWDc3Y2hwRnpMTEUw?oc=5",
       "source": "雷峰网",
@@ -78,16 +68,35 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-008",
-      "title": "金融创新破解“一人公司”贷款难 不看厂房看订单",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261025/0a85955f213f4f9ea1a7d97519e451fa.html",
+      "id": "raw-007",
+      "title": "陆家嘴将为市民腾出新的公共空间 小陆家嘴商务单元更新提升规划公布 重点打造明珠广场和陆家嘴云廊",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261026/6ec2411da6db40b6846b2979f4587f9e.html",
       "source": "上海市政府-动态",
-      "published": "2026-10-25",
+      "published": "2026-10-26",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-008",
+      "title": "不再“摆展品” 产业链搬进“四叶草” 进博会临港展示区集中100余家境外企业 汇集明星展品150余项 参展体量再攀新高",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261026/97e7c63b51c541c9a5d18add608c0835.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-26",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-009",
+      "title": "软银孙正义拟在马国投资500亿美元 发展AI与数据中心 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0wSGhta2p1aWtlcnBwdkItWWFDNHpKWmxJX0tsVnBoTnczMGl5UEo1Um8taWN6ZjgwaVF4dDFqTG1Bem5uY0RvM1R4OWZwbjA5b0xBU1FXZTRqWG5GblZ4WHR0NW1McUItVVJPV0Vn?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-10-26",
+      "body_snippet": "软银孙正义拟在马国投资500亿美元 发展AI与数据中心 联合早报",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-010",
       "title": "美出口管制下英伟达芯片在中国黑市价格翻倍 - 朝鮮日報中文版",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVHRlWVExVklCb3NDN1RNc0d1SlNmdUxqOUJvX1R1bDRfYmVqc0JTV3Z5SU1FLUJyOEl5RjljZURFMmsyS0J6SE1MTkRkYUdOZ3pXUENHVjQ2Z2Vtei1rbzM2Wm9wdVMxME5BT1hEXzBaWjl2Yjgxd3JqWDVBVEQ0Ul9IM0ZMRkM1YXM4WHk2dVgtQQ?oc=5",
       "source": "朝鮮日報中文版",
@@ -95,16 +104,6 @@
       "published": "2026-10-24",
       "body_snippet": "美出口管制下英伟达芯片在中国黑市价格翻倍 朝鮮日報中文版",
       "_query_boost": 0
-    },
-    {
-      "id": "raw-010",
-      "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ - 华人头条",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZlFzTGdVZk1tN3dSQ0RvX0VOSWNEM0VuZm5EZnpScjFBNmJFMWwtVjFKdDI4Q3VRdzk4cTZ1eHV4NjdIamhkZ3luVlhTLXNQNmx1NnZ4aHNKVlJ4cVBZN2NjWjl6aFE5R1U1SVJhN1pWS2hyaUlUbDc5UFBYLWdHZE5jaFNKNGpxYWc?oc=5",
-      "source": "华人头条",
-      "category": "监管",
-      "published": "2026-10-22",
-      "body_snippet": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ 华人头条",
-      "_query_boost": 25
     },
     {
       "id": "raw-011",
@@ -118,22 +117,22 @@
     },
     {
       "id": "raw-012",
-      "title": "时政微观察丨内蒙古之行，总书记考察算力产业有何深意？ - 新浪新闻_手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1neVVWb09uV3hiQ2NyQjhVSDFFSTdPYm5yNkxOSkVKeUpzSl9lWkp1V0phSWNVX3piUTlPeGxZWTJ2SXp4TG1JV3VjVGotcVo5WHRuMGoyUk1menM2aDhNZDVGd2RiQ0ctUWtCcks1ZHBtX3RCMV9tWg?oc=5",
-      "source": "新浪新闻_手机新浪网",
+      "title": "丁薛祥在河北雄安新区出席国家数据集团有限公司成立大会并调研 - 人民日报",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01VmdwT2JqV3JzSWh3Y3ZSOXk3d3JTWXlHbTFaR2pPMW84cXpWUFdoYXE2R2hpeXp0RjV5V3NQMVlXSHo1eEdhZExERWJ5WEpCajVseFdvQU5RQzl2Q2pRYzNPWHNzRnpIWWNYRFhuMmY3dG8zNGd6OEZfT3BQNVE?oc=5",
+      "source": "人民日报",
       "category": "政策",
-      "published": "2026-10-19",
-      "body_snippet": "时政微观察丨内蒙古之行，总书记考察算力产业有何深意？ 新浪新闻_手机新浪网",
-      "_query_boost": 25
+      "published": "2026-10-20",
+      "body_snippet": "丁薛祥在河北雄安新区出席国家数据集团有限公司成立大会并调研 人民日报",
+      "_query_boost": 0
     },
     {
       "id": "raw-013",
-      "title": "What some of Anthropic’s backers are worth before its IPO",
-      "url": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
-      "source": "TechCrunch",
-      "published": "2026-10-23",
-      "body_snippet": "",
-      "category": "资本"
+      "title": "Aivres NVIDIA Vera Rubin and HGX B300 at OCP Summit",
+      "url": "https://www.servethehome.com/aivres-nvidia-vera-rubin-and-hgx-b300-at-ocp-summit-2026/",
+      "source": "ServeTheHome",
+      "published": "2026-10-25",
+      "body_snippet": "Aivres NVIDIA Vera Rubin and HGX B300 at OCP Summit / ServeTheHome",
+      "category": "技术"
     },
     {
       "id": "raw-014",

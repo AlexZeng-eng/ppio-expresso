@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-25T05:15:46.943Z",
+  "generated_at": "2026-10-26T05:16:00.936Z",
   "week": "2026-W44",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 9,
-  "attend_count": 4,
-  "silent_count": 5,
+  "total_curated": 7,
+  "attend_count": 3,
+  "silent_count": 4,
   "items": [
     {
       "id": "raw-001",
@@ -27,34 +27,6 @@
         "c3"
       ],
       "summary_cn": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - content.foshanplus.com 习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 content.foshanplus.com",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-002",
-      "title": "字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 - 搜狐",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcVpyQ21NenJKM3BKVUszZW84NWtfdEdxT3dReTdQaE41MG9NQjhNTF84RV9hQnR2SXBHWnNmMDNGRnZOWDdJOVBvYVM4dDRLN19yNHZVaWZBbGZ0OHA0LWRPZ1pHNncxc25LQjhkek1QdHgzXzFobVBodlRmMXFpeDlzLXJ0VWtL?oc=5",
-      "source": "搜狐",
-      "category": "竞品",
-      "published": "2026-10-19",
-      "body_snippet": "字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 搜狐",
-      "_query_boost": 15,
-      "lane": "attend",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 - 搜狐 字节跳动洽购联发科定制芯片 ASIC竞逐数据中心算力新主场 搜狐",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -92,7 +64,58 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-007",
+      "id": "raw-004",
+      "title": "2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNDJuTHdHWTYxMHBkN1k2Y3hveXlyTlBmekZYRGg3NWdyMkwxLVpxbHMybXJDNHMtLTVKd3ZBSUQ1MlBzeXdqLWZCUThaTjhTVUQ3RlJlQlljbVFMbHNVYWFPYl9McGpJZzMtU3dfeUNZeHBXQzBKa1VUdFRjclRabEs0Y2VVUmpucTlDYU4zRQ?oc=5",
+      "source": "手机新浪网",
+      "category": "政策",
+      "published": "2026-10-26",
+      "body_snippet": "2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 手机新浪网",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 - 手机新浪网 2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 手机新浪",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
+      "title": "工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQaUpEeC0tY0JqR1F0QXNILXQ3Wm4zaXh1SmNnXzlOU1BhZnp2QTM2Sy1kUDFxd1RiNjQtMUZaMTRObzJjeE9HMGJUUTBYakRVOW9TcEs1Y3lTVzdCaG84Z2R3?oc=5",
+      "source": "新京报",
+      "category": "政策",
+      "published": "2026-10-20",
+      "body_snippet": "工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% 新京报",
+      "_query_boost": 30,
+      "lane": "attend",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "到2028年城域算力1毫秒时延圈覆盖率不低于75% - 新京报 工信部：到2028年城域算力1毫秒时延圈覆盖率不低于75% 新京报",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-006",
       "title": "从“算力”到“Token 生产力”，硅基流动助力央国企大模型规模化落地 - 雷峰网",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9EUEhVQ0VqOXJIVTVTTWVuUk1lVC1md3lXOVNJSlpMdWtWZW5paXZTZXhJRlQtS3pKeGxQY2YxUmpSRXd1RWxYdjJ3Qk43UlVsb3RuRVVBUFdtX3VOQzcxQndHX1pIMlQwaEQxWDc3Y2hwRnpMTEUw?oc=5",
       "source": "雷峰网",
@@ -115,7 +138,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
+      "id": "raw-010",
       "title": "美出口管制下英伟达芯片在中国黑市价格翻倍 - 朝鮮日報中文版",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVHRlWVExVklCb3NDN1RNc0d1SlNmdUxqOUJvX1R1bDRfYmVqc0JTV3Z5SU1FLUJyOEl5RjljZURFMmsyS0J6SE1MTkRkYUdOZ3pXUENHVjQ2Z2Vtei1rbzM2Wm9wdVMxME5BT1hEXzBaWjl2Yjgxd3JqWDVBVEQ0Ul9IM0ZMRkM1YXM4WHk2dVgtQQ?oc=5",
       "source": "朝鮮日報中文版",
@@ -138,34 +161,6 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-010",
-      "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ - 华人头条",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZlFzTGdVZk1tN3dSQ0RvX0VOSWNEM0VuZm5EZnpScjFBNmJFMWwtVjFKdDI4Q3VRdzk4cTZ1eHV4NjdIamhkZ3luVlhTLXNQNmx1NnZ4aHNKVlJ4cVBZN2NjWjl6aFE5R1U1SVJhN1pWS2hyaUlUbDc5UFBYLWdHZE5jaFNKNGpxYWc?oc=5",
-      "source": "华人头条",
-      "category": "监管",
-      "published": "2026-10-22",
-      "body_snippet": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ 华人头条",
-      "_query_boost": 25,
-      "lane": "attend",
-      "signals": [
-        "🏛️"
-      ],
-      "is_deep_read": true,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "837号令来了，出海为何需重新审视？ - 华人头条 国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ 华人头条",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
       "id": "raw-011",
       "title": "万兆入楼 算力下沉 新一代通信网焕新“未来社区” - icloudnews.net",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4Uk5iTlRXMXZuVlBZWTB2WUY1WEVzQ2pjemtiY1YyZW5EUHRXWXc5ZUpmRk0tZGlWdUVXcGtab1k0WVZHNGJsZE96YXNrNWdnOFE?oc=5",
@@ -185,51 +180,6 @@
         "c3"
       ],
       "summary_cn": "万兆入楼 算力下沉 新一代通信网焕新“未来社区” - icloudnews.net 万兆入楼 算力下沉 新一代通信网焕新“未来社区” icloudnews.ne",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "时政微观察丨内蒙古之行，总书记考察算力产业有何深意？ - 新浪新闻_手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1neVVWb09uV3hiQ2NyQjhVSDFFSTdPYm5yNkxOSkVKeUpzSl9lWkp1V0phSWNVX3piUTlPeGxZWTJ2SXp4TG1JV3VjVGotcVo5WHRuMGoyUk1menM2aDhNZDVGd2RiQ0ctUWtCcks1ZHBtX3RCMV9tWg?oc=5",
-      "source": "新浪新闻_手机新浪网",
-      "category": "政策",
-      "published": "2026-10-19",
-      "body_snippet": "时政微观察丨内蒙古之行，总书记考察算力产业有何深意？ 新浪新闻_手机新浪网",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "时政微观察丨内蒙古之行，总书记考察算力产业有何深意？ - 新浪新闻_手机新浪网 时政微观察丨内蒙古之行，总书记考察算力产业有何深意？ 新浪新闻_手机新浪网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-013",
-      "title": "What some of Anthropic’s backers are worth before its IPO",
-      "url": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
-      "source": "TechCrunch",
-      "published": "2026-10-23",
-      "body_snippet": "",
-      "category": "资本",
-      "lane": "silent",
-      "signals": [
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "What some of Anthropic’s backers are worth before its IPO ",
       "ppio_signal": null,
       "_classified_by": "rule"
     }
