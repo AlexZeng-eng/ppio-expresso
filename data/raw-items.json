@@ -1,15 +1,51 @@
 {
-  "generated_at": "2026-10-28T06:16:00.603Z",
+  "generated_at": "2026-10-29T06:26:17.719Z",
   "week": "2026-W44",
   "date_range": {
-    "from": "2026-10-21",
-    "to": "2026-10-28"
+    "from": "2026-10-22",
+    "to": "2026-10-29"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
+      "title": "上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知",
+      "url": "https://www.shanghai.gov.cn/zhengce/detail?businessId=ca10d092176d4e85a6c7ff181701513d&siteId=0001",
+      "source": "上海市发改委",
+      "published": "2026-10-29",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-002",
+      "title": "上海市“十五五”燃机项目专家优选评议工作公告",
+      "url": "https://fgw.sh.gov.cn/fgw_gsgg/20261028/45bc40c52bb24b86ab5bb22c90a8c877.html",
+      "source": "上海市发改委",
+      "published": "2026-10-28",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-003",
+      "title": "前三季度上海GDP增长5.5% 三大先导产业制造业产值同比增长17.1%",
+      "url": "https://fgw.sh.gov.cn/fgw_fzggdt/20261023/afe09282b46f4ccb873f611365676d08.html",
+      "source": "上海市发改委",
+      "published": "2026-10-23",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-004",
+      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
+      "source": "工信部-新闻",
+      "published": "2026-10-29",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-005",
       "title": "AI公司警告英国：一年内若不安抚民意，数据中心建设或面临抗议危机-智算中心 - 至顶网",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lZHRucFEwTVR4YU9weVYyb0g5S0M1UWFmekladnNlQmRMUlFITXZfUGpYcElyTDdnQ2k3eEZWRnRSdXBQd2R6V3BHdGdLcjA4bUdkUmxTSF9uUzBlWWdwbw?oc=5",
       "source": "至顶网",
@@ -19,7 +55,7 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-002",
+      "id": "raw-006",
       "title": "算力租赁三年反转：从H100一卡难求到智算中心闲置与租金暴跌 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9yWmRWOEpicU8tUzFjZ0ptX0lVVnMyMloxTVRObC0xSjRMSjJaajFpTktObkxnZ3FLNTg2c2Exd0JaM284emZudG5GX0FfREstVklUTA?oc=5",
       "source": "虎嗅",
@@ -29,47 +65,25 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-003",
-      "title": "筑牢数实融合底座，让共性能力像水电一样便捷可得 - 飞象网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94VjlGc000RGUxVi1Jb2pZNTZuN2NzVFRnMXFfWHQyNGY3bUZUYlVMczlxZjVsWmIxMjdVWGZyR0ZKaWVxUDBVUmFDdGhlbGd2cDBONVZrSzJpMVNpVXBj?oc=5",
-      "source": "飞象网",
-      "category": "监管",
-      "published": "2026-10-28",
-      "body_snippet": "筑牢数实融合底座，让共性能力像水电一样便捷可得 飞象网",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-004",
-      "title": "中兴通讯三季度逆势增长：算力、终端、出海三引擎对冲周期 - 飞象网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtcjVYYjRhUVBLc0wtejZ0ZWtOMDM1WEIzcHJNaVluckljemVtVmRuT0F0NjlWN29FeEhhaEJvZDRSV3dBNUJpenJDZ1FzeUVna3k1Xzg0OXR6S2UwVmtZ?oc=5",
-      "source": "飞象网",
-      "category": "竞品",
-      "published": "2026-10-28",
-      "body_snippet": "中兴通讯三季度逆势增长：算力、终端、出海三引擎对冲周期 飞象网",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-005",
-      "title": "从开源首个3D算力软件底座到“年度科创先锋”，清微智能如何成为中国新质引擎 - 手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92SENPU3hvUVNyQlcxUjl2MDU5ZE1SUWh5YS12Z0R3Um4xZ3kzYWdXR1BDa05QQ0FWY0hXZlVpV1ZsNG1IMUExSEFKUk44MkdXZUFuaGdEb3FqSFBKTjN2cmE5a2xELVFWTTlKUDk0N205VUNKcGlVYXdlc2Q4TmM?oc=5",
-      "source": "手机新浪网",
-      "category": "政策",
-      "published": "2026-10-27",
-      "body_snippet": "从开源首个3D算力软件底座到“年度科创先锋”，清微智能如何成为中国新质引擎 手机新浪网",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-006",
-      "title": "2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 - 手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNDJuTHdHWTYxMHBkN1k2Y3hveXlyTlBmekZYRGg3NWdyMkwxLVpxbHMybXJDNHMtLTVKd3ZBSUQ1MlBzeXdqLWZCUThaTjhTVUQ3RlJlQlljbVFMbHNVYWFPYl9McGpJZzMtU3dfeUNZeHBXQzBKa1VUdFRjclRabEs0Y2VVUmpucTlDYU4zRQ?oc=5",
-      "source": "手机新浪网",
-      "category": "政策",
-      "published": "2026-10-26",
-      "body_snippet": "2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 手机新浪网",
-      "_query_boost": 25
-    },
-    {
       "id": "raw-007",
+      "title": "与上海科教、服务和市场优势结合 形成链式协同、跨城共享和市场联动 沿沪宁产业创新带连接百强县",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261029/76be6c08a96f416b9aaa24bc1ab68a34.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-29",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-008",
+      "title": "青浦交易分团集结3464家采购单位 规模再创新高 抓住进博客流 带动投资落地",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261029/938b4485e0c94af09b02d130fc383d56.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-29",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-009",
       "title": "晚报|十五五规划定调 6G与算力提速 - 搜狐网",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQb3QzckhEV0E3LXZzbTBNajNUS2RjZkZNQ1lIRDZ0a3VENWk1ZFFpX2ZDN0M5NmtDNHpqYkJZYmxqWFhQTl84WkMyNWxFYUtFeVd3aFM2YnZCaHh5UnEzdHRrZHVSd2Y1Y2p1VTZZdkRleExVaklNd181TkRhZ2VGN0JxWVBxc2Ew?oc=5",
       "source": "搜狐网",
@@ -79,16 +93,27 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-008",
-      "title": "链主带动产业链抱团 政府全链条护航 虹桥一站式服务体系持续升级 从虹桥出发 “众行出海”闯全球",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261028/5f479f1644724f4f909ff5e83f608c59.html",
-      "source": "上海市政府-动态",
-      "published": "2026-10-28",
-      "body_snippet": "",
-      "category": "技术"
+      "id": "raw-010",
+      "title": "欧盟AI大模型发展面临投入、算力、能源与监管多重制约 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95cTlsdGI0TTBXTld1TElUamZwcnlYSGdaX2gyUENEWXQ5X1pucGNDaDRkY3lYbE42QWNMNWhRaktHYUlxZWp1V3h5aV9idDBfTHNOTg?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-10-27",
+      "body_snippet": "欧盟AI大模型发展面临投入、算力、能源与监管多重制约 虎嗅",
+      "_query_boost": 0
     },
     {
-      "id": "raw-009",
+      "id": "raw-011",
+      "title": "美国财政部拟议规则废除算力门槛，对华芯片管控逻辑面临调整 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5EY0RFMGRZRE9IanpBUVlmWmd3dUZJREJ6UDRCdzNkNkdTWEtyX0l1RkJMZjk4aXc4VS1RNzg4cXhOeVg2aG5oRnREVUdjN09OTDYyUw?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-10-29",
+      "body_snippet": "美国财政部拟议规则废除算力门槛，对华芯片管控逻辑面临调整 虎嗅",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-012",
       "title": "上海打造全球卫星互联网产业高地 “千帆星座”年内冲刺324颗在轨 力争具备商业化运行基本条件",
       "url": "https://www.shanghai.gov.cn/nw4411/20261028/774d00fd52e3455cad64d51f1dd4c482.html",
       "source": "上海市政府-动态",
@@ -97,51 +122,22 @@
       "category": "技术"
     },
     {
-      "id": "raw-010",
-      "title": "Anthropic S-1 披露算力承诺明细：总额 5420 亿～5670 亿美元，SpaceX 至多 1205 亿 - 智源社区",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1aMkFmUjY1RDlxWS1ubC1jRUpRSnh2M1ZubnNpTGp5SFV5U0Z3ZlpaZE5zZkNIUUtjTWxJTnEwcFdqX3hjdkFKbg?oc=5",
-      "source": "智源社区",
-      "category": "海外",
-      "published": "2026-10-26",
-      "body_snippet": "Anthropic S-1 披露算力承诺明细：总额 5420 亿～5670 亿美元，SpaceX 至多 1205 亿 智源社区",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-011",
-      "title": "美出口管制下英伟达芯片在中国黑市价格翻倍 - 朝鮮日報中文版",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVHRlWVExVklCb3NDN1RNc0d1SlNmdUxqOUJvX1R1bDRfYmVqc0JTV3Z5SU1FLUJyOEl5RjljZURFMmsyS0J6SE1MTkRkYUdOZ3pXUENHVjQ2Z2Vtei1rbzM2Wm9wdVMxME5BT1hEXzBaWjl2Yjgxd3JqWDVBVEQ0Ul9IM0ZMRkM1YXM4WHk2dVgtQQ?oc=5",
-      "source": "朝鮮日報中文版",
-      "category": "海外",
-      "published": "2026-10-26",
-      "body_snippet": "美出口管制下英伟达芯片在中国黑市价格翻倍 朝鮮日報中文版",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-012",
-      "title": "VCs will make billions on Anthropic&#8217;s IPO, but Amazon is set to make much (much) more",
-      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-      "source": "TechCrunch",
-      "published": "2026-10-28",
-      "body_snippet": "",
-      "category": "资本"
-    },
-    {
       "id": "raw-013",
-      "title": "推动生物医药创新与合作 2026上海国际生物技术与医药研讨会暨浦江生物医药源头创新大会开幕",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261027/af7df75d7cea4f3eb22ded376f03e8d9.html",
+      "title": "链主带动产业链抱团 政府全链条护航 虹桥一站式服务体系持续升级 从虹桥出发 “众行出海”闯全球",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261028/5f479f1644724f4f909ff5e83f608c59.html",
       "source": "上海市政府-动态",
-      "published": "2026-10-27",
+      "published": "2026-10-28",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-014",
-      "title": "Who&#8217;s really in charge at Anthropic after the IPO?",
-      "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
-      "source": "TechCrunch",
-      "published": "2026-10-27",
+      "title": "关于组织申报智能电网国家科技重大专项专题攻关公开项目的通知",
+      "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20261028/c956023f49094f1a939b92ada9a8d61e.html",
+      "source": "上海市科委",
+      "published": "2026-10-28",
       "body_snippet": "",
-      "category": "资本"
+      "category": "技术"
     },
     {
       "id": "raw-015",
