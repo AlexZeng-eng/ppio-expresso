@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-29T06:26:17.785Z",
+  "generated_at": "2026-10-30T06:25:10.049Z",
   "week": "2026-W44",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 5,
-  "attend_count": 2,
-  "silent_count": 3,
+  "total_curated": 8,
+  "attend_count": 1,
+  "silent_count": 7,
   "items": [
     {
-      "id": "raw-005",
-      "title": "AI公司警告英国：一年内若不安抚民意，数据中心建设或面临抗议危机-智算中心 - 至顶网",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lZHRucFEwTVR4YU9weVYyb0g5S0M1UWFmekladnNlQmRMUlFITXZfUGpYcElyTDdnQ2k3eEZWRnRSdXBQd2R6V3BHdGdLcjA4bUdkUmxTSF9uUzBlWWdwbw?oc=5",
-      "source": "至顶网",
-      "category": "海外",
-      "published": "2026-10-23",
-      "body_snippet": "AI公司警告英国：一年内若不安抚民意，数据中心建设或面临抗议危机-智算中心 至顶网",
-      "_query_boost": 25,
-      "lane": "attend",
+      "id": "raw-002",
+      "title": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SaWU0d3ktRFpGNlgyd0g2TnphbmZ1XzJ2V25qLUNJcDJsRTk4TzA4UklTTVA3MGI3Y3JNVkFRaWRVMUN6MkFDTGlnTU14VmhuWlRTVjhLZUpGMEVhUHdrZE5ZM3NvTkdEQmV2bA?oc=5",
+      "source": "中华网",
+      "category": "技术",
+      "published": "2026-10-30",
+      "body_snippet": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 中华网",
+      "_query_boost": 0,
+      "lane": "silent",
       "signals": [
-        "—"
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -26,17 +26,35 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "一年内若不安抚民意，数据中心建设或面临抗议危机-智算中心 - 至顶网 AI公司警告英国：一年内若不安抚民意，数据中心建设或面临抗议危机-智算中心 至顶网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
+      "summary_cn": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 - 中华网 算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 中华网",
+      "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
+      "id": "raw-003",
+      "title": "宝信软件：利润在倒退，却批了25亿算力投资_滚动新闻_财经 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55MHctaXIxVUIzSng2VG9vSm1ScG1XOEx3TXVvamxiUW1fdUs5SHpUOEthaEVBelEyd2RRdmZhMDM1eUo0YW1pSmVKMldhNmRXNWNTSFVwd0Z6X1FyMWU3dg?oc=5",
+      "source": "证券之星",
+      "category": "政策",
+      "published": "2026-10-28",
+      "body_snippet": "宝信软件：利润在倒退，却批了25亿算力投资_滚动新闻_财经 证券之星",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "宝信软件：利润在倒退，却批了25亿算力投资_滚动新闻_财经 - 证券之星 宝信软件：利润在倒退，却批了25亿算力投资_滚动新闻_财经 证券之星",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-004",
       "title": "算力租赁三年反转：从H100一卡难求到智算中心闲置与租金暴跌 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9yWmRWOEpicU8tUzFjZ0ptX0lVVnMyMloxTVRObC0xSjRMSjJaajFpTktObkxnZ3FLNTg2c2Exd0JaM284emZudG5GX0FfREstVklUTA?oc=5",
       "source": "虎嗅",
@@ -59,13 +77,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
-      "title": "晚报|十五五规划定调 6G与算力提速 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQb3QzckhEV0E3LXZzbTBNajNUS2RjZkZNQ1lIRDZ0a3VENWk1ZFFpX2ZDN0M5NmtDNHpqYkJZYmxqWFhQTl84WkMyNWxFYUtFeVd3aFM2YnZCaHh5UnEzdHRrZHVSd2Y1Y2p1VTZZdkRleExVaklNd181TkRhZ2VGN0JxWVBxc2Ew?oc=5",
-      "source": "搜狐网",
+      "id": "raw-008",
+      "title": "从开源首个3D算力软件底座到“年度科创先锋”，清微智能如何成为中国新质引擎 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92SENPU3hvUVNyQlcxUjl2MDU5ZE1SUWh5YS12Z0R3Um4xZ3kzYWdXR1BDa05QQ0FWY0hXZlVpV1ZsNG1IMUExSEFKUk44MkdXZUFuaGdEb3FqSFBKTjN2cmE5a2xELVFWTTlKUDk0N205VUNKcGlVYXdlc2Q4TmM?oc=5",
+      "source": "手机新浪网",
       "category": "政策",
-      "published": "2026-10-26",
-      "body_snippet": "晚报|十五五规划定调 6G与算力提速 搜狐网",
+      "published": "2026-10-27",
+      "body_snippet": "从开源首个3D算力软件底座到“年度科创先锋”，清微智能如何成为中国新质引擎 手机新浪网",
       "_query_boost": 25,
       "lane": "silent",
       "signals": [
@@ -77,22 +95,44 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "晚报|十五五规划定调 6G与算力提速 - 搜狐网 晚报|十五五规划定调 6G与算力提速 搜狐网",
+      "summary_cn": "从开源首个3D算力软件底座到“年度科创先锋”，清微智能如何成为中国新质引擎 - 手机新浪网 从开源首个3D算力软件底座到“年度科创先锋”，清微智能如何成为中国新",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-009",
+      "title": "2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNDJuTHdHWTYxMHBkN1k2Y3hveXlyTlBmekZYRGg3NWdyMkwxLVpxbHMybXJDNHMtLTVKd3ZBSUQ1MlBzeXdqLWZCUThaTjhTVUQ3RlJlQlljbVFMbHNVYWFPYl9McGpJZzMtU3dfeUNZeHBXQzBKa1VUdFRjclRabEs0Y2VVUmpucTlDYU4zRQ?oc=5",
+      "source": "手机新浪网",
+      "category": "政策",
+      "published": "2026-10-26",
+      "body_snippet": "2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 手机新浪网",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 - 手机新浪网 2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 手机新浪",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-010",
-      "title": "欧盟AI大模型发展面临投入、算力、能源与监管多重制约 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95cTlsdGI0TTBXTld1TElUamZwcnlYSGdaX2gyUENEWXQ5X1pucGNDaDRkY3lYbE42QWNMNWhRaktHYUlxZWp1V3h5aV9idDBfTHNOTg?oc=5",
-      "source": "虎嗅",
+      "title": "大模型产业竞争转向算力、云渠道与工作流交付 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11aG0zbTkxYzl2Sm1NRE5CZzlXVTFkV2E3cG9zZEZvZnNxeXhBWkRqZmZhZGpGcFNmOGJJa0dCTlV5UWlPblVKWjhCODJic1hXeHAyNA?oc=5",
+      "source": "虎嗅网",
       "category": "技术",
-      "published": "2026-10-27",
-      "body_snippet": "欧盟AI大模型发展面临投入、算力、能源与监管多重制约 虎嗅",
+      "published": "2026-10-29",
+      "body_snippet": "大模型产业竞争转向算力、云渠道与工作流交付 虎嗅网",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
-        "🌏",
         "🔬"
       ],
       "is_deep_read": false,
@@ -101,20 +141,20 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "欧盟AI大模型发展面临投入、算力、能源与监管多重制约 - 虎嗅 欧盟AI大模型发展面临投入、算力、能源与监管多重制约 虎嗅",
+      "summary_cn": "大模型产业竞争转向算力、云渠道与工作流交付 - 虎嗅网 大模型产业竞争转向算力、云渠道与工作流交付 虎嗅网",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-011",
-      "title": "美国财政部拟议规则废除算力门槛，对华芯片管控逻辑面临调整 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5EY0RFMGRZRE9IanpBUVlmWmd3dUZJREJ6UDRCdzNkNkdTWEtyX0l1RkJMZjk4aXc4VS1RNzg4cXhOeVg2aG5oRnREVUdjN09OTDYyUw?oc=5",
-      "source": "虎嗅",
+      "title": "中国大模型训练如何突破算力瓶颈 - 投资界",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DVnFWQ0tjSjhZQzdfakl4LWxtSFFkeHpBcUlsang5Qkw2MklHTEZKaG53M21YM3ZDNHpNUXJac004VTM1WGVGdlhjOUphZGFnb2VBdlZn?oc=5",
+      "source": "投资界",
       "category": "技术",
       "published": "2026-10-29",
-      "body_snippet": "美国财政部拟议规则废除算力门槛，对华芯片管控逻辑面临调整 虎嗅",
+      "body_snippet": "中国大模型训练如何突破算力瓶颈 投资界",
       "_query_boost": 0,
-      "lane": "attend",
+      "lane": "silent",
       "signals": [
         "🔬"
       ],
@@ -124,7 +164,29 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "美国财政部拟议规则废除算力门槛，对华芯片管控逻辑面临调整 - 虎嗅 美国财政部拟议规则废除算力门槛，对华芯片管控逻辑面临调整 虎嗅",
+      "summary_cn": "中国大模型训练如何突破算力瓶颈 - 投资界 中国大模型训练如何突破算力瓶颈 投资界",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-012",
+      "title": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
+      "url": "https://www.qbitai.com/2026/10/506662.html",
+      "source": "量子位",
+      "published": "2026-10-30",
+      "body_snippet": "",
+      "category": "竞品",
+      "lane": "attend",
+      "signals": [
+        "⚔️"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径 ",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",

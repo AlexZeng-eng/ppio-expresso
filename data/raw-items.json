@@ -1,61 +1,44 @@
 {
-  "generated_at": "2026-10-29T06:26:17.719Z",
+  "generated_at": "2026-10-30T06:25:09.964Z",
   "week": "2026-W44",
   "date_range": {
-    "from": "2026-10-22",
-    "to": "2026-10-29"
+    "from": "2026-10-23",
+    "to": "2026-10-30"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知",
-      "url": "https://www.shanghai.gov.cn/zhengce/detail?businessId=ca10d092176d4e85a6c7ff181701513d&siteId=0001",
-      "source": "上海市发改委",
-      "published": "2026-10-29",
+      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
+      "source": "工信部-新闻",
+      "published": "2026-10-30",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-002",
-      "title": "上海市“十五五”燃机项目专家优选评议工作公告",
-      "url": "https://fgw.sh.gov.cn/fgw_gsgg/20261028/45bc40c52bb24b86ab5bb22c90a8c877.html",
-      "source": "上海市发改委",
-      "published": "2026-10-28",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SaWU0d3ktRFpGNlgyd0g2TnphbmZ1XzJ2V25qLUNJcDJsRTk4TzA4UklTTVA3MGI3Y3JNVkFRaWRVMUN6MkFDTGlnTU14VmhuWlRTVjhLZUpGMEVhUHdrZE5ZM3NvTkdEQmV2bA?oc=5",
+      "source": "中华网",
+      "category": "技术",
+      "published": "2026-10-30",
+      "body_snippet": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 中华网",
+      "_query_boost": 0
     },
     {
       "id": "raw-003",
-      "title": "前三季度上海GDP增长5.5% 三大先导产业制造业产值同比增长17.1%",
-      "url": "https://fgw.sh.gov.cn/fgw_fzggdt/20261023/afe09282b46f4ccb873f611365676d08.html",
-      "source": "上海市发改委",
-      "published": "2026-10-23",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "宝信软件：利润在倒退，却批了25亿算力投资_滚动新闻_财经 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55MHctaXIxVUIzSng2VG9vSm1ScG1XOEx3TXVvamxiUW1fdUs5SHpUOEthaEVBelEyd2RRdmZhMDM1eUo0YW1pSmVKMldhNmRXNWNTSFVwd0Z6X1FyMWU3dg?oc=5",
+      "source": "证券之星",
+      "category": "政策",
+      "published": "2026-10-28",
+      "body_snippet": "宝信软件：利润在倒退，却批了25亿算力投资_滚动新闻_财经 证券之星",
+      "_query_boost": 20
     },
     {
       "id": "raw-004",
-      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
-      "source": "工信部-新闻",
-      "published": "2026-10-29",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-005",
-      "title": "AI公司警告英国：一年内若不安抚民意，数据中心建设或面临抗议危机-智算中心 - 至顶网",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lZHRucFEwTVR4YU9weVYyb0g5S0M1UWFmekladnNlQmRMUlFITXZfUGpYcElyTDdnQ2k3eEZWRnRSdXBQd2R6V3BHdGdLcjA4bUdkUmxTSF9uUzBlWWdwbw?oc=5",
-      "source": "至顶网",
-      "category": "海外",
-      "published": "2026-10-23",
-      "body_snippet": "AI公司警告英国：一年内若不安抚民意，数据中心建设或面临抗议危机-智算中心 至顶网",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-006",
       "title": "算力租赁三年反转：从H100一卡难求到智算中心闲置与租金暴跌 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9yWmRWOEpicU8tUzFjZ0ptX0lVVnMyMloxTVRObC0xSjRMSjJaajFpTktObkxnZ3FLNTg2c2Exd0JaM284emZudG5GX0FfREstVklUTA?oc=5",
       "source": "虎嗅",
@@ -65,16 +48,83 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-007",
-      "title": "与上海科教、服务和市场优势结合 形成链式协同、跨城共享和市场联动 沿沪宁产业创新带连接百强县",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261029/76be6c08a96f416b9aaa24bc1ab68a34.html",
+      "id": "raw-005",
+      "title": "上海发布行动方案加强统筹形成合力 三大专班共同构成服务组织保障 九大行动理清中小企业“千头万绪”",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261030/a57ee83395754c0f827d99a870ede441.html",
       "source": "上海市政府-动态",
-      "published": "2026-10-29",
+      "published": "2026-10-30",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-006",
+      "title": "虹桥枢纽网约车蓄车场投用 规划设置约250个停车位 还配置食堂、小卖部等",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261030/b33f8fd7f81748ceb43d34cfa4b8e97e.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-30",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-007",
+      "title": "人工智能专场招聘会带来700余岗位并上线AI“求职地图” 学生扫码即获精准岗位导航",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261030/6f8377106487435b8bbe67864389bf20.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-30",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-008",
+      "title": "从开源首个3D算力软件底座到“年度科创先锋”，清微智能如何成为中国新质引擎 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92SENPU3hvUVNyQlcxUjl2MDU5ZE1SUWh5YS12Z0R3Um4xZ3kzYWdXR1BDa05QQ0FWY0hXZlVpV1ZsNG1IMUExSEFKUk44MkdXZUFuaGdEb3FqSFBKTjN2cmE5a2xELVFWTTlKUDk0N205VUNKcGlVYXdlc2Q4TmM?oc=5",
+      "source": "手机新浪网",
+      "category": "政策",
+      "published": "2026-10-27",
+      "body_snippet": "从开源首个3D算力软件底座到“年度科创先锋”，清微智能如何成为中国新质引擎 手机新浪网",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-009",
+      "title": "2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNDJuTHdHWTYxMHBkN1k2Y3hveXlyTlBmekZYRGg3NWdyMkwxLVpxbHMybXJDNHMtLTVKd3ZBSUQ1MlBzeXdqLWZCUThaTjhTVUQ3RlJlQlljbVFMbHNVYWFPYl9McGpJZzMtU3dfeUNZeHBXQzBKa1VUdFRjclRabEs0Y2VVUmpucTlDYU4zRQ?oc=5",
+      "source": "手机新浪网",
+      "category": "政策",
+      "published": "2026-10-26",
+      "body_snippet": "2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 手机新浪网",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-010",
+      "title": "大模型产业竞争转向算力、云渠道与工作流交付 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11aG0zbTkxYzl2Sm1NRE5CZzlXVTFkV2E3cG9zZEZvZnNxeXhBWkRqZmZhZGpGcFNmOGJJa0dCTlV5UWlPblVKWjhCODJic1hXeHAyNA?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-29",
+      "body_snippet": "大模型产业竞争转向算力、云渠道与工作流交付 虎嗅网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-011",
+      "title": "中国大模型训练如何突破算力瓶颈 - 投资界",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DVnFWQ0tjSjhZQzdfakl4LWxtSFFkeHpBcUlsang5Qkw2MklHTEZKaG53M21YM3ZDNHpNUXJac004VTM1WGVGdlhjOUphZGFnb2VBdlZn?oc=5",
+      "source": "投资界",
+      "category": "技术",
+      "published": "2026-10-29",
+      "body_snippet": "中国大模型训练如何突破算力瓶颈 投资界",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-012",
+      "title": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
+      "url": "https://www.qbitai.com/2026/10/506662.html",
+      "source": "量子位",
+      "published": "2026-10-30",
+      "body_snippet": "",
+      "category": "竞品"
+    },
+    {
+      "id": "raw-013",
       "title": "青浦交易分团集结3464家采购单位 规模再创新高 抓住进博客流 带动投资落地",
       "url": "https://www.shanghai.gov.cn/nw4411/20261029/938b4485e0c94af09b02d130fc383d56.html",
       "source": "上海市政府-动态",
@@ -83,59 +133,11 @@
       "category": "技术"
     },
     {
-      "id": "raw-009",
-      "title": "晚报|十五五规划定调 6G与算力提速 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQb3QzckhEV0E3LXZzbTBNajNUS2RjZkZNQ1lIRDZ0a3VENWk1ZFFpX2ZDN0M5NmtDNHpqYkJZYmxqWFhQTl84WkMyNWxFYUtFeVd3aFM2YnZCaHh5UnEzdHRrZHVSd2Y1Y2p1VTZZdkRleExVaklNd181TkRhZ2VGN0JxWVBxc2Ew?oc=5",
-      "source": "搜狐网",
-      "category": "政策",
-      "published": "2026-10-26",
-      "body_snippet": "晚报|十五五规划定调 6G与算力提速 搜狐网",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-010",
-      "title": "欧盟AI大模型发展面临投入、算力、能源与监管多重制约 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95cTlsdGI0TTBXTld1TElUamZwcnlYSGdaX2gyUENEWXQ5X1pucGNDaDRkY3lYbE42QWNMNWhRaktHYUlxZWp1V3h5aV9idDBfTHNOTg?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-10-27",
-      "body_snippet": "欧盟AI大模型发展面临投入、算力、能源与监管多重制约 虎嗅",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-011",
-      "title": "美国财政部拟议规则废除算力门槛，对华芯片管控逻辑面临调整 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5EY0RFMGRZRE9IanpBUVlmWmd3dUZJREJ6UDRCdzNkNkdTWEtyX0l1RkJMZjk4aXc4VS1RNzg4cXhOeVg2aG5oRnREVUdjN09OTDYyUw?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-10-29",
-      "body_snippet": "美国财政部拟议规则废除算力门槛，对华芯片管控逻辑面临调整 虎嗅",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-012",
-      "title": "上海打造全球卫星互联网产业高地 “千帆星座”年内冲刺324颗在轨 力争具备商业化运行基本条件",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261028/774d00fd52e3455cad64d51f1dd4c482.html",
-      "source": "上海市政府-动态",
-      "published": "2026-10-28",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-013",
-      "title": "链主带动产业链抱团 政府全链条护航 虹桥一站式服务体系持续升级 从虹桥出发 “众行出海”闯全球",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261028/5f479f1644724f4f909ff5e83f608c59.html",
-      "source": "上海市政府-动态",
-      "published": "2026-10-28",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
       "id": "raw-014",
-      "title": "关于组织申报智能电网国家科技重大专项专题攻关公开项目的通知",
-      "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20261028/c956023f49094f1a939b92ada9a8d61e.html",
-      "source": "上海市科委",
-      "published": "2026-10-28",
+      "title": "与上海科教、服务和市场优势结合 形成链式协同、跨城共享和市场联动 沿沪宁产业创新带连接百强县",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261029/76be6c08a96f416b9aaa24bc1ab68a34.html",
+      "source": "上海市政府-动态",
+      "published": "2026-10-29",
       "body_snippet": "",
       "category": "技术"
     },
