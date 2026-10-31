@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-30T06:25:10.049Z",
-  "week": "2026-W44",
+  "generated_at": "2026-10-31T06:15:53.024Z",
+  "week": "2026-W45",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 8,
-  "attend_count": 1,
+  "total_curated": 7,
+  "attend_count": 0,
   "silent_count": 7,
   "items": [
     {
@@ -31,14 +31,14 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-003",
-      "title": "宝信软件：利润在倒退，却批了25亿算力投资_滚动新闻_财经 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55MHctaXIxVUIzSng2VG9vSm1ScG1XOEx3TXVvamxiUW1fdUs5SHpUOEthaEVBelEyd2RRdmZhMDM1eUo0YW1pSmVKMldhNmRXNWNTSFVwd0Z6X1FyMWU3dg?oc=5",
-      "source": "证券之星",
+      "id": "raw-004",
+      "title": "经济观察丨算力网建设为中国西部撑起数字未来 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9SMVZWbUdLSnpuallHMTA2RXhyQW1sRTdlbnZ5R1hjZ0UzQkhHMzdhd3IteTFaTWN1Rlhuc0k1YTJXdWc5VjRCbDYyQXVBbF83SWlScEZ0OWsxa3ZTOGZJdENHVkI1a051MTdRYlFyWjVJdVRWZVBR?oc=5",
+      "source": "新华网",
       "category": "政策",
-      "published": "2026-10-28",
-      "body_snippet": "宝信软件：利润在倒退，却批了25亿算力投资_滚动新闻_财经 证券之星",
-      "_query_boost": 20,
+      "published": "2026-10-30",
+      "body_snippet": "经济观察丨算力网建设为中国西部撑起数字未来 新华网",
+      "_query_boost": 0,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -49,12 +49,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "宝信软件：利润在倒退，却批了25亿算力投资_滚动新闻_财经 - 证券之星 宝信软件：利润在倒退，却批了25亿算力投资_滚动新闻_财经 证券之星",
+      "summary_cn": "经济观察丨算力网建设为中国西部撑起数字未来 - 新华网 经济观察丨算力网建设为中国西部撑起数字未来 新华网",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
+      "id": "raw-005",
       "title": "算力租赁三年反转：从H100一卡难求到智算中心闲置与租金暴跌 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9yWmRWOEpicU8tUzFjZ0ptX0lVVnMyMloxTVRObC0xSjRMSjJaajFpTktObkxnZ3FLNTg2c2Exd0JaM284emZudG5GX0FfREstVklUTA?oc=5",
       "source": "虎嗅",
@@ -77,14 +77,14 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-008",
-      "title": "从开源首个3D算力软件底座到“年度科创先锋”，清微智能如何成为中国新质引擎 - 手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92SENPU3hvUVNyQlcxUjl2MDU5ZE1SUWh5YS12Z0R3Um4xZ3kzYWdXR1BDa05QQ0FWY0hXZlVpV1ZsNG1IMUExSEFKUk44MkdXZUFuaGdEb3FqSFBKTjN2cmE5a2xELVFWTTlKUDk0N205VUNKcGlVYXdlc2Q4TmM?oc=5",
-      "source": "手机新浪网",
-      "category": "政策",
-      "published": "2026-10-27",
-      "body_snippet": "从开源首个3D算力软件底座到“年度科创先锋”，清微智能如何成为中国新质引擎 手机新浪网",
-      "_query_boost": 25,
+      "id": "raw-006",
+      "title": "巨头扎堆砸钱的AI4S，为什么被按住了脚步？深度解读：AI4S的瓶颈不在算力，在实验台- 体外诊断专区 - 生物谷",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzQlFnaGZZN3hsX3ZyZ1dvYThPVmZ3dFNyZGN2U0h3OGxJdlRKZmd6el9vbjNCX3hBY3pzOTZtY2dRSWhrSVhhY3lpM2FEcHcwTDVYbnRMbVN0TDhl?oc=5",
+      "source": "生物谷",
+      "category": "监管",
+      "published": "2026-10-30",
+      "body_snippet": "巨头扎堆砸钱的AI4S，为什么被按住了脚步？深度解读：AI4S的瓶颈不在算力，在实验台- 体外诊断专区 生物谷",
+      "_query_boost": 20,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -95,35 +95,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "从开源首个3D算力软件底座到“年度科创先锋”，清微智能如何成为中国新质引擎 - 手机新浪网 从开源首个3D算力软件底座到“年度科创先锋”，清微智能如何成为中国新",
+      "summary_cn": "巨头扎堆砸钱的AI4S，为什么被按住了脚步？深度解读：AI4S的瓶颈不在算力，在实验台- 体外诊断专区 - 生物谷 巨头扎堆砸钱的AI4S，为什么被按住了脚步？",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
-      "title": "2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 - 手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNDJuTHdHWTYxMHBkN1k2Y3hveXlyTlBmekZYRGg3NWdyMkwxLVpxbHMybXJDNHMtLTVKd3ZBSUQ1MlBzeXdqLWZCUThaTjhTVUQ3RlJlQlljbVFMbHNVYWFPYl9McGpJZzMtU3dfeUNZeHBXQzBKa1VUdFRjclRabEs0Y2VVUmpucTlDYU4zRQ?oc=5",
-      "source": "手机新浪网",
-      "category": "政策",
-      "published": "2026-10-26",
-      "body_snippet": "2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 手机新浪网",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 - 手机新浪网 2026国产AI算力厂商全景复盘：细分突围，多元架构构筑产业新生态 手机新浪",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-010",
+      "id": "raw-007",
       "title": "大模型产业竞争转向算力、云渠道与工作流交付 - 虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11aG0zbTkxYzl2Sm1NRE5CZzlXVTFkV2E3cG9zZEZvZnNxeXhBWkRqZmZhZGpGcFNmOGJJa0dCTlV5UWlPblVKWjhCODJic1hXeHAyNA?oc=5",
       "source": "虎嗅网",
@@ -146,7 +123,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-011",
+      "id": "raw-008",
       "title": "中国大模型训练如何突破算力瓶颈 - 投资界",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DVnFWQ0tjSjhZQzdfakl4LWxtSFFkeHpBcUlsang5Qkw2MklHTEZKaG53M21YM3ZDNHpNUXJac004VTM1WGVGdlhjOUphZGFnb2VBdlZn?oc=5",
       "source": "投资界",
@@ -169,16 +146,16 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-012",
-      "title": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
-      "url": "https://www.qbitai.com/2026/10/506662.html",
-      "source": "量子位",
+      "id": "raw-014",
+      "title": "Anthropic expected to receive high &#8216;junk&#8217; rating from credit agencies following IPO, FT report says",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "source": "TechCrunch",
       "published": "2026-10-30",
       "body_snippet": "",
-      "category": "竞品",
-      "lane": "attend",
+      "category": "资本",
+      "lane": "silent",
       "signals": [
-        "⚔️"
+        "💰"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -186,13 +163,8 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径 ",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
+      "summary_cn": "Anthropic expected to receive high &#8216;junk&#8217; rating from credit agencie",
+      "ppio_signal": null,
       "_classified_by": "rule"
     }
   ]
