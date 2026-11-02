@@ -1,21 +1,49 @@
 {
-  "generated_at": "2026-11-01T06:49:05.595Z",
+  "generated_at": "2026-11-02T06:47:09.490Z",
   "week": "2026-W45",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 4,
-  "attend_count": 0,
-  "silent_count": 4,
+  "total_curated": 7,
+  "attend_count": 2,
+  "silent_count": 5,
   "items": [
     {
-      "id": "raw-004",
-      "title": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SaWU0d3ktRFpGNlgyd0g2TnphbmZ1XzJ2V25qLUNJcDJsRTk4TzA4UklTTVA3MGI3Y3JNVkFRaWRVMUN6MkFDTGlnTU14VmhuWlRTVjhLZUpGMEVhUHdrZE5ZM3NvTkdEQmV2bA?oc=5",
-      "source": "中华网",
-      "category": "技术",
-      "published": "2026-10-30",
-      "body_snippet": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 中华网",
-      "_query_boost": 0,
+      "id": "raw-001",
+      "title": "徐汇 | 习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（全文） - 上海国际人才网",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15N1AzWFM2WEU3SkF4TTB2Z2s4UUJLNDRUbVRnYUZmTTM5MGJCemp0eHItaHBCMXU0U0ZCY0x5ZXQtTGwtZzJLRFB4SVctbjhKSExESVUtQ2lEOHRYajM3Wl9ZWU0wVzNVNWZvZg?oc=5",
+      "source": "上海国际人才网",
+      "category": "政策",
+      "published": "2026-10-27",
+      "body_snippet": "徐汇 | 习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（全文） 上海国际人才网",
+      "_query_boost": 50,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": true,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "徐汇 | 习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（全文） - 上海国际人才网 徐汇 | 习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（全文） 上海国际人才网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-003",
+      "title": "OpenAI考虑将数据中心重新包装为“AI算力园区” - cnBeta.COM",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zQk9TOF81WGpBTlBBRVB4Z2VyVjFsY29UMUVtM3otbGdXOERaNDRmYW43T0hrRURVWWhCcW5WeUxJZVVrdGNPNlRRNUdvVUJlZy1UbnV6bnFCd3c0N0ZmQw?oc=5",
+      "source": "cnBeta.COM",
+      "category": "监管",
+      "published": "2026-11-01",
+      "body_snippet": "OpenAI考虑将数据中心重新包装为“AI算力园区” cnBeta.COM",
+      "_query_boost": 20,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -26,12 +54,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 - 中华网 算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 中华网",
+      "summary_cn": "OpenAI考虑将数据中心重新包装为“AI算力园区” - cnBeta.COM OpenAI考虑将数据中心重新包装为“AI算力园区” cnBeta.COM",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-007",
+      "id": "raw-005",
       "title": "算力租赁三年反转：从H100一卡难求到智算中心闲置与租金暴跌 - 虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XVUpSZVVZOV9rQjV0ZDZiQ2ozdWdoSkNHcW9uWXZsZWpDSE1zajFib3JGLUt1TnF6SjZOZXlQNnloLUQtY1Z5bU5uRlRROUhKdkd5aWlSNXFkWmlUWkFN?oc=5",
       "source": "虎嗅网",
@@ -54,17 +82,17 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-014",
-      "title": "美出口管制下英伟达芯片在中国黑市价格翻倍 - 朝鮮日報中文版",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVHRlWVExVklCb3NDN1RNc0d1SlNmdUxqOUJvX1R1bDRfYmVqc0JTV3Z5SU1FLUJyOEl5RjljZURFMmsyS0J6SE1MTkRkYUdOZ3pXUENHVjQ2Z2Vtei1rbzM2Wm9wdVMxME5BT1hEXzBaWjl2Yjgxd3JqWDVBVEQ0Ul9IM0ZMRkM1YXM4WHk2dVgtQQ?oc=5",
-      "source": "朝鮮日報中文版",
-      "category": "海外",
-      "published": "2026-10-26",
-      "body_snippet": "美出口管制下英伟达芯片在中国黑市价格翻倍 朝鮮日報中文版",
+      "id": "raw-006",
+      "title": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SaWU0d3ktRFpGNlgyd0g2TnphbmZ1XzJ2V25qLUNJcDJsRTk4TzA4UklTTVA3MGI3Y3JNVkFRaWRVMUN6MkFDTGlnTU14VmhuWlRTVjhLZUpGMEVhUHdrZE5ZM3NvTkdEQmV2bA?oc=5",
+      "source": "中华网",
+      "category": "技术",
+      "published": "2026-10-30",
+      "body_snippet": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 中华网",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
-        "🌏"
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -72,7 +100,58 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "美出口管制下英伟达芯片在中国黑市价格翻倍 - 朝鮮日報中文版 美出口管制下英伟达芯片在中国黑市价格翻倍 朝鮮日報中文版",
+      "summary_cn": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 - 中华网 算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 中华网",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-009",
+      "title": "算力网加速织就 助力数字中国建设- 经济 - 中工网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZT21SaG1IX09FMkpPMXhxYWdjZkVJMGMyS0t3cTY4ZGdqZDNqSzl3TEpLcHJQbk8tQmlhZ2M1MDB2UFNfOHZhT0RFcktoTnBrNVR0YVBjNGlNQ3RfU1ZR?oc=5",
+      "source": "中工网",
+      "category": "政策",
+      "published": "2026-11-01",
+      "body_snippet": "算力网加速织就 助力数字中国建设- 经济 中工网",
+      "_query_boost": 20,
+      "lane": "attend",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "算力网加速织就 助力数字中国建设- 经济 - 中工网 算力网加速织就 助力数字中国建设- 经济 中工网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-014",
+      "title": "大模型产业竞争转向算力、云渠道与工作流交付 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11aG0zbTkxYzl2Sm1NRE5CZzlXVTFkV2E3cG9zZEZvZnNxeXhBWkRqZmZhZGpGcFNmOGJJa0dCTlV5UWlPblVKWjhCODJic1hXeHAyNA?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-10-29",
+      "body_snippet": "大模型产业竞争转向算力、云渠道与工作流交付 虎嗅网",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "大模型产业竞争转向算力、云渠道与工作流交付 - 虎嗅网 大模型产业竞争转向算力、云渠道与工作流交付 虎嗅网",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
