@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-02T06:47:09.526Z",
-  "date": "2026-11-02",
-  "date_label": "2026-11-02",
+  "generated_at": "2026-11-03T07:13:38.347Z",
+  "date": "2026-11-03",
+  "date_label": "2026-11-03",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
     "📜": 0,
     "⚔️": 0,
-    "💰": 1,
-    "🌏": 0,
+    "💰": 0,
+    "🌏": 1,
     "🔬": 5
   },
   "speed_read": {
@@ -18,39 +18,22 @@
   "wind_indicators": {
     "policy_heat": 2,
     "competitor_heat": 2,
-    "capital_heat": 3,
-    "overseas_heat": 2,
+    "capital_heat": 2,
+    "overseas_heat": 3,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
   "competitor_updates": [],
-  "item_axes": [
-    {
-      "id": "1",
-      "title": "徐汇 | 习近平在2026世界人工智能大",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "2",
-      "title": "算力网加速织就 助力数字中国建设- 经济",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    }
-  ],
+  "item_axes": [],
   "ppio_index": {
     "score": 55,
     "delta": 0,
     "components": {
       "policy_tailwind": 0,
       "competitive_pressure": 0,
-      "capital_sentiment": 5,
+      "capital_sentiment": 0,
       "regulatory_risk": 0,
-      "overseas_headwind": 0
+      "overseas_headwind": -4
     },
     "interpretation": "规则估算，仅供参考"
   },
