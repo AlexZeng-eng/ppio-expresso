@@ -1,39 +1,48 @@
 {
-  "generated_at": "2026-11-03T07:13:38.347Z",
-  "date": "2026-11-03",
-  "date_label": "2026-11-03",
+  "generated_at": "2026-11-04T06:59:11.409Z",
+  "date": "2026-11-04",
+  "date_label": "2026-11-04",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 0,
+    "🏛️": 1,
     "📜": 0,
     "⚔️": 0,
-    "💰": 0,
-    "🌏": 1,
-    "🔬": 5
+    "💰": 1,
+    "🌏": 0,
+    "🔬": 6
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 2,
+    "policy_heat": 3,
     "competitor_heat": 2,
-    "capital_heat": 2,
-    "overseas_heat": 3,
+    "capital_heat": 3,
+    "overseas_heat": 2,
     "overall_sentiment": "平稳",
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
   "competitor_updates": [],
-  "item_axes": [],
+  "item_axes": [
+    {
+      "id": "1",
+      "title": "中国将加快推进人工智能基础性综合性立法 ",
+      "policy_axis": -0.5,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    }
+  ],
   "ppio_index": {
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 0,
+      "policy_tailwind": 8,
       "competitive_pressure": 0,
-      "capital_sentiment": 0,
+      "capital_sentiment": 5,
       "regulatory_risk": 0,
-      "overseas_headwind": -4
+      "overseas_headwind": 0
     },
     "interpretation": "规则估算，仅供参考"
   },
