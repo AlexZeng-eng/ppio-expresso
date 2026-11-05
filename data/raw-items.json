@@ -1,15 +1,24 @@
 {
-  "generated_at": "2026-11-04T06:59:11.289Z",
+  "generated_at": "2026-11-05T07:21:44.634Z",
   "week": "2026-W45",
   "date_range": {
-    "from": "2026-10-28",
-    "to": "2026-11-04"
+    "from": "2026-10-29",
+    "to": "2026-11-05"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
+      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
+      "source": "工信部-新闻",
+      "published": "2026-11-05",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-002",
       "title": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 - 中华网",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SaWU0d3ktRFpGNlgyd0g2TnphbmZ1XzJ2V25qLUNJcDJsRTk4TzA4UklTTVA3MGI3Y3JNVkFRaWRVMUN6MkFDTGlnTU14VmhuWlRTVjhLZUpGMEVhUHdrZE5ZM3NvTkdEQmV2bA?oc=5",
       "source": "中华网",
@@ -19,7 +28,46 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-002",
+      "id": "raw-003",
+      "title": "关于组织申报国家重点研发计划“政府间国际科技创新合作”重点专项2027年度第一批联合研发项目的通知",
+      "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20261105/fccdfb814408488c8b84cf86f2332cd5.html",
+      "source": "上海市科委",
+      "published": "2026-11-05",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-004",
+      "title": "几十路摄像头盯不过来？一台边缘计算盒子，把 AI 判断留在工地现场 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tZU1FeFl4RGVybWNzb19IOG5wYkdOTHBQN1dETjVJVkhROXI3UTZMLTN0VklKRVJwRW16a3E2b3VDaUJpYWc5VEtqRWFRdC1ZMzNKM0N2NjJ1bFFRYlRwMg?oc=5",
+      "source": "搜狐网",
+      "category": "政策",
+      "published": "2026-11-02",
+      "body_snippet": "几十路摄像头盯不过来？一台边缘计算盒子，把 AI 判断留在工地现场 搜狐网",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-005",
+      "title": "多所高校向学生发放免费大模型Token与算力券，推动AI Coding普及 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mVWlHcXJHSG0tREhhb1FVNHFVMEZpNmdWWHRJUXJkVHM4RUhtMDdPTHJMcFRaOEphYTJFdjRPbTdaVHFlazRnSmJfaEdNWmI1RFdKMA?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-11-03",
+      "body_snippet": "多所高校向学生发放免费大模型Token与算力券，推动AI Coding普及 虎嗅",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-006",
+      "title": "中文在线披露行业估算称AI短剧与视频生成占Token消耗55%，但该数据不等于全国算力分配 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94NWY3cnJJYk5KdFQzQXQ3MEJLWTVhNmlXR0hpMHRkVFdHUzl4Tkd4RzdQcDBVMkN5eEgtdVhmM0tobTNTcmdWcF85aUoybmdmb2cxLQ?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-11-05",
+      "body_snippet": "中文在线披露行业估算称AI短剧与视频生成占Token消耗55%，但该数据不等于全国算力分配 虎嗅",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-007",
       "title": "“四叶草”之约 盛满开放诚意 本届参展世界500强和行业龙头首次超过300家 超480件首发首展首秀展品创新高",
       "url": "https://www.shanghai.gov.cn/nw4411/20261104/28bcb1a5ce504b9491835346afcbb064.html",
       "source": "上海市政府-动态",
@@ -28,17 +76,43 @@
       "category": "技术"
     },
     {
-      "id": "raw-003",
-      "title": "Anthropic 更新 IPO 招股文件：第三季度营收 170 亿美元，算力承诺达 8950 亿美元 - news.lavx.hu",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxORzlmV01Lcmkxa3YyeHhQS0dpRXVrS3NnX2JhWnJia1JPRUVpamRVX3dXeWFlUDdUc09wQUVHc1FObDF5eG1HUWpFMFNwempublBiQTNqLW5rZ3dTTzExc2RCeEJjNmZmcHdrdjdHYTA2ZUZzMmVBSTdmbksydGlaMnVkS2RnTUl1MnBONjVXSGF0N1NpNnlKWlIzSW0ya1ZQUDRnaUJVa2RLTnZLWXRXMmM0M2xvdUcyNlZxMjFPREIyUnJRVU82UUZva3pwemZoVi05Vk1rZzEyVHRvQnBQcUUydFphLVU1?oc=5",
-      "source": "news.lavx.hu",
-      "category": "海外",
-      "published": "2026-11-02",
-      "body_snippet": "Anthropic 更新 IPO 招股文件：第三季度营收 170 亿美元，算力承诺达 8950 亿美元 news.lavx.hu",
-      "_query_boost": 20
+      "id": "raw-008",
+      "title": "关于上海市2026年第六批入库科技型中小企业的公告",
+      "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261104/4ed90c3b912d42599c6c930f6d4363a8.html",
+      "source": "上海市科委",
+      "published": "2026-11-04",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
-      "id": "raw-004",
+      "id": "raw-009",
+      "title": "以制度创新打通展品变商品通道 以产业平台推动展商变投资商 以展城融合带动文旅流量 溢出效应全城落地 上海进入“进博时间”",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261103/d76c3cbcb45b47b29447b13968bc5456.html",
+      "source": "上海市政府-动态",
+      "published": "2026-11-03",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-010",
+      "title": "上海市科学技术委员会关于发布2026年度创新生态建设计划“上海市国际联合实验室”项目申报指南的通知",
+      "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20261103/2fa2c52e620e4c868d35010b2d109427.html",
+      "source": "上海市科委",
+      "published": "2026-11-03",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-011",
+      "title": "关于开展2026年度长三角科技创新共同体联合攻关（基础研究）项目申报的通知",
+      "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20261103/37adacf25a5c47f49446610c3f606342.html",
+      "source": "上海市科委",
+      "published": "2026-11-03",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-012",
       "title": "李佳琦直播间首卖算力 半小时卖出2万亿“Token” - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9zZjI4dmdUYUxwaVF1bWxpOGJGQ3p1SDEzY3V6bmRvb3NXYVFVR2FHVm1HeDZFdmFWd2NYb3hfU3VCZV94Zy1zRVlvWGRSTUFMTlA0S0ItZV8xazl5MmtiT1FpNjJSRkJJaWc?oc=5",
       "source": "联合早报",
@@ -48,107 +122,33 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-005",
-      "title": "从“十五五”专项规划看“六张网”建设-中新网 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGX2p5TmhPQUFjY2FNWWhhWHoxTDFKY2NCVXZJNzd6ZjlZYXpKRVA2ZGYtTnRSWUFZY2FvV0VGeVhpWGZ2Sm5Gc1NieWxwUGFld1JzdWZVMW11N3J5THQxdnAwZER6cXJU?oc=5",
-      "source": "中国新闻网",
-      "category": "政策",
-      "published": "2026-10-31",
-      "body_snippet": "从“十五五”专项规划看“六张网”建设-中新网 中国新闻网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-006",
-      "title": "经济观察丨算力网建设为中国西部撑起数字未来 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMHcyNVdQMUx6cUN0OXpoOFc0MUFDWldwSkY4dC1VQnI3azBRNEpaakVQcVBzY3ZGdEpMLVFyVTl4SDVDUGJTTkpLYlRzejRtMVpOdXdKWlF2al9vWG1XRzZvWlE5aXV1TjVmc2YxTG5EMUNvd3lMVF81bzllWjB0WQ?oc=5",
-      "source": "新华网",
-      "category": "政策",
-      "published": "2026-10-30",
-      "body_snippet": "经济观察丨算力网建设为中国西部撑起数字未来 新华网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-007",
-      "title": "以制度创新打通展品变商品通道 以产业平台推动展商变投资商 以展城融合带动文旅流量 溢出效应全城落地 上海进入“进博时间”",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261103/d76c3cbcb45b47b29447b13968bc5456.html",
-      "source": "上海市政府-动态",
-      "published": "2026-11-03",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-008",
-      "title": "上海市科学技术委员会关于发布2026年度创新生态建设计划“上海市国际联合实验室”项目申报指南的通知",
-      "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20261103/2fa2c52e620e4c868d35010b2d109427.html",
-      "source": "上海市科委",
-      "published": "2026-11-03",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-009",
-      "title": "关于开展2026年度长三角科技创新共同体联合攻关（基础研究）项目申报的通知",
-      "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20261103/37adacf25a5c47f49446610c3f606342.html",
-      "source": "上海市科委",
-      "published": "2026-11-03",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-010",
-      "title": "提升人才培养与产业需求适配度 庆祝上海理工大学建校120周年大会举行",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261102/5089557fd75e4a64bc43e33a39544374.html",
-      "source": "上海市政府-动态",
-      "published": "2026-11-02",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-011",
-      "title": "关于上海市2026年第九批拟入库科技型中小企业名单的公示",
-      "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261102/b1a343e95a414ffdb34973bfaed21d2a.html",
-      "source": "上海市科委",
-      "published": "2026-11-02",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-012",
-      "title": "关于上海市2026年第七批入库科技型中小企业的公告",
-      "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261102/54194a525b0843f698e43c8a4650d529.html",
-      "source": "上海市科委",
-      "published": "2026-11-02",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
       "id": "raw-013",
-      "title": "中国将加快推进人工智能基础性综合性立法 - 财新",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JVGVleG1nWVFFVUlHS25JUUJVY0E2eHQwdFc5aVd5NnRwekgxOWhFOGZfaTZqM3FwdF9GeXJtSkhpWDVXTENnbEstdFZJaEZMU0s2eXl1Q1d6aHJLRHRB?oc=5",
-      "source": "财新",
-      "category": "监管",
-      "published": "2026-11-04",
-      "body_snippet": "中国将加快推进人工智能基础性综合性立法 财新",
+      "title": "德国学者点赞DeepSeek：德国40%-50%中小企业都用中国开源大模型 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5hYkpBaFJ4U3pDNXFnR3ZmcmxaRld4a3dUcmJ1dXVFRnZ3eFVXQmpQc1REQkFJQUlBdlh6RXZsU01saGhWMkZYMUlTSmwza3lGRkdvanE1bEVIUEdBamI5VHU1SDY4TVJndFpRVEkwXzdUTFNxZlE?oc=5",
+      "source": "中国新闻网",
+      "category": "技术",
+      "published": "2026-11-03",
+      "body_snippet": "德国学者点赞DeepSeek：德国40%-50%中小企业都用中国开源大模型 中国新闻网",
       "_query_boost": 20
     },
     {
       "id": "raw-014",
-      "title": "大模型产业竞争转向算力、云渠道与工作流交付 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11aG0zbTkxYzl2Sm1NRE5CZzlXVTFkV2E3cG9zZEZvZnNxeXhBWkRqZmZhZGpGcFNmOGJJa0dCTlV5UWlPblVKWjhCODJic1hXeHAyNA?oc=5",
-      "source": "虎嗅网",
+      "title": "2026虎嗅F&amp;M创新节将举行，聚焦AI创业方向与自进化模型、AI记忆、具身智能、太空算力等前沿项目 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5mRHlySXo1eU9IY1dEaURZNmt3dmNTbjVKdTFOb2NPZV9EbTNaWmpuVTZMTi0zMzV0NjNvSEoyVUVhcXdvZE5qS1REWHJtX2dqblBqRw?oc=5",
+      "source": "虎嗅",
       "category": "技术",
-      "published": "2026-10-29",
-      "body_snippet": "大模型产业竞争转向算力、云渠道与工作流交付 虎嗅网",
+      "published": "2026-11-04",
+      "body_snippet": "2026虎嗅F&M创新节将举行，聚焦AI创业方向与自进化模型、AI记忆、具身智能、太空算力等前沿项目 虎嗅",
       "_query_boost": 0
     },
     {
       "id": "raw-015",
-      "title": "中国大模型训练如何突破算力瓶颈 - 投资界",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DVnFWQ0tjSjhZQzdfakl4LWxtSFFkeHpBcUlsang5Qkw2MklHTEZKaG53M21YM3ZDNHpNUXJac004VTM1WGVGdlhjOUphZGFnb2VBdlZn?oc=5",
-      "source": "投资界",
-      "category": "技术",
-      "published": "2026-10-29",
-      "body_snippet": "中国大模型训练如何突破算力瓶颈 投资界",
+      "title": "Cai Qi on the Plenum Resolution; Stock market bounce; US election; Nvidia’s China-related sales - Sinocism | Bill Bishop",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nMWhiZ0xZSE4xeTRyVkgycUJPYTJ4d1pjaWsyUjIyckR2U3pZVGFfTUh1Z3RMMHZKTmdCRUhvc3dBMjdGOEFXNUY5RWY4cVYxeVdDNGEzQ2pTZ1NsNjZMRXFibEN0a2NtUnNHMw?oc=5",
+      "source": "Sinocism | Bill Bishop",
+      "category": "海外",
+      "published": "2026-11-04",
+      "body_snippet": "Cai Qi on the Plenum Resolution; Stock market bounce; US election; Nvidia’s China-related sales Sinocism | Bill Bishop",
       "_query_boost": 0
     }
   ]
