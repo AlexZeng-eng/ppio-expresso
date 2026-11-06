@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-05T07:21:44.821Z",
+  "generated_at": "2026-11-06T07:22:19.999Z",
   "week": "2026-W45",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 6,
-  "attend_count": 1,
-  "silent_count": 5,
+  "total_curated": 8,
+  "attend_count": 0,
+  "silent_count": 8,
   "items": [
     {
-      "id": "raw-002",
-      "title": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SaWU0d3ktRFpGNlgyd0g2TnphbmZ1XzJ2V25qLUNJcDJsRTk4TzA4UklTTVA3MGI3Y3JNVkFRaWRVMUN6MkFDTGlnTU14VmhuWlRTVjhLZUpGMEVhUHdrZE5ZM3NvTkdEQmV2bA?oc=5",
-      "source": "中华网",
-      "category": "技术",
-      "published": "2026-10-30",
-      "body_snippet": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 中华网",
+      "id": "raw-001",
+      "title": "美媒：中国月之暗面寻求租用欧洲英伟达先进晶片算力 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5velBIMElyRmFOZ2xsMlJCa3g0LUpNelRkTHp5U1dCdjBsYTFKTnk3cGk0UmNoUDhsT3BOWmlIMmQ4S3Rwb2pZN2pxcmVVUHpwVVk0RkpiUUV4WnpheVQ0UWVWckZHTG9NeHc?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-11-05",
+      "body_snippet": "美媒：中国月之暗面寻求租用欧洲英伟达先进晶片算力 联合早报",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
@@ -26,18 +26,41 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 - 中华网 算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 中华网",
+      "summary_cn": "美媒：中国月之暗面寻求租用欧洲英伟达先进晶片算力 - 联合早报 美媒：中国月之暗面寻求租用欧洲英伟达先进晶片算力 联合早报",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
-      "title": "多所高校向学生发放免费大模型Token与算力券，推动AI Coding普及 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mVWlHcXJHSG0tREhhb1FVNHFVMEZpNmdWWHRJUXJkVHM4RUhtMDdPTHJMcFRaOEphYTJFdjRPbTdaVHFlazRnSmJfaEdNWmI1RFdKMA?oc=5",
-      "source": "虎嗅",
+      "id": "raw-003",
+      "title": "中国移动陈忠岳：构建通信网、算力网、智能网“三张网”，夯实智能经济底座 - SmartHey",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YYzR0S05CWk1aQ1JoSWloSUVvUGFDODlTeXdVT05NZ3pMZ1NZNjB4R19lRy1VbUlUcHFGdkFyT2MxNlByRFMzNzRkQmZlUjluaWNuSXJQeFllQjUtRmc?oc=5",
+      "source": "SmartHey",
+      "category": "政策",
+      "published": "2026-11-06",
+      "body_snippet": "中国移动陈忠岳：构建通信网、算力网、智能网“三张网”，夯实智能经济底座 SmartHey",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "中国移动陈忠岳：构建通信网、算力网、智能网“三张网”，夯实智能经济底座 - SmartHey 中国移动陈忠岳：构建通信网、算力网、智能网“三张网”，夯实智能经济",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-004",
+      "title": "三星砸 42 亿建数据中心，算力的子弹先留给自己人 - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ZZlhNcWpGS0tzT3JDMDZnalphTk54djJGUU15eGNrU29QUFNYTzdNVDU4ZmdoNURRY3FRakowZHJvM0huczRoWkJlOXJUdw?oc=5",
+      "source": "AIBase",
       "category": "技术",
-      "published": "2026-11-03",
-      "body_snippet": "多所高校向学生发放免费大模型Token与算力券，推动AI Coding普及 虎嗅",
+      "published": "2026-11-06",
+      "body_snippet": "三星砸 42 亿建数据中心，算力的子弹先留给自己人 AIBase",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
@@ -49,19 +72,19 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "多所高校向学生发放免费大模型Token与算力券，推动AI Coding普及 - 虎嗅 多所高校向学生发放免费大模型Token与算力券，推动AI Coding普及",
+      "summary_cn": "三星砸 42 亿建数据中心，算力的子弹先留给自己人 - AIBase 三星砸 42 亿建数据中心，算力的子弹先留给自己人 AIBase",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-006",
-      "title": "中文在线披露行业估算称AI短剧与视频生成占Token消耗55%，但该数据不等于全国算力分配 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94NWY3cnJJYk5KdFQzQXQ3MEJLWTVhNmlXR0hpMHRkVFdHUzl4Tkd4RzdQcDBVMkN5eEgtdVhmM0tobTNTcmdWcF85aUoybmdmb2cxLQ?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
+      "title": "光通信行业：AI算力需求激增市场规模扩容 供应链协同与核心技术攻关加速国产化 - 凤凰网财经",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBlOGh6aTJGcV9JVXpSTGEwcVlHSnp5STBGUFN3TUV2T1lkTld6T2diRWtDcFVLV1JvVDA1UjBEYTFZRFpHYnY2QVpRTHBZZzli?oc=5",
+      "source": "凤凰网财经",
+      "category": "政策",
       "published": "2026-11-05",
-      "body_snippet": "中文在线披露行业估算称AI短剧与视频生成占Token消耗55%，但该数据不等于全国算力分配 虎嗅",
-      "_query_boost": 0,
+      "body_snippet": "光通信行业：AI算力需求激增市场规模扩容 供应链协同与核心技术攻关加速国产化 凤凰网财经",
+      "_query_boost": 20,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -72,12 +95,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "中文在线披露行业估算称AI短剧与视频生成占Token消耗55%，但该数据不等于全国算力分配 - 虎嗅 中文在线披露行业估算称AI短剧与视频生成占Token消耗5",
+      "summary_cn": "光通信行业：AI算力需求激增市场规模扩容 供应链协同与核心技术攻关加速国产化 - 凤凰网财经 光通信行业：AI算力需求激增市场规模扩容 供应链协同与核心技术攻关",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-012",
+      "id": "raw-011",
       "title": "李佳琦直播间首卖算力 半小时卖出2万亿“Token” - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9zZjI4dmdUYUxwaVF1bWxpOGJGQ3p1SDEzY3V6bmRvb3NXYVFVR2FHVm1HeDZFdmFWd2NYb3hfU3VCZV94Zy1zRVlvWGRSTUFMTlA0S0ItZV8xazl5MmtiT1FpNjJSRkJJaWc?oc=5",
       "source": "联合早报",
@@ -100,17 +123,17 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-013",
-      "title": "德国学者点赞DeepSeek：德国40%-50%中小企业都用中国开源大模型 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5hYkpBaFJ4U3pDNXFnR3ZmcmxaRld4a3dUcmJ1dXVFRnZ3eFVXQmpQc1REQkFJQUlBdlh6RXZsU01saGhWMkZYMUlTSmwza3lGRkdvanE1bEVIUEdBamI5VHU1SDY4TVJndFpRVEkwXzdUTFNxZlE?oc=5",
-      "source": "中国新闻网",
+      "id": "raw-012",
+      "title": "多所高校向学生发放免费大模型Token与算力券，推动AI Coding普及 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mVWlHcXJHSG0tREhhb1FVNHFVMEZpNmdWWHRJUXJkVHM4RUhtMDdPTHJMcFRaOEphYTJFdjRPbTdaVHFlazRnSmJfaEdNWmI1RFdKMA?oc=5",
+      "source": "虎嗅",
       "category": "技术",
       "published": "2026-11-03",
-      "body_snippet": "德国学者点赞DeepSeek：德国40%-50%中小企业都用中国开源大模型 中国新闻网",
-      "_query_boost": 20,
-      "lane": "attend",
+      "body_snippet": "多所高校向学生发放免费大模型Token与算力券，推动AI Coding普及 虎嗅",
+      "_query_boost": 0,
+      "lane": "silent",
       "signals": [
-        "—"
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -118,13 +141,31 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "德国40%-50%中小企业都用中国开源大模型 - 中国新闻网 德国学者点赞DeepSeek：德国40%-50%中小企业都用中国开源大模型 中国新闻网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
+      "summary_cn": "多所高校向学生发放免费大模型Token与算力券，推动AI Coding普及 - 虎嗅 多所高校向学生发放免费大模型Token与算力券，推动AI Coding普及",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-013",
+      "title": "中文在线披露行业估算称AI短剧与视频生成占Token消耗55%，但该数据不等于全国算力分配 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94NWY3cnJJYk5KdFQzQXQ3MEJLWTVhNmlXR0hpMHRkVFdHUzl4Tkd4RzdQcDBVMkN5eEgtdVhmM0tobTNTcmdWcF85aUoybmdmb2cxLQ?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-11-05",
+      "body_snippet": "中文在线披露行业估算称AI短剧与视频生成占Token消耗55%，但该数据不等于全国算力分配 虎嗅网",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "中文在线披露行业估算称AI短剧与视频生成占Token消耗55%，但该数据不等于全国算力分配 - 虎嗅网 中文在线披露行业估算称AI短剧与视频生成占Token消耗",
+      "ppio_signal": null,
       "_classified_by": "rule"
     },
     {

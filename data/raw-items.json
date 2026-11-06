@@ -1,43 +1,73 @@
 {
-  "generated_at": "2026-11-05T07:21:44.634Z",
+  "generated_at": "2026-11-06T07:22:19.913Z",
   "week": "2026-W45",
   "date_range": {
-    "from": "2026-10-29",
-    "to": "2026-11-05"
+    "from": "2026-10-30",
+    "to": "2026-11-06"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
-      "source": "工信部-新闻",
+      "title": "美媒：中国月之暗面寻求租用欧洲英伟达先进晶片算力 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5velBIMElyRmFOZ2xsMlJCa3g0LUpNelRkTHp5U1dCdjBsYTFKTnk3cGk0UmNoUDhsT3BOWmlIMmQ4S3Rwb2pZN2pxcmVVUHpwVVk0RkpiUUV4WnpheVQ0UWVWckZHTG9NeHc?oc=5",
+      "source": "联合早报",
+      "category": "海外",
       "published": "2026-11-05",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-002",
-      "title": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SaWU0d3ktRFpGNlgyd0g2TnphbmZ1XzJ2V25qLUNJcDJsRTk4TzA4UklTTVA3MGI3Y3JNVkFRaWRVMUN6MkFDTGlnTU14VmhuWlRTVjhLZUpGMEVhUHdrZE5ZM3NvTkdEQmV2bA?oc=5",
-      "source": "中华网",
-      "category": "技术",
-      "published": "2026-10-30",
-      "body_snippet": "算力协同·推理破局丨大模型推理技术与工程实践Meetup在京举办 中华网",
+      "body_snippet": "美媒：中国月之暗面寻求租用欧洲英伟达先进晶片算力 联合早报",
       "_query_boost": 0
     },
     {
-      "id": "raw-003",
-      "title": "关于组织申报国家重点研发计划“政府间国际科技创新合作”重点专项2027年度第一批联合研发项目的通知",
-      "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20261105/fccdfb814408488c8b84cf86f2332cd5.html",
-      "source": "上海市科委",
-      "published": "2026-11-05",
+      "id": "raw-002",
+      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
+      "source": "工信部-新闻",
+      "published": "2026-11-06",
       "body_snippet": "",
       "category": "技术"
     },
     {
+      "id": "raw-003",
+      "title": "中国移动陈忠岳：构建通信网、算力网、智能网“三张网”，夯实智能经济底座 - SmartHey",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YYzR0S05CWk1aQ1JoSWloSUVvUGFDODlTeXdVT05NZ3pMZ1NZNjB4R19lRy1VbUlUcHFGdkFyT2MxNlByRFMzNzRkQmZlUjluaWNuSXJQeFllQjUtRmc?oc=5",
+      "source": "SmartHey",
+      "category": "政策",
+      "published": "2026-11-06",
+      "body_snippet": "中国移动陈忠岳：构建通信网、算力网、智能网“三张网”，夯实智能经济底座 SmartHey",
+      "_query_boost": 20
+    },
+    {
       "id": "raw-004",
+      "title": "三星砸 42 亿建数据中心，算力的子弹先留给自己人 - AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ZZlhNcWpGS0tzT3JDMDZnalphTk54djJGUU15eGNrU29QUFNYTzdNVDU4ZmdoNURRY3FRakowZHJvM0huczRoWkJlOXJUdw?oc=5",
+      "source": "AIBase",
+      "category": "技术",
+      "published": "2026-11-06",
+      "body_snippet": "三星砸 42 亿建数据中心，算力的子弹先留给自己人 AIBase",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-005",
+      "title": "进博会参展港企创新高",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261106/2d5da84dc2094c1587d79f0d4bb00420.html",
+      "source": "上海市政府-动态",
+      "published": "2026-11-06",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-006",
+      "title": "光通信行业：AI算力需求激增市场规模扩容 供应链协同与核心技术攻关加速国产化 - 凤凰网财经",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBlOGh6aTJGcV9JVXpSTGEwcVlHSnp5STBGUFN3TUV2T1lkTld6T2diRWtDcFVLV1JvVDA1UjBEYTFZRFpHYnY2QVpRTHBZZzli?oc=5",
+      "source": "凤凰网财经",
+      "category": "政策",
+      "published": "2026-11-05",
+      "body_snippet": "光通信行业：AI算力需求激增市场规模扩容 供应链协同与核心技术攻关加速国产化 凤凰网财经",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-007",
       "title": "几十路摄像头盯不过来？一台边缘计算盒子，把 AI 判断留在工地现场 - 搜狐网",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tZU1FeFl4RGVybWNzb19IOG5wYkdOTHBQN1dETjVJVkhROXI3UTZMLTN0VklKRVJwRW16a3E2b3VDaUJpYWc5VEtqRWFRdC1ZMzNKM0N2NjJ1bFFRYlRwMg?oc=5",
       "source": "搜狐网",
@@ -47,36 +77,25 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-005",
-      "title": "多所高校向学生发放免费大模型Token与算力券，推动AI Coding普及 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mVWlHcXJHSG0tREhhb1FVNHFVMEZpNmdWWHRJUXJkVHM4RUhtMDdPTHJMcFRaOEphYTJFdjRPbTdaVHFlazRnSmJfaEdNWmI1RFdKMA?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-11-03",
-      "body_snippet": "多所高校向学生发放免费大模型Token与算力券，推动AI Coding普及 虎嗅",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-006",
-      "title": "中文在线披露行业估算称AI短剧与视频生成占Token消耗55%，但该数据不等于全国算力分配 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94NWY3cnJJYk5KdFQzQXQ3MEJLWTVhNmlXR0hpMHRkVFdHUzl4Tkd4RzdQcDBVMkN5eEgtdVhmM0tobTNTcmdWcF85aUoybmdmb2cxLQ?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
+      "id": "raw-008",
+      "title": "关于印发《普陀区关于进一步规范设摊经营活动的实施方案（试行）》的通知",
+      "url": "https://www.shanghai.gov.cn/nw12344/20261106/a3ebb4475a2948b5a0a0a5b32ee27f4d.html",
+      "source": "上海市政府-政策文件",
       "published": "2026-11-05",
-      "body_snippet": "中文在线披露行业估算称AI短剧与视频生成占Token消耗55%，但该数据不等于全国算力分配 虎嗅",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-007",
-      "title": "“四叶草”之约 盛满开放诚意 本届参展世界500强和行业龙头首次超过300家 超480件首发首展首秀展品创新高",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261104/28bcb1a5ce504b9491835346afcbb064.html",
-      "source": "上海市政府-动态",
-      "published": "2026-11-04",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-008",
+      "id": "raw-009",
+      "title": "关于组织申报国家重点研发计划“政府间国际科技创新合作”重点专项2027年度第一批联合研发项目的通知",
+      "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20261105/fccdfb814408488c8b84cf86f2332cd5.html",
+      "source": "上海市科委",
+      "published": "2026-11-05",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-010",
       "title": "关于上海市2026年第六批入库科技型中小企业的公告",
       "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261104/4ed90c3b912d42599c6c930f6d4363a8.html",
       "source": "上海市科委",
@@ -85,34 +104,7 @@
       "category": "技术"
     },
     {
-      "id": "raw-009",
-      "title": "以制度创新打通展品变商品通道 以产业平台推动展商变投资商 以展城融合带动文旅流量 溢出效应全城落地 上海进入“进博时间”",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261103/d76c3cbcb45b47b29447b13968bc5456.html",
-      "source": "上海市政府-动态",
-      "published": "2026-11-03",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-010",
-      "title": "上海市科学技术委员会关于发布2026年度创新生态建设计划“上海市国际联合实验室”项目申报指南的通知",
-      "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20261103/2fa2c52e620e4c868d35010b2d109427.html",
-      "source": "上海市科委",
-      "published": "2026-11-03",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
       "id": "raw-011",
-      "title": "关于开展2026年度长三角科技创新共同体联合攻关（基础研究）项目申报的通知",
-      "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20261103/37adacf25a5c47f49446610c3f606342.html",
-      "source": "上海市科委",
-      "published": "2026-11-03",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-012",
       "title": "李佳琦直播间首卖算力 半小时卖出2万亿“Token” - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9zZjI4dmdUYUxwaVF1bWxpOGJGQ3p1SDEzY3V6bmRvb3NXYVFVR2FHVm1HeDZFdmFWd2NYb3hfU3VCZV94Zy1zRVlvWGRSTUFMTlA0S0ItZV8xazl5MmtiT1FpNjJSRkJJaWc?oc=5",
       "source": "联合早报",
@@ -122,14 +114,24 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-013",
-      "title": "德国学者点赞DeepSeek：德国40%-50%中小企业都用中国开源大模型 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5hYkpBaFJ4U3pDNXFnR3ZmcmxaRld4a3dUcmJ1dXVFRnZ3eFVXQmpQc1REQkFJQUlBdlh6RXZsU01saGhWMkZYMUlTSmwza3lGRkdvanE1bEVIUEdBamI5VHU1SDY4TVJndFpRVEkwXzdUTFNxZlE?oc=5",
-      "source": "中国新闻网",
+      "id": "raw-012",
+      "title": "多所高校向学生发放免费大模型Token与算力券，推动AI Coding普及 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mVWlHcXJHSG0tREhhb1FVNHFVMEZpNmdWWHRJUXJkVHM4RUhtMDdPTHJMcFRaOEphYTJFdjRPbTdaVHFlazRnSmJfaEdNWmI1RFdKMA?oc=5",
+      "source": "虎嗅",
       "category": "技术",
       "published": "2026-11-03",
-      "body_snippet": "德国学者点赞DeepSeek：德国40%-50%中小企业都用中国开源大模型 中国新闻网",
-      "_query_boost": 20
+      "body_snippet": "多所高校向学生发放免费大模型Token与算力券，推动AI Coding普及 虎嗅",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-013",
+      "title": "中文在线披露行业估算称AI短剧与视频生成占Token消耗55%，但该数据不等于全国算力分配 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94NWY3cnJJYk5KdFQzQXQ3MEJLWTVhNmlXR0hpMHRkVFdHUzl4Tkd4RzdQcDBVMkN5eEgtdVhmM0tobTNTcmdWcF85aUoybmdmb2cxLQ?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-11-05",
+      "body_snippet": "中文在线披露行业估算称AI短剧与视频生成占Token消耗55%，但该数据不等于全国算力分配 虎嗅网",
+      "_query_boost": 0
     },
     {
       "id": "raw-014",
