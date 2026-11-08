@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-07T06:33:25.951Z",
+  "generated_at": "2026-11-08T06:40:44.757Z",
   "week": "2026-W46",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 9,
-  "attend_count": 0,
+  "total_curated": 10,
+  "attend_count": 1,
   "silent_count": 9,
   "items": [
     {
@@ -32,6 +32,52 @@
     },
     {
       "id": "raw-003",
+      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "source": "TechCrunch",
+      "published": "2026-11-06",
+      "body_snippet": "",
+      "category": "资本",
+      "lane": "silent",
+      "signals": [
+        "💰"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "Ramp data shows AI spending stalling just as Anthropic nears its IPO ",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-004",
+      "title": "超级AI禁令草案引发市场波动：数据中心成本、算力需求与Anthropic估值受关注 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5YZFNTVmRLOXJvUzJsR2NLSkNnbWhackxEczdRT3JuMkxuQllJQm41Q1dfX2RZVGR0NGNOQnB3dFhWR1g1UkNUWG14QWd1aDNSOUE3Mg?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-11-06",
+      "body_snippet": "超级AI禁令草案引发市场波动：数据中心成本、算力需求与Anthropic估值受关注 虎嗅网",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "💰",
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "超级AI禁令草案引发市场波动：数据中心成本、算力需求与Anthropic估值受关注 - 虎嗅网 超级AI禁令草案引发市场波动：数据中心成本、算力需求与Anthr",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
       "title": "2026移动网络大会 | 慧博云通与宝德计算联展，全面呈现“算力+算法+场景应用”全栈能力 - 人工智能",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9vTnFTSFlzNzViaVBvd1BJWmpVZGxJWWc0bTdLRkZVUDJYdlZNODNudDdDV3NMbGZ1LW9GOUFwSGVQa2FyaFZMSS1zeHE3QzJ5cHc?oc=5",
       "source": "人工智能",
@@ -54,7 +100,31 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
+      "id": "raw-006",
+      "title": "【数智周报】 2026年世界互联网大会乌镇峰会举办；摩根大通副董事长：AI板块估值仍高，预计将出现回调；游族网络拟42亿买GPU；微软收缩AI算力租赁，据称逐步退出甲骨文云协议 - 潮起网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VV1NkcG5oWWJkM0lsQlhVRE5Oc0hwVXhHZG5Sc0VEZWwzbU9JdEZ4QTNTaUNvenpzQTZyMWEtb1I2Rkw3Z3RGRWlHUHdLZDJFdzdXODF0bWhmYmhJSUx2bllXVQ?oc=5",
+      "source": "潮起网",
+      "category": "监管",
+      "published": "2026-11-07",
+      "body_snippet": "【数智周报】 2026年世界互联网大会乌镇峰会举办；摩根大通副董事长：AI板块估值仍高，预计将出现回调；游族网络拟42亿买GPU；微软收缩AI算力租赁，据称逐步退出甲骨文云协议 潮起网",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "💰",
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "【数智周报】 2026年世界互联网大会乌镇峰会举办；摩根大通副董事长：AI板块估值仍高，预计将出现回调；游族网络拟42亿买GPU；微软收缩AI算力租赁，据称逐步",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-007",
       "title": "370亿+→1000亿：运营商算力投资再加码 AIDC、Token变现路径渐清晰 - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5CMjNYN3RZbmtqVl9pVGViT2dfWVBxUmdUSDVaSDJGZF81bVZuZkdSZVZGSGZtbGtyaVh2enk4RTN6UUxnS3hOaA?oc=5",
       "source": "财联社",
@@ -77,16 +147,17 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "source": "TechCrunch",
-      "published": "2026-11-06",
-      "body_snippet": "",
-      "category": "资本",
-      "lane": "silent",
+      "id": "raw-009",
+      "title": "AI基建狂潮遭遇现实阻力！欧洲多国爆发抗议 要求暂停数据中心建设 - 财联社电报",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE00a1FWZHdpRW5ScE9CbVBrN1otOEplb2daUXRaTXR3YXZKNnVUYzZ6V2xodl9Uc19wV1JvVnc3TmRHZzZwdUE?oc=5",
+      "source": "财联社电报",
+      "category": "海外",
+      "published": "2026-11-07",
+      "body_snippet": "AI基建狂潮遭遇现实阻力！欧洲多国爆发抗议 要求暂停数据中心建设 财联社电报",
+      "_query_boost": 25,
+      "lane": "attend",
       "signals": [
-        "💰"
+        "—"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -94,18 +165,23 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "Ramp data shows AI spending stalling just as Anthropic nears its IPO ",
-      "ppio_signal": null,
+      "summary_cn": "AI基建狂潮遭遇现实阻力！欧洲多国爆发抗议 要求暂停数据中心建设 - 财联社电报 AI基建狂潮遭遇现实阻力！欧洲多国爆发抗议 要求暂停数据中心建设 财联社电报",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
       "_classified_by": "rule"
     },
     {
-      "id": "raw-007",
-      "title": "四维图新创想大会 | 以数据与算力为基，SEEWAY.AI驶向新一站 - 潮起网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83a2p0N1I1WW1UeFk1VWhRZlh5eDlJTjFaWEdEQVBzNHU5d3p2Vmk3aEpNSFEtaTRBYUJnS2htOGM0UFpwVWJYZGNlZzRVV0QtVnlQaXR3WjNncHZKZjY0amtB?oc=5",
-      "source": "潮起网",
+      "id": "raw-011",
+      "title": "四维图新创想大会 | 以数据与算力为基，SEEWAY.AI驶向新一站 - 热点科技",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04Zm8xTDlENlo4MzhrVEVhZzFFVENBMWlqMzZrT1JOWEIwUVU5X0UtZnhMWEQ4M1BOMmU2NW1jY05aSXJOSEt2ZDMzLThza0d5QW9sWGdmWDE0RFBo?oc=5",
+      "source": "热点科技",
       "category": "政策",
-      "published": "2026-11-06",
-      "body_snippet": "四维图新创想大会 | 以数据与算力为基，SEEWAY.AI驶向新一站 潮起网",
+      "published": "2026-11-07",
+      "body_snippet": "四维图新创想大会 | 以数据与算力为基，SEEWAY.AI驶向新一站 热点科技",
       "_query_boost": 20,
       "lane": "silent",
       "signals": [
@@ -117,12 +193,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "四维图新创想大会 | 以数据与算力为基，SEEWAY.AI驶向新一站 - 潮起网 四维图新创想大会 | 以数据与算力为基，SEEWAY.AI驶向新一站 潮起网",
+      "summary_cn": "四维图新创想大会 | 以数据与算力为基，SEEWAY.AI驶向新一站 - 热点科技 四维图新创想大会 | 以数据与算力为基，SEEWAY.AI驶向新一站 热点科",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-008",
+      "id": "raw-012",
       "title": "三星砸 42 亿建数据中心，算力的子弹先留给自己人 - AIBase",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ZZlhNcWpGS0tzT3JDMDZnalphTk54djJGUU15eGNrU29QUFNYTzdNVDU4ZmdoNURRY3FRakowZHJvM0huczRoWkJlOXJUdw?oc=5",
       "source": "AIBase",
@@ -145,53 +221,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
-      "title": "何立峰北京调研：加大对AI及算力网建设金融支持 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZTGxRa2Y0ckFLdnlUdk9ESTBsaUwxeXJzRGdiRkE2alpuTEh1ZWg3alNqdUM0aEtfTHFXdlkzVk1NYVJrMXl6YWhqeUpKLWpqWXRmeTF0cWNsN1JCLVh1eXA1bzE0YW5JY2c?oc=5",
-      "source": "联合早报",
-      "category": "政策",
-      "published": "2026-11-05",
-      "body_snippet": "何立峰北京调研：加大对AI及算力网建设金融支持 联合早报",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "何立峰北京调研：加大对AI及算力网建设金融支持 - 联合早报 何立峰北京调研：加大对AI及算力网建设金融支持 联合早报",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-010",
-      "title": "光通信行业：AI算力需求激增市场规模扩容 供应链协同与核心技术攻关加速国产化 - 凤凰网财经",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBlOGh6aTJGcV9JVXpSTGEwcVlHSnp5STBGUFN3TUV2T1lkTld6T2diRWtDcFVLV1JvVDA1UjBEYTFZRFpHYnY2QVpRTHBZZzli?oc=5",
-      "source": "凤凰网财经",
-      "category": "政策",
-      "published": "2026-11-05",
-      "body_snippet": "光通信行业：AI算力需求激增市场规模扩容 供应链协同与核心技术攻关加速国产化 凤凰网财经",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "光通信行业：AI算力需求激增市场规模扩容 供应链协同与核心技术攻关加速国产化 - 凤凰网财经 光通信行业：AI算力需求激增市场规模扩容 供应链协同与核心技术攻关",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-014",
+      "id": "raw-015",
       "title": "每年将新增3个上海市用电量国家能源局：算力等产业带动下“十五五”用电年均增量将达6000亿度左右| @发布会 - 第一财经",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE04cHI5V0MtVEppVDdHLUlBZ0ZBSmNpbTh5THRxckwtTGdCQXVXLVp5aEVIRFlzUXFlTW8zOFJPdHdrLUZKMUZkQjdzSGhnYTJEajV0Yw?oc=5",
       "source": "第一财经",
