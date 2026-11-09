@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-08T06:40:44.675Z",
+  "generated_at": "2026-11-09T07:09:48.726Z",
   "week": "2026-W46",
   "date_range": {
-    "from": "2026-11-01",
-    "to": "2026-11-08"
+    "from": "2026-11-02",
+    "to": "2026-11-09"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -20,34 +20,25 @@
     },
     {
       "id": "raw-002",
+      "title": "美国中期选举后民主党掌控两院：英伟达对华AI芯片出口管制收紧，国产大模型算力承压 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5UjN6bUlSRUQ2TnFjS0FUUkppeTJjZXhmbVVLMzEwTUljMGpkRDJwU0NLUjUzSmI1U3o2a0ozNkJraWx1RzBkLThrS05xM1lLZGY0eQ?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-11-09",
+      "body_snippet": "美国中期选举后民主党掌控两院：英伟达对华AI芯片出口管制收紧，国产大模型算力承压 虎嗅网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-003",
       "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
       "source": "工信部-新闻",
-      "published": "2026-11-08",
+      "published": "2026-11-09",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-003",
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "source": "TechCrunch",
-      "published": "2026-11-06",
-      "body_snippet": "",
-      "category": "资本"
-    },
-    {
       "id": "raw-004",
-      "title": "超级AI禁令草案引发市场波动：数据中心成本、算力需求与Anthropic估值受关注 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5YZFNTVmRLOXJvUzJsR2NLSkNnbWhackxEczdRT3JuMkxuQllJQm41Q1dfX2RZVGR0NGNOQnB3dFhWR1g1UkNUWG14QWd1aDNSOUE3Mg?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-11-06",
-      "body_snippet": "超级AI禁令草案引发市场波动：数据中心成本、算力需求与Anthropic估值受关注 虎嗅网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-005",
       "title": "2026移动网络大会 | 慧博云通与宝德计算联展，全面呈现“算力+算法+场景应用”全栈能力 - 人工智能",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9vTnFTSFlzNzViaVBvd1BJWmpVZGxJWWc0bTdLRkZVUDJYdlZNODNudDdDV3NMbGZ1LW9GOUFwSGVQa2FyaFZMSS1zeHE3QzJ5cHc?oc=5",
       "source": "人工智能",
@@ -57,17 +48,7 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-006",
-      "title": "【数智周报】 2026年世界互联网大会乌镇峰会举办；摩根大通副董事长：AI板块估值仍高，预计将出现回调；游族网络拟42亿买GPU；微软收缩AI算力租赁，据称逐步退出甲骨文云协议 - 潮起网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VV1NkcG5oWWJkM0lsQlhVRE5Oc0hwVXhHZG5Sc0VEZWwzbU9JdEZ4QTNTaUNvenpzQTZyMWEtb1I2Rkw3Z3RGRWlHUHdLZDJFdzdXODF0bWhmYmhJSUx2bllXVQ?oc=5",
-      "source": "潮起网",
-      "category": "监管",
-      "published": "2026-11-07",
-      "body_snippet": "【数智周报】 2026年世界互联网大会乌镇峰会举办；摩根大通副董事长：AI板块估值仍高，预计将出现回调；游族网络拟42亿买GPU；微软收缩AI算力租赁，据称逐步退出甲骨文云协议 潮起网",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-007",
+      "id": "raw-005",
       "title": "370亿+→1000亿：运营商算力投资再加码 AIDC、Token变现路径渐清晰 - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5CMjNYN3RZbmtqVl9pVGViT2dfWVBxUmdUSDVaSDJGZF81bVZuZkdSZVZGSGZtbGtyaVh2enk4RTN6UUxnS3hOaA?oc=5",
       "source": "财联社",
@@ -77,17 +58,27 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-008",
-      "title": "赵志国：把握AI时代机遇以数实融合激活新质生产力--经济·科技 - 人民网财经",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ybHoteXBIREdsMnc5QmFSZTJ0WDRjZUtMUmVUUndnaFhJTEJiQUtmcy11T0hDLUlsVHNHUkVLMTZ1ZVNUSmRsSVoyQlJGVHF0Yk0wS3RhRkc1ZW41M3pYaDFNbFByalh0elZjOUlB?oc=5",
-      "source": "人民网财经",
-      "category": "监管",
-      "published": "2026-11-08",
-      "body_snippet": "赵志国：把握AI时代机遇以数实融合激活新质生产力--经济·科技 人民网财经",
-      "_query_boost": 20
+      "id": "raw-006",
+      "title": "黄仁勋婚外情牵出中国间谍疑云 五问看懂英伟达调查风波 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WcEYxTzJlU1pqaFlqT1c2bmZOam9PcTV6T1VOdDl6b1llWE1HU2x6TDBka25aemZjVzNjZVdPOWVjSHJmNi13V0ZYQXhWRE9BYmhyNTJhWXk0OGNsNmdVLWNuM0ljcmN3UFE?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-11-09",
+      "body_snippet": "黄仁勋婚外情牵出中国间谍疑云 五问看懂英伟达调查风波 联合早报",
+      "_query_boost": 0
     },
     {
-      "id": "raw-009",
+      "id": "raw-007",
+      "title": "不止算力与通信！西安加速建设“六张网”为城市赋能 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVXZoMUdtQVlMSnlNRGhXeGhYTzRTd3BKZ3gzQXhFdzBITWxEOGhEd1NwSV94UnVfdjZiWDQyTzNkRVltcDdoU3hYTkdPQU1EbkF4WmdoLUdjakpCVjBYYW50bE1BdnR6cTZTSmU5clBMdUtueXZiRlAwcXJGbFl5MFV3?oc=5",
+      "source": "新华网",
+      "category": "政策",
+      "published": "2026-11-08",
+      "body_snippet": "不止算力与通信！西安加速建设“六张网”为城市赋能 新华网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-008",
       "title": "AI基建狂潮遭遇现实阻力！欧洲多国爆发抗议 要求暂停数据中心建设 - 财联社电报",
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE00a1FWZHdpRW5ScE9CbVBrN1otOEplb2daUXRaTXR3YXZKNnVUYzZ6V2xodl9Uc19wV1JvVnc3TmRHZzZwdUE?oc=5",
       "source": "财联社电报",
@@ -97,7 +88,47 @@
       "_query_boost": 25
     },
     {
+      "id": "raw-009",
+      "title": "欧洲多地抗议数据中心扩张，要求暂停建设 - BlockBeats",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3VG1ONXNfZmw1UXRXLS1MVWsyd2Nac0pVOWxUWDdTbEstanc2VjI3N2dNcUUxdGRqbjIzMmJOek5NQW0xeU1FaTBrWEVZYnlxczEyWVJR?oc=5",
+      "source": "BlockBeats",
+      "category": "海外",
+      "published": "2026-11-07",
+      "body_snippet": "欧洲多地抗议数据中心扩张，要求暂停建设 BlockBeats",
+      "_query_boost": 25
+    },
+    {
       "id": "raw-010",
+      "title": "超级AI禁令草案引发市场波动：数据中心成本、算力需求与Anthropic估值受关注 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5YZFNTVmRLOXJvUzJsR2NLSkNnbWhackxEczdRT3JuMkxuQllJQm41Q1dfX2RZVGR0NGNOQnB3dFhWR1g1UkNUWG14QWd1aDNSOUE3Mg?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-11-06",
+      "body_snippet": "超级AI禁令草案引发市场波动：数据中心成本、算力需求与Anthropic估值受关注 虎嗅网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-011",
+      "title": "赵志国：把握AI时代机遇以数实融合激活新质生产力--经济·科技 - 人民网财经",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ybHoteXBIREdsMnc5QmFSZTJ0WDRjZUtMUmVUUndnaFhJTEJiQUtmcy11T0hDLUlsVHNHUkVLMTZ1ZVNUSmRsSVoyQlJGVHF0Yk0wS3RhRkc1ZW41M3pYaDFNbFByalh0elZjOUlB?oc=5",
+      "source": "人民网财经",
+      "category": "监管",
+      "published": "2026-11-08",
+      "body_snippet": "赵志国：把握AI时代机遇以数实融合激活新质生产力--经济·科技 人民网财经",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-012",
+      "title": "AI浪潮撞上资本震荡：Anthropic算力投入回报分歧与中美AI展望 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xc1hqdzNoS29HajVZbzF1dXZMYVRYcDgtdmJhcTI2S1ltVkxRZEs2Ul84ZTBCT1NoNUxzTUp2aG5WWXFmRjExTWd4Y0ZkMDlXV01PRA?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-11-09",
+      "body_snippet": "AI浪潮撞上资本震荡：Anthropic算力投入回报分歧与中美AI展望 虎嗅网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-013",
       "title": "上海各区找准赛道彼此成就 加速布局卫星互联网产业创新高地 携手接力组链 托举“千帆”竞发",
       "url": "https://www.shanghai.gov.cn/nw4411/20261108/31dac235c272447f9f2cb7ad8d964198.html",
       "source": "上海市政府-动态",
@@ -106,51 +137,23 @@
       "category": "技术"
     },
     {
-      "id": "raw-011",
-      "title": "四维图新创想大会 | 以数据与算力为基，SEEWAY.AI驶向新一站 - 热点科技",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04Zm8xTDlENlo4MzhrVEVhZzFFVENBMWlqMzZrT1JOWEIwUVU5X0UtZnhMWEQ4M1BOMmU2NW1jY05aSXJOSEt2ZDMzLThza0d5QW9sWGdmWDE0RFBo?oc=5",
-      "source": "热点科技",
+      "id": "raw-014",
+      "title": "四维图新创想大会| 以数据与算力为基，SEEWAY.AI驶向新一站-公司动态 - 证券市场周刊",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZVnhjTllVWFBuT0RCOWhSSWl6ZFgyY3AzUXIyMjBqeG9LbzlmNUxDZW9fVnliR0t3WDMwWVVJNWdiVlFIWm5ELW9TZEl4RENGLVQ5aHJ5WWJVTm9XbGozRXo0RXE?oc=5",
+      "source": "证券市场周刊",
       "category": "政策",
-      "published": "2026-11-07",
-      "body_snippet": "四维图新创想大会 | 以数据与算力为基，SEEWAY.AI驶向新一站 热点科技",
+      "published": "2026-11-06",
+      "body_snippet": "四维图新创想大会| 以数据与算力为基，SEEWAY.AI驶向新一站-公司动态 证券市场周刊",
       "_query_boost": 20
     },
     {
-      "id": "raw-012",
-      "title": "三星砸 42 亿建数据中心，算力的子弹先留给自己人 - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ZZlhNcWpGS0tzT3JDMDZnalphTk54djJGUU15eGNrU29QUFNYTzdNVDU4ZmdoNURRY3FRakowZHJvM0huczRoWkJlOXJUdw?oc=5",
-      "source": "AIBase",
-      "category": "技术",
-      "published": "2026-11-06",
-      "body_snippet": "三星砸 42 亿建数据中心，算力的子弹先留给自己人 AIBase",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-013",
-      "title": "进一步加强经贸产业投资合作 朱忠明会见新西兰奥克兰市市长布朗",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261107/b8dd9bd78a424582af77e5d59db7049e.html",
-      "source": "上海市政府-动态",
-      "published": "2026-11-07",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-014",
-      "title": "关于2026年度上海市科技服务业重大投资项目拟支持项目的公示",
-      "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261106/6e08f64037f642d4898ba0b6ea46ae6b.html",
-      "source": "上海市科委",
-      "published": "2026-11-06",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
       "id": "raw-015",
-      "title": "每年将新增3个上海市用电量国家能源局：算力等产业带动下“十五五”用电年均增量将达6000亿度左右| @发布会 - 第一财经",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE04cHI5V0MtVEppVDdHLUlBZ0ZBSmNpbTh5THRxckwtTGdCQXVXLVp5aEVIRFlzUXFlTW8zOFJPdHdrLUZKMUZkQjdzSGhnYTJEajV0Yw?oc=5",
-      "source": "第一财经",
-      "category": "政策",
-      "published": "2026-11-06",
-      "body_snippet": "每年将新增3个上海市用电量国家能源局：算力等产业带动下“十五五”用电年均增量将达6000亿度左右| @发布会 第一财经",
+      "title": "何立峰北京调研：加大对AI及算力网建设金融支持 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZTGxRa2Y0ckFLdnlUdk9ESTBsaUwxeXJzRGdiRkE2alpuTEh1ZWg3alNqdUM0aEtfTHFXdlkzVk1NYVJrMXl6YWhqeUpKLWpqWXRmeTF0cWNsN1JCLVh1eXA1bzE0YW5JY2c?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-11-05",
+      "body_snippet": "何立峰北京调研：加大对AI及算力网建设金融支持 联合早报",
       "_query_boost": 0
     }
   ]
