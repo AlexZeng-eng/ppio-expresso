@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-09T07:09:48.726Z",
+  "generated_at": "2026-11-11T07:03:51.000Z",
   "week": "2026-W46",
   "date_range": {
-    "from": "2026-11-02",
-    "to": "2026-11-09"
+    "from": "2026-11-04",
+    "to": "2026-11-11"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -20,35 +20,75 @@
     },
     {
       "id": "raw-002",
-      "title": "美国中期选举后民主党掌控两院：英伟达对华AI芯片出口管制收紧，国产大模型算力承压 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5UjN6bUlSRUQ2TnFjS0FUUkppeTJjZXhmbVVLMzEwTUljMGpkRDJwU0NLUjUzSmI1U3o2a0ozNkJraWx1RzBkLThrS05xM1lLZGY0eQ?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-11-09",
-      "body_snippet": "美国中期选举后民主党掌控两院：英伟达对华AI芯片出口管制收紧，国产大模型算力承压 虎嗅网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-003",
       "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
       "source": "工信部-新闻",
-      "published": "2026-11-09",
+      "published": "2026-11-11",
       "body_snippet": "",
       "category": "技术"
     },
     {
+      "id": "raw-003",
+      "title": "美国中期选举后民主党掌控两院：英伟达对华AI芯片出口管制收紧，国产大模型算力承压 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5UjN6bUlSRUQ2TnFjS0FUUkppeTJjZXhmbVVLMzEwTUljMGpkRDJwU0NLUjUzSmI1U3o2a0ozNkJraWx1RzBkLThrS05xM1lLZGY0eQ?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-11-09",
+      "body_snippet": "美国中期选举后民主党掌控两院：英伟达对华AI芯片出口管制收紧，国产大模型算力承压 虎嗅",
+      "_query_boost": 0
+    },
+    {
       "id": "raw-004",
-      "title": "2026移动网络大会 | 慧博云通与宝德计算联展，全面呈现“算力+算法+场景应用”全栈能力 - 人工智能",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9vTnFTSFlzNzViaVBvd1BJWmpVZGxJWWc0bTdLRkZVUDJYdlZNODNudDdDV3NMbGZ1LW9GOUFwSGVQa2FyaFZMSS1zeHE3QzJ5cHc?oc=5",
-      "source": "人工智能",
+      "title": "“六张网”协同中的通信业机遇 - 中广互联",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE83SmVrWFZMdmlsYnQwMUtXcUN0NmFoc3JGNFBKV2NZT29aTTBvS05pRUQ4cWlnMjM0NEt1OXFQWFNza0JxdzZFeXJmMA?oc=5",
+      "source": "中广互联",
       "category": "政策",
-      "published": "2026-11-07",
-      "body_snippet": "2026移动网络大会 | 慧博云通与宝德计算联展，全面呈现“算力+算法+场景应用”全栈能力 人工智能",
-      "_query_boost": 20
+      "published": "2026-11-11",
+      "body_snippet": "“六张网”协同中的通信业机遇 中广互联",
+      "_query_boost": 25
     },
     {
       "id": "raw-005",
+      "title": "李燕铭：丁薛祥老家官场被清洗 八大看点 - 阿波罗新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FYlBjXzBKWWRqb1VTYWdfd0JBZHFjT3QzYnlWNms4ZU5MVUpRTTJJVl9UTHlCUGFfMk5ZM09BbUVNcDN3NGF2aFlMQV9CVTFjUjZyWUhOSll6ZjU2d2c?oc=5",
+      "source": "阿波罗新闻网",
+      "category": "政策",
+      "published": "2026-11-11",
+      "body_snippet": "李燕铭：丁薛祥老家官场被清洗 八大看点 阿波罗新闻网",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-006",
+      "title": "美国数据中心建设暂停潮或使AI有效算力年增速降至约六倍 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81QUUwQnhlcThydHFDZFpoSWsyM2lUalp4OWhiZi1GQ3g0Y0ItaXZ3U2w1NkxKRnd3bTA1RDJ0ZzFRNFRNTHd5SHZCOVVHOHFOTk5aSQ?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-11-10",
+      "body_snippet": "美国数据中心建设暂停潮或使AI有效算力年增速降至约六倍 虎嗅",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-007",
+      "title": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 - cnBeta.COM",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MMjUyOU1ZZXlFOTkyQ25NUzc3U2N4U3ZkX2c2THpoYktOQ2dSd3BtMG1SNERGbHM2UnpteXFzNXEwVWhIaFFmSV9NNGRTNVFFaS1GaklwaE9aLVI5cWp0LQ?oc=5",
+      "source": "cnBeta.COM",
+      "category": "海外",
+      "published": "2026-11-11",
+      "body_snippet": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 cnBeta.COM",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-008",
+      "title": "荷兰百名抗议者闯入微软数据中心 反对AI基建扩张 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkdldVbnVsMEJyTXEyYUhUODNMeV9UWlMwWUdNeFBpMFFCVlJiZE16RHM3WEVGTXhuT1NpMEJwMXN6MkQ3Mzh1NU8zM0dBY3BvYVJPMDBPa1R0OS1PbEZ0SW5PWUlBMGRCSU9EZ0U4czA?oc=5",
+      "source": "中华网",
+      "category": "海外",
+      "published": "2026-11-09",
+      "body_snippet": "荷兰百名抗议者闯入微软数据中心 反对AI基建扩张 中华网",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-009",
       "title": "370亿+→1000亿：运营商算力投资再加码 AIDC、Token变现路径渐清晰 - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5CMjNYN3RZbmtqVl9pVGViT2dfWVBxUmdUSDVaSDJGZF81bVZuZkdSZVZGSGZtbGtyaVh2enk4RTN6UUxnS3hOaA?oc=5",
       "source": "财联社",
@@ -58,7 +98,25 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-006",
+      "id": "raw-010",
+      "title": "进博会五项核心数据创新高 按一年计 本届意向成交额854.5亿美元 下届签约面积已逾十万平方米",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261111/7609d336016b4bc0a596e1f2c82e9aa9.html",
+      "source": "上海市政府-动态",
+      "published": "2026-11-11",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-011",
+      "title": "深化“邮轮+”业态创新 开启第二个“黄金十年”",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261111/4608b58e6ba8436b8d949a66409ed6e7.html",
+      "source": "上海市政府-动态",
+      "published": "2026-11-11",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-012",
       "title": "黄仁勋婚外情牵出中国间谍疑云 五问看懂英伟达调查风波 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WcEYxTzJlU1pqaFlqT1c2bmZOam9PcTV6T1VOdDl6b1llWE1HU2x6TDBka25aemZjVzNjZVdPOWVjSHJmNi13V0ZYQXhWRE9BYmhyNTJhWXk0OGNsNmdVLWNuM0ljcmN3UFE?oc=5",
       "source": "联合早报",
@@ -68,92 +126,32 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-007",
-      "title": "不止算力与通信！西安加速建设“六张网”为城市赋能 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVXZoMUdtQVlMSnlNRGhXeGhYTzRTd3BKZ3gzQXhFdzBITWxEOGhEd1NwSV94UnVfdjZiWDQyTzNkRVltcDdoU3hYTkdPQU1EbkF4WmdoLUdjakpCVjBYYW50bE1BdnR6cTZTSmU5clBMdUtueXZiRlAwcXJGbFl5MFV3?oc=5",
-      "source": "新华网",
-      "category": "政策",
-      "published": "2026-11-08",
-      "body_snippet": "不止算力与通信！西安加速建设“六张网”为城市赋能 新华网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-008",
-      "title": "AI基建狂潮遭遇现实阻力！欧洲多国爆发抗议 要求暂停数据中心建设 - 财联社电报",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE00a1FWZHdpRW5ScE9CbVBrN1otOEplb2daUXRaTXR3YXZKNnVUYzZ6V2xodl9Uc19wV1JvVnc3TmRHZzZwdUE?oc=5",
-      "source": "财联社电报",
-      "category": "海外",
-      "published": "2026-11-07",
-      "body_snippet": "AI基建狂潮遭遇现实阻力！欧洲多国爆发抗议 要求暂停数据中心建设 财联社电报",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-009",
-      "title": "欧洲多地抗议数据中心扩张，要求暂停建设 - BlockBeats",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3VG1ONXNfZmw1UXRXLS1MVWsyd2Nac0pVOWxUWDdTbEstanc2VjI3N2dNcUUxdGRqbjIzMmJOek5NQW0xeU1FaTBrWEVZYnlxczEyWVJR?oc=5",
-      "source": "BlockBeats",
-      "category": "海外",
-      "published": "2026-11-07",
-      "body_snippet": "欧洲多地抗议数据中心扩张，要求暂停建设 BlockBeats",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-010",
-      "title": "超级AI禁令草案引发市场波动：数据中心成本、算力需求与Anthropic估值受关注 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5YZFNTVmRLOXJvUzJsR2NLSkNnbWhackxEczdRT3JuMkxuQllJQm41Q1dfX2RZVGR0NGNOQnB3dFhWR1g1UkNUWG14QWd1aDNSOUE3Mg?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-11-06",
-      "body_snippet": "超级AI禁令草案引发市场波动：数据中心成本、算力需求与Anthropic估值受关注 虎嗅网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-011",
-      "title": "赵志国：把握AI时代机遇以数实融合激活新质生产力--经济·科技 - 人民网财经",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ybHoteXBIREdsMnc5QmFSZTJ0WDRjZUtMUmVUUndnaFhJTEJiQUtmcy11T0hDLUlsVHNHUkVLMTZ1ZVNUSmRsSVoyQlJGVHF0Yk0wS3RhRkc1ZW41M3pYaDFNbFByalh0elZjOUlB?oc=5",
-      "source": "人民网财经",
-      "category": "监管",
-      "published": "2026-11-08",
-      "body_snippet": "赵志国：把握AI时代机遇以数实融合激活新质生产力--经济·科技 人民网财经",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-012",
-      "title": "AI浪潮撞上资本震荡：Anthropic算力投入回报分歧与中美AI展望 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xc1hqdzNoS29HajVZbzF1dXZMYVRYcDgtdmJhcTI2S1ltVkxRZEs2Ul84ZTBCT1NoNUxzTUp2aG5WWXFmRjExTWd4Y0ZkMDlXV01PRA?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-11-09",
-      "body_snippet": "AI浪潮撞上资本震荡：Anthropic算力投入回报分歧与中美AI展望 虎嗅网",
-      "_query_boost": 0
-    },
-    {
       "id": "raw-013",
-      "title": "上海各区找准赛道彼此成就 加速布局卫星互联网产业创新高地 携手接力组链 托举“千帆”竞发",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261108/31dac235c272447f9f2cb7ad8d964198.html",
-      "source": "上海市政府-动态",
-      "published": "2026-11-08",
+      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+      "source": "TechCrunch",
+      "published": "2026-11-10",
       "body_snippet": "",
-      "category": "技术"
+      "category": "资本"
     },
     {
       "id": "raw-014",
-      "title": "四维图新创想大会| 以数据与算力为基，SEEWAY.AI驶向新一站-公司动态 - 证券市场周刊",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZVnhjTllVWFBuT0RCOWhSSWl6ZFgyY3AzUXIyMjBqeG9LbzlmNUxDZW9fVnliR0t3WDMwWVVJNWdiVlFIWm5ELW9TZEl4RENGLVQ5aHJ5WWJVTm9XbGozRXo0RXE?oc=5",
-      "source": "证券市场周刊",
-      "category": "政策",
-      "published": "2026-11-06",
-      "body_snippet": "四维图新创想大会| 以数据与算力为基，SEEWAY.AI驶向新一站-公司动态 证券市场周刊",
-      "_query_boost": 20
+      "title": "Prepping for APEC; Nvidia’s China mess; October trade data - Sinocism | Bill Bishop",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9nRGpMU3ItbVNIZjF0a2JuajNhbTdlQzYzazZHQ0NHenVUeG12SWZYUEpFeHJyNG1ISTUxYlVFNTJ2ZEdHeVJkSmhmeUFFNVJwNjRZbXhjQmV0WHVxTERBQWZuZEJVUkh4cHZV?oc=5",
+      "source": "Sinocism | Bill Bishop",
+      "category": "海外",
+      "published": "2026-11-10",
+      "body_snippet": "Prepping for APEC; Nvidia’s China mess; October trade data Sinocism | Bill Bishop",
+      "_query_boost": 0
     },
     {
       "id": "raw-015",
-      "title": "何立峰北京调研：加大对AI及算力网建设金融支持 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZTGxRa2Y0ckFLdnlUdk9ESTBsaUwxeXJzRGdiRkE2alpuTEh1ZWg3alNqdUM0aEtfTHFXdlkzVk1NYVJrMXl6YWhqeUpKLWpqWXRmeTF0cWNsN1JCLVh1eXA1bzE0YW5JY2c?oc=5",
-      "source": "联合早报",
+      "title": "Nvidia’s mess; US-China prep for APEC; Stabilizing the stock market - Sinocism | Bill Bishop",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PcGhFYVRUMEZ5S04tRVdvWUpmWmhLd1Azc3NPUjZoWWVTTHFUUDlJU3VILUpKeThHRTJydlAyTnhsOW1ETGx0MmJSZG82OENYNi03UzhkamRzQkxUcGdINWdWenFOV2s5YlE?oc=5",
+      "source": "Sinocism | Bill Bishop",
       "category": "海外",
-      "published": "2026-11-05",
-      "body_snippet": "何立峰北京调研：加大对AI及算力网建设金融支持 联合早报",
+      "published": "2026-11-09",
+      "body_snippet": "Nvidia’s mess; US-China prep for APEC; Stabilizing the stock market Sinocism | Bill Bishop",
       "_query_boost": 0
     }
   ]
