@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-11-11T07:03:51.000Z",
+  "generated_at": "2026-11-12T07:42:31.124Z",
   "week": "2026-W46",
   "date_range": {
-    "from": "2026-11-04",
-    "to": "2026-11-11"
+    "from": "2026-11-05",
+    "to": "2026-11-12"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "美媒：中国企业月之暗面转向欧洲租用英伟达先进晶片算力 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5velBIMElyRmFOZ2xsMlJCa3g0LUpNelRkTHp5U1dCdjBsYTFKTnk3cGk0UmNoUDhsT3BOWmlIMmQ4S3Rwb2pZN2pxcmVVUHpwVVk0RkpiUUV4WnpheVQ0UWVWckZHTG9NeHc?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-11-05",
-      "body_snippet": "美媒：中国企业月之暗面转向欧洲租用英伟达先进晶片算力 联合早报",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-002",
       "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
       "source": "工信部-新闻",
-      "published": "2026-11-11",
+      "published": "2026-11-12",
       "body_snippet": "",
       "category": "技术"
+    },
+    {
+      "id": "raw-002",
+      "title": "美媒：中国月之暗面拟绕过美国限制 租用英伟达欧洲先进芯片算力 - 香港01",
+      "url": "https://news.google.com/rss/articles/CBMizANBVV95cUxOdG5ZejRfNUVlazhoY3Q1MEpqVlM5Z3d3MFBhNkNkZWZ5LXRZMm56UUdnT2dzakQ2NlNjM19hWE1jRUFpVHVFYWNxa05LV3Y3b1BaUE1sRUZfLVMweXdBMVBFZDQ4bUg2MUZVS3A1eEsyYXVyekxucW1EMVdwYUx0ZXpiSHlzcUg3cWp4Ymo2dm50UXdUaUtlY29IeFhwQzFJZWVhbFFrckwyRFZvMmV2aUxxU0VyaFQ5U0s1dFVxVS1pazdfdklnbEUzZzRCYjhiZ0dDbzdqcmJGNW1qSnFfbEFXR2VHNXJ5LVNSSUxSNkhxYVBtVzN5SkhVM2FYX2ZtM2cwSzJPb0FzelFLSUQxS1E4NWJPcU1fUDBSVEVHd2tuVkd2VTM1cVhKS1h0SW5SUlVHX2lHY3IyaHVIT21QVkhzaV81enNMZVpfUlV5bVBVT294SjI0Z1F1S1VZX29NcU1sZFh3X0xKNjI4dFN3U3AyYVotd1dWaDhna01Ib3JDaklMQkY5YU5rek1LNzE5MURuN2w1c2o2c1h2NExhTkhaUjlDeXYtWFNKNHNHR2JsZzE0eHFTdkg1NUlOZS1WMElIOHpWZnZ6R0hF?oc=5",
+      "source": "香港01",
+      "category": "海外",
+      "published": "2026-11-06",
+      "body_snippet": "美媒：中国月之暗面拟绕过美国限制 租用英伟达欧洲先进芯片算力 香港01",
+      "_query_boost": 0
     },
     {
       "id": "raw-003",
@@ -39,26 +39,6 @@
     },
     {
       "id": "raw-004",
-      "title": "“六张网”协同中的通信业机遇 - 中广互联",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE83SmVrWFZMdmlsYnQwMUtXcUN0NmFoc3JGNFBKV2NZT29aTTBvS05pRUQ4cWlnMjM0NEt1OXFQWFNza0JxdzZFeXJmMA?oc=5",
-      "source": "中广互联",
-      "category": "政策",
-      "published": "2026-11-11",
-      "body_snippet": "“六张网”协同中的通信业机遇 中广互联",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-005",
-      "title": "李燕铭：丁薛祥老家官场被清洗 八大看点 - 阿波罗新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FYlBjXzBKWWRqb1VTYWdfd0JBZHFjT3QzYnlWNms4ZU5MVUpRTTJJVl9UTHlCUGFfMk5ZM09BbUVNcDN3NGF2aFlMQV9CVTFjUjZyWUhOSll6ZjU2d2c?oc=5",
-      "source": "阿波罗新闻网",
-      "category": "政策",
-      "published": "2026-11-11",
-      "body_snippet": "李燕铭：丁薛祥老家官场被清洗 八大看点 阿波罗新闻网",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-006",
       "title": "美国数据中心建设暂停潮或使AI有效算力年增速降至约六倍 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81QUUwQnhlcThydHFDZFpoSWsyM2lUalp4OWhiZi1GQ3g0Y0ItaXZ3U2w1NkxKRnd3bTA1RDJ0ZzFRNFRNTHd5SHZCOVVHOHFOTk5aSQ?oc=5",
       "source": "虎嗅",
@@ -68,23 +48,43 @@
       "_query_boost": 0
     },
     {
+      "id": "raw-005",
+      "title": "云南以绿电点亮算力 - 昆明信息港",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE00UnI3dmJkb3U5OUNTcWlDOVItWW8xSkVzNmhYNUxqbVpYT2RjM3plbWRpT3VqYlVfdDdKdmtTdVNqbjBGdFZFSS1rcHc5S2pRTUx0T3lMSEJ3MGtGQk5wVGFQYkI0QQ?oc=5",
+      "source": "昆明信息港",
+      "category": "监管",
+      "published": "2026-11-12",
+      "body_snippet": "云南以绿电点亮算力 昆明信息港",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-006",
+      "title": "一个月近10官员落马 丁薛祥老家被清洗 内幕曝光 - 万维读者网",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95bG93V3hoZmV1cVg4YjdRQWNQQVhOUzRoZXZCOUhCUTFwNzVJM05FaWtncW10MlBhREcybVJ2Y0l3cWxCUld2OXpOOWlNeElLX0s0bld3OVFEaEZxSVNORV91MXJOdw?oc=5",
+      "source": "万维读者网",
+      "category": "政策",
+      "published": "2026-11-11",
+      "body_snippet": "一个月近10官员落马 丁薛祥老家被清洗 内幕曝光 万维读者网",
+      "_query_boost": 25
+    },
+    {
       "id": "raw-007",
-      "title": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 - cnBeta.COM",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MMjUyOU1ZZXlFOTkyQ25NUzc3U2N4U3ZkX2c2THpoYktOQ2dSd3BtMG1SNERGbHM2UnpteXFzNXEwVWhIaFFmSV9NNGRTNVFFaS1GaklwaE9aLVI5cWp0LQ?oc=5",
-      "source": "cnBeta.COM",
+      "title": "欧盟云与人工智能法案草案：议员力推技术主权 - 新闻和统计 - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRTREcXRPN3NfaUZRQ2lsMlgtUDV3TTNSYkd0czh5OHBoZVhJeVRxNmt4LUtDaGx4ZS1ESlRwWklRR0VtZFoyekxobFlyaS1RTWNxR3NqYXEzOVllaGFZZEJMMXRZT2R2NURYbDRSUEp3Q1JuLVBETkZJR2k5WjAtclNMVENqd2Nva3V6VmpnOTlqd1RYZzBaRXNjdGFTeW9sRlREZmpNSm5SVnphdjNIWEwtSl9QTFk?oc=5",
+      "source": "IndexBox",
       "category": "海外",
       "published": "2026-11-11",
-      "body_snippet": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 cnBeta.COM",
-      "_query_boost": 0
+      "body_snippet": "欧盟云与人工智能法案草案：议员力推技术主权 - 新闻和统计 IndexBox",
+      "_query_boost": 25
     },
     {
       "id": "raw-008",
-      "title": "荷兰百名抗议者闯入微软数据中心 反对AI基建扩张 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkdldVbnVsMEJyTXEyYUhUODNMeV9UWlMwWUdNeFBpMFFCVlJiZE16RHM3WEVGTXhuT1NpMEJwMXN6MkQ3Mzh1NU8zM0dBY3BvYVJPMDBPa1R0OS1PbEZ0SW5PWUlBMGRCSU9EZ0U4czA?oc=5",
-      "source": "中华网",
-      "category": "海外",
-      "published": "2026-11-09",
-      "body_snippet": "荷兰百名抗议者闯入微软数据中心 反对AI基建扩张 中华网",
+      "title": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 - 广西新闻网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15TzdqdldBRTRWLW1BVXJ0M3g3MGgwYW9PRFB4b2JKWno1TkZ0Vy0xemtLUG5mYlRFRENnc2NwRGhxZjJBdHliazFTU1BQU3lhQmxPLXBUcHRjVGVCbEhPZmRES0lCbkpmUFhCQmJQaDJtX2RVcTZkTFByNEdCYWs?oc=5",
+      "source": "广西新闻网",
+      "category": "政策",
+      "published": "2026-11-10",
+      "body_snippet": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 广西新闻网",
       "_query_boost": 25
     },
     {
@@ -99,40 +99,40 @@
     },
     {
       "id": "raw-010",
-      "title": "进博会五项核心数据创新高 按一年计 本届意向成交额854.5亿美元 下届签约面积已逾十万平方米",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261111/7609d336016b4bc0a596e1f2c82e9aa9.html",
+      "title": "浦东引领区：站上科技驱动发展新台阶 以创新为牵引的发展方式主导浦东的今天 更为浦东的明天积蓄深厚能量",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261112/f8249e6960384833a18c04eeefcb80e2.html",
       "source": "上海市政府-动态",
-      "published": "2026-11-11",
+      "published": "2026-11-12",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-011",
-      "title": "深化“邮轮+”业态创新 开启第二个“黄金十年”",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261111/4608b58e6ba8436b8d949a66409ed6e7.html",
+      "title": "胸怀大局大事聚力创新创造 上海哲社教研骨干研修班开班",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261112/713aac9e6eba4d5c8a51097353da6a19.html",
       "source": "上海市政府-动态",
-      "published": "2026-11-11",
+      "published": "2026-11-12",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-012",
-      "title": "黄仁勋婚外情牵出中国间谍疑云 五问看懂英伟达调查风波 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WcEYxTzJlU1pqaFlqT1c2bmZOam9PcTV6T1VOdDl6b1llWE1HU2x6TDBka25aemZjVzNjZVdPOWVjSHJmNi13V0ZYQXhWRE9BYmhyNTJhWXk0OGNsNmdVLWNuM0ljcmN3UFE?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-11-09",
-      "body_snippet": "黄仁勋婚外情牵出中国间谍疑云 五问看懂英伟达调查风波 联合早报",
-      "_query_boost": 0
+      "title": "上海市人民政府办公厅印发《关于优化上海市信用修复制度的实施方案》的通知",
+      "url": "https://www.shanghai.gov.cn/nw12344/20261112/76c12b579f2d4ebfb9dcdccb2f20673a.html",
+      "source": "上海市政府-政策文件",
+      "published": "2026-11-12",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-013",
-      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
-      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-      "source": "TechCrunch",
-      "published": "2026-11-10",
-      "body_snippet": "",
-      "category": "资本"
+      "title": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 - cnBeta.COM",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MMjUyOU1ZZXlFOTkyQ25NUzc3U2N4U3ZkX2c2THpoYktOQ2dSd3BtMG1SNERGbHM2UnpteXFzNXEwVWhIaFFmSV9NNGRTNVFFaS1GaklwaE9aLVI5cWp0LQ?oc=5",
+      "source": "cnBeta.COM",
+      "category": "海外",
+      "published": "2026-11-11",
+      "body_snippet": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 cnBeta.COM",
+      "_query_boost": 0
     },
     {
       "id": "raw-014",

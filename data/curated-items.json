@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-11T07:03:51.079Z",
+  "generated_at": "2026-11-12T07:42:31.205Z",
   "week": "2026-W46",
   "classifier": "rule-based",
   "total_raw": 15,
   "total_curated": 7,
-  "attend_count": 2,
-  "silent_count": 5,
+  "attend_count": 1,
+  "silent_count": 6,
   "items": [
     {
-      "id": "raw-001",
-      "title": "美媒：中国企业月之暗面转向欧洲租用英伟达先进晶片算力 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5velBIMElyRmFOZ2xsMlJCa3g0LUpNelRkTHp5U1dCdjBsYTFKTnk3cGk0UmNoUDhsT3BOWmlIMmQ4S3Rwb2pZN2pxcmVVUHpwVVk0RkpiUUV4WnpheVQ0UWVWckZHTG9NeHc?oc=5",
-      "source": "联合早报",
+      "id": "raw-002",
+      "title": "美媒：中国月之暗面拟绕过美国限制 租用英伟达欧洲先进芯片算力 - 香港01",
+      "url": "https://news.google.com/rss/articles/CBMizANBVV95cUxOdG5ZejRfNUVlazhoY3Q1MEpqVlM5Z3d3MFBhNkNkZWZ5LXRZMm56UUdnT2dzakQ2NlNjM19hWE1jRUFpVHVFYWNxa05LV3Y3b1BaUE1sRUZfLVMweXdBMVBFZDQ4bUg2MUZVS3A1eEsyYXVyekxucW1EMVdwYUx0ZXpiSHlzcUg3cWp4Ymo2dm50UXdUaUtlY29IeFhwQzFJZWVhbFFrckwyRFZvMmV2aUxxU0VyaFQ5U0s1dFVxVS1pazdfdklnbEUzZzRCYjhiZ0dDbzdqcmJGNW1qSnFfbEFXR2VHNXJ5LVNSSUxSNkhxYVBtVzN5SkhVM2FYX2ZtM2cwSzJPb0FzelFLSUQxS1E4NWJPcU1fUDBSVEVHd2tuVkd2VTM1cVhKS1h0SW5SUlVHX2lHY3IyaHVIT21QVkhzaV81enNMZVpfUlV5bVBVT294SjI0Z1F1S1VZX29NcU1sZFh3X0xKNjI4dFN3U3AyYVotd1dWaDhna01Ib3JDaklMQkY5YU5rek1LNzE5MURuN2w1c2o2c1h2NExhTkhaUjlDeXYtWFNKNHNHR2JsZzE0eHFTdkg1NUlOZS1WMElIOHpWZnZ6R0hF?oc=5",
+      "source": "香港01",
       "category": "海外",
-      "published": "2026-11-05",
-      "body_snippet": "美媒：中国企业月之暗面转向欧洲租用英伟达先进晶片算力 联合早报",
+      "published": "2026-11-06",
+      "body_snippet": "美媒：中国月之暗面拟绕过美国限制 租用英伟达欧洲先进芯片算力 香港01",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
@@ -26,7 +26,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "美媒：中国企业月之暗面转向欧洲租用英伟达先进晶片算力 - 联合早报 美媒：中国企业月之暗面转向欧洲租用英伟达先进晶片算力 联合早报",
+      "summary_cn": "美媒：中国月之暗面拟绕过美国限制 租用英伟达欧洲先进芯片算力 - 香港01 美媒：中国月之暗面拟绕过美国限制 租用英伟达欧洲先进芯片算力 香港01",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
@@ -60,7 +60,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
+      "id": "raw-004",
       "title": "美国数据中心建设暂停潮或使AI有效算力年增速降至约六倍 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81QUUwQnhlcThydHFDZFpoSWsyM2lUalp4OWhiZi1GQ3g0Y0ItaXZ3U2w1NkxKRnd3bTA1RDJ0ZzFRNFRNTHd5SHZCOVVHOHFOTk5aSQ?oc=5",
       "source": "虎嗅",
@@ -84,17 +84,17 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-007",
-      "title": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 - cnBeta.COM",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MMjUyOU1ZZXlFOTkyQ25NUzc3U2N4U3ZkX2c2THpoYktOQ2dSd3BtMG1SNERGbHM2UnpteXFzNXEwVWhIaFFmSV9NNGRTNVFFaS1GaklwaE9aLVI5cWp0LQ?oc=5",
-      "source": "cnBeta.COM",
-      "category": "海外",
-      "published": "2026-11-11",
-      "body_snippet": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 cnBeta.COM",
-      "_query_boost": 0,
+      "id": "raw-005",
+      "title": "云南以绿电点亮算力 - 昆明信息港",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE00UnI3dmJkb3U5OUNTcWlDOVItWW8xSkVzNmhYNUxqbVpYT2RjM3plbWRpT3VqYlVfdDdKdmtTdVNqbjBGdFZFSS1rcHc5S2pRTUx0T3lMSEJ3MGtGQk5wVGFQYkI0QQ?oc=5",
+      "source": "昆明信息港",
+      "category": "监管",
+      "published": "2026-11-12",
+      "body_snippet": "云南以绿电点亮算力 昆明信息港",
+      "_query_boost": 20,
       "lane": "silent",
       "signals": [
-        "🌏"
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -102,22 +102,22 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 - cnBeta.COM 美媒曝中国国防背景高",
+      "summary_cn": "云南以绿电点亮算力 - 昆明信息港 云南以绿电点亮算力 昆明信息港",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-008",
-      "title": "荷兰百名抗议者闯入微软数据中心 反对AI基建扩张 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkdldVbnVsMEJyTXEyYUhUODNMeV9UWlMwWUdNeFBpMFFCVlJiZE16RHM3WEVGTXhuT1NpMEJwMXN6MkQ3Mzh1NU8zM0dBY3BvYVJPMDBPa1R0OS1PbEZ0SW5PWUlBMGRCSU9EZ0U4czA?oc=5",
-      "source": "中华网",
-      "category": "海外",
-      "published": "2026-11-09",
-      "body_snippet": "荷兰百名抗议者闯入微软数据中心 反对AI基建扩张 中华网",
+      "title": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 - 广西新闻网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15TzdqdldBRTRWLW1BVXJ0M3g3MGgwYW9PRFB4b2JKWno1TkZ0Vy0xemtLUG5mYlRFRENnc2NwRGhxZjJBdHliazFTU1BQU3lhQmxPLXBUcHRjVGVCbEhPZmRES0lCbkpmUFhCQmJQaDJtX2RVcTZkTFByNEdCYWs?oc=5",
+      "source": "广西新闻网",
+      "category": "政策",
+      "published": "2026-11-10",
+      "body_snippet": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 广西新闻网",
       "_query_boost": 25,
-      "lane": "attend",
+      "lane": "silent",
       "signals": [
-        "—"
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -125,13 +125,8 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "荷兰百名抗议者闯入微软数据中心 反对AI基建扩张 - 中华网 荷兰百名抗议者闯入微软数据中心 反对AI基建扩张 中华网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
+      "summary_cn": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 - 广西新闻网 贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 广西新闻网",
+      "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
@@ -159,15 +154,16 @@
     },
     {
       "id": "raw-013",
-      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
-      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-      "source": "TechCrunch",
-      "published": "2026-11-10",
-      "body_snippet": "",
-      "category": "资本",
+      "title": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 - cnBeta.COM",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MMjUyOU1ZZXlFOTkyQ25NUzc3U2N4U3ZkX2c2THpoYktOQ2dSd3BtMG1SNERGbHM2UnpteXFzNXEwVWhIaFFmSV9NNGRTNVFFaS1GaklwaE9aLVI5cWp0LQ?oc=5",
+      "source": "cnBeta.COM",
+      "category": "海外",
+      "published": "2026-11-11",
+      "body_snippet": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 cnBeta.COM",
+      "_query_boost": 0,
       "lane": "silent",
       "signals": [
-        "💰"
+        "🌏"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -175,7 +171,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "All 7 Anthropic founders will each cash out about $250M in IPO ",
+      "summary_cn": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 - cnBeta.COM 美媒曝中国国防背景高",
       "ppio_signal": null,
       "_classified_by": "rule"
     }
