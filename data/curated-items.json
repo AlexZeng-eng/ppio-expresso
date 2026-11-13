@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T07:42:31.205Z",
+  "generated_at": "2026-11-13T07:13:35.569Z",
   "week": "2026-W46",
   "classifier": "rule-based",
   "total_raw": 15,
@@ -8,13 +8,13 @@
   "silent_count": 6,
   "items": [
     {
-      "id": "raw-002",
-      "title": "美媒：中国月之暗面拟绕过美国限制 租用英伟达欧洲先进芯片算力 - 香港01",
-      "url": "https://news.google.com/rss/articles/CBMizANBVV95cUxOdG5ZejRfNUVlazhoY3Q1MEpqVlM5Z3d3MFBhNkNkZWZ5LXRZMm56UUdnT2dzakQ2NlNjM19hWE1jRUFpVHVFYWNxa05LV3Y3b1BaUE1sRUZfLVMweXdBMVBFZDQ4bUg2MUZVS3A1eEsyYXVyekxucW1EMVdwYUx0ZXpiSHlzcUg3cWp4Ymo2dm50UXdUaUtlY29IeFhwQzFJZWVhbFFrckwyRFZvMmV2aUxxU0VyaFQ5U0s1dFVxVS1pazdfdklnbEUzZzRCYjhiZ0dDbzdqcmJGNW1qSnFfbEFXR2VHNXJ5LVNSSUxSNkhxYVBtVzN5SkhVM2FYX2ZtM2cwSzJPb0FzelFLSUQxS1E4NWJPcU1fUDBSVEVHd2tuVkd2VTM1cVhKS1h0SW5SUlVHX2lHY3IyaHVIT21QVkhzaV81enNMZVpfUlV5bVBVT294SjI0Z1F1S1VZX29NcU1sZFh3X0xKNjI4dFN3U3AyYVotd1dWaDhna01Ib3JDaklMQkY5YU5rek1LNzE5MURuN2w1c2o2c1h2NExhTkhaUjlDeXYtWFNKNHNHR2JsZzE0eHFTdkg1NUlOZS1WMElIOHpWZnZ6R0hF?oc=5",
-      "source": "香港01",
+      "id": "raw-001",
+      "title": "消息：忧美收紧远程访问限制 中国AI企业抢租海外英伟达算力 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVY3Y3T2x1aERTMXFXS01ENU9zVHRWU0tMODBfUDRBZnMxV3pJMXB4dVBtQ3I5Z0QyUGlRLWp1Y2tEaG9yVnNCalNQM2tHbXVXblQwNWFWZ0dpQ29iU1JhZ1dGV0lxYjNQWnc?oc=5",
+      "source": "联合早报",
       "category": "海外",
-      "published": "2026-11-06",
-      "body_snippet": "美媒：中国月之暗面拟绕过美国限制 租用英伟达欧洲先进芯片算力 香港01",
+      "published": "2026-11-12",
+      "body_snippet": "消息：忧美收紧远程访问限制 中国AI企业抢租海外英伟达算力 联合早报",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
@@ -26,12 +26,35 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "美媒：中国月之暗面拟绕过美国限制 租用英伟达欧洲先进芯片算力 - 香港01 美媒：中国月之暗面拟绕过美国限制 租用英伟达欧洲先进芯片算力 香港01",
+      "summary_cn": "消息：忧美收紧远程访问限制 中国AI企业抢租海外英伟达算力 - 联合早报 消息：忧美收紧远程访问限制 中国AI企业抢租海外英伟达算力 联合早报",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-003",
+      "title": "370亿+→1000亿：运营商算力投资再加码 AIDC、Token变现路径渐清晰 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5CMjNYN3RZbmtqVl9pVGViT2dfWVBxUmdUSDVaSDJGZF81bVZuZkdSZVZGSGZtbGtyaVh2enk4RTN6UUxnS3hOaA?oc=5",
+      "source": "财联社",
+      "category": "竞品",
+      "published": "2026-11-07",
+      "body_snippet": "370亿+→1000亿：运营商算力投资再加码 AIDC、Token变现路径渐清晰 财联社",
+      "_query_boost": 15,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "370亿+→1000亿：运营商算力投资再加码 AIDC、Token变现路径渐清晰 - 财联社 370亿+→1000亿：运营商算力投资再加码 AIDC、Token",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-004",
       "title": "美国中期选举后民主党掌控两院：英伟达对华AI芯片出口管制收紧，国产大模型算力承压 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5UjN6bUlSRUQ2TnFjS0FUUkppeTJjZXhmbVVLMzEwTUljMGpkRDJwU0NLUjUzSmI1U3o2a0ozNkJraWx1RzBkLThrS05xM1lLZGY0eQ?oc=5",
       "source": "虎嗅",
@@ -60,7 +83,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
+      "id": "raw-007",
       "title": "美国数据中心建设暂停潮或使AI有效算力年增速降至约六倍 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81QUUwQnhlcThydHFDZFpoSWsyM2lUalp4OWhiZi1GQ3g0Y0ItaXZ3U2w1NkxKRnd3bTA1RDJ0ZzFRNFRNTHd5SHZCOVVHOHFOTk5aSQ?oc=5",
       "source": "虎嗅",
@@ -84,7 +107,30 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
+      "id": "raw-010",
+      "title": "双重利好有望点燃哪个板块？云计算50ETF东方红（562110）专注国产算力兑现窗口，产业高景气 - 潮新闻客户端",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5PLXpzaHQ2RzFTYXB5bWk0c2xkMGdDbHF0blU3cGtNSGFTTzcwYzZtVmprbWpWOFpJVGxrMWJudjZ0ZkRNVEN4ckVJajA5eFJ0SV9pNXRubVBzVVkxeUhtb3hCMDcxZFYxUkljT2NnQkstQjA?oc=5",
+      "source": "潮新闻客户端",
+      "category": "政策",
+      "published": "2026-11-12",
+      "body_snippet": "双重利好有望点燃哪个板块？云计算50ETF东方红（562110）专注国产算力兑现窗口，产业高景气 潮新闻客户端",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "双重利好有望点燃哪个板块？云计算50ETF东方红（562110）专注国产算力兑现窗口，产业高景气 - 潮新闻客户端 双重利好有望点燃哪个板块？云计算50ETF东",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-011",
       "title": "云南以绿电点亮算力 - 昆明信息港",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE00UnI3dmJkb3U5OUNTcWlDOVItWW8xSkVzNmhYNUxqbVpYT2RjM3plbWRpT3VqYlVfdDdKdmtTdVNqbjBGdFZFSS1rcHc5S2pRTUx0T3lMSEJ3MGtGQk5wVGFQYkI0QQ?oc=5",
       "source": "昆明信息港",
@@ -107,53 +153,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-008",
-      "title": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 - 广西新闻网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15TzdqdldBRTRWLW1BVXJ0M3g3MGgwYW9PRFB4b2JKWno1TkZ0Vy0xemtLUG5mYlRFRENnc2NwRGhxZjJBdHliazFTU1BQU3lhQmxPLXBUcHRjVGVCbEhPZmRES0lCbkpmUFhCQmJQaDJtX2RVcTZkTFByNEdCYWs?oc=5",
-      "source": "广西新闻网",
-      "category": "政策",
-      "published": "2026-11-10",
-      "body_snippet": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 广西新闻网",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 - 广西新闻网 贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 广西新闻网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-009",
-      "title": "370亿+→1000亿：运营商算力投资再加码 AIDC、Token变现路径渐清晰 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5CMjNYN3RZbmtqVl9pVGViT2dfWVBxUmdUSDVaSDJGZF81bVZuZkdSZVZGSGZtbGtyaVh2enk4RTN6UUxnS3hOaA?oc=5",
-      "source": "财联社",
-      "category": "技术",
-      "published": "2026-11-07",
-      "body_snippet": "370亿+→1000亿：运营商算力投资再加码 AIDC、Token变现路径渐清晰 财联社",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "370亿+→1000亿：运营商算力投资再加码 AIDC、Token变现路径渐清晰 - 财联社 370亿+→1000亿：运营商算力投资再加码 AIDC、Token",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-013",
+      "id": "raw-012",
       "title": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 - cnBeta.COM",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MMjUyOU1ZZXlFOTkyQ25NUzc3U2N4U3ZkX2c2THpoYktOQ2dSd3BtMG1SNERGbHM2UnpteXFzNXEwVWhIaFFmSV9NNGRTNVFFaS1GaklwaE9aLVI5cWp0LQ?oc=5",
       "source": "cnBeta.COM",
