@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13T07:13:35.601Z",
-  "date": "2026-11-13",
-  "date_label": "2026-11-13",
+  "generated_at": "2026-11-14T07:00:06.883Z",
+  "date": "2026-11-14",
+  "date_label": "2026-11-14",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
@@ -29,6 +29,14 @@
       "id": "1",
       "title": "美国中期选举后民主党掌控两院：英伟达对华",
       "policy_axis": -0.5,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "2",
+      "title": "荷兰百名抗议者闯入微软数据中心 反对AI",
+      "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
       "axis_reason": "规则估算"

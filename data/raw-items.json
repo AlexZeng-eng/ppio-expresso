@@ -1,15 +1,25 @@
 {
-  "generated_at": "2026-11-13T07:13:35.501Z",
-  "week": "2026-W46",
+  "generated_at": "2026-11-14T07:00:06.747Z",
+  "week": "2026-W47",
   "date_range": {
-    "from": "2026-11-06",
-    "to": "2026-11-13"
+    "from": "2026-11-07",
+    "to": "2026-11-14"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
+      "title": "路透：中国境内逾30亿美元算力项目采用英伟达受管制晶片 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52N0g4RWxjcUFoT29ldWJYeFlydlJHMWl0V2hhb2gxUWdWakIxd213ZUxTV0t3OUJFNm5tYUZjYjJaM1BaYlppb3Y1RVpFdUtsekF1bVpTTExpbURkaXVRZXlEMkt5amI2aGc?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-11-13",
+      "body_snippet": "路透：中国境内逾30亿美元算力项目采用英伟达受管制晶片 联合早报",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-002",
       "title": "消息：忧美收紧远程访问限制 中国AI企业抢租海外英伟达算力 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVY3Y3T2x1aERTMXFXS01ENU9zVHRWU0tMODBfUDRBZnMxV3pJMXB4dVBtQ3I5Z0QyUGlRLWp1Y2tEaG9yVnNCalNQM2tHbXVXblQwNWFWZ0dpQ29iU1JhZ1dGV0lxYjNQWnc?oc=5",
       "source": "联合早报",
@@ -19,26 +29,7 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-002",
-      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
-      "source": "工信部-新闻",
-      "published": "2026-11-13",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
       "id": "raw-003",
-      "title": "370亿+→1000亿：运营商算力投资再加码 AIDC、Token变现路径渐清晰 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5CMjNYN3RZbmtqVl9pVGViT2dfWVBxUmdUSDVaSDJGZF81bVZuZkdSZVZGSGZtbGtyaVh2enk4RTN6UUxnS3hOaA?oc=5",
-      "source": "财联社",
-      "category": "竞品",
-      "published": "2026-11-07",
-      "body_snippet": "370亿+→1000亿：运营商算力投资再加码 AIDC、Token变现路径渐清晰 财联社",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-004",
       "title": "美国中期选举后民主党掌控两院：英伟达对华AI芯片出口管制收紧，国产大模型算力承压 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5UjN6bUlSRUQ2TnFjS0FUUkppeTJjZXhmbVVLMzEwTUljMGpkRDJwU0NLUjUzSmI1U3o2a0ozNkJraWx1RzBkLThrS05xM1lLZGY0eQ?oc=5",
       "source": "虎嗅",
@@ -48,23 +39,33 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-005",
-      "title": "“六张网”协同中的通信业机遇 - 中广互联",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE90ZnNWUS1ocmV5cF9sQnFFRDJQZ0tOYjBfQll4Qm1VQ3lkUWkwNWUtVDFSQnVoRzFFcXJULUg5Y0ZpV0hzbEcwVnZpNA?oc=5",
-      "source": "中广互联",
+      "id": "raw-004",
+      "title": "习近平主席引领亚太大家庭扬帆前行 - 求是",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LQjFKUGQ4dktqcEFFSTVRb1FIMVNMSklJRlZYcXZaNDQxRkhvVGl2MXRKN3pfLTV4VGtWN3NIWDRsRElqM0JuTG4yQmxONFlVYTdJdEZDSEZOLWwxbWRfN2l5NmxhVlhsRWV6M0pGSERQZE9Hb2d2eU5salA?oc=5",
+      "source": "求是",
       "category": "政策",
-      "published": "2026-11-11",
-      "body_snippet": "“六张网”协同中的通信业机遇 中广互联",
+      "published": "2026-11-14",
+      "body_snippet": "习近平主席引领亚太大家庭扬帆前行 求是",
       "_query_boost": 25
     },
     {
+      "id": "raw-005",
+      "title": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 - Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQldUTFpJbFVacG9Xa3dZcXZsRDdGN0ZhUHVrOFJZRFN5UXpTM3BRNFJZV3p1X2RuRExFMmtpUHl4LWVYWVl3U0U5b0oyQi1hZjFFTkhjWnM0NVFXb0tUR2Z2ZS1mSkV6aE5MaDFkcVd4MTQ3enR0TkJCdHdBMUVFYm53LVZLSzFobGFz?oc=5",
+      "source": "Sohu",
+      "category": "政策",
+      "published": "2026-11-14",
+      "body_snippet": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 Sohu",
+      "_query_boost": 20
+    },
+    {
       "id": "raw-006",
-      "title": "欧盟云与人工智能法案草案：议员力推技术主权 - 新闻和统计 - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRTREcXRPN3NfaUZRQ2lsMlgtUDV3TTNSYkd0czh5OHBoZVhJeVRxNmt4LUtDaGx4ZS1ESlRwWklRR0VtZFoyekxobFlyaS1RTWNxR3NqYXEzOVllaGFZZEJMMXRZT2R2NURYbDRSUEp3Q1JuLVBETkZJR2k5WjAtclNMVENqd2Nva3V6VmpnOTlqd1RYZzBaRXNjdGFTeW9sRlREZmpNSm5SVnphdjNIWEwtSl9QTFk?oc=5",
-      "source": "IndexBox",
-      "category": "海外",
-      "published": "2026-11-11",
-      "body_snippet": "欧盟云与人工智能法案草案：议员力推技术主权 - 新闻和统计 IndexBox",
+      "title": "筑牢数智底座 赋能云岭腾飞：云南移动数智化建设发展实践之路 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aUFFaQnJvNWhKY19mZVRUekJXV0VxRFFQOFZ4aG9qTG5FbENVOWhUR1VJZW9uN3c1ZDJaeWdySW5SQjh6UzlpbDZCbkpMYThJYms5eTZCTThoOUw1ZlB5czF3bzkxU0F5bFZoRUZn?oc=5",
+      "source": "中华网",
+      "category": "政策",
+      "published": "2026-11-13",
+      "body_snippet": "筑牢数智底座 赋能云岭腾飞：云南移动数智化建设发展实践之路 中华网",
       "_query_boost": 25
     },
     {
@@ -79,60 +80,62 @@
     },
     {
       "id": "raw-008",
-      "title": "强化高端产业引领功能 持续做大做强先进制造业 上海市先进制造业大会举行",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261113/e43d1e972358431da56246af0a5fb314.html",
-      "source": "上海市政府-动态",
-      "published": "2026-11-13",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-009",
-      "title": "关于组织申报国家重点研发计划颠覆性技术创新重点专项2026年度项目的通知",
-      "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20261113/692c95d8165b43709f6545462b93a36a.html",
-      "source": "上海市科委",
-      "published": "2026-11-13",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-010",
-      "title": "双重利好有望点燃哪个板块？云计算50ETF东方红（562110）专注国产算力兑现窗口，产业高景气 - 潮新闻客户端",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5PLXpzaHQ2RzFTYXB5bWk0c2xkMGdDbHF0blU3cGtNSGFTTzcwYzZtVmprbWpWOFpJVGxrMWJudjZ0ZkRNVEN4ckVJajA5eFJ0SV9pNXRubVBzVVkxeUhtb3hCMDcxZFYxUkljT2NnQkstQjA?oc=5",
-      "source": "潮新闻客户端",
-      "category": "政策",
-      "published": "2026-11-12",
-      "body_snippet": "双重利好有望点燃哪个板块？云计算50ETF东方红（562110）专注国产算力兑现窗口，产业高景气 潮新闻客户端",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-011",
-      "title": "云南以绿电点亮算力 - 昆明信息港",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE00UnI3dmJkb3U5OUNTcWlDOVItWW8xSkVzNmhYNUxqbVpYT2RjM3plbWRpT3VqYlVfdDdKdmtTdVNqbjBGdFZFSS1rcHc5S2pRTUx0T3lMSEJ3MGtGQk5wVGFQYkI0QQ?oc=5",
-      "source": "昆明信息港",
-      "category": "监管",
-      "published": "2026-11-12",
-      "body_snippet": "云南以绿电点亮算力 昆明信息港",
-      "_query_boost": 20
-    },
-    {
-      "id": "raw-012",
-      "title": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 - cnBeta.COM",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MMjUyOU1ZZXlFOTkyQ25NUzc3U2N4U3ZkX2c2THpoYktOQ2dSd3BtMG1SNERGbHM2UnpteXFzNXEwVWhIaFFmSV9NNGRTNVFFaS1GaklwaE9aLVI5cWp0LQ?oc=5",
-      "source": "cnBeta.COM",
+      "title": "英伟达丑闻发酵 中国反对美加码晶片出口管制 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWVjBQdXhlalplbDJaVW1sbm1tZHBjZkZmejVZR0IxNlNOaEl2eldpSEticWh0Yl9lSUVwdnd6SFQ2ZF9GOWQ2WXFXeGZDam83c2hWcFR4cExZcllmenpjOExuZVR0emU2WWc?oc=5",
+      "source": "联合早报",
       "category": "海外",
-      "published": "2026-11-11",
-      "body_snippet": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 cnBeta.COM",
+      "published": "2026-11-13",
+      "body_snippet": "英伟达丑闻发酵 中国反对美加码晶片出口管制 联合早报",
       "_query_boost": 0
     },
     {
+      "id": "raw-009",
+      "title": "“六张网”协同中的通信业机遇 - 中广互联",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE90ZnNWUS1ocmV5cF9sQnFFRDJQZ0tOYjBfQll4Qm1VQ3lkUWkwNWUtVDFSQnVoRzFFcXJULUg5Y0ZpV0hzbEcwVnZpNA?oc=5",
+      "source": "中广互联",
+      "category": "政策",
+      "published": "2026-11-11",
+      "body_snippet": "“六张网”协同中的通信业机遇 中广互联",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-010",
+      "title": "欧盟云与人工智能法案草案：议员力推技术主权 - 新闻和统计 - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRTREcXRPN3NfaUZRQ2lsMlgtUDV3TTNSYkd0czh5OHBoZVhJeVRxNmt4LUtDaGx4ZS1ESlRwWklRR0VtZFoyekxobFlyaS1RTWNxR3NqYXEzOVllaGFZZEJMMXRZT2R2NURYbDRSUEp3Q1JuLVBETkZJR2k5WjAtclNMVENqd2Nva3V6VmpnOTlqd1RYZzBaRXNjdGFTeW9sRlREZmpNSm5SVnphdjNIWEwtSl9QTFk?oc=5",
+      "source": "IndexBox",
+      "category": "海外",
+      "published": "2026-11-11",
+      "body_snippet": "欧盟云与人工智能法案草案：议员力推技术主权 - 新闻和统计 IndexBox",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-011",
+      "title": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 - 广西新闻网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15TzdqdldBRTRWLW1BVXJ0M3g3MGgwYW9PRFB4b2JKWno1TkZ0Vy0xemtLUG5mYlRFRENnc2NwRGhxZjJBdHliazFTU1BQU3lhQmxPLXBUcHRjVGVCbEhPZmRES0lCbkpmUFhCQmJQaDJtX2RVcTZkTFByNEdCYWs?oc=5",
+      "source": "广西新闻网",
+      "category": "政策",
+      "published": "2026-11-10",
+      "body_snippet": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 广西新闻网",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-012",
+      "title": "荷兰百名抗议者闯入微软数据中心 反对AI基建扩张 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkdldVbnVsMEJyTXEyYUhUODNMeV9UWlMwWUdNeFBpMFFCVlJiZE16RHM3WEVGTXhuT1NpMEJwMXN6MkQ3Mzh1NU8zM0dBY3BvYVJPMDBPa1R0OS1PbEZ0SW5PWUlBMGRCSU9EZ0U4czA?oc=5",
+      "source": "中华网",
+      "category": "海外",
+      "published": "2026-11-09",
+      "body_snippet": "荷兰百名抗议者闯入微软数据中心 反对AI基建扩张 中华网",
+      "_query_boost": 25
+    },
+    {
       "id": "raw-013",
-      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers&#8217; chat transcripts",
-      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+      "title": "Export-banned Nvidia chips are behind China&#8217;s most powerful AI models — uh-oh, Jensen!",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
       "source": "TechCrunch",
-      "published": "2026-11-12",
+      "published": "2026-11-13",
       "body_snippet": "",
-      "category": "竞品"
+      "category": "海外"
     },
     {
       "id": "raw-014",
@@ -146,12 +149,12 @@
     },
     {
       "id": "raw-015",
-      "title": "Prepping for APEC; Nvidia’s China mess; October trade data - Sinocism | Bill Bishop",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE90OWd6VWt1MUprYVk2UmNqN3dYdG5HR2Myb01rcGw5YlBibkc3TkZEYXlINm9JWW1wSHJKUGgzN21sYVcxa0lDbUd0ZVhmVVp3Ukd4MFVGT2VtbGVDcUh4VEFHZw?oc=5",
+      "title": "Nvidia’s mess; US-China prep for APEC; Stabilizing the stock market - Sinocism | Bill Bishop",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PcGhFYVRUMEZ5S04tRVdvWUpmWmhLd1Azc3NPUjZoWWVTTHFUUDlJU3VILUpKeThHRTJydlAyTnhsOW1ETGx0MmJSZG82OENYNi03UzhkamRzQkxUcGdINWdWenFOV2s5YlE?oc=5",
       "source": "Sinocism | Bill Bishop",
       "category": "海外",
-      "published": "2026-11-10",
-      "body_snippet": "Prepping for APEC; Nvidia’s China mess; October trade data Sinocism | Bill Bishop",
+      "published": "2026-11-09",
+      "body_snippet": "Nvidia’s mess; US-China prep for APEC; Stabilizing the stock market Sinocism | Bill Bishop",
       "_query_boost": 0
     }
   ]

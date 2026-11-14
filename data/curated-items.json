@@ -1,14 +1,37 @@
 {
-  "generated_at": "2026-11-13T07:13:35.569Z",
-  "week": "2026-W46",
+  "generated_at": "2026-11-14T07:00:06.847Z",
+  "week": "2026-W47",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 7,
-  "attend_count": 1,
+  "total_curated": 8,
+  "attend_count": 2,
   "silent_count": 6,
   "items": [
     {
       "id": "raw-001",
+      "title": "路透：中国境内逾30亿美元算力项目采用英伟达受管制晶片 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52N0g4RWxjcUFoT29ldWJYeFlydlJHMWl0V2hhb2gxUWdWakIxd213ZUxTV0t3OUJFNm5tYUZjYjJaM1BaYlppb3Y1RVpFdUtsekF1bVpTTExpbURkaXVRZXlEMkt5amI2aGc?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-11-13",
+      "body_snippet": "路透：中国境内逾30亿美元算力项目采用英伟达受管制晶片 联合早报",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "路透：中国境内逾30亿美元算力项目采用英伟达受管制晶片 - 联合早报 路透：中国境内逾30亿美元算力项目采用英伟达受管制晶片 联合早报",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-002",
       "title": "消息：忧美收紧远程访问限制 中国AI企业抢租海外英伟达算力 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVY3Y3T2x1aERTMXFXS01ENU9zVHRWU0tMODBfUDRBZnMxV3pJMXB4dVBtQ3I5Z0QyUGlRLWp1Y2tEaG9yVnNCalNQM2tHbXVXblQwNWFWZ0dpQ29iU1JhZ1dGV0lxYjNQWnc?oc=5",
       "source": "联合早报",
@@ -32,29 +55,6 @@
     },
     {
       "id": "raw-003",
-      "title": "370亿+→1000亿：运营商算力投资再加码 AIDC、Token变现路径渐清晰 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5CMjNYN3RZbmtqVl9pVGViT2dfWVBxUmdUSDVaSDJGZF81bVZuZkdSZVZGSGZtbGtyaVh2enk4RTN6UUxnS3hOaA?oc=5",
-      "source": "财联社",
-      "category": "竞品",
-      "published": "2026-11-07",
-      "body_snippet": "370亿+→1000亿：运营商算力投资再加码 AIDC、Token变现路径渐清晰 财联社",
-      "_query_boost": 15,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "370亿+→1000亿：运营商算力投资再加码 AIDC、Token变现路径渐清晰 - 财联社 370亿+→1000亿：运营商算力投资再加码 AIDC、Token",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-004",
       "title": "美国中期选举后民主党掌控两院：英伟达对华AI芯片出口管制收紧，国产大模型算力承压 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5UjN6bUlSRUQ2TnFjS0FUUkppeTJjZXhmbVVLMzEwTUljMGpkRDJwU0NLUjUzSmI1U3o2a0ozNkJraWx1RzBkLThrS05xM1lLZGY0eQ?oc=5",
       "source": "虎嗅",
@@ -83,6 +83,29 @@
       "_classified_by": "rule"
     },
     {
+      "id": "raw-005",
+      "title": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 - Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQldUTFpJbFVacG9Xa3dZcXZsRDdGN0ZhUHVrOFJZRFN5UXpTM3BRNFJZV3p1X2RuRExFMmtpUHl4LWVYWVl3U0U5b0oyQi1hZjFFTkhjWnM0NVFXb0tUR2Z2ZS1mSkV6aE5MaDFkcVd4MTQ3enR0TkJCdHdBMUVFYm53LVZLSzFobGFz?oc=5",
+      "source": "Sohu",
+      "category": "政策",
+      "published": "2026-11-14",
+      "body_snippet": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 Sohu",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 - Sohu 浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
       "id": "raw-007",
       "title": "美国数据中心建设暂停潮或使AI有效算力年增速降至约六倍 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81QUUwQnhlcThydHFDZFpoSWsyM2lUalp4OWhiZi1GQ3g0Y0ItaXZ3U2w1NkxKRnd3bTA1RDJ0ZzFRNFRNTHd5SHZCOVVHOHFOTk5aSQ?oc=5",
@@ -107,59 +130,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-010",
-      "title": "双重利好有望点燃哪个板块？云计算50ETF东方红（562110）专注国产算力兑现窗口，产业高景气 - 潮新闻客户端",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5PLXpzaHQ2RzFTYXB5bWk0c2xkMGdDbHF0blU3cGtNSGFTTzcwYzZtVmprbWpWOFpJVGxrMWJudjZ0ZkRNVEN4ckVJajA5eFJ0SV9pNXRubVBzVVkxeUhtb3hCMDcxZFYxUkljT2NnQkstQjA?oc=5",
-      "source": "潮新闻客户端",
-      "category": "政策",
-      "published": "2026-11-12",
-      "body_snippet": "双重利好有望点燃哪个板块？云计算50ETF东方红（562110）专注国产算力兑现窗口，产业高景气 潮新闻客户端",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "双重利好有望点燃哪个板块？云计算50ETF东方红（562110）专注国产算力兑现窗口，产业高景气 - 潮新闻客户端 双重利好有望点燃哪个板块？云计算50ETF东",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-011",
-      "title": "云南以绿电点亮算力 - 昆明信息港",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE00UnI3dmJkb3U5OUNTcWlDOVItWW8xSkVzNmhYNUxqbVpYT2RjM3plbWRpT3VqYlVfdDdKdmtTdVNqbjBGdFZFSS1rcHc5S2pRTUx0T3lMSEJ3MGtGQk5wVGFQYkI0QQ?oc=5",
-      "source": "昆明信息港",
-      "category": "监管",
-      "published": "2026-11-12",
-      "body_snippet": "云南以绿电点亮算力 昆明信息港",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "云南以绿电点亮算力 - 昆明信息港 云南以绿电点亮算力 昆明信息港",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 - cnBeta.COM",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MMjUyOU1ZZXlFOTkyQ25NUzc3U2N4U3ZkX2c2THpoYktOQ2dSd3BtMG1SNERGbHM2UnpteXFzNXEwVWhIaFFmSV9NNGRTNVFFaS1GaklwaE9aLVI5cWp0LQ?oc=5",
-      "source": "cnBeta.COM",
+      "id": "raw-008",
+      "title": "英伟达丑闻发酵 中国反对美加码晶片出口管制 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWVjBQdXhlalplbDJaVW1sbm1tZHBjZkZmejVZR0IxNlNOaEl2eldpSEticWh0Yl9lSUVwdnd6SFQ2ZF9GOWQ2WXFXeGZDam83c2hWcFR4cExZcllmenpjOExuZVR0emU2WWc?oc=5",
+      "source": "联合早报",
       "category": "海外",
-      "published": "2026-11-11",
-      "body_snippet": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 cnBeta.COM",
+      "published": "2026-11-13",
+      "body_snippet": "英伟达丑闻发酵 中国反对美加码晶片出口管制 联合早报",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
@@ -171,8 +148,59 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 - cnBeta.COM 美媒曝中国国防背景高",
+      "summary_cn": "英伟达丑闻发酵 中国反对美加码晶片出口管制 - 联合早报 英伟达丑闻发酵 中国反对美加码晶片出口管制 联合早报",
       "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-011",
+      "title": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 - 广西新闻网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15TzdqdldBRTRWLW1BVXJ0M3g3MGgwYW9PRFB4b2JKWno1TkZ0Vy0xemtLUG5mYlRFRENnc2NwRGhxZjJBdHliazFTU1BQU3lhQmxPLXBUcHRjVGVCbEhPZmRES0lCbkpmUFhCQmJQaDJtX2RVcTZkTFByNEdCYWs?oc=5",
+      "source": "广西新闻网",
+      "category": "政策",
+      "published": "2026-11-10",
+      "body_snippet": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 广西新闻网",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 - 广西新闻网 贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 广西新闻网",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-012",
+      "title": "荷兰百名抗议者闯入微软数据中心 反对AI基建扩张 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkdldVbnVsMEJyTXEyYUhUODNMeV9UWlMwWUdNeFBpMFFCVlJiZE16RHM3WEVGTXhuT1NpMEJwMXN6MkQ3Mzh1NU8zM0dBY3BvYVJPMDBPa1R0OS1PbEZ0SW5PWUlBMGRCSU9EZ0U4czA?oc=5",
+      "source": "中华网",
+      "category": "海外",
+      "published": "2026-11-09",
+      "body_snippet": "荷兰百名抗议者闯入微软数据中心 反对AI基建扩张 中华网",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "荷兰百名抗议者闯入微软数据中心 反对AI基建扩张 - 中华网 荷兰百名抗议者闯入微软数据中心 反对AI基建扩张 中华网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
       "_classified_by": "rule"
     }
   ]
