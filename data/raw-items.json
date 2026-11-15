@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-14T07:00:06.747Z",
+  "generated_at": "2026-11-15T07:09:07.596Z",
   "week": "2026-W47",
   "date_range": {
-    "from": "2026-11-07",
-    "to": "2026-11-14"
+    "from": "2026-11-08",
+    "to": "2026-11-15"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -30,13 +30,12 @@
     },
     {
       "id": "raw-003",
-      "title": "美国中期选举后民主党掌控两院：英伟达对华AI芯片出口管制收紧，国产大模型算力承压 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5UjN6bUlSRUQ2TnFjS0FUUkppeTJjZXhmbVVLMzEwTUljMGpkRDJwU0NLUjUzSmI1U3o2a0ozNkJraWx1RzBkLThrS05xM1lLZGY0eQ?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-11-09",
-      "body_snippet": "美国中期选举后民主党掌控两院：英伟达对华AI芯片出口管制收紧，国产大模型算力承压 虎嗅",
-      "_query_boost": 0
+      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
+      "source": "工信部-新闻",
+      "published": "2026-11-15",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-004",
@@ -46,17 +45,17 @@
       "category": "政策",
       "published": "2026-11-14",
       "body_snippet": "习近平主席引领亚太大家庭扬帆前行 求是",
-      "_query_boost": 25
+      "_query_boost": 30
     },
     {
       "id": "raw-005",
-      "title": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 - Sohu",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQldUTFpJbFVacG9Xa3dZcXZsRDdGN0ZhUHVrOFJZRFN5UXpTM3BRNFJZV3p1X2RuRExFMmtpUHl4LWVYWVl3U0U5b0oyQi1hZjFFTkhjWnM0NVFXb0tUR2Z2ZS1mSkV6aE5MaDFkcVd4MTQ3enR0TkJCdHdBMUVFYm53LVZLSzFobGFz?oc=5",
-      "source": "Sohu",
-      "category": "政策",
+      "title": "37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 - mnewstv.com",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3Y1JRMXFXb1BLM19SdjlsSFhkdEdwWGFRa0N5N2oteWFZNUhaa084NGE2TVYtNnp2Qm5XQWhlUHBFTi1qTWFVdWlGaW5NMkpldjl5NGNfOA?oc=5",
+      "source": "mnewstv.com",
+      "category": "海外",
       "published": "2026-11-14",
-      "body_snippet": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 Sohu",
-      "_query_boost": 20
+      "body_snippet": "37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 mnewstv.com",
+      "_query_boost": 25
     },
     {
       "id": "raw-006",
@@ -70,16 +69,25 @@
     },
     {
       "id": "raw-007",
-      "title": "美国数据中心建设暂停潮或使AI有效算力年增速降至约六倍 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81QUUwQnhlcThydHFDZFpoSWsyM2lUalp4OWhiZi1GQ3g0Y0ItaXZ3U2w1NkxKRnd3bTA1RDJ0ZzFRNFRNTHd5SHZCOVVHOHFOTk5aSQ?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-11-10",
-      "body_snippet": "美国数据中心建设暂停潮或使AI有效算力年增速降至约六倍 虎嗅",
-      "_query_boost": 0
+      "title": "产教共育青少年人工智能创新人才",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261115/731e1fd14a2d484bb0117faa7da85395.html",
+      "source": "上海市政府-动态",
+      "published": "2026-11-15",
+      "body_snippet": "",
+      "category": "技术"
     },
     {
       "id": "raw-008",
+      "title": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1LT3NwdDlUbF9Bb1ROSHd0bGQ1RzBtOGgwNndLVVVkYngwNjBWSzFZUHFvRkhlck0tdm9yNjlRMkFsVzFWV1RhRQ?oc=5",
+      "source": "财联社",
+      "category": "政策",
+      "published": "2026-11-14",
+      "body_snippet": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 财联社",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-009",
       "title": "英伟达丑闻发酵 中国反对美加码晶片出口管制 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWVjBQdXhlalplbDJaVW1sbm1tZHBjZkZmejVZR0IxNlNOaEl2eldpSEticWh0Yl9lSUVwdnd6SFQ2ZF9GOWQ2WXFXeGZDam83c2hWcFR4cExZcllmenpjOExuZVR0emU2WWc?oc=5",
       "source": "联合早报",
@@ -89,33 +97,23 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-009",
-      "title": "“六张网”协同中的通信业机遇 - 中广互联",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE90ZnNWUS1ocmV5cF9sQnFFRDJQZ0tOYjBfQll4Qm1VQ3lkUWkwNWUtVDFSQnVoRzFFcXJULUg5Y0ZpV0hzbEcwVnZpNA?oc=5",
-      "source": "中广互联",
+      "id": "raw-010",
+      "title": "超7万亿元投向“六张网”，钱从哪来？ - 央视网",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBhYmtiSjBNR1U5ZW8yWG5yYUpibVRZd2tDT2o1VWJBTm5ZY09SbnJYUU1jWG5SWEx1Q3E4VkpZVnF1ZmNldHRTMHlPTlZiNE9Wd0Y2ZGlTZ3RCSEdTbm1sNkZYdENMSDhSOVZQaUFkWkNZVUdOWG93d01ZMkE?oc=5",
+      "source": "央视网",
       "category": "政策",
       "published": "2026-11-11",
-      "body_snippet": "“六张网”协同中的通信业机遇 中广互联",
-      "_query_boost": 25
+      "body_snippet": "超7万亿元投向“六张网”，钱从哪来？ 央视网",
+      "_query_boost": 0
     },
     {
-      "id": "raw-010",
+      "id": "raw-011",
       "title": "欧盟云与人工智能法案草案：议员力推技术主权 - 新闻和统计 - IndexBox",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRTREcXRPN3NfaUZRQ2lsMlgtUDV3TTNSYkd0czh5OHBoZVhJeVRxNmt4LUtDaGx4ZS1ESlRwWklRR0VtZFoyekxobFlyaS1RTWNxR3NqYXEzOVllaGFZZEJMMXRZT2R2NURYbDRSUEp3Q1JuLVBETkZJR2k5WjAtclNMVENqd2Nva3V6VmpnOTlqd1RYZzBaRXNjdGFTeW9sRlREZmpNSm5SVnphdjNIWEwtSl9QTFk?oc=5",
       "source": "IndexBox",
       "category": "海外",
       "published": "2026-11-11",
       "body_snippet": "欧盟云与人工智能法案草案：议员力推技术主权 - 新闻和统计 IndexBox",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-011",
-      "title": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 - 广西新闻网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15TzdqdldBRTRWLW1BVXJ0M3g3MGgwYW9PRFB4b2JKWno1TkZ0Vy0xemtLUG5mYlRFRENnc2NwRGhxZjJBdHliazFTU1BQU3lhQmxPLXBUcHRjVGVCbEhPZmRES0lCbkpmUFhCQmJQaDJtX2RVcTZkTFByNEdCYWs?oc=5",
-      "source": "广西新闻网",
-      "category": "政策",
-      "published": "2026-11-10",
-      "body_snippet": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 广西新闻网",
       "_query_boost": 25
     },
     {
@@ -130,6 +128,15 @@
     },
     {
       "id": "raw-013",
+      "title": "关于上海市2026年第十批拟入库科技型中小企业名单的公示",
+      "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261113/c3d3645cdef441deb34f4692579e7415.html",
+      "source": "上海市科委",
+      "published": "2026-11-13",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-014",
       "title": "Export-banned Nvidia chips are behind China&#8217;s most powerful AI models — uh-oh, Jensen!",
       "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
       "source": "TechCrunch",
@@ -138,23 +145,13 @@
       "category": "海外"
     },
     {
-      "id": "raw-014",
+      "id": "raw-015",
       "title": "160th anniversary of Sun Yat-sen’s birth; US-China; Nvidia fallout; Social security - Sinocism | Bill Bishop",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04VHRYdTdGRWprQlUxWFhzRnU4NmN6aVdjbTJCQm95MFpBLUFGblFLUTRxcjRZN1pfdDktZXV1U2pUa2ZldDdoLS10YXZ4ZDY5TmYyX2w0eWNfQzh0X2hfdE1HN1pOcEU?oc=5",
       "source": "Sinocism | Bill Bishop",
       "category": "海外",
       "published": "2026-11-12",
       "body_snippet": "160th anniversary of Sun Yat-sen’s birth; US-China; Nvidia fallout; Social security Sinocism | Bill Bishop",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-015",
-      "title": "Nvidia’s mess; US-China prep for APEC; Stabilizing the stock market - Sinocism | Bill Bishop",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PcGhFYVRUMEZ5S04tRVdvWUpmWmhLd1Azc3NPUjZoWWVTTHFUUDlJU3VILUpKeThHRTJydlAyTnhsOW1ETGx0MmJSZG82OENYNi03UzhkamRzQkxUcGdINWdWenFOV2s5YlE?oc=5",
-      "source": "Sinocism | Bill Bishop",
-      "category": "海外",
-      "published": "2026-11-09",
-      "body_snippet": "Nvidia’s mess; US-China prep for APEC; Stabilizing the stock market Sinocism | Bill Bishop",
       "_query_boost": 0
     }
   ]

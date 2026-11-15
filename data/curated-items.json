@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-14T07:00:06.847Z",
+  "generated_at": "2026-11-15T07:09:07.688Z",
   "week": "2026-W47",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 8,
-  "attend_count": 2,
-  "silent_count": 6,
+  "total_curated": 6,
+  "attend_count": 1,
+  "silent_count": 5,
   "items": [
     {
       "id": "raw-001",
@@ -54,17 +54,16 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-003",
-      "title": "美国中期选举后民主党掌控两院：英伟达对华AI芯片出口管制收紧，国产大模型算力承压 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5UjN6bUlSRUQ2TnFjS0FUUkppeTJjZXhmbVVLMzEwTUljMGpkRDJwU0NLUjUzSmI1U3o2a0ozNkJraWx1RzBkLThrS05xM1lLZGY0eQ?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-11-09",
-      "body_snippet": "美国中期选举后民主党掌控两院：英伟达对华AI芯片出口管制收紧，国产大模型算力承压 虎嗅",
-      "_query_boost": 0,
-      "lane": "attend",
+      "id": "raw-005",
+      "title": "37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 - mnewstv.com",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3Y1JRMXFXb1BLM19SdjlsSFhkdEdwWGFRa0N5N2oteWFZNUhaa084NGE2TVYtNnp2Qm5XQWhlUHBFTi1qTWFVdWlGaW5NMkpldjl5NGNfOA?oc=5",
+      "source": "mnewstv.com",
+      "category": "海外",
+      "published": "2026-11-14",
+      "body_snippet": "37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 mnewstv.com",
+      "_query_boost": 25,
+      "lane": "silent",
       "signals": [
-        "🌏",
         "🔬"
       ],
       "is_deep_read": false,
@@ -73,23 +72,18 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "英伟达对华AI芯片出口管制收紧，国产大模型算力承压 - 虎嗅 美国中期选举后民主党掌控两院：英伟达对华AI芯片出口管制收紧，国产大模型算力承压 虎嗅",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
+      "summary_cn": "37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 - mnewstv.com 37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 mn",
+      "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
-      "title": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 - Sohu",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQldUTFpJbFVacG9Xa3dZcXZsRDdGN0ZhUHVrOFJZRFN5UXpTM3BRNFJZV3p1X2RuRExFMmtpUHl4LWVYWVl3U0U5b0oyQi1hZjFFTkhjWnM0NVFXb0tUR2Z2ZS1mSkV6aE5MaDFkcVd4MTQ3enR0TkJCdHdBMUVFYm53LVZLSzFobGFz?oc=5",
-      "source": "Sohu",
+      "id": "raw-008",
+      "title": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1LT3NwdDlUbF9Bb1ROSHd0bGQ1RzBtOGgwNndLVVVkYngwNjBWSzFZUHFvRkhlck0tdm9yNjlRMkFsVzFWV1RhRQ?oc=5",
+      "source": "财联社",
       "category": "政策",
       "published": "2026-11-14",
-      "body_snippet": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 Sohu",
+      "body_snippet": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 财联社",
       "_query_boost": 20,
       "lane": "silent",
       "signals": [
@@ -101,36 +95,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 - Sohu 浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡",
+      "summary_cn": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 - 财联社 浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-007",
-      "title": "美国数据中心建设暂停潮或使AI有效算力年增速降至约六倍 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81QUUwQnhlcThydHFDZFpoSWsyM2lUalp4OWhiZi1GQ3g0Y0ItaXZ3U2w1NkxKRnd3bTA1RDJ0ZzFRNFRNTHd5SHZCOVVHOHFOTk5aSQ?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-11-10",
-      "body_snippet": "美国数据中心建设暂停潮或使AI有效算力年增速降至约六倍 虎嗅",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🌏",
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "美国数据中心建设暂停潮或使AI有效算力年增速降至约六倍 - 虎嗅 美国数据中心建设暂停潮或使AI有效算力年增速降至约六倍 虎嗅",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-008",
+      "id": "raw-009",
       "title": "英伟达丑闻发酵 中国反对美加码晶片出口管制 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWVjBQdXhlalplbDJaVW1sbm1tZHBjZkZmejVZR0IxNlNOaEl2eldpSEticWh0Yl9lSUVwdnd6SFQ2ZF9GOWQ2WXFXeGZDam83c2hWcFR4cExZcllmenpjOExuZVR0emU2WWc?oc=5",
       "source": "联合早报",
@@ -149,29 +119,6 @@
         "c3"
       ],
       "summary_cn": "英伟达丑闻发酵 中国反对美加码晶片出口管制 - 联合早报 英伟达丑闻发酵 中国反对美加码晶片出口管制 联合早报",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-011",
-      "title": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 - 广西新闻网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15TzdqdldBRTRWLW1BVXJ0M3g3MGgwYW9PRFB4b2JKWno1TkZ0Vy0xemtLUG5mYlRFRENnc2NwRGhxZjJBdHliazFTU1BQU3lhQmxPLXBUcHRjVGVCbEhPZmRES0lCbkpmUFhCQmJQaDJtX2RVcTZkTFByNEdCYWs?oc=5",
-      "source": "广西新闻网",
-      "category": "政策",
-      "published": "2026-11-10",
-      "body_snippet": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 广西新闻网",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 - 广西新闻网 贯通数据、算力、场景，广西移动以“双网”联动促“六网”协同 广西新闻网",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
