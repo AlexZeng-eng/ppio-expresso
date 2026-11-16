@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-15T07:09:07.723Z",
-  "date": "2026-11-15",
-  "date_label": "2026-11-15",
+  "generated_at": "2026-11-16T07:14:50.211Z",
+  "date": "2026-11-16",
+  "date_label": "2026-11-16",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
     "📜": 0,
     "⚔️": 0,
     "💰": 0,
-    "🌏": 1,
-    "🔬": 4
+    "🌏": 2,
+    "🔬": 6
   },
   "speed_read": {
     "positive": [],
@@ -24,16 +24,7 @@
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
   "competitor_updates": [],
-  "item_axes": [
-    {
-      "id": "1",
-      "title": "荷兰百名抗议者闯入微软数据中心 反对AI",
-      "policy_axis": 0,
-      "competition_axis": 0.1,
-      "impact_score": 2,
-      "axis_reason": "规则估算"
-    }
-  ],
+  "item_axes": [],
   "ppio_index": {
     "score": 55,
     "delta": 0,
@@ -42,7 +33,7 @@
       "competitive_pressure": 0,
       "capital_sentiment": 0,
       "regulatory_risk": 0,
-      "overseas_headwind": -4
+      "overseas_headwind": -8
     },
     "interpretation": "规则估算，仅供参考"
   },
