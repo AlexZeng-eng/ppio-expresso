@@ -1,14 +1,38 @@
 {
-  "generated_at": "2026-11-16T07:14:50.177Z",
+  "generated_at": "2026-11-17T08:27:46.655Z",
   "week": "2026-W47",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 8,
+  "total_curated": 9,
   "attend_count": 0,
-  "silent_count": 8,
+  "silent_count": 9,
   "items": [
     {
       "id": "raw-001",
+      "title": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9VT1h5ZzdGRzZ2MnRJdDNYd0RMNEhBRmxSUjJpSThuM0l6dTRJN1JZblZkMWlFUVhtR3YzUy1IaUFaMHZ4UnZHODVBT0JrZDdPSWxXYnUwVmoxQnphOFd3QlVFNGYxMnpFVmMw?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-11-17",
+      "body_snippet": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 联合早报",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🌏",
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 - 联合早报 美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 联合早报",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-002",
       "title": "路透：中国境内逾30亿美元算力项目采用英伟达受管制晶片 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52N0g4RWxjcUFoT29ldWJYeFlydlJHMWl0V2hhb2gxUWdWakIxd213ZUxTV0t3OUJFNm5tYUZjYjJaM1BaYlppb3Y1RVpFdUtsekF1bVpTTExpbURkaXVRZXlEMkt5amI2aGc?oc=5",
       "source": "联合早报",
@@ -31,7 +55,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-002",
+      "id": "raw-003",
       "title": "消息：忧美收紧远程访问限制 中国AI企业抢租海外英伟达算力 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVY3Y3T2x1aERTMXFXS01ENU9zVHRWU0tMODBfUDRBZnMxV3pJMXB4dVBtQ3I5Z0QyUGlRLWp1Y2tEaG9yVnNCalNQM2tHbXVXblQwNWFWZ0dpQ29iU1JhZ1dGV0lxYjNQWnc?oc=5",
       "source": "联合早报",
@@ -54,7 +78,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-003",
+      "id": "raw-004",
       "title": "黄仁勋辞任英伟达CEO，中国AI产业面临算力封锁与商业化双重压力 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5TSzFtSjE5V0ZpbG5kR0Yza2RSUVJuODZlWlluUk9zQU9lby1rZ29MUzRsakxzUnBPTGFjRHA3SjdCLVRRbnRMNHY1Rl8yVXRwd1NyOA?oc=5",
       "source": "虎嗅",
@@ -77,36 +101,13 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
-      "title": "DeepSeek算力不足提示限额使用 引免费模式可持续性疑虑 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Xc0dxaWpqa2oyUGFJSkFiVUg1Z1A1VWpRMU5sVHg4MllJRWZxZ3JNZGZ4YmxKOFpLenh3Y1hoZWF4YmNCeVo4STQydDNHUDhLdFdKZHVsOFgwZXozSUdHaXY3bTYyYkpEZUdB?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-11-16",
-      "body_snippet": "DeepSeek算力不足提示限额使用 引免费模式可持续性疑虑 联合早报",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "DeepSeek算力不足提示限额使用 引免费模式可持续性疑虑 - 联合早报 DeepSeek算力不足提示限额使用 引免费模式可持续性疑虑 联合早报",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-009",
-      "title": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1LT3NwdDlUbF9Bb1ROSHd0bGQ1RzBtOGgwNndLVVVkYngwNjBWSzFZUHFvRkhlck0tdm9yNjlRMkFsVzFWV1RhRQ?oc=5",
-      "source": "财联社",
+      "id": "raw-005",
+      "title": "智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与词元经济-AI基础设施 - 至顶网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLcHFNWDVCdHd6cDZCbXNSZTM4c2hSR1BudnNMUDhkSlY4UmZ4VVRmYWhOWWNycWhnOEhnOEY5QjJkSHhWaktqeWJIdWpRdlBmWUdGZ1Z0ZlAxbVRnWE9VR0EwcXBPU296Vm5JVUQ2RFR6Zw?oc=5",
+      "source": "至顶网",
       "category": "政策",
-      "published": "2026-11-14",
-      "body_snippet": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 财联社",
+      "published": "2026-11-15",
+      "body_snippet": "智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与词元经济-AI基础设施 至顶网",
       "_query_boost": 20,
       "lane": "silent",
       "signals": [
@@ -118,18 +119,41 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 - 财联社 浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村",
+      "summary_cn": "智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与词元经济-AI基础设施 - 至顶网 智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-011",
-      "title": "黄仁勋辞职与美对华芯片限制收紧，或推动中国国产算力需求加速 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kRTNPcHNPTkdPNVVNT3N6MHhHTHplV2lkM01Gc3VSOER6M1A1Q2dDWmJwOUlzcUltMWFxSmxMNUNYQ3EzdWRRanRJb0hzdjVzVEk4QQ?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
+      "id": "raw-006",
+      "title": "清微智能Open3D-PIMC获人民日报点名，3D算力生态窗口开启 - 金融界",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UMkJPczZEQUltc2hIamJSOWdCb0lMcWhnNkpPUkFiTXFqUkFNMXlSV2M1cGM0X3NkZzdzeXZHSUFjLUlkTFNTMnRFUXU5cTYtSkxLdVlmdnd5SVp6ajhRVmdORWVSUFNXNm5fd2RFM1BKN1d2?oc=5",
+      "source": "金融界",
+      "category": "监管",
+      "published": "2026-11-17",
+      "body_snippet": "清微智能Open3D-PIMC获人民日报点名，3D算力生态窗口开启 金融界",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "清微智能Open3D-PIMC获人民日报点名，3D算力生态窗口开启 - 金融界 清微智能Open3D-PIMC获人民日报点名，3D算力生态窗口开启 金融界",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-007",
+      "title": "2026中国—东盟周将在重庆启幕 面向东盟探索词元、算力等合作 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5yZ1NiVFYtbjVvdkFQdEtTc2QyYzF0Nk41bGwxLXVEQ1B1Tnp1UndoT3ZhLTVXcmQ0U2pKaEhQV3g1T1QteWhqanNWeTRENVZ4eXdYOHhmSmhiSWhKdTlsMDYzQkJpcDBMUEFPam1sQ3Z4dw?oc=5",
+      "source": "中国新闻网",
+      "category": "政策",
       "published": "2026-11-16",
-      "body_snippet": "黄仁勋辞职与美对华芯片限制收紧，或推动中国国产算力需求加速 虎嗅",
+      "body_snippet": "2026中国—东盟周将在重庆启幕 面向东盟探索词元、算力等合作 中国新闻网",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
@@ -141,22 +165,22 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "黄仁勋辞职与美对华芯片限制收紧，或推动中国国产算力需求加速 - 虎嗅 黄仁勋辞职与美对华芯片限制收紧，或推动中国国产算力需求加速 虎嗅",
+      "summary_cn": "2026中国—东盟周将在重庆启幕 面向东盟探索词元、算力等合作 - 中国新闻网 2026中国—东盟周将在重庆启幕 面向东盟探索词元、算力等合作 中国新闻网",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-013",
-      "title": "英伟达丑闻发酵 中国反对美加码晶片出口管制 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWVjBQdXhlalplbDJaVW1sbm1tZHBjZkZmejVZR0IxNlNOaEl2eldpSEticWh0Yl9lSUVwdnd6SFQ2ZF9GOWQ2WXFXeGZDam83c2hWcFR4cExZcllmenpjOExuZVR0emU2WWc?oc=5",
+      "id": "raw-011",
+      "title": "DeepSeek因算力不足限额使用 引免费模式可持续性疑虑 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Xc0dxaWpqa2oyUGFJSkFiVUg1Z1A1VWpRMU5sVHg4MllJRWZxZ3JNZGZ4YmxKOFpLenh3Y1hoZWF4YmNCeVo4STQydDNHUDhLdFdKZHVsOFgwZXozSUdHaXY3bTYyYkpEZUdB?oc=5",
       "source": "联合早报",
       "category": "海外",
-      "published": "2026-11-13",
-      "body_snippet": "英伟达丑闻发酵 中国反对美加码晶片出口管制 联合早报",
+      "published": "2026-11-16",
+      "body_snippet": "DeepSeek因算力不足限额使用 引免费模式可持续性疑虑 联合早报",
       "_query_boost": 0,
       "lane": "silent",
       "signals": [
-        "🌏"
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -164,22 +188,22 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "英伟达丑闻发酵 中国反对美加码晶片出口管制 - 联合早报 英伟达丑闻发酵 中国反对美加码晶片出口管制 联合早报",
+      "summary_cn": "DeepSeek因算力不足限额使用 引免费模式可持续性疑虑 - 联合早报 DeepSeek因算力不足限额使用 引免费模式可持续性疑虑 联合早报",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-014",
-      "title": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 - cnBeta.COM",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MMjUyOU1ZZXlFOTkyQ25NUzc3U2N4U3ZkX2c2THpoYktOQ2dSd3BtMG1SNERGbHM2UnpteXFzNXEwVWhIaFFmSV9NNGRTNVFFaS1GaklwaE9aLVI5cWp0LQ?oc=5",
-      "source": "cnBeta.COM",
+      "id": "raw-012",
+      "title": "37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 - mnewstv.com",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3Y1JRMXFXb1BLM19SdjlsSFhkdEdwWGFRa0N5N2oteWFZNUhaa084NGE2TVYtNnp2Qm5XQWhlUHBFTi1qTWFVdWlGaW5NMkpldjl5NGNfOA?oc=5",
+      "source": "mnewstv.com",
       "category": "海外",
-      "published": "2026-11-11",
-      "body_snippet": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 cnBeta.COM",
-      "_query_boost": 0,
+      "published": "2026-11-14",
+      "body_snippet": "37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 mnewstv.com",
+      "_query_boost": 25,
       "lane": "silent",
       "signals": [
-        "🌏"
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -187,7 +211,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 - cnBeta.COM 美媒曝中国国防背景高",
+      "summary_cn": "37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 - mnewstv.com 37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 mn",
       "ppio_signal": null,
       "_classified_by": "rule"
     }

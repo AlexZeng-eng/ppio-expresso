@@ -1,15 +1,25 @@
 {
-  "generated_at": "2026-11-16T07:14:50.089Z",
+  "generated_at": "2026-11-17T08:27:46.572Z",
   "week": "2026-W47",
   "date_range": {
-    "from": "2026-11-09",
-    "to": "2026-11-16"
+    "from": "2026-11-10",
+    "to": "2026-11-17"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
+      "title": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9VT1h5ZzdGRzZ2MnRJdDNYd0RMNEhBRmxSUjJpSThuM0l6dTRJN1JZblZkMWlFUVhtR3YzUy1IaUFaMHZ4UnZHODVBT0JrZDdPSWxXYnUwVmoxQnphOFd3QlVFNGYxMnpFVmMw?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-11-17",
+      "body_snippet": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 联合早报",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-002",
       "title": "路透：中国境内逾30亿美元算力项目采用英伟达受管制晶片 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52N0g4RWxjcUFoT29ldWJYeFlydlJHMWl0V2hhb2gxUWdWakIxd213ZUxTV0t3OUJFNm5tYUZjYjJaM1BaYlppb3Y1RVpFdUtsekF1bVpTTExpbURkaXVRZXlEMkt5amI2aGc?oc=5",
       "source": "联合早报",
@@ -19,7 +29,7 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-002",
+      "id": "raw-003",
       "title": "消息：忧美收紧远程访问限制 中国AI企业抢租海外英伟达算力 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVY3Y3T2x1aERTMXFXS01ENU9zVHRWU0tMODBfUDRBZnMxV3pJMXB4dVBtQ3I5Z0QyUGlRLWp1Y2tEaG9yVnNCalNQM2tHbXVXblQwNWFWZ0dpQ29iU1JhZ1dGV0lxYjNQWnc?oc=5",
       "source": "联合早报",
@@ -29,7 +39,7 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-003",
+      "id": "raw-004",
       "title": "黄仁勋辞任英伟达CEO，中国AI产业面临算力封锁与商业化双重压力 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5TSzFtSjE5V0ZpbG5kR0Yza2RSUVJuODZlWlluUk9zQU9lby1rZ29MUzRsakxzUnBPTGFjRHA3SjdCLVRRbnRMNHY1Rl8yVXRwd1NyOA?oc=5",
       "source": "虎嗅",
@@ -39,36 +49,37 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-004",
-      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
-      "source": "工信部-新闻",
-      "published": "2026-11-16",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
       "id": "raw-005",
-      "title": "习近平主席引领亚太大家庭扬帆前行 - 求是",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LQjFKUGQ4dktqcEFFSTVRb1FIMVNMSklJRlZYcXZaNDQxRkhvVGl2MXRKN3pfLTV4VGtWN3NIWDRsRElqM0JuTG4yQmxONFlVYTdJdEZDSEZOLWwxbWRfN2l5NmxhVlhsRWV6M0pGSERQZE9Hb2d2eU5salA?oc=5",
-      "source": "求是",
+      "title": "智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与词元经济-AI基础设施 - 至顶网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLcHFNWDVCdHd6cDZCbXNSZTM4c2hSR1BudnNMUDhkSlY4UmZ4VVRmYWhOWWNycWhnOEhnOEY5QjJkSHhWaktqeWJIdWpRdlBmWUdGZ1Z0ZlAxbVRnWE9VR0EwcXBPU296Vm5JVUQ2RFR6Zw?oc=5",
+      "source": "至顶网",
       "category": "政策",
-      "published": "2026-11-14",
-      "body_snippet": "习近平主席引领亚太大家庭扬帆前行 求是",
-      "_query_boost": 30
+      "published": "2026-11-15",
+      "body_snippet": "智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与词元经济-AI基础设施 至顶网",
+      "_query_boost": 20
     },
     {
       "id": "raw-006",
-      "title": "DeepSeek算力不足提示限额使用 引免费模式可持续性疑虑 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Xc0dxaWpqa2oyUGFJSkFiVUg1Z1A1VWpRMU5sVHg4MllJRWZxZ3JNZGZ4YmxKOFpLenh3Y1hoZWF4YmNCeVo4STQydDNHUDhLdFdKZHVsOFgwZXozSUdHaXY3bTYyYkpEZUdB?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-11-16",
-      "body_snippet": "DeepSeek算力不足提示限额使用 引免费模式可持续性疑虑 联合早报",
-      "_query_boost": 0
+      "title": "清微智能Open3D-PIMC获人民日报点名，3D算力生态窗口开启 - 金融界",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UMkJPczZEQUltc2hIamJSOWdCb0lMcWhnNkpPUkFiTXFqUkFNMXlSV2M1cGM0X3NkZzdzeXZHSUFjLUlkTFNTMnRFUXU5cTYtSkxLdVlmdnd5SVp6ajhRVmdORWVSUFNXNm5fd2RFM1BKN1d2?oc=5",
+      "source": "金融界",
+      "category": "监管",
+      "published": "2026-11-17",
+      "body_snippet": "清微智能Open3D-PIMC获人民日报点名，3D算力生态窗口开启 金融界",
+      "_query_boost": 20
     },
     {
       "id": "raw-007",
+      "title": "2026中国—东盟周将在重庆启幕 面向东盟探索词元、算力等合作 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5yZ1NiVFYtbjVvdkFQdEtTc2QyYzF0Nk41bGwxLXVEQ1B1Tnp1UndoT3ZhLTVXcmQ0U2pKaEhQV3g1T1QteWhqanNWeTRENVZ4eXdYOHhmSmhiSWhKdTlsMDYzQkJpcDBMUEFPam1sQ3Z4dw?oc=5",
+      "source": "中国新闻网",
+      "category": "政策",
+      "published": "2026-11-16",
+      "body_snippet": "2026中国—东盟周将在重庆启幕 面向东盟探索词元、算力等合作 中国新闻网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-008",
       "title": "“看不见的六张网”如何托举起“看得见的生活” - 新华网",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxRk1iMjVoUEFFczFhV2xrRUc4NVlFYlMyOHQwUkN1cW5oTnZoT1RjUzZzd2stdlBVNW80MmV0aVRTaHA0Z2g4dHMwOEJ3bmhWY3JENkRBenVjQ2t6LTNSQmZJM0ltcUVPYTR1Wng3UUNwQlBoMk9J?oc=5",
       "source": "新华网",
@@ -78,26 +89,46 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-008",
-      "title": "上海对外经贸大学创新培养急需紧缺人才 服务扩大高水平对外开放 超常规培养涉外经贸人才",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261116/60eeb3ff1ab9422493468927c91a8798.html",
-      "source": "上海市政府-动态",
-      "published": "2026-11-16",
+      "id": "raw-009",
+      "title": "习近平主席引领亚太大家庭扬帆前行 - 求是",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LQjFKUGQ4dktqcEFFSTVRb1FIMVNMSklJRlZYcXZaNDQxRkhvVGl2MXRKN3pfLTV4VGtWN3NIWDRsRElqM0JuTG4yQmxONFlVYTdJdEZDSEZOLWwxbWRfN2l5NmxhVlhsRWV6M0pGSERQZE9Hb2d2eU5salA?oc=5",
+      "source": "求是",
+      "category": "政策",
+      "published": "2026-11-14",
+      "body_snippet": "习近平主席引领亚太大家庭扬帆前行 求是",
+      "_query_boost": 30
+    },
+    {
+      "id": "raw-010",
+      "title": "关于上海市2026年第八批入库科技型中小企业的公告",
+      "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261117/c9cf131458ca4871817aabf138bd5dc7.html",
+      "source": "上海市科委",
+      "published": "2026-11-17",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-009",
-      "title": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1LT3NwdDlUbF9Bb1ROSHd0bGQ1RzBtOGgwNndLVVVkYngwNjBWSzFZUHFvRkhlck0tdm9yNjlRMkFsVzFWV1RhRQ?oc=5",
-      "source": "财联社",
-      "category": "政策",
-      "published": "2026-11-14",
-      "body_snippet": "浙江算力规模超198EFLOPS，智算占比96%，AI正走进乡村、医院和路口|一线 财联社",
-      "_query_boost": 20
+      "id": "raw-011",
+      "title": "DeepSeek因算力不足限额使用 引免费模式可持续性疑虑 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Xc0dxaWpqa2oyUGFJSkFiVUg1Z1A1VWpRMU5sVHg4MllJRWZxZ3JNZGZ4YmxKOFpLenh3Y1hoZWF4YmNCeVo4STQydDNHUDhLdFdKZHVsOFgwZXozSUdHaXY3bTYyYkpEZUdB?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-11-16",
+      "body_snippet": "DeepSeek因算力不足限额使用 引免费模式可持续性疑虑 联合早报",
+      "_query_boost": 0
     },
     {
-      "id": "raw-010",
+      "id": "raw-012",
+      "title": "37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 - mnewstv.com",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3Y1JRMXFXb1BLM19SdjlsSFhkdEdwWGFRa0N5N2oteWFZNUhaa084NGE2TVYtNnp2Qm5XQWhlUHBFTi1qTWFVdWlGaW5NMkpldjl5NGNfOA?oc=5",
+      "source": "mnewstv.com",
+      "category": "海外",
+      "published": "2026-11-14",
+      "body_snippet": "37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 mnewstv.com",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-013",
       "title": "欧盟云与人工智能法案草案：议员力推技术主权 - 新闻和统计 - IndexBox",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRTREcXRPN3NfaUZRQ2lsMlgtUDV3TTNSYkd0czh5OHBoZVhJeVRxNmt4LUtDaGx4ZS1ESlRwWklRR0VtZFoyekxobFlyaS1RTWNxR3NqYXEzOVllaGFZZEJMMXRZT2R2NURYbDRSUEp3Q1JuLVBETkZJR2k5WjAtclNMVENqd2Nva3V6VmpnOTlqd1RYZzBaRXNjdGFTeW9sRlREZmpNSm5SVnphdjNIWEwtSl9QTFk?oc=5",
       "source": "IndexBox",
@@ -107,50 +138,21 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-011",
-      "title": "黄仁勋辞职与美对华芯片限制收紧，或推动中国国产算力需求加速 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kRTNPcHNPTkdPNVVNT3N6MHhHTHplV2lkM01Gc3VSOER6M1A1Q2dDWmJwOUlzcUltMWFxSmxMNUNYQ3EzdWRRanRJb0hzdjVzVEk4QQ?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-11-16",
-      "body_snippet": "黄仁勋辞职与美对华芯片限制收紧，或推动中国国产算力需求加速 虎嗅",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-012",
-      "title": "产教共育青少年人工智能创新人才",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261115/731e1fd14a2d484bb0117faa7da85395.html",
-      "source": "上海市政府-动态",
-      "published": "2026-11-15",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-013",
-      "title": "英伟达丑闻发酵 中国反对美加码晶片出口管制 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWVjBQdXhlalplbDJaVW1sbm1tZHBjZkZmejVZR0IxNlNOaEl2eldpSEticWh0Yl9lSUVwdnd6SFQ2ZF9GOWQ2WXFXeGZDam83c2hWcFR4cExZcllmenpjOExuZVR0emU2WWc?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-11-13",
-      "body_snippet": "英伟达丑闻发酵 中国反对美加码晶片出口管制 联合早报",
-      "_query_boost": 0
-    },
-    {
       "id": "raw-014",
-      "title": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 - cnBeta.COM",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MMjUyOU1ZZXlFOTkyQ25NUzc3U2N4U3ZkX2c2THpoYktOQ2dSd3BtMG1SNERGbHM2UnpteXFzNXEwVWhIaFFmSV9NNGRTNVFFaS1GaklwaE9aLVI5cWp0LQ?oc=5",
-      "source": "cnBeta.COM",
-      "category": "海外",
-      "published": "2026-11-11",
-      "body_snippet": "美媒曝中国国防背景高校获得英伟达H200芯片美国出口管制漏洞再受关注- the United States 美国 cnBeta.COM",
-      "_query_boost": 0
+      "title": "《新华文摘》全文转载陈志敏教授理论文章《中国引领人工智能全球治理的三重路径》 - 复旦发展研究院",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9yS2lyRDFGRmJfZmlGdnNuOWZmUzdZWjQxbnd4ZTBFME1XSGVoVXkyanBoQ0hVVmU2OE1LbDVwb0hWTDFWMEg5c1h5TE9WU1ZURlBHVlVrb0NIemd5UU1sWVUwTUd4aGdUWmxFRWhR?oc=5",
+      "source": "复旦发展研究院",
+      "category": "政策",
+      "published": "2026-11-15",
+      "body_snippet": "《新华文摘》全文转载陈志敏教授理论文章《中国引领人工智能全球治理的三重路径》 复旦发展研究院",
+      "_query_boost": 50
     },
     {
       "id": "raw-015",
-      "title": "TechCrunch Mobility: The Nvidia backup plan for China&#8217;s self-driving industry",
-      "url": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/",
-      "source": "TechCrunch",
-      "published": "2026-11-15",
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+      "source": "NVIDIA Blog",
+      "published": "2026-11-16",
       "body_snippet": "",
       "category": "技术"
     }
