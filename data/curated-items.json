@@ -1,38 +1,14 @@
 {
-  "generated_at": "2026-11-17T08:27:46.655Z",
+  "generated_at": "2026-11-18T07:55:34.931Z",
   "week": "2026-W47",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 9,
+  "total_curated": 10,
   "attend_count": 0,
-  "silent_count": 9,
+  "silent_count": 10,
   "items": [
     {
       "id": "raw-001",
-      "title": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9VT1h5ZzdGRzZ2MnRJdDNYd0RMNEhBRmxSUjJpSThuM0l6dTRJN1JZblZkMWlFUVhtR3YzUy1IaUFaMHZ4UnZHODVBT0JrZDdPSWxXYnUwVmoxQnphOFd3QlVFNGYxMnpFVmMw?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-11-17",
-      "body_snippet": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 联合早报",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🌏",
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 - 联合早报 美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 联合早报",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-002",
       "title": "路透：中国境内逾30亿美元算力项目采用英伟达受管制晶片 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52N0g4RWxjcUFoT29ldWJYeFlydlJHMWl0V2hhb2gxUWdWakIxd213ZUxTV0t3OUJFNm5tYUZjYjJaM1BaYlppb3Y1RVpFdUtsekF1bVpTTExpbURkaXVRZXlEMkt5amI2aGc?oc=5",
       "source": "联合早报",
@@ -55,7 +31,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-003",
+      "id": "raw-002",
       "title": "消息：忧美收紧远程访问限制 中国AI企业抢租海外英伟达算力 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVY3Y3T2x1aERTMXFXS01ENU9zVHRWU0tMODBfUDRBZnMxV3pJMXB4dVBtQ3I5Z0QyUGlRLWp1Y2tEaG9yVnNCalNQM2tHbXVXblQwNWFWZ0dpQ29iU1JhZ1dGV0lxYjNQWnc?oc=5",
       "source": "联合早报",
@@ -74,6 +50,30 @@
         "c3"
       ],
       "summary_cn": "消息：忧美收紧远程访问限制 中国AI企业抢租海外英伟达算力 - 联合早报 消息：忧美收紧远程访问限制 中国AI企业抢租海外英伟达算力 联合早报",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-003",
+      "title": "特朗普访华之际 美国封堵中国公司在东南亚租用AI算力的“后门” - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GQWxhdXhRUEoyNTlTa1dtc3RQY0lMc0syWWFoNVJfMHVyaGNQRmZqRk54VXNTMU9GM01NUXBNQWFhaWpISThoUk9WMk9EYjJnSEx1dVlRS3pFLXhPVG45SXFBdzc1MEXSAWxBVV95cUxNWjZWamQwd1NkUGFaZnZIRUxoVFVubWxrSzZWYVRrekxUUmhzcExvUmF2UkZfYkhGbG9ycVpONDhqcVVaNFJid2RnTC1OX1dZellUV1EyNXRZMnp3VDFuZWhkN3pzYTUtWmFpdDU?oc=5",
+      "source": "BBC",
+      "category": "政策",
+      "published": "2026-11-17",
+      "body_snippet": "特朗普访华之际 美国封堵中国公司在东南亚租用AI算力的“后门” BBC",
+      "_query_boost": 45,
+      "lane": "silent",
+      "signals": [
+        "🌏",
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "特朗普访华之际 美国封堵中国公司在东南亚租用AI算力的“后门” - BBC 特朗普访华之际 美国封堵中国公司在东南亚租用AI算力的“后门” BBC",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
@@ -101,39 +101,17 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
-      "title": "智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与词元经济-AI基础设施 - 至顶网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLcHFNWDVCdHd6cDZCbXNSZTM4c2hSR1BudnNMUDhkSlY4UmZ4VVRmYWhOWWNycWhnOEhnOEY5QjJkSHhWaktqeWJIdWpRdlBmWUdGZ1Z0ZlAxbVRnWE9VR0EwcXBPU296Vm5JVUQ2RFR6Zw?oc=5",
-      "source": "至顶网",
-      "category": "政策",
-      "published": "2026-11-15",
-      "body_snippet": "智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与词元经济-AI基础设施 至顶网",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与词元经济-AI基础设施 - 至顶网 智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
       "id": "raw-006",
-      "title": "清微智能Open3D-PIMC获人民日报点名，3D算力生态窗口开启 - 金融界",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UMkJPczZEQUltc2hIamJSOWdCb0lMcWhnNkpPUkFiTXFqUkFNMXlSV2M1cGM0X3NkZzdzeXZHSUFjLUlkTFNTMnRFUXU5cTYtSkxLdVlmdnd5SVp6ajhRVmdORWVSUFNXNm5fd2RFM1BKN1d2?oc=5",
-      "source": "金融界",
-      "category": "监管",
+      "title": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9VT1h5ZzdGRzZ2MnRJdDNYd0RMNEhBRmxSUjJpSThuM0l6dTRJN1JZblZkMWlFUVhtR3YzUy1IaUFaMHZ4UnZHODVBT0JrZDdPSWxXYnUwVmoxQnphOFd3QlVFNGYxMnpFVmMw?oc=5",
+      "source": "联合早报",
+      "category": "海外",
       "published": "2026-11-17",
-      "body_snippet": "清微智能Open3D-PIMC获人民日报点名，3D算力生态窗口开启 金融界",
-      "_query_boost": 20,
+      "body_snippet": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 联合早报",
+      "_query_boost": 0,
       "lane": "silent",
       "signals": [
+        "🌏",
         "🔬"
       ],
       "is_deep_read": false,
@@ -142,12 +120,84 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "清微智能Open3D-PIMC获人民日报点名，3D算力生态窗口开启 - 金融界 清微智能Open3D-PIMC获人民日报点名，3D算力生态窗口开启 金融界",
+      "summary_cn": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 - 联合早报 美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 联合早报",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-007",
+      "title": "美国将半导体出口管制延伸至海外数据中心，限制第三方向中国提供远程AI算力 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QS1NFRF96SkFXMUxwQ0N6TWk0Q09NNFY1c082Qm42Y01uZHVCdFNnMXdsRDhFTlAzV2xQLXIwUjQyRDE3OWcweUJtTUhjQmdpSHhscQ?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-11-17",
+      "body_snippet": "美国将半导体出口管制延伸至海外数据中心，限制第三方向中国提供远程AI算力 虎嗅",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🌏",
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "美国将半导体出口管制延伸至海外数据中心，限制第三方向中国提供远程AI算力 - 虎嗅 美国将半导体出口管制延伸至海外数据中心，限制第三方向中国提供远程AI算力 虎",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-008",
+      "title": "美国商务部云算力管制新规将于2026年11月19日生效，限制中国AI企业通过境外数据中心获取算力 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jUlZKZWNnNk5SYnpxOXdoN19UdmZndGhiU3FaWk1iSFFMMHl2VUZKcmJUZDRoZUZxbVpybjlDUnVZcVdEangyNGpFNkQzSDNBcFl3Qw?oc=5",
+      "source": "虎嗅",
+      "category": "技术",
+      "published": "2026-11-17",
+      "body_snippet": "美国商务部云算力管制新规将于2026年11月19日生效，限制中国AI企业通过境外数据中心获取算力 虎嗅",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🌏",
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "美国商务部云算力管制新规将于2026年11月19日生效，限制中国AI企业通过境外数据中心获取算力 - 虎嗅 美国商务部云算力管制新规将于2026年11月19日生",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-011",
+      "title": "重磅！美国商务部新规落地，围堵中国 AI 获取远程算力 - 电子工程专辑EE Times China",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ISl9uOWpmcWVnZm9vdkt0c2JiMHQ3czhQQWNUMnRjZE1OdThuM1dyMzV0Um9JY3RJb0Ywc0tLejVuZ0tGdFVISzhnVXRLdUVTTGZj?oc=5",
+      "source": "电子工程专辑EE Times China",
+      "category": "政策",
+      "published": "2026-11-17",
+      "body_snippet": "重磅！美国商务部新规落地，围堵中国 AI 获取远程算力 电子工程专辑EE Times China",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🌏",
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "重磅！美国商务部新规落地，围堵中国 AI 获取远程算力 - 电子工程专辑EE Times China 重磅！美国商务部新规落地，围堵中国 AI 获取远程算力 电",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-012",
       "title": "2026中国—东盟周将在重庆启幕 面向东盟探索词元、算力等合作 - 中国新闻网",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5yZ1NiVFYtbjVvdkFQdEtTc2QyYzF0Nk41bGwxLXVEQ1B1Tnp1UndoT3ZhLTVXcmQ0U2pKaEhQV3g1T1QteWhqanNWeTRENVZ4eXdYOHhmSmhiSWhKdTlsMDYzQkJpcDBMUEFPam1sQ3Z4dw?oc=5",
       "source": "中国新闻网",
@@ -170,17 +220,16 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-011",
-      "title": "DeepSeek因算力不足限额使用 引免费模式可持续性疑虑 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Xc0dxaWpqa2oyUGFJSkFiVUg1Z1A1VWpRMU5sVHg4MllJRWZxZ3JNZGZ4YmxKOFpLenh3Y1hoZWF4YmNCeVo4STQydDNHUDhLdFdKZHVsOFgwZXozSUdHaXY3bTYyYkpEZUdB?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-11-16",
-      "body_snippet": "DeepSeek因算力不足限额使用 引免费模式可持续性疑虑 联合早报",
-      "_query_boost": 0,
+      "id": "raw-014",
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "source": "TechCrunch",
+      "published": "2026-11-17",
+      "body_snippet": "",
+      "category": "资本",
       "lane": "silent",
       "signals": [
-        "🔬"
+        "💰"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -188,30 +237,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "DeepSeek因算力不足限额使用 引免费模式可持续性疑虑 - 联合早报 DeepSeek因算力不足限额使用 引免费模式可持续性疑虑 联合早报",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 - mnewstv.com",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3Y1JRMXFXb1BLM19SdjlsSFhkdEdwWGFRa0N5N2oteWFZNUhaa084NGE2TVYtNnp2Qm5XQWhlUHBFTi1qTWFVdWlGaW5NMkpldjl5NGNfOA?oc=5",
-      "source": "mnewstv.com",
-      "category": "海外",
-      "published": "2026-11-14",
-      "body_snippet": "37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 mnewstv.com",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 - mnewstv.com 37.5亿美元服务器贸易异常 马来西亚如何成为中国AI算力通道 mn",
+      "summary_cn": "Amazon and Google will together own nearly 30% of Anthropic after its IPO ",
       "ppio_signal": null,
       "_classified_by": "rule"
     }
