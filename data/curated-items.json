@@ -1,60 +1,14 @@
 {
-  "generated_at": "2026-11-18T07:55:34.931Z",
+  "generated_at": "2026-11-19T07:55:31.199Z",
   "week": "2026-W47",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 10,
+  "total_curated": 11,
   "attend_count": 0,
-  "silent_count": 10,
+  "silent_count": 11,
   "items": [
     {
       "id": "raw-001",
-      "title": "路透：中国境内逾30亿美元算力项目采用英伟达受管制晶片 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52N0g4RWxjcUFoT29ldWJYeFlydlJHMWl0V2hhb2gxUWdWakIxd213ZUxTV0t3OUJFNm5tYUZjYjJaM1BaYlppb3Y1RVpFdUtsekF1bVpTTExpbURkaXVRZXlEMkt5amI2aGc?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-11-13",
-      "body_snippet": "路透：中国境内逾30亿美元算力项目采用英伟达受管制晶片 联合早报",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "路透：中国境内逾30亿美元算力项目采用英伟达受管制晶片 - 联合早报 路透：中国境内逾30亿美元算力项目采用英伟达受管制晶片 联合早报",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-002",
-      "title": "消息：忧美收紧远程访问限制 中国AI企业抢租海外英伟达算力 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVY3Y3T2x1aERTMXFXS01ENU9zVHRWU0tMODBfUDRBZnMxV3pJMXB4dVBtQ3I5Z0QyUGlRLWp1Y2tEaG9yVnNCalNQM2tHbXVXblQwNWFWZ0dpQ29iU1JhZ1dGV0lxYjNQWnc?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-11-12",
-      "body_snippet": "消息：忧美收紧远程访问限制 中国AI企业抢租海外英伟达算力 联合早报",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "消息：忧美收紧远程访问限制 中国AI企业抢租海外英伟达算力 - 联合早报 消息：忧美收紧远程访问限制 中国AI企业抢租海外英伟达算力 联合早报",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-003",
       "title": "特朗普访华之际 美国封堵中国公司在东南亚租用AI算力的“后门” - BBC",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GQWxhdXhRUEoyNTlTa1dtc3RQY0lMc0syWWFoNVJfMHVyaGNQRmZqRk54VXNTMU9GM01NUXBNQWFhaWpISThoUk9WMk9EYjJnSEx1dVlRS3pFLXhPVG45SXFBdzc1MEXSAWxBVV95cUxNWjZWamQwd1NkUGFaZnZIRUxoVFVubWxrSzZWYVRrekxUUmhzcExvUmF2UkZfYkhGbG9ycVpONDhqcVVaNFJid2RnTC1OX1dZellUV1EyNXRZMnp3VDFuZWhkN3pzYTUtWmFpdDU?oc=5",
       "source": "BBC",
@@ -78,7 +32,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
+      "id": "raw-002",
       "title": "黄仁勋辞任英伟达CEO，中国AI产业面临算力封锁与商业化双重压力 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5TSzFtSjE5V0ZpbG5kR0Yza2RSUVJuODZlWlluUk9zQU9lby1rZ29MUzRsakxzUnBPTGFjRHA3SjdCLVRRbnRMNHY1Rl8yVXRwd1NyOA?oc=5",
       "source": "虎嗅",
@@ -101,7 +55,29 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
+      "id": "raw-004",
+      "title": "教师重构教学思路 学生更新学习方式 校园算力基础设施同步托底 AI正一步步重塑上海高校课堂的模样",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261119/61a467a32cb54a7287825afca25fe360.html",
+      "source": "上海市政府-动态",
+      "published": "2026-11-19",
+      "body_snippet": "",
+      "category": "技术",
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "教师重构教学思路 学生更新学习方式 校园算力基础设施同步托底 AI正一步步重塑上海高校课堂的模样 ",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
       "title": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9VT1h5ZzdGRzZ2MnRJdDNYd0RMNEhBRmxSUjJpSThuM0l6dTRJN1JZblZkMWlFUVhtR3YzUy1IaUFaMHZ4UnZHODVBT0JrZDdPSWxXYnUwVmoxQnphOFd3QlVFNGYxMnpFVmMw?oc=5",
       "source": "联合早报",
@@ -121,6 +97,29 @@
         "c3"
       ],
       "summary_cn": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 - 联合早报 美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 联合早报",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-006",
+      "title": "辽宁省算力券政策正式落地实施 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QWjI5dlBUcXBkQnUtdi1HWFBMR1NtVERUYVIyVy1FTHpaUUFMeUJpMmNyc3BlX1NRSi1ZVDU1bkotcGtQWUcxVThBQm9uLU1pOUFZaUV2MTZ2alJfVWJJVHZRczcxd3BH?oc=5",
+      "source": "中国新闻网",
+      "category": "政策",
+      "published": "2026-11-19",
+      "body_snippet": "辽宁省算力券政策正式落地实施 中国新闻网",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "辽宁省算力券政策正式落地实施 - 中国新闻网 辽宁省算力券政策正式落地实施 中国新闻网",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
@@ -173,17 +172,16 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-011",
-      "title": "重磅！美国商务部新规落地，围堵中国 AI 获取远程算力 - 电子工程专辑EE Times China",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ISl9uOWpmcWVnZm9vdkt0c2JiMHQ3czhQQWNUMnRjZE1OdThuM1dyMzV0Um9JY3RJb0Ywc0tLejVuZ0tGdFVISzhnVXRLdUVTTGZj?oc=5",
-      "source": "电子工程专辑EE Times China",
+      "id": "raw-009",
+      "title": "《吕院长拆县》第19期 · 新疆伊吾县： 怎么把煤和风变成重庆的AI算力？ - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NUHNTT19UYi04U2RyQ3RrRXgtZWxiRUVJMWd6R3J6NjVnRk05VFUyZjRkYXI4SkRjUmxiaHgwVmJRNWw3N0piNVkwNHZHVU05SWhaVEt5SEF2MmRsOEF6TEo0RFpDUmkwRGNTMg?oc=5",
+      "source": "中华网",
       "category": "政策",
-      "published": "2026-11-17",
-      "body_snippet": "重磅！美国商务部新规落地，围堵中国 AI 获取远程算力 电子工程专辑EE Times China",
-      "_query_boost": 25,
+      "published": "2026-11-19",
+      "body_snippet": "《吕院长拆县》第19期 · 新疆伊吾县： 怎么把煤和风变成重庆的AI算力？ 中华网",
+      "_query_boost": 20,
       "lane": "silent",
       "signals": [
-        "🌏",
         "🔬"
       ],
       "is_deep_read": false,
@@ -192,19 +190,42 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "重磅！美国商务部新规落地，围堵中国 AI 获取远程算力 - 电子工程专辑EE Times China 重磅！美国商务部新规落地，围堵中国 AI 获取远程算力 电",
+      "summary_cn": "《吕院长拆县》第19期 · 新疆伊吾县： 怎么把煤和风变成重庆的AI算力？ - 中华网 《吕院长拆县》第19期 · 新疆伊吾县： 怎么把煤和风变成重庆的AI算力",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
+      "title": "AI点燃需求算力扩容两大算力指数的产业链“拼图”_证券要闻 - 中金在线",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Wb0xvS0trM1A0MGNWb2FZTmlwTmc2SmI4MlY4V2Ezb2tLYjZHM3Y2WGVkdndDNzMtZmdSeVhlZ3hBVVpJWGd1UC01azAxOS1lUUVZd19aSmM4dHlqYVlSZUdQU25FZ0h5MlU0VWhn?oc=5",
+      "source": "中金在线",
+      "category": "政策",
+      "published": "2026-11-18",
+      "body_snippet": "AI点燃需求算力扩容两大算力指数的产业链“拼图”_证券要闻 中金在线",
+      "_query_boost": 25,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "AI点燃需求算力扩容两大算力指数的产业链“拼图”_证券要闻 - 中金在线 AI点燃需求算力扩容两大算力指数的产业链“拼图”_证券要闻 中金在线",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-012",
-      "title": "2026中国—东盟周将在重庆启幕 面向东盟探索词元、算力等合作 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5yZ1NiVFYtbjVvdkFQdEtTc2QyYzF0Nk41bGwxLXVEQ1B1Tnp1UndoT3ZhLTVXcmQ0U2pKaEhQV3g1T1QteWhqanNWeTRENVZ4eXdYOHhmSmhiSWhKdTlsMDYzQkJpcDBMUEFPam1sQ3Z4dw?oc=5",
-      "source": "中国新闻网",
+      "title": "智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与词元经济-AI基础设施 - 至顶网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLcHFNWDVCdHd6cDZCbXNSZTM4c2hSR1BudnNMUDhkSlY4UmZ4VVRmYWhOWWNycWhnOEhnOEY5QjJkSHhWaktqeWJIdWpRdlBmWUdGZ1Z0ZlAxbVRnWE9VR0EwcXBPU296Vm5JVUQ2RFR6Zw?oc=5",
+      "source": "至顶网",
       "category": "政策",
-      "published": "2026-11-16",
-      "body_snippet": "2026中国—东盟周将在重庆启幕 面向东盟探索词元、算力等合作 中国新闻网",
-      "_query_boost": 0,
+      "published": "2026-11-15",
+      "body_snippet": "智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与词元经济-AI基础设施 至顶网",
+      "_query_boost": 20,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -215,16 +236,16 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "2026中国—东盟周将在重庆启幕 面向东盟探索词元、算力等合作 - 中国新闻网 2026中国—东盟周将在重庆启幕 面向东盟探索词元、算力等合作 中国新闻网",
+      "summary_cn": "智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与词元经济-AI基础设施 - 至顶网 智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-014",
-      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
-      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "id": "raw-013",
+      "title": "Anthropic prices IPO at $83 a share, above projected range",
+      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
       "source": "TechCrunch",
-      "published": "2026-11-17",
+      "published": "2026-11-18",
       "body_snippet": "",
       "category": "资本",
       "lane": "silent",
@@ -237,7 +258,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "Amazon and Google will together own nearly 30% of Anthropic after its IPO ",
+      "summary_cn": "Anthropic prices IPO at $83 a share, above projected range ",
       "ppio_signal": null,
       "_classified_by": "rule"
     }
