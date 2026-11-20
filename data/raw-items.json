@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-19T07:55:31.058Z",
+  "generated_at": "2026-11-20T07:48:59.040Z",
   "week": "2026-W47",
   "date_range": {
-    "from": "2026-11-12",
-    "to": "2026-11-19"
+    "from": "2026-11-13",
+    "to": "2026-11-20"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "特朗普访华之际 美国封堵中国公司在东南亚租用AI算力的“后门” - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GQWxhdXhRUEoyNTlTa1dtc3RQY0lMc0syWWFoNVJfMHVyaGNQRmZqRk54VXNTMU9GM01NUXBNQWFhaWpISThoUk9WMk9EYjJnSEx1dVlRS3pFLXhPVG45SXFBdzc1MEXSAWxBVV95cUxNWjZWamQwd1NkUGFaZnZIRUxoVFVubWxrSzZWYVRrekxUUmhzcExvUmF2UkZfYkhGbG9ycVpONDhqcVVaNFJid2RnTC1OX1dZellUV1EyNXRZMnp3VDFuZWhkN3pzYTUtWmFpdDU?oc=5",
-      "source": "BBC",
-      "category": "政策",
-      "published": "2026-11-17",
-      "body_snippet": "特朗普访华之际 美国封堵中国公司在东南亚租用AI算力的“后门” BBC",
-      "_query_boost": 45
+      "title": "全球算力政策变化大 阿里巴巴或下调数据中心建设目标 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0MWxSYlVMZUVUMktSOENUNWE1SXlVbk9LbkNGd2I4M201X2lVLTVjVjAyWThvaHJpY3ZyNWxQb3RDUEpGSnpVcjUtWElTdlNCa0tjbFBDZGliTl9pdFNTRDZpaVkwZ3lpX3ln?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-11-20",
+      "body_snippet": "全球算力政策变化大 阿里巴巴或下调数据中心建设目标 联合早报",
+      "_query_boost": 0
     },
     {
       "id": "raw-002",
@@ -30,12 +30,13 @@
     },
     {
       "id": "raw-003",
-      "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
-      "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
-      "source": "工信部-新闻",
-      "published": "2026-11-19",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "特朗普访华之际 美国封堵中国公司在东南亚租用AI算力的“后门” - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GQWxhdXhRUEoyNTlTa1dtc3RQY0lMc0syWWFoNVJfMHVyaGNQRmZqRk54VXNTMU9GM01NUXBNQWFhaWpISThoUk9WMk9EYjJnSEx1dVlRS3pFLXhPVG45SXFBdzc1MEXSAWxBVV95cUxNWjZWamQwd1NkUGFaZnZIRUxoVFVubWxrSzZWYVRrekxUUmhzcExvUmF2UkZfYkhGbG9ycVpONDhqcVVaNFJid2RnTC1OX1dZellUV1EyNXRZMnp3VDFuZWhkN3pzYTUtWmFpdDU?oc=5",
+      "source": "BBC",
+      "category": "政策",
+      "published": "2026-11-17",
+      "body_snippet": "特朗普访华之际 美国封堵中国公司在东南亚租用AI算力的“后门” BBC",
+      "_query_boost": 45
     },
     {
       "id": "raw-004",
@@ -58,16 +59,36 @@
     },
     {
       "id": "raw-006",
-      "title": "辽宁省算力券政策正式落地实施 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QWjI5dlBUcXBkQnUtdi1HWFBMR1NtVERUYVIyVy1FTHpaUUFMeUJpMmNyc3BlX1NRSi1ZVDU1bkotcGtQWUcxVThBQm9uLU1pOUFZaUV2MTZ2alJfVWJJVHZRczcxd3BH?oc=5",
-      "source": "中国新闻网",
+      "title": "推动绿色算力产业高质量发展（专题深思） - 人民日报",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13U3FvSkluamRfVWpuLTh2T2Z0NTlSNlZrdnF0N0VjTTB4U0FEMlJmZlAwWlR2T0ZGUUx5TmNDdmowRFdsdDhfaXFyLTZ1a05laEJfcHVyNndabXVHUVZvUkxBbnhLMDcxUGZvVkVBa2pDeEJqYllENXNUbkZnZlk?oc=5",
+      "source": "人民日报",
       "category": "政策",
-      "published": "2026-11-19",
-      "body_snippet": "辽宁省算力券政策正式落地实施 中国新闻网",
+      "published": "2026-11-20",
+      "body_snippet": "推动绿色算力产业高质量发展（专题深思） 人民日报",
       "_query_boost": 0
     },
     {
       "id": "raw-007",
+      "title": "算力网络进入“三用”时代：1ms城市算网如何从示范走向全域 - 腾讯新闻",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vZW1KWlNWUXdhdmNwcGF2UGZZVnlOR1lqNy1qRFBHZVcycVA2QmVNcXoxejc1TWdKUVhXbG80OVJEQ1NBODhZczBFa3lRWUpxMnVRT0JB?oc=5",
+      "source": "腾讯新闻",
+      "category": "政策",
+      "published": "2026-11-17",
+      "body_snippet": "算力网络进入“三用”时代：1ms城市算网如何从示范走向全域 腾讯新闻",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-008",
+      "title": "丁薛祥在江西调研时强调 立足特色和优势加快壮大新动能 推动高质量发展不断取得新成效 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Xbmg2NzRfOEVHbWZYUmZZM1B2VE4tbTkxWk5Ka1dVeFVqcnU2Z0dpYkExdG1kYl9EZnZzUjBZQWVqNlFaaFFBOGZXWTdRNUREYVZEei12WU9iZWZncm1JT0M0c25MaG9u?oc=5",
+      "source": "中国新闻网",
+      "category": "政策",
+      "published": "2026-11-18",
+      "body_snippet": "丁薛祥在江西调研时强调 立足特色和优势加快壮大新动能 推动高质量发展不断取得新成效 中国新闻网",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-009",
       "title": "美国将半导体出口管制延伸至海外数据中心，限制第三方向中国提供远程AI算力 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QS1NFRF96SkFXMUxwQ0N6TWk0Q09NNFY1c082Qm42Y01uZHVCdFNnMXdsRDhFTlAzV2xQLXIwUjQyRDE3OWcweUJtTUhjQmdpSHhscQ?oc=5",
       "source": "虎嗅",
@@ -77,37 +98,7 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-008",
-      "title": "美国商务部云算力管制新规将于2026年11月19日生效，限制中国AI企业通过境外数据中心获取算力 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jUlZKZWNnNk5SYnpxOXdoN19UdmZndGhiU3FaWk1iSFFMMHl2VUZKcmJUZDRoZUZxbVpybjlDUnVZcVdEangyNGpFNkQzSDNBcFl3Qw?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-11-17",
-      "body_snippet": "美国商务部云算力管制新规将于2026年11月19日生效，限制中国AI企业通过境外数据中心获取算力 虎嗅",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-009",
-      "title": "《吕院长拆县》第19期 · 新疆伊吾县： 怎么把煤和风变成重庆的AI算力？ - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NUHNTT19UYi04U2RyQ3RrRXgtZWxiRUVJMWd6R3J6NjVnRk05VFUyZjRkYXI4SkRjUmxiaHgwVmJRNWw3N0piNVkwNHZHVU05SWhaVEt5SEF2MmRsOEF6TEo0RFpDUmkwRGNTMg?oc=5",
-      "source": "中华网",
-      "category": "政策",
-      "published": "2026-11-19",
-      "body_snippet": "《吕院长拆县》第19期 · 新疆伊吾县： 怎么把煤和风变成重庆的AI算力？ 中华网",
-      "_query_boost": 20
-    },
-    {
       "id": "raw-010",
-      "title": "AI点燃需求算力扩容两大算力指数的产业链“拼图”_证券要闻 - 中金在线",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Wb0xvS0trM1A0MGNWb2FZTmlwTmc2SmI4MlY4V2Ezb2tLYjZHM3Y2WGVkdndDNzMtZmdSeVhlZ3hBVVpJWGd1UC01azAxOS1lUUVZd19aSmM4dHlqYVlSZUdQU25FZ0h5MlU0VWhn?oc=5",
-      "source": "中金在线",
-      "category": "政策",
-      "published": "2026-11-18",
-      "body_snippet": "AI点燃需求算力扩容两大算力指数的产业链“拼图”_证券要闻 中金在线",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-011",
       "title": "习近平主席引领亚太大家庭扬帆前行 - 求是",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LQjFKUGQ4dktqcEFFSTVRb1FIMVNMSklJRlZYcXZaNDQxRkhvVGl2MXRKN3pfLTV4VGtWN3NIWDRsRElqM0JuTG4yQmxONFlVYTdJdEZDSEZOLWwxbWRfN2l5NmxhVlhsRWV6M0pGSERQZE9Hb2d2eU5salA?oc=5",
       "source": "求是",
@@ -117,7 +108,7 @@
       "_query_boost": 30
     },
     {
-      "id": "raw-012",
+      "id": "raw-011",
       "title": "智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与词元经济-AI基础设施 - 至顶网",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLcHFNWDVCdHd6cDZCbXNSZTM4c2hSR1BudnNMUDhkSlY4UmZ4VVRmYWhOWWNycWhnOEhnOEY5QjJkSHhWaktqeWJIdWpRdlBmWUdGZ1Z0ZlAxbVRnWE9VR0EwcXBPU296Vm5JVUQ2RFR6Zw?oc=5",
       "source": "至顶网",
@@ -127,31 +118,41 @@
       "_query_boost": 20
     },
     {
+      "id": "raw-012",
+      "title": "险资聚长钱 织密“六张网” - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSm1FU3ZkdGxCVVhpZG0xYkRpRmFMTlhYZC0xQU90VFRqRHdzRW44bU1nQjRFWld0N09xbllBUFg4djRNZXA4Um1kNVlQUElMWFF4MVRkeXV3NjhFTFBwaDQ4R2VEWjhYRVpyQlBMN2s2RFFxNk9xWmJkVmNoOTJ0VUcwS0g0MEUzUHRXamxkUQ?oc=5",
+      "source": "21财经",
+      "category": "政策",
+      "published": "2026-11-20",
+      "body_snippet": "险资聚长钱 织密“六张网” 21财经",
+      "_query_boost": 0
+    },
+    {
       "id": "raw-013",
-      "title": "Anthropic prices IPO at $83 a share, above projected range",
-      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "title": "Anthropic&#8217;s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
       "source": "TechCrunch",
-      "published": "2026-11-18",
+      "published": "2026-11-20",
       "body_snippet": "",
       "category": "资本"
     },
     {
       "id": "raw-014",
-      "title": "Palmer Luckey thinks China is &#8216;thrilled to have Jensen out,&#8217; so he wants the ousted Nvidia CEO reinstated",
-      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
+      "title": "Anthropic&#8217;s IPO could deliver $156B to charity",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
       "source": "TechCrunch",
-      "published": "2026-11-18",
+      "published": "2026-11-19",
       "body_snippet": "",
-      "category": "技术"
+      "category": "资本"
     },
     {
       "id": "raw-015",
-      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
-      "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
-      "source": "NVIDIA Blog",
-      "published": "2026-11-16",
+      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "source": "TechCrunch",
+      "published": "2026-11-19",
       "body_snippet": "",
-      "category": "技术"
+      "category": "资本"
     }
   ]
 }
