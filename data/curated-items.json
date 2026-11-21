@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T07:48:59.096Z",
-  "week": "2026-W47",
+  "generated_at": "2026-11-21T07:41:27.824Z",
+  "week": "2026-W48",
   "classifier": "rule-based",
   "total_raw": 15,
   "total_curated": 12,
@@ -9,29 +9,6 @@
   "items": [
     {
       "id": "raw-001",
-      "title": "全球算力政策变化大 阿里巴巴或下调数据中心建设目标 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0MWxSYlVMZUVUMktSOENUNWE1SXlVbk9LbkNGd2I4M201X2lVLTVjVjAyWThvaHJpY3ZyNWxQb3RDUEpGSnpVcjUtWElTdlNCa0tjbFBDZGliTl9pdFNTRDZpaVkwZ3lpX3ln?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-11-20",
-      "body_snippet": "全球算力政策变化大 阿里巴巴或下调数据中心建设目标 联合早报",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "全球算力政策变化大 阿里巴巴或下调数据中心建设目标 - 联合早报 全球算力政策变化大 阿里巴巴或下调数据中心建设目标 联合早报",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-002",
       "title": "黄仁勋辞任英伟达CEO，中国AI产业面临算力封锁与商业化双重压力 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5TSzFtSjE5V0ZpbG5kR0Yza2RSUVJuODZlWlluUk9zQU9lby1rZ29MUzRsakxzUnBPTGFjRHA3SjdCLVRRbnRMNHY1Rl8yVXRwd1NyOA?oc=5",
       "source": "虎嗅",
@@ -55,6 +32,53 @@
     },
     {
       "id": "raw-003",
+      "title": "特朗普威胁对海外建设AI数据中心的美企征收“巨额税款” 要求算力基础设施留在美国- the United States 美国 - cnBeta.COM",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vaE9idWRvc2Rsa3pXM0tCTGJPOHNOWGM1NnRzQVRHQlFvZjgyeklOSjVOTXdNOVBTT0pOSmRiN0RlRmhhLVpxT2s5T08yYlRxTk9vVWU5TG0yeW1Vci1tUA?oc=5",
+      "source": "cnBeta.COM",
+      "category": "监管",
+      "published": "2026-11-20",
+      "body_snippet": "特朗普威胁对海外建设AI数据中心的美企征收“巨额税款” 要求算力基础设施留在美国- the United States 美国 cnBeta.COM",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🌏",
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "特朗普威胁对海外建设AI数据中心的美企征收“巨额税款” 要求算力基础设施留在美国- the United States 美国 - cnBeta.COM 特朗普威",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-004",
+      "title": "全球算力政策变化大 阿里巴巴或下调数据中心建设目标 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0MWxSYlVMZUVUMktSOENUNWE1SXlVbk9LbkNGd2I4M201X2lVLTVjVjAyWThvaHJpY3ZyNWxQb3RDUEpGSnpVcjUtWElTdlNCa0tjbFBDZGliTl9pdFNTRDZpaVkwZ3lpX3ln?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-11-20",
+      "body_snippet": "全球算力政策变化大 阿里巴巴或下调数据中心建设目标 联合早报",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "全球算力政策变化大 阿里巴巴或下调数据中心建设目标 - 联合早报 全球算力政策变化大 阿里巴巴或下调数据中心建设目标 联合早报",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-005",
       "title": "特朗普访华之际 美国封堵中国公司在东南亚租用AI算力的“后门” - BBC",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GQWxhdXhRUEoyNTlTa1dtc3RQY0lMc0syWWFoNVJfMHVyaGNQRmZqRk54VXNTMU9GM01NUXBNQWFhaWpISThoUk9WMk9EYjJnSEx1dVlRS3pFLXhPVG45SXFBdzc1MEXSAWxBVV95cUxNWjZWamQwd1NkUGFaZnZIRUxoVFVubWxrSzZWYVRrekxUUmhzcExvUmF2UkZfYkhGbG9ycVpONDhqcVVaNFJid2RnTC1OX1dZellUV1EyNXRZMnp3VDFuZWhkN3pzYTUtWmFpdDU?oc=5",
       "source": "BBC",
@@ -78,7 +102,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
+      "id": "raw-006",
       "title": "教师重构教学思路 学生更新学习方式 校园算力基础设施同步托底 AI正一步步重塑上海高校课堂的模样",
       "url": "https://www.shanghai.gov.cn/nw4411/20261119/61a467a32cb54a7287825afca25fe360.html",
       "source": "上海市政府-动态",
@@ -100,7 +124,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
+      "id": "raw-007",
       "title": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9VT1h5ZzdGRzZ2MnRJdDNYd0RMNEhBRmxSUjJpSThuM0l6dTRJN1JZblZkMWlFUVhtR3YzUy1IaUFaMHZ4UnZHODVBT0JrZDdPSWxXYnUwVmoxQnphOFd3QlVFNGYxMnpFVmMw?oc=5",
       "source": "联合早报",
@@ -124,30 +148,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-006",
-      "title": "推动绿色算力产业高质量发展（专题深思） - 人民日报",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13U3FvSkluamRfVWpuLTh2T2Z0NTlSNlZrdnF0N0VjTTB4U0FEMlJmZlAwWlR2T0ZGUUx5TmNDdmowRFdsdDhfaXFyLTZ1a05laEJfcHVyNndabXVHUVZvUkxBbnhLMDcxUGZvVkVBa2pDeEJqYllENXNUbkZnZlk?oc=5",
-      "source": "人民日报",
-      "category": "政策",
-      "published": "2026-11-20",
-      "body_snippet": "推动绿色算力产业高质量发展（专题深思） 人民日报",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "推动绿色算力产业高质量发展（专题深思） - 人民日报 推动绿色算力产业高质量发展（专题深思） 人民日报",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-007",
+      "id": "raw-008",
       "title": "算力网络进入“三用”时代：1ms城市算网如何从示范走向全域 - 腾讯新闻",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vZW1KWlNWUXdhdmNwcGF2UGZZVnlOR1lqNy1qRFBHZVcycVA2QmVNcXoxejc1TWdKUVhXbG80OVJEQ1NBODhZczBFa3lRWUpxMnVRT0JB?oc=5",
       "source": "腾讯新闻",
@@ -171,6 +172,52 @@
     },
     {
       "id": "raw-009",
+      "title": "推动绿色算力产业高质量发展（专题深思） - 人民日报",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13U3FvSkluamRfVWpuLTh2T2Z0NTlSNlZrdnF0N0VjTTB4U0FEMlJmZlAwWlR2T0ZGUUx5TmNDdmowRFdsdDhfaXFyLTZ1a05laEJfcHVyNndabXVHUVZvUkxBbnhLMDcxUGZvVkVBa2pDeEJqYllENXNUbkZnZlk?oc=5",
+      "source": "人民日报",
+      "category": "政策",
+      "published": "2026-11-20",
+      "body_snippet": "推动绿色算力产业高质量发展（专题深思） 人民日报",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "推动绿色算力产业高质量发展（专题深思） - 人民日报 推动绿色算力产业高质量发展（专题深思） 人民日报",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
+      "title": "江苏省通信管理局:江苏城域算力1ms时延圈覆盖率普遍达70%以上 - 今日流媒体",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnaU1ReGRmLW9GdTBLOWlsTVVEVHJOX0dIQ2NqZ05WUmNtU25xTUdtcTcyYmY0RXRXSXJNczVna3JqRGplcmxkcS01U0Jjb0Q5RmxERS12YXN4bFE?oc=5",
+      "source": "今日流媒体",
+      "category": "政策",
+      "published": "2026-11-18",
+      "body_snippet": "江苏省通信管理局:江苏城域算力1ms时延圈覆盖率普遍达70%以上 今日流媒体",
+      "_query_boost": 30,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "江苏省通信管理局:江苏城域算力1ms时延圈覆盖率普遍达70%以上 - 今日流媒体 江苏省通信管理局:江苏城域算力1ms时延圈覆盖率普遍达70%以上 今日流媒体",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-011",
       "title": "美国将半导体出口管制延伸至海外数据中心，限制第三方向中国提供远程AI算力 - 虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QS1NFRF96SkFXMUxwQ0N6TWk0Q09NNFY1c082Qm42Y01uZHVCdFNnMXdsRDhFTlAzV2xQLXIwUjQyRDE3OWcweUJtTUhjQmdpSHhscQ?oc=5",
       "source": "虎嗅",
@@ -194,7 +241,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-011",
+      "id": "raw-012",
       "title": "智算力大模型新经济——第八届中国超级算力大会深入研讨产业应用与词元经济-AI基础设施 - 至顶网",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLcHFNWDVCdHd6cDZCbXNSZTM4c2hSR1BudnNMUDhkSlY4UmZ4VVRmYWhOWWNycWhnOEhnOEY5QjJkSHhWaktqeWJIdWpRdlBmWUdGZ1Z0ZlAxbVRnWE9VR0EwcXBPU296Vm5JVUQ2RFR6Zw?oc=5",
       "source": "至顶网",
@@ -217,7 +264,7 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-013",
+      "id": "raw-014",
       "title": "Anthropic&#8217;s 7 founders cashed out nearly $2B in record-breaking IPO",
       "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
       "source": "TechCrunch",
@@ -235,50 +282,6 @@
         "c3"
       ],
       "summary_cn": "Anthropic&#8217;s 7 founders cashed out nearly $2B in record-breaking IPO ",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-014",
-      "title": "Anthropic&#8217;s IPO could deliver $156B to charity",
-      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
-      "source": "TechCrunch",
-      "published": "2026-11-19",
-      "body_snippet": "",
-      "category": "资本",
-      "lane": "silent",
-      "signals": [
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "Anthropic&#8217;s IPO could deliver $156B to charity ",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-015",
-      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
-      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
-      "source": "TechCrunch",
-      "published": "2026-11-19",
-      "body_snippet": "",
-      "category": "资本",
-      "lane": "silent",
-      "signals": [
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price ",
       "ppio_signal": null,
       "_classified_by": "rule"
     }
