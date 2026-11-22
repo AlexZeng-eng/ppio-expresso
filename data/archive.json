@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-11-21T07:41:27.876Z",
+  "updated_at": "2026-11-22T07:26:26.529Z",
   "days": [
+    {
+      "date": "2026-11-22",
+      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
+      "signal_summary": {
+        "🏛️": 0,
+        "📜": 0,
+        "⚔️": 0,
+        "💰": 2,
+        "🌏": 4,
+        "🔬": 10
+      },
+      "wind_indicators": {
+        "policy_heat": 2,
+        "competitor_heat": 2,
+        "capital_heat": 3,
+        "overseas_heat": 3,
+        "overall_sentiment": "平稳",
+        "summary": "规则估算，AI合成不可用时的占位数据。"
+      },
+      "ppio_index": {
+        "score": 55,
+        "delta": 0,
+        "components": {
+          "policy_tailwind": 0,
+          "competitive_pressure": 0,
+          "capital_sentiment": 10,
+          "regulatory_risk": 0,
+          "overseas_headwind": -16
+        },
+        "interpretation": "规则估算，仅供参考"
+      },
+      "item_count": {
+        "total": 11,
+        "attend": 1,
+        "silent": 10
+      },
+      "competitor_updates": []
+    },
     {
       "date": "2026-11-21",
       "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
@@ -3383,44 +3421,6 @@
         "total": 10,
         "attend": 4,
         "silent": 6
-      },
-      "competitor_updates": []
-    },
-    {
-      "date": "2026-08-22",
-      "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
-      "signal_summary": {
-        "🏛️": 1,
-        "📜": 0,
-        "⚔️": 1,
-        "💰": 1,
-        "🌏": 0,
-        "🔬": 8
-      },
-      "wind_indicators": {
-        "policy_heat": 3,
-        "competitor_heat": 3,
-        "capital_heat": 3,
-        "overseas_heat": 2,
-        "overall_sentiment": "平稳",
-        "summary": "规则估算，AI合成不可用时的占位数据。"
-      },
-      "ppio_index": {
-        "score": 55,
-        "delta": 0,
-        "components": {
-          "policy_tailwind": 8,
-          "competitive_pressure": -6,
-          "capital_sentiment": 5,
-          "regulatory_risk": 0,
-          "overseas_headwind": 0
-        },
-        "interpretation": "规则估算，仅供参考"
-      },
-      "item_count": {
-        "total": 12,
-        "attend": 5,
-        "silent": 7
       },
       "competitor_updates": []
     }
