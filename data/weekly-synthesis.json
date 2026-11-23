@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-22T07:26:26.492Z",
-  "date": "2026-11-22",
-  "date_label": "2026-11-22",
+  "generated_at": "2026-11-23T08:09:51.929Z",
+  "date": "2026-11-23",
+  "date_label": "2026-11-23",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
     "📜": 0,
     "⚔️": 0,
     "💰": 2,
-    "🌏": 4,
-    "🔬": 10
+    "🌏": 3,
+    "🔬": 9
   },
   "speed_read": {
     "positive": [],
@@ -24,16 +24,7 @@
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
   "competitor_updates": [],
-  "item_axes": [
-    {
-      "id": "1",
-      "title": "字节跳动扩招算力人才，大厂AI竞争进入软",
-      "policy_axis": 0,
-      "competition_axis": 0.7,
-      "impact_score": 3,
-      "axis_reason": "规则估算"
-    }
-  ],
+  "item_axes": [],
   "ppio_index": {
     "score": 55,
     "delta": 0,
@@ -42,7 +33,7 @@
       "competitive_pressure": 0,
       "capital_sentiment": 10,
       "regulatory_risk": 0,
-      "overseas_headwind": -16
+      "overseas_headwind": -12
     },
     "interpretation": "规则估算，仅供参考"
   },
