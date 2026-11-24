@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-23T08:09:51.929Z",
-  "date": "2026-11-23",
-  "date_label": "2026-11-23",
+  "generated_at": "2026-11-24T10:24:13.520Z",
+  "date": "2026-11-24",
+  "date_label": "2026-11-24",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 0,
+    "🏛️": 1,
     "📜": 0,
     "⚔️": 0,
     "💰": 2,
-    "🌏": 3,
-    "🔬": 9
+    "🌏": 2,
+    "🔬": 8
   },
   "speed_read": {
     "positive": [],
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 2,
+    "policy_heat": 3,
     "competitor_heat": 2,
     "capital_heat": 3,
     "overseas_heat": 3,
@@ -24,16 +24,49 @@
     "summary": "规则估算，AI合成不可用时的占位数据。"
   },
   "competitor_updates": [],
-  "item_axes": [],
+  "item_axes": [
+    {
+      "id": "1",
+      "title": "字节跳动领投云脉芯联B+轮融资，加码国产",
+      "policy_axis": 0,
+      "competition_axis": 0.7,
+      "impact_score": 3,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "2",
+      "title": "智谱GLM-5.4大模型发布：仍是开源最",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "3",
+      "title": "国务院关于对外投资的规定解读（一）：83",
+      "policy_axis": 0.6,
+      "competition_axis": 0.1,
+      "impact_score": 4,
+      "axis_reason": "规则估算"
+    },
+    {
+      "id": "4",
+      "title": "算力补贴直达企业 北京延庆上线词元服务平",
+      "policy_axis": 0,
+      "competition_axis": 0.1,
+      "impact_score": 2,
+      "axis_reason": "规则估算"
+    }
+  ],
   "ppio_index": {
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 0,
+      "policy_tailwind": 8,
       "competitive_pressure": 0,
       "capital_sentiment": 10,
       "regulatory_risk": 0,
-      "overseas_headwind": -12
+      "overseas_headwind": -8
     },
     "interpretation": "规则估算，仅供参考"
   },

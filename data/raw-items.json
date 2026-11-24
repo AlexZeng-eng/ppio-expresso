@@ -1,33 +1,44 @@
 {
-  "generated_at": "2026-11-23T08:09:51.788Z",
+  "generated_at": "2026-11-24T10:24:13.423Z",
   "week": "2026-W48",
   "date_range": {
-    "from": "2026-11-16",
-    "to": "2026-11-23"
+    "from": "2026-11-17",
+    "to": "2026-11-24"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
+      "title": "字节跳动领投云脉芯联B+轮融资，加码国产Scale-Out互联芯片与算力降本 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80MFVHNERfaEphbjlLM2hWUzU2Z0p2ZFMzclZUb0RLNEJ2a0dwRklnLXluNUN0bWhtZEFsZGRrZGdiRGdmM2FZTVkxQ0N4VVZweU55aQ?oc=5",
+      "source": "虎嗅网",
+      "category": "竞品",
+      "published": "2026-11-24",
+      "body_snippet": "字节跳动领投云脉芯联B+轮融资，加码国产Scale-Out互联芯片与算力降本 虎嗅网",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-002",
       "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
       "source": "工信部-新闻",
-      "published": "2026-11-23",
+      "published": "2026-11-24",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-002",
-      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "source": "TechCrunch",
-      "published": "2026-11-23",
-      "body_snippet": "",
-      "category": "资本"
+      "id": "raw-003",
+      "title": "印太纵览 - 台湾学者张昱谦（Kenny Chang）解读英伟达风波：美国能否堵住中国获取先进AI算力的渠道？ - RFI",
+      "url": "https://news.google.com/rss/articles/CBMioARBVV95cUxPcGFTTUFhLW5VSC1HUHVWUDBpSGdpTGpXRGV5VllsTlhyeUt6MFFwdEVoQm5Icl8zNS02eUs2RzVCR2RmeTFEOXlIbW5JOUY0cUthTExSbHlUcE9nNW45UUFYLV9ta1JFUEhFaG1fODBDYUVKQTZvdWZya0JEbWJiSlFtSEMtSDFqZHVOQm03MTZsTzNkaGMyeWJRSVFfNE5CcmxCX3ltLTZxbExwd0NHY1hwYk13NGd6b2Q5Z3ExZDhhX3ZXdTBfMkpJclZmYUhVMmlrLW00NERHd2hxX0pzZDJRTjZvRkZZYl8ydm9jNTdWM1NZRGNkbUpZQlNiQ29XX1NRMVU0UUtrYlF0ZWxiaE1SOE9YUy1uOUtwd04yTW4zR0toaDNMc2FQdS1ZWlpZaEI4RDZKeEJCd1ExT1V2SDd1dW9HOW5vV0VYbVlnT2x5UFV5TzQzbXJCQWVFMzNDNGVPQ2tLbmg0dFEzbUlZNnRCNmRfTk1CcnJfUDhsc0E2dU1Qak9NbVJFc0ROUUNHWVhFUEltUWFWeDhYeF9CaVhMbE5wcUtZaV83WnE2ajRpUTVBWXpoNWxkMUhDYTl1SjRvbWNrU0NQQVNRUkxWaTRVcjBWc0VSNHl5MHVYdGtYc05LLVVqa1Rrd2VHLTVFUmEwV3F1bFF3cWFzTjZuQ3dScVdlQlhxOEdxUGdGNVdFbmRrWlR6d3F4NDJ0bzAt?oc=5",
+      "source": "RFI",
+      "category": "政策",
+      "published": "2026-11-22",
+      "body_snippet": "印太纵览 - 台湾学者张昱谦（Kenny Chang）解读英伟达风波：美国能否堵住中国获取先进AI算力的渠道？ RFI",
+      "_query_boost": 0
     },
     {
-      "id": "raw-003",
+      "id": "raw-004",
       "title": "全球算力政策变化大 阿里巴巴或下调数据中心建设目标 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0MWxSYlVMZUVUMktSOENUNWE1SXlVbk9LbkNGd2I4M201X2lVLTVjVjAyWThvaHJpY3ZyNWxQb3RDUEpGSnpVcjUtWElTdlNCa0tjbFBDZGliTl9pdFNTRDZpaVkwZ3lpX3ln?oc=5",
       "source": "联合早报",
@@ -37,17 +48,56 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-004",
-      "title": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9VT1h5ZzdGRzZ2MnRJdDNYd0RMNEhBRmxSUjJpSThuM0l6dTRJN1JZblZkMWlFUVhtR3YzUy1IaUFaMHZ4UnZHODVBT0JrZDdPSWxXYnUwVmoxQnphOFd3QlVFNGYxMnpFVmMw?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-11-17",
-      "body_snippet": "美国收紧AI晶片出口管制 防中国借海外数据中心获取算力 联合早报",
-      "_query_boost": 0
+      "id": "raw-005",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "source": "TechCrunch",
+      "published": "2026-11-23",
+      "body_snippet": "",
+      "category": "资本"
     },
     {
-      "id": "raw-005",
+      "id": "raw-006",
+      "title": "全球AI创新治理｜OECD：人工智能算力保障的政策实践 - 复旦发展研究院",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JU19rTl9PZGhCS0RFSXV3UTFuYnFJejdRQzByaEZVUVI3ODRFLXhrMDY4V3VNWk15Q1VwN1NybHJoMlFDS2RnV1d4eEk0TGNhMGU5ZHoyZ3JxYUNlNTFTQmt5OTk?oc=5",
+      "source": "复旦发展研究院",
+      "category": "监管",
+      "published": "2026-11-23",
+      "body_snippet": "全球AI创新治理｜OECD：人工智能算力保障的政策实践 复旦发展研究院",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-007",
+      "title": "智谱GLM-5.4大模型发布：仍是开源最强、比Opus 5.5差距5%内_人工智能 - www.anfangnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBZbDMtVEN6eVM1QUtGbUJoUFJKNlJJOXY0RXJRcV80cmJOcFIzZ2hZbnhGVC1TUGJPTURvbFphbWU1Ri1DQnFKbS14VkphSUM3M3J2MFVZbVV5ekZM?oc=5",
+      "source": "www.anfangnews.com",
+      "category": "技术",
+      "published": "2026-11-23",
+      "body_snippet": "智谱GLM-5.4大模型发布：仍是开源最强、比Opus 5.5差距5%内_人工智能 www.anfangnews.com",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-008",
+      "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ - 华人头条",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZlFzTGdVZk1tN3dSQ0RvX0VOSWNEM0VuZm5EZnpScjFBNmJFMWwtVjFKdDI4Q3VRdzk4cTZ1eHV4NjdIamhkZ3luVlhTLXNQNmx1NnZ4aHNKVlJ4cVBZN2NjWjl6aFE5R1U1SVJhN1pWS2hyaUlUbDc5UFBYLWdHZE5jaFNKNGpxYWc?oc=5",
+      "source": "华人头条",
+      "category": "监管",
+      "published": "2026-11-23",
+      "body_snippet": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ 华人头条",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-009",
+      "title": "美国国会突然公开重磅文件！近88万颗AI芯片获准销往中国，英伟达、AMD再成焦点 - FX168财经",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYnF2aTB2LTUwNTVQQWJ4bmVpX2VYVGRHOXNqNExETFpVRUFiZ1hXanJJZ1MtSTlla2RheDhRd2JLMFBpWURLVFNSbUJvb2wyakFFd1dVNV92S1dpeFVISElmbFdQR2dnM1ptazdUaTl2NUZ2REt2dmNoRlFHUG1FdUhjUlk?oc=5",
+      "source": "FX168财经",
+      "category": "海外",
+      "published": "2026-11-23",
+      "body_snippet": "美国国会突然公开重磅文件！近88万颗AI芯片获准销往中国，英伟达、AMD再成焦点 FX168财经",
+      "_query_boost": 25
+    },
+    {
+      "id": "raw-010",
       "title": "黄仁勋事件后美对华算力管制走向何方？ - 华尔街见闻",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaMzd4d0lQM014RjFXc1pjNUFrQmJVNWhWLWJsWGhNZFAzbzRfYnl1RGV4Ry0xS0lOQjEyN3E5SVE1TWp0Y0JtZDBRRkRkbU9DODQ4?oc=5",
       "source": "华尔街见闻",
@@ -57,55 +107,35 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-006",
-      "title": "江苏省通信管理局:江苏城域算力1ms时延圈覆盖率普遍达70%以上 - 今日流媒体",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnaU1ReGRmLW9GdTBLOWlsTVVEVHJOX0dIQ2NqZ05WUmNtU25xTUdtcTcyYmY0RXRXSXJNczVna3JqRGplcmxkcS01U0Jjb0Q5RmxERS12YXN4bFE?oc=5",
-      "source": "今日流媒体",
-      "category": "政策",
-      "published": "2026-11-18",
-      "body_snippet": "江苏省通信管理局:江苏城域算力1ms时延圈覆盖率普遍达70%以上 今日流媒体",
-      "_query_boost": 30
-    },
-    {
-      "id": "raw-007",
-      "title": "美国将半导体出口管制延伸至海外数据中心，限制第三方向中国提供远程AI算力 - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QS1NFRF96SkFXMUxwQ0N6TWk0Q09NNFY1c082Qm42Y01uZHVCdFNnMXdsRDhFTlAzV2xQLXIwUjQyRDE3OWcweUJtTUhjQmdpSHhscQ?oc=5",
-      "source": "虎嗅",
-      "category": "技术",
-      "published": "2026-11-17",
-      "body_snippet": "美国将半导体出口管制延伸至海外数据中心，限制第三方向中国提供远程AI算力 虎嗅",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-008",
-      "title": "新修订的《上海市促进科技成果转化条例》发布 专家解读多个利好消息 职务科技成果“全部赋权”将在沪推广",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261123/2254931f813946c399ff50332ad25c56.html",
+      "id": "raw-011",
+      "title": "本届上马报名人数创新高 全程马拉松参赛规模扩大至三万人",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261124/975a4e821a5f4f60bb809cc6ccb74925.html",
       "source": "上海市政府-动态",
-      "published": "2026-11-23",
+      "published": "2026-11-24",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-009",
-      "title": "招引三家龙头 崛起三个产业集群 新质生产力在闵行全域铺开",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261123/e089147fd4ae4c25b77d39ccc2d6dcb5.html",
-      "source": "上海市政府-动态",
-      "published": "2026-11-23",
+      "id": "raw-012",
+      "title": "关于印发《关于进一步加强上海市高质量概念验证平台建设的行动方案》的通知",
+      "url": "https://stcsm.sh.gov.cn/zwgk/ghjh/20261124/844c21d41be443d4b29921293bbdb65f.html",
+      "source": "上海市科委",
+      "published": "2026-11-24",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-010",
-      "title": "【讯石观察】BAT算力基建CAPEX与光通信窗口 - 讯石光通讯网",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB3QXlyNEpUdXVjZGJ2Y2pzeGxXMDZkZFhZOUZlV2J6U3ExcGoySTExSFFFQ2NXOVlmYjZWUmdDUHgweG9WUXBmcG5KcDVVcmNmanZmelFaNC0wYVAzLW9mbi1BYTFZR3pxUXoxaFIyRldWc01MM1piNg?oc=5",
-      "source": "讯石光通讯网",
+      "id": "raw-013",
+      "title": "从卖卡到卖Token：国产算力的商业模式正在被重写 - 证券市场周刊",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vOEl2bVdaaVJTTlowWXpkbVpEN3hIUEFfcy16eEpiVFRWWjVmcWJSVkxybDdFb0F5RHd4YTJ4b3FQVG5SRVkyU0dZcHRlM3B3TDhjSlJxWTlIUHZweTFJLS01cVo?oc=5",
+      "source": "证券市场周刊",
       "category": "竞品",
-      "published": "2026-11-23",
-      "body_snippet": "【讯石观察】BAT算力基建CAPEX与光通信窗口 讯石光通讯网",
+      "published": "2026-11-24",
+      "body_snippet": "从卖卡到卖Token：国产算力的商业模式正在被重写 证券市场周刊",
       "_query_boost": 15
     },
     {
-      "id": "raw-011",
+      "id": "raw-014",
       "title": "中国消费者AI算力服务需求快增 官方将健全AI词元标准规范 - 联合早报",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8wdGRkZEY2eUx3bHNiRjZKcDBEOURLNGtCZzdUY0hkdGQtZ3NHZGhZWjQ5M3B5UkFjN1NSbTludDg4RW91QVJEcXVFNkp6Rm1yXzFrSTdTMnNFZXJERU1sUS0yWXBFOXcwZGNF?oc=5",
       "source": "联合早报",
@@ -115,43 +145,14 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-012",
-      "title": "【数智周报】 Anthropic敲响纳斯达克开市钟，创史上最大规模IPO纪录；美国限制远程获取AI算力，海外数据中心出租算力须许可；DeepSeek第二轮融资落地 - 潮起网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBPTFBNYVNUbHNGNkR5Z2FKcW90YWFBUDh1ckgxQU1keVk1ZDRyWVhHZmsyVkZMOC1NV3VYNy1CU1RJR24yV2l0ZXpmVm9KcGNRWEZSaHgxclVIbHZ2Um5zQmljVQ?oc=5",
-      "source": "潮起网",
-      "category": "技术",
-      "published": "2026-11-21",
-      "body_snippet": "【数智周报】 Anthropic敲响纳斯达克开市钟，创史上最大规模IPO纪录；美国限制远程获取AI算力，海外数据中心出租算力须许可；DeepSeek第二轮融资落地 潮起网",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-013",
-      "title": "推动绿色算力产业高质量发展（专题深思） - 人民日报",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13U3FvSkluamRfVWpuLTh2T2Z0NTlSNlZrdnF0N0VjTTB4U0FEMlJmZlAwWlR2T0ZGUUx5TmNDdmowRFdsdDhfaXFyLTZ1a05laEJfcHVyNndabXVHUVZvUkxBbnhLMDcxUGZvVkVBa2pDeEJqYllENXNUbkZnZlk?oc=5",
-      "source": "人民日报",
-      "category": "政策",
-      "published": "2026-11-20",
-      "body_snippet": "推动绿色算力产业高质量发展（专题深思） 人民日报",
-      "_query_boost": 0
-    },
-    {
-      "id": "raw-014",
-      "title": "从“卖铲人”到“织网者” 湖南如何把握“六张网”时代新机遇？ - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObUtNQTJYVTA5TFBsRmM0U3lEZWowN29pcVFxYjJJR3NfX3o0a1QxcW9jNkVZdzJHc01DcDB6UEZSN2NoWXNWaDI5QXhjYTU1Z0l5R1F2aFJtazVzZ2Q4eVIydkxnMzZrZFNuZkFySXpNRGhOcmk0UWJDRks3T3dPTV9B?oc=5",
-      "source": "新华网",
-      "category": "政策",
-      "published": "2026-11-19",
-      "body_snippet": "从“卖铲人”到“织网者” 湖南如何把握“六张网”时代新机遇？ 新华网",
-      "_query_boost": 0
-    },
-    {
       "id": "raw-015",
-      "title": "上海迎来全新国际科技会展品牌 首届虹桥国际科技周吸引逾五万专业观众 加码中国 链接全球科创生态",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261122/c21be6b04670435cb197648ce45f23dd.html",
-      "source": "上海市政府-动态",
-      "published": "2026-11-22",
-      "body_snippet": "",
-      "category": "技术"
+      "title": "算力补贴直达企业 北京延庆上线词元服务平台 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3c3Vyd3VDRXdZZmFTMDVJa2NkaXBCWWg1UFdYcFdaa1diZXA4U2t1cm5IQUNrYnVDRUUtWlBlUndNUV9sVnRFUkV2OGNCc0k3c29LY0VsZHNmYUxHLVNZaHRmU2VUek45?oc=5",
+      "source": "中国新闻网",
+      "category": "政策",
+      "published": "2026-11-21",
+      "body_snippet": "算力补贴直达企业 北京延庆上线词元服务平台 中国新闻网",
+      "_query_boost": 0
     }
   ]
 }
