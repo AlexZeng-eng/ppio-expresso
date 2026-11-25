@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-24T10:24:13.520Z",
-  "date": "2026-11-24",
-  "date_label": "2026-11-24",
+  "generated_at": "2026-11-25T09:06:06.376Z",
+  "date": "2026-11-25",
+  "date_label": "2026-11-25",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
-    "🏛️": 1,
+    "🏛️": 0,
     "📜": 0,
     "⚔️": 0,
     "💰": 2,
-    "🌏": 2,
+    "🌏": 1,
     "🔬": 8
   },
   "speed_read": {
@@ -16,7 +16,7 @@
     "risk": []
   },
   "wind_indicators": {
-    "policy_heat": 3,
+    "policy_heat": 2,
     "competitor_heat": 2,
     "capital_heat": 3,
     "overseas_heat": 3,
@@ -43,15 +43,7 @@
     },
     {
       "id": "3",
-      "title": "国务院关于对外投资的规定解读（一）：83",
-      "policy_axis": 0.6,
-      "competition_axis": 0.1,
-      "impact_score": 4,
-      "axis_reason": "规则估算"
-    },
-    {
-      "id": "4",
-      "title": "算力补贴直达企业 北京延庆上线词元服务平",
+      "title": "B300/GB300交期拉长至26—40",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -62,11 +54,11 @@
     "score": 55,
     "delta": 0,
     "components": {
-      "policy_tailwind": 8,
+      "policy_tailwind": 0,
       "competitive_pressure": 0,
       "capital_sentiment": 10,
       "regulatory_risk": 0,
-      "overseas_headwind": -8
+      "overseas_headwind": -4
     },
     "interpretation": "规则估算，仅供参考"
   },

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-24T10:24:13.492Z",
+  "generated_at": "2026-11-25T09:06:06.339Z",
   "week": "2026-W48",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 12,
-  "attend_count": 4,
-  "silent_count": 8,
+  "total_curated": 10,
+  "attend_count": 3,
+  "silent_count": 7,
   "items": [
     {
       "id": "raw-001",
@@ -85,51 +85,6 @@
     },
     {
       "id": "raw-005",
-      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "source": "TechCrunch",
-      "published": "2026-11-23",
-      "body_snippet": "",
-      "category": "资本",
-      "lane": "silent",
-      "signals": [
-        "💰"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IP",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-006",
-      "title": "全球AI创新治理｜OECD：人工智能算力保障的政策实践 - 复旦发展研究院",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JU19rTl9PZGhCS0RFSXV3UTFuYnFJejdRQzByaEZVUVI3ODRFLXhrMDY4V3VNWk15Q1VwN1NybHJoMlFDS2RnV1d4eEk0TGNhMGU5ZHoyZ3JxYUNlNTFTQmt5OTk?oc=5",
-      "source": "复旦发展研究院",
-      "category": "监管",
-      "published": "2026-11-23",
-      "body_snippet": "全球AI创新治理｜OECD：人工智能算力保障的政策实践 复旦发展研究院",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "全球AI创新治理｜OECD：人工智能算力保障的政策实践 - 复旦发展研究院 全球AI创新治理｜OECD：人工智能算力保障的政策实践 复旦发展研究院",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-007",
       "title": "智谱GLM-5.4大模型发布：仍是开源最强、比Opus 5.5差距5%内_人工智能 - www.anfangnews.com",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBZbDMtVEN6eVM1QUtGbUJoUFJKNlJJOXY0RXJRcV80cmJOcFIzZ2hZbnhGVC1TUGJPTURvbFphbWU1Ri1DQnFKbS14VkphSUM3M3J2MFVZbVV5ekZM?oc=5",
       "source": "www.anfangnews.com",
@@ -157,25 +112,25 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-008",
-      "title": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ - 华人头条",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZlFzTGdVZk1tN3dSQ0RvX0VOSWNEM0VuZm5EZnpScjFBNmJFMWwtVjFKdDI4Q3VRdzk4cTZ1eHV4NjdIamhkZ3luVlhTLXNQNmx1NnZ4aHNKVlJ4cVBZN2NjWjl6aFE5R1U1SVJhN1pWS2hyaUlUbDc5UFBYLWdHZE5jaFNKNGpxYWc?oc=5",
-      "source": "华人头条",
-      "category": "监管",
-      "published": "2026-11-23",
-      "body_snippet": "国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ 华人头条",
-      "_query_boost": 25,
+      "id": "raw-006",
+      "title": "B300/GB300交期拉长至26—40周：AI算力扩张如何挤压GPU终端供应链 - 微博",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORzdpcHFuejNER2dUWUh0VjlLLUJ1dlRhcEdIbUI2QnpnaFB5WlpieFNXVUJPMnk2by1zakxpX21BN1VkUVM3c2Y3ZGpwT0hjT1R4VWU1VzJuX0wwNjhIMDJZVmx1YjFYVmdPYk5aWjc0bnZla05PQnZfaHRMSnFETlBreEYzUk0?oc=5",
+      "source": "微博",
+      "category": "技术",
+      "published": "2026-11-25",
+      "body_snippet": "B300/GB300交期拉长至26—40周：AI算力扩张如何挤压GPU终端供应链 微博",
+      "_query_boost": 20,
       "lane": "attend",
       "signals": [
-        "🏛️"
+        "🔬"
       ],
-      "is_deep_read": true,
+      "is_deep_read": false,
       "compass_triggered": [
         "c1",
         "c2",
         "c3"
       ],
-      "summary_cn": "837号令来了，出海为何需重新审视？ - 华人头条 国务院关于对外投资的规定解读（一）：837号令来了，出海为何需重新审视？ 华人头条",
+      "summary_cn": "AI算力扩张如何挤压GPU终端供应链 - 微博 B300/GB300交期拉长至26—40周：AI算力扩张如何挤压GPU终端供应链 微博",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -185,17 +140,17 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-009",
-      "title": "美国国会突然公开重磅文件！近88万颗AI芯片获准销往中国，英伟达、AMD再成焦点 - FX168财经",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYnF2aTB2LTUwNTVQQWJ4bmVpX2VYVGRHOXNqNExETFpVRUFiZ1hXanJJZ1MtSTlla2RheDhRd2JLMFBpWURLVFNSbUJvb2wyakFFd1dVNV92S1dpeFVISElmbFdQR2dnM1ptazdUaTl2NUZ2REt2dmNoRlFHUG1FdUhjUlk?oc=5",
-      "source": "FX168财经",
-      "category": "海外",
-      "published": "2026-11-23",
-      "body_snippet": "美国国会突然公开重磅文件！近88万颗AI芯片获准销往中国，英伟达、AMD再成焦点 FX168财经",
-      "_query_boost": 25,
+      "id": "raw-007",
+      "title": "海外周报：全球风险偏好回落，关注算力需求与价格变化_宏观研究_研报 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5idllnbGh4dU1TZmZHZTAzQmlaeWxORnRXRHkwY3Nzc1J3MlZmckp4aTNXTWdHd0xTcVNpS0k0b0FwWjd3UjBRa1RPblVHOHNxbTIxVW45Si1wNVR4emVEVHlR?oc=5",
+      "source": "证券之星",
+      "category": "技术",
+      "published": "2026-11-25",
+      "body_snippet": "海外周报：全球风险偏好回落，关注算力需求与价格变化_宏观研究_研报 证券之星",
+      "_query_boost": 15,
       "lane": "silent",
       "signals": [
-        "🌏"
+        "🔬"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -203,12 +158,12 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "美国国会突然公开重磅文件！近88万颗AI芯片获准销往中国，英伟达、AMD再成焦点 - FX168财经 美国国会突然公开重磅文件！近88万颗AI芯片获准销往中国，",
+      "summary_cn": "海外周报：全球风险偏好回落，关注算力需求与价格变化_宏观研究_研报 - 证券之星 海外周报：全球风险偏好回落，关注算力需求与价格变化_宏观研究_研报 证券之星",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-010",
+      "id": "raw-008",
       "title": "黄仁勋事件后美对华算力管制走向何方？ - 华尔街见闻",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaMzd4d0lQM014RjFXc1pjNUFrQmJVNWhWLWJsWGhNZFAzbzRfYnl1RGV4Ry0xS0lOQjEyN3E5SVE1TWp0Y0JtZDBRRkRkbU9DODQ4?oc=5",
       "source": "华尔街见闻",
@@ -231,14 +186,14 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-013",
-      "title": "从卖卡到卖Token：国产算力的商业模式正在被重写 - 证券市场周刊",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vOEl2bVdaaVJTTlowWXpkbVpEN3hIUEFfcy16eEpiVFRWWjVmcWJSVkxybDdFb0F5RHd4YTJ4b3FQVG5SRVkyU0dZcHRlM3B3TDhjSlJxWTlIUHZweTFJLS01cVo?oc=5",
-      "source": "证券市场周刊",
-      "category": "竞品",
-      "published": "2026-11-24",
-      "body_snippet": "从卖卡到卖Token：国产算力的商业模式正在被重写 证券市场周刊",
-      "_query_boost": 15,
+      "id": "raw-010",
+      "title": "聚集新质生产力系列之二十：算力如水随取随用 江苏铺就1ms城市算网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84VDRnaGhSNmc2aWgzRFQ0R3BJLW5TXzFlRkNiNkRuNkRTWEFwS3EyRld1dUg5XzV2OThXVWt4cFRfRS14bFlmQTc0ZC1ZS2JjSF9ldEFvWXA2aE5SN3JpWTVrZEJ2Z3g4UFdpZEkydXNOaFlqZmdFLQ?oc=5",
+      "source": "新浪财经",
+      "category": "政策",
+      "published": "2026-11-20",
+      "body_snippet": "聚集新质生产力系列之二十：算力如水随取随用 江苏铺就1ms城市算网 新浪财经",
+      "_query_boost": 25,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -249,19 +204,19 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "从卖卡到卖Token：国产算力的商业模式正在被重写 - 证券市场周刊 从卖卡到卖Token：国产算力的商业模式正在被重写 证券市场周刊",
+      "summary_cn": "聚集新质生产力系列之二十：算力如水随取随用 江苏铺就1ms城市算网 - 新浪财经 聚集新质生产力系列之二十：算力如水随取随用 江苏铺就1ms城市算网 新浪财经",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
-      "id": "raw-014",
-      "title": "中国消费者AI算力服务需求快增 官方将健全AI词元标准规范 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8wdGRkZEY2eUx3bHNiRjZKcDBEOURLNGtCZzdUY0hkdGQtZ3NHZGhZWjQ5M3B5UkFjN1NSbTludDg4RW91QVJEcXVFNkp6Rm1yXzFrSTdTMnNFZXJERU1sUS0yWXBFOXcwZGNF?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-11-22",
-      "body_snippet": "中国消费者AI算力服务需求快增 官方将健全AI词元标准规范 联合早报",
-      "_query_boost": 0,
+      "id": "raw-011",
+      "title": "江苏总算力规模居全国前列 城域实现 1ms 时延圈 - 腾讯新闻",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RcmpzRU0tMUtiZUY0YTJuT09DLWlqeGx5OUxRTHVPYlQtREhPNjM3N1ByYUJJRXFjaENPX1ZJNHAwQU9NMERvLVQzSWtOSEJqMnNLLUF3?oc=5",
+      "source": "腾讯新闻",
+      "category": "政策",
+      "published": "2026-11-19",
+      "body_snippet": "江苏总算力规模居全国前列 城域实现 1ms 时延圈 腾讯新闻",
+      "_query_boost": 25,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -272,22 +227,21 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "中国消费者AI算力服务需求快增 官方将健全AI词元标准规范 - 联合早报 中国消费者AI算力服务需求快增 官方将健全AI词元标准规范 联合早报",
+      "summary_cn": "江苏总算力规模居全国前列 城域实现 1ms 时延圈 - 腾讯新闻 江苏总算力规模居全国前列 城域实现 1ms 时延圈 腾讯新闻",
       "ppio_signal": null,
       "_classified_by": "rule"
     },
     {
       "id": "raw-015",
-      "title": "算力补贴直达企业 北京延庆上线词元服务平台 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3c3Vyd3VDRXdZZmFTMDVJa2NkaXBCWWg1UFdYcFdaa1diZXA4U2t1cm5IQUNrYnVDRUUtWlBlUndNUV9sVnRFUkV2OGNCc0k3c29LY0VsZHNmYUxHLVNZaHRmU2VUek45?oc=5",
-      "source": "中国新闻网",
-      "category": "政策",
-      "published": "2026-11-21",
-      "body_snippet": "算力补贴直达企业 北京延庆上线词元服务平台 中国新闻网",
-      "_query_boost": 0,
-      "lane": "attend",
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "source": "TechCrunch",
+      "published": "2026-11-24",
+      "body_snippet": "",
+      "category": "资本",
+      "lane": "silent",
       "signals": [
-        "🔬"
+        "💰"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -295,13 +249,8 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "算力补贴直达企业 北京延庆上线词元服务平台 - 中国新闻网 算力补贴直达企业 北京延庆上线词元服务平台 中国新闻网",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
+      "summary_cn": "Anthropic shares fall below IPO price, a worrying sign for AI startups ",
+      "ppio_signal": null,
       "_classified_by": "rule"
     }
   ]
