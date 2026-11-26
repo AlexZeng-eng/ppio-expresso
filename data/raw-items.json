@@ -1,34 +1,24 @@
 {
-  "generated_at": "2026-11-25T09:06:06.271Z",
+  "generated_at": "2026-11-26T08:53:22.910Z",
   "week": "2026-W48",
   "date_range": {
-    "from": "2026-11-18",
-    "to": "2026-11-25"
+    "from": "2026-11-19",
+    "to": "2026-11-26"
   },
   "fetch_method": "live",
   "item_count": 15,
   "items": [
     {
       "id": "raw-001",
-      "title": "字节跳动领投云脉芯联B+轮融资，加码国产Scale-Out互联芯片与算力降本 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80MFVHNERfaEphbjlLM2hWUzU2Z0p2ZFMzclZUb0RLNEJ2a0dwRklnLXluNUN0bWhtZEFsZGRrZGdiRGdmM2FZTVkxQ0N4VVZweU55aQ?oc=5",
-      "source": "虎嗅网",
-      "category": "竞品",
-      "published": "2026-11-24",
-      "body_snippet": "字节跳动领投云脉芯联B+轮融资，加码国产Scale-Out互联芯片与算力降本 虎嗅网",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-002",
       "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
       "source": "工信部-新闻",
-      "published": "2026-11-25",
+      "published": "2026-11-26",
       "body_snippet": "",
       "category": "技术"
     },
     {
-      "id": "raw-003",
+      "id": "raw-002",
       "title": "印太纵览 - 台湾学者张昱谦（Kenny Chang）解读英伟达风波：美国能否堵住中国获取先进AI算力的渠道？ - RFI",
       "url": "https://news.google.com/rss/articles/CBMioARBVV95cUxPcGFTTUFhLW5VSC1HUHVWUDBpSGdpTGpXRGV5VllsTlhyeUt6MFFwdEVoQm5Icl8zNS02eUs2RzVCR2RmeTFEOXlIbW5JOUY0cUthTExSbHlUcE9nNW45UUFYLV9ta1JFUEhFaG1fODBDYUVKQTZvdWZya0JEbWJiSlFtSEMtSDFqZHVOQm03MTZsTzNkaGMyeWJRSVFfNE5CcmxCX3ltLTZxbExwd0NHY1hwYk13NGd6b2Q5Z3ExZDhhX3ZXdTBfMkpJclZmYUhVMmlrLW00NERHd2hxX0pzZDJRTjZvRkZZYl8ydm9jNTdWM1NZRGNkbUpZQlNiQ29XX1NRMVU0UUtrYlF0ZWxiaE1SOE9YUy1uOUtwd04yTW4zR0toaDNMc2FQdS1ZWlpZaEI4RDZKeEJCd1ExT1V2SDd1dW9HOW5vV0VYbVlnT2x5UFV5TzQzbXJCQWVFMzNDNGVPQ2tLbmg0dFEzbUlZNnRCNmRfTk1CcnJfUDhsc0E2dU1Qak9NbVJFc0ROUUNHWVhFUEltUWFWeDhYeF9CaVhMbE5wcUtZaV83WnE2ajRpUTVBWXpoNWxkMUhDYTl1SjRvbWNrU0NQQVNRUkxWaTRVcjBWc0VSNHl5MHVYdGtYc05LLVVqa1Rrd2VHLTVFUmEwV3F1bFF3cWFzTjZuQ3dScVdlQlhxOEdxUGdGNVdFbmRrWlR6d3F4NDJ0bzAt?oc=5",
       "source": "RFI",
@@ -38,27 +28,56 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-004",
-      "title": "全球算力政策变化大 阿里巴巴或下调数据中心建设目标 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0MWxSYlVMZUVUMktSOENUNWE1SXlVbk9LbkNGd2I4M201X2lVLTVjVjAyWThvaHJpY3ZyNWxQb3RDUEpGSnpVcjUtWElTdlNCa0tjbFBDZGliTl9pdFNTRDZpaVkwZ3lpX3ln?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-11-20",
-      "body_snippet": "全球算力政策变化大 阿里巴巴或下调数据中心建设目标 联合早报",
+      "id": "raw-003",
+      "title": "字节跳动领投云脉芯联B+轮融资，加码国产Scale-Out互联芯片与算力降本 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80MFVHNERfaEphbjlLM2hWUzU2Z0p2ZFMzclZUb0RLNEJ2a0dwRklnLXluNUN0bWhtZEFsZGRrZGdiRGdmM2FZTVkxQ0N4VVZweU55aQ?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-11-24",
+      "body_snippet": "字节跳动领投云脉芯联B+轮融资，加码国产Scale-Out互联芯片与算力降本 虎嗅网",
       "_query_boost": 0
     },
     {
-      "id": "raw-005",
-      "title": "智谱GLM-5.4大模型发布：仍是开源最强、比Opus 5.5差距5%内_人工智能 - www.anfangnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBZbDMtVEN6eVM1QUtGbUJoUFJKNlJJOXY0RXJRcV80cmJOcFIzZ2hZbnhGVC1TUGJPTURvbFphbWU1Ri1DQnFKbS14VkphSUM3M3J2MFVZbVV5ekZM?oc=5",
-      "source": "www.anfangnews.com",
+      "id": "raw-004",
+      "title": "智谱发布新一代大模型GLM-5.4 - iheima",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5DSXBxT2c2ZEIxOUthZGpnOEtEWkQ1S29la0ZvMlNkRFFjSWZKOHFVejFZVDJwak5IcWZzNjlqZ2hYb3JkSExiN3ZPSlREbWc3MkpF?oc=5",
+      "source": "iheima",
       "category": "技术",
-      "published": "2026-11-23",
-      "body_snippet": "智谱GLM-5.4大模型发布：仍是开源最强、比Opus 5.5差距5%内_人工智能 www.anfangnews.com",
+      "published": "2026-11-24",
+      "body_snippet": "智谱发布新一代大模型GLM-5.4 iheima",
       "_query_boost": 20
     },
     {
+      "id": "raw-005",
+      "title": "美光CEO：内存墙制约大模型算力，2027年产能已锁定75% - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53TDYwdzBZN2ZFTnkwT3JlQy1oRGlsdDZfT2puRmQ0UUF2RlpTWGRncmdZSXpzYTRDOURPWWNGMkhWTkxmbWljU0pGcWxiMzZ5bmprMA?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-11-26",
+      "body_snippet": "美光CEO：内存墙制约大模型算力，2027年产能已锁定75% 虎嗅网",
+      "_query_boost": 0
+    },
+    {
       "id": "raw-006",
+      "title": "静安把“融合创新”作为发展主线 全新概念SaS社区亮相 存量城区“长出”经济增量",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261126/0d9c2571a2034c5d855486c13d6067ae.html",
+      "source": "上海市政府-动态",
+      "published": "2026-11-26",
+      "body_snippet": "",
+      "category": "技术"
+    },
+    {
+      "id": "raw-007",
+      "title": "惠州电信锚定算力底座，推动AI走进城市生活 - Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNmtsUHJlNmNiX3ZCcXFMX2RzZVBtLTQ1azhIX1l3MDJmbXV2c3dSRkRCN0R0NDRQU3FXVl92Y3BOdkJhZ3k5RmozMFM3VW13Q09DWjRzWGhhZ1U3UGlZTkNVRjR4M2F4MHhYSkRrbWJmd0JWOHI5ckx6TmlmTi0taXlhUXpCeGgw?oc=5",
+      "source": "Sohu",
+      "category": "政策",
+      "published": "2026-11-25",
+      "body_snippet": "惠州电信锚定算力底座，推动AI走进城市生活 Sohu",
+      "_query_boost": 20
+    },
+    {
+      "id": "raw-008",
       "title": "B300/GB300交期拉长至26—40周：AI算力扩张如何挤压GPU终端供应链 - 微博",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORzdpcHFuejNER2dUWUh0VjlLLUJ1dlRhcEdIbUI2QnpnaFB5WlpieFNXVUJPMnk2by1zakxpX21BN1VkUVM3c2Y3ZGpwT0hjT1R4VWU1VzJuX0wwNjhIMDJZVmx1YjFYVmdPYk5aWjc0bnZla05PQnZfaHRMSnFETlBreEYzUk0?oc=5",
       "source": "微博",
@@ -68,33 +87,13 @@
       "_query_boost": 20
     },
     {
-      "id": "raw-007",
-      "title": "海外周报：全球风险偏好回落，关注算力需求与价格变化_宏观研究_研报 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5idllnbGh4dU1TZmZHZTAzQmlaeWxORnRXRHkwY3Nzc1J3MlZmckp4aTNXTWdHd0xTcVNpS0k0b0FwWjd3UjBRa1RPblVHOHNxbTIxVW45Si1wNVR4emVEVHlR?oc=5",
-      "source": "证券之星",
-      "category": "技术",
-      "published": "2026-11-25",
-      "body_snippet": "海外周报：全球风险偏好回落，关注算力需求与价格变化_宏观研究_研报 证券之星",
-      "_query_boost": 15
-    },
-    {
-      "id": "raw-008",
+      "id": "raw-009",
       "title": "黄仁勋事件后美对华算力管制走向何方？ - 华尔街见闻",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaMzd4d0lQM014RjFXc1pjNUFrQmJVNWhWLWJsWGhNZFAzbzRfYnl1RGV4Ry0xS0lOQjEyN3E5SVE1TWp0Y0JtZDBRRkRkbU9DODQ4?oc=5",
       "source": "华尔街见闻",
       "category": "海外",
       "published": "2026-11-22",
       "body_snippet": "黄仁勋事件后美对华算力管制走向何方？ 华尔街见闻",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-009",
-      "title": "深耕“六张网” 湖北移动数智赋能新型工业化 - 人民网－湖北频道",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1xaTMzTHlNRVdoQzkyYTF6aWpMZ1lOOVJXWU1YUjBYNDFRc3FXdGxkaWNnbXNuUnVnb0Y3U1p1UV9RU3NESGwxaklIaUZCc2R6TklnbE9NTkN6Uzl1X3pKTDVJTkpibXRYWVE?oc=5",
-      "source": "人民网－湖北频道",
-      "category": "政策",
-      "published": "2026-11-21",
-      "body_snippet": "深耕“六张网” 湖北移动数智赋能新型工业化 人民网－湖北频道",
       "_query_boost": 25
     },
     {
@@ -109,35 +108,26 @@
     },
     {
       "id": "raw-011",
-      "title": "江苏总算力规模居全国前列 城域实现 1ms 时延圈 - 腾讯新闻",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RcmpzRU0tMUtiZUY0YTJuT09DLWlqeGx5OUxRTHVPYlQtREhPNjM3N1ByYUJJRXFjaENPX1ZJNHAwQU9NMERvLVQzSWtOSEJqMnNLLUF3?oc=5",
-      "source": "腾讯新闻",
-      "category": "政策",
-      "published": "2026-11-19",
-      "body_snippet": "江苏总算力规模居全国前列 城域实现 1ms 时延圈 腾讯新闻",
-      "_query_boost": 25
+      "title": "科创芯片板块重挫，什么情况？海光信息跌超10%，科创芯片ETF汇添富(588750)指数跌超3%！阿里：国产算力进度超预期！AI投资步入回报验证期 - QQ News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RaW1mRndrMDFWbjBVcEk2ckNobGRDVkZrSjNtem8zS2t6cnZZc3JOWFpvbHRwdjk3YU9zcDhuemtHdGxFcUllbDJVemRCNllQVE02Y1FR?oc=5",
+      "source": "QQ News",
+      "category": "技术",
+      "published": "2026-11-20",
+      "body_snippet": "科创芯片板块重挫，什么情况？海光信息跌超10%，科创芯片ETF汇添富(588750)指数跌超3%！阿里：国产算力进度超预期！AI投资步入回报验证期 QQ News",
+      "_query_boost": 15
     },
     {
       "id": "raw-012",
-      "title": "构建系统完善的人工智能治理体系 - 信息化观察网",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wRVdIRENxVlgtNzlENUZrbVg2SGQ4Sm9GSGdGVVdjcmpZUEdySkJxZVcxUDRiU2NvaS1TZTJaTXM5VkFMcl83R1FJMWh3YUhqSVd5THBxZ3VZMFpsdUZvZg?oc=5",
-      "source": "信息化观察网",
-      "category": "政策",
-      "published": "2026-11-23",
-      "body_snippet": "构建系统完善的人工智能治理体系 信息化观察网",
-      "_query_boost": 50
+      "title": "多空辩论更新：奥尼电子算力收入10.32亿元成第一主营，利润与现金流背离待解 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhN3BsWm9UY2N0aUpuYnF6bFFYdGQ5Q0FlUV9Nd0FrZTJlM0JfSmFFaEN4dzRjZWpfaHoweDFfUE5rRDBnLVlpc3ByZkYybWhSVVkyYzZiNElCLS14SnV0Q213?oc=5",
+      "source": "证券之星",
+      "category": "竞品",
+      "published": "2026-11-25",
+      "body_snippet": "多空辩论更新：奥尼电子算力收入10.32亿元成第一主营，利润与现金流背离待解 证券之星",
+      "_query_boost": 15
     },
     {
       "id": "raw-013",
-      "title": "本届上马报名人数创新高 全程马拉松参赛规模扩大至三万人",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261124/975a4e821a5f4f60bb809cc6ccb74925.html",
-      "source": "上海市政府-动态",
-      "published": "2026-11-24",
-      "body_snippet": "",
-      "category": "技术"
-    },
-    {
-      "id": "raw-014",
       "title": "关于印发《关于进一步加强上海市高质量概念验证平台建设的行动方案》的通知",
       "url": "https://stcsm.sh.gov.cn/zwgk/ghjh/20261124/844c21d41be443d4b29921293bbdb65f.html",
       "source": "上海市科委",
@@ -146,13 +136,24 @@
       "category": "技术"
     },
     {
-      "id": "raw-015",
-      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-      "source": "TechCrunch",
+      "id": "raw-014",
+      "title": "从卖卡到卖Token：国产算力的商业模式正在被重写 - 证券市场周刊",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vOEl2bVdaaVJTTlowWXpkbVpEN3hIUEFfcy16eEpiVFRWWjVmcWJSVkxybDdFb0F5RHd4YTJ4b3FQVG5SRVkyU0dZcHRlM3B3TDhjSlJxWTlIUHZweTFJLS01cVo?oc=5",
+      "source": "证券市场周刊",
+      "category": "竞品",
       "published": "2026-11-24",
-      "body_snippet": "",
-      "category": "资本"
+      "body_snippet": "从卖卡到卖Token：国产算力的商业模式正在被重写 证券市场周刊",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-015",
+      "title": "中国消费者AI算力服务需求快增 官方将健全AI词元标准规范 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8wdGRkZEY2eUx3bHNiRjZKcDBEOURLNGtCZzdUY0hkdGQtZ3NHZGhZWjQ5M3B5UkFjN1NSbTludDg4RW91QVJEcXVFNkp6Rm1yXzFrSTdTMnNFZXJERU1sUS0yWXBFOXcwZGNF?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-11-22",
+      "body_snippet": "中国消费者AI算力服务需求快增 官方将健全AI词元标准规范 联合早报",
+      "_query_boost": 0
     }
   ]
 }

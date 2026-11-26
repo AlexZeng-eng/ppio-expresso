@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-25T09:06:06.376Z",
-  "date": "2026-11-25",
-  "date_label": "2026-11-25",
+  "generated_at": "2026-11-26T08:53:22.991Z",
+  "date": "2026-11-26",
+  "date_label": "2026-11-26",
   "mainline": "今日政策与竞争信号持续跟踪中，详情见各条目分析。",
   "signal_summary": {
     "🏛️": 0,
     "📜": 0,
     "⚔️": 0,
-    "💰": 2,
+    "💰": 1,
     "🌏": 1,
-    "🔬": 8
+    "🔬": 11
   },
   "speed_read": {
     "positive": [],
@@ -35,7 +35,7 @@
     },
     {
       "id": "2",
-      "title": "智谱GLM-5.4大模型发布：仍是开源最",
+      "title": "智谱发布新一代大模型GLM-5.4 - ",
       "policy_axis": 0,
       "competition_axis": 0.1,
       "impact_score": 2,
@@ -56,7 +56,7 @@
     "components": {
       "policy_tailwind": 0,
       "competitive_pressure": 0,
-      "capital_sentiment": 10,
+      "capital_sentiment": 5,
       "regulatory_risk": 0,
       "overseas_headwind": -4
     },
