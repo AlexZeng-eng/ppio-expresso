@@ -1,14 +1,37 @@
 {
-  "generated_at": "2026-11-26T08:53:22.964Z",
+  "generated_at": "2026-11-27T09:02:27.640Z",
   "week": "2026-W48",
   "classifier": "rule-based",
   "total_raw": 15,
-  "total_curated": 12,
+  "total_curated": 7,
   "attend_count": 3,
-  "silent_count": 9,
+  "silent_count": 4,
   "items": [
     {
-      "id": "raw-002",
+      "id": "raw-001",
+      "title": "英伟达叫停东南亚四国服务器发货，中国大模型厂商的三条算力退路承压 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDTjV0U3VTOE55dTBMVFluZGRfNjJDdWFQRmdhRXgtQllqN042aXp4QlZJdTA3T0wtOExnbHk4ZDZsQ0xuTV9NYldZRnFzazZpUXc?oc=5",
+      "source": "虎嗅网",
+      "category": "技术",
+      "published": "2026-11-27",
+      "body_snippet": "英伟达叫停东南亚四国服务器发货，中国大模型厂商的三条算力退路承压 虎嗅网",
+      "_query_boost": 0,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "英伟达叫停东南亚四国服务器发货，中国大模型厂商的三条算力退路承压 - 虎嗅网 英伟达叫停东南亚四国服务器发货，中国大模型厂商的三条算力退路承压 虎嗅网",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-003",
       "title": "印太纵览 - 台湾学者张昱谦（Kenny Chang）解读英伟达风波：美国能否堵住中国获取先进AI算力的渠道？ - RFI",
       "url": "https://news.google.com/rss/articles/CBMioARBVV95cUxPcGFTTUFhLW5VSC1HUHVWUDBpSGdpTGpXRGV5VllsTlhyeUt6MFFwdEVoQm5Icl8zNS02eUs2RzVCR2RmeTFEOXlIbW5JOUY0cUthTExSbHlUcE9nNW45UUFYLV9ta1JFUEhFaG1fODBDYUVKQTZvdWZya0JEbWJiSlFtSEMtSDFqZHVOQm03MTZsTzNkaGMyeWJRSVFfNE5CcmxCX3ltLTZxbExwd0NHY1hwYk13NGd6b2Q5Z3ExZDhhX3ZXdTBfMkpJclZmYUhVMmlrLW00NERHd2hxX0pzZDJRTjZvRkZZYl8ydm9jNTdWM1NZRGNkbUpZQlNiQ29XX1NRMVU0UUtrYlF0ZWxiaE1SOE9YUy1uOUtwd04yTW4zR0toaDNMc2FQdS1ZWlpZaEI4RDZKeEJCd1ExT1V2SDd1dW9HOW5vV0VYbVlnT2x5UFV5TzQzbXJCQWVFMzNDNGVPQ2tLbmg0dFEzbUlZNnRCNmRfTk1CcnJfUDhsc0E2dU1Qak9NbVJFc0ROUUNHWVhFUEltUWFWeDhYeF9CaVhMbE5wcUtZaV83WnE2ajRpUTVBWXpoNWxkMUhDYTl1SjRvbWNrU0NQQVNRUkxWaTRVcjBWc0VSNHl5MHVYdGtYc05LLVVqa1Rrd2VHLTVFUmEwV3F1bFF3cWFzTjZuQ3dScVdlQlhxOEdxUGdGNVdFbmRrWlR6d3F4NDJ0bzAt?oc=5",
       "source": "RFI",
@@ -32,18 +55,17 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-003",
-      "title": "字节跳动领投云脉芯联B+轮融资，加码国产Scale-Out互联芯片与算力降本 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80MFVHNERfaEphbjlLM2hWUzU2Z0p2ZFMzclZUb0RLNEJ2a0dwRklnLXluNUN0bWhtZEFsZGRrZGdiRGdmM2FZTVkxQ0N4VVZweU55aQ?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-11-24",
-      "body_snippet": "字节跳动领投云脉芯联B+轮融资，加码国产Scale-Out互联芯片与算力降本 虎嗅网",
-      "_query_boost": 0,
+      "id": "raw-004",
+      "title": "专段提出发展人工智能服务贸易新业态、推动数据跨境高效便利安全流动等任务举措– 智慧城市行业分析 - 智慧城市行业分析",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQV04xRktOTmFFUmoxQnowNm5QRUVpQXVaSE01QmRHNGlKZTBxcHpmMUtMTU9uSHNLUzlkVGNRZzFndUdqT2g5ZVZ5UmRpN1hGeW1WZ2dfX0dvSFJFRFMxUGdhYjg1OVVMT3ZqVGp3blJZTEtSQWt2QTR1dWRPa1paNXRZM1pOQzMwT192NjY4QzlwRU9SWU40STUzOGcySzRWU2R3d0prdmowMEMxRlNBRFQzUFBIeWdoZjVzcGtkTG1Wdm9wbmlMNUpxTzdIUkFXaTRPQ0M1VGtFRWZlTnh4Z1BtSWVGSUtYb0E?oc=5",
+      "source": "智慧城市行业分析",
+      "category": "政策",
+      "published": "2026-11-27",
+      "body_snippet": "专段提出发展人工智能服务贸易新业态、推动数据跨境高效便利安全流动等任务举措– 智慧城市行业分析 智慧城市行业分析",
+      "_query_boost": 25,
       "lane": "attend",
       "signals": [
-        "💰",
-        "🔬"
+        "—"
       ],
       "is_deep_read": false,
       "compass_triggered": [
@@ -51,7 +73,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "字节跳动领投云脉芯联B+轮融资，加码国产Scale-Out互联芯片与算力降本 - 虎嗅网 字节跳动领投云脉芯联B+轮融资，加码国产Scale-Out互联芯片与算力降本 虎嗅网",
+      "summary_cn": "专段提出发展人工智能服务贸易新业态、推动数据跨境高效便利安全流动等任务举措– 智慧城市行业分析 - 智慧城市行业分析 专段提出发展人工智能服务贸易新业态、推动数据跨境高效便利安全流动等任务举措– 智慧城市行业分析 智慧城市行业分析",
       "ppio_signal": {
         "positive": "（待 AI 填写）",
         "risk": "（待 AI 填写）",
@@ -61,7 +83,58 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-004",
+      "id": "raw-005",
+      "title": "港股公告精选｜中教控股上财年营收超76亿元 微盟集团拟加大AI算力及云服务投入 港美股资讯 - 华盛通",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBSQjFnSThLMGx4NEtMWEpZM1V3WFFqeEtJdlQ3ak5JZnBEcUg0eW0yTXlnaWswVDBOWHR1MTNwNEtzbkxSMzlmRnFNSUJQQVdLMU41WV9WX0xKSnl5RUNrSXZB?oc=5",
+      "source": "华盛通",
+      "category": "政策",
+      "published": "2026-11-26",
+      "body_snippet": "港股公告精选｜中教控股上财年营收超76亿元 微盟集团拟加大AI算力及云服务投入 港美股资讯 华盛通",
+      "_query_boost": 20,
+      "lane": "silent",
+      "signals": [
+        "🔬"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "港股公告精选｜中教控股上财年营收超76亿元 微盟集团拟加大AI算力及云服务投入 港美股资讯 - 华盛通 港股公告精选｜中教控股上财年营收超76亿元 微盟集团拟加",
+      "ppio_signal": null,
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-008",
+      "title": "阶跃星辰：一家AI公司找答案的三年 - 潮起网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5oUHVhd2ZDRXo3S2N6VlJVdTFxZGdJemlRWWxoS0M5N0E3MDBOVUliLVpqZ3Z5eW80VjJMZ25WbXBMNFFmOUNWaWVHMHRQTDVyWkY1T01hS1U0REdqZnpsT29IVQ?oc=5",
+      "source": "潮起网",
+      "category": "竞品",
+      "published": "2026-11-26",
+      "body_snippet": "阶跃星辰：一家AI公司找答案的三年 潮起网",
+      "_query_boost": 25,
+      "lane": "attend",
+      "signals": [
+        "—"
+      ],
+      "is_deep_read": false,
+      "compass_triggered": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "summary_cn": "一家AI公司找答案的三年 - 潮起网 阶跃星辰：一家AI公司找答案的三年 潮起网",
+      "ppio_signal": {
+        "positive": "（待 AI 填写）",
+        "risk": "（待 AI 填写）",
+        "beneficiaries": "（待 AI 填写）",
+        "pressure_parties": "（待 AI 填写）"
+      },
+      "_classified_by": "rule"
+    },
+    {
+      "id": "raw-010",
       "title": "智谱发布新一代大模型GLM-5.4 - iheima",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5DSXBxT2c2ZEIxOUthZGpnOEtEWkQ1S29la0ZvMlNkRFFjSWZKOHFVejFZVDJwak5IcWZzNjlqZ2hYb3JkSExiN3ZPSlREbWc3MkpF?oc=5",
       "source": "iheima",
@@ -89,134 +162,14 @@
       "_classified_by": "rule"
     },
     {
-      "id": "raw-005",
-      "title": "美光CEO：内存墙制约大模型算力，2027年产能已锁定75% - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53TDYwdzBZN2ZFTnkwT3JlQy1oRGlsdDZfT2puRmQ0UUF2RlpTWGRncmdZSXpzYTRDOURPWWNGMkhWTkxmbWljU0pGcWxiMzZ5bmprMA?oc=5",
-      "source": "虎嗅网",
-      "category": "技术",
-      "published": "2026-11-26",
-      "body_snippet": "美光CEO：内存墙制约大模型算力，2027年产能已锁定75% 虎嗅网",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "美光CEO：内存墙制约大模型算力，2027年产能已锁定75% - 虎嗅网 美光CEO：内存墙制约大模型算力，2027年产能已锁定75% 虎嗅网",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-007",
-      "title": "惠州电信锚定算力底座，推动AI走进城市生活 - Sohu",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNmtsUHJlNmNiX3ZCcXFMX2RzZVBtLTQ1azhIX1l3MDJmbXV2c3dSRkRCN0R0NDRQU3FXVl92Y3BOdkJhZ3k5RmozMFM3VW13Q09DWjRzWGhhZ1U3UGlZTkNVRjR4M2F4MHhYSkRrbWJmd0JWOHI5ckx6TmlmTi0taXlhUXpCeGgw?oc=5",
-      "source": "Sohu",
-      "category": "政策",
-      "published": "2026-11-25",
-      "body_snippet": "惠州电信锚定算力底座，推动AI走进城市生活 Sohu",
-      "_query_boost": 20,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "惠州电信锚定算力底座，推动AI走进城市生活 - Sohu 惠州电信锚定算力底座，推动AI走进城市生活 Sohu",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-008",
-      "title": "B300/GB300交期拉长至26—40周：AI算力扩张如何挤压GPU终端供应链 - 微博",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORzdpcHFuejNER2dUWUh0VjlLLUJ1dlRhcEdIbUI2QnpnaFB5WlpieFNXVUJPMnk2by1zakxpX21BN1VkUVM3c2Y3ZGpwT0hjT1R4VWU1VzJuX0wwNjhIMDJZVmx1YjFYVmdPYk5aWjc0bnZla05PQnZfaHRMSnFETlBreEYzUk0?oc=5",
-      "source": "微博",
-      "category": "技术",
-      "published": "2026-11-25",
-      "body_snippet": "B300/GB300交期拉长至26—40周：AI算力扩张如何挤压GPU终端供应链 微博",
-      "_query_boost": 20,
-      "lane": "attend",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "AI算力扩张如何挤压GPU终端供应链 - 微博 B300/GB300交期拉长至26—40周：AI算力扩张如何挤压GPU终端供应链 微博",
-      "ppio_signal": {
-        "positive": "（待 AI 填写）",
-        "risk": "（待 AI 填写）",
-        "beneficiaries": "（待 AI 填写）",
-        "pressure_parties": "（待 AI 填写）"
-      },
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-009",
-      "title": "黄仁勋事件后美对华算力管制走向何方？ - 华尔街见闻",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaMzd4d0lQM014RjFXc1pjNUFrQmJVNWhWLWJsWGhNZFAzbzRfYnl1RGV4Ry0xS0lOQjEyN3E5SVE1TWp0Y0JtZDBRRkRkbU9DODQ4?oc=5",
-      "source": "华尔街见闻",
-      "category": "海外",
-      "published": "2026-11-22",
-      "body_snippet": "黄仁勋事件后美对华算力管制走向何方？ 华尔街见闻",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "黄仁勋事件后美对华算力管制走向何方？ - 华尔街见闻 黄仁勋事件后美对华算力管制走向何方？ 华尔街见闻",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-010",
-      "title": "聚集新质生产力系列之二十：算力如水随取随用 江苏铺就1ms城市算网 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84VDRnaGhSNmc2aWgzRFQ0R3BJLW5TXzFlRkNiNkRuNkRTWEFwS3EyRld1dUg5XzV2OThXVWt4cFRfRS14bFlmQTc0ZC1ZS2JjSF9ldEFvWXA2aE5SN3JpWTVrZEJ2Z3g4UFdpZEkydXNOaFlqZmdFLQ?oc=5",
-      "source": "新浪财经",
-      "category": "政策",
-      "published": "2026-11-20",
-      "body_snippet": "聚集新质生产力系列之二十：算力如水随取随用 江苏铺就1ms城市算网 新浪财经",
-      "_query_boost": 25,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "聚集新质生产力系列之二十：算力如水随取随用 江苏铺就1ms城市算网 - 新浪财经 聚集新质生产力系列之二十：算力如水随取随用 江苏铺就1ms城市算网 新浪财经",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
       "id": "raw-011",
-      "title": "科创芯片板块重挫，什么情况？海光信息跌超10%，科创芯片ETF汇添富(588750)指数跌超3%！阿里：国产算力进度超预期！AI投资步入回报验证期 - QQ News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RaW1mRndrMDFWbjBVcEk2ckNobGRDVkZrSjNtem8zS2t6cnZZc3JOWFpvbHRwdjk3YU9zcDhuemtHdGxFcUllbDJVemRCNllQVE02Y1FR?oc=5",
-      "source": "QQ News",
-      "category": "技术",
-      "published": "2026-11-20",
-      "body_snippet": "科创芯片板块重挫，什么情况？海光信息跌超10%，科创芯片ETF汇添富(588750)指数跌超3%！阿里：国产算力进度超预期！AI投资步入回报验证期 QQ News",
-      "_query_boost": 15,
+      "title": "全球AI创新治理｜OECD：人工智能算力保障的政策实践 - 复旦发展研究院",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JU19rTl9PZGhCS0RFSXV3UTFuYnFJejdRQzByaEZVUVI3ODRFLXhrMDY4V3VNWk15Q1VwN1NybHJoMlFDS2RnV1d4eEk0TGNhMGU5ZHoyZ3JxYUNlNTFTQmt5OTk?oc=5",
+      "source": "复旦发展研究院",
+      "category": "监管",
+      "published": "2026-11-23",
+      "body_snippet": "全球AI创新治理｜OECD：人工智能算力保障的政策实践 复旦发展研究院",
+      "_query_boost": 20,
       "lane": "silent",
       "signals": [
         "🔬"
@@ -227,76 +180,7 @@
         "c2",
         "c3"
       ],
-      "summary_cn": "科创芯片板块重挫，什么情况？海光信息跌超10%，科创芯片ETF汇添富(588750)指数跌超3%！阿里：国产算力进度超预期！AI投资步入回报验证期 - QQ N",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-012",
-      "title": "多空辩论更新：奥尼电子算力收入10.32亿元成第一主营，利润与现金流背离待解 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhN3BsWm9UY2N0aUpuYnF6bFFYdGQ5Q0FlUV9Nd0FrZTJlM0JfSmFFaEN4dzRjZWpfaHoweDFfUE5rRDBnLVlpc3ByZkYybWhSVVkyYzZiNElCLS14SnV0Q213?oc=5",
-      "source": "证券之星",
-      "category": "竞品",
-      "published": "2026-11-25",
-      "body_snippet": "多空辩论更新：奥尼电子算力收入10.32亿元成第一主营，利润与现金流背离待解 证券之星",
-      "_query_boost": 15,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "多空辩论更新：奥尼电子算力收入10.32亿元成第一主营，利润与现金流背离待解 - 证券之星 多空辩论更新：奥尼电子算力收入10.32亿元成第一主营，利润与现金流",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-014",
-      "title": "从卖卡到卖Token：国产算力的商业模式正在被重写 - 证券市场周刊",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vOEl2bVdaaVJTTlowWXpkbVpEN3hIUEFfcy16eEpiVFRWWjVmcWJSVkxybDdFb0F5RHd4YTJ4b3FQVG5SRVkyU0dZcHRlM3B3TDhjSlJxWTlIUHZweTFJLS01cVo?oc=5",
-      "source": "证券市场周刊",
-      "category": "竞品",
-      "published": "2026-11-24",
-      "body_snippet": "从卖卡到卖Token：国产算力的商业模式正在被重写 证券市场周刊",
-      "_query_boost": 15,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "从卖卡到卖Token：国产算力的商业模式正在被重写 - 证券市场周刊 从卖卡到卖Token：国产算力的商业模式正在被重写 证券市场周刊",
-      "ppio_signal": null,
-      "_classified_by": "rule"
-    },
-    {
-      "id": "raw-015",
-      "title": "中国消费者AI算力服务需求快增 官方将健全AI词元标准规范 - 联合早报",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8wdGRkZEY2eUx3bHNiRjZKcDBEOURLNGtCZzdUY0hkdGQtZ3NHZGhZWjQ5M3B5UkFjN1NSbTludDg4RW91QVJEcXVFNkp6Rm1yXzFrSTdTMnNFZXJERU1sUS0yWXBFOXcwZGNF?oc=5",
-      "source": "联合早报",
-      "category": "海外",
-      "published": "2026-11-22",
-      "body_snippet": "中国消费者AI算力服务需求快增 官方将健全AI词元标准规范 联合早报",
-      "_query_boost": 0,
-      "lane": "silent",
-      "signals": [
-        "🔬"
-      ],
-      "is_deep_read": false,
-      "compass_triggered": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "summary_cn": "中国消费者AI算力服务需求快增 官方将健全AI词元标准规范 - 联合早报 中国消费者AI算力服务需求快增 官方将健全AI词元标准规范 联合早报",
+      "summary_cn": "全球AI创新治理｜OECD：人工智能算力保障的政策实践 - 复旦发展研究院 全球AI创新治理｜OECD：人工智能算力保障的政策实践 复旦发展研究院",
       "ppio_signal": null,
       "_classified_by": "rule"
     }
