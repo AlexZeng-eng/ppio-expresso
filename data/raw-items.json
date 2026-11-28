@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-27T09:02:27.572Z",
-  "week": "2026-W48",
+  "generated_at": "2026-11-28T08:24:42.916Z",
+  "week": "2026-W49",
   "date_range": {
-    "from": "2026-11-20",
-    "to": "2026-11-27"
+    "from": "2026-11-21",
+    "to": "2026-11-28"
   },
   "fetch_method": "live",
   "item_count": 15,
@@ -23,12 +23,32 @@
       "title": "哈工程召开学习贯彻习近平总书记视察学校重要讲话重要指示精神暨教育科技人才一体化发展座谈会",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/bsdt/art/2026/art_459eb6075e524f348527459c5aa15fc5.html",
       "source": "工信部-新闻",
-      "published": "2026-11-27",
+      "published": "2026-11-28",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-003",
+      "title": "字节跳动领投云脉芯联B+轮融资，加码国产Scale-Out互联芯片与算力降本 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80MFVHNERfaEphbjlLM2hWUzU2Z0p2ZFMzclZUb0RLNEJ2a0dwRklnLXluNUN0bWhtZEFsZGRrZGdiRGdmM2FZTVkxQ0N4VVZweU55aQ?oc=5",
+      "source": "虎嗅网",
+      "category": "竞品",
+      "published": "2026-11-24",
+      "body_snippet": "字节跳动领投云脉芯联B+轮融资，加码国产Scale-Out互联芯片与算力降本 虎嗅网",
+      "_query_boost": 15
+    },
+    {
+      "id": "raw-004",
+      "title": "携手构建公正合理的全球人工智能治理体系 - 求是",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9scGZRZmpHVWVnczhZRE5QWWVyU2gwQXhxM3BaTkU1SVVia1NnSWJtUEVKTEJTQUJpWUVPY1JCck1NLWxkOFZ6Rm5HbVgtdmpEcXQ1Y2lsYnRwN0Z6dmJuSHZNQ3pVVlFrVTNGRFYxSXYxWlhlaU1tMzhmQ2k?oc=5",
+      "source": "求是",
+      "category": "政策",
+      "published": "2026-11-27",
+      "body_snippet": "携手构建公正合理的全球人工智能治理体系 求是",
+      "_query_boost": 50
+    },
+    {
+      "id": "raw-005",
       "title": "印太纵览 - 台湾学者张昱谦（Kenny Chang）解读英伟达风波：美国能否堵住中国获取先进AI算力的渠道？ - RFI",
       "url": "https://news.google.com/rss/articles/CBMioARBVV95cUxPcGFTTUFhLW5VSC1HUHVWUDBpSGdpTGpXRGV5VllsTlhyeUt6MFFwdEVoQm5Icl8zNS02eUs2RzVCR2RmeTFEOXlIbW5JOUY0cUthTExSbHlUcE9nNW45UUFYLV9ta1JFUEhFaG1fODBDYUVKQTZvdWZya0JEbWJiSlFtSEMtSDFqZHVOQm03MTZsTzNkaGMyeWJRSVFfNE5CcmxCX3ltLTZxbExwd0NHY1hwYk13NGd6b2Q5Z3ExZDhhX3ZXdTBfMkpJclZmYUhVMmlrLW00NERHd2hxX0pzZDJRTjZvRkZZYl8ydm9jNTdWM1NZRGNkbUpZQlNiQ29XX1NRMVU0UUtrYlF0ZWxiaE1SOE9YUy1uOUtwd04yTW4zR0toaDNMc2FQdS1ZWlpZaEI4RDZKeEJCd1ExT1V2SDd1dW9HOW5vV0VYbVlnT2x5UFV5TzQzbXJCQWVFMzNDNGVPQ2tLbmg0dFEzbUlZNnRCNmRfTk1CcnJfUDhsc0E2dU1Qak9NbVJFc0ROUUNHWVhFUEltUWFWeDhYeF9CaVhMbE5wcUtZaV83WnE2ajRpUTVBWXpoNWxkMUhDYTl1SjRvbWNrU0NQQVNRUkxWaTRVcjBWc0VSNHl5MHVYdGtYc05LLVVqa1Rrd2VHLTVFUmEwV3F1bFF3cWFzTjZuQ3dScVdlQlhxOEdxUGdGNVdFbmRrWlR6d3F4NDJ0bzAt?oc=5",
       "source": "RFI",
@@ -38,37 +58,27 @@
       "_query_boost": 0
     },
     {
-      "id": "raw-004",
-      "title": "专段提出发展人工智能服务贸易新业态、推动数据跨境高效便利安全流动等任务举措– 智慧城市行业分析 - 智慧城市行业分析",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQV04xRktOTmFFUmoxQnowNm5QRUVpQXVaSE01QmRHNGlKZTBxcHpmMUtMTU9uSHNLUzlkVGNRZzFndUdqT2g5ZVZ5UmRpN1hGeW1WZ2dfX0dvSFJFRFMxUGdhYjg1OVVMT3ZqVGp3blJZTEtSQWt2QTR1dWRPa1paNXRZM1pOQzMwT192NjY4QzlwRU9SWU40STUzOGcySzRWU2R3d0prdmowMEMxRlNBRFQzUFBIeWdoZjVzcGtkTG1Wdm9wbmlMNUpxTzdIUkFXaTRPQ0M1VGtFRWZlTnh4Z1BtSWVGSUtYb0E?oc=5",
-      "source": "智慧城市行业分析",
-      "category": "政策",
-      "published": "2026-11-27",
-      "body_snippet": "专段提出发展人工智能服务贸易新业态、推动数据跨境高效便利安全流动等任务举措– 智慧城市行业分析 智慧城市行业分析",
-      "_query_boost": 25
-    },
-    {
-      "id": "raw-005",
-      "title": "港股公告精选｜中教控股上财年营收超76亿元 微盟集团拟加大AI算力及云服务投入 港美股资讯 - 华盛通",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBSQjFnSThLMGx4NEtMWEpZM1V3WFFqeEtJdlQ3ak5JZnBEcUg0eW0yTXlnaWswVDBOWHR1MTNwNEtzbkxSMzlmRnFNSUJQQVdLMU41WV9WX0xKSnl5RUNrSXZB?oc=5",
-      "source": "华盛通",
-      "category": "政策",
-      "published": "2026-11-26",
-      "body_snippet": "港股公告精选｜中教控股上财年营收超76亿元 微盟集团拟加大AI算力及云服务投入 港美股资讯 华盛通",
-      "_query_boost": 20
-    },
-    {
       "id": "raw-006",
-      "title": "英伟达据报削减中国消费级与游戏 GPU 供应，四季度或再减 20%-30% - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5TemJwQXJBX2wyUHRfWlAteWl1eWxKUnRrSE5CY1hYcU80WVB5NXZBdzcxU1ZhVnVjUVQ4TnV4SlJRV2ZFUUdrYm5IcnZQbHJEaFh4bUVDM0xoc085?oc=5",
-      "source": "CryptoRank",
-      "category": "技术",
+      "title": "增人手查走私 出新规限算力 美封堵中企获取先进晶片与算力渠道 - 早晨报",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92Y3VxalpxU2NRdmVqcllkS2xjenZFd3JUY1hnRDhKZnluV0E0dS1DcGFrb1VnYWZCZmlBM2tWRU5DMkY1azRUREVPVHp5NW1Ea1pSTk5Xc3lCSFZKZUZTQ0w5RWpYX2pyaFA3SA?oc=5",
+      "source": "早晨报",
+      "category": "政策",
       "published": "2026-11-27",
-      "body_snippet": "英伟达据报削减中国消费级与游戏 GPU 供应，四季度或再减 20%-30% CryptoRank",
-      "_query_boost": 20
+      "body_snippet": "增人手查走私 出新规限算力 美封堵中企获取先进晶片与算力渠道 早晨报",
+      "_query_boost": 30
     },
     {
       "id": "raw-007",
+      "title": "英伟达先进晶片安装在与黄仁勋外遇对象有关联的中国数据中心 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zOVF0emxaOWExNEY3dTNEbkJqc1h1UVU3YjAxTU9YUzIydHlkN1BfanJVYTFNUHNkMVhJT1FOR2JkdTVKWGU1WnUydUVVRjVaTXVZb1VDTUpZS0U3bm5RYnRzZ2FwenRIYjkw?oc=5",
+      "source": "联合早报",
+      "category": "海外",
+      "published": "2026-11-28",
+      "body_snippet": "英伟达先进晶片安装在与黄仁勋外遇对象有关联的中国数据中心 联合早报",
+      "_query_boost": 0
+    },
+    {
+      "id": "raw-008",
       "title": "上海市商务委员会 - 上海浦东",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iUjI5TjFSSmtNWHRyeTZWTFltWWlxdEdwY2JmbWlxVnR6c2VpQjl3c1pncGp5RGFCU1NjR3dQTm5sOEVMNUJUNURFNWxIcWI3UWhvTmZIWERBOHdxbV82M2l1M1R3bDRnQ1B2UzZoQTA?oc=5",
       "source": "上海浦东",
@@ -78,24 +88,14 @@
       "_query_boost": 25
     },
     {
-      "id": "raw-008",
-      "title": "阶跃星辰：一家AI公司找答案的三年 - 潮起网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5oUHVhd2ZDRXo3S2N6VlJVdTFxZGdJemlRWWxoS0M5N0E3MDBOVUliLVpqZ3Z5eW80VjJMZ25WbXBMNFFmOUNWaWVHMHRQTDVyWkY1T01hS1U0REdqZnpsT29IVQ?oc=5",
-      "source": "潮起网",
-      "category": "竞品",
-      "published": "2026-11-26",
-      "body_snippet": "阶跃星辰：一家AI公司找答案的三年 潮起网",
-      "_query_boost": 25
-    },
-    {
       "id": "raw-009",
-      "title": "英伟达「优选级」伙伴竟是中资公司！CEO毕业于中国军校 - https://haiwaiwai.com/",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1lczRDTGFrTVpNUU5MV0VQTnRCZVl0T2Z4UjFZc1RjSEx2SjJmZXJpR3hfWWdpYm85R1Z1WUROMHByc1dzTzZTbA?oc=5",
-      "source": "https://haiwaiwai.com/",
-      "category": "海外",
-      "published": "2026-11-26",
-      "body_snippet": "英伟达「优选级」伙伴竟是中资公司！CEO毕业于中国军校 https://haiwaiwai.com/",
-      "_query_boost": 25
+      "title": "深度求索与智谱AI同日发布勇士系列大模型 “海德日志特色”开启AI新竞局 - 集微网",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA1RXltUzVvVGVOYUhsRzgzUkNDMXJtUG91WVhBQWxJWWpqb3RpaEw4bElxRjdVeDJhTFliMWwybzhEYmFPQWZHZktUNkt3NGhjc1E?oc=5",
+      "source": "集微网",
+      "category": "技术",
+      "published": "2026-11-27",
+      "body_snippet": "深度求索与智谱AI同日发布勇士系列大模型 “海德日志特色”开启AI新竞局 集微网",
+      "_query_boost": 15
     },
     {
       "id": "raw-010",
@@ -119,39 +119,41 @@
     },
     {
       "id": "raw-012",
-      "title": "深入科技前沿开展调研建言 市政协召开专题监督会",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261127/e06e962164034790ab6f92c92bb0d9ed.html",
+      "title": "以数据筑基 以大模型“赋脑” 用智能体“履职” 用智能工厂兑现价值 AI进厂：上海制造业加快智能化",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261128/ed777e53ba944aa7b759a5434b594459.html",
       "source": "上海市政府-动态",
-      "published": "2026-11-27",
+      "published": "2026-11-28",
       "body_snippet": "",
       "category": "技术"
     },
     {
       "id": "raw-013",
-      "title": "G60科创走廊产业协同创新中心 首批共建名单发布",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261127/1dfdb57a0486419a849262856263e506.html",
+      "title": "企业成长每个阶段都有科技保险 今年前三季度上海为科创活动提供风险保障9528亿元 首创集成电路并购保险发布",
+      "url": "https://www.shanghai.gov.cn/nw4411/20261128/27d0c1a3c0f14b1dad7e57161f84c7e4.html",
       "source": "上海市政府-动态",
-      "published": "2026-11-27",
+      "published": "2026-11-28",
       "body_snippet": "",
-      "category": "技术"
+      "category": "资本"
     },
     {
       "id": "raw-014",
-      "title": "沪杭新高铁初步设计获批复 连接多条沿海铁路 将带动杭州湾北岸更紧密地参与长三角产业分工",
-      "url": "https://www.shanghai.gov.cn/nw4411/20261127/62e0b618343543bd8a9c8e14b64e3114.html",
-      "source": "上海市政府-动态",
+      "title": "算力红利直达企业 吉林省内首个全链条AI一站式服务平台正式发布 - 吉林新闻",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfSk1zVl94cVNLX09kZ216RDljWk1pYzZNaU9LZGFGMmpGbnhrMzh1bllMSWwxd3RGQ09Cbkp2aTdhcURmczFyTi1lNFI2c3R0Ti02Z0RQSFQtRjdzMWo1THhzMlRsd01TTTAw?oc=5",
+      "source": "吉林新闻",
+      "category": "监管",
       "published": "2026-11-27",
-      "body_snippet": "",
-      "category": "技术"
+      "body_snippet": "算力红利直达企业 吉林省内首个全链条AI一站式服务平台正式发布 吉林新闻",
+      "_query_boost": 20
     },
     {
       "id": "raw-015",
-      "title": "关于上海市2026年第九批入库科技型中小企业的公告",
-      "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20261127/9ee17f28aa5c474691d6cc791d4591c4.html",
-      "source": "上海市科委",
+      "title": "AI算力基础设施盈利分化加剧，主体与收入性质决定谁能先盈利- 产业链 - 光通信Pro",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBFaFJwSEVkdjJZYmR4SGk3blVFVlhJZGZCY3lnNVlfaDRfNWlCdW9lcTl2LVVCV2MzdUx0Sk9JQ1l3OURTY0xhZUo4VGZoN3hGQWV6VHphaw?oc=5",
+      "source": "光通信Pro",
+      "category": "竞品",
       "published": "2026-11-27",
-      "body_snippet": "",
-      "category": "技术"
+      "body_snippet": "AI算力基础设施盈利分化加剧，主体与收入性质决定谁能先盈利- 产业链 光通信Pro",
+      "_query_boost": 20
     }
   ]
 }
